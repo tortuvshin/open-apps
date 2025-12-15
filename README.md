@@ -151,6 +151,7 @@
 
 ### Personalization
 
+- [Libre PaperWall](https://github.com/SAHILDUDHAL21/libre-PaperWall) - Free WallPaper App with Unlimited Downloads created by [Sahil Dudhal](https://github.com/SAHILDUDHAL21).
 - [Furniture](https://github.com/rajayogan/flutterui-furnitureapp) - Code for Furniture app dashboard created by [Raja Yogan](https://github.com/rajayogan/).
 - [Dashboard](https://github.com/Ivaskuu/dashboard) - Dashboard concept made by [Ivascu Adrian](https://github.com/Ivaskuu/).
 - [Spooky](https://github.com/juniorise/spooky-mb) - First diary with Material 3 design by [Juniorise](https://github.com/juniorise).
@@ -181,6 +182,7 @@
 
 ### Social Network
 
+- [Unoffical LeetCode Client](https://github.com/SAHILDUDHAL21/LeetCode-Unofficial-Mobile-App) - Minimalist LeetCode Mobile Client by [Sahil Dudhal](https://github.com/SAHILDUDHAL21).
 - [Deer](https://github.com/aleksanderwozniak/deer) - Minimalist Todo Planner built using BLoC pattern by [Aleksander Woźniak](https://github.com/aleksanderwozniak).
 - [FlutterGram](https://github.com/mdanics/fluttergram) - Complete Instagram based on Firestore & Google Functions by [MDanics](https://github.com/mdanics).
 - [Flutter Chat App](https://github.com/rohan20/flutter-chat-app) - A one-to-one chat app built on Flutter with firebase authentication and image sharing capability by [Rohan Taneja](https://github.com/rohan20).
@@ -210,6 +212,7 @@
 
 ### Tools
 
+- [Ghost Brower](https://github.com/SAHILDUDHAL21/Ghost-Browser) - Simple Web Browser that does not track any User by [Sahil Dudhal](https://github.com/SAHILDUDHAL21)
 - [Flitter](https://github.com/dart-flitter/flitter) - Glitter app by [Hadrien Lejard](https://twitter.com/HadrienLejard) and [Kevin Segaud](https://twitter.com/kevin_segaud). It uses Redux and Jaguar.
 - [Trovami](https://github.com/Samaritan1011001/Trovami) - A Live location app created in Flutter using Firebase as the backend by [ManojNB](https://github.com/Samaritan1011001)
 - [Wallpaper](https://github.com/bimsina/wallpaper) - Wallpaper App made with Flutter with Dynamic Theming by [Bibek Timsina](https://github.com/bimsina)
@@ -230,6 +233,8 @@
 - [EasyWeather](https://github.com/tejasbadone/EasyWeather) - Displays real-time weather data for your current location and any other location you choose by [Tejas Badone](https://github.com/tejasbadone)
 - [EncrytX](https://github.com/musfique113/EncryptX) - Encrypt and protect your text with ease using advanced ciphers including Caesar, Affine, Playfair, and RSA encryption in this all-in-one Android app by [Musfique](https://github.com/musfique113)
 - [Ejimo](https://github.com/albemala/emoji-picker) - Cross-platform emoji and symbol picker by [albemala](https://github.com/albemala)
+- [Battery Info](https://github.com/SAHILDUDHAL21/Battery-Info) - Battery Health Checker For Android by [Sahil Dudhal](https://github.com/SAHILDUDHAL21)
+  
 
 ### Travel
 
