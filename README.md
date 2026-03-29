@@ -175,6 +175,7 @@
 - [Journapi](https://github.com/ChangJoo-Park/journapi_flutter) - Bullet journal application made with Flutter and GetX. by [ChangJoo Park](https://github.com/ChangJoo-Park)
 - [LibreTrack](https://github.com/proninyaroslav/libretrack) - Private, cross-platform package tracking app by [Yaroslav Pronin](https://github.com/proninyaroslav)
 - [Virlow Flutter Recorder](https://github.com/virlow-voice/virlow-flutter-recorder) - Voice recording and transcription plus it includes TL;DR, Short Hand Notes, and a rich text editor by [Virlow Voice](https://github.com/proninyaroslav](https://github.com/virlow-voice)
+- [MiniWiki](https://github.com/wellsa-ai/miniwiki) - Privacy-first personal wiki with E2E encryption (ChaCha20-Poly1305), 100% offline, wikilinks, FTS5 full-text search by [wellsa-ai](https://github.com/wellsa-ai)
 - [NotePad](https://github.com/sarvesh4396/notepad) - A very simple notepad app with no fancy features to distract you. Just write what you want and tag by [Sarvesh Kumar Dwivedi](https://github.com/sarvesh4396)
 - [Openreads](https://github.com/mateusz-bak/openreads-android) - A privacy oriented books tracker that allows you to keep track of your readings by [mateusz-bak](https://github.com/mateusz-bak).
 - [Only Contacts](https://github.com/Ehtiram-Ullah/Contacts_app) - A contact management app by [Ehtiram Ullah](https://github.com/Ehtiram-Ullah).
