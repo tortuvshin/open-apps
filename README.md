@@ -125,6 +125,7 @@
 
 - [Beer-Me-Up](https://github.com/benoitletondor/Beer-Me-Up) - Beer tracking nicely designed by [Benoit Letondor](https://github.com/benoitletondor).
 - [Food Ordering App](https://github.com/Tarikul711/flutter-food-delivery-app-ui) - Food delivery App UI designed by [Tarikul Islam](https://github.com/tarikul711).
+- [Niyyah](https://niyyah.app) — Calm prayer companion app for Muslims (iOS/Android, Flutter).
 
 ### Media
 
