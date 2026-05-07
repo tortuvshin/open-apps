@@ -88,6 +88,7 @@
 - [HADWIN](https://github.com/brownboycodes/HADWIN) - a prototype of a fund transfer platform by [Nabhodipta Garai](https://github.com/brownboycodes).
 - [MMAS: Money Tracker](https://github.com/floranguyen0/mmas-money-tracker) - An optimized application for daily expense tracking and finance management by [Flora](https://github.com/floranguyen0).
 - [Budgeto](https://github.com/tejasbadone/budgeto) - finance management prototype app with categories such as needs, expenses, and savings and features like autopay, investments, and planning tools by [Tejas Badone](https://github.com/tejasbadone).
+- [BeeCount](https://github.com/TNT-Likely/BeeCount) - Privacy-first cross-platform expense tracker with self-hostable cloud sync (BeeCount Cloud, iCloud, Supabase, WebDAV, S3) and offline-first design by [TNT-Likely](https://github.com/TNT-Likely).
 
 ### Health and Fitness
 
