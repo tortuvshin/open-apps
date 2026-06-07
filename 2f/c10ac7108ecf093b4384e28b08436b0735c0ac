@@ -1,0 +1,25 @@
+docs/SCHEMA.md
+  s_5ef3fbb34ba0d1::t_1d87835e4f393f 57-73,200-242
+src/pages/submit.astro
+  s_5ef3fbb34ba0d1::t_7f96a3df7900a9 17-26,150-170,270-280,298,325-337
+data/taxonomy/distribution-channels.yml
+  s_5ef3fbb34ba0d1::t_b205390259272c 1-43
+scripts/app-schema.mjs
+  s_5ef3fbb34ba0d1::t_f6a00abd065215 71-89,250,314,368
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "2fc10ac7108ecf093b4384e28b08436b0735c0ac",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
