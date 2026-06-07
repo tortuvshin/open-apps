@@ -1,0 +1,24 @@
+.github/workflows/validate-data.yml
+  s_5ef3fbb34ba0d1::t_488f995363d089 1-37
+.github/workflows/cleanup-stale-apps.yml
+  s_5ef3fbb34ba0d1::t_ec0336da21318b 1-34
+.github/workflows/update-apps.yml
+  s_5ef3fbb34ba0d1::t_b0f5b3aff65173 36-39
+  s_5ef3fbb34ba0d1::t_8e4c89a5b148b8 47-48,56,61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "26b0d5e8c67379356c5f2c7580d085b3c863018b",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
