@@ -1,0 +1,27 @@
+scripts/fetch-icons.mjs
+  s_5ef3fbb34ba0d1::t_41e5c36dd9f219 85
+scripts/refresh-apps-activity.mjs
+  s_5ef3fbb34ba0d1::t_e3522c3f4920ce 14,69-149,159-164,169-170,173-175,191-192,195,197
+scripts/sync-github-metadata.mjs
+  s_5ef3fbb34ba0d1::t_042ea276bfc379 43-66,77,82-84,126-128
+scripts/app-schema.mjs
+  s_5ef3fbb34ba0d1::t_e64560ff6820d8 286,288,329
+.github/pull_request_template.md
+  s_5ef3fbb34ba0d1::t_69c3b1888b39bf 13,39-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "b1481cc9e4310c1e413e89cc1cdcf0b128a3219b",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
