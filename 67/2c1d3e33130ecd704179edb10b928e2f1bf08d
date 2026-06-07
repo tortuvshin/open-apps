@@ -1,0 +1,32 @@
+src/pages/submit.astro
+  s_4edea283c052e7::t_4b8bc85c876a57 2,26-28,30,409
+wrangler.jsonc
+  s_4edea283c052e7::t_80e7b4f0e60308 1-4
+src/pages/index.astro
+  s_4edea283c052e7::t_e95066a835e8ba 2,23-26,28,70
+src/pages/apps/index.astro
+  s_4edea283c052e7::t_97560f8c8a38f4 459
+  s_4edea283c052e7::t_72ff538e834a82 2,88-91,93
+src/pages/apps/[slug].astro
+  s_4edea283c052e7::t_32303994252ff8 2,128-130,132,648
+src/pages/about.astro
+  s_4edea283c052e7::t_3b4fe6ee2dfc13 2,72-75,78,432
+src/components/layout/BaseLayout.astro
+  s_4edea283c052e7::t_f2e3b3e2d34961 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "672c1d3e33130ecd704179edb10b928e2f1bf08d",
+  "prompts": {},
+  "sessions": {
+    "s_4edea283c052e7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea22e-ef36-7092-b820-09c1f7ff051b",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
