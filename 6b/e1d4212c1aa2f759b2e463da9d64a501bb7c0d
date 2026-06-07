@@ -1,0 +1,26 @@
+scripts/build-apps-json.test.mjs
+  s_fe98743d06a7fe::t_f598aedf27faa6 184-186,193-198
+scripts/import-react-native-list.mjs
+  s_fe98743d06a7fe::t_40fa9e5c16a9a1 29
+  s_fe98743d06a7fe::t_38410255db248e 18
+.github/workflows/validate-data.yml
+  s_fe98743d06a7fe::t_ac537e2e18506a 41-43
+.gitignore
+  s_fe98743d06a7fe::t_3159cb63d891d6 10,21,28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "6be1d4212c1aa2f759b2e463da9d64a501bb7c0d",
+  "prompts": {},
+  "sessions": {
+    "s_fe98743d06a7fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29a96385-1879-44f1-a9fa-ac283004cc45",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
