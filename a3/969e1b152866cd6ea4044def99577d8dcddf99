@@ -1,0 +1,35 @@
+scripts/sync-github-metadata.mjs
+  s_fe98743d06a7fe::t_46c9ced2a4d6a5 11-14,35,42
+  s_fe98743d06a7fe::t_101626d57a08c1 155-171,175-181
+  s_fe98743d06a7fe::t_f753b6d62e86a3 21
+scripts/refresh-apps-activity.mjs
+  s_fe98743d06a7fe::t_8d1ad974a42aa3 199-229,235-241
+  s_fe98743d06a7fe::t_7273444973b6ae 20-23,53-54,62-63
+scripts/seed-from-github.mjs
+  s_fe98743d06a7fe::t_c3579bbc968d4c 25,28,42-48,50-52
+scripts/build-apps-json.test.mjs
+  s_fe98743d06a7fe::t_01bf1ca1d4cae9 185-189,196-200
+scripts/import-react-native-list.mjs
+  ai_agent 19-21,27,107-110,114
+scripts/_github.mjs
+  s_fe98743d06a7fe::t_5ce7eddebe6a2d 1-108
+scripts/sync-contributors.mjs
+  s_fe98743d06a7fe::t_2d36d468e2cd0d 33,59-63
+  s_fe98743d06a7fe::t_67de2d000a769f 105-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a3969e1b152866cd6ea4044def99577d8dcddf99",
+  "prompts": {},
+  "sessions": {
+    "s_fe98743d06a7fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29a96385-1879-44f1-a9fa-ac283004cc45",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
