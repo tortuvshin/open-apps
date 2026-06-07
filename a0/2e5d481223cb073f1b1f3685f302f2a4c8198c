@@ -1,0 +1,25 @@
+.github/workflows/sync-github-metadata.yml
+  s_5ef3fbb34ba0d1::t_5be082eee3ac91 1-63
+src/pages/submit.astro
+  s_5ef3fbb34ba0d1::t_aac7992b19ece4 171
+scripts/sync-github-metadata.mjs
+  s_5ef3fbb34ba0d1::t_7fac41f4b37e61 1-158
+README.md
+  s_5ef3fbb34ba0d1::t_ca824ed080d531 51,80,82-83,85-86,94-97,103-105,108-109,111-144,147-149,160-162,164-166,173-175,188
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a02e5d481223cb073f1b1f3685f302f2a4c8198c",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
