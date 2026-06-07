@@ -1,0 +1,24 @@
+scripts/app-schema.mjs
+  s_5ef3fbb34ba0d1::t_5ab23238bc7520 1-361
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "740d1eb3c1487b3358870f1ac140a344c0f4cd4b",
+  "prompts": {},
+  "humans": {
+    "h_62cffde5d182b0": {
+      "author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
