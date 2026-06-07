@@ -1,0 +1,27 @@
+src/pages/apps/[slug].astro
+  s_5ef3fbb34ba0d1::t_25004904c8b5d0 86-112,312-423
+scripts/report-cleanup-candidates.mjs
+  s_5ef3fbb34ba0d1::t_58814ef29371c5 1-59
+src/data/apps.ts
+  s_5ef3fbb34ba0d1::t_9b7a9ce83b2375 129-131
+src/pages/submit.astro
+  s_5ef3fbb34ba0d1::t_1b870ff9396c7e 351
+src/data/types.ts
+  s_5ef3fbb34ba0d1::t_29b75d1aa11008 41-81,205-222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "7deb0ffd761e096134fcc13d6186c8effdef4387",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
