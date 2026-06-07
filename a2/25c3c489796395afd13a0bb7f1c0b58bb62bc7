@@ -1,0 +1,28 @@
+src/components/home/DecisionRow.astro
+  s_fe98743d06a7fe::t_537b5f36162237 8,45
+src/pages/apps/[slug].astro
+  s_fe98743d06a7fe::t_d98e608a2e940a 7-8,35-37
+  s_fe98743d06a7fe::t_158306df2243cd 460-464
+src/pages/index.astro
+  s_fe98743d06a7fe::t_a72de0e19bdf12 62
+src/lib/format.ts
+  s_fe98743d06a7fe::t_2ab7cf70173223 1-64
+src/pages/submit.astro
+  s_fe98743d06a7fe::t_5f1dc39e6ba9df 210-212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a225c3c489796395afd13a0bb7f1c0b58bb62bc7",
+  "prompts": {},
+  "sessions": {
+    "s_fe98743d06a7fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29a96385-1879-44f1-a9fa-ac283004cc45",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
