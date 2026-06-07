@@ -1,0 +1,22 @@
+scripts/build-llms-full.mjs
+  s_d2b4d25fd174f1::t_1fef7a79174b56 66-80
+  s_d2b4d25fd174f1::t_6ac3b4cc48f4a8 110
+scripts/build-llms-full.test.mjs
+  s_d2b4d25fd174f1::t_0f2ec7077c1291 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "20e162399bcce8cfe1d0edbeaa73b482b8ea8bea",
+  "prompts": {},
+  "sessions": {
+    "s_d2b4d25fd174f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0e4db57f-97c4-4a21-bf9e-6fb1073c4b28",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
