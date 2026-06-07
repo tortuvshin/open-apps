@@ -1,0 +1,21 @@
+scripts/validate-apps.mjs
+  s_5ef3fbb34ba0d1::t_779459a7fecffc 1-55
+package.json
+  s_5ef3fbb34ba0d1::t_fcf7a750886faf 15-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a32943a5e46e6b1eb68200ad0107a9a949d77df9",
+  "prompts": {},
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
