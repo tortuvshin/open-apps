@@ -3,6 +3,8 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
+import cloudflare from '@astrojs/cloudflare';
+
 // https://astro.build/config
 //
 // Note on `site`: this is the canonical URL the build uses for absolute
@@ -11,10 +13,14 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://open-apps.dev',
   trailingSlash: 'ignore',
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   build: {
     format: 'directory',
   },
+
+  adapter: cloudflare(),
 });

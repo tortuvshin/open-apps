@@ -25,3 +25,9 @@ Thumbs.db
 /art/
 /docs/  # reserved for future design docs; currently empty
 *.log
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example

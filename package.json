@@ -18,14 +18,17 @@
     "build": "pnpm run build:data && astro build",
     "dev": "pnpm run build:data && astro dev",
     "start": "astro dev",
-    "preview": "astro preview",
+    "preview": "pnpm run build && wrangler dev",
     "astro": "astro",
     "check": "astro check",
     "refresh:activity": "node scripts/refresh-apps-activity.mjs",
-    "test": "node --test scripts/*.test.mjs"
+    "test": "node --test scripts/*.test.mjs",
+    "generate-types": "wrangler types",
+    "deploy": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
+    "@astrojs/cloudflare": "^13.6.1",
     "@tailwindcss/vite": "^4.3.0",
     "astro": "^6.4.4",
     "tailwindcss": "^4.3.0",
@@ -34,11 +37,15 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@types/node": "^25.9.2"
+    "@types/node": "^25.9.2",
+    "wrangler": "^4.98.0"
   },
   "pnpm": {
     "overrides": {
       "yaml": "^2.9.0"
     }
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }
