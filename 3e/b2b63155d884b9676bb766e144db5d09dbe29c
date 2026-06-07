@@ -1,0 +1,19 @@
+public/llms.txt
+  s_d2b4d25fd174f1::t_65b7ce86ea74fb 19-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "3eb2b63155d884b9676bb766e144db5d09dbe29c",
+  "prompts": {},
+  "sessions": {
+    "s_d2b4d25fd174f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0e4db57f-97c4-4a21-bf9e-6fb1073c4b28",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
