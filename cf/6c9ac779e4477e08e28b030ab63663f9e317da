@@ -1,0 +1,28 @@
+data/taxonomy/stacks.yml
+  s_5ef3fbb34ba0d1::t_ecc92a1ae3e9ac 1-41
+data/taxonomy/platforms.yml
+  s_5ef3fbb34ba0d1::t_f99ec6946b8459 1-27
+data/taxonomy/categories.yml
+  s_5ef3fbb34ba0d1::t_17c55a942aa33c 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "cf6c9ac779e4477e08e28b030ab63663f9e317da",
+  "prompts": {},
+  "humans": {
+    "h_62cffde5d182b0": {
+      "author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_5ef3fbb34ba0d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1c0-e001-7103-8014-94df3fb3ed39",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
