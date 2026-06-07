@@ -1,0 +1,40 @@
+.github/workflows/validate-data.yml
+  s_0159ddb8551ae3::t_f8200c4fc6c60e 11,31,34,37,40
+  s_0159ddb8551ae3::t_3f298d2ed376b5 24-26
+CONTRIBUTING.md
+  s_0159ddb8551ae3::t_41dfad3da079eb 34,79-84
+  s_0159ddb8551ae3::t_4d898cd79e72c6 90
+.github/pull_request_template.md
+  s_0159ddb8551ae3::t_df83a23ca2c037 41
+.github/workflows/sync-github-metadata.yml
+  s_0159ddb8551ae3::t_d5b475a4bc0078 28-30
+  s_0159ddb8551ae3::t_a9c49e9ed18eea 35,38,46
+.github/workflows/cleanup-stale-apps.yml
+  s_0159ddb8551ae3::t_507625f1f19c87 18-20
+  s_0159ddb8551ae3::t_cd14f77ebae6de 25,28
+pnpm-lock.yaml
+  ai_agent 1-4655
+README.md
+  s_0159ddb8551ae3::t_61e6a64c1ea3d7 167,170-174,181-186,197-199
+package.json
+  s_0159ddb8551ae3::t_4283e00c20c820 8,18-19,30
+.github/workflows/update-apps.yml
+  s_0159ddb8551ae3::t_86b63170c3912e 39,42,51
+  s_0159ddb8551ae3::t_fa9ebf1ada3ede 32-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "5b1ab1fecd8f89a3b199b8363c6cc8965960fb20",
+  "prompts": {},
+  "sessions": {
+    "s_0159ddb8551ae3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea1f8-e4c7-7c12-b068-ef833dfbb60a",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
