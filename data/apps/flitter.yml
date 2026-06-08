@@ -24,29 +24,175 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 86581139
+    node_id: MDEwOlJlcG9zaXRvcnk4NjU4MTEzOQ==
+    name: flitter
     full_name: dart-flitter/flitter
+    private: false
+    owner:
+      login: dart-flitter
+      id: 26767792
+      node_id: MDEyOk9yZ2FuaXphdGlvbjI2NzY3Nzky
+      avatar_url: https://avatars.githubusercontent.com/u/26767792?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/dart-flitter
+      html_url: https://github.com/dart-flitter
+      followers_url: https://api.github.com/users/dart-flitter/followers
+      following_url: https://api.github.com/users/dart-flitter/following{/other_user}
+      gists_url: https://api.github.com/users/dart-flitter/gists{/gist_id}
+      starred_url: https://api.github.com/users/dart-flitter/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/dart-flitter/subscriptions
+      organizations_url: https://api.github.com/users/dart-flitter/orgs
+      repos_url: https://api.github.com/users/dart-flitter/repos
+      events_url: https://api.github.com/users/dart-flitter/events{/privacy}
+      received_events_url: https://api.github.com/users/dart-flitter/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/dart-flitter/flitter
-    description: Glitter app
+    description: null
     fork: false
+    url: https://api.github.com/repos/dart-flitter/flitter
+    forks_url: https://api.github.com/repos/dart-flitter/flitter/forks
+    keys_url: https://api.github.com/repos/dart-flitter/flitter/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/dart-flitter/flitter/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/dart-flitter/flitter/teams
+    hooks_url: https://api.github.com/repos/dart-flitter/flitter/hooks
+    issue_events_url: https://api.github.com/repos/dart-flitter/flitter/issues/events{/number}
+    events_url: https://api.github.com/repos/dart-flitter/flitter/events
+    assignees_url: https://api.github.com/repos/dart-flitter/flitter/assignees{/user}
+    branches_url: https://api.github.com/repos/dart-flitter/flitter/branches{/branch}
+    tags_url: https://api.github.com/repos/dart-flitter/flitter/tags
+    blobs_url: https://api.github.com/repos/dart-flitter/flitter/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/dart-flitter/flitter/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/dart-flitter/flitter/git/refs{/sha}
+    trees_url: https://api.github.com/repos/dart-flitter/flitter/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/dart-flitter/flitter/statuses/{sha}
+    languages_url: https://api.github.com/repos/dart-flitter/flitter/languages
+    stargazers_url: https://api.github.com/repos/dart-flitter/flitter/stargazers
+    contributors_url: https://api.github.com/repos/dart-flitter/flitter/contributors
+    subscribers_url: https://api.github.com/repos/dart-flitter/flitter/subscribers
+    subscription_url: https://api.github.com/repos/dart-flitter/flitter/subscription
+    commits_url: https://api.github.com/repos/dart-flitter/flitter/commits{/sha}
+    git_commits_url: https://api.github.com/repos/dart-flitter/flitter/git/commits{/sha}
+    comments_url: https://api.github.com/repos/dart-flitter/flitter/comments{/number}
+    issue_comment_url: https://api.github.com/repos/dart-flitter/flitter/issues/comments{/number}
+    contents_url: https://api.github.com/repos/dart-flitter/flitter/contents/{+path}
+    compare_url: https://api.github.com/repos/dart-flitter/flitter/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/dart-flitter/flitter/merges
+    archive_url: https://api.github.com/repos/dart-flitter/flitter/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/dart-flitter/flitter/downloads
+    issues_url: https://api.github.com/repos/dart-flitter/flitter/issues{/number}
+    pulls_url: https://api.github.com/repos/dart-flitter/flitter/pulls{/number}
+    milestones_url: https://api.github.com/repos/dart-flitter/flitter/milestones{/number}
+    notifications_url: https://api.github.com/repos/dart-flitter/flitter/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/dart-flitter/flitter/labels{/name}
+    releases_url: https://api.github.com/repos/dart-flitter/flitter/releases{/id}
+    deployments_url: https://api.github.com/repos/dart-flitter/flitter/deployments
+    created_at: 2017-03-29T12:46:34Z
+    updated_at: 2026-03-21T08:19:44Z
+    pushed_at: 2018-03-12T02:17:45Z
+    git_url: git://github.com/dart-flitter/flitter.git
+    ssh_url: git@github.com:dart-flitter/flitter.git
+    clone_url: https://github.com/dart-flitter/flitter.git
+    svn_url: https://github.com/dart-flitter/flitter
+    homepage: null
+    size: 1848
+    stargazers_count: 182
+    watchers_count: 182
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 39
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 11
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
     visibility: public
-    stargazers_count: 182
-    forks_count: 39
-    pushed_at: 2018-03-11T12:45:28Z
-    language: Dart
-    license:
-      spdx_id: null
-      key: null
+    forks: 39
+    open_issues: 11
+    watchers: 182
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: dart-flitter
+      id: 26767792
+      node_id: MDEyOk9yZ2FuaXphdGlvbjI2NzY3Nzky
+      avatar_url: https://avatars.githubusercontent.com/u/26767792?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/dart-flitter
+      html_url: https://github.com/dart-flitter
+      followers_url: https://api.github.com/users/dart-flitter/followers
+      following_url: https://api.github.com/users/dart-flitter/following{/other_user}
+      gists_url: https://api.github.com/users/dart-flitter/gists{/gist_id}
+      starred_url: https://api.github.com/users/dart-flitter/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/dart-flitter/subscriptions
+      organizations_url: https://api.github.com/users/dart-flitter/orgs
+      repos_url: https://api.github.com/users/dart-flitter/repos
+      events_url: https://api.github.com/users/dart-flitter/events{/privacy}
+      received_events_url: https://api.github.com/users/dart-flitter/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 39
+    subscribers_count: 16
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 136
+    openPullRequests: 1
+    contributorsKnown: 6
   sync:
-    syncedAt: 2026-06-07T15:24:20.116Z
+    syncedAt: 2026-06-08T08:39:29.446Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 83529
+    Objective-C: 1736
+    Java: 1451
+    Ruby: 1020
+    HTML: 205
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: 128A0C
+      description: null
 health:
   status: stale
   tier: listed

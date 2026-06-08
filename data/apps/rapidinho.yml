@@ -24,38 +24,189 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 147097890
+    node_id: MDEwOlJlcG9zaXRvcnkxNDcwOTc4OTA=
+    name: rapidinho
     full_name: gdgluanda/rapidinho
+    private: false
+    owner:
+      login: gdgluanda
+      id: 37897110
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM3ODk3MTEw
+      avatar_url: https://avatars.githubusercontent.com/u/37897110?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/gdgluanda
+      html_url: https://github.com/gdgluanda
+      followers_url: https://api.github.com/users/gdgluanda/followers
+      following_url: https://api.github.com/users/gdgluanda/following{/other_user}
+      gists_url: https://api.github.com/users/gdgluanda/gists{/gist_id}
+      starred_url: https://api.github.com/users/gdgluanda/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/gdgluanda/subscriptions
+      organizations_url: https://api.github.com/users/gdgluanda/orgs
+      repos_url: https://api.github.com/users/gdgluanda/repos
+      events_url: https://api.github.com/users/gdgluanda/events{/privacy}
+      received_events_url: https://api.github.com/users/gdgluanda/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/gdgluanda/rapidinho
-    description: Unofficial delivery app for Rapidinho made
+    description: Unofficial delivery app for Rapidinho made with Flutter
     fork: false
+    url: https://api.github.com/repos/gdgluanda/rapidinho
+    forks_url: https://api.github.com/repos/gdgluanda/rapidinho/forks
+    keys_url: https://api.github.com/repos/gdgluanda/rapidinho/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/gdgluanda/rapidinho/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/gdgluanda/rapidinho/teams
+    hooks_url: https://api.github.com/repos/gdgluanda/rapidinho/hooks
+    issue_events_url: https://api.github.com/repos/gdgluanda/rapidinho/issues/events{/number}
+    events_url: https://api.github.com/repos/gdgluanda/rapidinho/events
+    assignees_url: https://api.github.com/repos/gdgluanda/rapidinho/assignees{/user}
+    branches_url: https://api.github.com/repos/gdgluanda/rapidinho/branches{/branch}
+    tags_url: https://api.github.com/repos/gdgluanda/rapidinho/tags
+    blobs_url: https://api.github.com/repos/gdgluanda/rapidinho/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/gdgluanda/rapidinho/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/gdgluanda/rapidinho/git/refs{/sha}
+    trees_url: https://api.github.com/repos/gdgluanda/rapidinho/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/gdgluanda/rapidinho/statuses/{sha}
+    languages_url: https://api.github.com/repos/gdgluanda/rapidinho/languages
+    stargazers_url: https://api.github.com/repos/gdgluanda/rapidinho/stargazers
+    contributors_url: https://api.github.com/repos/gdgluanda/rapidinho/contributors
+    subscribers_url: https://api.github.com/repos/gdgluanda/rapidinho/subscribers
+    subscription_url: https://api.github.com/repos/gdgluanda/rapidinho/subscription
+    commits_url: https://api.github.com/repos/gdgluanda/rapidinho/commits{/sha}
+    git_commits_url: https://api.github.com/repos/gdgluanda/rapidinho/git/commits{/sha}
+    comments_url: https://api.github.com/repos/gdgluanda/rapidinho/comments{/number}
+    issue_comment_url: https://api.github.com/repos/gdgluanda/rapidinho/issues/comments{/number}
+    contents_url: https://api.github.com/repos/gdgluanda/rapidinho/contents/{+path}
+    compare_url: https://api.github.com/repos/gdgluanda/rapidinho/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/gdgluanda/rapidinho/merges
+    archive_url: https://api.github.com/repos/gdgluanda/rapidinho/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/gdgluanda/rapidinho/downloads
+    issues_url: https://api.github.com/repos/gdgluanda/rapidinho/issues{/number}
+    pulls_url: https://api.github.com/repos/gdgluanda/rapidinho/pulls{/number}
+    milestones_url: https://api.github.com/repos/gdgluanda/rapidinho/milestones{/number}
+    notifications_url: https://api.github.com/repos/gdgluanda/rapidinho/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/gdgluanda/rapidinho/labels{/name}
+    releases_url: https://api.github.com/repos/gdgluanda/rapidinho/releases{/id}
+    deployments_url: https://api.github.com/repos/gdgluanda/rapidinho/deployments
+    created_at: 2018-09-02T15:28:54Z
+    updated_at: 2026-05-27T15:07:45Z
+    pushed_at: 2021-05-29T08:36:22Z
+    git_url: git://github.com/gdgluanda/rapidinho.git
+    ssh_url: git@github.com:gdgluanda/rapidinho.git
+    clone_url: https://github.com/gdgluanda/rapidinho.git
+    svn_url: https://github.com/gdgluanda/rapidinho
+    homepage: ""
+    size: 9120
+    stargazers_count: 198
+    watchers_count: 198
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 77
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 198
-    forks_count: 77
-    pushed_at: 2019-03-21T09:10:54Z
+    open_issues_count: 17
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - ios
       - app
+      - delivery-app
       - design
       - flutter
-      - delivery-app
+      - ios
+    visibility: public
+    forks: 77
+    open_issues: 17
+    watchers: 198
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: gdgluanda
+      id: 37897110
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM3ODk3MTEw
+      avatar_url: https://avatars.githubusercontent.com/u/37897110?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/gdgluanda
+      html_url: https://github.com/gdgluanda
+      followers_url: https://api.github.com/users/gdgluanda/followers
+      following_url: https://api.github.com/users/gdgluanda/following{/other_user}
+      gists_url: https://api.github.com/users/gdgluanda/gists{/gist_id}
+      starred_url: https://api.github.com/users/gdgluanda/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/gdgluanda/subscriptions
+      organizations_url: https://api.github.com/users/gdgluanda/orgs
+      repos_url: https://api.github.com/users/gdgluanda/repos
+      events_url: https://api.github.com/users/gdgluanda/events{/privacy}
+      received_events_url: https://api.github.com/users/gdgluanda/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 77
+    subscribers_count: 14
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 152
+    openPullRequests: 1
+    contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-07T15:24:41.821Z
+    syncedAt: 2026-06-08T08:39:40.077Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 115781
+    Java: 604
+    Swift: 403
+    Kotlin: 330
+    Objective-C: 37
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

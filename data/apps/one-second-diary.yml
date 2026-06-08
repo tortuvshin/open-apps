@@ -24,36 +24,398 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 339199429
+    node_id: MDEwOlJlcG9zaXRvcnkzMzkxOTk0Mjk=
+    name: one_second_diary
     full_name: KyleKun/one_second_diary
+    private: false
+    owner:
+      login: KyleKun
+      id: 36611739
+      node_id: MDQ6VXNlcjM2NjExNzM5
+      avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/KyleKun
+      html_url: https://github.com/KyleKun
+      followers_url: https://api.github.com/users/KyleKun/followers
+      following_url: https://api.github.com/users/KyleKun/following{/other_user}
+      gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+      starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+      organizations_url: https://api.github.com/users/KyleKun/orgs
+      repos_url: https://api.github.com/users/KyleKun/repos
+      events_url: https://api.github.com/users/KyleKun/events{/privacy}
+      received_events_url: https://api.github.com/users/KyleKun/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/KyleKun/one_second_diary
-    description: Minimalist Video Diary app
+    description: Minimalist video diary app.
     fork: false
+    url: https://api.github.com/repos/KyleKun/one_second_diary
+    forks_url: https://api.github.com/repos/KyleKun/one_second_diary/forks
+    keys_url: https://api.github.com/repos/KyleKun/one_second_diary/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/KyleKun/one_second_diary/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/KyleKun/one_second_diary/teams
+    hooks_url: https://api.github.com/repos/KyleKun/one_second_diary/hooks
+    issue_events_url: https://api.github.com/repos/KyleKun/one_second_diary/issues/events{/number}
+    events_url: https://api.github.com/repos/KyleKun/one_second_diary/events
+    assignees_url: https://api.github.com/repos/KyleKun/one_second_diary/assignees{/user}
+    branches_url: https://api.github.com/repos/KyleKun/one_second_diary/branches{/branch}
+    tags_url: https://api.github.com/repos/KyleKun/one_second_diary/tags
+    blobs_url: https://api.github.com/repos/KyleKun/one_second_diary/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/KyleKun/one_second_diary/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/KyleKun/one_second_diary/git/refs{/sha}
+    trees_url: https://api.github.com/repos/KyleKun/one_second_diary/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/KyleKun/one_second_diary/statuses/{sha}
+    languages_url: https://api.github.com/repos/KyleKun/one_second_diary/languages
+    stargazers_url: https://api.github.com/repos/KyleKun/one_second_diary/stargazers
+    contributors_url: https://api.github.com/repos/KyleKun/one_second_diary/contributors
+    subscribers_url: https://api.github.com/repos/KyleKun/one_second_diary/subscribers
+    subscription_url: https://api.github.com/repos/KyleKun/one_second_diary/subscription
+    commits_url: https://api.github.com/repos/KyleKun/one_second_diary/commits{/sha}
+    git_commits_url: https://api.github.com/repos/KyleKun/one_second_diary/git/commits{/sha}
+    comments_url: https://api.github.com/repos/KyleKun/one_second_diary/comments{/number}
+    issue_comment_url: https://api.github.com/repos/KyleKun/one_second_diary/issues/comments{/number}
+    contents_url: https://api.github.com/repos/KyleKun/one_second_diary/contents/{+path}
+    compare_url: https://api.github.com/repos/KyleKun/one_second_diary/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/KyleKun/one_second_diary/merges
+    archive_url: https://api.github.com/repos/KyleKun/one_second_diary/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/KyleKun/one_second_diary/downloads
+    issues_url: https://api.github.com/repos/KyleKun/one_second_diary/issues{/number}
+    pulls_url: https://api.github.com/repos/KyleKun/one_second_diary/pulls{/number}
+    milestones_url: https://api.github.com/repos/KyleKun/one_second_diary/milestones{/number}
+    notifications_url: https://api.github.com/repos/KyleKun/one_second_diary/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/KyleKun/one_second_diary/labels{/name}
+    releases_url: https://api.github.com/repos/KyleKun/one_second_diary/releases{/id}
+    deployments_url: https://api.github.com/repos/KyleKun/one_second_diary/deployments
+    created_at: 2021-02-15T20:33:36Z
+    updated_at: 2026-05-15T06:10:50Z
+    pushed_at: 2024-02-09T11:50:37Z
+    git_url: git://github.com/KyleKun/one_second_diary.git
+    ssh_url: git@github.com:KyleKun/one_second_diary.git
+    clone_url: https://github.com/KyleKun/one_second_diary.git
+    svn_url: https://github.com/KyleKun/one_second_diary
+    homepage: ""
+    size: 17480
+    stargazers_count: 388
+    watchers_count: 388
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 73
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 388
-    forks_count: 74
-    pushed_at: 2023-12-24T16:15:00Z
+    open_issues_count: 57
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
       - diary
       - flutter
       - flutter-app
+    visibility: public
+    forks: 73
+    open_issues: 57
+    watchers: 388
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 73
+    subscribers_count: 13
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 288
+    openPullRequests: 8
+    contributorsKnown: 9
   sync:
-    syncedAt: 2026-06-07T15:24:38.769Z
+    syncedAt: 2026-06-08T08:39:38.725Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 432242
+    Ruby: 2789
+    Swift: 404
+    Kotlin: 189
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/KyleKun/one_second_diary/releases/120368052
+    assets_url: https://api.github.com/repos/KyleKun/one_second_diary/releases/120368052/assets
+    upload_url: https://uploads.github.com/repos/KyleKun/one_second_diary/releases/120368052/assets{?name,label}
+    html_url: https://github.com/KyleKun/one_second_diary/releases/tag/v1.5.2
+    id: 120368052
+    author:
+      login: KyleKun
+      id: 36611739
+      node_id: MDQ6VXNlcjM2NjExNzM5
+      avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/KyleKun
+      html_url: https://github.com/KyleKun
+      followers_url: https://api.github.com/users/KyleKun/followers
+      following_url: https://api.github.com/users/KyleKun/following{/other_user}
+      gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+      starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+      organizations_url: https://api.github.com/users/KyleKun/orgs
+      repos_url: https://api.github.com/users/KyleKun/repos
+      events_url: https://api.github.com/users/KyleKun/events{/privacy}
+      received_events_url: https://api.github.com/users/KyleKun/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOFDfFxc4HLKu0
+    tag_name: v1.5.2
+    target_commitish: main
+    name: One Second Diary - v1.5.2
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2023-09-06T04:49:32Z
+    updated_at: 2023-09-08T02:34:52Z
+    published_at: 2023-09-08T02:34:52Z
+    assets:
+      - url: https://api.github.com/repos/KyleKun/one_second_diary/releases/assets/125072296
+        id: 125072296
+        node_id: RA_kwDOFDfFxc4HdHOo
+        name: app-arm64-v8a-release.apk
+        label: null
+        uploader:
+          login: KyleKun
+          id: 36611739
+          node_id: MDQ6VXNlcjM2NjExNzM5
+          avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/KyleKun
+          html_url: https://github.com/KyleKun
+          followers_url: https://api.github.com/users/KyleKun/followers
+          following_url: https://api.github.com/users/KyleKun/following{/other_user}
+          gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+          starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+          organizations_url: https://api.github.com/users/KyleKun/orgs
+          repos_url: https://api.github.com/users/KyleKun/repos
+          events_url: https://api.github.com/users/KyleKun/events{/privacy}
+          received_events_url: https://api.github.com/users/KyleKun/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 54912770
+        digest: null
+        download_count: 306
+        created_at: 2023-09-08T02:33:05Z
+        updated_at: 2023-09-08T02:33:08Z
+        browser_download_url: https://github.com/KyleKun/one_second_diary/releases/download/v1.5.2/app-arm64-v8a-release.apk
+      - url: https://api.github.com/repos/KyleKun/one_second_diary/releases/assets/125072303
+        id: 125072303
+        node_id: RA_kwDOFDfFxc4HdHOv
+        name: app-armeabi-v7a-release.apk
+        label: null
+        uploader:
+          login: KyleKun
+          id: 36611739
+          node_id: MDQ6VXNlcjM2NjExNzM5
+          avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/KyleKun
+          html_url: https://github.com/KyleKun
+          followers_url: https://api.github.com/users/KyleKun/followers
+          following_url: https://api.github.com/users/KyleKun/following{/other_user}
+          gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+          starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+          organizations_url: https://api.github.com/users/KyleKun/orgs
+          repos_url: https://api.github.com/users/KyleKun/repos
+          events_url: https://api.github.com/users/KyleKun/events{/privacy}
+          received_events_url: https://api.github.com/users/KyleKun/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 53292359
+        digest: null
+        download_count: 32
+        created_at: 2023-09-08T02:33:08Z
+        updated_at: 2023-09-08T02:33:11Z
+        browser_download_url: https://github.com/KyleKun/one_second_diary/releases/download/v1.5.2/app-armeabi-v7a-release.apk
+      - url: https://api.github.com/repos/KyleKun/one_second_diary/releases/assets/125072279
+        id: 125072279
+        node_id: RA_kwDOFDfFxc4HdHOX
+        name: app-release.apk
+        label: null
+        uploader:
+          login: KyleKun
+          id: 36611739
+          node_id: MDQ6VXNlcjM2NjExNzM5
+          avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/KyleKun
+          html_url: https://github.com/KyleKun
+          followers_url: https://api.github.com/users/KyleKun/followers
+          following_url: https://api.github.com/users/KyleKun/following{/other_user}
+          gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+          starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+          organizations_url: https://api.github.com/users/KyleKun/orgs
+          repos_url: https://api.github.com/users/KyleKun/repos
+          events_url: https://api.github.com/users/KyleKun/events{/privacy}
+          received_events_url: https://api.github.com/users/KyleKun/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 194749511
+        digest: null
+        download_count: 170
+        created_at: 2023-09-08T02:32:51Z
+        updated_at: 2023-09-08T02:33:01Z
+        browser_download_url: https://github.com/KyleKun/one_second_diary/releases/download/v1.5.2/app-release.apk
+      - url: https://api.github.com/repos/KyleKun/one_second_diary/releases/assets/125072294
+        id: 125072294
+        node_id: RA_kwDOFDfFxc4HdHOm
+        name: app-x86_64-release.apk
+        label: null
+        uploader:
+          login: KyleKun
+          id: 36611739
+          node_id: MDQ6VXNlcjM2NjExNzM5
+          avatar_url: https://avatars.githubusercontent.com/u/36611739?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/KyleKun
+          html_url: https://github.com/KyleKun
+          followers_url: https://api.github.com/users/KyleKun/followers
+          following_url: https://api.github.com/users/KyleKun/following{/other_user}
+          gists_url: https://api.github.com/users/KyleKun/gists{/gist_id}
+          starred_url: https://api.github.com/users/KyleKun/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/KyleKun/subscriptions
+          organizations_url: https://api.github.com/users/KyleKun/orgs
+          repos_url: https://api.github.com/users/KyleKun/repos
+          events_url: https://api.github.com/users/KyleKun/events{/privacy}
+          received_events_url: https://api.github.com/users/KyleKun/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 64661875
+        digest: null
+        download_count: 35
+        created_at: 2023-09-08T02:33:02Z
+        updated_at: 2023-09-08T02:33:05Z
+        browser_download_url: https://github.com/KyleKun/one_second_diary/releases/download/v1.5.2/app-x86_64-release.apk
+    tarball_url: https://api.github.com/repos/KyleKun/one_second_diary/tarball/v1.5.2
+    zipball_url: https://api.github.com/repos/KyleKun/one_second_diary/zipball/v1.5.2
+    body: "## About\r
+
+      \r
+
+      This release brings several fixes and improvements requested by the users.\r
+
+      \r
+
+      ## What's Changed\r
+
+      - Added quick trim shortcuts in save video page for a more precise editing\r
+
+      - Added a new \"lock orientation\" button in the recording page\r
+
+      - Added a new experimental file picker with:\r
+
+      \    - Filter support: past dates will show videos recorded on that date on the top\r
+
+      \    - Preview support: videos can be fully watched before being selected\r
+
+      - Added Czech localization\r
+
+      - Added option to change profile in save video page\r
+
+      - Added option to send logs when contacting developer\r
+
+      - Improved video saving speed by processing only the selected part instead of the whole
+      video\r
+
+      - Improved save video page by separating options in tabs\r
+
+      - Improved subtitles text field making it fully visible with longer texts by using a dialog\r
+
+      - Fixed saving video error when locale has special characters\r
+
+      - Fixed saving video error when color parsing fails\r
+
+      - Fixed calendar page resetting to current date after returning from save video page for past
+      dates\r
+
+      - Fixed videoplayer showing some landscape videos rotated in preview\r
+
+      - Fixed videos deletion not working if files were manually moved to app folder\r
+
+      - Fixed movie creation that includes videos from before v1.5\r
+
+      - Fixed movie deletion not updating the movie list correctly\r
+
+      \r
+
+      **Full Changelog**: https://github.com/KyleKun/one_second_diary/compare/v1.5.1...v1.5.2"
+    reactions:
+      url: https://api.github.com/repos/KyleKun/one_second_diary/releases/120368052/reactions
+      total_count: 3
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 2
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: true
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

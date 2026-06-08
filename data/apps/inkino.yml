@@ -24,41 +24,212 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 122394902
+    node_id: MDEwOlJlcG9zaXRvcnkxMjIzOTQ5MDI=
+    name: inKino
     full_name: roughike/inKino
+    private: false
+    owner:
+      login: roughike
+      id: 13744304
+      node_id: MDQ6VXNlcjEzNzQ0MzA0
+      avatar_url: https://avatars.githubusercontent.com/u/13744304?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/roughike
+      html_url: https://github.com/roughike
+      followers_url: https://api.github.com/users/roughike/followers
+      following_url: https://api.github.com/users/roughike/following{/other_user}
+      gists_url: https://api.github.com/users/roughike/gists{/gist_id}
+      starred_url: https://api.github.com/users/roughike/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/roughike/subscriptions
+      organizations_url: https://api.github.com/users/roughike/orgs
+      repos_url: https://api.github.com/users/roughike/repos
+      events_url: https://api.github.com/users/roughike/events{/privacy}
+      received_events_url: https://api.github.com/users/roughike/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/roughike/inKino
-    description: A multiplatform Dart movie app
+    description: A multiplatform Dart movie app with 40% of code sharing between Flutter and the Web.
     fork: false
+    url: https://api.github.com/repos/roughike/inKino
+    forks_url: https://api.github.com/repos/roughike/inKino/forks
+    keys_url: https://api.github.com/repos/roughike/inKino/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/roughike/inKino/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/roughike/inKino/teams
+    hooks_url: https://api.github.com/repos/roughike/inKino/hooks
+    issue_events_url: https://api.github.com/repos/roughike/inKino/issues/events{/number}
+    events_url: https://api.github.com/repos/roughike/inKino/events
+    assignees_url: https://api.github.com/repos/roughike/inKino/assignees{/user}
+    branches_url: https://api.github.com/repos/roughike/inKino/branches{/branch}
+    tags_url: https://api.github.com/repos/roughike/inKino/tags
+    blobs_url: https://api.github.com/repos/roughike/inKino/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/roughike/inKino/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/roughike/inKino/git/refs{/sha}
+    trees_url: https://api.github.com/repos/roughike/inKino/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/roughike/inKino/statuses/{sha}
+    languages_url: https://api.github.com/repos/roughike/inKino/languages
+    stargazers_url: https://api.github.com/repos/roughike/inKino/stargazers
+    contributors_url: https://api.github.com/repos/roughike/inKino/contributors
+    subscribers_url: https://api.github.com/repos/roughike/inKino/subscribers
+    subscription_url: https://api.github.com/repos/roughike/inKino/subscription
+    commits_url: https://api.github.com/repos/roughike/inKino/commits{/sha}
+    git_commits_url: https://api.github.com/repos/roughike/inKino/git/commits{/sha}
+    comments_url: https://api.github.com/repos/roughike/inKino/comments{/number}
+    issue_comment_url: https://api.github.com/repos/roughike/inKino/issues/comments{/number}
+    contents_url: https://api.github.com/repos/roughike/inKino/contents/{+path}
+    compare_url: https://api.github.com/repos/roughike/inKino/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/roughike/inKino/merges
+    archive_url: https://api.github.com/repos/roughike/inKino/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/roughike/inKino/downloads
+    issues_url: https://api.github.com/repos/roughike/inKino/issues{/number}
+    pulls_url: https://api.github.com/repos/roughike/inKino/pulls{/number}
+    milestones_url: https://api.github.com/repos/roughike/inKino/milestones{/number}
+    notifications_url: https://api.github.com/repos/roughike/inKino/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/roughike/inKino/labels{/name}
+    releases_url: https://api.github.com/repos/roughike/inKino/releases{/id}
+    deployments_url: https://api.github.com/repos/roughike/inKino/deployments
+    created_at: 2018-02-21T21:18:47Z
+    updated_at: 2026-06-05T13:56:37Z
+    pushed_at: 2022-03-30T19:35:48Z
+    git_url: git://github.com/roughike/inKino.git
+    ssh_url: git@github.com:roughike/inKino.git
+    clone_url: https://github.com/roughike/inKino.git
+    svn_url: https://github.com/roughike/inKino
+    homepage: https://inkino.app
+    size: 32460
+    stargazers_count: 3681
+    watchers_count: 3681
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 701
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 3681
-    forks_count: 702
-    pushed_at: 2020-09-02T05:24:27Z
+    open_issues_count: 28
     license:
+      key: apache-2.0
+      name: Apache License 2.0
       spdx_id: Apache-2.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/apache-2.0
+      node_id: MDc6TGljZW5zZTI=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - testing
-      - dart
       - angular
-      - cross-platform
-      - multiplatform
-      - flutter
-      - dartlang
       - angulardart
+      - cross-platform
+      - dart
+      - dartlang
+      - flutter
       - flutter-redux
+      - multiplatform
+      - testing
+    visibility: public
+    forks: 701
+    open_issues: 28
+    watchers: 3681
+    default_branch: development
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 701
+    subscribers_count: 105
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 424
+    openPullRequests: 5
+    contributorsKnown: 11
   sync:
-    syncedAt: 2026-06-07T15:24:30.834Z
+    syncedAt: 2026-06-08T08:39:34.692Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 268364
+    CSS: 20584
+    HTML: 12017
+    Ruby: 2653
+    Shell: 1491
+    Objective-C: 750
+    Java: 365
+  latestRelease:
+    url: https://api.github.com/repos/roughike/inKino/releases/13876877
+    assets_url: https://api.github.com/repos/roughike/inKino/releases/13876877/assets
+    upload_url: https://uploads.github.com/repos/roughike/inKino/releases/13876877/assets{?name,label}
+    html_url: https://github.com/roughike/inKino/releases/tag/v2.0.0
+    id: 13876877
+    author:
+      login: roughike
+      id: 13744304
+      node_id: MDQ6VXNlcjEzNzQ0MzA0
+      avatar_url: https://avatars.githubusercontent.com/u/13744304?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/roughike
+      html_url: https://github.com/roughike
+      followers_url: https://api.github.com/users/roughike/followers
+      following_url: https://api.github.com/users/roughike/following{/other_user}
+      gists_url: https://api.github.com/users/roughike/gists{/gist_id}
+      starred_url: https://api.github.com/users/roughike/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/roughike/subscriptions
+      organizations_url: https://api.github.com/users/roughike/orgs
+      repos_url: https://api.github.com/users/roughike/repos
+      events_url: https://api.github.com/users/roughike/events{/privacy}
+      received_events_url: https://api.github.com/users/roughike/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: MDc6UmVsZWFzZTEzODc2ODc3
+    tag_name: v2.0.0
+    target_commitish: master
+    name: v2.0.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2018-11-07T14:37:04Z
+    updated_at: 2018-11-07T14:55:14Z
+    published_at: 2018-11-07T14:38:04Z
+    assets: []
+    tarball_url: https://api.github.com/repos/roughike/inKino/tarball/v2.0.0
+    zipball_url: https://api.github.com/repos/roughike/inKino/zipball/v2.0.0
+    body: "* Design updates\r
+
+      * Code quality and performance improvements\r
+
+      * Progressive web app at https://inkino.app\r
+
+      * Code sharing between web and mobile"
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels: []
 health:
   status: stale
   tier: curated

@@ -26,47 +26,347 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 258191576
+    node_id: MDEwOlJlcG9zaXRvcnkyNTgxOTE1NzY=
+    name: smooth-app
     full_name: openfoodfacts/smooth-app
+    private: false
+    owner:
+      login: openfoodfacts
+      id: 1937790
+      node_id: MDEyOk9yZ2FuaXphdGlvbjE5Mzc3OTA=
+      avatar_url: https://avatars.githubusercontent.com/u/1937790?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/openfoodfacts
+      html_url: https://github.com/openfoodfacts
+      followers_url: https://api.github.com/users/openfoodfacts/followers
+      following_url: https://api.github.com/users/openfoodfacts/following{/other_user}
+      gists_url: https://api.github.com/users/openfoodfacts/gists{/gist_id}
+      starred_url: https://api.github.com/users/openfoodfacts/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/openfoodfacts/subscriptions
+      organizations_url: https://api.github.com/users/openfoodfacts/orgs
+      repos_url: https://api.github.com/users/openfoodfacts/repos
+      events_url: https://api.github.com/users/openfoodfacts/events{/privacy}
+      received_events_url: https://api.github.com/users/openfoodfacts/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/openfoodfacts/smooth-app
-    description: The new mobile app of Open Food Facts, with other 2 million installs, that allows you
-      to understand the health and environmental impact of your food, as well as to contribute new
-      products to the Open Database [Open Food facts](
+    description: 🤳🥫 The new Open Food Facts mobile application for Android and iOS, crafted with
+      Flutter and Dart
     fork: false
+    url: https://api.github.com/repos/openfoodfacts/smooth-app
+    forks_url: https://api.github.com/repos/openfoodfacts/smooth-app/forks
+    keys_url: https://api.github.com/repos/openfoodfacts/smooth-app/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/openfoodfacts/smooth-app/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/openfoodfacts/smooth-app/teams
+    hooks_url: https://api.github.com/repos/openfoodfacts/smooth-app/hooks
+    issue_events_url: https://api.github.com/repos/openfoodfacts/smooth-app/issues/events{/number}
+    events_url: https://api.github.com/repos/openfoodfacts/smooth-app/events
+    assignees_url: https://api.github.com/repos/openfoodfacts/smooth-app/assignees{/user}
+    branches_url: https://api.github.com/repos/openfoodfacts/smooth-app/branches{/branch}
+    tags_url: https://api.github.com/repos/openfoodfacts/smooth-app/tags
+    blobs_url: https://api.github.com/repos/openfoodfacts/smooth-app/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/openfoodfacts/smooth-app/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/openfoodfacts/smooth-app/git/refs{/sha}
+    trees_url: https://api.github.com/repos/openfoodfacts/smooth-app/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/openfoodfacts/smooth-app/statuses/{sha}
+    languages_url: https://api.github.com/repos/openfoodfacts/smooth-app/languages
+    stargazers_url: https://api.github.com/repos/openfoodfacts/smooth-app/stargazers
+    contributors_url: https://api.github.com/repos/openfoodfacts/smooth-app/contributors
+    subscribers_url: https://api.github.com/repos/openfoodfacts/smooth-app/subscribers
+    subscription_url: https://api.github.com/repos/openfoodfacts/smooth-app/subscription
+    commits_url: https://api.github.com/repos/openfoodfacts/smooth-app/commits{/sha}
+    git_commits_url: https://api.github.com/repos/openfoodfacts/smooth-app/git/commits{/sha}
+    comments_url: https://api.github.com/repos/openfoodfacts/smooth-app/comments{/number}
+    issue_comment_url: https://api.github.com/repos/openfoodfacts/smooth-app/issues/comments{/number}
+    contents_url: https://api.github.com/repos/openfoodfacts/smooth-app/contents/{+path}
+    compare_url: https://api.github.com/repos/openfoodfacts/smooth-app/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/openfoodfacts/smooth-app/merges
+    archive_url: https://api.github.com/repos/openfoodfacts/smooth-app/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/openfoodfacts/smooth-app/downloads
+    issues_url: https://api.github.com/repos/openfoodfacts/smooth-app/issues{/number}
+    pulls_url: https://api.github.com/repos/openfoodfacts/smooth-app/pulls{/number}
+    milestones_url: https://api.github.com/repos/openfoodfacts/smooth-app/milestones{/number}
+    notifications_url: https://api.github.com/repos/openfoodfacts/smooth-app/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/openfoodfacts/smooth-app/labels{/name}
+    releases_url: https://api.github.com/repos/openfoodfacts/smooth-app/releases{/id}
+    deployments_url: https://api.github.com/repos/openfoodfacts/smooth-app/deployments
+    created_at: 2020-04-23T12:13:55Z
+    updated_at: 2026-06-08T07:44:22Z
+    pushed_at: 2026-06-07T19:28:11Z
+    git_url: git://github.com/openfoodfacts/smooth-app.git
+    ssh_url: git@github.com:openfoodfacts/smooth-app.git
+    clone_url: https://github.com/openfoodfacts/smooth-app.git
+    svn_url: https://github.com/openfoodfacts/smooth-app
+    homepage: https://world.openfoodfacts.org/open-food-facts-mobile-app?utm_source=off&utf_medium=web&utm_campaign=github-repo
+    size: 307033
+    stargazers_count: 1342
+    watchers_count: 1342
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: true
+    has_discussions: true
+    forks_count: 450
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 1342
-    forks_count: 451
-    pushed_at: 2026-06-05T10:58:16Z
+    open_issues_count: 640
     license:
+      key: apache-2.0
+      name: Apache License 2.0
       spdx_id: Apache-2.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/apache-2.0
+      node_id: MDc6TGljZW5zZTI=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
       - dart
+      - dartlang
+      - flutter
+      - flutter-app
       - food
+      - hacktoberfest
+      - hacktoberfest-accepted
       - ios
       - mobile
       - mobile-app
-      - flutter
       - nutrition
-      - hacktoberfest
-      - dartlang
       - openfoodfacts
-      - flutter-app
-      - hacktoberfest-accepted
+    visibility: public
+    forks: 450
+    open_issues: 640
+    watchers: 1342
+    default_branch: develop
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: openfoodfacts
+      id: 1937790
+      node_id: MDEyOk9yZ2FuaXphdGlvbjE5Mzc3OTA=
+      avatar_url: https://avatars.githubusercontent.com/u/1937790?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/openfoodfacts
+      html_url: https://github.com/openfoodfacts
+      followers_url: https://api.github.com/users/openfoodfacts/followers
+      following_url: https://api.github.com/users/openfoodfacts/following{/other_user}
+      gists_url: https://api.github.com/users/openfoodfacts/gists{/gist_id}
+      starred_url: https://api.github.com/users/openfoodfacts/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/openfoodfacts/subscriptions
+      organizations_url: https://api.github.com/users/openfoodfacts/orgs
+      repos_url: https://api.github.com/users/openfoodfacts/repos
+      events_url: https://api.github.com/users/openfoodfacts/events{/privacy}
+      received_events_url: https://api.github.com/users/openfoodfacts/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 450
+    subscribers_count: 15
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 19
+      - month: 2026-02
+        commits: 19
+      - month: 2026-03
+        commits: 12
+      - month: 2026-04
+        commits: 7
+      - month: 2026-05
+        commits: 25
+      - month: 2026-06
+        commits: 18
+    totalCommitsKnown: 5246
+    openPullRequests: 39
+    contributorsKnown: 116
   sync:
-    syncedAt: 2026-06-07T15:24:39.780Z
+    syncedAt: 2026-06-08T08:39:39.772Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 4028318
+    C++: 22333
+    CMake: 18310
+    Shell: 10323
+    Ruby: 9713
+    Swift: 3531
+    Kotlin: 1848
+    C: 820
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/openfoodfacts/smooth-app/releases/274546099
+    assets_url: https://api.github.com/repos/openfoodfacts/smooth-app/releases/274546099/assets
+    upload_url: https://uploads.github.com/repos/openfoodfacts/smooth-app/releases/274546099/assets{?name,label}
+    html_url: https://github.com/openfoodfacts/smooth-app/releases/tag/v4.23.0
+    id: 274546099
+    author:
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOD2Ow2M4QXT2z
+    tag_name: v4.23.0
+    target_commitish: b907fcdf187f7df185451b37ad70b531b084dec3
+    name: v4.23.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-01-06T14:57:20Z
+    updated_at: 2026-01-06T14:57:21Z
+    published_at: 2026-01-06T14:56:29Z
+    assets:
+      - url: https://api.github.com/repos/openfoodfacts/smooth-app/releases/assets/337001651
+        id: 337001651
+        node_id: RA_kwDOD2Ow2M4UFjyz
+        name: version-code.txt
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: binary/octet-stream
+        state: uploaded
+        size: 5
+        digest: sha256:1e26bcae5bbbc479e731143fcb8d6e7b60045bccca20882e30d4efdc60ed46ed
+        download_count: 207
+        created_at: 2026-01-06T14:57:21Z
+        updated_at: 2026-01-06T14:57:21Z
+        browser_download_url: https://github.com/openfoodfacts/smooth-app/releases/download/v4.23.0/version-code.txt
+    tarball_url: https://api.github.com/repos/openfoodfacts/smooth-app/tarball/v4.23.0
+    zipball_url: https://api.github.com/repos/openfoodfacts/smooth-app/zipball/v4.23.0
+    body: |-
+      ## [4.23.0](https://github.com/openfoodfacts/smooth-app/compare/v4.22.3...v4.23.0) (2026-01-05)
+
+
+      ### 🚀 Features
+
+      * 5681 - Add background tasks for folksonomy updates ([#7231](https://github.com/openfoodfacts/smooth-app/issues/7231)) ([21cae54](https://github.com/openfoodfacts/smooth-app/commit/21cae54bccfd24543abcb728de15553cfb3a8139))
+      * 5861 - Refresh folksonomy with product refresh ([#7253](https://github.com/openfoodfacts/smooth-app/issues/7253)) ([3cdbdbb](https://github.com/openfoodfacts/smooth-app/commit/3cdbdbbadc14f77b03dfe9c42957a842cbb5698c))
+      * 6916 - nutrients for pet food (and human food of course) ([#7309](https://github.com/openfoodfacts/smooth-app/issues/7309)) ([bb1259f](https://github.com/openfoodfacts/smooth-app/commit/bb1259fc1e4c36a9f4f1658b0d036cc74ab03c7f))
+      * Product header improvements (title/brands/qty) ([#7331](https://github.com/openfoodfacts/smooth-app/issues/7331)) ([8dbd26e](https://github.com/openfoodfacts/smooth-app/commit/8dbd26e0acf112faa35a550574ba80e7be517e6c))
+      * Support searching for barcodes from GS1 Sunrise 2027 ([#7266](https://github.com/openfoodfacts/smooth-app/issues/7266)) ([6713134](https://github.com/openfoodfacts/smooth-app/commit/6713134676dea5bdfce2398c8fdcd7b0823e293a))
+
+
+      ### 🐛 Bug Fixes
+
+      * 7093 - taking changed product types into consideration ([#7226](https://github.com/openfoodfacts/smooth-app/issues/7226)) ([46d2143](https://github.com/openfoodfacts/smooth-app/commit/46d2143dd090873dc6b92db1030dafd03f7d5686))
+      * **ci:** Correct directory path for ml_kit pub package-ecosystem ([#7279](https://github.com/openfoodfacts/smooth-app/issues/7279)) ([0f95079](https://github.com/openfoodfacts/smooth-app/commit/0f95079f988b8531352ae47b746562efdac54e82))
+      * Fix pluralization logic in multiselect title ([280cabf](https://github.com/openfoodfacts/smooth-app/commit/280cabfc2298043c104a17d6e982f00bacf74007))
+      * grammar, spelling, and formatting errors in app_en.arb ([#7307](https://github.com/openfoodfacts/smooth-app/issues/7307)) ([ae4d7da](https://github.com/openfoodfacts/smooth-app/commit/ae4d7da733daaceedc92b417cacc63146588b687))
+
+
+      ### 🤖 Automation
+
+      * Add price_proof_page.dart to labeler configuration ([45d1964](https://github.com/openfoodfacts/smooth-app/commit/45d19640334ea6152dede6c381920889d1d4a6c6))
+      * Automate release of Open Beauty Facts, Open Pet Food Facts, and Open Products Facts for Android and iOS ([#7261](https://github.com/openfoodfacts/smooth-app/issues/7261)) ([39ece14](https://github.com/openfoodfacts/smooth-app/commit/39ece14e37f2c638a8242365adb82b116ce8aed8))
+      * Remove disk space cleanup step from workflow ([64e0d67](https://github.com/openfoodfacts/smooth-app/commit/64e0d674e5fff55421e16fb82f30fae1ec5fbedc))
+      * Rename one-check.yml to translation-plural-check.yml ([7dc290f](https://github.com/openfoodfacts/smooth-app/commit/7dc290f6eba82dcb24712fe4467e791b7b353097))
+
+
+      ### 🛠 Miscellaneous
+
+      * **deps:** bump actions/cache from 4 to 5 ([#7273](https://github.com/openfoodfacts/smooth-app/issues/7273)) ([ff879d3](https://github.com/openfoodfacts/smooth-app/commit/ff879d30bc625c152c4b7ca8efb6410ab70b5dab))
+      * **deps:** bump actions/checkout from 5 to 6 ([#7250](https://github.com/openfoodfacts/smooth-app/issues/7250)) ([5093bc1](https://github.com/openfoodfacts/smooth-app/commit/5093bc17958118b13181dca5aae14ed7b6e9ade2))
+      * **deps:** bump actions/setup-java from 5.0.0 to 5.1.0 ([#7265](https://github.com/openfoodfacts/smooth-app/issues/7265)) ([185a7c3](https://github.com/openfoodfacts/smooth-app/commit/185a7c3b4a1a6b5146ca2023ab26645b18818643))
+      * **deps:** bump actions/upload-artifact from 5 to 6 ([#7283](https://github.com/openfoodfacts/smooth-app/issues/7283)) ([07d7f9f](https://github.com/openfoodfacts/smooth-app/commit/07d7f9f6a7de44412d718b261d40c092befee844))
+      * **deps:** bump app_settings in /packages/smooth_app ([#7288](https://github.com/openfoodfacts/smooth-app/issues/7288)) ([4679497](https://github.com/openfoodfacts/smooth-app/commit/467949737b32f5a85054248635c38e164ba318b3))
+      * **deps:** bump aws-sdk-s3 ([#7300](https://github.com/openfoodfacts/smooth-app/issues/7300)) ([d32807e](https://github.com/openfoodfacts/smooth-app/commit/d32807e1d5bc9d140ea5ecfb2ca2e76e4ecb4f52))
+      * **deps:** bump crowdin/github-action from 2.12.0 to 2.13.0 ([#7262](https://github.com/openfoodfacts/smooth-app/issues/7262)) ([39a7202](https://github.com/openfoodfacts/smooth-app/commit/39a72023dca54db069a8be685fd5e7f4cca73a8a))
+      * **deps:** bump device_info_plus in /packages/smooth_app ([#7267](https://github.com/openfoodfacts/smooth-app/issues/7267)) ([9f2d38d](https://github.com/openfoodfacts/smooth-app/commit/9f2d38d60bfc869d6de24f3b35ad25b85dfb4679))
+      * **deps:** bump fastlane in /packages/smooth_app/android ([#7255](https://github.com/openfoodfacts/smooth-app/issues/7255)) ([bf83553](https://github.com/openfoodfacts/smooth-app/commit/bf83553dccf267f2ffb8ec3b6046a622c49b1e27))
+      * **deps:** bump fastlane in /packages/smooth_app/android ([#7284](https://github.com/openfoodfacts/smooth-app/issues/7284)) ([7ad9582](https://github.com/openfoodfacts/smooth-app/commit/7ad9582bb0f0a037a4de3d5f293ddc95b6ec7c0c))
+      * **deps:** bump fastlane in /packages/smooth_app/android ([#7297](https://github.com/openfoodfacts/smooth-app/issues/7297)) ([1ed5dce](https://github.com/openfoodfacts/smooth-app/commit/1ed5dce7cd45b3d1820cf41a5fbedda448488692))
+      * **deps:** bump fastlane in /packages/smooth_app/ios ([#7256](https://github.com/openfoodfacts/smooth-app/issues/7256)) ([020cf5c](https://github.com/openfoodfacts/smooth-app/commit/020cf5c6e5daab219bc1c97f5fdaf8a25dcf980b))
+      * **deps:** bump fastlane in /packages/smooth_app/ios ([#7285](https://github.com/openfoodfacts/smooth-app/issues/7285)) ([2b8df9a](https://github.com/openfoodfacts/smooth-app/commit/2b8df9ad63c318ad3980f47d19d084548f23233b))
+      * **deps:** bump fastlane in /packages/smooth_app/ios ([#7296](https://github.com/openfoodfacts/smooth-app/issues/7296)) ([c81808e](https://github.com/openfoodfacts/smooth-app/commit/c81808e27fe6fd9f7edea36c0d4f985adb7f7d20))
+      * **deps:** bump file_picker in /packages/smooth_app ([#7280](https://github.com/openfoodfacts/smooth-app/issues/7280)) ([5943908](https://github.com/openfoodfacts/smooth-app/commit/59439080ccf112c103c9093b37907654238d3388))
+      * **deps:** bump file_picker in /packages/smooth_app ([#7298](https://github.com/openfoodfacts/smooth-app/issues/7298)) ([7085fee](https://github.com/openfoodfacts/smooth-app/commit/7085fee8a3f27feac4fbc6f92202592a18f66f7b))
+      * **deps:** bump flutter_custom_tabs in /packages/smooth_app ([#7290](https://github.com/openfoodfacts/smooth-app/issues/7290)) ([abe7214](https://github.com/openfoodfacts/smooth-app/commit/abe721408f1e15d6b9099a5923f9c2674612b452))
+      * **deps:** bump flutter_svg in /packages/smooth_app ([#7277](https://github.com/openfoodfacts/smooth-app/issues/7277)) ([0dcaa8e](https://github.com/openfoodfacts/smooth-app/commit/0dcaa8e3816d7db1abfd18abc60aeb36cf8ec6ed))
+      * **deps:** bump go_router in /packages/smooth_app ([#7275](https://github.com/openfoodfacts/smooth-app/issues/7275)) ([789ce5b](https://github.com/openfoodfacts/smooth-app/commit/789ce5bf6a8fc32db2c5ae08866f726d883fd742))
+      * **deps:** bump image from 4.5.4 to 4.6.0 in /packages/smooth_app ([#7278](https://github.com/openfoodfacts/smooth-app/issues/7278)) ([dd32e06](https://github.com/openfoodfacts/smooth-app/commit/dd32e06fa5cc88217a3dde3072257a9256faa971))
+      * **deps:** bump JamesIves/github-pages-deploy-action ([#7272](https://github.com/openfoodfacts/smooth-app/issues/7272)) ([c72a050](https://github.com/openfoodfacts/smooth-app/commit/c72a05053520d632effca0631ddf400573fc98aa))
+      * **deps:** bump mockito from 5.5.1 to 5.6.1 in /packages/smooth_app ([#7251](https://github.com/openfoodfacts/smooth-app/issues/7251)) ([05219e3](https://github.com/openfoodfacts/smooth-app/commit/05219e3ae5ee23eff7ef425fb7d13ffd8feb961f))
+      * **deps:** bump peter-evans/create-pull-request from 7 to 8 ([#7271](https://github.com/openfoodfacts/smooth-app/issues/7271)) ([cfd8ba5](https://github.com/openfoodfacts/smooth-app/commit/cfd8ba53e7e6ef2390f6f0e4608afdab4bd83612))
+      * **deps:** bump rive in /packages/smooth_app ([#7244](https://github.com/openfoodfacts/smooth-app/issues/7244)) ([a78288d](https://github.com/openfoodfacts/smooth-app/commit/a78288d89bc1f1bcd8c6b2ce587795c1e1437a29))
+      * **deps:** bump sentry_flutter in /packages/smooth_app ([#7292](https://github.com/openfoodfacts/smooth-app/issues/7292)) ([e84204d](https://github.com/openfoodfacts/smooth-app/commit/e84204d6e63423eb68809724ce45c376b3a4b715))
+      * **deps:** bump shared_preferences in /packages/smooth_app ([#7276](https://github.com/openfoodfacts/smooth-app/issues/7276)) ([5b1b3d3](https://github.com/openfoodfacts/smooth-app/commit/5b1b3d357aad871c36dad86f68534924580208b6))
+      * **deps:** bump toshimaru/auto-author-assign from 2.1.1 to 3.0.0 ([#7302](https://github.com/openfoodfacts/smooth-app/issues/7302)) ([5176654](https://github.com/openfoodfacts/smooth-app/commit/51766545db3d05f3157bcedd0e3af86162064aaf))
+      * **deps:** bump toshimaru/auto-author-assign from 3.0.0 to 3.0.1 ([#7308](https://github.com/openfoodfacts/smooth-app/issues/7308)) ([3b04c9c](https://github.com/openfoodfacts/smooth-app/commit/3b04c9c358459e9f4831f96b39f1b3167eaa6df4))
+      * **deps:** bump webview_flutter_android in /packages/smooth_app ([#7246](https://github.com/openfoodfacts/smooth-app/issues/7246)) ([6ca7e23](https://github.com/openfoodfacts/smooth-app/commit/6ca7e23b1a490aaf7bec4143b5f21eedde74e3e1))
+      * **deps:** bump webview_flutter_android in /packages/smooth_app ([#7289](https://github.com/openfoodfacts/smooth-app/issues/7289)) ([8c35563](https://github.com/openfoodfacts/smooth-app/commit/8c3556316a9f9fb01141e540cf3bc7c5f674f5bf))
+      * **deps:** bump webview_flutter_wkwebview in /packages/smooth_app ([#7268](https://github.com/openfoodfacts/smooth-app/issues/7268)) ([ad7d75e](https://github.com/openfoodfacts/smooth-app/commit/ad7d75eda23ed98bbaaaa6e81d6cf2aa2757156a))
+      * New translations to review and merge ([#7218](https://github.com/openfoodfacts/smooth-app/issues/7218)) ([aeec95f](https://github.com/openfoodfacts/smooth-app/commit/aeec95ff4f1b69e84f7a603d71c090698288ab79))
+      * New translations to review and merge ([#7236](https://github.com/openfoodfacts/smooth-app/issues/7236)) ([f2f690d](https://github.com/openfoodfacts/smooth-app/commit/f2f690deb89bdb7bbe623e86835ab212a50a2d15))
+      * New translations to review and merge ([#7318](https://github.com/openfoodfacts/smooth-app/issues/7318)) ([50ff151](https://github.com/openfoodfacts/smooth-app/commit/50ff151af4c4268032e708153e1d5249ea42e2ca))
+      * regenerate translation files ([#7235](https://github.com/openfoodfacts/smooth-app/issues/7235)) ([2e8e3ad](https://github.com/openfoodfacts/smooth-app/commit/2e8e3ad4626c9d5bee996092b52174b9be8ecdfe))
+      * regenerate translation files ([#7240](https://github.com/openfoodfacts/smooth-app/issues/7240)) ([0259afa](https://github.com/openfoodfacts/smooth-app/commit/0259afa50ce4f51b93c3947ac060336a7df95ba9))
+      * regenerate translation files ([#7242](https://github.com/openfoodfacts/smooth-app/issues/7242)) ([ffcf354](https://github.com/openfoodfacts/smooth-app/commit/ffcf354b6c9ab4a0bfbca0fe776cf363b77e367a))
+      * regenerate translation files ([#7248](https://github.com/openfoodfacts/smooth-app/issues/7248)) ([f51aa00](https://github.com/openfoodfacts/smooth-app/commit/f51aa00fa832fb0e1a6d0902e55d93e95f7b9cdb))
+      * regenerate translation files ([#7336](https://github.com/openfoodfacts/smooth-app/issues/7336)) ([e94ad1a](https://github.com/openfoodfacts/smooth-app/commit/e94ad1a1d0b20caecb29a66fb01590d18aa9d174))
+    reactions:
+      url: https://api.github.com/repos/openfoodfacts/smooth-app/releases/274546099/reactions
+      total_count: 1
+      "+1": 0
+      "-1": 0
+      laugh: 0
+      hooray: 1
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels: []
 health:
   status: active
   tier: curated

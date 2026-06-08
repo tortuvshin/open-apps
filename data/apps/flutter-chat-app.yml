@@ -24,37 +24,165 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 126211258
+    node_id: MDEwOlJlcG9zaXRvcnkxMjYyMTEyNTg=
+    name: flutter-chat-app
     full_name: rohan20/flutter-chat-app
+    private: false
+    owner:
+      login: rohan20
+      id: 8232573
+      node_id: MDQ6VXNlcjgyMzI1NzM=
+      avatar_url: https://avatars.githubusercontent.com/u/8232573?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/rohan20
+      html_url: https://github.com/rohan20
+      followers_url: https://api.github.com/users/rohan20/followers
+      following_url: https://api.github.com/users/rohan20/following{/other_user}
+      gists_url: https://api.github.com/users/rohan20/gists{/gist_id}
+      starred_url: https://api.github.com/users/rohan20/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/rohan20/subscriptions
+      organizations_url: https://api.github.com/users/rohan20/orgs
+      repos_url: https://api.github.com/users/rohan20/repos
+      events_url: https://api.github.com/users/rohan20/events{/privacy}
+      received_events_url: https://api.github.com/users/rohan20/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/rohan20/flutter-chat-app
-    description: A one-to-one chat app built on Flutter with firebase authentication and image sharing
-      capability
+    description: A chat app built on Flutter with firebase authentication and image sharing capability.
     fork: false
+    url: https://api.github.com/repos/rohan20/flutter-chat-app
+    forks_url: https://api.github.com/repos/rohan20/flutter-chat-app/forks
+    keys_url: https://api.github.com/repos/rohan20/flutter-chat-app/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/rohan20/flutter-chat-app/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/rohan20/flutter-chat-app/teams
+    hooks_url: https://api.github.com/repos/rohan20/flutter-chat-app/hooks
+    issue_events_url: https://api.github.com/repos/rohan20/flutter-chat-app/issues/events{/number}
+    events_url: https://api.github.com/repos/rohan20/flutter-chat-app/events
+    assignees_url: https://api.github.com/repos/rohan20/flutter-chat-app/assignees{/user}
+    branches_url: https://api.github.com/repos/rohan20/flutter-chat-app/branches{/branch}
+    tags_url: https://api.github.com/repos/rohan20/flutter-chat-app/tags
+    blobs_url: https://api.github.com/repos/rohan20/flutter-chat-app/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/rohan20/flutter-chat-app/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/rohan20/flutter-chat-app/git/refs{/sha}
+    trees_url: https://api.github.com/repos/rohan20/flutter-chat-app/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/rohan20/flutter-chat-app/statuses/{sha}
+    languages_url: https://api.github.com/repos/rohan20/flutter-chat-app/languages
+    stargazers_url: https://api.github.com/repos/rohan20/flutter-chat-app/stargazers
+    contributors_url: https://api.github.com/repos/rohan20/flutter-chat-app/contributors
+    subscribers_url: https://api.github.com/repos/rohan20/flutter-chat-app/subscribers
+    subscription_url: https://api.github.com/repos/rohan20/flutter-chat-app/subscription
+    commits_url: https://api.github.com/repos/rohan20/flutter-chat-app/commits{/sha}
+    git_commits_url: https://api.github.com/repos/rohan20/flutter-chat-app/git/commits{/sha}
+    comments_url: https://api.github.com/repos/rohan20/flutter-chat-app/comments{/number}
+    issue_comment_url: https://api.github.com/repos/rohan20/flutter-chat-app/issues/comments{/number}
+    contents_url: https://api.github.com/repos/rohan20/flutter-chat-app/contents/{+path}
+    compare_url: https://api.github.com/repos/rohan20/flutter-chat-app/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/rohan20/flutter-chat-app/merges
+    archive_url: https://api.github.com/repos/rohan20/flutter-chat-app/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/rohan20/flutter-chat-app/downloads
+    issues_url: https://api.github.com/repos/rohan20/flutter-chat-app/issues{/number}
+    pulls_url: https://api.github.com/repos/rohan20/flutter-chat-app/pulls{/number}
+    milestones_url: https://api.github.com/repos/rohan20/flutter-chat-app/milestones{/number}
+    notifications_url: https://api.github.com/repos/rohan20/flutter-chat-app/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/rohan20/flutter-chat-app/labels{/name}
+    releases_url: https://api.github.com/repos/rohan20/flutter-chat-app/releases{/id}
+    deployments_url: https://api.github.com/repos/rohan20/flutter-chat-app/deployments
+    created_at: 2018-03-21T16:48:32Z
+    updated_at: 2026-05-16T20:39:50Z
+    pushed_at: 2021-09-21T07:32:05Z
+    git_url: git://github.com/rohan20/flutter-chat-app.git
+    ssh_url: git@github.com:rohan20/flutter-chat-app.git
+    clone_url: https://github.com/rohan20/flutter-chat-app.git
+    svn_url: https://github.com/rohan20/flutter-chat-app
+    homepage: ""
+    size: 28809
+    stargazers_count: 1149
+    watchers_count: 1149
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 318
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 1149
-    forks_count: 319
-    pushed_at: 2018-06-25T08:46:35Z
+    open_issues_count: 21
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - dart
       - firebase
       - flutter
       - google-flutter
+    visibility: public
+    forks: 318
+    open_issues: 21
+    watchers: 1149
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 318
+    subscribers_count: 46
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 66
+    openPullRequests: 4
+    contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-07T15:24:21.035Z
+    syncedAt: 2026-06-08T08:39:29.943Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 12487
+    Ruby: 2174
+    Objective-C: 750
+    Java: 376
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

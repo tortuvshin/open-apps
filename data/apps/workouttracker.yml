@@ -24,29 +24,161 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 447622405
+    node_id: R_kgDOGq4tBQ
+    name: WorkoutTracker
     full_name: jerichoi224/WorkoutTracker
+    private: false
+    owner:
+      login: jerichoi224
+      id: 4184001
+      node_id: MDQ6VXNlcjQxODQwMDE=
+      avatar_url: https://avatars.githubusercontent.com/u/4184001?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/jerichoi224
+      html_url: https://github.com/jerichoi224
+      followers_url: https://api.github.com/users/jerichoi224/followers
+      following_url: https://api.github.com/users/jerichoi224/following{/other_user}
+      gists_url: https://api.github.com/users/jerichoi224/gists{/gist_id}
+      starred_url: https://api.github.com/users/jerichoi224/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/jerichoi224/subscriptions
+      organizations_url: https://api.github.com/users/jerichoi224/orgs
+      repos_url: https://api.github.com/users/jerichoi224/repos
+      events_url: https://api.github.com/users/jerichoi224/events{/privacy}
+      received_events_url: https://api.github.com/users/jerichoi224/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/jerichoi224/WorkoutTracker
-    description: A Flutter app to help you keep track of workout sessions
+    description: An app to record and track workout routines
     fork: false
+    url: https://api.github.com/repos/jerichoi224/WorkoutTracker
+    forks_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/forks
+    keys_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/teams
+    hooks_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/hooks
+    issue_events_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/issues/events{/number}
+    events_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/events
+    assignees_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/assignees{/user}
+    branches_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/branches{/branch}
+    tags_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/tags
+    blobs_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/git/refs{/sha}
+    trees_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/statuses/{sha}
+    languages_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/languages
+    stargazers_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/stargazers
+    contributors_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/contributors
+    subscribers_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/subscribers
+    subscription_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/subscription
+    commits_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/commits{/sha}
+    git_commits_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/git/commits{/sha}
+    comments_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/comments{/number}
+    issue_comment_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/issues/comments{/number}
+    contents_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/contents/{+path}
+    compare_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/merges
+    archive_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/downloads
+    issues_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/issues{/number}
+    pulls_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/pulls{/number}
+    milestones_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/milestones{/number}
+    notifications_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/labels{/name}
+    releases_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/releases{/id}
+    deployments_url: https://api.github.com/repos/jerichoi224/WorkoutTracker/deployments
+    created_at: 2022-01-13T14:05:54Z
+    updated_at: 2026-04-13T13:25:39Z
+    pushed_at: 2022-11-23T11:01:02Z
+    git_url: git://github.com/jerichoi224/WorkoutTracker.git
+    ssh_url: git@github.com:jerichoi224/WorkoutTracker.git
+    clone_url: https://github.com/jerichoi224/WorkoutTracker.git
+    svn_url: https://github.com/jerichoi224/WorkoutTracker
+    homepage: null
+    size: 2984
+    stargazers_count: 105
+    watchers_count: 105
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 20
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 0
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
     visibility: public
-    stargazers_count: 105
-    forks_count: 20
-    pushed_at: 2022-11-23T11:01:00Z
-    language: Dart
-    license:
-      spdx_id: null
-      key: null
+    forks: 20
+    open_issues: 0
+    watchers: 105
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 20
+    subscribers_count: 5
   activity:
-    monthlyCommits: []
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
     totalCommitsKnown: 55
     openPullRequests: 0
+    contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-07T15:24:52.725Z
+    syncedAt: 2026-06-08T08:39:46.270Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 297318
+    C++: 118263
+    C: 112357
+    HTML: 1540
+    Ruby: 1354
+    Swift: 404
+    Kotlin: 135
+    Shell: 104
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

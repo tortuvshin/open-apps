@@ -24,46 +24,363 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 517636103
+    node_id: R_kgDOHtqABw
+    name: airdash
     full_name: simonbengtsson/airdash
+    private: false
+    owner:
+      login: simonbengtsson
+      id: 3586691
+      node_id: MDQ6VXNlcjM1ODY2OTE=
+      avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/simonbengtsson
+      html_url: https://github.com/simonbengtsson
+      followers_url: https://api.github.com/users/simonbengtsson/followers
+      following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+      gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+      starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+      organizations_url: https://api.github.com/users/simonbengtsson/orgs
+      repos_url: https://api.github.com/users/simonbengtsson/repos
+      events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+      received_events_url: https://api.github.com/users/simonbengtsson/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/simonbengtsson/airdash
-    description: Share files to any device
+    description: File sharing flutter webrtc app enabling sending files to any device from anywhere
     fork: false
+    url: https://api.github.com/repos/simonbengtsson/airdash
+    forks_url: https://api.github.com/repos/simonbengtsson/airdash/forks
+    keys_url: https://api.github.com/repos/simonbengtsson/airdash/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/simonbengtsson/airdash/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/simonbengtsson/airdash/teams
+    hooks_url: https://api.github.com/repos/simonbengtsson/airdash/hooks
+    issue_events_url: https://api.github.com/repos/simonbengtsson/airdash/issues/events{/number}
+    events_url: https://api.github.com/repos/simonbengtsson/airdash/events
+    assignees_url: https://api.github.com/repos/simonbengtsson/airdash/assignees{/user}
+    branches_url: https://api.github.com/repos/simonbengtsson/airdash/branches{/branch}
+    tags_url: https://api.github.com/repos/simonbengtsson/airdash/tags
+    blobs_url: https://api.github.com/repos/simonbengtsson/airdash/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/simonbengtsson/airdash/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/simonbengtsson/airdash/git/refs{/sha}
+    trees_url: https://api.github.com/repos/simonbengtsson/airdash/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/simonbengtsson/airdash/statuses/{sha}
+    languages_url: https://api.github.com/repos/simonbengtsson/airdash/languages
+    stargazers_url: https://api.github.com/repos/simonbengtsson/airdash/stargazers
+    contributors_url: https://api.github.com/repos/simonbengtsson/airdash/contributors
+    subscribers_url: https://api.github.com/repos/simonbengtsson/airdash/subscribers
+    subscription_url: https://api.github.com/repos/simonbengtsson/airdash/subscription
+    commits_url: https://api.github.com/repos/simonbengtsson/airdash/commits{/sha}
+    git_commits_url: https://api.github.com/repos/simonbengtsson/airdash/git/commits{/sha}
+    comments_url: https://api.github.com/repos/simonbengtsson/airdash/comments{/number}
+    issue_comment_url: https://api.github.com/repos/simonbengtsson/airdash/issues/comments{/number}
+    contents_url: https://api.github.com/repos/simonbengtsson/airdash/contents/{+path}
+    compare_url: https://api.github.com/repos/simonbengtsson/airdash/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/simonbengtsson/airdash/merges
+    archive_url: https://api.github.com/repos/simonbengtsson/airdash/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/simonbengtsson/airdash/downloads
+    issues_url: https://api.github.com/repos/simonbengtsson/airdash/issues{/number}
+    pulls_url: https://api.github.com/repos/simonbengtsson/airdash/pulls{/number}
+    milestones_url: https://api.github.com/repos/simonbengtsson/airdash/milestones{/number}
+    notifications_url: https://api.github.com/repos/simonbengtsson/airdash/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/simonbengtsson/airdash/labels{/name}
+    releases_url: https://api.github.com/repos/simonbengtsson/airdash/releases{/id}
+    deployments_url: https://api.github.com/repos/simonbengtsson/airdash/deployments
+    created_at: 2022-07-25T11:24:41Z
+    updated_at: 2026-06-02T22:42:29Z
+    pushed_at: 2026-02-16T14:04:56Z
+    git_url: git://github.com/simonbengtsson/airdash.git
+    ssh_url: git@github.com:simonbengtsson/airdash.git
+    clone_url: https://github.com/simonbengtsson/airdash.git
+    svn_url: https://github.com/simonbengtsson/airdash
+    homepage: https://airdash-project.web.app
+    size: 5202
+    stargazers_count: 667
+    watchers_count: 667
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 126
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 667
-    forks_count: 126
-    pushed_at: 2026-02-16T14:04:56Z
+    open_issues_count: 18
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - webrtc
-      - peer-to-peer
+      - app-store-connect
       - file-sharing
       - file-transfer
-      - flutter
-      - firebase-functions
-      - webrtc-signaling
-      - flutter-apps
       - firebase-firestore
+      - firebase-functions
+      - flutter
       - flutter-app
-      - flutter-desktop
+      - flutter-apps
       - flutter-ci
+      - flutter-desktop
+      - peer-to-peer
       - production-app
-      - app-store-connect
+      - webrtc
+      - webrtc-signaling
+    visibility: public
+    forks: 126
+    open_issues: 18
+    watchers: 667
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 126
+    subscribers_count: 7
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 2
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 255
     openPullRequests: 0
+    contributorsKnown: 5
   sync:
-    syncedAt: 2026-06-07T15:24:11.305Z
+    syncedAt: 2026-06-08T08:39:25.006Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 188660
+    HTML: 27455
+    Swift: 23448
+    C++: 20534
+    CMake: 17111
+    JavaScript: 6152
+    Ruby: 3939
+    Kotlin: 1506
+    C: 820
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/simonbengtsson/airdash/releases/173028859
+    assets_url: https://api.github.com/repos/simonbengtsson/airdash/releases/173028859/assets
+    upload_url: https://uploads.github.com/repos/simonbengtsson/airdash/releases/173028859/assets{?name,label}
+    html_url: https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158
+    id: 173028859
+    author:
+      login: simonbengtsson
+      id: 3586691
+      node_id: MDQ6VXNlcjM1ODY2OTE=
+      avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/simonbengtsson
+      html_url: https://github.com/simonbengtsson
+      followers_url: https://api.github.com/users/simonbengtsson/followers
+      following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+      gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+      starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+      organizations_url: https://api.github.com/users/simonbengtsson/orgs
+      repos_url: https://api.github.com/users/simonbengtsson/repos
+      events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+      received_events_url: https://api.github.com/users/simonbengtsson/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOHtqAB84KUDX7
+    tag_name: v2.0.158
+    target_commitish: main
+    name: v2.0.158
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2024-09-02T17:19:10Z
+    updated_at: 2024-09-10T09:23:24Z
+    published_at: 2024-09-02T11:16:28Z
+    assets:
+      - url: https://api.github.com/repos/simonbengtsson/airdash/releases/assets/189886440
+        id: 189886440
+        node_id: RA_kwDOHtqAB84LUW_o
+        name: airdash.apk
+        label: null
+        uploader:
+          login: simonbengtsson
+          id: 3586691
+          node_id: MDQ6VXNlcjM1ODY2OTE=
+          avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/simonbengtsson
+          html_url: https://github.com/simonbengtsson
+          followers_url: https://api.github.com/users/simonbengtsson/followers
+          following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+          gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+          starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+          organizations_url: https://api.github.com/users/simonbengtsson/orgs
+          repos_url: https://api.github.com/users/simonbengtsson/repos
+          events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+          received_events_url: https://api.github.com/users/simonbengtsson/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 48596622
+        digest: null
+        download_count: 147
+        created_at: 2024-09-02T11:15:55Z
+        updated_at: 2024-09-02T11:16:04Z
+        browser_download_url: https://github.com/simonbengtsson/airdash/releases/download/v2.0.158/airdash.apk
+      - url: https://api.github.com/repos/simonbengtsson/airdash/releases/assets/189886457
+        id: 189886457
+        node_id: RA_kwDOHtqAB84LUW_5
+        name: airdash.dmg
+        label: null
+        uploader:
+          login: simonbengtsson
+          id: 3586691
+          node_id: MDQ6VXNlcjM1ODY2OTE=
+          avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/simonbengtsson
+          html_url: https://github.com/simonbengtsson
+          followers_url: https://api.github.com/users/simonbengtsson/followers
+          following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+          gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+          starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+          organizations_url: https://api.github.com/users/simonbengtsson/orgs
+          repos_url: https://api.github.com/users/simonbengtsson/repos
+          events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+          received_events_url: https://api.github.com/users/simonbengtsson/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 37526878
+        digest: null
+        download_count: 1767
+        created_at: 2024-09-02T11:16:04Z
+        updated_at: 2024-09-02T11:16:10Z
+        browser_download_url: https://github.com/simonbengtsson/airdash/releases/download/v2.0.158/airdash.dmg
+      - url: https://api.github.com/repos/simonbengtsson/airdash/releases/assets/189886529
+        id: 189886529
+        node_id: RA_kwDOHtqAB84LUXBB
+        name: airdash.msix
+        label: null
+        uploader:
+          login: simonbengtsson
+          id: 3586691
+          node_id: MDQ6VXNlcjM1ODY2OTE=
+          avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/simonbengtsson
+          html_url: https://github.com/simonbengtsson
+          followers_url: https://api.github.com/users/simonbengtsson/followers
+          following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+          gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+          starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+          organizations_url: https://api.github.com/users/simonbengtsson/orgs
+          repos_url: https://api.github.com/users/simonbengtsson/repos
+          events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+          received_events_url: https://api.github.com/users/simonbengtsson/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 28098577
+        digest: null
+        download_count: 106
+        created_at: 2024-09-02T11:16:10Z
+        updated_at: 2024-09-02T11:16:16Z
+        browser_download_url: https://github.com/simonbengtsson/airdash/releases/download/v2.0.158/airdash.msix
+      - url: https://api.github.com/repos/simonbengtsson/airdash/releases/assets/189892324
+        id: 189892324
+        node_id: RA_kwDOHtqAB84LUYbk
+        name: airdash.snap
+        label: null
+        uploader:
+          login: simonbengtsson
+          id: 3586691
+          node_id: MDQ6VXNlcjM1ODY2OTE=
+          avatar_url: https://avatars.githubusercontent.com/u/3586691?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/simonbengtsson
+          html_url: https://github.com/simonbengtsson
+          followers_url: https://api.github.com/users/simonbengtsson/followers
+          following_url: https://api.github.com/users/simonbengtsson/following{/other_user}
+          gists_url: https://api.github.com/users/simonbengtsson/gists{/gist_id}
+          starred_url: https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/simonbengtsson/subscriptions
+          organizations_url: https://api.github.com/users/simonbengtsson/orgs
+          repos_url: https://api.github.com/users/simonbengtsson/repos
+          events_url: https://api.github.com/users/simonbengtsson/events{/privacy}
+          received_events_url: https://api.github.com/users/simonbengtsson/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 15908864
+        digest: null
+        download_count: 24
+        created_at: 2024-09-02T12:04:44Z
+        updated_at: 2024-09-02T12:04:47Z
+        browser_download_url: https://github.com/simonbengtsson/airdash/releases/download/v2.0.158/airdash.snap
+    tarball_url: https://api.github.com/repos/simonbengtsson/airdash/tarball/v2.0.158
+    zipball_url: https://api.github.com/repos/simonbengtsson/airdash/zipball/v2.0.158
+    body: "**Full Changelog**: https://github.com/simonbengtsson/airdash/compare/v2.0.156...v2.0.158"
+    reactions:
+      url: https://api.github.com/repos/simonbengtsson/airdash/releases/173028859/reactions
+      total_count: 1
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: active
   tier: curated

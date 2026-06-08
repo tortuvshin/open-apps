@@ -25,41 +25,271 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 29702213
+    node_id: MDEwOlJlcG9zaXRvcnkyOTcwMjIxMw==
+    name: eigen
     full_name: artsy/eigen
+    private: false
+    owner:
+      login: artsy
+      id: 546231
+      node_id: MDEyOk9yZ2FuaXphdGlvbjU0NjIzMQ==
+      avatar_url: https://avatars.githubusercontent.com/u/546231?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/artsy
+      html_url: https://github.com/artsy
+      followers_url: https://api.github.com/users/artsy/followers
+      following_url: https://api.github.com/users/artsy/following{/other_user}
+      gists_url: https://api.github.com/users/artsy/gists{/gist_id}
+      starred_url: https://api.github.com/users/artsy/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/artsy/subscriptions
+      organizations_url: https://api.github.com/users/artsy/orgs
+      repos_url: https://api.github.com/users/artsy/repos
+      events_url: https://api.github.com/users/artsy/events{/privacy}
+      received_events_url: https://api.github.com/users/artsy/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/artsy/eigen
-    description: The mobile app for artsy.net — discover fine art, browse artists and artworks, follow
-      galleries, and bid in auctions from your phone.
+    description: The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.
     fork: false
+    url: https://api.github.com/repos/artsy/eigen
+    forks_url: https://api.github.com/repos/artsy/eigen/forks
+    keys_url: https://api.github.com/repos/artsy/eigen/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/artsy/eigen/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/artsy/eigen/teams
+    hooks_url: https://api.github.com/repos/artsy/eigen/hooks
+    issue_events_url: https://api.github.com/repos/artsy/eigen/issues/events{/number}
+    events_url: https://api.github.com/repos/artsy/eigen/events
+    assignees_url: https://api.github.com/repos/artsy/eigen/assignees{/user}
+    branches_url: https://api.github.com/repos/artsy/eigen/branches{/branch}
+    tags_url: https://api.github.com/repos/artsy/eigen/tags
+    blobs_url: https://api.github.com/repos/artsy/eigen/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/artsy/eigen/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/artsy/eigen/git/refs{/sha}
+    trees_url: https://api.github.com/repos/artsy/eigen/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/artsy/eigen/statuses/{sha}
+    languages_url: https://api.github.com/repos/artsy/eigen/languages
+    stargazers_url: https://api.github.com/repos/artsy/eigen/stargazers
+    contributors_url: https://api.github.com/repos/artsy/eigen/contributors
+    subscribers_url: https://api.github.com/repos/artsy/eigen/subscribers
+    subscription_url: https://api.github.com/repos/artsy/eigen/subscription
+    commits_url: https://api.github.com/repos/artsy/eigen/commits{/sha}
+    git_commits_url: https://api.github.com/repos/artsy/eigen/git/commits{/sha}
+    comments_url: https://api.github.com/repos/artsy/eigen/comments{/number}
+    issue_comment_url: https://api.github.com/repos/artsy/eigen/issues/comments{/number}
+    contents_url: https://api.github.com/repos/artsy/eigen/contents/{+path}
+    compare_url: https://api.github.com/repos/artsy/eigen/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/artsy/eigen/merges
+    archive_url: https://api.github.com/repos/artsy/eigen/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/artsy/eigen/downloads
+    issues_url: https://api.github.com/repos/artsy/eigen/issues{/number}
+    pulls_url: https://api.github.com/repos/artsy/eigen/pulls{/number}
+    milestones_url: https://api.github.com/repos/artsy/eigen/milestones{/number}
+    notifications_url: https://api.github.com/repos/artsy/eigen/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/artsy/eigen/labels{/name}
+    releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
+    deployments_url: https://api.github.com/repos/artsy/eigen/deployments
+    created_at: 2015-01-22T21:52:39Z
+    updated_at: 2026-06-05T08:29:57Z
+    pushed_at: 2026-06-08T06:38:58Z
+    git_url: git://github.com/artsy/eigen.git
+    ssh_url: git@github.com:artsy/eigen.git
+    clone_url: https://github.com/artsy/eigen.git
+    svn_url: https://github.com/artsy/eigen
+    homepage: ""
+    size: 648474
+    stargazers_count: 3772
+    watchers_count: 3772
+    language: TypeScript
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: false
+    has_pages: false
+    has_discussions: false
+    forks_count: 591
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 3772
-    forks_count: 1000
-    pushed_at: 2026-06-05T08:29:52Z
+    open_issues_count: 10
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: TypeScript
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - art
       - android
-      - swift
-      - ios
       - app
-      - react-native
-      - objective-c
       - app-store
+      - art
+      - ios
+      - objective-c
+      - react-native
+      - swift
+    visibility: public
+    forks: 591
+    open_issues: 10
+    watchers: 3772
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: artsy
+      id: 546231
+      node_id: MDEyOk9yZ2FuaXphdGlvbjU0NjIzMQ==
+      avatar_url: https://avatars.githubusercontent.com/u/546231?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/artsy
+      html_url: https://github.com/artsy
+      followers_url: https://api.github.com/users/artsy/followers
+      following_url: https://api.github.com/users/artsy/following{/other_user}
+      gists_url: https://api.github.com/users/artsy/gists{/gist_id}
+      starred_url: https://api.github.com/users/artsy/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/artsy/subscriptions
+      organizations_url: https://api.github.com/users/artsy/orgs
+      repos_url: https://api.github.com/users/artsy/repos
+      events_url: https://api.github.com/users/artsy/events{/privacy}
+      received_events_url: https://api.github.com/users/artsy/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 591
+    subscribers_count: 115
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 1
+      - month: 2026-05
+        commits: 77
+      - month: 2026-06
+        commits: 22
+    totalCommitsKnown: 27903
+    openPullRequests: 8
+    contributorsKnown: 164
   sync:
-    syncedAt: 2026-06-07T15:24:17.804Z
+    syncedAt: 2026-06-08T08:39:28.662Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    TypeScript: 7777507
+    Objective-C: 694758
+    Swift: 479403
+    JavaScript: 74730
+    Ruby: 60356
+    Shell: 55274
+    Kotlin: 32659
+    Objective-C++: 26829
+    Wolfram Language: 7442
+    MATLAB: 4544
+    C: 4501
+    Java: 3347
+    Vim Script: 428
+  latestRelease:
+    url: https://api.github.com/repos/artsy/eigen/releases/334828029
+    assets_url: https://api.github.com/repos/artsy/eigen/releases/334828029/assets
+    upload_url: https://uploads.github.com/repos/artsy/eigen/releases/334828029/assets{?name,label}
+    html_url: https://github.com/artsy/eigen/releases/tag/ios-9.10.0-2026.06.03.15.09-submission
+    id: 334828029
+    author:
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOAcU4Rc4T9RH9
+    tag_name: ios-9.10.0-2026.06.03.15.09-submission
+    target_commitish: main
+    name: v9.10.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-06-05T08:46:48Z
+    updated_at: 2026-06-05T08:53:59Z
+    published_at: 2026-06-05T08:53:59Z
+    assets: []
+    tarball_url: https://api.github.com/repos/artsy/eigen/tarball/ios-9.10.0-2026.06.03.15.09-submission
+    zipball_url: https://api.github.com/repos/artsy/eigen/zipball/ios-9.10.0-2026.06.03.15.09-submission
+    body: |-
+      Check the health of this release in Sentry:
+
+      :apple: [iOS Release details](https://artsynet.sentry.io/explore/releases/ios-9.10.0-2026.06.03.15.09/?environment=production&project=5867225) | :robot: [Android Release details](https://artsynet.sentry.io/explore/releases/android-9.10.0-202606031509/?environment=production&project=5867225)
+
+      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=iOS&primaryRelease=ios-9.10.0-2026.06.03.15.09&project=5867225) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=Android&primaryRelease=android-9.10.0-202606031509&project=5867225)
+      ## What's Changed
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13581
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13583
+      * chore: ensure brew is updated before installing awscli on MacOS by @gkartalis in https://github.com/artsy/eigen/pull/13584
+      * chore: remove clearCache hack by @MounirDhahri in https://github.com/artsy/eigen/pull/13568
+      * chore: simplify status bar changing by @MounirDhahri in https://github.com/artsy/eigen/pull/13299
+      * chore: update expo runtimeVersion to 3a1d0132 by @artsyit in https://github.com/artsy/eigen/pull/13586
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13587
+      * chore: update expo runtimeVersion to 864ec5f9 by @artsyit in https://github.com/artsy/eigen/pull/13585
+      * build(deps): bump protobufjs from 7.5.5 to 7.5.8 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13577
+      * chore: remove getNavigationBarSize by @MounirDhahri in https://github.com/artsy/eigen/pull/13589
+      * chore: update expo runtimeVersion to 7b4c6b32 by @artsyit in https://github.com/artsy/eigen/pull/13590
+      * build(deps): bump ws from 8.18.3 to 8.20.1 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13588
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13591
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13593
+      * fix: allow status bar appearance update by @MounirDhahri in https://github.com/artsy/eigen/pull/13592
+      * chore: update expo runtimeVersion to a655caab by @artsyit in https://github.com/artsy/eigen/pull/13594
+      * build(deps): Bump expo react native and deps to expo 55 by @gkartalis in https://github.com/artsy/eigen/pull/13576
+      * chore: update expo runtimeVersion to 2f77573d by @artsyit in https://github.com/artsy/eigen/pull/13595
+      * chore: prepare for next release by @artsyit in https://github.com/artsy/eigen/pull/13596
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13599
+      * chore: fix hermes engine diff by @gkartalis in https://github.com/artsy/eigen/pull/13597
+      * chore: update expo runtimeVersion to 8831b1c8 by @artsyit in https://github.com/artsy/eigen/pull/13600
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13601
+      * fix: android sourcemap upload with build type support after expo 55 by @gkartalis in https://github.com/artsy/eigen/pull/13604
+      * chore: Revert "refactor(moment deprecation): migrate from moment.js to luxon… by @gkartalis in https://github.com/artsy/eigen/pull/13605
+      * build(deps): bump @tootallnate/once from 2.0.0 to 2.0.1 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13603
+      * fix: navigation bar and status bar color on old android versions by @MounirDhahri in https://github.com/artsy/eigen/pull/13598
+      * chore: update expo runtimeVersion to 230271ce by @artsyit in https://github.com/artsy/eigen/pull/13607
+      * fix(DI-116): show explanation on account linking page by @iskounen in https://github.com/artsy/eigen/pull/13608
+
+
+      **Full Changelog**: https://github.com/artsy/eigen/compare/ios-9.9.0-2026.05.20.12.45-submission...ios-9.10.0-2026.06.03.15.09-submission
+    mentions_count: 5
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels: []
 health:
   status: active
   tier: curated

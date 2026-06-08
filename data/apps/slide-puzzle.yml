@@ -24,31 +24,165 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 154562108
+    node_id: MDEwOlJlcG9zaXRvcnkxNTQ1NjIxMDg=
+    name: slide_puzzle
     full_name: kevmoo/slide_puzzle
+    private: false
+    owner:
+      login: kevmoo
+      id: 17034
+      node_id: MDQ6VXNlcjE3MDM0
+      avatar_url: https://avatars.githubusercontent.com/u/17034?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/kevmoo
+      html_url: https://github.com/kevmoo
+      followers_url: https://api.github.com/users/kevmoo/followers
+      following_url: https://api.github.com/users/kevmoo/following{/other_user}
+      gists_url: https://api.github.com/users/kevmoo/gists{/gist_id}
+      starred_url: https://api.github.com/users/kevmoo/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/kevmoo/subscriptions
+      organizations_url: https://api.github.com/users/kevmoo/orgs
+      repos_url: https://api.github.com/users/kevmoo/repos
+      events_url: https://api.github.com/users/kevmoo/events{/privacy}
+      received_events_url: https://api.github.com/users/kevmoo/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/kevmoo/slide_puzzle
-    description: Classic slide (15) puzzle
+    description: The classic slide (15) puzzle in Dart and Flutter
     fork: false
+    url: https://api.github.com/repos/kevmoo/slide_puzzle
+    forks_url: https://api.github.com/repos/kevmoo/slide_puzzle/forks
+    keys_url: https://api.github.com/repos/kevmoo/slide_puzzle/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/kevmoo/slide_puzzle/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/kevmoo/slide_puzzle/teams
+    hooks_url: https://api.github.com/repos/kevmoo/slide_puzzle/hooks
+    issue_events_url: https://api.github.com/repos/kevmoo/slide_puzzle/issues/events{/number}
+    events_url: https://api.github.com/repos/kevmoo/slide_puzzle/events
+    assignees_url: https://api.github.com/repos/kevmoo/slide_puzzle/assignees{/user}
+    branches_url: https://api.github.com/repos/kevmoo/slide_puzzle/branches{/branch}
+    tags_url: https://api.github.com/repos/kevmoo/slide_puzzle/tags
+    blobs_url: https://api.github.com/repos/kevmoo/slide_puzzle/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/kevmoo/slide_puzzle/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/kevmoo/slide_puzzle/git/refs{/sha}
+    trees_url: https://api.github.com/repos/kevmoo/slide_puzzle/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/kevmoo/slide_puzzle/statuses/{sha}
+    languages_url: https://api.github.com/repos/kevmoo/slide_puzzle/languages
+    stargazers_url: https://api.github.com/repos/kevmoo/slide_puzzle/stargazers
+    contributors_url: https://api.github.com/repos/kevmoo/slide_puzzle/contributors
+    subscribers_url: https://api.github.com/repos/kevmoo/slide_puzzle/subscribers
+    subscription_url: https://api.github.com/repos/kevmoo/slide_puzzle/subscription
+    commits_url: https://api.github.com/repos/kevmoo/slide_puzzle/commits{/sha}
+    git_commits_url: https://api.github.com/repos/kevmoo/slide_puzzle/git/commits{/sha}
+    comments_url: https://api.github.com/repos/kevmoo/slide_puzzle/comments{/number}
+    issue_comment_url: https://api.github.com/repos/kevmoo/slide_puzzle/issues/comments{/number}
+    contents_url: https://api.github.com/repos/kevmoo/slide_puzzle/contents/{+path}
+    compare_url: https://api.github.com/repos/kevmoo/slide_puzzle/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/kevmoo/slide_puzzle/merges
+    archive_url: https://api.github.com/repos/kevmoo/slide_puzzle/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/kevmoo/slide_puzzle/downloads
+    issues_url: https://api.github.com/repos/kevmoo/slide_puzzle/issues{/number}
+    pulls_url: https://api.github.com/repos/kevmoo/slide_puzzle/pulls{/number}
+    milestones_url: https://api.github.com/repos/kevmoo/slide_puzzle/milestones{/number}
+    notifications_url: https://api.github.com/repos/kevmoo/slide_puzzle/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/kevmoo/slide_puzzle/labels{/name}
+    releases_url: https://api.github.com/repos/kevmoo/slide_puzzle/releases{/id}
+    deployments_url: https://api.github.com/repos/kevmoo/slide_puzzle/deployments
+    created_at: 2018-10-24T20:04:22Z
+    updated_at: 2025-11-21T14:20:43Z
+    pushed_at: 2022-02-05T00:08:03Z
+    git_url: git://github.com/kevmoo/slide_puzzle.git
+    ssh_url: git@github.com:kevmoo/slide_puzzle.git
+    clone_url: https://github.com/kevmoo/slide_puzzle.git
+    svn_url: https://github.com/kevmoo/slide_puzzle
+    homepage: null
+    size: 11314
+    stargazers_count: 179
+    watchers_count: 179
+    language: Dart
+    has_issues: true
+    has_projects: false
+    has_downloads: true
+    has_wiki: false
+    has_pages: true
+    has_discussions: false
+    forks_count: 74
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 179
-    forks_count: 74
-    pushed_at: 2022-02-05T00:08:01Z
+    open_issues_count: 2
     license:
+      key: bsd-3-clause
+      name: BSD 3-Clause "New" or "Revised" License
       spdx_id: BSD-3-Clause
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/bsd-3-clause
+      node_id: MDc6TGljZW5zZTU=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
+    visibility: public
+    forks: 74
+    open_issues: 2
+    watchers: 179
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 74
+    subscribers_count: 5
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 163
     openPullRequests: 0
+    contributorsKnown: 5
   sync:
-    syncedAt: 2026-06-07T15:24:43.620Z
+    syncedAt: 2026-06-08T08:39:41.462Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 85547
+    C++: 20886
+    CMake: 15196
+    HTML: 3935
+    C: 1425
+    Swift: 1158
+    Kotlin: 129
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

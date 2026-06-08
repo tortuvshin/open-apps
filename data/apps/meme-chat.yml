@@ -25,30 +25,153 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 83097013
+    node_id: MDEwOlJlcG9zaXRvcnk4MzA5NzAxMw==
+    name: memechat
     full_name: efortuna/memechat
+    private: false
+    owner:
+      login: efortuna
+      id: 2112792
+      node_id: MDQ6VXNlcjIxMTI3OTI=
+      avatar_url: https://avatars.githubusercontent.com/u/2112792?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/efortuna
+      html_url: https://github.com/efortuna
+      followers_url: https://api.github.com/users/efortuna/followers
+      following_url: https://api.github.com/users/efortuna/following{/other_user}
+      gists_url: https://api.github.com/users/efortuna/gists{/gist_id}
+      starred_url: https://api.github.com/users/efortuna/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/efortuna/subscriptions
+      organizations_url: https://api.github.com/users/efortuna/orgs
+      repos_url: https://api.github.com/users/efortuna/repos
+      events_url: https://api.github.com/users/efortuna/events{/privacy}
+      received_events_url: https://api.github.com/users/efortuna/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/efortuna/memechat
-    description: Chat app on Flutter, using Firebase, Google Sign In, and device camera integration by a
-      team of Googlers
+    description: a meme-based chat application
     fork: false
+    url: https://api.github.com/repos/efortuna/memechat
+    forks_url: https://api.github.com/repos/efortuna/memechat/forks
+    keys_url: https://api.github.com/repos/efortuna/memechat/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/efortuna/memechat/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/efortuna/memechat/teams
+    hooks_url: https://api.github.com/repos/efortuna/memechat/hooks
+    issue_events_url: https://api.github.com/repos/efortuna/memechat/issues/events{/number}
+    events_url: https://api.github.com/repos/efortuna/memechat/events
+    assignees_url: https://api.github.com/repos/efortuna/memechat/assignees{/user}
+    branches_url: https://api.github.com/repos/efortuna/memechat/branches{/branch}
+    tags_url: https://api.github.com/repos/efortuna/memechat/tags
+    blobs_url: https://api.github.com/repos/efortuna/memechat/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/efortuna/memechat/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/efortuna/memechat/git/refs{/sha}
+    trees_url: https://api.github.com/repos/efortuna/memechat/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/efortuna/memechat/statuses/{sha}
+    languages_url: https://api.github.com/repos/efortuna/memechat/languages
+    stargazers_url: https://api.github.com/repos/efortuna/memechat/stargazers
+    contributors_url: https://api.github.com/repos/efortuna/memechat/contributors
+    subscribers_url: https://api.github.com/repos/efortuna/memechat/subscribers
+    subscription_url: https://api.github.com/repos/efortuna/memechat/subscription
+    commits_url: https://api.github.com/repos/efortuna/memechat/commits{/sha}
+    git_commits_url: https://api.github.com/repos/efortuna/memechat/git/commits{/sha}
+    comments_url: https://api.github.com/repos/efortuna/memechat/comments{/number}
+    issue_comment_url: https://api.github.com/repos/efortuna/memechat/issues/comments{/number}
+    contents_url: https://api.github.com/repos/efortuna/memechat/contents/{+path}
+    compare_url: https://api.github.com/repos/efortuna/memechat/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/efortuna/memechat/merges
+    archive_url: https://api.github.com/repos/efortuna/memechat/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/efortuna/memechat/downloads
+    issues_url: https://api.github.com/repos/efortuna/memechat/issues{/number}
+    pulls_url: https://api.github.com/repos/efortuna/memechat/pulls{/number}
+    milestones_url: https://api.github.com/repos/efortuna/memechat/milestones{/number}
+    notifications_url: https://api.github.com/repos/efortuna/memechat/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/efortuna/memechat/labels{/name}
+    releases_url: https://api.github.com/repos/efortuna/memechat/releases{/id}
+    deployments_url: https://api.github.com/repos/efortuna/memechat/deployments
+    created_at: 2017-02-25T01:25:46Z
+    updated_at: 2026-04-04T18:04:47Z
+    pushed_at: 2021-02-08T15:53:21Z
+    git_url: git://github.com/efortuna/memechat.git
+    ssh_url: git@github.com:efortuna/memechat.git
+    clone_url: https://github.com/efortuna/memechat.git
+    svn_url: https://github.com/efortuna/memechat
+    homepage: ""
+    size: 55550
+    stargazers_count: 543
+    watchers_count: 543
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 151
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 11
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
     visibility: public
-    stargazers_count: 543
-    forks_count: 151
-    pushed_at: 2019-04-30T04:07:31Z
-    language: Dart
-    license:
-      spdx_id: null
-      key: null
+    forks: 151
+    open_issues: 11
+    watchers: 543
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 151
+    subscribers_count: 30
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 99
+    openPullRequests: 4
+    contributorsKnown: 9
   sync:
-    syncedAt: 2026-06-07T15:24:34.355Z
+    syncedAt: 2026-06-08T08:39:36.723Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 14128
+    Ruby: 1109
+    Objective-C: 663
+    Java: 415
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: 128A0C
+      description: null
 health:
   status: stale
   tier: curated

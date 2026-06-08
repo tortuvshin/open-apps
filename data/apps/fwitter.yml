@@ -25,43 +25,267 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 230049455
+    node_id: MDEwOlJlcG9zaXRvcnkyMzAwNDk0NTU=
+    name: flutter_twitter_clone
     full_name: TheAlphamerc/flutter_twitter_clone
+    private: false
+    owner:
+      login: TheAlphamerc
+      id: 37103237
+      node_id: MDQ6VXNlcjM3MTAzMjM3
+      avatar_url: https://avatars.githubusercontent.com/u/37103237?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/TheAlphamerc
+      html_url: https://github.com/TheAlphamerc
+      followers_url: https://api.github.com/users/TheAlphamerc/followers
+      following_url: https://api.github.com/users/TheAlphamerc/following{/other_user}
+      gists_url: https://api.github.com/users/TheAlphamerc/gists{/gist_id}
+      starred_url: https://api.github.com/users/TheAlphamerc/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/TheAlphamerc/subscriptions
+      organizations_url: https://api.github.com/users/TheAlphamerc/orgs
+      repos_url: https://api.github.com/users/TheAlphamerc/repos
+      events_url: https://api.github.com/users/TheAlphamerc/events{/privacy}
+      received_events_url: https://api.github.com/users/TheAlphamerc/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/TheAlphamerc/flutter_twitter_clone
-    description: Fully functional Twitter clone built in flutter framework using Firebase realtime
+    description: Fully functional Twitter clone built in  flutter framework using Firebase realtime
       database and storage
     fork: false
+    url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone
+    forks_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/forks
+    keys_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/teams
+    hooks_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/hooks
+    issue_events_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/issues/events{/number}
+    events_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/events
+    assignees_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/assignees{/user}
+    branches_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/branches{/branch}
+    tags_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/tags
+    blobs_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/git/refs{/sha}
+    trees_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/statuses/{sha}
+    languages_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/languages
+    stargazers_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/stargazers
+    contributors_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/contributors
+    subscribers_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/subscribers
+    subscription_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/subscription
+    commits_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/commits{/sha}
+    git_commits_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/git/commits{/sha}
+    comments_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/comments{/number}
+    issue_comment_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/issues/comments{/number}
+    contents_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/contents/{+path}
+    compare_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/merges
+    archive_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/downloads
+    issues_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/issues{/number}
+    pulls_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/pulls{/number}
+    milestones_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/milestones{/number}
+    notifications_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/labels{/name}
+    releases_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/releases{/id}
+    deployments_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/deployments
+    created_at: 2019-12-25T05:56:37Z
+    updated_at: 2026-06-08T01:49:49Z
+    pushed_at: 2024-07-31T04:58:06Z
+    git_url: git://github.com/TheAlphamerc/flutter_twitter_clone.git
+    ssh_url: git@github.com:TheAlphamerc/flutter_twitter_clone.git
+    clone_url: https://github.com/TheAlphamerc/flutter_twitter_clone.git
+    svn_url: https://github.com/TheAlphamerc/flutter_twitter_clone
+    homepage: ""
+    size: 17826
+    stargazers_count: 4226
+    watchers_count: 4226
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 1159
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 4226
-    forks_count: 1160
-    pushed_at: 2024-07-31T04:57:56Z
+    open_issues_count: 36
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - social
-      - twitter
-      - flutter
       - firebase-auth
-      - firebase-storage
       - firebase-realtime-database
-      - social-app
-      - twitter-clone
-      - flutter-apps
+      - firebase-storage
+      - flutter
       - flutter-app
+      - flutter-apps
+      - social
+      - social-app
+      - twitter
+      - twitter-clone
+    visibility: public
+    forks: 1159
+    open_issues: 36
+    watchers: 4226
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 1159
+    subscribers_count: 87
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 323
+    openPullRequests: 6
+    contributorsKnown: 8
   sync:
-    syncedAt: 2026-06-07T15:24:26.962Z
+    syncedAt: 2026-06-08T08:39:32.738Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 508048
+    Ruby: 1354
+    Swift: 733
+    Kotlin: 139
+    Objective-C: 37
+  latestRelease:
+    url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/releases/58803665
+    assets_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/releases/58803665/assets
+    upload_url: https://uploads.github.com/repos/TheAlphamerc/flutter_twitter_clone/releases/58803665/assets{?name,label}
+    html_url: https://github.com/TheAlphamerc/flutter_twitter_clone/releases/tag/1.0.7
+    id: 58803665
+    author:
+      login: TheAlphamerc
+      id: 37103237
+      node_id: MDQ6VXNlcjM3MTAzMjM3
+      avatar_url: https://avatars.githubusercontent.com/u/37103237?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/TheAlphamerc
+      html_url: https://github.com/TheAlphamerc
+      followers_url: https://api.github.com/users/TheAlphamerc/followers
+      following_url: https://api.github.com/users/TheAlphamerc/following{/other_user}
+      gists_url: https://api.github.com/users/TheAlphamerc/gists{/gist_id}
+      starred_url: https://api.github.com/users/TheAlphamerc/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/TheAlphamerc/subscriptions
+      organizations_url: https://api.github.com/users/TheAlphamerc/orgs
+      repos_url: https://api.github.com/users/TheAlphamerc/repos
+      events_url: https://api.github.com/users/TheAlphamerc/events{/privacy}
+      received_events_url: https://api.github.com/users/TheAlphamerc/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDODbZGr84DgUXR
+    tag_name: 1.0.7
+    target_commitish: master
+    name: v1.0.7+12
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2022-02-06T08:41:14Z
+    updated_at: 2022-02-06T08:49:35Z
+    published_at: 2022-02-06T08:45:48Z
+    assets: []
+    tarball_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/tarball/1.0.7
+    zipball_url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/zipball/1.0.7
+    body: "##  06 Feb 2022\r
+
+      \r
+
+      - Open tweet detail when clicked on push notification if user tag available\r
+
+      - Display in-app notification on user follow\r
+
+      - Added pinch to zoom on profile and Tweet.\r
+
+      - Retweet post without adding adding comment.\r
+
+      - User can update profile banner.\r
+
+      - Share tweet link to other social media apps.\r
+
+      - Share user profile link to other social media apps.\r
+
+      - Enable copy tweet link to clipboard.\r
+
+      - Share tweet link on other social media apps.\r
+
+      - Capture tweet as image and share on other social media apps with tweet link and
+      description.\r
+
+      - Added user profile qr code generator and scanner.\r
+
+      - New comment will be displayed on top.\r
+
+      - Added link preview in tweet.\r
+
+      - Bug fixed and performance improvements.\r
+
+      - Display suggested users list to follow\r
+
+      - Follow/Un-follow user from follower/following users list\r
+
+      \r
+
+      ## Download App\r
+
+      \  [Click
+      here](https://play.google.com/store/apps/details?id=com.thealphamerc.flutter_twitter_clone) to
+      install app.\r\n"
+    discussion_url: https://github.com/TheAlphamerc/flutter_twitter_clone/discussions/242
+    reactions:
+      url: https://api.github.com/repos/TheAlphamerc/flutter_twitter_clone/releases/58803665/reactions
+      total_count: 7
+      "+1": 7
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: true
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

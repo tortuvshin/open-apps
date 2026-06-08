@@ -24,29 +24,156 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 285050530
+    node_id: MDEwOlJlcG9zaXRvcnkyODUwNTA1MzA=
+    name: musicPlayer
     full_name: o-ifeanyi/musicPlayer
+    private: false
+    owner:
+      login: o-ifeanyi
+      id: 60583263
+      node_id: MDQ6VXNlcjYwNTgzMjYz
+      avatar_url: https://avatars.githubusercontent.com/u/60583263?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/o-ifeanyi
+      html_url: https://github.com/o-ifeanyi
+      followers_url: https://api.github.com/users/o-ifeanyi/followers
+      following_url: https://api.github.com/users/o-ifeanyi/following{/other_user}
+      gists_url: https://api.github.com/users/o-ifeanyi/gists{/gist_id}
+      starred_url: https://api.github.com/users/o-ifeanyi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/o-ifeanyi/subscriptions
+      organizations_url: https://api.github.com/users/o-ifeanyi/orgs
+      repos_url: https://api.github.com/users/o-ifeanyi/repos
+      events_url: https://api.github.com/users/o-ifeanyi/events{/privacy}
+      received_events_url: https://api.github.com/users/o-ifeanyi/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/o-ifeanyi/musicPlayer
-    description: A Flutter music player to play songs
+    description: null
     fork: false
+    url: https://api.github.com/repos/o-ifeanyi/musicPlayer
+    forks_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/forks
+    keys_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/teams
+    hooks_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/hooks
+    issue_events_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/issues/events{/number}
+    events_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/events
+    assignees_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/assignees{/user}
+    branches_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/branches{/branch}
+    tags_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/tags
+    blobs_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/git/refs{/sha}
+    trees_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/statuses/{sha}
+    languages_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/languages
+    stargazers_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/stargazers
+    contributors_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/contributors
+    subscribers_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/subscribers
+    subscription_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/subscription
+    commits_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/commits{/sha}
+    git_commits_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/git/commits{/sha}
+    comments_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/comments{/number}
+    issue_comment_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/issues/comments{/number}
+    contents_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/contents/{+path}
+    compare_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/merges
+    archive_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/downloads
+    issues_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/issues{/number}
+    pulls_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/pulls{/number}
+    milestones_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/milestones{/number}
+    notifications_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/labels{/name}
+    releases_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/releases{/id}
+    deployments_url: https://api.github.com/repos/o-ifeanyi/musicPlayer/deployments
+    created_at: 2020-08-04T17:24:16Z
+    updated_at: 2025-06-07T23:47:45Z
+    pushed_at: 2023-02-19T22:26:41Z
+    git_url: git://github.com/o-ifeanyi/musicPlayer.git
+    ssh_url: git@github.com:o-ifeanyi/musicPlayer.git
+    clone_url: https://github.com/o-ifeanyi/musicPlayer.git
+    svn_url: https://github.com/o-ifeanyi/musicPlayer
+    homepage: null
+    size: 5557
+    stargazers_count: 154
+    watchers_count: 154
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 22
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 1
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
     visibility: public
-    stargazers_count: 154
-    forks_count: 22
-    pushed_at: 2023-02-19T22:26:41Z
-    language: Dart
-    license:
-      spdx_id: null
-      key: null
+    forks: 22
+    open_issues: 1
+    watchers: 154
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 22
+    subscribers_count: 6
   activity:
-    monthlyCommits: []
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
     totalCommitsKnown: 58
     openPullRequests: 0
+    contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-07T15:24:23.201Z
+    syncedAt: 2026-06-08T08:39:30.644Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 187067
+    Swift: 404
+    Kotlin: 130
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

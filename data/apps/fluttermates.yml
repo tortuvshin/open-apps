@@ -24,37 +24,186 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 103634166
+    node_id: MDEwOlJlcG9zaXRvcnkxMDM2MzQxNjY=
+    name: FlutterMates
     full_name: CodemateLtd/FlutterMates
+    private: false
+    owner:
+      login: CodemateLtd
+      id: 24607170
+      node_id: MDEyOk9yZ2FuaXphdGlvbjI0NjA3MTcw
+      avatar_url: https://avatars.githubusercontent.com/u/24607170?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/CodemateLtd
+      html_url: https://github.com/CodemateLtd
+      followers_url: https://api.github.com/users/CodemateLtd/followers
+      following_url: https://api.github.com/users/CodemateLtd/following{/other_user}
+      gists_url: https://api.github.com/users/CodemateLtd/gists{/gist_id}
+      starred_url: https://api.github.com/users/CodemateLtd/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/CodemateLtd/subscriptions
+      organizations_url: https://api.github.com/users/CodemateLtd/orgs
+      repos_url: https://api.github.com/users/CodemateLtd/repos
+      events_url: https://api.github.com/users/CodemateLtd/events{/privacy}
+      received_events_url: https://api.github.com/users/CodemateLtd/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/CodemateLtd/FlutterMates
-    description: A sample app for our internal company talk about Flutter
+    description: A quick sample app on how to implement a friend list and a profile page in Flutter.
     fork: false
+    url: https://api.github.com/repos/CodemateLtd/FlutterMates
+    forks_url: https://api.github.com/repos/CodemateLtd/FlutterMates/forks
+    keys_url: https://api.github.com/repos/CodemateLtd/FlutterMates/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/CodemateLtd/FlutterMates/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/CodemateLtd/FlutterMates/teams
+    hooks_url: https://api.github.com/repos/CodemateLtd/FlutterMates/hooks
+    issue_events_url: https://api.github.com/repos/CodemateLtd/FlutterMates/issues/events{/number}
+    events_url: https://api.github.com/repos/CodemateLtd/FlutterMates/events
+    assignees_url: https://api.github.com/repos/CodemateLtd/FlutterMates/assignees{/user}
+    branches_url: https://api.github.com/repos/CodemateLtd/FlutterMates/branches{/branch}
+    tags_url: https://api.github.com/repos/CodemateLtd/FlutterMates/tags
+    blobs_url: https://api.github.com/repos/CodemateLtd/FlutterMates/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/CodemateLtd/FlutterMates/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/CodemateLtd/FlutterMates/git/refs{/sha}
+    trees_url: https://api.github.com/repos/CodemateLtd/FlutterMates/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/CodemateLtd/FlutterMates/statuses/{sha}
+    languages_url: https://api.github.com/repos/CodemateLtd/FlutterMates/languages
+    stargazers_url: https://api.github.com/repos/CodemateLtd/FlutterMates/stargazers
+    contributors_url: https://api.github.com/repos/CodemateLtd/FlutterMates/contributors
+    subscribers_url: https://api.github.com/repos/CodemateLtd/FlutterMates/subscribers
+    subscription_url: https://api.github.com/repos/CodemateLtd/FlutterMates/subscription
+    commits_url: https://api.github.com/repos/CodemateLtd/FlutterMates/commits{/sha}
+    git_commits_url: https://api.github.com/repos/CodemateLtd/FlutterMates/git/commits{/sha}
+    comments_url: https://api.github.com/repos/CodemateLtd/FlutterMates/comments{/number}
+    issue_comment_url: https://api.github.com/repos/CodemateLtd/FlutterMates/issues/comments{/number}
+    contents_url: https://api.github.com/repos/CodemateLtd/FlutterMates/contents/{+path}
+    compare_url: https://api.github.com/repos/CodemateLtd/FlutterMates/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/CodemateLtd/FlutterMates/merges
+    archive_url: https://api.github.com/repos/CodemateLtd/FlutterMates/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/CodemateLtd/FlutterMates/downloads
+    issues_url: https://api.github.com/repos/CodemateLtd/FlutterMates/issues{/number}
+    pulls_url: https://api.github.com/repos/CodemateLtd/FlutterMates/pulls{/number}
+    milestones_url: https://api.github.com/repos/CodemateLtd/FlutterMates/milestones{/number}
+    notifications_url: https://api.github.com/repos/CodemateLtd/FlutterMates/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/CodemateLtd/FlutterMates/labels{/name}
+    releases_url: https://api.github.com/repos/CodemateLtd/FlutterMates/releases{/id}
+    deployments_url: https://api.github.com/repos/CodemateLtd/FlutterMates/deployments
+    created_at: 2017-09-15T08:35:18Z
+    updated_at: 2026-04-18T07:36:51Z
+    pushed_at: 2023-02-10T07:45:26Z
+    git_url: git://github.com/CodemateLtd/FlutterMates.git
+    ssh_url: git@github.com:CodemateLtd/FlutterMates.git
+    clone_url: https://github.com/CodemateLtd/FlutterMates.git
+    svn_url: https://github.com/CodemateLtd/FlutterMates
+    homepage: null
+    size: 640
+    stargazers_count: 600
+    watchers_count: 600
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 148
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 600
-    forks_count: 0
-    pushed_at: 2018-04-23T18:32:05Z
+    open_issues_count: 3
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - ios
-      - mobile
       - cross-platform
       - flutter
+      - ios
+      - mobile
+    visibility: public
+    forks: 148
+    open_issues: 3
+    watchers: 600
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: CodemateLtd
+      id: 24607170
+      node_id: MDEyOk9yZ2FuaXphdGlvbjI0NjA3MTcw
+      avatar_url: https://avatars.githubusercontent.com/u/24607170?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/CodemateLtd
+      html_url: https://github.com/CodemateLtd
+      followers_url: https://api.github.com/users/CodemateLtd/followers
+      following_url: https://api.github.com/users/CodemateLtd/following{/other_user}
+      gists_url: https://api.github.com/users/CodemateLtd/gists{/gist_id}
+      starred_url: https://api.github.com/users/CodemateLtd/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/CodemateLtd/subscriptions
+      organizations_url: https://api.github.com/users/CodemateLtd/orgs
+      repos_url: https://api.github.com/users/CodemateLtd/repos
+      events_url: https://api.github.com/users/CodemateLtd/events{/privacy}
+      received_events_url: https://api.github.com/users/CodemateLtd/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 148
+    subscribers_count: 26
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 10
+    openPullRequests: 1
+    contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-07T15:24:25.026Z
+    syncedAt: 2026-06-08T08:39:31.575Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 14742
+    Objective-C: 750
+    Java: 367
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: null
+    - name: help wanted
+      color: 33aa3f
+      description: null
 health:
   status: stale
   tier: curated

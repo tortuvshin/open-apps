@@ -24,39 +24,175 @@ stack:
       role: mobile-framework
 github:
   repository:
-    full_name: scitbiz/flutter_pokedex
-    html_url: https://github.com/scitbiz/flutter_pokedex
-    description: Pokedex app built
+    id: 197938695
+    node_id: MDEwOlJlcG9zaXRvcnkxOTc5Mzg2OTU=
+    name: flutter_pokedex
+    full_name: hungps/flutter_pokedex
+    private: false
+    owner:
+      login: hungps
+      id: 25026496
+      node_id: MDQ6VXNlcjI1MDI2NDk2
+      avatar_url: https://avatars.githubusercontent.com/u/25026496?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/hungps
+      html_url: https://github.com/hungps
+      followers_url: https://api.github.com/users/hungps/followers
+      following_url: https://api.github.com/users/hungps/following{/other_user}
+      gists_url: https://api.github.com/users/hungps/gists{/gist_id}
+      starred_url: https://api.github.com/users/hungps/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/hungps/subscriptions
+      organizations_url: https://api.github.com/users/hungps/orgs
+      repos_url: https://api.github.com/users/hungps/repos
+      events_url: https://api.github.com/users/hungps/events{/privacy}
+      received_events_url: https://api.github.com/users/hungps/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    html_url: https://github.com/hungps/flutter_pokedex
+    description: Pokedex app built with Flutter (with lots of animations) using Clean Architecture
     fork: false
+    url: https://api.github.com/repos/hungps/flutter_pokedex
+    forks_url: https://api.github.com/repos/hungps/flutter_pokedex/forks
+    keys_url: https://api.github.com/repos/hungps/flutter_pokedex/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/hungps/flutter_pokedex/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/hungps/flutter_pokedex/teams
+    hooks_url: https://api.github.com/repos/hungps/flutter_pokedex/hooks
+    issue_events_url: https://api.github.com/repos/hungps/flutter_pokedex/issues/events{/number}
+    events_url: https://api.github.com/repos/hungps/flutter_pokedex/events
+    assignees_url: https://api.github.com/repos/hungps/flutter_pokedex/assignees{/user}
+    branches_url: https://api.github.com/repos/hungps/flutter_pokedex/branches{/branch}
+    tags_url: https://api.github.com/repos/hungps/flutter_pokedex/tags
+    blobs_url: https://api.github.com/repos/hungps/flutter_pokedex/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/hungps/flutter_pokedex/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/hungps/flutter_pokedex/git/refs{/sha}
+    trees_url: https://api.github.com/repos/hungps/flutter_pokedex/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/hungps/flutter_pokedex/statuses/{sha}
+    languages_url: https://api.github.com/repos/hungps/flutter_pokedex/languages
+    stargazers_url: https://api.github.com/repos/hungps/flutter_pokedex/stargazers
+    contributors_url: https://api.github.com/repos/hungps/flutter_pokedex/contributors
+    subscribers_url: https://api.github.com/repos/hungps/flutter_pokedex/subscribers
+    subscription_url: https://api.github.com/repos/hungps/flutter_pokedex/subscription
+    commits_url: https://api.github.com/repos/hungps/flutter_pokedex/commits{/sha}
+    git_commits_url: https://api.github.com/repos/hungps/flutter_pokedex/git/commits{/sha}
+    comments_url: https://api.github.com/repos/hungps/flutter_pokedex/comments{/number}
+    issue_comment_url: https://api.github.com/repos/hungps/flutter_pokedex/issues/comments{/number}
+    contents_url: https://api.github.com/repos/hungps/flutter_pokedex/contents/{+path}
+    compare_url: https://api.github.com/repos/hungps/flutter_pokedex/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/hungps/flutter_pokedex/merges
+    archive_url: https://api.github.com/repos/hungps/flutter_pokedex/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/hungps/flutter_pokedex/downloads
+    issues_url: https://api.github.com/repos/hungps/flutter_pokedex/issues{/number}
+    pulls_url: https://api.github.com/repos/hungps/flutter_pokedex/pulls{/number}
+    milestones_url: https://api.github.com/repos/hungps/flutter_pokedex/milestones{/number}
+    notifications_url: https://api.github.com/repos/hungps/flutter_pokedex/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/hungps/flutter_pokedex/labels{/name}
+    releases_url: https://api.github.com/repos/hungps/flutter_pokedex/releases{/id}
+    deployments_url: https://api.github.com/repos/hungps/flutter_pokedex/deployments
+    created_at: 2019-07-20T14:08:15Z
+    updated_at: 2026-06-02T12:14:17Z
+    pushed_at: 2026-04-03T12:06:03Z
+    git_url: git://github.com/hungps/flutter_pokedex.git
+    ssh_url: git@github.com:hungps/flutter_pokedex.git
+    clone_url: https://github.com/hungps/flutter_pokedex.git
+    svn_url: https://github.com/hungps/flutter_pokedex
+    homepage: https://hungps.com
+    size: 10435
+    stargazers_count: 2526
+    watchers_count: 2526
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 582
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 2526
-    forks_count: 582
-    pushed_at: 2025-05-03T15:23:58Z
-    language: Dart
+    open_issues_count: 0
+    license:
+      key: other
+      name: Other
+      spdx_id: NOASSERTION
+      url: null
+      node_id: MDc6TGljZW5zZTA=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - pokedex
-      - clean-code
       - clean-architecture
+      - clean-code
       - flutter
       - flutter-apps
       - flutter-demo
       - flutter-examples
       - flutter-ui
+      - pokedex
       - pokemon-info
-    license:
-      spdx_id: null
-      key: null
+    visibility: public
+    forks: 582
+    open_issues: 0
+    watchers: 2526
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 582
+    subscribers_count: 40
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 132
     openPullRequests: 0
+    contributorsKnown: 14
   sync:
-    syncedAt: 2026-06-07T15:24:41.342Z
+    syncedAt: 2026-06-08T08:39:40.163Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 199280
+    C++: 22701
+    CMake: 18767
+    Ruby: 2685
+    HTML: 1855
+    C: 1425
+    Swift: 1367
+    Kotlin: 261
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

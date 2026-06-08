@@ -24,33 +24,349 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 243175714
+    node_id: MDEwOlJlcG9zaXRvcnkyNDMxNzU3MTQ=
+    name: timecop
     full_name: hamaluik/timecop
+    private: false
+    owner:
+      login: hamaluik
+      id: 894782
+      node_id: MDQ6VXNlcjg5NDc4Mg==
+      avatar_url: https://avatars.githubusercontent.com/u/894782?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/hamaluik
+      html_url: https://github.com/hamaluik
+      followers_url: https://api.github.com/users/hamaluik/followers
+      following_url: https://api.github.com/users/hamaluik/following{/other_user}
+      gists_url: https://api.github.com/users/hamaluik/gists{/gist_id}
+      starred_url: https://api.github.com/users/hamaluik/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/hamaluik/subscriptions
+      organizations_url: https://api.github.com/users/hamaluik/orgs
+      repos_url: https://api.github.com/users/hamaluik/repos
+      events_url: https://api.github.com/users/hamaluik/events{/privacy}
+      received_events_url: https://api.github.com/users/hamaluik/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/hamaluik/timecop
-    description: A time tracking app that respects your privacy
+    description: A time tracking app that respects your privacy and the gets the job done without being fancy.
     fork: false
+    url: https://api.github.com/repos/hamaluik/timecop
+    forks_url: https://api.github.com/repos/hamaluik/timecop/forks
+    keys_url: https://api.github.com/repos/hamaluik/timecop/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/hamaluik/timecop/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/hamaluik/timecop/teams
+    hooks_url: https://api.github.com/repos/hamaluik/timecop/hooks
+    issue_events_url: https://api.github.com/repos/hamaluik/timecop/issues/events{/number}
+    events_url: https://api.github.com/repos/hamaluik/timecop/events
+    assignees_url: https://api.github.com/repos/hamaluik/timecop/assignees{/user}
+    branches_url: https://api.github.com/repos/hamaluik/timecop/branches{/branch}
+    tags_url: https://api.github.com/repos/hamaluik/timecop/tags
+    blobs_url: https://api.github.com/repos/hamaluik/timecop/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/hamaluik/timecop/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/hamaluik/timecop/git/refs{/sha}
+    trees_url: https://api.github.com/repos/hamaluik/timecop/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/hamaluik/timecop/statuses/{sha}
+    languages_url: https://api.github.com/repos/hamaluik/timecop/languages
+    stargazers_url: https://api.github.com/repos/hamaluik/timecop/stargazers
+    contributors_url: https://api.github.com/repos/hamaluik/timecop/contributors
+    subscribers_url: https://api.github.com/repos/hamaluik/timecop/subscribers
+    subscription_url: https://api.github.com/repos/hamaluik/timecop/subscription
+    commits_url: https://api.github.com/repos/hamaluik/timecop/commits{/sha}
+    git_commits_url: https://api.github.com/repos/hamaluik/timecop/git/commits{/sha}
+    comments_url: https://api.github.com/repos/hamaluik/timecop/comments{/number}
+    issue_comment_url: https://api.github.com/repos/hamaluik/timecop/issues/comments{/number}
+    contents_url: https://api.github.com/repos/hamaluik/timecop/contents/{+path}
+    compare_url: https://api.github.com/repos/hamaluik/timecop/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/hamaluik/timecop/merges
+    archive_url: https://api.github.com/repos/hamaluik/timecop/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/hamaluik/timecop/downloads
+    issues_url: https://api.github.com/repos/hamaluik/timecop/issues{/number}
+    pulls_url: https://api.github.com/repos/hamaluik/timecop/pulls{/number}
+    milestones_url: https://api.github.com/repos/hamaluik/timecop/milestones{/number}
+    notifications_url: https://api.github.com/repos/hamaluik/timecop/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/hamaluik/timecop/labels{/name}
+    releases_url: https://api.github.com/repos/hamaluik/timecop/releases{/id}
+    deployments_url: https://api.github.com/repos/hamaluik/timecop/deployments
+    created_at: 2020-02-26T05:22:12Z
+    updated_at: 2026-06-04T04:09:35Z
+    pushed_at: 2025-01-24T03:13:20Z
+    git_url: git://github.com/hamaluik/timecop.git
+    ssh_url: git@github.com:hamaluik/timecop.git
+    clone_url: https://github.com/hamaluik/timecop.git
+    svn_url: https://github.com/hamaluik/timecop
+    homepage: https://timecop.app/
+    size: 23266
+    stargazers_count: 876
+    watchers_count: 876
+    language: Dart
+    has_issues: true
+    has_projects: false
+    has_downloads: true
+    has_wiki: false
+    has_pages: false
+    has_discussions: false
+    forks_count: 170
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 876
-    forks_count: 170
-    pushed_at: 2025-01-24T03:13:20Z
+    open_issues_count: 46
     license:
+      key: apache-2.0
+      name: Apache License 2.0
       spdx_id: Apache-2.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/apache-2.0
+      node_id: MDc6TGljZW5zZTI=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - hacktoberfest
+    visibility: public
+    forks: 170
+    open_issues: 46
+    watchers: 876
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 170
+    subscribers_count: 14
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 606
+    openPullRequests: 10
+    contributorsKnown: 50
   sync:
-    syncedAt: 2026-06-07T15:24:47.358Z
+    syncedAt: 2026-06-08T08:39:43.298Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 410915
+    CMake: 7591
+    C++: 3516
+    Ruby: 2898
+    Shell: 2480
+    Swift: 2375
+    C: 691
+    Kotlin: 411
+    Objective-C: 37
+  latestRelease:
+    url: https://api.github.com/repos/hamaluik/timecop/releases/82811034
+    assets_url: https://api.github.com/repos/hamaluik/timecop/releases/82811034/assets
+    upload_url: https://uploads.github.com/repos/hamaluik/timecop/releases/82811034/assets{?name,label}
+    html_url: https://github.com/hamaluik/timecop/releases/tag/v1.8.0
+    id: 82811034
+    author:
+      login: 12people
+      id: 7361228
+      node_id: MDQ6VXNlcjczNjEyMjg=
+      avatar_url: https://avatars.githubusercontent.com/u/7361228?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/12people
+      html_url: https://github.com/12people
+      followers_url: https://api.github.com/users/12people/followers
+      following_url: https://api.github.com/users/12people/following{/other_user}
+      gists_url: https://api.github.com/users/12people/gists{/gist_id}
+      starred_url: https://api.github.com/users/12people/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/12people/subscriptions
+      organizations_url: https://api.github.com/users/12people/orgs
+      repos_url: https://api.github.com/users/12people/repos
+      events_url: https://api.github.com/users/12people/events{/privacy}
+      received_events_url: https://api.github.com/users/12people/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDODn6RIs4E75ia
+    tag_name: v1.8.0
+    target_commitish: master
+    name: Hacktoberfest release
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2022-11-10T15:18:39Z
+    updated_at: 2022-11-22T10:57:50Z
+    published_at: 2022-11-11T15:48:48Z
+    assets:
+      - url: https://api.github.com/repos/hamaluik/timecop/releases/assets/84886409
+        id: 84886409
+        node_id: RA_kwDODn6RIs4FD0OJ
+        name: timecop-linux-aarch64.tar.xz
+        label: null
+        uploader:
+          login: 12people
+          id: 7361228
+          node_id: MDQ6VXNlcjczNjEyMjg=
+          avatar_url: https://avatars.githubusercontent.com/u/7361228?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/12people
+          html_url: https://github.com/12people
+          followers_url: https://api.github.com/users/12people/followers
+          following_url: https://api.github.com/users/12people/following{/other_user}
+          gists_url: https://api.github.com/users/12people/gists{/gist_id}
+          starred_url: https://api.github.com/users/12people/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/12people/subscriptions
+          organizations_url: https://api.github.com/users/12people/orgs
+          repos_url: https://api.github.com/users/12people/repos
+          events_url: https://api.github.com/users/12people/events{/privacy}
+          received_events_url: https://api.github.com/users/12people/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-xz
+        state: uploaded
+        size: 7158556
+        digest: null
+        download_count: 56
+        created_at: 2022-11-16T22:29:02Z
+        updated_at: 2022-11-16T22:29:06Z
+        browser_download_url: https://github.com/hamaluik/timecop/releases/download/v1.8.0/timecop-linux-aarch64.tar.xz
+      - url: https://api.github.com/repos/hamaluik/timecop/releases/assets/84886414
+        id: 84886414
+        node_id: RA_kwDODn6RIs4FD0OO
+        name: timecop-linux-x86_64.tar.xz
+        label: null
+        uploader:
+          login: 12people
+          id: 7361228
+          node_id: MDQ6VXNlcjczNjEyMjg=
+          avatar_url: https://avatars.githubusercontent.com/u/7361228?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/12people
+          html_url: https://github.com/12people
+          followers_url: https://api.github.com/users/12people/followers
+          following_url: https://api.github.com/users/12people/following{/other_user}
+          gists_url: https://api.github.com/users/12people/gists{/gist_id}
+          starred_url: https://api.github.com/users/12people/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/12people/subscriptions
+          organizations_url: https://api.github.com/users/12people/orgs
+          repos_url: https://api.github.com/users/12people/repos
+          events_url: https://api.github.com/users/12people/events{/privacy}
+          received_events_url: https://api.github.com/users/12people/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-xz
+        state: uploaded
+        size: 8108244
+        digest: null
+        download_count: 196
+        created_at: 2022-11-16T22:29:06Z
+        updated_at: 2022-11-16T22:29:10Z
+        browser_download_url: https://github.com/hamaluik/timecop/releases/download/v1.8.0/timecop-linux-x86_64.tar.xz
+    tarball_url: https://api.github.com/repos/hamaluik/timecop/tarball/v1.8.0
+    zipball_url: https://api.github.com/repos/hamaluik/timecop/zipball/v1.8.0
+    body: "Thanks to all the Hacktoberfest participants, translators, and other volunteers for helping
+      out!\r
+
+      \r
+
+      ### Added\r
+
+      * Turkish translation\r
+
+      * Null safety\r
+
+      * Tooltips for better accessibility\r
+
+      * On-hover timer resume buttons\r
+
+      * Directly visible timer stop button\r
+
+      * Project action menu for discoverability\r
+
+      * Filter indicator\r
+
+      * Press enter to start timer\r
+
+      * Support for Android 13 per-app localization\r
+
+      * Monochrome launcher icon\r
+
+      \r
+
+      ### Changed\r
+
+      * Translations\r
+
+      * Updated dependencies\r
+
+      * Refactored, fixed up a lot of code\r
+
+      * Increased Android compile SDK\r
+
+      * Clearer import/export labels\r
+
+      * Settings Icon\r
+
+      * Numerals font\r
+
+      * Replaced gesture-based date removal with an icon\r
+
+      * Move \"set to current time\" to menu in timer editor\r
+
+      * Low contrasts on labels and icons\r
+
+      \r
+
+      ### Fixed\r
+
+      * Fixed automated screenshot tests\r
+
+      * Swiper\r
+
+      * Storage access permissions\r
+
+      * CastError\r
+
+      * Archived project\r
+
+      * Theme dropdown contrast\r
+
+      * URL launching\r
+
+      * firstDate bug"
+    reactions:
+      url: https://api.github.com/repos/hamaluik/timecop/releases/82811034/reactions
+      total_count: 1
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 2F8DD7
+      description: ""
 health:
   status: stale
   tier: curated

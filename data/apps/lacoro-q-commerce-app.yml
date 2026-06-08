@@ -24,38 +24,232 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 256298295
+    node_id: MDEwOlJlcG9zaXRvcnkyNTYyOTgyOTU=
+    name: ConsumerFlutterApp
     full_name: LaCoro/ConsumerFlutterApp
+    private: false
+    owner:
+      login: LaCoro
+      id: 63753151
+      node_id: MDEyOk9yZ2FuaXphdGlvbjYzNzUzMTUx
+      avatar_url: https://avatars.githubusercontent.com/u/63753151?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/LaCoro
+      html_url: https://github.com/LaCoro
+      followers_url: https://api.github.com/users/LaCoro/followers
+      following_url: https://api.github.com/users/LaCoro/following{/other_user}
+      gists_url: https://api.github.com/users/LaCoro/gists{/gist_id}
+      starred_url: https://api.github.com/users/LaCoro/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/LaCoro/subscriptions
+      organizations_url: https://api.github.com/users/LaCoro/orgs
+      repos_url: https://api.github.com/users/LaCoro/repos
+      events_url: https://api.github.com/users/LaCoro/events{/privacy}
+      received_events_url: https://api.github.com/users/LaCoro/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/LaCoro/ConsumerFlutterApp
-    description: An open source quick commerce app in flutter
+    description: Consumer app with Flutter
     fork: false
+    url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp
+    forks_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/forks
+    keys_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/teams
+    hooks_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/hooks
+    issue_events_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/issues/events{/number}
+    events_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/events
+    assignees_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/assignees{/user}
+    branches_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/branches{/branch}
+    tags_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/tags
+    blobs_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/git/refs{/sha}
+    trees_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/statuses/{sha}
+    languages_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/languages
+    stargazers_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/stargazers
+    contributors_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/contributors
+    subscribers_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/subscribers
+    subscription_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/subscription
+    commits_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/commits{/sha}
+    git_commits_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/git/commits{/sha}
+    comments_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/comments{/number}
+    issue_comment_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/issues/comments{/number}
+    contents_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/contents/{+path}
+    compare_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/merges
+    archive_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/downloads
+    issues_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/issues{/number}
+    pulls_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/pulls{/number}
+    milestones_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/milestones{/number}
+    notifications_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/labels{/name}
+    releases_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/releases{/id}
+    deployments_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/deployments
+    created_at: 2020-04-16T18:32:54Z
+    updated_at: 2025-11-26T15:57:18Z
+    pushed_at: 2024-04-04T06:24:21Z
+    git_url: git://github.com/LaCoro/ConsumerFlutterApp.git
+    ssh_url: git@github.com:LaCoro/ConsumerFlutterApp.git
+    clone_url: https://github.com/LaCoro/ConsumerFlutterApp.git
+    svn_url: https://github.com/LaCoro/ConsumerFlutterApp
+    homepage: ""
+    size: 3179
+    stargazers_count: 64
+    watchers_count: 64
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 25
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 64
-    forks_count: 25
-    pushed_at: 2024-04-04T06:24:21Z
+    open_issues_count: 8
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - ios
       - ecommerce
       - flutter
-      - hactoberfest
       - hacktoberfest2020
+      - hactoberfest
+      - ios
+    visibility: public
+    forks: 25
+    open_issues: 8
+    watchers: 64
+    default_branch: develop
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: LaCoro
+      id: 63753151
+      node_id: MDEyOk9yZ2FuaXphdGlvbjYzNzUzMTUx
+      avatar_url: https://avatars.githubusercontent.com/u/63753151?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/LaCoro
+      html_url: https://github.com/LaCoro
+      followers_url: https://api.github.com/users/LaCoro/followers
+      following_url: https://api.github.com/users/LaCoro/following{/other_user}
+      gists_url: https://api.github.com/users/LaCoro/gists{/gist_id}
+      starred_url: https://api.github.com/users/LaCoro/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/LaCoro/subscriptions
+      organizations_url: https://api.github.com/users/LaCoro/orgs
+      repos_url: https://api.github.com/users/LaCoro/repos
+      events_url: https://api.github.com/users/LaCoro/events{/privacy}
+      received_events_url: https://api.github.com/users/LaCoro/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 25
+    subscribers_count: 3
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 383
     openPullRequests: 0
+    contributorsKnown: 7
   sync:
-    syncedAt: 2026-06-07T15:24:32.605Z
+    syncedAt: 2026-06-08T08:39:35.483Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 223541
+    C++: 24280
+    CMake: 19515
+    Ruby: 2803
+    Swift: 2439
+    C: 1425
+    HTML: 1124
+    Kotlin: 131
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/releases/30349638
+    assets_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/releases/30349638/assets
+    upload_url: https://uploads.github.com/repos/LaCoro/ConsumerFlutterApp/releases/30349638/assets{?name,label}
+    html_url: https://github.com/LaCoro/ConsumerFlutterApp/releases/tag/v1.0.0
+    id: 30349638
+    author:
+      login: diegoalvis
+      id: 6097526
+      node_id: MDQ6VXNlcjYwOTc1MjY=
+      avatar_url: https://avatars.githubusercontent.com/u/6097526?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/diegoalvis
+      html_url: https://github.com/diegoalvis
+      followers_url: https://api.github.com/users/diegoalvis/followers
+      following_url: https://api.github.com/users/diegoalvis/following{/other_user}
+      gists_url: https://api.github.com/users/diegoalvis/gists{/gist_id}
+      starred_url: https://api.github.com/users/diegoalvis/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/diegoalvis/subscriptions
+      organizations_url: https://api.github.com/users/diegoalvis/orgs
+      repos_url: https://api.github.com/users/diegoalvis/repos
+      events_url: https://api.github.com/users/diegoalvis/events{/privacy}
+      received_events_url: https://api.github.com/users/diegoalvis/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: MDc6UmVsZWFzZTMwMzQ5NjM4
+    tag_name: v1.0.0
+    target_commitish: master
+    name: 1.0.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2020-08-28T23:32:52Z
+    updated_at: 2020-08-28T23:33:28Z
+    published_at: 2020-08-28T23:33:28Z
+    assets: []
+    tarball_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/tarball/v1.0.0
+    zipball_url: https://api.github.com/repos/LaCoro/ConsumerFlutterApp/zipball/v1.0.0
+    body: La Coro version 1.0.0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

@@ -24,41 +24,557 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 378110440
+    node_id: MDEwOlJlcG9zaXRvcnkzNzgxMTA0NDA=
+    name: libretrack
     full_name: proninyaroslav/libretrack
+    private: false
+    owner:
+      login: proninyaroslav
+      id: 7840559
+      node_id: MDQ6VXNlcjc4NDA1NTk=
+      avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/proninyaroslav
+      html_url: https://github.com/proninyaroslav
+      followers_url: https://api.github.com/users/proninyaroslav/followers
+      following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+      gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+      starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+      organizations_url: https://api.github.com/users/proninyaroslav/orgs
+      repos_url: https://api.github.com/users/proninyaroslav/repos
+      events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+      received_events_url: https://api.github.com/users/proninyaroslav/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/proninyaroslav/libretrack
     description: Private, cross-platform package tracking app
     fork: false
+    url: https://api.github.com/repos/proninyaroslav/libretrack
+    forks_url: https://api.github.com/repos/proninyaroslav/libretrack/forks
+    keys_url: https://api.github.com/repos/proninyaroslav/libretrack/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/proninyaroslav/libretrack/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/proninyaroslav/libretrack/teams
+    hooks_url: https://api.github.com/repos/proninyaroslav/libretrack/hooks
+    issue_events_url: https://api.github.com/repos/proninyaroslav/libretrack/issues/events{/number}
+    events_url: https://api.github.com/repos/proninyaroslav/libretrack/events
+    assignees_url: https://api.github.com/repos/proninyaroslav/libretrack/assignees{/user}
+    branches_url: https://api.github.com/repos/proninyaroslav/libretrack/branches{/branch}
+    tags_url: https://api.github.com/repos/proninyaroslav/libretrack/tags
+    blobs_url: https://api.github.com/repos/proninyaroslav/libretrack/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/proninyaroslav/libretrack/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/proninyaroslav/libretrack/git/refs{/sha}
+    trees_url: https://api.github.com/repos/proninyaroslav/libretrack/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/proninyaroslav/libretrack/statuses/{sha}
+    languages_url: https://api.github.com/repos/proninyaroslav/libretrack/languages
+    stargazers_url: https://api.github.com/repos/proninyaroslav/libretrack/stargazers
+    contributors_url: https://api.github.com/repos/proninyaroslav/libretrack/contributors
+    subscribers_url: https://api.github.com/repos/proninyaroslav/libretrack/subscribers
+    subscription_url: https://api.github.com/repos/proninyaroslav/libretrack/subscription
+    commits_url: https://api.github.com/repos/proninyaroslav/libretrack/commits{/sha}
+    git_commits_url: https://api.github.com/repos/proninyaroslav/libretrack/git/commits{/sha}
+    comments_url: https://api.github.com/repos/proninyaroslav/libretrack/comments{/number}
+    issue_comment_url: https://api.github.com/repos/proninyaroslav/libretrack/issues/comments{/number}
+    contents_url: https://api.github.com/repos/proninyaroslav/libretrack/contents/{+path}
+    compare_url: https://api.github.com/repos/proninyaroslav/libretrack/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/proninyaroslav/libretrack/merges
+    archive_url: https://api.github.com/repos/proninyaroslav/libretrack/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/proninyaroslav/libretrack/downloads
+    issues_url: https://api.github.com/repos/proninyaroslav/libretrack/issues{/number}
+    pulls_url: https://api.github.com/repos/proninyaroslav/libretrack/pulls{/number}
+    milestones_url: https://api.github.com/repos/proninyaroslav/libretrack/milestones{/number}
+    notifications_url: https://api.github.com/repos/proninyaroslav/libretrack/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/proninyaroslav/libretrack/labels{/name}
+    releases_url: https://api.github.com/repos/proninyaroslav/libretrack/releases{/id}
+    deployments_url: https://api.github.com/repos/proninyaroslav/libretrack/deployments
+    created_at: 2021-06-18T10:09:46Z
+    updated_at: 2026-06-07T15:11:01Z
+    pushed_at: 2026-05-21T08:03:37Z
+    git_url: git://github.com/proninyaroslav/libretrack.git
+    ssh_url: git@github.com:proninyaroslav/libretrack.git
+    clone_url: https://github.com/proninyaroslav/libretrack.git
+    svn_url: https://github.com/proninyaroslav/libretrack
+    homepage: ""
+    size: 7843
+    stargazers_count: 358
+    watchers_count: 358
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 28
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 359
-    forks_count: 28
-    pushed_at: 2026-05-19T09:16:03Z
+    open_issues_count: 41
     license:
+      key: gpl-3.0
+      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/gpl-3.0
+      node_id: MDc6TGljZW5zZTk=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - linux
-      - tracking
-      - parcel
-      - ups
-      - russian-post
-      - package-tracking
-      - mail-tracking
       - freedom-tracking-app
+      - linux
+      - mail-tracking
+      - package-tracking
+      - parcel
+      - russian-post
+      - tracking
+      - ups
+    visibility: public
+    forks: 28
+    open_issues: 41
+    watchers: 358
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 28
+    subscribers_count: 6
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 11
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 1
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 372
+    openPullRequests: 1
+    contributorsKnown: 6
   sync:
-    syncedAt: 2026-06-07T15:24:33.049Z
+    syncedAt: 2026-06-08T08:39:36.117Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 1910458
+    C++: 18969
+    CMake: 12273
+    Kotlin: 10900
+    Ruby: 3259
+    Swift: 2277
+    C: 1482
+    Python: 1276
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/proninyaroslav/libretrack/releases/192694691
+    assets_url: https://api.github.com/repos/proninyaroslav/libretrack/releases/192694691/assets
+    upload_url: https://uploads.github.com/repos/proninyaroslav/libretrack/releases/192694691/assets{?name,label}
+    html_url: https://github.com/proninyaroslav/libretrack/releases/tag/1.7.0
+    id: 192694691
+    author:
+      login: proninyaroslav
+      id: 7840559
+      node_id: MDQ6VXNlcjc4NDA1NTk=
+      avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/proninyaroslav
+      html_url: https://github.com/proninyaroslav
+      followers_url: https://api.github.com/users/proninyaroslav/followers
+      following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+      gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+      starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+      organizations_url: https://api.github.com/users/proninyaroslav/orgs
+      repos_url: https://api.github.com/users/proninyaroslav/repos
+      events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+      received_events_url: https://api.github.com/users/proninyaroslav/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOFomB6M4LfEmj
+    tag_name: 1.7.0
+    target_commitish: master
+    name: 1.7.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2024-12-30T14:57:44Z
+    updated_at: 2024-12-30T15:35:09Z
+    published_at: 2024-12-30T14:59:40Z
+    assets:
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216763556
+        id: 216763556
+        node_id: RA_kwDOFomB6M4M64yk
+        name: hashsum.txt
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/plain
+        state: uploaded
+        size: 205
+        digest: null
+        download_count: 13
+        created_at: 2024-12-30T15:18:35Z
+        updated_at: 2024-12-30T15:18:35Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/hashsum.txt
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216758867
+        id: 216758867
+        node_id: RA_kwDOFomB6M4M63pT
+        name: LibreTrack-1.7.0-all.apk
+        label: null
+        uploader:
+          login: proninyaroslav
+          id: 7840559
+          node_id: MDQ6VXNlcjc4NDA1NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/proninyaroslav
+          html_url: https://github.com/proninyaroslav
+          followers_url: https://api.github.com/users/proninyaroslav/followers
+          following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+          gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+          starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+          organizations_url: https://api.github.com/users/proninyaroslav/orgs
+          repos_url: https://api.github.com/users/proninyaroslav/repos
+          events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+          received_events_url: https://api.github.com/users/proninyaroslav/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 29963439
+        digest: null
+        download_count: 102
+        created_at: 2024-12-30T14:59:06Z
+        updated_at: 2024-12-30T14:59:23Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/LibreTrack-1.7.0-all.apk
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216758905
+        id: 216758905
+        node_id: RA_kwDOFomB6M4M63p5
+        name: LibreTrack-1.7.0-arm64-v8a.apk
+        label: null
+        uploader:
+          login: proninyaroslav
+          id: 7840559
+          node_id: MDQ6VXNlcjc4NDA1NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/proninyaroslav
+          html_url: https://github.com/proninyaroslav
+          followers_url: https://api.github.com/users/proninyaroslav/followers
+          following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+          gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+          starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+          organizations_url: https://api.github.com/users/proninyaroslav/orgs
+          repos_url: https://api.github.com/users/proninyaroslav/repos
+          events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+          received_events_url: https://api.github.com/users/proninyaroslav/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 12380324
+        digest: null
+        download_count: 562
+        created_at: 2024-12-30T14:59:23Z
+        updated_at: 2024-12-30T14:59:28Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/LibreTrack-1.7.0-arm64-v8a.apk
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216758919
+        id: 216758919
+        node_id: RA_kwDOFomB6M4M63qH
+        name: LibreTrack-1.7.0-armeabi-v7a.apk
+        label: null
+        uploader:
+          login: proninyaroslav
+          id: 7840559
+          node_id: MDQ6VXNlcjc4NDA1NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/proninyaroslav
+          html_url: https://github.com/proninyaroslav
+          followers_url: https://api.github.com/users/proninyaroslav/followers
+          following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+          gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+          starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+          organizations_url: https://api.github.com/users/proninyaroslav/orgs
+          repos_url: https://api.github.com/users/proninyaroslav/repos
+          events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+          received_events_url: https://api.github.com/users/proninyaroslav/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 12133997
+        digest: null
+        download_count: 11
+        created_at: 2024-12-30T14:59:28Z
+        updated_at: 2024-12-30T14:59:32Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/LibreTrack-1.7.0-armeabi-v7a.apk
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216763522
+        id: 216763522
+        node_id: RA_kwDOFomB6M4M64yC
+        name: libretrack-1.7.0-linux-arm64.tar.gz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/gzip
+        state: uploaded
+        size: 12528376
+        digest: null
+        download_count: 15
+        created_at: 2024-12-30T15:18:23Z
+        updated_at: 2024-12-30T15:18:24Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/libretrack-1.7.0-linux-arm64.tar.gz
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216759652
+        id: 216759652
+        node_id: RA_kwDOFomB6M4M631k
+        name: libretrack-1.7.0-linux-x86_64.tar.gz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/gzip
+        state: uploaded
+        size: 12900634
+        digest: null
+        download_count: 37
+        created_at: 2024-12-30T15:02:05Z
+        updated_at: 2024-12-30T15:02:06Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/libretrack-1.7.0-linux-x86_64.tar.gz
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216758933
+        id: 216758933
+        node_id: RA_kwDOFomB6M4M63qV
+        name: LibreTrack-1.7.0-x86_64.apk
+        label: null
+        uploader:
+          login: proninyaroslav
+          id: 7840559
+          node_id: MDQ6VXNlcjc4NDA1NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7840559?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/proninyaroslav
+          html_url: https://github.com/proninyaroslav
+          followers_url: https://api.github.com/users/proninyaroslav/followers
+          following_url: https://api.github.com/users/proninyaroslav/following{/other_user}
+          gists_url: https://api.github.com/users/proninyaroslav/gists{/gist_id}
+          starred_url: https://api.github.com/users/proninyaroslav/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/proninyaroslav/subscriptions
+          organizations_url: https://api.github.com/users/proninyaroslav/orgs
+          repos_url: https://api.github.com/users/proninyaroslav/repos
+          events_url: https://api.github.com/users/proninyaroslav/events{/privacy}
+          received_events_url: https://api.github.com/users/proninyaroslav/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 12518337
+        digest: null
+        download_count: 19
+        created_at: 2024-12-30T14:59:32Z
+        updated_at: 2024-12-30T14:59:37Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/LibreTrack-1.7.0-x86_64.apk
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216761018
+        id: 216761018
+        node_id: RA_kwDOFomB6M4M64K6
+        name: libretrack_1.7.0_amd64.snap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 127635456
+        digest: null
+        download_count: 13
+        created_at: 2024-12-30T15:06:54Z
+        updated_at: 2024-12-30T15:06:57Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/libretrack_1.7.0_amd64.snap
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216765173
+        id: 216765173
+        node_id: RA_kwDOFomB6M4M65L1
+        name: libretrack_1.7.0_arm64.snap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 119394304
+        digest: null
+        download_count: 7
+        created_at: 2024-12-30T15:31:41Z
+        updated_at: 2024-12-30T15:31:43Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/libretrack_1.7.0_arm64.snap
+      - url: https://api.github.com/repos/proninyaroslav/libretrack/releases/assets/216763557
+        id: 216763557
+        node_id: RA_kwDOFomB6M4M64yl
+        name: version.txt
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/plain
+        state: uploaded
+        size: 51
+        digest: null
+        download_count: 519
+        created_at: 2024-12-30T15:18:35Z
+        updated_at: 2024-12-30T15:18:35Z
+        browser_download_url: https://github.com/proninyaroslav/libretrack/releases/download/1.7.0/version.txt
+    tarball_url: https://api.github.com/repos/proninyaroslav/libretrack/tarball/1.7.0
+    zipball_url: https://api.github.com/repos/proninyaroslav/libretrack/zipball/1.7.0
+    body: "- \"I'm receiver\" and \"I'm shipper\" categories added\r
+
+      - Saving the current parcels list tab after closing the app\r\n"
+    reactions:
+      url: https://api.github.com/repos/proninyaroslav/libretrack/releases/192694691/reactions
+      total_count: 4
+      "+1": 4
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: true
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: active
   tier: listed

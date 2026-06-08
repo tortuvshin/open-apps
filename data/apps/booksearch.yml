@@ -24,34 +24,159 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 119159964
+    node_id: MDEwOlJlcG9zaXRvcnkxMTkxNTk5NjQ=
+    name: BookSearch
     full_name: Norbert515/BookSearch
+    private: false
+    owner:
+      login: Norbert515
+      id: 13968468
+      node_id: MDQ6VXNlcjEzOTY4NDY4
+      avatar_url: https://avatars.githubusercontent.com/u/13968468?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/Norbert515
+      html_url: https://github.com/Norbert515
+      followers_url: https://api.github.com/users/Norbert515/followers
+      following_url: https://api.github.com/users/Norbert515/following{/other_user}
+      gists_url: https://api.github.com/users/Norbert515/gists{/gist_id}
+      starred_url: https://api.github.com/users/Norbert515/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/Norbert515/subscriptions
+      organizations_url: https://api.github.com/users/Norbert515/orgs
+      repos_url: https://api.github.com/users/Norbert515/repos
+      events_url: https://api.github.com/users/Norbert515/events{/privacy}
+      received_events_url: https://api.github.com/users/Norbert515/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/Norbert515/BookSearch
-    description: Digital BookShelf for your reading progress
+    description: A digital BookShelf for your reading progress.
     fork: false
+    url: https://api.github.com/repos/Norbert515/BookSearch
+    forks_url: https://api.github.com/repos/Norbert515/BookSearch/forks
+    keys_url: https://api.github.com/repos/Norbert515/BookSearch/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/Norbert515/BookSearch/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/Norbert515/BookSearch/teams
+    hooks_url: https://api.github.com/repos/Norbert515/BookSearch/hooks
+    issue_events_url: https://api.github.com/repos/Norbert515/BookSearch/issues/events{/number}
+    events_url: https://api.github.com/repos/Norbert515/BookSearch/events
+    assignees_url: https://api.github.com/repos/Norbert515/BookSearch/assignees{/user}
+    branches_url: https://api.github.com/repos/Norbert515/BookSearch/branches{/branch}
+    tags_url: https://api.github.com/repos/Norbert515/BookSearch/tags
+    blobs_url: https://api.github.com/repos/Norbert515/BookSearch/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/Norbert515/BookSearch/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/Norbert515/BookSearch/git/refs{/sha}
+    trees_url: https://api.github.com/repos/Norbert515/BookSearch/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/Norbert515/BookSearch/statuses/{sha}
+    languages_url: https://api.github.com/repos/Norbert515/BookSearch/languages
+    stargazers_url: https://api.github.com/repos/Norbert515/BookSearch/stargazers
+    contributors_url: https://api.github.com/repos/Norbert515/BookSearch/contributors
+    subscribers_url: https://api.github.com/repos/Norbert515/BookSearch/subscribers
+    subscription_url: https://api.github.com/repos/Norbert515/BookSearch/subscription
+    commits_url: https://api.github.com/repos/Norbert515/BookSearch/commits{/sha}
+    git_commits_url: https://api.github.com/repos/Norbert515/BookSearch/git/commits{/sha}
+    comments_url: https://api.github.com/repos/Norbert515/BookSearch/comments{/number}
+    issue_comment_url: https://api.github.com/repos/Norbert515/BookSearch/issues/comments{/number}
+    contents_url: https://api.github.com/repos/Norbert515/BookSearch/contents/{+path}
+    compare_url: https://api.github.com/repos/Norbert515/BookSearch/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/Norbert515/BookSearch/merges
+    archive_url: https://api.github.com/repos/Norbert515/BookSearch/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/Norbert515/BookSearch/downloads
+    issues_url: https://api.github.com/repos/Norbert515/BookSearch/issues{/number}
+    pulls_url: https://api.github.com/repos/Norbert515/BookSearch/pulls{/number}
+    milestones_url: https://api.github.com/repos/Norbert515/BookSearch/milestones{/number}
+    notifications_url: https://api.github.com/repos/Norbert515/BookSearch/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/Norbert515/BookSearch/labels{/name}
+    releases_url: https://api.github.com/repos/Norbert515/BookSearch/releases{/id}
+    deployments_url: https://api.github.com/repos/Norbert515/BookSearch/deployments
+    created_at: 2018-01-27T11:52:30Z
+    updated_at: 2026-04-21T22:53:27Z
+    pushed_at: 2018-12-31T10:45:42Z
+    git_url: git://github.com/Norbert515/BookSearch.git
+    ssh_url: git@github.com:Norbert515/BookSearch.git
+    clone_url: https://github.com/Norbert515/BookSearch.git
+    svn_url: https://github.com/Norbert515/BookSearch
+    homepage: ""
+    size: 4669
+    stargazers_count: 550
+    watchers_count: 550
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 146
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 550
-    forks_count: 146
-    pushed_at: 2018-12-31T10:45:41Z
-    language: Dart
+    open_issues_count: 2
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - medium
       - animations
       - flutter
-    license:
-      spdx_id: null
-      key: null
+      - medium
+    visibility: public
+    forks: 146
+    open_issues: 2
+    watchers: 550
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 146
+    subscribers_count: 35
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 108
     openPullRequests: 0
+    contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-07T15:24:13.771Z
+    syncedAt: 2026-06-08T08:39:25.841Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 53031
+    Objective-C: 750
+    Java: 369
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

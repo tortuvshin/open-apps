@@ -24,33 +24,186 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 140326958
+    node_id: MDEwOlJlcG9zaXRvcnkxNDAzMjY5NTg=
+    name: zefyr
     full_name: memspace/zefyr
+    private: false
+    owner:
+      login: memspace
+      id: 39812986
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM5ODEyOTg2
+      avatar_url: https://avatars.githubusercontent.com/u/39812986?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/memspace
+      html_url: https://github.com/memspace
+      followers_url: https://api.github.com/users/memspace/followers
+      following_url: https://api.github.com/users/memspace/following{/other_user}
+      gists_url: https://api.github.com/users/memspace/gists{/gist_id}
+      starred_url: https://api.github.com/users/memspace/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/memspace/subscriptions
+      organizations_url: https://api.github.com/users/memspace/orgs
+      repos_url: https://api.github.com/users/memspace/repos
+      events_url: https://api.github.com/users/memspace/events{/privacy}
+      received_events_url: https://api.github.com/users/memspace/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/memspace/zefyr
-    description: Soft and gentle rich text editing for Flutter applications
+    description: Soft and gentle rich text editing for Flutter applications.
     fork: false
+    url: https://api.github.com/repos/memspace/zefyr
+    forks_url: https://api.github.com/repos/memspace/zefyr/forks
+    keys_url: https://api.github.com/repos/memspace/zefyr/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/memspace/zefyr/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/memspace/zefyr/teams
+    hooks_url: https://api.github.com/repos/memspace/zefyr/hooks
+    issue_events_url: https://api.github.com/repos/memspace/zefyr/issues/events{/number}
+    events_url: https://api.github.com/repos/memspace/zefyr/events
+    assignees_url: https://api.github.com/repos/memspace/zefyr/assignees{/user}
+    branches_url: https://api.github.com/repos/memspace/zefyr/branches{/branch}
+    tags_url: https://api.github.com/repos/memspace/zefyr/tags
+    blobs_url: https://api.github.com/repos/memspace/zefyr/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/memspace/zefyr/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/memspace/zefyr/git/refs{/sha}
+    trees_url: https://api.github.com/repos/memspace/zefyr/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/memspace/zefyr/statuses/{sha}
+    languages_url: https://api.github.com/repos/memspace/zefyr/languages
+    stargazers_url: https://api.github.com/repos/memspace/zefyr/stargazers
+    contributors_url: https://api.github.com/repos/memspace/zefyr/contributors
+    subscribers_url: https://api.github.com/repos/memspace/zefyr/subscribers
+    subscription_url: https://api.github.com/repos/memspace/zefyr/subscription
+    commits_url: https://api.github.com/repos/memspace/zefyr/commits{/sha}
+    git_commits_url: https://api.github.com/repos/memspace/zefyr/git/commits{/sha}
+    comments_url: https://api.github.com/repos/memspace/zefyr/comments{/number}
+    issue_comment_url: https://api.github.com/repos/memspace/zefyr/issues/comments{/number}
+    contents_url: https://api.github.com/repos/memspace/zefyr/contents/{+path}
+    compare_url: https://api.github.com/repos/memspace/zefyr/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/memspace/zefyr/merges
+    archive_url: https://api.github.com/repos/memspace/zefyr/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/memspace/zefyr/downloads
+    issues_url: https://api.github.com/repos/memspace/zefyr/issues{/number}
+    pulls_url: https://api.github.com/repos/memspace/zefyr/pulls{/number}
+    milestones_url: https://api.github.com/repos/memspace/zefyr/milestones{/number}
+    notifications_url: https://api.github.com/repos/memspace/zefyr/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/memspace/zefyr/labels{/name}
+    releases_url: https://api.github.com/repos/memspace/zefyr/releases{/id}
+    deployments_url: https://api.github.com/repos/memspace/zefyr/deployments
+    created_at: 2018-07-09T18:31:07Z
+    updated_at: 2026-05-29T08:07:49Z
+    pushed_at: 2024-06-10T10:41:44Z
+    git_url: git://github.com/memspace/zefyr.git
+    ssh_url: git@github.com:memspace/zefyr.git
+    clone_url: https://github.com/memspace/zefyr.git
+    svn_url: https://github.com/memspace/zefyr
+    homepage: https://zefyr-editor.gitbook.io
+    size: 11622
+    stargazers_count: 2228
+    watchers_count: 2228
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 537
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 2228
-    forks_count: 538
-    pushed_at: 2022-10-09T03:01:17Z
-    language: Dart
+    open_issues_count: 220
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - rich-text-editor
-      - flutter
       - dartlang
-    license:
-      spdx_id: null
-      key: null
+      - flutter
+      - rich-text-editor
+    visibility: public
+    forks: 537
+    open_issues: 220
+    watchers: 2228
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: memspace
+      id: 39812986
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM5ODEyOTg2
+      avatar_url: https://avatars.githubusercontent.com/u/39812986?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/memspace
+      html_url: https://github.com/memspace
+      followers_url: https://api.github.com/users/memspace/followers
+      following_url: https://api.github.com/users/memspace/following{/other_user}
+      gists_url: https://api.github.com/users/memspace/gists{/gist_id}
+      starred_url: https://api.github.com/users/memspace/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/memspace/subscriptions
+      organizations_url: https://api.github.com/users/memspace/orgs
+      repos_url: https://api.github.com/users/memspace/repos
+      events_url: https://api.github.com/users/memspace/events{/privacy}
+      received_events_url: https://api.github.com/users/memspace/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 537
+    subscribers_count: 61
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 346
+    openPullRequests: 23
+    contributorsKnown: 13
   sync:
-    syncedAt: 2026-06-07T15:24:53.639Z
+    syncedAt: 2026-06-08T08:39:46.339Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 583998
+    CMake: 7244
+    Ruby: 2684
+    C++: 2310
+    Swift: 1387
+    HTML: 1033
+    C: 691
+    Shell: 561
+    Kotlin: 409
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

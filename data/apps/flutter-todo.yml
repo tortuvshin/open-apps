@@ -24,42 +24,172 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 150436067
+    node_id: MDEwOlJlcG9zaXRvcnkxNTA0MzYwNjc=
+    name: flutter_todo
     full_name: tuannguyendotme/flutter_todo
+    private: false
+    owner:
+      login: tuannguyendotme
+      id: 42111915
+      node_id: MDQ6VXNlcjQyMTExOTE1
+      avatar_url: https://avatars.githubusercontent.com/u/42111915?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/tuannguyendotme
+      html_url: https://github.com/tuannguyendotme
+      followers_url: https://api.github.com/users/tuannguyendotme/followers
+      following_url: https://api.github.com/users/tuannguyendotme/following{/other_user}
+      gists_url: https://api.github.com/users/tuannguyendotme/gists{/gist_id}
+      starred_url: https://api.github.com/users/tuannguyendotme/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/tuannguyendotme/subscriptions
+      organizations_url: https://api.github.com/users/tuannguyendotme/orgs
+      repos_url: https://api.github.com/users/tuannguyendotme/repos
+      events_url: https://api.github.com/users/tuannguyendotme/events{/privacy}
+      received_events_url: https://api.github.com/users/tuannguyendotme/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/tuannguyendotme/flutter_todo
-    description: This Todo app is implemented using Flutter
+    description: Yet another Todo app, now using Flutter (with ScopedModel)
     fork: false
+    url: https://api.github.com/repos/tuannguyendotme/flutter_todo
+    forks_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/forks
+    keys_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/teams
+    hooks_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/hooks
+    issue_events_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/issues/events{/number}
+    events_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/events
+    assignees_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/assignees{/user}
+    branches_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/branches{/branch}
+    tags_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/tags
+    blobs_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/git/refs{/sha}
+    trees_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/statuses/{sha}
+    languages_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/languages
+    stargazers_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/stargazers
+    contributors_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/contributors
+    subscribers_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/subscribers
+    subscription_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/subscription
+    commits_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/commits{/sha}
+    git_commits_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/git/commits{/sha}
+    comments_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/comments{/number}
+    issue_comment_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/issues/comments{/number}
+    contents_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/contents/{+path}
+    compare_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/merges
+    archive_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/downloads
+    issues_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/issues{/number}
+    pulls_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/pulls{/number}
+    milestones_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/milestones{/number}
+    notifications_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/labels{/name}
+    releases_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/releases{/id}
+    deployments_url: https://api.github.com/repos/tuannguyendotme/flutter_todo/deployments
+    created_at: 2018-09-26T14:02:55Z
+    updated_at: 2026-04-12T06:19:13Z
+    pushed_at: 2019-09-27T11:20:26Z
+    git_url: git://github.com/tuannguyendotme/flutter_todo.git
+    ssh_url: git@github.com:tuannguyendotme/flutter_todo.git
+    clone_url: https://github.com/tuannguyendotme/flutter_todo.git
+    svn_url: https://github.com/tuannguyendotme/flutter_todo
+    homepage: ""
+    size: 888
+    stargazers_count: 142
+    watchers_count: 142
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 40
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 142
-    forks_count: 40
-    pushed_at: 2019-09-27T11:20:16Z
+    open_issues_count: 5
     license:
+      key: apache-2.0
+      name: Apache License 2.0
       spdx_id: Apache-2.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/apache-2.0
+      node_id: MDc6TGljZW5zZTI=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - ios
-      - todo
-      - firebase
-      - mobile
       - cross-platform
-      - todolist
+      - firebase
       - flutter
-      - todoapp
+      - ios
+      - mobile
       - scopedmodel
+      - todo
+      - todoapp
+      - todolist
+    visibility: public
+    forks: 40
+    open_issues: 5
+    watchers: 142
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 40
+    subscribers_count: 7
   activity:
-    monthlyCommits: []
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
     totalCommitsKnown: 74
-    openPullRequests: 0
+    openPullRequests: 2
+    contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-07T15:24:23.635Z
+    syncedAt: 2026-06-08T08:39:30.893Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 54514
+    Ruby: 2114
+    Objective-C: 753
+    Shell: 601
+    Java: 370
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

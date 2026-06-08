@@ -24,29 +24,155 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 156476335
+    node_id: MDEwOlJlcG9zaXRvcnkxNTY0NzYzMzU=
+    name: flutter_crush
     full_name: boeledi/flutter_crush
+    private: false
+    owner:
+      login: boeledi
+      id: 3143268
+      node_id: MDQ6VXNlcjMxNDMyNjg=
+      avatar_url: https://avatars.githubusercontent.com/u/3143268?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/boeledi
+      html_url: https://github.com/boeledi
+      followers_url: https://api.github.com/users/boeledi/followers
+      following_url: https://api.github.com/users/boeledi/following{/other_user}
+      gists_url: https://api.github.com/users/boeledi/gists{/gist_id}
+      starred_url: https://api.github.com/users/boeledi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/boeledi/subscriptions
+      organizations_url: https://api.github.com/users/boeledi/orgs
+      repos_url: https://api.github.com/users/boeledi/repos
+      events_url: https://api.github.com/users/boeledi/events{/privacy}
+      received_events_url: https://api.github.com/users/boeledi/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/boeledi/flutter_crush
-    description: How to build a Math-3 game, like Candy Crush, Bejeweled
+    description: How to build a Match-3 game, like Candy Crush, Bejeweled, FishDom… in Flutter.
     fork: false
+    url: https://api.github.com/repos/boeledi/flutter_crush
+    forks_url: https://api.github.com/repos/boeledi/flutter_crush/forks
+    keys_url: https://api.github.com/repos/boeledi/flutter_crush/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/boeledi/flutter_crush/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/boeledi/flutter_crush/teams
+    hooks_url: https://api.github.com/repos/boeledi/flutter_crush/hooks
+    issue_events_url: https://api.github.com/repos/boeledi/flutter_crush/issues/events{/number}
+    events_url: https://api.github.com/repos/boeledi/flutter_crush/events
+    assignees_url: https://api.github.com/repos/boeledi/flutter_crush/assignees{/user}
+    branches_url: https://api.github.com/repos/boeledi/flutter_crush/branches{/branch}
+    tags_url: https://api.github.com/repos/boeledi/flutter_crush/tags
+    blobs_url: https://api.github.com/repos/boeledi/flutter_crush/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/boeledi/flutter_crush/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/boeledi/flutter_crush/git/refs{/sha}
+    trees_url: https://api.github.com/repos/boeledi/flutter_crush/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/boeledi/flutter_crush/statuses/{sha}
+    languages_url: https://api.github.com/repos/boeledi/flutter_crush/languages
+    stargazers_url: https://api.github.com/repos/boeledi/flutter_crush/stargazers
+    contributors_url: https://api.github.com/repos/boeledi/flutter_crush/contributors
+    subscribers_url: https://api.github.com/repos/boeledi/flutter_crush/subscribers
+    subscription_url: https://api.github.com/repos/boeledi/flutter_crush/subscription
+    commits_url: https://api.github.com/repos/boeledi/flutter_crush/commits{/sha}
+    git_commits_url: https://api.github.com/repos/boeledi/flutter_crush/git/commits{/sha}
+    comments_url: https://api.github.com/repos/boeledi/flutter_crush/comments{/number}
+    issue_comment_url: https://api.github.com/repos/boeledi/flutter_crush/issues/comments{/number}
+    contents_url: https://api.github.com/repos/boeledi/flutter_crush/contents/{+path}
+    compare_url: https://api.github.com/repos/boeledi/flutter_crush/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/boeledi/flutter_crush/merges
+    archive_url: https://api.github.com/repos/boeledi/flutter_crush/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/boeledi/flutter_crush/downloads
+    issues_url: https://api.github.com/repos/boeledi/flutter_crush/issues{/number}
+    pulls_url: https://api.github.com/repos/boeledi/flutter_crush/pulls{/number}
+    milestones_url: https://api.github.com/repos/boeledi/flutter_crush/milestones{/number}
+    notifications_url: https://api.github.com/repos/boeledi/flutter_crush/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/boeledi/flutter_crush/labels{/name}
+    releases_url: https://api.github.com/repos/boeledi/flutter_crush/releases{/id}
+    deployments_url: https://api.github.com/repos/boeledi/flutter_crush/deployments
+    created_at: 2018-11-07T02:03:35Z
+    updated_at: 2026-05-19T03:18:23Z
+    pushed_at: 2024-04-02T14:33:30Z
+    git_url: git://github.com/boeledi/flutter_crush.git
+    ssh_url: git@github.com:boeledi/flutter_crush.git
+    clone_url: https://github.com/boeledi/flutter_crush.git
+    svn_url: https://github.com/boeledi/flutter_crush
+    homepage: ""
+    size: 14305
+    stargazers_count: 613
+    watchers_count: 613
+    language: Dart
+    has_issues: false
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 236
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 1
+    license: null
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
     visibility: public
-    stargazers_count: 613
-    forks_count: 236
-    pushed_at: 2024-04-02T14:33:27Z
-    language: Dart
-    license:
-      spdx_id: null
-      key: null
+    forks: 236
+    open_issues: 1
+    watchers: 613
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 236
+    subscribers_count: 26
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 7
+    openPullRequests: 1
+    contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-07T15:24:15.095Z
+    syncedAt: 2026-06-08T08:39:26.619Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 153184
+    Java: 1021
+    Kotlin: 126
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

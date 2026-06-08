@@ -24,38 +24,167 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 143938815
+    node_id: MDEwOlJlcG9zaXRvcnkxNDM5Mzg4MTU=
+    name: CineReel
     full_name: kserko/CineReel
+    private: false
+    owner:
+      login: kserko
+      id: 10026904
+      node_id: MDQ6VXNlcjEwMDI2OTA0
+      avatar_url: https://avatars.githubusercontent.com/u/10026904?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/kserko
+      html_url: https://github.com/kserko
+      followers_url: https://api.github.com/users/kserko/followers
+      following_url: https://api.github.com/users/kserko/following{/other_user}
+      gists_url: https://api.github.com/users/kserko/gists{/gist_id}
+      starred_url: https://api.github.com/users/kserko/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/kserko/subscriptions
+      organizations_url: https://api.github.com/users/kserko/orgs
+      repos_url: https://api.github.com/users/kserko/repos
+      events_url: https://api.github.com/users/kserko/events{/privacy}
+      received_events_url: https://api.github.com/users/kserko/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/kserko/CineReel
-    description: You can see lists for Now playing, Top Rated, Popular and Upcoming movies
+    description: " A TMDB client built with Flutter using the BLoC pattern. This app is my way of
+      learning Flutter, so take what you see here with a grain of salt"
     fork: false
+    url: https://api.github.com/repos/kserko/CineReel
+    forks_url: https://api.github.com/repos/kserko/CineReel/forks
+    keys_url: https://api.github.com/repos/kserko/CineReel/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/kserko/CineReel/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/kserko/CineReel/teams
+    hooks_url: https://api.github.com/repos/kserko/CineReel/hooks
+    issue_events_url: https://api.github.com/repos/kserko/CineReel/issues/events{/number}
+    events_url: https://api.github.com/repos/kserko/CineReel/events
+    assignees_url: https://api.github.com/repos/kserko/CineReel/assignees{/user}
+    branches_url: https://api.github.com/repos/kserko/CineReel/branches{/branch}
+    tags_url: https://api.github.com/repos/kserko/CineReel/tags
+    blobs_url: https://api.github.com/repos/kserko/CineReel/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/kserko/CineReel/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/kserko/CineReel/git/refs{/sha}
+    trees_url: https://api.github.com/repos/kserko/CineReel/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/kserko/CineReel/statuses/{sha}
+    languages_url: https://api.github.com/repos/kserko/CineReel/languages
+    stargazers_url: https://api.github.com/repos/kserko/CineReel/stargazers
+    contributors_url: https://api.github.com/repos/kserko/CineReel/contributors
+    subscribers_url: https://api.github.com/repos/kserko/CineReel/subscribers
+    subscription_url: https://api.github.com/repos/kserko/CineReel/subscription
+    commits_url: https://api.github.com/repos/kserko/CineReel/commits{/sha}
+    git_commits_url: https://api.github.com/repos/kserko/CineReel/git/commits{/sha}
+    comments_url: https://api.github.com/repos/kserko/CineReel/comments{/number}
+    issue_comment_url: https://api.github.com/repos/kserko/CineReel/issues/comments{/number}
+    contents_url: https://api.github.com/repos/kserko/CineReel/contents/{+path}
+    compare_url: https://api.github.com/repos/kserko/CineReel/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/kserko/CineReel/merges
+    archive_url: https://api.github.com/repos/kserko/CineReel/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/kserko/CineReel/downloads
+    issues_url: https://api.github.com/repos/kserko/CineReel/issues{/number}
+    pulls_url: https://api.github.com/repos/kserko/CineReel/pulls{/number}
+    milestones_url: https://api.github.com/repos/kserko/CineReel/milestones{/number}
+    notifications_url: https://api.github.com/repos/kserko/CineReel/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/kserko/CineReel/labels{/name}
+    releases_url: https://api.github.com/repos/kserko/CineReel/releases{/id}
+    deployments_url: https://api.github.com/repos/kserko/CineReel/deployments
+    created_at: 2018-08-08T00:00:02Z
+    updated_at: 2026-03-05T22:37:38Z
+    pushed_at: 2024-06-07T08:35:45Z
+    git_url: git://github.com/kserko/CineReel.git
+    ssh_url: git@github.com:kserko/CineReel.git
+    clone_url: https://github.com/kserko/CineReel.git
+    svn_url: https://github.com/kserko/CineReel
+    homepage: ""
+    size: 17920
+    stargazers_count: 186
+    watchers_count: 186
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 43
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 186
-    forks_count: 0
-    pushed_at: 2024-06-07T08:35:45Z
+    open_issues_count: 2
     license:
+      key: gpl-3.0
+      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/gpl-3.0
+      node_id: MDc6TGljZW5zZTk=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - dart
       - app
-      - flutter
+      - dart
       - dartlang
+      - flutter
       - flutter-apps
+    visibility: public
+    forks: 43
+    open_issues: 2
+    watchers: 186
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 43
+    subscribers_count: 7
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 253
     openPullRequests: 0
+    contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-07T15:24:14.640Z
+    syncedAt: 2026-06-08T08:39:26.482Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 175406
+    Objective-C: 753
+    Java: 738
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: listed

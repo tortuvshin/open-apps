@@ -25,46 +25,627 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 448598899
+    node_id: R_kgDOGr0Tcw
+    name: Tachidesk-Sorayomi
     full_name: Suwayomi/Tachidesk-Sorayomi
+    private: false
+    owner:
+      login: Suwayomi
+      id: 81182076
+      node_id: MDEyOk9yZ2FuaXphdGlvbjgxMTgyMDc2
+      avatar_url: https://avatars.githubusercontent.com/u/81182076?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/Suwayomi
+      html_url: https://github.com/Suwayomi
+      followers_url: https://api.github.com/users/Suwayomi/followers
+      following_url: https://api.github.com/users/Suwayomi/following{/other_user}
+      gists_url: https://api.github.com/users/Suwayomi/gists{/gist_id}
+      starred_url: https://api.github.com/users/Suwayomi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/Suwayomi/subscriptions
+      organizations_url: https://api.github.com/users/Suwayomi/orgs
+      repos_url: https://api.github.com/users/Suwayomi/repos
+      events_url: https://api.github.com/users/Suwayomi/events{/privacy}
+      received_events_url: https://api.github.com/users/Suwayomi/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/Suwayomi/Tachidesk-Sorayomi
-    description: Frontend for [Tachidesk-server](github.com/Suwayomi/Tachidesk-server/), based on
-      Tachiyomi to read manga in desktop
+    description: A free and open source manga reader app to read manga from a Tachidesk-Server instance.
     fork: false
+    url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi
+    forks_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/forks
+    keys_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/teams
+    hooks_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/hooks
+    issue_events_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/issues/events{/number}
+    events_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/events
+    assignees_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/assignees{/user}
+    branches_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/branches{/branch}
+    tags_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/tags
+    blobs_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/git/refs{/sha}
+    trees_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/statuses/{sha}
+    languages_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/languages
+    stargazers_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/stargazers
+    contributors_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/contributors
+    subscribers_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/subscribers
+    subscription_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/subscription
+    commits_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/commits{/sha}
+    git_commits_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/git/commits{/sha}
+    comments_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/comments{/number}
+    issue_comment_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/issues/comments{/number}
+    contents_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/contents/{+path}
+    compare_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/merges
+    archive_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/downloads
+    issues_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/issues{/number}
+    pulls_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/pulls{/number}
+    milestones_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/milestones{/number}
+    notifications_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/labels{/name}
+    releases_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases{/id}
+    deployments_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/deployments
+    created_at: 2022-01-16T15:47:28Z
+    updated_at: 2026-06-07T15:11:15Z
+    pushed_at: 2025-07-09T05:10:46Z
+    git_url: git://github.com/Suwayomi/Tachidesk-Sorayomi.git
+    ssh_url: git@github.com:Suwayomi/Tachidesk-Sorayomi.git
+    clone_url: https://github.com/Suwayomi/Tachidesk-Sorayomi.git
+    svn_url: https://github.com/Suwayomi/Tachidesk-Sorayomi
+    homepage: https://suwayomi.github.io/Tachidesk-Sorayomi/
+    size: 29064
+    stargazers_count: 1541
+    watchers_count: 1541
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: true
+    has_discussions: true
+    forks_count: 129
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 1542
-    forks_count: 0
-    pushed_at: 2025-07-09T05:10:46Z
+    open_issues_count: 54
     license:
+      key: mpl-2.0
+      name: Mozilla Public License 2.0
       spdx_id: MPL-2.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mpl-2.0
+      node_id: MDc6TGljZW5zZTE0
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - windows
-      - macos
-      - linux
-      - dart
-      - ios
-      - web
       - cross-platform
+      - dart
       - flutter
-      - tachiyomi
       - flutter-hooks
+      - ios
+      - linux
+      - macos
       - riverpod
       - tachidesk
+      - tachiyomi
+      - web
+      - windows
+    visibility: public
+    forks: 129
+    open_issues: 54
+    watchers: 1541
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: Suwayomi
+      id: 81182076
+      node_id: MDEyOk9yZ2FuaXphdGlvbjgxMTgyMDc2
+      avatar_url: https://avatars.githubusercontent.com/u/81182076?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/Suwayomi
+      html_url: https://github.com/Suwayomi
+      followers_url: https://api.github.com/users/Suwayomi/followers
+      following_url: https://api.github.com/users/Suwayomi/following{/other_user}
+      gists_url: https://api.github.com/users/Suwayomi/gists{/gist_id}
+      starred_url: https://api.github.com/users/Suwayomi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/Suwayomi/subscriptions
+      organizations_url: https://api.github.com/users/Suwayomi/orgs
+      repos_url: https://api.github.com/users/Suwayomi/repos
+      events_url: https://api.github.com/users/Suwayomi/events{/privacy}
+      received_events_url: https://api.github.com/users/Suwayomi/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 129
+    subscribers_count: 10
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 540
+    openPullRequests: 10
+    contributorsKnown: 63
   sync:
-    syncedAt: 2026-06-07T15:24:46.018Z
+    syncedAt: 2026-06-08T08:39:42.260Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 881306
+    C++: 21741
+    CMake: 18815
+    HTML: 3881
+    Ruby: 2808
+    Shell: 2643
+    Swift: 2198
+    C: 1425
+    CSS: 835
+    Kotlin: 246
+    Makefile: 199
+    JavaScript: 188
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/201847418
+    assets_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/201847418/assets
+    upload_url: https://uploads.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/201847418/assets{?name,label}
+    html_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/tag/0.6.3
+    id: 201847418
+    author:
+      login: DattatreyaReddy
+      id: 58727124
+      node_id: MDQ6VXNlcjU4NzI3MTI0
+      avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/DattatreyaReddy
+      html_url: https://github.com/DattatreyaReddy
+      followers_url: https://api.github.com/users/DattatreyaReddy/followers
+      following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+      gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+      starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+      organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+      repos_url: https://api.github.com/users/DattatreyaReddy/repos
+      events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+      received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOGr0Tc84MB_J6
+    tag_name: 0.6.3
+    target_commitish: main
+    name: 0.6.3 - Please Use this with Suwayomi Preview 🙇‍♂️
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2025-02-22T14:17:52Z
+    updated_at: 2025-02-22T15:13:14Z
+    published_at: 2025-02-22T14:18:27Z
+    assets:
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231596439
+        id: 231596439
+        node_id: RA_kwDOGr0Tc84NzeGX
+        name: tachidesk-sorayomi-0.6.3-android-all.apk
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 28883950
+        digest: null
+        download_count: 9473
+        created_at: 2025-02-22T15:13:12Z
+        updated_at: 2025-02-22T15:13:14Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-all.apk
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231596438
+        id: 231596438
+        node_id: RA_kwDOGr0Tc84NzeGW
+        name: tachidesk-sorayomi-0.6.3-android-arm64-v8a.apk
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 10948659
+        digest: null
+        download_count: 2947
+        created_at: 2025-02-22T15:13:12Z
+        updated_at: 2025-02-22T15:13:13Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-arm64-v8a.apk
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231596440
+        id: 231596440
+        node_id: RA_kwDOGr0Tc84NzeGY
+        name: tachidesk-sorayomi-0.6.3-android-armeabi-v7a.apk
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 10651623
+        digest: null
+        download_count: 584
+        created_at: 2025-02-22T15:13:12Z
+        updated_at: 2025-02-22T15:13:13Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-armeabi-v7a.apk
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231596437
+        id: 231596437
+        node_id: RA_kwDOGr0Tc84NzeGV
+        name: tachidesk-sorayomi-0.6.3-android-x86_64.apk
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 11073837
+        digest: null
+        download_count: 621
+        created_at: 2025-02-22T15:13:12Z
+        updated_at: 2025-02-22T15:13:13Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-x86_64.apk
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231594453
+        id: 231594453
+        node_id: RA_kwDOGr0Tc84NzdnV
+        name: tachidesk-sorayomi-0.6.3-ios.ipa
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 27963820
+        digest: null
+        download_count: 6004
+        created_at: 2025-02-22T15:05:15Z
+        updated_at: 2025-02-22T15:05:16Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231594882
+        id: 231594882
+        node_id: RA_kwDOGr0Tc84NzduC
+        name: tachidesk-sorayomi-0.6.3-linux-x64.tar.gz
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/gzip
+        state: uploaded
+        size: 12440428
+        digest: null
+        download_count: 1955
+        created_at: 2025-02-22T15:06:54Z
+        updated_at: 2025-02-22T15:06:54Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-linux-x64.tar.gz
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231594330
+        id: 231594330
+        node_id: RA_kwDOGr0Tc84Nzdla
+        name: tachidesk-sorayomi-0.6.3-macos-x64.zip
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 21567242
+        digest: null
+        download_count: 2825
+        created_at: 2025-02-22T15:04:43Z
+        updated_at: 2025-02-22T15:04:44Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-macos-x64.zip
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231594059
+        id: 231594059
+        node_id: RA_kwDOGr0Tc84NzdhL
+        name: tachidesk-sorayomi-0.6.3-web.zip
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 11022017
+        digest: null
+        download_count: 1691
+        created_at: 2025-02-22T15:03:39Z
+        updated_at: 2025-02-22T15:03:39Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-web.zip
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231595635
+        id: 231595635
+        node_id: RA_kwDOGr0Tc84Nzd5z
+        name: tachidesk-sorayomi-0.6.3-windows-x64.msi
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 14532608
+        digest: null
+        download_count: 22268
+        created_at: 2025-02-22T15:09:36Z
+        updated_at: 2025-02-22T15:09:37Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-windows-x64.msi
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231595634
+        id: 231595634
+        node_id: RA_kwDOGr0Tc84Nzd5y
+        name: tachidesk-sorayomi-0.6.3-windows-x64.zip
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 21012554
+        digest: null
+        download_count: 12696
+        created_at: 2025-02-22T15:09:36Z
+        updated_at: 2025-02-22T15:09:37Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-windows-x64.zip
+      - url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/assets/231594883
+        id: 231594883
+        node_id: RA_kwDOGr0Tc84NzduD
+        name: tachidesk-sorayomi_0.6.3-1_amd64.deb
+        label: ""
+        uploader:
+          login: DattatreyaReddy
+          id: 58727124
+          node_id: MDQ6VXNlcjU4NzI3MTI0
+          avatar_url: https://avatars.githubusercontent.com/u/58727124?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/DattatreyaReddy
+          html_url: https://github.com/DattatreyaReddy
+          followers_url: https://api.github.com/users/DattatreyaReddy/followers
+          following_url: https://api.github.com/users/DattatreyaReddy/following{/other_user}
+          gists_url: https://api.github.com/users/DattatreyaReddy/gists{/gist_id}
+          starred_url: https://api.github.com/users/DattatreyaReddy/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/DattatreyaReddy/subscriptions
+          organizations_url: https://api.github.com/users/DattatreyaReddy/orgs
+          repos_url: https://api.github.com/users/DattatreyaReddy/repos
+          events_url: https://api.github.com/users/DattatreyaReddy/events{/privacy}
+          received_events_url: https://api.github.com/users/DattatreyaReddy/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 10207098
+        digest: null
+        download_count: 626
+        created_at: 2025-02-22T15:06:54Z
+        updated_at: 2025-02-22T15:06:54Z
+        browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi_0.6.3-1_amd64.deb
+    tarball_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/tarball/0.6.3
+    zipball_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/zipball/0.6.3
+    body: "## What's Changed\r
+
+      * fixed port number picker by @DattatreyaReddy in
+      https://github.com/Suwayomi/Tachidesk-Sorayomi/pull/336\r
+
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/Suwayomi/Tachidesk-Sorayomi/compare/0.6.2...0.6.3"
+    reactions:
+      url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/releases/201847418/reactions
+      total_count: 5
+      "+1": 0
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 5
+      rocket: 0
+      eyes: 0
+    mentions_count: 1
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: quiet
   tier: curated

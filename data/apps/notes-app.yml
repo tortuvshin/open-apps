@@ -24,36 +24,170 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 185645645
+    node_id: MDEwOlJlcG9zaXRvcnkxODU2NDU2NDU=
+    name: notes-app
     full_name: bimsina/notes-app
+    private: false
+    owner:
+      login: bimsina
+      id: 29589003
+      node_id: MDQ6VXNlcjI5NTg5MDAz
+      avatar_url: https://avatars.githubusercontent.com/u/29589003?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/bimsina
+      html_url: https://github.com/bimsina
+      followers_url: https://api.github.com/users/bimsina/followers
+      following_url: https://api.github.com/users/bimsina/following{/other_user}
+      gists_url: https://api.github.com/users/bimsina/gists{/gist_id}
+      starred_url: https://api.github.com/users/bimsina/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/bimsina/subscriptions
+      organizations_url: https://api.github.com/users/bimsina/orgs
+      repos_url: https://api.github.com/users/bimsina/repos
+      events_url: https://api.github.com/users/bimsina/events{/privacy}
+      received_events_url: https://api.github.com/users/bimsina/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/bimsina/notes-app
-    description: Note Taking App made with Flutter with Sqlite as database
+    description: Note Taking App made with Flutter with Sqlite as database..
     fork: false
+    url: https://api.github.com/repos/bimsina/notes-app
+    forks_url: https://api.github.com/repos/bimsina/notes-app/forks
+    keys_url: https://api.github.com/repos/bimsina/notes-app/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/bimsina/notes-app/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/bimsina/notes-app/teams
+    hooks_url: https://api.github.com/repos/bimsina/notes-app/hooks
+    issue_events_url: https://api.github.com/repos/bimsina/notes-app/issues/events{/number}
+    events_url: https://api.github.com/repos/bimsina/notes-app/events
+    assignees_url: https://api.github.com/repos/bimsina/notes-app/assignees{/user}
+    branches_url: https://api.github.com/repos/bimsina/notes-app/branches{/branch}
+    tags_url: https://api.github.com/repos/bimsina/notes-app/tags
+    blobs_url: https://api.github.com/repos/bimsina/notes-app/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/bimsina/notes-app/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/bimsina/notes-app/git/refs{/sha}
+    trees_url: https://api.github.com/repos/bimsina/notes-app/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/bimsina/notes-app/statuses/{sha}
+    languages_url: https://api.github.com/repos/bimsina/notes-app/languages
+    stargazers_url: https://api.github.com/repos/bimsina/notes-app/stargazers
+    contributors_url: https://api.github.com/repos/bimsina/notes-app/contributors
+    subscribers_url: https://api.github.com/repos/bimsina/notes-app/subscribers
+    subscription_url: https://api.github.com/repos/bimsina/notes-app/subscription
+    commits_url: https://api.github.com/repos/bimsina/notes-app/commits{/sha}
+    git_commits_url: https://api.github.com/repos/bimsina/notes-app/git/commits{/sha}
+    comments_url: https://api.github.com/repos/bimsina/notes-app/comments{/number}
+    issue_comment_url: https://api.github.com/repos/bimsina/notes-app/issues/comments{/number}
+    contents_url: https://api.github.com/repos/bimsina/notes-app/contents/{+path}
+    compare_url: https://api.github.com/repos/bimsina/notes-app/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/bimsina/notes-app/merges
+    archive_url: https://api.github.com/repos/bimsina/notes-app/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/bimsina/notes-app/downloads
+    issues_url: https://api.github.com/repos/bimsina/notes-app/issues{/number}
+    pulls_url: https://api.github.com/repos/bimsina/notes-app/pulls{/number}
+    milestones_url: https://api.github.com/repos/bimsina/notes-app/milestones{/number}
+    notifications_url: https://api.github.com/repos/bimsina/notes-app/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/bimsina/notes-app/labels{/name}
+    releases_url: https://api.github.com/repos/bimsina/notes-app/releases{/id}
+    deployments_url: https://api.github.com/repos/bimsina/notes-app/deployments
+    created_at: 2019-05-08T16:49:07Z
+    updated_at: 2026-06-07T22:34:09Z
+    pushed_at: 2022-04-03T00:50:54Z
+    git_url: git://github.com/bimsina/notes-app.git
+    ssh_url: git@github.com:bimsina/notes-app.git
+    clone_url: https://github.com/bimsina/notes-app.git
+    svn_url: https://github.com/bimsina/notes-app
+    homepage: null
+    size: 419
+    stargazers_count: 540
+    watchers_count: 540
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 118
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 541
-    forks_count: 118
-    pushed_at: 2022-02-08T14:46:03Z
+    open_issues_count: 0
     license:
+      key: mit
+      name: MIT License
       spdx_id: MIT
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - sqlite
       - flutter
       - flutter-apps
       - flutter-ui
+      - sqlite
+    visibility: public
+    forks: 118
+    open_issues: 0
+    watchers: 540
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 118
+    subscribers_count: 15
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 11
     openPullRequests: 0
+    contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-07T15:24:38.337Z
+    syncedAt: 2026-06-08T08:39:38.489Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 33697
+    C++: 16820
+    CMake: 7943
+    Ruby: 2684
+    HTML: 1507
+    Swift: 1368
+    C: 734
+    Kotlin: 126
+    Objective-C: 38
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated

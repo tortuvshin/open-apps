@@ -25,48 +25,467 @@ stack:
       role: mobile-framework
 github:
   repository:
-    full_name: status-im/status-react
-    html_url: https://github.com/status-im/status-react
-    description: Status is a secure messaging app, Ethereum wallet, and Web3 browser built on
-      decentralized protocols.
+    id: 52308441
+    node_id: MDEwOlJlcG9zaXRvcnk1MjMwODQ0MQ==
+    name: status-legacy
+    full_name: status-im/status-legacy
+    private: false
+    owner:
+      login: status-im
+      id: 11767950
+      node_id: MDEyOk9yZ2FuaXphdGlvbjExNzY3OTUw
+      avatar_url: https://avatars.githubusercontent.com/u/11767950?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/status-im
+      html_url: https://github.com/status-im
+      followers_url: https://api.github.com/users/status-im/followers
+      following_url: https://api.github.com/users/status-im/following{/other_user}
+      gists_url: https://api.github.com/users/status-im/gists{/gist_id}
+      starred_url: https://api.github.com/users/status-im/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/status-im/subscriptions
+      organizations_url: https://api.github.com/users/status-im/orgs
+      repos_url: https://api.github.com/users/status-im/repos
+      events_url: https://api.github.com/users/status-im/events{/privacy}
+      received_events_url: https://api.github.com/users/status-im/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    html_url: https://github.com/status-im/status-legacy
+    description: a free (libre) open source, mobile OS for Ethereum
     fork: false
+    url: https://api.github.com/repos/status-im/status-legacy
+    forks_url: https://api.github.com/repos/status-im/status-legacy/forks
+    keys_url: https://api.github.com/repos/status-im/status-legacy/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/status-im/status-legacy/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/status-im/status-legacy/teams
+    hooks_url: https://api.github.com/repos/status-im/status-legacy/hooks
+    issue_events_url: https://api.github.com/repos/status-im/status-legacy/issues/events{/number}
+    events_url: https://api.github.com/repos/status-im/status-legacy/events
+    assignees_url: https://api.github.com/repos/status-im/status-legacy/assignees{/user}
+    branches_url: https://api.github.com/repos/status-im/status-legacy/branches{/branch}
+    tags_url: https://api.github.com/repos/status-im/status-legacy/tags
+    blobs_url: https://api.github.com/repos/status-im/status-legacy/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/status-im/status-legacy/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/status-im/status-legacy/git/refs{/sha}
+    trees_url: https://api.github.com/repos/status-im/status-legacy/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/status-im/status-legacy/statuses/{sha}
+    languages_url: https://api.github.com/repos/status-im/status-legacy/languages
+    stargazers_url: https://api.github.com/repos/status-im/status-legacy/stargazers
+    contributors_url: https://api.github.com/repos/status-im/status-legacy/contributors
+    subscribers_url: https://api.github.com/repos/status-im/status-legacy/subscribers
+    subscription_url: https://api.github.com/repos/status-im/status-legacy/subscription
+    commits_url: https://api.github.com/repos/status-im/status-legacy/commits{/sha}
+    git_commits_url: https://api.github.com/repos/status-im/status-legacy/git/commits{/sha}
+    comments_url: https://api.github.com/repos/status-im/status-legacy/comments{/number}
+    issue_comment_url: https://api.github.com/repos/status-im/status-legacy/issues/comments{/number}
+    contents_url: https://api.github.com/repos/status-im/status-legacy/contents/{+path}
+    compare_url: https://api.github.com/repos/status-im/status-legacy/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/status-im/status-legacy/merges
+    archive_url: https://api.github.com/repos/status-im/status-legacy/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/status-im/status-legacy/downloads
+    issues_url: https://api.github.com/repos/status-im/status-legacy/issues{/number}
+    pulls_url: https://api.github.com/repos/status-im/status-legacy/pulls{/number}
+    milestones_url: https://api.github.com/repos/status-im/status-legacy/milestones{/number}
+    notifications_url: https://api.github.com/repos/status-im/status-legacy/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/status-im/status-legacy/labels{/name}
+    releases_url: https://api.github.com/repos/status-im/status-legacy/releases{/id}
+    deployments_url: https://api.github.com/repos/status-im/status-legacy/deployments
+    created_at: 2016-02-22T21:48:48Z
+    updated_at: 2026-06-07T15:09:22Z
+    pushed_at: 2026-06-04T12:54:35Z
+    git_url: git://github.com/status-im/status-legacy.git
+    ssh_url: git@github.com:status-im/status-legacy.git
+    clone_url: https://github.com/status-im/status-legacy.git
+    svn_url: https://github.com/status-im/status-legacy
+    homepage: https://status.app
+    size: 487854
+    stargazers_count: 4015
+    watchers_count: 4015
+    language: Clojure
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 993
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 4016
-    forks_count: 1000
-    pushed_at: 2025-10-23T06:09:38Z
+    open_issues_count: 452
     license:
+      key: mpl-2.0
+      name: Mozilla Public License 2.0
       spdx_id: MPL-2.0
-      key: null
-      name: null
-      url: null
-    language: Clojure
+      url: https://api.github.com/licenses/mpl-2.0
+      node_id: MDc6TGljZW5zZTE0
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
-      - ios
-      - clojure
-      - mobile
-      - react-native
-      - clojurescript
-      - ethereum
-      - messenger
       - blockchain
-      - reagent
-      - re-frame
+      - clojure
+      - clojurescript
       - cryptocurrency
-      - wallet
-      - reactnative
+      - ethereum
+      - ios
+      - messenger
+      - mobile
+      - re-frame
+      - react-native
       - react-native-app
+      - reactnative
+      - reagent
+      - wallet
+    visibility: public
+    forks: 993
+    open_issues: 452
+    watchers: 4015
+    default_branch: develop
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: status-im
+      id: 11767950
+      node_id: MDEyOk9yZ2FuaXphdGlvbjExNzY3OTUw
+      avatar_url: https://avatars.githubusercontent.com/u/11767950?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/status-im
+      html_url: https://github.com/status-im
+      followers_url: https://api.github.com/users/status-im/followers
+      following_url: https://api.github.com/users/status-im/following{/other_user}
+      gists_url: https://api.github.com/users/status-im/gists{/gist_id}
+      starred_url: https://api.github.com/users/status-im/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/status-im/subscriptions
+      organizations_url: https://api.github.com/users/status-im/orgs
+      repos_url: https://api.github.com/users/status-im/repos
+      events_url: https://api.github.com/users/status-im/events{/privacy}
+      received_events_url: https://api.github.com/users/status-im/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 993
+    subscribers_count: 189
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 10569
+    openPullRequests: 10
+    contributorsKnown: 311
   sync:
-    syncedAt: 2026-06-07T15:24:45.096Z
+    syncedAt: 2026-06-08T08:39:42.045Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Clojure: 6038185
+    Python: 533183
+    Kotlin: 143076
+    Shell: 93127
+    Nix: 84861
+    Objective-C: 81634
+    C++: 57144
+    JavaScript: 41778
+    Groovy: 32275
+    Makefile: 20342
+    Ruby: 15111
+    Objective-C++: 9844
+    Dockerfile: 3813
+    C: 1260
+    Swift: 299
+  latestRelease:
+    url: https://api.github.com/repos/status-im/status-legacy/releases/256987869
+    assets_url: https://api.github.com/repos/status-im/status-legacy/releases/256987869/assets
+    upload_url: https://uploads.github.com/repos/status-im/status-legacy/releases/256987869/assets{?name,label}
+    html_url: https://github.com/status-im/status-legacy/releases/tag/2.34.4
+    id: 256987869
+    author:
+      login: status-im-auto
+      id: 40699771
+      node_id: MDQ6VXNlcjQwNjk5Nzcx
+      avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/status-im-auto
+      html_url: https://github.com/status-im-auto
+      followers_url: https://api.github.com/users/status-im-auto/followers
+      following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+      gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+      starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+      organizations_url: https://api.github.com/users/status-im-auto/orgs
+      repos_url: https://api.github.com/users/status-im-auto/repos
+      events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+      received_events_url: https://api.github.com/users/status-im-auto/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOAx4p2c4PUVLd
+    tag_name: 2.34.4
+    target_commitish: release/2.34.x
+    name: 2.34.4
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2025-10-24T12:16:29Z
+    updated_at: 2025-10-28T17:37:08Z
+    published_at: 2025-10-28T17:37:08Z
+    assets:
+      - url: https://api.github.com/repos/status-im/status-legacy/releases/assets/308184741
+        id: 308184741
+        node_id: RA_kwDOAx4p2c4SXoal
+        name: StatusIm-Mobile-v2.34.4-2de761-arm64-v8a.apk
+        label: ""
+        uploader:
+          login: status-im-auto
+          id: 40699771
+          node_id: MDQ6VXNlcjQwNjk5Nzcx
+          avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/status-im-auto
+          html_url: https://github.com/status-im-auto
+          followers_url: https://api.github.com/users/status-im-auto/followers
+          following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+          gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+          starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+          organizations_url: https://api.github.com/users/status-im-auto/orgs
+          repos_url: https://api.github.com/users/status-im-auto/repos
+          events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+          received_events_url: https://api.github.com/users/status-im-auto/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 79044006
+        digest: sha256:e0480df44935f489755cab4fde8cb9201671b3878f02e155a1ae353c0cb5ef52
+        download_count: 591
+        created_at: 2025-10-24T12:27:55Z
+        updated_at: 2025-10-24T12:28:00Z
+        browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-arm64-v8a.apk
+      - url: https://api.github.com/repos/status-im/status-legacy/releases/assets/308184797
+        id: 308184797
+        node_id: RA_kwDOAx4p2c4SXobd
+        name: StatusIm-Mobile-v2.34.4-2de761-armeabi-v7a.apk
+        label: ""
+        uploader:
+          login: status-im-auto
+          id: 40699771
+          node_id: MDQ6VXNlcjQwNjk5Nzcx
+          avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/status-im-auto
+          html_url: https://github.com/status-im-auto
+          followers_url: https://api.github.com/users/status-im-auto/followers
+          following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+          gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+          starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+          organizations_url: https://api.github.com/users/status-im-auto/orgs
+          repos_url: https://api.github.com/users/status-im-auto/repos
+          events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+          received_events_url: https://api.github.com/users/status-im-auto/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 77938234
+        digest: sha256:f53754f31831a2b05b292d45c960e13984eccd45ecab3d99a1e5d203bbbfd673
+        download_count: 56
+        created_at: 2025-10-24T12:28:02Z
+        updated_at: 2025-10-24T12:28:20Z
+        browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-armeabi-v7a.apk
+      - url: https://api.github.com/repos/status-im/status-legacy/releases/assets/308184968
+        id: 308184968
+        node_id: RA_kwDOAx4p2c4SXoeI
+        name: StatusIm-Mobile-v2.34.4-2de761-universal.apk
+        label: ""
+        uploader:
+          login: status-im-auto
+          id: 40699771
+          node_id: MDQ6VXNlcjQwNjk5Nzcx
+          avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/status-im-auto
+          html_url: https://github.com/status-im-auto
+          followers_url: https://api.github.com/users/status-im-auto/followers
+          following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+          gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+          starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+          organizations_url: https://api.github.com/users/status-im-auto/orgs
+          repos_url: https://api.github.com/users/status-im-auto/repos
+          events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+          received_events_url: https://api.github.com/users/status-im-auto/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 132542734
+        digest: sha256:201f3a62e6b8352da5c7f436c0c284aa1d2aeb49e3c8fa87b57d825f348e3a31
+        download_count: 732
+        created_at: 2025-10-24T12:28:26Z
+        updated_at: 2025-10-24T12:28:33Z
+        browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-universal.apk
+      - url: https://api.github.com/repos/status-im/status-legacy/releases/assets/308185028
+        id: 308185028
+        node_id: RA_kwDOAx4p2c4SXofE
+        name: StatusIm-Mobile-v2.34.4-2de761.ipa
+        label: ""
+        uploader:
+          login: status-im-auto
+          id: 40699771
+          node_id: MDQ6VXNlcjQwNjk5Nzcx
+          avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/status-im-auto
+          html_url: https://github.com/status-im-auto
+          followers_url: https://api.github.com/users/status-im-auto/followers
+          following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+          gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+          starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+          organizations_url: https://api.github.com/users/status-im-auto/orgs
+          repos_url: https://api.github.com/users/status-im-auto/repos
+          events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+          received_events_url: https://api.github.com/users/status-im-auto/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 68690442
+        digest: sha256:a16384854ecb317c08a4393db46031b8caf80db32cee12a3d767daadd65c8e83
+        download_count: 139
+        created_at: 2025-10-24T12:28:36Z
+        updated_at: 2025-10-24T12:28:40Z
+        browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761.ipa
+      - url: https://api.github.com/repos/status-im/status-legacy/releases/assets/308185057
+        id: 308185057
+        node_id: RA_kwDOAx4p2c4SXofh
+        name: StatusIm-Mobile-v2.34.4-2de761.sha256
+        label: ""
+        uploader:
+          login: status-im-auto
+          id: 40699771
+          node_id: MDQ6VXNlcjQwNjk5Nzcx
+          avatar_url: https://avatars.githubusercontent.com/u/40699771?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/status-im-auto
+          html_url: https://github.com/status-im-auto
+          followers_url: https://api.github.com/users/status-im-auto/followers
+          following_url: https://api.github.com/users/status-im-auto/following{/other_user}
+          gists_url: https://api.github.com/users/status-im-auto/gists{/gist_id}
+          starred_url: https://api.github.com/users/status-im-auto/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/status-im-auto/subscriptions
+          organizations_url: https://api.github.com/users/status-im-auto/orgs
+          repos_url: https://api.github.com/users/status-im-auto/repos
+          events_url: https://api.github.com/users/status-im-auto/events{/privacy}
+          received_events_url: https://api.github.com/users/status-im-auto/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 436
+        digest: sha256:a16fa52daf400199227728c4b502ccaba311071d2257b111ff1b6c6620495e5c
+        download_count: 83
+        created_at: 2025-10-24T12:28:42Z
+        updated_at: 2025-10-24T12:28:42Z
+        browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761.sha256
+    tarball_url: https://api.github.com/repos/status-im/status-legacy/tarball/2.34.4
+    zipball_url: https://api.github.com/repos/status-im/status-legacy/zipball/2.34.4
+    body: "### Release Notes\r
+
+      \r
+
+      Patch on top of [2.34.3](https://github.com/status-im/status-mobile/releases/tag/2.34.3)\r
+
+      \r
+
+      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s
+      Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)\r
+
+      \r
+
+      The Status app team is now releasing the final feature release (v2.34.4) of this legacy Status
+      Mobile App (Status Legacy), which includes:\r
+
+      \r
+
+      1. Renaming the app to Status Legacy and changing its icon to blue, so users can easily
+      distinguish it from the unified Status mobile app (Status).\r
+
+      \r
+
+      ![Screenshot_20251028_133502_One_UI_Home](https://github.com/user-attachments/assets/90a34b9a\
+      -f314-44dc-8c2e-a81522db799b)\r
+
+      \r
+
+      2. Two new features to make user profile and data migration to the unified Status mobile app
+      (Status) simple, secure, and private:\r
+
+      \r
+
+      - Optional message syncing across devices using end-to-end encrypted app pairing. Go to
+      Settings → Syncing and Backup → Paired Devices → Tap + to start a new sync → Enable message
+      syncing.\r
+
+      <img width=\"393\" height=\"873\" alt=\"Screenshot_20251028_134318_Status_Legacy\"
+      src=\"https://github.com/user-attachments/assets/6a75b451-c5fc-4641-bcdf-add3a477a256\" />\r
+
+      \r
+
+      - On-device backup to manually back up your Status profile data (including optional backup of
+      your direct, group, and community messages) directly on your device. Go to Settings → Syncing
+      and Backup → Backup.\r
+
+      <img width=\"393\" height=\"533\" alt=\"Screenshot_20251028_134238_Status_Legacy\"
+      src=\"https://github.com/user-attachments/assets/c72a8887-e025-4892-b095-f25cd29e9887\" />\r
+
+      \r
+
+      \  \r
+
+      While the Clojure-based Status Legacy app (Status Legacy) will remain public and open for
+      contributions, the core Status team won’t add new features beyond the current v2.34.4 release.
+      The team will focus on developing the unified Status Mobile App (Status) going forward. We may
+      issue critical fixes, if absolutely needed, during the 2–3-month user migration period.\r
+
+      \r
+
+      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s
+      Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)"
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels: []
 health:
   status: quiet
   tier: curated

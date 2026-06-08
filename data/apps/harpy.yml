@@ -24,39 +24,422 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 155077431
+    node_id: MDEwOlJlcG9zaXRvcnkxNTUwNzc0MzE=
+    name: harpy
     full_name: robertodoering/harpy
+    private: false
+    owner:
+      login: robertodoering
+      id: 20045287
+      node_id: MDQ6VXNlcjIwMDQ1Mjg3
+      avatar_url: https://avatars.githubusercontent.com/u/20045287?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/robertodoering
+      html_url: https://github.com/robertodoering
+      followers_url: https://api.github.com/users/robertodoering/followers
+      following_url: https://api.github.com/users/robertodoering/following{/other_user}
+      gists_url: https://api.github.com/users/robertodoering/gists{/gist_id}
+      starred_url: https://api.github.com/users/robertodoering/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/robertodoering/subscriptions
+      organizations_url: https://api.github.com/users/robertodoering/orgs
+      repos_url: https://api.github.com/users/robertodoering/repos
+      events_url: https://api.github.com/users/robertodoering/events{/privacy}
+      received_events_url: https://api.github.com/users/robertodoering/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/robertodoering/harpy
-    description: A Twitter app built with Flutter [Roberto Doering](
+    description: a Twitter app built with Flutter 🦅
     fork: false
+    url: https://api.github.com/repos/robertodoering/harpy
+    forks_url: https://api.github.com/repos/robertodoering/harpy/forks
+    keys_url: https://api.github.com/repos/robertodoering/harpy/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/robertodoering/harpy/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/robertodoering/harpy/teams
+    hooks_url: https://api.github.com/repos/robertodoering/harpy/hooks
+    issue_events_url: https://api.github.com/repos/robertodoering/harpy/issues/events{/number}
+    events_url: https://api.github.com/repos/robertodoering/harpy/events
+    assignees_url: https://api.github.com/repos/robertodoering/harpy/assignees{/user}
+    branches_url: https://api.github.com/repos/robertodoering/harpy/branches{/branch}
+    tags_url: https://api.github.com/repos/robertodoering/harpy/tags
+    blobs_url: https://api.github.com/repos/robertodoering/harpy/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/robertodoering/harpy/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/robertodoering/harpy/git/refs{/sha}
+    trees_url: https://api.github.com/repos/robertodoering/harpy/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/robertodoering/harpy/statuses/{sha}
+    languages_url: https://api.github.com/repos/robertodoering/harpy/languages
+    stargazers_url: https://api.github.com/repos/robertodoering/harpy/stargazers
+    contributors_url: https://api.github.com/repos/robertodoering/harpy/contributors
+    subscribers_url: https://api.github.com/repos/robertodoering/harpy/subscribers
+    subscription_url: https://api.github.com/repos/robertodoering/harpy/subscription
+    commits_url: https://api.github.com/repos/robertodoering/harpy/commits{/sha}
+    git_commits_url: https://api.github.com/repos/robertodoering/harpy/git/commits{/sha}
+    comments_url: https://api.github.com/repos/robertodoering/harpy/comments{/number}
+    issue_comment_url: https://api.github.com/repos/robertodoering/harpy/issues/comments{/number}
+    contents_url: https://api.github.com/repos/robertodoering/harpy/contents/{+path}
+    compare_url: https://api.github.com/repos/robertodoering/harpy/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/robertodoering/harpy/merges
+    archive_url: https://api.github.com/repos/robertodoering/harpy/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/robertodoering/harpy/downloads
+    issues_url: https://api.github.com/repos/robertodoering/harpy/issues{/number}
+    pulls_url: https://api.github.com/repos/robertodoering/harpy/pulls{/number}
+    milestones_url: https://api.github.com/repos/robertodoering/harpy/milestones{/number}
+    notifications_url: https://api.github.com/repos/robertodoering/harpy/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/robertodoering/harpy/labels{/name}
+    releases_url: https://api.github.com/repos/robertodoering/harpy/releases{/id}
+    deployments_url: https://api.github.com/repos/robertodoering/harpy/deployments
+    created_at: 2018-10-28T14:02:58Z
+    updated_at: 2026-06-08T01:40:10Z
+    pushed_at: 2024-08-01T23:32:46Z
+    git_url: git://github.com/robertodoering/harpy.git
+    ssh_url: git@github.com:robertodoering/harpy.git
+    clone_url: https://github.com/robertodoering/harpy.git
+    svn_url: https://github.com/robertodoering/harpy
+    homepage: ""
+    size: 74518
+    stargazers_count: 2074
+    watchers_count: 2074
+    language: Dart
+    has_issues: true
+    has_projects: false
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 202
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 2073
-    forks_count: 202
-    pushed_at: 2023-10-22T14:41:29Z
+    open_issues_count: 3
     license:
+      key: gpl-3.0
+      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/gpl-3.0
+      node_id: MDc6TGljZW5zZTk=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - dart
+      - flutter
       - mobile
+      - mobile-app
       - twitter
       - twitter-api
-      - mobile-app
       - twitter-client
-      - flutter
+    visibility: public
+    forks: 202
+    open_issues: 3
+    watchers: 2074
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 202
+    subscribers_count: 37
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 3078
+    openPullRequests: 1
+    contributorsKnown: 21
   sync:
-    syncedAt: 2026-06-07T15:24:29.942Z
+    syncedAt: 2026-06-08T08:39:33.628Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 1055973
+    Ruby: 7174
+    Java: 3579
+    Swift: 404
+    Objective-C: 38
+  latestRelease:
+    url: https://api.github.com/repos/robertodoering/harpy/releases/111495938
+    assets_url: https://api.github.com/repos/robertodoering/harpy/releases/111495938/assets
+    upload_url: https://uploads.github.com/repos/robertodoering/harpy/releases/111495938/assets{?name,label}
+    html_url: https://github.com/robertodoering/harpy/releases/tag/0.10.3
+    id: 111495938
+    author:
+      login: robertodoering
+      id: 20045287
+      node_id: MDQ6VXNlcjIwMDQ1Mjg3
+      avatar_url: https://avatars.githubusercontent.com/u/20045287?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/robertodoering
+      html_url: https://github.com/robertodoering
+      followers_url: https://api.github.com/users/robertodoering/followers
+      following_url: https://api.github.com/users/robertodoering/following{/other_user}
+      gists_url: https://api.github.com/users/robertodoering/gists{/gist_id}
+      starred_url: https://api.github.com/users/robertodoering/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/robertodoering/subscriptions
+      organizations_url: https://api.github.com/users/robertodoering/orgs
+      repos_url: https://api.github.com/users/robertodoering/repos
+      events_url: https://api.github.com/users/robertodoering/events{/privacy}
+      received_events_url: https://api.github.com/users/robertodoering/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOCT5LN84GpUsC
+    tag_name: 0.10.3
+    target_commitish: master
+    name: beta 0.10.3
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2023-07-08T11:39:49Z
+    updated_at: 2023-07-08T11:53:53Z
+    published_at: 2023-07-08T11:42:47Z
+    assets:
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101179
+        id: 116101179
+        node_id: RA_kwDOCT5LN84G65A7
+        name: app-arm64-v8a-pro-release.apk
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 28335525
+        digest: null
+        download_count: 5028
+        created_at: 2023-07-08T11:53:51Z
+        updated_at: 2023-07-08T11:53:53Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-arm64-v8a-pro-release.apk
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101178
+        id: 116101178
+        node_id: RA_kwDOCT5LN84G65A6
+        name: app-arm64-v8a-pro-release.apk.sha1
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: binary/octet-stream
+        state: uploaded
+        size: 40
+        digest: null
+        download_count: 181
+        created_at: 2023-07-08T11:53:50Z
+        updated_at: 2023-07-08T11:53:51Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-arm64-v8a-pro-release.apk.sha1
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101171
+        id: 116101171
+        node_id: RA_kwDOCT5LN84G65Az
+        name: app-armeabi-v7a-pro-release.apk
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 42755766
+        digest: null
+        download_count: 738
+        created_at: 2023-07-08T11:53:48Z
+        updated_at: 2023-07-08T11:53:50Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-armeabi-v7a-pro-release.apk
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101167
+        id: 116101167
+        node_id: RA_kwDOCT5LN84G65Av
+        name: app-armeabi-v7a-pro-release.apk.sha1
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: binary/octet-stream
+        state: uploaded
+        size: 40
+        digest: null
+        download_count: 79
+        created_at: 2023-07-08T11:53:47Z
+        updated_at: 2023-07-08T11:53:47Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-armeabi-v7a-pro-release.apk.sha1
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101159
+        id: 116101159
+        node_id: RA_kwDOCT5LN84G65An
+        name: app-x86_64-pro-release.apk
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 30464944
+        digest: null
+        download_count: 494
+        created_at: 2023-07-08T11:53:44Z
+        updated_at: 2023-07-08T11:53:46Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-x86_64-pro-release.apk
+      - url: https://api.github.com/repos/robertodoering/harpy/releases/assets/116101157
+        id: 116101157
+        node_id: RA_kwDOCT5LN84G65Al
+        name: app-x86_64-pro-release.apk.sha1
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: binary/octet-stream
+        state: uploaded
+        size: 40
+        digest: null
+        download_count: 82
+        created_at: 2023-07-08T11:53:43Z
+        updated_at: 2023-07-08T11:53:44Z
+        browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-x86_64-pro-release.apk.sha1
+    tarball_url: https://api.github.com/repos/robertodoering/harpy/tarball/0.10.3
+    zipball_url: https://api.github.com/repos/robertodoering/harpy/zipball/0.10.3
+    body: "For the time being harpy is still working by using Twitter's legacy v1 api.\r
+
+      \r
+
+      This release updated the user profile to use the old v1 api instead of the non-free v2 api to
+      make profiles work again.\r
+
+      \r
+
+      Please note that this doesn't mean that harpy will be maintained again, seeing as Twitter will
+      most likely shut down access to their legacy api (again) soon and third party apps are still
+      against their TOS."
+    reactions:
+      url: https://api.github.com/repos/robertodoering/harpy/releases/111495938/reactions
+      total_count: 34
+      "+1": 3
+      "-1": 0
+      laugh: 1
+      hooray: 1
+      confused: 0
+      heart: 26
+      rocket: 2
+      eyes: 1
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels: []
 health:
   status: stale
   tier: curated

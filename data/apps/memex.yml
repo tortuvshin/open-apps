@@ -26,51 +26,517 @@ stack:
       role: mobile-framework
 github:
   repository:
+    id: 1178924852
+    node_id: R_kgDORkT3NA
+    name: memex
     full_name: memex-lab/memex
+    private: false
+    owner:
+      login: memex-lab
+      id: 265760765
+      node_id: O_kgDOD9cv_Q
+      avatar_url: https://avatars.githubusercontent.com/u/265760765?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/memex-lab
+      html_url: https://github.com/memex-lab
+      followers_url: https://api.github.com/users/memex-lab/followers
+      following_url: https://api.github.com/users/memex-lab/following{/other_user}
+      gists_url: https://api.github.com/users/memex-lab/gists{/gist_id}
+      starred_url: https://api.github.com/users/memex-lab/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/memex-lab/subscriptions
+      organizations_url: https://api.github.com/users/memex-lab/orgs
+      repos_url: https://api.github.com/users/memex-lab/repos
+      events_url: https://api.github.com/users/memex-lab/events{/privacy}
+      received_events_url: https://api.github.com/users/memex-lab/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/memex-lab/memex
-    description: An open-source, local-first AI journal for iOS and Android that turns text, photo and
-      voice fragments into structured timeline cards and organizes knowledge using the P.A.R.A.
-      methodology
+    description: Open-source, local-first AI journal app for iOS and Android. Capture text, photos, and
+      voice — AI agents organize them into timeline cards and insights. Your data stays on your
+      device. Bring your own LLM (OpenAI, Claude, Gemini, Ollama, and more).
     fork: false
+    url: https://api.github.com/repos/memex-lab/memex
+    forks_url: https://api.github.com/repos/memex-lab/memex/forks
+    keys_url: https://api.github.com/repos/memex-lab/memex/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/memex-lab/memex/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/memex-lab/memex/teams
+    hooks_url: https://api.github.com/repos/memex-lab/memex/hooks
+    issue_events_url: https://api.github.com/repos/memex-lab/memex/issues/events{/number}
+    events_url: https://api.github.com/repos/memex-lab/memex/events
+    assignees_url: https://api.github.com/repos/memex-lab/memex/assignees{/user}
+    branches_url: https://api.github.com/repos/memex-lab/memex/branches{/branch}
+    tags_url: https://api.github.com/repos/memex-lab/memex/tags
+    blobs_url: https://api.github.com/repos/memex-lab/memex/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/memex-lab/memex/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/memex-lab/memex/git/refs{/sha}
+    trees_url: https://api.github.com/repos/memex-lab/memex/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/memex-lab/memex/statuses/{sha}
+    languages_url: https://api.github.com/repos/memex-lab/memex/languages
+    stargazers_url: https://api.github.com/repos/memex-lab/memex/stargazers
+    contributors_url: https://api.github.com/repos/memex-lab/memex/contributors
+    subscribers_url: https://api.github.com/repos/memex-lab/memex/subscribers
+    subscription_url: https://api.github.com/repos/memex-lab/memex/subscription
+    commits_url: https://api.github.com/repos/memex-lab/memex/commits{/sha}
+    git_commits_url: https://api.github.com/repos/memex-lab/memex/git/commits{/sha}
+    comments_url: https://api.github.com/repos/memex-lab/memex/comments{/number}
+    issue_comment_url: https://api.github.com/repos/memex-lab/memex/issues/comments{/number}
+    contents_url: https://api.github.com/repos/memex-lab/memex/contents/{+path}
+    compare_url: https://api.github.com/repos/memex-lab/memex/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/memex-lab/memex/merges
+    archive_url: https://api.github.com/repos/memex-lab/memex/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/memex-lab/memex/downloads
+    issues_url: https://api.github.com/repos/memex-lab/memex/issues{/number}
+    pulls_url: https://api.github.com/repos/memex-lab/memex/pulls{/number}
+    milestones_url: https://api.github.com/repos/memex-lab/memex/milestones{/number}
+    notifications_url: https://api.github.com/repos/memex-lab/memex/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/memex-lab/memex/labels{/name}
+    releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
+    deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
+    created_at: 2026-03-11T14:04:59Z
+    updated_at: 2026-06-08T08:27:31Z
+    pushed_at: 2026-06-08T08:38:52Z
+    git_url: git://github.com/memex-lab/memex.git
+    ssh_url: git@github.com:memex-lab/memex.git
+    clone_url: https://github.com/memex-lab/memex.git
+    svn_url: https://github.com/memex-lab/memex
+    homepage: https://memexlab.ai
+    size: 55272
+    stargazers_count: 398
+    watchers_count: 398
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: false
+    has_pages: false
+    has_discussions: true
+    forks_count: 35
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    stargazers_count: 339
-    forks_count: 27
-    pushed_at: 2026-06-04T04:42:49Z
+    open_issues_count: 28
     license:
+      key: gpl-3.0
+      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      key: null
-      name: null
-      url: null
-    language: Dart
+      url: https://api.github.com/licenses/gpl-3.0
+      node_id: MDc6TGljZW5zZTk=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
-      - privacy
-      - skills
-      - journaling
-      - pkm
-      - knowledge-management
-      - journal-app
+      - ai-assistant
+      - ai-companion
+      - ai-diary
+      - ai-journal
       - assistant-app
+      - journal-app
+      - journaling
+      - journaling-app
+      - knowledge-management
+      - life-logging
+      - local-agent
       - local-first
       - personal-knowledge-management
-      - ai-assistant
-      - local-agent
-      - ai-companion
-      - journaling-app
-      - ai-journal
-      - life-logging
-      - ai-diary
       - personal-knowledge-management-system
+      - pkm
+      - privacy
+      - skills
+    visibility: public
+    forks: 35
+    open_issues: 28
+    watchers: 398
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: memex-lab
+      id: 265760765
+      node_id: O_kgDOD9cv_Q
+      avatar_url: https://avatars.githubusercontent.com/u/265760765?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/memex-lab
+      html_url: https://github.com/memex-lab
+      followers_url: https://api.github.com/users/memex-lab/followers
+      following_url: https://api.github.com/users/memex-lab/following{/other_user}
+      gists_url: https://api.github.com/users/memex-lab/gists{/gist_id}
+      starred_url: https://api.github.com/users/memex-lab/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/memex-lab/subscriptions
+      organizations_url: https://api.github.com/users/memex-lab/orgs
+      repos_url: https://api.github.com/users/memex-lab/repos
+      events_url: https://api.github.com/users/memex-lab/events{/privacy}
+      received_events_url: https://api.github.com/users/memex-lab/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 35
+    subscribers_count: 2
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 100
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 83
+      - month: 2026-06
+        commits: 17
+    totalCommitsKnown: 541
+    openPullRequests: 5
+    contributorsKnown: 5
   sync:
-    syncedAt: 2026-06-07T15:24:34.847Z
+    syncedAt: 2026-06-08T08:39:37.014Z
     apiVersion: rest-v3
-    source: migrate-legacy
+    source: github-actions
+  languages:
+    Dart: 5309203
+    HTML: 130229
+    Python: 94686
+    Kotlin: 43070
+    Swift: 31295
+    Ruby: 6990
+    Objective-C: 2723
+  latestRelease:
+    url: https://api.github.com/repos/memex-lab/memex/releases/332258976
+    assets_url: https://api.github.com/repos/memex-lab/memex/releases/332258976/assets
+    upload_url: https://uploads.github.com/repos/memex-lab/memex/releases/332258976/assets{?name,label}
+    html_url: https://github.com/memex-lab/memex/releases/tag/v1.0.33
+    id: 332258976
+    author:
+      login: tigerlaibao
+      id: 17682804
+      node_id: MDQ6VXNlcjE3NjgyODA0
+      avatar_url: https://avatars.githubusercontent.com/u/17682804?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/tigerlaibao
+      html_url: https://github.com/tigerlaibao
+      followers_url: https://api.github.com/users/tigerlaibao/followers
+      following_url: https://api.github.com/users/tigerlaibao/following{/other_user}
+      gists_url: https://api.github.com/users/tigerlaibao/gists{/gist_id}
+      starred_url: https://api.github.com/users/tigerlaibao/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/tigerlaibao/subscriptions
+      organizations_url: https://api.github.com/users/tigerlaibao/orgs
+      repos_url: https://api.github.com/users/tigerlaibao/repos
+      events_url: https://api.github.com/users/tigerlaibao/events{/privacy}
+      received_events_url: https://api.github.com/users/tigerlaibao/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDORkT3NM4Tzd6g
+    tag_name: v1.0.33
+    target_commitish: main
+    name: v1.0.33
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-05-29T11:50:27Z
+    updated_at: 2026-06-01T02:32:38Z
+    published_at: 2026-06-01T02:32:38Z
+    assets:
+      - url: https://api.github.com/repos/memex-lab/memex/releases/assets/434854731
+        id: 434854731
+        node_id: RA_kwDORkT3NM4Z61tL
+        name: memex_global_1.0.33_116.apk
+        label: ""
+        uploader:
+          login: tigerlaibao
+          id: 17682804
+          node_id: MDQ6VXNlcjE3NjgyODA0
+          avatar_url: https://avatars.githubusercontent.com/u/17682804?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/tigerlaibao
+          html_url: https://github.com/tigerlaibao
+          followers_url: https://api.github.com/users/tigerlaibao/followers
+          following_url: https://api.github.com/users/tigerlaibao/following{/other_user}
+          gists_url: https://api.github.com/users/tigerlaibao/gists{/gist_id}
+          starred_url: https://api.github.com/users/tigerlaibao/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/tigerlaibao/subscriptions
+          organizations_url: https://api.github.com/users/tigerlaibao/orgs
+          repos_url: https://api.github.com/users/tigerlaibao/repos
+          events_url: https://api.github.com/users/tigerlaibao/events{/privacy}
+          received_events_url: https://api.github.com/users/tigerlaibao/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 255283755
+        digest: sha256:9ece49bba0b87d26cc75ed307fbb2324a08faa0ae7e29e8ee8b579dda22756ff
+        download_count: 136
+        created_at: 2026-06-01T02:25:01Z
+        updated_at: 2026-06-01T02:32:37Z
+        browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.33/memex_global_1.0.33_116.apk
+    tarball_url: https://api.github.com/repos/memex-lab/memex/tarball/v1.0.33
+    zipball_url: https://api.github.com/repos/memex-lab/memex/zipball/v1.0.33
+    body: >-
+      ## What's Changed
+
+      * 收紧 SuperAgent 的 memory 写入边界 by @utopiafar in https://github.com/memex-lab/memex/pull/65
+
+      * 修复后台任务导致的启动 crash loop by @utopiafar in https://github.com/memex-lab/memex/pull/70
+
+      * [codex] 增加 Android Daily Early 自动打包 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/74
+
+      * [codex] 补充 Android Early 版本号和保留策略 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/75
+
+      * [codex] 升级 dart_agent_core 至 1.0.9 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/76
+
+      * feat(persona-chat): improve history loading and performance by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/83
+
+      * feat: add reply button next to comment date by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/84
+
+      * [codex] Move Android Early schedule off the hour by @utopiafar in
+      https://github.com/memex-lab/memex/pull/82
+
+      * [codex] bump version to 1.0.30+113 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/87
+
+      * [codex] 增加 Android Early 应用内更新 by @utopiafar in https://github.com/memex-lab/memex/pull/86
+
+      * [codex] 修复角色评论回复归属 by @utopiafar in https://github.com/memex-lab/memex/pull/81
+
+      * [codex] 修复 Grep 内联正则 flag 兼容性 / Fix Grep inline regex flags by @utopiafar in
+      https://github.com/memex-lab/memex/pull/80
+
+      * 日程聚合体验补强：补充 Widget Test 与刷新兜底 by @utopiafar in https://github.com/memex-lab/memex/pull/77
+
+      * perf: remove BackdropFilter to reduce GPU overheating by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/88
+
+      * [codex] 为 Agent 增加当前定位上下文 by @utopiafar in https://github.com/memex-lab/memex/pull/54
+
+      * 加固洞察任务积压处理 by @utopiafar in https://github.com/memex-lab/memex/pull/61
+
+      * fix: prevent duplicate clarification ask cards by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/89
+
+      * [codex] 增加 Android Dev flavor 独立图标 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/90
+
+      * [codex] 优化位置调试与卡片地址规则 by @utopiafar in https://github.com/memex-lab/memex/pull/92
+
+      * [codex] Repair legacy agent thinking state by @utopiafar in
+      https://github.com/memex-lab/memex/pull/93
+
+      * [codex] 修复 Android 录音 SIGILL 崩溃 by @utopiafar in https://github.com/memex-lab/memex/pull/98
+
+      * [codex] 支持 .memex 备份文件打开恢复 by @utopiafar in https://github.com/memex-lab/memex/pull/99
+
+      * 增加自动本地备份与 Android 目录选择 by @utopiafar in https://github.com/memex-lab/memex/pull/100
+
+      * [codex] 添加 PR 规则预检 by @utopiafar in https://github.com/memex-lab/memex/pull/106
+
+      * [codex] preflight 输出中英双语 by @utopiafar in https://github.com/memex-lab/memex/pull/108
+
+      * 复用 Early 更新已下载 APK by @utopiafar in https://github.com/memex-lab/memex/pull/110
+
+      * [codex] Compact schedule page UI by @utopiafar in
+      https://github.com/memex-lab/memex/pull/102
+
+      * [codex] 添加首页版本角标 by @utopiafar in https://github.com/memex-lab/memex/pull/107
+
+      * [codex] 防御性清理洞察任务残留状态 by @utopiafar in https://github.com/memex-lab/memex/pull/105
+
+      * [codex] Add explicit save flow for location context settings by @utopiafar in
+      https://github.com/memex-lab/memex/pull/101
+
+      * [codex] 收敛 preflight 规则并优化 comment 结构 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/111
+
+      * [codex] 增加 PR Flutter 质量检查 by @utopiafar in https://github.com/memex-lab/memex/pull/113
+
+      * [codex] Fix schedule labels and briefing order by @utopiafar in
+      https://github.com/memex-lab/memex/pull/112
+
+      * [codex] 收敛日程聚合 Agent 执行态 by @utopiafar in https://github.com/memex-lab/memex/pull/114
+
+      * [codex] 统一 PR preflight 汇总评论 by @utopiafar in https://github.com/memex-lab/memex/pull/115
+
+      * [codex] 修复 preflight artifact 下载重定向 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/118
+
+      * [codex] 优化自动备份立即备份性能 by @utopiafar in https://github.com/memex-lab/memex/pull/117
+
+      * [codex] 添加失败对话上下文清理入口 by @utopiafar in https://github.com/memex-lab/memex/pull/120
+
+      * [codex] 修复 preflight summary 评论权限失败 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/122
+
+      * [codex] 修复 PR preflight warning 与测试覆盖 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/121
+
+      * [codex] 为 preflight summary 增加简短详情 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/123
+
+      * [codex] 支持删除历史备份 by @utopiafar in https://github.com/memex-lab/memex/pull/129
+
+      * [codex] 修复 FileSystemService root 切换缓存 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/130
+
+      * [codex] 修复 Card Agent 完成态校验 by @utopiafar in https://github.com/memex-lab/memex/pull/132
+
+      * [codex] 修复 Agent 工具失败状态传播 by @utopiafar in https://github.com/memex-lab/memex/pull/131
+
+      * [codex] 兼容时间线卡片工具的字符串数组参数 by @utopiafar in https://github.com/memex-lab/memex/pull/135
+
+      * [codex] 为 PKM Agent 增加非持久化跳过路径 by @utopiafar in https://github.com/memex-lab/memex/pull/138
+
+      * [codex] 收敛 PKM skip prompt 引导 by @utopiafar in https://github.com/memex-lab/memex/pull/139
+
+      * 优化自动备份位置展示 by @utopiafar in https://github.com/memex-lab/memex/pull/142
+
+      * [codex] Harden ChatAgent temporal context by @utopiafar in
+      https://github.com/memex-lab/memex/pull/141
+
+      * [codex] Fix duplicate timeline placeholder cards by @utopiafar in
+      https://github.com/memex-lab/memex/pull/145
+
+      * [codex] Group schedule subtasks in agenda cards by @utopiafar in
+      https://github.com/memex-lab/memex/pull/149
+
+      * [codex] 收敛卡片定位提示规则 by @utopiafar in https://github.com/memex-lab/memex/pull/144
+
+      * [codex] 优化输入后的 AI 处理中状态反馈 by @utopiafar in https://github.com/memex-lab/memex/pull/137
+
+      * feat: Add Memex AI as built-in provider by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/150
+
+      * [codex] 优化 Location Context 定位失败引导 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/151
+
+      * [codex] 修复 Schedule Aggregator 空窗口刷新收敛 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/152
+
+      * [codex] 修复 PKM 澄清请求后的循环重试 by @utopiafar in https://github.com/memex-lab/memex/pull/153
+
+      * [codex] 修复 Location Context 设置页 ListTile 断言 by @utopiafar in
+      https://github.com/memex-lab/memex/pull/155
+
+      * 修复 Android 长按图标快捷记入口 by @utopiafar in https://github.com/memex-lab/memex/pull/158
+
+      * feat(chat): add copy button for AI messages by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/159
+
+      * feat: batch clear notifications in Action Center by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/162
+
+      * docs: optimize README by @sparkleMing in https://github.com/memex-lab/memex/pull/164
+
+      * feat: 模型配置页增加连接测试功能 by @sparkleMing in https://github.com/memex-lab/memex/pull/167
+
+      * [codex] 在洞察页添加用户活动统计 by @utopiafar in https://github.com/memex-lab/memex/pull/168
+
+      * [codex] 修复待办完成状态同步 by @utopiafar in https://github.com/memex-lab/memex/pull/170
+
+      * 支持 DeepSeek 官方 API 模型配置 by @utopiafar in https://github.com/memex-lab/memex/pull/172
+
+      * 移除 Android「记一下」快捷入口图标下方横线 by @utopiafar in https://github.com/memex-lab/memex/pull/177
+
+      * 修复洞察页活动统计切换后空白 by @utopiafar in https://github.com/memex-lab/memex/pull/174
+
+      * Refactor PkmAgent: split SystemAction & AskClarification, generalize Schedule Router into
+      Post-Card Router by @sparkleMing in https://github.com/memex-lab/memex/pull/178
+
+      * feat(eval): add card_agent capability eval suite by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/181
+
+      * eval(pkm_agent): capability suite with 32 tasks across 4 personas by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/187
+
+      * [codex] 增加失败卡片重试恢复入口 by @utopiafar in https://github.com/memex-lab/memex/pull/180
+
+      * [codex] 修复 Early 更新下载竞态 by @utopiafar in https://github.com/memex-lab/memex/pull/183
+
+      * [codex] Agent 对话窗口支持全屏阅读 by @utopiafar in https://github.com/memex-lab/memex/pull/185
+
+      * Restore README demo videos by @sparkleMing in https://github.com/memex-lab/memex/pull/189
+
+      * [codex] 修复日程长期项保留和系统动作展示语义 by @utopiafar in https://github.com/memex-lab/memex/pull/191
+
+      * [codex] 日程聚合隐式处理重复冲突 by @utopiafar in https://github.com/memex-lab/memex/pull/194
+
+      * refactor(schedule): introduce stateful schedule maintainer by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/195
+
+      * Add Claude AI PR review workflow by @utopiafar in
+      https://github.com/memex-lab/memex/pull/196
+
+      * Fix PR AI review for MIMO gateway by @utopiafar in
+      https://github.com/memex-lab/memex/pull/202
+
+      * [codex] 修复输入发送后草稿残留 by @utopiafar in https://github.com/memex-lab/memex/pull/198
+
+      * [codex] 优化洞察统计页周期切换交互 by @utopiafar in https://github.com/memex-lab/memex/pull/209
+
+      * docs: add GitHub project roadmap guide by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/210
+
+      * Add Memex model service setup by @sparkleMing in https://github.com/memex-lab/memex/pull/215
+
+      * eval(pkm): use framework transcript recording by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/216
+
+      * Fix onboarding custom model completion flow by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/217
+
+      * chore: bump version to 1.0.32+115 by @tigerlaibao in
+      https://github.com/memex-lab/memex/pull/218
+
+      * Improve companion character prompts and routing by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/219
+
+      * Improve PKM insight prompt and grader by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/220
+
+      * Fix no-model fallback and reduce FTS UI jank by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/221
+
+      * Filter unnecessary FTS index update tasks by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/222
+
+      * Fix timeline tab switching states by @sparkleMing in
+      https://github.com/memex-lab/memex/pull/223
+
+
+      ## New Contributors
+
+      * @tigerlaibao made their first contribution in https://github.com/memex-lab/memex/pull/218
+
+
+      **Full Changelog**: https://github.com/memex-lab/memex/compare/v1.0.29...v1.0.33
+    mentions_count: 3
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: active
   tier: listed
