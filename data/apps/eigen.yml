@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-06-05T08:29:57Z
-    pushed_at: 2026-06-08T06:38:58Z
+    updated_at: 2026-06-09T08:10:26Z
+    pushed_at: 2026-06-09T08:15:16Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 648474
+    size: 648808
     stargazers_count: 3772
     watchers_count: 3772
     language: TypeScript
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 10
+    open_issues_count: 9
     license:
       key: mit
       name: MIT License
@@ -135,7 +135,7 @@ github:
       - swift
     visibility: public
     forks: 591
-    open_issues: 10
+    open_issues: 9
     watchers: 3772
     default_branch: main
     permissions:
@@ -177,20 +177,20 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 1
+        commits: 0
       - month: 2026-05
-        commits: 77
+        commits: 73
       - month: 2026-06
-        commits: 22
-    totalCommitsKnown: 27903
-    openPullRequests: 8
+        commits: 27
+    totalCommitsKnown: 27908
+    openPullRequests: 7
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-06-08T08:39:28.662Z
+    syncedAt: 2026-06-09T08:17:43.750Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 7777507
+    TypeScript: 7779221
     Objective-C: 694758
     Swift: 479403
     JavaScript: 74730
@@ -237,50 +237,123 @@ github:
     immutable: false
     prerelease: false
     created_at: 2026-06-05T08:46:48Z
-    updated_at: 2026-06-05T08:53:59Z
+    updated_at: 2026-06-08T14:15:39Z
     published_at: 2026-06-05T08:53:59Z
     assets: []
     tarball_url: https://api.github.com/repos/artsy/eigen/tarball/ios-9.10.0-2026.06.03.15.09-submission
     zipball_url: https://api.github.com/repos/artsy/eigen/zipball/ios-9.10.0-2026.06.03.15.09-submission
-    body: |-
-      Check the health of this release in Sentry:
+    body: "Check the health of this release in Sentry:\r
 
-      :apple: [iOS Release details](https://artsynet.sentry.io/explore/releases/ios-9.10.0-2026.06.03.15.09/?environment=production&project=5867225) | :robot: [Android Release details](https://artsynet.sentry.io/explore/releases/android-9.10.0-202606031509/?environment=production&project=5867225)
+      \r
 
-      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=iOS&primaryRelease=ios-9.10.0-2026.06.03.15.09&project=5867225) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=Android&primaryRelease=android-9.10.0-202606031509&project=5867225)
-      ## What's Changed
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13581
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13583
-      * chore: ensure brew is updated before installing awscli on MacOS by @gkartalis in https://github.com/artsy/eigen/pull/13584
-      * chore: remove clearCache hack by @MounirDhahri in https://github.com/artsy/eigen/pull/13568
-      * chore: simplify status bar changing by @MounirDhahri in https://github.com/artsy/eigen/pull/13299
-      * chore: update expo runtimeVersion to 3a1d0132 by @artsyit in https://github.com/artsy/eigen/pull/13586
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13587
-      * chore: update expo runtimeVersion to 864ec5f9 by @artsyit in https://github.com/artsy/eigen/pull/13585
-      * build(deps): bump protobufjs from 7.5.5 to 7.5.8 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13577
-      * chore: remove getNavigationBarSize by @MounirDhahri in https://github.com/artsy/eigen/pull/13589
-      * chore: update expo runtimeVersion to 7b4c6b32 by @artsyit in https://github.com/artsy/eigen/pull/13590
-      * build(deps): bump ws from 8.18.3 to 8.20.1 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13588
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13591
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13593
-      * fix: allow status bar appearance update by @MounirDhahri in https://github.com/artsy/eigen/pull/13592
-      * chore: update expo runtimeVersion to a655caab by @artsyit in https://github.com/artsy/eigen/pull/13594
-      * build(deps): Bump expo react native and deps to expo 55 by @gkartalis in https://github.com/artsy/eigen/pull/13576
-      * chore: update expo runtimeVersion to 2f77573d by @artsyit in https://github.com/artsy/eigen/pull/13595
-      * chore: prepare for next release by @artsyit in https://github.com/artsy/eigen/pull/13596
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13599
-      * chore: fix hermes engine diff by @gkartalis in https://github.com/artsy/eigen/pull/13597
-      * chore: update expo runtimeVersion to 8831b1c8 by @artsyit in https://github.com/artsy/eigen/pull/13600
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13601
-      * fix: android sourcemap upload with build type support after expo 55 by @gkartalis in https://github.com/artsy/eigen/pull/13604
-      * chore: Revert "refactor(moment deprecation): migrate from moment.js to luxon… by @gkartalis in https://github.com/artsy/eigen/pull/13605
-      * build(deps): bump @tootallnate/once from 2.0.0 to 2.0.1 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13603
-      * fix: navigation bar and status bar color on old android versions by @MounirDhahri in https://github.com/artsy/eigen/pull/13598
-      * chore: update expo runtimeVersion to 230271ce by @artsyit in https://github.com/artsy/eigen/pull/13607
-      * fix(DI-116): show explanation on account linking page by @iskounen in https://github.com/artsy/eigen/pull/13608
+      :apple: [iOS Release
+      details](https://artsynet.sentry.io/explore/releases/ios-9.10.0-2026.06.03.15.09/?environment\
+      =production&project=5867225) | :robot: [Android Release
+      details](https://artsynet.sentry.io/explore/releases/android-9.10.0-2026060315/?environment=p\
+      roduction&project=5867225)\r
 
+      \r
 
-      **Full Changelog**: https://github.com/artsy/eigen/compare/ios-9.9.0-2026.05.20.12.45-submission...ios-9.10.0-2026.06.03.15.09-submission
+      :apple: [Mobile Vitals
+      iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platfor\
+      m=iOS&primaryRelease=ios-9.10.0-2026.06.03.15.09&project=5867225) | :robot: [Mobile Vitals
+      Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&pla\
+      tform=Android&primaryRelease=android-9.10.0-202606031509&project=5867225)\r
+
+      ## What's Changed\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13581\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13583\r
+
+      * chore: ensure brew is updated before installing awscli on MacOS by @gkartalis in
+      https://github.com/artsy/eigen/pull/13584\r
+
+      * chore: remove clearCache hack by @MounirDhahri in
+      https://github.com/artsy/eigen/pull/13568\r
+
+      * chore: simplify status bar changing by @MounirDhahri in
+      https://github.com/artsy/eigen/pull/13299\r
+
+      * chore: update expo runtimeVersion to 3a1d0132 by @artsyit in
+      https://github.com/artsy/eigen/pull/13586\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13587\r
+
+      * chore: update expo runtimeVersion to 864ec5f9 by @artsyit in
+      https://github.com/artsy/eigen/pull/13585\r
+
+      * build(deps): bump protobufjs from 7.5.5 to 7.5.8 by @dependabot[bot] in
+      https://github.com/artsy/eigen/pull/13577\r
+
+      * chore: remove getNavigationBarSize by @MounirDhahri in
+      https://github.com/artsy/eigen/pull/13589\r
+
+      * chore: update expo runtimeVersion to 7b4c6b32 by @artsyit in
+      https://github.com/artsy/eigen/pull/13590\r
+
+      * build(deps): bump ws from 8.18.3 to 8.20.1 by @dependabot[bot] in
+      https://github.com/artsy/eigen/pull/13588\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13591\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13593\r
+
+      * fix: allow status bar appearance update by @MounirDhahri in
+      https://github.com/artsy/eigen/pull/13592\r
+
+      * chore: update expo runtimeVersion to a655caab by @artsyit in
+      https://github.com/artsy/eigen/pull/13594\r
+
+      * build(deps): Bump expo react native and deps to expo 55 by @gkartalis in
+      https://github.com/artsy/eigen/pull/13576\r
+
+      * chore: update expo runtimeVersion to 2f77573d by @artsyit in
+      https://github.com/artsy/eigen/pull/13595\r
+
+      * chore: prepare for next release by @artsyit in https://github.com/artsy/eigen/pull/13596\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13599\r
+
+      * chore: fix hermes engine diff by @gkartalis in https://github.com/artsy/eigen/pull/13597\r
+
+      * chore: update expo runtimeVersion to 8831b1c8 by @artsyit in
+      https://github.com/artsy/eigen/pull/13600\r
+
+      * chore: update metaphysics graphql schema by @artsyit in
+      https://github.com/artsy/eigen/pull/13601\r
+
+      * fix: android sourcemap upload with build type support after expo 55 by @gkartalis in
+      https://github.com/artsy/eigen/pull/13604\r
+
+      * chore: Revert \"refactor(moment deprecation): migrate from moment.js to luxon… by @gkartalis
+      in https://github.com/artsy/eigen/pull/13605\r
+
+      * build(deps): bump @tootallnate/once from 2.0.0 to 2.0.1 by @dependabot[bot] in
+      https://github.com/artsy/eigen/pull/13603\r
+
+      * fix: navigation bar and status bar color on old android versions by @MounirDhahri in
+      https://github.com/artsy/eigen/pull/13598\r
+
+      * chore: update expo runtimeVersion to 230271ce by @artsyit in
+      https://github.com/artsy/eigen/pull/13607\r
+
+      * fix(DI-116): show explanation on account linking page by @iskounen in
+      https://github.com/artsy/eigen/pull/13608\r
+
+      \r
+
+      \r
+
+      **Full Changelog**:
+      https://github.com/artsy/eigen/compare/ios-9.9.0-2026.05.20.12.45-submission...ios-9.10.0-202\
+      6.06.03.15.09-submission"
     mentions_count: 5
   files:
     readme: true

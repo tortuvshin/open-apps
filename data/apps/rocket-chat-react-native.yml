@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases{/id}
     deployments_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments
     created_at: 2017-08-03T18:21:33Z
-    updated_at: 2026-06-07T15:09:44Z
-    pushed_at: 2026-06-07T22:06:12Z
+    updated_at: 2026-06-08T17:56:57Z
+    pushed_at: 2026-06-08T23:09:35Z
     git_url: git://github.com/RocketChat/Rocket.Chat.ReactNative.git
     ssh_url: git@github.com:RocketChat/Rocket.Chat.ReactNative.git
     clone_url: https://github.com/RocketChat/Rocket.Chat.ReactNative.git
     svn_url: https://github.com/RocketChat/Rocket.Chat.ReactNative
     homepage: https://rocket.chat
-    size: 368598
-    stargazers_count: 2389
-    watchers_count: 2389
+    size: 367481
+    stargazers_count: 2388
+    watchers_count: 2388
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -108,11 +108,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1457
+    forks_count: 1458
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 476
+    open_issues_count: 475
     license:
       key: mit
       name: MIT License
@@ -131,9 +131,9 @@ github:
       - ios
       - react-native
     visibility: public
-    forks: 1457
-    open_issues: 476
-    watchers: 2389
+    forks: 1458
+    open_issues: 475
+    watchers: 2388
     default_branch: develop
     permissions:
       admin: false
@@ -163,7 +163,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1457
+    network_count: 1458
     subscribers_count: 65
   activity:
     monthlyCommits:
@@ -180,10 +180,10 @@ github:
       - month: 2026-06
         commits: 10
     totalCommitsKnown: 3312
-    openPullRequests: 246
+    openPullRequests: 245
     contributorsKnown: 138
   sync:
-    syncedAt: 2026-06-08T08:39:40.702Z
+    syncedAt: 2026-06-09T08:18:00.546Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -264,7 +264,7 @@ github:
         state: uploaded
         size: 200726133
         digest: sha256:f18fec675a869849bf9f16bb22291bf56a5d836f57f0badd05f0be47f91c282a
-        download_count: 189
+        download_count: 198
         created_at: 2026-06-01T20:41:21Z
         updated_at: 2026-06-01T20:41:47Z
         browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.0/android-release.apk
