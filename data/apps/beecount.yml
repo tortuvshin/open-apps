@@ -92,16 +92,16 @@ github:
     releases_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases{/id}
     deployments_url: https://api.github.com/repos/TNT-Likely/BeeCount/deployments
     created_at: 2025-09-06T02:15:06Z
-    updated_at: 2026-06-09T06:53:08Z
-    pushed_at: 2026-06-05T14:20:26Z
+    updated_at: 2026-06-10T08:12:20Z
+    pushed_at: 2026-06-10T08:21:57Z
     git_url: git://github.com/TNT-Likely/BeeCount.git
     ssh_url: git@github.com:TNT-Likely/BeeCount.git
     clone_url: https://github.com/TNT-Likely/BeeCount.git
     svn_url: https://github.com/TNT-Likely/BeeCount
     homepage: https://count.beejz.com
     size: 119966
-    stargazers_count: 1729
-    watchers_count: 1729
+    stargazers_count: 1737
+    watchers_count: 1737
     language: Dart
     has_issues: true
     has_projects: true
@@ -113,7 +113,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 58
+    open_issues_count: 57
     license:
       key: other
       name: Other
@@ -142,8 +142,8 @@ github:
       - webdav
     visibility: public
     forks: 243
-    open_issues: 58
-    watchers: 1729
+    open_issues: 57
+    watchers: 1737
     default_branch: main
     permissions:
       admin: false
@@ -161,22 +161,22 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 17
+        commits: 15
       - month: 2026-04
         commits: 24
       - month: 2026-05
         commits: 53
       - month: 2026-06
-        commits: 6
-    totalCommitsKnown: 579
+        commits: 8
+    totalCommitsKnown: 581
     openPullRequests: 7
     contributorsKnown: 6
   sync:
-    syncedAt: 2026-06-09T08:17:39.340Z
+    syncedAt: 2026-06-10T08:27:40.645Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 5455494
+    Dart: 5485493
     Kotlin: 59459
     Swift: 49402
     Python: 31613
@@ -249,7 +249,7 @@ github:
         state: uploaded
         size: 17287144
         digest: sha256:c058abe5d1f9e2638f1060f5a0b33cf1f5230418078406a9e4437ffe2b313db7
-        download_count: 124
+        download_count: 165
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0-armeabi-v7a.apk
@@ -348,7 +348,7 @@ github:
         state: uploaded
         size: 35015565
         digest: sha256:fe42691091c1c60b696db849f55b1f33aeb46b481d726869c533ec3b11bf0b39
-        download_count: 4
+        download_count: 5
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:13Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0-signed.ipa
@@ -381,7 +381,7 @@ github:
         state: uploaded
         size: 42367652
         digest: sha256:53bdbd06c7c18424327b1b7b47ef48fe7b121446ea3038c5244c8276bf1b33e6
-        download_count: 91
+        download_count: 114
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:13Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0-universal.apk
@@ -447,7 +447,7 @@ github:
         state: uploaded
         size: 17237204
         digest: sha256:2d3708551723058f2fdee878e7b6267f29de0ce3996bd83c60b103d80fbfe194
-        download_count: 19
+        download_count: 24
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0-x86_64.apk
@@ -480,7 +480,7 @@ github:
         state: uploaded
         size: 44159527
         digest: sha256:57059781c17c3ac653aa10b5316d66d8afdefa6a1ba79f6f313a9c266b388b0b
-        download_count: 2
+        download_count: 3
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:13Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0.aab
@@ -513,7 +513,7 @@ github:
         state: uploaded
         size: 17069539
         digest: sha256:3afd8961d1a8bda6c09228be7db90b03a0960c8958826a9e1785f7b0fff56d8e
-        download_count: 217
+        download_count: 261
         created_at: 2026-06-05T14:39:10Z
         updated_at: 2026-06-05T14:39:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.3.0/beecount-3.3.0.apk

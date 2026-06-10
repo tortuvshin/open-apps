@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases{/id}
     deployments_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments
     created_at: 2017-08-03T18:21:33Z
-    updated_at: 2026-06-08T17:56:57Z
-    pushed_at: 2026-06-08T23:09:35Z
+    updated_at: 2026-06-09T23:56:01Z
+    pushed_at: 2026-06-09T21:29:24Z
     git_url: git://github.com/RocketChat/Rocket.Chat.ReactNative.git
     ssh_url: git@github.com:RocketChat/Rocket.Chat.ReactNative.git
     clone_url: https://github.com/RocketChat/Rocket.Chat.ReactNative.git
     svn_url: https://github.com/RocketChat/Rocket.Chat.ReactNative
     homepage: https://rocket.chat
-    size: 367481
-    stargazers_count: 2388
-    watchers_count: 2388
+    size: 367940
+    stargazers_count: 2387
+    watchers_count: 2387
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 475
+    open_issues_count: 473
     license:
       key: mit
       name: MIT License
@@ -132,8 +132,8 @@ github:
       - react-native
     visibility: public
     forks: 1458
-    open_issues: 475
-    watchers: 2388
+    open_issues: 473
+    watchers: 2387
     default_branch: develop
     permissions:
       admin: false
@@ -170,7 +170,7 @@ github:
       - month: 2026-01
         commits: 0
       - month: 2026-02
-        commits: 16
+        commits: 15
       - month: 2026-03
         commits: 16
       - month: 2026-04
@@ -178,12 +178,12 @@ github:
       - month: 2026-05
         commits: 30
       - month: 2026-06
-        commits: 10
-    totalCommitsKnown: 3312
-    openPullRequests: 245
+        commits: 11
+    totalCommitsKnown: 3313
+    openPullRequests: 243
     contributorsKnown: 138
   sync:
-    syncedAt: 2026-06-09T08:18:00.546Z
+    syncedAt: 2026-06-10T08:27:58.318Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -199,11 +199,11 @@ github:
     Shell: 3191
     Makefile: 1527
   latestRelease:
-    url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/332758568
-    assets_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/332758568/assets
-    upload_url: https://uploads.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/332758568/assets{?name,label}
-    html_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/tag/4.73.0
-    id: 332758568
+    url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/336831914
+    assets_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/336831914/assets
+    upload_url: https://uploads.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/336831914/assets{?name,label}
+    html_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/tag/4.73.1
+    id: 336831914
     author:
       login: diegolmello
       id: 804994
@@ -224,20 +224,20 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOBeqg284T1X4o
-    tag_name: 4.73.0
+    node_id: RE_kwDOBeqg284UE6Wq
+    tag_name: 4.73.1
     target_commitish: master
-    name: 4.73.0
+    name: 4.73.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-01T20:34:33Z
-    updated_at: 2026-06-01T20:41:50Z
-    published_at: 2026-06-01T20:41:50Z
+    created_at: 2026-06-09T19:41:31Z
+    updated_at: 2026-06-09T20:09:00Z
+    published_at: 2026-06-09T20:09:00Z
     assets:
-      - url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/assets/435579747
-        id: 435579747
-        node_id: RA_kwDOBeqg284Z9mtj
+      - url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/assets/443026141
+        id: 443026141
+        node_id: RA_kwDOBeqg284aaArd
         name: android-release.apk
         label: null
         uploader:
@@ -262,15 +262,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 200726133
-        digest: sha256:f18fec675a869849bf9f16bb22291bf56a5d836f57f0badd05f0be47f91c282a
-        download_count: 198
-        created_at: 2026-06-01T20:41:21Z
-        updated_at: 2026-06-01T20:41:47Z
-        browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.0/android-release.apk
-      - url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/assets/435579893
-        id: 435579893
-        node_id: RA_kwDOBeqg284Z9mv1
+        size: 200791669
+        digest: sha256:930b18aa256c6fd99b093b55c3a6c8675e1c7e7d282d772600d43b29914d6536
+        download_count: 42
+        created_at: 2026-06-09T20:08:34Z
+        updated_at: 2026-06-09T20:08:49Z
+        browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.1/android-release.apk
+      - url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/assets/443025880
+        id: 443025880
+        node_id: RA_kwDOBeqg284aaAnY
         name: ios-release.zip
         label: null
         uploader:
@@ -295,107 +295,58 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 65464654
-        digest: sha256:e7c437d6d8fb676cb692eb782bf6979e8b6a53b12b2e51f0e9833297f3f34782
-        download_count: 4
-        created_at: 2026-06-01T20:41:33Z
-        updated_at: 2026-06-01T20:41:47Z
-        browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.0/ios-release.zip
-    tarball_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/tarball/4.73.0
-    zipball_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/zipball/4.73.0
+        size: 65466661
+        digest: sha256:a70c40b0f652087ef344d4e48a3da1a67b7192d4615830debbefe7fd0cfca87a
+        download_count: 1
+        created_at: 2026-06-09T20:08:03Z
+        updated_at: 2026-06-09T20:08:49Z
+        browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.1/ios-release.zip
+    tarball_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/tarball/4.73.1
+    zipball_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/zipball/4.73.1
     body: "## What's Changed\r
 
-      * feat(a11y): alt text by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7163\r
+      * fix: load 50 messages with hideSystemMessages as true on old workspaces by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7305\r
 
-      * feat(a11y): Message actions announcement and back focus by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7229\r
+      * fix: Deeplink auth when host is already connected by @yash-rajpal in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7358\r
 
-      * fix: render Attachment file name in Thread Message preview when body is empty by
-      @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7323\r
+      * fix: re-subscribe rooms stream after forced socket reopen by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7362\r
 
-      * fix: preference value changes causing reset to other option by @Rohit3523 in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7313\r
+      * fix: keep live socket on deeplink login (prevent orphan WebSocket clobber) by @diegolmello
+      in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7380\r
 
-      * fix: do not encrypt messages when workspace E2E is disabled by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7324\r
+      * perf(markdown): reduce room-open render cost with parse cache and compiler memoization by
+      @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7348\r
 
-      * fix: emoji picker scroll does not reach the end by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7312\r
+      * perf(call): cut HeaderCallButton mount cost by consolidating call hooks by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7361\r
 
-      * fix: ActionSheet cuts off the bottom content by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7326\r
+      * chore: upgrade @react-native-picker/picker to 2.11.4 by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7357\r
 
-      * fix(android): set RC Mobile User-Agent on push notification avatar fetch by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7339\r
+      * chore: migrate DirectoryView to Hooks by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7359\r
 
-      * fix: don't cancel login saga on 2s timeout (stranded login screen) by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7340\r
+      * chore: remove wt-specific worktree contract from CLAUDE.md by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7365\r
 
-      * fix: prevent crash on Android devices without telecom feature by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7334\r
+      * docs: Update README.md by @aytaj-ismayilzada in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7356\r
 
-      * fix: Drain lost hangups on WebSocket reconnect by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7345\r
+      \r
 
-      * fix: SAML login fails due to double login race by @Rohit3523 in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7343\r
+      ## New Contributors\r
 
-      * fix(a11y): replace composer auto-focus with header focus in RoomView by @OtavioStasiak in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7336\r
-
-      * fix(android/voip): start microphone FGS for outgoing calls so audio survives backgrounding
-      by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7346\r
-
-      * fix(ci): restore iOS upload on develop after upload-hold removal by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7352\r
-
-      * chore: Bump version to 4.73.0 by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7318\r
-
-      * chore: migrate package manager from yarn to pnpm by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7303\r
-
-      * chore: upgrade to react-native-mmkv v4 by @Rohit3523 in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/6991\r
-
-      * chore: begin Experimental app sunset by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7320\r
-
-      * chore: stop publishing Experimental app by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7321\r
-
-      * chore: delete Experimental code paths and assets by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7322\r
-
-      * chore(ci): point build workflows at renamed GitHub environments by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7335\r
-
-      * chore(ci): drop iOS upload-hold gate from PR build flow by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7344\r
-
-      * chore: align local defaults with chat.rocket.android / chat.rocket.ios by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7347\r
-
-      * refactor(native): flatten \"official\" naming across Android, iOS, CI by @diegolmello in
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7325\r
+      * @aytaj-ismayilzada made their first contribution in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7356\r
 
       \r
 
       **Full Changelog**:
-      https://github.com/RocketChat/Rocket.Chat.ReactNative/compare/4.72.0...4.73.0"
-    reactions:
-      url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases/332758568/reactions
-      total_count: 1
-      "+1": 0
-      "-1": 0
-      laugh: 0
-      hooray: 0
-      confused: 0
-      heart: 1
-      rocket: 0
-      eyes: 0
-    mentions_count: 3
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/compare/4.73.0...4.73.1\r\n"
+    mentions_count: 5
   files:
     readme: true
     contributing: true
