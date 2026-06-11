@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-06-10T07:58:21Z
-    pushed_at: 2026-06-10T08:15:42Z
+    updated_at: 2026-06-11T07:51:07Z
+    pushed_at: 2026-06-11T07:51:05Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 648296
+    size: 648322
     stargazers_count: 3772
     watchers_count: 3772
     language: TypeScript
@@ -167,7 +167,7 @@ github:
       user_view_type: public
       site_admin: false
     network_count: 591
-    subscribers_count: 115
+    subscribers_count: 116
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -179,24 +179,24 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 70
+        commits: 66
       - month: 2026-06
-        commits: 30
-    totalCommitsKnown: 27911
+        commits: 34
+    totalCommitsKnown: 27915
     openPullRequests: 6
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-06-10T08:27:44.323Z
+    syncedAt: 2026-06-11T08:37:10.443Z
     apiVersion: rest-v3
     source: github-actions
   languages:
     TypeScript: 7779221
     Objective-C: 694758
-    Swift: 479403
+    Swift: 479445
     JavaScript: 74730
-    Ruby: 60356
-    Shell: 55274
-    Kotlin: 32659
+    Ruby: 61017
+    Shell: 55730
+    Kotlin: 32686
     Objective-C++: 26829
     Wolfram Language: 7442
     MATLAB: 4544
