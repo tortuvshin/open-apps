@@ -93,16 +93,16 @@ github:
     releases_url: https://api.github.com/repos/laurent22/joplin/releases{/id}
     deployments_url: https://api.github.com/repos/laurent22/joplin/deployments
     created_at: 2017-01-16T21:49:41Z
-    updated_at: 2026-06-10T06:52:24Z
-    pushed_at: 2026-06-09T22:37:09Z
+    updated_at: 2026-06-12T08:28:36Z
+    pushed_at: 2026-06-12T08:30:08Z
     git_url: git://github.com/laurent22/joplin.git
     ssh_url: git@github.com:laurent22/joplin.git
     clone_url: https://github.com/laurent22/joplin.git
     svn_url: https://github.com/laurent22/joplin
     homepage: https://joplinapp.org
-    size: 642601
-    stargazers_count: 55146
-    watchers_count: 55146
+    size: 641909
+    stargazers_count: 55168
+    watchers_count: 55168
     language: TypeScript
     has_issues: true
     has_projects: false
@@ -110,11 +110,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6134
+    forks_count: 6138
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 589
+    open_issues_count: 572
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - web-clipper
       - webdav
     visibility: public
-    forks: 6134
-    open_issues: 589
-    watchers: 55146
+    forks: 6138
+    open_issues: 572
+    watchers: 55168
     default_branch: dev
     permissions:
       admin: false
@@ -157,8 +157,8 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 6134
-    subscribers_count: 476
+    network_count: 6138
+    subscribers_count: 477
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -170,24 +170,24 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 70
+        commits: 43
       - month: 2026-06
-        commits: 30
-    totalCommitsKnown: 15167
-    openPullRequests: 21
-    contributorsKnown: 806
+        commits: 57
+    totalCommitsKnown: 15194
+    openPullRequests: 10
+    contributorsKnown: 807
   sync:
-    syncedAt: 2026-06-10T08:27:52.107Z
+    syncedAt: 2026-06-12T08:35:01.685Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 10827540
-    JavaScript: 2212430
-    Rust: 607571
-    HTML: 255481
+    TypeScript: 10840119
+    JavaScript: 2212417
+    Rust: 607915
+    HTML: 255555
     CSS: 141553
     Java: 123938
-    Mustache: 91471
+    Mustache: 91404
     SCSS: 51380
     Objective-C: 47197
     Shell: 32369
@@ -267,7 +267,7 @@ github:
         state: uploaded
         size: 155632045
         digest: sha256:7c620afe2598a89ebfeaa1949267e4757eb57138b734e45d8c8a8ac8b6655fd4
-        download_count: 41010
+        download_count: 42673
         created_at: 2026-05-19T15:50:15Z
         updated_at: 2026-05-19T15:50:37Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.DMG
@@ -300,7 +300,7 @@ github:
         state: uploaded
         size: 163179
         digest: sha256:d195b0e6dafd07f1e4503433b4c7efeea78f0002ba37e85f2caf359884b5e2f0
-        download_count: 107
+        download_count: 117
         created_at: 2026-05-19T15:50:15Z
         updated_at: 2026-05-19T15:50:15Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.dmg.blockmap
@@ -333,7 +333,7 @@ github:
         state: uploaded
         size: 155015776
         digest: sha256:c1d8b1dad92599d6fcc55d69c38682f3f9978d3153f2c76e476b9a1ca1d6145a
-        download_count: 198
+        download_count: 213
         created_at: 2026-05-19T15:49:47Z
         updated_at: 2026-05-19T15:49:53Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.pkg
@@ -366,7 +366,7 @@ github:
         state: uploaded
         size: 149106229
         digest: sha256:e6ca533c8298027ce60b9f3f753cd2d4ac8e4344a90c06c51a68eb952cbfd3fc
-        download_count: 641
+        download_count: 692
         created_at: 2026-05-19T15:50:25Z
         updated_at: 2026-05-19T15:50:32Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.zip
@@ -399,7 +399,7 @@ github:
         state: uploaded
         size: 155418
         digest: sha256:bf1e7530602a5bd8493dcd041bde0cc2c772367d50ae6c44dfb895dfa6dde5c2
-        download_count: 103
+        download_count: 112
         created_at: 2026-05-19T15:50:25Z
         updated_at: 2026-05-19T15:50:25Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.zip.blockmap
@@ -432,7 +432,7 @@ github:
         state: uploaded
         size: 156511980
         digest: sha256:43e5dbdcd068e14cc4d6711203b9e1c6e7e45573c9ecbfe1666799267b13a2b6
-        download_count: 272
+        download_count: 296
         created_at: 2026-05-19T17:08:31Z
         updated_at: 2026-05-19T17:08:41Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-mac.zip
@@ -465,7 +465,7 @@ github:
         state: uploaded
         size: 163444
         digest: sha256:15a7fd3042e83fe6d6e5bac049ef3b3972c4aff5c5824f38f52f21a335cf88b0
-        download_count: 96
+        download_count: 104
         created_at: 2026-05-19T17:08:31Z
         updated_at: 2026-05-19T17:08:31Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-mac.zip.blockmap
@@ -498,7 +498,7 @@ github:
         state: uploaded
         size: 159874165
         digest: sha256:72d25f946bfbc8bedc0cbb73dd7d3f76f1f3464c35677663dcb94d565874c133
-        download_count: 17682
+        download_count: 19019
         created_at: 2026-05-19T15:18:34Z
         updated_at: 2026-05-19T15:18:40Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.AppImage
@@ -531,7 +531,7 @@ github:
         state: uploaded
         size: 128
         digest: sha256:a4f345577feb7e370de37ffa720b6c32b297db07f7fffaeb90b3f3cfbf4fff2d
-        download_count: 928
+        download_count: 1001
         created_at: 2026-05-19T15:20:03Z
         updated_at: 2026-05-19T15:20:03Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.AppImage.sha512
@@ -564,7 +564,7 @@ github:
         state: uploaded
         size: 104071042
         digest: sha256:f54b6b459667d7082e196ab2c0233ac4b4edb0dbca347a070faebf548e4c371e
-        download_count: 2460
+        download_count: 2551
         created_at: 2026-05-19T15:20:03Z
         updated_at: 2026-05-19T15:20:06Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.deb
@@ -597,7 +597,7 @@ github:
         state: uploaded
         size: 163044896
         digest: sha256:65517db3d09118065cb8b6bbaf00de6a90d1da4bd214be86d4bcf56f4626d034
-        download_count: 8407
+        download_count: 8858
         created_at: 2026-05-19T17:09:07Z
         updated_at: 2026-05-19T17:09:17Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.dmg
@@ -630,7 +630,7 @@ github:
         state: uploaded
         size: 170215
         digest: sha256:46ba6bb29f52b21d5a76a40ecb96763a30c7f347e79d1d7f88358125af03b29a
-        download_count: 88
+        download_count: 96
         created_at: 2026-05-19T17:09:07Z
         updated_at: 2026-05-19T17:09:07Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.dmg.blockmap
@@ -663,7 +663,7 @@ github:
         state: uploaded
         size: 162643530
         digest: sha256:68ae15754d3146e755ac46f57a7969b2c5197e53bd30a80eba8d920601ff60ad
-        download_count: 140
+        download_count: 146
         created_at: 2026-05-19T17:08:44Z
         updated_at: 2026-05-19T17:08:54Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14.pkg
@@ -696,7 +696,7 @@ github:
         state: uploaded
         size: 246801704
         digest: sha256:4ac91174220d28a93538aca8fefd87f4d9f358d98388a5a001432d506898e650
-        download_count: 114571
+        download_count: 120816
         created_at: 2026-05-19T16:04:08Z
         updated_at: 2026-05-19T16:04:34Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-Setup-3.6.14.exe
@@ -729,7 +729,7 @@ github:
         state: uploaded
         size: 257010
         digest: sha256:017e230b932ce0e944b4e56705ac191b7dd68f7bce7d0a7616cca9f47361fccd
-        download_count: 4241
+        download_count: 4400
         created_at: 2026-05-19T16:04:08Z
         updated_at: 2026-05-19T16:04:08Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-Setup-3.6.14.exe.blockmap
@@ -762,7 +762,7 @@ github:
         state: uploaded
         size: 246575272
         digest: sha256:849601a0fecb975db95fa08807c4458ac98ffcfaa85897f712d1e6e8a90ac64e
-        download_count: 5423
+        download_count: 5785
         created_at: 2026-05-19T16:04:25Z
         updated_at: 2026-05-19T16:04:39Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/JoplinPortable.exe
@@ -795,7 +795,7 @@ github:
         state: uploaded
         size: 515
         digest: sha256:58539dee046074cce1df1441c7479cc3c07d7bed66f9961a34470fcb4740bf05
-        download_count: 99
+        download_count: 107
         created_at: 2026-05-19T15:20:06Z
         updated_at: 2026-05-19T15:20:07Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/latest-linux.yml
@@ -828,7 +828,7 @@ github:
         state: uploaded
         size: 498
         digest: sha256:339396646600a15f837bc7827d88206a5e835adfbb7c2ac7b6125e4fc95edefd
-        download_count: 17961
+        download_count: 19646
         created_at: 2026-05-19T15:50:48Z
         updated_at: 2026-05-19T15:50:48Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/latest-mac-arm64.yml
@@ -861,7 +861,7 @@ github:
         state: uploaded
         size: 488
         digest: sha256:0c29e11c1d3210d13fdef47e206e749f6349de23e4157dbeddd4e43dcaae3cb5
-        download_count: 19416
+        download_count: 21223
         created_at: 2026-05-19T17:09:19Z
         updated_at: 2026-05-19T17:09:19Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/latest-mac.yml
@@ -894,7 +894,7 @@ github:
         state: uploaded
         size: 344
         digest: sha256:b5a11db89b14b24532c5c9716313a48897a611c1128663e3855dcb5d529dfa2c
-        download_count: 53079
+        download_count: 58175
         created_at: 2026-05-19T16:04:39Z
         updated_at: 2026-05-19T16:04:39Z
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.14/latest.yml

@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-06-10T07:58:21Z
-    pushed_at: 2026-06-10T08:15:42Z
+    updated_at: 2026-06-11T15:08:26Z
+    pushed_at: 2026-06-12T08:28:27Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 648296
+    size: 647578
     stargazers_count: 3772
     watchers_count: 3772
     language: TypeScript
@@ -108,11 +108,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 591
+    forks_count: 592
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 8
+    open_issues_count: 10
     license:
       key: mit
       name: MIT License
@@ -134,8 +134,8 @@ github:
       - react-native
       - swift
     visibility: public
-    forks: 591
-    open_issues: 8
+    forks: 592
+    open_issues: 10
     watchers: 3772
     default_branch: main
     permissions:
@@ -166,8 +166,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 591
-    subscribers_count: 115
+    network_count: 592
+    subscribers_count: 116
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -179,24 +179,24 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 70
+        commits: 63
       - month: 2026-06
-        commits: 30
-    totalCommitsKnown: 27911
-    openPullRequests: 6
+        commits: 37
+    totalCommitsKnown: 27918
+    openPullRequests: 8
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-06-10T08:27:44.323Z
+    syncedAt: 2026-06-12T08:34:52.372Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 7779221
+    TypeScript: 7792406
     Objective-C: 694758
-    Swift: 479403
+    Swift: 479445
     JavaScript: 74730
-    Ruby: 60356
-    Shell: 55274
-    Kotlin: 32659
+    Ruby: 61017
+    Shell: 55730
+    Kotlin: 32686
     Objective-C++: 26829
     Wolfram Language: 7442
     MATLAB: 4544
