@@ -28,39 +28,171 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnkzMzE5NTYw
     name: DOOM-iOS
     full_name: id-Software/DOOM-iOS
+    private: false
+    owner:
+      login: id-Software
+      id: 1395534
+      node_id: MDEyOk9yZ2FuaXphdGlvbjEzOTU1MzQ=
+      avatar_url: https://avatars.githubusercontent.com/u/1395534?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/id-Software
+      html_url: https://github.com/id-Software
+      followers_url: https://api.github.com/users/id-Software/followers
+      following_url: https://api.github.com/users/id-Software/following{/other_user}
+      gists_url: https://api.github.com/users/id-Software/gists{/gist_id}
+      starred_url: https://api.github.com/users/id-Software/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/id-Software/subscriptions
+      organizations_url: https://api.github.com/users/id-Software/orgs
+      repos_url: https://api.github.com/users/id-Software/repos
+      events_url: https://api.github.com/users/id-Software/events{/privacy}
+      received_events_url: https://api.github.com/users/id-Software/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/id-Software/DOOM-iOS
     description: DOOM Classic for iOS Source Release
     fork: false
+    url: https://api.github.com/repos/id-Software/DOOM-iOS
+    forks_url: https://api.github.com/repos/id-Software/DOOM-iOS/forks
+    keys_url: https://api.github.com/repos/id-Software/DOOM-iOS/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/id-Software/DOOM-iOS/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/id-Software/DOOM-iOS/teams
+    hooks_url: https://api.github.com/repos/id-Software/DOOM-iOS/hooks
+    issue_events_url: https://api.github.com/repos/id-Software/DOOM-iOS/issues/events{/number}
+    events_url: https://api.github.com/repos/id-Software/DOOM-iOS/events
+    assignees_url: https://api.github.com/repos/id-Software/DOOM-iOS/assignees{/user}
+    branches_url: https://api.github.com/repos/id-Software/DOOM-iOS/branches{/branch}
+    tags_url: https://api.github.com/repos/id-Software/DOOM-iOS/tags
+    blobs_url: https://api.github.com/repos/id-Software/DOOM-iOS/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/id-Software/DOOM-iOS/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/id-Software/DOOM-iOS/git/refs{/sha}
+    trees_url: https://api.github.com/repos/id-Software/DOOM-iOS/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/id-Software/DOOM-iOS/statuses/{sha}
+    languages_url: https://api.github.com/repos/id-Software/DOOM-iOS/languages
+    stargazers_url: https://api.github.com/repos/id-Software/DOOM-iOS/stargazers
+    contributors_url: https://api.github.com/repos/id-Software/DOOM-iOS/contributors
+    subscribers_url: https://api.github.com/repos/id-Software/DOOM-iOS/subscribers
+    subscription_url: https://api.github.com/repos/id-Software/DOOM-iOS/subscription
+    commits_url: https://api.github.com/repos/id-Software/DOOM-iOS/commits{/sha}
+    git_commits_url: https://api.github.com/repos/id-Software/DOOM-iOS/git/commits{/sha}
+    comments_url: https://api.github.com/repos/id-Software/DOOM-iOS/comments{/number}
+    issue_comment_url: https://api.github.com/repos/id-Software/DOOM-iOS/issues/comments{/number}
+    contents_url: https://api.github.com/repos/id-Software/DOOM-iOS/contents/{+path}
+    compare_url: https://api.github.com/repos/id-Software/DOOM-iOS/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/id-Software/DOOM-iOS/merges
+    archive_url: https://api.github.com/repos/id-Software/DOOM-iOS/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/id-Software/DOOM-iOS/downloads
+    issues_url: https://api.github.com/repos/id-Software/DOOM-iOS/issues{/number}
+    pulls_url: https://api.github.com/repos/id-Software/DOOM-iOS/pulls{/number}
+    milestones_url: https://api.github.com/repos/id-Software/DOOM-iOS/milestones{/number}
+    notifications_url: https://api.github.com/repos/id-Software/DOOM-iOS/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/id-Software/DOOM-iOS/labels{/name}
+    releases_url: https://api.github.com/repos/id-Software/DOOM-iOS/releases{/id}
+    deployments_url: https://api.github.com/repos/id-Software/DOOM-iOS/deployments
+    created_at: 2012-01-31T22:28:09Z
+    updated_at: 2026-06-12T09:42:22Z
+    pushed_at: 2023-01-12T12:22:10Z
+    git_url: git://github.com/id-Software/DOOM-iOS.git
+    ssh_url: git@github.com:id-Software/DOOM-iOS.git
+    clone_url: https://github.com/id-Software/DOOM-iOS.git
+    svn_url: https://github.com/id-Software/DOOM-iOS
+    homepage: http://iphone.keyvisuals.com/apps/doom-classic-for-iphone-source-code-available/
+    size: 11664
+    stargazers_count: 829
+    watchers_count: 829
+    language: C
+    has_issues: false
+    has_projects: false
+    has_downloads: true
+    has_wiki: false
+    has_pages: false
+    has_discussions: false
+    forks_count: 210
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: C
-    topics: []
+    open_issues_count: 4
     license:
       key: gpl-2.0
       name: GNU General Public License v2.0
       spdx_id: GPL-2.0
       url: https://api.github.com/licenses/gpl-2.0
       node_id: MDc6TGljZW5zZTg=
-    stargazers_count: 829
-    watchers_count: 829
-    forks_count: 210
-    open_issues_count: 4
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
+    visibility: public
+    forks: 210
+    open_issues: 4
+    watchers: 829
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: id-Software
+      id: 1395534
+      node_id: MDEyOk9yZ2FuaXphdGlvbjEzOTU1MzQ=
+      avatar_url: https://avatars.githubusercontent.com/u/1395534?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/id-Software
+      html_url: https://github.com/id-Software
+      followers_url: https://api.github.com/users/id-Software/followers
+      following_url: https://api.github.com/users/id-Software/following{/other_user}
+      gists_url: https://api.github.com/users/id-Software/gists{/gist_id}
+      starred_url: https://api.github.com/users/id-Software/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/id-Software/subscriptions
+      organizations_url: https://api.github.com/users/id-Software/orgs
+      repos_url: https://api.github.com/users/id-Software/repos
+      events_url: https://api.github.com/users/id-Software/events{/privacy}
+      received_events_url: https://api.github.com/users/id-Software/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 210
     subscribers_count: 50
-    size: 11664
-    created_at: 2012-01-31T22:28:09Z
-    updated_at: 2026-06-12T09:42:22Z
-    pushed_at: 2023-01-12T12:22:10Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 2
+    openPullRequests: 3
+    contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-12T18:54:36.873Z
+    syncedAt: 2026-06-13T08:11:33.926Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    C: 3102623
+    C++: 73707
+    Objective-C: 27097
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels: []
 health:
   status: stale
   tier: curated
@@ -74,4 +206,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (829 stars on GitHub).
-

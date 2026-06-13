@@ -28,43 +28,212 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnk4NTE2Njc0OQ==
     name: GIOVANNI
     full_name: gabrieloc/GIOVANNI
+    private: false
+    owner:
+      login: gabrieloc
+      id: 983669
+      node_id: MDQ6VXNlcjk4MzY2OQ==
+      avatar_url: https://avatars.githubusercontent.com/u/983669?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/gabrieloc
+      html_url: https://github.com/gabrieloc
+      followers_url: https://api.github.com/users/gabrieloc/followers
+      following_url: https://api.github.com/users/gabrieloc/following{/other_user}
+      gists_url: https://api.github.com/users/gabrieloc/gists{/gist_id}
+      starred_url: https://api.github.com/users/gabrieloc/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/gabrieloc/subscriptions
+      organizations_url: https://api.github.com/users/gabrieloc/orgs
+      repos_url: https://api.github.com/users/gabrieloc/repos
+      events_url: https://api.github.com/users/gabrieloc/events{/privacy}
+      received_events_url: https://api.github.com/users/gabrieloc/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/gabrieloc/GIOVANNI
     description: A Gameboy Emulator for the Apple Watch
     fork: false
+    url: https://api.github.com/repos/gabrieloc/GIOVANNI
+    forks_url: https://api.github.com/repos/gabrieloc/GIOVANNI/forks
+    keys_url: https://api.github.com/repos/gabrieloc/GIOVANNI/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/gabrieloc/GIOVANNI/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/gabrieloc/GIOVANNI/teams
+    hooks_url: https://api.github.com/repos/gabrieloc/GIOVANNI/hooks
+    issue_events_url: https://api.github.com/repos/gabrieloc/GIOVANNI/issues/events{/number}
+    events_url: https://api.github.com/repos/gabrieloc/GIOVANNI/events
+    assignees_url: https://api.github.com/repos/gabrieloc/GIOVANNI/assignees{/user}
+    branches_url: https://api.github.com/repos/gabrieloc/GIOVANNI/branches{/branch}
+    tags_url: https://api.github.com/repos/gabrieloc/GIOVANNI/tags
+    blobs_url: https://api.github.com/repos/gabrieloc/GIOVANNI/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/gabrieloc/GIOVANNI/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/gabrieloc/GIOVANNI/git/refs{/sha}
+    trees_url: https://api.github.com/repos/gabrieloc/GIOVANNI/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/gabrieloc/GIOVANNI/statuses/{sha}
+    languages_url: https://api.github.com/repos/gabrieloc/GIOVANNI/languages
+    stargazers_url: https://api.github.com/repos/gabrieloc/GIOVANNI/stargazers
+    contributors_url: https://api.github.com/repos/gabrieloc/GIOVANNI/contributors
+    subscribers_url: https://api.github.com/repos/gabrieloc/GIOVANNI/subscribers
+    subscription_url: https://api.github.com/repos/gabrieloc/GIOVANNI/subscription
+    commits_url: https://api.github.com/repos/gabrieloc/GIOVANNI/commits{/sha}
+    git_commits_url: https://api.github.com/repos/gabrieloc/GIOVANNI/git/commits{/sha}
+    comments_url: https://api.github.com/repos/gabrieloc/GIOVANNI/comments{/number}
+    issue_comment_url: https://api.github.com/repos/gabrieloc/GIOVANNI/issues/comments{/number}
+    contents_url: https://api.github.com/repos/gabrieloc/GIOVANNI/contents/{+path}
+    compare_url: https://api.github.com/repos/gabrieloc/GIOVANNI/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/gabrieloc/GIOVANNI/merges
+    archive_url: https://api.github.com/repos/gabrieloc/GIOVANNI/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/gabrieloc/GIOVANNI/downloads
+    issues_url: https://api.github.com/repos/gabrieloc/GIOVANNI/issues{/number}
+    pulls_url: https://api.github.com/repos/gabrieloc/GIOVANNI/pulls{/number}
+    milestones_url: https://api.github.com/repos/gabrieloc/GIOVANNI/milestones{/number}
+    notifications_url: https://api.github.com/repos/gabrieloc/GIOVANNI/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/gabrieloc/GIOVANNI/labels{/name}
+    releases_url: https://api.github.com/repos/gabrieloc/GIOVANNI/releases{/id}
+    deployments_url: https://api.github.com/repos/gabrieloc/GIOVANNI/deployments
+    created_at: 2017-03-16T07:40:00Z
+    updated_at: 2026-05-25T12:18:44Z
+    pushed_at: 2019-10-12T11:19:01Z
+    git_url: git://github.com/gabrieloc/GIOVANNI.git
+    ssh_url: git@github.com:gabrieloc/GIOVANNI.git
+    clone_url: https://github.com/gabrieloc/GIOVANNI.git
+    svn_url: https://github.com/gabrieloc/GIOVANNI
+    homepage: ""
+    size: 6925
+    stargazers_count: 963
+    watchers_count: 963
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 75
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: Swift
-    topics:
-      - emulation
-      - emulator
-      - gameboy
-      - watchos
+    open_issues_count: 17
     license:
       key: mit
       name: MIT License
       spdx_id: MIT
       url: https://api.github.com/licenses/mit
       node_id: MDc6TGljZW5zZTEz
-    stargazers_count: 963
-    watchers_count: 963
-    forks_count: 75
-    open_issues_count: 17
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - emulation
+      - emulator
+      - gameboy
+      - watchos
+    visibility: public
+    forks: 75
+    open_issues: 17
+    watchers: 963
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 75
     subscribers_count: 35
-    size: 6925
-    created_at: 2017-03-16T07:40:00Z
-    updated_at: 2026-05-25T12:18:44Z
-    pushed_at: 2019-10-12T11:19:01Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 62
     openPullRequests: 0
+    contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-12T18:54:36.872Z
+    syncedAt: 2026-06-13T08:11:40.264Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Swift: 49092
+    Objective-C: 9531
+    Objective-C++: 5821
+  latestRelease:
+    url: https://api.github.com/repos/gabrieloc/GIOVANNI/releases/5924826
+    assets_url: https://api.github.com/repos/gabrieloc/GIOVANNI/releases/5924826/assets
+    upload_url: https://uploads.github.com/repos/gabrieloc/GIOVANNI/releases/5924826/assets{?name,label}
+    html_url: https://github.com/gabrieloc/GIOVANNI/releases/tag/v0.2
+    id: 5924826
+    author:
+      login: gabrieloc
+      id: 983669
+      node_id: MDQ6VXNlcjk4MzY2OQ==
+      avatar_url: https://avatars.githubusercontent.com/u/983669?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/gabrieloc
+      html_url: https://github.com/gabrieloc
+      followers_url: https://api.github.com/users/gabrieloc/followers
+      following_url: https://api.github.com/users/gabrieloc/following{/other_user}
+      gists_url: https://api.github.com/users/gabrieloc/gists{/gist_id}
+      starred_url: https://api.github.com/users/gabrieloc/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/gabrieloc/subscriptions
+      organizations_url: https://api.github.com/users/gabrieloc/orgs
+      repos_url: https://api.github.com/users/gabrieloc/repos
+      events_url: https://api.github.com/users/gabrieloc/events{/privacy}
+      received_events_url: https://api.github.com/users/gabrieloc/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: MDc6UmVsZWFzZTU5MjQ4MjY=
+    tag_name: v0.2
+    target_commitish: master
+    name: SpriteKit Rendering
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2017-03-30T15:37:52Z
+    updated_at: 2017-03-30T15:40:50Z
+    published_at: 2017-03-30T15:40:50Z
+    assets: []
+    tarball_url: https://api.github.com/repos/gabrieloc/GIOVANNI/tarball/v0.2
+    zipball_url: https://api.github.com/repos/gabrieloc/GIOVANNI/zipball/v0.2
+    body: "- Overhauls game rendering to use SpriteKit Textures instead of Core Graphics, resulting in
+      significant performance and graphics improvements\r
+
+      - Removes automatic saving and loading, which was resulting in the majority of crashes when
+      selecting a game. They have been moved to the force touch menu, but are still buggy. Will
+      require investigation."
+    reactions:
+      url: https://api.github.com/repos/gabrieloc/GIOVANNI/releases/5924826/reactions
+      total_count: 2
+      "+1": 0
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 2
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: 128A0C
+      description: null
 health:
   status: stale
   tier: curated
@@ -78,4 +247,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (963 stars on GitHub).
-

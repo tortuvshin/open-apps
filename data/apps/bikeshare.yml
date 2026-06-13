@@ -8,8 +8,9 @@ source:
   url: https://github.com/joreilly/BikeShare
 app:
   name: BikeShare
-  description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin Multiplatform project (using
-    CityBikes API http://api.citybik.es/v2/). Uses Room for local persistence.
+  description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin
+    Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local
+    persistence.
   category: tools
   projectType: real-app
   platforms:
@@ -37,16 +38,103 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnkyMjIyODY3NDU=
     name: BikeShare
     full_name: joreilly/BikeShare
+    private: false
+    owner:
+      login: joreilly
+      id: 6302
+      node_id: MDQ6VXNlcjYzMDI=
+      avatar_url: https://avatars.githubusercontent.com/u/6302?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/joreilly
+      html_url: https://github.com/joreilly
+      followers_url: https://api.github.com/users/joreilly/followers
+      following_url: https://api.github.com/users/joreilly/following{/other_user}
+      gists_url: https://api.github.com/users/joreilly/gists{/gist_id}
+      starred_url: https://api.github.com/users/joreilly/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/joreilly/subscriptions
+      organizations_url: https://api.github.com/users/joreilly/orgs
+      repos_url: https://api.github.com/users/joreilly/repos
+      events_url: https://api.github.com/users/joreilly/events{/privacy}
+      received_events_url: https://api.github.com/users/joreilly/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/joreilly/BikeShare
-    description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin Multiplatform project (using
-      CityBikes API http://api.citybik.es/v2/). Uses Room for local persistence
+    description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin
+      Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local
+      persistence
     fork: false
+    url: https://api.github.com/repos/joreilly/BikeShare
+    forks_url: https://api.github.com/repos/joreilly/BikeShare/forks
+    keys_url: https://api.github.com/repos/joreilly/BikeShare/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/joreilly/BikeShare/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/joreilly/BikeShare/teams
+    hooks_url: https://api.github.com/repos/joreilly/BikeShare/hooks
+    issue_events_url: https://api.github.com/repos/joreilly/BikeShare/issues/events{/number}
+    events_url: https://api.github.com/repos/joreilly/BikeShare/events
+    assignees_url: https://api.github.com/repos/joreilly/BikeShare/assignees{/user}
+    branches_url: https://api.github.com/repos/joreilly/BikeShare/branches{/branch}
+    tags_url: https://api.github.com/repos/joreilly/BikeShare/tags
+    blobs_url: https://api.github.com/repos/joreilly/BikeShare/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/joreilly/BikeShare/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/joreilly/BikeShare/git/refs{/sha}
+    trees_url: https://api.github.com/repos/joreilly/BikeShare/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/joreilly/BikeShare/statuses/{sha}
+    languages_url: https://api.github.com/repos/joreilly/BikeShare/languages
+    stargazers_url: https://api.github.com/repos/joreilly/BikeShare/stargazers
+    contributors_url: https://api.github.com/repos/joreilly/BikeShare/contributors
+    subscribers_url: https://api.github.com/repos/joreilly/BikeShare/subscribers
+    subscription_url: https://api.github.com/repos/joreilly/BikeShare/subscription
+    commits_url: https://api.github.com/repos/joreilly/BikeShare/commits{/sha}
+    git_commits_url: https://api.github.com/repos/joreilly/BikeShare/git/commits{/sha}
+    comments_url: https://api.github.com/repos/joreilly/BikeShare/comments{/number}
+    issue_comment_url: https://api.github.com/repos/joreilly/BikeShare/issues/comments{/number}
+    contents_url: https://api.github.com/repos/joreilly/BikeShare/contents/{+path}
+    compare_url: https://api.github.com/repos/joreilly/BikeShare/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/joreilly/BikeShare/merges
+    archive_url: https://api.github.com/repos/joreilly/BikeShare/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/joreilly/BikeShare/downloads
+    issues_url: https://api.github.com/repos/joreilly/BikeShare/issues{/number}
+    pulls_url: https://api.github.com/repos/joreilly/BikeShare/pulls{/number}
+    milestones_url: https://api.github.com/repos/joreilly/BikeShare/milestones{/number}
+    notifications_url: https://api.github.com/repos/joreilly/BikeShare/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/joreilly/BikeShare/labels{/name}
+    releases_url: https://api.github.com/repos/joreilly/BikeShare/releases{/id}
+    deployments_url: https://api.github.com/repos/joreilly/BikeShare/deployments
+    created_at: 2019-11-17T17:37:23Z
+    updated_at: 2026-06-07T20:46:34Z
+    pushed_at: 2026-06-07T21:02:56Z
+    git_url: git://github.com/joreilly/BikeShare.git
+    ssh_url: git@github.com:joreilly/BikeShare.git
+    clone_url: https://github.com/joreilly/BikeShare.git
+    svn_url: https://github.com/joreilly/BikeShare
+    homepage: ""
+    size: 10568
+    stargazers_count: 818
+    watchers_count: 818
+    language: Jupyter Notebook
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 59
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: main
-    language: Jupyter Notebook
+    open_issues_count: 12
+    license:
+      key: apache-2.0
+      name: Apache License 2.0
+      spdx_id: Apache-2.0
+      url: https://api.github.com/licenses/apache-2.0
+      node_id: MDc6TGljZW5zZTI=
+    allow_forking: true
+    is_template: true
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - android
       - circuit
@@ -67,29 +155,62 @@ github:
       - swiftui
       - viewmodel
       - wasm
-    license:
-      key: apache-2.0
-      name: Apache License 2.0
-      spdx_id: Apache-2.0
-      url: https://api.github.com/licenses/apache-2.0
-      node_id: MDc6TGljZW5zZTI=
-    stargazers_count: 818
-    watchers_count: 818
-    forks_count: 59
-    open_issues_count: 12
+    visibility: public
+    forks: 59
+    open_issues: 12
+    watchers: 818
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 59
     subscribers_count: 14
-    size: 10568
-    created_at: 2019-11-17T17:37:23Z
-    updated_at: 2026-06-07T20:46:34Z
-    pushed_at: 2026-06-07T21:02:56Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 4
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 481
+    openPullRequests: 10
+    contributorsKnown: 7
   sync:
-    syncedAt: 2026-06-12T18:54:36.874Z
+    syncedAt: 2026-06-13T08:11:31.131Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Jupyter Notebook: 3803892
+    Kotlin: 76527
+    Swift: 22780
+    Ruby: 3802
+    HTML: 1154
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: active
   tier: curated
@@ -103,4 +224,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (818 stars on GitHub).
-

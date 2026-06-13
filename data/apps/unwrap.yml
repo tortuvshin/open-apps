@@ -28,44 +28,161 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnkxNDQxNDk0MzA=
     name: Unwrap
     full_name: twostraws/Unwrap
+    private: false
+    owner:
+      login: twostraws
+      id: 190200
+      node_id: MDQ6VXNlcjE5MDIwMA==
+      avatar_url: https://avatars.githubusercontent.com/u/190200?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/twostraws
+      html_url: https://github.com/twostraws
+      followers_url: https://api.github.com/users/twostraws/followers
+      following_url: https://api.github.com/users/twostraws/following{/other_user}
+      gists_url: https://api.github.com/users/twostraws/gists{/gist_id}
+      starred_url: https://api.github.com/users/twostraws/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/twostraws/subscriptions
+      organizations_url: https://api.github.com/users/twostraws/orgs
+      repos_url: https://api.github.com/users/twostraws/repos
+      events_url: https://api.github.com/users/twostraws/events{/privacy}
+      received_events_url: https://api.github.com/users/twostraws/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/twostraws/Unwrap
     description: Learn Swift interactively on your iPhone.
     fork: false
+    url: https://api.github.com/repos/twostraws/Unwrap
+    forks_url: https://api.github.com/repos/twostraws/Unwrap/forks
+    keys_url: https://api.github.com/repos/twostraws/Unwrap/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/twostraws/Unwrap/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/twostraws/Unwrap/teams
+    hooks_url: https://api.github.com/repos/twostraws/Unwrap/hooks
+    issue_events_url: https://api.github.com/repos/twostraws/Unwrap/issues/events{/number}
+    events_url: https://api.github.com/repos/twostraws/Unwrap/events
+    assignees_url: https://api.github.com/repos/twostraws/Unwrap/assignees{/user}
+    branches_url: https://api.github.com/repos/twostraws/Unwrap/branches{/branch}
+    tags_url: https://api.github.com/repos/twostraws/Unwrap/tags
+    blobs_url: https://api.github.com/repos/twostraws/Unwrap/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/twostraws/Unwrap/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/twostraws/Unwrap/git/refs{/sha}
+    trees_url: https://api.github.com/repos/twostraws/Unwrap/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/twostraws/Unwrap/statuses/{sha}
+    languages_url: https://api.github.com/repos/twostraws/Unwrap/languages
+    stargazers_url: https://api.github.com/repos/twostraws/Unwrap/stargazers
+    contributors_url: https://api.github.com/repos/twostraws/Unwrap/contributors
+    subscribers_url: https://api.github.com/repos/twostraws/Unwrap/subscribers
+    subscription_url: https://api.github.com/repos/twostraws/Unwrap/subscription
+    commits_url: https://api.github.com/repos/twostraws/Unwrap/commits{/sha}
+    git_commits_url: https://api.github.com/repos/twostraws/Unwrap/git/commits{/sha}
+    comments_url: https://api.github.com/repos/twostraws/Unwrap/comments{/number}
+    issue_comment_url: https://api.github.com/repos/twostraws/Unwrap/issues/comments{/number}
+    contents_url: https://api.github.com/repos/twostraws/Unwrap/contents/{+path}
+    compare_url: https://api.github.com/repos/twostraws/Unwrap/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/twostraws/Unwrap/merges
+    archive_url: https://api.github.com/repos/twostraws/Unwrap/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/twostraws/Unwrap/downloads
+    issues_url: https://api.github.com/repos/twostraws/Unwrap/issues{/number}
+    pulls_url: https://api.github.com/repos/twostraws/Unwrap/pulls{/number}
+    milestones_url: https://api.github.com/repos/twostraws/Unwrap/milestones{/number}
+    notifications_url: https://api.github.com/repos/twostraws/Unwrap/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/twostraws/Unwrap/labels{/name}
+    releases_url: https://api.github.com/repos/twostraws/Unwrap/releases{/id}
+    deployments_url: https://api.github.com/repos/twostraws/Unwrap/deployments
+    created_at: 2018-08-09T12:26:22Z
+    updated_at: 2026-06-10T19:05:43Z
+    pushed_at: 2024-01-03T02:38:16Z
+    git_url: git://github.com/twostraws/Unwrap.git
+    ssh_url: git@github.com:twostraws/Unwrap.git
+    clone_url: https://github.com/twostraws/Unwrap.git
+    svn_url: https://github.com/twostraws/Unwrap
+    homepage: https://www.hackingwithswift.com
+    size: 84710
+    stargazers_count: 2328
+    watchers_count: 2328
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 309
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: main
-    language: Swift
-    topics:
-      - ios
-      - ipad
-      - iphone
-      - swift
-      - xcode
+    open_issues_count: 27
     license:
       key: other
       name: Other
       spdx_id: NOASSERTION
       url: null
       node_id: MDc6TGljZW5zZTA=
-    stargazers_count: 2328
-    watchers_count: 2328
-    forks_count: 309
-    open_issues_count: 27
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - ios
+      - ipad
+      - iphone
+      - swift
+      - xcode
+    visibility: public
+    forks: 309
+    open_issues: 27
+    watchers: 2328
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 309
     subscribers_count: 83
-    size: 84710
-    created_at: 2018-08-09T12:26:22Z
-    updated_at: 2026-06-10T19:05:43Z
-    pushed_at: 2024-01-03T02:38:16Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 518
+    openPullRequests: 4
+    contributorsKnown: 65
   sync:
-    syncedAt: 2026-06-12T18:54:36.862Z
+    syncedAt: 2026-06-13T08:12:00.675Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Swift: 432895
+    HTML: 228507
+    CSS: 2622
+  latestRelease: null
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 health:
   status: stale
   tier: curated
@@ -79,4 +196,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (2,328 stars on GitHub).
-

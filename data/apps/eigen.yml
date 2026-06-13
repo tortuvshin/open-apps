@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-06-11T07:51:07Z
-    pushed_at: 2026-06-11T07:51:05Z
+    updated_at: 2026-06-12T21:41:01Z
+    pushed_at: 2026-06-13T06:34:04Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 648322
-    stargazers_count: 3772
-    watchers_count: 3772
+    size: 647559
+    stargazers_count: 3771
+    watchers_count: 3771
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -108,11 +108,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 591
+    forks_count: 592
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 8
+    open_issues_count: 9
     license:
       key: mit
       name: MIT License
@@ -134,9 +134,9 @@ github:
       - react-native
       - swift
     visibility: public
-    forks: 591
-    open_issues: 8
-    watchers: 3772
+    forks: 592
+    open_issues: 9
+    watchers: 3771
     default_branch: main
     permissions:
       admin: false
@@ -166,8 +166,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 591
-    subscribers_count: 116
+    network_count: 592
+    subscribers_count: 115
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -179,23 +179,23 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 66
+        commits: 60
       - month: 2026-06
-        commits: 34
-    totalCommitsKnown: 27915
-    openPullRequests: 6
+        commits: 40
+    totalCommitsKnown: 27921
+    openPullRequests: 7
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-06-11T08:37:10.443Z
+    syncedAt: 2026-06-13T08:11:35.542Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 7779221
+    TypeScript: 7813659
     Objective-C: 694758
     Swift: 479445
-    JavaScript: 74730
+    JavaScript: 74803
     Ruby: 61017
-    Shell: 55730
+    Shell: 55883
     Kotlin: 32686
     Objective-C++: 26829
     Wolfram Language: 7442

@@ -1,16 +1,14 @@
 schemaVersion: 1
 id: github:streetwriters/notesnook
 slug: notesnook
-
 source:
   provider: github
   owner: streetwriters
   repo: notesnook
   url: https://github.com/streetwriters/notesnook
-
 app:
   name: Notesnook
-  description: "A fully open source & end-to-end encrypted note taking alternative to Evernote."
+  description: A fully open source & end-to-end encrypted note taking alternative to Evernote.
   category: productivity
   projectType: real-app
   platforms:
@@ -29,7 +27,6 @@ app:
         label: GitHub Releases
         url: https://github.com/streetwriters/notesnook/releases
         verified: false
-
 stack:
   primary: react-native
   families:
@@ -41,41 +38,1120 @@ stack:
       role: language
     - id: typescript
       role: language
-
 github:
   repository:
+    id: 353775942
+    node_id: MDEwOlJlcG9zaXRvcnkzNTM3NzU5NDI=
+    name: notesnook
     full_name: streetwriters/notesnook
+    private: false
+    owner:
+      login: streetwriters
+      id: 63662537
+      node_id: MDEyOk9yZ2FuaXphdGlvbjYzNjYyNTM3
+      avatar_url: https://avatars.githubusercontent.com/u/63662537?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/streetwriters
+      html_url: https://github.com/streetwriters
+      followers_url: https://api.github.com/users/streetwriters/followers
+      following_url: https://api.github.com/users/streetwriters/following{/other_user}
+      gists_url: https://api.github.com/users/streetwriters/gists{/gist_id}
+      starred_url: https://api.github.com/users/streetwriters/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/streetwriters/subscriptions
+      organizations_url: https://api.github.com/users/streetwriters/orgs
+      repos_url: https://api.github.com/users/streetwriters/repos
+      events_url: https://api.github.com/users/streetwriters/events{/privacy}
+      received_events_url: https://api.github.com/users/streetwriters/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/streetwriters/notesnook
-    description: "A fully open source & end-to-end encrypted note taking alternative to Evernote."
+    description: A fully open source & end-to-end encrypted note taking alternative to Evernote.
     fork: false
+    url: https://api.github.com/repos/streetwriters/notesnook
+    forks_url: https://api.github.com/repos/streetwriters/notesnook/forks
+    keys_url: https://api.github.com/repos/streetwriters/notesnook/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/streetwriters/notesnook/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/streetwriters/notesnook/teams
+    hooks_url: https://api.github.com/repos/streetwriters/notesnook/hooks
+    issue_events_url: https://api.github.com/repos/streetwriters/notesnook/issues/events{/number}
+    events_url: https://api.github.com/repos/streetwriters/notesnook/events
+    assignees_url: https://api.github.com/repos/streetwriters/notesnook/assignees{/user}
+    branches_url: https://api.github.com/repos/streetwriters/notesnook/branches{/branch}
+    tags_url: https://api.github.com/repos/streetwriters/notesnook/tags
+    blobs_url: https://api.github.com/repos/streetwriters/notesnook/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/streetwriters/notesnook/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/streetwriters/notesnook/git/refs{/sha}
+    trees_url: https://api.github.com/repos/streetwriters/notesnook/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/streetwriters/notesnook/statuses/{sha}
+    languages_url: https://api.github.com/repos/streetwriters/notesnook/languages
+    stargazers_url: https://api.github.com/repos/streetwriters/notesnook/stargazers
+    contributors_url: https://api.github.com/repos/streetwriters/notesnook/contributors
+    subscribers_url: https://api.github.com/repos/streetwriters/notesnook/subscribers
+    subscription_url: https://api.github.com/repos/streetwriters/notesnook/subscription
+    commits_url: https://api.github.com/repos/streetwriters/notesnook/commits{/sha}
+    git_commits_url: https://api.github.com/repos/streetwriters/notesnook/git/commits{/sha}
+    comments_url: https://api.github.com/repos/streetwriters/notesnook/comments{/number}
+    issue_comment_url: https://api.github.com/repos/streetwriters/notesnook/issues/comments{/number}
+    contents_url: https://api.github.com/repos/streetwriters/notesnook/contents/{+path}
+    compare_url: https://api.github.com/repos/streetwriters/notesnook/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/streetwriters/notesnook/merges
+    archive_url: https://api.github.com/repos/streetwriters/notesnook/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/streetwriters/notesnook/downloads
+    issues_url: https://api.github.com/repos/streetwriters/notesnook/issues{/number}
+    pulls_url: https://api.github.com/repos/streetwriters/notesnook/pulls{/number}
+    milestones_url: https://api.github.com/repos/streetwriters/notesnook/milestones{/number}
+    notifications_url: https://api.github.com/repos/streetwriters/notesnook/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/streetwriters/notesnook/labels{/name}
+    releases_url: https://api.github.com/repos/streetwriters/notesnook/releases{/id}
+    deployments_url: https://api.github.com/repos/streetwriters/notesnook/deployments
+    created_at: 2021-04-01T17:25:54Z
+    updated_at: 2026-06-13T06:27:17Z
+    pushed_at: 2026-06-13T06:22:59Z
+    git_url: git://github.com/streetwriters/notesnook.git
+    ssh_url: git@github.com:streetwriters/notesnook.git
+    clone_url: https://github.com/streetwriters/notesnook.git
+    svn_url: https://github.com/streetwriters/notesnook
+    homepage: https://notesnook.com/
+    size: 287941
+    stargazers_count: 14142
+    watchers_count: 14142
+    language: TypeScript
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: true
+    has_discussions: true
+    forks_count: 956
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: TypeScript
-    stargazers_count: 14137
-    watchers_count: 14137
-    forks_count: 955
     open_issues_count: 924
-    subscribers_count: 74
-    size: 287900
-    created_at: 2021-04-01T17:25:54Z
-    updated_at: 2026-06-12T13:12:03Z
-    pushed_at: 2026-06-12T10:46:56Z
     license:
-      spdx_id: GPL-3.0
-      name: GNU General Public License v3.0
       key: gpl-3.0
-    topics: ["asp-net-core","dotnet-core","electron","foss","hacktoberfest","note-managment","note-taking","note-taking-app","notebook","notes","notes-app","open-source","opensource","privacy","productivity","react","react-native","reactjs","self-hosted"]
+      name: GNU General Public License v3.0
+      spdx_id: GPL-3.0
+      url: https://api.github.com/licenses/gpl-3.0
+      node_id: MDc6TGljZW5zZTk=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: true
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - asp-net-core
+      - dotnet-core
+      - electron
+      - foss
+      - hacktoberfest
+      - note-managment
+      - note-taking
+      - note-taking-app
+      - notebook
+      - notes
+      - notes-app
+      - open-source
+      - opensource
+      - privacy
+      - productivity
+      - react
+      - react-native
+      - reactjs
+      - self-hosted
+    visibility: public
+    forks: 956
+    open_issues: 924
+    watchers: 14142
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: streetwriters
+      id: 63662537
+      node_id: MDEyOk9yZ2FuaXphdGlvbjYzNjYyNTM3
+      avatar_url: https://avatars.githubusercontent.com/u/63662537?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/streetwriters
+      html_url: https://github.com/streetwriters
+      followers_url: https://api.github.com/users/streetwriters/followers
+      following_url: https://api.github.com/users/streetwriters/following{/other_user}
+      gists_url: https://api.github.com/users/streetwriters/gists{/gist_id}
+      starred_url: https://api.github.com/users/streetwriters/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/streetwriters/subscriptions
+      organizations_url: https://api.github.com/users/streetwriters/orgs
+      repos_url: https://api.github.com/users/streetwriters/repos
+      events_url: https://api.github.com/users/streetwriters/events{/privacy}
+      received_events_url: https://api.github.com/users/streetwriters/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 956
+    subscribers_count: 74
+  languages:
+    TypeScript: 6633005
+    JavaScript: 1015099
+    Java: 55330
+    CSS: 53301
+    HTML: 25900
+    Swift: 14672
+    Ruby: 4626
+    Objective-C: 4372
+    Objective-C++: 2813
+    Gnuplot: 2720
+    Shell: 2263
+    Dockerfile: 1037
+    Kotlin: 985
+    C: 312
+  latestRelease:
+    url: https://api.github.com/repos/streetwriters/notesnook/releases/335888728
+    assets_url: https://api.github.com/repos/streetwriters/notesnook/releases/335888728/assets
+    upload_url: https://uploads.github.com/repos/streetwriters/notesnook/releases/335888728/assets{?name,label}
+    html_url: https://github.com/streetwriters/notesnook/releases/tag/v3.3.23
+    id: 335888728
+    author:
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOFRYxRs4UBUFY
+    tag_name: v3.3.23
+    target_commitish: master
+    name: Notesnook Desktop v3.3.23
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-06-08T10:55:55Z
+    updated_at: 2026-06-13T06:18:46Z
+    published_at: 2026-06-08T11:02:00Z
+    assets:
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441647687
+        id: 441647687
+        node_id: RA_kwDOFRYxRs4aUwJH
+        name: generated-sources.json
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/json
+        state: uploaded
+        size: 3013079
+        digest: sha256:f7807ad99f9785e95168e1878cc283631bbf73d89f6d0d58ffabb7f84f1cf209
+        download_count: 11
+        created_at: 2026-06-08T10:48:29Z
+        updated_at: 2026-06-08T10:48:30Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/generated-sources.json
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649198
+        id: 441649198
+        node_id: RA_kwDOFRYxRs4aUwgu
+        name: latest-linux-arm64.yml
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/yaml
+        state: uploaded
+        size: 383
+        digest: sha256:e039523fbc6550adf8660e20bbe8070355c8ae9fecab6ede959abc83e7cf2e72
+        download_count: 40
+        created_at: 2026-06-08T10:50:57Z
+        updated_at: 2026-06-08T10:50:58Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/latest-linux-arm64.yml
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649340
+        id: 441649340
+        node_id: RA_kwDOFRYxRs4aUwi8
+        name: latest-linux.yml
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/yaml
+        state: uploaded
+        size: 385
+        digest: sha256:8eac55d3ea4312d596d9e2bcf4207daa5088f2e4b751d578a512a7703c2c62f7
+        download_count: 1518
+        created_at: 2026-06-08T10:51:11Z
+        updated_at: 2026-06-08T10:51:11Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/latest-linux.yml
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441651918
+        id: 441651918
+        node_id: RA_kwDOFRYxRs4aUxLO
+        name: latest-mac.yml
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/yaml
+        state: uploaded
+        size: 800
+        digest: sha256:3f7182ae6a209fab0d704f781e53f401ee4e4fc48e05d50a39ccbb75e99a370d
+        download_count: 12264
+        created_at: 2026-06-08T10:54:42Z
+        updated_at: 2026-06-08T10:54:42Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/latest-mac.yml
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652593
+        id: 441652593
+        node_id: RA_kwDOFRYxRs4aUxVx
+        name: latest.yml
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/yaml
+        state: uploaded
+        size: 642
+        digest: sha256:91085adf2b2b099421e926fb7b27655c0e46efbbe34ee2ed003acb9116ab8bdc
+        download_count: 18782
+        created_at: 2026-06-08T10:55:18Z
+        updated_at: 2026-06-08T10:55:18Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/latest.yml
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/446373167
+        id: 446373167
+        node_id: RA_kwDOFRYxRs4amx0v
+        name: notesnook-web-clipper-firefox-0.4.1.xpi
+        label: null
+        uploader:
+          login: thecodrr
+          id: 7473959
+          node_id: MDQ6VXNlcjc0NzM5NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7473959?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/thecodrr
+          html_url: https://github.com/thecodrr
+          followers_url: https://api.github.com/users/thecodrr/followers
+          following_url: https://api.github.com/users/thecodrr/following{/other_user}
+          gists_url: https://api.github.com/users/thecodrr/gists{/gist_id}
+          starred_url: https://api.github.com/users/thecodrr/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/thecodrr/subscriptions
+          organizations_url: https://api.github.com/users/thecodrr/orgs
+          repos_url: https://api.github.com/users/thecodrr/repos
+          events_url: https://api.github.com/users/thecodrr/events{/privacy}
+          received_events_url: https://api.github.com/users/thecodrr/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-xpinstall
+        state: uploaded
+        size: 154309
+        digest: sha256:221bef07804a687fe12c2a738292c22f611841bbf5f9c5cc84663a929e19f64d
+        download_count: 1
+        created_at: 2026-06-13T06:18:44Z
+        updated_at: 2026-06-13T06:18:46Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook-web-clipper-firefox-0.4.1.xpi
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441647187
+        id: 441647187
+        node_id: RA_kwDOFRYxRs4aUwBT
+        name: notesnook_build_v3.3.23.zip
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 14577857
+        digest: sha256:f7ab6d0d68ea332be84e9014d8726e582574556f29f8b1e828eda351ef867871
+        download_count: 25
+        created_at: 2026-06-08T10:47:39Z
+        updated_at: 2026-06-08T10:47:40Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_build_v3.3.23.zip
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649104
+        id: 441649104
+        node_id: RA_kwDOFRYxRs4aUwfQ
+        name: notesnook_linux_arm64.AppImage
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 122241679
+        digest: sha256:337b01516b68781e3a25f129d6841ee136e9c29aa0a31b50df5dd16e64b46864
+        download_count: 56
+        created_at: 2026-06-08T10:50:53Z
+        updated_at: 2026-06-08T10:50:57Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_linux_arm64.AppImage
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649311
+        id: 441649311
+        node_id: RA_kwDOFRYxRs4aUwif
+        name: notesnook_linux_x86_64.AppImage
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 122012443
+        digest: sha256:c49738761f754dcc6f07cdfae1b557a80ba9c97c599a928cceca1ee399869a12
+        download_count: 1169
+        created_at: 2026-06-08T10:51:07Z
+        updated_at: 2026-06-08T10:51:10Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_linux_x86_64.AppImage
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441651561
+        id: 441651561
+        node_id: RA_kwDOFRYxRs4aUxFp
+        name: notesnook_mac_arm64.dmg
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 124767047
+        digest: sha256:89302d43a6509bc651bf08a39f651f1dd72dd2a1ee9908a2f06d4deb6f619943
+        download_count: 1120
+        created_at: 2026-06-08T10:54:10Z
+        updated_at: 2026-06-08T10:54:16Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_arm64.dmg
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441651562
+        id: 441651562
+        node_id: RA_kwDOFRYxRs4aUxFq
+        name: notesnook_mac_arm64.dmg.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 132247
+        digest: sha256:6dabda6eefb676c655794ef2c6bbea36af4eb1fc3a4443e6ddccee6ec9d10e2f
+        download_count: 5
+        created_at: 2026-06-08T10:54:10Z
+        updated_at: 2026-06-08T10:54:11Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_arm64.dmg.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441651881
+        id: 441651881
+        node_id: RA_kwDOFRYxRs4aUxKp
+        name: notesnook_mac_arm64.zip
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 120292012
+        digest: sha256:5f2a0be4627a734e7939cd6775f8d33e82300a7d8aa531dc18543f030566ef5d
+        download_count: 2394
+        created_at: 2026-06-08T10:54:37Z
+        updated_at: 2026-06-08T10:54:41Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_arm64.zip
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441651882
+        id: 441651882
+        node_id: RA_kwDOFRYxRs4aUxKq
+        name: notesnook_mac_arm64.zip.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 126901
+        digest: sha256:0894bb81c7b72b12d76b041967acf31419c2a599b6d911a6f028d5d9b8f5aae7
+        download_count: 2125
+        created_at: 2026-06-08T10:54:37Z
+        updated_at: 2026-06-08T10:54:37Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_arm64.zip.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649996
+        id: 441649996
+        node_id: RA_kwDOFRYxRs4aUwtM
+        name: notesnook_mac_x64.dmg
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 131244298
+        digest: sha256:2e94cd6cdcbf5dd8afd76b15416e9a5be320c2a6c64b65f5a86caaea4fa6d35e
+        download_count: 536
+        created_at: 2026-06-08T10:52:16Z
+        updated_at: 2026-06-08T10:52:22Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_x64.dmg
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441649995
+        id: 441649995
+        node_id: RA_kwDOFRYxRs4aUwtL
+        name: notesnook_mac_x64.dmg.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 138083
+        digest: sha256:ad950eb69d7954a6947b4e5f6717e78fdb02116f9f726c05b28403bd80b93076
+        download_count: 4
+        created_at: 2026-06-08T10:52:16Z
+        updated_at: 2026-06-08T10:52:16Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_x64.dmg.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441650053
+        id: 441650053
+        node_id: RA_kwDOFRYxRs4aUwuF
+        name: notesnook_mac_x64.zip
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 126763084
+        digest: sha256:b2a7757a53b67e4bede3eb0f6601b6bcdcec63d070744c733b5a5541634a7e72
+        download_count: 334
+        created_at: 2026-06-08T10:52:27Z
+        updated_at: 2026-06-08T10:52:33Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_x64.zip
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441650052
+        id: 441650052
+        node_id: RA_kwDOFRYxRs4aUwuE
+        name: notesnook_mac_x64.zip.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 133632
+        digest: sha256:bfaa37b702c02df2fbdea89f6948663587ff363ee83056383d710c9f8bac45df
+        download_count: 284
+        created_at: 2026-06-08T10:52:27Z
+        updated_at: 2026-06-08T10:52:27Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_mac_x64.zip.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652219
+        id: 441652219
+        node_id: RA_kwDOFRYxRs4aUxP7
+        name: notesnook_win.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 187432608
+        digest: sha256:eb22f82fd785627f390cbae6ad1e01718378245b9c243736c9e5fa83407b6bc8
+        download_count: 4588
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:55:16Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win.exe
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652218
+        id: 441652218
+        node_id: RA_kwDOFRYxRs4aUxP6
+        name: notesnook_win.exe.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 194347
+        digest: sha256:49335253513992089250427b0640e604c538977b141240fd23ac651dd8a4e70f
+        download_count: 4378
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:54:54Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win.exe.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652204
+        id: 441652204
+        node_id: RA_kwDOFRYxRs4aUxPs
+        name: notesnook_win_arm64.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 94864208
+        digest: sha256:2e833de21b0b181c37990f2908ca79bef624cb40dd30a554418d8b07fe20bf14
+        download_count: 511
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:54:56Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_arm64.exe
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652202
+        id: 441652202
+        node_id: RA_kwDOFRYxRs4aUxPq
+        name: notesnook_win_arm64.exe.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 99629
+        digest: sha256:68aaec43c8707b8792be1df381fcee82743d6febdfd5cf9af285e0ccac50fd25
+        download_count: 4
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:54:53Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_arm64.exe.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652519
+        id: 441652519
+        node_id: RA_kwDOFRYxRs4aUxUn
+        name: notesnook_win_arm64_portable.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 94700584
+        digest: sha256:5a96a5e283b4cdffcf39f59ee1d8d5888a41e5885dc0adf7f1d0e8ef8f86b4c6
+        download_count: 450
+        created_at: 2026-06-08T10:55:12Z
+        updated_at: 2026-06-08T10:55:15Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_arm64_portable.exe
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652518
+        id: 441652518
+        node_id: RA_kwDOFRYxRs4aUxUm
+        name: notesnook_win_portable.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 187268976
+        digest: sha256:31bbbb12e59cebc8956a826d48cfd08f74ae1a4bc13945e9f6589fecc2a46ad5
+        download_count: 38
+        created_at: 2026-06-08T10:55:12Z
+        updated_at: 2026-06-08T10:55:18Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_portable.exe
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652203
+        id: 441652203
+        node_id: RA_kwDOFRYxRs4aUxPr
+        name: notesnook_win_x64.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 93447040
+        digest: sha256:4840d274a46a9e8be9aa7942f7f47cae7398591744a60cc9a212fae4449bb875
+        download_count: 1683
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:54:57Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_x64.exe
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652205
+        id: 441652205
+        node_id: RA_kwDOFRYxRs4aUxPt
+        name: notesnook_win_x64.exe.blockmap
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 99020
+        digest: sha256:05a8651ca43650a53f8723637e76f2d5610998f0e8fb2977d8739fb20b2d6bc6
+        download_count: 5
+        created_at: 2026-06-08T10:54:53Z
+        updated_at: 2026-06-08T10:54:53Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_x64.exe.blockmap
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/441652520
+        id: 441652520
+        node_id: RA_kwDOFRYxRs4aUxUo
+        name: notesnook_win_x64_portable.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 93283048
+        digest: sha256:f6c0753b8785ab518a19b0dc19ca28aa53c3fb89940235f88574b9dfa7838a2c
+        download_count: 567
+        created_at: 2026-06-08T10:55:12Z
+        updated_at: 2026-06-08T10:55:14Z
+        browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.3.23/notesnook_win_x64_portable.exe
+    tarball_url: https://api.github.com/repos/streetwriters/notesnook/tarball/v3.3.23
+    zipball_url: https://api.github.com/repos/streetwriters/notesnook/zipball/v3.3.23
+    body: "[Read about what's new in Notesnook Desktop v3.3.23 on Notesnook's
+      blog](https://blog.notesnook.com/notesnook-desktop-v3.3.23/)\r
 
+      \r
+
+      \r
+
+      **Full Changelog**: https://github.com/streetwriters/notesnook/compare/v3.3.22...v3.3.23"
+  activity:
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 41
+      - month: 2026-06
+        commits: 59
+    totalCommitsKnown: 15172
+    contributorsKnown: 51
+    openPullRequests: 54
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: true
+  labels:
+    - name: good first issue
+      color: 062DAB
+      description: ""
+  sync:
+    syncedAt: 2026-06-13T08:11:50.371Z
+    apiVersion: rest-v3
+    source: github-actions
 health:
   status: active
   tier: listed
   visibility: listed
   cleanupCandidate: false
   staleReason: null
-
 curation:
   reviewed: false
   reviewedBy: null

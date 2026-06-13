@@ -1,17 +1,14 @@
 schemaVersion: 1
-
 id: github:OnionBrowser/OnionBrowser
 slug: onionbrowser
-
 source:
   provider: github
   owner: OnionBrowser
   repo: OnionBrowser
   url: https://github.com/OnionBrowser/OnionBrowser
-
 app:
-  name: "OnionBrowser"
-  description: "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network"
+  name: OnionBrowser
+  description: An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network
   category: productivity
   projectType: production
   platforms:
@@ -29,10 +26,9 @@ app:
     channels:
       - type: app-store
         platform: ios
-        label: "App Store"
+        label: App Store
         url: https://apps.apple.com/us/app/onion-browser/id519296448
         verified: false
-
 stack:
   primary: ios
   technologies:
@@ -56,26 +52,107 @@ stack:
       role: technology
     - id: security
       role: technology
-
 github:
   repository:
     id: 3534119
     node_id: MDEwOlJlcG9zaXRvcnkzNTM0MTE5
     name: OnionBrowser
     full_name: OnionBrowser/OnionBrowser
+    private: false
+    owner:
+      login: OnionBrowser
+      id: 8987421
+      node_id: MDEyOk9yZ2FuaXphdGlvbjg5ODc0MjE=
+      avatar_url: https://avatars.githubusercontent.com/u/8987421?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/OnionBrowser
+      html_url: https://github.com/OnionBrowser
+      followers_url: https://api.github.com/users/OnionBrowser/followers
+      following_url: https://api.github.com/users/OnionBrowser/following{/other_user}
+      gists_url: https://api.github.com/users/OnionBrowser/gists{/gist_id}
+      starred_url: https://api.github.com/users/OnionBrowser/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/OnionBrowser/subscriptions
+      organizations_url: https://api.github.com/users/OnionBrowser/orgs
+      repos_url: https://api.github.com/users/OnionBrowser/repos
+      events_url: https://api.github.com/users/OnionBrowser/events{/privacy}
+      received_events_url: https://api.github.com/users/OnionBrowser/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/OnionBrowser/OnionBrowser
-    clone_url: https://github.com/OnionBrowser/OnionBrowser.git
-    ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
-    homepage: "https://onionbrowser.com"
-    description: "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network"
+    description: An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network
     fork: false
+    url: https://api.github.com/repos/OnionBrowser/OnionBrowser
+    forks_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/forks
+    keys_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/teams
+    hooks_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/hooks
+    issue_events_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/issues/events{/number}
+    events_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/events
+    assignees_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/assignees{/user}
+    branches_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/branches{/branch}
+    tags_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/tags
+    blobs_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/git/refs{/sha}
+    trees_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/statuses/{sha}
+    languages_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/languages
+    stargazers_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/stargazers
+    contributors_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/contributors
+    subscribers_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/subscribers
+    subscription_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/subscription
+    commits_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/commits{/sha}
+    git_commits_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/git/commits{/sha}
+    comments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/comments{/number}
+    issue_comment_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/issues/comments{/number}
+    contents_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/contents/{+path}
+    compare_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/merges
+    archive_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/downloads
+    issues_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/issues{/number}
+    pulls_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/pulls{/number}
+    milestones_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/milestones{/number}
+    notifications_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/labels{/name}
+    releases_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases{/id}
+    deployments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/deployments
+    created_at: 2012-02-24T08:50:51Z
+    updated_at: 2026-06-12T12:52:10Z
+    pushed_at: 2026-06-11T11:10:30Z
+    git_url: git://github.com/OnionBrowser/OnionBrowser.git
+    ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
+    clone_url: https://github.com/OnionBrowser/OnionBrowser.git
+    svn_url: https://github.com/OnionBrowser/OnionBrowser
+    homepage: https://onionbrowser.com
+    size: 132916
+    stargazers_count: 2591
+    watchers_count: 2591
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 528
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 7
+    license:
+      key: other
+      name: Other
+      spdx_id: NOASSERTION
+      url: null
+      node_id: MDc6TGljZW5zZTA=
+    allow_forking: true
     is_template: false
-    visibility: public
-    default_branch: 3.X
-    language: "Swift"
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - anonymity
       - browser
@@ -89,29 +166,166 @@ github:
       - tor
       - tor-network
       - web-browser
-    license:
-      key: other
-      name: "Other"
-      spdx_id: NOASSERTION
-    stargazers_count: 2591
-    watchers_count: 2591
-    forks_count: 528
-    open_issues_count: 7
+    visibility: public
+    forks: 528
+    open_issues: 7
+    watchers: 2591
+    default_branch: 3.X
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: OnionBrowser
+      id: 8987421
+      node_id: MDEyOk9yZ2FuaXphdGlvbjg5ODc0MjE=
+      avatar_url: https://avatars.githubusercontent.com/u/8987421?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/OnionBrowser
+      html_url: https://github.com/OnionBrowser
+      followers_url: https://api.github.com/users/OnionBrowser/followers
+      following_url: https://api.github.com/users/OnionBrowser/following{/other_user}
+      gists_url: https://api.github.com/users/OnionBrowser/gists{/gist_id}
+      starred_url: https://api.github.com/users/OnionBrowser/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/OnionBrowser/subscriptions
+      organizations_url: https://api.github.com/users/OnionBrowser/orgs
+      repos_url: https://api.github.com/users/OnionBrowser/repos
+      events_url: https://api.github.com/users/OnionBrowser/events{/privacy}
+      received_events_url: https://api.github.com/users/OnionBrowser/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 528
     subscribers_count: 165
-    size: 132916
-    created_at: 2012-02-24T08:50:51Z
-    updated_at: 2026-06-12T12:52:10Z
-    pushed_at: 2026-06-11T11:10:30Z
   sync:
-    syncedAt: 2026-06-12T18:50:15.119Z
+    syncedAt: 2026-06-13T08:11:50.818Z
     apiVersion: rest-v3
-    source: submit-page
+    source: github-actions
+  languages:
+    Swift: 380983
+    HTML: 25625
+    Objective-C: 12768
+    Shell: 8559
+    Ruby: 2331
+    C: 408
+  latestRelease:
+    url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/334906701
+    assets_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/334906701/assets
+    upload_url: https://uploads.github.com/repos/OnionBrowser/OnionBrowser/releases/334906701/assets{?name,label}
+    html_url: https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.3.10
+    id: 334906701
+    author:
+      login: tladesignz
+      id: 117089
+      node_id: MDQ6VXNlcjExNzA4OQ==
+      avatar_url: https://avatars.githubusercontent.com/u/117089?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/tladesignz
+      html_url: https://github.com/tladesignz
+      followers_url: https://api.github.com/users/tladesignz/followers
+      following_url: https://api.github.com/users/tladesignz/following{/other_user}
+      gists_url: https://api.github.com/users/tladesignz/gists{/gist_id}
+      starred_url: https://api.github.com/users/tladesignz/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/tladesignz/subscriptions
+      organizations_url: https://api.github.com/users/tladesignz/orgs
+      repos_url: https://api.github.com/users/tladesignz/repos
+      events_url: https://api.github.com/users/tladesignz/events{/privacy}
+      received_events_url: https://api.github.com/users/tladesignz/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOADXtJ84T9kVN
+    tag_name: v3.3.10
+    target_commitish: 3.X
+    name: v3.3.10
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-06-05T11:15:29Z
+    updated_at: 2026-06-05T12:17:02Z
+    published_at: 2026-06-05T12:08:33Z
+    assets:
+      - url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/assets/439274842
+        id: 439274842
+        node_id: RA_kwDOADXtJ84aLs1a
+        name: OnionBrowser.ipa
+        label: null
+        uploader:
+          login: tladesignz
+          id: 117089
+          node_id: MDQ6VXNlcjExNzA4OQ==
+          avatar_url: https://avatars.githubusercontent.com/u/117089?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/tladesignz
+          html_url: https://github.com/tladesignz
+          followers_url: https://api.github.com/users/tladesignz/followers
+          following_url: https://api.github.com/users/tladesignz/following{/other_user}
+          gists_url: https://api.github.com/users/tladesignz/gists{/gist_id}
+          starred_url: https://api.github.com/users/tladesignz/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/tladesignz/subscriptions
+          organizations_url: https://api.github.com/users/tladesignz/orgs
+          repos_url: https://api.github.com/users/tladesignz/repos
+          events_url: https://api.github.com/users/tladesignz/events{/privacy}
+          received_events_url: https://api.github.com/users/tladesignz/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 35681868
+        digest: sha256:be7dd521e03779da5db980ef5f57f17c8948879e9dc0bfcfc6c5e5fa07c0a316
+        download_count: 145
+        created_at: 2026-06-05T12:16:11Z
+        updated_at: 2026-06-05T12:17:02Z
+        browser_download_url: https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.10/OnionBrowser.ipa
+    tarball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/tarball/v3.3.10
+    zipball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/zipball/v3.3.10
+    body: "- Updated Tor to 0.4.9.9. (Contains many security fixes!)\r
 
+      - Updated Korean, Japanese, Croatian amd simplified Chinese translations. \r\n"
+    reactions:
+      url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/334906701/reactions
+      total_count: 2
+      "+1": 2
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  activity:
+    monthlyCommits:
+      - month: 2026-01
+        commits: 6
+      - month: 2026-02
+        commits: 14
+      - month: 2026-03
+        commits: 12
+      - month: 2026-04
+        commits: 8
+      - month: 2026-05
+        commits: 11
+      - month: 2026-06
+        commits: 7
+    totalCommitsKnown: 1630
+    contributorsKnown: 18
+    openPullRequests: 0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: true
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels: []
 curation:
   reviewed: false
   reviewedBy: null
   reviewedAt: null
-  bestFor:
-    []
-  caveats:
-    []
+  bestFor: []
+  caveats: []

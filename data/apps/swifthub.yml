@@ -34,15 +34,101 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnk3ODAxMTk5NQ==
     name: SwiftHub
     full_name: khoren93/SwiftHub
+    private: false
+    owner:
+      login: khoren93
+      id: 11523360
+      node_id: MDQ6VXNlcjExNTIzMzYw
+      avatar_url: https://avatars.githubusercontent.com/u/11523360?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/khoren93
+      html_url: https://github.com/khoren93
+      followers_url: https://api.github.com/users/khoren93/followers
+      following_url: https://api.github.com/users/khoren93/following{/other_user}
+      gists_url: https://api.github.com/users/khoren93/gists{/gist_id}
+      starred_url: https://api.github.com/users/khoren93/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/khoren93/subscriptions
+      organizations_url: https://api.github.com/users/khoren93/orgs
+      repos_url: https://api.github.com/users/khoren93/repos
+      events_url: https://api.github.com/users/khoren93/events{/privacy}
+      received_events_url: https://api.github.com/users/khoren93/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/khoren93/SwiftHub
     description: GitHub iOS client in RxSwift and MVVM-C clean architecture
     fork: false
+    url: https://api.github.com/repos/khoren93/SwiftHub
+    forks_url: https://api.github.com/repos/khoren93/SwiftHub/forks
+    keys_url: https://api.github.com/repos/khoren93/SwiftHub/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/khoren93/SwiftHub/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/khoren93/SwiftHub/teams
+    hooks_url: https://api.github.com/repos/khoren93/SwiftHub/hooks
+    issue_events_url: https://api.github.com/repos/khoren93/SwiftHub/issues/events{/number}
+    events_url: https://api.github.com/repos/khoren93/SwiftHub/events
+    assignees_url: https://api.github.com/repos/khoren93/SwiftHub/assignees{/user}
+    branches_url: https://api.github.com/repos/khoren93/SwiftHub/branches{/branch}
+    tags_url: https://api.github.com/repos/khoren93/SwiftHub/tags
+    blobs_url: https://api.github.com/repos/khoren93/SwiftHub/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/khoren93/SwiftHub/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/khoren93/SwiftHub/git/refs{/sha}
+    trees_url: https://api.github.com/repos/khoren93/SwiftHub/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/khoren93/SwiftHub/statuses/{sha}
+    languages_url: https://api.github.com/repos/khoren93/SwiftHub/languages
+    stargazers_url: https://api.github.com/repos/khoren93/SwiftHub/stargazers
+    contributors_url: https://api.github.com/repos/khoren93/SwiftHub/contributors
+    subscribers_url: https://api.github.com/repos/khoren93/SwiftHub/subscribers
+    subscription_url: https://api.github.com/repos/khoren93/SwiftHub/subscription
+    commits_url: https://api.github.com/repos/khoren93/SwiftHub/commits{/sha}
+    git_commits_url: https://api.github.com/repos/khoren93/SwiftHub/git/commits{/sha}
+    comments_url: https://api.github.com/repos/khoren93/SwiftHub/comments{/number}
+    issue_comment_url: https://api.github.com/repos/khoren93/SwiftHub/issues/comments{/number}
+    contents_url: https://api.github.com/repos/khoren93/SwiftHub/contents/{+path}
+    compare_url: https://api.github.com/repos/khoren93/SwiftHub/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/khoren93/SwiftHub/merges
+    archive_url: https://api.github.com/repos/khoren93/SwiftHub/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/khoren93/SwiftHub/downloads
+    issues_url: https://api.github.com/repos/khoren93/SwiftHub/issues{/number}
+    pulls_url: https://api.github.com/repos/khoren93/SwiftHub/pulls{/number}
+    milestones_url: https://api.github.com/repos/khoren93/SwiftHub/milestones{/number}
+    notifications_url: https://api.github.com/repos/khoren93/SwiftHub/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/khoren93/SwiftHub/labels{/name}
+    releases_url: https://api.github.com/repos/khoren93/SwiftHub/releases{/id}
+    deployments_url: https://api.github.com/repos/khoren93/SwiftHub/deployments
+    created_at: 2017-01-04T12:02:59Z
+    updated_at: 2026-06-06T16:07:29Z
+    pushed_at: 2026-02-15T16:15:53Z
+    git_url: git://github.com/khoren93/SwiftHub.git
+    ssh_url: git@github.com:khoren93/SwiftHub.git
+    clone_url: https://github.com/khoren93/SwiftHub.git
+    svn_url: https://github.com/khoren93/SwiftHub
+    homepage: ""
+    size: 13231
+    stargazers_count: 3111
+    watchers_count: 3111
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 541
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: Swift
+    open_issues_count: 27
+    license:
+      key: mit
+      name: MIT License
+      spdx_id: MIT
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - cleanarchitecture
       - fastlane
@@ -56,29 +142,106 @@ github:
       - rest
       - rxswift
       - swift
-    license:
-      key: mit
-      name: MIT License
-      spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
-    stargazers_count: 3111
-    watchers_count: 3111
-    forks_count: 541
-    open_issues_count: 27
+    visibility: public
+    forks: 541
+    open_issues: 27
+    watchers: 3111
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 541
     subscribers_count: 55
-    size: 13231
-    created_at: 2017-01-04T12:02:59Z
-    updated_at: 2026-06-06T16:07:29Z
-    pushed_at: 2026-02-15T16:15:53Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 3
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 535
     openPullRequests: 0
+    contributorsKnown: 8
   sync:
-    syncedAt: 2026-06-12T18:54:36.859Z
+    syncedAt: 2026-06-13T08:11:56.603Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Swift: 763617
+    Ruby: 8497
+  latestRelease:
+    url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943
+    assets_url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943/assets
+    upload_url: https://uploads.github.com/repos/khoren93/SwiftHub/releases/51258943/assets{?name,label}
+    html_url: https://github.com/khoren93/SwiftHub/releases/tag/v1.10.0
+    id: 51258943
+    author:
+      login: khoren93
+      id: 11523360
+      node_id: MDQ6VXNlcjExNTIzMzYw
+      avatar_url: https://avatars.githubusercontent.com/u/11523360?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/khoren93
+      html_url: https://github.com/khoren93
+      followers_url: https://api.github.com/users/khoren93/followers
+      following_url: https://api.github.com/users/khoren93/following{/other_user}
+      gists_url: https://api.github.com/users/khoren93/gists{/gist_id}
+      starred_url: https://api.github.com/users/khoren93/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/khoren93/subscriptions
+      organizations_url: https://api.github.com/users/khoren93/orgs
+      repos_url: https://api.github.com/users/khoren93/repos
+      events_url: https://api.github.com/users/khoren93/events{/privacy}
+      received_events_url: https://api.github.com/users/khoren93/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOBKZeW84DDiY_
+    tag_name: v1.10.0
+    target_commitish: master
+    name: RxSwift 6.x support
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2021-10-12T19:27:16Z
+    updated_at: 2021-10-13T06:14:58Z
+    published_at: 2021-10-13T06:14:58Z
+    assets: []
+    tarball_url: https://api.github.com/repos/khoren93/SwiftHub/tarball/v1.10.0
+    zipball_url: https://api.github.com/repos/khoren93/SwiftHub/zipball/v1.10.0
+    body: "- Upgraded all dependencies based on RxSwift 6.x"
+    reactions:
+      url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943/reactions
+      total_count: 1
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: 128A0C
+      description: null
 health:
   status: active
   tier: curated
@@ -92,4 +255,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (3,111 stars on GitHub).
-

@@ -1,17 +1,14 @@
 schemaVersion: 1
-
 id: github:ish-app/ish
 slug: ish
-
 source:
   provider: github
   owner: ish-app
   repo: ish
   url: https://github.com/ish-app/ish
-
 app:
-  name: "ish"
-  description: "Linux shell for iOS"
+  name: ish
+  description: Linux shell for iOS
   category: productivity
   projectType: production
   platforms:
@@ -26,10 +23,9 @@ app:
     channels:
       - type: app-store
         platform: ios
-        label: "App Store"
+        label: App Store
         url: https://apps.apple.com/us/app/ish-shell/id1436902243
         verified: false
-
 stack:
   primary: ios
   technologies:
@@ -43,54 +39,352 @@ stack:
       role: technology
     - id: linux
       role: technology
-
 github:
   repository:
     id: 90320494
     node_id: MDEwOlJlcG9zaXRvcnk5MDMyMDQ5NA==
     name: ish
     full_name: ish-app/ish
+    private: false
+    owner:
+      login: ish-app
+      id: 38895825
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM4ODk1ODI1
+      avatar_url: https://avatars.githubusercontent.com/u/38895825?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/ish-app
+      html_url: https://github.com/ish-app
+      followers_url: https://api.github.com/users/ish-app/followers
+      following_url: https://api.github.com/users/ish-app/following{/other_user}
+      gists_url: https://api.github.com/users/ish-app/gists{/gist_id}
+      starred_url: https://api.github.com/users/ish-app/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/ish-app/subscriptions
+      organizations_url: https://api.github.com/users/ish-app/orgs
+      repos_url: https://api.github.com/users/ish-app/repos
+      events_url: https://api.github.com/users/ish-app/events{/privacy}
+      received_events_url: https://api.github.com/users/ish-app/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/ish-app/ish
-    clone_url: https://github.com/ish-app/ish.git
-    ssh_url: git@github.com:ish-app/ish.git
-    homepage: "https://ish.app"
-    description: "Linux shell for iOS"
+    description: Linux shell for iOS
     fork: false
+    url: https://api.github.com/repos/ish-app/ish
+    forks_url: https://api.github.com/repos/ish-app/ish/forks
+    keys_url: https://api.github.com/repos/ish-app/ish/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/ish-app/ish/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/ish-app/ish/teams
+    hooks_url: https://api.github.com/repos/ish-app/ish/hooks
+    issue_events_url: https://api.github.com/repos/ish-app/ish/issues/events{/number}
+    events_url: https://api.github.com/repos/ish-app/ish/events
+    assignees_url: https://api.github.com/repos/ish-app/ish/assignees{/user}
+    branches_url: https://api.github.com/repos/ish-app/ish/branches{/branch}
+    tags_url: https://api.github.com/repos/ish-app/ish/tags
+    blobs_url: https://api.github.com/repos/ish-app/ish/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/ish-app/ish/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/ish-app/ish/git/refs{/sha}
+    trees_url: https://api.github.com/repos/ish-app/ish/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/ish-app/ish/statuses/{sha}
+    languages_url: https://api.github.com/repos/ish-app/ish/languages
+    stargazers_url: https://api.github.com/repos/ish-app/ish/stargazers
+    contributors_url: https://api.github.com/repos/ish-app/ish/contributors
+    subscribers_url: https://api.github.com/repos/ish-app/ish/subscribers
+    subscription_url: https://api.github.com/repos/ish-app/ish/subscription
+    commits_url: https://api.github.com/repos/ish-app/ish/commits{/sha}
+    git_commits_url: https://api.github.com/repos/ish-app/ish/git/commits{/sha}
+    comments_url: https://api.github.com/repos/ish-app/ish/comments{/number}
+    issue_comment_url: https://api.github.com/repos/ish-app/ish/issues/comments{/number}
+    contents_url: https://api.github.com/repos/ish-app/ish/contents/{+path}
+    compare_url: https://api.github.com/repos/ish-app/ish/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/ish-app/ish/merges
+    archive_url: https://api.github.com/repos/ish-app/ish/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/ish-app/ish/downloads
+    issues_url: https://api.github.com/repos/ish-app/ish/issues{/number}
+    pulls_url: https://api.github.com/repos/ish-app/ish/pulls{/number}
+    milestones_url: https://api.github.com/repos/ish-app/ish/milestones{/number}
+    notifications_url: https://api.github.com/repos/ish-app/ish/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/ish-app/ish/labels{/name}
+    releases_url: https://api.github.com/repos/ish-app/ish/releases{/id}
+    deployments_url: https://api.github.com/repos/ish-app/ish/deployments
+    created_at: 2017-05-05T00:10:35Z
+    updated_at: 2026-06-13T06:13:40Z
+    pushed_at: 2026-05-30T01:20:21Z
+    git_url: git://github.com/ish-app/ish.git
+    ssh_url: git@github.com:ish-app/ish.git
+    clone_url: https://github.com/ish-app/ish.git
+    svn_url: https://github.com/ish-app/ish
+    homepage: https://ish.app
+    size: 5552
+    stargazers_count: 19975
+    watchers_count: 19975
+    language: C
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 1407
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 683
+    license:
+      key: other
+      name: Other
+      spdx_id: NOASSERTION
+      url: null
+      node_id: MDc6TGljZW5zZTA=
+    allow_forking: true
     is_template: false
-    visibility: public
-    default_branch: master
-    language: "C"
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - emulator
       - hacktoberfest
       - ios
       - linux
-    license:
-      key: other
-      name: "Other"
-      spdx_id: NOASSERTION
-    stargazers_count: 19972
-    watchers_count: 19972
-    forks_count: 1405
-    open_issues_count: 683
+    visibility: public
+    forks: 1407
+    open_issues: 683
+    watchers: 19975
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: ish-app
+      id: 38895825
+      node_id: MDEyOk9yZ2FuaXphdGlvbjM4ODk1ODI1
+      avatar_url: https://avatars.githubusercontent.com/u/38895825?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/ish-app
+      html_url: https://github.com/ish-app
+      followers_url: https://api.github.com/users/ish-app/followers
+      following_url: https://api.github.com/users/ish-app/following{/other_user}
+      gists_url: https://api.github.com/users/ish-app/gists{/gist_id}
+      starred_url: https://api.github.com/users/ish-app/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/ish-app/subscriptions
+      organizations_url: https://api.github.com/users/ish-app/orgs
+      repos_url: https://api.github.com/users/ish-app/repos
+      events_url: https://api.github.com/users/ish-app/events{/privacy}
+      received_events_url: https://api.github.com/users/ish-app/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 1407
     subscribers_count: 569
-    size: 5552
-    created_at: 2017-05-05T00:10:35Z
-    updated_at: 2026-06-12T16:34:39Z
-    pushed_at: 2026-05-30T01:20:21Z
   sync:
-    syncedAt: 2026-06-12T19:04:25.951Z
+    syncedAt: 2026-06-13T08:11:44.207Z
     apiVersion: rest-v3
-    source: submit-page
+    source: github-actions
+  languages:
+    C: 1027534
+    Objective-C: 310805
+    Assembly: 79055
+    Swift: 11694
+    Meson: 11290
+    Shell: 8889
+    JavaScript: 5686
+    Ruby: 3747
+    Linker Script: 1337
+    GDB: 810
+    Python: 782
+    HTML: 303
+    CSS: 160
+    Nix: 158
+  latestRelease:
+    url: https://api.github.com/repos/ish-app/ish/releases/103708424
+    assets_url: https://api.github.com/repos/ish-app/ish/releases/103708424/assets
+    upload_url: https://uploads.github.com/repos/ish-app/ish/releases/103708424/assets{?name,label}
+    html_url: https://github.com/ish-app/ish/releases/tag/builds/494
+    id: 103708424
+    author:
+      login: ish-actions
+      id: 74480058
+      node_id: MDQ6VXNlcjc0NDgwMDU4
+      avatar_url: https://avatars.githubusercontent.com/u/74480058?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/ish-actions
+      html_url: https://github.com/ish-actions
+      followers_url: https://api.github.com/users/ish-actions/followers
+      following_url: https://api.github.com/users/ish-actions/following{/other_user}
+      gists_url: https://api.github.com/users/ish-actions/gists{/gist_id}
+      starred_url: https://api.github.com/users/ish-actions/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/ish-actions/subscriptions
+      organizations_url: https://api.github.com/users/ish-actions/orgs
+      repos_url: https://api.github.com/users/ish-actions/repos
+      events_url: https://api.github.com/users/ish-actions/events{/privacy}
+      received_events_url: https://api.github.com/users/ish-actions/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOBWIubs4GLncI
+    tag_name: builds/494
+    target_commitish: master
+    name: iSH 1.3.2 (build 494)
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2023-05-20T23:39:07Z
+    updated_at: 2023-07-30T01:44:06Z
+    published_at: 2023-05-20T23:52:42Z
+    assets:
+      - url: https://api.github.com/repos/ish-app/ish/releases/assets/109072761
+        id: 109072761
+        node_id: RA_kwDOBWIubs4GgFF5
+        name: iSH-appstore.app.dSYM.zip
+        label: ""
+        uploader:
+          login: ish-actions
+          id: 74480058
+          node_id: MDQ6VXNlcjc0NDgwMDU4
+          avatar_url: https://avatars.githubusercontent.com/u/74480058?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/ish-actions
+          html_url: https://github.com/ish-actions
+          followers_url: https://api.github.com/users/ish-actions/followers
+          following_url: https://api.github.com/users/ish-actions/following{/other_user}
+          gists_url: https://api.github.com/users/ish-actions/gists{/gist_id}
+          starred_url: https://api.github.com/users/ish-actions/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/ish-actions/subscriptions
+          organizations_url: https://api.github.com/users/ish-actions/orgs
+          repos_url: https://api.github.com/users/ish-actions/repos
+          events_url: https://api.github.com/users/ish-actions/events{/privacy}
+          received_events_url: https://api.github.com/users/ish-actions/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 1416198
+        digest: null
+        download_count: 2741
+        created_at: 2023-05-20T23:52:45Z
+        updated_at: 2023-05-20T23:52:45Z
+        browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH-appstore.app.dSYM.zip
+      - url: https://api.github.com/repos/ish-app/ish/releases/assets/109072759
+        id: 109072759
+        node_id: RA_kwDOBWIubs4GgFF3
+        name: iSH.app.dSYM.zip
+        label: ""
+        uploader:
+          login: ish-actions
+          id: 74480058
+          node_id: MDQ6VXNlcjc0NDgwMDU4
+          avatar_url: https://avatars.githubusercontent.com/u/74480058?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/ish-actions
+          html_url: https://github.com/ish-actions
+          followers_url: https://api.github.com/users/ish-actions/followers
+          following_url: https://api.github.com/users/ish-actions/following{/other_user}
+          gists_url: https://api.github.com/users/ish-actions/gists{/gist_id}
+          starred_url: https://api.github.com/users/ish-actions/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/ish-actions/subscriptions
+          organizations_url: https://api.github.com/users/ish-actions/orgs
+          repos_url: https://api.github.com/users/ish-actions/repos
+          events_url: https://api.github.com/users/ish-actions/events{/privacy}
+          received_events_url: https://api.github.com/users/ish-actions/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 1416200
+        digest: null
+        download_count: 1390
+        created_at: 2023-05-20T23:52:44Z
+        updated_at: 2023-05-20T23:52:44Z
+        browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.app.dSYM.zip
+      - url: https://api.github.com/repos/ish-app/ish/releases/assets/109072757
+        id: 109072757
+        node_id: RA_kwDOBWIubs4GgFF1
+        name: iSH.ipa
+        label: ""
+        uploader:
+          login: ish-actions
+          id: 74480058
+          node_id: MDQ6VXNlcjc0NDgwMDU4
+          avatar_url: https://avatars.githubusercontent.com/u/74480058?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/ish-actions
+          html_url: https://github.com/ish-actions
+          followers_url: https://api.github.com/users/ish-actions/followers
+          following_url: https://api.github.com/users/ish-actions/following{/other_user}
+          gists_url: https://api.github.com/users/ish-actions/gists{/gist_id}
+          starred_url: https://api.github.com/users/ish-actions/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/ish-actions/subscriptions
+          organizations_url: https://api.github.com/users/ish-actions/orgs
+          repos_url: https://api.github.com/users/ish-actions/repos
+          events_url: https://api.github.com/users/ish-actions/events{/privacy}
+          received_events_url: https://api.github.com/users/ish-actions/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 4232682
+        digest: null
+        download_count: 13630
+        created_at: 2023-05-20T23:52:43Z
+        updated_at: 2023-05-20T23:52:43Z
+        browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa
+    tarball_url: https://api.github.com/repos/ish-app/ish/tarball/builds/494
+    zipball_url: https://api.github.com/repos/ish-app/ish/zipball/builds/494
+    body: "Fixed bugs:\r
 
+      - Make better diagnostics work in the file provider too, to diagnose Files app issues"
+    reactions:
+      url: https://api.github.com/repos/ish-app/ish/releases/103708424/reactions
+      total_count: 102
+      "+1": 60
+      "-1": 0
+      laugh: 9
+      hooray: 0
+      confused: 0
+      heart: 11
+      rocket: 13
+      eyes: 9
+  activity:
+    monthlyCommits:
+      - month: 2026-01
+        commits: 7
+      - month: 2026-02
+        commits: 3
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 4
+      - month: 2026-05
+        commits: 11
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 4256
+    contributorsKnown: 66
+    openPullRequests: 30
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: true
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 00ff00
+      description: ""
+    - name: help wanted
+      color: 128A0C
+      description: null
 curation:
   reviewed: false
   reviewedBy: null
   reviewedAt: null
-  bestFor:
-    []
-  caveats:
-    []
+  bestFor: []
+  caveats: []

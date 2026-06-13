@@ -1,16 +1,14 @@
 schemaVersion: 1
 id: github:BlueWallet/BlueWallet
 slug: bluewallet
-
 source:
   provider: github
   owner: BlueWallet
   repo: BlueWallet
   url: https://github.com/BlueWallet/BlueWallet
-
 app:
   name: BlueWallet
-  description: "Bitcoin wallet for iOS & Android. Built with React Native."
+  description: Bitcoin wallet for iOS & Android. Built with React Native.
   category: finance
   projectType: real-app
   platforms:
@@ -29,7 +27,6 @@ app:
         label: GitHub Releases
         url: https://github.com/BlueWallet/BlueWallet/releases
         verified: false
-
 stack:
   primary: react-native
   families:
@@ -41,41 +38,760 @@ stack:
       role: language
     - id: typescript
       role: language
-
 github:
   repository:
+    id: 117463191
+    node_id: MDEwOlJlcG9zaXRvcnkxMTc0NjMxOTE=
+    name: BlueWallet
     full_name: BlueWallet/BlueWallet
-    html_url: https://github.com/BlueWallet/BlueWallet
-    description: "Bitcoin wallet for iOS & Android. Built with React Native."
-    fork: false
-    archived: false
-    disabled: false
     private: false
-    visibility: public
-    default_branch: master
-    language: TypeScript
+    owner:
+      login: BlueWallet
+      id: 43582003
+      node_id: MDEyOk9yZ2FuaXphdGlvbjQzNTgyMDAz
+      avatar_url: https://avatars.githubusercontent.com/u/43582003?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/BlueWallet
+      html_url: https://github.com/BlueWallet
+      followers_url: https://api.github.com/users/BlueWallet/followers
+      following_url: https://api.github.com/users/BlueWallet/following{/other_user}
+      gists_url: https://api.github.com/users/BlueWallet/gists{/gist_id}
+      starred_url: https://api.github.com/users/BlueWallet/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/BlueWallet/subscriptions
+      organizations_url: https://api.github.com/users/BlueWallet/orgs
+      repos_url: https://api.github.com/users/BlueWallet/repos
+      events_url: https://api.github.com/users/BlueWallet/events{/privacy}
+      received_events_url: https://api.github.com/users/BlueWallet/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    html_url: https://github.com/BlueWallet/BlueWallet
+    description: "Bitcoin wallet for iOS & Android. Built with React Native "
+    fork: false
+    url: https://api.github.com/repos/BlueWallet/BlueWallet
+    forks_url: https://api.github.com/repos/BlueWallet/BlueWallet/forks
+    keys_url: https://api.github.com/repos/BlueWallet/BlueWallet/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/BlueWallet/BlueWallet/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/BlueWallet/BlueWallet/teams
+    hooks_url: https://api.github.com/repos/BlueWallet/BlueWallet/hooks
+    issue_events_url: https://api.github.com/repos/BlueWallet/BlueWallet/issues/events{/number}
+    events_url: https://api.github.com/repos/BlueWallet/BlueWallet/events
+    assignees_url: https://api.github.com/repos/BlueWallet/BlueWallet/assignees{/user}
+    branches_url: https://api.github.com/repos/BlueWallet/BlueWallet/branches{/branch}
+    tags_url: https://api.github.com/repos/BlueWallet/BlueWallet/tags
+    blobs_url: https://api.github.com/repos/BlueWallet/BlueWallet/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/BlueWallet/BlueWallet/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/BlueWallet/BlueWallet/git/refs{/sha}
+    trees_url: https://api.github.com/repos/BlueWallet/BlueWallet/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/BlueWallet/BlueWallet/statuses/{sha}
+    languages_url: https://api.github.com/repos/BlueWallet/BlueWallet/languages
+    stargazers_url: https://api.github.com/repos/BlueWallet/BlueWallet/stargazers
+    contributors_url: https://api.github.com/repos/BlueWallet/BlueWallet/contributors
+    subscribers_url: https://api.github.com/repos/BlueWallet/BlueWallet/subscribers
+    subscription_url: https://api.github.com/repos/BlueWallet/BlueWallet/subscription
+    commits_url: https://api.github.com/repos/BlueWallet/BlueWallet/commits{/sha}
+    git_commits_url: https://api.github.com/repos/BlueWallet/BlueWallet/git/commits{/sha}
+    comments_url: https://api.github.com/repos/BlueWallet/BlueWallet/comments{/number}
+    issue_comment_url: https://api.github.com/repos/BlueWallet/BlueWallet/issues/comments{/number}
+    contents_url: https://api.github.com/repos/BlueWallet/BlueWallet/contents/{+path}
+    compare_url: https://api.github.com/repos/BlueWallet/BlueWallet/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/BlueWallet/BlueWallet/merges
+    archive_url: https://api.github.com/repos/BlueWallet/BlueWallet/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/BlueWallet/BlueWallet/downloads
+    issues_url: https://api.github.com/repos/BlueWallet/BlueWallet/issues{/number}
+    pulls_url: https://api.github.com/repos/BlueWallet/BlueWallet/pulls{/number}
+    milestones_url: https://api.github.com/repos/BlueWallet/BlueWallet/milestones{/number}
+    notifications_url: https://api.github.com/repos/BlueWallet/BlueWallet/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/BlueWallet/BlueWallet/labels{/name}
+    releases_url: https://api.github.com/repos/BlueWallet/BlueWallet/releases{/id}
+    deployments_url: https://api.github.com/repos/BlueWallet/BlueWallet/deployments
+    created_at: 2018-01-14T20:14:02Z
+    updated_at: 2026-06-13T02:21:53Z
+    pushed_at: 2026-06-13T02:26:05Z
+    git_url: git://github.com/BlueWallet/BlueWallet.git
+    ssh_url: git@github.com:BlueWallet/BlueWallet.git
+    clone_url: https://github.com/BlueWallet/BlueWallet.git
+    svn_url: https://github.com/BlueWallet/BlueWallet
+    homepage: https://bluewallet.io
+    size: 210696
     stargazers_count: 3222
     watchers_count: 3222
+    language: TypeScript
+    has_issues: true
+    has_projects: false
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
     forks_count: 1033
-    open_issues_count: 448
-    subscribers_count: 86
-    size: 210444
-    created_at: 2018-01-14T20:14:02Z
-    updated_at: 2026-06-12T05:24:31Z
-    pushed_at: 2026-06-12T12:04:55Z
+    mirror_url: null
+    archived: false
+    disabled: false
+    open_issues_count: 447
     license:
-      spdx_id: MIT
-      name: MIT License
       key: mit
-    topics: ["bitcoin","bitcoinjs","blockchain","cryptocurrency","react-native","reactnative"]
+      name: MIT License
+      spdx_id: MIT
+      url: https://api.github.com/licenses/mit
+      node_id: MDc6TGljZW5zZTEz
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - bitcoin
+      - bitcoinjs
+      - blockchain
+      - cryptocurrency
+      - react-native
+      - reactnative
+    visibility: public
+    forks: 1033
+    open_issues: 447
+    watchers: 3222
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: BlueWallet
+      id: 43582003
+      node_id: MDEyOk9yZ2FuaXphdGlvbjQzNTgyMDAz
+      avatar_url: https://avatars.githubusercontent.com/u/43582003?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/BlueWallet
+      html_url: https://github.com/BlueWallet
+      followers_url: https://api.github.com/users/BlueWallet/followers
+      following_url: https://api.github.com/users/BlueWallet/following{/other_user}
+      gists_url: https://api.github.com/users/BlueWallet/gists{/gist_id}
+      starred_url: https://api.github.com/users/BlueWallet/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/BlueWallet/subscriptions
+      organizations_url: https://api.github.com/users/BlueWallet/orgs
+      repos_url: https://api.github.com/users/BlueWallet/repos
+      events_url: https://api.github.com/users/BlueWallet/events{/privacy}
+      received_events_url: https://api.github.com/users/BlueWallet/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 1033
+    subscribers_count: 86
+  languages:
+    TypeScript: 2388552
+    JavaScript: 863454
+    Swift: 256878
+    Kotlin: 120134
+    Ruby: 73573
+    Shell: 18388
+    Objective-C: 3298
+    Starlark: 1334
+    Java: 1326
+    Objective-C++: 629
+    C: 104
+  latestRelease:
+    url: https://api.github.com/repos/BlueWallet/BlueWallet/releases/332895082
+    assets_url: https://api.github.com/repos/BlueWallet/BlueWallet/releases/332895082/assets
+    upload_url: https://uploads.github.com/repos/BlueWallet/BlueWallet/releases/332895082/assets{?name,label}
+    html_url: https://github.com/BlueWallet/BlueWallet/releases/tag/v8.0.0
+    id: 332895082
+    author:
+      login: marcosrdz
+      id: 4793122
+      node_id: MDQ6VXNlcjQ3OTMxMjI=
+      avatar_url: https://avatars.githubusercontent.com/u/4793122?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/marcosrdz
+      html_url: https://github.com/marcosrdz
+      followers_url: https://api.github.com/users/marcosrdz/followers
+      following_url: https://api.github.com/users/marcosrdz/following{/other_user}
+      gists_url: https://api.github.com/users/marcosrdz/gists{/gist_id}
+      starred_url: https://api.github.com/users/marcosrdz/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/marcosrdz/subscriptions
+      organizations_url: https://api.github.com/users/marcosrdz/orgs
+      repos_url: https://api.github.com/users/marcosrdz/repos
+      events_url: https://api.github.com/users/marcosrdz/events{/privacy}
+      received_events_url: https://api.github.com/users/marcosrdz/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOBwBYl84T15Nq
+    tag_name: v8.0.0
+    target_commitish: master
+    name: v8.0.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-06-01T14:22:17Z
+    updated_at: 2026-06-02T17:08:19Z
+    published_at: 2026-06-02T04:24:09Z
+    assets:
+      - url: https://api.github.com/repos/BlueWallet/BlueWallet/releases/assets/436422508
+        id: 436422508
+        node_id: RA_kwDOBwBYl84aA0ds
+        name: BlueWallet-8.0.0-1780232164.apk
+        label: null
+        uploader:
+          login: marcosrdz
+          id: 4793122
+          node_id: MDQ6VXNlcjQ3OTMxMjI=
+          avatar_url: https://avatars.githubusercontent.com/u/4793122?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/marcosrdz
+          html_url: https://github.com/marcosrdz
+          followers_url: https://api.github.com/users/marcosrdz/followers
+          following_url: https://api.github.com/users/marcosrdz/following{/other_user}
+          gists_url: https://api.github.com/users/marcosrdz/gists{/gist_id}
+          starred_url: https://api.github.com/users/marcosrdz/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/marcosrdz/subscriptions
+          organizations_url: https://api.github.com/users/marcosrdz/orgs
+          repos_url: https://api.github.com/users/marcosrdz/repos
+          events_url: https://api.github.com/users/marcosrdz/events{/privacy}
+          received_events_url: https://api.github.com/users/marcosrdz/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 75100735
+        digest: sha256:8034886262f33cde43bbb8bad30ea72b650cffc2ef9c4058d4430196a6939272
+        download_count: 1352
+        created_at: 2026-06-02T17:07:38Z
+        updated_at: 2026-06-02T17:07:50Z
+        browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/v8.0.0/BlueWallet-8.0.0-1780232164.apk
+      - url: https://api.github.com/repos/BlueWallet/BlueWallet/releases/assets/436422920
+        id: 436422920
+        node_id: RA_kwDOBwBYl84aA0kI
+        name: BlueWallet-8.0.0-1780232164.apk.sig
+        label: null
+        uploader:
+          login: marcosrdz
+          id: 4793122
+          node_id: MDQ6VXNlcjQ3OTMxMjI=
+          avatar_url: https://avatars.githubusercontent.com/u/4793122?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/marcosrdz
+          html_url: https://github.com/marcosrdz
+          followers_url: https://api.github.com/users/marcosrdz/followers
+          following_url: https://api.github.com/users/marcosrdz/following{/other_user}
+          gists_url: https://api.github.com/users/marcosrdz/gists{/gist_id}
+          starred_url: https://api.github.com/users/marcosrdz/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/marcosrdz/subscriptions
+          organizations_url: https://api.github.com/users/marcosrdz/orgs
+          repos_url: https://api.github.com/users/marcosrdz/repos
+          events_url: https://api.github.com/users/marcosrdz/events{/privacy}
+          received_events_url: https://api.github.com/users/marcosrdz/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 833
+        digest: sha256:dc9b279ec6860a2894bc8b25c15fe69a49b98d25bf3e7ea1423152988613400f
+        download_count: 21
+        created_at: 2026-06-02T17:08:18Z
+        updated_at: 2026-06-02T17:08:19Z
+        browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/v8.0.0/BlueWallet-8.0.0-1780232164.apk.sig
+    tarball_url: https://api.github.com/repos/BlueWallet/BlueWallet/tarball/v8.0.0
+    zipball_url: https://api.github.com/repos/BlueWallet/BlueWallet/zipball/v8.0.0
+    body: "## What's Changed\r
 
+      * OPS: Create appstore_api_key.json before Catalyst TestFlight upload by @Copilot in
+      https://github.com/BlueWallet/BlueWallet/pull/8323\r
+
+      * OPS: Fix shell injection risk in Fastfile sh commands by @Copilot in
+      https://github.com/BlueWallet/BlueWallet/pull/8324\r
+
+      * OPS: Catalyst — address shell safety, API key wiring, and lane description review comments
+      by @Copilot in https://github.com/BlueWallet/BlueWallet/pull/8322\r
+
+      * add: additional unique ID instructions in issue template by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8321\r
+
+      * OPS: Catalyst by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8309\r
+
+      * ADD: show MAX sendable amount by @adamSHA256 in
+      https://github.com/BlueWallet/BlueWallet/pull/8264\r
+
+      * FIX: import keystone wallets by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8329\r
+
+      * Improve e2e test DX: cleaner stack traces & robust emulator setup by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8305\r
+
+      * OPS: renovate config by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8332\r
+
+      * Update dependency bip32 to v5.0.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8331\r
+
+      * Update dependency @babel/preset-env to v7.29.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8012\r
+
+      * Pin dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8333\r
+
+      * OPS: ios build fix by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8339\r
+
+      * Update dependency @bugsnag/react-native to v8.8.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8340\r
+
+      * Update react-navigation monorepo by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8338\r
+
+      * Update dependency @react-native-community/push-notification-ios to v1.12.0 by @renovate[bot]
+      in https://github.com/BlueWallet/BlueWallet/pull/8341\r
+
+      * Updates for file loc/en.json in pl by @transifex-integration[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8344\r
+
+      * Update dependency androidx.work:work-runtime-ktx to v2.11.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8350\r
+
+      * REF: Use new icons package by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8271\r
+
+      * Renovate/configure v2 by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8358\r
+
+      * Update dependency androidx.compose.ui:ui to v1.10.4 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8349\r
+
+      * Update dependency @react-native-vector-icons/fontawesome6 to v12.3.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8363\r
+
+      * Update dependency @react-native-vector-icons/material-design-icons to v12.4.1 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8364\r
+
+      * FIX: Icon alignment by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8360\r
+
+      * ADD: Tap to copy missing in tx details by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8361\r
+
+      * ADD: Highlight first and last segments of bitcoin address by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8362\r
+
+      * Update dependency @react-native-vector-icons/fontawesome to v12.4.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8357\r
+
+      * Update dependency react-native-gesture-handler to v2.30.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8355\r
+
+      * Update dependency react-native-edge-to-edge to v1.8.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8354\r
+
+      * Update dependency @react-native-vector-icons/material-icons to v12.4.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8365\r
+
+      * Update dependency @react-native-vector-icons/entypo to v12.4.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8356\r
+
+      * Update dependency @react-native-vector-icons/ionicons to v12.4.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8366\r
+
+      * Update actions/setup-node digest to 53b8394 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8373\r
+
+      * FIX: JSX issue by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8368\r
+
+      * ADD: Highlight first and last segments of bitcoin address by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8372\r
+
+      * Update dependency react-native-reanimated to v3.19.5 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8376\r
+
+      * Update dependency react-native-localize to v3.7.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8374\r
+
+      * Update dependency fastlane to \"~> 2.232.0\" - autoclosed by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8352\r
+
+      * Update dependency detox to v20.47.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8351\r
+
+      * FIX: edit ms cosigner by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8375\r
+
+      * Update dependency react-native-share to v12.2.5 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8380\r
+
+      * REF: prefer bluewallet electrum server; drop bad electrum server from… by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8378\r
+
+      * Update dependency react-native-svg to v15.15.3 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8381\r
+
+      * Update dependency react-native-keychain to v9.2.3 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8359\r
+
+      * Update BlueComponents.tsx by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8386\r
+
+      * Update dependency react-native-safe-area-context to v5.7.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8377\r
+
+      * Update dependency react-native-permissions to v5.5.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8387\r
+
+      * Update dependency ruby to v3.4.8 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8384\r
+
+      * Update dependency react-native-tcp-socket to v6.4.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8382\r
+
+      * Updates for file loc/en.json in pl by @transifex-integration[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8401\r
+
+      * Update dependency @react-native-vector-icons/entypo to v12.4.2 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8407\r
+
+      * Realm by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8424\r
+
+      * REF: settings-privacy by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8426\r
+
+      * fix: sync language files by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8429\r
+
+      * fix: old RN code cleanup by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8428\r
+
+      * REF: cleanup and andr build fix by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8425\r
+
+      * REF: Update tooltip by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8440\r
+
+      * REL: bump to 8.0.0 by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8444\r
+
+      * Update reactivecircus/android-emulator-runner digest to e89f39f by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8406\r
+
+      * Update dependency androidx.work:work-runtime-ktx to v2.11.2 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8452\r
+
+      * Update dependency @babel/preset-env to v7.29.2 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8449\r
+
+      * Update actions/cache digest to 6682284 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8447\r
+
+      * Update dependency androidx.compose.ui:ui to v1.10.6 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8450\r
+
+      * Update maxim-lobanov/setup-xcode digest to ed7a3b1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8448\r
+
+      * Pin dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8446\r
+
+      * Update dependency react-native-gesture-handler to v2.30.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8454\r
+
+      * Update dependency @react-native-vector-icons/entypo to v12.5.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8463\r
+
+      * Update react-navigation monorepo by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8457\r
+
+      * Update dependency dayjs to v1.11.20 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8453\r
+
+      * Update dependency @react-native-vector-icons/material-design-icons to v12.5.0 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8471\r
+
+      * Update dependency @react-native-vector-icons/ionicons to v12.5.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8470\r
+
+      * Update dependency activesupport to v7.2.3.1 [SECURITY] by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8445\r
+
+      * Update rn-qr-generator digest to d53be84 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8476\r
+
+      * Update dependency detox to v20.50.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8478\r
+
+      * Update dependency react-native-gesture-handler to v2.31.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8479\r
+
+      * Bump lodash from 4.17.21 to 4.18.1 by @dependabot[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8464\r
+
+      * Update dependency androidx.core:core-ktx to v1.18.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8477\r
+
+      * Update dependency @react-native-vector-icons/material-icons to v12.5.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8472\r
+
+      * REF: bump camerakit by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8487\r
+
+      * FIX: greatly improve startup time by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8489\r
+
+      * fix: static card color on home by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8492\r
+
+      * OPS: Implement 16kb page size support by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8488\r
+
+      * fix: new loading icons  by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8496\r
+
+      * Update dependency react-native-gesture-handler to v2.31.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8486\r
+
+      * Update dependency react-native-svg to v15.15.4 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8455\r
+
+      * fix: carousel cards snap by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8494\r
+
+      * fix: header with the new arch by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8493\r
+
+      * OPS: Update to RN 84 by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8431\r
+
+      * feat: drop rn-qr-generator depenedency by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8500\r
+
+      * Update actions/cache digest to 27d5ce7 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8485\r
+
+      * fix: animations got lost by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8504\r
+
+      * REF: segmentedcontrol to new arch  by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8502\r
+
+      * feat: Cleaner transaction list by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8510\r
+
+      * fix: send screen scroll and fees modal by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8495\r
+
+      * fix: image placement on the cards by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8509\r
+
+      * REF: tooltip by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8507\r
+
+      * feat: new qrcodes  by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8505\r
+
+      * ref: flicker on warning and buttons by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8511\r
+
+      * OPS: Update to RN 85 by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8514\r
+
+      * Update SegmentedControlNativeComponent.ts by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8515\r
+
+      * ref: receive screen layout by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8518\r
+
+      * feat: status pills on the header by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8418\r
+
+      * OPS: Update RN by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8528\r
+
+      * OPS: speed up CI, split e2e workflows per platform by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8526\r
+
+      * ref: floatbuttons borders and animation by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8529\r
+
+      * ref: manage wallets list and search by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8527\r
+
+      * fix(deps): update dependency ecpair to v3.0.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8525\r
+
+      * fix(deps): update dependency bitcoinjs-lib to v7.0.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8524\r
+
+      * OPS: pin action versions, prebuild RN core, warm iOS sim for e2e by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8530\r
+
+      * feat: Redesign txdetail by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8289\r
+
+      * fix: sats format by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8551\r
+
+      * fix: wake up by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8537\r
+
+      * ref: sign and verify screen by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8548\r
+
+      * build(deps): bump fast-xml-builder from 1.1.4 to 1.2.0 by @dependabot[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8532\r
+
+      * FIX: transaction details fee rate to one decimal place by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8546\r
+
+      * ref: localization sweep — translations, lint script, cleanups by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8545\r
+
+      * tst: e2e stability by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8542\r
+
+      * fix(deps): update dependency react-native-gesture-handler to v2.31.2 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8535\r
+
+      * FIX: amountinput layout by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8541\r
+
+      * fix(deps): update dependency react-native-svg to v15.15.5 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8558\r
+
+      * fix(deps): update dependency lottie-react-native to v7.3.7 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8562\r
+
+      * tst: simplify wallet discovery and import test by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8561\r
+
+      * ADD: Import private keys in hex or base64 formats by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8498\r
+
+      * ref: lazy-load translations by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8559\r
+
+      * REF: split BlueComponents, prune dead/optional props by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8564\r
+
+      * fix: revert wake up by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8577\r
+
+      * feat: redesigned wallet details by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8301\r
+
+      * fix: inputs alignments by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8570\r
+
+      * build(deps-dev): bump @babel/plugin-transform-modules-systemjs from 7.29.0 to 7.29.4 by
+      @dependabot[bot] in https://github.com/BlueWallet/BlueWallet/pull/8534\r
+
+      * fix: fee jump on mount by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8575\r
+
+      * fix: center amount input by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8574\r
+
+      * FIX: patch react-native-tcp-socket onConnect crash; stabilize iOS e2e by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8576\r
+
+      * fix: styles in AmountInput by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8580\r
+
+      * fix(deps): update react-native-capture-protection digest to b17b9ec by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8475\r
+
+      * fix(deps): update dependency @babel/preset-env to v7.29.5 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8523\r
+
+      * fix(deps): update electrum-client digest to 83420b8 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8520\r
+
+      * chore(deps): update dependency ruby to v3.4.9 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8522\r
+
+      * ref: prompt by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8578\r
+
+      * ADD: If lndhub server is set then button should be visible by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8572\r
+
+      * REF: prune unused deps + stale tsconfig entries by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8565\r
+
+      * fix(deps): update dependency react-native-reanimated to v4.3.1 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8543\r
+
+      * fix(deps): update react-navigation monorepo by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8582\r
+
+      * fix(deps): update dependency lottie-react-native to v7.3.8 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8581\r
+
+      * chore(deps): update dependency fastlane to \"~> 2.234.0\" by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8583\r
+
+      * build(deps): bump qs from 6.15.0 to 6.15.2 by @dependabot[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8596\r
+
+      * FIX: swap AmountInput zIndex so TextInput sits on top by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8601\r
+
+      * Refactor blue electrum by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8600\r
+
+      * FIX: Manage funds layout by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8602\r
+
+      * tst: manage wallets by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8591\r
+
+      * FIX: ElectrumTransaction confirmation fields are optional until mined (#8093) by @PeterXMR
+      in https://github.com/BlueWallet/BlueWallet/pull/8597\r
+
+      * build(deps): bump tmp from 0.2.5 to 0.2.7 by @dependabot[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8603\r
+
+      * Ref blueelectrum by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8605\r
+
+      * fix(deps): update dependency @bugsnag/react-native to v8.9.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8588\r
+
+      * OPS: Bump Nav packages by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8573\r
+
+      * OPS: bump detox to 20.51.3 by @GladosBlueWallet in
+      https://github.com/BlueWallet/BlueWallet/pull/8613\r
+
+      * OPS: swap GroundControl production URL to groundcontrol.bluewallet.io by @GladosBlueWallet
+      in https://github.com/BlueWallet/BlueWallet/pull/8615\r
+
+      * Upgrade Arkade SDKs and harden Ark wallet integration by @pietro909 in
+      https://github.com/BlueWallet/BlueWallet/pull/8585\r
+
+      \r
+
+      ## New Contributors\r
+
+      * @PeterXMR made their first contribution in
+      https://github.com/BlueWallet/BlueWallet/pull/8597\r
+
+      * @pietro909 made their first contribution in
+      https://github.com/BlueWallet/BlueWallet/pull/8585\r
+
+      \r
+
+      **Full Changelog**: https://github.com/BlueWallet/BlueWallet/compare/v7.2.6...v8.0.0"
+    mentions_count: 11
+  activity:
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 71
+      - month: 2026-06
+        commits: 29
+    totalCommitsKnown: 13638
+    contributorsKnown: 127
+    openPullRequests: 83
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: true
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: d3ccff
+      description: Extra attention is needed
+  sync:
+    syncedAt: 2026-06-13T08:11:31.694Z
+    apiVersion: rest-v3
+    source: github-actions
 health:
   status: active
   tier: listed
   visibility: listed
   cleanupCandidate: false
   staleReason: null
-
 curation:
   reviewed: false
   reviewedBy: null

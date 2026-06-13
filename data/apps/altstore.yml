@@ -30,39 +30,174 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnkxODYwMzY4NjU=
     name: AltStore
     full_name: altstoreio/AltStore
+    private: false
+    owner:
+      login: altstoreio
+      id: 83258927
+      node_id: MDEyOk9yZ2FuaXphdGlvbjgzMjU4OTI3
+      avatar_url: https://avatars.githubusercontent.com/u/83258927?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/altstoreio
+      html_url: https://github.com/altstoreio
+      followers_url: https://api.github.com/users/altstoreio/followers
+      following_url: https://api.github.com/users/altstoreio/following{/other_user}
+      gists_url: https://api.github.com/users/altstoreio/gists{/gist_id}
+      starred_url: https://api.github.com/users/altstoreio/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/altstoreio/subscriptions
+      organizations_url: https://api.github.com/users/altstoreio/orgs
+      repos_url: https://api.github.com/users/altstoreio/repos
+      events_url: https://api.github.com/users/altstoreio/events{/privacy}
+      received_events_url: https://api.github.com/users/altstoreio/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/altstoreio/AltStore
     description: AltStore is an alternative app store for non-jailbroken iOS devices.
     fork: false
+    url: https://api.github.com/repos/altstoreio/AltStore
+    forks_url: https://api.github.com/repos/altstoreio/AltStore/forks
+    keys_url: https://api.github.com/repos/altstoreio/AltStore/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/altstoreio/AltStore/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/altstoreio/AltStore/teams
+    hooks_url: https://api.github.com/repos/altstoreio/AltStore/hooks
+    issue_events_url: https://api.github.com/repos/altstoreio/AltStore/issues/events{/number}
+    events_url: https://api.github.com/repos/altstoreio/AltStore/events
+    assignees_url: https://api.github.com/repos/altstoreio/AltStore/assignees{/user}
+    branches_url: https://api.github.com/repos/altstoreio/AltStore/branches{/branch}
+    tags_url: https://api.github.com/repos/altstoreio/AltStore/tags
+    blobs_url: https://api.github.com/repos/altstoreio/AltStore/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/altstoreio/AltStore/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/altstoreio/AltStore/git/refs{/sha}
+    trees_url: https://api.github.com/repos/altstoreio/AltStore/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/altstoreio/AltStore/statuses/{sha}
+    languages_url: https://api.github.com/repos/altstoreio/AltStore/languages
+    stargazers_url: https://api.github.com/repos/altstoreio/AltStore/stargazers
+    contributors_url: https://api.github.com/repos/altstoreio/AltStore/contributors
+    subscribers_url: https://api.github.com/repos/altstoreio/AltStore/subscribers
+    subscription_url: https://api.github.com/repos/altstoreio/AltStore/subscription
+    commits_url: https://api.github.com/repos/altstoreio/AltStore/commits{/sha}
+    git_commits_url: https://api.github.com/repos/altstoreio/AltStore/git/commits{/sha}
+    comments_url: https://api.github.com/repos/altstoreio/AltStore/comments{/number}
+    issue_comment_url: https://api.github.com/repos/altstoreio/AltStore/issues/comments{/number}
+    contents_url: https://api.github.com/repos/altstoreio/AltStore/contents/{+path}
+    compare_url: https://api.github.com/repos/altstoreio/AltStore/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/altstoreio/AltStore/merges
+    archive_url: https://api.github.com/repos/altstoreio/AltStore/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/altstoreio/AltStore/downloads
+    issues_url: https://api.github.com/repos/altstoreio/AltStore/issues{/number}
+    pulls_url: https://api.github.com/repos/altstoreio/AltStore/pulls{/number}
+    milestones_url: https://api.github.com/repos/altstoreio/AltStore/milestones{/number}
+    notifications_url: https://api.github.com/repos/altstoreio/AltStore/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/altstoreio/AltStore/labels{/name}
+    releases_url: https://api.github.com/repos/altstoreio/AltStore/releases{/id}
+    deployments_url: https://api.github.com/repos/altstoreio/AltStore/deployments
+    created_at: 2019-05-10T18:29:53Z
+    updated_at: 2026-06-12T23:11:09Z
+    pushed_at: 2026-05-20T19:41:55Z
+    git_url: git://github.com/altstoreio/AltStore.git
+    ssh_url: git@github.com:altstoreio/AltStore.git
+    clone_url: https://github.com/altstoreio/AltStore.git
+    svn_url: https://github.com/altstoreio/AltStore
+    homepage: https://altstore.io
+    size: 224573
+    stargazers_count: 13944
+    watchers_count: 13944
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 1317
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: marketplace
-    language: Swift
-    topics: []
+    open_issues_count: 659
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
       spdx_id: AGPL-3.0
       url: https://api.github.com/licenses/agpl-3.0
       node_id: MDc6TGljZW5zZTE=
-    stargazers_count: 13943
-    watchers_count: 13943
-    forks_count: 1316
-    open_issues_count: 659
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics: []
+    visibility: public
+    forks: 1317
+    open_issues: 659
+    watchers: 13944
+    default_branch: marketplace
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: altstoreio
+      id: 83258927
+      node_id: MDEyOk9yZ2FuaXphdGlvbjgzMjU4OTI3
+      avatar_url: https://avatars.githubusercontent.com/u/83258927?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/altstoreio
+      html_url: https://github.com/altstoreio
+      followers_url: https://api.github.com/users/altstoreio/followers
+      following_url: https://api.github.com/users/altstoreio/following{/other_user}
+      gists_url: https://api.github.com/users/altstoreio/gists{/gist_id}
+      starred_url: https://api.github.com/users/altstoreio/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/altstoreio/subscriptions
+      organizations_url: https://api.github.com/users/altstoreio/orgs
+      repos_url: https://api.github.com/users/altstoreio/repos
+      events_url: https://api.github.com/users/altstoreio/events{/privacy}
+      received_events_url: https://api.github.com/users/altstoreio/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 1317
     subscribers_count: 238
-    size: 224573
-    created_at: 2019-05-10T18:29:53Z
-    updated_at: 2026-06-12T08:01:10Z
-    pushed_at: 2026-05-20T19:41:55Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 2
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 1492
+    openPullRequests: 24
+    contributorsKnown: 12
   sync:
-    syncedAt: 2026-06-12T18:54:36.849Z
+    syncedAt: 2026-06-13T08:11:28.159Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Swift: 1914939
+    Objective-C++: 93710
+    Objective-C: 50400
+    Ruby: 625
+    C: 545
+    Shell: 262
+  latestRelease: null
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels: []
 health:
   status: active
   tier: curated
@@ -76,4 +211,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (13,943 stars on GitHub).
-

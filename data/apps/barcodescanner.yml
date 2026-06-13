@@ -28,44 +28,217 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnk1NDIwMjg2MA==
     name: BarcodeScanner
     full_name: hyperoslo/BarcodeScanner
+    private: false
+    owner:
+      login: hyperoslo
+      id: 1340892
+      node_id: MDEyOk9yZ2FuaXphdGlvbjEzNDA4OTI=
+      avatar_url: https://avatars.githubusercontent.com/u/1340892?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/hyperoslo
+      html_url: https://github.com/hyperoslo
+      followers_url: https://api.github.com/users/hyperoslo/followers
+      following_url: https://api.github.com/users/hyperoslo/following{/other_user}
+      gists_url: https://api.github.com/users/hyperoslo/gists{/gist_id}
+      starred_url: https://api.github.com/users/hyperoslo/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/hyperoslo/subscriptions
+      organizations_url: https://api.github.com/users/hyperoslo/orgs
+      repos_url: https://api.github.com/users/hyperoslo/repos
+      events_url: https://api.github.com/users/hyperoslo/events{/privacy}
+      received_events_url: https://api.github.com/users/hyperoslo/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/hyperoslo/BarcodeScanner
     description: ":mag_right: A simple and beautiful barcode scanner."
     fork: false
+    url: https://api.github.com/repos/hyperoslo/BarcodeScanner
+    forks_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/forks
+    keys_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/teams
+    hooks_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/hooks
+    issue_events_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/issues/events{/number}
+    events_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/events
+    assignees_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/assignees{/user}
+    branches_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/branches{/branch}
+    tags_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/tags
+    blobs_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/git/refs{/sha}
+    trees_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/statuses/{sha}
+    languages_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/languages
+    stargazers_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/stargazers
+    contributors_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/contributors
+    subscribers_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/subscribers
+    subscription_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/subscription
+    commits_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/commits{/sha}
+    git_commits_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/git/commits{/sha}
+    comments_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/comments{/number}
+    issue_comment_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/issues/comments{/number}
+    contents_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/contents/{+path}
+    compare_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/merges
+    archive_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/downloads
+    issues_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/issues{/number}
+    pulls_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/pulls{/number}
+    milestones_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/milestones{/number}
+    notifications_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/labels{/name}
+    releases_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/releases{/id}
+    deployments_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/deployments
+    created_at: 2016-03-18T13:25:19Z
+    updated_at: 2026-06-08T10:58:30Z
+    pushed_at: 2024-07-29T16:11:57Z
+    git_url: git://github.com/hyperoslo/BarcodeScanner.git
+    ssh_url: git@github.com:hyperoslo/BarcodeScanner.git
+    clone_url: https://github.com/hyperoslo/BarcodeScanner.git
+    svn_url: https://github.com/hyperoslo/BarcodeScanner
+    homepage: http://hyper.no
+    size: 2028
+    stargazers_count: 1718
+    watchers_count: 1718
+    language: Swift
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 384
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: Swift
-    topics:
-      - barcode-scanner
-      - camera
-      - ios
-      - swift
-      - ui
+    open_issues_count: 27
     license:
       key: other
       name: Other
       spdx_id: NOASSERTION
       url: null
       node_id: MDc6TGljZW5zZTA=
-    stargazers_count: 1718
-    watchers_count: 1718
-    forks_count: 384
-    open_issues_count: 27
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - barcode-scanner
+      - camera
+      - ios
+      - swift
+      - ui
+    visibility: public
+    forks: 384
+    open_issues: 27
+    watchers: 1718
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: hyperoslo
+      id: 1340892
+      node_id: MDEyOk9yZ2FuaXphdGlvbjEzNDA4OTI=
+      avatar_url: https://avatars.githubusercontent.com/u/1340892?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/hyperoslo
+      html_url: https://github.com/hyperoslo
+      followers_url: https://api.github.com/users/hyperoslo/followers
+      following_url: https://api.github.com/users/hyperoslo/following{/other_user}
+      gists_url: https://api.github.com/users/hyperoslo/gists{/gist_id}
+      starred_url: https://api.github.com/users/hyperoslo/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/hyperoslo/subscriptions
+      organizations_url: https://api.github.com/users/hyperoslo/orgs
+      repos_url: https://api.github.com/users/hyperoslo/repos
+      events_url: https://api.github.com/users/hyperoslo/events{/privacy}
+      received_events_url: https://api.github.com/users/hyperoslo/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 384
     subscribers_count: 49
-    size: 2028
-    created_at: 2016-03-18T13:25:19Z
-    updated_at: 2026-06-08T10:58:30Z
-    pushed_at: 2024-07-29T16:11:57Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
-    openPullRequests: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 253
+    openPullRequests: 1
+    contributorsKnown: 38
   sync:
-    syncedAt: 2026-06-12T18:54:36.865Z
+    syncedAt: 2026-06-13T08:11:29.507Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Swift: 44934
+    Ruby: 899
+  latestRelease:
+    url: https://api.github.com/repos/hyperoslo/BarcodeScanner/releases/40052136
+    assets_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/releases/40052136/assets
+    upload_url: https://uploads.github.com/repos/hyperoslo/BarcodeScanner/releases/40052136/assets{?name,label}
+    html_url: https://github.com/hyperoslo/BarcodeScanner/releases/tag/5.0.1
+    id: 40052136
+    author:
+      login: 3lvis
+      id: 1088217
+      node_id: MDQ6VXNlcjEwODgyMTc=
+      avatar_url: https://avatars.githubusercontent.com/u/1088217?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/3lvis
+      html_url: https://github.com/3lvis
+      followers_url: https://api.github.com/users/3lvis/followers
+      following_url: https://api.github.com/users/3lvis/following{/other_user}
+      gists_url: https://api.github.com/users/3lvis/gists{/gist_id}
+      starred_url: https://api.github.com/users/3lvis/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/3lvis/subscriptions
+      organizations_url: https://api.github.com/users/3lvis/orgs
+      repos_url: https://api.github.com/users/3lvis/repos
+      events_url: https://api.github.com/users/3lvis/events{/privacy}
+      received_events_url: https://api.github.com/users/3lvis/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: MDc6UmVsZWFzZTQwMDUyMTM2
+    tag_name: 5.0.1
+    target_commitish: master
+    name: BarcodeScanner — 5.0.1
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2021-03-19T09:17:18Z
+    updated_at: 2021-03-19T09:17:36Z
+    published_at: 2021-03-19T09:17:36Z
+    assets: []
+    tarball_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/tarball/5.0.1
+    zipball_url: https://api.github.com/repos/hyperoslo/BarcodeScanner/zipball/5.0.1
+    body: ""
+  files:
+    readme: true
+    contributing: true
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: "159818"
+      description: null
 health:
   status: stale
   tier: curated
@@ -79,4 +252,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (1,718 stars on GitHub).
-

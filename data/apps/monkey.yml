@@ -30,15 +30,101 @@ github:
     node_id: MDEwOlJlcG9zaXRvcnkzNzEyOTY1MA==
     name: Monkey
     full_name: coderyi/Monkey
+    private: false
+    owner:
+      login: coderyi
+      id: 10682908
+      node_id: MDQ6VXNlcjEwNjgyOTA4
+      avatar_url: https://avatars.githubusercontent.com/u/10682908?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/coderyi
+      html_url: https://github.com/coderyi
+      followers_url: https://api.github.com/users/coderyi/followers
+      following_url: https://api.github.com/users/coderyi/following{/other_user}
+      gists_url: https://api.github.com/users/coderyi/gists{/gist_id}
+      starred_url: https://api.github.com/users/coderyi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/coderyi/subscriptions
+      organizations_url: https://api.github.com/users/coderyi/orgs
+      repos_url: https://api.github.com/users/coderyi/repos
+      events_url: https://api.github.com/users/coderyi/events{/privacy}
+      received_events_url: https://api.github.com/users/coderyi/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/coderyi/Monkey
     description: Monkey is an unofficial GitHub client for iOS,to show the rank of coders and repositories.
     fork: false
+    url: https://api.github.com/repos/coderyi/Monkey
+    forks_url: https://api.github.com/repos/coderyi/Monkey/forks
+    keys_url: https://api.github.com/repos/coderyi/Monkey/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/coderyi/Monkey/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/coderyi/Monkey/teams
+    hooks_url: https://api.github.com/repos/coderyi/Monkey/hooks
+    issue_events_url: https://api.github.com/repos/coderyi/Monkey/issues/events{/number}
+    events_url: https://api.github.com/repos/coderyi/Monkey/events
+    assignees_url: https://api.github.com/repos/coderyi/Monkey/assignees{/user}
+    branches_url: https://api.github.com/repos/coderyi/Monkey/branches{/branch}
+    tags_url: https://api.github.com/repos/coderyi/Monkey/tags
+    blobs_url: https://api.github.com/repos/coderyi/Monkey/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/coderyi/Monkey/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/coderyi/Monkey/git/refs{/sha}
+    trees_url: https://api.github.com/repos/coderyi/Monkey/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/coderyi/Monkey/statuses/{sha}
+    languages_url: https://api.github.com/repos/coderyi/Monkey/languages
+    stargazers_url: https://api.github.com/repos/coderyi/Monkey/stargazers
+    contributors_url: https://api.github.com/repos/coderyi/Monkey/contributors
+    subscribers_url: https://api.github.com/repos/coderyi/Monkey/subscribers
+    subscription_url: https://api.github.com/repos/coderyi/Monkey/subscription
+    commits_url: https://api.github.com/repos/coderyi/Monkey/commits{/sha}
+    git_commits_url: https://api.github.com/repos/coderyi/Monkey/git/commits{/sha}
+    comments_url: https://api.github.com/repos/coderyi/Monkey/comments{/number}
+    issue_comment_url: https://api.github.com/repos/coderyi/Monkey/issues/comments{/number}
+    contents_url: https://api.github.com/repos/coderyi/Monkey/contents/{+path}
+    compare_url: https://api.github.com/repos/coderyi/Monkey/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/coderyi/Monkey/merges
+    archive_url: https://api.github.com/repos/coderyi/Monkey/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/coderyi/Monkey/downloads
+    issues_url: https://api.github.com/repos/coderyi/Monkey/issues{/number}
+    pulls_url: https://api.github.com/repos/coderyi/Monkey/pulls{/number}
+    milestones_url: https://api.github.com/repos/coderyi/Monkey/milestones{/number}
+    notifications_url: https://api.github.com/repos/coderyi/Monkey/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/coderyi/Monkey/labels{/name}
+    releases_url: https://api.github.com/repos/coderyi/Monkey/releases{/id}
+    deployments_url: https://api.github.com/repos/coderyi/Monkey/deployments
+    created_at: 2015-06-09T12:07:28Z
+    updated_at: 2026-06-12T09:49:37Z
+    pushed_at: 2021-04-25T12:12:01Z
+    git_url: git://github.com/coderyi/Monkey.git
+    ssh_url: git@github.com:coderyi/Monkey.git
+    clone_url: https://github.com/coderyi/Monkey.git
+    svn_url: https://github.com/coderyi/Monkey
+    homepage: https://itunes.apple.com/cn/app/monkey-for-github/id1003765407
+    size: 15915
+    stargazers_count: 1769
+    watchers_count: 1769
+    language: Objective-C
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: false
+    forks_count: 378
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: master
-    language: Objective-C
+    open_issues_count: 1
+    license:
+      key: other
+      name: Other
+      spdx_id: NOASSERTION
+      url: null
+      node_id: MDc6TGljZW5zZTA=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - github
       - github-api
@@ -54,29 +140,99 @@ github:
       - objective-c
       - octokit
       - star
-    license:
-      key: other
-      name: Other
-      spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
-    stargazers_count: 1769
-    watchers_count: 1769
-    forks_count: 378
-    open_issues_count: 1
+    visibility: public
+    forks: 378
+    open_issues: 1
+    watchers: 1769
+    default_branch: master
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    network_count: 378
     subscribers_count: 71
-    size: 15915
-    created_at: 2015-06-09T12:07:28Z
-    updated_at: 2026-06-12T09:49:37Z
-    pushed_at: 2021-04-25T12:12:01Z
   activity:
-    monthlyCommits: []
-    totalCommitsKnown: 0
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+    totalCommitsKnown: 269
     openPullRequests: 0
+    contributorsKnown: 11
   sync:
-    syncedAt: 2026-06-12T18:54:36.864Z
+    syncedAt: 2026-06-13T08:11:48.140Z
     apiVersion: rest-v3
-    source: ios-list-seed
+    source: github-actions
+  languages:
+    Objective-C: 323988
+    C++: 2426
+    Ruby: 103
+  latestRelease:
+    url: https://api.github.com/repos/coderyi/Monkey/releases/4632357
+    assets_url: https://api.github.com/repos/coderyi/Monkey/releases/4632357/assets
+    upload_url: https://uploads.github.com/repos/coderyi/Monkey/releases/4632357/assets{?name,label}
+    html_url: https://github.com/coderyi/Monkey/releases/tag/0.9.6
+    id: 4632357
+    author:
+      login: coderyi
+      id: 10682908
+      node_id: MDQ6VXNlcjEwNjgyOTA4
+      avatar_url: https://avatars.githubusercontent.com/u/10682908?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/coderyi
+      html_url: https://github.com/coderyi
+      followers_url: https://api.github.com/users/coderyi/followers
+      following_url: https://api.github.com/users/coderyi/following{/other_user}
+      gists_url: https://api.github.com/users/coderyi/gists{/gist_id}
+      starred_url: https://api.github.com/users/coderyi/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/coderyi/subscriptions
+      organizations_url: https://api.github.com/users/coderyi/orgs
+      repos_url: https://api.github.com/users/coderyi/repos
+      events_url: https://api.github.com/users/coderyi/events{/privacy}
+      received_events_url: https://api.github.com/users/coderyi/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: MDc6UmVsZWFzZTQ2MzIzNTc=
+    tag_name: 0.9.6
+    target_commitish: master
+    name: ""
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2016-11-11T03:18:57Z
+    updated_at: 2016-11-11T03:21:52Z
+    published_at: 2016-11-11T03:21:52Z
+    assets: []
+    tarball_url: https://api.github.com/repos/coderyi/Monkey/tarball/0.9.6
+    zipball_url: https://api.github.com/repos/coderyi/Monkey/zipball/0.9.6
+    body: |
+      1.support iOS10
+      2.support spotlight
+      3.optimize search user and repository
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: false
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: "159818"
+      description: null
 health:
   status: stale
   tier: curated
@@ -90,4 +246,3 @@ curation:
   bestFor: []
   caveats: []
   whyListed: Top entry from dkhamsing/open-source-ios-apps curated list (1,769 stars on GitHub).
-

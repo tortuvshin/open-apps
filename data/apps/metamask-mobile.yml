@@ -1,16 +1,14 @@
 schemaVersion: 1
 id: github:MetaMask/metamask-mobile
 slug: metamask-mobile
-
 source:
   provider: github
   owner: MetaMask
   repo: metamask-mobile
   url: https://github.com/MetaMask/metamask-mobile
-
 app:
   name: MetaMask Mobile
-  description: "Mobile web browser providing access to websites that use the Ethereum blockchain."
+  description: Mobile web browser providing access to websites that use the Ethereum blockchain.
   category: finance
   projectType: real-app
   platforms:
@@ -29,7 +27,6 @@ app:
         label: GitHub Releases
         url: https://github.com/MetaMask/metamask-mobile/releases
         verified: false
-
 stack:
   primary: react-native
   families:
@@ -41,41 +38,949 @@ stack:
       role: language
     - id: typescript
       role: language
-
 github:
   repository:
+    id: 141427485
+    node_id: MDEwOlJlcG9zaXRvcnkxNDE0Mjc0ODU=
+    name: metamask-mobile
     full_name: MetaMask/metamask-mobile
+    private: false
+    owner:
+      login: MetaMask
+      id: 11744586
+      node_id: MDEyOk9yZ2FuaXphdGlvbjExNzQ0NTg2
+      avatar_url: https://avatars.githubusercontent.com/u/11744586?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/MetaMask
+      html_url: https://github.com/MetaMask
+      followers_url: https://api.github.com/users/MetaMask/followers
+      following_url: https://api.github.com/users/MetaMask/following{/other_user}
+      gists_url: https://api.github.com/users/MetaMask/gists{/gist_id}
+      starred_url: https://api.github.com/users/MetaMask/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/MetaMask/subscriptions
+      organizations_url: https://api.github.com/users/MetaMask/orgs
+      repos_url: https://api.github.com/users/MetaMask/repos
+      events_url: https://api.github.com/users/MetaMask/events{/privacy}
+      received_events_url: https://api.github.com/users/MetaMask/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/MetaMask/metamask-mobile
-    description: "Mobile web browser providing access to websites that use the Ethereum blockchain."
+    description: Mobile web browser providing access to websites that use the Ethereum blockchain
     fork: false
+    url: https://api.github.com/repos/MetaMask/metamask-mobile
+    forks_url: https://api.github.com/repos/MetaMask/metamask-mobile/forks
+    keys_url: https://api.github.com/repos/MetaMask/metamask-mobile/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/MetaMask/metamask-mobile/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/MetaMask/metamask-mobile/teams
+    hooks_url: https://api.github.com/repos/MetaMask/metamask-mobile/hooks
+    issue_events_url: https://api.github.com/repos/MetaMask/metamask-mobile/issues/events{/number}
+    events_url: https://api.github.com/repos/MetaMask/metamask-mobile/events
+    assignees_url: https://api.github.com/repos/MetaMask/metamask-mobile/assignees{/user}
+    branches_url: https://api.github.com/repos/MetaMask/metamask-mobile/branches{/branch}
+    tags_url: https://api.github.com/repos/MetaMask/metamask-mobile/tags
+    blobs_url: https://api.github.com/repos/MetaMask/metamask-mobile/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/MetaMask/metamask-mobile/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/MetaMask/metamask-mobile/git/refs{/sha}
+    trees_url: https://api.github.com/repos/MetaMask/metamask-mobile/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/MetaMask/metamask-mobile/statuses/{sha}
+    languages_url: https://api.github.com/repos/MetaMask/metamask-mobile/languages
+    stargazers_url: https://api.github.com/repos/MetaMask/metamask-mobile/stargazers
+    contributors_url: https://api.github.com/repos/MetaMask/metamask-mobile/contributors
+    subscribers_url: https://api.github.com/repos/MetaMask/metamask-mobile/subscribers
+    subscription_url: https://api.github.com/repos/MetaMask/metamask-mobile/subscription
+    commits_url: https://api.github.com/repos/MetaMask/metamask-mobile/commits{/sha}
+    git_commits_url: https://api.github.com/repos/MetaMask/metamask-mobile/git/commits{/sha}
+    comments_url: https://api.github.com/repos/MetaMask/metamask-mobile/comments{/number}
+    issue_comment_url: https://api.github.com/repos/MetaMask/metamask-mobile/issues/comments{/number}
+    contents_url: https://api.github.com/repos/MetaMask/metamask-mobile/contents/{+path}
+    compare_url: https://api.github.com/repos/MetaMask/metamask-mobile/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/MetaMask/metamask-mobile/merges
+    archive_url: https://api.github.com/repos/MetaMask/metamask-mobile/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/MetaMask/metamask-mobile/downloads
+    issues_url: https://api.github.com/repos/MetaMask/metamask-mobile/issues{/number}
+    pulls_url: https://api.github.com/repos/MetaMask/metamask-mobile/pulls{/number}
+    milestones_url: https://api.github.com/repos/MetaMask/metamask-mobile/milestones{/number}
+    notifications_url: https://api.github.com/repos/MetaMask/metamask-mobile/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/MetaMask/metamask-mobile/labels{/name}
+    releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
+    deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
+    created_at: 2018-07-18T11:47:08Z
+    updated_at: 2026-06-13T06:22:57Z
+    pushed_at: 2026-06-13T06:21:45Z
+    git_url: git://github.com/MetaMask/metamask-mobile.git
+    ssh_url: git@github.com:MetaMask/metamask-mobile.git
+    clone_url: https://github.com/MetaMask/metamask-mobile.git
+    svn_url: https://github.com/MetaMask/metamask-mobile
+    homepage: https://metamask.io
+    size: 1999249
+    stargazers_count: 2965
+    watchers_count: 2965
+    language: TypeScript
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: false
+    has_pages: true
+    has_discussions: false
+    forks_count: 1612
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
-    visibility: public
-    default_branch: main
-    language: TypeScript
-    stargazers_count: 2963
-    watchers_count: 2963
-    forks_count: 1612
-    open_issues_count: 1923
-    subscribers_count: 142
-    size: 1996611
-    created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-06-12T15:31:07Z
-    pushed_at: 2026-06-12T15:40:01Z
+    open_issues_count: 1927
     license:
-      spdx_id: NOASSERTION
-      name: Other
       key: other
-    topics: ["android","dapps-browser","ios","javascript","metamask","react-native","web3"]
+      name: Other
+      spdx_id: NOASSERTION
+      url: null
+      node_id: MDc6TGljZW5zZTA=
+    allow_forking: true
+    is_template: false
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
+    topics:
+      - android
+      - dapps-browser
+      - ios
+      - javascript
+      - metamask
+      - react-native
+      - web3
+    visibility: public
+    forks: 1612
+    open_issues: 1927
+    watchers: 2965
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties:
+      owner: "@MetaMask/hal-developers"
+      requires_security_maintenance: "true"
+    organization:
+      login: MetaMask
+      id: 11744586
+      node_id: MDEyOk9yZ2FuaXphdGlvbjExNzQ0NTg2
+      avatar_url: https://avatars.githubusercontent.com/u/11744586?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/MetaMask
+      html_url: https://github.com/MetaMask
+      followers_url: https://api.github.com/users/MetaMask/followers
+      following_url: https://api.github.com/users/MetaMask/following{/other_user}
+      gists_url: https://api.github.com/users/MetaMask/gists{/gist_id}
+      starred_url: https://api.github.com/users/MetaMask/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/MetaMask/subscriptions
+      organizations_url: https://api.github.com/users/MetaMask/orgs
+      repos_url: https://api.github.com/users/MetaMask/repos
+      events_url: https://api.github.com/users/MetaMask/events{/privacy}
+      received_events_url: https://api.github.com/users/MetaMask/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 1612
+    subscribers_count: 142
+  languages:
+    TypeScript: 68011527
+    JavaScript: 2140253
+    Shell: 134212
+    HTML: 100552
+    Swift: 16473
+    Kotlin: 12594
+    Ruby: 12552
+    Objective-C: 11332
+    Java: 10291
+    C++: 7289
+    Gherkin: 6915
+    Dockerfile: 2153
+    Starlark: 1912
+    Python: 1586
+    Objective-C++: 693
+    CMake: 273
+  latestRelease:
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/338414740
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/338414740/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/338414740/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.81.0
+    id: 338414740
+    author:
+      login: runway-github[bot]
+      id: 73448015
+      node_id: MDM6Qm90NzM0NDgwMTU=
+      avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/runway-github%5Bbot%5D
+      html_url: https://github.com/apps/runway-github
+      followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+      following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+      events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+      type: Bot
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOCG4DHc4UK8yU
+    tag_name: v7.81.0
+    target_commitish: ede176a903d2343cb122ff5f326c48fec1d71821
+    name: Release 7.81.0
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-06-12T06:41:35Z
+    updated_at: 2026-06-12T06:42:03Z
+    published_at: 2026-06-12T06:41:43Z
+    assets:
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/445418755
+        id: 445418755
+        node_id: RA_kwDOCG4DHc4ajI0D
+        name: metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.aab
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 186510031
+        digest: sha256:f1a1dd9309a4ac15da941306437a3fb9721adcad680158ce585649a9e39091df
+        download_count: 18
+        created_at: 2026-06-12T06:41:45Z
+        updated_at: 2026-06-12T06:41:51Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.81.0/metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.aab
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/445418821
+        id: 445418821
+        node_id: RA_kwDOCG4DHc4ajI1F
+        name: metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.apk
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 290185064
+        digest: sha256:2bea5badc3de1b46df054c2601fe305f3181559f04a91a90a6c804045e243940
+        download_count: 287
+        created_at: 2026-06-12T06:41:53Z
+        updated_at: 2026-06-12T06:42:02Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.81.0/metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.apk
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.81.0
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.81.0
+    body: >-
+      * [skip ci] Bump version number to 5433 (ede176a)
 
+      * chore(runway): cherry-pick fix: remove RiveRenderer.defaultRenderer Canvas override on
+      Android to prevent Earn onboarding crash (#31586) (1eea63c)
+
+      * [skip ci] Bump version number to 5432 (1116f1a)
+
+      * chore(runway): cherry-pick chore: New Crowdin Translations by GitHub Action (#31588)
+      (03b25bd)
+
+      * [skip ci] Bump version number to 5431 (8b3b13a)
+
+      * Cherry-picking commits from main to release/7.81.0 for PR #31566 (#31585) (fb9d1f2)
+
+      * [skip ci] Bump version number to 5430 (1e9dc2f)
+
+      * chore(runway): cherry-pick fix(locales): update overflow text for event count in English
+      localization cp-7.81.0 (#31582) (532d63e)
+
+      * [skip ci] Bump version number to 5425 (763fecb)
+
+      * Cherry-picking commits from main to release/7.81.0 for PR #31231 (#31425) (e20377b)
+
+      * Cherry-picking commits from main to release/7.81.0 for PR #31128 (#31273) (14e5e99)
+
+      * [skip ci] Bump version number to 5423 (1547f2b)
+
+      * feat: Cherry-pick: update World Cup event count in PredictionsSection and related components
+      (7.81.0) (#31568) (ea0b04a)
+
+      * chore(runway): cherry-pick fix(perps): prevent Android crash in tutorial carousel Rive
+      animations cp-7.81.0 (#31557) (b075cf6)
+
+      * [skip ci] Bump version number to 5404 (82c732d)
+
+      * fix: batch sell tx bridge status bump (#31098) (#31488) (b1075ec)
+
+      * chore(runway): cherry-pick fix(predict): stop game details jump and chart overlap on tab
+      switch cp-7.81.0 (#31472) (65087e1)
+
+      * [skip ci] Bump version number to 5394 (7061fc6)
+
+      * chore(runway): cherry-pick fix(predict): keep time-slot scroll anchored left when live slot
+      expires cp-7.81.0 (#31423) (8c59ea1)
+
+      * [skip ci] Bump version number to 5393 (4e281c1)
+
+      * chore(runway): cherry-pick fix: cp-7.81.0 always show native tokens and stablecoins in
+      QuickBuy sell receive list (TSA-642) (#31258) (7437e75)
+
+      * chore(runway): cherry-pick chore: bump `network-controller` and `controller-utils` cp-7.81.0
+      (#31267) (4ca19af)
+
+      * [skip ci] Bump version number to 5390 (6596398)
+
+      * release: release-changelog/7.81.0 (#31101) (4513528)
+
+      * [skip ci] Bump version number to 5389 (3fea65f)
+
+      * chore(runway): cherry-pick fix(token-details): cp-7.81.0 show swap/quick buy when only
+      viewed token held (#31403) (416ff2c)
+
+      * [skip ci] Bump version number to 5385 (fe0dccf)
+
+      * chore: Stable sync 7.81.0 (#31233) (ba37983)
+
+      * revert unneded changes (d6e1e8f)
+
+      * Merge branch 'release/7.81.0' into stable-sync-7.81.0 (cd5df53)
+
+      * fix unnecessary changes (f67e556)
+
+      * [skip ci] Bump version number to 5380 (9370424)
+
+      * chore(runway): cherry-pick fix(quick-buy): show all held tokens in Pay with and split Pay
+      with/Receive flows (#31237) (50147ea)
+
+      * chore(runway): cherry-pick fix(quick-buy): enable Buy CTA in lockstep with quote loader
+      (#31238) (6afb266)
+
+      * [skip ci] Bump version number to 5379 (a561b4e)
+
+      * chore(runway): cherry-pick fix(ramps): remove Navigation Dev Panel and purge seeded orders
+      (#31229) (bd933d6)
+
+      * solve conflicts (2323b51)
+
+      * [skip ci] Bump version number to 5361 (15e7cbc)
+
+      * chore(runway): cherry-pick feat(predict): support series ids in predictMarketHighlights
+      cp-7.81.0 (#31161) (7eae1ca)
+
+      * [skip ci] Bump version number to 5360 (4ea230c)
+
+      * chore(runway): cherry-pick feat: cp-7.81.0 scope QuickBuy networks to user-enabled networks
+      (#31154) (176fadf)
+
+      * [skip ci] Bump version number to 5359 (019da9c)
+
+      * chore(runway): cherry-pick chore: cleanup perps top movers buttons cp-7.81.0 (#31158)
+      (266d216)
+
+      * [skip ci] Bump version number to 5339 (85f365d)
+
+      * chore(runway): cherry-pick fix(card): cp-7.81.0 restore slide-up entry without iOS modal
+      presentation (#31152) (4414dd2)
+
+      * [skip ci] Bump version number to 5334 (caac38d)
+
+      * chore(runway): cherry-pick fix: disable link unfurling in Slack RC notifications to prevent
+      large preview images (#31121) (c7a7122)
+
+      * [skip ci] Bump version number to 5333 (cf03923)
+
+      * chore(runway): cherry-pick feat(predict): add Ethereum accent color to crypto up/down
+      markets cp-7.81.0 (#31112) (a0d2fe5)
+
+      * release: 7.80.0 (#30776) (5539cd8)
+
+      * empty comment, trigger CI (fb99b0c)
+
+      * [skip ci] Bump version number to 5331 (3846da1)
+
+      * chore(release): release-changelog/7.80.0 (#30777) (d81c2f5)
+
+      * [skip ci] Bump version number to 5330 (0da386d)
+
+      * merge main and solve conflicts (bfbf453)
+
+      * [skip ci] Bump version number to 5329 (41e0629)
+
+      * chore(runway): cherry-pick fix: wallet home onboarding Rive crash on Android cp-7.81.0
+      (#31106) (6612d63)
+
+      * [skip ci] Bump version number to 5328 (8fd859e)
+
+      * [skip ci] Bump version number to 5324 (7dc96e1)
+
+      * feat: enhance PR template validation with semantic checks (#30541) (dc8924e)
+
+      * chore: bump @metamask/bitcoin-wallet-snap to ^1.12.0 (#30958) (b81ef07)
+
+      * test(e2e): stabilize TestSnaps date/time picker taps (#31085) (165aad8)
+
+      * chore: bump compliance controller to 2.1.0 (#30906) (6ca1693)
+
+      * fix: refresh unified assets balances from real-time websocket pushes (#31091) (4606543)
+
+      * chore: upgrade design system packages (v42.0.0) (#30826) (65243eb)
+
+      * fix: Fix reported dapp url for MMC Connection Request Completed event (#30817) (65af59b)
+
+      * fix: stop rive before navigate (#31076) (a98df02)
+
+      * feat: add ARC mainnet support (#30879) (9f36f18)
+
+      * refactor: Updated tokens full view to use MMDS components (#30916) (e5cb149)
+
+      * feat: perps top movers (#30897) (a903c12)
+
+      * feat: add skip-pod-install input to E2E setup action and adjust timeout for iOS test-runner
+      jobs (#31072) (a2e1d82)
+
+      * fix(money): show "Earn up to X% APY" on input empty state (MUSD-891) (#31064) (81fda3a)
+
+      * feat: agentic cli qr login flow (#30911) (e986a55)
+
+      * feat: suppress RPC connection banner during single-provider outages (WPC-1014) (#31047)
+      (0a36f48)
+
+      * fix(money): correct Earn on your crypto tooltip copy (MUSD-895) (#31074) (6573e6a)
+
+      * feat: QuickBuy stay-on-screen swap lifecycle toasts (#31073) (e409fee)
+
+      * test: fix ff default value (#31070) (d56f284)
+
+      * chore(release): sync stable to main for version 7.79.0 (#30828) (31964e7)
+
+      * fix: keep QuickBuy CTA live during background quote refresh (#31059) (8597157)
+
+      * Merge branch 'main' into stable-main-7.79.0 (133ca24)
+
+      * feat: enhance useTransakRouting to resolve wallet address from headle… (#31021) (20ab8a9)
+
+      * Merge branch 'main' into stable-main-7.79.0 (c48a904)
+
+      * chore: bump assets controller v8.3.1 (#31063) (7c17b33)
+
+      * feat: design fixes in perps / predict transactions using money balance (#30999) (dbca316)
+
+      * chore: use Sei maroon token mark for the native token icon (#31038) (0ab4fb5)
+
+      * chore(recipe-harness): remove mobile-owned harness (#31056) (79d2d70)
+
+      * fix: [MUSD-857] show native amount for erc20 money account deposits (#30789) (c9a690b)
+
+      * feat: perps / predict withdraw support money account as recipient (#30734) (1566844)
+
+      * feat: agentic-approval deeplink handling (#30935) (0ea9c24)
+
+      * feat: add Quick Buy button to Market Insights and related analytics (#31014) (000d79f)
+
+      * fix: stabilize token details headline price (#30940) (22e007d)
+
+      * feat: update useBalance hook to use asset-specific conversion rates (#30869) (e3af1a8)
+
+      * fix: NFT/token/DeFi full view headers and NFT grid layout (#31010) (d43711d)
+
+      * Merge branch 'main' into stable-main-7.79.0 (4fd66ef)
+
+      * fix(onboarding): migrate interest questionnaire to generic Onboarding Question events
+      (#30890) (61cbb8e)
+
+      * Merge origin/main into stable-main-7.79.0 (3a0f0c4)
+
+      * release: 7.79.1 (OTA) (#30937) (3b23161)
+
+      * fix(money): uniform onboarding card image padding (MUSD-889) (#31020) (57a2bd7)
+
+      * fix(engagement): gate marketing-consent sheet on MetaMetrics cp-7.80.0 (#31028) (9ff8bd7)
+
+      * fix(predict): update sports moneyline detail actions cp-7.80.0 (#31034) (9f88621)
+
+      * feat(predict): integrate Positions entry point into Predict feed (#30900) (919491c)
+
+      * feat(predict): Add React Query hook usePredictMarketList (#30986) (addb6b7)
+
+      * feat(onboarding): TMCU-833 crypto experience questionnaire screen (#30767) (72e26bb)
+
+      * fix: resolve native token icons in QuickBuy Pay with list (#31026) (3a1691d)
+
+      * refactor: updated select buttons in explore to use mmds (#30781) (89a95f1)
+
+      * fix(agentic): harden preflight launch and fixture setup (#31011) (0bffa7a)
+
+      * feat(engagement): GE 217 design updates and feature flag cp-7.80.0 (#30985) (1644b77)
+
+      * chore: deprioritize destination token in QuickBuy source preselection (#31015) (8406e2c)
+
+      * feat(predict): Refine Bottom Sheet small UI Tweaks (#30979) (a606670)
+
+      * chore: in development, show deposit and withdraw errors in money account (#30670) (0d2a7d0)
+
+      * chore(perps): upgrade @metamask/perps-controller to v7.0.0 (#30861) (b7be5cb)
+
+      * fix: perps safe area design regressions (#30970) (442b2f3)
+
+      * refactor(MainNavigator): migrate multi-screen leaf flows to native-stack + HeaderStandard
+      (#30956) (7833f7c)
+
+      * fix: make "Check TestFlight" text a clickable link in Slack RC notifications (#31018)
+      (ec02b01)
+
+      * refactor: migrate AccountGroupDetails to design-system-react-native (MUL-1688) (#29698)
+      (d998126)
+
+      * fix: speed up and cancel for qr wallets. cp-7.80.0 (#30990) (262ea0e)
+
+      * fix conflicts and merge stable (23e26c2)
+
+      * ci: add rc-freeze label to skip auto RC builds cp-7.80.0 (#30942) (c5fc35d)
+
+      * release: release-changelog/7.79.1 (#30936) (e6be930)
+
+      * feat(STX-583): move STX allowed RPC hosts config to flags (#30812) (557a524)
+
+      * fix(MUSD-880): update link card description  (#30967) (c5ac8b9)
+
+      * fix(money): gate onboarding stepper animation behind feature flag (MUSD-865) (#31007)
+      (869acd6)
+
+      * ci: replace SonarCloud quality-gate single-shot poll with bounded retry (#30992) (63b6c58)
+
+      * feat(card): upgrade Money Account to EIP-7702 during Card linkage (#30889) (4bf8f51)
+
+      * fix(e2e-selector): handle test-only file changes in smart E2E selector (#30991) (19e2565)
+
+      * [skip ci] Bump version number to 5288 (6bd8233)
+
+      * revert fingerprint package json script (48e770e)
+
+      * chore: remove available balance and swap toggle from QuickBuy amount section (#30957)
+      (a6d6b33)
+
+      * fix(money): correct transfer toasts (MUSD-845) (#30770) (c24bb5f)
+
+      * chore(agentic): port preflight orchestrator to TypeScript (#30988) (7e435be)
+
+      * fix(money): Money home design review 6 polishes (MUSD-879) (#30977) (e472c87)
+
+      * feat: add scroll logo to support scroll notifications [GE-260] (#30993) (f8d68ca)
+
+      * chore: add Sell mode to QuickBuy sheet (#30864) (96ec674)
+
+      * test: decouples METAMASK_ENVIRONMENT from having test overrides (#30747) (3b21699)
+
+      * fix(confirmations): prevent descender cropping on "Paid by MetaMask" badge (#30902)
+      (e1018dc)
+
+      * chore: bump ramps-controller and transaction-pay-controller (#30933) (e86c592)
+
+      * refactor: Move `StorageService` to wallet library (#30922) (ca97db7)
+
+      * feat: hw gasless swap qr components (#30908) (ac104ee)
+
+      * fix: less than 6 items on explore predictions cp-7.80.0 (#30949) (6ba76b4)
+
+      * fix(recipe): align mobile HUD intent display (#30981) (c98a85d)
+
+      * refactor: remove homepage sections v1 feature flag (#30797) (93f0f1e)
+
+      * fix: only update browser URL bar after back/forward navigation commits (#30872) (7d69abc)
+
+      * fix: make "View cherry-picks" Slack link to navigate to the correct build comment (#30780)
+      (eeb4bea)
+
+      * fix(card): submit net cashback amount to Baanx withdraw API (#30934) (dd6e274)
+
+      * feat: [MUSD-862] implement send txn bottom sheet (#30926) (edf7873)
+
+      * revert build version bump, again (0a1312d)
+
+      * revert build version bump (9b47d4f)
+
+      * fix(deeplink): sanitize large uint256 values in EIP-681 transfers (#30832) (2f37930)
+
+      * chore: remove dead code (#30348) (214d3f1)
+
+      * [skip ci] Bump version number to 5271 (9a50200)
+
+      * temporarily change fingerprint check (faefad3)
+
+      * fix: MUSD-887 filter out non-EVM tokens in useMoneyDepositTokens (#30974) (5661d43)
+
+      * [skip ci] Bump version number to 5270 (5aeb5db)
+
+      * Cherry-picking commits from main to release/7.79.1-ota for PR #30973 (#30975) (ac05198)
+
+      * ci: apply semver inline on build runners instead of creating an ephemeral branch (#30885)
+      (5de2dce)
+
+      * ci(runway-ota): add `actions: read` permission for slack notification cp-7.79.1 cp-7.80.0
+      (#30973) (1e488e3)
+
+      * fix(MUSD-873): reduce APY tooltip icon size to Sm on Money home screen (#30960) (3440f5a)
+
+      * feat(predict): Add generic Predict market listing API alongside existing getMa… (#30910)
+      (e3eba81)
+
+      * fix(MUSD-875): fix spacing above onboarding card (#30962) (7a6904c)
+
+      * fix(MUSD-872): reduce estimated earnings tooltip icon size to Sm (#30959) (456dce4)
+
+      * fix(MUSD-874): hide earnings section for first-time users with zero balance (#30961)
+      (2555aa5)
+
+      * fix(MUSD-877): remove divider between 'what you get' and 'add funds' (#30964) (cb754a8)
+
+      * fix(MUSD-881): present Card Education screen as modal (slide from bottom) (#30968) (74a27c8)
+
+      * fix: pass full URL to dapp scanning checks (#30865) (aba207c)
+
+      * fix(predict): world cup fixes cp-7.80.0 (#30878) (2b6abc7)
+
+      * feat(predict): pass predict_feed_tab and predict_screen through to trade events cp-7.80.0
+      (#30943) (fcb8801)
+
+      * chore: batch sell enabled LD (#30898) (b93ebf1)
+
+      * feat(home): add onboarding checklist stepper A/B test (TMCU-828) (#30821) (d512ce0)
+
+      * feat: init money account upgrade controller based on flag (#30362) (eb319b9)
+
+      * feat(predict): add paginated activity history (#30769) (e514172)
+
+      * fix: improve unsupported token handling in useRampNavigation hook (#30680) (6f551fb)
+
+      * ci: enable external TestFlight distribution for RC and manual builds (#30952) (c37d99b)
+
+      * feat: implement provider limit messaging and error handling in paymen… (#30733) (1c674ea)
+
+      * fix(predict): handle missing sports market labels cp-7.80.0 (#30946) (a6175b9)
+
+      * feat(STX-575): gasless counter metrics (#30823) (9b89b24)
+
+      * feat(walletconnect): add multichain routing and namespace approval for first non-EVM chain
+      (Tron) (V2) (#30519) (716c344)
+
+      * fix(e2e): import test IDs directly to fix E2E parse failure (#30950) (df4fe31)
+
+      * chore(e2e): quarantine account activity WebSocket smoke test (#30951) (ec4a676)
+
+      * test: Clean appium fixture (#30860) (7f5c728)
+
+      * fix: filter out low quality tokens on explore (#30904) (3fe9eba)
+
+      * [skip ci] Bump version number to 5263 (36748a3)
+
+      * Cherry-picking commits from main to release/7.79.1-ota for PR #30815 (#30948) (9ec0363)
+
+      * chore: add migration 139 for asset state consolidation (#30681) (b3580d7)
+
+      * fix: enhance token loading states and geolocation handling in navigation (#30852) (ba6e2a0)
+
+      * [skip ci] Bump version number to 5262 (85a8791)
+
+      * Cherry-picking commits from main to release/7.79.1-ota for PR #30612 (#30941) (ace1d1d)
+
+      * fix(fingerprint): exclude JS-only changes from EAS fingerprint (#30332) (f624cec)
+
+      * chore: quickbuy amount slider with free movement (#30888) (78cff11)
+
+      * fix: strip URL fragment from address bar display (#30873) (1881aa2)
+
+      * feat(money): add conditional logic to Add money bottom sheet (MUSD-868) (#30862) (952190c)
+
+      * fix(browser): initialize in-app browser bridge on committed navigation (#30868) (4f3960d)
+
+      * fix: reset sell amount when switching input token (#30899) (ba17d95)
+
+      * fix(money): arrow logic on Activity and Earn on your crypto (MUSD-866) (#30851) (57307cf)
+
+      * test: fixed issue with new modal appearing (#30917) (69552da)
+
+      * chore: set OTA_VERSION to v7.79.1 for OTA hotfix (release/7.79.1-ota) (8808598)
+
+      * fix: cp-7.80.0 metamask pay failures due to incorrect token balance (#30877) (f764558)
+
+      * feat: support predict account deposit using money account (#30721) (7ad96fd)
+
+      * chore: update Crowdin translation workflow and add Turkish placeholder fix script (#30583)
+      (26bed9d)
+
+      * feat(asset-details): add Quick Buy entry point to Token Details sticky footer (#30725)
+      (1096b41)
+
+      * fix: Reject predict deposits on back swipe (#30790) (66ca6ff)
+
+      * fix(confirmations): address minor issues with new MM Pay picker cp-7.80.0 (#30915) (99549f6)
+
+      * feat: adding callback to get additional transactions for MM Pay transaction with
+      paymentOverride - moneyAccount (#30634) (a7a4f58)
+
+      * chore: update Sei network logo (#30892) (a03e8bb)
+
+      * chore: move to new RWAs endpoint (#30785) (cf389b4)
+
+      * fix(preflight): restore tsconfig.json and Podfile.lock on main after setup (#30863)
+      (3bb96f5)
+
+      * perf: Reduce perps component nesting (#30390) (3509ea6)
+
+      * fix(rewards): perps trading campaign dtos and ineligible state (#30907) (2c1ab6e)
+
+      * fix(perps): prevent keyboard rendering off-viewport on TP/SL and order entry screens
+      cp-7.80.0 (#30843) (2fc7adc)
+
+      * feat(predict): add compact World Cup banner cp-7.80.0 (#30874) (e2e786c)
+
+      * refactor(main navigator): migrate single routes in Main Navigator to native stack (#30905)
+      (99e2634)
+
+      * feat: add steps for the hw gasless swaps (#30838) (4eb1f89)
+
+      * refactor(views): use MMDS HeaderStandard (#29709) (cbe2a7e)
+
+      * fix: remove fund action menu network selector dependency (#30071) (cf2d480)
+
+      * feat(analytics): add ASSET_VIEWED for Predict, Perps, and Swaps funnel views (#30069)
+      (a33a1ed)
+
+      * feat: delegate AuthenticationController:getBearerToken in RampsServic… (#30319) (044726b)
+
+      * feat: app icons backgrounds are now pure black (#30895) (cae6c60)
+
+      * fix: downgrade Rive fallback log and shorten splash timeout (#30901) (c47e86a)
+
+      * feat(component-library): add variant prop to Pressable (#30831) (8815b5b)
+
+      * fix: require money hub enabled flag for mUSD cash section filtering (#30903) (6d2c33b)
+
+      * refactor(ui): use MMDS HeaderStandard in misc UI surfaces (#29708) (501d6ee)
+
+      * refactor(confirmations): use MMDS HeaderStandard (#29701) (e1eab35)
+
+      * chore: add new token details closed event (#30792) (d6a3c1e)
+
+      * feat(quick-buy): add direction-aware screen transitions (#30896) (9c28805)
+
+      * feat: MUSD-830 expand earn on your crypto to include all mm pay supported tokens (#30824)
+      (6d67f21)
+
+      * feat: batch sell submit tx (#30710) (0a88c0e)
+
+      * fix(pure black): elevate ListItemSelect and Input surfaces under MM_PURE_BLACK_PREVIEW
+      (#30661) (48aaee7)
+
+      * chore: nightly build external distributed (#30887) (ad68ca5)
+
+      * fix(rewards): hypertracker logo color (#30891) (23581ce)
+
+      * refactor(onboarding): replace Pressable with TouchableOpacity in interest questionnaire
+      (#30876) (a6d3459)
+
+      * refactor(send): migrate send routes to native stack (#30822) (1d5bdb2)
+
+      * feat: track Token Details secondary action buttons (ASSETS-3212) cp-7.80.0 (#30379)
+      (1bdcec5)
+
+      * revert: "ci: Add temporary fallback to Patroll token in `check-template-and-add-labels`"
+      (#30881) (e6c4b6c)
+
+      * refactor(NatigationUnitTest): migrate NavigationUnitTest to native stack (#30830) (e1fa793)
+
+      * fix(rewards): VIP splash screen title (#30882) (ee42c73)
+
+      * fix: fix market insights and security page buttons cp-7.80.0 (#30871) (da62c11)
+
+      * feat: add world cup predictions in explore (FF gated) (#30854) (02c85c2)
+
+      * chore: add gainers and losers section in Explore/Now (#30837) (eacbd59)
+
+      * fix: Clear Predict claim on back dismissal (#30761) (fb5a689)
+
+      * chore(predict): build predict positions screen route with positions and history tabs
+      (#30718) (4a1ec82)
+
+      * chore: assets controllers (#30848) (1ecd8b0)
+
+      * ci: Add temporary fallback to Patroll token in `check-template-and-add-labels` (#30875)
+      (aa57ae9)
+
+      * fix: auto-select fiat payment method for supported transaction types (#30856) (13f5030)
+
+      * refactor(analytics): PR E3 migrate AccountBackupStep1 to useAnalytics and rename
+      addTraitsToUser in ChoosePassword (#30500) (e0ac448)
+
+      * ci: Update `add-team-label` and `check-template-and-add-labels` workflows to use OIDC token
+      exchange cp-7.80.0 (#30840) (14486dc)
+
+      * test: performance, reduce DOM complexity and improve navigation for p… (#29130) (21bb94f)
+
+      * fix: lock Quick Buy bottom sheet height to prevent layout shift (#30853) (942d766)
+
+      * feat(onboarding): preselect ramp asset on wallet home fund step (TMCU-681) (#30692)
+      (1d8c326)
+
+      * chore: QuickBuy, add high price impact warnings (#30788) (21d192a)
+
+      * fix(metamask-pay): cp-7.80.0 use latest on-chain nonce for EIP-7702 authorization list
+      (#30297) (fa851e7)
+
+      * fix: fix warning display on missing symbols (#30811) (45668fd)
+
+      * fix: add token to `AssetsController` when `assetsUnifyState` is enabled (#30783) (51b5e2c)
+
+      * feat: add on_create trigger mode to triage forwarder (#30727) (df7d393)
+
+      * fix(perps): fix leverage pill display on SPCX market page when accessed via SpaceX carousel
+      banner (#30736) (9491d92)
+
+      * fix: cp-7.80.0 prevent send flow from submitting to zero address after clearing pasted
+      recipient  (#30771) (13349a0)
+
+      * fix(agentic): fixture account setup (#30750) (d1b6346)
+
+      * chore: bump assets controller v8.1.0 (#30836) (df1afd8)
+
+      * chore: handle optional RelatedAsset fields after ai-controllers update (#30799) (da9ed39)
+
+      * refactor: enhance UI spacing in various components for improved layout (#30729) (321590f)
+
+      * fix: Improve URL detection in `SitesSearchFooter` (#30801) (6d2ff1b)
+
+      * feat: auto-select fiat payment method for `MoneyAccount` "Deposit Funds" action (#30713)
+      (3a51914)
+
+      * chore: track explore conversions in predict cp-7.80.0 (#30722) (b65bcbd)
+
+      * chore(rewards): add vip splash screen (#30818) (8592d48)
+
+      * chore: improve crypto movers section in explore (#30809) (067dcbd)
+
+      * ci: remove OTA tag creation step (#30813) (c6cc0b9)
+
+      * chore(pure black): elevate MMDS BottomSheet surfaces via useElevatedSurface shim (#30708)
+      (f6df783)
+
+      * fix(engagement): latch startup marketing consent prompt cp-7.80.0 (#30808) (ae601d9)
+
+      * feat(predict): add predictHomeRedesign feature flag and selector (#30816) (dbd8678)
+
+      * chore(ci): add bitrise.yml to fix release automation (#30825) (9031898)
+
+      * chore(release): sync stable to main for version 7.78.0 (#30807) (46270d3)
+
+      * chore: bump axios 16.1 (#30815) (3e5edf7)
+
+      * refactor(aggregator): migrate aggregator routes to native stack (#30611) (f166abb)
+
+      * feat(card): redesign spend-and-earn promo on spending limit screen (#30709) (d95e80a)
+
+      * chore: remove explore search V1 (#30787) (d287159)
+
+      * ci(release): slack notif: do not include android lint report cp-7.80.0 (#30806) (f4808a7)
+
+      * feat(transaction-controller): pass `isInternal: true` at internal call sites (#29525)
+      (eb8dba8)
+
+      * Merge origin/main into stable-main-7.78.0 (a4da13e)
+
+      * feat: gasless hw swap hooks (#30354) (5ed95c9)
+
+      * refactor(Predict): remove temporary BTC up/down row flag and update imports
+      cp-7.80.0  (#30754) (dffcf7c)
+
+      * feat: MUSD-864 consolidate money feature flags (#30772) (d577cfc)
+
+      * chore: raise smart-e2e-selection confidence threshold from 80% to 85% (#30749) (e1dce2c)
+
+      * chore: remove inconsistencies on token import flow (#30791) (420c835)
+
+      * fix: re-enable AI PR analysis condition in workflow (#30034) (7309afc)
+
+      * refactor: Integrate wallet library (#30368) (47d715c)
+
+      * refactor(card): migrate card routes to native stack (#30779) (cfbf520)
+
+      * chore: QuickBuy, quote selection, details, tooltips, and more (#30698) (d8f89a4)
+
+      * chore(release): Bump main version to 7.81.0 (#30778) (f0b6941)
+
+      * feat(component-library): migrate row primitives to Pressable (#30764) (e0eb673)
+
+      * feat: batch sell wire up quote fetching (#30284) (7921bf3)
+
+      * feat: add push pre-prompt integration (part 3) cp-7.80.0 (#30476) (6118389)
+
+      * fix: android crash for new social login users cp-7.79.0 (#30765) (7602aff)
+  activity:
+    monthlyCommits:
+      - month: 2026-01
+        commits: 0
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 100
+    totalCommitsKnown: 17236
+    contributorsKnown: 297
+    openPullRequests: 489
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels: []
+  sync:
+    syncedAt: 2026-06-13T08:11:48.108Z
+    apiVersion: rest-v3
+    source: github-actions
 health:
   status: active
   tier: listed
   visibility: listed
   cleanupCandidate: false
   staleReason: null
-
 curation:
   reviewed: false
   reviewedBy: null
