@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/wger-project/flutter/releases{/id}
     deployments_url: https://api.github.com/repos/wger-project/flutter/deployments
     created_at: 2020-09-12T10:09:59Z
-    updated_at: 2026-06-12T22:06:07Z
+    updated_at: 2026-06-14T05:41:21Z
     pushed_at: 2026-06-11T10:01:29Z
     git_url: git://github.com/wger-project/flutter.git
     ssh_url: git@github.com:wger-project/flutter.git
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 137
+    open_issues_count: 139
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -133,7 +133,7 @@ github:
       - workout
     visibility: public
     forks: 401
-    open_issues: 137
+    open_issues: 139
     watchers: 922
     default_branch: master
     permissions:
@@ -184,7 +184,7 @@ github:
     openPullRequests: 34
     contributorsKnown: 325
   sync:
-    syncedAt: 2026-06-13T08:12:01.495Z
+    syncedAt: 2026-06-14T08:27:04.454Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 102965067
         digest: sha256:2c2f0a2592564df364e0fe8dbfefc8127096072e36e3d4e4f2109d078e08a664
-        download_count: 841
+        download_count: 848
         created_at: 2026-04-14T18:07:55Z
         updated_at: 2026-04-14T18:08:00Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/1.11.0/app-release.apk

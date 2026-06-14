@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/BlueWallet/BlueWallet/releases{/id}
     deployments_url: https://api.github.com/repos/BlueWallet/BlueWallet/deployments
     created_at: 2018-01-14T20:14:02Z
-    updated_at: 2026-06-13T02:21:53Z
-    pushed_at: 2026-06-13T02:26:05Z
+    updated_at: 2026-06-14T00:35:48Z
+    pushed_at: 2026-06-13T18:12:13Z
     git_url: git://github.com/BlueWallet/BlueWallet.git
     ssh_url: git@github.com:BlueWallet/BlueWallet.git
     clone_url: https://github.com/BlueWallet/BlueWallet.git
     svn_url: https://github.com/BlueWallet/BlueWallet
     homepage: https://bluewallet.io
-    size: 210696
+    size: 210926
     stargazers_count: 3222
     watchers_count: 3222
     language: TypeScript
@@ -259,7 +259,7 @@ github:
         state: uploaded
         size: 75100735
         digest: sha256:8034886262f33cde43bbb8bad30ea72b650cffc2ef9c4058d4430196a6939272
-        download_count: 1352
+        download_count: 1427
         created_at: 2026-06-02T17:07:38Z
         updated_at: 2026-06-02T17:07:50Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/v8.0.0/BlueWallet-8.0.0-1780232164.apk
@@ -292,7 +292,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:dc9b279ec6860a2894bc8b25c15fe69a49b98d25bf3e7ea1423152988613400f
-        download_count: 21
+        download_count: 25
         created_at: 2026-06-02T17:08:18Z
         updated_at: 2026-06-02T17:08:19Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/v8.0.0/BlueWallet-8.0.0-1780232164.apk.sig
@@ -765,10 +765,10 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 71
+        commits: 67
       - month: 2026-06
-        commits: 29
-    totalCommitsKnown: 13638
+        commits: 33
+    totalCommitsKnown: 13642
     contributorsKnown: 127
     openPullRequests: 83
   files:
@@ -783,7 +783,7 @@ github:
       color: d3ccff
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-13T08:11:31.694Z
+    syncedAt: 2026-06-14T08:26:28.217Z
     apiVersion: rest-v3
     source: github-actions
 health:

@@ -107,13 +107,13 @@ github:
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
     updated_at: 2026-06-13T06:22:57Z
-    pushed_at: 2026-06-13T06:21:45Z
+    pushed_at: 2026-06-14T07:27:04Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 1999249
+    size: 1999263
     stargazers_count: 2965
     watchers_count: 2965
     language: TypeScript
@@ -267,7 +267,7 @@ github:
         state: uploaded
         size: 186510031
         digest: sha256:f1a1dd9309a4ac15da941306437a3fb9721adcad680158ce585649a9e39091df
-        download_count: 18
+        download_count: 31
         created_at: 2026-06-12T06:41:45Z
         updated_at: 2026-06-12T06:41:51Z
         browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.81.0/metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.aab
@@ -300,7 +300,7 @@ github:
         state: uploaded
         size: 290185064
         digest: sha256:2bea5badc3de1b46df054c2601fe305f3181559f04a91a90a6c804045e243940
-        download_count: 287
+        download_count: 428
         created_at: 2026-06-12T06:41:53Z
         updated_at: 2026-06-12T06:42:02Z
         browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.81.0/metamask-blockchain-wall-android3-7.81.0-metamask-production-main-7.81.0-5434.apk
@@ -972,7 +972,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-13T08:11:48.108Z
+    syncedAt: 2026-06-14T08:26:48.044Z
     apiVersion: rest-v3
     source: github-actions
 health:
