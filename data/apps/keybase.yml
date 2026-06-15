@@ -104,7 +104,7 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-06-12T20:33:35Z
+    updated_at: 2026-06-14T20:59:43Z
     pushed_at: 2026-06-12T23:12:47Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
@@ -112,8 +112,8 @@ github:
     svn_url: https://github.com/keybase/client
     homepage: ""
     size: 744814
-    stargazers_count: 9219
-    watchers_count: 9219
+    stargazers_count: 9220
+    watchers_count: 9220
     language: Go
     has_issues: true
     has_projects: false
@@ -149,7 +149,7 @@ github:
     visibility: public
     forks: 1291
     open_issues: 4250
-    watchers: 9219
+    watchers: 9220
     default_branch: master
     permissions:
       admin: false
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 112
+        download_count: 113
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-06-14T08:26:45.080Z
+    syncedAt: 2026-06-15T09:15:46.546Z
     apiVersion: rest-v3
     source: github-actions
 health:

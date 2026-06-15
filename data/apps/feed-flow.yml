@@ -97,16 +97,16 @@ github:
     releases_url: https://api.github.com/repos/prof18/feed-flow/releases{/id}
     deployments_url: https://api.github.com/repos/prof18/feed-flow/deployments
     created_at: 2023-02-11T00:04:52Z
-    updated_at: 2026-06-14T05:43:25Z
-    pushed_at: 2026-06-13T21:18:34Z
+    updated_at: 2026-06-15T01:03:58Z
+    pushed_at: 2026-06-14T23:01:27Z
     git_url: git://github.com/prof18/feed-flow.git
     ssh_url: git@github.com:prof18/feed-flow.git
     clone_url: https://github.com/prof18/feed-flow.git
     svn_url: https://github.com/prof18/feed-flow
     homepage: https://www.feedflow.dev
-    size: 907759
-    stargazers_count: 934
-    watchers_count: 934
+    size: 908920
+    stargazers_count: 940
+    watchers_count: 940
     language: Kotlin
     has_issues: true
     has_projects: true
@@ -114,7 +114,7 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: false
-    forks_count: 49
+    forks_count: 50
     mirror_url: null
     archived: false
     disabled: false
@@ -136,9 +136,9 @@ github:
       - kotlin-multiplatform
       - swiftui
     visibility: public
-    forks: 49
+    forks: 50
     open_issues: 70
-    watchers: 934
+    watchers: 940
     default_branch: main
     permissions:
       admin: false
@@ -147,7 +147,7 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 49
+    network_count: 50
     subscribers_count: 7
   activity:
     monthlyCommits:
@@ -160,30 +160,30 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 79
+        commits: 77
       - month: 2026-06
-        commits: 21
-    totalCommitsKnown: 3141
-    openPullRequests: 11
+        commits: 23
+    totalCommitsKnown: 3143
+    openPullRequests: 12
     contributorsKnown: 93
   sync:
-    syncedAt: 2026-06-14T08:26:33.734Z
+    syncedAt: 2026-06-15T09:15:35.234Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Kotlin: 3111384
+    Kotlin: 3103865
     Swift: 562498
     HTML: 337071
+    JavaScript: 123855
     CSS: 49288
     Python: 42920
     Shell: 29170
-    JavaScript: 14140
   latestRelease:
-    url: https://api.github.com/repos/prof18/feed-flow/releases/314287524
-    assets_url: https://api.github.com/repos/prof18/feed-flow/releases/314287524/assets
-    upload_url: https://uploads.github.com/repos/prof18/feed-flow/releases/314287524/assets{?name,label}
-    html_url: https://github.com/prof18/feed-flow/releases/tag/1.13.1-all
-    id: 314287524
+    url: https://api.github.com/repos/prof18/feed-flow/releases/337839985
+    assets_url: https://api.github.com/repos/prof18/feed-flow/releases/337839985/assets
+    upload_url: https://uploads.github.com/repos/prof18/feed-flow/releases/337839985/assets{?name,label}
+    html_url: https://github.com/prof18/feed-flow/releases/tag/1.14.0-all
+    id: 337839985
     author:
       login: github-actions[bot]
       id: 41898282
@@ -204,21 +204,21 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOI8cx_M4Su6Wk
-    tag_name: 1.13.1-all
+    node_id: RE_kwDOI8cx_M4UIwdx
+    tag_name: 1.14.0-all
     target_commitish: main
-    name: 1.13.1-desktop
+    name: 1.14.0-desktop
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-04-27T21:30:30Z
-    updated_at: 2026-04-27T22:12:46Z
-    published_at: 2026-04-27T22:12:46Z
+    created_at: 2026-06-09T19:35:46Z
+    updated_at: 2026-06-14T16:07:50Z
+    published_at: 2026-06-14T16:07:50Z
     assets:
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/406905377
-        id: 406905377
-        node_id: RA_kwDOI8cx_M4YQOIh
-        name: feedflow-1.13.1-1.x86_64.rpm
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561018
+        id: 444561018
+        node_id: RA_kwDOI8cx_M4af3Z6
+        name: feedflow-1.14.0-1.x86_64.rpm
         label: ""
         uploader:
           login: github-actions[bot]
@@ -242,16 +242,16 @@ github:
           site_admin: false
         content_type: application/x-redhat-package-manager
         state: uploaded
-        size: 97171241
-        digest: sha256:9c14e273b874586dd31e3d29e1c12c2790d98fafbeaeb9891c68a87b278e2f97
-        download_count: 93
-        created_at: 2026-04-27T22:02:46Z
-        updated_at: 2026-04-27T22:02:51Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.13.1-all/feedflow-1.13.1-1.x86_64.rpm
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/406905375
-        id: 406905375
-        node_id: RA_kwDOI8cx_M4YQOIf
-        name: FeedFlow-1.13.1.dmg
+        size: 100604964
+        digest: sha256:79ca00e1524ee138147235bb0f2cc695b72c5395f96727281c8ce044edb533a3
+        download_count: 3
+        created_at: 2026-06-11T09:41:06Z
+        updated_at: 2026-06-11T09:41:11Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/feedflow-1.14.0-1.x86_64.rpm
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561015
+        id: 444561015
+        node_id: RA_kwDOI8cx_M4af3Z3
+        name: FeedFlow-1.14.0.dmg
         label: ""
         uploader:
           login: github-actions[bot]
@@ -275,16 +275,16 @@ github:
           site_admin: false
         content_type: application/x-apple-diskimage
         state: uploaded
-        size: 105336862
-        digest: sha256:173f0dea2b37bff07ecf229fb6072b560e631864a4b624693504b00be2756638
-        download_count: 943
-        created_at: 2026-04-27T22:02:46Z
-        updated_at: 2026-04-27T22:02:52Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.13.1-all/FeedFlow-1.13.1.dmg
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/406905376
-        id: 406905376
-        node_id: RA_kwDOI8cx_M4YQOIg
-        name: FeedFlow-1.13.1.msi
+        size: 106063322
+        digest: sha256:1c90e90a324241ea0aed6e8bac4ff85584da182dd88c8af7605353cad05d3ae7
+        download_count: 48
+        created_at: 2026-06-11T09:41:06Z
+        updated_at: 2026-06-11T09:41:11Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/FeedFlow-1.14.0.dmg
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561013
+        id: 444561013
+        node_id: RA_kwDOI8cx_M4af3Z1
+        name: FeedFlow-1.14.0.msi
         label: ""
         uploader:
           login: github-actions[bot]
@@ -308,16 +308,16 @@ github:
           site_admin: false
         content_type: application/x-msdownload
         state: uploaded
-        size: 93411444
-        digest: sha256:6c9df019786a7708f2cfb4751dd5fc3a95ecb9e557e80af977e1eb31e1beeb15
-        download_count: 573
-        created_at: 2026-04-27T22:02:46Z
-        updated_at: 2026-04-27T22:02:51Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.13.1-all/FeedFlow-1.13.1.msi
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/406905378
-        id: 406905378
-        node_id: RA_kwDOI8cx_M4YQOIi
-        name: feedflow_1.13.1_amd64.deb
+        size: 94001171
+        digest: sha256:348c0c6fea19b53125d430aca6f51fad0aeb5587a80d690f1358c1f81f1d4c6b
+        download_count: 8
+        created_at: 2026-06-11T09:41:06Z
+        updated_at: 2026-06-11T09:41:11Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/FeedFlow-1.14.0.msi
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561016
+        id: 444561016
+        node_id: RA_kwDOI8cx_M4af3Z4
+        name: feedflow_1.14.0_amd64.deb
         label: ""
         uploader:
           login: github-actions[bot]
@@ -341,26 +341,34 @@ github:
           site_admin: false
         content_type: application/x-debian-package
         state: uploaded
-        size: 84642558
-        digest: sha256:bfb6869c42b898ba985f13973bcbbed7c316a236fcb264a6f0af8bf872d3c5c4
-        download_count: 122
-        created_at: 2026-04-27T22:02:46Z
-        updated_at: 2026-04-27T22:02:50Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.13.1-all/feedflow_1.13.1_amd64.deb
-    tarball_url: https://api.github.com/repos/prof18/feed-flow/tarball/1.13.1-all
-    zipball_url: https://api.github.com/repos/prof18/feed-flow/zipball/1.13.1-all
-    body: "- Bug fixes and improvements"
+        size: 87342618
+        digest: sha256:b80359607982701b98ed8d2b21b62884b9d4726da3aaa3aa7421a9dc8e5c4436
+        download_count: 1
+        created_at: 2026-06-11T09:41:06Z
+        updated_at: 2026-06-11T09:41:11Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/feedflow_1.14.0_amd64.deb
+    tarball_url: https://api.github.com/repos/prof18/feed-flow/tarball/1.14.0-all
+    zipball_url: https://api.github.com/repos/prof18/feed-flow/zipball/1.14.0-all
+    body: "• Added a confirmation step before deleting a feed.\r
+
+      • Polished toolbar, menus, and drawer for a cleaner desktop interface.\r
+
+      • Refined window and dialog handling across the app.\r
+
+      • Feed customization and opening preferences now apply to search results too.\r
+
+      • Bug fixing and improvements"
     reactions:
-      url: https://api.github.com/repos/prof18/feed-flow/releases/314287524/reactions
+      url: https://api.github.com/repos/prof18/feed-flow/releases/337839985/reactions
       total_count: 3
       "+1": 0
       "-1": 0
       laugh: 0
-      hooray: 1
+      hooray: 2
       confused: 0
       heart: 1
       rocket: 0
-      eyes: 1
+      eyes: 0
   files:
     readme: true
     contributing: false

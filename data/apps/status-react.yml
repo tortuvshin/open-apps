@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/status-im/status-legacy/releases{/id}
     deployments_url: https://api.github.com/repos/status-im/status-legacy/deployments
     created_at: 2016-02-22T21:48:48Z
-    updated_at: 2026-06-14T05:46:53Z
-    pushed_at: 2026-06-12T20:25:43Z
+    updated_at: 2026-06-14T22:02:05Z
+    pushed_at: 2026-06-15T08:29:49Z
     git_url: git://github.com/status-im/status-legacy.git
     ssh_url: git@github.com:status-im/status-legacy.git
     clone_url: https://github.com/status-im/status-legacy.git
     svn_url: https://github.com/status-im/status-legacy
     homepage: https://status.app
     size: 488521
-    stargazers_count: 4016
-    watchers_count: 4016
+    stargazers_count: 4018
+    watchers_count: 4018
     language: Clojure
     has_issues: true
     has_projects: true
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 455
+    open_issues_count: 452
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -142,8 +142,8 @@ github:
       - wallet
     visibility: public
     forks: 992
-    open_issues: 455
-    watchers: 4016
+    open_issues: 452
+    watchers: 4018
     default_branch: develop
     permissions:
       admin: false
@@ -190,10 +190,10 @@ github:
       - month: 2026-06
         commits: 0
     totalCommitsKnown: 10569
-    openPullRequests: 13
+    openPullRequests: 10
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-06-14T08:26:57.683Z
+    syncedAt: 2026-06-15T09:15:59.485Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -278,7 +278,7 @@ github:
         state: uploaded
         size: 79044006
         digest: sha256:e0480df44935f489755cab4fde8cb9201671b3878f02e155a1ae353c0cb5ef52
-        download_count: 685
+        download_count: 709
         created_at: 2025-10-24T12:27:55Z
         updated_at: 2025-10-24T12:28:00Z
         browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-arm64-v8a.apk

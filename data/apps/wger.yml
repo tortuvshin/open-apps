@@ -90,14 +90,14 @@ github:
     releases_url: https://api.github.com/repos/wger-project/flutter/releases{/id}
     deployments_url: https://api.github.com/repos/wger-project/flutter/deployments
     created_at: 2020-09-12T10:09:59Z
-    updated_at: 2026-06-14T05:41:21Z
-    pushed_at: 2026-06-11T10:01:29Z
+    updated_at: 2026-06-15T08:45:38Z
+    pushed_at: 2026-06-15T08:45:33Z
     git_url: git://github.com/wger-project/flutter.git
     ssh_url: git@github.com:wger-project/flutter.git
     clone_url: https://github.com/wger-project/flutter.git
     svn_url: https://github.com/wger-project/flutter
     homepage: ""
-    size: 399367
+    size: 399438
     stargazers_count: 922
     watchers_count: 922
     language: Dart
@@ -107,11 +107,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 401
+    forks_count: 402
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 139
+    open_issues_count: 137
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -132,8 +132,8 @@ github:
       - wger
       - workout
     visibility: public
-    forks: 401
-    open_issues: 139
+    forks: 402
+    open_issues: 137
     watchers: 922
     default_branch: master
     permissions:
@@ -164,7 +164,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 401
+    network_count: 402
     subscribers_count: 18
   activity:
     monthlyCommits:
@@ -175,20 +175,20 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 15
+        commits: 1
       - month: 2026-05
         commits: 83
       - month: 2026-06
-        commits: 2
-    totalCommitsKnown: 4168
-    openPullRequests: 34
-    contributorsKnown: 325
+        commits: 16
+    totalCommitsKnown: 4182
+    openPullRequests: 32
+    contributorsKnown: 333
   sync:
-    syncedAt: 2026-06-14T08:27:04.454Z
+    syncedAt: 2026-06-15T09:16:06.835Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 2454527
+    Dart: 2454663
     C++: 25791
     CMake: 20468
     Ruby: 7552
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 102965067
         digest: sha256:2c2f0a2592564df364e0fe8dbfefc8127096072e36e3d4e4f2109d078e08a664
-        download_count: 848
+        download_count: 869
         created_at: 2026-04-14T18:07:55Z
         updated_at: 2026-04-14T18:08:00Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/1.11.0/app-release.apk

@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 291
+    open_issues_count: 292
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -144,7 +144,7 @@ github:
       - mattermost-mobile
     visibility: public
     forks: 1622
-    open_issues: 291
+    open_issues: 292
     watchers: 2677
     default_branch: main
     permissions:
@@ -255,7 +255,7 @@ github:
         state: uploaded
         size: 173470074
         digest: sha256:5166a7c996b52cd2f689bb98eb9fed9a32d340b4026dca00e1f919c36316c86d
-        download_count: 487
+        download_count: 506
         created_at: 2026-05-15T05:50:25Z
         updated_at: 2026-05-15T05:50:32Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.40.0/Mattermost-unsigned.apk
@@ -321,7 +321,7 @@ github:
         state: uploaded
         size: 6118404
         digest: sha256:5ec9367b25806cbee00a93cb4561458cb80daf316fb89d89f8ada97fa9b9fe16
-        download_count: 33
+        download_count: 34
         created_at: 2026-05-15T05:50:35Z
         updated_at: 2026-05-15T05:50:35Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.40.0/sbom-mattermost-mobile-v2.40.0.json
@@ -397,7 +397,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-14T08:26:46.686Z
+    syncedAt: 2026-06-15T09:15:48.241Z
     apiVersion: rest-v3
     source: github-actions
 health:
