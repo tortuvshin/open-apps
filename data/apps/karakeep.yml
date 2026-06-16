@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-15T08:18:54Z
+    updated_at: 2026-06-16T08:44:41Z
     pushed_at: 2026-06-14T15:15:51Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 99642
-    stargazers_count: 26016
-    watchers_count: 26016
+    stargazers_count: 26034
+    watchers_count: 26034
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 643
+    open_issues_count: 645
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -151,8 +151,8 @@ github:
       - self-hosted
     visibility: public
     forks: 1253
-    open_issues: 643
-    watchers: 26016
+    open_issues: 645
+    watchers: 26034
     default_branch: main
     permissions:
       admin: false
@@ -1107,14 +1107,14 @@ github:
     discussion_url: https://github.com/karakeep-app/karakeep/discussions/2773
     reactions:
       url: https://api.github.com/repos/karakeep-app/karakeep/releases/319662095/reactions
-      total_count: 26
-      "+1": 7
+      total_count: 30
+      "+1": 8
       "-1": 0
       laugh: 0
-      hooray: 11
+      hooray: 12
       confused: 0
-      heart: 3
-      rocket: 5
+      heart: 4
+      rocket: 6
       eyes: 0
     mentions_count: 31
   activity:
@@ -1133,7 +1133,7 @@ github:
         commits: 6
     totalCommitsKnown: 2056
     contributorsKnown: 181
-    openPullRequests: 66
+    openPullRequests: 65
   files:
     readme: true
     contributing: true
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-15T09:15:45.924Z
+    syncedAt: 2026-06-16T09:00:33.681Z
     apiVersion: rest-v3
     source: github-actions
 health:
