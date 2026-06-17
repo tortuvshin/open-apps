@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/mattermost/mattermost-mobile/deployments
     created_at: 2016-10-07T16:52:32Z
-    updated_at: 2026-06-12T21:23:37Z
-    pushed_at: 2026-06-12T22:19:24Z
+    updated_at: 2026-06-16T19:24:19Z
+    pushed_at: 2026-06-17T06:33:10Z
     git_url: git://github.com/mattermost/mattermost-mobile.git
     ssh_url: git@github.com:mattermost/mattermost-mobile.git
     clone_url: https://github.com/mattermost/mattermost-mobile.git
     svn_url: https://github.com/mattermost/mattermost-mobile
     homepage: https://about.mattermost.com/
-    size: 188599
-    stargazers_count: 2677
-    watchers_count: 2677
+    size: 187488
+    stargazers_count: 2678
+    watchers_count: 2678
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1622
+    forks_count: 1623
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 292
+    open_issues_count: 286
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -143,9 +143,9 @@ github:
       - hacktoberfest
       - mattermost-mobile
     visibility: public
-    forks: 1622
-    open_issues: 292
-    watchers: 2677
+    forks: 1623
+    open_issues: 286
+    watchers: 2678
     default_branch: main
     permissions:
       admin: false
@@ -175,18 +175,18 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1622
+    network_count: 1623
     subscribers_count: 92
   languages:
-    TypeScript: 15711444
-    Kotlin: 433770
-    Swift: 426146
-    JavaScript: 209474
-    Ruby: 89857
+    TypeScript: 15191666
+    Swift: 455666
+    Kotlin: 443560
+    JavaScript: 143127
+    Ruby: 89526
     Java: 50851
-    Shell: 33795
-    Objective-C++: 24825
-    Objective-C: 9265
+    Objective-C++: 32508
+    Shell: 31591
+    Objective-C: 9719
     Python: 1861
     HTML: 1560
   latestRelease:
@@ -255,7 +255,7 @@ github:
         state: uploaded
         size: 173470074
         digest: sha256:5166a7c996b52cd2f689bb98eb9fed9a32d340b4026dca00e1f919c36316c86d
-        download_count: 506
+        download_count: 530
         created_at: 2026-05-15T05:50:25Z
         updated_at: 2026-05-15T05:50:32Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.40.0/Mattermost-unsigned.apk
@@ -288,7 +288,7 @@ github:
         state: uploaded
         size: 42751226
         digest: sha256:b08b6defe19a636b4c633b317d95a318cfb700a836bc3edbc134ec930cbb2ddc
-        download_count: 30
+        download_count: 32
         created_at: 2026-05-15T05:50:23Z
         updated_at: 2026-05-15T05:50:25Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.40.0/Mattermost-unsigned.ipa
@@ -321,7 +321,7 @@ github:
         state: uploaded
         size: 6118404
         digest: sha256:5ec9367b25806cbee00a93cb4561458cb80daf316fb89d89f8ada97fa9b9fe16
-        download_count: 34
+        download_count: 38
         created_at: 2026-05-15T05:50:35Z
         updated_at: 2026-05-15T05:50:35Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.40.0/sbom-mattermost-mobile-v2.40.0.json
@@ -378,16 +378,16 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 20
+        commits: 14
       - month: 2026-04
         commits: 34
       - month: 2026-05
         commits: 30
       - month: 2026-06
-        commits: 16
-    totalCommitsKnown: 3434
+        commits: 22
+    totalCommitsKnown: 3440
     contributorsKnown: 218
-    openPullRequests: 97
+    openPullRequests: 89
   files:
     readme: true
     contributing: true
@@ -397,7 +397,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-15T09:15:48.241Z
+    syncedAt: 2026-06-17T08:48:10.765Z
     apiVersion: rest-v3
     source: github-actions
 health:
