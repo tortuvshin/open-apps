@@ -120,14 +120,14 @@ github:
     releases_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases{/id}
     deployments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/deployments
     created_at: 2012-02-24T08:50:51Z
-    updated_at: 2026-06-15T08:57:10Z
-    pushed_at: 2026-06-11T11:10:30Z
+    updated_at: 2026-06-15T14:51:40Z
+    pushed_at: 2026-06-15T14:50:10Z
     git_url: git://github.com/OnionBrowser/OnionBrowser.git
     ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
     clone_url: https://github.com/OnionBrowser/OnionBrowser.git
     svn_url: https://github.com/OnionBrowser/OnionBrowser
     homepage: https://onionbrowser.com
-    size: 132916
+    size: 132926
     stargazers_count: 2596
     watchers_count: 2596
     language: Swift
@@ -137,11 +137,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 528
+    forks_count: 529
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 8
+    open_issues_count: 7
     license:
       key: other
       name: Other
@@ -167,8 +167,8 @@ github:
       - tor-network
       - web-browser
     visibility: public
-    forks: 528
-    open_issues: 8
+    forks: 529
+    open_issues: 7
     watchers: 2596
     default_branch: 3.X
     permissions:
@@ -199,14 +199,14 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 528
+    network_count: 529
     subscribers_count: 165
   sync:
-    syncedAt: 2026-06-15T09:15:53.360Z
+    syncedAt: 2026-06-18T08:37:02.947Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 380983
+    Swift: 385293
     HTML: 25625
     Objective-C: 12768
     Shell: 8559
@@ -278,7 +278,7 @@ github:
         state: uploaded
         size: 35681868
         digest: sha256:be7dd521e03779da5db980ef5f57f17c8948879e9dc0bfcfc6c5e5fa07c0a316
-        download_count: 178
+        download_count: 221
         created_at: 2026-06-05T12:16:11Z
         updated_at: 2026-06-05T12:17:02Z
         browser_download_url: https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.10/OnionBrowser.ipa
@@ -311,8 +311,8 @@ github:
       - month: 2026-05
         commits: 11
       - month: 2026-06
-        commits: 7
-    totalCommitsKnown: 1630
+        commits: 9
+    totalCommitsKnown: 1632
     contributorsKnown: 18
     openPullRequests: 0
   files:

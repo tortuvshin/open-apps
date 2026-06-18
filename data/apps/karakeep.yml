@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-15T08:18:54Z
+    updated_at: 2026-06-18T04:43:15Z
     pushed_at: 2026-06-14T15:15:51Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 99642
-    stargazers_count: 26016
-    watchers_count: 26016
+    stargazers_count: 26064
+    watchers_count: 26064
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1253
+    forks_count: 1256
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 643
+    open_issues_count: 647
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1253
-    open_issues: 643
-    watchers: 26016
+    forks: 1256
+    open_issues: 647
+    watchers: 26064
     default_branch: main
     permissions:
       admin: false
@@ -182,7 +182,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1253
+    network_count: 1256
     subscribers_count: 76
   languages:
     TypeScript: 3795314
@@ -1107,14 +1107,14 @@ github:
     discussion_url: https://github.com/karakeep-app/karakeep/discussions/2773
     reactions:
       url: https://api.github.com/repos/karakeep-app/karakeep/releases/319662095/reactions
-      total_count: 26
-      "+1": 7
+      total_count: 30
+      "+1": 8
       "-1": 0
       laugh: 0
-      hooray: 11
+      hooray: 12
       confused: 0
-      heart: 3
-      rocket: 5
+      heart: 4
+      rocket: 6
       eyes: 0
     mentions_count: 31
   activity:
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-15T09:15:45.924Z
+    syncedAt: 2026-06-18T08:36:54.756Z
     apiVersion: rest-v3
     source: github-actions
 health:
