@@ -93,16 +93,16 @@ github:
     releases_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}
     deployments_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments
     created_at: 2019-03-27T02:52:33Z
-    updated_at: 2026-06-14T07:18:06Z
-    pushed_at: 2026-06-13T12:21:19Z
+    updated_at: 2026-06-18T20:31:05Z
+    pushed_at: 2026-06-18T20:30:49Z
     git_url: git://github.com/migueldeicaza/SwiftTerm.git
     ssh_url: git@github.com:migueldeicaza/SwiftTerm.git
     clone_url: https://github.com/migueldeicaza/SwiftTerm.git
     svn_url: https://github.com/migueldeicaza/SwiftTerm
     homepage: ""
-    size: 4405
-    stargazers_count: 1574
-    watchers_count: 1574
+    size: 4332
+    stargazers_count: 1581
+    watchers_count: 1581
     language: Swift
     has_issues: true
     has_projects: true
@@ -110,7 +110,7 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 343
+    forks_count: 348
     mirror_url: null
     archived: false
     disabled: false
@@ -140,9 +140,9 @@ github:
       - xterm
       - xterm-256color
     visibility: public
-    forks: 343
+    forks: 348
     open_issues: 78
-    watchers: 1574
+    watchers: 1581
     default_branch: main
     permissions:
       admin: false
@@ -151,14 +151,14 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 343
+    network_count: 348
     subscribers_count: 19
   activity:
     monthlyCommits:
       - month: 2026-01
         commits: 0
       - month: 2026-02
-        commits: 10
+        commits: 6
       - month: 2026-03
         commits: 20
       - month: 2026-04
@@ -166,16 +166,16 @@ github:
       - month: 2026-05
         commits: 26
       - month: 2026-06
-        commits: 21
-    totalCommitsKnown: 1057
+        commits: 25
+    totalCommitsKnown: 1061
     openPullRequests: 18
-    contributorsKnown: 60
+    contributorsKnown: 61
   sync:
-    syncedAt: 2026-06-15T09:16:01.486Z
+    syncedAt: 2026-06-19T08:51:53.178Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1708925
+    Swift: 1714168
     Metal: 3957
     Python: 3410
     Makefile: 878

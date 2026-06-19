@@ -104,16 +104,16 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-06-14T20:59:43Z
-    pushed_at: 2026-06-12T23:12:47Z
+    updated_at: 2026-06-19T01:52:36Z
+    pushed_at: 2026-06-19T01:52:32Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 744814
-    stargazers_count: 9220
-    watchers_count: 9220
+    size: 745461
+    stargazers_count: 9219
+    watchers_count: 9219
     language: Go
     has_issues: true
     has_projects: false
@@ -121,11 +121,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1291
+    forks_count: 1292
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4250
+    open_issues_count: 4249
     license:
       key: bsd-3-clause
       name: BSD 3-Clause "New" or "Revised" License
@@ -147,9 +147,9 @@ github:
       - react
       - react-native
     visibility: public
-    forks: 1291
-    open_issues: 4250
-    watchers: 9220
+    forks: 1292
+    open_issues: 4249
+    watchers: 9219
     default_branch: master
     permissions:
       admin: false
@@ -179,25 +179,25 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1291
+    network_count: 1292
     subscribers_count: 278
   languages:
-    Go: 32925510
+    Go: 32931027
     HTML: 7116337
     Objective-C: 1393380
-    TypeScript: 413841
-    Shell: 213302
+    TypeScript: 438778
+    Shell: 218352
     C: 183253
     Kotlin: 126100
     JavaScript: 94364
-    Swift: 73265
+    Swift: 74190
     Python: 70932
     CSS: 54388
     Ruby: 39282
     C++: 30348
     CoffeeScript: 28635
     Objective-C++: 20217
-    Batchfile: 18446
+    Batchfile: 18454
     Dockerfile: 18413
     Makefile: 7389
     C#: 6220
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 113
+        download_count: 116
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -304,7 +304,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:b6742027c8335799095d9e82cfdd9b1273321a92159661e788265750ccb65d7f
-        download_count: 4
+        download_count: 5
         created_at: 2026-06-03T14:23:49Z
         updated_at: 2026-06-03T14:23:50Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz.sig
@@ -317,13 +317,13 @@ github:
       • Various bug fixes"
     reactions:
       url: https://api.github.com/repos/keybase/client/releases/333772708/reactions
-      total_count: 2
+      total_count: 3
       "+1": 0
       "-1": 0
       laugh: 0
       hooray: 0
       confused: 0
-      heart: 0
+      heart: 1
       rocket: 2
       eyes: 0
   activity:
@@ -333,14 +333,14 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 33
+        commits: 17
       - month: 2026-04
         commits: 26
       - month: 2026-05
         commits: 17
       - month: 2026-06
-        commits: 24
-    totalCommitsKnown: 37650
+        commits: 40
+    totalCommitsKnown: 37666
     contributorsKnown: 120
     openPullRequests: 202
   files:
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-06-15T09:15:46.546Z
+    syncedAt: 2026-06-19T08:51:35.008Z
     apiVersion: rest-v3
     source: github-actions
 health:
