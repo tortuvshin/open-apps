@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-06-19T06:54:01Z
+    updated_at: 2026-06-20T07:28:51Z
     pushed_at: 2026-06-09T17:04:03Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
     size: 37036
-    stargazers_count: 18656
-    watchers_count: 18656
+    stargazers_count: 18663
+    watchers_count: 18663
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,7 +125,7 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 790
+    forks_count: 791
     mirror_url: null
     archived: false
     disabled: false
@@ -151,9 +151,9 @@ github:
       - self-hosted
       - typescript
     visibility: public
-    forks: 790
+    forks: 791
     open_issues: 643
-    watchers: 18656
+    watchers: 18663
     default_branch: main
     permissions:
       admin: false
@@ -183,7 +183,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 790
+    network_count: 791
     subscribers_count: 43
   languages:
     TypeScript: 1312020
@@ -296,7 +296,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-19T08:51:36.142Z
+    syncedAt: 2026-06-20T08:12:59.805Z
     apiVersion: rest-v3
     source: github-actions
 health:

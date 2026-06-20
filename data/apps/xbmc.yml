@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-06-19T02:42:21Z
-    pushed_at: 2026-06-18T00:41:09Z
+    updated_at: 2026-06-20T05:25:11Z
+    pushed_at: 2026-06-20T05:25:05Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1648916
-    stargazers_count: 20873
-    watchers_count: 20873
+    size: 1649058
+    stargazers_count: 20876
+    watchers_count: 20876
     language: C++
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6551
+    forks_count: 6554
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 406
+    open_issues_count: 408
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - xbmc
       - xml
     visibility: public
-    forks: 6551
-    open_issues: 406
-    watchers: 20873
+    forks: 6554
+    open_issues: 408
+    watchers: 20876
     default_branch: master
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 6551
+    network_count: 6554
     subscribers_count: 786
   activity:
     monthlyCommits:
@@ -191,20 +191,20 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 35
+        commits: 14
       - month: 2026-06
-        commits: 65
-    totalCommitsKnown: 71503
-    openPullRequests: 156
-    contributorsKnown: 1267
+        commits: 86
+    totalCommitsKnown: 71524
+    openPullRequests: 157
+    contributorsKnown: 1268
   sync:
-    syncedAt: 2026-06-19T08:52:02.065Z
+    syncedAt: 2026-06-20T08:13:17.173Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32333689
-    C: 1023717
-    CMake: 928955
+    C++: 32355169
+    C: 1024117
+    CMake: 929098
     JavaScript: 912837
     Objective-C++: 489803
     Python: 422478

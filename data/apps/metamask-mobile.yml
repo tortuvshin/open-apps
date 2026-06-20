@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-06-19T08:37:06Z
-    pushed_at: 2026-06-19T08:49:38Z
+    updated_at: 2026-06-19T21:03:27Z
+    pushed_at: 2026-06-20T05:34:06Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2019132
+    size: 2020262
     stargazers_count: 2974
     watchers_count: 2974
     language: TypeScript
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1917
+    open_issues_count: 1933
     license:
       key: other
       name: Other
@@ -149,7 +149,7 @@ github:
       - web3
     visibility: public
     forks: 1616
-    open_issues: 1917
+    open_issues: 1933
     watchers: 2974
     default_branch: main
     permissions:
@@ -183,10 +183,10 @@ github:
       user_view_type: public
       site_admin: false
     network_count: 1616
-    subscribers_count: 142
+    subscribers_count: 143
   languages:
-    TypeScript: 69629703
-    JavaScript: 2134833
+    TypeScript: 69881054
+    JavaScript: 2154658
     Shell: 134212
     HTML: 100552
     Swift: 16473
@@ -202,11 +202,11 @@ github:
     Objective-C++: 693
     CMake: 273
   latestRelease:
-    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/340302209
-    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/340302209/assets
-    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/340302209/assets{?name,label}
-    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.81.1
-    id: 340302209
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/341857291
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/341857291/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/341857291/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.81.2
+    id: 341857291
     author:
       login: runway-github[bot]
       id: 73448015
@@ -227,42 +227,38 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCG4DHc4USJmB
-    tag_name: v7.81.1
-    target_commitish: 86b3e624cd9d5cabc8616cc5fbba7157f3f1b9fd
-    name: Release 7.81.1
+    node_id: RE_kwDOCG4DHc4UYFQL
+    tag_name: v7.81.2
+    target_commitish: f5e5f6d885e60df90da37168762469c8573057f4
+    name: Release 7.81.2
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-16T17:18:53Z
-    updated_at: 2026-06-16T20:17:54Z
-    published_at: 2026-06-16T17:19:58Z
+    created_at: 2026-06-19T09:31:50Z
+    updated_at: 2026-06-19T09:32:52Z
+    published_at: 2026-06-19T09:32:52Z
     assets: []
-    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.81.1
-    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.81.1
-    body: "**Added**\r
-
-      \r
-
-      - Adds Swap/Bridge feature to ARC mainnet.
-      ([#31413)](https://github.com/MetaMask/metamask-mobile/pull/31413)\r
-
-      \ \r
-
-      **Fixed**\r
-
-      \r
-
-      - Fixed the MetaMask Card section on the Money screen so the \"Link card\" option and funding
-      token placeholders are only shown when the card spending token is enabled in the card feature
-      configuration. ([#31611](https://github.com/MetaMask/metamask-mobile/pull/31611))\r
-
-      - Removed the trailing slash from the Arc explorer URL defined in
-      `app/util/networks/customNetworks.tsx` so now the URL is correctly generated.
-      ([#31718](https://github.com/MetaMask/metamask-mobile/pull/31718))\r
-
-      - Fixed Arc native token support, included patches for MetaMask/core#9006 and
-      MetaMask/core#9007 ([#31662](https://github.com/MetaMask/metamask-mobile/pull/31662))"
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.81.2
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.81.2
+    body: |-
+      * Cherry-picking commits from main to release/7.81.2-ota for PR #31801 ([#31935](https://github.com/MetaMask/metamask-mobile/pull/31935)) ([f5e5f6d](https://github.com/MetaMask/metamask-mobile/commit/f5e5f6d885e60df90da37168762469c8573057f4))
+      * fix(predict): odds prices stale on feed cards and event page during live markets cp-7.81.2 ([#31951](https://github.com/MetaMask/metamask-mobile/pull/31951)) ([1f49900](https://github.com/MetaMask/metamask-mobile/commit/1f49900c80453109aa4b82db22a7783150c9295c))
+      * release: release-changelog/7.81.2 ([#31925](https://github.com/MetaMask/metamask-mobile/pull/31925)) ([0476432](https://github.com/MetaMask/metamask-mobile/commit/0476432041b027caff1a0119747408b3dcf3a35a))
+      * fix(predict): extended sports outcome grouping, spread ordering, and live pricing cp-7.81.2 ([#31934](https://github.com/MetaMask/metamask-mobile/pull/31934)) ([10b1a69](https://github.com/MetaMask/metamask-mobile/commit/10b1a6914f1fc260e54046f047b79fcf01342d2d))
+      * fix builds number update ([#31933](https://github.com/MetaMask/metamask-mobile/pull/31933)) ([3e2e9e7](https://github.com/MetaMask/metamask-mobile/commit/3e2e9e7111240c4544a06f945e1bdd3ff0451076))
+      * [skip ci] Bump version number to 5547 ([4ac6dc1](https://github.com/MetaMask/metamask-mobile/commit/4ac6dc15858b8c1738ff1c12ecba3654ea408914))
+      * Merge branch 'stable' into release/7.81.2-ota ([6dd1fdf](https://github.com/MetaMask/metamask-mobile/commit/6dd1fdf4f8062a0d0ea24fb021c682dbf9d016d6))
+      * [skip ci] Bump version number to 5545 ([fda6dc8](https://github.com/MetaMask/metamask-mobile/commit/fda6dc8fe8ccee3439a80ba3d26b3a9135b6662d))
+      * chore: Enhance PredictMarketRowItem with endAccessory prop and remove NBA champion discovery references ([#31923](https://github.com/MetaMask/metamask-mobile/pull/31923)) ([1c35dbe](https://github.com/MetaMask/metamask-mobile/commit/1c35dbe4befe544ab06b6e08c8580933d37ffa7e))
+      * fix: changelog wrong formatted ([#31924](https://github.com/MetaMask/metamask-mobile/pull/31924)) ([9730725](https://github.com/MetaMask/metamask-mobile/commit/97307254ac897bfc75835ac1312990e62136d61d))
+      * fix changelog ([662fe16](https://github.com/MetaMask/metamask-mobile/commit/662fe16402862cdad6413c192c38d8169a5e34b1))
+      * chore: set OTA_VERSION to v7.81.2 for OTA hotfix (release/7.81.2-ota) ([080cac8](https://github.com/MetaMask/metamask-mobile/commit/080cac80d80cd8830128302f7fc234ad2e1601de))
+      * release: 7.81.1 (OTA) ([#31737](https://github.com/MetaMask/metamask-mobile/pull/31737)) ([b95589a](https://github.com/MetaMask/metamask-mobile/commit/b95589a3f8e922714a8a93c2694121ba59974917))
+      * fix changelog ([3f13d20](https://github.com/MetaMask/metamask-mobile/commit/3f13d204122f4ec0450c1b8d89791d4d5350fd95))
+      * Merge branch 'stable' into release/7.81.1-ota ([0b1e479](https://github.com/MetaMask/metamask-mobile/commit/0b1e479dd48d2b76c8b1b44ed03bd493b1bf97fa))
+      * release: 7.81.0 ([#31100](https://github.com/MetaMask/metamask-mobile/pull/31100)) ([3c77e04](https://github.com/MetaMask/metamask-mobile/commit/3c77e046c059f0dbb2916e82a40a67abf21447ba))
+      * trigger ci ([4181b72](https://github.com/MetaMask/metamask-mobile/commit/4181b72ec102d22fa4adb30757afc90f6ea9e553))
+      * [skip ci] Bump version number to 5434 ([5015b90](https://github.com/MetaMask/metamask-mobile/commit/5015b90d8f984d71ba82fde40bef0ca3d709ba1d))
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -277,9 +273,9 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 17489
+    totalCommitsKnown: 17522
     contributorsKnown: 298
-    openPullRequests: 519
+    openPullRequests: 530
   files:
     readme: true
     contributing: false
@@ -289,7 +285,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-19T08:51:38.752Z
+    syncedAt: 2026-06-20T08:13:01.667Z
     apiVersion: rest-v3
     source: github-actions
 health:
