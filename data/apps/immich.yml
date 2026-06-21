@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/immich-app/immich/releases{/id}
     deployments_url: https://api.github.com/repos/immich-app/immich/deployments
     created_at: 2022-02-03T15:56:27Z
-    updated_at: 2026-06-19T08:47:43Z
-    pushed_at: 2026-06-19T07:01:25Z
+    updated_at: 2026-06-21T08:33:32Z
+    pushed_at: 2026-06-21T08:01:32Z
     git_url: git://github.com/immich-app/immich.git
     ssh_url: git@github.com:immich-app/immich.git
     clone_url: https://github.com/immich-app/immich.git
     svn_url: https://github.com/immich-app/immich
     homepage: https://immich.app
-    size: 311350
-    stargazers_count: 103743
-    watchers_count: 103743
+    size: 310811
+    stargazers_count: 103963
+    watchers_count: 103963
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -107,11 +107,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 5890
+    forks_count: 5907
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 642
+    open_issues_count: 654
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -141,9 +141,9 @@ github:
       - typescript
       - videos
     visibility: public
-    forks: 5890
-    open_issues: 642
-    watchers: 103743
+    forks: 5907
+    open_issues: 654
+    watchers: 103963
     default_branch: main
     permissions:
       admin: false
@@ -173,7 +173,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 5890
+    network_count: 5907
     subscribers_count: 327
   activity:
     monthlyCommits:
@@ -189,17 +189,17 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 10342
-    openPullRequests: 190
+    totalCommitsKnown: 10345
+    openPullRequests: 194
     contributorsKnown: 932
   sync:
-    syncedAt: 2026-06-19T08:51:32.022Z
+    syncedAt: 2026-06-21T08:34:23.542Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 5474900
+    TypeScript: 5476084
     Dart: 2944412
-    Svelte: 1384729
+    Svelte: 1383278
     Python: 163230
     Kotlin: 142601
     Swift: 114438
@@ -284,7 +284,7 @@ github:
         state: uploaded
         size: 68953694
         digest: sha256:62b9163f821073d8b71768a067bd10d51270d4017a264192179fdfb032597c98
-        download_count: 33713
+        download_count: 34323
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:52Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-arm64-v8a-release.apk
@@ -317,7 +317,7 @@ github:
         state: uploaded
         size: 63303012
         digest: sha256:22f2d695cc50cb6106ba93cb6a8055ddf30a8cf116cd31208b6501181498bef0
-        download_count: 922
+        download_count: 944
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:52Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-armeabi-v7a-release.apk
@@ -350,7 +350,7 @@ github:
         state: uploaded
         size: 178730245
         digest: sha256:4b33ae85690351d475c008552072a34b43994f5b10e5972c45b3bf65fa0249d6
-        download_count: 9566
+        download_count: 9761
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:57Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-release.apk
@@ -383,7 +383,7 @@ github:
         state: uploaded
         size: 71102359
         digest: sha256:ae3a662c7b32fe090d4eed35c4fc8586f5d1faa41a252b401aa1581b0dca97e6
-        download_count: 997
+        download_count: 1022
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:53Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-x86_64-release.apk
@@ -416,7 +416,7 @@ github:
         state: uploaded
         size: 3332
         digest: sha256:14ffbf8832672c99f0adb8c58ac8246d7ac9dc35e882869ec60510569edcf6ba
-        download_count: 1912
+        download_count: 1963
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/docker-compose.rootless.yml
@@ -449,7 +449,7 @@ github:
         state: uploaded
         size: 2829
         digest: sha256:69da59c813f1382400a8fe9fce9f51ac00a4d05d7d1571a0d49dcd517ae41ad5
-        download_count: 186565
+        download_count: 191961
         created_at: 2026-04-13T14:41:48Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/docker-compose.yml
@@ -482,7 +482,7 @@ github:
         state: uploaded
         size: 979
         digest: sha256:be9337a55998300b1aa05269f3623491f816205a2f8f2d769f81cf239a4a743b
-        download_count: 116758
+        download_count: 120272
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/example.env
@@ -515,7 +515,7 @@ github:
         state: uploaded
         size: 1421
         digest: sha256:05828be46118e9f79c019c0752489a47fb3381d67ed102212a4f9d9f2575bd3d
-        download_count: 12344
+        download_count: 12710
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/hwaccel.ml.yml
@@ -548,7 +548,7 @@ github:
         state: uploaded
         size: 1679
         digest: sha256:a50d01758fdbd468270ef7104dce6f282e217ef916238098ac94a70ca8e4c326
-        download_count: 8778
+        download_count: 9051
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/hwaccel.transcoding.yml
@@ -581,7 +581,7 @@ github:
         state: uploaded
         size: 260
         digest: sha256:4e5fe9d3019df2d1cad4c865e87f9037d98e5f0c3bf28cd509f4f86e6829ae93
-        download_count: 1135
+        download_count: 1151
         created_at: 2026-04-13T14:41:49Z
         updated_at: 2026-04-13T14:41:49Z
         browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/prometheus.yml

@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/BlueWallet/BlueWallet/releases{/id}
     deployments_url: https://api.github.com/repos/BlueWallet/BlueWallet/deployments
     created_at: 2018-01-14T20:14:02Z
-    updated_at: 2026-06-19T06:43:18Z
-    pushed_at: 2026-06-19T08:38:39Z
+    updated_at: 2026-06-20T10:45:52Z
+    pushed_at: 2026-06-20T16:46:28Z
     git_url: git://github.com/BlueWallet/BlueWallet.git
     ssh_url: git@github.com:BlueWallet/BlueWallet.git
     clone_url: https://github.com/BlueWallet/BlueWallet.git
     svn_url: https://github.com/BlueWallet/BlueWallet
     homepage: https://bluewallet.io
-    size: 210447
-    stargazers_count: 3226
-    watchers_count: 3226
+    size: 210670
+    stargazers_count: 3228
+    watchers_count: 3228
     language: TypeScript
     has_issues: true
     has_projects: false
@@ -149,7 +149,7 @@ github:
     visibility: public
     forks: 1033
     open_issues: 429
-    watchers: 3226
+    watchers: 3228
     default_branch: master
     permissions:
       admin: false
@@ -182,8 +182,8 @@ github:
     network_count: 1033
     subscribers_count: 89
   languages:
-    TypeScript: 2398871
-    JavaScript: 869356
+    TypeScript: 2406889
+    JavaScript: 870020
     Swift: 256878
     Kotlin: 120134
     Ruby: 73573
@@ -259,7 +259,7 @@ github:
         state: uploaded
         size: 75100735
         digest: sha256:8034886262f33cde43bbb8bad30ea72b650cffc2ef9c4058d4430196a6939272
-        download_count: 1765
+        download_count: 1871
         created_at: 2026-06-02T17:07:38Z
         updated_at: 2026-06-02T17:07:50Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/v8.0.0/BlueWallet-8.0.0-1780232164.apk
@@ -765,10 +765,10 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 53
+        commits: 48
       - month: 2026-06
-        commits: 47
-    totalCommitsKnown: 13656
+        commits: 52
+    totalCommitsKnown: 13661
     contributorsKnown: 129
     openPullRequests: 65
   files:
@@ -783,7 +783,7 @@ github:
       color: d3ccff
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-19T08:51:14.003Z
+    syncedAt: 2026-06-21T08:34:07.641Z
     apiVersion: rest-v3
     source: github-actions
 health:
