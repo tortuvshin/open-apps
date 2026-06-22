@@ -12,7 +12,7 @@ export type Contributor = {
 // Anonymous contributors are excluded — the homepage grid renders <a> avatars with no anonymous target.
 export const contributors: Contributor[] = [
   { username: "tortuvshin", avatarUrl: "https://avatars.githubusercontent.com/u/9257227?v=4", profileUrl: "https://github.com/tortuvshin", contributions: 187 },
-  { username: "github-actions[bot]", avatarUrl: "https://avatars.githubusercontent.com/in/15368?v=4", profileUrl: "https://github.com/apps/github-actions", contributions: 8 },
+  { username: "github-actions[bot]", avatarUrl: "https://avatars.githubusercontent.com/in/15368?v=4", profileUrl: "https://github.com/apps/github-actions", contributions: 11 },
   { username: "j-j-gajjar", avatarUrl: "https://avatars.githubusercontent.com/u/57590688?v=4", profileUrl: "https://github.com/j-j-gajjar", contributions: 5 },
   { username: "ArizArmeidi", avatarUrl: "https://avatars.githubusercontent.com/u/60814961?v=4", profileUrl: "https://github.com/ArizArmeidi", contributions: 3 },
   { username: "vellt", avatarUrl: "https://avatars.githubusercontent.com/u/61885011?v=4", profileUrl: "https://github.com/vellt", contributions: 3 },
