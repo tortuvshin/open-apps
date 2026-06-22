@@ -104,14 +104,14 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-06-19T01:52:36Z
-    pushed_at: 2026-06-19T01:52:32Z
+    updated_at: 2026-06-19T20:08:52Z
+    pushed_at: 2026-06-19T20:08:49Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 745461
+    size: 745493
     stargazers_count: 9219
     watchers_count: 9219
     language: Go
@@ -189,7 +189,7 @@ github:
     Shell: 218352
     C: 183253
     Kotlin: 126100
-    JavaScript: 94364
+    JavaScript: 94394
     Swift: 74190
     Python: 70932
     CSS: 54388
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 116
+        download_count: 121
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -333,16 +333,16 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 17
+        commits: 12
       - month: 2026-04
         commits: 26
       - month: 2026-05
         commits: 17
       - month: 2026-06
-        commits: 40
-    totalCommitsKnown: 37666
+        commits: 45
+    totalCommitsKnown: 37671
     contributorsKnown: 120
-    openPullRequests: 202
+    openPullRequests: 201
   files:
     readme: true
     contributing: false
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-06-19T08:51:35.008Z
+    syncedAt: 2026-06-22T09:08:09.660Z
     apiVersion: rest-v3
     source: github-actions
 health:

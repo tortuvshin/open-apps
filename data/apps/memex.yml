@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
     deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
     created_at: 2026-03-11T14:04:59Z
-    updated_at: 2026-06-19T07:26:14Z
-    pushed_at: 2026-06-19T03:31:36Z
+    updated_at: 2026-06-22T08:50:12Z
+    pushed_at: 2026-06-22T08:50:00Z
     git_url: git://github.com/memex-lab/memex.git
     ssh_url: git@github.com:memex-lab/memex.git
     clone_url: https://github.com/memex-lab/memex.git
     svn_url: https://github.com/memex-lab/memex
     homepage: https://memexlab.ai
-    size: 56538
-    stargazers_count: 493
-    watchers_count: 493
+    size: 57008
+    stargazers_count: 507
+    watchers_count: 507
     language: Dart
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 49
+    forks_count: 51
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 26
+    open_issues_count: 28
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -146,9 +146,9 @@ github:
       - privacy
       - skills
     visibility: public
-    forks: 49
-    open_issues: 26
-    watchers: 493
+    forks: 51
+    open_issues: 28
+    watchers: 507
     default_branch: main
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 49
+    network_count: 51
     subscribers_count: 3
   activity:
     monthlyCommits:
@@ -194,19 +194,19 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 628
-    openPullRequests: 7
+    totalCommitsKnown: 671
+    openPullRequests: 9
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-06-19T08:51:37.843Z
+    syncedAt: 2026-06-22T09:08:12.005Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 5829793
+    Dart: 5617036
     HTML: 130229
     Python: 94428
-    Kotlin: 70990
-    Swift: 38256
+    Kotlin: 81061
+    Swift: 44041
     Ruby: 6990
     Objective-C: 2723
   latestRelease:
@@ -275,7 +275,7 @@ github:
         state: uploaded
         size: 255283755
         digest: sha256:9ece49bba0b87d26cc75ed307fbb2324a08faa0ae7e29e8ee8b579dda22756ff
-        download_count: 209
+        download_count: 224
         created_at: 2026-06-01T02:25:01Z
         updated_at: 2026-06-01T02:32:37Z
         browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.33/memex_global_1.0.33_116.apk
