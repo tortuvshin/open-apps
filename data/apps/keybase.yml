@@ -104,16 +104,16 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-06-19T20:08:52Z
-    pushed_at: 2026-06-19T20:08:49Z
+    updated_at: 2026-06-22T21:21:47Z
+    pushed_at: 2026-06-22T21:21:44Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 745493
-    stargazers_count: 9219
-    watchers_count: 9219
+    size: 745844
+    stargazers_count: 9222
+    watchers_count: 9222
     language: Go
     has_issues: true
     has_projects: false
@@ -149,7 +149,7 @@ github:
     visibility: public
     forks: 1292
     open_issues: 4249
-    watchers: 9219
+    watchers: 9222
     default_branch: master
     permissions:
       admin: false
@@ -182,7 +182,7 @@ github:
     network_count: 1292
     subscribers_count: 278
   languages:
-    Go: 32931027
+    Go: 32933149
     HTML: 7116337
     Objective-C: 1393380
     TypeScript: 438778
@@ -191,7 +191,7 @@ github:
     Kotlin: 126100
     JavaScript: 94394
     Swift: 74190
-    Python: 70932
+    Python: 72194
     CSS: 54388
     Ruby: 39282
     C++: 30348
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 120
+        download_count: 123
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -333,14 +333,14 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 12
+        commits: 7
       - month: 2026-04
         commits: 26
       - month: 2026-05
         commits: 17
       - month: 2026-06
-        commits: 45
-    totalCommitsKnown: 37671
+        commits: 50
+    totalCommitsKnown: 37676
     contributorsKnown: 120
     openPullRequests: 201
   files:
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-06-20T08:12:59.336Z
+    syncedAt: 2026-06-23T08:16:29.596Z
     apiVersion: rest-v3
     source: github-actions
 health:

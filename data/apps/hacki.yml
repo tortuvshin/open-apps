@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/Livinglist/Hacki/releases{/id}
     deployments_url: https://api.github.com/repos/Livinglist/Hacki/deployments
     created_at: 2021-12-25T03:59:50Z
-    updated_at: 2026-06-20T04:25:02Z
-    pushed_at: 2026-06-15T09:47:27Z
+    updated_at: 2026-06-23T01:05:12Z
+    pushed_at: 2026-06-22T09:36:54Z
     git_url: git://github.com/Livinglist/Hacki.git
     ssh_url: git@github.com:Livinglist/Hacki.git
     clone_url: https://github.com/Livinglist/Hacki.git
     svn_url: https://github.com/Livinglist/Hacki
     homepage: https://livinglist.github.io/Hacki/
-    size: 291398
-    stargazers_count: 1568
-    watchers_count: 1568
+    size: 291440
+    stargazers_count: 1570
+    watchers_count: 1570
     language: Dart
     has_issues: true
     has_projects: false
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 38
+    open_issues_count: 41
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -137,8 +137,8 @@ github:
       - mobile-app
     visibility: public
     forks: 127
-    open_issues: 38
-    watchers: 1568
+    open_issues: 41
+    watchers: 1570
     default_branch: master
     permissions:
       admin: false
@@ -148,7 +148,7 @@ github:
       pull: false
     temp_clone_token: ""
     network_count: 127
-    subscribers_count: 12
+    subscribers_count: 11
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -164,10 +164,10 @@ github:
       - month: 2026-06
         commits: 1
     totalCommitsKnown: 844
-    openPullRequests: 7
+    openPullRequests: 10
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-06-20T08:12:56.015Z
+    syncedAt: 2026-06-23T08:16:24.949Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -244,7 +244,7 @@ github:
         state: uploaded
         size: 32480086
         digest: sha256:9b3742e9fde8b2e11e0ddc6b09bf6fa9064289306a0c673d02fd167172e20b7d
-        download_count: 1216
+        download_count: 1227
         created_at: 2026-05-01T18:14:21Z
         updated_at: 2026-05-01T18:14:28Z
         browser_download_url: https://github.com/Livinglist/Hacki/releases/download/v3.6.5/app-arm64-v8a-release.apk

@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-20T07:43:31Z
+    updated_at: 2026-06-23T08:13:26Z
     pushed_at: 2026-06-14T15:15:51Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 99642
-    stargazers_count: 26115
-    watchers_count: 26115
+    stargazers_count: 26221
+    watchers_count: 26221
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1259
+    forks_count: 1267
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 648
+    open_issues_count: 649
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1259
-    open_issues: 648
-    watchers: 26115
+    forks: 1267
+    open_issues: 649
+    watchers: 26221
     default_branch: main
     permissions:
       admin: false
@@ -182,7 +182,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1259
+    network_count: 1267
     subscribers_count: 76
   languages:
     TypeScript: 3795314
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-20T08:12:58.869Z
+    syncedAt: 2026-06-23T08:16:29.061Z
     apiVersion: rest-v3
     source: github-actions
 health:

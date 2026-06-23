@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-06-20T07:48:46Z
-    pushed_at: 2026-06-19T06:08:37Z
+    updated_at: 2026-06-22T20:08:21Z
+    pushed_at: 2026-06-23T07:03:39Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 285587
-    stargazers_count: 4360
-    watchers_count: 4360
+    size: 284798
+    stargazers_count: 4362
+    watchers_count: 4362
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 30
+    open_issues_count: 28
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -147,8 +147,8 @@ github:
       - react-native
     visibility: public
     forks: 749
-    open_issues: 30
-    watchers: 4360
+    open_issues: 28
+    watchers: 4362
     default_branch: develop
     permissions:
       admin: false
@@ -181,23 +181,23 @@ github:
     network_count: 749
     subscribers_count: 69
   languages:
-    TypeScript: 9433119
-    JavaScript: 388321
+    TypeScript: 9439548
+    JavaScript: 388908
     Swift: 101323
     Objective-C: 62738
     Shell: 37798
     Java: 37773
-    Ruby: 12001
-    Kotlin: 9907
+    Ruby: 11873
+    Kotlin: 9599
     Objective-C++: 4552
     Starlark: 1910
     C: 290
   latestRelease:
-    url: https://api.github.com/repos/rainbow-me/rainbow/releases/337969138
-    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/337969138/assets
-    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/337969138/assets{?name,label}
-    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.35
-    id: 337969138
+    url: https://api.github.com/repos/rainbow-me/rainbow/releases/343099984
+    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/343099984/assets
+    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/343099984/assets{?name,label}
+    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.36
+    id: 343099984
     author:
       login: ibrahimtaveras00
       id: 41752922
@@ -218,86 +218,99 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOColoic4UJP_y
-    tag_name: v2.0.35
+    node_id: RE_kwDOColoic4Uc0pQ
+    tag_name: v2.0.36
     target_commitish: develop
-    name: v2.0.35
+    name: v2.0.36
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-10T17:15:05Z
-    updated_at: 2026-06-11T13:12:40Z
-    published_at: 2026-06-11T13:12:40Z
+    created_at: 2026-06-18T17:22:25Z
+    updated_at: 2026-06-22T18:45:59Z
+    published_at: 2026-06-22T18:45:59Z
     assets: []
-    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.35
-    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.35
+    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.36
+    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.36
     body: >-
       ### Added
 
 
-      - Add sports league deep links to predictions
-      (https://github.com/rainbow-me/rainbow/pull/7537)
+      - Add Cash Deposits intro panel entry point (APP-3775)
+      (https://github.com/rainbow-me/rainbow/pull/7556)
 
-      - Add v2 placements and surface schema support
-      (https://github.com/rainbow-me/rainbow/pull/7538)
+      - Add Add Cash screen and routing based on user's ramp status
+      (https://github.com/rainbow-me/rainbow/pull/7558)
 
-      - Add dynamic market surfaces with list and carousel layouts to discover
-      (https://github.com/rainbow-me/rainbow/pull/7539)
+      - Add custom amount view with keypad (https://github.com/rainbow-me/rainbow/pull/7568)
 
-      - Add dynamic token market placements to discover
-      (https://github.com/rainbow-me/rainbow/pull/7540)
+      - Add USD and token amounts to the Sent transaction event
+      (https://github.com/rainbow-me/rainbow/pull/7587)
 
-      - Add dynamic perp market placements to discover
-      (https://github.com/rainbow-me/rainbow/pull/7541)
-
-      - Add dynamic prediction and sports placements to discover
-      (https://github.com/rainbow-me/rainbow/pull/7542)
-
-      - Add live sparkline pulsed chart to charts (https://github.com/rainbow-me/rainbow/pull/7543)
-
-      - Add discover v2 swipe navigation and cutover
-      (https://github.com/rainbow-me/rainbow/pull/7553)
-
-      - Add Discover v2 card and section analytics (https://github.com/rainbow-me/rainbow/pull/7557)
-
-      - Add sponsorship to Unstake (https://github.com/rainbow-me/rainbow/pull/7530)
-
-      - Add FIFA sports league filter to predictions
-      (https://github.com/rainbow-me/rainbow/pull/7580)
+      - Add AppsFlyer SDK for install attribution (https://github.com/rainbow-me/rainbow/pull/7601)
 
 
       ### Changed
 
 
-      - Refactor perps to share price-change colors, leverage badge, and chart fetch
-      (https://github.com/rainbow-me/rainbow/pull/7535)
+      - Remove unused LoadingState component (https://github.com/rainbow-me/rainbow/pull/7573)
 
-      - Refactor predictions to extract reusable sports event content
-      (https://github.com/rainbow-me/rainbow/pull/7536)
+      - Remove unused timestampsCalculation (https://github.com/rainbow-me/rainbow/pull/7575)
 
-      - Bump iOS and Android to v2.0.35 (https://github.com/rainbow-me/rainbow/pull/7561)
+      - Remove unused revoke-approval helpers and rap types
+      (https://github.com/rainbow-me/rainbow/pull/7576)
 
-      - Deprecate placements v1 (https://github.com/rainbow-me/rainbow/pull/7554)
+      - Remove unused AnimatedScrollView and props allowlists
+      (https://github.com/rainbow-me/rainbow/pull/7577)
 
-      - Deprecate trending tokens (https://github.com/rainbow-me/rainbow/pull/7555)
+      - Bump iOS and Android to v2.0.36 (https://github.com/rainbow-me/rainbow/pull/7585)
 
-      - Remove unused Zerion transaction types (https://github.com/rainbow-me/rainbow/pull/7574)
+      - Extract currency domain from perps and legacy helpers
+      (https://github.com/rainbow-me/rainbow/pull/7584)
+
+      - Dedupe runtime helpers across the production bundle
+      (https://github.com/rainbow-me/rainbow/pull/7588)
+
+      - Bump webview fork to include the blocked-nav host callback
+      (https://github.com/rainbow-me/rainbow/pull/7589)
+
+      - Consolidate keychain and device auth into a local-auth domain
+      (https://github.com/rainbow-me/rainbow/pull/7590)
+
+      - Rename legacy third-party fiat on-ramp flow
+      (https://github.com/rainbow-me/rainbow/pull/7583)
+
+      - Move NumberPad into shared components (https://github.com/rainbow-me/rainbow/pull/7567)
+
+      - Remove dead CodePush/AppCenter env vars (https://github.com/rainbow-me/rainbow/pull/7597)
+
+      - Rename the send domain to transfer (https://github.com/rainbow-me/rainbow/pull/7593)
+
+      - Introduce network domain for related files (https://github.com/rainbow-me/rainbow/pull/7591)
+
+      - Move send flow components into the transfer domain
+      (https://github.com/rainbow-me/rainbow/pull/7594)
+
+      - Finish consolidating the send flow into the transfer domain
+      (https://github.com/rainbow-me/rainbow/pull/7595)
+
+      - Convert the transfer domain to named exports
+      (https://github.com/rainbow-me/rainbow/pull/7596)
+
+      - Move EIP-681 send launcher into the transfer domain
+      (https://github.com/rainbow-me/rainbow/pull/7598)
+
+      - Move network chain metadata into new domain module
+      (https://github.com/rainbow-me/rainbow/pull/7592)
 
 
       ### Fixed
 
 
-      - Fix stale JS bundle in iOS E2E runs on develop
-      (https://github.com/rainbow-me/rainbow/pull/7581)
+      - Fix consistent league slug grouping and filtering
+      (https://github.com/rainbow-me/rainbow/pull/7599)
 
-      - Treat test builds as non-store installs in iOS E2E
-      (https://github.com/rainbow-me/rainbow/pull/7559)
-
-      - Show all predictions in large placements in discover
-      (https://github.com/rainbow-me/rainbow/pull/7578)
-
-      - Disable swipe navigation and fix tab bar padding in discover
-      (https://github.com/rainbow-me/rainbow/pull/7579)
+      - Use the project-pinned Node version in Xcode builds
+      (https://github.com/rainbow-me/rainbow/pull/7600)
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -309,12 +322,12 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 45
+        commits: 37
       - month: 2026-06
-        commits: 55
-    totalCommitsKnown: 9143
+        commits: 63
+    totalCommitsKnown: 9151
     contributorsKnown: 73
-    openPullRequests: 30
+    openPullRequests: 28
   files:
     readme: true
     contributing: false
@@ -324,7 +337,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-06-20T08:13:07.152Z
+    syncedAt: 2026-06-23T08:16:40.407Z
     apiVersion: rest-v3
     source: github-actions
 health:
