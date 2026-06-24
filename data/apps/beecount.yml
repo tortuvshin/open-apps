@@ -92,7 +92,7 @@ github:
     releases_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases{/id}
     deployments_url: https://api.github.com/repos/TNT-Likely/BeeCount/deployments
     created_at: 2025-09-06T02:15:06Z
-    updated_at: 2026-06-23T06:27:31Z
+    updated_at: 2026-06-24T06:33:54Z
     pushed_at: 2026-06-23T05:57:09Z
     git_url: git://github.com/TNT-Likely/BeeCount.git
     ssh_url: git@github.com:TNT-Likely/BeeCount.git
@@ -100,8 +100,8 @@ github:
     svn_url: https://github.com/TNT-Likely/BeeCount
     homepage: https://count.beejz.com
     size: 121960
-    stargazers_count: 1808
-    watchers_count: 1808
+    stargazers_count: 1819
+    watchers_count: 1819
     language: Dart
     has_issues: true
     has_projects: true
@@ -113,7 +113,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 61
+    open_issues_count: 62
     license:
       key: other
       name: Other
@@ -145,8 +145,8 @@ github:
       - webdav
     visibility: public
     forks: 250
-    open_issues: 61
-    watchers: 1808
+    open_issues: 62
+    watchers: 1819
     default_branch: main
     permissions:
       admin: false
@@ -175,7 +175,7 @@ github:
     openPullRequests: 7
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-06-23T08:16:07.863Z
+    syncedAt: 2026-06-24T08:12:39.030Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -252,7 +252,7 @@ github:
         state: uploaded
         size: 17608434
         digest: sha256:38ae69bf0cea5e31c0061985e8bfe9226ca1dbac5d9e7fef43a45dc7a9bad14a
-        download_count: 5
+        download_count: 42
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:02Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2-armeabi-v7a.apk
@@ -285,7 +285,7 @@ github:
         state: uploaded
         size: 16983976
         digest: sha256:3dd12120be183875b3e62e627f240a3d527ab2a3e07ad6c003abd0d50319b4fa
-        download_count: 1
+        download_count: 4
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:02Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2-iphoneos.app.zip
@@ -318,7 +318,7 @@ github:
         state: uploaded
         size: 73617170
         digest: sha256:2aaab3936bc4b4aed8df55c9006e88a2a51e2c7168f272de1796ebbfb6f88425
-        download_count: 1
+        download_count: 3
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:05Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2-iphonesimulator.app.zip
@@ -384,7 +384,7 @@ github:
         state: uploaded
         size: 43091964
         digest: sha256:a1e505f31ade87c19cef61ad858a215d537a77c64be0a5435f1a20483e1a414d
-        download_count: 4
+        download_count: 36
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:03Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2-universal.apk
@@ -450,7 +450,7 @@ github:
         state: uploaded
         size: 17552664
         digest: sha256:b6d45edf1ee6ec16a71027c31c3f1ae92d2b2367d5b84861e5c2696197517058
-        download_count: 1
+        download_count: 12
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:02Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2-x86_64.apk
@@ -483,7 +483,7 @@ github:
         state: uploaded
         size: 44939997
         digest: sha256:681282031c5414f7d01d88148d24c0b75e6a36227d6b8e79b68a0d2d980ead0e
-        download_count: 0
+        download_count: 2
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:03Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2.aab
@@ -516,7 +516,7 @@ github:
         state: uploaded
         size: 17385110
         digest: sha256:bcc85120a3a1d682443aa09d493cb2eae54ccda75bccca51973e7c8a24da6c11
-        download_count: 9
+        download_count: 99
         created_at: 2026-06-23T06:12:00Z
         updated_at: 2026-06-23T06:12:02Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.2/beecount-3.5.2.apk
@@ -529,6 +529,17 @@ github:
       - feat: 货币扩充至全量 ISO 4217(151 种,新增 KES/XAF/XOF 等;长尾英文名兜底) (#351) ([ce97dca](https://github.com/TNT-Likely/BeeCount/commit/ce97dcaddea540e8ebb0a4276d2e189c21a809e1))
       - feat: 明细列表「备注显示方式」开关(分类优先/备注优先) (#350) ([d66b35d](https://github.com/TNT-Likely/BeeCount/commit/d66b35dde8f663c9b4d0083a1f13b41ccbb282cf))
 
+    reactions:
+      url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/343301691/reactions
+      total_count: 1
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
   files:
     readme: true
     contributing: false
