@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-06-22T20:08:21Z
-    pushed_at: 2026-06-23T07:03:39Z
+    updated_at: 2026-06-25T06:07:14Z
+    pushed_at: 2026-06-25T07:19:16Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 284798
-    stargazers_count: 4362
-    watchers_count: 4362
+    size: 285521
+    stargazers_count: 4363
+    watchers_count: 4363
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 28
+    open_issues_count: 26
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -147,8 +147,8 @@ github:
       - react-native
     visibility: public
     forks: 749
-    open_issues: 28
-    watchers: 4362
+    open_issues: 26
+    watchers: 4363
     default_branch: develop
     permissions:
       admin: false
@@ -181,11 +181,11 @@ github:
     network_count: 749
     subscribers_count: 69
   languages:
-    TypeScript: 9439548
-    JavaScript: 388908
+    TypeScript: 9435918
+    JavaScript: 388949
     Swift: 101323
     Objective-C: 62738
-    Shell: 37798
+    Shell: 38019
     Java: 37773
     Ruby: 11873
     Kotlin: 9599
@@ -322,12 +322,12 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 37
+        commits: 26
       - month: 2026-06
-        commits: 63
-    totalCommitsKnown: 9151
+        commits: 74
+    totalCommitsKnown: 9162
     contributorsKnown: 73
-    openPullRequests: 28
+    openPullRequests: 26
   files:
     readme: true
     contributing: false
@@ -337,7 +337,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-06-23T08:16:40.407Z
+    syncedAt: 2026-06-25T08:13:14.215Z
     apiVersion: rest-v3
     source: github-actions
 health:

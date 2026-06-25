@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-23T08:13:26Z
+    updated_at: 2026-06-25T07:58:00Z
     pushed_at: 2026-06-14T15:15:51Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 99642
-    stargazers_count: 26221
-    watchers_count: 26221
+    stargazers_count: 26291
+    watchers_count: 26291
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1267
+    forks_count: 1273
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 649
+    open_issues_count: 653
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1267
-    open_issues: 649
-    watchers: 26221
+    forks: 1273
+    open_issues: 653
+    watchers: 26291
     default_branch: main
     permissions:
       admin: false
@@ -182,8 +182,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1267
-    subscribers_count: 76
+    network_count: 1273
+    subscribers_count: 74
   languages:
     TypeScript: 3795314
     Shell: 20277
@@ -1133,7 +1133,7 @@ github:
         commits: 6
     totalCommitsKnown: 2056
     contributorsKnown: 181
-    openPullRequests: 66
+    openPullRequests: 68
   files:
     readme: true
     contributing: true
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-23T08:16:29.061Z
+    syncedAt: 2026-06-25T08:13:04.388Z
     apiVersion: rest-v3
     source: github-actions
 health:
