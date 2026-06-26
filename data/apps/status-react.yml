@@ -92,13 +92,13 @@ github:
     deployments_url: https://api.github.com/repos/status-im/status-legacy/deployments
     created_at: 2016-02-22T21:48:48Z
     updated_at: 2026-06-22T17:30:16Z
-    pushed_at: 2026-06-24T00:32:18Z
+    pushed_at: 2026-06-26T04:28:48Z
     git_url: git://github.com/status-im/status-legacy.git
     ssh_url: git@github.com:status-im/status-legacy.git
     clone_url: https://github.com/status-im/status-legacy.git
     svn_url: https://github.com/status-im/status-legacy
     homepage: https://status.app
-    size: 487859
+    size: 487854
     stargazers_count: 4018
     watchers_count: 4018
     language: Clojure
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 453
+    open_issues_count: 452
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -142,7 +142,7 @@ github:
       - wallet
     visibility: public
     forks: 992
-    open_issues: 453
+    open_issues: 452
     watchers: 4018
     default_branch: develop
     permissions:
@@ -190,10 +190,10 @@ github:
       - month: 2026-06
         commits: 0
     totalCommitsKnown: 10569
-    openPullRequests: 11
+    openPullRequests: 10
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-06-25T08:13:17.194Z
+    syncedAt: 2026-06-26T08:16:39.141Z
     apiVersion: rest-v3
     source: github-actions
   languages:

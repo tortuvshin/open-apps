@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-06-25T08:02:45Z
-    pushed_at: 2026-06-25T08:11:12Z
+    updated_at: 2026-06-26T02:16:00Z
+    pushed_at: 2026-06-26T08:15:08Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2020452
-    stargazers_count: 2976
-    watchers_count: 2976
+    size: 2022271
+    stargazers_count: 2977
+    watchers_count: 2977
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: false
     has_pages: true
     has_discussions: false
-    forks_count: 1617
+    forks_count: 1619
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1919
+    open_issues_count: 1914
     license:
       key: other
       name: Other
@@ -148,9 +148,9 @@ github:
       - react-native
       - web3
     visibility: public
-    forks: 1617
-    open_issues: 1919
-    watchers: 2976
+    forks: 1619
+    open_issues: 1914
+    watchers: 2977
     default_branch: main
     permissions:
       admin: false
@@ -182,17 +182,17 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1617
+    network_count: 1619
     subscribers_count: 143
   languages:
-    TypeScript: 70138458
-    JavaScript: 2166236
+    TypeScript: 70623828
+    JavaScript: 2195478
     Shell: 134212
     HTML: 100552
-    Swift: 16473
-    Kotlin: 12594
-    Ruby: 12552
-    Objective-C: 11332
+    Swift: 17895
+    Kotlin: 13306
+    Ruby: 12733
+    Objective-C: 11375
     Java: 10291
     C++: 7289
     Gherkin: 6915
@@ -202,11 +202,11 @@ github:
     Objective-C++: 693
     CMake: 273
   latestRelease:
-    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/343094729
-    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/343094729/assets
-    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/343094729/assets{?name,label}
-    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.82.0
-    id: 343094729
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/344884564
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/344884564/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/344884564/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.82.1
+    id: 344884564
     author:
       login: runway-github[bot]
       id: 73448015
@@ -227,86 +227,38 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCG4DHc4UczXJ
-    tag_name: v7.82.0
-    target_commitish: 91ee541297ab29363c01ce74c5e5d05c0d708dbd
-    name: Release 7.82.0
+    node_id: RE_kwDOCG4DHc4UjoVU
+    tag_name: v7.82.1
+    target_commitish: 95ff9252319cddae8563f20fcba6ed5ea45527b1
+    name: Release 7.82.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-22T18:34:35Z
-    updated_at: 2026-06-22T18:35:02Z
-    published_at: 2026-06-22T18:34:44Z
-    assets:
-      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/454850168
-        id: 454850168
-        node_id: RA_kwDOCG4DHc4bHHZ4
-        name: metamask-blockchain-wall-android3-7.82.0-metamask-production-main-7.82.0-5619.aab
-        label: ""
-        uploader:
-          login: runway-github[bot]
-          id: 73448015
-          node_id: MDM6Qm90NzM0NDgwMTU=
-          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
-          gravatar_id: ""
-          url: https://api.github.com/users/runway-github%5Bbot%5D
-          html_url: https://github.com/apps/runway-github
-          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
-          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
-          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
-          type: Bot
-          user_view_type: public
-          site_admin: false
-        content_type: application/octet-stream
-        state: uploaded
-        size: 187687027
-        digest: sha256:8d9a0241800bcafc08dec73a4b4253834be50175d92ad0a9888e5861e424597e
-        download_count: 33
-        created_at: 2026-06-22T18:34:46Z
-        updated_at: 2026-06-22T18:34:51Z
-        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.82.0/metamask-blockchain-wall-android3-7.82.0-metamask-production-main-7.82.0-5619.aab
-      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/454850235
-        id: 454850235
-        node_id: RA_kwDOCG4DHc4bHHa7
-        name: metamask-blockchain-wall-android3-7.82.0-metamask-production-main-7.82.0-5619.apk
-        label: ""
-        uploader:
-          login: runway-github[bot]
-          id: 73448015
-          node_id: MDM6Qm90NzM0NDgwMTU=
-          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
-          gravatar_id: ""
-          url: https://api.github.com/users/runway-github%5Bbot%5D
-          html_url: https://github.com/apps/runway-github
-          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
-          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
-          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
-          type: Bot
-          user_view_type: public
-          site_admin: false
-        content_type: application/vnd.android.package-archive
-        state: uploaded
-        size: 292462628
-        digest: sha256:8ef776ce82da941c30fadceac38e52611718bf2a55f0c97417b006317e0c5391
-        download_count: 600
-        created_at: 2026-06-22T18:34:53Z
-        updated_at: 2026-06-22T18:35:02Z
-        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v7.82.0/metamask-blockchain-wall-android3-7.82.0-metamask-production-main-7.82.0-5619.apk
-    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.82.0
-    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.82.0
+    created_at: 2026-06-25T17:43:06Z
+    updated_at: 2026-06-25T17:43:33Z
+    published_at: 2026-06-25T17:43:33Z
+    assets: []
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.82.1
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.82.1
     body: >-
+      * Merge branch 'stable' into release/7.82.1-ota (95ff925)
+
+      * release: release-changelog/7.82.1 (#32278) (6dc22a0)
+
+      * invert build number bump (dd1bf22)
+
+      * [skip ci] Bump version number to 5667 (df1cacd)
+
+      * Cherry-picking commits from main to release/7.82.1-ota for PR #32266 (#32280) (f59cd2b)
+
+      * chore: set OTA_VERSION to v7.82.1 for OTA hotfix (release/7.82.1-ota) (17553cb)
+
+      * release: 7.82.0 (#31598) (86745bf)
+
+      * trigger ci (401c83c)
+
+      * [skip ci] Bump version number to 5619 (e77b646)
+
       * Format CHANGELOG.md (91ee541)
 
       * chore: trigger CI (8b50ffe)
@@ -385,14 +337,7 @@ github:
 
       * Release/7.81.2 (OTA) (#31926) (2c82210)
 
-      * Cherry-picking commits from main to release/7.81.2-ota for PR #31801 (#31935) (f5e5f6d)
-
-      * fix(predict): odds prices stale on feed cards and event page during live markets cp-7.81.2
-      (#31951) (1f49900)
-
       * [skip ci] Bump version number to 5553 (b16f73f)
-
-      * release: release-changelog/7.81.2 (#31925) (0476432)
 
       * chore: sync stable into release/7.82.0 (#31913) (78576a9)
 
@@ -401,34 +346,14 @@ github:
       * chore(runway): cherry-pick fix: set pending operation address using the from address
       cp-7.82.0 (#31941) (dbc085f)
 
-      * fix(predict): extended sports outcome grouping, spread ordering, and live pricing cp-7.81.2
-      (#31934) (10b1a69)
-
       * Merge branch 'release/7.82.0' into stable-sync-release-7.82.0 (af21117)
-
-      * fix builds number update (#31933) (3e2e9e7)
 
       * fix(tests): resolve TS2451 duplicate declarations and stale mockSelectMoneyAccounts in
       cardController.test.ts (ca6f8d1)
 
-      * [skip ci] Bump version number to 5547 (4ac6dc1)
-
       * [skip ci] Bump version number to 5546 (6440ee5)
 
       * fix: dismiss Batch Sell final review bottom sheet after submit (#31842) (#31878) (1862b2c)
-
-      * Merge branch 'stable' into release/7.81.2-ota (6dd1fdf)
-
-      * [skip ci] Bump version number to 5545 (fda6dc8)
-
-      * chore: Enhance PredictMarketRowItem with endAccessory prop and remove NBA champion discovery
-      references (#31923) (1c35dbe)
-
-      * fix: changelog wrong formatted (#31924) (9730725)
-
-      * fix changelog (662fe16)
-
-      * chore: set OTA_VERSION to v7.81.2 for OTA hotfix (release/7.81.2-ota) (080cac8)
 
       * [skip ci] Bump version number to 5542 (c130496)
 
@@ -450,11 +375,7 @@ github:
 
       * Cherry-picking commits from main to release/7.82.0 for PR #31769 (#31770) (a6a1730)
 
-      * release: 7.81.1 (OTA) (#31737) (b95589a)
-
       * Cherry-picking commits from main to release/7.82.0 for PR #31801 (#31808) (2063356)
-
-      * fix changelog (3f13d20)
 
       * [skip ci] Bump version number to 5524 (fb7da1a)
 
@@ -474,8 +395,6 @@ github:
 
       * chore(runway): cherry-pick perf(predict): fix JS-thread FPS collapse on market details with
       live prices cp-7.82.0 (#31807) (060727a)
-
-      * Merge branch 'stable' into release/7.81.1-ota (0b1e479)
 
       * [skip ci] Bump version number to 5514 (2f99ed9)
 
@@ -505,14 +424,6 @@ github:
 
       * solve conflicts and merge release/7.82.0 (6fea42e)
 
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31648 (#31798) (86b3e62)
-
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31721 (#31797) (6e015fc)
-
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31505 (#31796) (81266f1)
-
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31555 (#31791) (f6f85cf)
-
       * [skip ci] Bump version number to 5503 (0a7cbf6)
 
       * Cherry-picking commits from cherry-pick-7-82-0-1e03645 to release/7.82.0 for PR #31662
@@ -521,44 +432,14 @@ github:
       * chore(runway): cherry-pick fix(predict): add ES and IN to Predict geo-block overlay
       cp-7.82.0 (#31747) (28aa782)
 
-      * revert build number bump (37d319e)
-
-      * [skip ci] Bump version number to 5497 (2146bfa)
-
-      * release: release-changelog/7.81.1 (#31738) (c79c209)
-
-      * [skip ci] Bump version number to 5494 (4ec7a07)
-
-      * Cherry-picking commits from cherry-pick-7-81-1-1e03645 to release/7.81.1-ota for PR #31662
-      (#31748) (2b023c1)
-
-      * [skip ci] Bump version number to 5491 (2a5240a)
-
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31413 (#31755) (f2741e2)
-
       * [skip ci] Bump version number to 5490 (cb33410)
 
-      * [skip ci] Bump version number to 5489 (bef2a15)
-
       * fix: batch sell submit not working (#31727) (33abc51)
-
-      * Cherry-picking commits from cherry-pick-7-81-1-7b0e275 to release/7.81.1-ota for PR #31611
-      (#31753) (fce1747)
 
       * [skip ci] Bump version number to 5487 (25d7bdf)
 
       * chore(runway): cherry-pick chore: removed trailing slash for arc explorer url cp-7.81.1
       cp-7.82.0 (#31726) (c571973)
-
-      * Merge branch 'release/7.81.1-ota' into cherry-pick-7-81-1-7b0e275 (27b8c38)
-
-      * fix(card): solve conflicts (9315676)
-
-      * [skip ci] Bump version number to 5485 (f237bc3)
-
-      * Bump OTA version to 7.81.0 (f6344a4)
-
-      * Cherry-picking commits from main to release/7.81.1-ota for PR #31718 (#31732) (aa0a93f)
 
       * [skip ci] Bump version number to 5476 (3555b32)
 
@@ -585,10 +466,6 @@ github:
 
       * chore(runway): cherry-pick fix: Removed extra paddings below checklist on wallet cp-7.82.0
       (#31657) (7cf75f7)
-
-      * release: 7.81.0 (#31100) (3c77e04)
-
-      * trigger ci (4181b72)
 
       * [skip ci] Bump version number to 5441 (c1d5af1)
 
@@ -625,8 +502,6 @@ github:
 
       * chore(pure-black): elevate ActionModal surface; remove orphan CustomAlert and
       CollectibleContractInformation (#31178) (69b9577)
-
-      * feat: add swap/bridge to ARC mainnet (\#31413) (0a0e35e)
 
       * feat: add swap/bridge to ARC mainnet cp-7.81.1 (#31413) (d333a48)
 
@@ -1143,9 +1018,9 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 17769
-    contributorsKnown: 298
-    openPullRequests: 516
+    totalCommitsKnown: 17810
+    contributorsKnown: 300
+    openPullRequests: 518
   files:
     readme: true
     contributing: false
@@ -1155,7 +1030,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-25T08:13:08.165Z
+    syncedAt: 2026-06-26T08:16:30.146Z
     apiVersion: rest-v3
     source: github-actions
 health:

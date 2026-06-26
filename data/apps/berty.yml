@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-06-24T13:42:53Z
-    pushed_at: 2026-06-24T01:01:15Z
+    updated_at: 2026-06-25T14:18:53Z
+    pushed_at: 2026-06-25T14:18:32Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 272943
-    stargazers_count: 9216
-    watchers_count: 9216
+    size: 272629
+    stargazers_count: 9215
+    watchers_count: 9215
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 494
+    forks_count: 495
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 99
+    open_issues_count: 98
     license:
       key: other
       name: Other
@@ -162,9 +162,9 @@ github:
       - react-native
       - surveillance
     visibility: public
-    forks: 494
-    open_issues: 99
-    watchers: 9216
+    forks: 495
+    open_issues: 98
+    watchers: 9215
     default_branch: master
     permissions:
       admin: false
@@ -194,16 +194,16 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 494
+    network_count: 495
     subscribers_count: 122
   languages:
-    TypeScript: 1866019
-    Go: 1688668
-    Java: 469288
-    Swift: 92585
+    TypeScript: 1875203
+    Go: 1705262
+    Java: 469612
+    Swift: 93817
     JavaScript: 85117
-    Makefile: 68160
-    Shell: 56046
+    Makefile: 68690
+    Shell: 66339
     Kotlin: 19849
     Objective-C: 13899
     C++: 6967
@@ -216,11 +216,11 @@ github:
     Starlark: 1204
     Jinja: 1041
   latestRelease:
-    url: https://api.github.com/repos/berty/berty/releases/332365631
-    assets_url: https://api.github.com/repos/berty/berty/releases/332365631/assets
-    upload_url: https://uploads.github.com/repos/berty/berty/releases/332365631/assets{?name,label}
-    html_url: https://github.com/berty/berty/releases/tag/v2.471.10
-    id: 332365631
+    url: https://api.github.com/repos/berty/berty/releases/344769134
+    assets_url: https://api.github.com/repos/berty/berty/releases/344769134/assets
+    upload_url: https://uploads.github.com/repos/berty/berty/releases/344769134/assets{?name,label}
+    html_url: https://github.com/berty/berty/releases/tag/v2.471.11
+    id: 344769134
     author:
       login: github-actions[bot]
       id: 41898282
@@ -241,29 +241,30 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCGjcYc4Tz38_
-    tag_name: v2.471.10
+    node_id: RE_kwDOCGjcYc4UjMJu
+    tag_name: v2.471.11
     target_commitish: master
-    name: v2.471.10
+    name: v2.471.11
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-01T08:21:45Z
-    updated_at: 2026-06-01T08:22:40Z
-    published_at: 2026-06-01T08:22:40Z
+    created_at: 2026-06-25T14:17:45Z
+    updated_at: 2026-06-25T14:18:32Z
+    published_at: 2026-06-25T14:18:32Z
     assets: []
-    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.10
-    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.10
+    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.11
+    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.11
     body: >+
-      ## [2.471.10](https://github.com/berty/berty/compare/v2.471.9...v2.471.10) (2026-06-01)
+      ## [2.471.11](https://github.com/berty/berty/compare/v2.471.10...v2.471.11) (2026-06-25)
 
 
 
       ### Bug Fixes
 
 
-      * eas submit by setting ascAppId in eas.json
-      ([df8a4e9](https://github.com/berty/berty/commit/df8a4e9d0fa848696cef17c941b88bcd6b315310))
+      * **mobile:** stabilize Expo mobile build (chat, notifications, Android edge-to-edge, iOS
+      lifecycle, logging) ([#5138](https://github.com/berty/berty/issues/5138))
+      ([b31e1bc](https://github.com/berty/berty/commit/b31e1bcb5fecd23944b288f1ab67958000423f36))
 
 
 
@@ -280,10 +281,10 @@ github:
       - month: 2026-05
         commits: 16
       - month: 2026-06
-        commits: 15
-    totalCommitsKnown: 8349
+        commits: 16
+    totalCommitsKnown: 8350
     contributorsKnown: 70
-    openPullRequests: 25
+    openPullRequests: 24
   files:
     readme: true
     contributing: false
@@ -299,7 +300,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-06-25T08:12:48.028Z
+    syncedAt: 2026-06-26T08:16:10.915Z
     apiVersion: rest-v3
     source: github-actions
 health:
