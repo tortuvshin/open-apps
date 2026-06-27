@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-06-26T02:16:00Z
-    pushed_at: 2026-06-26T08:15:08Z
+    updated_at: 2026-06-26T20:50:58Z
+    pushed_at: 2026-06-27T07:15:47Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2022271
-    stargazers_count: 2977
-    watchers_count: 2977
+    size: 2020278
+    stargazers_count: 2978
+    watchers_count: 2978
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1914
+    open_issues_count: 1890
     license:
       key: other
       name: Other
@@ -149,8 +149,8 @@ github:
       - web3
     visibility: public
     forks: 1619
-    open_issues: 1914
-    watchers: 2977
+    open_issues: 1890
+    watchers: 2978
     default_branch: main
     permissions:
       admin: false
@@ -185,9 +185,9 @@ github:
     network_count: 1619
     subscribers_count: 143
   languages:
-    TypeScript: 70623828
-    JavaScript: 2195478
-    Shell: 134212
+    TypeScript: 70861770
+    JavaScript: 2201824
+    Shell: 134312
     HTML: 100552
     Swift: 17895
     Kotlin: 13306
@@ -202,11 +202,11 @@ github:
     Objective-C++: 693
     CMake: 273
   latestRelease:
-    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/344884564
-    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/344884564/assets
-    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/344884564/assets{?name,label}
-    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v7.82.1
-    id: 344884564
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/345643070
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/345643070/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/345643070/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v8.0.0
+    id: 345643070
     author:
       login: runway-github[bot]
       id: 73448015
@@ -227,25 +227,295 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCG4DHc4UjoVU
-    tag_name: v7.82.1
-    target_commitish: 95ff9252319cddae8563f20fcba6ed5ea45527b1
-    name: Release 7.82.1
+    node_id: RE_kwDOCG4DHc4Umhg-
+    tag_name: v8.0.0
+    target_commitish: 7b8050ef8beb748feb59d566c2d5b81424d05b02
+    name: Release 8.0.0
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-25T17:43:06Z
-    updated_at: 2026-06-25T17:43:33Z
-    published_at: 2026-06-25T17:43:33Z
-    assets: []
-    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v7.82.1
-    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v7.82.1
+    created_at: 2026-06-27T07:15:46Z
+    updated_at: 2026-06-27T07:16:23Z
+    published_at: 2026-06-27T07:16:04Z
+    assets:
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/459323162
+        id: 459323162
+        node_id: RA_kwDOCG4DHc4bYLca
+        name: metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.aab
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 189150570
+        digest: sha256:e1611238a8c97ae4ed47bd60245bf453b7552601c5a3aeeaf1d1633fdfeb9b81
+        download_count: 1
+        created_at: 2026-06-27T07:16:08Z
+        updated_at: 2026-06-27T07:16:13Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.0.0/metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.aab
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/459323219
+        id: 459323219
+        node_id: RA_kwDOCG4DHc4bYLdT
+        name: metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.apk
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 294059997
+        digest: sha256:46fc42becb8d041d1ee8d7ad86e66705a58f19e190ab12ed431f2e533f923589
+        download_count: 10
+        created_at: 2026-06-27T07:16:16Z
+        updated_at: 2026-06-27T07:16:23Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.0.0/metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.apk
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v8.0.0
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v8.0.0
     body: >-
+      * chore(runway): cherry-pick ci: add cursor[bot] to CLA signature bot allowlist cp-8.0.0
+      (#32491) (7b8050e)
+
+      * release: release-changelog/8.0.0 (#32061) (5c6d408)
+
+      * trigger CI (993769f)
+
+      * [skip ci] Bump version number to 5773 (2f9702b)
+
+      * chore(runway): cherry-pick fix(money): show no-fee labels on Money Account withdrawals
+      (MUSD-1033) (#32479) (730ce20)
+
+      * [skip ci] Bump version number to 5768 (9473090)
+
+      * chore(runway): cherry-pick fix(confirmations):  harden sentinel relay and bump transaction
+      pay controller (#32462) (6702548)
+
+      * [skip ci] Bump version number to 5766 (48b4dc8)
+
+      * chore(runway): cherry-pick fix: check and display of withdrawable balance for money accounts
+      cp-8.0.0 (#32460) (28fd2ed)
+
+      * [skip ci] Bump version number to 5759 (4fab92b)
+
+      * chore(runway): cherry-pick chore: update @metamask/seedless-onboarding-controller to version
+      10.0.3 - (#32450) (86493fc)
+
+      * [skip ci] Bump version number to 5754 (7428168)
+
+      * chore(runway): cherry-pick feat: MUSD-1055 update money onboarding flow rive file cp-8.0.0
+      (#32449) (8b21829)
+
+      * [skip ci] Bump version number to 5740 (e003cd4)
+
+      * chore(runway): cherry-pick fix(Rewards): Change Rewards mUSD banner to go to correct
+      destination and show correct APY cp-8.0.0 (#32437) (f028a80)
+
+      * [skip ci] Bump version number to 5739 (acaef3b)
+
+      * chore(runway): cherry-pick fix: change CTA text to 'Send' for money account withdraw on
+      transaction review page cp-8.0.0 (#32427) (943a234)
+
+      * [skip ci] Bump version number to 5737 (292b4f1)
+
+      * chore(runway): cherry-pick chore: New Crowdin Translations by GitHub Action cp-8.0.0
+      (#32436) (888e122)
+
+      * [skip ci] Bump version number to 5735 (7c1e338)
+
+      * chore(runway): cherry-pick fix: MUSD-1076 fixed formatting for high precision apy values;
+      cleaned up projection surfaces to use apyDecimal  cp-8.0.0 (#32425) (a2ec193)
+
+      * [skip ci] Bump version number to 5733 (64892d3)
+
+      * chore(runway): cherry-pick fix(money): hide debit card/bank Add funds option for
+      Transak-unsupported regions (MUSD-1075) cp-8.0.0 (#32424) (f757c7b)
+
+      * [skip ci] Bump version number to 5732 (f9cfc99)
+
+      * chore(runway): cherry-pick fix(money-account): align Money Account withdrawals and deposits
+      with designs cp-8.0.0 (#32380) (cfba600)
+
+      * [skip ci] Bump version number to 5731 (5c3ade8)
+
+      * chore(runway): cherry-pick feat(predict): fail-closed guard blocking PWAT bets with no pay
+      route (#32414) (c0465eb)
+
+      * [skip ci] Bump version number to 5730 (a3cc07b)
+
+      * chore(runway): cherry-pick fix(money): transaction detail hero  displays fiat amounts with
+      "$" signs instead of token symbols, and show total cost including fees (#32413) (775a416)
+
+      * [skip ci] Bump version number to 5728 (8191b7b)
+
+      * chore(runway): cherry-pick fix(card): cp-8.0.0 keep Money Account branding when
+      DelegationSettings omits VEDA (#32409) (37d31bb)
+
+      * [skip ci] Bump version number to 5725 (b096e76)
+
+      * chore(runway): cherry-pick fix: cp-8.0.0 Fix transaction fee regression for fiat transaction
+      fees (#32400) (75dd644)
+
+      * [skip ci] Bump version number to 5724 (dff12a4)
+
+      * chore(runway): cherry-pick chore: fix titles of money account card transactions cp-8.0.0
+      (#32379) (b4784ab)
+
+      * [skip ci] Bump version number to 5723 (284972a)
+
+      * chore(runway): cherry-pick fix(ramps): resolve ramp order details by cached order id
+      cp-8.0.0 (#32382) (bd48c43)
+
+      * [skip ci] Bump version number to 5722 (5f0d1ec)
+
+      * chore(runway): cherry-pick fix(money): ensure that money transaction details headers match
+      list items (#32406) (49ba388)
+
+      * [skip ci] Bump version number to 5718 (61d1834)
+
+      * chore: sync stable into release/8.0.0 (#32389) (fafaaa7)
+
+      * Merge branch 'release/8.0.0' into stable-sync-release-8.0.0 (b00c939)
+
+      * revert OTA version (9110f51)
+
+      * [skip ci] Bump version number to 5710 (12d3ea2)
+
+      * chore(runway): cherry-pick feat: add RampsServiceDisruptionModal for handling service
+      disruption (#32366) (a4f39e1)
+
+      * [skip ci] Bump version number to 5709 (de46e48)
+
+      * chore(runway): cherry-pick chore:  bump @metamask/transaction-controller to 68.2.0 and
+      @metamask/transaction-pay-controller to 23.15.0 (#32361) (d6233e6)
+
+      * release: 7.82.1 (OTA) (#32279) (3e9c3f5)
+
       * Merge branch 'stable' into release/7.82.1-ota (95ff925)
+
+      * [skip ci] Bump version number to 5708 (56def9d)
+
+      * chore(runway): cherry-pick fix(confirmations): show "No fee" only for Money Account flows
+      (#32359) (a5489df)
+
+      * [skip ci] Bump version number to 5706 (213d33d)
+
+      * chore(runway): cherry-pick chore: classify musd back transactions on the client cp-8.0.0
+      (#32353) (5bca9e4)
 
       * release: release-changelog/7.82.1 (#32278) (6dc22a0)
 
+      * [skip ci] Bump version number to 5704 (eef5aea)
+
+      * chore(runway): cherry-pick chore: New Crowdin Translations by GitHub Action cp-8.0.0
+      (#32350) (db5282d)
+
+      * [skip ci] Bump version number to 5703 (6486ec4)
+
+      * chore(runway): cherry-pick feat(predict): enable phase 1 of sports market types (#32348)
+      (13681fe)
+
+      * [skip ci] Bump version number to 5699 (ccdb88b)
+
+      * chore(runway): cherry-pick feat(confirmations): cp-8.0.0 add metamask pay fiat metrics
+      (#32338) (24baf74)
+
+      * [skip ci] Bump version number to 5696 (7d8eb94)
+
+      * chore(runway): cherry-pick fix: issue with money account selection on perps page for a new
+      account with no funds cp-8.0.0 (#32294) (14fde5a)
+
+      * chore(runway): cherry-pick refactor(confirmations): replace boolean tag props on
+      `PaymentMethodRow` with a `tagRenderers` array cp-8.0.0 (#32305) (7595d32)
+
+      * chore(runway): cherry-pick fix: cp-8.0.0 require EIP-7702 for sponsored gas transactions
+      (#32307) (2b64466)
+
+      * [skip ci] Bump version number to 5694 (224fb22)
+
+      * chore(runway): cherry-pick fix(money): fix incorrect token and chain display on money
+      account transaction details view for `perpsWithdraw` and `predictWithdraw` transactions
+      cp-8.0.0 (#32308) (d9a2873)
+
+      * [skip ci] Bump version number to 5693 (b6b18ba)
+
+      * chore(runway): cherry-pick fix(money): use translated debit card label on Android
+      (MUSD-1051) cp-8.0.0 (#32304) (bd12e08)
+
+      * [skip ci] Bump version number to 5692 (3e513b0)
+
+      * chore(runway): cherry-pick fix(money): use targetFiat for Send to Perps/Predict toast
+      cp-8.0.0 (#32318) (a53449a)
+
+      * [skip ci] Bump version number to 5691 (cd8aec6)
+
+      * chore(runway): cherry-pick fix: cp-8.0.0 revert legacy ButtonIcon Sm to IconSize.Sm (#32337)
+      (f620822)
+
+      * [skip ci] Bump version number to 5689 (6cf314f)
+
+      * chore(runway): cherry-pick fix: cp-8.0.0 musd fiat deposit amount data error prefixes
+      (#32332) (584474f)
+
+      * [skip ci] Bump version number to 5688 (b8b0af3)
+
+      * chore(runway): cherry-pick fix: add validation when depositing into perps/predict using
+      money account total value exceeds balance cp-8.0.0 (#32321) (7a7e4b8)
+
       * invert build number bump (dd1bf22)
+
+      * [skip ci] Bump version number to 5671 (01eef49)
+
+      * chore(runway): cherry-pick feat(money): replace "mUSD on Monad" icon and label with money
+      account icon cp-8.0.0 (#32213) (5ca0b8c)
+
+      * [skip ci] Bump version number to 5670 (3f4121e)
+
+      * chore(runway): cherry-pick fix(money): show "Debit card" without Apple Pay on Android
+      (MUSD-1046) cp-8.0.0 (#32286) (e688309)
+
+      * [skip ci] Bump version number to 5669 (664a35d)
+
+      * chore(runway): cherry-pick fix(predict): harden crypto up/down chart price-history polling
+      cp-8.0.0 (#32270) (ed81ea3)
+
+      * [skip ci] Bump version number to 5668 (884028a)
+
+      * chore(runway): cherry-pick fix: MUSD-1047 Money account "balance unavailable" after
+      onboarding with existing balance cp-8.0.0 (#32274) (53cdfce)
 
       * [skip ci] Bump version number to 5667 (df1cacd)
 
@@ -253,757 +523,665 @@ github:
 
       * chore: set OTA_VERSION to v7.82.1 for OTA hotfix (release/7.82.1-ota) (17553cb)
 
+      * [skip ci] Bump version number to 5665 (a6ad9da)
+
+      * chore(runway): cherry-pick chore(card): cp-8.0.0 update card terms of service URL (#32263)
+      (11786a2)
+
+      * [skip ci] Bump version number to 5663 (0f68d01)
+
+      * chore(runway): cherry-pick fix(money): geo-block sending to Perps/Predict from Money account
+      cp-8.0.0 (#32241) (0ec7757)
+
+      * [skip ci] Bump version number to 5658 (db065e9)
+
+      * chore: sync stable into release/8.0.0 (#32192) (0bc0e3b)
+
+      * [skip ci] Bump version number to 5656 (966ed3b)
+
+      * chore(runway): cherry-pick fix(confirmations): cp-8.0.0 show toast when metamask pay amount
+      update fails (#32240) (56435a1)
+
+      * fix now tab and feature flag registry; and deduplicate (a72fc6e)
+
+      * [skip ci] Bump version number to 5654 (4bcd089)
+
+      * chore(runway): cherry-pick fix(confirmations): cp-8.0.0 skip initial gas estimate for
+      sponsored money account transactions (#32219) (3d9ae8b)
+
+      * [skip ci] Bump version number to 5653 (dc3fc8d)
+
+      * chore(runway): cherry-pick feat(money): add "you sent / you received" token pair header for
+      send out of money account cp-8.0.0 (#32226) (b0e7f26)
+
+      * solve conflicts and update with release 8.0.0 (2f3ea6a)
+
       * release: 7.82.0 (#31598) (86745bf)
+
+      * [skip ci] Bump version number to 5641 (43ba46f)
+
+      * Cherry pick 8 0 0 bad81ca7 (#32184) (3017b4c)
 
       * trigger ci (401c83c)
 
+      * [skip ci] Bump version number to 5638 (5f1b87b)
+
+      * chore(runway): cherry-pick feat:  provide more information in errors from money account
+      upgrade cp-8.0.0 (#32168) (15af336)
+
+      * [skip ci] Bump version number to 5637 (e798a4a)
+
+      * Cherry-picking commits from cherry-pick-8-0-0-f9d99c0 to release/8.0.0 for PR #32112
+      (#32120) (9071877)
+
+      * [skip ci] Bump version number to 5636 (2380831)
+
+      * chore(runway): cherry-pick fix(MUSD-1036): cp-8.0.0 consistently use mUSD for deposits
+      (#32149) (77e5a36)
+
+      * [skip ci] Bump version number to 5635 (4fb5a26)
+
+      * chore(runway): cherry-pick chore: cp-8.0.0 bump transaction-controller to 68.1.0 and
+      transaction-pay-controller to 23.13.0 (#32115) (baba0e4)
+
       * [skip ci] Bump version number to 5619 (e77b646)
 
-      * Format CHANGELOG.md (91ee541)
+      * [skip ci] Bump version number to 5617 (3cefe28)
 
-      * chore: trigger CI (8b50ffe)
+      * chore(runway): cherry-pick fix: Switch to Fit.Layout with layoutScaleFactor for Money Rive
+      animations cp-8.0.0 (#32118) (e7e5e28)
 
-      * [skip ci] Bump version number to 5618 (c264305)
+      * [skip ci] Bump version number to 5615 (5806a7b)
 
-      * release: release-changelog/7.82.0 (#31599) (efc9191)
+      * chore(runway): cherry-pick fix(money): transaction details fee section incorrectly showing
+      paid by metamask cp-8.0.0 (#32104) (0076300)
 
-      * [skip ci] Bump version number to 5613 (c366603)
+      * [skip ci] Bump version number to 5614 (bd5ae55)
 
-      * chore(runway): cherry-pick fix(rewards): update VIP referee dashboard (#32056) (6b40dbe)
+      * chore(runway): cherry-pick fix(money-account): use celing division in getSharesForWithdrawal
+      cp-8.0.0 (#32088) (12cd5b0)
 
-      * chore(runway): cherry-pick chore: remove obsolete localized message test (#32084) (0b1e142)
+      * [skip ci] Bump version number to 5612 (6bbeb13)
 
-      * Cherry-picking commits from cherry-pick-7-82-0-01dd067 to release/7.82.0 for PR #31610
-      (#32049) (44c2aa5)
+      * chore(runway): cherry-pick feat: cp-8.0.0 add error prefixes to sentinel, relay, and gas
+      station 7702 (#32058) (72c3c01)
 
-      * [skip ci] Bump version number to 5598 (8b38324)
+      * chore(runway): cherry-pick test(confirmations): cp-8.0.0 wire fiat funding source QA path
+      (#32068) (50030c7)
 
-      * chore(runway): cherry-pick ci: update sonarcloud org id (#32092) (e1ff0f0)
+      * chore(runway): cherry-pick feat: add enhanced display for approved transaction for Non EVM
+      networks cp-8.0.0 (#32067) (b6dfb1b)
 
-      * [skip ci] Bump version number to 5589 (9a33ba5)
+      * chore(runway): cherry-pick feat: MUSD-1026 added remotely configurable vault APY fallback
+      and override cp-8.0.0 (#32094) (33cc0d7)
 
-      * chore(runway): cherry-pick fix: Restore support for percentage before placeholder in
-      localized messages (#32027) (cca18fe)
+      * [skip ci] Bump version number to 5608 (5edd36e)
 
-      * [skip ci] Bump version number to 5588 (1ad3feb)
+      * chore(runway): cherry-pick feat: [MUSD-1021] show musd back transactions in money activity
+      cp-8.0.0 (#32095) (2034ec7)
 
-      * chore(runway): cherry-pick fix(predict): keep live sport scoreboard data in sync across feed
-      and event page cp-7.82.0 (#32038) (132246e)
+      * chore(runway): cherry-pick fix(money): show no-fee badge for mUSD on Monad in Earn on your
+      crypto cp-8.0.0 (#32103) (b40e112)
 
-      * chore(runway): cherry-pick feat(rewards): add priority support entry point to VIP referee
-      page (#32036) (2291a4c)
+      * [skip ci] Bump version number to 5593 (556ae4e)
 
-      * chore(runway): cherry-pick refactor(explore): standardize Explore homepage section layout
-      cp-7.82.0 (#32015) (292ddfa)
+      * fix changelog (#32060) (515cbb6)
 
-      * [skip ci] Bump version number to 5582 (ceb37d1)
+      * chore(runway): cherry-pick feat(ramp): money-deposit headless funnel events cp-8.0.0
+      (#32041) (936103b)
 
-      * chore(runway): cherry-pick fix(rewards): apply bottom safe-area inset on VIP dashboard views
-      (Android) (#32025) (e2ee21a)
+      * chore(runway): cherry-pick chore: improve discovery analytics cp-8.0.0 (#32031) (bf262a0)
 
-      * [skip ci] Bump version number to 5580 (a07daac)
+      * chore(runway): cherry-pick feat: updated MoneyOnboardingView to use
+      money_account_onboarding_animation_b6 cp-8.0.0 (#32029) (5077256)
 
-      * fix(money): restore Money Home files broken by release merge (#32033) (1265242)
+      * feat(money): update deposit toast copy for debit, credit and Apple Pay (MUSD-1023) (#32018)
+      (3692e18)
 
-      * [skip ci] Bump version number to 5572 (c068105)
+      * fix: money account withdraw into mUSD on Monad token (#32013) (78bab4d)
 
-      * chore: remove ota version (#32009) (ba5723f)
+      * fix(card): track cashback redeem tx on estimation network (#32006) (74ea638)
 
-      * [skip ci] Bump version number to 5571 (ffada18)
+      * feat(money): adjust activity list transaction details (#31908) (f2631d5)
 
-      * chore(runway): cherry-pick fix(predict): exclude child markets from World Cup feed cp-7.82.0
-      (#31963) (64a63af)
+      * feat: focused leaderboard tabs (#31916) (b04c03f)
 
-      * [skip ci] Bump version number to 5570 (cc24167)
+      * perf: scope live PnL price subscription to position symbols (TAT-3323) (#31900) (14ff1d1)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31555 (#31653) (0fe9a5a)
+      * fix(carousel): animate empty-state height on UI thread (TMCU-870) (#31841) (f8341bb)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31505 (#31652) (46fd878)
+      * fix(onboarding): animate checklist progress on UI thread with Reanimated (#31851) (ff46601)
 
-      * chore(runway): cherry-pick fix(rewards): navigation predict the pitch cp-7.82.0 (#31960)
-      (e767347)
+      * feat: MUSD-999 add deeplink to money onboarding (#32019) (992584e)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31646 (#31663) (d740ecf)
+      * perf(network): memoize selectAllPopularNetworkConfigurations selector (#31844) (31579eb)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31759 (#31767) (a22c524)
+      * fix(home): align discovery pill icons and full-view navigation (#32016) (e18f09d)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31822 (#31835) (a19863c)
+      * fix: prevent Buy/Sell toggle parasite animation in QuickBuy (#32014) (f4ac10a)
 
-      * [skip ci] Bump version number to 5566 (edb94e8)
+      * feat(explore): set fixed Now tab section order (#31993) (39cb297)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31943 (#31959) (96d44ef)
+      * fix(money): bottom sheet and how it works design review updates (MUSD-1018, MUSD-1017)
+      (#31998) (5a7f0bd)
 
-      * chore: sync stable into release/7.82.0 (#31984) (adc57f2)
+      * fix: use org-level AI Analyzer secrets in PR risk workflow (#32011) (2493b98)
 
-      * Release/7.81.2 (OTA) (#31926) (2c82210)
+      * fix(quickbuy): align Pay with token list styling with Figma (#32000) (324f8ad)
 
-      * [skip ci] Bump version number to 5553 (b16f73f)
+      * ci: update sonarcloud org id (#31910) (5003840)
 
-      * chore: sync stable into release/7.82.0 (#31913) (78576a9)
+      * fix: money account selection on perps page (#32007) (f7be515)
 
-      * [skip ci] Bump version number to 5552 (7bb2361)
+      * refactor: update ActivityListItemRow tests and component structure for improved content
+      mapping (#31402) (fc3bee0)
 
-      * chore(runway): cherry-pick fix: set pending operation address using the from address
-      cp-7.82.0 (#31941) (dbc085f)
+      * feat: MUSD-1019 updated rive animations, added localized button text, updated first time
+      deposit content copy (#31950) (719f791)
 
-      * Merge branch 'release/7.82.0' into stable-sync-release-7.82.0 (af21117)
+      * fix(perps): auto-scroll category filter badges when pre-selected tab is off-screen (#31625)
+      (67a03e3)
 
-      * fix(tests): resolve TS2451 duplicate declarations and stale mockSelectMoneyAccounts in
-      cardController.test.ts (ca6f8d1)
+      * fix: MUSD-1020 MoneyBalanceCard add button press now redirects to Money onboarding for new
+      users (#31954) (9a93bbf)
 
-      * [skip ci] Bump version number to 5546 (6440ee5)
+      * refactor(nav): integrate HW wallet swaps routes into bridge flow (#31688) (64922ae)
 
-      * fix: dismiss Batch Sell final review bottom sheet after submit (#31842) (#31878) (1862b2c)
+      * feat: replace useMoneyDepositTokens with useMoneyEarnableTokens; consume
+      confirmations_relay_fixed_spread feature flag (#31947) (6175319)
 
-      * [skip ci] Bump version number to 5542 (c130496)
+      * perf: stop remounting Perps market FlashList on filter change (TAT-3329) (#31895) (249af40)
 
-      * chore(runway): cherry-pick fix: Telegram OAuth login on Android 16 cp-7.82.0 (#31864)
-      (a7edba7)
+      * perf: stabilize useDepositRequests selector and move logging out of selector (#31896)
+      (dd233a5)
 
-      * Cherry-picking commits from cherry-pick-7-81-1-7b0e275 to release/7.81.1-ota for PR \#31611
-      (\#31753) (9f2335d)
+      * chore: gate money activity details behind a feature flag (#31831) (a35ace0)
 
-      * chore(runway): cherry-pick fix: use the proper stx status for the source token chain
-      cp-7.82.0 (#31872) (40affd2)
+      * perf: downsize Perps hero card PNL character PNGs (#31893) (c680086)
 
-      * [skip ci] Bump version number to 5537 (f0111b8)
+      * perf: scope perps price dispatch with symbol->subscriber index (TAT-3325) (#31901) (d69de71)
 
-      * chore(runway): cherry-pick feat: swap CTAs on native token page ARC mapping cp-7.82.0
-      (#31876) (7bab524)
+      * perf: stabilize usePerpsOrderForm callbacks (TAT-3322) (#31891) (e89ca5d)
 
-      * [skip ci] Bump version number to 5531 (9d29711)
+      * perf: avoid spurious resubscription in usePerpsMarketStats (#31892) (16fdd33)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31769 (#31770) (a6a1730)
+      * test(e2e): retry transient anvil fork startup failures (#31812) (f794a51)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31801 (#31808) (2063356)
+      * fix: render Hyperliquid leaderboard token icons via Perps logo resolution (#31970) (aa6ed95)
 
-      * [skip ci] Bump version number to 5524 (fb7da1a)
+      * perf: cache Top Traders leaderboard avatars with expo-image (#31928) (4433a4d)
 
-      * chore(runway): cherry-pick fix(predict): normalize moneyline betslip labels and icons
-      cp-7.82.0 (#31784) (816f0c8)
+      * perf: wrap TrendingTokenRowItem in React.memo to avoid list re-renders (#31927) (fb77e30)
 
-      * chore(runway): cherry-pick fix: stx always being disabled for non ethereum networks
-      cp-7.82.0 (#31834) (703eb80)
+      * perf: memoize TopTradersView FlatList renderItem with useCallback (#31929) (b51ae83)
 
-      * [skip ci] Bump version number to 5523 (6ed0781)
+      * fix(confirmations): remove gas fee token feature flag (#31936) (bd24a86)
 
-      * chore(runway): cherry-pick fix: wait for nav-ready event before parsing unlocked-path
-      deeplinks cp-7.82.0 (#31785) (06981a7)
+      * chore: bump `@metamask/smart-transactions-controller` to `^24.2.2` (#31982) (fca6e71)
 
-      * chore(runway): cherry-pick fix: Readded spacing between top movers segment control and pills
-      cp-7.82.0 (#31771) (ed70c86)
+      * test(e2e): stabilize Predict withdraw continue-button interaction (#31881) (2ecfa92)
 
-      * chore(runway): cherry-pick perf(predict): fix JS-thread FPS collapse on market details with
-      live prices cp-7.82.0 (#31807) (060727a)
+      * chore(confirmations): migrate automatic pay token to relay fixed spread no-fee selector
+      (#31930) (6c7048b)
 
-      * [skip ci] Bump version number to 5514 (2f99ed9)
+      * fix(perps): hide non-tradable markets in What's Happening (#31967) (ed075f0)
 
-      * fix: problematic dismissable ref (#31658) (#31750) (8d54877)
+      * feat: add feature flag to implement max deposit limit for money account (#31690) (2b1857e)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31717 (#31788) (2a86564)
+      * feat: swallow seedless onboarding migration errors (#31869) (f61bfe1)
 
-      * [skip ci] Bump version number to 5511 (19419c2)
+      * chore: bump @metamask/transaction-controller to 68.0.1 and
+      @metamask/transaction-pay-controller to 23.9.0 (#31968) (4e34bc5)
 
-      * Cherry-picking commits from main to release/7.82.0 for PR #31648 (#31782) (522de60)
+      * chore: sync stable to main for version 7.81.2 (#31957) (95bbbca)
 
-      * [skip ci] Bump version number to 5508 (388042c)
+      * test: migrate identity account-syncing smoke tests to Appium (#31945) (fea253d)
 
-      * chore(runway): cherry-pick chore: expand pressable region to make selecting token easier in
-      batchSell cp-7.82.0 (#31728) (ec99b89)
+      * fix(predict): exclude child markets from World Cup feed cp-7.82.0 (#31915) (2edca76)
 
-      * [skip ci] Bump version number to 5506 (41745df)
+      * fix(rewards): navigation predict the pitch cp-7.82.0 (#31943) (8db338a)
 
-      * chore: sync stable into release/7.82.0 (#31674) (04d19f1)
+      * Merge origin/main into stable-main-7.81.0 (16c33cf)
 
-      * [skip ci] Bump version number to 5505 (3bb0830)
+      * feat(card): hide wallet card entry when Money account is visible (#31949) (84b8b0d)
 
-      * chore(runway): cherry-pick fix: make batch sell sliders update token amount and percent live
-      cp-7.82.0 (#31766) (3c42a8b)
+      * feat(money): add education gate selector for US non-cardholders (#31952) (0389783)
 
-      * yarn deduplicateg (2fa1a99)
+      * ci: add Playwright Appium test health report workflow (#31815) (4a36741)
 
-      * solve conflicts and merge release/7.82.0 (6fea42e)
+      * feat(card): redirect cashback setup to Money Account in supported regions (#31938) (c667566)
 
-      * [skip ci] Bump version number to 5503 (0a7cbf6)
+      * fix(predict): odds prices stale on feed cards and event page during live markets cp-7.81.2
+      (#31922) (676e748)
 
-      * Cherry-picking commits from cherry-pick-7-82-0-1e03645 to release/7.82.0 for PR #31662
-      (#31731) (8c1ea90)
+      * refactor(bridge): dedupe hasMinimumRequiredVersion into shared util (#31942) (db91fd6)
 
-      * chore(runway): cherry-pick fix(predict): add ES and IN to Predict geo-block overlay
-      cp-7.82.0 (#31747) (28aa782)
+      * refactor: remove old snap clients (#31939) (ca28a46)
 
-      * [skip ci] Bump version number to 5490 (cb33410)
+      * perf(network-enablement): memoize useNetworkEnablement return + popular lists (#30997)
+      (ccd8940)
 
-      * fix: batch sell submit not working (#31727) (33abc51)
+      * fix(rewards): update VIP referee dashboard (#31921) (baeb028)
 
-      * [skip ci] Bump version number to 5487 (25d7bdf)
+      * refactor: remove old Snap keyring `createAccount` calls (#31846) (75f7f2d)
 
-      * chore(runway): cherry-pick chore: removed trailing slash for arc explorer url cp-7.81.1
-      cp-7.82.0 (#31726) (c571973)
+      * fix(predict): extended sports outcome grouping, spread ordering, and live pricing cp-7.81.2
+      (#31852) (976b7c1)
 
-      * [skip ci] Bump version number to 5476 (3555b32)
+      * fix: set pending operation address using the from address cp-7.82.0 (#31888) (41b498f)
 
-      * chore(runway): cherry-pick feat(rewards): show VIP tag in referral code input at onboarding
-      fix: cp-7.82.0 (#31607) (aaa16ef)
+      * feat(home): add homepage discovery pills A/B test (#31932) (cd47b5a)
 
-      * [skip ci] Bump version number to 5466 (c3a091d)
+      * fix(card): use push animation from Money Home except CardWelcome upsell (#31931) (cc064f4)
 
-      * chore(runway): cherry-pick fix: revert list item use to temp component cp-7.82.0 (#31664)
-      (ee2e046)
+      * refactor(explore): standardize Explore homepage section layout cp-7.82.0 (#31245) (1945ab4)
 
-      * [skip ci] Bump version number to 5463 (9ba8a1e)
+      * chore: polish top traders leaderboard, profile, and trades UI (#31904) (82ad265)
 
-      * chore(runway): cherry-pick fix(predict): chart content cut off on iPhone 17 Pro cp-7.82.0
-      (#31651) (f9963b7)
+      * chore: QuickBuy rate tag flip and amount skeleton loading (#31911) (d3a73e1)
 
-      * chore(runway): cherry-pick fix(predict): fix scoreboard score cutoff for wide scores
-      cp-7.82.0 (#31656) (70aa547)
+      * feat: bumped @metamask/money-account-balance-service to v2.1.0 (#31918) (36a6ec0)
 
-      * chore(runway): cherry-pick refactor(perps): standardize Perps homepage section layout
-      cp-7.82.0 (#31660) (d88f9c7)
+      * feat: MUSD-997 first time deposit animation (#31859) (bf726b6)
 
-      * [skip ci] Bump version number to 5458 (3f9f6e8)
+      * feat: Enhance PredictMarketRowItem with endAccessory prop and remove NBA champion discovery
+      references cp-7.82 (#31873) (517b56a)
 
-      * chore(runway): cherry-pick fix: Removed extra paddings below checklist on wallet cp-7.82.0
-      (#31657) (7cf75f7)
+      * fix(ramps): unify RampsTransaction schema for V2 buys (#31207) (835dcdc)
 
-      * [skip ci] Bump version number to 5441 (c1d5af1)
+      * perf: stabilize PerpsProgressBar withdrawalProgress selector fallback (#31894) (0335626)
 
-      * chore(runway): cherry-pick refactor: feature flag watchlist cp-7.82.0 (#31601) (019160f)
+      * feat(card): unblock Money Account linking and fix Card route animation (#31909) (ede6eb1)
 
-      * fix(card): refresh-and-retry on 401 with forced logout fallback (#31587) (ee898f8)
+      * refactor: remove `AddNewAccount` UI and snap account creation routing (#31762) (199eefc)
 
-      * refactor: Refactor accounts-related controllers to remove duplicate messenger types (#31467)
-      (2ea4548)
+      * feat: adding additional MM Pay metrics properties (#31886) (f6ab691)
 
-      * fix: Fix resolving transaction type for tooltip (#31567) (6b33a1b)
+      * fix: change feature flag structure to make it more generic (#31879) (3de2515)
 
-      * feat: improve notification settings toggles [GE-255] (#31399) (12595b5)
+      * fix: money account default selection should not work on MM Pay confirmation review page
+      (#31906) (e93681b)
 
-      * chore: upgrade @metamask/design-system-react-native to v0.29.0 (#31512) (31cb4c2)
+      * feat(ramp): headless RAMPS_TRANSACTION_FAILED (TRAM-3623 AC5) (3/3) (#31764) (f960d7e)
 
-      * feat: gate asset details Quick Buy behind A/B test flag (TSA-612) (#31546) (ab7fb4d)
+      * test: fixed performance tests failing because of a new check (#31887) (dcdf748)
 
-      * test(e2e): use 10.0.2.2 as Metro host on Android dev picker dismissal (#31565) (9cfce37)
+      * feat(rewards): add priority support entry point to VIP referee page (#31792) (7ce2208)
 
-      * fix(card): clear Card authentication data when the user resets the app (#31579) (b2ef1b5)
+      * fix(card): refine Money Account <> Card linkage states for unauthenticated, verifying, and
+      residency-blocked users (#31806) (ac19bbf)
 
-      * feat: refactor deeplink handlers with startup intents [GE-274] (#31160) (a27f557)
+      * fix(money): standardise Send to Perps and Predict toasts (MUSD-969) (#31884) (9cb7012)
 
-      * feat: migrate zkSync Era default RPC to Infura (#31562) (f5d4ba1)
+      * fix(money): show Send flow instead of stuck pending tx for Between accounts (MUSD-975)
+      (#31857) (baa6952)
 
-      * chore: rewards routes to use native stack (#31227) (32573f0)
+      * feat: add max support for selected source tokens (#31682) (f0d798a)
 
-      * fix(swaps): preserve destination token (#31577) (73a6e2c)
+      * fix: stop inflating leaderboard ROI by 100× - TSA-727 (#31890) (eca8274)
 
-      * test(e2e): make Gestures and Assertions cross-framework by default (#31533) (f1572cf)
+      * feat: Bitcoin wallet standard (#27071) (8a5b8d5)
 
-      * fix: aI market summary shows trade buttons when OI cap is reached (#31194) (0735fbe)
+      * feat: MUSD-1003 replaced hardcoded 4% fallback apy with -% empty state when apy can't be
+      fetched (#31861) (d5c66ec)
 
-      * chore(pure-black): elevate ActionModal surface; remove orphan CustomAlert and
-      CollectibleContractInformation (#31178) (69b9577)
+      * feat(predict): add Popular Today home section (#31789) (22b04c3)
 
-      * feat: add swap/bridge to ARC mainnet cp-7.81.1 (#31413) (d333a48)
+      * feat(ramp): headless deposit analytics tagging foundation (TRAM-3623) (1/3) (#31715)
+      (6bc9641)
 
-      * fix(pure-black): restore selected state visibility for network cells on elevated surfaces
-      (#31175) (cdc5397)
+      * feat: emit predict_deposit_and_order metrics for PWAT deposit-and-order (CONF-1551) (#31703)
+      (d3d0e30)
 
-      * feat(ramp): validate fiat amount against provider buy limits (#31479) (728ae54)
+      * ci: download only necessary build artifacts for E2E (#31781) (1da21b9)
 
-      * chore: New Crowdin Translations by GitHub Action cp-7.81.0 (#30563) (60627b1)
+      * test: replace real trader names with mock names in unit tests (#31880) (0802423)
 
-      * feat(analytics): track External Link Clicked on block explorer taps (TMCU-300) (#31213)
-      (d60e751)
+      * chore: sync stable to main for version 7.81.0 (#31860) (11b01d6)
 
-      * fix: [MUSD-900] money add would close with pending transaction (#31143) (07bbc3e)
+      * chore: update QuickBuy typography to match Figma spec (#31877) (379e331)
 
-      * fix(locales): update overflow text for event count in English localization cp-7.81.0
-      (#31566) (c101846)
+      * fix: black overlay after closing txn modal (#31828) (94d0c18)
 
-      * feat: Perps Watchlist empty state (#31242) (fafd355)
+      * chore: make minor fixes to price alerts (#31824) (f82e378)
 
-      * feat(perf): send BrowserStack profiling metrics (FPS, CPU, memory) to Sentry (#31553)
-      (b470975)
+      * feat: display Hyperliquid perp positions in Social Leaderboard (TSA-628) (#31570) (4e37f94)
 
-      * chore: bump @metamask/assets-controllers to 109.0.0 (#31508) (2aca9f4)
+      * fix: fix crosshair time (#31811) (00cff6d)
 
-      * fix(swaps): suppress bridge post-trade notifications (#31549) (0e1ed7d)
+      * fix(e2e): stabilize Android emulator network before Appium smoke CI (#31867) (b47e29e)
 
-      * fix(card): money onboarding stepper displaying "Get card" instead of "Link card" for
-      cardholder users (#31520) (4ee99d8)
+      * fix: filter inactive perps markets with zero open interest (#29761) (844e3ab)
 
-      * feat(ci): add run-performance label to force PR performance tests (MMQA-1931) (#31543)
-      (df2e7c5)
+      * feat(confirmations): migrate "No fee" tag to confirmations_relay_fixed_spread flag (#31847)
+      (6da5d38)
 
-      * fix(perps): fix display limit for open positions on Perps home page (#31444) (78d94b3)
+      * feat: swap CTAs on native token page ARC mapping cp-7.82.0 (#31819) (a448dcd)
 
-      * chore: bump money-account-upgrade-controller (#31552) (6d37964)
+      * feat(perps): add live prices to related markets pills (#31799) (33a7fd7)
 
-      * feat(perps): market detail - Magnifying glass shortcut to category-filtered market list
-      (#30738) (d4159cb)
+      * fix: use the proper stx status for the source token chain cp-7.82.0 (#31836) (83c1b17)
 
-      * fix: error icon ignores color prop due to hardcoded svg fill (TSA-662) (#31454) (d144976)
+      * chore: update the Quick Buy Sheet Viewed event (#31814) (6950454)
 
-      * fix: compliance switch account race (#31114) (8196fc8)
+      * feat: Implement dataType migration for seedless onboarding secrets (#23760) (299e643)
 
-      * chore: replace BottomSheet with BottomSheetDialog in QuickBuy to remove backdrop overlay
-      (#31550) (7b4e98c)
+      * fix: correct state migration to be identical to real TokenBalancesController (#31843)
+      (d2d6b6d)
 
-      * chore(perps): bump @metamask/perps-controller to 8.1.0 (#31537) (abe3d6b)
+      * fix: align trader position avatars with leaderboard Maskicon fallback (#31866) (052f074)
 
-      * feat: update World Cup event count in PredictionsSection and related components (#31465)
-      (3f60d87)
+      * fix(social-leaderboard): shorten trade date format (TSA-762) (#31858) (55ab26a)
 
-      * fix: display wallet name next to From/To labels in account picker, if user has multiple
-      wallets (#31538) (f9dff61)
+      * fix: Telegram OAuth login on Android 16 cp-7.82.0 (#31780) (196187d)
 
-      * fix(money): direct mUSD Add routing & deposit screen padding (MUSD-860, MUSD-861) (#30804)
-      (e207081)
+      * feat: show perps and predict transactions in money activity (#31802) (91c0d6a)
 
-      * fix(perps): prevent Android crash in tutorial carousel Rive animations cp-7.81.0 (#31547)
-      (fe7877a)
+      * Merge origin/main into stable-main-7.81.0 (30d9191)
 
-      * fix: token selection in withdraw money account page (#31535) (782493c)
+      * fix: dismiss Batch Sell final review bottom sheet after submit (#31842) (b0db4ba)
 
-      * test: Sync Feature Flag Registry - 2026-06-02 01:57 UTC (#30909) (7be2ddd)
+      * refactor: remove forward selected account group (#31761) (2b5571b)
 
-      * fix(money): route home-card Add/Earn CTA to direct mUSD deposit (MUSD-913, MUSD-935)
-      (#31266) (fd1d5ad)
+      * chore: upgrade @metamask/assets-controller to ^9.0.1 (#31783) (b668396)
 
-      * feat(money): update send action icon and copy, align add/send funds sheets (MUSD-944)
-      (#31470) (0dd6294)
+      * feat(ramps): open order details immediately after UB2 webview callbacks (#29623) (443216a)
 
-      * fix: resolve same-chain Solana post-trade status (#31539) (5995ac5)
+      * chore: Update `TPC` to `23.8.0` (#31832) (ac9ce2c)
 
-      * fix: make Select Quote bottom sheet scrollable when 4+ quotes are shown (#31544) (0a54906)
+      * ci(e2e): stabilize iOS Appium smoke CI WDA prebuild (#31809) (88be89d)
 
-      * feat(quickbuy): red/green trade toggle, slider grip haptics, and Figma polish (#31474)
-      (a08fede)
+      * test: Sync Feature Flag Registry - 2026-06-16 02:01 UTC (#31776) (ff9ce56)
 
-      * feat(rewards): gate VIP features behind feature flag (#31531) (6087486)
+      * fix(rewards): apply bottom safe-area inset on VIP dashboard views (Android) (#31810)
+      (225345d)
 
-      * fix(ci): narrow validator return type to exclude blocking field (#31542) (2ef79d7)
+      * fix(ci): skip setup-node yarn cache when ci-js-deps artifact is used (#31825) (3b31d56)
 
-      * docs(perps): update MetaMetrics reference with missing events and properties (#31471)
-      (95bad08)
+      * chore: hide Sell pill when nothing to sell and improve CTA quote loading state (#31826)
+      (f80ad97)
 
-      * feat: mobile show all trades in the trade list (#31515) (f92a4b9)
+      * feat: geo-block money account in unavailable regions (#31793) (dc704c5)
 
-      * feat(ci): add per-directive blocking flag to PR template checks (MCWP-649) (#31486)
-      (d4c14d8)
+      * feat(charts): add currentPriceLineColorOverride prop to AdvancedChart (#31751) (6124d64)
 
-      * fix: remove max options from money deposit pages (#31532) (beaffba)
+      * fix: stx always being disabled for non ethereum networks cp-7.82.0 (#31822) (3a3f58f)
 
-      * chore(rewards): UI audit (#31503) (b414875)
+      * chore: display money card transactions as mUSD (#31820) (4637929)
 
-      * fix(ramp): fiat order details navigation from activity and BuildQuote legacy headless param
-      cleanup (#31480) (d7023ae)
+      * fix: broken perps section headers in Explore (#31697) (2a50c29)
 
-      * fix: change 'Money balance' label to 'Money account' on perps and predict pages (#31529)
-      (4dc02bc)
+      * feat: read notification_subtype from deeplink and relay to analytics (#31765) (d9fcd15)
 
-      * refactor(ramp): migrate aggregator BuildQuote to HeaderStandard (#31519) (d5c916f)
+      * fix: apply base currency selection when assetsUnifyState is enabled (#31740) (ce9c664)
 
-      * feat(analytics): track Address List Viewed event (TMCU-858) (#31504) (198c251)
+      * feat(money): make Earn on Crypto a full-page screen (MUSD-994) (#31816) (04c71b2)
 
-      * refactor(MainNavigator): Migrate ConfirmAddAsset and DeFiProtocolPositionDetails to
-      HeaderStandard (#31443) (0356eb4)
+      * feat(perf): send installed app size to Sentry [MMQA-1974] (#31800) (3e8ed43)
 
-      * ci: integrate Appium smoke E2E into CI pipeline (#31182) (59061c8)
+      * chore: make QuickBuy flow user-currency-native (#31786) (b736725)
 
-      * feat(predict): Add generic Predict feed route and deeplink handling (#31489) (23b52d7)
+      * fix: percentage buttons on predict withdraw into money account (#31795) (07df4e7)
 
-      * fix: remove RiveRenderer.defaultRenderer Canvas override on Android to prevent Earn
-      onboarding crash (#31475) (7929023)
+      * fix: percentage calculation token details page (#31129) (8e74412)
 
-      * feat(card): add money account card linkage analytics (#30850) (207aea5)
+      * test: migrate import-srp and delete-account smoke tests to Appium (#31803) (4f74e16)
 
-      * chore: pass feature_id to Unified SwapBridge events (#31230) (7ecf493)
+      * chore: bump `@metamask/tron-wallet-snap` to `^1.26.0` (#31794) (58b7241)
 
-      * feat: `HeaderBase` (pilot migration) (#29137) (a527699)
+      * feat: top traders unified pnl abbreviation (#31777) (988652f)
 
-      * fix: drive Quick Buy source and dest balances off live controller state (TSA-632) (#31460)
-      (155527c)
+      * fix(money): design review polishes (MUSD-993) (#31813) (11a6eb0)
 
-      * fix(card): use slide-from-bottom presentation for Card routes (#31487) (adbf44c)
+      * feat: add ActivityListItemRow component and associated tests (#31016) (60223af)
 
-      * fix: add Solana, Tron and Bitcoin chips to the Quick Buy receive view (TSA-657) (#31457)
-      (f875568)
+      * fix(money): align balance, APY, and action buttons between Home and Money pages (MUSD-968)
+      (#31735) (8e324b1)
 
-      * chore: remove unused CollectiblesDetails route and CollectibleModal (#31482) (5a6271b)
+      * fix(money): always show Add CTA on Money balance card (MUSD-987) (#31743) (04cf9e1)
 
-      * feat: MUSD-954 add "Paid by MetaMask" for Money account deposits when fees are subsidized
-      (#31485) (1db8f0f)
+      * feat(card): block Money Account -> card linking in restricted residency regions (#31763)
+      (6563eac)
 
-      * fix(notifications): suppress duplicate toasts for quickbuy trades (#31462) (b3e7eb8)
+      * perf(predict): fix JS-thread FPS collapse on market details with live prices cp-7.82.0
+      (#31801) (716f9a8)
 
-      * test(e2e): migrate base framework to use resolver and EncapsulatedElementType types (#31468)
-      (8f251d4)
+      * fix: fix Snap E2E tests flakiness (#31745) (c56cd05)
 
-      * feat: bump `@metamask/eip-5792-middleware` to  ^3.0.4 (#26664) (b1bfc39)
+      * feat: refactor MoneyOnboardingRive to use latest Rive animation and API (#31724) (2f0e016)
 
-      * feat(predict): integrate portfolio module into redesigned Predict homepage (PRED-906)
-      (#31226) (69603e1)
+      * feat(swaps): add post-trade modal analytics (#31699) (8276fc8)
 
-      * feat: change perps/predict page headers when user is navigating from money home page
-      (#31463) (54adf60)
+      * feat(hardware-wallet): refine swaps state machine and signing UI (#31687) (91710ba)
 
-      * feat(predict): add search engagement tracking to the Predict feed (PRED-927) (#31219)
-      (a02cd99)
+      * feat: enrich Wallet Setup Completed with deeplink UTMs before first send for SRP users
+      (#31389) (2479a71)
 
-      * fix: Consolidate Agentic CLI connection loading into host adapter (#31123) (6d56f29)
+      * feat: add USDT on Tron as a same-chain receive option for TRX sells (#31723) (ced6c70)
 
-      * fix(predict): stop game details jump and chart overlap on tab switch cp-7.81.0 (#31436)
-      (5f729ed)
+      * feat(confirmations): surface no-fee sponsored tokens in MM Pay payment picker (#31624)
+      (13d3436)
 
-      * chore: update @metamask/transaction-pay-controller to version 23.5.0 (#31466) (6c2b913)
+      * fix: using MUSD on Monad to deposit into money account (#31779) (1bd3bc2)
 
-      * feat: Implement UI messengers (#29653) (adb330f)
+      * fix: wait for nav-ready event before parsing unlocked-path deeplinks cp-7.82.0 (#31717)
+      (0a8640a)
 
-      * fix: default QuickBuy sell receive token to chain native instead of the sold token (#31469)
-      (2b6656b)
+      * fix(predict): normalize moneyline betslip labels and icons cp-7.82.0 (#31648) (1bbd123)
 
-      * feat: MUSD-946 disable send button when user has zero balance (#31440) (737bdf7)
+      * feat: show payment details in transak deposits (#31722) (1340435)
 
-      * feat: `Skeleton` migration (`predict` team) (#29052) (c6cc33f)
+      * feat: migrate completely to `withKeyringV2` (#31089) (0a8d7b7)
 
-      * fix(quickbuy): spend exact balance when selling all to avoid false insufficient funds
-      (#31450) (dab94c2)
+      * perf: migrate TabsBar underline animation to Reanimated UI thread (#31589) (939fa41)
 
-      * feat: add `snap-account-service` (#30329) (f3e68e2)
+      * perf: memoize ToastContext provider value to prevent unnecessary re-renders (#31583)
+      (a94bced)
 
-      * feat(swaps): add batch sell deeplink (#31144) (5f02a7b)
+      * chore: upgrade @metamask/transaction-pay-controller to version 23.7.0 (#31733) (d14d866)
 
-      * feat: conditionally display predict account selector on predict deposit page (#31407)
-      (1780bfa)
+      * fix: Readded spacing between top movers segment control and pills cp-7.82.0 (#31769)
+      (2042f90)
 
-      * test: Fix/aggregate reports search dirs + performance smart selection (#29106) (fb7e123)
+      * chore: Resolve platform files for react compiler compatibility (#31669) (d6fe095)
 
-      * fix: ledger recover signing after app relaunch (#30920) (e332a64)
+      * fix: make batch sell sliders update token amount and percent live cp-7.82.0 (#31759)
+      (dd097e5)
 
-      * fix: simplify `useClearConfirmationOnBackSwipe` to reliably reject on back swipe (#31451)
-      (d67c589)
+      * fix: improve chart update on theme color change (#30759) (7271ad3)
 
-      * feat(perps): update perps controller to latest on mobile (#31248) (ca4e560)
+      * fix(ci): standardize Appium Playwright JSON report filename (#31756) (d2f1df5)
 
-      * fix: insufficient balance alert on money deposit page (#31427) (6bc851d)
+      * feat: MUSD-943 refactored useMoneyAccountBalance to support latest iteration of
+      money-account-balance-service (#31592) (a744690)
 
-      * chore: bump `@metamask/connectivity-controller` to `^0.2.0` (#31385) (3bf0284)
+      * feat: add Trophy icon to component-library (#31742) (71b2a05)
 
-      * refactor: E5 migrate MetricsEventBuilder to AnalyticsEventBuilder in onboarding components
-      (#31019) (15eb653)
+      * chore: New Crowdin Translations by GitHub Action cp-7.82.0 (#31610) (01dd067)
 
-      * feat(rewards): add stats view for predict the pitch (#31435) (fa798ba)
+      * chore: add `sha256` hash to `packageManager` field (#31739) (598f80f)
 
-      * feat: `Skeleton` sunset (final PR) (#31376) (a6fe2bd)
+      * ci: run Appium iOS on main and remove Appium smoke gate (#31730) (90646a7)
 
-      * fix: vip badge text (#31449) (8d53cd4)
+      * feat(money): redesign activity list transaction detail page (#31437) (0072da4)
 
-      * test(e2e): resolver layer for cross framework page object (#31433) (9020baa)
+      * refactor: migrate NavigationProvider and MainFlow to native stack (#31668) (8544569)
 
-      * feat: show verified USDC and USDT on all chains in QuickBuy sell receive list (TSA-645)
-      (#31417) (22a8264)
+      * chore: remove obsolete localized message test (#31746) (ed49208)
 
-      * chore(rewards): change test case values (#31426) (040f84b)
+      * fix(predict): add ES and IN to Predict geo-block overlay cp-7.82.0 (#31721) (a1a6b1b)
 
-      * feat: conditionally display perps account selector on perps deposit page (#31203) (819ae64)
+      * feat(money): handle balance unavailable states on Money Home (MUSD-961) (#31706) (24d6fdb)
 
-      * chore: fix Sei network and token logo sizing (#31108) (b875abb)
+      * feat: default USA marketing opt-in for social login (#31448) (9ad1a2d)
 
-      * fix(money): implement design review polishes (MUSD-916) (#31398) (4adf48d)
+      * fix: problematic dismissable ref (#31658) (a5c769a)
 
-      * fix: MUSD-921 updated useMusdBalance to use remotely configurable network list (#31232)
-      (812d9a4)
+      * fix: make saving state logs to a file on Android more performant (#31595) (9e93046)
 
-      * feat(analytics): add QR Code Viewed event for receive QR sheets (TMCU-444) (#31430)
-      (66cfb72)
+      * chore(analytics): delete legacy analytics symbols (useMetrics, MetaMetrics,
+      MetricsEventBuilder) and remove saveDataRecording chain (#31256) (9cc924c)
 
-      * feat(predict): Implement generic PredictFeedView for configured feed screens (#31434)
-      (7ff2f76)
+      * feat: revert crowdin job changes for tukrish translation (#31686) (2c8ebb8)
 
-      * feat: MUSD-871 money account event tracking (#31051) (618f5d7)
+      * fix: show dapp domain in typed sign V3/V4 Request from for WalletConnect (#31667) (f0c7f34)
 
-      * fix: keep batch sell select and quotes screen selected assets in sync (#31328) (44eed1c)
+      * feat(perps): replace Related Markets tile rail with 2×6 pill grid (#31702) (cd712f7)
 
-      * feat(predict): Add usePredictFeedConfig hook (#31397) (b4aae76)
+      * fix: expand crypto/fiat toggle tap target (#31708) (e1a32da)
 
-      * feat(card): make MoneyAccount the default spending source on Card (#31432) (dd8af84)
+      * feat: arc network integration cp-7.82.0 cp-7.81.1 (#31662) (1e03645)
 
-      * feat: improve batch sell slider styling (#31424) (05d82c4)
+      * chore: expand pressable region to make selecting token easier in batchSell cp-7.82.0
+      (#31673) (25c9455)
 
-      * fix(card): return to money tab after auth and broaden link CTA (#31244) (444cdd5)
+      * fix(card): gate MM Card <> Money account linking on VERIFIED status for authenticated Card
+      users (#31707) (057496e)
 
-      * feat: implement option to withdraw from money account to predict account on money home page
-      (#31087) (cf21917)
+      * chore: removed trailing slash for arc explorer url cp-7.81.1 cp-7.82.0 (#31718) (9c5a30b)
 
-      * fix(ci): skip PR template checks on PRs targeting non-main branches (#31421) (99f8aaf)
+      * fix(predict): prevent blank crypto up/down chart on slow live stream (#31513) (fd3392c)
 
-      * fix(money): derive account funding state from balance not transaction count (MUSD-933)
-      (#31391) (0779079)
+      * fix: insufficient fund alert on money account deposit page (#31678) (dc2bf90)
 
-      * fix(money): update MM Pay tooltips and projected balances (MUSD-844) (#30689) (d0dcf88)
+      * chore: resolve native token dest setup from token details (#31704) (d9273be)
 
-      * test: add Playwright performance debug logging (#31214) (34330d2)
+      * feat: allow editing and deleting alerts (#31685) (ed6da13)
 
-      * refactor: Aligned SectionHeader, SectionDivider, and spacing for Wallet page  (#31221)
-      (36ba7f5)
+      * fix: Restore support for percentage before placeholder in localized messages (#31594)
+      (1d34c25)
 
-      * fix(money): remove card containment from tooltip description (MUSD-896) (#31142) (bcfe874)
+      * refactor: remove incoming transactions from transaction controller (#31572) (684d214)
 
-      * fix(homepage): hide duplicate Perps/Predictions titles and add 32px spacing in discovery
-      tabs (#31236) (2e506f0)
+      * fix: use MDS flash icon + hide hidden tokens in Quick Buy "Pay with" list (#31698) (d90bdf9)
 
-      * fix: social leaderboard per chain pnl (#31419) (20805c4)
+      * fix(perps): remove preselected filter from market detail search navigation (#31684)
+      (e6bcee6)
 
-      * fix: force batch sell to use control variant for balance layout (#31418) (f56b4ff)
+      * fix(perps): prevent swipe-back from landing on PerpsRedirect screen (#31691) (7da8d81)
 
-      * feat(quickbuy): resolve terminal toast for same-chain Solana swaps (#31415) (392fa4d)
+      * test: migrate SmokeAccounts smoke e2e from Detox to Appium (#31680) (4d5e040)
 
-      * fix: you sell row in batch sell review modal has wrong state (#31264) (c0a04d8)
+      * chore: format rate tag tiny rates with subscript notation (#31693) (fa05e1c)
 
-      * fix: fix padding in balance sorting row (#31260) (8f34bb5)
+      * feat: prioritize viewed token's network in QuickBuy pay-with pills (#31700) (86d1e57)
 
-      * fix: batch sell network fee row border padding (#31262) (5818ae3)
+      * chore: bump profile-sync-controller to 28.2.0 (#31695) (26ba277)
 
-      * fix: text size in batch fee info modals (#31263) (0923514)
+      * feat: accept valid non-checksummed hex recipient in send flow (CONF-1501) (#31639) (9dc1846)
 
-      * feat: keep asset ordering between screens in batch sell the same (#31394) (62642cf)
+      * fix: fix HD path derivation for Ledger (#31642) (95f05f7)
 
-      * chore(predict): add minimal analytics for predict portfolio module and positions screen
-      (#30980) (20256fd)
+      * feat: add suggestions to watchlist on marketlist UI (#31650) (ca846b2)
 
-      * fix(predict): keep time-slot scroll anchored left when live slot expires cp-7.81.0 (#31231)
-      (a41a3ca)
+      * fix: match Quick Buy token icon and chain badge styles to homepage token list (TSA-647)
+      (#31459) (73f97de)
 
-      * feat: `TabEmptyState` pilot migration (#29280) (3401141)
+      * feat: add price alerts basic setup (#31477) (2f327cd)
 
-      * fix(predict): prevent infinite RTDS reconnect loop and reduce Sentry noise on first
-      heartbeat timeout (#31387) (360a7cc)
+      * fix: user not able to deposit into money account from an account for which token balance is
+      not loaded (#31630) (81c1a39)
 
-      * chore(analytics): rename addTraitsToUser→identify in EmptyStateCta test (earn) (#31255)
-      (0341ade)
+      * release: sync stable to main for version 7.81.0 (#31671) (d46d603)
 
-      * fix(token-details): cp-7.81.0 show swap/quick buy when only viewed token held (#31393)
-      (5edcc2c)
+      * Merge origin/main into stable-main-7.81.0 (7ef5c27)
 
-      * chore(analytics): migrate MetricsEventBuilder→AnalyticsEventBuilder and
-      useMetrics→useAnalytics (web3auth/onboarding files) (#31250) (bb6f304)
+      * fix: align ButtonIcon sizes with MMDS spec (#31659) (1c9bdbe)
 
-      * chore(analytics): migrate useMetrics→useAnalytics,
-      MetricsEventBuilder→AnalyticsEventBuilder, addTraitsToUser→identify (unowned files) (#31249)
-      (a9337cb)
+      * fix: revert list item use to temp component cp-7.82.0 (#31646) (9558ebe)
 
-      * fix(ui): truncate long network names to prevent layout overflow (#31215) (035f311)
+      * feat: `Button` migration (no codeowners, p2) (#31576) (a687c21)
 
-      * chore(skills): add opt-in install auto-update (#30924) (284efaa)
+      * feat: enable Monad by default for existing users and prevent deletion (#31164) (6a6a037)
 
-      * chore(analytics): migrate MetricsEventBuilder→AnalyticsEventBuilder in transaction
-      controller metrics (confirmations) (#31252) (d940072)
+      * feat: `Button` migration (no codeowners) (#31571) (e6e01d1)
 
-      * refactor: update useHasNativeFiatProvider to gate native (#31395) (0efac17)
+      * refactor(perps): standardize Perps homepage section layout cp-7.82.0 (#31243) (2c5d5a0)
 
-      * chore(analytics): remove stale MetricsEventBuilder mock from AccountsMenu test (core-ux)
-      (#31253) (44730df)
+      * feat: adding feature flag for default selection of pay section (#31641) (083d7a3)
 
-      * chore(analytics): migrate MetricsEventBuilder→AnalyticsEventBuilder in TransactionField test
-      (engagement) (#31254) (1f68123)
+      * fix(mmpay): route direct mUSD ramps order to MoneyAccount, not EOA (#31645) (ca13e1e)
 
-      * chore(analytics): migrate useMetrics→useAnalytics and
-      MetricsEventBuilder→AnalyticsEventBuilder (assets files) (#31251) (bb43735)
+      * refactor(MainNavigator): migrate MainNavigator to native stack (#31606) (32e049d)
 
-      * feat: gasless hw batch tracking (#30987) (aaea6c5)
+      * fix: Removed extra paddings below checklist on wallet cp-7.82.0 (#31647) (1e7d2be)
 
-      * fix(money): reject lingering money account batch on back-out to speed up deposit navigation
-      (MUSD-898) (#31084) (a973f82)
+      * fix(predict): fix scoreboard score cutoff for wide scores cp-7.82.0 (#31555) (9db931b)
 
-      * chore: remove sticky buttons AB test "Swap" vs "Convert" (#31192) (7c3391a)
+      * fix(predict): chart content cut off on iPhone 17 Pro cp-7.82.0 (#31505) (512d2ab)
 
-      * refactor(transaction-controller): migrate to v67 (#31241) (3048f3c)
+      * fix: exclude target asset from Quick Buy pay-with (TSA-660) (#31455) (7593eaa)
 
-      * chore: bump `network-controller` and `controller-utils` cp-7.81.0 (#31128) (6d27922)
+      * fix(money): design home review UI fixes (MUSD-958) (#31628) (67ec7c2)
 
-      * feat(batch-sell): pass isSmartTransaction flag to updateBatchSellTrades (#31210) (a78c4aa)
+      * refactor: move `ApprovalController` to wallet library (#31197) (ea038a8)
 
-      * feat: animated toggle (#31200) (036054f)
+      * feat: hardware wallet swaps page.  (#31441) (27d54f0)
 
-      * feat: integrate balance refresh functionality into AccountGroupBalance component (#30800)
-      (db303dc)
+      * chore: Bump main version to 8.0.0 (#31640) (a7e6180)
 
-      * fix: MMPay fiat payment fixes (#31009) (c441f4b)
+      * feat(card): gate Money Account card linkage on allowlisted spending token (#31611) (7b0e275)
 
-      * fix: cp-7.81.0 always show native tokens and stablecoins in QuickBuy sell receive list
-      (TSA-642) (#31235) (bedb452)
+      * ci: fix post-release-cut TestFlight upload OIDC auth (trigger on push to main) (#31638)
+      (dafad04)
 
-      * fix(rewards): campaign cta geo restriction (#31240) (fed4592)
+      * chore: adds Quickbuy to the security & trust screen and extract into hook (#31622) (5ced5e0)
 
-      * feat: support UAC custom asset import and dynamic image fallbacks (#31168) (0a047b6)
+      * feat: [MUSD-956] implement new money activity designs (#31621) (a538085)
 
-      * fix(confirmations): fix pay-with modal swipe dismiss freeze and update picker copy (#31137)
-      (4acfe93)
+      * feat(perps): market detail - Related Markets (#30728) (4444c43)
 
-      * chore: Migrate unowned Text usages to MMDS (#31223) (5ee42ac)
+      * test: migrate create account test to appium (#31629) (a2fab95)
 
-      * fix(ramps): forward quote payment method in headless buy (#31046) (904e10b)
+      * fix: Update `TPC` version for fiat payments in MMPay (#31627) (5dcbdae)
 
-      * fix(ramp): dismiss headless session on host refocus (#31109) (c010b88)
+      * ci: stable shard assignment across E2E re-runs (#31217) (6225788)
 
-      * chore: add design system deprecation jsdoc (#31234) (17eb799)
+      * release: Bump main version to 7.83.0 (#31600) (78d9352)
 
-      * fix(ramp): rename intermediate RampTokenSelection wrapper to RampTokenSelectionRoot (#31045)
-      (724e065)
+      * feat(swaps): add post-trade trending token suggestions (#31201) (f58fa58)
 
-      * chore: remove trace from AssetsController (#31148) (1d23a7c)
+      * fix: rename "Monthly Top Traders" to "Weekly Top Traders" (#31620) (9e90ec5)
 
-      * refactor: added react memo to badge wrapper (#31157) (1927d45)
+      * fix(ci): upload Appium failure screen recordings when tests fail (#31618) (67d1ab5)
 
-      * feat: Fully enable react compiler and bump to stable version (#31171) (c7862d1)
+      * fix: e2e tests (#31623) (a9f1e73)
 
-      * refactor(MainNavigator): migrate setting routes to native stack (#31181) (3592792)
+      * fix(money): always route add money to deposit screen and fix redirect_target (MUSD-959)
+      (#31590) (5a921d4)
 
-      * feat(analytics): fire DEEP_LINK_USED for SDK deeplinks (#29186) (0248554)
+      * refactor: make auth hooks React Compiler compatible [TO-844] (#31613) (c408459)
 
-      * chore: if no network fees in batch sell show insufficient funds (#31224) (d670399)
+      * fix(money): add APY and projected balance info tooltips to convert crypto flow (MUSD-945)
+      (#31574) (34892e5)
 
-      * feat(predict): Live Now Section for new Predict Homepage (#31211) (4e7fb69)
+      * feat: trader profile position row pnl (#31603) (4be0b32)
 
-      * fix: Smoke e2e tests flakiness (#31177) (e5effac)
+      * fix: trader position buy button themed (#31604) (baf7c86)
 
-      * chore: remove unused remoteConnHost from BackgroundBridge (#29660) (c608c67)
+      * feat: trader avatar maskicon fallback (#31614) (d776927)
 
-      * refactor(MainNavigator): snap routes to native stack (#31110) (15e09d3)
+      * refactor(money): unify MoneyTransferSheet options with disabled support (MUSD-927) (#31558)
+      (0f7b688)
 
-      * refactor(MainNavigator): asset routes to native stack (#31104) (25e5c98)
+      * fix: designs of money account deposit page when account as not crypto balance (#31569)
+      (be2f0ee)
 
-      * fix(money): preserve trailing decimal on max conversion (MUSD-894) (#31067) (6c101bc)
+      * feat(rewards): show VIP tag in referral code input at onboarding fix: cp-7.82.0 (#31530)
+      (e16e696)
 
-      * fix(quick-buy): enable Buy CTA in lockstep with quote loader (#31218) (c09f43c)
+      * fix(predict): scroll World Cup bracket pill into view on navigation (#31596) (c89120d)
 
-      * fix: perps pills dont update price (#31086) (050e2dc)
+      * test: skip Perps E2E flaky test (#31597) (08833e2)
 
-      * fix(ramps): remove Navigation Dev Panel and purge seeded orders cp-7.81.0 (#31188) (59970c9)
+      * test: add deeplink E2E tests (#31593) (c1abfeb)
 
-      * feat: implement native fiat provider checks and update MoneyAddMoneyS… (#31209) (143adaf)
+      * fix(sdk-connect-v2): remove leaked AppState listener in ConnectionRegistry (#31405)
+      (4601fff)
 
-      * feat(rewards): predict the pitch campaign (#31053) (3116bd1)
+      * refactor: feature flag watchlist cp-7.82.0 (#31581) (e78a68b)
 
-      * chore: upgrade design system packages (v43.0.0) (#31126) (b69c918)
-
-      * feat(card): resolve Money Account card funding from the Veda vault token and render it as
-      mUSD (#31150) (bace27f)
-
-      * chore: add TDP origin from explore search (#31165) (4b139c6)
-
-      * feat: implement option to withdraw from money account to perps account on money home page
-      (#31068) (395e6cf)
-
-      * chore: add result count instrumentation to explore search (#31155) (6d65389)
-
-      * fix: use the correct feature flag name for chomp config (#31205) (ee35c0c)
-
-      * fix(quick-buy): show all held tokens in Pay with and split Pay with/Receive flows (#31195)
-      (24729e4)
-
-      * feat: [MUSD-817] show MM card transactions in money activity list (#31088) (f043698)
-
-      * feat(swaps): add post-trade modal flow (#30841) (7b7f09d)
-
-      * feat: batch sell filter out RWAs (#31096) (3d19f83)
-
-      * chore: run visual regression tests on ci (#31061) (4a5d35a)
-
-      * feat(perps): add Products section and per-category market filters (#31058) (28b2df5)
-
-      * feat: remove env variable hiding money option for perps/predict transactions (#31189)
-      (767da51)
-
-      * refactor(ai-pr-risk-analysis): remove continue-on-error and adjust permissions (#31199)
-      (2be20f8)
-
-      * test(swap): skip gasless 7702 ETH to MUSD swap test (#31198) (67f957c)
-
-      * fix(money): update Money Account copy (MUSD-912, MUSD-914, MUSD-920) (#31196) (024f1a9)
-
-      * chore(predict): add feed config types (#31145) (fb78130)
-
-      * refactor(MainNavigator): migrate RewardsHome to native stack (#31049) (d70604f)
-
-      * refactor(perps): migrate Perps Home to HeaderStandardAnimated and TitleHub (#31033)
-      (a600ed9)
-
-      * docs(performance): restructure performance docs into docs/performance/ (#30866) (0e12435)
-
-      * docs(tooling): fix explorer repo link and add usage section for dev-tooling-explorer
-      (#31149) (f4f0387)
-
-      * refactor: Updated Predictions to use TitleHub (#31127) (d82c727)
-
-      * feat(predict): support series ids in predictMarketHighlights cp-7.81.0 (#31044) (c32e24f)
-
-      * fix(predict): address Sentry websocket and account errors (#31118) (c7e4cc9)
-
-      * chore: cleanup perps top movers buttons cp-7.81.0 (#31147) (b400262)
-
-      * fix(card): route Card "Add funds → Fund with cash" through UB2  (#31124) (a863f67)
-
-      * fix: batch sell tx bridge status bump (#31098) (0ea45fe)
-
-      * feat: cp-7.81.0 scope QuickBuy networks to user-enabled networks (#31092) (ec2914b)
-
-      * fix(card): cp-7.81.0 restore slide-up entry without iOS modal presentation (#31031)
-      (797534f)
-
-      * chore(engagement): include push notification registration metadata (#30819) (9213df8)
-
-      * feat(predict): Build PredictHome shell with stacked collapsing header (#31094) (98c9927)
-
-      * fix(money): correct card CTA mode and disable link during linkage (#31115) (6a5ee23)
-
-      * fix(money): update transfer out bottom sheet copy (MUSD-907) (#31135) (3d8a430)
-
-      * chore: Bump remote feature flag controller (#31023) (c89b19a)
-
-      * test: Mmqa fix send performance (#31134) (15b1788)
-
-      * chore(ci): disable automatic Namespace shadow CI triggers (INFRA-3678) (#31133) (f282cd9)
-
-      * fix: add `contents: read` permission to post-release-cut-testflight workflow (#31119)
-      (4760c96)
-
-      * chore: restore ^ version range for agent-device devDependency (#31093) (4aca2ca)
-
-      * release: sync stable to main for version 7.80.0 (#31120) (accea0e)
-
-      * Merge branch 'main' into stable-main-7.80.0 (3d04f55)
-
-      * chore: remove deprecated code from old homepage tabs (#31017) (da1f6eb)
-
-      * fix: disable link unfurling in Slack RC notifications to prevent large preview
-      images  (#31116) (1bc6039)
-
-      * Merge origin/main into stable-main-7.80.0 (83770f3)
-
-      * fix: Trade Smoke tests flakiness (#31117) (2ed6dc0)
-
-      * refactor: open deeplinks after unlock (#30857) (913603b)
-
-      * release: Bump main version to 7.82.0 (#31102) (3ce2e5e)
-
-      * refactor(ramp): migrate unified buy V2 routes to native stack (#30604) (203a899)
-
-      * refactor(main navigator): migrate single routes in Main Navigator to native stack (#31037)
-      (c68594d)
-
-      * feat(predict): Add Predict dynamic filter option abstraction (#31050) (9ba7444)
-
-      * feat(predict): add Ethereum accent color to crypto up/down markets cp-7.81.0 (#31029)
-      (02bdd66)
-
-      * fix: in batch sell when all sliders set to zero treat as no quotes and block CTA (#31107)
-      (88ca35d)
-
-      * chore: share address QR MMDS bottom sheet migration and pure black fix (#31099) (cad0a82)
-
-      * fix: wallet home onboarding Rive crash on Android cp-7.81.0 (#31042) (bdce2e9)
+      * refactor(ramp): remove unified buy v1 flag and smart routing (#31039) (ed7b42e)
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -1018,9 +1196,9 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 17810
+    totalCommitsKnown: 17835
     contributorsKnown: 300
-    openPullRequests: 518
+    openPullRequests: 496
   files:
     readme: true
     contributing: false
@@ -1030,7 +1208,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-26T08:16:30.146Z
+    syncedAt: 2026-06-27T08:00:46.311Z
     apiVersion: rest-v3
     source: github-actions
 health:

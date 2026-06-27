@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/mattermost/mattermost-mobile/deployments
     created_at: 2016-10-07T16:52:32Z
-    updated_at: 2026-06-25T22:15:56Z
-    pushed_at: 2026-06-26T08:06:17Z
+    updated_at: 2026-06-26T10:20:10Z
+    pushed_at: 2026-06-27T07:00:51Z
     git_url: git://github.com/mattermost/mattermost-mobile.git
     ssh_url: git@github.com:mattermost/mattermost-mobile.git
     clone_url: https://github.com/mattermost/mattermost-mobile.git
     svn_url: https://github.com/mattermost/mattermost-mobile
     homepage: https://about.mattermost.com/
-    size: 188397
+    size: 188264
     stargazers_count: 2683
     watchers_count: 2683
     language: TypeScript
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 284
+    open_issues_count: 282
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -144,7 +144,7 @@ github:
       - mattermost-mobile
     visibility: public
     forks: 1629
-    open_issues: 284
+    open_issues: 282
     watchers: 2683
     default_branch: main
     permissions:
@@ -178,13 +178,13 @@ github:
     network_count: 1629
     subscribers_count: 91
   languages:
-    TypeScript: 15564867
+    TypeScript: 15604035
     Swift: 455602
     Kotlin: 443766
-    JavaScript: 191050
+    JavaScript: 198298
     Ruby: 89744
+    Shell: 75388
     Java: 50851
-    Shell: 34987
     Objective-C++: 32508
     Objective-C: 9719
     Python: 1861
@@ -255,7 +255,7 @@ github:
         state: uploaded
         size: 227730274
         digest: sha256:2a77dd64c387e2cde41ad040a239ef738c7905c199b93fa7be8506235ad43068
-        download_count: 65
+        download_count: 79
         created_at: 2026-06-23T08:36:19Z
         updated_at: 2026-06-23T08:36:28Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.41.2/Mattermost-unsigned.apk
@@ -369,14 +369,14 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 34
+        commits: 32
       - month: 2026-05
         commits: 30
       - month: 2026-06
-        commits: 36
-    totalCommitsKnown: 3454
+        commits: 38
+    totalCommitsKnown: 3456
     contributorsKnown: 218
-    openPullRequests: 78
+    openPullRequests: 76
   files:
     readme: true
     contributing: true
@@ -386,7 +386,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-26T08:16:28.800Z
+    syncedAt: 2026-06-27T08:00:45.097Z
     apiVersion: rest-v3
     source: github-actions
 health:
