@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}
     deployments_url: https://api.github.com/repos/thunderbird/thunderbird-ios/deployments
     created_at: 2025-01-20T14:50:57Z
-    updated_at: 2026-06-25T13:40:37Z
-    pushed_at: 2026-06-23T21:36:56Z
+    updated_at: 2026-06-28T08:02:35Z
+    pushed_at: 2026-06-26T13:49:38Z
     git_url: git://github.com/thunderbird/thunderbird-ios.git
     ssh_url: git@github.com:thunderbird/thunderbird-ios.git
     clone_url: https://github.com/thunderbird/thunderbird-ios.git
     svn_url: https://github.com/thunderbird/thunderbird-ios
     homepage: null
-    size: 9839
-    stargazers_count: 1041
-    watchers_count: 1041
+    size: 9849
+    stargazers_count: 1050
+    watchers_count: 1050
     language: Swift
     has_issues: true
     has_projects: true
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 57
+    open_issues_count: 54
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -126,8 +126,8 @@ github:
     topics: []
     visibility: public
     forks: 35
-    open_issues: 57
-    watchers: 1041
+    open_issues: 54
+    watchers: 1050
     default_branch: main
     permissions:
       admin: false
@@ -158,7 +158,7 @@ github:
       user_view_type: public
       site_admin: false
     network_count: 35
-    subscribers_count: 24
+    subscribers_count: 25
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -168,20 +168,20 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 22
+        commits: 18
       - month: 2026-05
         commits: 44
       - month: 2026-06
-        commits: 34
-    totalCommitsKnown: 693
-    openPullRequests: 3
+        commits: 38
+    totalCommitsKnown: 697
+    openPullRequests: 2
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-06-26T08:16:42.516Z
+    syncedAt: 2026-06-28T08:11:50.794Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1005142
+    Swift: 1020545
     Ruby: 5619
     Shell: 2170
     HTML: 385
