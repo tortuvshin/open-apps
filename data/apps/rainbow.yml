@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-06-25T23:19:53Z
-    pushed_at: 2026-06-26T07:26:32Z
+    updated_at: 2026-06-29T07:43:40Z
+    pushed_at: 2026-06-29T07:43:36Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 285686
-    stargazers_count: 4363
-    watchers_count: 4363
+    size: 286482
+    stargazers_count: 4364
+    watchers_count: 4364
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 749
+    forks_count: 750
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 34
+    open_issues_count: 25
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -146,9 +146,9 @@ github:
       - rainbow
       - react-native
     visibility: public
-    forks: 749
-    open_issues: 34
-    watchers: 4363
+    forks: 750
+    open_issues: 25
+    watchers: 4364
     default_branch: develop
     permissions:
       admin: false
@@ -178,26 +178,26 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 749
+    network_count: 750
     subscribers_count: 69
   languages:
-    TypeScript: 9472881
-    JavaScript: 388949
+    TypeScript: 9128170
+    JavaScript: 392223
     Swift: 101323
     Objective-C: 62738
     Shell: 38019
     Java: 37773
-    Ruby: 11873
+    Ruby: 10285
     Kotlin: 9599
     Objective-C++: 4552
     Starlark: 1910
     C: 290
   latestRelease:
-    url: https://api.github.com/repos/rainbow-me/rainbow/releases/343099984
-    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/343099984/assets
-    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/343099984/assets{?name,label}
-    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.36
-    id: 343099984
+    url: https://api.github.com/repos/rainbow-me/rainbow/releases/345849688
+    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/345849688/assets
+    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/345849688/assets{?name,label}
+    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.37
+    id: 345849688
     author:
       login: ibrahimtaveras00
       id: 41752922
@@ -218,99 +218,70 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOColoic4Uc0pQ
-    tag_name: v2.0.36
+    node_id: RE_kwDOColoic4UnT9Y
+    tag_name: v2.0.37
     target_commitish: develop
-    name: v2.0.36
+    name: v2.0.37
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-18T17:22:25Z
-    updated_at: 2026-06-22T18:45:59Z
-    published_at: 2026-06-22T18:45:59Z
+    created_at: 2026-06-26T19:29:19Z
+    updated_at: 2026-06-28T06:16:18Z
+    published_at: 2026-06-28T06:16:18Z
     assets: []
-    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.36
-    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.36
-    body: >-
-      ### Added
+    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.37
+    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.37
+    body: "### Added\r
 
+      \r
 
-      - Add Cash Deposits intro panel entry point (APP-3775)
-      (https://github.com/rainbow-me/rainbow/pull/7556)
+      - Introduce src/app/ for cross-domain orchestration
+      (https://github.com/rainbow-me/rainbow/pull/7602)\r
 
-      - Add Add Cash screen and routing based on user's ramp status
-      (https://github.com/rainbow-me/rainbow/pull/7558)
+      \r
 
-      - Add custom amount view with keypad (https://github.com/rainbow-me/rainbow/pull/7568)
+      ### Changed\r
 
-      - Add USD and token amounts to the Sent transaction event
-      (https://github.com/rainbow-me/rainbow/pull/7587)
+      \r
 
-      - Add AppsFlyer SDK for install attribution (https://github.com/rainbow-me/rainbow/pull/7601)
+      - Vendor the forked react-native-shadow-stack
+      (https://github.com/rainbow-me/rainbow/pull/7607)\r
 
+      - Move bluetooth permissions into the framework module
+      (https://github.com/rainbow-me/rainbow/pull/7604)\r
 
-      ### Changed
+      - Move useHardwareBack into the framework module
+      (https://github.com/rainbow-me/rainbow/pull/7606)\r
 
+      - Upgrade React Native to 0.81.6 (https://github.com/rainbow-me/rainbow/pull/7366)\r
 
-      - Remove unused LoadingState component (https://github.com/rainbow-me/rainbow/pull/7573)
+      - Extract useWatcher from useTransactionWatcher
+      (https://github.com/rainbow-me/rainbow/pull/7610)\r
 
-      - Remove unused timestampsCalculation (https://github.com/rainbow-me/rainbow/pull/7575)
+      - Bump iOS and Android to v2.0.37 (https://github.com/rainbow-me/rainbow/pull/7612)\r
 
-      - Remove unused revoke-approval helpers and rap types
-      (https://github.com/rainbow-me/rainbow/pull/7576)
+      - Increment versionCode (https://github.com/rainbow-me/rainbow/pull/7638)\r
 
-      - Remove unused AnimatedScrollView and props allowlists
-      (https://github.com/rainbow-me/rainbow/pull/7577)
+      - Reinstate custom Polymarket fees (https://github.com/rainbow-me/rainbow/pull/7635)\r
 
-      - Bump iOS and Android to v2.0.36 (https://github.com/rainbow-me/rainbow/pull/7585)
+      \r
 
-      - Extract currency domain from perps and legacy helpers
-      (https://github.com/rainbow-me/rainbow/pull/7584)
+      ### Fixed\r
 
-      - Dedupe runtime helpers across the production bundle
-      (https://github.com/rainbow-me/rainbow/pull/7588)
+      \r
 
-      - Bump webview fork to include the blocked-nav host callback
-      (https://github.com/rainbow-me/rainbow/pull/7589)
+      - Filter remaining benign Branch noise from Sentry
+      (https://github.com/rainbow-me/rainbow/pull/7603)\r
 
-      - Consolidate keychain and device auth into a local-auth domain
-      (https://github.com/rainbow-me/rainbow/pull/7590)
+      - Fix activity list issues (https://github.com/rainbow-me/rainbow/pull/7572)\r
 
-      - Rename legacy third-party fiat on-ramp flow
-      (https://github.com/rainbow-me/rainbow/pull/7583)
+      - Fix(graphql): codegen parse failure on arc's updated schema
+      (https://github.com/rainbow-me/rainbow/pull/7617)\r
 
-      - Move NumberPad into shared components (https://github.com/rainbow-me/rainbow/pull/7567)
+      - Fix unstripped native libraries in release builds
+      (https://github.com/rainbow-me/rainbow/commit/06adcccd90bde4208324facc608c668246496137)\r
 
-      - Remove dead CodePush/AppCenter env vars (https://github.com/rainbow-me/rainbow/pull/7597)
-
-      - Rename the send domain to transfer (https://github.com/rainbow-me/rainbow/pull/7593)
-
-      - Introduce network domain for related files (https://github.com/rainbow-me/rainbow/pull/7591)
-
-      - Move send flow components into the transfer domain
-      (https://github.com/rainbow-me/rainbow/pull/7594)
-
-      - Finish consolidating the send flow into the transfer domain
-      (https://github.com/rainbow-me/rainbow/pull/7595)
-
-      - Convert the transfer domain to named exports
-      (https://github.com/rainbow-me/rainbow/pull/7596)
-
-      - Move EIP-681 send launcher into the transfer domain
-      (https://github.com/rainbow-me/rainbow/pull/7598)
-
-      - Move network chain metadata into new domain module
-      (https://github.com/rainbow-me/rainbow/pull/7592)
-
-
-      ### Fixed
-
-
-      - Fix consistent league slug grouping and filtering
-      (https://github.com/rainbow-me/rainbow/pull/7599)
-
-      - Use the project-pinned Node version in Xcode builds
-      (https://github.com/rainbow-me/rainbow/pull/7600)
+      - Fix: temp disable App Store rating prompt (https://github.com/rainbow-me/rainbow/pull/7633)"
   activity:
     monthlyCommits:
       - month: 2026-01
@@ -322,12 +293,12 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 22
+        commits: 5
       - month: 2026-06
-        commits: 78
-    totalCommitsKnown: 9166
+        commits: 95
+    totalCommitsKnown: 9183
     contributorsKnown: 73
-    openPullRequests: 34
+    openPullRequests: 25
   files:
     readme: true
     contributing: false
@@ -337,7 +308,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-06-26T08:16:36.278Z
+    syncedAt: 2026-06-29T08:43:42.180Z
     apiVersion: rest-v3
     source: github-actions
 health:

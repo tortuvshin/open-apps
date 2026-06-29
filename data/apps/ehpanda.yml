@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases{/id}
     deployments_url: https://api.github.com/repos/EhPanda-Team/EhPanda/deployments
     created_at: 2020-10-28T14:32:59Z
-    updated_at: 2026-06-25T20:16:36Z
-    pushed_at: 2026-06-26T07:42:20Z
+    updated_at: 2026-06-28T14:10:46Z
+    pushed_at: 2026-06-29T01:35:34Z
     git_url: git://github.com/EhPanda-Team/EhPanda.git
     ssh_url: git@github.com:EhPanda-Team/EhPanda.git
     clone_url: https://github.com/EhPanda-Team/EhPanda.git
     svn_url: https://github.com/EhPanda-Team/EhPanda
     homepage: https://ehpanda.app
-    size: 72978
-    stargazers_count: 3879
-    watchers_count: 3879
+    size: 73767
+    stargazers_count: 3883
+    watchers_count: 3883
     language: Swift
     has_issues: true
     has_projects: true
@@ -111,7 +111,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 249
+    forks_count: 250
     mirror_url: null
     archived: false
     disabled: false
@@ -136,9 +136,9 @@ github:
       - swift-composable-architecture
       - swiftui
     visibility: public
-    forks: 249
+    forks: 250
     open_issues: 30
-    watchers: 3879
+    watchers: 3883
     default_branch: main
     permissions:
       admin: false
@@ -168,7 +168,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 249
+    network_count: 250
     subscribers_count: 34
   activity:
     monthlyCommits:
@@ -185,10 +185,10 @@ github:
       - month: 2026-06
         commits: 1
     totalCommitsKnown: 1447
-    openPullRequests: 1
+    openPullRequests: 0
     contributorsKnown: 22
   sync:
-    syncedAt: 2026-06-26T08:16:15.300Z
+    syncedAt: 2026-06-29T08:43:22.245Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -259,7 +259,7 @@ github:
         state: uploaded
         size: 7231227
         digest: null
-        download_count: 45617
+        download_count: 45831
         created_at: 2024-12-21T03:22:54Z
         updated_at: 2024-12-21T03:22:55Z
         browser_download_url: https://github.com/EhPanda-Team/EhPanda/releases/download/v2.7.10/EhPanda.ipa

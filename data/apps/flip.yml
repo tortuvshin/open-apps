@@ -90,14 +90,14 @@ github:
     releases_url: https://api.github.com/repos/redbrogdon/flutterflip/releases{/id}
     deployments_url: https://api.github.com/repos/redbrogdon/flutterflip/deployments
     created_at: 2018-01-22T17:24:10Z
-    updated_at: 2026-05-25T19:45:36Z
-    pushed_at: 2026-05-25T19:45:32Z
+    updated_at: 2026-06-28T03:29:59Z
+    pushed_at: 2026-06-28T03:29:56Z
     git_url: git://github.com/redbrogdon/flutterflip.git
     ssh_url: git@github.com:redbrogdon/flutterflip.git
     clone_url: https://github.com/redbrogdon/flutterflip.git
     svn_url: https://github.com/redbrogdon/flutterflip
     homepage: ""
-    size: 16289
+    size: 16315
     stargazers_count: 268
     watchers_count: 268
     language: Dart
@@ -149,18 +149,18 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 34
+        commits: 36
       - month: 2026-06
-        commits: 0
-    totalCommitsKnown: 75
+        commits: 3
+    totalCommitsKnown: 80
     openPullRequests: 0
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-26T08:16:18.024Z
+    syncedAt: 2026-06-29T08:43:24.826Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 73966
+    Dart: 80097
     C++: 25859
     CMake: 19670
     Swift: 1830

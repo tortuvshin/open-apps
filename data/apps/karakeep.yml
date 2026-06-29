@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-26T07:16:18Z
-    pushed_at: 2026-06-14T15:15:51Z
+    updated_at: 2026-06-29T06:18:04Z
+    pushed_at: 2026-06-27T08:41:30Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
     clone_url: https://github.com/karakeep-app/karakeep.git
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
-    size: 99642
-    stargazers_count: 26322
-    watchers_count: 26322
+    size: 99682
+    stargazers_count: 26386
+    watchers_count: 26386
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1273
+    forks_count: 1279
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 656
+    open_issues_count: 657
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1273
-    open_issues: 656
-    watchers: 26322
+    forks: 1279
+    open_issues: 657
+    watchers: 26386
     default_branch: main
     permissions:
       admin: false
@@ -182,14 +182,14 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1273
+    network_count: 1279
     subscribers_count: 74
   languages:
-    TypeScript: 3795314
+    TypeScript: 3803772
     Shell: 20277
     JavaScript: 13218
     Astro: 9174
-    Dockerfile: 8101
+    Dockerfile: 7768
     CSS: 3592
     HTML: 2133
     Makefile: 491
@@ -1107,8 +1107,8 @@ github:
     discussion_url: https://github.com/karakeep-app/karakeep/discussions/2773
     reactions:
       url: https://api.github.com/repos/karakeep-app/karakeep/releases/319662095/reactions
-      total_count: 31
-      "+1": 8
+      total_count: 32
+      "+1": 9
       "-1": 0
       laugh: 0
       hooray: 13
@@ -1126,14 +1126,14 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 19
+        commits: 12
       - month: 2026-05
         commits: 75
       - month: 2026-06
-        commits: 6
-    totalCommitsKnown: 2056
-    contributorsKnown: 181
-    openPullRequests: 68
+        commits: 13
+    totalCommitsKnown: 2063
+    contributorsKnown: 182
+    openPullRequests: 69
   files:
     readme: true
     contributing: true
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-26T08:16:27.027Z
+    syncedAt: 2026-06-29T08:43:33.102Z
     apiVersion: rest-v3
     source: github-actions
 health:

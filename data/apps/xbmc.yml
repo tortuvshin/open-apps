@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-06-25T23:49:26Z
-    pushed_at: 2026-06-25T23:48:52Z
+    updated_at: 2026-06-29T07:34:22Z
+    pushed_at: 2026-06-28T22:36:03Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1649457
-    stargazers_count: 20892
-    watchers_count: 20892
+    size: 1649540
+    stargazers_count: 20894
+    watchers_count: 20894
     language: C++
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6553
+    forks_count: 6554
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 419
+    open_issues_count: 421
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - xbmc
       - xml
     visibility: public
-    forks: 6553
-    open_issues: 419
-    watchers: 20892
+    forks: 6554
+    open_issues: 421
+    watchers: 20894
     default_branch: master
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 6553
+    network_count: 6554
     subscribers_count: 786
   activity:
     monthlyCommits:
@@ -194,21 +194,21 @@ github:
         commits: 0
       - month: 2026-06
         commits: 100
-    totalCommitsKnown: 71553
-    openPullRequests: 164
+    totalCommitsKnown: 71578
+    openPullRequests: 166
     contributorsKnown: 1269
   sync:
-    syncedAt: 2026-06-26T08:16:46.545Z
+    syncedAt: 2026-06-29T08:43:51.718Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32356685
-    C: 1024163
+    C++: 32429436
+    C: 1024287
     CMake: 929331
     JavaScript: 912837
     Objective-C++: 489803
     Python: 422478
-    Makefile: 226357
+    Makefile: 226523
     HTML: 199408
     GLSL: 90629
     Shell: 85014
