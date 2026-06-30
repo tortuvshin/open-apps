@@ -92,7 +92,7 @@ github:
     releases_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases{/id}
     deployments_url: https://api.github.com/repos/TNT-Likely/BeeCount/deployments
     created_at: 2025-09-06T02:15:06Z
-    updated_at: 2026-06-29T05:07:00Z
+    updated_at: 2026-06-30T05:28:19Z
     pushed_at: 2026-06-29T03:04:15Z
     git_url: git://github.com/TNT-Likely/BeeCount.git
     ssh_url: git@github.com:TNT-Likely/BeeCount.git
@@ -100,8 +100,8 @@ github:
     svn_url: https://github.com/TNT-Likely/BeeCount
     homepage: https://count.beejz.com
     size: 122353
-    stargazers_count: 1838
-    watchers_count: 1838
+    stargazers_count: 1841
+    watchers_count: 1841
     language: Dart
     has_issues: true
     has_projects: true
@@ -109,11 +109,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 252
+    forks_count: 254
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 71
+    open_issues_count: 73
     license:
       key: other
       name: Other
@@ -144,9 +144,9 @@ github:
       - supabase
       - webdav
     visibility: public
-    forks: 252
-    open_issues: 71
-    watchers: 1838
+    forks: 254
+    open_issues: 73
+    watchers: 1841
     default_branch: main
     permissions:
       admin: false
@@ -155,7 +155,7 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 252
+    network_count: 254
     subscribers_count: 10
   activity:
     monthlyCommits:
@@ -172,10 +172,10 @@ github:
       - month: 2026-06
         commits: 31
     totalCommitsKnown: 604
-    openPullRequests: 10
+    openPullRequests: 11
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-06-29T08:43:17.279Z
+    syncedAt: 2026-06-30T08:16:34.645Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -252,7 +252,7 @@ github:
         state: uploaded
         size: 17614618
         digest: sha256:7d82c7fdaf7b59674706abad36255bb2f4ad550ce742f7144dd7b856b72c3fac
-        download_count: 11
+        download_count: 35
         created_at: 2026-06-29T03:18:11Z
         updated_at: 2026-06-29T03:18:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.4/beecount-3.5.4-armeabi-v7a.apk
@@ -384,7 +384,7 @@ github:
         state: uploaded
         size: 43110627
         digest: sha256:7b7ce5524fefa074cae614095ec9f808183b655c6eea6bdcf6ddc13da6473280
-        download_count: 12
+        download_count: 43
         created_at: 2026-06-29T03:18:11Z
         updated_at: 2026-06-29T03:18:13Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.4/beecount-3.5.4-universal.apk
@@ -417,7 +417,7 @@ github:
         state: uploaded
         size: 17035822
         digest: sha256:fc8bf9e8763520d381d6a8d6734c3ad6cc94229ec14ba57a65746551e66c9ce1
-        download_count: 2
+        download_count: 3
         created_at: 2026-06-29T03:18:11Z
         updated_at: 2026-06-29T03:18:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.4/beecount-3.5.4-unsigned.ipa
@@ -450,7 +450,7 @@ github:
         state: uploaded
         size: 17558735
         digest: sha256:b799e1579d2eddfb8fcb5f6c7ffd79e4327df1c1de5e823f6ae76bd41c4e77a2
-        download_count: 3
+        download_count: 8
         created_at: 2026-06-29T03:18:11Z
         updated_at: 2026-06-29T03:18:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.4/beecount-3.5.4-x86_64.apk
@@ -516,7 +516,7 @@ github:
         state: uploaded
         size: 17391596
         digest: sha256:c07ea01da1ce586d62fbd1b69fa42162b857a47667ee2cd66a3069d0585e97e1
-        download_count: 37
+        download_count: 92
         created_at: 2026-06-29T03:18:11Z
         updated_at: 2026-06-29T03:18:12Z
         browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.5.4/beecount-3.5.4.apk
@@ -529,6 +529,17 @@ github:
       - fix: CSV 导入非 ISO 日期按本地时间解析,修复 +8 小时偏差 (#365) ([557f424](https://github.com/TNT-Likely/BeeCount/commit/557f424bab13e992acd182554d553e65924bd48e))
       - fix: 去掉登录密码本地强校验(规则交服务端),修复合法密码被挡 (#358) (#364) ([6b82bff](https://github.com/TNT-Likely/BeeCount/commit/6b82bfffb73a96c84bdcc2d89a9fa4ac6de76b96))
 
+    reactions:
+      url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/346049706/reactions
+      total_count: 1
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
   files:
     readme: true
     contributing: false
