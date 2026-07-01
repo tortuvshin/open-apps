@@ -162,8 +162,6 @@ github:
     subscribers_count: 163
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -174,11 +172,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 194
     openPullRequests: 5
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-06-30T08:16:57.401Z
+    syncedAt: 2026-07-01T08:29:56.756Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -251,7 +251,7 @@ github:
         state: uploaded
         size: 220413
         digest: null
-        download_count: 78927
+        download_count: 78934
         created_at: 2017-04-25T22:30:09Z
         updated_at: 2017-04-25T22:30:15Z
         browser_download_url: https://github.com/noodlewerk/NWPusher/releases/download/0.7.5/pusher.app.zip

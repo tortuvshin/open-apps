@@ -108,14 +108,14 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-06-29T20:44:38Z
-    pushed_at: 2026-06-25T14:18:32Z
+    updated_at: 2026-06-30T11:30:38Z
+    pushed_at: 2026-07-01T08:15:54Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 272629
+    size: 272638
     stargazers_count: 9220
     watchers_count: 9220
     language: TypeScript
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 99
+    open_issues_count: 93
     license:
       key: other
       name: Other
@@ -163,7 +163,7 @@ github:
       - surveillance
     visibility: public
     forks: 495
-    open_issues: 99
+    open_issues: 93
     watchers: 9220
     default_branch: master
     permissions:
@@ -198,7 +198,7 @@ github:
     subscribers_count: 122
   languages:
     TypeScript: 1875203
-    Go: 1705262
+    Go: 1705547
     Java: 469612
     Swift: 93817
     JavaScript: 85117
@@ -216,11 +216,11 @@ github:
     Starlark: 1204
     Jinja: 1041
   latestRelease:
-    url: https://api.github.com/repos/berty/berty/releases/344769134
-    assets_url: https://api.github.com/repos/berty/berty/releases/344769134/assets
-    upload_url: https://uploads.github.com/repos/berty/berty/releases/344769134/assets{?name,label}
-    html_url: https://github.com/berty/berty/releases/tag/v2.471.11
-    id: 344769134
+    url: https://api.github.com/repos/berty/berty/releases/346705086
+    assets_url: https://api.github.com/repos/berty/berty/releases/346705086/assets
+    upload_url: https://uploads.github.com/repos/berty/berty/releases/346705086/assets{?name,label}
+    html_url: https://github.com/berty/berty/releases/tag/v2.471.12
+    id: 346705086
     author:
       login: github-actions[bot]
       id: 41898282
@@ -241,37 +241,35 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCGjcYc4UjMJu
-    tag_name: v2.471.11
+    node_id: RE_kwDOCGjcYc4Uqky-
+    tag_name: v2.471.12
     target_commitish: master
-    name: v2.471.11
+    name: v2.471.12
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-25T14:17:45Z
-    updated_at: 2026-06-25T14:18:32Z
-    published_at: 2026-06-25T14:18:32Z
+    created_at: 2026-06-30T08:43:02Z
+    updated_at: 2026-06-30T08:43:45Z
+    published_at: 2026-06-30T08:43:45Z
     assets: []
-    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.11
-    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.11
+    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.12
+    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.12
     body: >+
-      ## [2.471.11](https://github.com/berty/berty/compare/v2.471.10...v2.471.11) (2026-06-25)
+      ## [2.471.12](https://github.com/berty/berty/compare/v2.471.11...v2.471.12) (2026-06-30)
 
 
 
       ### Bug Fixes
 
 
-      * **mobile:** stabilize Expo mobile build (chat, notifications, Android edge-to-edge, iOS
-      lifecycle, logging) ([#5138](https://github.com/berty/berty/issues/5138))
-      ([b31e1bc](https://github.com/berty/berty/commit/b31e1bcb5fecd23944b288f1ab67958000423f36))
+      * **ci:** resolve bertymessenger test data race and Android release disk exhaustion
+      ([#5144](https://github.com/berty/berty/issues/5144))
+      ([1982d3f](https://github.com/berty/berty/commit/1982d3f5634c9db0e8bbe36f58b4b181224f04af))
 
 
 
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 2
       - month: 2026-02
         commits: 2
       - month: 2026-03
@@ -281,10 +279,12 @@ github:
       - month: 2026-05
         commits: 16
       - month: 2026-06
-        commits: 16
-    totalCommitsKnown: 8350
+        commits: 21
+      - month: 2026-07
+        commits: 0
+    totalCommitsKnown: 8355
     contributorsKnown: 70
-    openPullRequests: 25
+    openPullRequests: 20
   files:
     readme: true
     contributing: false
@@ -300,7 +300,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-06-30T08:16:35.770Z
+    syncedAt: 2026-07-01T08:29:36.133Z
     apiVersion: rest-v3
     source: github-actions
 health:

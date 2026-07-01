@@ -114,7 +114,7 @@ github:
     releases_url: https://api.github.com/repos/utmapp/UTM/releases{/id}
     deployments_url: https://api.github.com/repos/utmapp/UTM/deployments
     created_at: 2019-04-12T16:09:24Z
-    updated_at: 2026-06-30T08:12:40Z
+    updated_at: 2026-07-01T07:12:12Z
     pushed_at: 2026-06-08T16:07:02Z
     git_url: git://github.com/utmapp/UTM.git
     ssh_url: git@github.com:utmapp/UTM.git
@@ -122,8 +122,8 @@ github:
     svn_url: https://github.com/utmapp/UTM
     homepage: https://getutm.app
     size: 50567
-    stargazers_count: 34553
-    watchers_count: 34553
+    stargazers_count: 34563
+    watchers_count: 34563
     language: Swift
     has_issues: true
     has_projects: true
@@ -131,7 +131,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1745
+    forks_count: 1747
     mirror_url: null
     archived: false
     disabled: false
@@ -158,9 +158,9 @@ github:
       - virtual-machines
       - vm
     visibility: public
-    forks: 1745
+    forks: 1747
     open_issues: 1072
-    watchers: 34553
+    watchers: 34563
     default_branch: main
     permissions:
       admin: false
@@ -190,10 +190,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1745
+    network_count: 1747
     subscribers_count: 383
   sync:
-    syncedAt: 2026-06-30T08:17:11.423Z
+    syncedAt: 2026-07-01T08:30:08.390Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -268,7 +268,7 @@ github:
         state: uploaded
         size: 130058653
         digest: sha256:42c568d53f12f2d594665daa7f7382af501b97880d61f58aceca73de23f17b28
-        download_count: 14738
+        download_count: 14809
         created_at: 2026-01-03T18:15:42Z
         updated_at: 2026-01-03T18:15:46Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-HV.ipa
@@ -301,7 +301,7 @@ github:
         state: uploaded
         size: 32233531
         digest: sha256:bb0e11da406f98246f011950a976da29f1769dc0852718db766142c22b4ec6f9
-        download_count: 849
+        download_count: 853
         created_at: 2026-01-03T18:14:42Z
         updated_at: 2026-01-03T18:14:44Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-Remote-visionOS.ipa
@@ -334,7 +334,7 @@ github:
         state: uploaded
         size: 34171465
         digest: sha256:04e238b7efaf44d4b7f55dd8e3a5b23d08b040c2a60f8a166ed72409c60aca5e
-        download_count: 777
+        download_count: 782
         created_at: 2026-01-03T18:15:11Z
         updated_at: 2026-01-03T18:15:13Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-Remote.ipa
@@ -367,7 +367,7 @@ github:
         state: uploaded
         size: 211943162
         digest: sha256:840bee6474b1428a48a6d331e4c3cc0b062a90416914aca794e1abb90bc99f1f
-        download_count: 657
+        download_count: 658
         created_at: 2026-01-03T18:16:26Z
         updated_at: 2026-01-03T18:16:34Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE-visionOS.ipa
@@ -400,7 +400,7 @@ github:
         state: uploaded
         size: 213878374
         digest: sha256:ccb8529b8b8781410ff481e4ffbdf0d1b47ce5d431031e782e4b6f9601cac06d
-        download_count: 8805
+        download_count: 8851
         created_at: 2026-01-03T18:12:59Z
         updated_at: 2026-01-03T18:13:08Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa
@@ -433,7 +433,7 @@ github:
         state: uploaded
         size: 127860014
         digest: sha256:a5723d0c41ea3e00793e05725cfab5dd343b1fe3256aba702a91f786128b734f
-        download_count: 491
+        download_count: 497
         created_at: 2026-01-03T18:13:55Z
         updated_at: 2026-01-03T18:14:00Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-visionOS.ipa
@@ -466,7 +466,7 @@ github:
         state: uploaded
         size: 128648546
         digest: sha256:1ad80ea5a85651936f67757e173cf752dc21101a2275f01f441158da90d3ca9f
-        download_count: 6633
+        download_count: 6665
         created_at: 2026-01-03T18:14:40Z
         updated_at: 2026-01-03T18:14:45Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.deb
@@ -499,7 +499,7 @@ github:
         state: uploaded
         size: 250021057
         digest: sha256:a8435c93cfb5f8bbfeea4b134cfad1ac66b67632b75e438c63b1a8ae043bef0e
-        download_count: 3097569
+        download_count: 3115254
         created_at: 2026-01-03T18:20:37Z
         updated_at: 2026-01-03T18:20:47Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.dmg
@@ -532,7 +532,7 @@ github:
         state: uploaded
         size: 130058389
         digest: sha256:999d17d735af7e19db2029661c4d68fe0dcec003e3fc646899d7a569e48ec101
-        download_count: 55599
+        download_count: 55874
         created_at: 2026-01-03T18:14:45Z
         updated_at: 2026-01-03T18:14:50Z
         browser_download_url: https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa
@@ -880,8 +880,6 @@ github:
     mentions_count: 8
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 52
       - month: 2026-02
         commits: 13
       - month: 2026-03
@@ -892,6 +890,8 @@ github:
         commits: 12
       - month: 2026-06
         commits: 2
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 3741
     contributorsKnown: 106
     openPullRequests: 26

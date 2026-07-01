@@ -107,7 +107,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 403
+    forks_count: 402
     mirror_url: null
     archived: false
     disabled: false
@@ -125,7 +125,7 @@ github:
     pull_request_creation_policy: all
     topics: []
     visibility: public
-    forks: 403
+    forks: 402
     open_issues: 31
     watchers: 920
     default_branch: master
@@ -136,12 +136,10 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 403
+    network_count: 402
     subscribers_count: 48
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -152,11 +150,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 442
     openPullRequests: 1
     contributorsKnown: 21
   sync:
-    syncedAt: 2026-06-30T08:16:58.479Z
+    syncedAt: 2026-07-01T08:29:57.368Z
     apiVersion: rest-v3
     source: github-actions
   languages:

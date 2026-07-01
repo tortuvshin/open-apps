@@ -150,8 +150,6 @@ github:
     subscribers_count: 3
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -162,11 +160,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 71
     openPullRequests: 0
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-30T08:16:33.581Z
+    syncedAt: 2026-07-01T08:29:34.448Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -241,7 +241,7 @@ github:
         state: uploaded
         size: 6638408
         digest: null
-        download_count: 242
+        download_count: 243
         created_at: 2021-07-16T08:34:11Z
         updated_at: 2021-07-16T08:34:16Z
         browser_download_url: https://github.com/ArizArmeidi/AnimSearch/releases/download/v1.0/AnimSearch-arm64-v8a-release-v1.0.apk
@@ -274,7 +274,7 @@ github:
         state: uploaded
         size: 6234042
         digest: null
-        download_count: 64
+        download_count: 65
         created_at: 2021-07-16T08:34:16Z
         updated_at: 2021-07-16T08:34:21Z
         browser_download_url: https://github.com/ArizArmeidi/AnimSearch/releases/download/v1.0/AnimSearch-armeabi-v7a-release-v1.0.apk
@@ -307,7 +307,7 @@ github:
         state: uploaded
         size: 6791247
         digest: null
-        download_count: 53
+        download_count: 54
         created_at: 2021-07-16T08:34:21Z
         updated_at: 2021-07-16T08:34:25Z
         browser_download_url: https://github.com/ArizArmeidi/AnimSearch/releases/download/v1.0/AnimSearch-x86_64-release-v1.0.apk

@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/gdgluanda/rapidinho/releases{/id}
     deployments_url: https://api.github.com/repos/gdgluanda/rapidinho/deployments
     created_at: 2018-09-02T15:28:54Z
-    updated_at: 2026-05-27T15:07:45Z
+    updated_at: 2026-06-30T23:59:29Z
     pushed_at: 2021-05-29T08:36:22Z
     git_url: git://github.com/gdgluanda/rapidinho.git
     ssh_url: git@github.com:gdgluanda/rapidinho.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/gdgluanda/rapidinho
     homepage: ""
     size: 9120
-    stargazers_count: 198
-    watchers_count: 198
+    stargazers_count: 199
+    watchers_count: 199
     language: Dart
     has_issues: true
     has_projects: true
@@ -133,7 +133,7 @@ github:
     visibility: public
     forks: 77
     open_issues: 17
-    watchers: 198
+    watchers: 199
     default_branch: master
     permissions:
       admin: false
@@ -167,8 +167,6 @@ github:
     subscribers_count: 14
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -179,11 +177,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 152
     openPullRequests: 1
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-30T08:17:01.510Z
+    syncedAt: 2026-07-01T08:30:00.007Z
     apiVersion: rest-v3
     source: github-actions
   languages:

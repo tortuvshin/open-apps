@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-06-30T08:08:10Z
-    pushed_at: 2026-06-29T23:16:23Z
+    updated_at: 2026-06-30T20:20:00Z
+    pushed_at: 2026-06-30T21:57:14Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 286446
+    size: 286453
     stargazers_count: 4363
     watchers_count: 4363
     language: TypeScript
@@ -123,11 +123,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 750
+    forks_count: 749
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 30
+    open_issues_count: 28
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -146,8 +146,8 @@ github:
       - rainbow
       - react-native
     visibility: public
-    forks: 750
-    open_issues: 30
+    forks: 749
+    open_issues: 28
     watchers: 4363
     default_branch: develop
     permissions:
@@ -178,10 +178,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 750
+    network_count: 749
     subscribers_count: 69
   languages:
-    TypeScript: 9154429
+    TypeScript: 9165525
     JavaScript: 392223
     Swift: 101323
     Objective-C: 62738
@@ -284,8 +284,6 @@ github:
       - Fix: temp disable App Store rating prompt (https://github.com/rainbow-me/rainbow/pull/7633)"
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -293,12 +291,14 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 4
+        commits: 1
       - month: 2026-06
-        commits: 96
-    totalCommitsKnown: 9184
+        commits: 99
+      - month: 2026-07
+        commits: 0
+    totalCommitsKnown: 9187
     contributorsKnown: 73
-    openPullRequests: 30
+    openPullRequests: 28
   files:
     readme: true
     contributing: false
@@ -308,7 +308,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-06-30T08:17:01.727Z
+    syncedAt: 2026-07-01T08:30:00.207Z
     apiVersion: rest-v3
     source: github-actions
 health:

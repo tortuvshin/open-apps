@@ -175,8 +175,6 @@ github:
     subscribers_count: 10
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -187,11 +185,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 540
     openPullRequests: 14
     contributorsKnown: 63
   sync:
-    syncedAt: 2026-06-30T08:17:06.694Z
+    syncedAt: 2026-07-01T08:30:04.291Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -274,7 +274,7 @@ github:
         state: uploaded
         size: 28883950
         digest: null
-        download_count: 9811
+        download_count: 9826
         created_at: 2025-02-22T15:13:12Z
         updated_at: 2025-02-22T15:13:14Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-all.apk
@@ -307,7 +307,7 @@ github:
         state: uploaded
         size: 10948659
         digest: null
-        download_count: 3045
+        download_count: 3049
         created_at: 2025-02-22T15:13:12Z
         updated_at: 2025-02-22T15:13:13Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-android-arm64-v8a.apk
@@ -406,7 +406,7 @@ github:
         state: uploaded
         size: 27963820
         digest: null
-        download_count: 6124
+        download_count: 6130
         created_at: 2025-02-22T15:05:15Z
         updated_at: 2025-02-22T15:05:16Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa
@@ -439,7 +439,7 @@ github:
         state: uploaded
         size: 12440428
         digest: null
-        download_count: 2031
+        download_count: 2033
         created_at: 2025-02-22T15:06:54Z
         updated_at: 2025-02-22T15:06:54Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-linux-x64.tar.gz
@@ -472,7 +472,7 @@ github:
         state: uploaded
         size: 21567242
         digest: null
-        download_count: 2989
+        download_count: 2993
         created_at: 2025-02-22T15:04:43Z
         updated_at: 2025-02-22T15:04:44Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-macos-x64.zip
@@ -505,7 +505,7 @@ github:
         state: uploaded
         size: 11022017
         digest: null
-        download_count: 1742
+        download_count: 1744
         created_at: 2025-02-22T15:03:39Z
         updated_at: 2025-02-22T15:03:39Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-web.zip
@@ -538,7 +538,7 @@ github:
         state: uploaded
         size: 14532608
         digest: null
-        download_count: 22949
+        download_count: 22985
         created_at: 2025-02-22T15:09:36Z
         updated_at: 2025-02-22T15:09:37Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-windows-x64.msi
@@ -571,7 +571,7 @@ github:
         state: uploaded
         size: 21012554
         digest: null
-        download_count: 13050
+        download_count: 13063
         created_at: 2025-02-22T15:09:36Z
         updated_at: 2025-02-22T15:09:37Z
         browser_download_url: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-windows-x64.zip

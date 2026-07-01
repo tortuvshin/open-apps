@@ -167,8 +167,6 @@ github:
     subscribers_count: 14
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 5
       - month: 2026-02
         commits: 18
       - month: 2026-03
@@ -179,11 +177,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 1
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 6162
     openPullRequests: 5
     contributorsKnown: 27
   sync:
-    syncedAt: 2026-06-30T08:17:13.694Z
+    syncedAt: 2026-07-01T08:30:10.458Z
     apiVersion: rest-v3
     source: github-actions
   languages:

@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-06-30T07:05:55Z
+    updated_at: 2026-07-01T07:52:36Z
     pushed_at: 2026-06-27T08:41:30Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 99682
-    stargazers_count: 26399
-    watchers_count: 26399
+    stargazers_count: 26411
+    watchers_count: 26411
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1279
+    forks_count: 1281
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 661
+    open_issues_count: 662
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1279
-    open_issues: 661
-    watchers: 26399
+    forks: 1281
+    open_issues: 662
+    watchers: 26411
     default_branch: main
     permissions:
       admin: false
@@ -182,7 +182,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1279
+    network_count: 1281
     subscribers_count: 74
   languages:
     TypeScript: 3803772
@@ -1119,8 +1119,6 @@ github:
     mentions_count: 31
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -1131,9 +1129,11 @@ github:
         commits: 75
       - month: 2026-06
         commits: 13
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 2063
     contributorsKnown: 182
-    openPullRequests: 71
+    openPullRequests: 72
   files:
     readme: true
     contributing: true
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-06-30T08:16:51.694Z
+    syncedAt: 2026-07-01T08:29:51.373Z
     apiVersion: rest-v3
     source: github-actions
 health:

@@ -157,8 +157,6 @@ github:
     subscribers_count: 17
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -169,11 +167,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 59
     openPullRequests: 5
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-06-30T08:16:43.109Z
+    syncedAt: 2026-07-01T08:29:43.111Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -251,7 +251,7 @@ github:
         state: uploaded
         size: 13475126
         digest: null
-        download_count: 667
+        download_count: 671
         created_at: 2024-10-08T22:50:19Z
         updated_at: 2024-10-08T22:50:20Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/app-arm64-v8a-release.apk
@@ -284,7 +284,7 @@ github:
         state: uploaded
         size: 13096673
         digest: null
-        download_count: 204
+        download_count: 205
         created_at: 2024-10-08T22:50:19Z
         updated_at: 2024-10-08T22:50:26Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/app-armeabi-v7a-release.apk
@@ -317,7 +317,7 @@ github:
         state: uploaded
         size: 13652901
         digest: null
-        download_count: 137
+        download_count: 139
         created_at: 2024-10-08T22:50:19Z
         updated_at: 2024-10-08T22:50:20Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/app-x86_64-release.apk

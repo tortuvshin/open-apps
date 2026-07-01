@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases{/id}
     deployments_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments
     created_at: 2017-08-03T18:21:33Z
-    updated_at: 2026-06-29T21:11:57Z
-    pushed_at: 2026-06-30T00:36:16Z
+    updated_at: 2026-06-30T23:31:00Z
+    pushed_at: 2026-07-01T01:12:57Z
     git_url: git://github.com/RocketChat/Rocket.Chat.ReactNative.git
     ssh_url: git@github.com:RocketChat/Rocket.Chat.ReactNative.git
     clone_url: https://github.com/RocketChat/Rocket.Chat.ReactNative.git
     svn_url: https://github.com/RocketChat/Rocket.Chat.ReactNative
     homepage: https://rocket.chat
-    size: 369845
+    size: 369967
     stargazers_count: 2395
     watchers_count: 2395
     language: TypeScript
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 487
+    open_issues_count: 484
     license:
       key: mit
       name: MIT License
@@ -132,7 +132,7 @@ github:
       - react-native
     visibility: public
     forks: 1459
-    open_issues: 487
+    open_issues: 484
     watchers: 2395
     default_branch: develop
     permissions:
@@ -167,27 +167,27 @@ github:
     subscribers_count: 65
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 9
+        commits: 8
       - month: 2026-05
         commits: 30
       - month: 2026-06
-        commits: 61
-    totalCommitsKnown: 3363
-    openPullRequests: 256
+        commits: 62
+      - month: 2026-07
+        commits: 0
+    totalCommitsKnown: 3364
+    openPullRequests: 254
     contributorsKnown: 138
   sync:
-    syncedAt: 2026-06-30T08:17:02.538Z
+    syncedAt: 2026-07-01T08:30:00.916Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 3698959
+    TypeScript: 3714958
     Swift: 216681
     Kotlin: 178792
     JavaScript: 152634
@@ -264,7 +264,7 @@ github:
         state: uploaded
         size: 200791669
         digest: sha256:930b18aa256c6fd99b093b55c3a6c8675e1c7e7d282d772600d43b29914d6536
-        download_count: 294
+        download_count: 299
         created_at: 2026-06-09T20:08:34Z
         updated_at: 2026-06-09T20:08:49Z
         browser_download_url: https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/download/4.73.1/android-release.apk

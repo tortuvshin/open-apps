@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-06-30T06:58:49Z
-    pushed_at: 2026-06-30T08:15:31Z
+    updated_at: 2026-07-01T08:10:04Z
+    pushed_at: 2026-07-01T08:26:44Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2030035
+    size: 2030431
     stargazers_count: 2981
     watchers_count: 2981
     language: TypeScript
@@ -123,11 +123,11 @@ github:
     has_wiki: false
     has_pages: true
     has_discussions: false
-    forks_count: 1619
+    forks_count: 1618
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1874
+    open_issues_count: 1893
     license:
       key: other
       name: Other
@@ -148,8 +148,8 @@ github:
       - react-native
       - web3
     visibility: public
-    forks: 1619
-    open_issues: 1874
+    forks: 1618
+    open_issues: 1893
     watchers: 2981
     default_branch: main
     permissions:
@@ -182,11 +182,11 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1619
+    network_count: 1618
     subscribers_count: 142
   languages:
-    TypeScript: 71217746
-    JavaScript: 2192770
+    TypeScript: 71532262
+    JavaScript: 2201601
     Shell: 134312
     HTML: 100552
     Swift: 17895
@@ -202,11 +202,11 @@ github:
     Objective-C++: 693
     CMake: 273
   latestRelease:
-    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/345643070
-    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/345643070/assets
-    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/345643070/assets{?name,label}
-    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v8.0.0
-    id: 345643070
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/347143546
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/347143546/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/347143546/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v8.0.1
+    id: 347143546
     author:
       login: runway-github[bot]
       id: 73448015
@@ -227,86 +227,46 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCG4DHc4Umhg-
-    tag_name: v8.0.0
-    target_commitish: 7b8050ef8beb748feb59d566c2d5b81424d05b02
-    name: Release 8.0.0
+    node_id: RE_kwDOCG4DHc4UsP16
+    tag_name: v8.0.1
+    target_commitish: 0286ca7919d8641c0484aa6a85d677dcb551853f
+    name: Release 8.0.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-27T07:15:46Z
-    updated_at: 2026-06-27T07:16:23Z
-    published_at: 2026-06-27T07:16:04Z
-    assets:
-      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/459323162
-        id: 459323162
-        node_id: RA_kwDOCG4DHc4bYLca
-        name: metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.aab
-        label: ""
-        uploader:
-          login: runway-github[bot]
-          id: 73448015
-          node_id: MDM6Qm90NzM0NDgwMTU=
-          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
-          gravatar_id: ""
-          url: https://api.github.com/users/runway-github%5Bbot%5D
-          html_url: https://github.com/apps/runway-github
-          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
-          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
-          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
-          type: Bot
-          user_view_type: public
-          site_admin: false
-        content_type: application/octet-stream
-        state: uploaded
-        size: 189150570
-        digest: sha256:e1611238a8c97ae4ed47bd60245bf453b7552601c5a3aeeaf1d1633fdfeb9b81
-        download_count: 50
-        created_at: 2026-06-27T07:16:08Z
-        updated_at: 2026-06-27T07:16:13Z
-        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.0.0/metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.aab
-      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/459323219
-        id: 459323219
-        node_id: RA_kwDOCG4DHc4bYLdT
-        name: metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.apk
-        label: ""
-        uploader:
-          login: runway-github[bot]
-          id: 73448015
-          node_id: MDM6Qm90NzM0NDgwMTU=
-          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
-          gravatar_id: ""
-          url: https://api.github.com/users/runway-github%5Bbot%5D
-          html_url: https://github.com/apps/runway-github
-          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
-          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
-          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
-          type: Bot
-          user_view_type: public
-          site_admin: false
-        content_type: application/vnd.android.package-archive
-        state: uploaded
-        size: 294059997
-        digest: sha256:46fc42becb8d041d1ee8d7ad86e66705a58f19e190ab12ed431f2e533f923589
-        download_count: 658
-        created_at: 2026-06-27T07:16:16Z
-        updated_at: 2026-06-27T07:16:23Z
-        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.0.0/metamask-blockchain-wall-android3-8.0.0-metamask-production-main-8.0.0-5777.apk
-    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v8.0.0
-    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v8.0.0
+    created_at: 2026-06-30T22:58:35Z
+    updated_at: 2026-06-30T22:59:03Z
+    published_at: 2026-06-30T22:59:03Z
+    assets: []
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v8.0.1
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v8.0.1
     body: >-
+      * remove eslint in ota production and add diagnostic step (0286ca7)
+
+      * temporary change fingerprint generate (23e4506)
+
+      * update temporarily fingerprint generate (15bd7fd)
+
+      * ignore temporarily file changes on fingerprint generation on push-eas-update workflow
+      (b232dfd)
+
+      * chore: bigger machine ota update (#32608) (d9ed613)
+
+      * bigger machine ota update (cb78641)
+
+      * revert build number changes (5b684d4)
+
+      * [skip ci] Bump version number to 5803 (12c85fb)
+
+      * Cherry-picking commits from main to release/8.0.1-ota for PR #32546 (#32559) (0d8fe2b)
+
+      * [skip ci] Bump version number to 5801 (c740e51)
+
+      * Cherry-picking commits from cherry-pick-8-0-1-dfabe6d to release/8.0.1-ota for PR #32535
+      (#32544) (104ed50)
+
+      * chore: set OTA_VERSION to v8.0.1 for OTA hotfix (release/8.0.1-ota) (00864d8)
+
       * chore(runway): cherry-pick ci: add cursor[bot] to CLA signature bot allowlist cp-8.0.0
       (#32491) (7b8050e)
 
@@ -424,8 +384,6 @@ github:
 
       * release: 7.82.1 (OTA) (#32279) (3e9c3f5)
 
-      * Merge branch 'stable' into release/7.82.1-ota (95ff925)
-
       * [skip ci] Bump version number to 5708 (56def9d)
 
       * chore(runway): cherry-pick fix(confirmations): show "No fee" only for Money Account flows
@@ -435,8 +393,6 @@ github:
 
       * chore(runway): cherry-pick chore: classify musd back transactions on the client cp-8.0.0
       (#32353) (5bca9e4)
-
-      * release: release-changelog/7.82.1 (#32278) (6dc22a0)
 
       * [skip ci] Bump version number to 5704 (eef5aea)
 
@@ -495,8 +451,6 @@ github:
       * chore(runway): cherry-pick fix: add validation when depositing into perps/predict using
       money account total value exceeds balance cp-8.0.0 (#32321) (7a7e4b8)
 
-      * invert build number bump (dd1bf22)
-
       * [skip ci] Bump version number to 5671 (01eef49)
 
       * chore(runway): cherry-pick feat(money): replace "mUSD on Monad" icon and label with money
@@ -516,12 +470,6 @@ github:
 
       * chore(runway): cherry-pick fix: MUSD-1047 Money account "balance unavailable" after
       onboarding with existing balance cp-8.0.0 (#32274) (53cdfce)
-
-      * [skip ci] Bump version number to 5667 (df1cacd)
-
-      * Cherry-picking commits from main to release/7.82.1-ota for PR #32266 (#32280) (f59cd2b)
-
-      * chore: set OTA_VERSION to v7.82.1 for OTA hotfix (release/7.82.1-ota) (17553cb)
 
       * [skip ci] Bump version number to 5665 (a6ad9da)
 
@@ -556,13 +504,9 @@ github:
 
       * solve conflicts and update with release 8.0.0 (2f3ea6a)
 
-      * release: 7.82.0 (#31598) (86745bf)
-
       * [skip ci] Bump version number to 5641 (43ba46f)
 
       * Cherry pick 8 0 0 bad81ca7 (#32184) (3017b4c)
-
-      * trigger ci (401c83c)
 
       * [skip ci] Bump version number to 5638 (5f1b87b)
 
@@ -583,8 +527,6 @@ github:
 
       * chore(runway): cherry-pick chore: cp-8.0.0 bump transaction-controller to 68.1.0 and
       transaction-pay-controller to 23.13.0 (#32115) (baba0e4)
-
-      * [skip ci] Bump version number to 5619 (e77b646)
 
       * [skip ci] Bump version number to 5617 (3cefe28)
 
@@ -1182,10 +1124,19 @@ github:
       * refactor: feature flag watchlist cp-7.82.0 (#31581) (e78a68b)
 
       * refactor(ramp): remove unified buy v1 flag and smart routing (#31039) (ed7b42e)
+    reactions:
+      url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/347143546/reactions
+      total_count: 4
+      "+1": 1
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 1
+      rocket: 1
+      eyes: 1
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -1195,10 +1146,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 100
-    totalCommitsKnown: 18009
+        commits: 97
+      - month: 2026-07
+        commits: 3
+    totalCommitsKnown: 18041
     contributorsKnown: 300
-    openPullRequests: 485
+    openPullRequests: 497
   files:
     readme: true
     contributing: false
@@ -1208,7 +1161,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-30T08:16:55.873Z
+    syncedAt: 2026-07-01T08:29:54.784Z
     apiVersion: rest-v3
     source: github-actions
 health:

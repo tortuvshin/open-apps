@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/friebetill/TubeCards/releases{/id}
     deployments_url: https://api.github.com/repos/friebetill/TubeCards/deployments
     created_at: 2022-03-28T12:57:01Z
-    updated_at: 2026-06-02T13:02:29Z
+    updated_at: 2026-06-30T14:15:08Z
     pushed_at: 2024-03-12T23:17:55Z
     git_url: git://github.com/friebetill/TubeCards.git
     ssh_url: git@github.com:friebetill/TubeCards.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/friebetill/TubeCards
     homepage: https://tubecards.app/
     size: 17010
-    stargazers_count: 360
-    watchers_count: 360
+    stargazers_count: 359
+    watchers_count: 359
     language: Dart
     has_issues: true
     has_projects: true
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 5
+    open_issues_count: 6
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -130,8 +130,8 @@ github:
       - youtube
     visibility: public
     forks: 55
-    open_issues: 5
-    watchers: 360
+    open_issues: 6
+    watchers: 359
     default_branch: dev
     permissions:
       admin: false
@@ -144,8 +144,6 @@ github:
     subscribers_count: 5
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -156,11 +154,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 87
-    openPullRequests: 0
+    openPullRequests: 1
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-06-30T08:17:10.279Z
+    syncedAt: 2026-07-01T08:30:07.581Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -239,7 +239,7 @@ github:
         state: uploaded
         size: 36773436
         digest: null
-        download_count: 899
+        download_count: 902
         created_at: 2022-10-26T11:19:07Z
         updated_at: 2022-10-26T11:19:10Z
         browser_download_url: https://github.com/friebetill/TubeCards/releases/download/2.1.0/space_2.1.0.msix

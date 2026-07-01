@@ -92,7 +92,7 @@ github:
     releases_url: https://api.github.com/repos/altstoreio/AltStore/releases{/id}
     deployments_url: https://api.github.com/repos/altstoreio/AltStore/deployments
     created_at: 2019-05-10T18:29:53Z
-    updated_at: 2026-06-30T07:33:13Z
+    updated_at: 2026-07-01T07:54:18Z
     pushed_at: 2026-05-20T19:41:55Z
     git_url: git://github.com/altstoreio/AltStore.git
     ssh_url: git@github.com:altstoreio/AltStore.git
@@ -100,8 +100,8 @@ github:
     svn_url: https://github.com/altstoreio/AltStore
     homepage: https://altstore.io
     size: 224573
-    stargazers_count: 14009
-    watchers_count: 14009
+    stargazers_count: 14013
+    watchers_count: 14013
     language: Swift
     has_issues: true
     has_projects: true
@@ -129,7 +129,7 @@ github:
     visibility: public
     forks: 1336
     open_issues: 663
-    watchers: 14009
+    watchers: 14013
     default_branch: marketplace
     permissions:
       admin: false
@@ -163,8 +163,6 @@ github:
     subscribers_count: 238
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 2
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -175,11 +173,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 1492
     openPullRequests: 25
     contributorsKnown: 12
   sync:
-    syncedAt: 2026-06-30T08:16:32.789Z
+    syncedAt: 2026-07-01T08:29:33.741Z
     apiVersion: rest-v3
     source: github-actions
   languages:

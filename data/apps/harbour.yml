@@ -181,7 +181,7 @@ github:
     network_count: 28
     subscribers_count: 12
   sync:
-    syncedAt: 2026-06-30T08:16:48.640Z
+    syncedAt: 2026-07-01T08:29:48.614Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -254,7 +254,7 @@ github:
         state: uploaded
         size: 8552473
         digest: sha256:544e103224fc35508639f9cb75efbf2e8118e3d2e2e7eef115e65c3520d38482
-        download_count: 33
+        download_count: 35
         created_at: 2026-05-02T21:41:42Z
         updated_at: 2026-05-02T21:41:44Z
         browser_download_url: https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.ipa
@@ -287,7 +287,7 @@ github:
         state: uploaded
         size: 7584133
         digest: sha256:4974c9b0274a90d3f9c467c698978dbcd5952e7b81bb9fad576a6eb1dcbebba8
-        download_count: 12
+        download_count: 13
         created_at: 2026-05-02T21:41:42Z
         updated_at: 2026-05-02T21:41:44Z
         browser_download_url: https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.pkg
@@ -306,8 +306,6 @@ github:
       **Full Changelog**: https://github.com/rrroyal/Harbour/compare/v4.2.8...v4.2.9\r\n"
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 4
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -317,6 +315,8 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
+        commits: 0
+      - month: 2026-07
         commits: 0
     totalCommitsKnown: 216
     contributorsKnown: 2

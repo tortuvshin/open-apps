@@ -94,7 +94,7 @@ github:
     releases_url: https://api.github.com/repos/joreilly/PeopleInSpace/releases{/id}
     deployments_url: https://api.github.com/repos/joreilly/PeopleInSpace/deployments
     created_at: 2019-12-22T20:19:16Z
-    updated_at: 2026-06-27T02:34:56Z
+    updated_at: 2026-06-30T15:21:12Z
     pushed_at: 2026-06-28T16:17:29Z
     git_url: git://github.com/joreilly/PeopleInSpace.git
     ssh_url: git@github.com:joreilly/PeopleInSpace.git
@@ -102,8 +102,8 @@ github:
     svn_url: https://github.com/joreilly/PeopleInSpace
     homepage: ""
     size: 73609
-    stargazers_count: 3347
-    watchers_count: 3347
+    stargazers_count: 3348
+    watchers_count: 3348
     language: Kotlin
     has_issues: true
     has_projects: true
@@ -150,7 +150,7 @@ github:
     visibility: public
     forks: 297
     open_issues: 15
-    watchers: 3347
+    watchers: 3348
     default_branch: main
     permissions:
       admin: false
@@ -163,8 +163,6 @@ github:
     subscribers_count: 35
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 13
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -175,11 +173,13 @@ github:
         commits: 6
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 991
     openPullRequests: 10
     contributorsKnown: 38
   sync:
-    syncedAt: 2026-06-30T08:16:59.219Z
+    syncedAt: 2026-07-01T08:29:58.119Z
     apiVersion: rest-v3
     source: github-actions
   languages:

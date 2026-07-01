@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/mattermost/mattermost-mobile/deployments
     created_at: 2016-10-07T16:52:32Z
-    updated_at: 2026-06-30T07:43:40Z
-    pushed_at: 2026-06-30T06:25:29Z
+    updated_at: 2026-06-30T16:35:26Z
+    pushed_at: 2026-07-01T05:29:44Z
     git_url: git://github.com/mattermost/mattermost-mobile.git
     ssh_url: git@github.com:mattermost/mattermost-mobile.git
     clone_url: https://github.com/mattermost/mattermost-mobile.git
     svn_url: https://github.com/mattermost/mattermost-mobile
     homepage: https://about.mattermost.com/
-    size: 187382
-    stargazers_count: 2685
-    watchers_count: 2685
+    size: 187458
+    stargazers_count: 2684
+    watchers_count: 2684
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1629
+    forks_count: 1630
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 288
+    open_issues_count: 292
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -143,9 +143,9 @@ github:
       - hacktoberfest
       - mattermost-mobile
     visibility: public
-    forks: 1629
-    open_issues: 288
-    watchers: 2685
+    forks: 1630
+    open_issues: 292
+    watchers: 2684
     default_branch: main
     permissions:
       admin: false
@@ -175,7 +175,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1629
+    network_count: 1630
     subscribers_count: 91
   languages:
     TypeScript: 16011811
@@ -255,7 +255,7 @@ github:
         state: uploaded
         size: 227730274
         digest: sha256:2a77dd64c387e2cde41ad040a239ef738c7905c199b93fa7be8506235ad43068
-        download_count: 106
+        download_count: 113
         created_at: 2026-06-23T08:36:19Z
         updated_at: 2026-06-23T08:36:28Z
         browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.41.2/Mattermost-unsigned.apk
@@ -362,8 +362,6 @@ github:
       [Mattermost](https://releases.mattermost.com/mattermost-mobile/2.41.2/775/Mattermost.ipa)"
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -374,9 +372,11 @@ github:
         commits: 30
       - month: 2026-06
         commits: 39
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 3457
     contributorsKnown: 218
-    openPullRequests: 78
+    openPullRequests: 82
   files:
     readme: true
     contributing: true
@@ -386,7 +386,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-06-30T08:16:53.912Z
+    syncedAt: 2026-07-01T08:29:53.498Z
     apiVersion: rest-v3
     source: github-actions
 health:

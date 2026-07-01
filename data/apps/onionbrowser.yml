@@ -120,16 +120,16 @@ github:
     releases_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases{/id}
     deployments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/deployments
     created_at: 2012-02-24T08:50:51Z
-    updated_at: 2026-06-30T07:31:14Z
-    pushed_at: 2026-06-24T11:34:13Z
+    updated_at: 2026-07-01T06:50:57Z
+    pushed_at: 2026-06-30T13:53:59Z
     git_url: git://github.com/OnionBrowser/OnionBrowser.git
     ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
     clone_url: https://github.com/OnionBrowser/OnionBrowser.git
     svn_url: https://github.com/OnionBrowser/OnionBrowser
     homepage: https://onionbrowser.com
-    size: 133195
-    stargazers_count: 2613
-    watchers_count: 2613
+    size: 133215
+    stargazers_count: 2615
+    watchers_count: 2615
     language: Swift
     has_issues: true
     has_projects: true
@@ -137,11 +137,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 531
+    forks_count: 532
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 10
+    open_issues_count: 7
     license:
       key: other
       name: Other
@@ -167,9 +167,9 @@ github:
       - tor-network
       - web-browser
     visibility: public
-    forks: 531
-    open_issues: 10
-    watchers: 2613
+    forks: 532
+    open_issues: 7
+    watchers: 2615
     default_branch: 3.X
     permissions:
       admin: false
@@ -199,10 +199,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 531
+    network_count: 532
     subscribers_count: 166
   sync:
-    syncedAt: 2026-06-30T08:16:58.333Z
+    syncedAt: 2026-07-01T08:29:57.549Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -245,13 +245,13 @@ github:
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-24T11:30:29Z
-    updated_at: 2026-06-24T11:37:19Z
+    created_at: 2026-06-30T13:52:12Z
+    updated_at: 2026-06-30T13:58:46Z
     published_at: 2026-06-24T11:37:19Z
     assets:
-      - url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/assets/456578947
-        id: 456578947
-        node_id: RA_kwDOADXtJ84bNteD
+      - url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/assets/462205862
+        id: 462205862
+        node_id: RA_kwDOADXtJ84bjLOm
         name: OnionBrowser.ipa
         label: null
         uploader:
@@ -276,17 +276,17 @@ github:
           site_admin: false
         content_type: application/octet-stream
         state: uploaded
-        size: 35893388
-        digest: sha256:883988af2d8bdbd48b430e90e000cbc87d0d13331bc7ac1566e21b59d09cf56b
-        download_count: 82
-        created_at: 2026-06-24T11:36:29Z
-        updated_at: 2026-06-24T11:37:11Z
+        size: 35892550
+        digest: sha256:28fc793eddebef97bde139ac1e1c7e6870ffd1179df96c51eb1735474e4d1442
+        download_count: 18
+        created_at: 2026-06-30T13:58:05Z
+        updated_at: 2026-06-30T13:58:46Z
         browser_download_url: https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa
     tarball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/tarball/v3.4.0
     zipball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/zipball/v3.4.0
-    body: "- Updated Tor to 0.4.9.10.\r
+    body: "- Updated Tor to 0.4.9.11.\r
 
-      - Updated Snowflake to 2.14.0.\r
+      - Updated Snowflake to 2.14.1.\r
 
       - Updated DNSTT to 1.20260501.0.\r
 
@@ -314,8 +314,6 @@ github:
       eyes: 0
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 6
       - month: 2026-02
         commits: 14
       - month: 2026-03
@@ -325,8 +323,10 @@ github:
       - month: 2026-05
         commits: 11
       - month: 2026-06
-        commits: 19
-    totalCommitsKnown: 1642
+        commits: 22
+      - month: 2026-07
+        commits: 0
+    totalCommitsKnown: 1645
     contributorsKnown: 18
     openPullRequests: 0
   files:

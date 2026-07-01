@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/AudioKit/AudioKit/releases{/id}
     deployments_url: https://api.github.com/repos/AudioKit/AudioKit/deployments
     created_at: 2014-01-21T08:16:07Z
-    updated_at: 2026-06-30T06:07:20Z
+    updated_at: 2026-07-01T01:52:23Z
     pushed_at: 2026-05-30T19:49:26Z
     git_url: git://github.com/AudioKit/AudioKit.git
     ssh_url: git@github.com:AudioKit/AudioKit.git
@@ -107,7 +107,7 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1615
+    forks_count: 1616
     mirror_url: null
     archived: false
     disabled: false
@@ -135,7 +135,7 @@ github:
       - swift-playgrounds
       - tvos
     visibility: public
-    forks: 1615
+    forks: 1616
     open_issues: 4
     watchers: 11384
     default_branch: main
@@ -167,12 +167,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1615
+    network_count: 1616
     subscribers_count: 294
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -183,11 +181,13 @@ github:
         commits: 2
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 12509
     openPullRequests: 2
     contributorsKnown: 224
   sync:
-    syncedAt: 2026-06-30T08:16:34.618Z
+    syncedAt: 2026-07-01T08:29:35.314Z
     apiVersion: rest-v3
     source: github-actions
   languages:

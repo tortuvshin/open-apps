@@ -147,8 +147,6 @@ github:
     subscribers_count: 37
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -159,11 +157,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 3078
     openPullRequests: 1
     contributorsKnown: 21
   sync:
-    syncedAt: 2026-06-30T08:16:48.601Z
+    syncedAt: 2026-07-01T08:29:48.364Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -304,7 +304,7 @@ github:
         state: uploaded
         size: 42755766
         digest: null
-        download_count: 751
+        download_count: 752
         created_at: 2023-07-08T11:53:48Z
         updated_at: 2023-07-08T11:53:50Z
         browser_download_url: https://github.com/robertodoering/harpy/releases/download/0.10.3/app-armeabi-v7a-pro-release.apk

@@ -148,8 +148,6 @@ github:
     subscribers_count: 63
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -160,11 +158,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 402
     openPullRequests: 3
     contributorsKnown: 41
   sync:
-    syncedAt: 2026-06-30T08:16:37.265Z
+    syncedAt: 2026-07-01T08:29:37.767Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -235,7 +235,7 @@ github:
         state: uploaded
         size: 1776739
         digest: null
-        download_count: 7113
+        download_count: 7114
         created_at: 2020-08-07T17:37:21Z
         updated_at: 2020-08-07T17:37:41Z
         browser_download_url: https://github.com/mhdhejazi/CoronaTracker/releases/download/v1.7.2/CoronaTracker-macOS.zip

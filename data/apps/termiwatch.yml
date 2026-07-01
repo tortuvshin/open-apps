@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/kuglee/TermiWatch/releases{/id}
     deployments_url: https://api.github.com/repos/kuglee/TermiWatch/deployments
     created_at: 2018-12-09T19:21:04Z
-    updated_at: 2026-06-19T13:04:00Z
+    updated_at: 2026-06-30T18:13:29Z
     pushed_at: 2022-08-27T20:57:53Z
     git_url: git://github.com/kuglee/TermiWatch.git
     ssh_url: git@github.com:kuglee/TermiWatch.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/kuglee/TermiWatch
     homepage: null
     size: 3329
-    stargazers_count: 2261
-    watchers_count: 2261
+    stargazers_count: 2262
+    watchers_count: 2262
     language: Swift
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     visibility: public
     forks: 186
     open_issues: 51
-    watchers: 2261
+    watchers: 2262
     default_branch: master
     permissions:
       admin: false
@@ -140,8 +140,6 @@ github:
     subscribers_count: 44
   activity:
     monthlyCommits:
-      - month: 2026-01
-        commits: 0
       - month: 2026-02
         commits: 0
       - month: 2026-03
@@ -152,11 +150,13 @@ github:
         commits: 0
       - month: 2026-06
         commits: 0
+      - month: 2026-07
+        commits: 0
     totalCommitsKnown: 31
     openPullRequests: 1
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-06-30T08:17:07.596Z
+    syncedAt: 2026-07-01T08:30:05.063Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -227,7 +227,7 @@ github:
         state: uploaded
         size: 8567650
         digest: null
-        download_count: 2185
+        download_count: 2186
         created_at: 2019-03-16T16:55:30Z
         updated_at: 2019-03-16T16:55:49Z
         browser_download_url: https://github.com/kuglee/TermiWatch/releases/download/1.1.1_Swift5/TermiWatch_1.1.1_Carthage.zip
