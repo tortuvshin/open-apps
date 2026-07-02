@@ -108,14 +108,14 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-06-30T11:30:38Z
-    pushed_at: 2026-07-01T08:15:54Z
+    updated_at: 2026-07-02T00:52:17Z
+    pushed_at: 2026-07-01T09:39:59Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 272638
+    size: 272847
     stargazers_count: 9220
     watchers_count: 9220
     language: TypeScript
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 93
+    open_issues_count: 91
     license:
       key: other
       name: Other
@@ -163,7 +163,7 @@ github:
       - surveillance
     visibility: public
     forks: 495
-    open_issues: 93
+    open_issues: 91
     watchers: 9220
     default_branch: master
     permissions:
@@ -268,10 +268,21 @@ github:
 
 
 
+    reactions:
+      url: https://api.github.com/repos/berty/berty/releases/346705086/reactions
+      total_count: 1
+      "+1": 0
+      "-1": 0
+      laugh: 0
+      hooray: 1
+      confused: 0
+      heart: 0
+      rocket: 0
+      eyes: 0
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 2
+        commits: 1
       - month: 2026-03
         commits: 43
       - month: 2026-04
@@ -281,10 +292,10 @@ github:
       - month: 2026-06
         commits: 21
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 8355
+        commits: 6
+    totalCommitsKnown: 8361
     contributorsKnown: 70
-    openPullRequests: 20
+    openPullRequests: 17
   files:
     readme: true
     contributing: false
@@ -300,7 +311,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-01T08:29:36.133Z
+    syncedAt: 2026-07-02T08:06:38.362Z
     apiVersion: rest-v3
     source: github-actions
 health:

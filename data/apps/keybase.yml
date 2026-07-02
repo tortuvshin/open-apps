@@ -104,16 +104,16 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-06-30T12:15:11Z
-    pushed_at: 2026-06-29T18:20:27Z
+    updated_at: 2026-07-01T23:30:25Z
+    pushed_at: 2026-07-01T23:23:03Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 746531
-    stargazers_count: 9224
-    watchers_count: 9224
+    size: 747214
+    stargazers_count: 9223
+    watchers_count: 9223
     language: Go
     has_issues: true
     has_projects: false
@@ -125,7 +125,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4249
+    open_issues_count: 4248
     license:
       key: bsd-3-clause
       name: BSD 3-Clause "New" or "Revised" License
@@ -148,8 +148,8 @@ github:
       - react-native
     visibility: public
     forks: 1290
-    open_issues: 4249
-    watchers: 9224
+    open_issues: 4248
+    watchers: 9223
     default_branch: master
     permissions:
       admin: false
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 278
+        download_count: 296
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -304,7 +304,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:b6742027c8335799095d9e82cfdd9b1273321a92159661e788265750ccb65d7f
-        download_count: 141
+        download_count: 159
         created_at: 2026-06-03T14:23:49Z
         updated_at: 2026-06-03T14:23:50Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz.sig
@@ -331,18 +331,18 @@ github:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 3
+        commits: 0
       - month: 2026-04
-        commits: 26
+        commits: 23
       - month: 2026-05
         commits: 17
       - month: 2026-06
         commits: 54
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 37680
+        commits: 6
+    totalCommitsKnown: 37686
     contributorsKnown: 120
-    openPullRequests: 201
+    openPullRequests: 200
   files:
     readme: true
     contributing: false
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-07-01T08:29:51.713Z
+    syncedAt: 2026-07-02T08:06:53.971Z
     apiVersion: rest-v3
     source: github-actions
 health:

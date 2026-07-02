@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-07-01T04:22:40Z
-    pushed_at: 2026-07-01T00:55:05Z
+    updated_at: 2026-07-02T04:21:53Z
+    pushed_at: 2026-07-01T16:42:01Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
     clone_url: https://github.com/linkwarden/linkwarden.git
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
-    size: 37227
-    stargazers_count: 18804
-    watchers_count: 18804
+    size: 37245
+    stargazers_count: 18806
+    watchers_count: 18806
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 634
+    open_issues_count: 632
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -152,8 +152,8 @@ github:
       - typescript
     visibility: public
     forks: 794
-    open_issues: 634
-    watchers: 18804
+    open_issues: 632
+    watchers: 18806
     default_branch: main
     permissions:
       admin: false
@@ -280,7 +280,7 @@ github:
         commits: 0
     totalCommitsKnown: 2868
     contributorsKnown: 81
-    openPullRequests: 32
+    openPullRequests: 30
   files:
     readme: true
     contributing: false
@@ -296,7 +296,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-01T08:29:52.461Z
+    syncedAt: 2026-07-02T08:06:54.800Z
     apiVersion: rest-v3
     source: github-actions
 health:
