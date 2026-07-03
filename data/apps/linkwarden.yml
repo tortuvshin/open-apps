@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-07-01T04:22:40Z
-    pushed_at: 2026-07-01T00:55:05Z
+    updated_at: 2026-07-03T10:06:49Z
+    pushed_at: 2026-07-02T21:26:57Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
     clone_url: https://github.com/linkwarden/linkwarden.git
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
-    size: 37227
-    stargazers_count: 18804
-    watchers_count: 18804
+    size: 37447
+    stargazers_count: 18810
+    watchers_count: 18810
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 794
+    forks_count: 795
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 634
+    open_issues_count: 631
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -151,9 +151,9 @@ github:
       - self-hosted
       - typescript
     visibility: public
-    forks: 794
-    open_issues: 634
-    watchers: 18804
+    forks: 795
+    open_issues: 631
+    watchers: 18810
     default_branch: main
     permissions:
       admin: false
@@ -183,7 +183,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 794
+    network_count: 795
     subscribers_count: 42
   languages:
     TypeScript: 1312020
@@ -280,7 +280,7 @@ github:
         commits: 0
     totalCommitsKnown: 2868
     contributorsKnown: 81
-    openPullRequests: 32
+    openPullRequests: 29
   files:
     readme: true
     contributing: false
@@ -296,7 +296,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-01T08:29:52.461Z
+    syncedAt: 2026-07-03T10:08:13.089Z
     apiVersion: rest-v3
     source: github-actions
 health:

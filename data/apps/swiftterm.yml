@@ -93,16 +93,16 @@ github:
     releases_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}
     deployments_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments
     created_at: 2019-03-27T02:52:33Z
-    updated_at: 2026-06-30T19:33:22Z
-    pushed_at: 2026-06-24T15:06:43Z
+    updated_at: 2026-07-02T12:55:55Z
+    pushed_at: 2026-07-01T20:57:17Z
     git_url: git://github.com/migueldeicaza/SwiftTerm.git
     ssh_url: git@github.com:migueldeicaza/SwiftTerm.git
     clone_url: https://github.com/migueldeicaza/SwiftTerm.git
     svn_url: https://github.com/migueldeicaza/SwiftTerm
     homepage: ""
-    size: 4369
-    stargazers_count: 1593
-    watchers_count: 1593
+    size: 4496
+    stargazers_count: 1598
+    watchers_count: 1598
     language: Swift
     has_issues: true
     has_projects: true
@@ -110,11 +110,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 359
+    forks_count: 365
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 83
+    open_issues_count: 82
     license:
       key: mit
       name: MIT License
@@ -140,9 +140,9 @@ github:
       - xterm
       - xterm-256color
     visibility: public
-    forks: 359
-    open_issues: 83
-    watchers: 1593
+    forks: 365
+    open_issues: 82
+    watchers: 1598
     default_branch: main
     permissions:
       admin: false
@@ -151,12 +151,12 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 359
+    network_count: 365
     subscribers_count: 19
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 4
+        commits: 1
       - month: 2026-03
         commits: 20
       - month: 2026-04
@@ -166,16 +166,16 @@ github:
       - month: 2026-06
         commits: 27
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 1063
-    openPullRequests: 21
-    contributorsKnown: 61
+        commits: 3
+    totalCommitsKnown: 1066
+    openPullRequests: 20
+    contributorsKnown: 62
   sync:
-    syncedAt: 2026-07-01T08:30:04.443Z
+    syncedAt: 2026-07-03T10:08:28.015Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1724088
+    Swift: 1728793
     Metal: 3957
     Python: 3410
     Makefile: 878

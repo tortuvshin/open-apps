@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/immich-app/immich/releases{/id}
     deployments_url: https://api.github.com/repos/immich-app/immich/deployments
     created_at: 2022-02-03T15:56:27Z
-    updated_at: 2026-07-01T08:29:11Z
-    pushed_at: 2026-07-01T08:01:54Z
+    updated_at: 2026-07-03T10:05:50Z
+    pushed_at: 2026-07-03T09:23:29Z
     git_url: git://github.com/immich-app/immich.git
     ssh_url: git@github.com:immich-app/immich.git
     clone_url: https://github.com/immich-app/immich.git
     svn_url: https://github.com/immich-app/immich
     homepage: https://immich.app
-    size: 313076
-    stargazers_count: 104805
-    watchers_count: 104805
+    size: 314149
+    stargazers_count: 105147
+    watchers_count: 105147
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -107,11 +107,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 5975
+    forks_count: 5996
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 667
+    open_issues_count: 691
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -141,9 +141,9 @@ github:
       - typescript
       - videos
     visibility: public
-    forks: 5975
-    open_issues: 667
-    watchers: 104805
+    forks: 5996
+    open_issues: 691
+    watchers: 105147
     default_branch: main
     permissions:
       admin: false
@@ -173,8 +173,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 5975
-    subscribers_count: 331
+    network_count: 5996
+    subscribers_count: 330
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -186,20 +186,20 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 100
+        commits: 93
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 10404
-    openPullRequests: 215
+        commits: 7
+    totalCommitsKnown: 10411
+    openPullRequests: 220
     contributorsKnown: 937
   sync:
-    syncedAt: 2026-07-01T08:29:49.408Z
+    syncedAt: 2026-07-03T10:08:09.284Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 5510105
-    Dart: 3019163
-    Svelte: 1390163
+    TypeScript: 5511350
+    Dart: 3019659
+    Svelte: 1391011
     Python: 163230
     Kotlin: 146143
     Swift: 114438
@@ -219,11 +219,11 @@ github:
     Go Template: 207
     Objective-C: 38
   latestRelease:
-    url: https://api.github.com/repos/immich-app/immich/releases/308385293
-    assets_url: https://api.github.com/repos/immich-app/immich/releases/308385293/assets
-    upload_url: https://uploads.github.com/repos/immich-app/immich/releases/308385293/assets{?name,label}
-    html_url: https://github.com/immich-app/immich/releases/tag/v2.7.5
-    id: 308385293
+    url: https://api.github.com/repos/immich-app/immich/releases/348253747
+    assets_url: https://api.github.com/repos/immich-app/immich/releases/348253747/assets
+    upload_url: https://uploads.github.com/repos/immich-app/immich/releases/348253747/assets{?name,label}
+    html_url: https://github.com/immich-app/immich/releases/tag/v3.0.1
+    id: 348253747
     author:
       login: immich-push-o-matic[bot]
       id: 179150890
@@ -244,20 +244,20 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOGyI-8M4SYZYN
-    tag_name: v2.7.5
+    node_id: RE_kwDOGyI-8M4Uwe4z
+    tag_name: v3.0.1
     target_commitish: main
-    name: v2.7.5
+    name: v3.0.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-04-13T14:27:31Z
-    updated_at: 2026-04-13T14:53:55Z
-    published_at: 2026-04-13T14:53:55Z
+    created_at: 2026-07-02T19:24:13Z
+    updated_at: 2026-07-02T21:32:15Z
+    published_at: 2026-07-02T21:32:15Z
     assets:
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471297
-        id: 395471297
-        node_id: RA_kwDOGyI-8M4XkmnB
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647829
+        id: 464647829
+        node_id: RA_kwDOGyI-8M4bsfaV
         name: app-arm64-v8a-release.apk
         label: ""
         uploader:
@@ -282,15 +282,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 68953694
-        digest: sha256:62b9163f821073d8b71768a067bd10d51270d4017a264192179fdfb032597c98
-        download_count: 37354
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:52Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-arm64-v8a-release.apk
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471298
-        id: 395471298
-        node_id: RA_kwDOGyI-8M4XkmnC
+        size: 67925159
+        digest: sha256:accdf56b5eb6613b0e9a13b77de9ac474a049334d37d44bce28d30e50c6cf1c6
+        download_count: 5851
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:17Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/app-arm64-v8a-release.apk
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647825
+        id: 464647825
+        node_id: RA_kwDOGyI-8M4bsfaR
         name: app-armeabi-v7a-release.apk
         label: ""
         uploader:
@@ -315,15 +315,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 63303012
-        digest: sha256:22f2d695cc50cb6106ba93cb6a8055ddf30a8cf116cd31208b6501181498bef0
-        download_count: 1059
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:52Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-armeabi-v7a-release.apk
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471295
-        id: 395471295
-        node_id: RA_kwDOGyI-8M4Xkmm_
+        size: 62312151
+        digest: sha256:fe54ebeeb9afef9134af363e9abc3beac60aa6edcc32197c98835508838cf666
+        download_count: 47
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:16Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/app-armeabi-v7a-release.apk
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647827
+        id: 464647827
+        node_id: RA_kwDOGyI-8M4bsfaT
         name: app-release.apk
         label: ""
         uploader:
@@ -348,15 +348,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 178730245
-        digest: sha256:4b33ae85690351d475c008552072a34b43994f5b10e5972c45b3bf65fa0249d6
-        download_count: 10550
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:57Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-release.apk
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471296
-        id: 395471296
-        node_id: RA_kwDOGyI-8M4XkmnA
+        size: 175242167
+        digest: sha256:1d014c3adba78f06db0d4fe44a19f2afde8176a6db8989673b0524a256122d5b
+        download_count: 212
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:19Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/app-release.apk
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647822
+        id: 464647822
+        node_id: RA_kwDOGyI-8M4bsfaO
         name: app-x86_64-release.apk
         label: ""
         uploader:
@@ -381,15 +381,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 71102359
-        digest: sha256:ae3a662c7b32fe090d4eed35c4fc8586f5d1faa41a252b401aa1581b0dca97e6
-        download_count: 1136
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:53Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/app-x86_64-release.apk
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471291
-        id: 395471291
-        node_id: RA_kwDOGyI-8M4Xkmm7
+        size: 70366577
+        digest: sha256:3a226ea4a69a25917a2ea72caeb154d75ddf157d78cd809b4898fc48d1aaf617
+        download_count: 38
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:17Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/app-x86_64-release.apk
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647821
+        id: 464647821
+        node_id: RA_kwDOGyI-8M4bsfaN
         name: docker-compose.rootless.yml
         label: ""
         uploader:
@@ -414,15 +414,15 @@ github:
           site_admin: false
         content_type: text/yaml
         state: uploaded
-        size: 3332
-        digest: sha256:14ffbf8832672c99f0adb8c58ac8246d7ac9dc35e882869ec60510569edcf6ba
-        download_count: 2111
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/docker-compose.rootless.yml
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471289
-        id: 395471289
-        node_id: RA_kwDOGyI-8M4Xkmm5
+        size: 3307
+        digest: sha256:c6954dd249bdde6ad1532b8452fdfdc7bf6e0b8b94b3b018b108fc60147ef0a5
+        download_count: 144
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/docker-compose.rootless.yml
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647823
+        id: 464647823
+        node_id: RA_kwDOGyI-8M4bsfaP
         name: docker-compose.yml
         label: ""
         uploader:
@@ -448,14 +448,14 @@ github:
         content_type: text/yaml
         state: uploaded
         size: 2829
-        digest: sha256:69da59c813f1382400a8fe9fce9f51ac00a4d05d7d1571a0d49dcd517ae41ad5
-        download_count: 218761
-        created_at: 2026-04-13T14:41:48Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/docker-compose.yml
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471293
-        id: 395471293
-        node_id: RA_kwDOGyI-8M4Xkmm9
+        digest: sha256:da6f0ca9156c1716e69b3067cb8775b735a4a69fb478a8719e56cf7ea3e3d246
+        download_count: 4198
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/docker-compose.yml
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647824
+        id: 464647824
+        node_id: RA_kwDOGyI-8M4bsfaQ
         name: example.env
         label: ""
         uploader:
@@ -481,14 +481,14 @@ github:
         content_type: application/octet-stream
         state: uploaded
         size: 979
-        digest: sha256:be9337a55998300b1aa05269f3623491f816205a2f8f2d769f81cf239a4a743b
-        download_count: 137706
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/example.env
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471290
-        id: 395471290
-        node_id: RA_kwDOGyI-8M4Xkmm6
+        digest: sha256:dda820cecbcf5fd5d6afecc54107bbd3c973088c631d380dfc83e9f0f2c6b210
+        download_count: 1734
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/example.env
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647826
+        id: 464647826
+        node_id: RA_kwDOGyI-8M4bsfaS
         name: hwaccel.ml.yml
         label: ""
         uploader:
@@ -515,13 +515,13 @@ github:
         state: uploaded
         size: 1421
         digest: sha256:05828be46118e9f79c019c0752489a47fb3381d67ed102212a4f9d9f2575bd3d
-        download_count: 14372
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/hwaccel.ml.yml
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471294
-        id: 395471294
-        node_id: RA_kwDOGyI-8M4Xkmm-
+        download_count: 240
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/hwaccel.ml.yml
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647830
+        id: 464647830
+        node_id: RA_kwDOGyI-8M4bsfaW
         name: hwaccel.transcoding.yml
         label: ""
         uploader:
@@ -548,13 +548,13 @@ github:
         state: uploaded
         size: 1679
         digest: sha256:a50d01758fdbd468270ef7104dce6f282e217ef916238098ac94a70ca8e4c326
-        download_count: 10249
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/hwaccel.transcoding.yml
-      - url: https://api.github.com/repos/immich-app/immich/releases/assets/395471292
-        id: 395471292
-        node_id: RA_kwDOGyI-8M4Xkmm8
+        download_count: 232
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/hwaccel.transcoding.yml
+      - url: https://api.github.com/repos/immich-app/immich/releases/assets/464647820
+        id: 464647820
+        node_id: RA_kwDOGyI-8M4bsfaM
         name: prometheus.yml
         label: ""
         uploader:
@@ -581,45 +581,57 @@ github:
         state: uploaded
         size: 260
         digest: sha256:4e5fe9d3019df2d1cad4c865e87f9037d98e5f0c3bf28cd509f4f86e6829ae93
-        download_count: 1241
-        created_at: 2026-04-13T14:41:49Z
-        updated_at: 2026-04-13T14:41:49Z
-        browser_download_url: https://github.com/immich-app/immich/releases/download/v2.7.5/prometheus.yml
-    tarball_url: https://api.github.com/repos/immich-app/immich/tarball/v2.7.5
-    zipball_url: https://api.github.com/repos/immich-app/immich/zipball/v2.7.5
-    body: "# v2.7.5\r
+        download_count: 73
+        created_at: 2026-07-02T19:38:13Z
+        updated_at: 2026-07-02T19:38:13Z
+        browser_download_url: https://github.com/immich-app/immich/releases/download/v3.0.1/prometheus.yml
+    tarball_url: https://api.github.com/repos/immich-app/immich/tarball/v3.0.1
+    zipball_url: https://api.github.com/repos/immich-app/immich/zipball/v3.0.1
+    body: "# v3.0.1\r
+
+      \r
+
+      - Fixes a bug that causes albums don't show up in the mobile app\r
 
       \r
 
       ## What's Changed\r
 
+      ### 🚀 Features\r
+
+      * feat(web): recently added link in sidebar by @benbeckford in
+      https://github.com/immich-app/immich/pull/29039\r
+
       ### 🐛 Bug fixes\r
 
-      * fix(server): add rate limit and deduplication to version check by @zackpollard in
-      https://github.com/immich-app/immich/pull/27747\r
+      * fix: albums broken on v2 mobile clients by @shenlong-tanwen in
+      https://github.com/immich-app/immich/pull/29446\r
+
+      * fix: setting input field description spacing for description snippet by @danieldietzler in
+      https://github.com/immich-app/immich/pull/29433\r
 
       ### 🌐 Translations\r
 
       * chore(web): update translations by @weblate in
-      https://github.com/immich-app/immich/pull/27589\r
+      https://github.com/immich-app/immich/pull/29410\r
 
       \r
 
       \r
 
-      **Full Changelog**: https://github.com/immich-app/immich/compare/v2.7.4...v2.7.5"
+      **Full Changelog**: https://github.com/immich-app/immich/compare/v3.0.0...v3.0.1"
     reactions:
-      url: https://api.github.com/repos/immich-app/immich/releases/308385293/reactions
-      total_count: 259
-      "+1": 103
+      url: https://api.github.com/repos/immich-app/immich/releases/348253747/reactions
+      total_count: 123
+      "+1": 37
       "-1": 0
-      laugh: 13
-      hooray: 36
+      laugh: 5
+      hooray: 26
       confused: 0
-      heart: 53
-      rocket: 36
-      eyes: 18
-    mentions_count: 2
+      heart: 36
+      rocket: 11
+      eyes: 8
+    mentions_count: 4
   files:
     readme: true
     contributing: true

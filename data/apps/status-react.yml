@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/status-im/status-legacy/releases{/id}
     deployments_url: https://api.github.com/repos/status-im/status-legacy/deployments
     created_at: 2016-02-22T21:48:48Z
-    updated_at: 2026-06-29T19:55:27Z
-    pushed_at: 2026-06-30T15:07:27Z
+    updated_at: 2026-07-02T22:32:30Z
+    pushed_at: 2026-07-02T14:45:48Z
     git_url: git://github.com/status-im/status-legacy.git
     ssh_url: git@github.com:status-im/status-legacy.git
     clone_url: https://github.com/status-im/status-legacy.git
     svn_url: https://github.com/status-im/status-legacy
     homepage: https://status.app
-    size: 487859
-    stargazers_count: 4017
-    watchers_count: 4017
+    size: 488082
+    stargazers_count: 4018
+    watchers_count: 4018
     language: Clojure
     has_issues: true
     has_projects: true
@@ -108,11 +108,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 990
+    forks_count: 991
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 453
+    open_issues_count: 454
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -141,9 +141,9 @@ github:
       - reagent
       - wallet
     visibility: public
-    forks: 990
-    open_issues: 453
-    watchers: 4017
+    forks: 991
+    open_issues: 454
+    watchers: 4018
     default_branch: develop
     permissions:
       admin: false
@@ -173,7 +173,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 990
+    network_count: 991
     subscribers_count: 189
   activity:
     monthlyCommits:
@@ -190,10 +190,10 @@ github:
       - month: 2026-07
         commits: 0
     totalCommitsKnown: 10569
-    openPullRequests: 11
+    openPullRequests: 12
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-07-01T08:30:02.855Z
+    syncedAt: 2026-07-03T10:08:25.810Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -278,7 +278,7 @@ github:
         state: uploaded
         size: 79044006
         digest: sha256:e0480df44935f489755cab4fde8cb9201671b3878f02e155a1ae353c0cb5ef52
-        download_count: 864
+        download_count: 902
         created_at: 2025-10-24T12:27:55Z
         updated_at: 2025-10-24T12:28:00Z
         browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-arm64-v8a.apk
