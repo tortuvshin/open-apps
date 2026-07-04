@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/streetwriters/notesnook/releases{/id}
     deployments_url: https://api.github.com/repos/streetwriters/notesnook/deployments
     created_at: 2021-04-01T17:25:54Z
-    updated_at: 2026-07-01T07:51:39Z
-    pushed_at: 2026-07-01T07:51:38Z
+    updated_at: 2026-07-04T08:15:01Z
+    pushed_at: 2026-07-03T10:15:59Z
     git_url: git://github.com/streetwriters/notesnook.git
     ssh_url: git@github.com:streetwriters/notesnook.git
     clone_url: https://github.com/streetwriters/notesnook.git
     svn_url: https://github.com/streetwriters/notesnook
     homepage: https://notesnook.com/
-    size: 289288
-    stargazers_count: 14201
-    watchers_count: 14201
+    size: 289599
+    stargazers_count: 14218
+    watchers_count: 14218
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 964
+    forks_count: 966
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 943
+    open_issues_count: 949
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -160,9 +160,9 @@ github:
       - reactjs
       - self-hosted
     visibility: public
-    forks: 964
-    open_issues: 943
-    watchers: 14201
+    forks: 966
+    open_issues: 949
+    watchers: 14218
     default_branch: master
     permissions:
       admin: false
@@ -192,11 +192,11 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 964
+    network_count: 966
     subscribers_count: 74
   languages:
-    TypeScript: 6824683
-    JavaScript: 990877
+    TypeScript: 6824934
+    JavaScript: 997642
     Java: 55272
     CSS: 53301
     HTML: 25900
@@ -242,42 +242,42 @@ github:
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-01T06:51:24Z
-    updated_at: 2026-07-01T07:49:53Z
+    created_at: 2026-07-03T00:14:11Z
+    updated_at: 2026-07-03T00:19:41Z
     published_at: 2026-07-01T07:49:53Z
     assets:
-      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/462961248
-        id: 462961248
-        node_id: RA_kwDOFRYxRs4bmDpg
+      - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/464848431
+        id: 464848431
+        node_id: RA_kwDOFRYxRs4btQYv
         name: generated-sources.json
-        label: ""
+        label: null
         uploader:
-          login: github-actions[bot]
-          id: 41898282
-          node_id: MDM6Qm90NDE4OTgyODI=
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          login: thecodrr
+          id: 7473959
+          node_id: MDQ6VXNlcjc0NzM5NTk=
+          avatar_url: https://avatars.githubusercontent.com/u/7473959?v=4
           gravatar_id: ""
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-          html_url: https://github.com/apps/github-actions
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          type: Bot
+          url: https://api.github.com/users/thecodrr
+          html_url: https://github.com/thecodrr
+          followers_url: https://api.github.com/users/thecodrr/followers
+          following_url: https://api.github.com/users/thecodrr/following{/other_user}
+          gists_url: https://api.github.com/users/thecodrr/gists{/gist_id}
+          starred_url: https://api.github.com/users/thecodrr/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/thecodrr/subscriptions
+          organizations_url: https://api.github.com/users/thecodrr/orgs
+          repos_url: https://api.github.com/users/thecodrr/repos
+          events_url: https://api.github.com/users/thecodrr/events{/privacy}
+          received_events_url: https://api.github.com/users/thecodrr/received_events
+          type: User
           user_view_type: public
           site_admin: false
         content_type: application/json
         state: uploaded
-        size: 2421727
-        digest: sha256:8b9de8b6fa10e51c70dc2ba717b8cc4280e3079e302c366938be7c9f0f826761
-        download_count: 2
-        created_at: 2026-07-01T07:37:37Z
-        updated_at: 2026-07-01T07:37:37Z
+        size: 2427911
+        digest: sha256:eac0a4e6e8ca6f5cf447eb7d84a60e48015f8cca90c31d6d499cda06883622c6
+        download_count: 4
+        created_at: 2026-07-03T00:15:59Z
+        updated_at: 2026-07-03T00:19:41Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/generated-sources.json
       - url: https://api.github.com/repos/streetwriters/notesnook/releases/assets/462963559
         id: 462963559
@@ -308,7 +308,7 @@ github:
         state: uploaded
         size: 382
         digest: sha256:f38be74fe410ed8d0cd41b28d2f6ee33279cc9fb9e494f95513d779b44b71207
-        download_count: 2
+        download_count: 12
         created_at: 2026-07-01T07:40:04Z
         updated_at: 2026-07-01T07:40:05Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/latest-linux-arm64.yml
@@ -341,7 +341,7 @@ github:
         state: uploaded
         size: 384
         digest: sha256:7968d1ffdd203088eb3f28488d1246f767414341215e9acbd3e3ba173be11d96
-        download_count: 11
+        download_count: 1127
         created_at: 2026-07-01T07:40:33Z
         updated_at: 2026-07-01T07:40:34Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/latest-linux.yml
@@ -374,7 +374,7 @@ github:
         state: uploaded
         size: 799
         digest: sha256:2da324d187a810e4a5333d0408688913d0798b6ef4ca7e8923b3dc418e387225
-        download_count: 53
+        download_count: 7572
         created_at: 2026-07-01T07:44:46Z
         updated_at: 2026-07-01T07:44:46Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/latest-mac.yml
@@ -407,7 +407,7 @@ github:
         state: uploaded
         size: 639
         digest: sha256:598aca1268eeef2ad5135065ef6fe88961318ea9ec239d0752eb90687d02e534
-        download_count: 82
+        download_count: 11383
         created_at: 2026-07-01T07:44:20Z
         updated_at: 2026-07-01T07:44:21Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/latest.yml
@@ -440,7 +440,7 @@ github:
         state: uploaded
         size: 14759964
         digest: sha256:0ac30d5f4237a62c97089644e0dd26601b96e889c0a3c95776bc4466c7b7078f
-        download_count: 2
+        download_count: 29
         created_at: 2026-07-01T07:36:37Z
         updated_at: 2026-07-01T07:36:38Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_build_v3.4.2.zip
@@ -473,7 +473,7 @@ github:
         state: uploaded
         size: 122430813
         digest: sha256:3feca06234b1ebc8835d319f0cb2513e5277afa7ec64dc10153896fb0d9259c9
-        download_count: 5
+        download_count: 417
         created_at: 2026-07-01T07:40:00Z
         updated_at: 2026-07-01T07:40:03Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_linux_arm64.AppImage
@@ -506,7 +506,7 @@ github:
         state: uploaded
         size: 122200697
         digest: sha256:28096122a0f70c5f4c9a4831c1c86cd9f1d72dbbecdd507b73b84bf9aaf67921
-        download_count: 12
+        download_count: 909
         created_at: 2026-07-01T07:40:27Z
         updated_at: 2026-07-01T07:40:32Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_linux_x86_64.AppImage
@@ -539,7 +539,7 @@ github:
         state: uploaded
         size: 124922257
         digest: sha256:300a9e515ab2dcc21ccc1033ec37a4d677892662c205625ce1e98a1dfa99ccf9
-        download_count: 4
+        download_count: 889
         created_at: 2026-07-01T07:44:22Z
         updated_at: 2026-07-01T07:44:28Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_arm64.dmg
@@ -572,7 +572,7 @@ github:
         state: uploaded
         size: 132583
         digest: sha256:a8a321b50078b081f82cf3463d5e8af47099e529789ca614a89a72eaf4e825a0
-        download_count: 2
+        download_count: 4
         created_at: 2026-07-01T07:44:22Z
         updated_at: 2026-07-01T07:44:23Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_arm64.dmg.blockmap
@@ -605,7 +605,7 @@ github:
         state: uploaded
         size: 120466460
         digest: sha256:2941b032c4b4e68f164de67374b050b698e832e65cb0e37867cf8a0063087ab9
-        download_count: 37
+        download_count: 1969
         created_at: 2026-07-01T07:44:38Z
         updated_at: 2026-07-01T07:44:43Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_arm64.zip
@@ -638,7 +638,7 @@ github:
         state: uploaded
         size: 126903
         digest: sha256:c2218f2cf6ecec9bf8bc4d318bbf580bc188e37e4b96b1dfe3a9e85df3080a46
-        download_count: 35
+        download_count: 1762
         created_at: 2026-07-01T07:44:39Z
         updated_at: 2026-07-01T07:44:39Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_arm64.zip.blockmap
@@ -671,7 +671,7 @@ github:
         state: uploaded
         size: 131424270
         digest: sha256:7177f56243a8486ab55f60a330ade272eae7a0469499f1aebc821c2d5f5600f1
-        download_count: 6
+        download_count: 400
         created_at: 2026-07-01T07:42:05Z
         updated_at: 2026-07-01T07:42:12Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_x64.dmg
@@ -704,7 +704,7 @@ github:
         state: uploaded
         size: 136961
         digest: sha256:3fba62aea37b2538f4c31ce4fa2f1f248ee1d7e1ae161b0370b0bc2a05827fec
-        download_count: 2
+        download_count: 4
         created_at: 2026-07-01T07:42:06Z
         updated_at: 2026-07-01T07:42:06Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_x64.dmg.blockmap
@@ -737,7 +737,7 @@ github:
         state: uploaded
         size: 126937251
         digest: sha256:ae5c541ee9d649f5b4853c47cce38a808170f77033640d47696fa33be1f597c8
-        download_count: 8
+        download_count: 258
         created_at: 2026-07-01T07:42:21Z
         updated_at: 2026-07-01T07:42:26Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_x64.zip
@@ -770,7 +770,7 @@ github:
         state: uploaded
         size: 133550
         digest: sha256:90ca864da52c8db7fcda29d046b39693ef234f508535ca8b9032d8ab4b5b157f
-        download_count: 7
+        download_count: 211
         created_at: 2026-07-01T07:42:21Z
         updated_at: 2026-07-01T07:42:21Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_mac_x64.zip.blockmap
@@ -803,7 +803,7 @@ github:
         state: uploaded
         size: 187734848
         digest: sha256:bb61115b1c1f8955cdcddfb0b6e7eca28d45f4286ac38d7f793eb45a89824b50
-        download_count: 64
+        download_count: 3490
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:19Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win.exe
@@ -836,7 +836,7 @@ github:
         state: uploaded
         size: 194872
         digest: sha256:b10b99b675dd70575ef406412c4ed47254c13a2d84c9b80cc5dcb146a9f6d6ed
-        download_count: 62
+        download_count: 3388
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:13Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win.exe.blockmap
@@ -869,7 +869,7 @@ github:
         state: uploaded
         size: 95014592
         digest: sha256:8a80b42c86bf3477bf515c2e9bece6c57a738d574b0d30066ac829c1d029bd6b
-        download_count: 6
+        download_count: 376
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:16Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_arm64.exe
@@ -902,7 +902,7 @@ github:
         state: uploaded
         size: 99976
         digest: sha256:84d451bb72df992e4578cc57601c3cc82c60ab6b9ac83f35c8e0833c2250c9f3
-        download_count: 2
+        download_count: 4
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:13Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_arm64.exe.blockmap
@@ -935,7 +935,7 @@ github:
         state: uploaded
         size: 94850928
         digest: sha256:3e6cff73735f74697bf15f8476e646a6b89204a6e1cfdd2bf9be5e5d181ae800
-        download_count: 6
+        download_count: 349
         created_at: 2026-07-01T07:44:13Z
         updated_at: 2026-07-01T07:44:17Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_arm64_portable.exe
@@ -968,7 +968,7 @@ github:
         state: uploaded
         size: 187571168
         digest: sha256:1c2a71ee7bcb297e2c1cb4712a80e2108a79ba6381ed129f60f2e0516a12c0a6
-        download_count: 2
+        download_count: 27
         created_at: 2026-07-01T07:44:13Z
         updated_at: 2026-07-01T07:44:18Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_portable.exe
@@ -1001,7 +1001,7 @@ github:
         state: uploaded
         size: 93598872
         digest: sha256:ce4013647c105f9a7a9cb47c7d4d266a05cb9459e962bb5e9f8d11abeec0c542
-        download_count: 14
+        download_count: 1219
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:17Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_x64.exe
@@ -1034,7 +1034,7 @@ github:
         state: uploaded
         size: 99170
         digest: sha256:ff01a28b0fed29f25c7e5d8b28942b3425bccaba5b379d85620f745ade39f176
-        download_count: 2
+        download_count: 14
         created_at: 2026-07-01T07:44:12Z
         updated_at: 2026-07-01T07:44:13Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_x64.exe.blockmap
@@ -1067,7 +1067,7 @@ github:
         state: uploaded
         size: 93434896
         digest: sha256:ed3287ecfac7bde3688623d68189fa0bffceb6607593f7092b910c3782d9cd80
-        download_count: 8
+        download_count: 398
         created_at: 2026-07-01T07:44:13Z
         updated_at: 2026-07-01T07:44:16Z
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_win_x64_portable.exe
@@ -1091,12 +1091,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 95
+        commits: 89
       - month: 2026-07
-        commits: 5
-    totalCommitsKnown: 15385
+        commits: 11
+    totalCommitsKnown: 15391
     contributorsKnown: 51
-    openPullRequests: 53
+    openPullRequests: 59
   files:
     readme: true
     contributing: true
@@ -1109,7 +1109,7 @@ github:
       color: 062DAB
       description: ""
   sync:
-    syncedAt: 2026-07-01T08:29:56.797Z
+    syncedAt: 2026-07-04T09:25:42.215Z
     apiVersion: rest-v3
     source: github-actions
 health:

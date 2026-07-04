@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-06-30T11:30:38Z
-    pushed_at: 2026-07-01T08:15:54Z
+    updated_at: 2026-07-04T04:38:51Z
+    pushed_at: 2026-07-03T08:33:39Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 272638
-    stargazers_count: 9220
-    watchers_count: 9220
+    size: 272958
+    stargazers_count: 9221
+    watchers_count: 9221
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 93
+    open_issues_count: 91
     license:
       key: other
       name: Other
@@ -163,8 +163,8 @@ github:
       - surveillance
     visibility: public
     forks: 495
-    open_issues: 93
-    watchers: 9220
+    open_issues: 91
+    watchers: 9221
     default_branch: master
     permissions:
       admin: false
@@ -197,11 +197,11 @@ github:
     network_count: 495
     subscribers_count: 122
   languages:
-    TypeScript: 1875203
+    TypeScript: 1879336
     Go: 1705547
     Java: 469612
     Swift: 93817
-    JavaScript: 85117
+    JavaScript: 85354
     Makefile: 68690
     Shell: 66339
     Kotlin: 19849
@@ -216,11 +216,11 @@ github:
     Starlark: 1204
     Jinja: 1041
   latestRelease:
-    url: https://api.github.com/repos/berty/berty/releases/346705086
-    assets_url: https://api.github.com/repos/berty/berty/releases/346705086/assets
-    upload_url: https://uploads.github.com/repos/berty/berty/releases/346705086/assets{?name,label}
-    html_url: https://github.com/berty/berty/releases/tag/v2.471.12
-    id: 346705086
+    url: https://api.github.com/repos/berty/berty/releases/348493981
+    assets_url: https://api.github.com/repos/berty/berty/releases/348493981/assets
+    upload_url: https://uploads.github.com/repos/berty/berty/releases/348493981/assets{?name,label}
+    html_url: https://github.com/berty/berty/releases/tag/v2.471.14
+    id: 348493981
     author:
       login: github-actions[bot]
       id: 41898282
@@ -241,39 +241,41 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCGjcYc4Uqky-
-    tag_name: v2.471.12
+    node_id: RE_kwDOCGjcYc4UxZid
+    tag_name: v2.471.14
     target_commitish: master
-    name: v2.471.12
+    name: v2.471.14
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-30T08:43:02Z
-    updated_at: 2026-06-30T08:43:45Z
-    published_at: 2026-06-30T08:43:45Z
+    created_at: 2026-07-03T08:32:58Z
+    updated_at: 2026-07-03T08:33:40Z
+    published_at: 2026-07-03T08:33:40Z
     assets: []
-    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.12
-    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.12
+    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.14
+    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.14
     body: >+
-      ## [2.471.12](https://github.com/berty/berty/compare/v2.471.11...v2.471.12) (2026-06-30)
+      ## [2.471.14](https://github.com/berty/berty/compare/v2.471.13...v2.471.14) (2026-07-03)
 
 
 
       ### Bug Fixes
 
 
-      * **ci:** resolve bertymessenger test data race and Android release disk exhaustion
-      ([#5144](https://github.com/berty/berty/issues/5144))
-      ([1982d3f](https://github.com/berty/berty/commit/1982d3f5634c9db0e8bbe36f58b4b181224f04af))
+      * **bridge-expo:** derive iOS App Group per build variant
+      ([#5151](https://github.com/berty/berty/issues/5151))
+      ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)),
+      closes [#5006](https://github.com/berty/berty/issues/5006)
+      [#5007](https://github.com/berty/berty/issues/5007)
 
 
 
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 2
+        commits: 0
       - month: 2026-03
-        commits: 43
+        commits: 40
       - month: 2026-04
         commits: 13
       - month: 2026-05
@@ -281,10 +283,10 @@ github:
       - month: 2026-06
         commits: 21
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 8355
+        commits: 10
+    totalCommitsKnown: 8365
     contributorsKnown: 70
-    openPullRequests: 20
+    openPullRequests: 17
   files:
     readme: true
     contributing: false
@@ -300,7 +302,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-01T08:29:36.133Z
+    syncedAt: 2026-07-04T09:25:20.931Z
     apiVersion: rest-v3
     source: github-actions
 health:

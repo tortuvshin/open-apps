@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-06-30T12:00:59Z
-    pushed_at: 2026-07-01T08:21:24Z
+    updated_at: 2026-07-03T12:23:57Z
+    pushed_at: 2026-07-04T06:09:39Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 647859
-    stargazers_count: 3770
-    watchers_count: 3770
+    size: 647840
+    stargazers_count: 3771
+    watchers_count: 3771
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -108,11 +108,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 593
+    forks_count: 592
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 12
+    open_issues_count: 11
     license:
       key: mit
       name: MIT License
@@ -134,9 +134,9 @@ github:
       - react-native
       - swift
     visibility: public
-    forks: 593
-    open_issues: 12
-    watchers: 3770
+    forks: 592
+    open_issues: 11
+    watchers: 3771
     default_branch: main
     permissions:
       admin: false
@@ -166,7 +166,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 593
+    network_count: 592
     subscribers_count: 115
   activity:
     monthlyCommits:
@@ -177,20 +177,20 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 11
-      - month: 2026-06
-        commits: 89
-      - month: 2026-07
         commits: 0
-    totalCommitsKnown: 27970
-    openPullRequests: 10
+      - month: 2026-06
+        commits: 84
+      - month: 2026-07
+        commits: 16
+    totalCommitsKnown: 27986
+    openPullRequests: 9
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-07-01T08:29:40.986Z
+    syncedAt: 2026-07-04T09:25:25.835Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 7846712
+    TypeScript: 7885325
     Objective-C: 694758
     Swift: 479403
     JavaScript: 76483
@@ -204,11 +204,11 @@ github:
     Java: 3347
     Vim Script: 428
   latestRelease:
-    url: https://api.github.com/repos/artsy/eigen/releases/341651033
-    assets_url: https://api.github.com/repos/artsy/eigen/releases/341651033/assets
-    upload_url: https://uploads.github.com/repos/artsy/eigen/releases/341651033/assets{?name,label}
-    html_url: https://github.com/artsy/eigen/releases/tag/ios-9.11.0-2026.06.18.18-submission
-    id: 341651033
+    url: https://api.github.com/repos/artsy/eigen/releases/348584528
+    assets_url: https://api.github.com/repos/artsy/eigen/releases/348584528/assets
+    upload_url: https://uploads.github.com/repos/artsy/eigen/releases/348584528/assets{?name,label}
+    html_url: https://github.com/artsy/eigen/releases/tag/ios-9.12.0-2026.07.03.09-submission
+    id: 348584528
     author:
       login: github-actions[bot]
       id: 41898282
@@ -229,68 +229,71 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOAcU4Rc4UXS5Z
-    tag_name: ios-9.11.0-2026.06.18.18-submission
+    node_id: RE_kwDOAcU4Rc4UxvpQ
+    tag_name: ios-9.12.0-2026.07.03.09-submission
     target_commitish: main
-    name: v9.11.0
+    name: v9.12.0
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-18T21:19:06Z
-    updated_at: 2026-06-18T21:20:58Z
-    published_at: 2026-06-18T21:20:58Z
+    created_at: 2026-07-03T11:52:31Z
+    updated_at: 2026-07-03T11:53:06Z
+    published_at: 2026-07-03T11:53:06Z
     assets: []
-    tarball_url: https://api.github.com/repos/artsy/eigen/tarball/ios-9.11.0-2026.06.18.18-submission
-    zipball_url: https://api.github.com/repos/artsy/eigen/zipball/ios-9.11.0-2026.06.18.18-submission
+    tarball_url: https://api.github.com/repos/artsy/eigen/tarball/ios-9.12.0-2026.07.03.09-submission
+    zipball_url: https://api.github.com/repos/artsy/eigen/zipball/ios-9.12.0-2026.07.03.09-submission
     body: |-
       Check the health of this release in Sentry:
 
-      :apple: [iOS Release details](https://artsynet.sentry.io/explore/releases/ios-9.11.0-2026.06.18.18/?environment=production&project=5867225) | :robot: [Android Release details](https://artsynet.sentry.io/explore/releases/android-9.11.0-2026061818/?environment=production&project=5867225)
+      :apple: [iOS Release details](https://artsynet.sentry.io/explore/releases/ios-9.12.0-2026.07.03.09/?environment=production&project=5867225) | :robot: [Android Release details](https://artsynet.sentry.io/explore/releases/android-9.12.0-2026070309/?environment=production&project=5867225)
 
-      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=iOS&primaryRelease=ios-9.11.0-2026.06.18.18&project=5867225) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=Android&primaryRelease=android-9.11.0-2026061818&project=5867225)
+      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=iOS&primaryRelease=ios-9.12.0-2026.07.03.09&project=5867225) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=Android&primaryRelease=android-9.12.0-2026070309&project=5867225)
       ## What's Changed
-      * refactor: improve test coverage in some auction helpers and tiny refactor to match force by @gkartalis in https://github.com/artsy/eigen/pull/13606
-      * fix: ensure refresh functions are called in BidResult component by @gkartalis in https://github.com/artsy/eigen/pull/13612
-      * build(deps): moment to luxon migration redux by @gkartalis in https://github.com/artsy/eigen/pull/13609
-      * build(deps-dev): bump tmp from 0.2.4 to 0.2.6 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13611
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13614
-      * chore: revert adding minutes to ios version code by @gkartalis in https://github.com/artsy/eigen/pull/13615
-      * fix: price range reset on rerender #trivial by @brainbicycle in https://github.com/artsy/eigen/pull/13617
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13622
-      * chore: update expo runtimeVersion to 63b52392 by @artsyit in https://github.com/artsy/eigen/pull/13623
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13624
-      * chore:(Revert): "build(deps): update @gorhom/bottom-sheet to version 5.2.13 by @gkartalis in https://github.com/artsy/eigen/pull/13625
-      * fix: alignment issues in onboarding pills by @brainbicycle in https://github.com/artsy/eigen/pull/13621
-      * feat(mobile): add AREnableExperienceBasedOnboarding feature flag by @iskounen in https://github.com/artsy/eigen/pull/13619
-      * fix: refactor fair followed artists screen to fix filters being lost by @brainbicycle in https://github.com/artsy/eigen/pull/13620
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13626
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13627
-      * fix: save button remains grayed out after correcting card details by @gkartalis in https://github.com/artsy/eigen/pull/13616
-      * fix: revert array placeholder removal by @gkartalis in https://github.com/artsy/eigen/pull/13628
-      * chore: prepare for next release by @artsyit in https://github.com/artsy/eigen/pull/13629
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13631
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13632
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13633
-      * chore: remove node step from release.yml by @gkartalis in https://github.com/artsy/eigen/pull/13634
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13636
-      * fix(DI-337): show validation errors for email and password login by @JanaeHijaz in https://github.com/artsy/eigen/pull/13635
-      * fix: more specific error catch for invalid credentials #trivial by @brainbicycle in https://github.com/artsy/eigen/pull/13638
-      * build(deps): replace rn cookies with react native cookie manager lib for newarch comp by @gkartalis in https://github.com/artsy/eigen/pull/13637
-      * chore: update expo runtimeVersion to 70b8a33c by @artsyit in https://github.com/artsy/eigen/pull/13639
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13641
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13642
-      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13643
-      * build(deps): Bump sentry to latest  by @gkartalis in https://github.com/artsy/eigen/pull/13630
-      * chore: update expo runtimeVersion to 3a674329 by @artsyit in https://github.com/artsy/eigen/pull/13644
-      * fix: formatting in beta gh action comments by @gkartalis in https://github.com/artsy/eigen/pull/13645
-      * fix: Android deeplinking regression after react-native 83.6 by @gkartalis in https://github.com/artsy/eigen/pull/13648
-      * chore: update expo runtimeVersion to 3a674329 by @artsyit in https://github.com/artsy/eigen/pull/13649
-      * feat(ONYX-2133): refreshing of wtyl rail upon every return to home screen by @dariakoko in https://github.com/artsy/eigen/pull/13647
-      * fix: aws cli installation failure by @gkartalis in https://github.com/artsy/eigen/pull/13651
+      * feat(DI-349): experience-based onboarding flow (shell) by @iskounen in https://github.com/artsy/eigen/pull/13646
+      * fix: merge commits not landing in changelog #trivial by @brainbicycle in https://github.com/artsy/eigen/pull/13653
+      * feat(TOP-296): add partner offer in convos by @araujobarret in https://github.com/artsy/eigen/pull/13658
+      * fix: don't show clear button when no filters active #trivial by @brainbicycle in https://github.com/artsy/eigen/pull/13660
+      * chore(releases): add jira url in output of export script, support sending slack message by @brainbicycle in https://github.com/artsy/eigen/pull/13657
+      * feat(PartnerOffer): track CTA visibility by @araujobarret in https://github.com/artsy/eigen/pull/13664
+      * build(deps): fix shell quote vulnerability by @gkartalis in https://github.com/artsy/eigen/pull/13671
+      * fix: cut off text in onboarding by @brainbicycle in https://github.com/artsy/eigen/pull/13662
+      * fix: show error for limited login link failure by @brainbicycle in https://github.com/artsy/eigen/pull/13663
+      * chore: cleanup sale ff by @brainbicycle in https://github.com/artsy/eigen/pull/13661
+      * feat(DI-356): onboarding mode for Infinite Discovery by @iskounen in https://github.com/artsy/eigen/pull/13654
+      * build(deps): bump react-native-pager-view to latest by @gkartalis in https://github.com/artsy/eigen/pull/13670
+      * chore: update expo runtimeVersion to fcb04dd1 by @artsyit in https://github.com/artsy/eigen/pull/13672
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13674
+      * build(deps): bump launch-editor from 2.10.0 to 2.14.1 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13666
+      * build(deps): bump tar from 7.5.13 to 7.5.16 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13667
+      * fix(DI-395): bring Infinite Discovery into the onboarding navigator by @iskounen in https://github.com/artsy/eigen/pull/13673
+      * build(deps): bump ws from 6.2.3 to 6.2.4 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13668
+      * refactor(cleanup): remove obsolete patch for React Native by @gkartalis in https://github.com/artsy/eigen/pull/13678
+      * feat(PartnerOffer): show the partner offer as purchased when collectors finalize the flow from a partner offer by @araujobarret in https://github.com/artsy/eigen/pull/13676
+      * chore: update expo runtimeVersion to 4373189d by @artsyit in https://github.com/artsy/eigen/pull/13679
+      * feat: add tracking for live refresh of wtyl by @dariakoko in https://github.com/artsy/eigen/pull/13680
+      * chore: prepare for next release by @artsyit in https://github.com/artsy/eigen/pull/13682
+      * chore: update expo runtimeVersion to 716fc362 by @artsyit in https://github.com/artsy/eigen/pull/13683
+      * chore: specify platform as 'ios' in deliver calls for beta promotion and version creation by @gkartalis in https://github.com/artsy/eigen/pull/13684
+      * build(deps): bump macos gh runners from 15 to 26 by @gkartalis in https://github.com/artsy/eigen/pull/13675
+      * build(deps): bump protobufjs from 7.5.8 to 7.6.4 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13669
+      * build(deps): bump undici from 6.24.1 to 6.27.0 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13685
+      * fix(DI-395): smooth onboarding introduction step transitions by @iskounen in https://github.com/artsy/eigen/pull/13677
+      * fix(iOS): adjust to fix iOS build error by @araujobarret in https://github.com/artsy/eigen/pull/13659
+      * chore: update expo runtimeVersion to a42362c6 by @artsyit in https://github.com/artsy/eigen/pull/13686
+      * build(deps): bump js-yaml from 3.14.1 to 3.14.2 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13656
+      * build(deps-dev): bump tmp from 0.2.6 to 0.2.7 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13655
+      * build(deps): bump @grpc/grpc-js from 1.9.15 to 1.9.16 by @dependabot[bot] in https://github.com/artsy/eigen/pull/13650
+      * fix: typeError proxy handler is null by @MounirDhahri in https://github.com/artsy/eigen/pull/13687
+      * chore: revert app start errors from sentry due to restrictions by @gkartalis in https://github.com/artsy/eigen/pull/13688
+      * chore: update expo runtimeVersion to f69dfee4 by @artsyit in https://github.com/artsy/eigen/pull/13693
+      * feat(DI-357): add onboarding completion sheet and image prefetching by @iskounen in https://github.com/artsy/eigen/pull/13681
+      * refactor: extract save logic from InfiniteDiscoveryArtworkCard into useInfiniteDiscoveryCardSave by @iskounen in https://github.com/artsy/eigen/pull/13695
+      * fix: prevent Android back gesture from navigating back to onboarding introduction by @iskounen in https://github.com/artsy/eigen/pull/13694
+      * chore: update metaphysics graphql schema by @artsyit in https://github.com/artsy/eigen/pull/13698
 
 
-      **Full Changelog**: https://github.com/artsy/eigen/compare/ios-9.10.0-2026.06.03.15.09-submission...ios-9.11.0-2026.06.18.18-submission
-    mentions_count: 7
+      **Full Changelog**: https://github.com/artsy/eigen/compare/ios-9.11.0-2026.06.18.18-submission...ios-9.12.0-2026.07.03.09-submission
+    mentions_count: 8
   files:
     readme: true
     contributing: false
