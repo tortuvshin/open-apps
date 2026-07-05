@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/AudioKit/AudioKit/releases{/id}
     deployments_url: https://api.github.com/repos/AudioKit/AudioKit/deployments
     created_at: 2014-01-21T08:16:07Z
-    updated_at: 2026-07-01T01:52:23Z
+    updated_at: 2026-07-05T05:09:30Z
     pushed_at: 2026-05-30T19:49:26Z
     git_url: git://github.com/AudioKit/AudioKit.git
     ssh_url: git@github.com:AudioKit/AudioKit.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/AudioKit/AudioKit
     homepage: http://audiokit.io
     size: 119732
-    stargazers_count: 11384
-    watchers_count: 11384
+    stargazers_count: 11393
+    watchers_count: 11393
     language: Swift
     has_issues: true
     has_projects: false
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4
+    open_issues_count: 5
     license:
       key: mit
       name: MIT License
@@ -136,8 +136,8 @@ github:
       - tvos
     visibility: public
     forks: 1616
-    open_issues: 4
-    watchers: 11384
+    open_issues: 5
+    watchers: 11393
     default_branch: main
     permissions:
       admin: false
@@ -184,10 +184,10 @@ github:
       - month: 2026-07
         commits: 0
     totalCommitsKnown: 12509
-    openPullRequests: 2
+    openPullRequests: 3
     contributorsKnown: 224
   sync:
-    syncedAt: 2026-07-01T08:29:35.314Z
+    syncedAt: 2026-07-05T09:44:09.455Z
     apiVersion: rest-v3
     source: github-actions
   languages:
