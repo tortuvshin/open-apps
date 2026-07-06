@@ -115,16 +115,16 @@ github:
     releases_url: https://api.github.com/repos/claration/Feather/releases{/id}
     deployments_url: https://api.github.com/repos/claration/Feather/deployments
     created_at: 2024-05-19T17:44:22Z
-    updated_at: 2026-07-01T04:12:56Z
-    pushed_at: 2026-06-05T07:43:54Z
+    updated_at: 2026-07-06T10:43:00Z
+    pushed_at: 2026-07-05T02:12:08Z
     git_url: git://github.com/claration/Feather.git
     ssh_url: git@github.com:claration/Feather.git
     clone_url: https://github.com/claration/Feather.git
     svn_url: https://github.com/claration/Feather
     homepage: https://feather.claration.dev
-    size: 49894
-    stargazers_count: 4275
-    watchers_count: 4275
+    size: 49900
+    stargazers_count: 4310
+    watchers_count: 4310
     language: Swift
     has_issues: true
     has_projects: false
@@ -132,11 +132,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 377
+    forks_count: 384
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 28
+    open_issues_count: 27
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -162,9 +162,9 @@ github:
       - signing
       - zsign
     visibility: public
-    forks: 377
-    open_issues: 28
-    watchers: 4275
+    forks: 384
+    open_issues: 27
+    watchers: 4310
     default_branch: main
     permissions:
       admin: false
@@ -173,23 +173,23 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 377
+    network_count: 384
     subscribers_count: 42
   sync:
-    syncedAt: 2026-07-01T08:29:41.221Z
+    syncedAt: 2026-07-06T11:39:53.069Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 383496
+    Swift: 402914
     Objective-C: 13399
     Makefile: 1435
     C: 637
   latestRelease:
-    url: https://api.github.com/repos/claration/Feather/releases/312128169
-    assets_url: https://api.github.com/repos/claration/Feather/releases/312128169/assets
-    upload_url: https://uploads.github.com/repos/claration/Feather/releases/312128169/assets{?name,label}
-    html_url: https://github.com/claration/Feather/releases/tag/v2.8.2
-    id: 312128169
+    url: https://api.github.com/repos/claration/Feather/releases/349074542
+    assets_url: https://api.github.com/repos/claration/Feather/releases/349074542/assets
+    upload_url: https://uploads.github.com/repos/claration/Feather/releases/349074542/assets{?name,label}
+    html_url: https://github.com/claration/Feather/releases/tag/v2.9.0
+    id: 349074542
     author:
       login: claration
       id: 97859147
@@ -210,53 +210,53 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOL9wXZs4SmrKp
-    tag_name: v2.8.2
+    node_id: RE_kwDOL9wXZs4UznRu
+    tag_name: v2.9.0
     target_commitish: main
-    name: Feather v2.8.2
+    name: Feather v2.9.0
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-04-22T09:17:02Z
-    updated_at: 2026-04-22T10:09:59Z
-    published_at: 2026-04-22T09:18:46Z
+    created_at: 2026-07-04T23:54:59Z
+    updated_at: 2026-07-05T02:11:53Z
+    published_at: 2026-07-05T02:11:53Z
     assets:
-      - url: https://api.github.com/repos/claration/Feather/releases/assets/402358857
-        id: 402358857
-        node_id: RA_kwDOL9wXZs4X-4JJ
+      - url: https://api.github.com/repos/claration/Feather/releases/assets/466792685
+        id: 466792685
+        node_id: RA_kwDOL9wXZs4b0rDt
         name: Feather.ipa
-        label: ""
+        label: null
         uploader:
-          login: github-actions[bot]
-          id: 41898282
-          node_id: MDM6Qm90NDE4OTgyODI=
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          login: claration
+          id: 97859147
+          node_id: U_kgDOBdU2Sw
+          avatar_url: https://avatars.githubusercontent.com/u/97859147?v=4
           gravatar_id: ""
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-          html_url: https://github.com/apps/github-actions
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          type: Bot
+          url: https://api.github.com/users/claration
+          html_url: https://github.com/claration
+          followers_url: https://api.github.com/users/claration/followers
+          following_url: https://api.github.com/users/claration/following{/other_user}
+          gists_url: https://api.github.com/users/claration/gists{/gist_id}
+          starred_url: https://api.github.com/users/claration/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/claration/subscriptions
+          organizations_url: https://api.github.com/users/claration/orgs
+          repos_url: https://api.github.com/users/claration/repos
+          events_url: https://api.github.com/users/claration/events{/privacy}
+          received_events_url: https://api.github.com/users/claration/received_events
+          type: User
           user_view_type: public
           site_admin: false
         content_type: application/octet-stream
         state: uploaded
-        size: 14242031
-        digest: sha256:4b93e029f0e779757b51938ac7ec1a3613c3744cc6a66b6bf2142d5ad39025ae
-        download_count: 47348
-        created_at: 2026-04-22T09:37:03Z
-        updated_at: 2026-04-22T09:37:04Z
-        browser_download_url: https://github.com/claration/Feather/releases/download/v2.8.2/Feather.ipa
-      - url: https://api.github.com/repos/claration/Feather/releases/assets/402371704
-        id: 402371704
-        node_id: RA_kwDOL9wXZs4X-7R4
+        size: 14241853
+        digest: sha256:833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea
+        download_count: 1160
+        created_at: 2026-07-05T02:11:08Z
+        updated_at: 2026-07-05T02:11:19Z
+        browser_download_url: https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa
+      - url: https://api.github.com/repos/claration/Feather/releases/assets/466792769
+        id: 466792769
+        node_id: RA_kwDOL9wXZs4b0rFB
         name: Feather_Catalyst.zip
         label: null
         uploader:
@@ -281,14 +281,14 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 22802261
-        digest: sha256:39faa6ed3b82b3f7b90a94752ed2d04a0c7dd5eac43c4771d34c5931f26b6d8e
-        download_count: 1463
-        created_at: 2026-04-22T09:58:44Z
-        updated_at: 2026-04-22T09:59:35Z
-        browser_download_url: https://github.com/claration/Feather/releases/download/v2.8.2/Feather_Catalyst.zip
-    tarball_url: https://api.github.com/repos/claration/Feather/tarball/v2.8.2
-    zipball_url: https://api.github.com/repos/claration/Feather/zipball/v2.8.2
+        size: 22801338
+        digest: sha256:618ae6eb1304b8154319f62d5acb7a841c3332ce775065ef7d60f1747deddff7
+        download_count: 26
+        created_at: 2026-07-05T02:11:21Z
+        updated_at: 2026-07-05T02:11:30Z
+        browser_download_url: https://github.com/claration/Feather/releases/download/v2.9.0/Feather_Catalyst.zip
+    tarball_url: https://api.github.com/repos/claration/Feather/tarball/v2.9.0
+    zipball_url: https://api.github.com/repos/claration/Feather/zipball/v2.9.0
     body: "Thank you for all your feedback and contributions!\r
 
       \r
@@ -303,35 +303,41 @@ github:
 
       ## What's Changed\r
 
-      * Added support for Catalyst targets.\r
+      * Added tweak options in default signing options.\r
 
-      * Added ability to rename existing certificates.\r
+      * Added ability to search for identifier's in Library @ismailcarlik in
+      https://github.com/claration/Feather/pull/652\r
 
-      * Added Arabic localizations by @mohammed1d1 in
-      https://github.com/CLARATION/Feather/pull/624\r
+      * Fixed issue in the file enumeration logic, by using the path property instead of method.\r
+
+      * Fixed credit links.\r
+
+      * Fixed duplicate repository in recommended repositories.\r
 
       \r
 
       ## New Contributors\r
 
-      * @mohammed1d1 made their first contribution in
-      https://github.com/CLARATION/Feather/pull/624\r
+      * @xiangfeidexiaohuo made their first contribution in
+      https://github.com/claration/Feather/pull/634\r
+
+      * @osageling made their first contribution in https://github.com/claration/Feather/pull/642\r
 
       \r
 
-      **Full Changelog**: https://github.com/CLARATION/Feather/compare/v2.7.0...v2.8.2"
+      **Full Changelog**: https://github.com/claration/Feather/compare/v2.8.2...v2.9.0"
     reactions:
-      url: https://api.github.com/repos/claration/Feather/releases/312128169/reactions
-      total_count: 16
+      url: https://api.github.com/repos/claration/Feather/releases/349074542/reactions
+      total_count: 7
       "+1": 0
       "-1": 0
       laugh: 0
-      hooray: 4
+      hooray: 0
       confused: 0
-      heart: 8
-      rocket: 4
+      heart: 5
+      rocket: 2
       eyes: 0
-    mentions_count: 1
+    mentions_count: 3
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -345,10 +351,10 @@ github:
       - month: 2026-06
         commits: 1
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 456
-    contributorsKnown: 29
-    openPullRequests: 3
+        commits: 3
+    totalCommitsKnown: 459
+    contributorsKnown: 30
+    openPullRequests: 2
   files:
     readme: true
     contributing: true

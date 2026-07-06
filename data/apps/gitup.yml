@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/git-up/GitUp/releases{/id}
     deployments_url: https://api.github.com/repos/git-up/GitUp/deployments
     created_at: 2015-08-13T04:11:10Z
-    updated_at: 2026-07-01T06:30:55Z
-    pushed_at: 2026-06-24T13:46:54Z
+    updated_at: 2026-07-06T08:10:38Z
+    pushed_at: 2026-07-03T01:01:05Z
     git_url: git://github.com/git-up/GitUp.git
     ssh_url: git@github.com:git-up/GitUp.git
     clone_url: https://github.com/git-up/GitUp.git
     svn_url: https://github.com/git-up/GitUp
     homepage: http://gitup.co
-    size: 67983
-    stargazers_count: 12027
-    watchers_count: 12027
+    size: 67988
+    stargazers_count: 12030
+    watchers_count: 12030
     language: Objective-C
     has_issues: true
     has_projects: false
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 373
+    open_issues_count: 371
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -126,8 +126,8 @@ github:
     topics: []
     visibility: public
     forks: 1471
-    open_issues: 373
-    watchers: 12027
+    open_issues: 371
+    watchers: 12030
     default_branch: master
     permissions:
       admin: false
@@ -172,16 +172,16 @@ github:
       - month: 2026-06
         commits: 13
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 557
+        commits: 2
+    totalCommitsKnown: 559
     openPullRequests: 1
     contributorsKnown: 62
   sync:
-    syncedAt: 2026-07-01T08:29:46.635Z
+    syncedAt: 2026-07-06T11:39:57.715Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Objective-C: 1790400
+    Objective-C: 1791093
     Shell: 6054
     C: 3425
   latestRelease:
@@ -250,7 +250,7 @@ github:
         state: uploaded
         size: 8502965
         digest: null
-        download_count: 60425
+        download_count: 61442
         created_at: 2025-03-17T14:51:18Z
         updated_at: 2025-03-17T14:51:22Z
         browser_download_url: https://github.com/git-up/GitUp/releases/download/v1.4.3/GitUp.zip

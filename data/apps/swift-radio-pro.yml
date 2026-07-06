@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases{/id}
     deployments_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/deployments
     created_at: 2015-09-04T19:39:44Z
-    updated_at: 2026-06-30T05:21:15Z
-    pushed_at: 2026-04-05T18:05:22Z
+    updated_at: 2026-07-06T07:11:22Z
+    pushed_at: 2026-07-05T16:45:42Z
     git_url: git://github.com/analogcode/Swift-Radio-Pro.git
     ssh_url: git@github.com:analogcode/Swift-Radio-Pro.git
     clone_url: https://github.com/analogcode/Swift-Radio-Pro.git
     svn_url: https://github.com/analogcode/Swift-Radio-Pro
     homepage: ""
-    size: 17907
-    stargazers_count: 2930
-    watchers_count: 2930
+    size: 20816
+    stargazers_count: 2931
+    watchers_count: 2931
     language: Swift
     has_issues: true
     has_projects: true
@@ -107,7 +107,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 714
+    forks_count: 713
     mirror_url: null
     archived: false
     disabled: false
@@ -140,9 +140,9 @@ github:
       - swift
       - swift-radio
     visibility: public
-    forks: 714
+    forks: 713
     open_issues: 11
-    watchers: 2930
+    watchers: 2931
     default_branch: master
     permissions:
       admin: false
@@ -151,7 +151,7 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 714
+    network_count: 713
     subscribers_count: 150
   activity:
     monthlyCommits:
@@ -166,107 +166,117 @@ github:
       - month: 2026-06
         commits: 0
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 444
+        commits: 13
+    totalCommitsKnown: 457
     openPullRequests: 0
     contributorsKnown: 25
   sync:
-    syncedAt: 2026-07-01T08:30:03.555Z
+    syncedAt: 2026-07-06T11:40:13.440Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 161296
+    Swift: 161994
   latestRelease:
-    url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases/284200781
-    assets_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases/284200781/assets
-    upload_url: https://uploads.github.com/repos/analogcode/Swift-Radio-Pro/releases/284200781/assets{?name,label}
-    html_url: https://github.com/analogcode/Swift-Radio-Pro/releases/tag/v3.0.0
-    id: 284200781
+    url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases/349030332
+    assets_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases/349030332/assets
+    upload_url: https://uploads.github.com/repos/analogcode/Swift-Radio-Pro/releases/349030332/assets{?name,label}
+    html_url: https://github.com/analogcode/Swift-Radio-Pro/releases/tag/v3.1.0
+    id: 349030332
     author:
-      login: fethica
-      id: 3511384
-      node_id: MDQ6VXNlcjM1MTEzODQ=
-      avatar_url: https://avatars.githubusercontent.com/u/3511384?v=4
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
       gravatar_id: ""
-      url: https://api.github.com/users/fethica
-      html_url: https://github.com/fethica
-      followers_url: https://api.github.com/users/fethica/followers
-      following_url: https://api.github.com/users/fethica/following{/other_user}
-      gists_url: https://api.github.com/users/fethica/gists{/gist_id}
-      starred_url: https://api.github.com/users/fethica/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/fethica/subscriptions
-      organizations_url: https://api.github.com/users/fethica/orgs
-      repos_url: https://api.github.com/users/fethica/repos
-      events_url: https://api.github.com/users/fethica/events{/privacy}
-      received_events_url: https://api.github.com/users/fethica/received_events
-      type: User
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOAn_e7c4Q8I9N
-    tag_name: v3.0.0
+    node_id: RE_kwDOAn_e7c4Uzce8
+    tag_name: v3.1.0
     target_commitish: master
-    name: Version 3.0.0
+    name: Swift Radio v3.1.0
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-02-08T18:14:22Z
-    updated_at: 2026-02-08T18:33:47Z
-    published_at: 2026-02-08T18:33:47Z
-    assets: []
-    tarball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/tarball/v3.0.0
-    zipball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/zipball/v3.0.0
-    body: "### Important changes\r
+    created_at: 2026-07-04T20:17:06Z
+    updated_at: 2026-07-04T20:18:33Z
+    published_at: 2026-07-04T20:18:33Z
+    assets:
+      - url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases/assets/466586784
+        id: 466586784
+        node_id: RA_kwDOAn_e7c4bz4yg
+        name: swift-radio-v3.1.0-unsigned.ipa
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 6178833
+        digest: sha256:5a8d1d8387f16e125f28c5e6d68470e59fa003d2cdc5cc1bdbf2f10092c624b3
+        download_count: 2
+        created_at: 2026-07-04T20:18:32Z
+        updated_at: 2026-07-04T20:18:33Z
+        browser_download_url: https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa
+    tarball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/tarball/v3.1.0
+    zipball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/zipball/v3.1.0
+    body: >-
+      The attached `.ipa` is unsigned. Install it by sideloading with
+      [AltStore](https://altstore.io) or [Sideloadly](https://sideloadly.io), which re-sign it with
+      your own Apple ID. Or clone the repo and run it from Xcode with your personal team.
 
-      \r
 
-      - **Storyboard migration completed**\r
+      ## What's Changed
 
-      \  - Removed storyboard dependency from core flows and moved navigation to a
-      **Coordinator-based architecture**.\r
+      * Localize About screen by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/206
 
-      \  - Migrated launch screen from storyboard to the modern **Info.plist `UILaunchScreen`**
-      approach.\r
+      * Add link to Swift Radio Android in README by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/209
 
-      \r
+      * Move Android link below screenshots by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/210
 
-      - **Major UI redesign**\r
+      * Fix CI builds by using iPhone 17 Pro simulator by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/211
 
-      \  - Redesigned **Stations** list with a modern card-based style and improved visual
-      hierarchy.\r
+      * CarPlay indicator sync, lock screen fix, new app icon, release automation by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/212
 
-      \  - Redesigned **Now Playing** with dynamic blur background, SF Symbol controls, and marquee
-      title handling.\r
+      * Fix iOS app icon: use square full-bleed artwork by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/213
 
-      \  - Refreshed branding and assets (new icon/logo style, updated station artwork set).\r
 
-      \r
 
-      - **Live vs non-live playback behavior**\r
-
-      \  - Added explicit **LIVE** handling (LIVE badge + live-specific controls).\r
-
-      \  - Improved behavior so live streams use **Stop**, while non-live playback supports expected
-      **pause/resume** flow.\r
-
-      \  - Updated station tap behavior to resume paused/stopped playback directly.\r
-
-      \r
-
-      ### Additional notable updates\r
-
-      \r
-
-      - Replaced `DataManager` with `NetworkService` using **async/await**.\r
-
-      - Improved buffering/loading UX and station state updates.\r
-
-      - Added localization groundwork via `Localizable.xcstrings`.\r
-
-      - Modernized project/tooling (Xcode settings, CI workflow updates, CarPlay updates).\r
-
-      \r
-
-      \r\n"
+      **Full Changelog**: https://github.com/analogcode/Swift-Radio-Pro/compare/v3.0.0...v3.1.0
+    mentions_count: 1
   files:
     readme: true
     contributing: false

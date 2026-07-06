@@ -1,17 +1,16 @@
 schemaVersion: 1
-
 id: github:AppFlowy-IO/AppFlowy
 slug: appflowy
-
 source:
   provider: github
   owner: AppFlowy-IO
   repo: AppFlowy
   url: https://github.com/AppFlowy-IO/AppFlowy
-
 app:
-  name: "AppFlowy"
-  description: "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+  name: AppFlowy
+  description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative
+    workspace where you achieve more without losing control of your data. The leading open source
+    Notion alternative.
   category: productivity
   projectType: production
   platforms:
@@ -30,15 +29,14 @@ app:
     channels:
       - type: app-store
         platform: ios
-        label: "App Store"
+        label: App Store
         url: https://apps.apple.com/us/app/appflowy/id6457261352
         verified: false
       - type: play-store
         platform: android
-        label: "Play Store"
+        label: Play Store
         url: https://play.google.com/store/apps/details?id=io.appflowy.appflowy&pli=1
         verified: false
-
 stack:
   primary: flutter
   technologies:
@@ -62,26 +60,109 @@ stack:
       role: technology
     - id: project-management
       role: technology
-
 github:
   repository:
     id: 377496562
     node_id: MDEwOlJlcG9zaXRvcnkzNzc0OTY1NjI=
     name: AppFlowy
     full_name: AppFlowy-IO/AppFlowy
+    private: false
+    owner:
+      login: AppFlowy-IO
+      id: 86002201
+      node_id: MDEyOk9yZ2FuaXphdGlvbjg2MDAyMjAx
+      avatar_url: https://avatars.githubusercontent.com/u/86002201?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/AppFlowy-IO
+      html_url: https://github.com/AppFlowy-IO
+      followers_url: https://api.github.com/users/AppFlowy-IO/followers
+      following_url: https://api.github.com/users/AppFlowy-IO/following{/other_user}
+      gists_url: https://api.github.com/users/AppFlowy-IO/gists{/gist_id}
+      starred_url: https://api.github.com/users/AppFlowy-IO/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/AppFlowy-IO/subscriptions
+      organizations_url: https://api.github.com/users/AppFlowy-IO/orgs
+      repos_url: https://api.github.com/users/AppFlowy-IO/repos
+      events_url: https://api.github.com/users/AppFlowy-IO/events{/privacy}
+      received_events_url: https://api.github.com/users/AppFlowy-IO/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/AppFlowy-IO/AppFlowy
-    clone_url: https://github.com/AppFlowy-IO/AppFlowy.git
-    ssh_url: git@github.com:AppFlowy-IO/AppFlowy.git
-    homepage: "https://appflowy.com"
-    description: "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative."
+    description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative
+      workspace where you achieve more without losing control of your data. The leading open source
+      Notion alternative.
     fork: false
+    url: https://api.github.com/repos/AppFlowy-IO/AppFlowy
+    forks_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/forks
+    keys_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/teams
+    hooks_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/hooks
+    issue_events_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/issues/events{/number}
+    events_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/events
+    assignees_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/assignees{/user}
+    branches_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/branches{/branch}
+    tags_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/tags
+    blobs_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/git/refs{/sha}
+    trees_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/statuses/{sha}
+    languages_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/languages
+    stargazers_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/stargazers
+    contributors_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/contributors
+    subscribers_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/subscribers
+    subscription_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/subscription
+    commits_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/commits{/sha}
+    git_commits_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/git/commits{/sha}
+    comments_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/comments{/number}
+    issue_comment_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/issues/comments{/number}
+    contents_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/contents/{+path}
+    compare_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/merges
+    archive_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/downloads
+    issues_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/issues{/number}
+    pulls_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/pulls{/number}
+    milestones_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/milestones{/number}
+    notifications_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/labels{/name}
+    releases_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}
+    deployments_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments
+    created_at: 2021-06-16T12:56:48Z
+    updated_at: 2026-07-06T11:36:31Z
+    pushed_at: 2026-06-26T02:35:46Z
+    git_url: git://github.com/AppFlowy-IO/AppFlowy.git
+    ssh_url: git@github.com:AppFlowy-IO/AppFlowy.git
+    clone_url: https://github.com/AppFlowy-IO/AppFlowy.git
+    svn_url: https://github.com/AppFlowy-IO/AppFlowy
+    homepage: https://appflowy.com
+    size: 93897
+    stargazers_count: 73371
+    watchers_count: 73371
+    language: Dart
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: false
+    has_pages: false
+    has_discussions: true
+    forks_count: 5579
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 993
+    license:
+      key: agpl-3.0
+      name: GNU Affero General Public License v3.0
+      spdx_id: AGPL-3.0
+      url: https://api.github.com/licenses/agpl-3.0
+      node_id: MDc6TGljZW5zZTE=
+    allow_forking: true
     is_template: false
-    visibility: public
-    default_branch: main
-    language: "Dart"
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - blog
       - confluence-alternative
@@ -95,29 +176,711 @@ github:
       - task-management
       - team-collaboration
       - wiki
-    license:
-      key: agpl-3.0
-      name: "GNU Affero General Public License v3.0"
-      spdx_id: AGPL-3.0
-    stargazers_count: 73341
-    watchers_count: 73341
-    forks_count: 5575
-    open_issues_count: 1001
-    subscribers_count: 384
-    size: 93897
-    created_at: 2021-06-16T12:56:48Z
-    updated_at: 2026-07-06T02:51:06Z
-    pushed_at: 2026-06-26T02:35:46Z
+    visibility: public
+    forks: 5579
+    open_issues: 993
+    watchers: 73371
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: AppFlowy-IO
+      id: 86002201
+      node_id: MDEyOk9yZ2FuaXphdGlvbjg2MDAyMjAx
+      avatar_url: https://avatars.githubusercontent.com/u/86002201?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/AppFlowy-IO
+      html_url: https://github.com/AppFlowy-IO
+      followers_url: https://api.github.com/users/AppFlowy-IO/followers
+      following_url: https://api.github.com/users/AppFlowy-IO/following{/other_user}
+      gists_url: https://api.github.com/users/AppFlowy-IO/gists{/gist_id}
+      starred_url: https://api.github.com/users/AppFlowy-IO/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/AppFlowy-IO/subscriptions
+      organizations_url: https://api.github.com/users/AppFlowy-IO/orgs
+      repos_url: https://api.github.com/users/AppFlowy-IO/repos
+      events_url: https://api.github.com/users/AppFlowy-IO/events{/privacy}
+      received_events_url: https://api.github.com/users/AppFlowy-IO/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 5579
+    subscribers_count: 383
   sync:
-    syncedAt: 2026-07-06T03:00:02.534Z
+    syncedAt: 2026-07-06T11:39:46.136Z
     apiVersion: rest-v3
-    source: submit-page
+    source: github-actions
+  languages:
+    Dart: 9470739
+    Rust: 3105156
+    C++: 93229
+    Shell: 64834
+    CMake: 57664
+    HTML: 26296
+    Ruby: 16916
+    Swift: 13581
+    C: 9094
+    Java: 4561
+    Batchfile: 3740
+    Kotlin: 3395
+    Dockerfile: 2745
+    Objective-C: 1545
+    Inno Setup: 1120
+    JavaScript: 796
+    Makefile: 116
+    RenderScript: 3
+  latestRelease:
+    url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/343527689
+    assets_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/343527689/assets
+    upload_url: https://uploads.github.com/repos/AppFlowy-IO/AppFlowy/releases/343527689/assets{?name,label}
+    html_url: https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.12.5
+    id: 343527689
+    author:
+      login: LucasXu0
+      id: 11863087
+      node_id: MDQ6VXNlcjExODYzMDg3
+      avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/LucasXu0
+      html_url: https://github.com/LucasXu0
+      followers_url: https://api.github.com/users/LucasXu0/followers
+      following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+      gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+      starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+      organizations_url: https://api.github.com/users/LucasXu0/orgs
+      repos_url: https://api.github.com/users/LucasXu0/repos
+      events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+      received_events_url: https://api.github.com/users/LucasXu0/received_events
+      type: User
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOFoAj8s4UedEJ
+    tag_name: 0.12.5
+    target_commitish: main
+    name: v0.12.5
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-03-20T06:02:00Z
+    updated_at: 2026-06-24T01:55:27Z
+    published_at: 2026-06-23T13:46:26Z
+    assets:
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/456174869
+        id: 456174869
+        node_id: RA_kwDOFoAj8s4bMK0V
+        name: appcast-linux-x86_64.xml
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: text/xml
+        state: uploaded
+        size: 680
+        digest: sha256:e9fef1d1377ed74b8e3f6d0516dbab96fceda9116d50007d1e71ab19943a42db
+        download_count: 30598
+        created_at: 2026-06-24T01:55:25Z
+        updated_at: 2026-06-24T01:55:26Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-linux-x86_64.xml
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/456174886
+        id: 456174886
+        node_id: RA_kwDOFoAj8s4bMK0m
+        name: appcast-macos-arm64.xml
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: text/xml
+        state: uploaded
+        size: 965
+        digest: sha256:35b8aaa60772b70a50ca45a5726a41e157afd5486a53cd8ff9374e93db462f97
+        download_count: 73089
+        created_at: 2026-06-24T01:55:26Z
+        updated_at: 2026-06-24T01:55:27Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-macos-arm64.xml
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/456174892
+        id: 456174892
+        node_id: RA_kwDOFoAj8s4bMK0s
+        name: appcast-macos-x86_64.xml
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: text/xml
+        state: uploaded
+        size: 962
+        digest: sha256:9c5b17099ecc9b65ad1fc4ca85363948ebcd8a060fd4ba15bfd1ca1baa34aaa9
+        download_count: 54233
+        created_at: 2026-06-24T01:55:27Z
+        updated_at: 2026-06-24T01:55:27Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-macos-x86_64.xml
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455674803
+        id: 455674803
+        node_id: RA_kwDOFoAj8s4bKQuz
+        name: AppFlowy-0.12.5-android.apk
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 165688964
+        digest: sha256:b1200dff22bc95098f6255f53e0970f114493afcd17d4d42f49383172ea82899
+        download_count: 1521
+        created_at: 2026-06-23T14:01:56Z
+        updated_at: 2026-06-23T14:02:15Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-android.apk
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455666690
+        id: 455666690
+        node_id: RA_kwDOFoAj8s4bKOwC
+        name: AppFlowy-0.12.5-linux-x86_64.AppImage
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 185504960
+        digest: sha256:4fbbd69e5c20b952c48b95fd7e3e2b06156cae6545e99f164a3871141116877d
+        download_count: 890
+        created_at: 2026-06-23T13:51:13Z
+        updated_at: 2026-06-23T13:51:31Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.AppImage
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455666862
+        id: 455666862
+        node_id: RA_kwDOFoAj8s4bKOyu
+        name: AppFlowy-0.12.5-linux-x86_64.deb
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 72581736
+        digest: sha256:011723535c594eb6c2eba7e62ecd84f7946160586b74c7ebc516a3b96b06ca74
+        download_count: 1477
+        created_at: 2026-06-23T13:51:31Z
+        updated_at: 2026-06-23T13:51:36Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.deb
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455666930
+        id: 455666930
+        node_id: RA_kwDOFoAj8s4bKOzy
+        name: AppFlowy-0.12.5-linux-x86_64.rpm
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 99796292
+        digest: sha256:78723c5bbff49c015fd4ae839e8c63643c686748f7238bb5bc128895d0a0bf9c
+        download_count: 165
+        created_at: 2026-06-23T13:51:36Z
+        updated_at: 2026-06-23T13:51:44Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.rpm
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667019
+        id: 455667019
+        node_id: RA_kwDOFoAj8s4bKO1L
+        name: AppFlowy-0.12.5-linux-x86_64.tar.gz
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gzip
+        state: uploaded
+        size: 176882129
+        digest: sha256:8a6bf9b1657aec795ea9a87fee31e3a231d6d872275c54d62259ec62a2dc08de
+        download_count: 305
+        created_at: 2026-06-23T13:51:44Z
+        updated_at: 2026-06-23T13:51:58Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.tar.gz
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667915
+        id: 455667915
+        node_id: RA_kwDOFoAj8s4bKPDL
+        name: AppFlowy-0.12.5-macos-arm64.dmg
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 98843589
+        digest: sha256:cac1fc159854e0f9b7bf1aa4d4711f8b7dbb6ca6628981235d04c1f7b8be7a27
+        download_count: 493
+        created_at: 2026-06-23T13:52:56Z
+        updated_at: 2026-06-23T13:53:04Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-arm64.dmg
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667799
+        id: 455667799
+        node_id: RA_kwDOFoAj8s4bKPBX
+        name: AppFlowy-0.12.5-macos-arm64.zip
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 100132863
+        digest: sha256:bfadf3436f76d060cd5d9804361af24ba4b9acb42a00d367e8e4f668b87fef08
+        download_count: 1278
+        created_at: 2026-06-23T13:52:48Z
+        updated_at: 2026-06-23T13:52:56Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-arm64.zip
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667652
+        id: 455667652
+        node_id: RA_kwDOFoAj8s4bKO_E
+        name: AppFlowy-0.12.5-macos-universal.dmg
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 180622005
+        digest: sha256:e2ea90c58ed6a52be6d799cc2705bad2439fedc00d86dbdd0496c4d6839e65b4
+        download_count: 1104
+        created_at: 2026-06-23T13:52:34Z
+        updated_at: 2026-06-23T13:52:48Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-universal.dmg
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667480
+        id: 455667480
+        node_id: RA_kwDOFoAj8s4bKO8Y
+        name: AppFlowy-0.12.5-macos-universal.zip
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 182332772
+        digest: sha256:8d9dd5841cae6f304da068f5c95e526a5fb5c6164be9daafb435ea82c6d29163
+        download_count: 69
+        created_at: 2026-06-23T13:52:20Z
+        updated_at: 2026-06-23T13:52:34Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-universal.zip
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667345
+        id: 455667345
+        node_id: RA_kwDOFoAj8s4bKO6R
+        name: AppFlowy-0.12.5-macos-x86_64.dmg
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 103812376
+        digest: sha256:d8dce3c4f097a723be5b2b1164008c7e1ef8cc7f8cdaa1ed09fdbc6b19b2ab4c
+        download_count: 1041
+        created_at: 2026-06-23T13:52:12Z
+        updated_at: 2026-06-23T13:52:20Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-x86_64.dmg
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455667261
+        id: 455667261
+        node_id: RA_kwDOFoAj8s4bKO49
+        name: AppFlowy-0.12.5-macos-x86_64.zip
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 105291442
+        digest: sha256:b9fb1ead2a656f10737f7967a87fd715fef97a2f4a15742a029ed44963972354
+        download_count: 166
+        created_at: 2026-06-23T13:52:03Z
+        updated_at: 2026-06-23T13:52:12Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-x86_64.zip
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455668404
+        id: 455668404
+        node_id: RA_kwDOFoAj8s4bKPK0
+        name: AppFlowy-0.12.5-windows-x86_64.exe
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-msdownload
+        state: uploaded
+        size: 80283664
+        digest: sha256:039d6f1f96763ee4e64748bf18312cd13db83c7bdc5a41cdd6740f239df7d9c5
+        download_count: 4349
+        created_at: 2026-06-23T13:53:35Z
+        updated_at: 2026-06-23T13:53:44Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-windows-x86_64.exe
+      - url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/assets/455668228
+        id: 455668228
+        node_id: RA_kwDOFoAj8s4bKPIE
+        name: AppFlowy-0.12.5-windows-x86_64.zip
+        label: null
+        uploader:
+          login: LucasXu0
+          id: 11863087
+          node_id: MDQ6VXNlcjExODYzMDg3
+          avatar_url: https://avatars.githubusercontent.com/u/11863087?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/LucasXu0
+          html_url: https://github.com/LucasXu0
+          followers_url: https://api.github.com/users/LucasXu0/followers
+          following_url: https://api.github.com/users/LucasXu0/following{/other_user}
+          gists_url: https://api.github.com/users/LucasXu0/gists{/gist_id}
+          starred_url: https://api.github.com/users/LucasXu0/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/LucasXu0/subscriptions
+          organizations_url: https://api.github.com/users/LucasXu0/orgs
+          repos_url: https://api.github.com/users/LucasXu0/repos
+          events_url: https://api.github.com/users/LucasXu0/events{/privacy}
+          received_events_url: https://api.github.com/users/LucasXu0/received_events
+          type: User
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-zip-compressed
+        state: uploaded
+        size: 113072807
+        digest: sha256:ed157b5fac29010e449e07d920e65212f8e4159bb95a72859418d4ce0004f83b
+        download_count: 504
+        created_at: 2026-06-23T13:53:19Z
+        updated_at: 2026-06-23T13:53:35Z
+        browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-windows-x86_64.zip
+    tarball_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/tarball/0.12.5
+    zipball_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/zipball/0.12.5
+    body: "## Version 0.12.5 – 06/23/2026\r
 
+      \r
+
+      ### Desktop\r
+
+      \r
+
+      #### Bug Fixes\r
+
+      \r
+
+      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead
+      to data loss in rare cases.\r
+
+      \r
+
+      ### Mobile\r
+
+      \r
+
+      #### Bug Fixes\r
+
+      \r
+
+      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead
+      to data loss in rare cases.\r
+
+      \r
+
+      ### Security Notice (Windows)\r
+
+      \r
+
+      This Windows release is signed with a newly renewed code-signing certificate. Because Windows
+      SmartScreen builds reputation per certificate, you may temporarily see an \"unrecognized app\"
+      warning. This build is properly signed and safe — if prompted, select **More info → Run
+      anyway**. The warning will clear as the certificate establishes reputation."
+    reactions:
+      url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/343527689/reactions
+      total_count: 6
+      "+1": 0
+      "-1": 0
+      laugh: 0
+      hooray: 0
+      confused: 0
+      heart: 6
+      rocket: 0
+      eyes: 0
+  activity:
+    monthlyCommits:
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 1
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 1
+      - month: 2026-07
+        commits: 0
+    totalCommitsKnown: 7210
+    contributorsKnown: 381
+    openPullRequests: 79
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: help wanted
+      color: fb006d
+      description: for the community members to claim
 curation:
   reviewed: false
   reviewedBy: null
   reviewedAt: null
-  bestFor:
-    []
-  caveats:
-    []
+  bestFor: []
+  caveats: []
