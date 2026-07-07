@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-07-06T11:28:09Z
-    pushed_at: 2026-07-05T17:06:44Z
+    updated_at: 2026-07-07T10:25:12Z
+    pushed_at: 2026-07-06T20:04:11Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
     clone_url: https://github.com/karakeep-app/karakeep.git
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
-    size: 100076
-    stargazers_count: 26663
-    watchers_count: 26663
+    size: 100270
+    stargazers_count: 27091
+    watchers_count: 27091
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1311
+    forks_count: 1331
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 658
+    open_issues_count: 660
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1311
-    open_issues: 658
-    watchers: 26663
+    forks: 1331
+    open_issues: 660
+    watchers: 27091
     default_branch: main
     permissions:
       admin: false
@@ -182,7 +182,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1311
+    network_count: 1331
     subscribers_count: 75
   languages:
     TypeScript: 3892712
@@ -1126,14 +1126,14 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 73
+        commits: 72
       - month: 2026-06
         commits: 13
       - month: 2026-07
-        commits: 14
-    totalCommitsKnown: 2077
+        commits: 15
+    totalCommitsKnown: 2078
     contributorsKnown: 185
-    openPullRequests: 69
+    openPullRequests: 71
   files:
     readme: true
     contributing: true
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-06T11:40:01.867Z
+    syncedAt: 2026-07-07T10:28:08.777Z
     apiVersion: rest-v3
     source: github-actions
 health:

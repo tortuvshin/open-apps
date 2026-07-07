@@ -106,14 +106,14 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-07-06T09:40:18Z
-    pushed_at: 2026-07-06T06:52:50Z
+    updated_at: 2026-07-06T18:14:35Z
+    pushed_at: 2026-07-06T22:01:55Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 285993
+    size: 287607
     stargazers_count: 4365
     watchers_count: 4365
     language: TypeScript
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 24
+    open_issues_count: 20
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -147,7 +147,7 @@ github:
       - react-native
     visibility: public
     forks: 750
-    open_issues: 24
+    open_issues: 20
     watchers: 4365
     default_branch: develop
     permissions:
@@ -181,7 +181,7 @@ github:
     network_count: 750
     subscribers_count: 69
   languages:
-    TypeScript: 9155649
+    TypeScript: 9172710
     JavaScript: 389881
     Swift: 101323
     Objective-C: 62738
@@ -293,12 +293,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 83
+        commits: 80
       - month: 2026-07
-        commits: 17
-    totalCommitsKnown: 9204
+        commits: 20
+    totalCommitsKnown: 9207
     contributorsKnown: 73
-    openPullRequests: 24
+    openPullRequests: 20
   files:
     readme: true
     contributing: false
@@ -308,7 +308,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-07-06T11:40:09.902Z
+    syncedAt: 2026-07-07T10:28:18.732Z
     apiVersion: rest-v3
     source: github-actions
 health:

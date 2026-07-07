@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-07-06T11:35:24Z
-    pushed_at: 2026-07-06T11:35:21Z
+    updated_at: 2026-07-07T09:27:28Z
+    pushed_at: 2026-07-07T10:25:51Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2046866
-    stargazers_count: 2990
-    watchers_count: 2990
+    size: 2046852
+    stargazers_count: 2992
+    watchers_count: 2992
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1878
+    open_issues_count: 1890
     license:
       key: other
       name: Other
@@ -149,8 +149,8 @@ github:
       - web3
     visibility: public
     forks: 1622
-    open_issues: 1878
-    watchers: 2990
+    open_issues: 1890
+    watchers: 2992
     default_branch: main
     permissions:
       admin: false
@@ -185,8 +185,8 @@ github:
     network_count: 1622
     subscribers_count: 142
   languages:
-    TypeScript: 72212723
-    JavaScript: 2217509
+    TypeScript: 72272410
+    JavaScript: 2217420
     Shell: 140044
     HTML: 100552
     Swift: 20776
@@ -267,7 +267,7 @@ github:
         state: uploaded
         size: 189703194
         digest: sha256:1326ee40300f4ca9263dfc1e5f4101c09448ce22b08a234c6337961b1dc36339
-        download_count: 42
+        download_count: 58
         created_at: 2026-07-04T07:39:04Z
         updated_at: 2026-07-04T07:39:10Z
         browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.1.0/metamask-blockchain-wall-android3-8.1.0-metamask-production-main-8.1.0-5879.aab
@@ -300,7 +300,7 @@ github:
         state: uploaded
         size: 295009453
         digest: sha256:078ccf5c5d237485403dc295bf717e18c883845c8be213adc5708d248ae7b059
-        download_count: 565
+        download_count: 753
         created_at: 2026-07-04T07:39:11Z
         updated_at: 2026-07-04T07:39:18Z
         browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.1.0/metamask-blockchain-wall-android3-8.1.0-metamask-production-main-8.1.0-5879.apk
@@ -1077,9 +1077,9 @@ github:
         commits: 0
       - month: 2026-07
         commits: 100
-    totalCommitsKnown: 18193
+    totalCommitsKnown: 18288
     contributorsKnown: 303
-    openPullRequests: 485
+    openPullRequests: 497
   files:
     readme: true
     contributing: false
@@ -1089,7 +1089,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-07-06T11:40:04.565Z
+    syncedAt: 2026-07-07T10:28:12.419Z
     apiVersion: rest-v3
     source: github-actions
 health:
