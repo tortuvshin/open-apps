@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
     deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
     created_at: 2026-03-11T14:04:59Z
-    updated_at: 2026-07-06T07:41:31Z
-    pushed_at: 2026-07-06T02:55:30Z
+    updated_at: 2026-07-08T07:13:24Z
+    pushed_at: 2026-07-07T20:45:44Z
     git_url: git://github.com/memex-lab/memex.git
     ssh_url: git@github.com:memex-lab/memex.git
     clone_url: https://github.com/memex-lab/memex.git
     svn_url: https://github.com/memex-lab/memex
     homepage: https://memexlab.ai
-    size: 57042
-    stargazers_count: 581
-    watchers_count: 581
+    size: 57112
+    stargazers_count: 587
+    watchers_count: 587
     language: Dart
     has_issues: true
     has_projects: true
@@ -148,7 +148,7 @@ github:
     visibility: public
     forks: 58
     open_issues: 17
-    watchers: 581
+    watchers: 587
     default_branch: main
     permissions:
       admin: false
@@ -191,18 +191,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 96
+        commits: 92
       - month: 2026-07
-        commits: 4
-    totalCommitsKnown: 728
+        commits: 8
+    totalCommitsKnown: 732
     openPullRequests: 6
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-06T11:40:04.374Z
+    syncedAt: 2026-07-08T09:28:08.017Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 7160660
+    Dart: 7250946
     HTML: 130229
     Python: 94428
     Kotlin: 86620
@@ -276,7 +276,7 @@ github:
         state: uploaded
         size: 260823879
         digest: sha256:6d7d1edb8ae03690ad980d8abed7147727150eb04f8c9f2463c4e58521229feb
-        download_count: 62
+        download_count: 79
         created_at: 2026-07-01T07:10:20Z
         updated_at: 2026-07-01T07:11:25Z
         browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.36/app-global-release.apk

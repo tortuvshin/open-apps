@@ -91,16 +91,16 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-07-06T10:14:21Z
-    pushed_at: 2026-07-06T10:14:18Z
+    updated_at: 2026-07-07T21:20:12Z
+    pushed_at: 2026-07-08T08:41:11Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 647848
-    stargazers_count: 3771
-    watchers_count: 3771
+    size: 647866
+    stargazers_count: 3770
+    watchers_count: 3770
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 10
+    open_issues_count: 11
     license:
       key: mit
       name: MIT License
@@ -135,8 +135,8 @@ github:
       - swift
     visibility: public
     forks: 592
-    open_issues: 10
-    watchers: 3771
+    open_issues: 11
+    watchers: 3770
     default_branch: main
     permissions:
       admin: false
@@ -179,20 +179,20 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 82
+        commits: 78
       - month: 2026-07
-        commits: 18
-    totalCommitsKnown: 27988
-    openPullRequests: 8
+        commits: 22
+    totalCommitsKnown: 27992
+    openPullRequests: 9
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-07-06T11:39:52.678Z
+    syncedAt: 2026-07-08T09:27:56.111Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 7887326
+    TypeScript: 7889319
     Objective-C: 694758
-    Swift: 479403
+    Swift: 479639
     JavaScript: 76483
     Ruby: 60399
     Shell: 55427

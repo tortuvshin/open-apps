@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/wger-project/flutter/releases{/id}
     deployments_url: https://api.github.com/repos/wger-project/flutter/deployments
     created_at: 2020-09-12T10:09:59Z
-    updated_at: 2026-07-05T11:15:14Z
+    updated_at: 2026-07-08T01:03:59Z
     pushed_at: 2026-07-06T00:54:41Z
     git_url: git://github.com/wger-project/flutter.git
     ssh_url: git@github.com:wger-project/flutter.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/wger-project/flutter
     homepage: ""
     size: 400724
-    stargazers_count: 934
-    watchers_count: 934
+    stargazers_count: 937
+    watchers_count: 937
     language: Dart
     has_issues: true
     has_projects: true
@@ -107,11 +107,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 407
+    forks_count: 406
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 124
+    open_issues_count: 126
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -132,9 +132,9 @@ github:
       - wger
       - workout
     visibility: public
-    forks: 407
-    open_issues: 124
-    watchers: 934
+    forks: 406
+    open_issues: 126
+    watchers: 937
     default_branch: master
     permissions:
       admin: false
@@ -164,7 +164,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 407
+    network_count: 406
     subscribers_count: 18
   activity:
     monthlyCommits:
@@ -181,10 +181,10 @@ github:
       - month: 2026-07
         commits: 26
     totalCommitsKnown: 4585
-    openPullRequests: 40
+    openPullRequests: 42
     contributorsKnown: 333
   sync:
-    syncedAt: 2026-07-06T11:40:18.669Z
+    syncedAt: 2026-07-08T09:28:22.480Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -265,7 +265,7 @@ github:
         state: uploaded
         size: 93185919
         digest: sha256:18c348c4aa4a78dcffa5e58d875b21997ccab08416955018ce710c3ec6a6ac0a
-        download_count: 3
+        download_count: 4
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:20Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/app-release.aab
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 95870173
         digest: sha256:33aa16ddf841f13cd16513d4b45b6d0de8cefbde742387955d368fa550bcda10
-        download_count: 414
+        download_count: 423
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:20Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/app-release.apk
@@ -331,7 +331,7 @@ github:
         state: uploaded
         size: 17544781
         digest: sha256:3ac682135b6b4cfc22d6cb4d9849a9ed1fb2453cf1cc3fbe1e34e2f91554a81e
-        download_count: 3
+        download_count: 4
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:17Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/linux-x64.tar.gz
@@ -397,7 +397,7 @@ github:
         state: uploaded
         size: 60252685
         digest: sha256:116e595f5eb430dbf6534bb672634fb6c878d01c7d86ded5a855e805c4419611
-        download_count: 2
+        download_count: 4
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:19Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/Runner.xcarchive.zip
@@ -430,7 +430,7 @@ github:
         state: uploaded
         size: 18281905
         digest: sha256:acc27a6503a6865c27ede24cbb45e613f8157e64191e259366df1d2988f8f5c0
-        download_count: 2
+        download_count: 3
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:17Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/web-wasm.tar.gz
@@ -529,7 +529,7 @@ github:
         state: uploaded
         size: 20100174
         digest: sha256:1a373fb4067947af155f20e2de6adb40d49094d255492f0453df94779134a3fd
-        download_count: 3
+        download_count: 4
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:17Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/windows-x64.zip

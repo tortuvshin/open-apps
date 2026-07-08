@@ -93,16 +93,16 @@ github:
     releases_url: https://api.github.com/repos/openfoodfacts/smooth-app/releases{/id}
     deployments_url: https://api.github.com/repos/openfoodfacts/smooth-app/deployments
     created_at: 2020-04-23T12:13:55Z
-    updated_at: 2026-07-06T09:24:06Z
-    pushed_at: 2026-07-06T08:56:54Z
+    updated_at: 2026-07-07T17:42:07Z
+    pushed_at: 2026-07-07T19:30:21Z
     git_url: git://github.com/openfoodfacts/smooth-app.git
     ssh_url: git@github.com:openfoodfacts/smooth-app.git
     clone_url: https://github.com/openfoodfacts/smooth-app.git
     svn_url: https://github.com/openfoodfacts/smooth-app
     homepage: https://world.openfoodfacts.org/open-food-facts-mobile-app?utm_source=off&utf_medium=web&utm_campaign=github-repo
-    size: 314170
-    stargazers_count: 1369
-    watchers_count: 1369
+    size: 321721
+    stargazers_count: 1370
+    watchers_count: 1370
     language: Dart
     has_issues: true
     has_projects: true
@@ -110,11 +110,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 456
+    forks_count: 458
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 629
+    open_issues_count: 622
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -141,9 +141,9 @@ github:
       - nutrition
       - openfoodfacts
     visibility: public
-    forks: 456
-    open_issues: 629
-    watchers: 1369
+    forks: 458
+    open_issues: 622
+    watchers: 1370
     default_branch: develop
     permissions:
       admin: false
@@ -173,14 +173,14 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 456
+    network_count: 458
     subscribers_count: 15
   activity:
     monthlyCommits:
       - month: 2026-02
         commits: 0
       - month: 2026-03
-        commits: 7
+        commits: 0
       - month: 2026-04
         commits: 7
       - month: 2026-05
@@ -188,16 +188,16 @@ github:
       - month: 2026-06
         commits: 54
       - month: 2026-07
-        commits: 7
-    totalCommitsKnown: 5289
-    openPullRequests: 35
+        commits: 14
+    totalCommitsKnown: 5296
+    openPullRequests: 31
     contributorsKnown: 116
   sync:
-    syncedAt: 2026-07-06T11:40:07.757Z
+    syncedAt: 2026-07-08T09:28:11.482Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 4029547
+    Dart: 4048625
     C++: 22333
     CMake: 18310
     Shell: 10323
@@ -272,7 +272,7 @@ github:
         state: uploaded
         size: 5
         digest: sha256:1e26bcae5bbbc479e731143fcb8d6e7b60045bccca20882e30d4efdc60ed46ed
-        download_count: 249
+        download_count: 252
         created_at: 2026-01-06T14:57:21Z
         updated_at: 2026-01-06T14:57:21Z
         browser_download_url: https://github.com/openfoodfacts/smooth-app/releases/download/v4.23.0/version-code.txt
