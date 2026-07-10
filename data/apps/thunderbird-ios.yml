@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}
     deployments_url: https://api.github.com/repos/thunderbird/thunderbird-ios/deployments
     created_at: 2025-01-20T14:50:57Z
-    updated_at: 2026-07-08T01:27:04Z
-    pushed_at: 2026-07-06T07:24:28Z
+    updated_at: 2026-07-10T05:49:49Z
+    pushed_at: 2026-07-09T13:53:30Z
     git_url: git://github.com/thunderbird/thunderbird-ios.git
     ssh_url: git@github.com:thunderbird/thunderbird-ios.git
     clone_url: https://github.com/thunderbird/thunderbird-ios.git
     svn_url: https://github.com/thunderbird/thunderbird-ios
     homepage: null
-    size: 9883
-    stargazers_count: 1073
-    watchers_count: 1073
+    size: 9876
+    stargazers_count: 1074
+    watchers_count: 1074
     language: Swift
     has_issues: true
     has_projects: true
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 70
+    open_issues_count: 69
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -126,8 +126,8 @@ github:
     topics: []
     visibility: public
     forks: 35
-    open_issues: 70
-    watchers: 1073
+    open_issues: 69
+    watchers: 1074
     default_branch: main
     permissions:
       admin: false
@@ -166,22 +166,22 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 12
+        commits: 4
       - month: 2026-05
         commits: 44
       - month: 2026-06
-        commits: 44
+        commits: 46
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 703
-    openPullRequests: 8
+        commits: 6
+    totalCommitsKnown: 711
+    openPullRequests: 7
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-07-08T09:28:19.848Z
+    syncedAt: 2026-07-10T10:28:02.409Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1027840
+    Swift: 1032325
     Ruby: 5619
     Shell: 2170
     HTML: 385

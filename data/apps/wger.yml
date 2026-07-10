@@ -90,14 +90,14 @@ github:
     releases_url: https://api.github.com/repos/wger-project/flutter/releases{/id}
     deployments_url: https://api.github.com/repos/wger-project/flutter/deployments
     created_at: 2020-09-12T10:09:59Z
-    updated_at: 2026-07-08T01:03:59Z
-    pushed_at: 2026-07-06T00:54:41Z
+    updated_at: 2026-07-09T11:19:36Z
+    pushed_at: 2026-07-09T15:20:13Z
     git_url: git://github.com/wger-project/flutter.git
     ssh_url: git@github.com:wger-project/flutter.git
     clone_url: https://github.com/wger-project/flutter.git
     svn_url: https://github.com/wger-project/flutter
     homepage: ""
-    size: 400724
+    size: 400649
     stargazers_count: 937
     watchers_count: 937
     language: Dart
@@ -107,11 +107,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 406
+    forks_count: 408
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 126
+    open_issues_count: 121
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -132,8 +132,8 @@ github:
       - wger
       - workout
     visibility: public
-    forks: 406
-    open_issues: 126
+    forks: 408
+    open_issues: 121
     watchers: 937
     default_branch: master
     permissions:
@@ -164,7 +164,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 406
+    network_count: 408
     subscribers_count: 18
   activity:
     monthlyCommits:
@@ -177,18 +177,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 74
+        commits: 60
       - month: 2026-07
-        commits: 26
-    totalCommitsKnown: 4585
-    openPullRequests: 42
-    contributorsKnown: 333
+        commits: 40
+    totalCommitsKnown: 4607
+    openPullRequests: 38
+    contributorsKnown: 335
   sync:
-    syncedAt: 2026-07-08T09:28:22.480Z
+    syncedAt: 2026-07-10T10:28:08.171Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 3123598
+    Dart: 3144909
     C++: 28092
     CMake: 20178
     Python: 5525
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 95870173
         digest: sha256:33aa16ddf841f13cd16513d4b45b6d0de8cefbde742387955d368fa550bcda10
-        download_count: 423
+        download_count: 431
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:20Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/app-release.apk
@@ -364,7 +364,7 @@ github:
         state: uploaded
         size: 14114350
         digest: sha256:32a43d687d9ca8d2fde527a6fe4746e124077a6a60c0df38d1020b116b023786
-        download_count: 4
+        download_count: 5
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:17Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/Runner.app.zip
@@ -463,7 +463,7 @@ github:
         state: uploaded
         size: 16055670
         digest: sha256:db4ec656a67504792057734d90b323a67cf016a86cd7ec2e966917f60f2269e2
-        download_count: 3
+        download_count: 4
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:17Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/web.tar.gz
@@ -496,7 +496,7 @@ github:
         state: uploaded
         size: 89642678
         digest: sha256:8082df9187926670a1d19b881439b6f42b03a2387386fc37fd63aedc1d8ebc79
-        download_count: 5
+        download_count: 6
         created_at: 2026-06-21T15:09:16Z
         updated_at: 2026-06-21T15:09:20Z
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/wger.app.zip
