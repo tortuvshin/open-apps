@@ -107,7 +107,7 @@ github:
     releases_url: https://api.github.com/repos/ish-app/ish/releases{/id}
     deployments_url: https://api.github.com/repos/ish-app/ish/deployments
     created_at: 2017-05-05T00:10:35Z
-    updated_at: 2026-07-08T06:21:32Z
+    updated_at: 2026-07-11T03:24:55Z
     pushed_at: 2026-06-20T01:27:00Z
     git_url: git://github.com/ish-app/ish.git
     ssh_url: git@github.com:ish-app/ish.git
@@ -115,8 +115,8 @@ github:
     svn_url: https://github.com/ish-app/ish
     homepage: https://ish.app
     size: 5553
-    stargazers_count: 20100
-    watchers_count: 20100
+    stargazers_count: 20116
+    watchers_count: 20116
     language: C
     has_issues: true
     has_projects: true
@@ -124,11 +124,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1437
+    forks_count: 1440
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 687
+    open_issues_count: 691
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - ios
       - linux
     visibility: public
-    forks: 1437
-    open_issues: 687
-    watchers: 20100
+    forks: 1440
+    open_issues: 691
+    watchers: 20116
     default_branch: master
     permissions:
       admin: false
@@ -178,10 +178,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1437
+    network_count: 1440
     subscribers_count: 571
   sync:
-    syncedAt: 2026-07-08T09:28:04.771Z
+    syncedAt: 2026-07-11T08:51:38.277Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -265,7 +265,7 @@ github:
         state: uploaded
         size: 1416198
         digest: null
-        download_count: 2792
+        download_count: 2803
         created_at: 2023-05-20T23:52:45Z
         updated_at: 2023-05-20T23:52:45Z
         browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH-appstore.app.dSYM.zip
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 1416200
         digest: null
-        download_count: 1424
+        download_count: 1430
         created_at: 2023-05-20T23:52:44Z
         updated_at: 2023-05-20T23:52:44Z
         browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.app.dSYM.zip
@@ -331,7 +331,7 @@ github:
         state: uploaded
         size: 4232682
         digest: null
-        download_count: 14880
+        download_count: 15075
         created_at: 2023-05-20T23:52:43Z
         updated_at: 2023-05-20T23:52:43Z
         browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa
@@ -367,7 +367,7 @@ github:
         commits: 0
     totalCommitsKnown: 4257
     contributorsKnown: 66
-    openPullRequests: 33
+    openPullRequests: 35
   files:
     readme: true
     contributing: false

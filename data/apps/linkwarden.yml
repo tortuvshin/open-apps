@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-07-08T09:14:39Z
-    pushed_at: 2026-07-07T20:34:30Z
+    updated_at: 2026-07-11T08:31:40Z
+    pushed_at: 2026-07-11T03:29:07Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
     clone_url: https://github.com/linkwarden/linkwarden.git
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
-    size: 37957
-    stargazers_count: 18859
-    watchers_count: 18859
+    size: 37979
+    stargazers_count: 18900
+    watchers_count: 18900
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 796
+    forks_count: 799
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 634
+    open_issues_count: 637
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -151,9 +151,9 @@ github:
       - self-hosted
       - typescript
     visibility: public
-    forks: 796
-    open_issues: 634
-    watchers: 18859
+    forks: 799
+    open_issues: 637
+    watchers: 18900
     default_branch: main
     permissions:
       admin: false
@@ -183,21 +183,21 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 796
+    network_count: 799
     subscribers_count: 42
   languages:
-    TypeScript: 1312020
-    JavaScript: 64659
+    TypeScript: 1593121
+    JavaScript: 64819
     HTML: 44843
-    CSS: 6089
-    Dockerfile: 1918
-    PLpgSQL: 935
+    CSS: 4397
+    Dockerfile: 3895
+    PLpgSQL: 2177
   latestRelease:
-    url: https://api.github.com/repos/linkwarden/linkwarden/releases/312483428
-    assets_url: https://api.github.com/repos/linkwarden/linkwarden/releases/312483428/assets
-    upload_url: https://uploads.github.com/repos/linkwarden/linkwarden/releases/312483428/assets{?name,label}
-    html_url: https://github.com/linkwarden/linkwarden/releases/tag/v2.14.1
-    id: 312483428
+    url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663
+    assets_url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663/assets
+    upload_url: https://uploads.github.com/repos/linkwarden/linkwarden/releases/352413663/assets{?name,label}
+    html_url: https://github.com/linkwarden/linkwarden/releases/tag/v2.15.1
+    id: 352413663
     author:
       login: daniel31x13
       id: 93432314
@@ -218,68 +218,45 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOHJb-Yc4SoB5k
-    tag_name: v2.14.1
+    node_id: RE_kwDOHJb-Yc4VAWff
+    tag_name: v2.15.1
     target_commitish: main
-    name: v2.14.1
+    name: v2.15.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-04-22T21:32:53Z
-    updated_at: 2026-04-22T23:15:02Z
-    published_at: 2026-04-22T23:15:02Z
+    created_at: 2026-07-11T03:27:42Z
+    updated_at: 2026-07-11T03:29:07Z
+    published_at: 2026-07-11T03:29:07Z
     assets: []
-    tarball_url: https://api.github.com/repos/linkwarden/linkwarden/tarball/v2.14.1
-    zipball_url: https://api.github.com/repos/linkwarden/linkwarden/zipball/v2.14.1
+    tarball_url: https://api.github.com/repos/linkwarden/linkwarden/tarball/v2.15.1
+    zipball_url: https://api.github.com/repos/linkwarden/linkwarden/zipball/v2.15.1
     body: "## What's Changed\r
 
-      - Added support for serving preserved HTML archives from a separate public hostname so that
-      untrusted archived pages are isolated from your main Linkwarden app; see [Setting Up a User
-      Content Domain](https://docs.linkwarden.app/self-hosting/user-content-domain) for more
-      information\r
-
-      - Improved UX while selecting tags\r
-
-      - Bug fixes\r
+      * minor fix by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/1743\r
 
       \r
 
-      ## New Contributors\r
-
-      * @xiebaiyuan made their first contribution in
-      https://github.com/linkwarden/linkwarden/pull/1667\r
-
       \r
 
-      **Full Changelog**: https://github.com/linkwarden/linkwarden/compare/v2.14.0...v2.14.1"
-    reactions:
-      url: https://api.github.com/repos/linkwarden/linkwarden/releases/312483428/reactions
-      total_count: 16
-      "+1": 2
-      "-1": 0
-      laugh: 0
-      hooray: 10
-      confused: 0
-      heart: 4
-      rocket: 0
-      eyes: 0
+      **Full Changelog**: https://github.com/linkwarden/linkwarden/compare/v2.15.0...v2.15.1"
     mentions_count: 1
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 44
+        commits: 0
       - month: 2026-03
-        commits: 40
+        commits: 0
       - month: 2026-04
-        commits: 12
+        commits: 0
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 0
+        commits: 55
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 2868
-    contributorsKnown: 81
+        commits: 45
+    totalCommitsKnown: 3024
+    contributorsKnown: 88
     openPullRequests: 29
   files:
     readme: true
@@ -296,7 +273,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-08T09:28:06.781Z
+    syncedAt: 2026-07-11T08:51:47.636Z
     apiVersion: rest-v3
     source: github-actions
 health:
