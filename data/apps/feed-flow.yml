@@ -97,16 +97,16 @@ github:
     releases_url: https://api.github.com/repos/prof18/feed-flow/releases{/id}
     deployments_url: https://api.github.com/repos/prof18/feed-flow/deployments
     created_at: 2023-02-11T00:04:52Z
-    updated_at: 2026-07-08T05:33:16Z
-    pushed_at: 2026-07-08T05:33:12Z
+    updated_at: 2026-07-11T12:49:31Z
+    pushed_at: 2026-07-11T12:50:46Z
     git_url: git://github.com/prof18/feed-flow.git
     ssh_url: git@github.com:prof18/feed-flow.git
     clone_url: https://github.com/prof18/feed-flow.git
     svn_url: https://github.com/prof18/feed-flow
     homepage: https://www.feedflow.dev
-    size: 908714
-    stargazers_count: 982
-    watchers_count: 982
+    size: 908729
+    stargazers_count: 994
+    watchers_count: 994
     language: Kotlin
     has_issues: true
     has_projects: true
@@ -114,11 +114,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: false
-    forks_count: 51
+    forks_count: 53
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 59
+    open_issues_count: 68
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -136,9 +136,9 @@ github:
       - kotlin-multiplatform
       - swiftui
     visibility: public
-    forks: 51
-    open_issues: 59
-    watchers: 982
+    forks: 53
+    open_issues: 68
+    watchers: 994
     default_branch: main
     permissions:
       admin: false
@@ -147,7 +147,7 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 51
+    network_count: 53
     subscribers_count: 7
   activity:
     monthlyCommits:
@@ -160,30 +160,30 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 59
+        commits: 40
       - month: 2026-07
-        commits: 41
-    totalCommitsKnown: 3326
-    openPullRequests: 1
-    contributorsKnown: 96
+        commits: 60
+    totalCommitsKnown: 3345
+    openPullRequests: 10
+    contributorsKnown: 97
   sync:
-    syncedAt: 2026-07-08T09:27:57.088Z
+    syncedAt: 2026-07-12T09:06:08.953Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Kotlin: 3315033
+    Kotlin: 3323676
     Swift: 594959
     HTML: 337614
     JavaScript: 127211
     CSS: 49288
     Python: 42920
-    Shell: 34647
+    Shell: 36781
   latestRelease:
-    url: https://api.github.com/repos/prof18/feed-flow/releases/337839985
-    assets_url: https://api.github.com/repos/prof18/feed-flow/releases/337839985/assets
-    upload_url: https://uploads.github.com/repos/prof18/feed-flow/releases/337839985/assets{?name,label}
-    html_url: https://github.com/prof18/feed-flow/releases/tag/1.14.0-all
-    id: 337839985
+    url: https://api.github.com/repos/prof18/feed-flow/releases/352479321
+    assets_url: https://api.github.com/repos/prof18/feed-flow/releases/352479321/assets
+    upload_url: https://uploads.github.com/repos/prof18/feed-flow/releases/352479321/assets{?name,label}
+    html_url: https://github.com/prof18/feed-flow/releases/tag/1.15.0-all
+    id: 352479321
     author:
       login: github-actions[bot]
       id: 41898282
@@ -204,21 +204,21 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOI8cx_M4UIwdx
-    tag_name: 1.14.0-all
+    node_id: RE_kwDOI8cx_M4VAmhZ
+    tag_name: 1.15.0-all
     target_commitish: main
-    name: 1.14.0-desktop
+    name: 1.15.0-desktop
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-06-09T19:35:46Z
-    updated_at: 2026-06-14T16:07:50Z
-    published_at: 2026-06-14T16:07:50Z
+    created_at: 2026-07-11T08:22:55Z
+    updated_at: 2026-07-11T09:46:24Z
+    published_at: 2026-07-11T09:46:24Z
     assets:
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561018
-        id: 444561018
-        node_id: RA_kwDOI8cx_M4af3Z6
-        name: feedflow-1.14.0-1.x86_64.rpm
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388353
+        id: 473388353
+        node_id: RA_kwDOI8cx_M4cN1VB
+        name: feedflow-1.15.0-1.x86_64.rpm
         label: ""
         uploader:
           login: github-actions[bot]
@@ -242,16 +242,82 @@ github:
           site_admin: false
         content_type: application/x-redhat-package-manager
         state: uploaded
-        size: 100604964
-        digest: sha256:79ca00e1524ee138147235bb0f2cc695b72c5395f96727281c8ce044edb533a3
-        download_count: 55
-        created_at: 2026-06-11T09:41:06Z
-        updated_at: 2026-06-11T09:41:11Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/feedflow-1.14.0-1.x86_64.rpm
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561015
-        id: 444561015
-        node_id: RA_kwDOI8cx_M4af3Z3
-        name: FeedFlow-1.14.0.dmg
+        size: 102887290
+        digest: sha256:7dc21c9bf1e2fbf5ea518fe5d11f606b91b4020ee588e925c1b9ecfd5fd3fbd9
+        download_count: 3
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:24Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/feedflow-1.15.0-1.x86_64.rpm
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388349
+        id: 473388349
+        node_id: RA_kwDOI8cx_M4cN1U9
+        name: FeedFlow-1.15.0-x86_64.AppImage
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 99805688
+        digest: sha256:00a33792f11467833b98cc1cb5f054ac0ca904e2af3c226e80f8e6202132a810
+        download_count: 8
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:24Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0-x86_64.AppImage
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388354
+        id: 473388354
+        node_id: RA_kwDOI8cx_M4cN1VC
+        name: FeedFlow-1.15.0-x86_64.AppImage.sha256
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 103
+        digest: sha256:2d2cdfad718a644227dd41903ecdb9fa6258a5aeecf2e6bb5f1f9025205600a1
+        download_count: 1
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:19Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0-x86_64.AppImage.sha256
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388351
+        id: 473388351
+        node_id: RA_kwDOI8cx_M4cN1U_
+        name: FeedFlow-1.15.0.dmg
         label: ""
         uploader:
           login: github-actions[bot]
@@ -275,16 +341,16 @@ github:
           site_admin: false
         content_type: application/x-apple-diskimage
         state: uploaded
-        size: 106063322
-        digest: sha256:1c90e90a324241ea0aed6e8bac4ff85584da182dd88c8af7605353cad05d3ae7
-        download_count: 505
-        created_at: 2026-06-11T09:41:06Z
-        updated_at: 2026-06-11T09:41:11Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/FeedFlow-1.14.0.dmg
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561013
-        id: 444561013
-        node_id: RA_kwDOI8cx_M4af3Z1
-        name: FeedFlow-1.14.0.msi
+        size: 108319100
+        digest: sha256:a1b643743ca9e4be7cfa58e465ccdc098cd642f4a3e7365babf5ce5b49c3f068
+        download_count: 51
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:24Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0.dmg
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388350
+        id: 473388350
+        node_id: RA_kwDOI8cx_M4cN1U-
+        name: FeedFlow-1.15.0.msi
         label: ""
         uploader:
           login: github-actions[bot]
@@ -308,16 +374,16 @@ github:
           site_admin: false
         content_type: application/x-msdownload
         state: uploaded
-        size: 94001171
-        digest: sha256:348c0c6fea19b53125d430aca6f51fad0aeb5587a80d690f1358c1f81f1d4c6b
-        download_count: 295
-        created_at: 2026-06-11T09:41:06Z
-        updated_at: 2026-06-11T09:41:11Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/FeedFlow-1.14.0.msi
-      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/444561016
-        id: 444561016
-        node_id: RA_kwDOI8cx_M4af3Z4
-        name: feedflow_1.14.0_amd64.deb
+        size: 96286941
+        digest: sha256:8ac24a6485c4748f0d86ab4d5ee0d5c849fd1f7a465807b65da5ec6e6c4338d1
+        download_count: 6
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:23Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0.msi
+      - url: https://api.github.com/repos/prof18/feed-flow/releases/assets/473388352
+        id: 473388352
+        node_id: RA_kwDOI8cx_M4cN1VA
+        name: feedflow_1.15.0_amd64.deb
         label: ""
         uploader:
           login: github-actions[bot]
@@ -341,25 +407,25 @@ github:
           site_admin: false
         content_type: application/x-debian-package
         state: uploaded
-        size: 87342618
-        digest: sha256:b80359607982701b98ed8d2b21b62884b9d4726da3aaa3aa7421a9dc8e5c4436
-        download_count: 61
-        created_at: 2026-06-11T09:41:06Z
-        updated_at: 2026-06-11T09:41:11Z
-        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.14.0-all/feedflow_1.14.0_amd64.deb
-    tarball_url: https://api.github.com/repos/prof18/feed-flow/tarball/1.14.0-all
-    zipball_url: https://api.github.com/repos/prof18/feed-flow/zipball/1.14.0-all
-    body: "• Added a confirmation step before deleting a feed.\r
+        size: 89592216
+        digest: sha256:b2226ea5e8a5610a526ea87d297cbc549e464d6b50490059cce7f0f31cff3179
+        download_count: 1
+        created_at: 2026-07-11T09:37:19Z
+        updated_at: 2026-07-11T09:37:23Z
+        browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/feedflow_1.15.0_amd64.deb
+    tarball_url: https://api.github.com/repos/prof18/feed-flow/tarball/1.15.0-all
+    zipball_url: https://api.github.com/repos/prof18/feed-flow/zipball/1.15.0-all
+    body: "• Choose big-image cards or a grid layout for your feeds.\r
 
-      • Polished toolbar, menus, and drawer for a cleaner desktop interface.\r
+      • Reorder feeds and categories to match your workflow.\r
 
-      • Refined window and dialog handling across the app.\r
+      • Customize reader text with line height.\r
 
-      • Feed customization and opening preferences now apply to search results too.\r
+      • Enjoy more reliable article loading with smarter feed refreshing.\r
 
-      • Bug fixing and improvements"
+      • Improved reliability when opening web links."
     reactions:
-      url: https://api.github.com/repos/prof18/feed-flow/releases/337839985/reactions
+      url: https://api.github.com/repos/prof18/feed-flow/releases/352479321/reactions
       total_count: 3
       "+1": 0
       "-1": 0

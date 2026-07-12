@@ -90,14 +90,14 @@ github:
     releases_url: https://api.github.com/repos/kevmoo/slide_puzzle/releases{/id}
     deployments_url: https://api.github.com/repos/kevmoo/slide_puzzle/deployments
     created_at: 2018-10-24T20:04:22Z
-    updated_at: 2025-11-21T14:20:43Z
-    pushed_at: 2022-02-05T00:08:03Z
+    updated_at: 2026-07-11T18:18:52Z
+    pushed_at: 2026-07-11T18:18:42Z
     git_url: git://github.com/kevmoo/slide_puzzle.git
     ssh_url: git@github.com:kevmoo/slide_puzzle.git
     clone_url: https://github.com/kevmoo/slide_puzzle.git
     svn_url: https://github.com/kevmoo/slide_puzzle
     homepage: null
-    size: 11314
+    size: 23146
     stargazers_count: 179
     watchers_count: 179
     language: Dart
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 2
+    open_issues_count: 0
     license:
       key: bsd-3-clause
       name: BSD 3-Clause "New" or "Revised" License
@@ -126,7 +126,7 @@ github:
     topics: []
     visibility: public
     forks: 74
-    open_issues: 2
+    open_issues: 0
     watchers: 179
     default_branch: master
     permissions:
@@ -151,21 +151,22 @@ github:
       - month: 2026-06
         commits: 0
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 163
+        commits: 19
+    totalCommitsKnown: 182
     openPullRequests: 0
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-08T09:28:15.343Z
+    syncedAt: 2026-07-12T09:07:10.342Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 85547
-    C++: 20886
-    CMake: 15196
-    HTML: 3935
+    Dart: 145750
+    C++: 21319
+    CMake: 15806
+    Ruby: 2756
     C: 1425
-    Swift: 1158
+    Swift: 1368
+    HTML: 1226
     Kotlin: 129
     Objective-C: 38
   latestRelease: null

@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
     deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
     created_at: 2026-03-11T14:04:59Z
-    updated_at: 2026-07-08T07:13:24Z
-    pushed_at: 2026-07-07T20:45:44Z
+    updated_at: 2026-07-11T07:33:20Z
+    pushed_at: 2026-07-11T20:04:40Z
     git_url: git://github.com/memex-lab/memex.git
     ssh_url: git@github.com:memex-lab/memex.git
     clone_url: https://github.com/memex-lab/memex.git
     svn_url: https://github.com/memex-lab/memex
     homepage: https://memexlab.ai
-    size: 57112
-    stargazers_count: 587
-    watchers_count: 587
+    size: 57165
+    stargazers_count: 597
+    watchers_count: 597
     language: Dart
     has_issues: true
     has_projects: true
@@ -148,7 +148,7 @@ github:
     visibility: public
     forks: 58
     open_issues: 17
-    watchers: 587
+    watchers: 597
     default_branch: main
     permissions:
       admin: false
@@ -191,18 +191,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 92
+        commits: 90
       - month: 2026-07
-        commits: 8
-    totalCommitsKnown: 732
+        commits: 10
+    totalCommitsKnown: 734
     openPullRequests: 6
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-08T09:28:08.017Z
+    syncedAt: 2026-07-12T09:06:44.376Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Dart: 7250946
+    Dart: 7264067
     HTML: 130229
     Python: 94428
     Kotlin: 86620
@@ -211,11 +211,11 @@ github:
     Java: 5061
     Objective-C: 2723
   latestRelease:
-    url: https://api.github.com/repos/memex-lab/memex/releases/347282340
-    assets_url: https://api.github.com/repos/memex-lab/memex/releases/347282340/assets
-    upload_url: https://uploads.github.com/repos/memex-lab/memex/releases/347282340/assets{?name,label}
-    html_url: https://github.com/memex-lab/memex/releases/tag/v1.0.36
-    id: 347282340
+    url: https://api.github.com/repos/memex-lab/memex/releases/352419528
+    assets_url: https://api.github.com/repos/memex-lab/memex/releases/352419528/assets
+    upload_url: https://uploads.github.com/repos/memex-lab/memex/releases/352419528/assets{?name,label}
+    html_url: https://github.com/memex-lab/memex/releases/tag/v1.0.37
+    id: 352419528
     author:
       login: tigerlaibao
       id: 17682804
@@ -236,22 +236,22 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDORkT3NM4Usxuk
-    tag_name: v1.0.36
+    node_id: RE_kwDORkT3NM4VAX7I
+    tag_name: v1.0.37
     target_commitish: main
-    name: Memex v1.0.36
+    name: Memex v1.0.37
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-01T07:08:42Z
-    updated_at: 2026-07-01T07:11:26Z
-    published_at: 2026-07-01T07:11:26Z
+    created_at: 2026-07-11T04:06:48Z
+    updated_at: 2026-07-11T04:11:25Z
+    published_at: 2026-07-11T04:08:27Z
     assets:
-      - url: https://api.github.com/repos/memex-lab/memex/releases/assets/462939705
-        id: 462939705
-        node_id: RA_kwDORkT3NM4bl-Y5
+      - url: https://api.github.com/repos/memex-lab/memex/releases/assets/473191226
+        id: 473191226
+        node_id: RA_kwDORkT3NM4cNFM6
         name: app-global-release.apk
-        label: memex_global_1.0.36_120.apk
+        label: memex_global_1.0.37_122.apk
         uploader:
           login: tigerlaibao
           id: 17682804
@@ -274,47 +274,30 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 260823879
-        digest: sha256:6d7d1edb8ae03690ad980d8abed7147727150eb04f8c9f2463c4e58521229feb
-        download_count: 79
-        created_at: 2026-07-01T07:10:20Z
-        updated_at: 2026-07-01T07:11:25Z
-        browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.36/app-global-release.apk
-    tarball_url: https://api.github.com/repos/memex-lab/memex/tarball/v1.0.36
-    zipball_url: https://api.github.com/repos/memex-lab/memex/zipball/v1.0.36
+        size: 260954951
+        digest: sha256:9395aaae07809b804771519ad93ae375cd7a63b82f1a3ab5d44eeb0bd6e19ba5
+        download_count: 28
+        created_at: 2026-07-11T04:07:42Z
+        updated_at: 2026-07-11T04:08:27Z
+        browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.37/app-global-release.apk
+    tarball_url: https://api.github.com/repos/memex-lab/memex/tarball/v1.0.37
+    zipball_url: https://api.github.com/repos/memex-lab/memex/zipball/v1.0.37
     body: >-
       ## English
 
 
-      What’s new:
+      1. Added UI-linked cards to the Agent conversation page.
 
-      1. Upgraded the Memex Agent runtime for faster task execution and lower token usage.
-
-      2. Improved long-running tasks, retry recovery, and background processing reliability.
-
-      3. Enhanced image attachment handling and sub-agent collaboration for more accurate records,
-      knowledge organization, and card updates.
-
-      4. Added download/share support for Knowledge Markdown files.
-
-      5. Polished the chat panel, activity indicators, and background notifications, with several
-      experience fixes.
+      2. Optimized several performance issues, including loading dynamic card images and
+      reading/writing messages on the conversation page.
 
 
       ## 简体中文
 
 
-      本次更新：
+      1. Agent 会话页新增 UI 联动卡片。
 
-      1. 升级 Memex Agent 运行链路，任务处理更快，模型 Token 消耗更少。
-
-      2. 改进长任务、重试恢复和后台处理机制，Agent 在后台运行更可靠。
-
-      3. 优化图片附件理解与子 Agent 协作，记录生成、知识整理和卡片更新更准确。
-
-      4. 知识库 Markdown 文件新增下载/分享入口，便于导出和备份。
-
-      5. 优化聊天面板、处理状态提示和后台通知，并修复若干体验问题。
+      2. 优化动态卡片图片加载以及会话页消息读写等若干性能问题。
   files:
     readme: true
     contributing: true

@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-07-07T15:37:14Z
-    pushed_at: 2026-07-07T15:35:35Z
+    updated_at: 2026-07-11T10:38:06Z
+    pushed_at: 2026-07-09T23:35:07Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 286873
-    stargazers_count: 4365
-    watchers_count: 4365
+    size: 286899
+    stargazers_count: 4368
+    watchers_count: 4368
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 19
+    open_issues_count: 18
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -147,8 +147,8 @@ github:
       - react-native
     visibility: public
     forks: 750
-    open_issues: 19
-    watchers: 4365
+    open_issues: 18
+    watchers: 4368
     default_branch: develop
     permissions:
       admin: false
@@ -181,7 +181,7 @@ github:
     network_count: 750
     subscribers_count: 69
   languages:
-    TypeScript: 9172009
+    TypeScript: 9178440
     JavaScript: 389881
     Swift: 101323
     Objective-C: 62738
@@ -293,12 +293,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 79
+        commits: 76
       - month: 2026-07
-        commits: 21
-    totalCommitsKnown: 9208
+        commits: 24
+    totalCommitsKnown: 9211
     contributorsKnown: 73
-    openPullRequests: 19
+    openPullRequests: 18
   files:
     readme: true
     contributing: false
@@ -308,7 +308,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-07-08T09:28:14.123Z
+    syncedAt: 2026-07-12T09:07:03.242Z
     apiVersion: rest-v3
     source: github-actions
 health:

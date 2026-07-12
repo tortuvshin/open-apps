@@ -93,16 +93,16 @@ github:
     releases_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}
     deployments_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments
     created_at: 2019-03-27T02:52:33Z
-    updated_at: 2026-07-08T03:35:43Z
-    pushed_at: 2026-07-01T20:57:17Z
+    updated_at: 2026-07-12T01:16:40Z
+    pushed_at: 2026-07-10T21:25:01Z
     git_url: git://github.com/migueldeicaza/SwiftTerm.git
     ssh_url: git@github.com:migueldeicaza/SwiftTerm.git
     clone_url: https://github.com/migueldeicaza/SwiftTerm.git
     svn_url: https://github.com/migueldeicaza/SwiftTerm
     homepage: ""
-    size: 4496
-    stargazers_count: 1605
-    watchers_count: 1605
+    size: 4611
+    stargazers_count: 1610
+    watchers_count: 1610
     language: Swift
     has_issues: true
     has_projects: true
@@ -110,11 +110,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 373
+    forks_count: 381
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 83
+    open_issues_count: 77
     license:
       key: mit
       name: MIT License
@@ -140,9 +140,9 @@ github:
       - xterm
       - xterm-256color
     visibility: public
-    forks: 373
-    open_issues: 83
-    watchers: 1605
+    forks: 381
+    open_issues: 77
+    watchers: 1610
     default_branch: main
     permissions:
       admin: false
@@ -151,14 +151,14 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 373
+    network_count: 381
     subscribers_count: 19
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 1
+        commits: 0
       - month: 2026-03
-        commits: 20
+        commits: 16
       - month: 2026-04
         commits: 23
       - month: 2026-05
@@ -166,25 +166,25 @@ github:
       - month: 2026-06
         commits: 27
       - month: 2026-07
-        commits: 3
-    totalCommitsKnown: 1066
-    openPullRequests: 21
-    contributorsKnown: 62
+        commits: 8
+    totalCommitsKnown: 1071
+    openPullRequests: 19
+    contributorsKnown: 63
   sync:
-    syncedAt: 2026-07-08T09:28:18.234Z
+    syncedAt: 2026-07-12T09:07:15.799Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1728793
+    Swift: 1756235
     Metal: 3957
     Python: 3410
     Makefile: 878
   latestRelease:
-    url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases/302379819
-    assets_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases/302379819/assets
-    upload_url: https://uploads.github.com/repos/migueldeicaza/SwiftTerm/releases/302379819/assets{?name,label}
-    html_url: https://github.com/migueldeicaza/SwiftTerm/releases/tag/v1.13.0
-    id: 302379819
+    url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases/352332970
+    assets_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases/352332970/assets
+    upload_url: https://uploads.github.com/repos/migueldeicaza/SwiftTerm/releases/352332970/assets{?name,label}
+    html_url: https://github.com/migueldeicaza/SwiftTerm/releases/tag/v1.14.0
+    id: 352332970
     author:
       login: migueldeicaza
       id: 36863
@@ -205,64 +205,165 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCpqk5c4SBfMr
-    tag_name: v1.13.0
+    node_id: RE_kwDOCpqk5c4VACyq
+    tag_name: v1.14.0
     target_commitish: main
-    name: v1.13.0
+    name: New SwiftTerm release.
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-03-27T12:43:23Z
-    updated_at: 2026-03-27T13:56:59Z
-    published_at: 2026-03-27T13:56:59Z
+    created_at: 2026-07-10T20:46:18Z
+    updated_at: 2026-07-10T21:10:46Z
+    published_at: 2026-07-10T21:10:46Z
     assets: []
-    tarball_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/tarball/v1.13.0
-    zipball_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/zipball/v1.13.0
+    tarball_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/tarball/v1.14.0
+    zipball_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/zipball/v1.14.0
     body: "## What's Changed\r
 
-      * Fix MacCaretView transparency support by @Rostmen in
-      https://github.com/migueldeicaza/SwiftTerm/pull/497\r
+      ### Features and improvements\r
 
-      * Fix: Kitty keyboard protocol sequences incorrectly trigger cursor save/restore by
-      @mauricehofman in https://github.com/migueldeicaza/SwiftTerm/pull/500\r
+      \r
 
-      * Fix Home/End keys not sending escape sequences on macOS by @colemaco in
-      https://github.com/migueldeicaza/SwiftTerm/pull/502\r
+      - Added VoiceOver support and accessible attributed text for SwiftTerm on iOS.
+      ([#509](https://github.com/migueldeicaza/SwiftTerm/pull/509) by @holzschu;
+      [#521](https://github.com/migueldeicaza/SwiftTerm/pull/521) by @migueldeicaza)\r
 
-      * Force terminal redraw to reflect new font and reflowed content by @chinsyo in
-      https://github.com/migueldeicaza/SwiftTerm/pull/499\r
+      - Added `regionalIndicatorWidth` to configure the display width of regional-indicator symbols.
+      ([#516](https://github.com/migueldeicaza/SwiftTerm/pull/516) by @gi11es)\r
 
-      * Disable opportunistic Subprocess imports in LocalProcess by @zxss702 in
-      https://github.com/migueldeicaza/SwiftTerm/pull/505\r
+      - Added configurable font smoothing, terminal-cell-based PTY pixel-size reporting, and a Metal
+      renderer scale override. ([#531](https://github.com/migueldeicaza/SwiftTerm/pull/531) by
+      @jimprosser; [#544](https://github.com/migueldeicaza/SwiftTerm/pull/544) and
+      [#545](https://github.com/migueldeicaza/SwiftTerm/pull/545) by @evertjr)\r
+
+      - Added Shift+mouse support to temporarily bypass application mouse reporting.
+      ([#536](https://github.com/migueldeicaza/SwiftTerm/pull/536) by @evertjr)\r
+
+      - Opened macOS mouse-event overrides and `TerminalView.deleteBackward` for subclass
+      customization. ([#535](https://github.com/migueldeicaza/SwiftTerm/pull/535) by @padresb;
+      [#562](https://github.com/migueldeicaza/SwiftTerm/pull/562) by @JBetchGH)\r
+
+      - Added public iOS selection APIs, including `hasActiveSelection`, `setSelectionRange`,
+      `clearSelection`, and a standard context-menu wrapper.
+      ([#549](https://github.com/migueldeicaza/SwiftTerm/pull/549),
+      [#550](https://github.com/migueldeicaza/SwiftTerm/pull/550), and
+      [#554](https://github.com/migueldeicaza/SwiftTerm/pull/554) by @JBetchGH)\r
+
+      - Added public `searchMatchSummary` and `totalLinesTrimmed` APIs.
+      ([#572](https://github.com/migueldeicaza/SwiftTerm/pull/572) by @AlexDemzz;
+      [#569](https://github.com/migueldeicaza/SwiftTerm/pull/569) by @JBetchGH)\r
+
+      - Improved responsiveness and scalability by rendering local input responses immediately,
+      adding PTY read backpressure, and making buffer resizing scale with actual content.
+      ([#553](https://github.com/migueldeicaza/SwiftTerm/pull/553) by @evertjr;
+      [#574](https://github.com/migueldeicaza/SwiftTerm/pull/574) and
+      [#573](https://github.com/migueldeicaza/SwiftTerm/pull/573) by @dxmone)\r
+
+      - Reduced the synchronized-output debounce to 16 ms and exposed it publicly.
+      ([#526](https://github.com/migueldeicaza/SwiftTerm/pull/526) by @gi11es)\r
+
+      - Added support for preventing the view from automatically scrolling to the bottom.
+      ([#587](https://github.com/migueldeicaza/SwiftTerm/pull/587) by @migueldeicaza)\r
+
+      \r
+
+      ### Fixes\r
+
+      \r
+
+      - Avoid setting the terminal size when the requested dimensions are `0×0`.
+      ([#508](https://github.com/migueldeicaza/SwiftTerm/pull/508) by @holzschu)\r
+
+      - Fixed Kitty keyboard handling for modifier flags and Option-composed characters.
+      ([#514](https://github.com/migueldeicaza/SwiftTerm/pull/514) by @gi11es;
+      [#564](https://github.com/migueldeicaza/SwiftTerm/pull/564) by @evertjr)\r
+
+      - Corrected SGR mouse-motion encoding, mouse-tracking reset behavior, and iOS tap reporting.
+      ([#520](https://github.com/migueldeicaza/SwiftTerm/pull/520) by @evertjr;
+      [#571](https://github.com/migueldeicaza/SwiftTerm/pull/571) by @AlexDemzz;
+      [#586](https://github.com/migueldeicaza/SwiftTerm/pull/586) by @mathewtaylor)\r
+
+      - Corrected scrolling and buffer behavior, including default `canScroll`, alternate-screen
+      margins, and wrapped-line state. ([#507](https://github.com/migueldeicaza/SwiftTerm/pull/507)
+      and [#523](https://github.com/migueldeicaza/SwiftTerm/pull/523) by @holzschu;
+      [#522](https://github.com/migueldeicaza/SwiftTerm/pull/522) by @colemaco)\r
+
+      - Fixed macOS dictation support and removed duplicate iOS accessibility methods.
+      ([#501](https://github.com/migueldeicaza/SwiftTerm/pull/501) by @SilverMarcs;
+      [#527](https://github.com/migueldeicaza/SwiftTerm/pull/527) by @gi11es)\r
+
+      - Fixed synchronized-output rendering and a deterministic synchronized-output test failure.
+      ([#498](https://github.com/migueldeicaza/SwiftTerm/pull/498) by @inbarajaldrin;
+      [#581](https://github.com/migueldeicaza/SwiftTerm/pull/581) by @bones7456)\r
+
+      - Corrected light-theme grayscale palettes, text-presentation symbol rendering on iOS, and
+      full-width CJK glyph alignment. ([#529](https://github.com/migueldeicaza/SwiftTerm/pull/529)
+      and [#578](https://github.com/migueldeicaza/SwiftTerm/pull/578) by @evertjr;
+      [#575](https://github.com/migueldeicaza/SwiftTerm/pull/575) by @AlexDemzz)\r
+
+      - Fixed Metal and Core Graphics rendering issues, including stale cursors, window reparenting,
+      color space, margins, and restricted-region scroll artifacts.
+      ([#546](https://github.com/migueldeicaza/SwiftTerm/pull/546),
+      [#547](https://github.com/migueldeicaza/SwiftTerm/pull/547),
+      [#548](https://github.com/migueldeicaza/SwiftTerm/pull/548), and
+      [#541](https://github.com/migueldeicaza/SwiftTerm/pull/541) by @evertjr;
+      [#582](https://github.com/migueldeicaza/SwiftTerm/pull/582) by @tavvet)\r
+
+      - Fixed iOS scrollback corruption, macOS hidden-scroller layout, and backwards word-selection
+      behavior. ([#567](https://github.com/migueldeicaza/SwiftTerm/pull/567) by @ferponse;
+      [#543](https://github.com/migueldeicaza/SwiftTerm/pull/543) by @evertjr;
+      [#576](https://github.com/migueldeicaza/SwiftTerm/pull/576) by @bones7456)\r
+
+      - Eliminated retain cycles that could leak `Terminal` and `LocalProcess` instances.
+      ([#538](https://github.com/migueldeicaza/SwiftTerm/pull/538) and
+      [#551](https://github.com/migueldeicaza/SwiftTerm/pull/551) by @evertjr)\r
 
       \r
 
       ## New Contributors\r
 
-      * @Rostmen made their first contribution in
-      https://github.com/migueldeicaza/SwiftTerm/pull/497\r
+      \r
 
-      * @mauricehofman made their first contribution in
-      https://github.com/migueldeicaza/SwiftTerm/pull/500\r
+      * @gi11es made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/514\r
 
-      * @chinsyo made their first contribution in
-      https://github.com/migueldeicaza/SwiftTerm/pull/499\r
+      * @SilverMarcs made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/501\r
+
+      * @inbarajaldrin made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/498\r
+
+      * @jimprosser made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/531\r
+
+      * @padresb made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/535\r
+
+      * @JBetchGH made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/549\r
+
+      * @ferponse made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/567\r
+
+      * @dxmone made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/574\r
+
+      * @AlexDemzz made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/572\r
+
+      * @bones7456 made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/576\r
+
+      * @tavvet made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/582\r
+
+      * @mathewtaylor made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/586\r
 
       \r
 
-      **Full Changelog**: https://github.com/migueldeicaza/SwiftTerm/compare/v1.12.0...v1.13.0"
-    reactions:
-      url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases/302379819/reactions
-      total_count: 1
-      "+1": 0
-      "-1": 0
-      laugh: 0
-      hooray: 1
-      confused: 0
-      heart: 0
-      rocket: 0
-      eyes: 0
-    mentions_count: 5
+      **Full Changelog**: https://github.com/migueldeicaza/SwiftTerm/compare/v1.13.0...v1.14.0"
+    mentions_count: 16
   files:
     readme: true
     contributing: false
