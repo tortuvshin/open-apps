@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-07-12T06:49:27Z
-    pushed_at: 2026-07-12T06:49:22Z
+    updated_at: 2026-07-12T21:55:10Z
+    pushed_at: 2026-07-12T19:13:17Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1650168
-    stargazers_count: 20956
-    watchers_count: 20956
+    size: 1650259
+    stargazers_count: 20959
+    watchers_count: 20959
     language: C++
     has_issues: true
     has_projects: true
@@ -115,7 +115,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 457
+    open_issues_count: 453
     license:
       key: other
       name: Other
@@ -147,8 +147,8 @@ github:
       - xml
     visibility: public
     forks: 6561
-    open_issues: 457
-    watchers: 20956
+    open_issues: 453
+    watchers: 20959
     default_branch: master
     permissions:
       admin: false
@@ -191,18 +191,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 50
+        commits: 42
       - month: 2026-07
-        commits: 50
-    totalCommitsKnown: 71641
-    openPullRequests: 192
+        commits: 58
+    totalCommitsKnown: 71654
+    openPullRequests: 189
     contributorsKnown: 1271
   sync:
-    syncedAt: 2026-07-12T09:07:31.524Z
+    syncedAt: 2026-07-13T10:34:39.225Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32493109
+    C++: 32510081
     C: 1024287
     CMake: 930414
     JavaScript: 912837

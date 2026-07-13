@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-07-12T08:15:13Z
+    updated_at: 2026-07-13T07:59:16Z
     pushed_at: 2026-07-11T10:13:54Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
     size: 37994
-    stargazers_count: 18901
-    watchers_count: 18901
+    stargazers_count: 18916
+    watchers_count: 18916
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,11 +125,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 800
+    forks_count: 801
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 640
+    open_issues_count: 643
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -151,9 +151,9 @@ github:
       - self-hosted
       - typescript
     visibility: public
-    forks: 800
-    open_issues: 640
-    watchers: 18901
+    forks: 801
+    open_issues: 643
+    watchers: 18916
     default_branch: main
     permissions:
       admin: false
@@ -183,7 +183,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 800
+    network_count: 801
     subscribers_count: 43
   languages:
     TypeScript: 1593121
@@ -242,11 +242,11 @@ github:
       **Full Changelog**: https://github.com/linkwarden/linkwarden/compare/v2.15.0...v2.15.1"
     reactions:
       url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663/reactions
-      total_count: 3
+      total_count: 5
       "+1": 0
       "-1": 0
       laugh: 0
-      hooray: 2
+      hooray: 4
       confused: 0
       heart: 1
       rocket: 0
@@ -284,7 +284,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-12T09:06:40.406Z
+    syncedAt: 2026-07-13T10:32:43.319Z
     apiVersion: rest-v3
     source: github-actions
 health:
