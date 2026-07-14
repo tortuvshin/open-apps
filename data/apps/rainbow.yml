@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-07-11T10:38:06Z
-    pushed_at: 2026-07-09T23:35:07Z
+    updated_at: 2026-07-14T08:40:07Z
+    pushed_at: 2026-07-13T15:11:25Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
     size: 286899
-    stargazers_count: 4368
-    watchers_count: 4368
+    stargazers_count: 4367
+    watchers_count: 4367
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -148,7 +148,7 @@ github:
     visibility: public
     forks: 750
     open_issues: 18
-    watchers: 4368
+    watchers: 4367
     default_branch: develop
     permissions:
       admin: false
@@ -308,7 +308,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-07-12T09:07:03.242Z
+    syncedAt: 2026-07-14T09:07:23.355Z
     apiVersion: rest-v3
     source: github-actions
 health:

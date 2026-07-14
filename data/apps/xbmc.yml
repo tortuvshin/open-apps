@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-07-12T06:49:27Z
-    pushed_at: 2026-07-12T06:49:22Z
+    updated_at: 2026-07-14T08:40:47Z
+    pushed_at: 2026-07-14T08:06:01Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1650168
-    stargazers_count: 20956
-    watchers_count: 20956
+    size: 1650273
+    stargazers_count: 20969
+    watchers_count: 20969
     language: C++
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6561
+    forks_count: 6562
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 457
+    open_issues_count: 455
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - xbmc
       - xml
     visibility: public
-    forks: 6561
-    open_issues: 457
-    watchers: 20956
+    forks: 6562
+    open_issues: 455
+    watchers: 20969
     default_branch: master
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 6561
+    network_count: 6562
     subscribers_count: 787
   activity:
     monthlyCommits:
@@ -191,22 +191,22 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 50
+        commits: 40
       - month: 2026-07
-        commits: 50
-    totalCommitsKnown: 71641
-    openPullRequests: 192
+        commits: 60
+    totalCommitsKnown: 71656
+    openPullRequests: 190
     contributorsKnown: 1271
   sync:
-    syncedAt: 2026-07-12T09:07:31.524Z
+    syncedAt: 2026-07-14T09:07:32.252Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32493109
+    C++: 32510081
     C: 1024287
     CMake: 930414
     JavaScript: 912837
-    Objective-C++: 489803
+    Objective-C++: 490346
     Python: 422478
     Makefile: 226951
     HTML: 199408
