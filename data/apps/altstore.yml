@@ -92,16 +92,16 @@ github:
     releases_url: https://api.github.com/repos/altstoreio/AltStore/releases{/id}
     deployments_url: https://api.github.com/repos/altstoreio/AltStore/deployments
     created_at: 2019-05-10T18:29:53Z
-    updated_at: 2026-07-12T07:59:57Z
-    pushed_at: 2026-07-09T19:53:00Z
+    updated_at: 2026-07-15T01:50:47Z
+    pushed_at: 2026-07-14T19:06:27Z
     git_url: git://github.com/altstoreio/AltStore.git
     ssh_url: git@github.com:altstoreio/AltStore.git
     clone_url: https://github.com/altstoreio/AltStore.git
     svn_url: https://github.com/altstoreio/AltStore
     homepage: https://altstore.io
-    size: 223718
-    stargazers_count: 14053
-    watchers_count: 14053
+    size: 225987
+    stargazers_count: 14062
+    watchers_count: 14062
     language: Swift
     has_issues: true
     has_projects: true
@@ -109,11 +109,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 1351
+    forks_count: 1353
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 666
+    open_issues_count: 669
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -127,9 +127,9 @@ github:
     pull_request_creation_policy: all
     topics: []
     visibility: public
-    forks: 1351
-    open_issues: 666
-    watchers: 14053
+    forks: 1353
+    open_issues: 669
+    watchers: 14062
     default_branch: marketplace
     permissions:
       admin: false
@@ -159,35 +159,35 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1351
+    network_count: 1353
     subscribers_count: 238
   activity:
     monthlyCommits:
       - month: 2026-02
-        commits: 0
+        commits: 2
       - month: 2026-03
-        commits: 0
+        commits: 68
       - month: 2026-04
-        commits: 0
+        commits: 1
       - month: 2026-05
-        commits: 0
+        commits: 1
       - month: 2026-06
-        commits: 0
+        commits: 14
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 1492
+        commits: 1
+    totalCommitsKnown: 1620
     openPullRequests: 26
     contributorsKnown: 12
   sync:
-    syncedAt: 2026-07-12T09:05:38.765Z
+    syncedAt: 2026-07-15T09:11:21.266Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Swift: 1914939
+    Swift: 2109032
     Objective-C++: 93710
     Objective-C: 50400
-    Ruby: 625
     C: 545
+    Ruby: 508
     Shell: 262
   latestRelease: null
   files:
