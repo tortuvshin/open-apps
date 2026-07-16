@@ -39,3 +39,10 @@
   languages: [kotlin]
   platforms: [ios, android, desktop]
   icon: kotlin
+
+- id: tauri
+  name: Tauri
+  family: cross-platform
+  languages: [rust, typescript, javascript]
+  platforms: [macos, windows, linux]
+  icon: tauri

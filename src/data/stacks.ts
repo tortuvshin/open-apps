@@ -15,6 +15,12 @@ export const stacks: Stack[] = [
     status: "live",
   },
   {
+    slug: "tauri",
+    name: "Tauri",
+    blurb: "Rust-based, cross-platform desktop apps using web frontends.",
+    status: "expanding",
+  },
+  {
     slug: "react-native",
     name: "React Native",
     blurb: "JavaScript / TypeScript mobile apps using React.",

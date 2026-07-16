@@ -48,6 +48,12 @@ const ICONS = [
   { file: "tensorflow.svg",   target: "stacks/tensorflow.svg",   label: "TensorFlow" },
   { file: "solidity.svg",     target: "stacks/solidity.svg",     label: "Solidity" },
   { file: "rust-light.svg",   target: "stacks/rust.svg",         label: "Rust" },
+  {
+    file: null,
+    target: "stacks/tauri.svg",
+    label: "Tauri (Simple Icons, CC0)",
+    custom: true,
+  },
   // Android as a stack (used by the StackGrid). The platforms/android.svg
   // is the same upstream file, but the StackGrid renders from the stacks
   // category so we keep a separate copy.
