@@ -90,14 +90,14 @@ github:
     releases_url: https://api.github.com/repos/deandreamatias/tv-randshow/releases{/id}
     deployments_url: https://api.github.com/repos/deandreamatias/tv-randshow/deployments
     created_at: 2019-08-02T21:53:12Z
-    updated_at: 2026-06-17T16:31:36Z
-    pushed_at: 2026-07-10T20:43:16Z
+    updated_at: 2026-07-14T14:07:04Z
+    pushed_at: 2026-07-14T14:04:27Z
     git_url: git://github.com/deandreamatias/tv-randshow.git
     ssh_url: git@github.com:deandreamatias/tv-randshow.git
     clone_url: https://github.com/deandreamatias/tv-randshow.git
     svn_url: https://github.com/deandreamatias/tv-randshow
     homepage: https://tvrandshow.com
-    size: 29035
+    size: 29036
     stargazers_count: 241
     watchers_count: 241
     language: Dart
@@ -109,7 +109,7 @@ github:
     has_discussions: false
     forks_count: 49
     mirror_url: null
-    archived: false
+    archived: true
     disabled: false
     open_issues_count: 4
     license:
@@ -162,12 +162,12 @@ github:
       - month: 2026-06
         commits: 2
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 1095
+        commits: 1
+    totalCommitsKnown: 1096
     openPullRequests: 2
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-12T09:07:28.363Z
+    syncedAt: 2026-07-16T09:18:27.991Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -248,7 +248,7 @@ github:
         state: uploaded
         size: 64252412
         digest: sha256:1a079d3fa87c10a2d273500638c0e280fbb8242c57ef2fbe97a0279c298807fa
-        download_count: 79
+        download_count: 92
         created_at: 2025-11-25T17:41:38Z
         updated_at: 2025-11-25T17:41:42Z
         browser_download_url: https://github.com/deandreamatias/tv-randshow/releases/download/2.5.0/app-prod-release.apk

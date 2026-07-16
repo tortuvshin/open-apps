@@ -97,16 +97,16 @@ github:
     releases_url: https://api.github.com/repos/prof18/feed-flow/releases{/id}
     deployments_url: https://api.github.com/repos/prof18/feed-flow/deployments
     created_at: 2023-02-11T00:04:52Z
-    updated_at: 2026-07-11T12:49:31Z
-    pushed_at: 2026-07-11T12:50:46Z
+    updated_at: 2026-07-15T13:26:57Z
+    pushed_at: 2026-07-15T13:26:03Z
     git_url: git://github.com/prof18/feed-flow.git
     ssh_url: git@github.com:prof18/feed-flow.git
     clone_url: https://github.com/prof18/feed-flow.git
     svn_url: https://github.com/prof18/feed-flow
     homepage: https://www.feedflow.dev
-    size: 908729
-    stargazers_count: 994
-    watchers_count: 994
+    size: 908739
+    stargazers_count: 997
+    watchers_count: 997
     language: Kotlin
     has_issues: true
     has_projects: true
@@ -118,7 +118,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 68
+    open_issues_count: 70
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -137,8 +137,8 @@ github:
       - swiftui
     visibility: public
     forks: 53
-    open_issues: 68
-    watchers: 994
+    open_issues: 70
+    watchers: 997
     default_branch: main
     permissions:
       admin: false
@@ -160,18 +160,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 40
+        commits: 36
       - month: 2026-07
-        commits: 60
-    totalCommitsKnown: 3345
-    openPullRequests: 10
+        commits: 64
+    totalCommitsKnown: 3349
+    openPullRequests: 11
     contributorsKnown: 97
   sync:
-    syncedAt: 2026-07-12T09:06:08.953Z
+    syncedAt: 2026-07-16T09:18:04.356Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Kotlin: 3323676
+    Kotlin: 3325681
     Swift: 594959
     HTML: 337614
     JavaScript: 127211
@@ -244,7 +244,7 @@ github:
         state: uploaded
         size: 102887290
         digest: sha256:7dc21c9bf1e2fbf5ea518fe5d11f606b91b4020ee588e925c1b9ecfd5fd3fbd9
-        download_count: 3
+        download_count: 7
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:24Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/feedflow-1.15.0-1.x86_64.rpm
@@ -277,7 +277,7 @@ github:
         state: uploaded
         size: 99805688
         digest: sha256:00a33792f11467833b98cc1cb5f054ac0ca904e2af3c226e80f8e6202132a810
-        download_count: 8
+        download_count: 19
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:24Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0-x86_64.AppImage
@@ -310,7 +310,7 @@ github:
         state: uploaded
         size: 103
         digest: sha256:2d2cdfad718a644227dd41903ecdb9fa6258a5aeecf2e6bb5f1f9025205600a1
-        download_count: 1
+        download_count: 2
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:19Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0-x86_64.AppImage.sha256
@@ -343,7 +343,7 @@ github:
         state: uploaded
         size: 108319100
         digest: sha256:a1b643743ca9e4be7cfa58e465ccdc098cd642f4a3e7365babf5ce5b49c3f068
-        download_count: 51
+        download_count: 165
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:24Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0.dmg
@@ -376,7 +376,7 @@ github:
         state: uploaded
         size: 96286941
         digest: sha256:8ac24a6485c4748f0d86ab4d5ee0d5c849fd1f7a465807b65da5ec6e6c4338d1
-        download_count: 6
+        download_count: 60
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:23Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/FeedFlow-1.15.0.msi
@@ -409,7 +409,7 @@ github:
         state: uploaded
         size: 89592216
         digest: sha256:b2226ea5e8a5610a526ea87d297cbc549e464d6b50490059cce7f0f31cff3179
-        download_count: 1
+        download_count: 3
         created_at: 2026-07-11T09:37:19Z
         updated_at: 2026-07-11T09:37:23Z
         browser_download_url: https://github.com/prof18/feed-flow/releases/download/1.15.0-all/feedflow_1.15.0_amd64.deb

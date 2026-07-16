@@ -115,7 +115,7 @@ github:
     releases_url: https://api.github.com/repos/claration/Feather/releases{/id}
     deployments_url: https://api.github.com/repos/claration/Feather/deployments
     created_at: 2024-05-19T17:44:22Z
-    updated_at: 2026-07-12T08:46:04Z
+    updated_at: 2026-07-16T07:43:49Z
     pushed_at: 2026-07-09T22:12:37Z
     git_url: git://github.com/claration/Feather.git
     ssh_url: git@github.com:claration/Feather.git
@@ -123,8 +123,8 @@ github:
     svn_url: https://github.com/claration/Feather
     homepage: https://feather.claration.dev
     size: 49964
-    stargazers_count: 4343
-    watchers_count: 4343
+    stargazers_count: 4371
+    watchers_count: 4371
     language: Swift
     has_issues: true
     has_projects: false
@@ -132,7 +132,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 390
+    forks_count: 391
     mirror_url: null
     archived: false
     disabled: false
@@ -162,9 +162,9 @@ github:
       - signing
       - zsign
     visibility: public
-    forks: 390
+    forks: 391
     open_issues: 31
-    watchers: 4343
+    watchers: 4371
     default_branch: main
     permissions:
       admin: false
@@ -173,10 +173,10 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 390
+    network_count: 391
     subscribers_count: 41
   sync:
-    syncedAt: 2026-07-12T09:06:04.883Z
+    syncedAt: 2026-07-16T09:18:03.635Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -250,7 +250,7 @@ github:
         state: uploaded
         size: 14241853
         digest: sha256:833c57d3c4bf4b4a9fe408be72e1c720cbb949f736a00286750f50e7915730ea
-        download_count: 5306
+        download_count: 8120
         created_at: 2026-07-05T02:11:08Z
         updated_at: 2026-07-05T02:11:19Z
         browser_download_url: https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa
@@ -283,7 +283,7 @@ github:
         state: uploaded
         size: 22801338
         digest: sha256:618ae6eb1304b8154319f62d5acb7a841c3332ce775065ef7d60f1747deddff7
-        download_count: 144
+        download_count: 210
         created_at: 2026-07-05T02:11:21Z
         updated_at: 2026-07-05T02:11:30Z
         browser_download_url: https://github.com/claration/Feather/releases/download/v2.9.0/Feather_Catalyst.zip
