@@ -108,16 +108,16 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-07-12T03:07:44Z
-    pushed_at: 2026-07-11T00:37:03Z
+    updated_at: 2026-07-17T07:25:19Z
+    pushed_at: 2026-07-17T07:24:30Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 273304
-    stargazers_count: 9225
-    watchers_count: 9225
+    size: 273063
+    stargazers_count: 9241
+    watchers_count: 9241
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -129,7 +129,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 94
+    open_issues_count: 92
     license:
       key: other
       name: Other
@@ -163,8 +163,8 @@ github:
       - surveillance
     visibility: public
     forks: 495
-    open_issues: 94
-    watchers: 9225
+    open_issues: 92
+    watchers: 9241
     default_branch: master
     permissions:
       admin: false
@@ -286,7 +286,7 @@ github:
         commits: 12
     totalCommitsKnown: 8367
     contributorsKnown: 70
-    openPullRequests: 19
+    openPullRequests: 17
   files:
     readme: true
     contributing: false
@@ -302,7 +302,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-12T09:05:48.081Z
+    syncedAt: 2026-07-17T09:11:54.415Z
     apiVersion: rest-v3
     source: github-actions
 health:

@@ -104,16 +104,16 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-07-11T17:07:42Z
-    pushed_at: 2026-07-11T01:42:26Z
+    updated_at: 2026-07-17T01:58:14Z
+    pushed_at: 2026-07-17T01:58:10Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 747621
-    stargazers_count: 9231
-    watchers_count: 9231
+    size: 747846
+    stargazers_count: 9232
+    watchers_count: 9232
     language: Go
     has_issues: true
     has_projects: false
@@ -121,11 +121,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1289
+    forks_count: 1290
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4249
+    open_issues_count: 4248
     license:
       key: bsd-3-clause
       name: BSD 3-Clause "New" or "Revised" License
@@ -147,9 +147,9 @@ github:
       - react
       - react-native
     visibility: public
-    forks: 1289
-    open_issues: 4249
-    watchers: 9231
+    forks: 1290
+    open_issues: 4248
+    watchers: 9232
     default_branch: master
     permissions:
       admin: false
@@ -179,24 +179,24 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1289
+    network_count: 1290
     subscribers_count: 278
   languages:
-    Go: 32950210
+    Go: 32952243
     HTML: 7116919
     Objective-C: 1393397
-    TypeScript: 515266
-    Shell: 219005
+    TypeScript: 515265
+    Shell: 221199
     C: 183253
-    Kotlin: 125722
-    JavaScript: 98838
-    Python: 79473
+    Kotlin: 125860
+    JavaScript: 100005
+    Python: 85353
     Swift: 74517
-    CSS: 55052
-    Ruby: 39282
+    CSS: 55214
+    Ruby: 40495
     C++: 30348
     CoffeeScript: 28635
-    Objective-C++: 20015
+    Objective-C++: 20371
     Batchfile: 18454
     Dockerfile: 18413
     Makefile: 7389
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 480
+        download_count: 526
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -304,7 +304,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:b6742027c8335799095d9e82cfdd9b1273321a92159661e788265750ccb65d7f
-        download_count: 282
+        download_count: 314
         created_at: 2026-06-03T14:23:49Z
         updated_at: 2026-06-03T14:23:50Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz.sig
@@ -335,14 +335,14 @@ github:
       - month: 2026-04
         commits: 0
       - month: 2026-05
-        commits: 12
+        commits: 0
       - month: 2026-06
-        commits: 54
+        commits: 46
       - month: 2026-07
-        commits: 34
-    totalCommitsKnown: 37714
+        commits: 54
+    totalCommitsKnown: 37734
     contributorsKnown: 120
-    openPullRequests: 202
+    openPullRequests: 201
   files:
     readme: true
     contributing: false
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-07-12T09:06:37.243Z
+    syncedAt: 2026-07-17T09:12:14.104Z
     apiVersion: rest-v3
     source: github-actions
 health:

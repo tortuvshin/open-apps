@@ -90,16 +90,16 @@ github:
     releases_url: https://api.github.com/repos/git-up/GitUp/releases{/id}
     deployments_url: https://api.github.com/repos/git-up/GitUp/deployments
     created_at: 2015-08-13T04:11:10Z
-    updated_at: 2026-07-12T03:08:20Z
-    pushed_at: 2026-07-03T01:01:05Z
+    updated_at: 2026-07-17T06:47:33Z
+    pushed_at: 2026-07-15T01:28:51Z
     git_url: git://github.com/git-up/GitUp.git
     ssh_url: git@github.com:git-up/GitUp.git
     clone_url: https://github.com/git-up/GitUp.git
     svn_url: https://github.com/git-up/GitUp
     homepage: http://gitup.co
-    size: 67988
-    stargazers_count: 12033
-    watchers_count: 12033
+    size: 67993
+    stargazers_count: 12042
+    watchers_count: 12042
     language: Objective-C
     has_issues: true
     has_projects: false
@@ -107,11 +107,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 1473
+    forks_count: 1474
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 373
+    open_issues_count: 368
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -125,9 +125,9 @@ github:
     pull_request_creation_policy: all
     topics: []
     visibility: public
-    forks: 1473
-    open_issues: 373
-    watchers: 12033
+    forks: 1474
+    open_issues: 368
+    watchers: 12042
     default_branch: master
     permissions:
       admin: false
@@ -157,8 +157,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1473
-    subscribers_count: 185
+    network_count: 1474
+    subscribers_count: 187
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -172,12 +172,12 @@ github:
       - month: 2026-06
         commits: 13
       - month: 2026-07
-        commits: 2
-    totalCommitsKnown: 559
+        commits: 4
+    totalCommitsKnown: 561
     openPullRequests: 2
     contributorsKnown: 62
   sync:
-    syncedAt: 2026-07-12T09:06:21.408Z
+    syncedAt: 2026-07-17T09:12:06.888Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -185,11 +185,11 @@ github:
     Shell: 6054
     C: 3425
   latestRelease:
-    url: https://api.github.com/repos/git-up/GitUp/releases/206266679
-    assets_url: https://api.github.com/repos/git-up/GitUp/releases/206266679/assets
-    upload_url: https://uploads.github.com/repos/git-up/GitUp/releases/206266679/assets{?name,label}
-    html_url: https://github.com/git-up/GitUp/releases/tag/v1.4.3
-    id: 206266679
+    url: https://api.github.com/repos/git-up/GitUp/releases/354150599
+    assets_url: https://api.github.com/repos/git-up/GitUp/releases/354150599/assets
+    upload_url: https://uploads.github.com/repos/git-up/GitUp/releases/354150599/assets{?name,label}
+    html_url: https://github.com/git-up/GitUp/releases/tag/v1.5.0
+    id: 354150599
     author:
       login: lucasderraugh
       id: 714282
@@ -210,20 +210,20 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOAmwXm84MS2E3
-    tag_name: v1.4.3
+    node_id: RE_kwDOAmwXm84VG-jH
+    tag_name: v1.5.0
     target_commitish: master
-    name: v1.4.3
+    name: v1.5.0 Tahoe Release
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2025-02-14T13:40:14Z
-    updated_at: 2025-03-17T14:51:22Z
-    published_at: 2025-03-17T14:50:42Z
+    created_at: 2026-07-03T00:33:52Z
+    updated_at: 2026-07-15T01:08:07Z
+    published_at: 2026-07-15T01:07:50Z
     assets:
-      - url: https://api.github.com/repos/git-up/GitUp/releases/assets/238237765
-        id: 238237765
-        node_id: RA_kwDOAmwXm84OMzhF
+      - url: https://api.github.com/repos/git-up/GitUp/releases/assets/477359764
+        id: 477359764
+        node_id: RA_kwDOAmwXm84cc-6U
         name: GitUp.zip
         label: null
         uploader:
@@ -248,41 +248,91 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 8502965
-        digest: null
-        download_count: 62580
-        created_at: 2025-03-17T14:51:18Z
-        updated_at: 2025-03-17T14:51:22Z
-        browser_download_url: https://github.com/git-up/GitUp/releases/download/v1.4.3/GitUp.zip
-    tarball_url: https://api.github.com/repos/git-up/GitUp/tarball/v1.4.3
-    zipball_url: https://api.github.com/repos/git-up/GitUp/zipball/v1.4.3
+        size: 4789559
+        digest: sha256:5e1d915ed533334e1691f9c01eb3cb9d2e5f459fb7aa2631b71120ff59ad585b
+        download_count: 2402
+        created_at: 2026-07-15T01:06:05Z
+        updated_at: 2026-07-15T01:06:08Z
+        browser_download_url: https://github.com/git-up/GitUp/releases/download/v1.5.0/GitUp.zip
+    tarball_url: https://api.github.com/repos/git-up/GitUp/tarball/v1.5.0
+    zipball_url: https://api.github.com/repos/git-up/GitUp/zipball/v1.5.0
     body: "## What's Changed\r
 
-      * Null out modification date of index entries when (un)staging lines by @Cykelero in
-      https://github.com/git-up/GitUp/pull/1034\r
+      ### The highlights for this release are as follows:\r
 
-      * Address disappearing lines in dark mode by @lucasderraugh in
-      https://github.com/git-up/GitUp/pull/1050\r
+      - Updated Tahoe design with modern Sparkle updater APIs\r
 
-      * Fix two APIs by @Cykelero in https://github.com/git-up/GitUp/pull/1041\r
+      - Updated to libgit2 from version 1.4.4 to 1.9.0, this provides support for:\r
+
+      \  - OpenSSH so no more struggling to just use your system SSH keys\r
+
+      \  - Shallow clones\r
 
       \r
 
+      ### A whole bunch of updates from GitHub PRs:\r
+
+      * Fix some “Stage All” special cases by @Cykelero in
+      https://github.com/git-up/GitUp/pull/1037\r
+
+      * Update libgit2 fork to v1.9.0 by @Cykelero in https://github.com/git-up/GitUp/pull/2683\r
+
+      * Update Homebrew cask name in README by @Quintisimo in
+      https://github.com/git-up/GitUp/pull/2726\r
+
+      * Make reloadHistory tip hiding much faster by @Cykelero in
+      https://github.com/git-up/GitUp/pull/2707\r
+
+      * Make the Text Size preference apply to the text in the diff view, not just the line numbers
+      by @mluisbrown in https://github.com/git-up/GitUp/pull/2727\r
+
+      * Fix highlight range computation for non-ascii characters by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2742\r
+
+      * Fix crash when staging lines with the index locked by @Cykelero in
+      https://github.com/git-up/GitUp/pull/2771\r
+
+      * Add GitUpKit to readme intro by @Cykelero in https://github.com/git-up/GitUp/pull/2776\r
+
+      * Allow opening containing repo from subdirectory by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2777\r
+
+      * Improve selected files performance lag in Commit View by @delacrixmorgan in
+      https://github.com/git-up/GitUp/pull/2780\r
+
+      * Bump to macOS 12.4 min target by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2785\r
+
+      * Move back to CMake for libgit2 compilation by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2786\r
+
+      * Use ssh_exec from libgit2 by @lucasderraugh in https://github.com/git-up/GitUp/pull/2787\r
+
       \r
 
-      **Full Changelog**: https://github.com/git-up/GitUp/compare/v1.4.2...v1.4.3"
+      ## New Contributors\r
+
+      * @Quintisimo made their first contribution in https://github.com/git-up/GitUp/pull/2726\r
+
+      * @mluisbrown made their first contribution in https://github.com/git-up/GitUp/pull/2727\r
+
+      * @delacrixmorgan made their first contribution in https://github.com/git-up/GitUp/pull/2780\r
+
+      \r
+
+      **Full Changelog**: https://github.com/git-up/GitUp/compare/v1.4.3...v1.5.0"
     reactions:
-      url: https://api.github.com/repos/git-up/GitUp/releases/206266679/reactions
-      total_count: 7
-      "+1": 0
+      url: https://api.github.com/repos/git-up/GitUp/releases/354150599/reactions
+      total_count: 14
+      "+1": 3
       "-1": 0
       laugh: 0
-      hooray: 5
+      hooray: 6
       confused: 0
-      heart: 2
+      heart: 5
       rocket: 0
       eyes: 0
-    mentions_count: 2
+    mentions_count: 5
   files:
     readme: true
     contributing: true
