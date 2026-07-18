@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/JetBrains/youtrack-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/JetBrains/youtrack-mobile/deployments
     created_at: 2016-10-11T15:00:06Z
-    updated_at: 2026-07-05T14:22:00Z
-    pushed_at: 2026-07-05T13:27:14Z
+    updated_at: 2026-07-16T09:53:13Z
+    pushed_at: 2026-07-16T09:52:56Z
     git_url: git://github.com/JetBrains/youtrack-mobile.git
     ssh_url: git@github.com:JetBrains/youtrack-mobile.git
     clone_url: https://github.com/JetBrains/youtrack-mobile.git
     svn_url: https://github.com/JetBrains/youtrack-mobile
     homepage: https://www.jetbrains.com/youtrack/features/youtrack-mobile.html
-    size: 60665
+    size: 60672
     stargazers_count: 285
     watchers_count: 285
     language: TypeScript
@@ -178,21 +178,21 @@ github:
       - month: 2026-06
         commits: 1
       - month: 2026-07
-        commits: 8
-    totalCommitsKnown: 6170
+        commits: 10
+    totalCommitsKnown: 6172
     openPullRequests: 5
     contributorsKnown: 27
   sync:
-    syncedAt: 2026-07-12T09:07:36.829Z
+    syncedAt: 2026-07-18T08:50:57.377Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    TypeScript: 2229857
+    TypeScript: 2232256
     JavaScript: 22360
     Objective-C++: 4057
     Kotlin: 3026
+    Ruby: 2725
     Objective-C: 2578
-    Ruby: 1718
     Java: 698
     Starlark: 602
     Shell: 124

@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/hamaluik/timecop/releases{/id}
     deployments_url: https://api.github.com/repos/hamaluik/timecop/deployments
     created_at: 2020-02-26T05:22:12Z
-    updated_at: 2026-07-11T15:20:39Z
+    updated_at: 2026-07-15T11:59:06Z
     pushed_at: 2025-01-24T03:13:20Z
     git_url: git://github.com/hamaluik/timecop.git
     ssh_url: git@github.com:hamaluik/timecop.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/hamaluik/timecop
     homepage: https://timecop.app/
     size: 23266
-    stargazers_count: 875
-    watchers_count: 875
+    stargazers_count: 876
+    watchers_count: 876
     language: Dart
     has_issues: true
     has_projects: false
@@ -128,7 +128,7 @@ github:
     visibility: public
     forks: 171
     open_issues: 46
-    watchers: 875
+    watchers: 876
     default_branch: master
     permissions:
       admin: false
@@ -157,7 +157,7 @@ github:
     openPullRequests: 10
     contributorsKnown: 50
   sync:
-    syncedAt: 2026-07-12T09:07:18.655Z
+    syncedAt: 2026-07-18T08:50:53.438Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -269,7 +269,7 @@ github:
         state: uploaded
         size: 8108244
         digest: null
-        download_count: 209
+        download_count: 213
         created_at: 2022-11-16T22:29:06Z
         updated_at: 2022-11-16T22:29:10Z
         browser_download_url: https://github.com/hamaluik/timecop/releases/download/v1.8.0/timecop-linux-x86_64.tar.xz
