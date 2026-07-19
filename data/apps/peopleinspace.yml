@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/joreilly/PeopleInSpace/releases{/id}
     deployments_url: https://api.github.com/repos/joreilly/PeopleInSpace/deployments
     created_at: 2019-12-22T20:19:16Z
-    updated_at: 2026-07-15T01:12:55Z
-    pushed_at: 2026-07-04T03:05:16Z
+    updated_at: 2026-07-18T22:43:36Z
+    pushed_at: 2026-07-18T22:43:01Z
     git_url: git://github.com/joreilly/PeopleInSpace.git
     ssh_url: git@github.com:joreilly/PeopleInSpace.git
     clone_url: https://github.com/joreilly/PeopleInSpace.git
     svn_url: https://github.com/joreilly/PeopleInSpace
     homepage: ""
-    size: 73607
-    stargazers_count: 3353
-    watchers_count: 3353
+    size: 73768
+    stargazers_count: 3355
+    watchers_count: 3355
     language: Kotlin
     has_issues: true
     has_projects: true
@@ -115,7 +115,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 15
+    open_issues_count: 11
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -149,8 +149,8 @@ github:
       - wasm
     visibility: public
     forks: 300
-    open_issues: 15
-    watchers: 3353
+    open_issues: 11
+    watchers: 3355
     default_branch: main
     permissions:
       admin: false
@@ -174,17 +174,17 @@ github:
       - month: 2026-06
         commits: 0
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 991
+        commits: 9
+    totalCommitsKnown: 1000
     openPullRequests: 10
     contributorsKnown: 38
   sync:
-    syncedAt: 2026-07-18T08:50:46.705Z
+    syncedAt: 2026-07-19T09:07:25.159Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Kotlin: 195568
-    Swift: 17939
+    Kotlin: 198086
+    Swift: 17963
     JavaScript: 2354
     Ruby: 1580
     HTML: 639

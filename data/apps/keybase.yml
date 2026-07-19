@@ -104,14 +104,14 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-07-17T21:44:22Z
-    pushed_at: 2026-07-17T21:44:16Z
+    updated_at: 2026-07-18T19:00:51Z
+    pushed_at: 2026-07-18T19:26:49Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
-    size: 748136
+    size: 748152
     stargazers_count: 9231
     watchers_count: 9231
     language: Go
@@ -125,7 +125,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4248
+    open_issues_count: 4249
     license:
       key: bsd-3-clause
       name: BSD 3-Clause "New" or "Revised" License
@@ -148,7 +148,7 @@ github:
       - react-native
     visibility: public
     forks: 1291
-    open_issues: 4248
+    open_issues: 4249
     watchers: 9231
     default_branch: master
     permissions:
@@ -271,7 +271,7 @@ github:
         state: uploaded
         size: 77040816
         digest: sha256:8404764b69c18b35d5c93f464cc668fd4867189f14b8289c14d380fce2e75b57
-        download_count: 531
+        download_count: 541
         created_at: 2026-06-03T14:23:45Z
         updated_at: 2026-06-03T14:23:49Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz
@@ -304,7 +304,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:b6742027c8335799095d9e82cfdd9b1273321a92159661e788265750ccb65d7f
-        download_count: 319
+        download_count: 329
         created_at: 2026-06-03T14:23:49Z
         updated_at: 2026-06-03T14:23:50Z
         browser_download_url: https://github.com/keybase/client/releases/download/v6.6.3/keybase-v6.6.3.tar.xz.sig
@@ -337,12 +337,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 43
+        commits: 42
       - month: 2026-07
-        commits: 57
-    totalCommitsKnown: 37737
+        commits: 58
+    totalCommitsKnown: 37738
     contributorsKnown: 120
-    openPullRequests: 201
+    openPullRequests: 202
   files:
     readme: true
     contributing: false
@@ -355,7 +355,7 @@ github:
       color: "159818"
       description: null
   sync:
-    syncedAt: 2026-07-18T08:50:40.975Z
+    syncedAt: 2026-07-19T09:07:19.166Z
     apiVersion: rest-v3
     source: github-actions
 health:

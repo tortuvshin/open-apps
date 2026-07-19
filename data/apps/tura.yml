@@ -1,17 +1,15 @@
 schemaVersion: 1
-
 id: github:Tura-AI/tura
 slug: tura
-
 source:
   provider: github
   owner: Tura-AI
   repo: tura
   url: https://github.com/Tura-AI/tura
-
 app:
   name: Tura
-  description: A local open-source AI coding agent with CLI, TUI, web, and desktop interfaces for structured tool execution and context-aware development workflows.
+  description: A local open-source AI coding agent with CLI, TUI, web, and desktop interfaces for
+    structured tool execution and context-aware development workflows.
   category: tools
   projectType: production
   platforms:
@@ -36,7 +34,6 @@ app:
         label: Tura website
         url: https://turaai.net/
         verified: true
-
 stack:
   primary: tauri
   families:
@@ -55,26 +52,109 @@ stack:
       role: interface
     - id: css
       role: styling
-
 github:
   repository:
     id: 1291098094
     node_id: R_kgDOTPSX7g
     name: tura
     full_name: Tura-AI/tura
+    private: false
+    owner:
+      login: Tura-AI
+      id: 258845643
+      node_id: O_kgDOD22ryw
+      avatar_url: https://avatars.githubusercontent.com/u/258845643?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/Tura-AI
+      html_url: https://github.com/Tura-AI
+      followers_url: https://api.github.com/users/Tura-AI/followers
+      following_url: https://api.github.com/users/Tura-AI/following{/other_user}
+      gists_url: https://api.github.com/users/Tura-AI/gists{/gist_id}
+      starred_url: https://api.github.com/users/Tura-AI/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/Tura-AI/subscriptions
+      organizations_url: https://api.github.com/users/Tura-AI/orgs
+      repos_url: https://api.github.com/users/Tura-AI/repos
+      events_url: https://api.github.com/users/Tura-AI/events{/privacy}
+      received_events_url: https://api.github.com/users/Tura-AI/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
     html_url: https://github.com/Tura-AI/tura
-    clone_url: https://github.com/Tura-AI/tura.git
-    ssh_url: git@github.com:Tura-AI/tura.git
-    homepage: https://turaai.net/
-    description: Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared with Codex CLI.
+    description: Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the
+      rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared
+      with Codex CLI.
     fork: false
+    url: https://api.github.com/repos/Tura-AI/tura
+    forks_url: https://api.github.com/repos/Tura-AI/tura/forks
+    keys_url: https://api.github.com/repos/Tura-AI/tura/keys{/key_id}
+    collaborators_url: https://api.github.com/repos/Tura-AI/tura/collaborators{/collaborator}
+    teams_url: https://api.github.com/repos/Tura-AI/tura/teams
+    hooks_url: https://api.github.com/repos/Tura-AI/tura/hooks
+    issue_events_url: https://api.github.com/repos/Tura-AI/tura/issues/events{/number}
+    events_url: https://api.github.com/repos/Tura-AI/tura/events
+    assignees_url: https://api.github.com/repos/Tura-AI/tura/assignees{/user}
+    branches_url: https://api.github.com/repos/Tura-AI/tura/branches{/branch}
+    tags_url: https://api.github.com/repos/Tura-AI/tura/tags
+    blobs_url: https://api.github.com/repos/Tura-AI/tura/git/blobs{/sha}
+    git_tags_url: https://api.github.com/repos/Tura-AI/tura/git/tags{/sha}
+    git_refs_url: https://api.github.com/repos/Tura-AI/tura/git/refs{/sha}
+    trees_url: https://api.github.com/repos/Tura-AI/tura/git/trees{/sha}
+    statuses_url: https://api.github.com/repos/Tura-AI/tura/statuses/{sha}
+    languages_url: https://api.github.com/repos/Tura-AI/tura/languages
+    stargazers_url: https://api.github.com/repos/Tura-AI/tura/stargazers
+    contributors_url: https://api.github.com/repos/Tura-AI/tura/contributors
+    subscribers_url: https://api.github.com/repos/Tura-AI/tura/subscribers
+    subscription_url: https://api.github.com/repos/Tura-AI/tura/subscription
+    commits_url: https://api.github.com/repos/Tura-AI/tura/commits{/sha}
+    git_commits_url: https://api.github.com/repos/Tura-AI/tura/git/commits{/sha}
+    comments_url: https://api.github.com/repos/Tura-AI/tura/comments{/number}
+    issue_comment_url: https://api.github.com/repos/Tura-AI/tura/issues/comments{/number}
+    contents_url: https://api.github.com/repos/Tura-AI/tura/contents/{+path}
+    compare_url: https://api.github.com/repos/Tura-AI/tura/compare/{base}...{head}
+    merges_url: https://api.github.com/repos/Tura-AI/tura/merges
+    archive_url: https://api.github.com/repos/Tura-AI/tura/{archive_format}{/ref}
+    downloads_url: https://api.github.com/repos/Tura-AI/tura/downloads
+    issues_url: https://api.github.com/repos/Tura-AI/tura/issues{/number}
+    pulls_url: https://api.github.com/repos/Tura-AI/tura/pulls{/number}
+    milestones_url: https://api.github.com/repos/Tura-AI/tura/milestones{/number}
+    notifications_url: https://api.github.com/repos/Tura-AI/tura/notifications{?since,all,participating}
+    labels_url: https://api.github.com/repos/Tura-AI/tura/labels{/name}
+    releases_url: https://api.github.com/repos/Tura-AI/tura/releases{/id}
+    deployments_url: https://api.github.com/repos/Tura-AI/tura/deployments
+    created_at: 2026-07-06T13:58:44Z
+    updated_at: 2026-07-19T07:19:12Z
+    pushed_at: 2026-07-18T19:33:10Z
+    git_url: git://github.com/Tura-AI/tura.git
+    ssh_url: git@github.com:Tura-AI/tura.git
+    clone_url: https://github.com/Tura-AI/tura.git
+    svn_url: https://github.com/Tura-AI/tura
+    homepage: https://turaai.net/
+    size: 233109
+    stargazers_count: 171
+    watchers_count: 171
+    language: Rust
+    has_issues: true
+    has_projects: true
+    has_downloads: true
+    has_wiki: true
+    has_pages: false
+    has_discussions: true
+    forks_count: 12
+    mirror_url: null
     archived: false
     disabled: false
-    private: false
+    open_issues_count: 5
+    license:
+      key: agpl-3.0
+      name: GNU Affero General Public License v3.0
+      spdx_id: AGPL-3.0
+      url: https://api.github.com/licenses/agpl-3.0
+      node_id: MDc6TGljZW5zZTE=
+    allow_forking: true
     is_template: false
-    visibility: public
-    default_branch: main
-    language: Rust
+    web_commit_signoff_required: false
+    has_pull_requests: true
+    pull_request_creation_policy: all
     topics:
       - agent
       - agentic-ai
@@ -87,30 +167,661 @@ github:
       - terminal-based
       - token-optimization
       - token-usage
-    license:
-      key: agpl-3.0
-      name: GNU Affero General Public License v3.0
-      spdx_id: AGPL-3.0
-    stargazers_count: 70
-    watchers_count: 70
-    forks_count: 6
-    open_issues_count: 0
-    subscribers_count: 1
-    size: 145229
-    created_at: 2026-07-06T13:58:44Z
-    updated_at: 2026-07-16T22:08:06Z
-    pushed_at: 2026-07-16T14:05:02Z
+    visibility: public
+    forks: 12
+    open_issues: 5
+    watchers: 171
+    default_branch: main
+    permissions:
+      admin: false
+      maintain: false
+      push: false
+      triage: false
+      pull: false
+    temp_clone_token: ""
+    custom_properties: {}
+    organization:
+      login: Tura-AI
+      id: 258845643
+      node_id: O_kgDOD22ryw
+      avatar_url: https://avatars.githubusercontent.com/u/258845643?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/Tura-AI
+      html_url: https://github.com/Tura-AI
+      followers_url: https://api.github.com/users/Tura-AI/followers
+      following_url: https://api.github.com/users/Tura-AI/following{/other_user}
+      gists_url: https://api.github.com/users/Tura-AI/gists{/gist_id}
+      starred_url: https://api.github.com/users/Tura-AI/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/Tura-AI/subscriptions
+      organizations_url: https://api.github.com/users/Tura-AI/orgs
+      repos_url: https://api.github.com/users/Tura-AI/repos
+      events_url: https://api.github.com/users/Tura-AI/events{/privacy}
+      received_events_url: https://api.github.com/users/Tura-AI/received_events
+      type: Organization
+      user_view_type: public
+      site_admin: false
+    network_count: 12
+    subscribers_count: 2
   sync:
-    syncedAt: 2026-07-16T22:22:27Z
+    syncedAt: 2026-07-19T09:07:34.447Z
     apiVersion: rest-v3
-    source: submit-page
-
+    source: github-actions
+  languages:
+    Rust: 5578592
+    TypeScript: 1830673
+    JavaScript: 941516
+    Python: 595378
+    PowerShell: 167276
+    CSS: 114939
+    Shell: 106034
+    HTML: 13547
+    Dockerfile: 761
+  latestRelease:
+    url: https://api.github.com/repos/Tura-AI/tura/releases/353812989
+    assets_url: https://api.github.com/repos/Tura-AI/tura/releases/353812989/assets
+    upload_url: https://uploads.github.com/repos/Tura-AI/tura/releases/353812989/assets{?name,label}
+    html_url: https://github.com/Tura-AI/tura/releases/tag/v0.1.33
+    id: 353812989
+    author:
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+      gravatar_id: ""
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
+      user_view_type: public
+      site_admin: false
+    node_id: RE_kwDOTPSX7s4VFsH9
+    tag_name: v0.1.33
+    target_commitish: main
+    name: v0.1.33
+    draft: false
+    immutable: false
+    prerelease: false
+    created_at: 2026-07-14T12:16:46Z
+    updated_at: 2026-07-14T13:47:28Z
+    published_at: 2026-07-14T13:25:38Z
+    assets:
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750437
+        id: 476750437
+        node_id: RA_kwDOTPSX7s4caqJl
+        name: SHA256SUMS.txt
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: text/plain; charset=utf-8
+        state: uploaded
+        size: 1578
+        digest: sha256:05dfd8d3a28bdbb2410487a942b79bb228729fb7772abeedf59dbfe3a60f9912
+        download_count: 15
+        created_at: 2026-07-14T13:47:17Z
+        updated_at: 2026-07-14T13:47:17Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/SHA256SUMS.txt
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750434
+        id: 476750434
+        node_id: RA_kwDOTPSX7s4caqJi
+        name: tura-darwin-arm64-0.1.33.tgz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 52114903
+        digest: sha256:7abb84a35d912fbc36cba9589e01ee7214986c50ff96994976c45f664af5e956
+        download_count: 5
+        created_at: 2026-07-14T13:47:16Z
+        updated_at: 2026-07-14T13:47:20Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-darwin-arm64-0.1.33.tgz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750438
+        id: 476750438
+        node_id: RA_kwDOTPSX7s4caqJm
+        name: tura-darwin-x64-0.1.33.tgz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 55060192
+        digest: sha256:1221a750ab9d80ee8b9794c519ec45db4ba6572bed5bdc46843f9e99f028fcfe
+        download_count: 2
+        created_at: 2026-07-14T13:47:17Z
+        updated_at: 2026-07-14T13:47:19Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-darwin-x64-0.1.33.tgz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750433
+        id: 476750433
+        node_id: RA_kwDOTPSX7s4caqJh
+        name: tura-gui-v0.1.33-linux-x64.AppImage
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.appimage
+        state: uploaded
+        size: 81066488
+        digest: sha256:b7ef021b311dcc901c706f0ac5cc5adf57ae0e7ea500da03e9e07ddaa28628bc
+        download_count: 34
+        created_at: 2026-07-14T13:47:16Z
+        updated_at: 2026-07-14T13:47:20Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-linux-x64.AppImage
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750435
+        id: 476750435
+        node_id: RA_kwDOTPSX7s4caqJj
+        name: tura-gui-v0.1.33-linux-x64.deb
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-debian-package
+        state: uploaded
+        size: 6921214
+        digest: sha256:7f6fcc22bc119399d51a3ca8a67db724d81e5f462e9cdec494469a7cb40b7f8c
+        download_count: 1
+        created_at: 2026-07-14T13:47:17Z
+        updated_at: 2026-07-14T13:47:18Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-linux-x64.deb
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750448
+        id: 476750448
+        node_id: RA_kwDOTPSX7s4caqJw
+        name: tura-gui-v0.1.33-linux-x64.rpm
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-rpm
+        state: uploaded
+        size: 6921301
+        digest: sha256:f06e8fd33c18637b2cc827a109497624dc327108730b2518b925b9e298fef283
+        download_count: 1
+        created_at: 2026-07-14T13:47:18Z
+        updated_at: 2026-07-14T13:47:18Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-linux-x64.rpm
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750454
+        id: 476750454
+        node_id: RA_kwDOTPSX7s4caqJ2
+        name: tura-gui-v0.1.33-macos-arm64.dmg
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 5330070
+        digest: sha256:6c17566bf0036d0d8b18d90f53207756e135399fe14abbfceae67989b0a0ff14
+        download_count: 5
+        created_at: 2026-07-14T13:47:18Z
+        updated_at: 2026-07-14T13:47:19Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-macos-arm64.dmg
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750462
+        id: 476750462
+        node_id: RA_kwDOTPSX7s4caqJ-
+        name: tura-gui-v0.1.33-macos-x64.dmg
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-apple-diskimage
+        state: uploaded
+        size: 5562151
+        digest: sha256:a3fd5dce2254af1653a6282c7284fa722845ab0d9d50320781697eec61c7927d
+        download_count: 3
+        created_at: 2026-07-14T13:47:19Z
+        updated_at: 2026-07-14T13:47:19Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-macos-x64.dmg
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750471
+        id: 476750471
+        node_id: RA_kwDOTPSX7s4caqKH
+        name: tura-gui-v0.1.33-windows-x64-setup.exe
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 3152514
+        digest: sha256:263592122009224cab01194eda292f9b4c9faf06361515ed40791d90bfc763bd
+        download_count: 20
+        created_at: 2026-07-14T13:47:20Z
+        updated_at: 2026-07-14T13:47:20Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-windows-x64-setup.exe
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750470
+        id: 476750470
+        node_id: RA_kwDOTPSX7s4caqKG
+        name: tura-gui-v0.1.33-windows-x64.msi
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-msi
+        state: uploaded
+        size: 4780032
+        digest: sha256:5d2b508fa6bb83a5a9e9398a7d22e3c53d202c52e19304a02a84b90e0b25d6ff
+        download_count: 14
+        created_at: 2026-07-14T13:47:20Z
+        updated_at: 2026-07-14T13:47:20Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-windows-x64.msi
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750481
+        id: 476750481
+        node_id: RA_kwDOTPSX7s4caqKR
+        name: tura-linux-x64-0.1.33.tgz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 67078338
+        digest: sha256:9926cff636775d51e85a6ba6ef66824333c0fcf3e621ab2d4a7ee43506e16419
+        download_count: 4
+        created_at: 2026-07-14T13:47:20Z
+        updated_at: 2026-07-14T13:47:22Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-linux-x64-0.1.33.tgz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750489
+        id: 476750489
+        node_id: RA_kwDOTPSX7s4caqKZ
+        name: tura-v0.1.33-linux-x64.tar.gz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 276937481
+        digest: sha256:a0aa2d0c0ffbffe09ec1068934e4f1b1c572cc05ce912161e11cab6971cfd820
+        download_count: 6
+        created_at: 2026-07-14T13:47:21Z
+        updated_at: 2026-07-14T13:47:28Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-linux-x64.tar.gz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750491
+        id: 476750491
+        node_id: RA_kwDOTPSX7s4caqKb
+        name: tura-v0.1.33-macos-arm64.tar.gz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 66683884
+        digest: sha256:1c88268b603cbd5c41e33d9723e4a2e855f86400664cbce4dd520d0833d6f12b
+        download_count: 1
+        created_at: 2026-07-14T13:47:21Z
+        updated_at: 2026-07-14T13:47:24Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-macos-arm64.tar.gz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750490
+        id: 476750490
+        node_id: RA_kwDOTPSX7s4caqKa
+        name: tura-v0.1.33-macos-x64.tar.gz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 71102475
+        digest: sha256:a287b70d750aca64694627771b4167e8bd31e243375836bb996e960678538b0e
+        download_count: 0
+        created_at: 2026-07-14T13:47:21Z
+        updated_at: 2026-07-14T13:47:24Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-macos-x64.tar.gz
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750502
+        id: 476750502
+        node_id: RA_kwDOTPSX7s4caqKm
+        name: tura-v0.1.33-windows-x64.zip
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/zip
+        state: uploaded
+        size: 81648003
+        digest: sha256:015088f7fda2c1c9b57cf0bf4d2c5c2f13a1bdb402f7e33d0f792d29496a70ed
+        download_count: 14
+        created_at: 2026-07-14T13:47:21Z
+        updated_at: 2026-07-14T13:47:24Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-windows-x64.zip
+      - url: https://api.github.com/repos/Tura-AI/tura/releases/assets/476750547
+        id: 476750547
+        node_id: RA_kwDOTPSX7s4caqLT
+        name: tura-win32-x64-0.1.33.tgz
+        label: ""
+        uploader:
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/x-gtar
+        state: uploaded
+        size: 68523151
+        digest: sha256:d3cdf9700ec361ef8de94f30df67c873b2bec382c8c09683cd74c88e1f35f8d4
+        download_count: 1
+        created_at: 2026-07-14T13:47:23Z
+        updated_at: 2026-07-14T13:47:26Z
+        browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-win32-x64-0.1.33.tgz
+    tarball_url: https://api.github.com/repos/Tura-AI/tura/tarball/v0.1.33
+    zipball_url: https://api.github.com/repos/Tura-AI/tura/zipball/v0.1.33
+    body: "**Full Changelog**: https://github.com/Tura-AI/tura/compare/v0.1.32...v0.1.33"
+  activity:
+    monthlyCommits:
+      - month: 2026-02
+        commits: 0
+      - month: 2026-03
+        commits: 0
+      - month: 2026-04
+        commits: 0
+      - month: 2026-05
+        commits: 0
+      - month: 2026-06
+        commits: 0
+      - month: 2026-07
+        commits: 100
+    totalCommitsKnown: 618
+    contributorsKnown: 3
+    openPullRequests: 3
+  files:
+    readme: true
+    contributing: false
+    codeOfConduct: false
+    security: false
+    issueTemplates: true
+    pullRequestTemplate: false
+  labels:
+    - name: good first issue
+      color: 7057ff
+      description: Good for newcomers
+    - name: help wanted
+      color: "008672"
+      description: Extra attention is needed
 curation:
   reviewed: false
   reviewedBy: null
   reviewedAt: null
   bestFor:
     - Developers studying a Rust-first coding agent with terminal, TUI, and Tauri desktop surfaces.
-    - Teams comparing persistent task state and evidence-backed verification in one local application.
+    - Teams comparing persistent task state and evidence-backed verification in one local
+      application.
   caveats:
     - The project is new and the current release line is pre-1.0.

@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-07-18T01:53:58Z
-    pushed_at: 2026-07-17T22:30:59Z
+    updated_at: 2026-07-19T07:58:29Z
+    pushed_at: 2026-07-19T07:58:23Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1650105
-    stargazers_count: 20975
-    watchers_count: 20975
+    size: 1650148
+    stargazers_count: 20983
+    watchers_count: 20983
     language: C++
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6564
+    forks_count: 6565
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 465
+    open_issues_count: 462
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - xbmc
       - xml
     visibility: public
-    forks: 6564
-    open_issues: 465
-    watchers: 20975
+    forks: 6565
+    open_issues: 462
+    watchers: 20983
     default_branch: master
     permissions:
       admin: false
@@ -178,8 +178,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 6564
-    subscribers_count: 787
+    network_count: 6565
+    subscribers_count: 786
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -191,18 +191,18 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 7
+        commits: 0
       - month: 2026-07
-        commits: 93
-    totalCommitsKnown: 71691
-    openPullRequests: 202
+        commits: 100
+    totalCommitsKnown: 71712
+    openPullRequests: 199
     contributorsKnown: 1272
   sync:
-    syncedAt: 2026-07-18T08:50:57.503Z
+    syncedAt: 2026-07-19T09:07:37.287Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32523380
+    C++: 32527652
     C: 1027102
     CMake: 930626
     JavaScript: 912837
@@ -377,8 +377,8 @@ github:
       * Updated CA certificates to 2025-07-15 from the Mozilla CA certificate store\r\n"
     reactions:
       url: https://api.github.com/repos/xbmc/xbmc/releases/258875261/reactions
-      total_count: 73
-      "+1": 19
+      total_count: 74
+      "+1": 20
       "-1": 0
       laugh: 0
       hooray: 25
