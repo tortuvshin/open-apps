@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-07-18T12:49:24Z
-    pushed_at: 2026-07-19T04:52:11Z
+    updated_at: 2026-07-20T10:04:53Z
+    pushed_at: 2026-07-20T10:12:06Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2065957
-    stargazers_count: 2999
-    watchers_count: 2999
+    size: 2065678
+    stargazers_count: 3001
+    watchers_count: 3001
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1830
+    open_issues_count: 1841
     license:
       key: other
       name: Other
@@ -149,8 +149,8 @@ github:
       - web3
     visibility: public
     forks: 1628
-    open_issues: 1830
-    watchers: 2999
+    open_issues: 1841
+    watchers: 3001
     default_branch: main
     permissions:
       admin: false
@@ -185,8 +185,8 @@ github:
     network_count: 1628
     subscribers_count: 143
   languages:
-    TypeScript: 75214208
-    JavaScript: 2028900
+    TypeScript: 75256034
+    JavaScript: 2029196
     Shell: 137160
     HTML: 100552
     Swift: 20776
@@ -260,9 +260,9 @@ github:
         commits: 0
       - month: 2026-07
         commits: 100
-    totalCommitsKnown: 18680
+    totalCommitsKnown: 18684
     contributorsKnown: 305
-    openPullRequests: 439
+    openPullRequests: 452
   files:
     readme: true
     contributing: false
@@ -272,7 +272,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-07-19T09:07:22.366Z
+    syncedAt: 2026-07-20T10:15:28.405Z
     apiVersion: rest-v3
     source: github-actions
 health:

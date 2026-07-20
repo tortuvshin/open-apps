@@ -122,16 +122,16 @@ github:
     releases_url: https://api.github.com/repos/Tura-AI/tura/releases{/id}
     deployments_url: https://api.github.com/repos/Tura-AI/tura/deployments
     created_at: 2026-07-06T13:58:44Z
-    updated_at: 2026-07-19T07:19:12Z
-    pushed_at: 2026-07-18T19:33:10Z
+    updated_at: 2026-07-20T09:39:14Z
+    pushed_at: 2026-07-20T09:49:55Z
     git_url: git://github.com/Tura-AI/tura.git
     ssh_url: git@github.com:Tura-AI/tura.git
     clone_url: https://github.com/Tura-AI/tura.git
     svn_url: https://github.com/Tura-AI/tura
     homepage: https://turaai.net/
-    size: 233109
-    stargazers_count: 171
-    watchers_count: 171
+    size: 146085
+    stargazers_count: 255
+    watchers_count: 255
     language: Rust
     has_issues: true
     has_projects: true
@@ -139,11 +139,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 12
+    forks_count: 13
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 5
+    open_issues_count: 10
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -168,9 +168,9 @@ github:
       - token-optimization
       - token-usage
     visibility: public
-    forks: 12
-    open_issues: 5
-    watchers: 171
+    forks: 13
+    open_issues: 10
+    watchers: 255
     default_branch: main
     permissions:
       admin: false
@@ -200,14 +200,14 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 12
+    network_count: 13
     subscribers_count: 2
   sync:
-    syncedAt: 2026-07-19T09:07:34.447Z
+    syncedAt: 2026-07-20T10:15:46.094Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    Rust: 5578592
+    Rust: 5581213
     TypeScript: 1830673
     JavaScript: 941516
     Python: 595378
@@ -282,7 +282,7 @@ github:
         state: uploaded
         size: 1578
         digest: sha256:05dfd8d3a28bdbb2410487a942b79bb228729fb7772abeedf59dbfe3a60f9912
-        download_count: 15
+        download_count: 16
         created_at: 2026-07-14T13:47:17Z
         updated_at: 2026-07-14T13:47:17Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/SHA256SUMS.txt
@@ -381,7 +381,7 @@ github:
         state: uploaded
         size: 81066488
         digest: sha256:b7ef021b311dcc901c706f0ac5cc5adf57ae0e7ea500da03e9e07ddaa28628bc
-        download_count: 34
+        download_count: 35
         created_at: 2026-07-14T13:47:16Z
         updated_at: 2026-07-14T13:47:20Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-linux-x64.AppImage
@@ -480,7 +480,7 @@ github:
         state: uploaded
         size: 5330070
         digest: sha256:6c17566bf0036d0d8b18d90f53207756e135399fe14abbfceae67989b0a0ff14
-        download_count: 5
+        download_count: 7
         created_at: 2026-07-14T13:47:18Z
         updated_at: 2026-07-14T13:47:19Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-macos-arm64.dmg
@@ -579,7 +579,7 @@ github:
         state: uploaded
         size: 4780032
         digest: sha256:5d2b508fa6bb83a5a9e9398a7d22e3c53d202c52e19304a02a84b90e0b25d6ff
-        download_count: 14
+        download_count: 15
         created_at: 2026-07-14T13:47:20Z
         updated_at: 2026-07-14T13:47:20Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-gui-v0.1.33-windows-x64.msi
@@ -612,7 +612,7 @@ github:
         state: uploaded
         size: 67078338
         digest: sha256:9926cff636775d51e85a6ba6ef66824333c0fcf3e621ab2d4a7ee43506e16419
-        download_count: 4
+        download_count: 5
         created_at: 2026-07-14T13:47:20Z
         updated_at: 2026-07-14T13:47:22Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-linux-x64-0.1.33.tgz
@@ -678,7 +678,7 @@ github:
         state: uploaded
         size: 66683884
         digest: sha256:1c88268b603cbd5c41e33d9723e4a2e855f86400664cbce4dd520d0833d6f12b
-        download_count: 1
+        download_count: 2
         created_at: 2026-07-14T13:47:21Z
         updated_at: 2026-07-14T13:47:24Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-macos-arm64.tar.gz
@@ -744,7 +744,7 @@ github:
         state: uploaded
         size: 81648003
         digest: sha256:015088f7fda2c1c9b57cf0bf4d2c5c2f13a1bdb402f7e33d0f792d29496a70ed
-        download_count: 14
+        download_count: 15
         created_at: 2026-07-14T13:47:21Z
         updated_at: 2026-07-14T13:47:24Z
         browser_download_url: https://github.com/Tura-AI/tura/releases/download/v0.1.33/tura-v0.1.33-windows-x64.zip
@@ -798,9 +798,9 @@ github:
         commits: 0
       - month: 2026-07
         commits: 100
-    totalCommitsKnown: 618
-    contributorsKnown: 3
-    openPullRequests: 3
+    totalCommitsKnown: 620
+    contributorsKnown: 4
+    openPullRequests: 8
   files:
     readme: true
     contributing: false

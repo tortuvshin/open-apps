@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/mattermost/mattermost-mobile/deployments
     created_at: 2016-10-07T16:52:32Z
-    updated_at: 2026-07-19T00:54:51Z
-    pushed_at: 2026-07-18T21:31:58Z
+    updated_at: 2026-07-20T10:01:52Z
+    pushed_at: 2026-07-20T10:02:03Z
     git_url: git://github.com/mattermost/mattermost-mobile.git
     ssh_url: git@github.com:mattermost/mattermost-mobile.git
     clone_url: https://github.com/mattermost/mattermost-mobile.git
     svn_url: https://github.com/mattermost/mattermost-mobile
     homepage: https://about.mattermost.com/
-    size: 188332
-    stargazers_count: 2695
-    watchers_count: 2695
+    size: 188418
+    stargazers_count: 2697
+    watchers_count: 2697
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1638
+    forks_count: 1639
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 298
+    open_issues_count: 297
     license:
       key: apache-2.0
       name: Apache License 2.0
@@ -143,9 +143,9 @@ github:
       - hacktoberfest
       - mattermost-mobile
     visibility: public
-    forks: 1638
-    open_issues: 298
-    watchers: 2695
+    forks: 1639
+    open_issues: 297
+    watchers: 2697
     default_branch: main
     permissions:
       admin: false
@@ -175,7 +175,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1638
+    network_count: 1639
     subscribers_count: 91
   languages:
     TypeScript: 16304953
@@ -190,11 +190,11 @@ github:
     Python: 1861
     HTML: 1560
   latestRelease:
-    url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/355557633
-    assets_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/355557633/assets
-    upload_url: https://uploads.github.com/repos/mattermost/mattermost-mobile/releases/355557633/assets{?name,label}
-    html_url: https://github.com/mattermost/mattermost-mobile/releases/tag/v2.42.1
-    id: 355557633
+    url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/356206630
+    assets_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/356206630/assets
+    upload_url: https://uploads.github.com/repos/mattermost/mattermost-mobile/releases/356206630/assets{?name,label}
+    html_url: https://github.com/mattermost/mattermost-mobile/releases/tag/v2.42.2
+    id: 356206630
     author:
       login: enahum
       id: 6757047
@@ -215,20 +215,20 @@ github:
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOBDArfM4VMWEB
-    tag_name: v2.42.1
+    node_id: RE_kwDOBDArfM4VO0gm
+    tag_name: v2.42.2
     target_commitish: main
-    name: Mobile Version 2.42.1
+    name: Mobile Version 2.42.2
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-17T05:18:52Z
-    updated_at: 2026-07-17T09:21:46Z
-    published_at: 2026-07-17T09:21:46Z
+    created_at: 2026-07-18T17:48:26Z
+    updated_at: 2026-07-19T20:40:44Z
+    published_at: 2026-07-19T20:40:44Z
     assets:
-      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/480153754
-        id: 480153754
-        node_id: RA_kwDOBDArfM4cnpCa
+      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/481846736
+        id: 481846736
+        node_id: RA_kwDOBDArfM4cuGXQ
         name: Mattermost-unsigned.apk
         label: ""
         uploader:
@@ -253,15 +253,15 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 227821850
-        digest: sha256:a0186f6a64c179dff4b97de23c4f93fd48689189c5cf1554c5cdb2dddda9e37a
-        download_count: 37
-        created_at: 2026-07-17T08:29:49Z
-        updated_at: 2026-07-17T08:29:58Z
-        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.1/Mattermost-unsigned.apk
-      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/480153725
-        id: 480153725
-        node_id: RA_kwDOBDArfM4cnpB9
+        size: 227821830
+        digest: sha256:1b0432594d5ec2877cf0a98173fb2b2025cf5f75445461616934fb9601bc6bb1
+        download_count: 12
+        created_at: 2026-07-18T22:25:49Z
+        updated_at: 2026-07-18T22:25:57Z
+        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.2/Mattermost-unsigned.apk
+      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/481846718
+        id: 481846718
+        node_id: RA_kwDOBDArfM4cuGW-
         name: Mattermost-unsigned.ipa
         label: ""
         uploader:
@@ -286,16 +286,16 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 46042293
-        digest: sha256:049f51b23c4cef94ea69f8abe054e7069abd2bebe517c94a7a4a1af349c850d9
-        download_count: 3
-        created_at: 2026-07-17T08:29:46Z
-        updated_at: 2026-07-17T08:29:48Z
-        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.1/Mattermost-unsigned.ipa
-      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/480153890
-        id: 480153890
-        node_id: RA_kwDOBDArfM4cnpEi
-        name: sbom-mattermost-mobile-v2.42.1.json
+        size: 46041074
+        digest: sha256:f5739050d7997a9b7e53707af2aab060f4cef3dabbf05b46d73050419e0ea1a9
+        download_count: 2
+        created_at: 2026-07-18T22:25:46Z
+        updated_at: 2026-07-18T22:25:48Z
+        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.2/Mattermost-unsigned.ipa
+      - url: https://api.github.com/repos/mattermost/mattermost-mobile/releases/assets/481846978
+        id: 481846978
+        node_id: RA_kwDOBDArfM4cuGbC
+        name: sbom-mattermost-mobile-v2.42.2.json
         label: ""
         uploader:
           login: enahum
@@ -320,13 +320,13 @@ github:
         content_type: application/json
         state: uploaded
         size: 6858034
-        digest: sha256:43df679b63e9f8196d9121bdeb91132f541d617416a6b1900b55c39612a85521
-        download_count: 6
-        created_at: 2026-07-17T08:30:00Z
-        updated_at: 2026-07-17T08:30:01Z
-        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.1/sbom-mattermost-mobile-v2.42.1.json
-    tarball_url: https://api.github.com/repos/mattermost/mattermost-mobile/tarball/v2.42.1
-    zipball_url: https://api.github.com/repos/mattermost/mattermost-mobile/zipball/v2.42.1
+        digest: sha256:a87cbf39f6552c36790c1007faa9cc4bc6b128d6a0dd56e74f55990c47e52449
+        download_count: 1
+        created_at: 2026-07-18T22:25:59Z
+        updated_at: 2026-07-18T22:26:00Z
+        browser_download_url: https://github.com/mattermost/mattermost-mobile/releases/download/v2.42.2/sbom-mattermost-mobile-v2.42.2.json
+    tarball_url: https://api.github.com/repos/mattermost/mattermost-mobile/tarball/v2.42.2
+    zipball_url: https://api.github.com/repos/mattermost/mattermost-mobile/zipball/v2.42.2
     body: "This version is compatible with Mattermost servers v10.11.0+.\r
 
       \r
@@ -343,23 +343,23 @@ github:
       * Android\r
 
       \    * [Mattermost
-      arm64-v8a](https://releases.mattermost.com/mattermost-mobile/2.42.1/784/Mattermost-arm64-v8a.\
+      arm64-v8a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-arm64-v8a.\
       apk)\r
 
       \    * [Mattermost
-      armeabi-v7a](https://releases.mattermost.com/mattermost-mobile/2.42.1/784/Mattermost-armeabi-\
+      armeabi-v7a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-armeabi-\
       v7a.apk)\r
 
       \    * [Mattermost
-      x86](https://releases.mattermost.com/mattermost-mobile/2.42.1/784/Mattermost-x86.apk)\r
+      x86](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86.apk)\r
 
       \    * [Mattermost
-      x86_64](https://releases.mattermost.com/mattermost-mobile/2.42.1/784/Mattermost-x86_64.apk)\r
+      x86_64](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86_64.apk)\r
 
       * iOS\r
 
       \    *
-      [Mattermost](https://releases.mattermost.com/mattermost-mobile/2.42.1/784/Mattermost.ipa)"
+      [Mattermost](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost.ipa)"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -367,16 +367,16 @@ github:
       - month: 2026-03
         commits: 0
       - month: 2026-04
-        commits: 12
+        commits: 11
       - month: 2026-05
         commits: 30
       - month: 2026-06
         commits: 39
       - month: 2026-07
-        commits: 19
-    totalCommitsKnown: 3476
+        commits: 20
+    totalCommitsKnown: 3477
     contributorsKnown: 219
-    openPullRequests: 85
+    openPullRequests: 87
   files:
     readme: true
     contributing: true
@@ -386,7 +386,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-07-19T09:07:20.913Z
+    syncedAt: 2026-07-20T10:15:27.228Z
     apiVersion: rest-v3
     source: github-actions
 health:

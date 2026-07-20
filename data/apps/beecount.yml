@@ -92,16 +92,16 @@ github:
     releases_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases{/id}
     deployments_url: https://api.github.com/repos/TNT-Likely/BeeCount/deployments
     created_at: 2025-09-06T02:15:06Z
-    updated_at: 2026-07-18T19:19:20Z
-    pushed_at: 2026-07-19T02:44:24Z
+    updated_at: 2026-07-20T07:12:14Z
+    pushed_at: 2026-07-20T02:07:35Z
     git_url: git://github.com/TNT-Likely/BeeCount.git
     ssh_url: git@github.com:TNT-Likely/BeeCount.git
     clone_url: https://github.com/TNT-Likely/BeeCount.git
     svn_url: https://github.com/TNT-Likely/BeeCount
     homepage: https://count.beejz.com
     size: 122691
-    stargazers_count: 1948
-    watchers_count: 1948
+    stargazers_count: 1952
+    watchers_count: 1952
     language: Dart
     has_issues: true
     has_projects: true
@@ -113,7 +113,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 78
+    open_issues_count: 77
     license:
       key: other
       name: Other
@@ -145,8 +145,8 @@ github:
       - webdav
     visibility: public
     forks: 269
-    open_issues: 78
-    watchers: 1948
+    open_issues: 77
+    watchers: 1952
     default_branch: main
     permissions:
       admin: false
@@ -175,7 +175,7 @@ github:
     openPullRequests: 12
     contributorsKnown: 11
   sync:
-    syncedAt: 2026-07-19T09:07:04.451Z
+    syncedAt: 2026-07-20T10:15:04.373Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -187,11 +187,11 @@ github:
     Ruby: 3597
     Objective-C: 38
   latestRelease:
-    url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/352703702
-    assets_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/352703702/assets
-    upload_url: https://uploads.github.com/repos/TNT-Likely/BeeCount/releases/352703702/assets{?name,label}
-    html_url: https://github.com/TNT-Likely/BeeCount/releases/tag/3.6.0
-    id: 352703702
+    url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/356488639
+    assets_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/356488639/assets
+    upload_url: https://uploads.github.com/repos/TNT-Likely/BeeCount/releases/356488639/assets{?name,label}
+    html_url: https://github.com/TNT-Likely/BeeCount/releases/tag/3.6.1
+    id: 356488639
     author:
       login: github-actions[bot]
       id: 41898282
@@ -212,21 +212,21 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOPqu0e84VBdTW
-    tag_name: 3.6.0
+    node_id: RE_kwDOPqu0e84VP5W_
+    tag_name: 3.6.1
     target_commitish: main
-    name: 3.6.0
+    name: 3.6.1
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-12T07:54:43Z
-    updated_at: 2026-07-12T08:14:55Z
-    published_at: 2026-07-12T08:14:55Z
+    created_at: 2026-07-18T10:12:29Z
+    updated_at: 2026-07-20T03:25:14Z
+    published_at: 2026-07-20T03:25:14Z
     assets:
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222949
-        id: 474222949
-        node_id: RA_kwDOPqu0e84cRBFl
-        name: beecount-3.6.0-armeabi-v7a.apk
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000474
+        id: 483000474
+        node_id: RA_kwDOPqu0e84cygCa
+        name: beecount-3.6.1-armeabi-v7a.apk
         label: ""
         uploader:
           login: github-actions[bot]
@@ -250,16 +250,16 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 19315736
-        digest: sha256:a17a575bc684a2fae63d40a294f2550e01030501a9f31035e4287ebca57ff645
-        download_count: 178
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-armeabi-v7a.apk
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222942
-        id: 474222942
-        node_id: RA_kwDOPqu0e84cRBFe
-        name: beecount-3.6.0-iphoneos.app.zip
+        size: 19337864
+        digest: sha256:ea0c2086a8bf8d4c03883109b681c0a6aa9b2150d87f956cea0281201d3b861c
+        download_count: 12
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:14Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-armeabi-v7a.apk
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000477
+        id: 483000477
+        node_id: RA_kwDOPqu0e84cygCd
+        name: beecount-3.6.1-iphoneos.app.zip
         label: ""
         uploader:
           login: github-actions[bot]
@@ -283,16 +283,16 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 18432846
-        digest: sha256:8f960fab8bd10a55f1a5c17579074fb6d025cf4525ca8c75164b1b2e08973506
-        download_count: 18
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-iphoneos.app.zip
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222948
-        id: 474222948
-        node_id: RA_kwDOPqu0e84cRBFk
-        name: beecount-3.6.0-iphonesimulator.app.zip
+        size: 18455440
+        digest: sha256:bc6449623dcec05bafa9a0a643d431cdbefdc7422f5753cb2933ff24ce92e17f
+        download_count: 0
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:12Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-iphoneos.app.zip
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000475
+        id: 483000475
+        node_id: RA_kwDOPqu0e84cygCb
+        name: beecount-3.6.1-iphonesimulator.app.zip
         label: ""
         uploader:
           login: github-actions[bot]
@@ -316,16 +316,16 @@ github:
           site_admin: false
         content_type: application/zip
         state: uploaded
-        size: 75347235
-        digest: sha256:e1f49d04b61d072c657b636291992e87d303f423898d49d11e72aa7ca5730e07
-        download_count: 17
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:55Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-iphonesimulator.app.zip
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222941
-        id: 474222941
-        node_id: RA_kwDOPqu0e84cRBFd
-        name: beecount-3.6.0-signed.ipa
+        size: 75381032
+        digest: sha256:557a9df1f06fefeaf9c7b9279707445e60b110c274baba9290bdc95796c88170
+        download_count: 0
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:14Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-iphonesimulator.app.zip
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000471
+        id: 483000471
+        node_id: RA_kwDOPqu0e84cygCX
+        name: beecount-3.6.1-signed.ipa
         label: ""
         uploader:
           login: github-actions[bot]
@@ -349,16 +349,16 @@ github:
           site_admin: false
         content_type: application/octet-stream
         state: uploaded
-        size: 37180586
-        digest: sha256:50c4897de4df2eaa019fe1c8b8bf2106e12bdec8137bd6ad569dc07140f25a10
-        download_count: 14
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-signed.ipa
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222950
-        id: 474222950
-        node_id: RA_kwDOPqu0e84cRBFm
-        name: beecount-3.6.0-universal.apk
+        size: 37211750
+        digest: sha256:7fee3e2e3b07efb6e3621a9b1d03483c3a4ed5357c740d610070499a7243176b
+        download_count: 0
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:13Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-signed.ipa
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000473
+        id: 483000473
+        node_id: RA_kwDOPqu0e84cygCZ
+        name: beecount-3.6.1-universal.apk
         label: ""
         uploader:
           login: github-actions[bot]
@@ -382,16 +382,16 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 45302145
-        digest: sha256:3c1ab3e7d02a749b28778cd70cebaefbeb272a5b1fe62c11910afbb16070e699
-        download_count: 152
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:54Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-universal.apk
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222944
-        id: 474222944
-        node_id: RA_kwDOPqu0e84cRBFg
-        name: beecount-3.6.0-unsigned.ipa
+        size: 45367729
+        digest: sha256:c6013663463af3b2c67dd279132a80683304ecc1e693c2d6ea2076732d9aff0b
+        download_count: 20
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:13Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-universal.apk
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000470
+        id: 483000470
+        node_id: RA_kwDOPqu0e84cygCW
+        name: beecount-3.6.1-unsigned.ipa
         label: ""
         uploader:
           login: github-actions[bot]
@@ -415,16 +415,16 @@ github:
           site_admin: false
         content_type: application/octet-stream
         state: uploaded
-        size: 18484876
-        digest: sha256:d4345360e7ae78c03bfb62bcea0e59c01309b320bf91c68a1dc449d2960c1d3a
-        download_count: 16
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-unsigned.ipa
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222945
-        id: 474222945
-        node_id: RA_kwDOPqu0e84cRBFh
-        name: beecount-3.6.0-x86_64.apk
+        size: 18513357
+        digest: sha256:daf46968ea4b141760d01cdbdbfcaad6f335d749b31778f190872ed3e2055aa4
+        download_count: 0
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:12Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-unsigned.ipa
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000472
+        id: 483000472
+        node_id: RA_kwDOPqu0e84cygCY
+        name: beecount-3.6.1-x86_64.apk
         label: ""
         uploader:
           login: github-actions[bot]
@@ -448,16 +448,16 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 19219824
-        digest: sha256:3b2180a1dc2d7b4d55a531f1d965f078a7604dfbe970a4da26589d2b91c187b8
-        download_count: 35
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0-x86_64.apk
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222947
-        id: 474222947
-        node_id: RA_kwDOPqu0e84cRBFj
-        name: beecount-3.6.0.aab
+        size: 19246540
+        digest: sha256:1de04acdcc65e18b7c616ea7bcba3201238624b67d69f5bb2c77da64f3bf143e
+        download_count: 2
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:12Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1-x86_64.apk
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000478
+        id: 483000478
+        node_id: RA_kwDOPqu0e84cygCe
+        name: beecount-3.6.1.aab
         label: ""
         uploader:
           login: github-actions[bot]
@@ -481,16 +481,16 @@ github:
           site_admin: false
         content_type: application/x-authorware-bin
         state: uploaded
-        size: 47149075
-        digest: sha256:bd3f69a643e9bc2185785e7292dfe6297d21079eb8f3acec54aae4aad128c2f2
-        download_count: 5
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:54Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0.aab
-      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/474222943
-        id: 474222943
-        node_id: RA_kwDOPqu0e84cRBFf
-        name: beecount-3.6.0.apk
+        size: 47237765
+        digest: sha256:7537932ccf232df379059c856c28882daf4a0bf11c2b034a50c40a82ce78dc88
+        download_count: 0
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:13Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1.aab
+      - url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/assets/483000476
+        id: 483000476
+        node_id: RA_kwDOPqu0e84cygCc
+        name: beecount-3.6.1.apk
         label: ""
         uploader:
           login: github-actions[bot]
@@ -514,36 +514,21 @@ github:
           site_admin: false
         content_type: application/vnd.android.package-archive
         state: uploaded
-        size: 19054475
-        digest: sha256:4ba0e12e34ef5b06a832e478ce11e559a6397aa972c1401570fcb4839b33f596
-        download_count: 379
-        created_at: 2026-07-12T08:14:51Z
-        updated_at: 2026-07-12T08:14:53Z
-        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.0/beecount-3.6.0.apk
-    tarball_url: https://api.github.com/repos/TNT-Likely/BeeCount/tarball/3.6.0
-    zipball_url: https://api.github.com/repos/TNT-Likely/BeeCount/zipball/3.6.0
+        size: 19071375
+        digest: sha256:ee469e5de7b7fd760de3c0398ddef4d4e0e33e82638d7dea69cb8900c08b579e
+        download_count: 38
+        created_at: 2026-07-20T03:25:11Z
+        updated_at: 2026-07-20T03:25:12Z
+        browser_download_url: https://github.com/TNT-Likely/BeeCount/releases/download/3.6.1/beecount-3.6.1.apk
+    tarball_url: https://api.github.com/repos/TNT-Likely/BeeCount/tarball/3.6.1
+    zipball_url: https://api.github.com/repos/TNT-Likely/BeeCount/zipball/3.6.1
     body: |+
       
       ## 变更记录
-      - feat: 账本支持多币种(v30)——交易记原币+折本位币快照,统计自动折算 (#397) ([34ff551](https://github.com/TNT-Likely/BeeCount/commit/34ff551e03bb3227106601b6f598f8608ca1bd16)) [@TNT-Likely](https://github.com/TNT-Likely)
-      - style: 关于页/配置页 list 分割线统一缩进避开 icon (#396) ([d9cc974](https://github.com/TNT-Likely/BeeCount/commit/d9cc97441b7e04c28a8915093dab24b050d81913)) [@TNT-Likely](https://github.com/TNT-Likely)
-      - feat: 关于页重设计、6 款皮肤、云同步状态修复、明细/设置暗黑视觉优化 (#395) ([dfbe279](https://github.com/TNT-Likely/BeeCount/commit/dfbe2798aa37bf3d3dc07a7f0ca447572a920150)) [@TNT-Likely](https://github.com/TNT-Likely)
-      - docs: 修正语言支持描述为「官方三语+社区韩语」,移除虚列的未实现语言 ([f4c2b15](https://github.com/TNT-Likely/BeeCount/commit/f4c2b15aa4fc6d23b350fe78ae3729b3f5728e18)) [@TNT-Likely](https://github.com/TNT-Likely)
-      - feat(i18n): add Korean (ko) translation (#388) ([c8b0879](https://github.com/TNT-Likely/BeeCount/commit/c8b0879ccb5a37eb7f5ba080b812fdbca515de56)) [@moduvoice](https://github.com/moduvoice)
-      - style(搜索): 移除 #383 残留的多余 import(database_providers 已由 providers.dart 提供) ([ea038fb](https://github.com/TNT-Likely/BeeCount/commit/ea038fb7fd67505daad4d5ff4a1b62afc1e25d8b)) [@TNT-Likely](https://github.com/TNT-Likely)
-      - feat(搜索): 搜索结果页新增收支汇总展示 (#383) ([241c58b](https://github.com/TNT-Likely/BeeCount/commit/241c58b8488d77ff6285cdd28f4c79519a34f674)) [@pan071](https://github.com/pan071)
+      - feat: 账户隐藏功能(账户不再使用可隐藏,避免删除丢历史) (#404) ([5415ae5](https://github.com/TNT-Likely/BeeCount/commit/5415ae5a4ba919d45bb62d4d2579e837b3e03413)) [@TNT-Likely](https://github.com/TNT-Likely)
+      - feat(历史备注): 备注历史建议支持范围/排序/数量个性化 ([c679fb1](https://github.com/TNT-Likely/BeeCount/commit/c679fb175dc9fd377fcf7195e5e341691b02b562)) [@pan071](https://github.com/pan071)
+      - feat(搜索): 支持分类筛选交易记录 (#399) ([db12ae1](https://github.com/TNT-Likely/BeeCount/commit/db12ae16eb9a2df79e1c06799972e7bcb3acd375)) [@pan071](https://github.com/pan071)
 
-    reactions:
-      url: https://api.github.com/repos/TNT-Likely/BeeCount/releases/352703702/reactions
-      total_count: 2
-      "+1": 2
-      "-1": 0
-      laugh: 0
-      hooray: 0
-      confused: 0
-      heart: 0
-      rocket: 0
-      eyes: 0
   files:
     readme: true
     contributing: false

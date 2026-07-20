@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/git-up/GitUp/releases{/id}
     deployments_url: https://api.github.com/repos/git-up/GitUp/deployments
     created_at: 2015-08-13T04:11:10Z
-    updated_at: 2026-07-19T07:31:09Z
+    updated_at: 2026-07-20T07:36:14Z
     pushed_at: 2026-07-18T02:06:09Z
     git_url: git://github.com/git-up/GitUp.git
     ssh_url: git@github.com:git-up/GitUp.git
@@ -98,8 +98,8 @@ github:
     svn_url: https://github.com/git-up/GitUp
     homepage: http://gitup.co
     size: 68003
-    stargazers_count: 12052
-    watchers_count: 12052
+    stargazers_count: 12058
+    watchers_count: 12058
     language: Objective-C
     has_issues: true
     has_projects: false
@@ -107,7 +107,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 1476
+    forks_count: 1477
     mirror_url: null
     archived: false
     disabled: false
@@ -125,9 +125,9 @@ github:
     pull_request_creation_policy: all
     topics: []
     visibility: public
-    forks: 1476
+    forks: 1477
     open_issues: 369
-    watchers: 12052
+    watchers: 12058
     default_branch: master
     permissions:
       admin: false
@@ -157,7 +157,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1476
+    network_count: 1477
     subscribers_count: 187
   activity:
     monthlyCommits:
@@ -177,7 +177,7 @@ github:
     openPullRequests: 2
     contributorsKnown: 62
   sync:
-    syncedAt: 2026-07-19T09:07:14.716Z
+    syncedAt: 2026-07-20T10:15:18.997Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -250,7 +250,7 @@ github:
         state: uploaded
         size: 4789559
         digest: sha256:5e1d915ed533334e1691f9c01eb3cb9d2e5f459fb7aa2631b71120ff59ad585b
-        download_count: 3384
+        download_count: 3981
         created_at: 2026-07-15T01:06:05Z
         updated_at: 2026-07-15T01:06:08Z
         browser_download_url: https://github.com/git-up/GitUp/releases/download/v1.5.0/GitUp.zip

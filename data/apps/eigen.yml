@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-07-18T15:08:49Z
-    pushed_at: 2026-07-19T06:06:01Z
+    updated_at: 2026-07-20T09:38:40Z
+    pushed_at: 2026-07-20T09:47:07Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
     svn_url: https://github.com/artsy/eigen
     homepage: ""
-    size: 650191
+    size: 649167
     stargazers_count: 3775
     watchers_count: 3775
     language: TypeScript
@@ -112,7 +112,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 21
+    open_issues_count: 20
     license:
       key: mit
       name: MIT License
@@ -135,7 +135,7 @@ github:
       - swift
     visibility: public
     forks: 591
-    open_issues: 21
+    open_issues: 20
     watchers: 3775
     default_branch: main
     permissions:
@@ -179,14 +179,14 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 45
+        commits: 43
       - month: 2026-07
-        commits: 55
-    totalCommitsKnown: 28025
-    openPullRequests: 19
+        commits: 57
+    totalCommitsKnown: 28027
+    openPullRequests: 18
     contributorsKnown: 164
   sync:
-    syncedAt: 2026-07-19T09:07:09.373Z
+    syncedAt: 2026-07-20T10:15:10.933Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -237,17 +237,17 @@ github:
     immutable: false
     prerelease: false
     created_at: 2026-07-16T12:04:28Z
-    updated_at: 2026-07-16T12:05:02Z
+    updated_at: 2026-07-20T09:39:40Z
     published_at: 2026-07-16T12:05:02Z
     assets: []
     tarball_url: https://api.github.com/repos/artsy/eigen/tarball/ios-9.13.0-2026.07.16.09-submission
     zipball_url: https://api.github.com/repos/artsy/eigen/zipball/ios-9.13.0-2026.07.16.09-submission
-    body: |-
+    body: |
       Check the health of this release in Sentry:
 
       :apple: [iOS Release details](https://artsynet.sentry.io/explore/releases/ios-9.13.0-2026.07.16.09/?environment=production&project=5867225) | :robot: [Android Release details](https://artsynet.sentry.io/explore/releases/android-9.13.0-2026071609/?environment=production&project=5867225)
 
-      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=iOS&primaryRelease=ios-9.13.0-2026.07.16.09&project=5867225) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/insights/mobile/mobile-vitals/?environment=production&platform=Android&primaryRelease=android-9.13.0-2026071609&project=5867225)
+      :apple: [Mobile Vitals iOS](https://artsynet.sentry.io/dashboard/622403/?environment=production&project=5867225&statsPeriod=30d&os.name=iOS&release=ios-9.13.0-2026.07.16.09) | :robot: [Mobile Vitals Android](https://artsynet.sentry.io/dashboard/622403/?environment=production&project=5867225&statsPeriod=30d&os.name=Android&release=android-9.13.0-2026071609)
       ## What's Changed
       * chore(changelog): consume shared @artsy/changelog package by @MounirDhahri in https://github.com/artsy/eigen/pull/13700
       * feat(DI-354): Build the post-Follow Artists bottom sheet for Experienced Onboarding by @JanaeHijaz in https://github.com/artsy/eigen/pull/13690
