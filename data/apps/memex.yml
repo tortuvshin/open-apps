@@ -94,16 +94,16 @@ github:
     releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
     deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
     created_at: 2026-03-11T14:04:59Z
-    updated_at: 2026-07-20T07:34:46Z
-    pushed_at: 2026-07-19T19:40:00Z
+    updated_at: 2026-07-21T01:43:06Z
+    pushed_at: 2026-07-20T19:52:56Z
     git_url: git://github.com/memex-lab/memex.git
     ssh_url: git@github.com:memex-lab/memex.git
     clone_url: https://github.com/memex-lab/memex.git
     svn_url: https://github.com/memex-lab/memex
     homepage: https://memexlab.ai
-    size: 58888
-    stargazers_count: 618
-    watchers_count: 618
+    size: 58892
+    stargazers_count: 621
+    watchers_count: 621
     language: Dart
     has_issues: true
     has_projects: true
@@ -111,11 +111,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 62
+    forks_count: 63
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 18
+    open_issues_count: 20
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -146,9 +146,9 @@ github:
       - privacy
       - skills
     visibility: public
-    forks: 62
-    open_issues: 18
-    watchers: 618
+    forks: 63
+    open_issues: 20
+    watchers: 621
     default_branch: main
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 62
+    network_count: 63
     subscribers_count: 4
   activity:
     monthlyCommits:
@@ -195,10 +195,10 @@ github:
       - month: 2026-07
         commits: 16
     totalCommitsKnown: 740
-    openPullRequests: 7
+    openPullRequests: 8
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-20T10:15:27.612Z
+    syncedAt: 2026-07-21T09:30:38.955Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -276,7 +276,7 @@ github:
         state: uploaded
         size: 260954951
         digest: sha256:9395aaae07809b804771519ad93ae375cd7a63b82f1a3ab5d44eeb0bd6e19ba5
-        download_count: 74
+        download_count: 77
         created_at: 2026-07-11T04:07:42Z
         updated_at: 2026-07-11T04:08:27Z
         browser_download_url: https://github.com/memex-lab/memex/releases/download/v1.0.37/app-global-release.apk
