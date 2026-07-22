@@ -103,7 +103,7 @@ github:
     language: Dart
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
@@ -160,7 +160,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-20T10:15:45.216Z
+    syncedAt: 2026-07-22T09:29:42.446Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -239,7 +239,7 @@ github:
         state: uploaded
         size: 36773436
         digest: null
-        download_count: 938
+        download_count: 945
         created_at: 2022-10-26T11:19:07Z
         updated_at: 2022-10-26T11:19:10Z
         browser_download_url: https://github.com/friebetill/TubeCards/releases/download/2.1.0/space_2.1.0.msix

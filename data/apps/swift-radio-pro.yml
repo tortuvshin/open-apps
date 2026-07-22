@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases{/id}
     deployments_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/deployments
     created_at: 2015-09-04T19:39:44Z
-    updated_at: 2026-07-10T21:02:59Z
+    updated_at: 2026-07-21T13:39:23Z
     pushed_at: 2026-07-05T16:45:42Z
     git_url: git://github.com/analogcode/Swift-Radio-Pro.git
     ssh_url: git@github.com:analogcode/Swift-Radio-Pro.git
@@ -98,12 +98,12 @@ github:
     svn_url: https://github.com/analogcode/Swift-Radio-Pro
     homepage: ""
     size: 20816
-    stargazers_count: 2933
-    watchers_count: 2933
+    stargazers_count: 2934
+    watchers_count: 2934
     language: Swift
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
@@ -142,7 +142,7 @@ github:
     visibility: public
     forks: 713
     open_issues: 11
-    watchers: 2933
+    watchers: 2934
     default_branch: master
     permissions:
       admin: false
@@ -171,7 +171,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 25
   sync:
-    syncedAt: 2026-07-20T10:15:40.301Z
+    syncedAt: 2026-07-22T09:29:37.516Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -242,7 +242,7 @@ github:
         state: uploaded
         size: 6178833
         digest: sha256:5a8d1d8387f16e125f28c5e6d68470e59fa003d2cdc5cc1bdbf2f10092c624b3
-        download_count: 8
+        download_count: 11
         created_at: 2026-07-04T20:18:32Z
         updated_at: 2026-07-04T20:18:33Z
         browser_download_url: https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa

@@ -91,7 +91,7 @@ github:
     releases_url: https://api.github.com/repos/pichillilorenzo/flutter_browser_app/releases{/id}
     deployments_url: https://api.github.com/repos/pichillilorenzo/flutter_browser_app/deployments
     created_at: 2020-06-08T00:34:13Z
-    updated_at: 2026-07-13T04:59:14Z
+    updated_at: 2026-07-20T18:31:34Z
     pushed_at: 2024-10-25T21:48:33Z
     git_url: git://github.com/pichillilorenzo/flutter_browser_app.git
     ssh_url: git@github.com:pichillilorenzo/flutter_browser_app.git
@@ -99,12 +99,12 @@ github:
     svn_url: https://github.com/pichillilorenzo/flutter_browser_app
     homepage: https://play.google.com/store/apps/details?id=com.pichillilorenzo.flutter_browser
     size: 22845
-    stargazers_count: 589
-    watchers_count: 589
+    stargazers_count: 590
+    watchers_count: 590
     language: Dart
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
@@ -144,7 +144,7 @@ github:
     visibility: public
     forks: 205
     open_issues: 19
-    watchers: 589
+    watchers: 590
     default_branch: master
     permissions:
       admin: false
@@ -173,7 +173,7 @@ github:
     openPullRequests: 5
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-07-20T10:15:14.215Z
+    syncedAt: 2026-07-22T09:29:11.510Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -251,7 +251,7 @@ github:
         state: uploaded
         size: 13475126
         digest: null
-        download_count: 703
+        download_count: 705
         created_at: 2024-10-08T22:50:19Z
         updated_at: 2024-10-08T22:50:20Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/app-arm64-v8a-release.apk
@@ -284,7 +284,7 @@ github:
         state: uploaded
         size: 13096673
         digest: null
-        download_count: 207
+        download_count: 208
         created_at: 2024-10-08T22:50:19Z
         updated_at: 2024-10-08T22:50:26Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/app-armeabi-v7a-release.apk
@@ -449,7 +449,7 @@ github:
         state: uploaded
         size: 17290017
         digest: null
-        download_count: 422
+        download_count: 424
         created_at: 2024-10-08T22:45:42Z
         updated_at: 2024-10-08T22:45:43Z
         browser_download_url: https://github.com/pichillilorenzo/flutter_browser_app/releases/download/v3.1.0%2B9/flutter_browser-3.1.0%2B9-windows.zip

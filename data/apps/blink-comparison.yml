@@ -103,7 +103,7 @@ github:
     language: Dart
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: false
@@ -165,7 +165,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-20T10:15:05.291Z
+    syncedAt: 2026-07-22T09:29:02.072Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -371,7 +371,7 @@ github:
         state: uploaded
         size: 51
         digest: null
-        download_count: 643
+        download_count: 645
         created_at: 2024-10-22T18:45:15Z
         updated_at: 2024-10-22T18:45:15Z
         browser_download_url: https://github.com/proninyaroslav/blink-comparison/releases/download/1.2.1/version.txt

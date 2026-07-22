@@ -103,7 +103,7 @@ github:
     language: Dart
     has_issues: true
     has_projects: false
-    has_downloads: true
+    has_downloads: false
     has_wiki: false
     has_pages: false
     has_discussions: false
@@ -167,7 +167,7 @@ github:
     openPullRequests: 2
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-20T10:15:46.146Z
+    syncedAt: 2026-07-22T09:29:43.234Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -248,7 +248,7 @@ github:
         state: uploaded
         size: 64252412
         digest: sha256:1a079d3fa87c10a2d273500638c0e280fbb8242c57ef2fbe97a0279c298807fa
-        download_count: 98
+        download_count: 99
         created_at: 2025-11-25T17:41:38Z
         updated_at: 2025-11-25T17:41:42Z
         browser_download_url: https://github.com/deandreamatias/tv-randshow/releases/download/2.5.0/app-prod-release.apk

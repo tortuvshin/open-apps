@@ -104,11 +104,11 @@ github:
     language: Dart
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 244
+    forks_count: 243
     mirror_url: null
     archived: false
     disabled: false
@@ -140,7 +140,7 @@ github:
       - woosignal
       - wordpress
     visibility: public
-    forks: 244
+    forks: 243
     open_issues: 0
     watchers: 711
     default_branch: 8.x
@@ -172,7 +172,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 244
+    network_count: 243
     subscribers_count: 27
   activity:
     monthlyCommits:
@@ -192,7 +192,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-07-20T10:15:16.435Z
+    syncedAt: 2026-07-22T09:29:13.572Z
     apiVersion: rest-v3
     source: github-actions
   languages:

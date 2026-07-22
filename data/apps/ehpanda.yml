@@ -94,28 +94,28 @@ github:
     releases_url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases{/id}
     deployments_url: https://api.github.com/repos/EhPanda-Team/EhPanda/deployments
     created_at: 2020-10-28T14:32:59Z
-    updated_at: 2026-07-19T20:12:17Z
-    pushed_at: 2026-07-20T08:47:35Z
+    updated_at: 2026-07-21T23:57:23Z
+    pushed_at: 2026-07-22T08:49:20Z
     git_url: git://github.com/EhPanda-Team/EhPanda.git
     ssh_url: git@github.com:EhPanda-Team/EhPanda.git
     clone_url: https://github.com/EhPanda-Team/EhPanda.git
     svn_url: https://github.com/EhPanda-Team/EhPanda
     homepage: https://ehpanda.app
-    size: 77480
-    stargazers_count: 3905
-    watchers_count: 3905
+    size: 78381
+    stargazers_count: 3907
+    watchers_count: 3907
     language: Swift
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 255
+    forks_count: 254
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 30
+    open_issues_count: 29
     license:
       key: mit
       name: MIT License
@@ -136,9 +136,9 @@ github:
       - swift-composable-architecture
       - swiftui
     visibility: public
-    forks: 255
-    open_issues: 30
-    watchers: 3905
+    forks: 254
+    open_issues: 29
+    watchers: 3907
     default_branch: main
     permissions:
       admin: false
@@ -168,7 +168,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 255
+    network_count: 254
     subscribers_count: 32
   activity:
     monthlyCommits:
@@ -183,95 +183,95 @@ github:
       - month: 2026-06
         commits: 1
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 1447
-    openPullRequests: 1
+        commits: 6
+    totalCommitsKnown: 1453
+    openPullRequests: 0
     contributorsKnown: 22
   sync:
-    syncedAt: 2026-07-20T10:15:10.773Z
+    syncedAt: 2026-07-22T09:29:08.213Z
     apiVersion: rest-v3
     source: github-actions
   languages:
     Swift: 1188120
   latestRelease:
-    url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/356616566
-    assets_url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/356616566/assets
-    upload_url: https://uploads.github.com/repos/EhPanda-Team/EhPanda/releases/356616566/assets{?name,label}
-    html_url: https://github.com/EhPanda-Team/EhPanda/releases/tag/v2.8.0
-    id: 356616566
+    url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/356699506
+    assets_url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/356699506/assets
+    upload_url: https://uploads.github.com/repos/EhPanda-Team/EhPanda/releases/356699506/assets{?name,label}
+    html_url: https://github.com/EhPanda-Team/EhPanda/releases/tag/v2.8.1
+    id: 356699506
     author:
-      login: chihchy
-      id: 114827206
-      node_id: U_kgDOBtgfxg
-      avatar_url: https://avatars.githubusercontent.com/u/114827206?v=4
+      login: github-actions[bot]
+      id: 41898282
+      node_id: MDM6Qm90NDE4OTgyODI=
+      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
       gravatar_id: ""
-      url: https://api.github.com/users/chihchy
-      html_url: https://github.com/chihchy
-      followers_url: https://api.github.com/users/chihchy/followers
-      following_url: https://api.github.com/users/chihchy/following{/other_user}
-      gists_url: https://api.github.com/users/chihchy/gists{/gist_id}
-      starred_url: https://api.github.com/users/chihchy/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/chihchy/subscriptions
-      organizations_url: https://api.github.com/users/chihchy/orgs
-      repos_url: https://api.github.com/users/chihchy/repos
-      events_url: https://api.github.com/users/chihchy/events{/privacy}
-      received_events_url: https://api.github.com/users/chihchy/received_events
-      type: User
+      url: https://api.github.com/users/github-actions%5Bbot%5D
+      html_url: https://github.com/apps/github-actions
+      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+      type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOElxfc84VQYl2
-    tag_name: v2.8.0
+    node_id: RE_kwDOElxfc84VQs1y
+    tag_name: v2.8.1
     target_commitish: main
-    name: Liquid Glass & Bugfixes
+    name: Bugfixes & Liquid Glass adaptation
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2025-08-09T09:44:37Z
-    updated_at: 2026-07-20T09:37:42Z
-    published_at: 2026-07-20T09:33:47Z
+    created_at: 2026-07-20T11:58:17Z
+    updated_at: 2026-07-20T12:12:04Z
+    published_at: 2026-07-20T12:12:04Z
     assets:
-      - url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/assets/483297018
-        id: 483297018
-        node_id: RA_kwDOElxfc84czob6
+      - url: https://api.github.com/repos/EhPanda-Team/EhPanda/releases/assets/483426324
+        id: 483426324
+        node_id: RA_kwDOElxfc84c0IAU
         name: EhPanda.ipa
-        label: null
+        label: ""
         uploader:
-          login: chihchy
-          id: 114827206
-          node_id: U_kgDOBtgfxg
-          avatar_url: https://avatars.githubusercontent.com/u/114827206?v=4
+          login: github-actions[bot]
+          id: 41898282
+          node_id: MDM6Qm90NDE4OTgyODI=
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           gravatar_id: ""
-          url: https://api.github.com/users/chihchy
-          html_url: https://github.com/chihchy
-          followers_url: https://api.github.com/users/chihchy/followers
-          following_url: https://api.github.com/users/chihchy/following{/other_user}
-          gists_url: https://api.github.com/users/chihchy/gists{/gist_id}
-          starred_url: https://api.github.com/users/chihchy/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/chihchy/subscriptions
-          organizations_url: https://api.github.com/users/chihchy/orgs
-          repos_url: https://api.github.com/users/chihchy/repos
-          events_url: https://api.github.com/users/chihchy/events{/privacy}
-          received_events_url: https://api.github.com/users/chihchy/received_events
-          type: User
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+          html_url: https://github.com/apps/github-actions
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          type: Bot
           user_view_type: public
           site_admin: false
         content_type: application/octet-stream
         state: uploaded
-        size: 7222769
-        digest: sha256:8e23f060c43ecc349f679a2de3600a6764594cc7b62dc58c582453f1a58f6f4a
-        download_count: 7
-        created_at: 2026-07-20T09:33:24Z
-        updated_at: 2026-07-20T09:33:27Z
-        browser_download_url: https://github.com/EhPanda-Team/EhPanda/releases/download/v2.8.0/EhPanda.ipa
-    tarball_url: https://api.github.com/repos/EhPanda-Team/EhPanda/tarball/v2.8.0
-    zipball_url: https://api.github.com/repos/EhPanda-Team/EhPanda/zipball/v2.8.0
+        size: 7352364
+        digest: sha256:2f389e36270414a8d9f3537e330f5c2bbff80887109c56ff9b4ba68ed377d62b
+        download_count: 168
+        created_at: 2026-07-20T12:12:03Z
+        updated_at: 2026-07-20T12:12:03Z
+        browser_download_url: https://github.com/EhPanda-Team/EhPanda/releases/download/v2.8.1/EhPanda.ipa
+    tarball_url: https://api.github.com/repos/EhPanda-Team/EhPanda/tarball/v2.8.1
+    zipball_url: https://api.github.com/repos/EhPanda-Team/EhPanda/zipball/v2.8.1
     body: "1. feat: Adapt to the new Liquid Glass design.\r
 
-      2. fix: Gesture issue in the reading page.\r
+      3. fix: Gesture issue in the reading page.\r
 
-      3. fix: Crash issue in eh setting page.\r
+      4. fix: Crash issue in eh setting page.\r
 
-      4. fix: A minor issue in search page."
+      5. fix: A minor issue in search page."
   files:
     readme: true
     contributing: false

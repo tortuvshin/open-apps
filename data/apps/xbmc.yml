@@ -94,28 +94,28 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-07-20T06:22:12Z
-    pushed_at: 2026-07-20T01:23:08Z
+    updated_at: 2026-07-22T07:51:52Z
+    pushed_at: 2026-07-21T10:36:41Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
-    size: 1650166
-    stargazers_count: 20984
-    watchers_count: 20984
+    size: 1650209
+    stargazers_count: 20987
+    watchers_count: 20987
     language: C++
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6565
+    forks_count: 6567
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 458
+    open_issues_count: 462
     license:
       key: other
       name: Other
@@ -146,9 +146,9 @@ github:
       - xbmc
       - xml
     visibility: public
-    forks: 6565
-    open_issues: 458
-    watchers: 20984
+    forks: 6567
+    open_issues: 462
+    watchers: 20987
     default_branch: master
     permissions:
       admin: false
@@ -178,7 +178,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 6565
+    network_count: 6567
     subscribers_count: 786
   activity:
     monthlyCommits:
@@ -194,15 +194,15 @@ github:
         commits: 0
       - month: 2026-07
         commits: 100
-    totalCommitsKnown: 71720
-    openPullRequests: 194
+    totalCommitsKnown: 71727
+    openPullRequests: 200
     contributorsKnown: 1272
   sync:
-    syncedAt: 2026-07-20T10:15:49.930Z
+    syncedAt: 2026-07-22T09:29:46.434Z
     apiVersion: rest-v3
     source: github-actions
   languages:
-    C++: 32530066
+    C++: 32532018
     C: 1027102
     CMake: 930626
     JavaScript: 912837

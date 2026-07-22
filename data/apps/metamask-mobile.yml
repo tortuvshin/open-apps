@@ -106,28 +106,28 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-07-20T10:04:53Z
-    pushed_at: 2026-07-20T10:12:06Z
+    updated_at: 2026-07-22T08:58:20Z
+    pushed_at: 2026-07-22T09:28:10Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
-    size: 2065678
-    stargazers_count: 3001
-    watchers_count: 3001
+    size: 2072984
+    stargazers_count: 3002
+    watchers_count: 3002
     language: TypeScript
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: false
     has_pages: true
     has_discussions: false
-    forks_count: 1628
+    forks_count: 1627
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1841
+    open_issues_count: 1870
     license:
       key: other
       name: Other
@@ -148,9 +148,9 @@ github:
       - react-native
       - web3
     visibility: public
-    forks: 1628
-    open_issues: 1841
-    watchers: 3001
+    forks: 1627
+    open_issues: 1870
+    watchers: 3002
     default_branch: main
     permissions:
       admin: false
@@ -182,11 +182,11 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1628
+    network_count: 1627
     subscribers_count: 143
   languages:
-    TypeScript: 75256034
-    JavaScript: 2029196
+    TypeScript: 75961967
+    JavaScript: 2036530
     Shell: 137160
     HTML: 100552
     Swift: 20776
@@ -202,11 +202,11 @@ github:
     Objective-C++: 693
     CMake: 273
   latestRelease:
-    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/354988305
-    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/354988305/assets
-    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/354988305/assets{?name,label}
-    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v8.2.1
-    id: 354988305
+    url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/357272284
+    assets_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/357272284/assets
+    upload_url: https://uploads.github.com/repos/MetaMask/metamask-mobile/releases/357272284/assets{?name,label}
+    html_url: https://github.com/MetaMask/metamask-mobile/releases/tag/v8.3.0
+    id: 357272284
     author:
       login: runway-github[bot]
       id: 73448015
@@ -227,25 +227,391 @@ github:
       type: Bot
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOCG4DHc4VKLER
-    tag_name: v8.2.1
-    target_commitish: 9dceb0b9c4ff2fe4f4741fde3d8554ba248c4eca
-    name: Release 8.2.1
+    node_id: RE_kwDOCG4DHc4VS4rc
+    tag_name: v8.3.0
+    target_commitish: 37793893b4d83dfcf001b0b83ed637388e63acfd
+    name: Release 8.3.0
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-16T09:33:13Z
-    updated_at: 2026-07-16T13:52:53Z
-    published_at: 2026-07-16T09:33:22Z
-    assets: []
-    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v8.2.1
-    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v8.2.1
-    body: "## Fixed Issues\r
+    created_at: 2026-07-21T10:46:51Z
+    updated_at: 2026-07-21T15:43:40Z
+    published_at: 2026-07-21T10:46:56Z
+    assets:
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/484563537
+        id: 484563537
+        node_id: RA_kwDOCG4DHc4c4dpR
+        name: metamask-blockchain-wall-android3-8.3.0-metamask-production-main-8.3.0-6134.aab
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/octet-stream
+        state: uploaded
+        size: 207296975
+        digest: sha256:eef5b2a2c4f2543dc1bfd7c6306ac980a3d1e56bed9adb0e5141b231aa95218e
+        download_count: 20
+        created_at: 2026-07-21T10:46:58Z
+        updated_at: 2026-07-21T10:47:05Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.3.0/metamask-blockchain-wall-android3-8.3.0-metamask-production-main-8.3.0-6134.aab
+      - url: https://api.github.com/repos/MetaMask/metamask-mobile/releases/assets/484563693
+        id: 484563693
+        node_id: RA_kwDOCG4DHc4c4drt
+        name: metamask-blockchain-wall-android3-8.3.0-metamask-production-main-8.3.0-6134.apk
+        label: ""
+        uploader:
+          login: runway-github[bot]
+          id: 73448015
+          node_id: MDM6Qm90NzM0NDgwMTU=
+          avatar_url: https://avatars.githubusercontent.com/in/86225?v=4
+          gravatar_id: ""
+          url: https://api.github.com/users/runway-github%5Bbot%5D
+          html_url: https://github.com/apps/runway-github
+          followers_url: https://api.github.com/users/runway-github%5Bbot%5D/followers
+          following_url: https://api.github.com/users/runway-github%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/runway-github%5Bbot%5D/gists{/gist_id}
+          starred_url: https://api.github.com/users/runway-github%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/runway-github%5Bbot%5D/subscriptions
+          organizations_url: https://api.github.com/users/runway-github%5Bbot%5D/orgs
+          repos_url: https://api.github.com/users/runway-github%5Bbot%5D/repos
+          events_url: https://api.github.com/users/runway-github%5Bbot%5D/events{/privacy}
+          received_events_url: https://api.github.com/users/runway-github%5Bbot%5D/received_events
+          type: Bot
+          user_view_type: public
+          site_admin: false
+        content_type: application/vnd.android.package-archive
+        state: uploaded
+        size: 315151452
+        digest: sha256:d17ab14bb28aa9ea7c92132775d86cc305d53532a57133387f3448476f350fe0
+        download_count: 288
+        created_at: 2026-07-21T10:47:07Z
+        updated_at: 2026-07-21T10:47:17Z
+        browser_download_url: https://github.com/MetaMask/metamask-mobile/releases/download/v8.3.0/metamask-blockchain-wall-android3-8.3.0-metamask-production-main-8.3.0-6134.apk
+    tarball_url: https://api.github.com/repos/MetaMask/metamask-mobile/tarball/v8.3.0
+    zipball_url: https://api.github.com/repos/MetaMask/metamask-mobile/zipball/v8.3.0
+    body: "### Added\r
 
       \r
 
-      fix: restore release en.json translations
-      [32750](https://github.com/MetaMask/metamask-mobile/pull/32750)"
+      - Added a temporary 10-year anniversary app icon (#33285)\r
+
+      - Added limit-order support to the Perps close position flow (gated behind a remote feature
+      flag) (#33343)\r
+
+      - Added MetaMask Pay validation that blocks submissions without quotes and handles no-op
+      quotes (#33371)\r
+
+      - Added Robinhood default Infura RPC and Quicknode failover (#33094)\r
+
+      - Added existing-user account sync for add-device-to-wallet and improved QR scanning with
+      permission prompts, scan-state feedback, error recovery, and OTP verification (#32053)\r
+
+      - Added swap/bridge support for Robinhood Chain (#33110)\r
+
+      - Added privacy mode to money home (#33080)\r
+
+      - Added Predict market card buy-button override support for sponsored campaign flows
+      (#32858)\r
+
+      - Added a Batch Sell banner to the Swap source token selector (#33033)\r
+
+      - Added navigation to the transaction detail page when tapping the Money add funds and send
+      funds toasts (#33028)\r
+
+      - Added Reg time tag to Predict World Cup buy sheets and game-details outcome cards, and
+      improved team-to-advance market display on sport cards (#32981)\r
+
+      - Added deeplink support for all Explore tabs (`?tab=now|macro|rwas|crypto|sports|sites`) and
+      full-screen views (`?screen=trending-tokens|sites|favorite-sites|search`) (#32782)\r
+
+      - Added a subtle tilt-driven parallax animation to the Money \"Fund your account\" onboarding
+      card (#32892)\r
+
+      - Added First Predict On Us rewards campaign foundation (feature-flagged) (#32857)\r
+
+      - Added recently added market list search pill and section (#32612)\r
+
+      - Added extended soccer Predict market types and improved outcome grouping for halves and
+      player goals (#32823)\r
+
+      - Added a shimmer animation to the APY label on the Money account screen (#32955)\r
+
+      - Added support for opening a specific \"What's Happening\" item from a deep link (e.g.
+      `metamask://whats-happening?id=<id>`); the item opens in the expanded view and is labelled
+      \"Outdated\" when it is no longer in the latest feed (#32881)\r
+
+      - Added the provider company name to benefit cards and the benefit detail page (#30231)\r
+
+      - Added an A/B test for hot tokens, trending tokens, and stocks discovery content on the swap
+      zero state (#32775)\r
+
+      - Added streamed swap quotes to QuickBuy so each provider's quote appears as soon as it is
+      available, instead of waiting for all providers (gated behind the bridge SSE feature flag)
+      (#32575)\r
+
+      - Added fee breakdown disclosure to the Sell trade confirmation screen, showing MetaMask fee,
+      Exchange fee, and net Total before users confirm a cash out (#32560)\r
+
+      - Added a mute chip for trader notifications on the leaderboard and profile, and a setup
+      prompt when following or unmuting while trading-signal notifications are disabled (#32716)\r
+
+      \r
+
+      ### Changed\r
+
+      \r
+
+      - Updated stablecoin fiat-rate lookups to use the remote stable-tokens configuration
+      (#33401)\r
+
+      - Upgraded design system libraries and added pressed state to main trade wallet action menu
+      (#33134)\r
+
+      - Gated recently added section behind feature flag (#33049)\r
+
+      - Polished the Perps activity list — cancelled orders are no longer shown in red, limit orders
+      show consistent \"$\" amounts and the correct market logo, losses in the Trades tab are shown
+      in red, order titles use spaced dashes, and the activity filter sheet is more compact
+      (#32998)\r
+
+      - Raised cap of perps watchlist from 10 to 100 (#32977)\r
+
+      - Upgraded on-chain notifications to the v4 Notification API (#32808)\r
+
+      - Disabled CTA swap button for Tron when no network fees retrieved (#32717)\r
+
+      - Display foreground notifications on iOS (#32764)\r
+
+      - Updated Perps market details sections to match the Perps home layout, including consistent
+      dividers, headers, spacing, and recent activity list styling (#32924)\r
+
+      - Changed the pooled-staking CTA label from \"Earn\" to \"Stake\" in the token list (#33078)\r
+
+      - Updated the Perps order and close position screen headers to use the same design system
+      layout as other Perps market screens, including the asset icon and a redesigned order type
+      selector (#32926)\r
+
+      - Improved spacing and hot-token layout on the swap discovery feed zero state (#33058)\r
+
+      - Updated wallet home onboarding and Money onboarding animations (#33052)\r
+
+      - Updated Perps market details candle interval selector and bottom sheet to use the MetaMask
+      design system (#32833)\r
+
+      - Updated the onboarding interest questionnaire to match the latest Figma design with a list
+      layout, new option categories, and a free-text \"Other\" input sheet (#32670)\r
+
+      - Improved real-time data performance by moving WebSocket connections to a native transport
+      with cold-start prewarming (#32472)\r
+
+      - Improved Swaps entry from token pages by focusing the amount input and opening the keypad
+      automatically (#32783)\r
+
+      - Bumped `@metamask/tron-wallet-snap` to `^1.31.0` (#33248)\r
+
+      \r
+
+      ### Removed\r
+
+      \r
+
+      - Removed the execute v2 relay strategy from MetaMask Pay transaction handling (#33457)\r
+
+      - Removed Social Leaderboard position PnL arrows (#32899)\r
+
+      - Removed obsolete mUSD Merkl bonus tagging from the popular tokens list (#33044)\r
+
+      \r
+
+      ### Fixed\r
+
+      \r
+
+      - Fixed token fiat amounts incorrectly treating a missing price as `1`, which could show a
+      misleading conversion amount (#33462)\r
+
+      - Fixed Popular Today Predict topics opening a duplicate page instead of routing to Trending
+      (#33438)\r
+
+      - Fixed mUSD deposits started from the Money home page (#33437)\r
+
+      - Fixed empty Predict related-tag sub-tabs (e.g. \"Other\") showing when they had no active
+      markets (#33434)\r
+
+      - Fixed Predict home and feed layout to match Design QA feedback (#33426)\r
+
+      - Fixed Money toasts showing amounts in the user's preferred fiat currency instead of USD
+      (#33372)\r
+
+      - Fixed the Money projected 1-year balance showing in the user's preferred fiat currency
+      instead of USD (#33381)\r
+
+      - Fixed MetaMask Card \"Avail. balance\" on Money Home changing with the preferred fiat
+      currency instead of staying in USD (#33355)\r
+
+      - Fixed pay-flow token amounts (Perps, Predict, Money Account, mUSD) showing a USD symbol with
+      the user's preferred-currency numeric value (#33354)\r
+
+      - Fixed the Predict Trending section showing too few markets and an unstable count after
+      visiting See all (#33345)\r
+
+      - Fixed the post-trade modal showing an incorrect pending status (#33282)\r
+
+      - Fixed asset names on the \"Earn on your crypto\" rows to display full names instead of
+      tickers, consistent with the home page (#33274)\r
+
+      - Fixed Activity getting stuck on a consumed confirmation after submitting a transaction, and
+      restored the missing lending deposit token icon (#33269)\r
+
+      - Fixed Activity speed-up/cancel details becoming unavailable, and corrected cancelled/failed
+      row categorization and amounts (#33264)\r
+
+      - Fixed a bug in which several empty Tron entries appeared in the Earn list (#33217)\r
+
+      - Fixed a bug where the spam warning modal (\"We've noticed multiple requests\") sometimes
+      failed to appear after repeatedly canceling a dapp's requests, leaving the site silently
+      blocked with no way to dismiss it (#33183)\r
+
+      - Fixed Swaps getting stuck loading after opening Batch Sell (#33228)\r
+
+      - Fixed swaps numpad background inconsistency in pure black theme (#33077)\r
+
+      - Fixed extra bottom spacing on the Swap screen so scrollable content and the quote footer
+      align correctly with the home indicator (#33153)\r
+
+      - Fixed inconsistent bottom border on Trade menu in Pure Black mode (#33142)\r
+
+      - Fixed screenshot warning modal background and border in Pure Black theme (#33133)\r
+
+      - Fixed Money balance info sheet showing a grey content background in Pure Black by letting
+      the sheet content be transparent and use the BottomSheet surface (#33145)\r
+
+      - Fixed confirmation toast overlapping modal on first money account deposit (#33124)\r
+
+      - Fixed Y-axis labels and price pill parity on perps Advanced Charts (#32913)\r
+
+      - Fixed Robinhood Chain RPC token detection in the legacy assets controller (#33137)\r
+
+      - Fixed transaction details showing the mUSD token symbol with incorrect casing (MUSD) in step
+      descriptions and the Paid with row (#33106)\r
+
+      - Fixed a bug where PayWithRow was hidden during keyboard input for non-addMusd money account
+      deposits (convert, card) (#33098)\r
+
+      - Fixed a black band behind disclaimer text in the Money deposit projected balance info sheet
+      when Pure Black mode is enabled (#33076)\r
+
+      - Fixed QR signature not working for iOS devices (#33050)\r
+
+      - Fixed a bug where the Perps modify position bottom sheet could leave a stuck overlay after
+      dismissing (#33013)\r
+
+      - Fixed ramp orders missing from the new Activity list and Buy/Sell filter when using the v2
+      Ramps controller (#32996)\r
+
+      - Fixed blank flash on Token Details chart when switching timeframes with technical indicators
+      enabled (#33032)\r
+
+      - Fixed the World Cup Winner market on the Props tab hiding most teams by widening the
+      dead-outcome probability filter from 5%/95% to 1%/99% (#33051)\r
+
+      - Fixed an issue on iOS where Terms of Use and Privacy Policy links on the onboarding sheet
+      would open and immediately close (#33041)\r
+
+      - Fixed the Money Add funds toast so its copy matches the funding method — \"Depositing\" for
+      card/Apple Pay, \"Adding funds\" for mUSD, and \"Converting crypto\" for crypto conversions —
+      instead of always showing \"Converting crypto\" (#32967)\r
+
+      - Fixed the mUSD amount being shown inconsistently across the Add funds sheet, the \"Pay
+      with\" row, and the deposit amount (#32992)\r
+
+      - Fixed visible dark bands behind menu rows in the Money More bottom sheet when Pure Black
+      mode is enabled (#33005)\r
+
+      - Fixed Web Share API and blob/data downloads in the in-app browser on Android, and fixed a
+      crash when sharing images from dapps (#32788)\r
+
+      - Fixed a bug on iOS that made the app invisible to VoiceOver and other accessibility tools
+      while no hardware wallet flow was active (#32973)\r
+
+      - Fixed the tooltip icon in the \"Earn on your crypto\" section so it is vertically centered
+      with the description text (#32991)\r
+
+      - Fixed ETH pooled-staking activity labels to read \"Staked Ethereum\" and \"Unstaked
+      Ethereum\" instead of the ambiguous \"Deposited ETH\" (#32921)\r
+
+      - Fixed Agentic CLI dashboard approval not rejecting the pending request when the WebView is
+      dismissed before completion (#32874)\r
+
+      - Fixed a bug that could cause a swap or bridge transaction's final status to never sync to
+      MetaMask's backend if the app was closed before the transaction had a chance to report as
+      submitted (#32936)\r
+
+      - Fixed long perps market names overflowing their row by truncating them with an ellipsis
+      (#32891)\r
+
+      - Fixed bug in conversion to usd when existing entry had null or missing values (#32944)\r
+
+      - Fixed the keyboard auto-correcting and auto-capitalizing text typed into the Perps market
+      search bar (#32948)\r
+
+      - Fixed the Notifications screen header to use a back arrow instead of a close icon (#32920)\r
+
+      - Fixed notification list alignment by moving the unread indicator next to the timestamp
+      (#32919)\r
+
+      - Fixed Android flicker when opening Trade wallet actions (#32617)\r
+
+      - Fixed lending withdrawals showing as \"Smart contract interaction\" in Activity, and grouped
+      lending activity under the Transactions filter (removed the Money filter) (#32856)\r
+
+      - Fixed swaps into a native token (e.g. POL, ETH) showing incomplete details and activity list
+      rows until the app was restarted (#32848)\r
+
+      - Fixed navigation for address list in Accounts Detail (#32790)\r
+
+      - Fixed dApp connect view content bleeding under the status bar and home indicator on iOS
+      (#32837)\r
+
+      - Fixed an issue where some regions showed an incorrect default buy amount after a cold app
+      start (#32776)\r
+
+      - Fixed Predictions claim toasts to use claim-specific success copy and avoid showing claimed
+      winnings for $0 redemptions (#32506)\r
+
+      - Fixed a confirmation-UI issue where an injected `value` field in a Permit2 signature request
+      could display a \"Remove permission\" screen while granting a token allowance (#32758)\r
+
+      - Fixed a bug that caused pay-flow token amounts (Perps, Predict, Money Account, mUSD) to be
+      shown in the user's preferred fiat currency instead of USD (#32631)\r
+
+      - Fixed unlock screen showing a raw error message after exceeding Android biometric attempts
+      (#32199)\r
+
+      - Fixed lightweight Perps charts failing to continue live updates (#32745)\r
+
+      - Fixed the Predict deposit \"Track\" toast opening the Transactions tab instead of the
+      Predict tab (#32730)\r
+
+      - Fixed a bug where the crash screen Try Again button did nothing in production builds
+      (#31830)"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -260,9 +626,9 @@ github:
         commits: 0
       - month: 2026-07
         commits: 100
-    totalCommitsKnown: 18684
+    totalCommitsKnown: 18943
     contributorsKnown: 305
-    openPullRequests: 452
+    openPullRequests: 482
   files:
     readme: true
     contributing: false
@@ -272,7 +638,7 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-07-20T10:15:28.405Z
+    syncedAt: 2026-07-22T09:29:25.319Z
     apiVersion: rest-v3
     source: github-actions
 health:

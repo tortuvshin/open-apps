@@ -105,11 +105,11 @@ github:
     language: Dart
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 273
+    forks_count: 274
     mirror_url: null
     archived: false
     disabled: false
@@ -136,7 +136,7 @@ github:
       - task
       - whattodo
     visibility: public
-    forks: 273
+    forks: 274
     open_issues: 13
     watchers: 1267
     default_branch: master
@@ -147,7 +147,7 @@ github:
       triage: false
       pull: false
     temp_clone_token: ""
-    network_count: 273
+    network_count: 274
     subscribers_count: 38
   activity:
     monthlyCommits:
@@ -167,7 +167,7 @@ github:
     openPullRequests: 4
     contributorsKnown: 10
   sync:
-    syncedAt: 2026-07-20T10:15:48.076Z
+    syncedAt: 2026-07-22T09:29:44.831Z
     apiVersion: rest-v3
     source: github-actions
   languages:

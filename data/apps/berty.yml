@@ -108,28 +108,28 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-07-19T21:43:41Z
-    pushed_at: 2026-07-17T07:24:30Z
+    updated_at: 2026-07-22T06:22:58Z
+    pushed_at: 2026-07-21T11:35:05Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
-    size: 273063
-    stargazers_count: 9247
-    watchers_count: 9247
+    size: 274467
+    stargazers_count: 9248
+    watchers_count: 9248
     language: TypeScript
     has_issues: true
     has_projects: true
-    has_downloads: true
+    has_downloads: false
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 495
+    forks_count: 496
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 92
+    open_issues_count: 98
     license:
       key: other
       name: Other
@@ -162,9 +162,9 @@ github:
       - react-native
       - surveillance
     visibility: public
-    forks: 495
-    open_issues: 92
-    watchers: 9247
+    forks: 496
+    open_issues: 98
+    watchers: 9248
     default_branch: master
     permissions:
       admin: false
@@ -194,7 +194,7 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 495
+    network_count: 496
     subscribers_count: 122
   languages:
     TypeScript: 1879336
@@ -286,7 +286,7 @@ github:
         commits: 12
     totalCommitsKnown: 8367
     contributorsKnown: 70
-    openPullRequests: 17
+    openPullRequests: 23
   files:
     readme: true
     contributing: false
@@ -302,7 +302,7 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-20T10:15:05.093Z
+    syncedAt: 2026-07-22T09:29:02.481Z
     apiVersion: rest-v3
     source: github-actions
 health:
