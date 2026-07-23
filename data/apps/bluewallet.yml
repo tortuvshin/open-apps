@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/BlueWallet/BlueWallet/releases{/id}
     deployments_url: https://api.github.com/repos/BlueWallet/BlueWallet/deployments
     created_at: 2018-01-14T20:14:02Z
-    updated_at: 2026-07-21T09:41:43Z
-    pushed_at: 2026-07-22T04:58:33Z
+    updated_at: 2026-07-22T20:05:20Z
+    pushed_at: 2026-07-23T08:33:52Z
     git_url: git://github.com/BlueWallet/BlueWallet.git
     ssh_url: git@github.com:BlueWallet/BlueWallet.git
     clone_url: https://github.com/BlueWallet/BlueWallet.git
     svn_url: https://github.com/BlueWallet/BlueWallet
     homepage: https://bluewallet.io
-    size: 212697
-    stargazers_count: 3238
-    watchers_count: 3238
+    size: 212596
+    stargazers_count: 3239
+    watchers_count: 3239
     language: TypeScript
     has_issues: true
     has_projects: false
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 438
+    open_issues_count: 439
     license:
       key: mit
       name: MIT License
@@ -148,8 +148,8 @@ github:
       - reactnative
     visibility: public
     forks: 1038
-    open_issues: 438
-    watchers: 3238
+    open_issues: 439
+    watchers: 3239
     default_branch: master
     permissions:
       admin: false
@@ -186,7 +186,7 @@ github:
     JavaScript: 885367
     Swift: 256878
     Kotlin: 120134
-    Ruby: 73574
+    Ruby: 73999
     Shell: 17234
     Objective-C: 3298
     Starlark: 1334
@@ -259,7 +259,7 @@ github:
         state: uploaded
         size: 76694335
         digest: sha256:3ef56aad35eacfe133fcb25efee74b6f9c8baa79d4f16f5894accc8ccf06f6d5
-        download_count: 306
+        download_count: 487
         created_at: 2026-07-21T17:39:26Z
         updated_at: 2026-07-21T17:39:30Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet-8.0.1-1784558752.apk
@@ -292,7 +292,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:be4e327c1a97ea80affc8a53df372364237908fdd03c02084d988e5be1d09706
-        download_count: 3
+        download_count: 8
         created_at: 2026-07-21T17:39:05Z
         updated_at: 2026-07-21T17:39:05Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet-8.0.1-1784558752.apk.sig
@@ -325,7 +325,7 @@ github:
         state: uploaded
         size: 29811150
         digest: sha256:a6d280f0e86219fd886597864691018d863c40bfc334b6ece4002cd8650e834c
-        download_count: 2
+        download_count: 5
         created_at: 2026-07-21T17:39:24Z
         updated_at: 2026-07-21T17:39:26Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa
@@ -358,7 +358,7 @@ github:
         state: uploaded
         size: 833
         digest: sha256:d998a596fdbdf7141200de9d055dba4fb11d6851b0e2fd72da9467bc2ad7f51a
-        download_count: 2
+        download_count: 3
         created_at: 2026-07-21T17:39:04Z
         updated_at: 2026-07-21T17:39:05Z
         browser_download_url: https://github.com/BlueWallet/BlueWallet/releases/download/8.0.1/BlueWallet_8.0.1_1784575843.ipa.sig
@@ -667,12 +667,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 44
+        commits: 42
       - month: 2026-07
-        commits: 56
-    totalCommitsKnown: 13729
+        commits: 58
+    totalCommitsKnown: 13731
     contributorsKnown: 131
-    openPullRequests: 76
+    openPullRequests: 77
   files:
     readme: true
     contributing: true
@@ -685,7 +685,7 @@ github:
       color: d3ccff
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-22T09:29:03.546Z
+    syncedAt: 2026-07-23T09:26:55.217Z
     apiVersion: rest-v3
     source: github-actions
 health:

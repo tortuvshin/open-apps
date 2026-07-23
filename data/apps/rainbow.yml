@@ -106,16 +106,16 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-07-21T09:30:05Z
-    pushed_at: 2026-07-21T23:46:19Z
+    updated_at: 2026-07-22T23:02:46Z
+    pushed_at: 2026-07-22T23:17:23Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
-    size: 285625
-    stargazers_count: 4371
-    watchers_count: 4371
+    size: 285732
+    stargazers_count: 4373
+    watchers_count: 4373
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -123,11 +123,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 753
+    forks_count: 754
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 18
+    open_issues_count: 20
     license:
       key: gpl-3.0
       name: GNU General Public License v3.0
@@ -146,9 +146,9 @@ github:
       - rainbow
       - react-native
     visibility: public
-    forks: 753
-    open_issues: 18
-    watchers: 4371
+    forks: 754
+    open_issues: 20
+    watchers: 4373
     default_branch: develop
     permissions:
       admin: false
@@ -178,10 +178,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 753
+    network_count: 754
     subscribers_count: 69
   languages:
-    TypeScript: 9279757
+    TypeScript: 9309076
     JavaScript: 389875
     Swift: 101323
     Objective-C: 62738
@@ -193,50 +193,80 @@ github:
     Starlark: 1910
     C: 290
   latestRelease:
-    url: https://api.github.com/repos/rainbow-me/rainbow/releases/348399799
-    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/348399799/assets
-    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/348399799/assets{?name,label}
-    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.39
-    id: 348399799
+    url: https://api.github.com/repos/rainbow-me/rainbow/releases/358012378
+    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/358012378/assets
+    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/358012378/assets{?name,label}
+    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.40
+    id: 358012378
     author:
-      login: DanielSinclair
-      id: 4412473
-      node_id: MDQ6VXNlcjQ0MTI0NzM=
-      avatar_url: https://avatars.githubusercontent.com/u/4412473?v=4
+      login: ibrahimtaveras00
+      id: 41752922
+      node_id: MDQ6VXNlcjQxNzUyOTIy
+      avatar_url: https://avatars.githubusercontent.com/u/41752922?v=4
       gravatar_id: ""
-      url: https://api.github.com/users/DanielSinclair
-      html_url: https://github.com/DanielSinclair
-      followers_url: https://api.github.com/users/DanielSinclair/followers
-      following_url: https://api.github.com/users/DanielSinclair/following{/other_user}
-      gists_url: https://api.github.com/users/DanielSinclair/gists{/gist_id}
-      starred_url: https://api.github.com/users/DanielSinclair/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/DanielSinclair/subscriptions
-      organizations_url: https://api.github.com/users/DanielSinclair/orgs
-      repos_url: https://api.github.com/users/DanielSinclair/repos
-      events_url: https://api.github.com/users/DanielSinclair/events{/privacy}
-      received_events_url: https://api.github.com/users/DanielSinclair/received_events
+      url: https://api.github.com/users/ibrahimtaveras00
+      html_url: https://github.com/ibrahimtaveras00
+      followers_url: https://api.github.com/users/ibrahimtaveras00/followers
+      following_url: https://api.github.com/users/ibrahimtaveras00/following{/other_user}
+      gists_url: https://api.github.com/users/ibrahimtaveras00/gists{/gist_id}
+      starred_url: https://api.github.com/users/ibrahimtaveras00/starred{/owner}{/repo}
+      subscriptions_url: https://api.github.com/users/ibrahimtaveras00/subscriptions
+      organizations_url: https://api.github.com/users/ibrahimtaveras00/orgs
+      repos_url: https://api.github.com/users/ibrahimtaveras00/repos
+      events_url: https://api.github.com/users/ibrahimtaveras00/events{/privacy}
+      received_events_url: https://api.github.com/users/ibrahimtaveras00/received_events
       type: User
       user_view_type: public
       site_admin: false
-    node_id: RE_kwDOColoic4UxCi3
-    tag_name: v2.0.39
-    target_commitish: e6442b64c5b6bd6553fb5fc95a4408bd18cdf73c
-    name: v2.0.39
+    node_id: RE_kwDOColoic4VVtXa
+    tag_name: v2.0.40
+    target_commitish: develop
+    name: v2.0.40
     draft: false
     immutable: false
     prerelease: false
-    created_at: 2026-07-03T03:43:05Z
-    updated_at: 2026-07-16T17:09:31Z
-    published_at: 2026-07-16T17:09:31Z
+    created_at: 2026-07-17T06:31:10Z
+    updated_at: 2026-07-22T12:33:51Z
+    published_at: 2026-07-22T12:33:51Z
     assets: []
-    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.39
-    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.39
-    body: "### Fixed\r
+    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.40
+    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.40
+    body: "### Added\r
 
       \r
 
-      - Fixed Polymarket orders failing on markets with certain tick sizes —
-      [#7665](https://github.com/rainbow-me/rainbow/pull/7665)\r\n"
+      - Add credit card linking step (https://github.com/rainbow-me/rainbow/pull/7667)\r
+
+      - Add success screen component (https://github.com/rainbow-me/rainbow/pull/7668)\r
+
+      - Add Rainbow SDK (https://github.com/rainbow-me/rainbow/pull/7676)\r
+
+      \r
+
+      ### Changed\r
+
+      \r
+
+      - Bump iOS and Android to v2.0.40 (https://github.com/rainbow-me/rainbow/pull/7666)\r
+
+      - Extract shared workspace setup into a composite action
+      (https://github.com/rainbow-me/rainbow/pull/7661)\r
+
+      - Split PR checks into per-concern jobs also running on develop
+      (https://github.com/rainbow-me/rainbow/pull/7662)\r
+
+      - Remove vestigial single-screen wrapper stack navigators
+      (https://github.com/rainbow-me/rainbow/pull/7671)\r
+
+      \r
+
+      ### Fixed\r
+
+      \r
+
+      - Fix broken Setup e2e test (https://github.com/rainbow-me/rainbow/pull/7673)\r
+
+      - Fix onboarding to respect opened keyboard (https://github.com/rainbow-me/rainbow/pull/7674)"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -248,12 +278,12 @@ github:
       - month: 2026-05
         commits: 0
       - month: 2026-06
-        commits: 71
+        commits: 67
       - month: 2026-07
-        commits: 29
-    totalCommitsKnown: 9216
+        commits: 33
+    totalCommitsKnown: 9220
     contributorsKnown: 73
-    openPullRequests: 18
+    openPullRequests: 20
   files:
     readme: true
     contributing: false
@@ -263,7 +293,7 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-07-22T09:29:32.450Z
+    syncedAt: 2026-07-23T09:27:21.788Z
     apiVersion: rest-v3
     source: github-actions
 health:

@@ -120,7 +120,7 @@ github:
     releases_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases{/id}
     deployments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/deployments
     created_at: 2012-02-24T08:50:51Z
-    updated_at: 2026-07-22T00:23:50Z
+    updated_at: 2026-07-23T04:32:54Z
     pushed_at: 2026-07-02T08:56:50Z
     git_url: git://github.com/OnionBrowser/OnionBrowser.git
     ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
@@ -128,8 +128,8 @@ github:
     svn_url: https://github.com/OnionBrowser/OnionBrowser
     homepage: https://onionbrowser.com
     size: 133239
-    stargazers_count: 2630
-    watchers_count: 2630
+    stargazers_count: 2631
+    watchers_count: 2631
     language: Swift
     has_issues: true
     has_projects: true
@@ -137,7 +137,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 534
+    forks_count: 535
     mirror_url: null
     archived: false
     disabled: false
@@ -167,9 +167,9 @@ github:
       - tor-network
       - web-browser
     visibility: public
-    forks: 534
+    forks: 535
     open_issues: 9
-    watchers: 2630
+    watchers: 2631
     default_branch: 3.X
     permissions:
       admin: false
@@ -199,10 +199,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 534
+    network_count: 535
     subscribers_count: 167
   sync:
-    syncedAt: 2026-07-22T09:29:29.345Z
+    syncedAt: 2026-07-23T09:27:18.314Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -278,7 +278,7 @@ github:
         state: uploaded
         size: 35892550
         digest: sha256:28fc793eddebef97bde139ac1e1c7e6870ffd1179df96c51eb1735474e4d1442
-        download_count: 335
+        download_count: 342
         created_at: 2026-06-30T13:58:05Z
         updated_at: 2026-06-30T13:58:46Z
         browser_download_url: https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa

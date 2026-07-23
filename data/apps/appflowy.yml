@@ -130,7 +130,7 @@ github:
     releases_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}
     deployments_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments
     created_at: 2021-06-16T12:56:48Z
-    updated_at: 2026-07-22T08:57:09Z
+    updated_at: 2026-07-23T09:00:48Z
     pushed_at: 2026-06-26T02:35:46Z
     git_url: git://github.com/AppFlowy-IO/AppFlowy.git
     ssh_url: git@github.com:AppFlowy-IO/AppFlowy.git
@@ -138,8 +138,8 @@ github:
     svn_url: https://github.com/AppFlowy-IO/AppFlowy
     homepage: https://appflowy.com
     size: 93897
-    stargazers_count: 74159
-    watchers_count: 74159
+    stargazers_count: 74198
+    watchers_count: 74198
     language: Dart
     has_issues: true
     has_projects: true
@@ -147,11 +147,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 5688
+    forks_count: 5696
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1007
+    open_issues_count: 1002
     license:
       key: agpl-3.0
       name: GNU Affero General Public License v3.0
@@ -177,9 +177,9 @@ github:
       - team-collaboration
       - wiki
     visibility: public
-    forks: 5688
-    open_issues: 1007
-    watchers: 74159
+    forks: 5696
+    open_issues: 1002
+    watchers: 74198
     default_branch: main
     permissions:
       admin: false
@@ -209,10 +209,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 5688
-    subscribers_count: 388
+    network_count: 5696
+    subscribers_count: 387
   sync:
-    syncedAt: 2026-07-22T09:28:59.074Z
+    syncedAt: 2026-07-23T09:26:51.537Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -300,7 +300,7 @@ github:
         state: uploaded
         size: 680
         digest: sha256:e9fef1d1377ed74b8e3f6d0516dbab96fceda9116d50007d1e71ab19943a42db
-        download_count: 69544
+        download_count: 72159
         created_at: 2026-06-24T01:55:25Z
         updated_at: 2026-06-24T01:55:26Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-linux-x86_64.xml
@@ -333,7 +333,7 @@ github:
         state: uploaded
         size: 965
         digest: sha256:35b8aaa60772b70a50ca45a5726a41e157afd5486a53cd8ff9374e93db462f97
-        download_count: 168371
+        download_count: 174712
         created_at: 2026-06-24T01:55:26Z
         updated_at: 2026-06-24T01:55:27Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-macos-arm64.xml
@@ -366,7 +366,7 @@ github:
         state: uploaded
         size: 962
         digest: sha256:9c5b17099ecc9b65ad1fc4ca85363948ebcd8a060fd4ba15bfd1ca1baa34aaa9
-        download_count: 123589
+        download_count: 128177
         created_at: 2026-06-24T01:55:27Z
         updated_at: 2026-06-24T01:55:27Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/appcast-macos-x86_64.xml
@@ -399,7 +399,7 @@ github:
         state: uploaded
         size: 165688964
         digest: sha256:b1200dff22bc95098f6255f53e0970f114493afcd17d4d42f49383172ea82899
-        download_count: 2879
+        download_count: 2950
         created_at: 2026-06-23T14:01:56Z
         updated_at: 2026-06-23T14:02:15Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-android.apk
@@ -432,7 +432,7 @@ github:
         state: uploaded
         size: 185504960
         digest: sha256:4fbbd69e5c20b952c48b95fd7e3e2b06156cae6545e99f164a3871141116877d
-        download_count: 1933
+        download_count: 2013
         created_at: 2026-06-23T13:51:13Z
         updated_at: 2026-06-23T13:51:31Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.AppImage
@@ -465,7 +465,7 @@ github:
         state: uploaded
         size: 72581736
         digest: sha256:011723535c594eb6c2eba7e62ecd84f7946160586b74c7ebc516a3b96b06ca74
-        download_count: 2800
+        download_count: 2866
         created_at: 2026-06-23T13:51:31Z
         updated_at: 2026-06-23T13:51:36Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.deb
@@ -498,7 +498,7 @@ github:
         state: uploaded
         size: 99796292
         digest: sha256:78723c5bbff49c015fd4ae839e8c63643c686748f7238bb5bc128895d0a0bf9c
-        download_count: 351
+        download_count: 370
         created_at: 2026-06-23T13:51:36Z
         updated_at: 2026-06-23T13:51:44Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.rpm
@@ -531,7 +531,7 @@ github:
         state: uploaded
         size: 176882129
         digest: sha256:8a6bf9b1657aec795ea9a87fee31e3a231d6d872275c54d62259ec62a2dc08de
-        download_count: 582
+        download_count: 608
         created_at: 2026-06-23T13:51:44Z
         updated_at: 2026-06-23T13:51:58Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.tar.gz
@@ -564,7 +564,7 @@ github:
         state: uploaded
         size: 98843589
         digest: sha256:cac1fc159854e0f9b7bf1aa4d4711f8b7dbb6ca6628981235d04c1f7b8be7a27
-        download_count: 890
+        download_count: 912
         created_at: 2026-06-23T13:52:56Z
         updated_at: 2026-06-23T13:53:04Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-arm64.dmg
@@ -597,7 +597,7 @@ github:
         state: uploaded
         size: 100132863
         digest: sha256:bfadf3436f76d060cd5d9804361af24ba4b9acb42a00d367e8e4f668b87fef08
-        download_count: 2050
+        download_count: 2101
         created_at: 2026-06-23T13:52:48Z
         updated_at: 2026-06-23T13:52:56Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-arm64.zip
@@ -630,7 +630,7 @@ github:
         state: uploaded
         size: 180622005
         digest: sha256:e2ea90c58ed6a52be6d799cc2705bad2439fedc00d86dbdd0496c4d6839e65b4
-        download_count: 2060
+        download_count: 2122
         created_at: 2026-06-23T13:52:34Z
         updated_at: 2026-06-23T13:52:48Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-universal.dmg
@@ -663,7 +663,7 @@ github:
         state: uploaded
         size: 182332772
         digest: sha256:8d9dd5841cae6f304da068f5c95e526a5fb5c6164be9daafb435ea82c6d29163
-        download_count: 142
+        download_count: 146
         created_at: 2026-06-23T13:52:20Z
         updated_at: 2026-06-23T13:52:34Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-universal.zip
@@ -696,7 +696,7 @@ github:
         state: uploaded
         size: 103812376
         digest: sha256:d8dce3c4f097a723be5b2b1164008c7e1ef8cc7f8cdaa1ed09fdbc6b19b2ab4c
-        download_count: 2108
+        download_count: 2161
         created_at: 2026-06-23T13:52:12Z
         updated_at: 2026-06-23T13:52:20Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-x86_64.dmg
@@ -729,7 +729,7 @@ github:
         state: uploaded
         size: 105291442
         digest: sha256:b9fb1ead2a656f10737f7967a87fd715fef97a2f4a15742a029ed44963972354
-        download_count: 328
+        download_count: 335
         created_at: 2026-06-23T13:52:03Z
         updated_at: 2026-06-23T13:52:12Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-macos-x86_64.zip
@@ -762,7 +762,7 @@ github:
         state: uploaded
         size: 80283664
         digest: sha256:039d6f1f96763ee4e64748bf18312cd13db83c7bdc5a41cdd6740f239df7d9c5
-        download_count: 9629
+        download_count: 9941
         created_at: 2026-06-23T13:53:35Z
         updated_at: 2026-06-23T13:53:44Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-windows-x86_64.exe
@@ -795,7 +795,7 @@ github:
         state: uploaded
         size: 113072807
         digest: sha256:ed157b5fac29010e449e07d920e65212f8e4159bb95a72859418d4ce0004f83b
-        download_count: 961
+        download_count: 980
         created_at: 2026-06-23T13:53:19Z
         updated_at: 2026-06-23T13:53:35Z
         browser_download_url: https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-windows-x86_64.zip

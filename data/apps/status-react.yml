@@ -91,14 +91,14 @@ github:
     releases_url: https://api.github.com/repos/status-im/status-legacy/releases{/id}
     deployments_url: https://api.github.com/repos/status-im/status-legacy/deployments
     created_at: 2016-02-22T21:48:48Z
-    updated_at: 2026-07-21T13:14:16Z
-    pushed_at: 2026-07-21T16:36:29Z
+    updated_at: 2026-07-22T12:48:08Z
+    pushed_at: 2026-07-22T12:43:42Z
     git_url: git://github.com/status-im/status-legacy.git
     ssh_url: git@github.com:status-im/status-legacy.git
     clone_url: https://github.com/status-im/status-legacy.git
     svn_url: https://github.com/status-im/status-legacy
     homepage: https://status.app
-    size: 439433
+    size: 439434
     stargazers_count: 4019
     watchers_count: 4019
     language: Clojure
@@ -110,7 +110,7 @@ github:
     has_discussions: true
     forks_count: 993
     mirror_url: null
-    archived: false
+    archived: true
     disabled: false
     open_issues_count: 453
     license:
@@ -188,12 +188,12 @@ github:
       - month: 2026-06
         commits: 0
       - month: 2026-07
-        commits: 0
-    totalCommitsKnown: 10569
+        commits: 1
+    totalCommitsKnown: 10570
     openPullRequests: 10
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-07-22T09:29:36.067Z
+    syncedAt: 2026-07-23T09:27:24.800Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -278,7 +278,7 @@ github:
         state: uploaded
         size: 79044006
         digest: sha256:e0480df44935f489755cab4fde8cb9201671b3878f02e155a1ae353c0cb5ef52
-        download_count: 1083
+        download_count: 1087
         created_at: 2025-10-24T12:27:55Z
         updated_at: 2025-10-24T12:28:00Z
         browser_download_url: https://github.com/status-im/status-legacy/releases/download/2.34.4/StatusIm-Mobile-v2.34.4-2de761-arm64-v8a.apk

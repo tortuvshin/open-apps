@@ -108,7 +108,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-07-22T08:14:18Z
+    updated_at: 2026-07-23T08:54:03Z
     pushed_at: 2026-07-18T18:21:22Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -116,8 +116,8 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 100437
-    stargazers_count: 27643
-    watchers_count: 27643
+    stargazers_count: 27664
+    watchers_count: 27664
     language: TypeScript
     has_issues: true
     has_projects: true
@@ -125,7 +125,7 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1359
+    forks_count: 1361
     mirror_url: null
     archived: false
     disabled: false
@@ -150,9 +150,9 @@ github:
       - read-it-later
       - self-hosted
     visibility: public
-    forks: 1359
+    forks: 1361
     open_issues: 667
-    watchers: 27643
+    watchers: 27664
     default_branch: main
     permissions:
       admin: false
@@ -182,8 +182,8 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1359
-    subscribers_count: 76
+    network_count: 1361
+    subscribers_count: 75
   languages:
     TypeScript: 3929218
     Shell: 20277
@@ -1149,7 +1149,7 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-22T09:29:21.439Z
+    syncedAt: 2026-07-23T09:27:11.343Z
     apiVersion: rest-v3
     source: github-actions
 health:

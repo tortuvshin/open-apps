@@ -90,7 +90,7 @@ github:
     releases_url: https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}
     deployments_url: https://api.github.com/repos/thunderbird/thunderbird-ios/deployments
     created_at: 2025-01-20T14:50:57Z
-    updated_at: 2026-07-21T23:39:39Z
+    updated_at: 2026-07-23T09:04:30Z
     pushed_at: 2026-07-20T14:43:54Z
     git_url: git://github.com/thunderbird/thunderbird-ios.git
     ssh_url: git@github.com:thunderbird/thunderbird-ios.git
@@ -111,7 +111,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 62
+    open_issues_count: 63
     license:
       key: mpl-2.0
       name: Mozilla Public License 2.0
@@ -126,7 +126,7 @@ github:
     topics: []
     visibility: public
     forks: 35
-    open_issues: 62
+    open_issues: 63
     watchers: 1096
     default_branch: main
     permissions:
@@ -174,10 +174,10 @@ github:
       - month: 2026-07
         commits: 24
     totalCommitsKnown: 729
-    openPullRequests: 2
+    openPullRequests: 3
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-07-22T09:29:40.525Z
+    syncedAt: 2026-07-23T09:27:28.398Z
     apiVersion: rest-v3
     source: github-actions
   languages:

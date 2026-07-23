@@ -107,7 +107,7 @@ github:
     releases_url: https://api.github.com/repos/ish-app/ish/releases{/id}
     deployments_url: https://api.github.com/repos/ish-app/ish/deployments
     created_at: 2017-05-05T00:10:35Z
-    updated_at: 2026-07-22T06:07:19Z
+    updated_at: 2026-07-22T12:45:25Z
     pushed_at: 2026-07-18T06:54:56Z
     git_url: git://github.com/ish-app/ish.git
     ssh_url: git@github.com:ish-app/ish.git
@@ -115,8 +115,8 @@ github:
     svn_url: https://github.com/ish-app/ish
     homepage: https://ish.app
     size: 5587
-    stargazers_count: 20173
-    watchers_count: 20173
+    stargazers_count: 20172
+    watchers_count: 20172
     language: C
     has_issues: true
     has_projects: true
@@ -124,7 +124,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1452
+    forks_count: 1453
     mirror_url: null
     archived: false
     disabled: false
@@ -146,9 +146,9 @@ github:
       - ios
       - linux
     visibility: public
-    forks: 1452
+    forks: 1453
     open_issues: 692
-    watchers: 20173
+    watchers: 20172
     default_branch: master
     permissions:
       admin: false
@@ -178,10 +178,10 @@ github:
       type: Organization
       user_view_type: public
       site_admin: false
-    network_count: 1452
+    network_count: 1453
     subscribers_count: 578
   sync:
-    syncedAt: 2026-07-22T09:29:20.562Z
+    syncedAt: 2026-07-23T09:27:10.082Z
     apiVersion: rest-v3
     source: github-actions
   languages:
@@ -298,7 +298,7 @@ github:
         state: uploaded
         size: 1416200
         digest: null
-        download_count: 1448
+        download_count: 1450
         created_at: 2023-05-20T23:52:44Z
         updated_at: 2023-05-20T23:52:44Z
         browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.app.dSYM.zip
@@ -331,7 +331,7 @@ github:
         state: uploaded
         size: 4232682
         digest: null
-        download_count: 15872
+        download_count: 15910
         created_at: 2023-05-20T23:52:43Z
         updated_at: 2023-05-20T23:52:43Z
         browser_download_url: https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa
