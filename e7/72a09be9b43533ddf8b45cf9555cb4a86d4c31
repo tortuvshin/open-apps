@@ -1,0 +1,23 @@
+.gitignore
+  s_f21e587a050bb0::t_348f5d0578bc60 1-3,5,10-13,15-16,18-20
+astro.config.mjs
+  s_f21e587a050bb0::t_a62c726da4c5fa 5-6,9-10,12-15,17,19
+tsconfig.json
+  s_f21e587a050bb0::t_857b865d551281 2,4-9,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e772a09be9b43533ddf8b45cf9555cb4a86d4c31",
+  "prompts": {},
+  "sessions": {
+    "s_f21e587a050bb0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74ad021a-df36-46a6-870a-cb8e2029b8f2",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
