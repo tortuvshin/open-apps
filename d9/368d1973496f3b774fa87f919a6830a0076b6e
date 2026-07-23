@@ -1,0 +1,23 @@
+src/pages/404.astro
+  s_f21e587a050bb0::t_9321807669fde3 1-64
+src/pages/[slug]/[recordSlug].astro
+  s_f21e587a050bb0::t_44f4a37fa774b6 1-527
+src/pages/[slug]/index.astro
+  s_f21e587a050bb0::t_229be6e9c2d2fd 1-243
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "d9368d1973496f3b774fa87f919a6830a0076b6e",
+  "prompts": {},
+  "sessions": {
+    "s_f21e587a050bb0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "74ad021a-df36-46a6-870a-cb8e2029b8f2",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
