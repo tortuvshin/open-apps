@@ -9852,3 +9852,32 @@ health:
       staleReason: no_commits_365_days
       confidence: medium
       reasons: []
+  - id: cap
+    github:
+      fullName: CapSoftware/Cap
+      stars: 0
+      forks: 0
+      openIssues: 0
+      watchers: 0
+      archived: false
+      disabled: false
+      private: false
+      visibility: public
+      pushedAt: 2025-07-25T00:00:00Z
+      updatedAt: 2025-07-25T00:00:00Z
+      createdAt: 2025-07-25T00:00:00Z
+      license: null
+      topics: []
+      language: null
+      defaultBranch: main
+      languages: {}
+      files: {}
+      monthlyCommits: []
+    health:
+      status: unknown
+      maturity: unknown
+      tier: experimental
+      visibility: keep
+      cleanupCandidate: false
+      confidence: low
+      reasons: []

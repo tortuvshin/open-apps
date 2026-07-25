@@ -1,0 +1,37 @@
+---
+import CollectionPage from "@grove-dev/astro/components/CollectionPage.astro";
+import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
+import {
+  getCollectionPageModel,
+  recordsToCollectionEntries,
+  loadCollections,
+} from "@grove-dev/astro/server";
+import records from "@grove/generated/records.json";
+import siteConfig from "@grove/generated/site-config.json";
+
+export async function getStaticPaths() {
+  const collections = await loadCollections(process.cwd());
+  return collections.map((c) => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const collections = await loadCollections(process.cwd());
+const collection = collections.find((c) => c.slug === slug);
+if (!collection) return Astro.redirect("/404");
+
+const entries = recordsToCollectionEntries(
+  (records as { records: unknown[] }).records as never,
+  siteConfig,
+);
+const model = getCollectionPageModel(collection, entries, collections);
+---
+<BaseLayout
+  title={model.collection.title}
+  description={model.collection.description}
+  site={siteConfig}
+>
+  <CollectionPage
+    model={model}
+    eyebrow={model.collection.kind === "curated" ? "Curated collection" : "Generated collection"}
+  />
+</BaseLayout>

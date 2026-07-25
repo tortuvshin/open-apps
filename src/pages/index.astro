@@ -20,8 +20,15 @@ import CategoryGrid from "@grove-dev/astro/components/CategoryGrid.astro";
 import ContributorsGrid from "@grove-dev/astro/components/ContributorsGrid.astro";
 import OriginalCollection from "@grove-dev/astro/components/OriginalCollection.astro";
 import FinalCta from "@grove-dev/astro/components/FinalCta.astro";
+import CollectionTeaser from "@grove-dev/astro/components/CollectionTeaser.astro";
 
-import { getHomePageModel } from "@grove-dev/astro/server";
+import {
+  getHomePageModel,
+  getCollectionTeaserModel,
+  recordsToCollectionEntries,
+  loadCollections,
+} from "@grove-dev/astro/server";
+import records from "@grove/generated/records.json";
 import siteConfig from "@grove/generated/site-config.json";
 
 const home = getHomePageModel(siteConfig);
@@ -35,6 +42,14 @@ const matureList = home.established;
 const { stacks, categories } = home;
 
 const { contributors, stats, title, description } = home;
+
+// ── Featured collections teaser ─────────────────────────────────
+const allCollections = await loadCollections(process.cwd());
+const teaserEntries = recordsToCollectionEntries(
+  (records as { records: unknown[] }).records as never,
+  siteConfig,
+);
+const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries, 3);
 ---
 
 <BaseLayout title={title} description={description} site={siteConfig}>
@@ -103,6 +118,7 @@ const { contributors, stats, title, description } = home;
   />
 
   <StackGrid stacks={stacks} pathPrefix={`/${slug}`} itemLabelPlural={itemPlural} />
+  <CollectionTeaser model={collectionTeaser} />
   <CategoryGrid categories={categories} pathPrefix={`/${slug}`} itemLabelPlural={itemPlural} />
 
   <ContributorsGrid

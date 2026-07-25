@@ -1,0 +1,25 @@
+---
+import CollectionIndex from "@grove-dev/astro/components/CollectionIndex.astro";
+import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
+import {
+  getCollectionIndexModel,
+  recordsToCollectionEntries,
+  loadCollections,
+} from "@grove-dev/astro/server";
+import records from "@grove/generated/records.json";
+import siteConfig from "@grove/generated/site-config.json";
+
+const collections = await loadCollections(process.cwd());
+const entries = recordsToCollectionEntries(
+  (records as { records: unknown[] }).records as never,
+  siteConfig,
+);
+const model = getCollectionIndexModel(collections, entries);
+---
+<BaseLayout
+  title="Collections"
+  description="Curated and generated directories of related open-source apps."
+  site={siteConfig}
+>
+  <CollectionIndex model={model} />
+</BaseLayout>
