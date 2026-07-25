@@ -163,9 +163,8 @@ github:
     openPullRequests: 2
     contributorsKnown: 8
   sync:
-    syncedAt: 2026-07-22T09:29:39.996Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:02.333Z
+    source: html
   languages:
     C++: 1838832
     Swift: 1770985
@@ -291,7 +290,12 @@ github:
 
       \r
 
-      Where to begin. This update, and my goal with it, is to bring the project back from the dead so to speak. In doing so, the codebase has been retooled and refactored, APIs have been restored, and compilation errors have been resolved. In the same vein, all (or maybe most?) bugs related to changes in iOS/Swift/SwiftUI over the past few years have been resolved. My goal is to put a new foundation in place to begin building on top of again. In other words, 2.0 returns OldOS to how it once was (and improves it perhaps too)."
+      Where to begin. This update, and my goal with it, is to bring the project back from the dead
+      so to speak. In doing so, the codebase has been retooled and refactored, APIs have been
+      restored, and compilation errors have been resolved. In the same vein, all (or maybe most?)
+      bugs related to changes in iOS/Swift/SwiftUI over the past few years have been resolved. My
+      goal is to put a new foundation in place to begin building on top of again. In other words,
+      2.0 returns OldOS to how it once was (and improves it perhaps too)."
     reactions:
       url: https://api.github.com/repos/zzanehip/The-OldOS-Project/releases/228615619/reactions
       total_count: 53
@@ -317,6 +321,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: null
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

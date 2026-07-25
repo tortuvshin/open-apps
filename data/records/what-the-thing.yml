@@ -1,7 +1,8 @@
 kind: project
 name: What the thing?
 slug: what-the-thing
-description: Point your camera at objects to learn how to say them in another language. Object-recognition powered app built with React Native.
+description: Point your camera at objects to learn how to say them in another language.
+  Object-recognition powered app built with React Native.
 category: education
 tags:
   - cross-platform
@@ -60,7 +61,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/vigzmv/what_the_thing
-    description: :camera: Point your camera at things to learn how to say them in a different language. Android app built with React Native.
+    description: :camera: Point your camera at things to learn how to say them in a different language.
+      Android app built with React Native.
     fork: false
     url: https://api.github.com/repos/vigzmv/what_the_thing
     forks_url: https://api.github.com/repos/vigzmv/what_the_thing/forks
@@ -173,9 +175,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-07-22T09:29:44.615Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:11.360Z
+    source: html
   languages:
     JavaScript: 14910
     Objective-C: 4440
@@ -228,7 +229,9 @@ github:
 
       \r
 
-      Download: [What The Thing](https://github.com/vigzmv/what_the_thing/files/1134631/what_the_thing_1.1.0-release.apk.zip)\r\n"
+      Download: [What The
+      Thing](https://github.com/vigzmv/what_the_thing/files/1134631/what_the_thing_1.1.0-release.ap\
+      k.zip)\r\n"
   files:
     readme: true
     contributing: false
@@ -240,6 +243,11 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: quiet
   tier: curated

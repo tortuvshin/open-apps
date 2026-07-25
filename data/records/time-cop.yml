@@ -166,9 +166,8 @@ github:
     openPullRequests: 10
     contributorsKnown: 50
   sync:
-    syncedAt: 2026-07-22T09:29:40.084Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:03.418Z
+    source: html
   languages:
     Dart: 410915
     CMake: 7591
@@ -284,7 +283,8 @@ github:
         browser_download_url: https://github.com/hamaluik/timecop/releases/download/v1.8.0/timecop-linux-x86_64.tar.xz
     tarball_url: https://api.github.com/repos/hamaluik/timecop/tarball/v1.8.0
     zipball_url: https://api.github.com/repos/hamaluik/timecop/zipball/v1.8.0
-    body: "Thanks to all the Hacktoberfest participants, translators, and other volunteers for helping out!\r
+    body: "Thanks to all the Hacktoberfest participants, translators, and other volunteers for helping
+      out!\r
 
       \r
 
@@ -375,6 +375,11 @@ github:
     - name: good first issue
       color: 2F8DD7
       description: ""
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: stale
   tier: curated

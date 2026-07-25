@@ -1,7 +1,8 @@
 kind: project
 name: Berty
 slug: berty
-description: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+description: Berty is a secure peer-to-peer messaging app that works with or without internet
+  access, cellular data or trust in the network.
 category: communication
 tags:
   - cross-platform
@@ -45,105 +46,16 @@ curation:
 visibility: keep
 github:
   repository:
-    id: 141089889
-    node_id: MDEwOlJlcG9zaXRvcnkxNDEwODk4ODk=
-    name: berty
     full_name: berty/berty
-    private: false
-    owner:
-      login: berty
-      id: 22157871
-      node_id: MDEyOk9yZ2FuaXphdGlvbjIyMTU3ODcx
-      avatar_url: https://avatars.githubusercontent.com/u/22157871?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/berty
-      html_url: https://github.com/berty
-      followers_url: https://api.github.com/users/berty/followers
-      following_url: https://api.github.com/users/berty/following{/other_user}
-      gists_url: https://api.github.com/users/berty/gists{/gist_id}
-      starred_url: https://api.github.com/users/berty/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/berty/subscriptions
-      organizations_url: https://api.github.com/users/berty/orgs
-      repos_url: https://api.github.com/users/berty/repos
-      events_url: https://api.github.com/users/berty/events{/privacy}
-      received_events_url: https://api.github.com/users/berty/received_events
-      type: Organization
-      user_view_type: public
-      site_admin: false
-    html_url: https://github.com/berty/berty
-    description: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
-    fork: false
-    url: https://api.github.com/repos/berty/berty
-    forks_url: https://api.github.com/repos/berty/berty/forks
-    keys_url: https://api.github.com/repos/berty/berty/keys{/key_id}
-    collaborators_url: https://api.github.com/repos/berty/berty/collaborators{/collaborator}
-    teams_url: https://api.github.com/repos/berty/berty/teams
-    hooks_url: https://api.github.com/repos/berty/berty/hooks
-    issue_events_url: https://api.github.com/repos/berty/berty/issues/events{/number}
-    events_url: https://api.github.com/repos/berty/berty/events
-    assignees_url: https://api.github.com/repos/berty/berty/assignees{/user}
-    branches_url: https://api.github.com/repos/berty/berty/branches{/branch}
-    tags_url: https://api.github.com/repos/berty/berty/tags
-    blobs_url: https://api.github.com/repos/berty/berty/git/blobs{/sha}
-    git_tags_url: https://api.github.com/repos/berty/berty/git/tags{/sha}
-    git_refs_url: https://api.github.com/repos/berty/berty/git/refs{/sha}
-    trees_url: https://api.github.com/repos/berty/berty/git/trees{/sha}
-    statuses_url: https://api.github.com/repos/berty/berty/statuses/{sha}
-    languages_url: https://api.github.com/repos/berty/berty/languages
-    stargazers_url: https://api.github.com/repos/berty/berty/stargazers
-    contributors_url: https://api.github.com/repos/berty/berty/contributors
-    subscribers_url: https://api.github.com/repos/berty/berty/subscribers
-    subscription_url: https://api.github.com/repos/berty/berty/subscription
-    commits_url: https://api.github.com/repos/berty/berty/commits{/sha}
-    git_commits_url: https://api.github.com/repos/berty/berty/git/commits{/sha}
-    comments_url: https://api.github.com/repos/berty/berty/comments{/number}
-    issue_comment_url: https://api.github.com/repos/berty/berty/issues/comments{/number}
-    contents_url: https://api.github.com/repos/berty/berty/contents/{+path}
-    compare_url: https://api.github.com/repos/berty/berty/compare/{base}...{head}
-    merges_url: https://api.github.com/repos/berty/berty/merges
-    archive_url: https://api.github.com/repos/berty/berty/{archive_format}{/ref}
-    downloads_url: https://api.github.com/repos/berty/berty/downloads
-    issues_url: https://api.github.com/repos/berty/berty/issues{/number}
-    pulls_url: https://api.github.com/repos/berty/berty/pulls{/number}
-    milestones_url: https://api.github.com/repos/berty/berty/milestones{/number}
-    notifications_url: https://api.github.com/repos/berty/berty/notifications{?since,all,participating}
-    labels_url: https://api.github.com/repos/berty/berty/labels{/name}
-    releases_url: https://api.github.com/repos/berty/berty/releases{/id}
-    deployments_url: https://api.github.com/repos/berty/berty/deployments
-    created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-07-22T06:22:58Z
-    pushed_at: 2026-07-21T11:35:05Z
-    git_url: git://github.com/berty/berty.git
-    ssh_url: git@github.com:berty/berty.git
-    clone_url: https://github.com/berty/berty.git
-    svn_url: https://github.com/berty/berty
-    homepage: https://berty.tech
-    size: 274467
-    stargazers_count: 9248
-    watchers_count: 9248
-    language: TypeScript
-    has_issues: true
-    has_projects: true
-    has_downloads: false
-    has_wiki: true
-    has_pages: false
-    has_discussions: true
+    stargazers_count: 9251
     forks_count: 496
-    mirror_url: null
+    open_issues_count: 90
+    language: TypeScript
+    pushed_at: 2026-07-24T14:10:33Z
     archived: false
-    disabled: false
-    open_issues_count: 98
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: true
-    has_pull_requests: true
-    pull_request_creation_policy: all
+      name: NOASSERTION
     topics:
       - android
       - berty
@@ -164,41 +76,6 @@ github:
       - privacy
       - react-native
       - surveillance
-    visibility: public
-    forks: 496
-    open_issues: 98
-    watchers: 9248
-    default_branch: master
-    permissions:
-      admin: false
-      maintain: false
-      push: false
-      triage: false
-      pull: false
-    temp_clone_token: ""
-    custom_properties: {}
-    organization:
-      login: berty
-      id: 22157871
-      node_id: MDEyOk9yZ2FuaXphdGlvbjIyMTU3ODcx
-      avatar_url: https://avatars.githubusercontent.com/u/22157871?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/berty
-      html_url: https://github.com/berty
-      followers_url: https://api.github.com/users/berty/followers
-      following_url: https://api.github.com/users/berty/following{/other_user}
-      gists_url: https://api.github.com/users/berty/gists{/gist_id}
-      starred_url: https://api.github.com/users/berty/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/berty/subscriptions
-      organizations_url: https://api.github.com/users/berty/orgs
-      repos_url: https://api.github.com/users/berty/repos
-      events_url: https://api.github.com/users/berty/events{/privacy}
-      received_events_url: https://api.github.com/users/berty/received_events
-      type: Organization
-      user_view_type: public
-      site_admin: false
-    network_count: 496
-    subscribers_count: 122
   languages:
     TypeScript: 1879336
     Go: 1705547
@@ -257,13 +134,19 @@ github:
     assets: []
     tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.14
     zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.14
-    body: |+
+    body: >+
       ## [2.471.14](https://github.com/berty/berty/compare/v2.471.13...v2.471.14) (2026-07-03)
+
 
 
       ### Bug Fixes
 
-      * **bridge-expo:** derive iOS App Group per build variant ([#5151](https://github.com/berty/berty/issues/5151)) ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)), closes [#5006](https://github.com/berty/berty/issues/5006) [#5007](https://github.com/berty/berty/issues/5007)
+
+      * **bridge-expo:** derive iOS App Group per build variant
+      ([#5151](https://github.com/berty/berty/issues/5151))
+      ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)),
+      closes [#5006](https://github.com/berty/berty/issues/5006)
+      [#5007](https://github.com/berty/berty/issues/5007)
 
 
 
@@ -299,9 +182,8 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-22T09:29:02.481Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:09:49.133Z
+    source: api
 health:
   status: active
   tier: listed

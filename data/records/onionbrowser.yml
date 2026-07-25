@@ -193,9 +193,8 @@ github:
     network_count: 534
     subscribers_count: 167
   sync:
-    syncedAt: 2026-07-22T09:29:29.345Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:40.956Z
+    source: html
   languages:
     Swift: 385716
     HTML: 24631
@@ -328,6 +327,11 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: null
+    language: null
+    topics: []
+    homepage: null
 health:
   status: unknown
   tier: listed

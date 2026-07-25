@@ -61,7 +61,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/woosignal/flutter-woocommerce-app
-    description: WooCommerce App template that uses Flutter. Integrated to work with WooCommerce stores, connect and create an IOS and Android app from Flutter for IOS and Android
+    description: WooCommerce App template that uses Flutter. Integrated to work with WooCommerce stores,
+      connect and create an IOS and Android app from Flutter for IOS and Android
     fork: false
     url: https://api.github.com/repos/woosignal/flutter-woocommerce-app
     forks_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/forks
@@ -202,9 +203,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-07-22T09:29:13.572Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:08.598Z
+    source: html
   languages:
     Dart: 540390
     Swift: 676
@@ -268,6 +268,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: BSD-2-Clause
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

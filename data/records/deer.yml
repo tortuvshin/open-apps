@@ -33,105 +33,16 @@ curation:
 visibility: keep
 github:
   repository:
-    id: 154816802
-    node_id: MDEwOlJlcG9zaXRvcnkxNTQ4MTY4MDI=
-    name: deer
     full_name: aleksanderwozniak/deer
-    private: false
-    owner:
-      login: aleksanderwozniak
-      id: 22658673
-      node_id: MDQ6VXNlcjIyNjU4Njcz
-      avatar_url: https://avatars.githubusercontent.com/u/22658673?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/aleksanderwozniak
-      html_url: https://github.com/aleksanderwozniak
-      followers_url: https://api.github.com/users/aleksanderwozniak/followers
-      following_url: https://api.github.com/users/aleksanderwozniak/following{/other_user}
-      gists_url: https://api.github.com/users/aleksanderwozniak/gists{/gist_id}
-      starred_url: https://api.github.com/users/aleksanderwozniak/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/aleksanderwozniak/subscriptions
-      organizations_url: https://api.github.com/users/aleksanderwozniak/orgs
-      repos_url: https://api.github.com/users/aleksanderwozniak/repos
-      events_url: https://api.github.com/users/aleksanderwozniak/events{/privacy}
-      received_events_url: https://api.github.com/users/aleksanderwozniak/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    html_url: https://github.com/aleksanderwozniak/deer
-    description: Minimalist Flutter Todo App, built using BLoC pattern
-    fork: false
-    url: https://api.github.com/repos/aleksanderwozniak/deer
-    forks_url: https://api.github.com/repos/aleksanderwozniak/deer/forks
-    keys_url: https://api.github.com/repos/aleksanderwozniak/deer/keys{/key_id}
-    collaborators_url: https://api.github.com/repos/aleksanderwozniak/deer/collaborators{/collaborator}
-    teams_url: https://api.github.com/repos/aleksanderwozniak/deer/teams
-    hooks_url: https://api.github.com/repos/aleksanderwozniak/deer/hooks
-    issue_events_url: https://api.github.com/repos/aleksanderwozniak/deer/issues/events{/number}
-    events_url: https://api.github.com/repos/aleksanderwozniak/deer/events
-    assignees_url: https://api.github.com/repos/aleksanderwozniak/deer/assignees{/user}
-    branches_url: https://api.github.com/repos/aleksanderwozniak/deer/branches{/branch}
-    tags_url: https://api.github.com/repos/aleksanderwozniak/deer/tags
-    blobs_url: https://api.github.com/repos/aleksanderwozniak/deer/git/blobs{/sha}
-    git_tags_url: https://api.github.com/repos/aleksanderwozniak/deer/git/tags{/sha}
-    git_refs_url: https://api.github.com/repos/aleksanderwozniak/deer/git/refs{/sha}
-    trees_url: https://api.github.com/repos/aleksanderwozniak/deer/git/trees{/sha}
-    statuses_url: https://api.github.com/repos/aleksanderwozniak/deer/statuses/{sha}
-    languages_url: https://api.github.com/repos/aleksanderwozniak/deer/languages
-    stargazers_url: https://api.github.com/repos/aleksanderwozniak/deer/stargazers
-    contributors_url: https://api.github.com/repos/aleksanderwozniak/deer/contributors
-    subscribers_url: https://api.github.com/repos/aleksanderwozniak/deer/subscribers
-    subscription_url: https://api.github.com/repos/aleksanderwozniak/deer/subscription
-    commits_url: https://api.github.com/repos/aleksanderwozniak/deer/commits{/sha}
-    git_commits_url: https://api.github.com/repos/aleksanderwozniak/deer/git/commits{/sha}
-    comments_url: https://api.github.com/repos/aleksanderwozniak/deer/comments{/number}
-    issue_comment_url: https://api.github.com/repos/aleksanderwozniak/deer/issues/comments{/number}
-    contents_url: https://api.github.com/repos/aleksanderwozniak/deer/contents/{+path}
-    compare_url: https://api.github.com/repos/aleksanderwozniak/deer/compare/{base}...{head}
-    merges_url: https://api.github.com/repos/aleksanderwozniak/deer/merges
-    archive_url: https://api.github.com/repos/aleksanderwozniak/deer/{archive_format}{/ref}
-    downloads_url: https://api.github.com/repos/aleksanderwozniak/deer/downloads
-    issues_url: https://api.github.com/repos/aleksanderwozniak/deer/issues{/number}
-    pulls_url: https://api.github.com/repos/aleksanderwozniak/deer/pulls{/number}
-    milestones_url: https://api.github.com/repos/aleksanderwozniak/deer/milestones{/number}
-    notifications_url: https://api.github.com/repos/aleksanderwozniak/deer/notifications{?since,all,participating}
-    labels_url: https://api.github.com/repos/aleksanderwozniak/deer/labels{/name}
-    releases_url: https://api.github.com/repos/aleksanderwozniak/deer/releases{/id}
-    deployments_url: https://api.github.com/repos/aleksanderwozniak/deer/deployments
-    created_at: 2018-10-26T10:19:39Z
-    updated_at: 2026-05-08T22:25:14Z
-    pushed_at: 2020-11-11T16:33:35Z
-    git_url: git://github.com/aleksanderwozniak/deer.git
-    ssh_url: git@github.com:aleksanderwozniak/deer.git
-    clone_url: https://github.com/aleksanderwozniak/deer.git
-    svn_url: https://github.com/aleksanderwozniak/deer
-    homepage: ""
-    size: 7143
     stargazers_count: 460
-    watchers_count: 460
-    language: Dart
-    has_issues: true
-    has_projects: true
-    has_downloads: false
-    has_wiki: true
-    has_pages: false
-    has_discussions: false
     forks_count: 101
-    mirror_url: null
-    archived: false
-    disabled: false
     open_issues_count: 0
+    language: Dart
+    pushed_at: 2020-11-11T16:33:35Z
+    archived: false
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    has_pull_requests: true
-    pull_request_creation_policy: all
+      name: MIT
     topics:
       - bloc
       - bloc-pattern
@@ -142,20 +53,6 @@ github:
       - minimalist
       - task
       - todo
-    visibility: public
-    forks: 101
-    open_issues: 0
-    watchers: 460
-    default_branch: master
-    permissions:
-      admin: false
-      maintain: false
-      push: false
-      triage: false
-      pull: false
-    temp_clone_token: ""
-    network_count: 101
-    subscribers_count: 15
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -174,9 +71,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-22T09:29:05.293Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:09:52.802Z
+    source: api
   languages:
     Dart: 202790
     Kotlin: 1547

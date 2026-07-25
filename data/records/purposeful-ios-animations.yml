@@ -1,7 +1,10 @@
 kind: project
 name: purposeful-ios-animations
 slug: purposeful-ios-animations
-description: Meaningful iOS animations built to inspire you in creating useful animations for your apps. Each of the animations here was cloned with SwiftUI. Have you seen an app animation you love to rebuild and add to this repo?, contact [@amos_gyamfi](https://twitter.com/amos_gyamfi) and [@stefanjblos](https://twitter.com/stefanjblos) on Twitter.
+description: Meaningful iOS animations built to inspire you in creating useful animations for your
+  apps. Each of the animations here was cloned with SwiftUI. Have you seen an app animation you love
+  to rebuild and add to this repo?, contact [@amos_gyamfi](https://twitter.com/amos_gyamfi) and
+  [@stefanjblos](https://twitter.com/stefanjblos) on Twitter.
 category: tools
 tags:
   - swift
@@ -61,7 +64,10 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/GetStream/purposeful-ios-animations
-    description: Meaningful iOS animations built to inspire you in creating useful animations for your apps. Each of the animations here was cloned with SwiftUI. Have you seen an app animation you love to rebuild and add to this repo?, contact [@amos_gyamfi](https://twitter.com/amos_gyamfi) and [@stefanjblos](https://twitter.com/stefanjblos) on Twitter.
+    description: Meaningful iOS animations built to inspire you in creating useful animations for your
+      apps. Each of the animations here was cloned with SwiftUI. Have you seen an app animation you
+      love to rebuild and add to this repo?, contact [@amos_gyamfi](https://twitter.com/amos_gyamfi)
+      and [@stefanjblos](https://twitter.com/stefanjblos) on Twitter.
     fork: false
     url: https://api.github.com/repos/GetStream/purposeful-ios-animations
     forks_url: https://api.github.com/repos/GetStream/purposeful-ios-animations/forks
@@ -194,9 +200,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-22T09:29:31.790Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:47.395Z
+    source: html
   languages:
     Swift: 210950
   latestRelease: null
@@ -214,6 +219,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: null
+    language: null
+    topics: []
+    homepage: null
 health:
   status: stale
   tier: curated

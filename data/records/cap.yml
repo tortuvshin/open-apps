@@ -1,10 +1,10 @@
 kind: project
 slug: cap
-name: "Cap"
-description: "Open source Loom alternative. Beautiful, shareable screen recordings."
+name: Cap
+description: Open source Loom alternative. Beautiful, shareable screen recordings.
 category: tools
 projectType: real-app
-stack: "tauri"
+stack: tauri
 platforms:
   - macos
   - windows
@@ -23,8 +23,7 @@ repoUrl: https://github.com/CapSoftware/Cap
 links:
   github: https://github.com/CapSoftware/Cap
   website: https://cap.so
-bestFor:
-  []
+bestFor: []
 source:
   type: manual
   owner: CapSoftware
@@ -33,3 +32,39 @@ curation:
   reviewed: false
   labels: []
   lenses: []
+github:
+  repository:
+    full_name: CapSoftware/Cap
+    stargazers_count: 20331
+    forks_count: 1716
+    open_issues_count: 517
+    language: TypeScript
+    pushed_at: 2026-07-24T20:18:53Z
+    archived: false
+    license:
+      spdx_id: NOASSERTION
+      name: NOASSERTION
+    topics:
+      - app
+      - cap
+      - coss
+      - loom
+      - mac
+      - nextjs
+      - nextjs15
+      - open-source
+      - oss
+      - react
+      - record
+      - rust
+      - screen-capture
+      - screen-recorder
+      - screenshot
+      - solidjs
+      - tauri
+      - tauri-app
+      - typescript
+      - vite
+  sync:
+    syncedAt: 2026-07-25T06:09:50.520Z
+    source: api

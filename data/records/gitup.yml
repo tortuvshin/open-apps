@@ -189,9 +189,8 @@ github:
     openPullRequests: 2
     contributorsKnown: 62
   sync:
-    syncedAt: 2026-07-22T09:29:15.694Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:14.798Z
+    source: html
   languages:
     Objective-C: 1791093
     Shell: 6054
@@ -284,29 +283,39 @@ github:
 
       ### A whole bunch of updates from GitHub PRs:\r
 
-      * Fix some “Stage All” special cases by @Cykelero in https://github.com/git-up/GitUp/pull/1037\r
+      * Fix some “Stage All” special cases by @Cykelero in
+      https://github.com/git-up/GitUp/pull/1037\r
 
       * Update libgit2 fork to v1.9.0 by @Cykelero in https://github.com/git-up/GitUp/pull/2683\r
 
-      * Update Homebrew cask name in README by @Quintisimo in https://github.com/git-up/GitUp/pull/2726\r
+      * Update Homebrew cask name in README by @Quintisimo in
+      https://github.com/git-up/GitUp/pull/2726\r
 
-      * Make reloadHistory tip hiding much faster by @Cykelero in https://github.com/git-up/GitUp/pull/2707\r
+      * Make reloadHistory tip hiding much faster by @Cykelero in
+      https://github.com/git-up/GitUp/pull/2707\r
 
-      * Make the Text Size preference apply to the text in the diff view, not just the line numbers by @mluisbrown in https://github.com/git-up/GitUp/pull/2727\r
+      * Make the Text Size preference apply to the text in the diff view, not just the line numbers
+      by @mluisbrown in https://github.com/git-up/GitUp/pull/2727\r
 
-      * Fix highlight range computation for non-ascii characters by @lucasderraugh in https://github.com/git-up/GitUp/pull/2742\r
+      * Fix highlight range computation for non-ascii characters by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2742\r
 
-      * Fix crash when staging lines with the index locked by @Cykelero in https://github.com/git-up/GitUp/pull/2771\r
+      * Fix crash when staging lines with the index locked by @Cykelero in
+      https://github.com/git-up/GitUp/pull/2771\r
 
       * Add GitUpKit to readme intro by @Cykelero in https://github.com/git-up/GitUp/pull/2776\r
 
-      * Allow opening containing repo from subdirectory by @lucasderraugh in https://github.com/git-up/GitUp/pull/2777\r
+      * Allow opening containing repo from subdirectory by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2777\r
 
-      * Improve selected files performance lag in Commit View by @delacrixmorgan in https://github.com/git-up/GitUp/pull/2780\r
+      * Improve selected files performance lag in Commit View by @delacrixmorgan in
+      https://github.com/git-up/GitUp/pull/2780\r
 
-      * Bump to macOS 12.4 min target by @lucasderraugh in https://github.com/git-up/GitUp/pull/2785\r
+      * Bump to macOS 12.4 min target by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2785\r
 
-      * Move back to CMake for libgit2 compilation by @lucasderraugh in https://github.com/git-up/GitUp/pull/2786\r
+      * Move back to CMake for libgit2 compilation by @lucasderraugh in
+      https://github.com/git-up/GitUp/pull/2786\r
 
       * Use ssh_exec from libgit2 by @lucasderraugh in https://github.com/git-up/GitUp/pull/2787\r
 
@@ -346,6 +355,11 @@ github:
     - name: good first issue
       color: a4ea59
       description: A change that shouldn't involve too much insider knowledge
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

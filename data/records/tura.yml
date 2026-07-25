@@ -1,7 +1,8 @@
 kind: project
 name: Tura
 slug: tura
-description: A local open-source AI coding agent with CLI, TUI, web, and desktop interfaces for structured tool execution and context-aware development workflows.
+description: A local open-source AI coding agent with CLI, TUI, web, and desktop interfaces for
+  structured tool execution and context-aware development workflows.
 category: tools
 tags:
   - coding-agent
@@ -80,7 +81,9 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/Tura-AI/tura
-    description: Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared with Codex CLI.
+    description: Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the
+      rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared
+      with Codex CLI.
     fork: false
     url: https://api.github.com/repos/Tura-AI/tura
     forks_url: https://api.github.com/repos/Tura-AI/tura/forks
@@ -201,9 +204,8 @@ github:
     network_count: 16
     subscribers_count: 4
   sync:
-    syncedAt: 2026-07-22T09:29:42.898Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:08.016Z
+    source: html
   languages:
     Rust: 5581213
     TypeScript: 1830673
@@ -813,6 +815,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: unknown
   tier: listed

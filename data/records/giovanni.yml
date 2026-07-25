@@ -170,9 +170,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:15.369Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:13.906Z
+    source: html
   languages:
     Swift: 49092
     Objective-C: 9531
@@ -216,9 +215,12 @@ github:
     assets: []
     tarball_url: https://api.github.com/repos/gabrieloc/GIOVANNI/tarball/v0.2
     zipball_url: https://api.github.com/repos/gabrieloc/GIOVANNI/zipball/v0.2
-    body: "- Overhauls game rendering to use SpriteKit Textures instead of Core Graphics, resulting in significant performance and graphics improvements\r
+    body: "- Overhauls game rendering to use SpriteKit Textures instead of Core Graphics, resulting in
+      significant performance and graphics improvements\r
 
-      - Removes automatic saving and loading, which was resulting in the majority of crashes when selecting a game. They have been moved to the force touch menu, but are still buggy. Will require investigation."
+      - Removes automatic saving and loading, which was resulting in the majority of crashes when
+      selecting a game. They have been moved to the force touch menu, but are still buggy. Will
+      require investigation."
     reactions:
       url: https://api.github.com/repos/gabrieloc/GIOVANNI/releases/5924826/reactions
       total_count: 2
@@ -241,6 +243,11 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: stale
   tier: curated

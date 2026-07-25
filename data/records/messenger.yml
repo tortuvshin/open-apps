@@ -164,9 +164,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-22T09:29:24.435Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:32.662Z
+    source: html
   languages: {}
   latestRelease: null
   files:
@@ -177,6 +176,11 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: null
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

@@ -35,105 +35,16 @@ curation:
 visibility: keep
 github:
   repository:
-    id: 16096528
-    node_id: MDEwOlJlcG9zaXRvcnkxNjA5NjUyOA==
-    name: AudioKit
     full_name: AudioKit/AudioKit
-    private: false
-    owner:
-      login: AudioKit
-      id: 6593633
-      node_id: MDEyOk9yZ2FuaXphdGlvbjY1OTM2MzM=
-      avatar_url: https://avatars.githubusercontent.com/u/6593633?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/AudioKit
-      html_url: https://github.com/AudioKit
-      followers_url: https://api.github.com/users/AudioKit/followers
-      following_url: https://api.github.com/users/AudioKit/following{/other_user}
-      gists_url: https://api.github.com/users/AudioKit/gists{/gist_id}
-      starred_url: https://api.github.com/users/AudioKit/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/AudioKit/subscriptions
-      organizations_url: https://api.github.com/users/AudioKit/orgs
-      repos_url: https://api.github.com/users/AudioKit/repos
-      events_url: https://api.github.com/users/AudioKit/events{/privacy}
-      received_events_url: https://api.github.com/users/AudioKit/received_events
-      type: Organization
-      user_view_type: public
-      site_admin: false
-    html_url: https://github.com/AudioKit/AudioKit
-    description: Audio synthesis, processing, & analysis platform for iOS, macOS and tvOS
-    fork: false
-    url: https://api.github.com/repos/AudioKit/AudioKit
-    forks_url: https://api.github.com/repos/AudioKit/AudioKit/forks
-    keys_url: https://api.github.com/repos/AudioKit/AudioKit/keys{/key_id}
-    collaborators_url: https://api.github.com/repos/AudioKit/AudioKit/collaborators{/collaborator}
-    teams_url: https://api.github.com/repos/AudioKit/AudioKit/teams
-    hooks_url: https://api.github.com/repos/AudioKit/AudioKit/hooks
-    issue_events_url: https://api.github.com/repos/AudioKit/AudioKit/issues/events{/number}
-    events_url: https://api.github.com/repos/AudioKit/AudioKit/events
-    assignees_url: https://api.github.com/repos/AudioKit/AudioKit/assignees{/user}
-    branches_url: https://api.github.com/repos/AudioKit/AudioKit/branches{/branch}
-    tags_url: https://api.github.com/repos/AudioKit/AudioKit/tags
-    blobs_url: https://api.github.com/repos/AudioKit/AudioKit/git/blobs{/sha}
-    git_tags_url: https://api.github.com/repos/AudioKit/AudioKit/git/tags{/sha}
-    git_refs_url: https://api.github.com/repos/AudioKit/AudioKit/git/refs{/sha}
-    trees_url: https://api.github.com/repos/AudioKit/AudioKit/git/trees{/sha}
-    statuses_url: https://api.github.com/repos/AudioKit/AudioKit/statuses/{sha}
-    languages_url: https://api.github.com/repos/AudioKit/AudioKit/languages
-    stargazers_url: https://api.github.com/repos/AudioKit/AudioKit/stargazers
-    contributors_url: https://api.github.com/repos/AudioKit/AudioKit/contributors
-    subscribers_url: https://api.github.com/repos/AudioKit/AudioKit/subscribers
-    subscription_url: https://api.github.com/repos/AudioKit/AudioKit/subscription
-    commits_url: https://api.github.com/repos/AudioKit/AudioKit/commits{/sha}
-    git_commits_url: https://api.github.com/repos/AudioKit/AudioKit/git/commits{/sha}
-    comments_url: https://api.github.com/repos/AudioKit/AudioKit/comments{/number}
-    issue_comment_url: https://api.github.com/repos/AudioKit/AudioKit/issues/comments{/number}
-    contents_url: https://api.github.com/repos/AudioKit/AudioKit/contents/{+path}
-    compare_url: https://api.github.com/repos/AudioKit/AudioKit/compare/{base}...{head}
-    merges_url: https://api.github.com/repos/AudioKit/AudioKit/merges
-    archive_url: https://api.github.com/repos/AudioKit/AudioKit/{archive_format}{/ref}
-    downloads_url: https://api.github.com/repos/AudioKit/AudioKit/downloads
-    issues_url: https://api.github.com/repos/AudioKit/AudioKit/issues{/number}
-    pulls_url: https://api.github.com/repos/AudioKit/AudioKit/pulls{/number}
-    milestones_url: https://api.github.com/repos/AudioKit/AudioKit/milestones{/number}
-    notifications_url: https://api.github.com/repos/AudioKit/AudioKit/notifications{?since,all,participating}
-    labels_url: https://api.github.com/repos/AudioKit/AudioKit/labels{/name}
-    releases_url: https://api.github.com/repos/AudioKit/AudioKit/releases{/id}
-    deployments_url: https://api.github.com/repos/AudioKit/AudioKit/deployments
-    created_at: 2014-01-21T08:16:07Z
-    updated_at: 2026-07-21T13:47:20Z
-    pushed_at: 2026-07-18T06:27:23Z
-    git_url: git://github.com/AudioKit/AudioKit.git
-    ssh_url: git@github.com:AudioKit/AudioKit.git
-    clone_url: https://github.com/AudioKit/AudioKit.git
-    svn_url: https://github.com/AudioKit/AudioKit
-    homepage: http://audiokit.io
-    size: 119733
-    stargazers_count: 11413
-    watchers_count: 11413
-    language: Swift
-    has_issues: true
-    has_projects: false
-    has_downloads: false
-    has_wiki: false
-    has_pages: false
-    has_discussions: false
+    stargazers_count: 11414
     forks_count: 1619
-    mirror_url: null
-    archived: false
-    disabled: false
     open_issues_count: 5
+    language: Swift
+    pushed_at: 2026-07-18T06:27:23Z
+    archived: false
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
-    allow_forking: true
-    is_template: false
-    web_commit_signoff_required: false
-    has_pull_requests: true
-    pull_request_creation_policy: all
+      name: MIT
     topics:
       - audio
       - audiokit
@@ -145,41 +56,6 @@ github:
       - swift
       - swift-playgrounds
       - tvos
-    visibility: public
-    forks: 1619
-    open_issues: 5
-    watchers: 11413
-    default_branch: main
-    permissions:
-      admin: false
-      maintain: false
-      push: false
-      triage: false
-      pull: false
-    temp_clone_token: ""
-    custom_properties: {}
-    organization:
-      login: AudioKit
-      id: 6593633
-      node_id: MDEyOk9yZ2FuaXphdGlvbjY1OTM2MzM=
-      avatar_url: https://avatars.githubusercontent.com/u/6593633?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/AudioKit
-      html_url: https://github.com/AudioKit
-      followers_url: https://api.github.com/users/AudioKit/followers
-      following_url: https://api.github.com/users/AudioKit/following{/other_user}
-      gists_url: https://api.github.com/users/AudioKit/gists{/gist_id}
-      starred_url: https://api.github.com/users/AudioKit/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/AudioKit/subscriptions
-      organizations_url: https://api.github.com/users/AudioKit/orgs
-      repos_url: https://api.github.com/users/AudioKit/repos
-      events_url: https://api.github.com/users/AudioKit/events{/privacy}
-      received_events_url: https://api.github.com/users/AudioKit/received_events
-      type: Organization
-      user_view_type: public
-      site_admin: false
-    network_count: 1619
-    subscribers_count: 294
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -198,9 +74,8 @@ github:
     openPullRequests: 3
     contributorsKnown: 225
   sync:
-    syncedAt: 2026-07-22T09:29:00.626Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:09:47.964Z
+    source: api
   languages:
     Swift: 1093483
   latestRelease:

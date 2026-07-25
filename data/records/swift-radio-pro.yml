@@ -183,9 +183,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 25
   sync:
-    syncedAt: 2026-07-22T09:29:37.516Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:56.998Z
+    source: html
   languages:
     Swift: 161994
   latestRelease:
@@ -260,16 +259,31 @@ github:
         browser_download_url: https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa
     tarball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/tarball/v3.1.0
     zipball_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/zipball/v3.1.0
-    body: |-
-      The attached `.ipa` is unsigned. Install it by sideloading with [AltStore](https://altstore.io) or [Sideloadly](https://sideloadly.io), which re-sign it with your own Apple ID. Or clone the repo and run it from Xcode with your personal team.
+    body: >-
+      The attached `.ipa` is unsigned. Install it by sideloading with
+      [AltStore](https://altstore.io) or [Sideloadly](https://sideloadly.io), which re-sign it with
+      your own Apple ID. Or clone the repo and run it from Xcode with your personal team.
+
 
       ## What's Changed
+
       * Localize About screen by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/206
-      * Add link to Swift Radio Android in README by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/209
-      * Move Android link below screenshots by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/210
-      * Fix CI builds by using iPhone 17 Pro simulator by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/211
-      * CarPlay indicator sync, lock screen fix, new app icon, release automation by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/212
-      * Fix iOS app icon: use square full-bleed artwork by @fethica in https://github.com/analogcode/Swift-Radio-Pro/pull/213
+
+      * Add link to Swift Radio Android in README by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/209
+
+      * Move Android link below screenshots by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/210
+
+      * Fix CI builds by using iPhone 17 Pro simulator by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/211
+
+      * CarPlay indicator sync, lock screen fix, new app icon, release automation by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/212
+
+      * Fix iOS app icon: use square full-bleed artwork by @fethica in
+      https://github.com/analogcode/Swift-Radio-Pro/pull/213
+
 
 
       **Full Changelog**: https://github.com/analogcode/Swift-Radio-Pro/compare/v3.0.0...v3.1.0
@@ -285,6 +299,11 @@ github:
     - name: help wanted
       color: "159818"
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

@@ -189,9 +189,8 @@ github:
     openPullRequests: 2
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-07-22T09:29:40.525Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:02.841Z
+    source: html
   languages:
     Swift: 1054739
     Ruby: 5619
@@ -209,6 +208,11 @@ github:
     - name: good first issue
       color: 7057ff
       description: Ideal for newcomers to start contributing
+  html:
+    license: MPL-2.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

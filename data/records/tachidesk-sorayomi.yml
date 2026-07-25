@@ -1,7 +1,8 @@
 kind: project
 name: Tachidesk-Sorayomi
 slug: tachidesk-sorayomi
-description: Frontend for [Tachidesk-server](github.com/Suwayomi/Tachidesk-server/), based on Tachiyomi to read manga in desktop
+description: Frontend for [Tachidesk-server](github.com/Suwayomi/Tachidesk-server/), based on
+  Tachiyomi to read manga in desktop
 category: entertainment
 tags:
   - cross-platform
@@ -200,9 +201,8 @@ github:
     openPullRequests: 14
     contributorsKnown: 63
   sync:
-    syncedAt: 2026-07-22T09:29:38.284Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:59.894Z
+    source: html
   languages:
     Dart: 881306
     C++: 21741
@@ -621,7 +621,8 @@ github:
     zipball_url: https://api.github.com/repos/Suwayomi/Tachidesk-Sorayomi/zipball/0.6.3
     body: "## What's Changed\r
 
-      * fixed port number picker by @DattatreyaReddy in https://github.com/Suwayomi/Tachidesk-Sorayomi/pull/336\r
+      * fixed port number picker by @DattatreyaReddy in
+      https://github.com/Suwayomi/Tachidesk-Sorayomi/pull/336\r
 
       \r
 
@@ -654,6 +655,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MPL-2.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: quiet
   tier: curated

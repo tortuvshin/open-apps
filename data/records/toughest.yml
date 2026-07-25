@@ -60,7 +60,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/MDSADABWASIM/Toughest
-    description: Interview questions and answers for preparation, built in pure flutter also have CI implementation for learning.
+    description: Interview questions and answers for preparation, built in pure flutter also have CI
+      implementation for learning.
     fork: false
     url: https://api.github.com/repos/MDSADABWASIM/Toughest
     forks_url: https://api.github.com/repos/MDSADABWASIM/Toughest/forks
@@ -172,9 +173,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 6
   sync:
-    syncedAt: 2026-07-22T09:29:40.907Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:04.821Z
+    source: html
   languages:
     Dart: 22989
     Ruby: 5482
@@ -197,6 +197,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: quiet
   tier: listed

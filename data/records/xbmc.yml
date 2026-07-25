@@ -1,7 +1,9 @@
 kind: project
 name: xbmc
 slug: xbmc
-description: Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
+description: Kodi is an award-winning free and open source home theater/media center software and
+  entertainment hub for digital media. With its beautiful interface and powerful skinning engine,
+  it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
 category: tools
 tags:
   - objc
@@ -61,7 +63,9 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/xbmc/xbmc
-    description: Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
+    description: Kodi is an award-winning free and open source home theater/media center software and
+      entertainment hub for digital media. With its beautiful interface and powerful skinning
+      engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
     fork: false
     url: https://api.github.com/repos/xbmc/xbmc
     forks_url: https://api.github.com/repos/xbmc/xbmc/forks
@@ -205,9 +209,8 @@ github:
     openPullRequests: 200
     contributorsKnown: 1272
   sync:
-    syncedAt: 2026-07-22T09:29:46.434Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:13.476Z
+    source: html
   languages:
     C++: 32532018
     C: 1027102
@@ -407,6 +410,11 @@ github:
     - name: help wanted
       color: ffd6c4
       description: special GitHub label
+  html:
+    license: null
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

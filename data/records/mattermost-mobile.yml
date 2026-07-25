@@ -336,7 +336,10 @@ github:
 
       \r
 
-      Please see [changelog](https://docs.mattermost.com/administration/mobile-changelog.html) for full release notes. If you're interested in helping beta test upcoming versions before they are released, please see our [documentation](https://github.com/mattermost/mattermost-mobile#testing).\r
+      Please see [changelog](https://docs.mattermost.com/administration/mobile-changelog.html) for
+      full release notes. If you're interested in helping beta test upcoming versions before they
+      are released, please see our
+      [documentation](https://github.com/mattermost/mattermost-mobile#testing).\r
 
       \r
 
@@ -344,17 +347,24 @@ github:
 
       * Android\r
 
-      \    * [Mattermost arm64-v8a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-arm64-v8a.apk)\r
+      \    * [Mattermost
+      arm64-v8a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-arm64-v8a.\
+      apk)\r
 
-      \    * [Mattermost armeabi-v7a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-armeabi-v7a.apk)\r
+      \    * [Mattermost
+      armeabi-v7a](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-armeabi-\
+      v7a.apk)\r
 
-      \    * [Mattermost x86](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86.apk)\r
+      \    * [Mattermost
+      x86](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86.apk)\r
 
-      \    * [Mattermost x86_64](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86_64.apk)\r
+      \    * [Mattermost
+      x86_64](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost-x86_64.apk)\r
 
       * iOS\r
 
-      \    * [Mattermost](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost.ipa)"
+      \    *
+      [Mattermost](https://releases.mattermost.com/mattermost-mobile/2.42.2/787/Mattermost.ipa)"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -381,9 +391,13 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-07-22T09:29:24.018Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:30.418Z
+    source: html
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: listed

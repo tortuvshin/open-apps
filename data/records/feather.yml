@@ -1,7 +1,8 @@
 kind: project
 name: Feather
 slug: feather
-description: Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
+description: Free on-device iOS/iPadOS application manager/installer, using certificates part of the
+  Apple Developer Program.
 category: productivity
 tags:
   - esign
@@ -66,7 +67,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/claration/Feather
-    description: Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
+    description: Free on-device iOS/iPadOS application manager/installer, using certificates part of the
+      Apple Developer Program.
     fork: false
     url: https://api.github.com/repos/claration/Feather
     forks_url: https://api.github.com/repos/claration/Feather/forks
@@ -167,9 +169,8 @@ github:
     network_count: 393
     subscribers_count: 41
   sync:
-    syncedAt: 2026-07-22T09:29:09.280Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:09:58.958Z
+    source: html
   languages:
     Swift: 403610
     Objective-C: 13399
@@ -286,7 +287,9 @@ github:
 
       > [!TIP]\r
 
-      > For `idevice` configuration, you can use [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily retrieving a pairing file for installing!\r
+      > For `idevice` configuration, you can use
+      [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily
+      retrieving a pairing file for installing!\r
 
       \r
 
@@ -294,7 +297,8 @@ github:
 
       * Added tweak options in default signing options.\r
 
-      * Added ability to search for identifier's in Library @ismailcarlik in https://github.com/claration/Feather/pull/652\r
+      * Added ability to search for identifier's in Library @ismailcarlik in
+      https://github.com/claration/Feather/pull/652\r
 
       * Fixed issue in the file enumeration logic, by using the path property instead of method.\r
 
@@ -306,7 +310,8 @@ github:
 
       ## New Contributors\r
 
-      * @xiangfeidexiaohuo made their first contribution in https://github.com/claration/Feather/pull/634\r
+      * @xiangfeidexiaohuo made their first contribution in
+      https://github.com/claration/Feather/pull/634\r
 
       * @osageling made their first contribution in https://github.com/claration/Feather/pull/642\r
 
@@ -356,6 +361,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: unknown
   tier: listed

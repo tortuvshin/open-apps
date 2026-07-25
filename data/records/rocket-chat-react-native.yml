@@ -1,7 +1,8 @@
 kind: project
 name: Rocket.Chat
 slug: rocket-chat-react-native
-description: Official Rocket.Chat mobile client — open-source team communication, channels, threads, file sharing, voice/video calls, end-to-end encrypted.
+description: Official Rocket.Chat mobile client — open-source team communication, channels, threads,
+  file sharing, voice/video calls, end-to-end encrypted.
 category: communication
 tags:
   - cross-platform
@@ -192,9 +193,8 @@ github:
     openPullRequests: 255
     contributorsKnown: 139
   sync:
-    syncedAt: 2026-07-22T09:29:33.664Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:49.613Z
+    source: html
   languages:
     TypeScript: 3888674
     Swift: 216681
@@ -314,77 +314,112 @@ github:
     zipball_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/zipball/4.74.0
     body: "## What's Changed\r
 
-      * feat: Login on web by @yash-rajpal in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7360\r
+      * feat: Login on web by @yash-rajpal in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7360\r
 
-      * feat: presence sync by @Rohit3523 in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7392\r
+      * feat: presence sync by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7392\r
 
-      * feat: bounded message window for centered Jump to Message by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7388\r
+      * feat: bounded message window for centered Jump to Message by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7388\r
 
-      * feat: open browser login providers in a system auth session for WebAuthn support by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7419\r
+      * feat: open browser login providers in a system auth session for WebAuthn support by
+      @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7419\r
 
-      * fix(android): getChildDrawingOrder crash in react-native-screens ScreenStack by @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7368\r
+      * fix(android): getChildDrawingOrder crash in react-native-screens ScreenStack by
+      @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7368\r
 
-      * fix: media auto-download options are not visible in bottom sheet by @Rohit3523 in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7374\r
+      * fix: media auto-download options are not visible in bottom sheet by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7374\r
 
-      * fix: file attachments not displayed on forwarded messages by @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7379\r
+      * fix: file attachments not displayed on forwarded messages by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7379\r
 
-      * fix: RoomView correctness and performance cleanups by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7399\r
+      * fix: RoomView correctness and performance cleanups by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7399\r
 
-      * fix: playing audio time was not reflecting in real time by @Rohit3523 in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7383\r
+      * fix: playing audio time was not reflecting in real time by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7383\r
 
-      * fix: route avatar requests through server when external provider is configured by @deepak0x in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7242\r
+      * fix: route avatar requests through server when external provider is configured by @deepak0x
+      in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7242\r
 
-      * fix: case-sensitive search for Cyrillic characters in share extension by @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7400\r
+      * fix: case-sensitive search for Cyrillic characters in share extension by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7400\r
 
-      * fix: frequently used emoji crash on non-ASCII record ids by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7378\r
+      * fix: frequently used emoji crash on non-ASCII record ids by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7378\r
 
-      * fix: mount the emoji searchbar only when it's visible by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7405\r
+      * fix: mount the emoji searchbar only when it's visible by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7405\r
 
-      * fix: freeze when blurred to avoid off-screen re-renders on room open by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7404\r
+      * fix: freeze when blurred to avoid off-screen re-renders on room open by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7404\r
 
-      * fix: avatar update not reflecting in ProfileView and SidebarView by @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7430\r
+      * fix: avatar update not reflecting in ProfileView and SidebarView by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7430\r
 
-      * fix: re-subscribe room streams on DDP reconnect by @Rohit3523 in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7426\r
+      * fix: re-subscribe room streams on DDP reconnect by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7426\r
 
-      * fix(android): pass --appId to run-android so CLI launches correct package by @Rohit3523 in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7375\r
+      * fix(android): pass --appId to run-android so CLI launches correct package by @Rohit3523 in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7375\r
 
-      * ci: speed up and harden the Android store build by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7389\r
+      * ci: speed up and harden the Android store build by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7389\r
 
-      * ci: run Build PR pipeline for PRs based on feature branches by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7417\r
+      * ci: run Build PR pipeline for PRs based on feature branches by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7417\r
 
-      * ci: add PR-build changelog for TestFlight and Play Store by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7411\r
+      * ci: add PR-build changelog for TestFlight and Play Store by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7411\r
 
-      * refactor: migrate MessageComposer state to a per-instance Zustand store by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7381\r
+      * refactor: migrate MessageComposer state to a per-instance Zustand store by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7381\r
 
-      * refactor: migrate OutsideStack to React Navigation static config by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7410\r
+      * refactor: migrate OutsideStack to React Navigation static config by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7410\r
 
-      * refactor: derive isMasterDetail per-component and remove Dimensions provider by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7422\r
+      * refactor: derive isMasterDetail per-component and remove Dimensions provider by @diegolmello
+      in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7422\r
 
-      * refactor: migrate ShareExtensionStack to React Navigation static config by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7413\r
+      * refactor: migrate ShareExtensionStack to React Navigation static config by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7413\r
 
-      * refactor: migrate MasterDetailStack to React Navigation static config by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7414\r
+      * refactor: migrate MasterDetailStack to React Navigation static config by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7414\r
 
-      * refactor: migrate AppContainer root to React Navigation static config by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7416\r
+      * refactor: migrate AppContainer root to React Navigation static config by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7416\r
 
-      * perf: memoize ThemeContext provider value to decouple theme consumers from dimension changes by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7420\r
+      * perf: memoize ThemeContext provider value to decouple theme consumers from dimension changes
+      by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7420\r
 
-      * chore: remove npx from package.json scripts by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7376\r
+      * chore: remove npx from package.json scripts by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7376\r
 
-      * chore: remove unused react-native-config-reader by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7377\r
+      * chore: remove unused react-native-config-reader by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7377\r
 
-      * chore: Code style enforcement (2/n) by @tassoevan in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7191\r
+      * chore: Code style enforcement (2/n) by @tassoevan in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7191\r
 
-      * chore: refactor the submit function on ProfileView by @OtavioStasiak in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7353\r
+      * chore: refactor the submit function on ProfileView by @OtavioStasiak in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7353\r
 
-      * chore: stabilize Maestro CI by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7311\r
+      * chore: stabilize Maestro CI by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7311\r
 
-      * chore: adopt @rocket.chat/mobile-crypto 0.3.0 by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7401\r
+      * chore: adopt @rocket.chat/mobile-crypto 0.3.0 by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7401\r
 
-      * chore: stop redux action console flood in dev by @diegolmello in https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7412\r
+      * chore: stop redux action console flood in dev by @diegolmello in
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/pull/7412\r
 
       \r
 
-      **Full Changelog**: https://github.com/RocketChat/Rocket.Chat.ReactNative/compare/4.73.1...4.74.0"
+      **Full Changelog**:
+      https://github.com/RocketChat/Rocket.Chat.ReactNative/compare/4.73.1...4.74.0"
     mentions_count: 6
   files:
     readme: true
@@ -394,6 +429,11 @@ github:
     issueTemplates: true
     pullRequestTemplate: false
   labels: []
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: curated

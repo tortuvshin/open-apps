@@ -60,7 +60,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/mllrr96/Neumorphic-Calculator
-    description: A beautifully designed, customizable calculator app with a soft, modern neumorphic style. Built in Flutter for Android and iOS.
+    description: A beautifully designed, customizable calculator app with a soft, modern neumorphic
+      style. Built in Flutter for Android and iOS.
     fork: false
     url: https://api.github.com/repos/mllrr96/Neumorphic-Calculator
     forks_url: https://api.github.com/repos/mllrr96/Neumorphic-Calculator/forks
@@ -177,9 +178,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:26.372Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:36.626Z
+    source: html
   languages:
     Dart: 112552
     Ruby: 909
@@ -402,7 +402,8 @@ github:
 
       **Note for Android users:**  \r
 
-      Multiple APK variants are available. If you're not sure which one to choose, download the **universal** APK for the widest compatibility."
+      Multiple APK variants are available. If you're not sure which one to choose, download the
+      **universal** APK for the widest compatibility."
   files:
     readme: true
     contributing: false
@@ -417,6 +418,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: quiet
   tier: listed

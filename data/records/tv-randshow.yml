@@ -176,9 +176,8 @@ github:
     openPullRequests: 2
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-07-22T09:29:43.234Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:11:08.497Z
+    source: html
   languages:
     Dart: 261583
     CMake: 9353
@@ -265,13 +264,15 @@ github:
     zipball_url: https://api.github.com/repos/deandreamatias/tv-randshow/zipball/2.5.0
     body: "## What's Changed\r
 
-      * initial fastlane structures from IzzyOnDroid by @IzzySoft in https://github.com/deandreamatias/tv-randshow/pull/16\r
+      * initial fastlane structures from IzzyOnDroid by @IzzySoft in
+      https://github.com/deandreamatias/tv-randshow/pull/16\r
 
       \r
 
       ## New Contributors\r
 
-      * @IzzySoft made their first contribution in https://github.com/deandreamatias/tv-randshow/pull/16\r
+      * @IzzySoft made their first contribution in
+      https://github.com/deandreamatias/tv-randshow/pull/16\r
 
       \r
 
@@ -291,6 +292,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
+    homepage: null
 health:
   status: active
   tier: listed

@@ -167,9 +167,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:19.794Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-25T06:10:23.367Z
+    source: html
   languages:
     Swift: 75638
     Metal: 847
@@ -190,6 +189,11 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
+    homepage: null
 health:
   status: stale
   tier: curated
