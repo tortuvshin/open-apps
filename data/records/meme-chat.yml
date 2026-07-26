@@ -1,7 +1,8 @@
 kind: project
 name: Meme Chat
 slug: meme-chat
-description: Chat app on Flutter, using Firebase, Google Sign In, and device camera integration by a team of Googlers
+description: Chat app on Flutter, using Firebase, Google Sign In, and device camera integration by a
+  team of Googlers
 category: social-network
 tags:
   - cross-platform
@@ -160,9 +161,8 @@ github:
     openPullRequests: 4
     contributorsKnown: 9
   sync:
-    syncedAt: 2026-07-22T09:29:23.626Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:18.930Z
+    source: html
   languages:
     Dart: 14128
     Ruby: 1109
@@ -180,6 +180,10 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

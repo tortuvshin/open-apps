@@ -59,7 +59,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/Blakexx/CryptoTracker
-    description: An app made using the Flutter framework that allows users to track information for over 1500 cryptocurrencies
+    description: An app made using the Flutter framework that allows users to track information for over
+      1500 cryptocurrencies
     fork: false
     url: https://api.github.com/repos/Blakexx/CryptoTracker
     forks_url: https://api.github.com/repos/Blakexx/CryptoTracker/forks
@@ -160,9 +161,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:30.908Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:29.434Z
+    source: html
   languages:
     Dart: 96159
     Ruby: 3437
@@ -185,6 +185,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: stale
   tier: listed

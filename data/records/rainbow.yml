@@ -240,7 +240,8 @@ github:
 
       \r
 
-      - Fixed Polymarket orders failing on markets with certain tick sizes — [#7665](https://github.com/rainbow-me/rainbow/pull/7665)\r\n"
+      - Fixed Polymarket orders failing on markets with certain tick sizes —
+      [#7665](https://github.com/rainbow-me/rainbow/pull/7665)\r\n"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -267,9 +268,12 @@ github:
     pullRequestTemplate: true
   labels: []
   sync:
-    syncedAt: 2026-07-22T09:29:32.450Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:32.279Z
+    source: html
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: listed

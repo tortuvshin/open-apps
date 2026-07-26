@@ -60,7 +60,9 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/burhanrashid52/WhatTodo
-    description: A Simple Todo app design in Flutter to keep track of your task on daily basis. Its build on BLoC Pattern. You can add a project, labels, and due-date to your task also you can sort your task on the basis of project, label, and dates
+    description: A Simple Todo app design in Flutter to keep track of your task on daily basis. Its
+      build on BLoC Pattern. You can add a project, labels, and due-date to your task also you can
+      sort your task on the basis of project, label, and dates
     fork: false
     url: https://api.github.com/repos/burhanrashid52/WhatTodo
     forks_url: https://api.github.com/repos/burhanrashid52/WhatTodo/forks
@@ -175,9 +177,8 @@ github:
     openPullRequests: 4
     contributorsKnown: 10
   sync:
-    syncedAt: 2026-07-22T09:29:44.831Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:51.401Z
+    source: html
   languages:
     Dart: 139804
     Ruby: 4796
@@ -239,6 +240,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

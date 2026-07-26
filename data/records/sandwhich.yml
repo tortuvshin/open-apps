@@ -1,7 +1,8 @@
 kind: project
 name: Sandwhich
 slug: sandwhich
-description: An app to solve the age-old sandwich debate built using machine learning, Flutter, and TensorFlow Lite
+description: An app to solve the age-old sandwich debate built using machine learning, Flutter, and
+  TensorFlow Lite
 category: entertainment
 tags:
   - cross-platform
@@ -160,9 +161,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-07-22T09:29:33.507Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:34.656Z
+    source: html
   languages:
     Python: 61565
     Dart: 22322
@@ -187,6 +187,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: stale
   tier: listed

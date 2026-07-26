@@ -181,9 +181,8 @@ github:
     openPullRequests: 25
     contributorsKnown: 67
   sync:
-    syncedAt: 2026-07-22T09:29:38.326Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:40.351Z
+    source: html
   languages:
     Swift: 1795024
     Metal: 3957
@@ -236,7 +235,8 @@ github:
 
       \r
 
-      * Mouse motion row and focus reporting fixes by @naifalziadna in https://github.com/migueldeicaza/SwiftTerm/pull/590\r
+      * Mouse motion row and focus reporting fixes by @naifalziadna in
+      https://github.com/migueldeicaza/SwiftTerm/pull/590\r
 
       \r
 
@@ -244,7 +244,8 @@ github:
 
       \r
 
-      * Let subclasses customize link and key handling by @moshegottlieb in https://github.com/migueldeicaza/SwiftTerm/pull/599\r
+      * Let subclasses customize link and key handling by @moshegottlieb in
+      https://github.com/migueldeicaza/SwiftTerm/pull/599\r
 
       \r
 
@@ -252,25 +253,32 @@ github:
 
       \r
 
-      * Fix Metal renderer crash in packaged apps (Bundle.module fatalErrors) by @mcglothi in https://github.com/migueldeicaza/SwiftTerm/pull/593\r
+      * Fix Metal renderer crash in packaged apps (Bundle.module fatalErrors) by @mcglothi in
+      https://github.com/migueldeicaza/SwiftTerm/pull/593\r
 
-      * Fix unbounded Metal BufferPool growth under constantly-changing content by @klc in https://github.com/migueldeicaza/SwiftTerm/pull/598\r
+      * Fix unbounded Metal BufferPool growth under constantly-changing content by @klc in
+      https://github.com/migueldeicaza/SwiftTerm/pull/598\r
 
-      * Line-accurate scroll wheel with optional sensitivity control (macOS) by @klc in https://github.com/migueldeicaza/SwiftTerm/pull/600\r
+      * Line-accurate scroll wheel with optional sensitivity control (macOS) by @klc in
+      https://github.com/migueldeicaza/SwiftTerm/pull/600\r
 
-      * Fixed flipped mouse reporting toggle by @moshegottlieb in https://github.com/migueldeicaza/SwiftTerm/pull/601\r
+      * Fixed flipped mouse reporting toggle by @moshegottlieb in
+      https://github.com/migueldeicaza/SwiftTerm/pull/601\r
 
       \r
 
       ## New Contributors\r
 
-      * @naifalziadna made their first contribution in https://github.com/migueldeicaza/SwiftTerm/pull/590\r
+      * @naifalziadna made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/590\r
 
-      * @mcglothi made their first contribution in https://github.com/migueldeicaza/SwiftTerm/pull/593\r
+      * @mcglothi made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/593\r
 
       * @klc made their first contribution in https://github.com/migueldeicaza/SwiftTerm/pull/598\r
 
-      * @moshegottlieb made their first contribution in https://github.com/migueldeicaza/SwiftTerm/pull/599\r
+      * @moshegottlieb made their first contribution in
+      https://github.com/migueldeicaza/SwiftTerm/pull/599\r
 
       \r
 
@@ -290,6 +298,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

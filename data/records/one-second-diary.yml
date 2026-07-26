@@ -169,9 +169,8 @@ github:
     openPullRequests: 7
     contributorsKnown: 10
   sync:
-    syncedAt: 2026-07-22T09:29:28.157Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:25.687Z
+    source: html
   languages:
     Dart: 436976
     Ruby: 1287
@@ -375,7 +374,8 @@ github:
 
       - Added option to send logs when contacting developer\r
 
-      - Improved video saving speed by processing only the selected part instead of the whole video\r
+      - Improved video saving speed by processing only the selected part instead of the whole
+      video\r
 
       - Improved save video page by separating options in tabs\r
 
@@ -385,7 +385,8 @@ github:
 
       - Fixed saving video error when color parsing fails\r
 
-      - Fixed calendar page resetting to current date after returning from save video page for past dates\r
+      - Fixed calendar page resetting to current date after returning from save video page for past
+      dates\r
 
       - Fixed videoplayer showing some landscape videos rotated in preview\r
 
@@ -423,6 +424,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: stale
   tier: listed

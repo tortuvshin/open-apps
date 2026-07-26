@@ -194,9 +194,8 @@ github:
     openPullRequests: 39
     contributorsKnown: 336
   sync:
-    syncedAt: 2026-07-22T09:29:44.291Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:50.363Z
+    source: html
   languages:
     Dart: 3150499
     C++: 28092
@@ -545,12 +544,17 @@ github:
         browser_download_url: https://github.com/wger-project/flutter/releases/download/2.0.1/windows-x64.zip
     tarball_url: https://api.github.com/repos/wger-project/flutter/tarball/2.0.1
     zipball_url: https://api.github.com/repos/wger-project/flutter/zipball/2.0.1
-    body: |-
+    body: >-
       <!-- Release notes generated using configuration in .github/release.yml at 2.0.1 -->
 
+
       ## What's Changed
+
       ### Features
-      * Refactor/nutrition meals components by @pankaj-basnet in https://github.com/wger-project/flutter/pull/1224
+
+      * Refactor/nutrition meals components by @pankaj-basnet in
+      https://github.com/wger-project/flutter/pull/1224
+
 
 
       **Full Changelog**: https://github.com/wger-project/flutter/compare/2.0.0...2.0.1
@@ -566,6 +570,10 @@ github:
     - name: good first issue
       color: 7057ff
       description: Good for newcomers
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

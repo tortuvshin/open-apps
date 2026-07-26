@@ -203,9 +203,8 @@ github:
     openPullRequests: 231
     contributorsKnown: 955
   sync:
-    syncedAt: 2026-07-22T09:29:18.853Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:11.323Z
+    source: html
   languages:
     TypeScript: 5548263
     Dart: 3076639
@@ -603,7 +602,8 @@ github:
 
       - various bug fixes\r
 
-      - we push to our own F-Droid repo at https://app.futo.org/fdroid/repo now. If you're using F-Droid, please pull the application from there from now on\r
+      - we push to our own F-Droid repo at https://app.futo.org/fdroid/repo now. If you're using
+      F-Droid, please pull the application from there from now on\r
 
       - fixes an issue where LivePhotos upload from the background isn't showing up. \r
 
@@ -611,7 +611,9 @@ github:
 
       > [!Note]\r
 
-      > In some specific circumstances, newly uploaded Live Photos could have broken thumbnails. If you see any such cases, please run the \"missing\" job for thumbnails or wait for the respective nightly job to clear it up.\r
+      > In some specific circumstances, newly uploaded Live Photos could have broken thumbnails. If
+      you see any such cases, please run the \"missing\" job for thumbnails or wait for the
+      respective nightly job to clear it up.\r
 
       \r
 
@@ -623,47 +625,63 @@ github:
 
       ### 🚀 Features\r
 
-      * feat: publish app releases to FUTO F-Droid repo by @bo0tzz in https://github.com/immich-app/immich/pull/29804\r
+      * feat: publish app releases to FUTO F-Droid repo by @bo0tzz in
+      https://github.com/immich-app/immich/pull/29804\r
 
       ### 🐛 Bug fixes\r
 
-      * fix(web): closing plugin method picker selects \"unknown\" method by @benbeckford in https://github.com/immich-app/immich/pull/29784\r
+      * fix(web): closing plugin method picker selects \"unknown\" method by @benbeckford in
+      https://github.com/immich-app/immich/pull/29784\r
 
-      * fix: unauthorized album owner update by @danieldietzler in https://github.com/immich-app/immich/pull/29883\r
+      * fix: unauthorized album owner update by @danieldietzler in
+      https://github.com/immich-app/immich/pull/29883\r
 
-      * fix: still part of live photo hidden on bg upload by @shenlong-tanwen in https://github.com/immich-app/immich/pull/29884\r
+      * fix: still part of live photo hidden on bg upload by @shenlong-tanwen in
+      https://github.com/immich-app/immich/pull/29884\r
 
-      * fix: system appbar icon color has incorrect color in asset viewer by @alextran1502 in https://github.com/immich-app/immich/pull/29885\r
+      * fix: system appbar icon color has incorrect color in asset viewer by @alextran1502 in
+      https://github.com/immich-app/immich/pull/29885\r
 
-      * fix: locked visibility in search random endpoint by @danieldietzler in https://github.com/immich-app/immich/pull/29887\r
+      * fix: locked visibility in search random endpoint by @danieldietzler in
+      https://github.com/immich-app/immich/pull/29887\r
 
-      * fix(mobile): send a full datetime from the android memories widget by @santoshakil in https://github.com/immich-app/immich/pull/29689\r
+      * fix(mobile): send a full datetime from the android memories widget by @santoshakil in
+      https://github.com/immich-app/immich/pull/29689\r
 
-      * fix: memory search date validation by @danieldietzler in https://github.com/immich-app/immich/pull/29907\r
+      * fix: memory search date validation by @danieldietzler in
+      https://github.com/immich-app/immich/pull/29907\r
 
-      * fix(server): set hvc1 tag when using hwa by @mertalev in https://github.com/immich-app/immich/pull/29908\r
+      * fix(server): set hvc1 tag when using hwa by @mertalev in
+      https://github.com/immich-app/immich/pull/29908\r
 
-      * fix(mobile): clear zoom state when swapping assets by @agg23 in https://github.com/immich-app/immich/pull/29909\r
+      * fix(mobile): clear zoom state when swapping assets by @agg23 in
+      https://github.com/immich-app/immich/pull/29909\r
 
-      * fix: Ken Burns effect on sliver app bar jittery on Android by @alextran1502 in https://github.com/immich-app/immich/pull/29890\r
+      * fix: Ken Burns effect on sliver app bar jittery on Android by @alextran1502 in
+      https://github.com/immich-app/immich/pull/29890\r
 
       ### 📚 Documentation\r
 
-      * fix(docs): update fdroid link  by @mmomjian in https://github.com/immich-app/immich/pull/29797\r
+      * fix(docs): update fdroid link  by @mmomjian in
+      https://github.com/immich-app/immich/pull/29797\r
 
-      * feat: system integrity docs by @danieldietzler in https://github.com/immich-app/immich/pull/29911\r
+      * feat: system integrity docs by @danieldietzler in
+      https://github.com/immich-app/immich/pull/29911\r
 
       ### 🌐 Translations\r
 
-      * chore(web): update translations by @weblate in https://github.com/immich-app/immich/pull/29774\r
+      * chore(web): update translations by @weblate in
+      https://github.com/immich-app/immich/pull/29774\r
 
-      * fix(mobile): correct person age singular pluralization by @tech00exploere in https://github.com/immich-app/immich/pull/29868\r
+      * fix(mobile): correct person age singular pluralization by @tech00exploere in
+      https://github.com/immich-app/immich/pull/29868\r
 
       \r
 
       ## New Contributors\r
 
-      * @tech00exploere made their first contribution in https://github.com/immich-app/immich/pull/29868\r
+      * @tech00exploere made their first contribution in
+      https://github.com/immich-app/immich/pull/29868\r
 
       \r
 
@@ -691,6 +709,10 @@ github:
     - name: good first issue
       color: 7057ff
       description: Good for newcomers
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

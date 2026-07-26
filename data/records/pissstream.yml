@@ -1,7 +1,8 @@
 kind: project
 name: pISSStream
 slug: pissstream
-description: App that shows how full the International Space Station's urine tank is in real time, available for macOS (menu bar), iOS, watchOS and visionOS.
+description: App that shows how full the International Space Station's urine tank is in real time,
+  available for macOS (menu bar), iOS, watchOS and visionOS.
 category: entertainment
 tags:
   - swift
@@ -65,7 +66,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/Jaennaet/pISSStream
-    description: App that shows how full the International Space Station's urine tank is in real time, available for macOS (menu bar), iOS, watchOS and visionOS
+    description: App that shows how full the International Space Station's urine tank is in real time,
+      available for macOS (menu bar), iOS, watchOS and visionOS
     fork: false
     url: https://api.github.com/repos/Jaennaet/pISSStream
     forks_url: https://api.github.com/repos/Jaennaet/pISSStream/forks
@@ -179,9 +181,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:30.270Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:28.357Z
+    source: html
   languages:
     Swift: 51128
   latestRelease:
@@ -286,6 +287,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: BSD-3-Clause
+    language: null
+    topics: []
 health:
   status: quiet
   tier: curated

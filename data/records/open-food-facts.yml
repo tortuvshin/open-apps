@@ -1,7 +1,9 @@
 kind: project
 name: Open Food Facts
 slug: open-food-facts
-description: The new mobile app of Open Food Facts, with other 2 million installs, that allows you to understand the health and environmental impact of your food, as well as to contribute new products to the Open Database [Open Food facts](
+description: The new mobile app of Open Food Facts, with other 2 million installs, that allows you
+  to understand the health and environmental impact of your food, as well as to contribute new
+  products to the Open Database [Open Food facts](
 category: health-and-fitness
 tags:
   - cross-platform
@@ -60,7 +62,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/openfoodfacts/smooth-app
-    description: 🤳🥫 The new Open Food Facts mobile application for Android and iOS, crafted with Flutter and Dart
+    description: 🤳🥫 The new Open Food Facts mobile application for Android and iOS, crafted with
+      Flutter and Dart
     fork: false
     url: https://api.github.com/repos/openfoodfacts/smooth-app
     forks_url: https://api.github.com/repos/openfoodfacts/smooth-app/forks
@@ -200,9 +203,8 @@ github:
     openPullRequests: 30
     contributorsKnown: 116
   sync:
-    syncedAt: 2026-07-22T09:29:29.322Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:27.520Z
+    source: html
   languages:
     Dart: 4048718
     C++: 22333
@@ -374,6 +376,10 @@ github:
     issueTemplates: true
     pullRequestTemplate: false
   labels: []
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

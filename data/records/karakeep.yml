@@ -1,7 +1,8 @@
 kind: project
 name: Karakeep
 slug: karakeep
-description: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.
+description: A self-hostable bookmark-everything app (links, notes and images) with AI-based
+  automatic tagging and full text search.
 category: productivity
 tags:
   - cross-platform
@@ -71,7 +72,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/karakeep-app/karakeep
-    description: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search
+    description: A self-hostable bookmark-everything app (links, notes and images) with AI-based
+      automatic tagging and full text search
     fork: false
     url: https://api.github.com/repos/karakeep-app/karakeep
     forks_url: https://api.github.com/repos/karakeep-app/karakeep/forks
@@ -235,23 +237,41 @@ github:
     assets: []
     tarball_url: https://api.github.com/repos/karakeep-app/karakeep/tarball/v0.32.0
     zipball_url: https://api.github.com/repos/karakeep-app/karakeep/zipball/v0.32.0
-    body: "Welcome to the `0.32.0` release of Karakeep! The mobile app is getting a major redesign by @esimkowitz so that it feels more native and friendly to use. Our long-overdue Safari extension is now available on the app store. Karakeep is now more AI-agents friendly with an official skill, revamped and more powerful CLI, granular API keys (and more coming in the next release). SingleFile is now integrated inside the karakeep extension itself for better crawling of authenticated pages. Keyboard shortcuts for faster actions across the app. And tons of fixes!\r
+    body: "Welcome to the `0.32.0` release of Karakeep! The mobile app is getting a major redesign by
+      @esimkowitz so that it feels more native and friendly to use. Our long-overdue Safari
+      extension is now available on the app store. Karakeep is now more AI-agents friendly with an
+      official skill, revamped and more powerful CLI, granular API keys (and more coming in the next
+      release). SingleFile is now integrated inside the karakeep extension itself for better
+      crawling of authenticated pages. Keyboard shortcuts for faster actions across the app. And
+      tons of fixes!\r
 
       \r
 
-      This release has a huge list of contributors. Some frequent faces, and many contributing their first PRs. Thanks @esimkowitz, @Mxrk, @beluga73, @Ahmed-Abdel-karim, @GSAlex, @cinconueves, @keslerm, @xingzihai, @howwohmm, @vbalko-claimate, @MaximePinot, @apo-mak, @NikhilChowdhury27, @maxim-mityutko, @xuatz, @ir31k0, @Joly0, @larsborn, @venku122, @lmgarret, @hoilc, @zerone0x, @mrInvincible29, @Go2Engle, @faximan.\r
+      This release has a huge list of contributors. Some frequent faces, and many contributing their
+      first PRs. Thanks @esimkowitz, @Mxrk, @beluga73, @Ahmed-Abdel-karim, @GSAlex, @cinconueves,
+      @keslerm, @xingzihai, @howwohmm, @vbalko-claimate, @MaximePinot, @apo-mak, @NikhilChowdhury27,
+      @maxim-mityutko, @xuatz, @ir31k0, @Joly0, @larsborn, @venku122, @lmgarret, @hoilc, @zerone0x,
+      @mrInvincible29, @Go2Engle, @faximan.\r
 
       \r
 
-      *Note: the changes mentioned here for the extension and mobile releases will need to go through the different store (apple, google, mozilla) reviews. So it might take a couple of days until all of them are released.*\r
+      *Note: the changes mentioned here for the extension and mobile releases will need to go
+      through the different store (apple, google, mozilla) reviews. So it might take a couple of
+      days until all of them are released.*\r
 
       \r
 
-      > If you enjoy using Karakeep, consider supporting the project [here ☕️](https://buymeacoffee.com/mbassem) or via GitHub [here](https://github.com/sponsors/MohamedBassem). Also share Karakeep's managed offering (☁️ [link](https://cloud.karakeep.app)) to your friends who're not into selfhosting. We're offering yearly subscriptions now.\r
+      > If you enjoy using Karakeep, consider supporting the project [here
+      ☕️](https://buymeacoffee.com/mbassem) or via GitHub
+      [here](https://github.com/sponsors/MohamedBassem). Also share Karakeep's managed offering (☁️
+      [link](https://cloud.karakeep.app)) to your friends who're not into selfhosting. We're
+      offering yearly subscriptions now.\r
 
       \r
 
-      <a href=\"https://www.buymeacoffee.com/mbassem\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" width=\"auto\" height=\"50\" ></a>\r
+      <a href=\"https://www.buymeacoffee.com/mbassem\" target=\"_blank\"><img
+      src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\"
+      width=\"auto\" height=\"50\" ></a>\r
 
       \r
 
@@ -261,7 +281,9 @@ github:
 
       \r
 
-      * Karakeep's **Safari extension** is now available on the App Store ([link](https://apps.apple.com/gb/app/karakeep-app/id6479258022?platform=mac)), closing Karakeep's oldest open issue (#10).\r
+      * Karakeep's **Safari extension** is now available on the App Store
+      ([link](https://apps.apple.com/gb/app/karakeep-app/id6479258022?platform=mac)), closing
+      Karakeep's oldest open issue (#10).\r
 
       * Huge **mobile app revamp lead by @esimkowitz**:\r
 
@@ -271,27 +293,44 @@ github:
 
       \  * Add ability to keep screen on for bookmark reading by @esimkowitz (#2691)\r
 
-      \  * Opening links in the reader view now opens them in an in-app browser so that you can quickly go back to where you left by @esimkowitz (#2696)\r
+      \  * Opening links in the reader view now opens them in an in-app browser so that you can
+      quickly go back to where you left by @esimkowitz (#2696)\r
 
       \  * Add ability to default open links in external browser by @xingzihai (#2516)\r
 
-      * **Karakeep for Agentic usage**: Our goal is to make Karakeep very AI agents friendly. This will allow agents (OpenClaw, Hermes, etc) to find and hoard interesting content on your behalf, provide weekly digests, and more.\r
+      * **Karakeep for Agentic usage**: Our goal is to make Karakeep very AI agents friendly. This
+      will allow agents (OpenClaw, Hermes, etc) to find and hoard interesting content on your
+      behalf, provide weekly digests, and more.\r
 
-      \  * We're publishing an official skill for karakeep on ClawHub and skills.sh (details [here](https://docs.karakeep.app/next/integrations/agentic-skills)). Those skills teach the agent karakeep's concepts and how to use the CLI.\r
+      \  * We're publishing an official skill for karakeep on ClawHub and skills.sh (details
+      [here](https://docs.karakeep.app/next/integrations/agentic-skills)). Those skills teach the
+      agent karakeep's concepts and how to use the CLI.\r
 
       \  * CLI improvements:\r
 
-      \    * The CLI also got major improvements allowing it to manage more aspects for bookmarks, lists, and tags. Also got more AI friendly formatting, etc.\r
+      \    * The CLI also got major improvements allowing it to manage more aspects for bookmarks,
+      lists, and tags. Also got more AI friendly formatting, etc.\r
 
-      \    * To avoid having to pass the address and API key with every request, karakeep can now store the auth config in a file and use it for further requests. Init that file with `karakeep auth init`.\r
+      \    * To avoid having to pass the address and API key with every request, karakeep can now
+      store the auth config in a file and use it for further requests. Init that file with `karakeep
+      auth init`.\r
 
-      \  * If you're afraid to give agents full Read/Write access to your data, API keys now have granular scopes to all resources. Which means you can give agents access to your bookmarks but not administrative actions (like deleting users), etc.\r
+      \  * If you're afraid to give agents full Read/Write access to your data, API keys now have
+      granular scopes to all resources. Which means you can give agents access to your bookmarks but
+      not administrative actions (like deleting users), etc.\r
 
-      * **Keyboard Shortcuts**: You can now do more with the keyboard, as we added support for navigating the bookmark grid with keyboard shortcuts, and taking actions such as favouring/archiving and doing bulk actions. This is the beginning, and please send feature requests for the extra features you need.\r
+      * **Keyboard Shortcuts**: You can now do more with the keyboard, as we added support for
+      navigating the bookmark grid with keyboard shortcuts, and taking actions such as
+      favouring/archiving and doing bulk actions. This is the beginning, and please send feature
+      requests for the extra features you need.\r
 
       * **Extension improvements**:\r
 
-      \  * [Experimental] The extension can now crawl bookmarks from the client-side eliminating the need of using the SingleFile extension separately from Karakeep (Powered by SingleFile core). This allows you to store pages that are behind authentication or unreachable from your Karakeep server. It's currently opt-in until stable, and then will become the default. Enable it from the extension settings (#2197).\r
+      \  * [Experimental] The extension can now crawl bookmarks from the client-side eliminating the
+      need of using the SingleFile extension separately from Karakeep (Powered by SingleFile core).
+      This allows you to store pages that are behind authentication or unreachable from your
+      Karakeep server. It's currently opt-in until stable, and then will become the default. Enable
+      it from the extension settings (#2197).\r
 
       \  * Added support for manual save (instead of the default save on open) by @keslerm (#2693)\r
 
@@ -305,11 +344,14 @@ github:
 
       \  * Karakeep MCP now has an update-bookmark tool by @vbalko-claimate (#2717)\r
 
-      \  * Add support for writing rule engine rules based on bookmark source by @xingzihai (#2547)\r
+      \  * Add support for writing rule engine rules based on bookmark source by @xingzihai
+      (#2547)\r
 
       \  * Add support for configuring OpenAI reasoning effort by @cinconueves (#2718)\r
 
-      \  * New extensive event logging for events that happen all over the app. More info about how to enable it [here](https://docs.karakeep.app/configuration/environment-variables#monitoring).\r
+      \  * New extensive event logging for events that happen all over the app. More info about how
+      to enable it
+      [here](https://docs.karakeep.app/configuration/environment-variables#monitoring).\r
 
       \r
 
@@ -319,11 +361,14 @@ github:
 
       \r
 
-      * Visual revamp for the bookmark preview page with nicer colors and ability to collapse the sidebar (f500129c).\r
+      * Visual revamp for the bookmark preview page with nicer colors and ability to collapse the
+      sidebar (f500129c).\r
 
-      * Visual revamp for the \"All lists\" page showing list privacy settings and number of items in each list (145dda9d).\r
+      * Visual revamp for the \"All lists\" page showing list privacy settings and number of items
+      in each list (145dda9d).\r
 
-      * List and tags page headers now show more info about the content and type of the list/tag (#2749)\r
+      * List and tags page headers now show more info about the content and type of the list/tag
+      (#2749)\r
 
       * Quickly favourite and archive a bookmark by new buttons that appear on hover (98e173d8).\r
 
@@ -331,13 +376,16 @@ github:
 
       * Show \"+\" in the tag count badges when more pages exist by @zerone0x (432235be).\r
 
-      * In the add bookmark to list dialog, you no longer need to explicitly save the selection thanks to @xingzihai (#2629)\r
+      * In the add bookmark to list dialog, you no longer need to explicitly save the selection
+      thanks to @xingzihai (#2629)\r
 
       * The default new list emoji changed from \"🚀\" to \"📁\". Maturity, I guess?\r
 
-      * You can now add multiple lists to the same rule engine condition by @Ahmed-Abdel-karim (#2620)\r
+      * You can now add multiple lists to the same rule engine condition by @Ahmed-Abdel-karim
+      (#2620)\r
 
-      * Timestamps across the app are now correctly localized instead of showing the server's timezone (#2682)\r
+      * Timestamps across the app are now correctly localized instead of showing the server's
+      timezone (#2682)\r
 
       \r
 
@@ -357,7 +405,8 @@ github:
 
       \    * Add missing ratelimits for the changePassword endpoint\r
 
-      \    * Sanitize user names before storing them to avoid stored XSS in karakeep emails (#2724)\r
+      \    * Sanitize user names before storing them to avoid stored XSS in karakeep emails
+      (#2724)\r
 
       \    * Invalidate existing password reset tokens before issuing a new one (#2722)\r
 
@@ -367,9 +416,11 @@ github:
 
       \  * Add missing ratelimits for bookmark creation and asset upload APIs\r
 
-      * Fix a bug where adding a bookmark to a tag or list didn't appear immediately requiring a refresh.\r
+      * Fix a bug where adding a bookmark to a tag or list didn't appear immediately requiring a
+      refresh.\r
 
-      * Bulk actions used to hammer the server with cache refill requests, those are now debounced.\r
+      * Bulk actions used to hammer the server with cache refill requests, those are now
+      debounced.\r
 
       * Fix adblocker getting skipped due to the URL validation interception.\r
 
@@ -383,13 +434,15 @@ github:
 
       * Fix cropped text in android app when using bold text by @Go2Engle (#2554)\r
 
-      * Fix occasional problems connecting to server from mobile app when it's behind a reverse proxy by @mrInvincible29 (#2559)\r
+      * Fix occasional problems connecting to server from mobile app when it's behind a reverse
+      proxy by @mrInvincible29 (#2559)\r
 
       * Better extraction for lazy loaded images from content by @zerone0x (#2556)\r
 
       * Expand $tags/$aiTags/$userTags in AI prompt preview by @zerone0x (#2557)\r
 
-      * Fix sourceUrl not getting saved when creating asset bookmarks via the API by @hoilc (#2574)\r
+      * Fix sourceUrl not getting saved when creating asset bookmarks via the API by @hoilc
+      (#2574)\r
 
       * Redact internal server error messages in prod responses (c8a75a0b)\r
 
@@ -397,7 +450,8 @@ github:
 
       * Correctly extract TWZ RSS categories as tags by @venku122 (#2589)\r
 
-      * Correctly skip tagging and summarization for assets that fail preprocessing to avoid misleading numbers in the admin panel\r
+      * Correctly skip tagging and summarization for assets that fail preprocessing to avoid
+      misleading numbers in the admin panel\r
 
       * Improve meilisearch request batching for better performance\r
 
@@ -415,27 +469,33 @@ github:
 
       * Upgrade playwright to 1.59 to fix browserless compatibility issues\r
 
-      * Stricter full text search matching strategy for bookmarks to provide more relevant results (68e73500)\r
+      * Stricter full text search matching strategy for bookmarks to provide more relevant results
+      (68e73500)\r
 
       * Fix unreachable background script on Firefox by @Joly0 (#2649)\r
 
       * Update default meilisearch version to 1.41 by @ir31k0 (#2643).\r
 
-      \  * If you want to update your instance, check out meilisearch's guide [here](https://www.meilisearch.com/docs/learn/update_and_migration/updating).\r
+      \  * If you want to update your instance, check out meilisearch's guide
+      [here](https://www.meilisearch.com/docs/learn/update_and_migration/updating).\r
 
       * Fix truncate long bookmark titles on mobile app by @xuatz (#2699)\r
 
       * Dedupe crawl jobs using idempotency key by @NikhilChowdhury27 (#2678)\r
 
-      * Add ability to finalize/delete a staged import session that might have been stuck before (#2713)\r
+      * Add ability to finalize/delete a staged import session that might have been stuck before
+      (#2713)\r
 
-      * Fix low quality video downloads caused by missing ffmpeg dependency to yt-dlp by @MaximePinot (#2721)\r
+      * Fix low quality video downloads caused by missing ffmpeg dependency to yt-dlp by
+      @MaximePinot (#2721)\r
 
-      * Better ratelimiting for users behind the same IP (e.g. NAT) by including userId in the ratelimit key\r
+      * Better ratelimiting for users behind the same IP (e.g. NAT) by including userId in the
+      ratelimit key\r
 
       * Use relative path for logout redirect to avoid port mismatch by @howwohmm (#2655)\r
 
-      * Skip URL type identification requests if a page is crawled with SingleFile by @GSAlex (#2580)\r
+      * Skip URL type identification requests if a page is crawled with SingleFile by @GSAlex
+      (#2580)\r
 
       * Fix text clipping in bookmark card notes by @beluga73 (#2748)\r
 
@@ -457,9 +517,11 @@ github:
 
       \  * For managing feed subscriptions by @larsborn (#2635)\r
 
-      * Map TOO_MANY_REQUESTS to 429 status code in the API instead of internal server error (5b6402f3)\r
+      * Map TOO_MANY_REQUESTS to 429 status code in the API instead of internal server error
+      (5b6402f3)\r
 
-      * The docker-compose based dev-env is now more stable and documented thanks to @xuatz (#2149)\r
+      * The docker-compose based dev-env is now more stable and documented thanks to @xuatz
+      (#2149)\r
 
       \r
 
@@ -471,9 +533,12 @@ github:
 
       \r
 
-      * [Karatui](https://github.com/bercribe/karatui): A rust based TUI for managing your karakeep instance by @bercribe in 1c177160\r
+      * [Karatui](https://github.com/bercribe/karatui): A rust based TUI for managing your karakeep
+      instance by @bercribe in 1c177160\r
 
-      * [Karaclean](https://github.com/lmgarret/karaclean): A Docker sidecar that automatically cleans up Karakeep bookmarks based on declarative YAML rules (e.g. age, tags, lists, etc). @lmgarret\r
+      * [Karaclean](https://github.com/lmgarret/karaclean): A Docker sidecar that automatically
+      cleans up Karakeep bookmarks based on declarative YAML rules (e.g. age, tags, lists, etc).
+      @lmgarret\r
 
       \r
 
@@ -487,7 +552,8 @@ github:
 
       \r
 
-      <img width=\"988\" height=\"833\" alt=\"SCR-20260508-ophu\" src=\"https://github.com/user-attachments/assets/905c44c5-73bc-4983-9442-8655b0e12df5\" />\r
+      <img width=\"988\" height=\"833\" alt=\"SCR-20260508-ophu\"
+      src=\"https://github.com/user-attachments/assets/905c44c5-73bc-4983-9442-8655b0e12df5\" />\r
 
       \r
 
@@ -497,7 +563,8 @@ github:
 
       \r
 
-      <img width=\"333\" height=\"549\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5a7a1465-7b6d-4034-b739-8a67e39e2de0\" />\r
+      <img width=\"333\" height=\"549\" alt=\"image\"
+      src=\"https://github.com/user-attachments/assets/5a7a1465-7b6d-4034-b739-8a67e39e2de0\" />\r
 
       \r
 
@@ -505,7 +572,8 @@ github:
 
       \r
 
-      <img width=\"490\" height=\"786\" alt=\"SCR-20260508-opue\" src=\"https://github.com/user-attachments/assets/d08ab50b-9e55-4768-9ddf-13f41ff6de1b\" />\r
+      <img width=\"490\" height=\"786\" alt=\"SCR-20260508-opue\"
+      src=\"https://github.com/user-attachments/assets/d08ab50b-9e55-4768-9ddf-13f41ff6de1b\" />\r
 
       \r
 
@@ -513,7 +581,8 @@ github:
 
       \r
 
-      <img width=\"487\" height=\"664\" alt=\"SCR-20260508-opza\" src=\"https://github.com/user-attachments/assets/98137562-7f32-4114-9bc0-16d2d808cc16\" />\r
+      <img width=\"487\" height=\"664\" alt=\"SCR-20260508-opza\"
+      src=\"https://github.com/user-attachments/assets/98137562-7f32-4114-9bc0-16d2d808cc16\" />\r
 
       \r
 
@@ -523,7 +592,8 @@ github:
 
       \r
 
-      <img width=\"834\" height=\"796\" alt=\"SCR-20260508-opmw\" src=\"https://github.com/user-attachments/assets/b0cef659-0697-4c86-95d3-1cd4d36b1389\" />\r
+      <img width=\"834\" height=\"796\" alt=\"SCR-20260508-opmw\"
+      src=\"https://github.com/user-attachments/assets/b0cef659-0697-4c86-95d3-1cd4d36b1389\" />\r
 
       \r
 
@@ -531,7 +601,8 @@ github:
 
       \r
 
-      <img width=\"348\" height=\"139\" alt=\"SCR-20260508-oqnx\" src=\"https://github.com/user-attachments/assets/6b9ae48e-9630-4e81-805e-374c2f7aa511\" />\r
+      <img width=\"348\" height=\"139\" alt=\"SCR-20260508-oqnx\"
+      src=\"https://github.com/user-attachments/assets/6b9ae48e-9630-4e81-805e-374c2f7aa511\" />\r
 
       \r
 
@@ -539,7 +610,8 @@ github:
 
       \r
 
-      <img width=\"1005\" height=\"874\" alt=\"SCR-20260508-osde\" src=\"https://github.com/user-attachments/assets/e929ff0d-46b3-4c0d-b2c5-cd3040d09fb9\" />\r
+      <img width=\"1005\" height=\"874\" alt=\"SCR-20260508-osde\"
+      src=\"https://github.com/user-attachments/assets/e929ff0d-46b3-4c0d-b2c5-cd3040d09fb9\" />\r
 
       \r
 
@@ -551,9 +623,11 @@ github:
 
       To upgrade:\r
 
-      * If you're using KARAKEEP_VERSION=release, run `docker compose pull && docker compose up -d`.\r
+      * If you're using KARAKEEP_VERSION=release, run `docker compose pull && docker compose up
+      -d`.\r
 
-      * If you're pinning it to a specific version, upgrade the version and then run `docker compose pull && docker compose up -d`.\r
+      * If you're pinning it to a specific version, upgrade the version and then run `docker compose
+      pull && docker compose up -d`.\r
 
       \r
 
@@ -561,7 +635,8 @@ github:
 
       \r
 
-      * fix(crawler): proper handling for proxy auth with CDP interceptions - @MohamedBassem in b9b252ec\r
+      * fix(crawler): proper handling for proxy auth with CDP interceptions - @MohamedBassem in
+      b9b252ec\r
 
       * feat(web): add more details to the all lists page - @MohamedBassem in 145dda9d\r
 
@@ -577,13 +652,15 @@ github:
 
       * refactor: refactor bulk actions to store bookmark ids (#2767) - @MohamedBassem in 517b87f5\r
 
-      * fix: harden video worker redirect validation against SSRF (#2760) - @MohamedBassem in 43f50e85\r
+      * fix: harden video worker redirect validation against SSRF (#2760) - @MohamedBassem in
+      43f50e85\r
 
       * fix: use correct env variable syntax for perplexity (#2765) - @Mxrk in 9c3a6061\r
 
       * fix: use safe favicon resolution in metascraper (#2763) - @MohamedBassem in 3dc321e7\r
 
-      * fix: fix timezone handling in date displays across the app (#2682) - @MohamedBassem in 9db69a33\r
+      * fix: fix timezone handling in date displays across the app (#2682) - @MohamedBassem in
+      9db69a33\r
 
       * fix: typo in docker docs (#2762) - @Mxrk in 9b93dab2\r
 
@@ -591,11 +668,13 @@ github:
 
       * feat(mobile): open links and images in in-app browser (#2696) - @esimkowitz in bcc8d83e\r
 
-      * fix: fix SSRF handling with redirects in crawler worker (#2759) - @MohamedBassem in c1547297\r
+      * fix: fix SSRF handling with redirects in crawler worker (#2759) - @MohamedBassem in
+      c1547297\r
 
       * feat: Add agentic skills links to the landing page (#2761) - @MohamedBassem in 03c9db08\r
 
-      * fix: fix allow the adblocker to run after request interception - @MohamedBassem in c2d72435\r
+      * fix: fix allow the adblocker to run after request interception - @MohamedBassem in
+      c2d72435\r
 
       * deps: upgrade protobufjs - @MohamedBassem in ab498a48\r
 
@@ -607,7 +686,8 @@ github:
 
       * tests: add a test for browser rendering - @MohamedBassem in 4ea8878c\r
 
-      * chore: use .gitignore as source of truth for oxfmt and oxlint (#2740) - @esimkowitz in 6b99eab9\r
+      * chore: use .gitignore as source of truth for oxfmt and oxlint (#2740) - @esimkowitz in
+      6b99eab9\r
 
       * feat: Allow multiple lists for Rule Engine #2490 (#2620) - @Ahmed-Abdel-karim in 8a1f8303\r
 
@@ -635,53 +715,64 @@ github:
 
       * chore: add portless pnpm scripts - @MohamedBassem in 9d9e4702\r
 
-      * fix: change the archive button in the manage lists dialog to be a secondary button - @MohamedBassem in f928f975\r
+      * fix: change the archive button in the manage lists dialog to be a secondary button -
+      @MohamedBassem in f928f975\r
 
       * fix: fix promise race leaks in the worker (#2737) - @MohamedBassem in 6610a1aa\r
 
       * feat: add granular API key scopes (#2731) - @MohamedBassem in d95e6f8f\r
 
-      * fix: fix broken cache invalidation requiring refresh after adding a bookmark to a tag or a list - @MohamedBassem in 0949d4f5\r
+      * fix: fix broken cache invalidation requiring refresh after adding a bookmark to a tag or a
+      list - @MohamedBassem in 0949d4f5\r
 
       * deps: upgrade astro to 6.1.6. fixes #2728 - @MohamedBassem in 0b15d01d\r
 
-      * fix: skip url getContentType fetch if precrawledArchiveAssetId exists (#2580) - @GSAlex in b7c9fe86\r
+      * fix: skip url getContentType fetch if precrawledArchiveAssetId exists (#2580) - @GSAlex in
+      b7c9fe86\r
 
-      * feat: add support for configuring OpenAI reasoning effort (#2718) - @cinconueves in a075ade0\r
+      * feat: add support for configuring OpenAI reasoning effort (#2718) - @cinconueves in
+      a075ade0\r
 
       * feat: change the default new list emoji to folder - @MohamedBassem in 430c035a\r
 
       * fix: truncate urls in crawler logs - @MohamedBassem in 44ec0772\r
 
-      * feat: Add native single-file support to browser extension (#2197) - @MohamedBassem in 1ed39a37\r
+      * feat: Add native single-file support to browser extension (#2197) - @MohamedBassem in
+      1ed39a37\r
 
       * chore: fix PR template path - @MohamedBassem in 5e2b85ab\r
 
       * chore: add PR template inspired from immich - @MohamedBassem in 0e9b1b63\r
 
-      * feat(extension): add manual save toggle for browser extension (#2693) - @keslerm in c3975018\r
+      * feat(extension): add manual save toggle for browser extension (#2693) - @keslerm in
+      c3975018\r
 
       * feat(web): auto-add bookmark to list on selection (#2629) - @xingzihai in a8c5ac94\r
 
-      * fix: use relative path for logout redirect to avoid port mismatch (#2655) - @howwohmm in 4dbcc414\r
+      * fix: use relative path for logout redirect to avoid port mismatch (#2655) - @howwohmm in
+      4dbcc414\r
 
       * feat(mcp): add update-bookmark tool (#2717) - @vbalko-claimate in c699bc90\r
 
-      * fix: include userId in ratelimit key if the user is authed (#2726) - @MohamedBassem in 7f18376e\r
+      * fix: include userId in ratelimit key if the user is authed (#2726) - @MohamedBassem in
+      7f18376e\r
 
       * fix: fix pnpm symlink conflict (#2725) - @MohamedBassem in b3d0cea9\r
 
-      * fix: add data: to style-src and font-src CSP directives in serveAsset (#2657) - @howwohmm in e2a39e45\r
+      * fix: add data: to style-src and font-src CSP directives in serveAsset (#2657) - @howwohmm in
+      e2a39e45\r
 
       * fix: sanitize user names before storing them (#2724) - @MohamedBassem in 6109588f\r
 
       * fix: add ratelimiting for the changePassword endpoint (#2723) - @MohamedBassem in 8b51bff2\r
 
-      * fix: invalidate existing password reset tokens before issuing a new one (#2722) - @MohamedBassem in 35dcf80f\r
+      * fix: invalidate existing password reset tokens before issuing a new one (#2722) -
+      @MohamedBassem in 35dcf80f\r
 
       * fix(docker): add `ffmpeg` as required by `yt-dlp` (#2721) - @MaximePinot in 34487460\r
 
-      * fix: add ability to manually finalize/delete staged import sessions (#2713) - @MohamedBassem in f67f1847\r
+      * fix: add ability to manually finalize/delete staged import sessions (#2713) - @MohamedBassem
+      in f67f1847\r
 
       * chore: add tests for the inference worker - @MohamedBassem in 364cb8a4\r
 
@@ -695,7 +786,8 @@ github:
 
       * deps: upgrade oxlint and oxfmt - @MohamedBassem in cde625ca\r
 
-      * docs: Update worker list in the environment variable reference (#2710) - @maxim-mityutko in c854e9e6\r
+      * docs: Update worker list in the environment variable reference (#2710) - @maxim-mityutko in
+      c854e9e6\r
 
       * docs: add skills to docs - @MohamedBassem in 2330ad3b\r
 
@@ -703,15 +795,18 @@ github:
 
       * fix: add clawhub metadata to karakeep skill - @MohamedBassem in e438b012\r
 
-      * feat(mobile): add keep screen on toggle for bookmark viewing (#2691) - @esimkowitz in 64ff1cc6\r
+      * feat(mobile): add keep screen on toggle for bookmark viewing (#2691) - @esimkowitz in
+      64ff1cc6\r
 
       * chore: freshen up docker-compose.yml for local dev purposes (#2149) - @xuatz in 26545d64\r
 
       * deps: upgrade to zod 4 (#2689) - @MohamedBassem in fa24e42e\r
 
-      * docs(mobile): add SENTRY_DISABLE_AUTO_UPLOAD=true to build apk without sentry dsn (#2700) - @xuatz in 8e6fcdca\r
+      * docs(mobile): add SENTRY_DISABLE_AUTO_UPLOAD=true to build apk without sentry dsn (#2700) -
+      @xuatz in 8e6fcdca\r
 
-      * fix(mobile): remove react-native-keyboard-controller patch (#2697) - @esimkowitz in bb0d050c\r
+      * fix(mobile): remove react-native-keyboard-controller patch (#2697) - @esimkowitz in
+      bb0d050c\r
 
       * fix(mobile): truncate bookmark title with tailwind shrink (#2699) - @xuatz in 90821073\r
 
@@ -725,9 +820,11 @@ github:
 
       * fix: restate use lazy loading for semaphore state - @MohamedBassem in 6269175e\r
 
-      * fix(browser-extension): handle unreachable background script on Firef… (#2649) - @Joly0 in 6d54cd7e\r
+      * fix(browser-extension): handle unreachable background script on Firef… (#2649) - @Joly0 in
+      6d54cd7e\r
 
-      * feat(mobile): iOS 26 header compatibility and header icon fixes (#2523) - @esimkowitz in e71681de\r
+      * feat(mobile): iOS 26 header compatibility and header icon fixes (#2523) - @esimkowitz in
+      e71681de\r
 
       * feat(cli): include userId in admin user list output - @MohamedBassem in 2702f0fd\r
 
@@ -735,19 +832,23 @@ github:
 
       * deps: upgrade drizzle to 0.45 - @MohamedBassem in 0b278267\r
 
-      * fix: improve consistency of assetdb between local and s3 when a range is provided - @MohamedBassem in 546a89b0\r
+      * fix: improve consistency of assetdb between local and s3 when a range is provided -
+      @MohamedBassem in 546a89b0\r
 
       * fix(skills): fix the tags of the skill - @MohamedBassem in 7a4c07b2\r
 
-      * feat: various improvements to the CLI: pretty print results, list creation, highlights, etc - @MohamedBassem in d334df92\r
+      * feat: various improvements to the CLI: pretty print results, list creation, highlights, etc
+      - @MohamedBassem in d334df92\r
 
       * feat: add an agent SKILL for using karakeep - @MohamedBassem in 1f8cac3a\r
 
       * fix: move meilisearch to 'all' matching strategy. fixes #2668 - @MohamedBassem in 68e73500\r
 
-      * fix: upgrade playwright to 1.59 to fix browserless issues. fixes #2648 - @MohamedBassem in 8f4dbcc9\r
+      * fix: upgrade playwright to 1.59 to fix browserless issues. fixes #2648 - @MohamedBassem in
+      8f4dbcc9\r
 
-      * feat(import): thread archived status through Pocket import pipeline (#2656) - @howwohmm in ddf73a07\r
+      * feat(import): thread archived status through Pocket import pipeline (#2656) - @howwohmm in
+      ddf73a07\r
 
       * fix: use consistent proxy URL per crawler run (#2681) - @MohamedBassem in db986228\r
 
@@ -755,15 +856,18 @@ github:
 
       * feat(landing): migrate to astro - @MohamedBassem in 7e0d7abe\r
 
-      * fix(i18n): normalize tone across all translations to match English (#2680) - @MohamedBassem in ce24d99e\r
+      * fix(i18n): normalize tone across all translations to match English (#2680) - @MohamedBassem
+      in ce24d99e\r
 
-      * docs: add karatui to community projects (after karaclean) - @github-actions[bot] in 1c177160\r
+      * docs: add karatui to community projects (after karaclean) - @github-actions[bot] in
+      1c177160\r
 
       * docs: add karaclean to community projects (#2615) - @lmgarret in a55292ba\r
 
       * fix: fix passing openai proxy to openai client (#2676) - @MohamedBassem in 4c6a95ca\r
 
-      * fix: switch feed fetch endpoint to POST and add E2E coverage (#2677) - @MohamedBassem in de65a47c\r
+      * fix: switch feed fetch endpoint to POST and add E2E coverage (#2677) - @MohamedBassem in
+      de65a47c\r
 
       * fix: fix sdk error return type in callsites - @MohamedBassem in 07ecdcd7\r
 
@@ -771,7 +875,8 @@ github:
 
       * feat(api): expose feed subscriptions via REST API (#2635) - @larsborn in 25ff6a79\r
 
-      * feat(workers): make monolith timeout and arguments configurable (#2659) - @NikhilChowdhury27 in f54a9b8f\r
+      * feat(workers): make monolith timeout and arguments configurable (#2659) - @NikhilChowdhury27
+      in f54a9b8f\r
 
       * fix: dedup bookmarks during meilisearch batching - @MohamedBassem in bc14214b\r
 
@@ -779,7 +884,8 @@ github:
 
       * chore: add extra batch size logging to the meilisearch plugin - @MohamedBassem in 885355bb\r
 
-      * fix(landing): fix responsivness of the self-hostings docs button - @MohamedBassem in 3a217a67\r
+      * fix(landing): fix responsivness of the self-hostings docs button - @MohamedBassem in
+      3a217a67\r
 
       * feat: add a new counter for new bookmarks by source - @MohamedBassem in f42cb356\r
 
@@ -791,9 +897,11 @@ github:
 
       * fix: lower priority of rule engine enqueues - @MohamedBassem in 88d7f401\r
 
-      * fix: skip tagging and summarization for assets that fail preprocessing - @MohamedBassem in db275f25\r
+      * fix: skip tagging and summarization for assets that fail preprocessing - @MohamedBassem in
+      db275f25\r
 
-      * fix(restate): better error message on abort, preserve error stacktraces and fix stack undeterminsim - @MohamedBassem in 1745f6f9\r
+      * fix(restate): better error message on abort, preserve error stacktraces and fix stack
+      undeterminsim - @MohamedBassem in 1745f6f9\r
 
       * chore: drop plugin deps from trpc package - @MohamedBassem in d534ec9a\r
 
@@ -801,7 +909,8 @@ github:
 
       * feat: add more admin APIs to semaphore implementation - @MohamedBassem in 17f4963b\r
 
-      * fix: don't trigger rule engine jobs unless there's a matching rule (#2614) - @MohamedBassem in 7f118261\r
+      * fix: don't trigger rule engine jobs unless there's a matching rule (#2614) - @MohamedBassem
+      in 7f118261\r
 
       * deps: upgrade metascraper - @MohamedBassem in 5b60f45d\r
 
@@ -811,19 +920,24 @@ github:
 
       * deps: upgrade aws client - @MohamedBassem in 7f7e0546\r
 
-      * fix: only trigger webhook job if user have webhooks configured - @MohamedBassem in 49d57dfd\r
+      * fix: only trigger webhook job if user have webhooks configured - @MohamedBassem in
+      49d57dfd\r
 
-      * refactor: split models into repos and services for feed, highlights, webhooks and importSessions (#2613) - @MohamedBassem in ddd578cc\r
+      * refactor: split models into repos and services for feed, highlights, webhooks and
+      importSessions (#2613) - @MohamedBassem in ddd578cc\r
 
       * fix: ratelimit bookmark creation API - @MohamedBassem in 6e5c2ef0\r
 
-      * Remove queue size checks from import worker capacity calculation (#2597) - @MohamedBassem in fba7108b\r
+      * Remove queue size checks from import worker capacity calculation (#2597) - @MohamedBassem in
+      fba7108b\r
 
       * fix: add missing queues to queue monitoring - @MohamedBassem in 946e263a\r
 
-      * Reapply \"fix(restate): use queue size from semaphore instead of admin API\" - @MohamedBassem in bf1963d5\r
+      * Reapply \"fix(restate): use queue size from semaphore instead of admin API\" -
+      @MohamedBassem in bf1963d5\r
 
-      * Revert \"fix(restate): use queue size from semaphore instead of admin API\" - @MohamedBassem in 73720f27\r
+      * Revert \"fix(restate): use queue size from semaphore instead of admin API\" - @MohamedBassem
+      in 73720f27\r
 
       * feat(landing): minor revamp to the landing page - @MohamedBassem in b690b4c8\r
 
@@ -831,7 +945,8 @@ github:
 
       * fix(workers): handle TWZ RSS category objects (#2589) - @venku122 in 645f2f0b\r
 
-      * fix(restate): use queue size from semaphore instead of admin API - @MohamedBassem in c455f0a6\r
+      * fix(restate): use queue size from semaphore instead of admin API - @MohamedBassem in
+      c455f0a6\r
 
       * fix(import): parse linkwarden collections. fixes #2586 - @MohamedBassem in 722fd8c0\r
 
@@ -841,7 +956,8 @@ github:
 
       * chore: add jean to gitignore - @MohamedBassem in 8bb529c1\r
 
-      * feat(landing): add Raycast/Obsidian integrations to the apps page (#2585) - @MohamedBassem in 9f57c212\r
+      * feat(landing): add Raycast/Obsidian integrations to the apps page (#2585) - @MohamedBassem
+      in 9f57c212\r
 
       * fix(mobile): drop the usage of react-native-awesome-slider - @MohamedBassem in dfa56a7d\r
 
@@ -849,45 +965,60 @@ github:
 
       * fix: map TOO_MANY_REQUESTS to 429 in the api - @MohamedBassem in 5053050d\r
 
-      * fix(api): ensure sourceUrl is saved when creating asset bookmarks (#2574) - @hoilc in eb976279\r
+      * fix(api): ensure sourceUrl is saved when creating asset bookmarks (#2574) - @hoilc in
+      eb976279\r
 
       * release(mobile): release mobile v1.9.2 - @MohamedBassem in 3c9349d3\r
 
       * feat(mobile): report mobile crashes to sentry - @MohamedBassem in 5a371f4b\r
 
-      * fix(mobile): replace deprecated ImagePicker.MediaTypeOptions with media type literal (#2528) - @esimkowitz in 1df8acb3\r
+      * fix(mobile): replace deprecated ImagePicker.MediaTypeOptions with media type literal (#2528)
+      - @esimkowitz in 1df8acb3\r
 
-      * feat(mobile): add external browser default bookmark view (#2516) (#2548) - @xingzihai in ba6a6f97\r
+      * feat(mobile): add external browser default bookmark view (#2516) (#2548) - @xingzihai in
+      ba6a6f97\r
 
-      * fix(web): expand $tags/$aiTags/$userTags in AI prompt preview (#2557) - @zerone0x in 23cd9dae\r
+      * fix(web): expand $tags/$aiTags/$userTags in AI prompt preview (#2557) - @zerone0x in
+      23cd9dae\r
 
-      * fix(crawler): normalize lazy-load img attributes to src before Readability (#2556) - @zerone0x in 3d18d89c\r
+      * fix(crawler): normalize lazy-load img attributes to src before Readability (#2556) -
+      @zerone0x in 3d18d89c\r
 
-      * fix(mobile): prevent app hanging behind reverse proxies and fix Hermes compat (#2559) - @mrInvincible29 in 3c70a57a\r
+      * fix(mobile): prevent app hanging behind reverse proxies and fix Hermes compat (#2559) -
+      @mrInvincible29 in 3c70a57a\r
 
-      * fix(mobile): fix layout issues when Android bold text accessibility option is enabled (#2554) - @Go2Engle in ffba00d9\r
+      * fix(mobile): fix layout issues when Android bold text accessibility option is enabled
+      (#2554) - @Go2Engle in ffba00d9\r
 
-      * feat: support bookmark source condition in rule engine (#2526) (#2547) - @xingzihai in b5d628cc\r
+      * feat: support bookmark source condition in rule engine (#2526) (#2547) - @xingzihai in
+      b5d628cc\r
 
-      * chore(mobile): add APP_VARIANT to make it easier to install multiple mobile variants (#2422) - @xuatz in bc0d3d27\r
+      * chore(mobile): add APP_VARIANT to make it easier to install multiple mobile variants (#2422)
+      - @xuatz in bc0d3d27\r
 
-      * feat(api): add admin REST endpoints to trigger background jobs (#2564) - @MohamedBassem in 4974ce58\r
+      * feat(api): add admin REST endpoints to trigger background jobs (#2564) - @MohamedBassem in
+      4974ce58\r
 
-      * docs: revise Gemini API documentation for billing and models (#2514) - @faximan in a507f274\r
+      * docs: revise Gemini API documentation for billing and models (#2514) - @faximan in
+      a507f274\r
 
       * fix: increase max feed url length to 2k chars. fixes #2572 - @MohamedBassem in 07454a6a\r
 
       * feat(cli): add more admin utilities to the karakeep cli - @MohamedBassem in c363c4f6\r
 
-      * fix(restate): use default retry policy for onError and onComplete handlers - @MohamedBassem in 3868ad69\r
+      * fix(restate): use default retry policy for onError and onComplete handlers - @MohamedBassem
+      in 3868ad69\r
 
-      * fix(web): show \"+\" in tag count badges when more pages exist (#2558) - @zerone0x in 432235be\r
+      * fix(web): show \"+\" in tag count badges when more pages exist (#2558) - @zerone0x in
+      432235be\r
 
       * fix(workers): prevent crash caused by puppeteer-extra - @MohamedBassem in d197f595\r
 
-      * fix(workers): retry worker job completion success/failure reporting - @MohamedBassem in e578322e\r
+      * fix(workers): retry worker job completion success/failure reporting - @MohamedBassem in
+      e578322e\r
 
-      * fix(workers): avoid doing empty insertions in the tagging worker - @MohamedBassem in 186b76eb\r
+      * fix(workers): avoid doing empty insertions in the tagging worker - @MohamedBassem in
+      186b76eb\r
 
       * feat(web): allow collapsing the sidebar in bookmark previews - @MohamedBassem in 49d79590\r
 
@@ -901,7 +1032,8 @@ github:
 
       * feat: switch rapid bookmark creations to use low pri queues - @MohamedBassem in b009585d\r
 
-      * chore: add a throttled log line when we're failing open in redis ratelimiter - @MohamedBassem in 97cddefb\r
+      * chore: add a throttled log line when we're failing open in redis ratelimiter -
+      @MohamedBassem in 97cddefb\r
 
       * feat(web): add fav and archive actions on hover. fixes #2360 - @MohamedBassem in 98e173d8\r
 
@@ -919,17 +1051,20 @@ github:
 
       * feat(mobile): search on type instead of search on enter - @claude in 48a6c86b\r
 
-      * fix: prevent highlight popup from stealing focus on Firefox. fixes #2510 #997 - @claude in 11dfe74d\r
+      * fix: prevent highlight popup from stealing focus on Firefox. fixes #2510 #997 - @claude in
+      11dfe74d\r
 
       * docs: more docs fixing - @MohamedBassem in 57f586fc\r
 
       * docs: better api docs (#2530) - @MohamedBassem in dd2c6cc0\r
 
-      * feat(mobile): add empty stats for bookmarks, tags and highlights - @MohamedBassem in 1f7ea122\r
+      * feat(mobile): add empty stats for bookmarks, tags and highlights - @MohamedBassem in
+      1f7ea122\r
 
       * release(mobile): bump build version for mobile app - @MohamedBassem in ec2d0373\r
 
-      * fix: skip session redirect from the mobile signup inline browser - @MohamedBassem in 0416ef46\r
+      * fix: skip session redirect from the mobile signup inline browser - @MohamedBassem in
+      0416ef46\r
 
       * feat(mobile): add account deletion support in settings - @claude in 33c8c770\r
 
@@ -937,21 +1072,26 @@ github:
 
       * release(mobile): Bump mobile version to 1.9.1 - @MohamedBassem in 119efef6\r
 
-      * fix(mobile): add manual padding to avoid the native tabs on android. fixes #2518 - @MohamedBassem in dac78a07\r
+      * fix(mobile): add manual padding to avoid the native tabs on android. fixes #2518 -
+      @MohamedBassem in dac78a07\r
 
       * fix(mobile): fix header color on android causing. #2518 - @MohamedBassem in 17918626\r
 
       * fix(mobile): delete hack for hiding parent's header - @MohamedBassem in 3f45d9e1\r
 
-      * fix(mobile): fix padding on the header buttons in bookmark info page - @MohamedBassem in 68524d66\r
+      * fix(mobile): fix padding on the header buttons in bookmark info page - @MohamedBassem in
+      68524d66\r
 
-      * fix(mobile): fix alignment of the header menu in the list page - @MohamedBassem in 95244156\r
+      * fix(mobile): fix alignment of the header menu in the list page - @MohamedBassem in
+      95244156\r
 
-      * fix(mobile): fix query client confusion causing missed invalidation - @MohamedBassem in 0c25cf23\r
+      * fix(mobile): fix query client confusion causing missed invalidation - @MohamedBassem in
+      0c25cf23\r
 
       * chore: add claude worktrees to gitignore - @MohamedBassem in 2f02d157\r
 
-      * fix(mobile): fix alignment of the header menu in the list page - @MohamedBassem in b1b32f7b\r
+      * fix(mobile): fix alignment of the header menu in the list page - @MohamedBassem in
+      b1b32f7b\r
 
       * feat(mobile): add SF Symbol icons to native menus - @claude in b58fc6c9\r
 
@@ -963,7 +1103,8 @@ github:
 
       * fix(extension): fix missing trpc provider - @MohamedBassem in f3c9c837\r
 
-      * release(sdk,cli,extension,mcp): release 0.31 sdk, mcp and cli and extension 1.2.9 - @MohamedBassem in d212415b\r
+      * release(sdk,cli,extension,mcp): release 0.31 sdk, mcp and cli and extension 1.2.9 -
+      @MohamedBassem in d212415b\r
 
       * release(mobile): Bump mobile version to 1.9.0 - @MohamedBassem in 099e3eb0\r
 
@@ -1013,9 +1154,12 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-22T09:29:21.439Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:14.770Z
+    source: html
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: listed

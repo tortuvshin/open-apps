@@ -167,9 +167,8 @@ github:
     openPullRequests: 5
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:10.092Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:56.375Z
+    source: html
   languages:
     Swift: 341294
     Metal: 8663
@@ -185,6 +184,10 @@ github:
     - name: help wanted
       color: "159818"
       description: null
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

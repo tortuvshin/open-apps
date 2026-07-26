@@ -1,7 +1,8 @@
 kind: project
 name: YouTrack Mobile
 slug: youtrack-mobile
-description: Official JetBrains YouTrack mobile app — issue tracking, agile boards, knowledge base, and notifications for YouTrack projects.
+description: Official JetBrains YouTrack mobile app — issue tracking, agile boards, knowledge base,
+  and notifications for YouTrack projects.
 category: productivity
 tags:
   - cross-platform
@@ -192,9 +193,8 @@ github:
     openPullRequests: 5
     contributorsKnown: 27
   sync:
-    syncedAt: 2026-07-22T09:29:45.927Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:53.968Z
+    source: html
   languages:
     TypeScript: 2232256
     JavaScript: 22360
@@ -217,6 +217,10 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: active
   tier: listed

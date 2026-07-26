@@ -184,9 +184,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 8
   sync:
-    syncedAt: 2026-07-22T09:29:36.984Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:39.506Z
+    source: html
   languages:
     Swift: 763617
     Ruby: 8497
@@ -252,6 +251,10 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

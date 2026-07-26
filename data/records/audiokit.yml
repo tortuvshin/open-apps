@@ -198,9 +198,8 @@ github:
     openPullRequests: 3
     contributorsKnown: 225
   sync:
-    syncedAt: 2026-07-22T09:29:00.626Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:40.971Z
+    source: html
   languages:
     Swift: 1093483
   latestRelease:
@@ -254,6 +253,10 @@ github:
     - name: good first issue
       color: "38e038"
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

@@ -197,9 +197,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 6
   sync:
-    syncedAt: 2026-07-22T09:29:30.264Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:28.736Z
+    source: html
   languages:
     Swift: 247377
     Objective-C: 67510
@@ -213,6 +212,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

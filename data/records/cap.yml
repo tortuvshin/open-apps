@@ -1,10 +1,10 @@
 kind: project
 slug: cap
-name: "Cap"
-description: "Open source Loom alternative. Beautiful, shareable screen recordings."
+name: Cap
+description: Open source Loom alternative. Beautiful, shareable screen recordings.
 category: tools
 projectType: real-app
-stack: "tauri"
+stack: tauri
 platforms:
   - macos
   - windows
@@ -23,8 +23,7 @@ repoUrl: https://github.com/CapSoftware/Cap
 links:
   github: https://github.com/CapSoftware/Cap
   website: https://cap.so
-bestFor:
-  []
+bestFor: []
 source:
   type: manual
   owner: CapSoftware
@@ -33,3 +32,11 @@ curation:
   reviewed: false
   labels: []
   lenses: []
+github:
+  html:
+    license: null
+    language: null
+    topics: []
+  sync:
+    syncedAt: 2026-07-26T06:07:45.958Z
+    source: html

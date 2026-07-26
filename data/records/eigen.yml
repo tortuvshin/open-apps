@@ -1,7 +1,8 @@
 kind: project
 name: Artsy
 slug: eigen
-description: The mobile app for artsy.net — discover fine art, browse artists and artworks, follow galleries, and bid in auctions from your phone.
+description: The mobile app for artsy.net — discover fine art, browse artists and artworks, follow
+  galleries, and bid in auctions from your phone.
 category: shopping
 tags:
   - cross-platform
@@ -195,9 +196,8 @@ github:
     openPullRequests: 12
     contributorsKnown: 166
   sync:
-    syncedAt: 2026-07-22T09:29:08.172Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:54.063Z
+    source: html
   languages:
     TypeScript: 7981588
     Objective-C: 694758
@@ -310,6 +310,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

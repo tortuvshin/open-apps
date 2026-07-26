@@ -177,9 +177,8 @@ github:
     openPullRequests: 13
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-07-22T09:29:17.425Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:08.730Z
+    source: html
   languages:
     Dart: 969792
     Swift: 59361
@@ -354,6 +353,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

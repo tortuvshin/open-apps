@@ -192,9 +192,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-22T09:29:32.681Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:32.645Z
+    source: html
   languages:
     Dart: 115781
     Java: 604
@@ -216,6 +215,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: stale
   tier: listed

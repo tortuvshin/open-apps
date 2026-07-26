@@ -182,9 +182,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 11
   sync:
-    syncedAt: 2026-07-22T09:29:25.375Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:21.871Z
+    source: html
   languages:
     Objective-C: 323988
     C++: 2426
@@ -243,6 +242,10 @@ github:
     - name: help wanted
       color: "159818"
       description: null
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

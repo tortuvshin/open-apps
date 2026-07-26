@@ -187,9 +187,8 @@ github:
     openPullRequests: 3
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-22T09:29:06.319Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:51.555Z
+    source: html
   languages:
     C: 3102623
     C++: 73707
@@ -203,6 +202,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: GPL-2.0
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

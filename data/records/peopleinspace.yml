@@ -1,7 +1,8 @@
 kind: project
 name: PeopleInSpace
 slug: peopleinspace
-description: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.
+description: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose
+  for Desktop, and Compose for Web clients along with Ktor backend.
 category: tools
 tags:
   - kmm
@@ -64,7 +65,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/joreilly/PeopleInSpace
-    description: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.
+    description: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose
+      for Desktop, and Compose for Web clients along with Ktor backend.
     fork: false
     url: https://api.github.com/repos/joreilly/PeopleInSpace
     forks_url: https://api.github.com/repos/joreilly/PeopleInSpace/forks
@@ -189,9 +191,8 @@ github:
     openPullRequests: 10
     contributorsKnown: 38
   sync:
-    syncedAt: 2026-07-22T09:29:30.052Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:28.021Z
+    source: html
   languages:
     Kotlin: 198086
     Swift: 17963
@@ -213,6 +214,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

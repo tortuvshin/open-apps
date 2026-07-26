@@ -1,7 +1,9 @@
 kind: project
 name: BikeShare
 slug: bikeshare
-description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local persistence.
+description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin
+  Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local
+  persistence.
 category: tools
 tags:
   - swift
@@ -66,7 +68,9 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/joreilly/BikeShare
-    description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local persistence
+    description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin
+      Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local
+      persistence
     fork: false
     url: https://api.github.com/repos/joreilly/BikeShare
     forks_url: https://api.github.com/repos/joreilly/BikeShare/forks
@@ -191,9 +195,8 @@ github:
     openPullRequests: 7
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-07-22T09:29:01.970Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:43.670Z
+    source: html
   languages:
     Jupyter Notebook: 3803892
     Kotlin: 76522
@@ -215,6 +218,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

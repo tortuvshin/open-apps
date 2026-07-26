@@ -168,9 +168,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-07-22T09:29:07.159Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:52.004Z
+    source: html
   languages:
     Dart: 87561
     Ruby: 1002
@@ -186,6 +185,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

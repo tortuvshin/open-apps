@@ -171,9 +171,8 @@ github:
     network_count: 28
     subscribers_count: 12
   sync:
-    syncedAt: 2026-07-22T09:29:17.884Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:09.208Z
+    source: html
   languages:
     Swift: 456217
     Shell: 2078
@@ -322,6 +321,10 @@ github:
     - name: Help wanted
       color: D9C6BD
       description: Extra attention is needed
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: unknown
   tier: listed

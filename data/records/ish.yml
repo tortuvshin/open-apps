@@ -181,9 +181,8 @@ github:
     network_count: 1452
     subscribers_count: 578
   sync:
-    syncedAt: 2026-07-22T09:29:20.562Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:13.753Z
+    source: html
   languages:
     C: 1027534
     Objective-C: 310805
@@ -382,6 +381,10 @@ github:
     - name: help wanted
       color: 128A0C
       description: null
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: unknown
   tier: listed

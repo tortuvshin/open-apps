@@ -1078,13 +1078,15 @@ github:
         browser_download_url: https://github.com/streetwriters/notesnook/releases/download/v3.4.4/notesnook_win_x64_portable.exe
     tarball_url: https://api.github.com/repos/streetwriters/notesnook/tarball/v3.4.4
     zipball_url: https://api.github.com/repos/streetwriters/notesnook/zipball/v3.4.4
-    body: "[Read about what's new in Notesnook Desktop v3.4.4 on Notesnook's blog](https://blog.notesnook.com/notesnook-desktop-v3.4.4)\r
+    body: "[Read about what's new in Notesnook Desktop v3.4.4 on Notesnook's
+      blog](https://blog.notesnook.com/notesnook-desktop-v3.4.4)\r
 
       \r
 
       ## New Contributors\r
 
-      * @zigzagdev made their first contribution in https://github.com/streetwriters/notesnook/pull/10064\r
+      * @zigzagdev made their first contribution in
+      https://github.com/streetwriters/notesnook/pull/10064\r
 
       \r
 
@@ -1130,9 +1132,12 @@ github:
       color: 062DAB
       description: ""
   sync:
-    syncedAt: 2026-07-22T09:29:28.264Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:24.817Z
+    source: html
+  html:
+    license: GPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: listed

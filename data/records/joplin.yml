@@ -1,7 +1,9 @@
 kind: project
 name: Joplin
 slug: joplin
-description: Joplin is a free, open source note taking and to-do application. The mobile client is built with React Native and supports full sync via Nextcloud, Dropbox, OneDrive, WebDAV, and Joplin Cloud.
+description: Joplin is a free, open source note taking and to-do application. The mobile client is
+  built with React Native and supports full sync via Nextcloud, Dropbox, OneDrive, WebDAV, and
+  Joplin Cloud.
 category: productivity
 tags:
   - cross-platform
@@ -60,7 +62,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/laurent22/joplin
-    description: Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
+    description: Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS,
+      Linux, Android and iOS.
     fork: false
     url: https://api.github.com/repos/laurent22/joplin
     forks_url: https://api.github.com/repos/laurent22/joplin/forks
@@ -184,9 +187,8 @@ github:
     openPullRequests: 15
     contributorsKnown: 813
   sync:
-    syncedAt: 2026-07-22T09:29:20.711Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:14.343Z
+    source: html
   languages:
     TypeScript: 11526211
     JavaScript: 2250772
@@ -907,11 +909,14 @@ github:
         browser_download_url: https://github.com/laurent22/joplin/releases/download/v3.6.15/latest.yml
     tarball_url: https://api.github.com/repos/laurent22/joplin/tarball/v3.6.15
     zipball_url: https://api.github.com/repos/laurent22/joplin/zipball/v3.6.15
-    body: "- Improved: Improve how resource filenames are determined (#15672 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))\r
+    body: "- Improved: Improve how resource filenames are determined (#15672 by
+      [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))\r
 
-      - Fixed: Fix Fountain rendering issue (#15659 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))\r
+      - Fixed: Fix Fountain rendering issue (#15659 by
+      [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))\r
 
-      - Fixed: Fix duplicate tag creation for special unicode characters (#15613) (#15608 by [@mrjo118](https://github.com/mrjo118))"
+      - Fixed: Fix duplicate tag creation for special unicode characters (#15613) (#15608 by
+      [@mrjo118](https://github.com/mrjo118))"
     reactions:
       url: https://api.github.com/repos/laurent22/joplin/releases/342294529/reactions
       total_count: 19
@@ -934,6 +939,10 @@ github:
     - name: good first issue
       color: FBCA04
       description: ""
+  html:
+    license: null
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

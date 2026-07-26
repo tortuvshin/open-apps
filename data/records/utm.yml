@@ -185,9 +185,8 @@ github:
     network_count: 1761
     subscribers_count: 381
   sync:
-    syncedAt: 2026-07-22T09:29:43.840Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:49.402Z
+    source: html
   languages:
     Swift: 2045626
     Objective-C: 279855
@@ -532,15 +531,19 @@ github:
     zipball_url: https://api.github.com/repos/utmapp/UTM/zipball/v4.7.5
     body: "## Highlights\r
 
-      * **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with it a variety of bug fixes and performance improvements.\r
+      * **QEMU v10.0.2**: The backend has been updated to the latest upstream QEMU which brings with
+      it a variety of bug fixes and performance improvements.\r
 
       * **Liquid Glass**: UTM adopts the Liquid Glass design on *OS 26.\r
 
       * **App Intents**: New support for automation with Shortcuts.\r
 
-      * **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be sent to the VM from the new Keyboard menu.\r
+      * **Keyboard Shortcuts**: Define custom key combinations (such as Ctrl+Alt+Del) that can be
+      sent to the VM from the new Keyboard menu.\r
 
-      * **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of well-supported configurations. The updated wizard can create more working configurations such as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.\r
+      * **Improved Wizard**: Simplify the creation of emulated machines by selecting from a list of
+      well-supported configurations. The updated wizard can create more working configurations such
+      as RISC-V64 Ubuntu, classic Mac OS 8.x/9.x, and Windows 95/98.\r
 
       \r
 
@@ -560,17 +563,21 @@ github:
 
       * (macOS) Fixed App Intents on macOS 26 (#7412) (thanks @peterneutron)\r
 
-      * (macOS) Fixed an error when file locking is disabled and a removable drive with no image selected is started (#7527)\r
+      * (macOS) Fixed an error when file locking is disabled and a removable drive with no image
+      selected is started (#7527)\r
 
-      * (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks @evan314159)\r
+      * (macOS) AVF: Fixed shared directory disconnecting when window is resized (#7488) (thanks
+      @evan314159)\r
 
-      * Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting. Make sure you are on build 118.\r
+      * Hotfix: (1/3/25) An earlier release of v4.7.5 has an issue that prevented VMs from starting.
+      Make sure you are on build 118.\r
 
       \r
 
       ## Changes (v4.7.4)\r
 
-      * (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was re-released to address this) (#7408)\r
+      * (macOS) Fixed a crash on VM start when a toolbar menu was reinitialized (note v4.7.4 was
+      re-released to address this) (#7408)\r
 
       * Home: Fixed layout issue with button titles\r
 
@@ -584,7 +591,8 @@ github:
 
       * Fixed a crash when starting a VM results in a block device error\r
 
-      * Stop button can now be used a second time to force kill a VM if it is unresponsive after stopping for the first time\r
+      * Stop button can now be used a second time to force kill a VM if it is unresponsive after
+      stopping for the first time\r
 
       * libusb: Fixed multiple race conditions that caused crashes when using USB capture\r
 
@@ -600,31 +608,39 @@ github:
 
       ## Changes (v4.7.2)\r
 
-      * (macOS) AVF: Fixed a crash when starting any Apple Virtualization VM (#7355) (We are re-releasing v4.7.2 with build 112 due to this critical bug.)\r
+      * (macOS) AVF: Fixed a crash when starting any Apple Virtualization VM (#7355) (We are
+      re-releasing v4.7.2 with build 112 due to this critical bug.)\r
 
-      * Home: Display network details and active IP addresses on the home details screen (thanks @gabefair)\r
+      * Home: Display network details and active IP addresses on the home details screen (thanks
+      @gabefair)\r
 
       * Home: Show a security warning message when importing a .utm with custom arguments (#6252)\r
 
-      * Config: Option to reset UEFI without pre-loading Secure Boot keys (useful for custom TPM configurations) (#7005)\r
+      * Config: Option to reset UEFI without pre-loading Secure Boot keys (useful for custom TPM
+      configurations) (#7005)\r
 
-      * Config: Pre-loading Secure Boot keys will now install Microsoft UEFI 2023 certificates (#7257)\r
+      * Config: Pre-loading Secure Boot keys will now install Microsoft UEFI 2023 certificates
+      (#7257)\r
 
-      * Config: When PS/2 device is enabled, no longer create USB mouse and keyboard devices. This allows older Windows install to work out of the box.\r
+      * Config: When PS/2 device is enabled, no longer create USB mouse and keyboard devices. This
+      allows older Windows install to work out of the box.\r
 
-      * Config: Quotes in custom arguments are no longer stripped (unless the only quotes wrap the entire argument) (#6343)\r
+      * Config: Quotes in custom arguments are no longer stripped (unless the only quotes wrap the
+      entire argument) (#6343)\r
 
       * Config: Provide a fixed serial number for VirtIO block devices (#7332)\r
 
       * QEMU: Fixed an issue which causes Windows 98 to BSoD (#7342)\r
 
-      * QEMU: Do not create a default floppy drive when -nodefaults is used. UTM configuration will set up a FDC device and this is the only way to set up bootindex for floppy.\r
+      * QEMU: Do not create a default floppy drive when -nodefaults is used. UTM configuration will
+      set up a FDC device and this is the only way to set up bootindex for floppy.\r
 
       * Wizard: Legacy Windows configurations will now use PS/2 controller by default\r
 
       * Wizard: Update OS logos to be consistent with other icons\r
 
-      * Wizard: Windows + i440fx hardware will now instantiate default devices (sound, VGA, networking) that should work with Windows 95/98\r
+      * Wizard: Windows + i440fx hardware will now instantiate default devices (sound, VGA,
+      networking) that should work with Windows 95/98\r
 
       * Wizard: Add additional supported hardware configurations for running older Windows\r
 
@@ -634,7 +650,8 @@ github:
 
       * USB: Fixed a rare crash when initializing the USB devices list (#5811)\r
 
-      * SPICE: Fixed an issue where monitor configuration sent to spice-vdagent contains an invalid size (#5832)\r
+      * SPICE: Fixed an issue where monitor configuration sent to spice-vdagent contains an invalid
+      size (#5832)\r
 
       * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\r
 
@@ -644,9 +661,12 @@ github:
 
       * (macOS) Fixed connecting USB devices from secondary windows\r
 
-      * (macOS) New \"Virtual Machine\" menu which mirrors the actions accessible through the toolbar\r
+      * (macOS) New \"Virtual Machine\" menu which mirrors the actions accessible through the
+      toolbar\r
 
-      * (macOS) Keyboard Shortcuts toolbar icon is no longer shown by default (it can be placed on the toolbar through View -> Customize Toolbar). It is also accessible through the \"Virtual Machine\" menu.\r
+      * (macOS) Keyboard Shortcuts toolbar icon is no longer shown by default (it can be placed on
+      the toolbar through View -> Customize Toolbar). It is also accessible through the \"Virtual
+      Machine\" menu.\r
 
       * (macOS) Fixed sending simultaneous mouse button presses (#7068)\r
 
@@ -664,13 +684,17 @@ github:
 
       * Added App Intents for VM operations (#6245)\r
 
-      * Added UEFI boot support for RISC-V64 and LoongArch64. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\r
+      * Added UEFI boot support for RISC-V64 and LoongArch64. This allows Ubuntu for RISC-V64 to
+      work out of the box. (#7183)\r
 
-      * QEMU PPC: Disable `bootindex` when `boot-device` is used in prom-env. This allows Yellow Dog Linux for PPC to work out of the box. (#6436)\r
+      * QEMU PPC: Disable `bootindex` when `boot-device` is used in prom-env. This allows Yellow Dog
+      Linux for PPC to work out of the box. (#6436)\r
 
-      * QEMU x86_64: Fixed floppy boot order configuration for other PC models (isapc, i440fx) (#7166)\r
+      * QEMU x86_64: Fixed floppy boot order configuration for other PC models (isapc, i440fx)
+      (#7166)\r
 
-      * QEMU PPC/M68K: Includes classicvirtio drivers to support cursor input without capture and directory sharing (#6520)\r
+      * QEMU PPC/M68K: Includes classicvirtio drivers to support cursor input without capture and
+      directory sharing (#6520)\r
 
       * QEMU M68K: Fixed virtio drive config (#7008)\r
 
@@ -678,21 +702,33 @@ github:
 
       * Home: improve screenshot contrast in Dark Mode (#6894)\r
 
-      * Config: Fixed a crash when trying to enter a large size value when creating a new drive (#7295)\r
+      * Config: Fixed a crash when trying to enter a large size value when creating a new drive
+      (#7295)\r
 
-      * Config: Corrected the default host IP address in port forwarding config to \"0.0.0.0\" when it incorrectly displayed \"127.0.0.1\" (#7132)\r
+      * Config: Corrected the default host IP address in port forwarding config to \"0.0.0.0\" when
+      it incorrectly displayed \"127.0.0.1\" (#7132)\r
 
-      * Keyboard Shortcuts: Create custom combinations of keyboard shortcuts from either Settings -> Input or via the Keyboard icon in the VM (press and hold on iOS/visionOS). This will allow you to easily send key commands such as Ctrl+Alt+Del or Stop+A to the VM. (#5698, #6310, #6757)\r
+      * Keyboard Shortcuts: Create custom combinations of keyboard shortcuts from either Settings ->
+      Input or via the Keyboard icon in the VM (press and hold on iOS/visionOS). This will allow you
+      to easily send key commands such as Ctrl+Alt+Del or Stop+A to the VM. (#5698, #6310, #6757)\r
 
-      * Wizard: New option to import an existing drive image when setting up a Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\r
+      * Wizard: New option to import an existing drive image when setting up a Linux VM. This allows
+      Ubuntu for RISC-V64 to work out of the box. (#7183)\r
 
-      * Wizard: New option to create a serial port only Linux VM. This allows Ubuntu for RISC-V64 to work out of the box. (#7183)\r
+      * Wizard: New option to create a serial port only Linux VM. This allows Ubuntu for RISC-V64 to
+      work out of the box. (#7183)\r
 
-      * Wizard: Removed VHDX import option because Microsoft now provides ARM64 ISO images. Note: You can still create manually import an VHDX after creating a new VM.\r
+      * Wizard: Removed VHDX import option because Microsoft now provides ARM64 ISO images. Note:
+      You can still create manually import an VHDX after creating a new VM.\r
 
       * Wizard: New template to create classic Mac OS VMs for M68K and PPC (#3504, #6890)\r
 
-      * Wizard: Most common and supported machines for emulation are now listed prominently with the full list of supported QEMU architectures/targets hidden behind an \"Expert\" mode. This is necessary because most of the QEMU targets are not properly supported by the wizard anyways and does not generate a bootable config. They usually require a lot more manual tinkering. The page order of the wizard is also tweaked so the hardware config comes before the boot config now.\r
+      * Wizard: Most common and supported machines for emulation are now listed prominently with the
+      full list of supported QEMU architectures/targets hidden behind an \"Expert\" mode. This is
+      necessary because most of the QEMU targets are not properly supported by the wizard anyways
+      and does not generate a bootable config. They usually require a lot more manual tinkering. The
+      page order of the wizard is also tweaked so the hardware config comes before the boot config
+      now.\r
 
       * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\r
 
@@ -700,23 +736,31 @@ github:
 
       * (iOS SE) Fixed a crash when the first instruction executed is a goto\r
 
-      * (iOS SE) Removed ARM32, RISC-V32, and added M68K. There is little use for ARM32 and RISC-V32 as they cannot boot anything useful that cannot also be booted by the 64-bit variant (which is still included). If you have a counter example of this, please open an issue on GitHub and we can consider re-adding it back in the future. However, removing these will make the app size a lot smaller. M68K is added to support classic Mac OS.\r
+      * (iOS SE) Removed ARM32, RISC-V32, and added M68K. There is little use for ARM32 and RISC-V32
+      as they cannot boot anything useful that cannot also be booted by the 64-bit variant (which is
+      still included). If you have a counter example of this, please open an issue on GitHub and we
+      can consider re-adding it back in the future. However, removing these will make the app size a
+      lot smaller. M68K is added to support classic Mac OS.\r
 
       * (macOS 11) Fixed guest tools mounting (#7297)\r
 
       * (macOS 11) Fixed stop button not working (#7298)\r
 
-      * (macOS) Fixed a bug where an error message on startup leads to the window being stuck (#7161)\r
+      * (macOS) Fixed a bug where an error message on startup leads to the window being stuck
+      (#7161)\r
 
-      * (macOS) Settings: New setting to disable file locking so VMs can be launched from a network share or a filesystem that does not support locking (#7211)\r
+      * (macOS) Settings: New setting to disable file locking so VMs can be launched from a network
+      share or a filesystem that does not support locking (#7211)\r
 
-      * (macOS) Settings: New setting to disable screenshots completely for privacy reasons (#6620)\r
+      * (macOS) Settings: New setting to disable screenshots completely for privacy reasons
+      (#6620)\r
 
       * (macOS) Settings: New setting to swap Ctrl and Cmd keys in VMs (#4003)\r
 
       * (macOS 26) Settings: Brand new layout with a sidebar to match other native apps\r
 
-      * (macOS) AVF: Added clearer message when trying to install macOS beta without having the latest beta support tools installed\r
+      * (macOS) AVF: Added clearer message when trying to install macOS beta without having the
+      latest beta support tools installed\r
 
       * (macOS) AVF: New option to resize (expand) disk images (#6891)\r
 
@@ -724,9 +768,11 @@ github:
 
       * (macOS) Home: Fixed hide sidebar button\r
 
-      * (macOS) Config: Show localized network adapter names when available (#7287) (thanks @Schamper)\r
+      * (macOS) Config: Show localized network adapter names when available (#7287) (thanks
+      @Schamper)\r
 
-      * (macOS) Scripting: Fixed an issue where wrong UUIDs were generated for display configs (#7145)\r
+      * (macOS) Scripting: Fixed an issue where wrong UUIDs were generated for display configs
+      (#7145)\r
 
       \r
 
@@ -734,7 +780,8 @@ github:
 
       * Updated to QEMU v10.0.2\r
 
-      * Config: In the RAM slider, the maximum value has been increased to 64GiB (note that you can always go above the slider limit by typing in the text box) (#7234)\r
+      * Config: In the RAM slider, the maximum value has been increased to 64GiB (note that you can
+      always go above the slider limit by typing in the text box) (#7234)\r
 
       * Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\r
 
@@ -742,25 +789,30 @@ github:
 
       * (iOS) Toolbar: Refactored toolbar button layout code\r
 
-      * (macOS) Host only networks: you can set up multiple host-only networks (including ones shared by VMware) and have multiple VMs on the same virtual network (thanks @Schamper)\r
+      * (macOS) Host only networks: you can set up multiple host-only networks (including ones
+      shared by VMware) and have multiple VMs on the same virtual network (thanks @Schamper)\r
 
       * (macOS) utmctl: added option to boot Apple VMs into recovery mode (thanks @cees-elzinga)\r
 
-      * (macOS) ~~Enable QEMU support for vmapple (#7150)~~ Machine model is removed for stability reasons but `apple-gfx-pci` is still supported for Intel VMs\r
+      * (macOS) ~~Enable QEMU support for vmapple (#7150)~~ Machine model is removed for stability
+      reasons but `apple-gfx-pci` is still supported for Intel VMs\r
 
       * (macOS) Rename the main window to 'UTM Library' (#7264)\r
 
-      * (macOS) Display an error when IPSW install fails to load the file (instead of crashing) (#6855)\r
+      * (macOS) Display an error when IPSW install fails to load the file (instead of crashing)
+      (#6855)\r
 
       * (macOS) Settings: Fixed a layout issue (#7117)\r
 
-      * (macOS) Apple Virtualization: Add support for ASIF drive images. On macOS 26, ASIF drives will be created by default.\r
+      * (macOS) Apple Virtualization: Add support for ASIF drive images. On macOS 26, ASIF drives
+      will be created by default.\r
 
       \r
 
       ## Issues\r
 
-      Please check the full list on [Github](https://github.com/utmapp/UTM/issues) and help report any bug you find that is not listed.\r
+      Please check the full list on [Github](https://github.com/utmapp/UTM/issues) and help report
+      any bug you find that is not listed.\r
 
       \r
 
@@ -780,13 +832,16 @@ github:
 
       | UTM.deb | Jailbroken iOS version | Open in Cydia, dpkg, or Sileo | Yes | Yes(1) | Yes |\r
 
-      | UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes |\r
+      | UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes
+      |\r
 
-      | UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No | No |\r
+      | UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No
+      | No |\r
 
       | UTM-HV.ipa | Non-jailbroken iOS version (TrollStore) | TrollStore | Yes | Yes(1) | Yes |\r
 
-      | UTM-SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc | No | No | No |\r
+      | UTM-SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc |
+      No | No | No |\r
 
       | UTM-Remote.ipa | Remote client | Any | No | No | No |\r
 
@@ -845,6 +900,10 @@ github:
     - name: help wanted
       color: "008672"
       description: Extra attention is needed
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: unknown
   tier: listed

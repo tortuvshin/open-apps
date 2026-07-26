@@ -188,9 +188,8 @@ github:
     openPullRequests: 5
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-07-22T09:29:28.243Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:25.287Z
+    source: html
   languages:
     Objective-C: 138079
     C: 16332
@@ -282,6 +281,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: BSD-2-Clause
+    language: null
+    topics: []
 health:
   status: stale
   tier: curated

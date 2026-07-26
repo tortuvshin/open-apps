@@ -429,7 +429,8 @@ github:
 
       \r
 
-      Under the hood: dependency updates, TypeScript coverage improvements, CI and translation tooling fixes.\r
+      Under the hood: dependency updates, TypeScript coverage improvements, CI and translation
+      tooling fixes.\r
 
       \r
 
@@ -439,137 +440,198 @@ github:
 
       * OPS: Bump version by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8621\r
 
-      * fix: no round corners in qrcode by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8631\r
+      * fix: no round corners in qrcode by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8631\r
 
-      * REF: remove GroundControl server URL option from notification settings by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8636\r
+      * REF: remove GroundControl server URL option from notification settings by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8636\r
 
-      * ADD: arkade ln pushes by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8634\r
+      * ADD: arkade ln pushes by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8634\r
 
-      * REF: single-pass tx-to-address mapping in HD fetchTransactions by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8639\r
+      * REF: single-pass tx-to-address mapping in HD fetchTransactions by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8639\r
 
-      * fix(deps): update dependency @noble/secp256k1 to v1.7.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8590\r
+      * fix(deps): update dependency @noble/secp256k1 to v1.7.2 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8590\r
 
-      * chore(deps): update actions/checkout action to v6.0.3 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8643\r
+      * chore(deps): update actions/checkout action to v6.0.3 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8643\r
 
-      * Retyui remove dead code by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8645\r
+      * Retyui remove dead code by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8645\r
 
-      * fix(deps): update dependency @arkade-os/sdk to v0.4.33 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8647\r
+      * fix(deps): update dependency @arkade-os/sdk to v0.4.33 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8647\r
 
-      * fix(deps): update dependency @arkade-os/boltz-swap to v0.3.38 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8646\r
+      * fix(deps): update dependency @arkade-os/boltz-swap to v0.3.38 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8646\r
 
-      * fix(deps): update dependency @react-native-vector-icons/ionicons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8650\r
+      * fix(deps): update dependency @react-native-vector-icons/ionicons to v13.1.2 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8650\r
 
-      * fix(deps): update dependency @react-native-vector-icons/fontawesome to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8648\r
+      * fix(deps): update dependency @react-native-vector-icons/fontawesome to v13.1.2 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8648\r
 
-      * fix(deps): update dependency @react-native-vector-icons/material-design-icons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8652\r
+      * fix(deps): update dependency @react-native-vector-icons/material-design-icons to v13.1.2 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8652\r
 
-      * FIX: Remove chevron on modal open ux by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8651\r
+      * FIX: Remove chevron on modal open ux by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8651\r
 
-      * fix(deps): update dependency @react-native-vector-icons/fontawesome6 to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8649\r
+      * fix(deps): update dependency @react-native-vector-icons/fontawesome6 to v13.1.2 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8649\r
 
-      * fix(deps): update dependency @react-native-vector-icons/material-icons to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8653\r
+      * fix(deps): update dependency @react-native-vector-icons/material-icons to v13.1.2 by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8653\r
 
-      * fix(deps): update dependency dayjs to v1.11.21 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8669\r
+      * fix(deps): update dependency dayjs to v1.11.21 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8669\r
 
-      * fix: improve typescript coverage by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8239\r
+      * fix: improve typescript coverage by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8239\r
 
-      * fix(deps): update dependency @react-native-vector-icons/entypo to v13.1.2 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8617\r
+      * fix(deps): update dependency @react-native-vector-icons/entypo to v13.1.2 by @renovate[bot]
+      in https://github.com/BlueWallet/BlueWallet/pull/8617\r
 
-      * OPS: bump Arkade SDKs (sdk 0.4.35, boltz-swap 0.3.40) by @Kukks in https://github.com/BlueWallet/BlueWallet/pull/8675\r
+      * OPS: bump Arkade SDKs (sdk 0.4.35, boltz-swap 0.3.40) by @Kukks in
+      https://github.com/BlueWallet/BlueWallet/pull/8675\r
 
-      * tst: fix flaky goBack in iOS e2e tests by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8569\r
+      * tst: fix flaky goBack in iOS e2e tests by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8569\r
 
-      * ADD: support importing Unchained JSON as multisig cosigner by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8568\r
+      * ADD: support importing Unchained JSON as multisig cosigner by @r6mez in
+      https://github.com/BlueWallet/BlueWallet/pull/8568\r
 
-      * chore(deps): update dependency @react-native/js-polyfills to ^0.86.0 by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8679\r
+      * chore(deps): update dependency @react-native/js-polyfills to ^0.86.0 by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8679\r
 
-      * fix(deps): update react-navigation monorepo by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8678\r
+      * fix(deps): update react-navigation monorepo by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8678\r
 
-      * FIX: persist Arkade LNURL payment result by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8635\r
+      * FIX: persist Arkade LNURL payment result by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8635\r
 
-      * fix(deps): update dependency react-native-permissions to v5.5.3 - abandoned by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8670\r
+      * fix(deps): update dependency react-native-permissions to v5.5.3 - abandoned by
+      @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8670\r
 
       * fix: key on tx list by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8687\r
 
       * feat: iOS 26 glass by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8508\r
 
-      * REF: swap crypto-js for @noble/ciphers + hashes by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8566\r
+      * REF: swap crypto-js for @noble/ciphers + hashes by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8566\r
 
-      * FIX: Amount input lag in rbf custom fee input by @ojokne in https://github.com/BlueWallet/BlueWallet/pull/8632\r
+      * FIX: Amount input lag in rbf custom fee input by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8632\r
 
-      * FIX: text size on main app views by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8689\r
+      * FIX: text size on main app views by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8689\r
 
-      * FIX: clipping wallet balance on carousel by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8695\r
+      * FIX: clipping wallet balance on carousel by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8695\r
 
-      * OPS: Update dependency concurrent-ruby to '< 1.3.8' [SECURITY] by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8694\r
+      * OPS: Update dependency concurrent-ruby to '< 1.3.8' [SECURITY] by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8694\r
 
-      * FIX: ark tests Premature close — drop node-fetch, use native fetch by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8726\r
+      * FIX: ark tests Premature close — drop node-fetch, use native fetch by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8726\r
 
-      * FIX: keep signed transaction hex screen scrollable by @K-i-Q in https://github.com/BlueWallet/BlueWallet/pull/8700\r
+      * FIX: keep signed transaction hex screen scrollable by @K-i-Q in
+      https://github.com/BlueWallet/BlueWallet/pull/8700\r
 
-      * FIX: repair Transifex fastlane metadata integration by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8723\r
+      * FIX: repair Transifex fastlane metadata integration by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8723\r
 
-      * ADD: Filipino (fil_PH) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8709\r
+      * ADD: Filipino (fil_PH) language by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8709\r
 
-      * fix: sync language files by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8703\r
+      * fix: sync language files by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8703\r
 
-      * ADD: Armenian (hy) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8704\r
+      * ADD: Armenian (hy) language by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8704\r
 
-      * ADD: Akan (ak) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8714\r
+      * ADD: Akan (ak) language by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8714\r
 
-      * fix: fastlate android  by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8724\r
+      * fix: fastlate android  by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8724\r
 
-      * ADD: Sesotho (st_ZA) language by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8708\r
+      * ADD: Sesotho (st_ZA) language by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8708\r
 
-      * ADD: setting to redact push notification content by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8696\r
+      * ADD: setting to redact push notification content by @r6mez in
+      https://github.com/BlueWallet/BlueWallet/pull/8696\r
 
       * ADD: 15 new languages by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8734\r
 
-      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in https://github.com/BlueWallet/BlueWallet/pull/8736\r
+      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8736\r
 
-      * FIX: stray tool artifacts in ak/fil_PH vocabularies by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8730\r
+      * FIX: stray tool artifacts in ak/fil_PH vocabularies by @limpbrains in
+      https://github.com/BlueWallet/BlueWallet/pull/8730\r
 
-      * REF: Change header ownership by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8735\r
+      * REF: Change header ownership by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8735\r
 
-      * chore: upgrade @arkade-os sdk@0.4.41  boltz-swap@0.3.46 by @pietro909 in https://github.com/BlueWallet/BlueWallet/pull/8744\r
+      * chore: upgrade @arkade-os sdk@0.4.41  boltz-swap@0.3.46 by @pietro909 in
+      https://github.com/BlueWallet/BlueWallet/pull/8744\r
 
-      * OPS: Update all dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8743\r
+      * OPS: Update all dependencies by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8743\r
 
-      * FIX: bump qr to 0.6.0 by @GladosBlueWallet in https://github.com/BlueWallet/BlueWallet/pull/8748\r
+      * FIX: bump qr to 0.6.0 by @GladosBlueWallet in
+      https://github.com/BlueWallet/BlueWallet/pull/8748\r
 
       * fix: passphrase term by @limpbrains in https://github.com/BlueWallet/BlueWallet/pull/8738\r
 
-      * REF: improve green success contrast by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8751\r
+      * REF: improve green success contrast by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8751\r
 
-      * FIX: reserve floating-button space in wallet tx list on both platforms by @r6mez in https://github.com/BlueWallet/BlueWallet/pull/8742\r
+      * FIX: reserve floating-button space in wallet tx list on both platforms by @r6mez in
+      https://github.com/BlueWallet/BlueWallet/pull/8742\r
 
-      * feat: readable data on tx status by @ncoelho in https://github.com/BlueWallet/BlueWallet/pull/8688\r
+      * feat: readable data on tx status by @ncoelho in
+      https://github.com/BlueWallet/BlueWallet/pull/8688\r
 
-      * OPS: Update all dependencies by @renovate[bot] in https://github.com/BlueWallet/BlueWallet/pull/8761\r
+      * OPS: Update all dependencies by @renovate[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8761\r
 
-      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in https://github.com/BlueWallet/BlueWallet/pull/8763\r
+      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8763\r
 
-      * ADD: Enable RBF for single sig watch only wallet(HD Bech32) by @ojokne in https://github.com/BlueWallet/BlueWallet/pull/8641\r
+      * ADD: Enable RBF for single sig watch only wallet(HD Bech32) by @ojokne in
+      https://github.com/BlueWallet/BlueWallet/pull/8641\r
 
-      * REF: Use new saveDocument for fs by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8758\r
+      * REF: Use new saveDocument for fs by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8758\r
 
-      * REF: Use native uibaritems for close button by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8739\r
+      * REF: Use native uibaritems for close button by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8739\r
 
-      * R6mez renew settings UI by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8772\r
+      * R6mez renew settings UI by @Overtorment in
+      https://github.com/BlueWallet/BlueWallet/pull/8772\r
 
-      * DEL: Remove Xcode CI script as we use GHA by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8765\r
+      * DEL: Remove Xcode CI script as we use GHA by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8765\r
 
       * REF: lint ts by @Overtorment in https://github.com/BlueWallet/BlueWallet/pull/8774\r
 
-      * OPS: remove unused @babel/preset-env dependency by @GladosBlueWallet in https://github.com/BlueWallet/BlueWallet/pull/8777\r
+      * OPS: remove unused @babel/preset-env dependency by @GladosBlueWallet in
+      https://github.com/BlueWallet/BlueWallet/pull/8777\r
 
-      * DEL: edge-to-edge package by @marcosrdz in https://github.com/BlueWallet/BlueWallet/pull/8779\r
+      * DEL: edge-to-edge package by @marcosrdz in
+      https://github.com/BlueWallet/BlueWallet/pull/8779\r
 
-      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in https://github.com/BlueWallet/BlueWallet/pull/8773\r
+      * Updates for file loc/en.json in es_419 by @transifex-integration[bot] in
+      https://github.com/BlueWallet/BlueWallet/pull/8773\r
 
-      * fix: support BC-UR v2 air-gap scanning for hardware wallets (OneKey, Keystone) by @wabicai in https://github.com/BlueWallet/BlueWallet/pull/8427\r
+      * fix: support BC-UR v2 air-gap scanning for hardware wallets (OneKey, Keystone) by @wabicai
+      in https://github.com/BlueWallet/BlueWallet/pull/8427\r
 
-      * FIX: align Android CI NDK and Catalyst PR comment by @GladosBlueWallet in https://github.com/BlueWallet/BlueWallet/pull/8781\r
+      * FIX: align Android CI NDK and Catalyst PR comment by @GladosBlueWallet in
+      https://github.com/BlueWallet/BlueWallet/pull/8781\r
 
       \r
 
@@ -581,7 +643,8 @@ github:
 
       * @K-i-Q made their first contribution in https://github.com/BlueWallet/BlueWallet/pull/8700\r
 
-      * @wabicai made their first contribution in https://github.com/BlueWallet/BlueWallet/pull/8427\r
+      * @wabicai made their first contribution in
+      https://github.com/BlueWallet/BlueWallet/pull/8427\r
 
       \r
 
@@ -627,9 +690,12 @@ github:
       color: d3ccff
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-07-22T09:29:03.546Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:44.679Z
+    source: html
+  html:
+    license: MIT
+    language: null
+    topics: []
 health:
   status: active
   tier: listed

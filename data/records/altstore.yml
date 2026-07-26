@@ -190,9 +190,8 @@ github:
     openPullRequests: 26
     contributorsKnown: 12
   sync:
-    syncedAt: 2026-07-22T09:28:58.097Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:38.814Z
+    source: html
   languages:
     Swift: 2109032
     Objective-C++: 93710
@@ -209,6 +208,10 @@ github:
     issueTemplates: false
     pullRequestTemplate: false
   labels: []
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: active
   tier: curated

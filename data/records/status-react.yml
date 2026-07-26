@@ -1,7 +1,8 @@
 kind: project
 name: Status.im
 slug: status-react
-description: Status is a secure messaging app, Ethereum wallet, and Web3 browser built on decentralized protocols.
+description: Status is a secure messaging app, Ethereum wallet, and Web3 browser built on
+  decentralized protocols.
 category: communication
 tags:
   - cross-platform
@@ -202,9 +203,8 @@ github:
     openPullRequests: 10
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-07-22T09:29:36.067Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:08:37.919Z
+    source: html
   languages:
     Clojure: 6038185
     Python: 533183
@@ -433,45 +433,60 @@ github:
 
       \r
 
-      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)\r
+      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s
+      Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)\r
 
       \r
 
-      The Status app team is now releasing the final feature release (v2.34.4) of this legacy Status Mobile App (Status Legacy), which includes:\r
+      The Status app team is now releasing the final feature release (v2.34.4) of this legacy Status
+      Mobile App (Status Legacy), which includes:\r
 
       \r
 
-      1. Renaming the app to Status Legacy and changing its icon to blue, so users can easily distinguish it from the unified Status mobile app (Status).\r
+      1. Renaming the app to Status Legacy and changing its icon to blue, so users can easily
+      distinguish it from the unified Status mobile app (Status).\r
 
       \r
 
-      ![Screenshot_20251028_133502_One_UI_Home](https://github.com/user-attachments/assets/90a34b9a-f314-44dc-8c2e-a81522db799b)\r
+      ![Screenshot_20251028_133502_One_UI_Home](https://github.com/user-attachments/assets/90a34b9a\
+      -f314-44dc-8c2e-a81522db799b)\r
 
       \r
 
-      2. Two new features to make user profile and data migration to the unified Status mobile app (Status) simple, secure, and private:\r
+      2. Two new features to make user profile and data migration to the unified Status mobile app
+      (Status) simple, secure, and private:\r
 
       \r
 
-      - Optional message syncing across devices using end-to-end encrypted app pairing. Go to Settings → Syncing and Backup → Paired Devices → Tap + to start a new sync → Enable message syncing.\r
+      - Optional message syncing across devices using end-to-end encrypted app pairing. Go to
+      Settings → Syncing and Backup → Paired Devices → Tap + to start a new sync → Enable message
+      syncing.\r
 
-      <img width=\"393\" height=\"873\" alt=\"Screenshot_20251028_134318_Status_Legacy\" src=\"https://github.com/user-attachments/assets/6a75b451-c5fc-4641-bcdf-add3a477a256\" />\r
+      <img width=\"393\" height=\"873\" alt=\"Screenshot_20251028_134318_Status_Legacy\"
+      src=\"https://github.com/user-attachments/assets/6a75b451-c5fc-4641-bcdf-add3a477a256\" />\r
 
       \r
 
-      - On-device backup to manually back up your Status profile data (including optional backup of your direct, group, and community messages) directly on your device. Go to Settings → Syncing and Backup → Backup.\r
+      - On-device backup to manually back up your Status profile data (including optional backup of
+      your direct, group, and community messages) directly on your device. Go to Settings → Syncing
+      and Backup → Backup.\r
 
-      <img width=\"393\" height=\"533\" alt=\"Screenshot_20251028_134238_Status_Legacy\" src=\"https://github.com/user-attachments/assets/c72a8887-e025-4892-b095-f25cd29e9887\" />\r
+      <img width=\"393\" height=\"533\" alt=\"Screenshot_20251028_134238_Status_Legacy\"
+      src=\"https://github.com/user-attachments/assets/c72a8887-e025-4892-b095-f25cd29e9887\" />\r
 
       \r
 
       \  \r
 
-      While the Clojure-based Status Legacy app (Status Legacy) will remain public and open for contributions, the core Status team won’t add new features beyond the current v2.34.4 release. The team will focus on developing the unified Status Mobile App (Status) going forward. We may issue critical fixes, if absolutely needed, during the 2–3-month user migration period.\r
+      While the Clojure-based Status Legacy app (Status Legacy) will remain public and open for
+      contributions, the core Status team won’t add new features beyond the current v2.34.4 release.
+      The team will focus on developing the unified Status Mobile App (Status) going forward. We may
+      issue critical fixes, if absolutely needed, during the 2–3-month user migration period.\r
 
       \r
 
-      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)"
+      Read more about [Legacy Mobile App v2.34.4, Unified Mobile App, and What’s
+      Next](https://status.app/blog/legacy-mobile-app-v2-34-4-unified-mobile-app-and-whats-next)"
   files:
     readme: true
     contributing: false
@@ -480,6 +495,10 @@ github:
     issueTemplates: true
     pullRequestTemplate: false
   labels: []
+  html:
+    license: MPL-2.0
+    language: null
+    topics: []
 health:
   status: quiet
   tier: curated

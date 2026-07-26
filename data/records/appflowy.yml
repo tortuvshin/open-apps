@@ -1,7 +1,9 @@
 kind: project
 name: AppFlowy
 slug: appflowy
-description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative
+  workspace where you achieve more without losing control of your data. The leading open source
+  Notion alternative.
 category: productivity
 tags:
   - blog
@@ -77,7 +79,9 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/AppFlowy-IO/AppFlowy
-    description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+    description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative
+      workspace where you achieve more without losing control of your data. The leading open source
+      Notion alternative.
     fork: false
     url: https://api.github.com/repos/AppFlowy-IO/AppFlowy
     forks_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/forks
@@ -199,9 +203,8 @@ github:
     network_count: 5688
     subscribers_count: 388
   sync:
-    syncedAt: 2026-07-22T09:28:59.074Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:39.699Z
+    source: html
   languages:
     Dart: 9470739
     Rust: 3105156
@@ -800,7 +803,8 @@ github:
 
       \r
 
-      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead to data loss in rare cases.\r
+      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead
+      to data loss in rare cases.\r
 
       \r
 
@@ -812,7 +816,8 @@ github:
 
       \r
 
-      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead to data loss in rare cases.\r
+      - Fix: stale WebSocket connection occasionally caused writes to disk to fail, which could lead
+      to data loss in rare cases.\r
 
       \r
 
@@ -820,7 +825,10 @@ github:
 
       \r
 
-      This Windows release is signed with a newly renewed code-signing certificate. Because Windows SmartScreen builds reputation per certificate, you may temporarily see an \"unrecognized app\" warning. This build is properly signed and safe — if prompted, select **More info → Run anyway**. The warning will clear as the certificate establishes reputation."
+      This Windows release is signed with a newly renewed code-signing certificate. Because Windows
+      SmartScreen builds reputation per certificate, you may temporarily see an \"unrecognized app\"
+      warning. This build is properly signed and safe — if prompted, select **More info → Run
+      anyway**. The warning will clear as the certificate establishes reputation."
     reactions:
       url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases/343527689/reactions
       total_count: 8
@@ -860,6 +868,10 @@ github:
     - name: help wanted
       color: fb006d
       description: for the community members to claim
+  html:
+    license: AGPL-3.0
+    language: null
+    topics: []
 health:
   status: unknown
   tier: listed

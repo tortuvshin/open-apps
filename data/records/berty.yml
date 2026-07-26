@@ -1,7 +1,8 @@
 kind: project
 name: Berty
 slug: berty
-description: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network.
+description: Berty is a secure peer-to-peer messaging app that works with or without internet
+  access, cellular data or trust in the network.
 category: communication
 tags:
   - cross-platform
@@ -71,7 +72,8 @@ github:
       user_view_type: public
       site_admin: false
     html_url: https://github.com/berty/berty
-    description: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
+    description: Berty is a secure peer-to-peer messaging app that works with or without internet
+      access, cellular data or trust in the network
     fork: false
     url: https://api.github.com/repos/berty/berty
     forks_url: https://api.github.com/repos/berty/berty/forks
@@ -257,13 +259,19 @@ github:
     assets: []
     tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.14
     zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.14
-    body: |+
+    body: >+
       ## [2.471.14](https://github.com/berty/berty/compare/v2.471.13...v2.471.14) (2026-07-03)
+
 
 
       ### Bug Fixes
 
-      * **bridge-expo:** derive iOS App Group per build variant ([#5151](https://github.com/berty/berty/issues/5151)) ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)), closes [#5006](https://github.com/berty/berty/issues/5006) [#5007](https://github.com/berty/berty/issues/5007)
+
+      * **bridge-expo:** derive iOS App Group per build variant
+      ([#5151](https://github.com/berty/berty/issues/5151))
+      ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)),
+      closes [#5006](https://github.com/berty/berty/issues/5006)
+      [#5007](https://github.com/berty/berty/issues/5007)
 
 
 
@@ -299,9 +307,12 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-22T09:29:02.481Z
-    apiVersion: rest-v3
-    source: github-actions
+    syncedAt: 2026-07-26T06:07:43.267Z
+    source: html
+  html:
+    license: Apache-2.0
+    language: null
+    topics: []
 health:
   status: active
   tier: listed
