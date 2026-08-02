@@ -121,17 +121,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 310
+    forks_count: 311
     mirror_url: null
     archived: false
     disabled: false
     open_issues_count: 25
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -191,8 +188,8 @@ github:
     openPullRequests: 4
     contributorsKnown: 2
   sync:
-    syncedAt: 2026-07-26T06:07:47.234Z
-    source: html
+    syncedAt: 2026-08-02T06:03:18.677Z
+    source: api
   languages:
     Swift: 177936
   latestRelease: null
@@ -211,6 +208,7 @@ github:
     license: MIT
     language: null
     topics: []
+  homepage: https://clean-swift.com/clean-swift-ios-architecture/
 health:
   status: stale
   tier: curated

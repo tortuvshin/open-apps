@@ -113,15 +113,15 @@ github:
     releases_url: https://api.github.com/repos/berty/berty/releases{/id}
     deployments_url: https://api.github.com/repos/berty/berty/deployments
     created_at: 2018-07-16T05:21:19Z
-    updated_at: 2026-07-22T06:22:58Z
-    pushed_at: 2026-07-21T11:35:05Z
+    updated_at: 2026-08-01T13:07:46Z
+    pushed_at: 2026-08-01T03:23:46Z
     git_url: git://github.com/berty/berty.git
     ssh_url: git@github.com:berty/berty.git
     clone_url: https://github.com/berty/berty.git
     svn_url: https://github.com/berty/berty
     homepage: https://berty.tech
     size: 274467
-    stargazers_count: 9248
+    stargazers_count: 9261
     watchers_count: 9248
     language: TypeScript
     has_issues: true
@@ -130,17 +130,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 496
+    forks_count: 499
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 98
+    open_issues_count: 95
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: true
@@ -307,12 +304,14 @@ github:
       color: 66f48c
       description: ""
   sync:
-    syncedAt: 2026-07-26T06:07:43.267Z
-    source: html
+    syncedAt: 2026-08-02T06:03:16.009Z
+    source: api
   html:
     license: Apache-2.0
     language: null
     topics: []
+  latestReleaseAt: 2026-07-03T08:33:40Z
+  homepage: https://berty.tech
 health:
   status: active
   tier: listed

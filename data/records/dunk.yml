@@ -124,11 +124,8 @@ github:
     disabled: false
     open_issues_count: 2
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -170,8 +167,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-07-26T06:07:52.382Z
-    source: html
+    syncedAt: 2026-08-02T06:03:22.055Z
+    source: api
   languages:
     Swift: 77466
     Objective-C: 239
@@ -192,6 +189,7 @@ github:
     license: MIT
     language: null
     topics: []
+  homepage: https://itunes.apple.com/us/app/dunk-for-dribbble/id1003028105?mt=8
 health:
   status: stale
   tier: curated

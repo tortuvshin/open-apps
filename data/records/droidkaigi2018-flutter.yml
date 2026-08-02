@@ -122,11 +122,8 @@ github:
     disabled: false
     open_issues_count: 11
     license:
-      key: apache-2.0
-      name: Apache License 2.0
       spdx_id: Apache-2.0
-      url: https://api.github.com/licenses/apache-2.0
-      node_id: MDc6TGljZW5zZTI=
+      name: Apache-2.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -168,8 +165,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-07-26T06:07:52.004Z
-    source: html
+    syncedAt: 2026-08-02T06:03:21.720Z
+    source: api
   languages:
     Dart: 87561
     Ruby: 1002
@@ -189,6 +186,7 @@ github:
     license: Apache-2.0
     language: null
     topics: []
+  homepage: https://itunes.apple.com/app/id1341774412
 health:
   status: stale
   tier: curated

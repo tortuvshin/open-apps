@@ -102,7 +102,7 @@ github:
     releases_url: https://api.github.com/repos/ISBX/apprtc-ios/releases{/id}
     deployments_url: https://api.github.com/repos/ISBX/apprtc-ios/deployments
     created_at: 2015-03-07T16:14:32Z
-    updated_at: 2026-07-16T23:26:22Z
+    updated_at: 2026-07-28T14:41:30Z
     pushed_at: 2019-12-03T00:43:28Z
     git_url: git://github.com/ISBX/apprtc-ios.git
     ssh_url: git@github.com:ISBX/apprtc-ios.git
@@ -110,7 +110,7 @@ github:
     svn_url: https://github.com/ISBX/apprtc-ios
     homepage: ""
     size: 61616
-    stargazers_count: 1353
+    stargazers_count: 1352
     watchers_count: 1353
     language: Objective-C
     has_issues: true
@@ -119,17 +119,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 408
+    forks_count: 409
     mirror_url: null
     archived: false
     disabled: false
     open_issues_count: 117
     license:
-      key: bsd-3-clause
-      name: BSD 3-Clause "New" or "Revised" License
       spdx_id: BSD-3-Clause
-      url: https://api.github.com/licenses/bsd-3-clause
-      node_id: MDc6TGljZW5zZTU=
+      name: BSD-3-Clause
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -189,8 +186,8 @@ github:
     openPullRequests: 5
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-07-26T06:07:40.191Z
-    source: html
+    syncedAt: 2026-08-02T06:03:13.863Z
+    source: api
   languages:
     Objective-C: 108169
     Ruby: 1006

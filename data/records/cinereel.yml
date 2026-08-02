@@ -123,11 +123,8 @@ github:
     disabled: false
     open_issues_count: 2
     license:
-      key: gpl-3.0
-      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      url: https://api.github.com/licenses/gpl-3.0
-      node_id: MDc6TGljZW5zZTk=
+      name: GPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -172,8 +169,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 3
   sync:
-    syncedAt: 2026-07-26T06:07:46.883Z
-    source: html
+    syncedAt: 2026-08-02T06:03:18.316Z
+    source: api
   languages:
     Dart: 175406
     Objective-C: 753

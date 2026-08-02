@@ -99,7 +99,7 @@ github:
     releases_url: https://api.github.com/repos/aaronoe/FlutterCinematic/releases{/id}
     deployments_url: https://api.github.com/repos/aaronoe/FlutterCinematic/deployments
     created_at: 2018-03-18T10:05:16Z
-    updated_at: 2026-05-31T23:40:34Z
+    updated_at: 2026-07-27T06:17:32Z
     pushed_at: 2020-10-01T18:04:46Z
     git_url: git://github.com/aaronoe/FlutterCinematic.git
     ssh_url: git@github.com:aaronoe/FlutterCinematic.git
@@ -107,7 +107,7 @@ github:
     svn_url: https://github.com/aaronoe/FlutterCinematic
     homepage: ""
     size: 20927
-    stargazers_count: 901
+    stargazers_count: 902
     watchers_count: 901
     language: Dart
     has_issues: true
@@ -116,17 +116,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 272
+    forks_count: 271
     mirror_url: null
     archived: false
     disabled: false
     open_issues_count: 23
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -170,8 +167,8 @@ github:
     openPullRequests: 6
     contributorsKnown: 1
   sync:
-    syncedAt: 2026-07-26T06:07:46.451Z
-    source: html
+    syncedAt: 2026-08-02T06:03:17.992Z
+    source: api
   languages:
     Dart: 70077
     Objective-C: 750

@@ -123,11 +123,8 @@ github:
     disabled: false
     open_issues_count: 24
     license:
-      key: gpl-3.0
-      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      url: https://api.github.com/licenses/gpl-3.0
-      node_id: MDc6TGljZW5zZTk=
+      name: GPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -174,8 +171,8 @@ github:
     openPullRequests: 3
     contributorsKnown: 41
   sync:
-    syncedAt: 2026-07-26T06:07:47.672Z
-    source: html
+    syncedAt: 2026-08-02T06:03:19.084Z
+    source: api
   languages:
     Swift: 228653
   latestRelease:
@@ -289,6 +286,8 @@ github:
     license: GPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2020-08-07T17:37:41Z
+  homepage: https://coronatracker.samabox.com/
 health:
   status: stale
   tier: curated
