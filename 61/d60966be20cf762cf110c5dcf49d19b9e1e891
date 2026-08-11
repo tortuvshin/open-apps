@@ -1,0 +1,33 @@
+data/taxonomy/licenses.yml
+  s_bf08f79c3532bf::t_991b506dcb0761 61-71
+src/pages/submit.astro
+  s_bf08f79c3532bf::t_a82fc589edcd6a 21-26
+data/README.md
+  s_bf08f79c3532bf::t_651e7a5981093d 1-27
+data/taxonomy/topics.yml
+  s_bf08f79c3532bf::t_df5b8c1d5c22e1 14-21
+docs/stale-exclusion-2026-08-11.md
+  s_bf08f79c3532bf::t_17691864a78028 9-14
+CHANGELOG.md
+  s_bf08f79c3532bf::t_0019968d17b213 7-11,20-22,39-42,69-72,87-98
+  s_bf08f79c3532bf::t_e95551ceb485ac 99
+src/pages/[slug]/[recordSlug].astro
+  s_bf08f79c3532bf::t_9860c40e447332 92,96-97,103
+  s_bf08f79c3532bf::t_c0f7a85b6f56f3 60-63,70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "61d60966be20cf762cf110c5dcf49d19b9e1e891",
+  "prompts": {},
+  "sessions": {
+    "s_bf08f79c3532bf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d888630e-1bfa-4155-bc8d-c64e050f2182",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
