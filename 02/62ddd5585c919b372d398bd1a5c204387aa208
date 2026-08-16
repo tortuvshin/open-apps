@@ -1,0 +1,40 @@
+data/records/berty.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 131,144
+data/records/appflowy.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 873
+data/records/atv-bilibili-demo.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 127,131
+data/records/bikeshare.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 118
+data/records/beecount.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 577
+data/records/cap.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 80
+data/records/audiokit.yml
+  s_d43cb092ef1c7f::t_186797d1f957c7 129
+data/generated/contributors.json
+  s_d43cb092ef1c7f::t_186797d1f957c7 2,8,76-81
+data/generated/repo-stats.json
+  s_d43cb092ef1c7f::t_186797d1f957c7 3,6,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0262ddd5585c919b372d398bd1a5c204387aa208",
+  "prompts": {},
+  "humans": {
+    "h_62cffde5d182b0": {
+      "author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_d43cb092ef1c7f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "203f8d78-1572-45f0-b23c-4859185c467b",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
