@@ -1,104 +1,122 @@
-# Open Apps
+# Open App Scout
 
-> A curated directory of real open-source applications you can run, study,
-> compare, and contribute to.
+> Evidence-backed reviews of open-source apps: how they work, where they fail,
+> and what to choose instead.
 
-[![Website](https://img.shields.io/badge/explore-open--apps.dev.mn-111827?style=flat-square)](https://open-apps.dev.mn)
-[![Validate app data](https://img.shields.io/github/actions/workflow/status/tortuvshin/open-apps/validate-data.yml?branch=main&style=flat-square&label=data)](https://github.com/tortuvshin/open-apps/actions/workflows/validate-data.yml)
+[![Website](https://img.shields.io/badge/explore-openappscout.com-111827?style=flat-square)](https://openappscout.com)
+[![CI](https://img.shields.io/github/actions/workflow/status/tortuvshin/open-apps/ci.yml?branch=main&style=flat-square&label=ci)](https://github.com/tortuvshin/open-apps/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 [![Astro](https://img.shields.io/badge/built%20with-Astro-ff5d01?style=flat-square&logo=astro&logoColor=white)](https://astro.build)
 
-[Explore the directory](https://open-apps.dev.mn/apps) ·
-[Submit an app](https://open-apps.dev.mn/submit) ·
+[Explore the directory](https://openappscout.com/apps) ·
+[Submit an app](https://openappscout.com/submit) ·
 [Read the contribution guide](CONTRIBUTING.md)
 
-![Open Apps — discover open-source apps worth studying](public/og-image.svg)
+![Open App Scout — discover open-source apps worth studying](public/og-image.svg)
 
-## Why Open Apps?
+## Why Open App Scout?
 
-GitHub is excellent when you already know what to search for. Traditional
-awesome lists are useful for discovery, but a repository name and star count
-rarely tell you whether a codebase is worth your time.
+GitHub is excellent when you already know what to search for. Awesome lists are
+useful for discovery, but a repository name and star count rarely tell you
+whether a codebase is worth your time.
 
-Open Apps adds the context developers need to make that decision:
+Open App Scout adds the context needed to make that decision:
 
-- **Real applications, not toy projects** — complete products with meaningful
-  scope, structure, and a clear license.
+- **Real applications** — end-user products, with libraries, demos, templates,
+  and reference projects labelled as such rather than mixed in.
 - **Practical discovery** — browse by category, platform, stack, activity, and
   maturity.
-- **Useful learning signals** — understand what a project is best for, how
-  difficult it is, and what architectural ideas it demonstrates.
-- **Fresh repository metadata** — scheduled automation refreshes activity and
-  contributor data through reviewable pull requests.
-- **Open, portable data** — every catalog entry is a human-readable YAML file
-  in this repository.
+- **Verified basics** — repository identity, license, stack, and platforms come
+  from the source, not from marketing copy.
+- **Reviewed entries go further** — what an app is best for, where it falls
+  short, and what to use instead.
+- **Open, portable data** — every catalog entry is a human-readable YAML file in
+  this repository.
 
-Stars are a signal, not a ranking system. The goal is to surface codebases
-that are useful to read, run, learn from, or improve.
+Stars are a signal, not a ranking. A listing is not an endorsement.
+
+### Coverage is uneven, and says so
+
+Most of the 76 records today carry verified metadata only. A smaller reviewed
+set adds the editorial layer (`bestFor`, `caveats`, `whyListed`). Records state
+which of the two they are — do not read an unreviewed entry as a recommendation.
 
 ## What belongs in the directory?
 
-Open Apps covers mobile, web, desktop, full-stack, and developer-facing
-applications. A project must be a genuine application with a public source
-repository, an identifiable license, at least 50 stars, and at least 50
-lifetime commits.
+Open App Scout covers mobile, web, desktop, full-stack, and developer-facing
+applications. A project must be a genuine end-user application with a public
+source repository, an identifiable open-source license, and enough documentation
+or project history for another developer to evaluate it.
 
-The directory does not accept:
+Popularity is context, not an automatic pass, and there is no star or commit
+threshold. Reviewers weigh product scope, source quality, maintenance,
+documentation, and learning value.
+
+Not accepted as applications:
 
 - tutorials, snippets, or one-screen demos;
 - boilerplates and starter templates;
-- package-only libraries and SDKs;
+- package-only libraries, SDKs, and UI frameworks;
 - archived projects with no enduring learning value;
 - repositories with an unclear license or purpose.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete curation and submission
-rules.
+Some records that predate this rule remain listed with an accurate
+`projectType` (`library`, `demo`, `template`, `reference`, `historical`) rather
+than being silently removed.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete submission rules.
 
 ## Catalog data
 
-Each app lives in its own file:
+Each app is one YAML file:
 
 ```text
-data/apps/<slug>.yml
+data/records/<slug>.yml
+```
+
+Optional long-form editorial content lives alongside it:
+
+```text
+content/records/<slug>.md
 ```
 
 Records combine human curation with GitHub metadata:
 
 | Area | Examples | Maintained by |
 | --- | --- | --- |
-| App identity | name, description, category, platforms | contributors and curators |
-| Technology | primary stack, languages, frameworks | contributors and curators |
-| Repository | stars, forks, releases, activity | scheduled GitHub sync |
-| Health | status, listing tier, cleanup candidacy | build and cleanup automation |
-| Curation | learning value, caveats, review notes | curators |
+| Identity | `name`, `description`, `category`, `platforms` | contributors and curators |
+| Technology | `stack`, `stacks`, `licenses` | contributors and curators |
+| Editorial | `bestFor`, `caveats`, `whyListed`, `curation.*` | curators |
+| Repository | stars, forks, releases, activity (`github.*`) | scheduled GitHub sync |
+| Health | `health.status`, `health.tier`, `health.confidence` | sync and cleanup automation |
 
-The canonical field definitions, ownership rules, taxonomy IDs, and a complete
-record example are documented in [docs/SCHEMA.md](docs/SCHEMA.md).
+Field definitions and ownership rules are documented in
+[docs/SCHEMA.md](docs/SCHEMA.md). The schema is owned by
+[`@grove-dev/core`](https://github.com/tortuvshin/grove) — fields it does not
+define are dropped silently at build time, so add new fields upstream, not here.
 
 ### Data pipeline
 
 ```text
-data/apps/*.yml
+data/records/*.yml
       │
-      ├─ validate schema and taxonomy
-      ├─ normalize and score records
-      └─ generate build-time JSON
-             ├─ apps.index.json  → lightweight search and listing data
-             ├─ apps.full.json   → complete app records
-             └─ apps.json        → compatibility payload
+      ├─ validate schema and taxonomy   (grove check)
+      └─ generate build-time JSON       (data/generated/)
+             ├─ records.index.json  → listing and search payload
+             └─ records.full.json   → complete records
                       │
                       └─ Astro static site → dist/
 ```
 
-Files under `data/generated/` are derived artifacts unless explicitly tracked.
-Edit the YAML source records rather than generated JSON.
+Files under `data/generated/` are derived artifacts. Edit the YAML source
+records, never the generated JSON.
 
 ## Local development
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/) 20 or newer
-- [pnpm](https://pnpm.io/) 10.12.1 (the version is pinned in `package.json`)
+- [Node.js](https://nodejs.org/) 22.12 or newer (see `engines` in `package.json`)
+- [pnpm](https://pnpm.io/) 10.12.1 (pinned via `packageManager`)
 
 ### Start the site
 
@@ -113,60 +131,67 @@ pnpm dev
 The development server prints its local URL, normally
 `http://localhost:4321`.
 
-### Useful commands
+### Commands
 
 | Command | Purpose |
 | --- | --- |
-| `pnpm dev` | Generate app data and start the Astro development server |
-| `pnpm build` | Validate data, generate AI-readable files, and build the site |
+| `pnpm dev` | Prepare data and start the Astro development server |
+| `pnpm build` | Validate, generate artifacts, and build the static site |
 | `pnpm preview` | Preview the production build locally |
 | `pnpm check` | Run Astro and TypeScript checks |
-| `pnpm test` | Run the Node.js test suite |
-| `pnpm validate:data` | Validate every app record without building the site |
-| `pnpm build:data` | Validate YAML and regenerate catalog JSON |
-| `pnpm refresh:activity` | Refresh per-app activity from the GitHub API |
-| `pnpm sync:contributors` | Refresh this repository's contributor metadata |
+| `pnpm audit` | Run the Grove Lighthouse budget against a local server |
+| `pnpm exec grove check` | Validate records and taxonomy without a full build |
+| `pnpm exec grove cleanup` | Report records that need human review |
+| `pnpm exec grove readme generate` | Regenerate the catalog section of this README |
+| `pnpm exec grove sync github` | Refresh GitHub metadata for every record |
+| `pnpm exec grove sync contributors` | Refresh contributor data |
+| `pnpm exec grove icons sync --check` | Verify the packaged icon set has not drifted |
 
-GitHub API scripts use `GITHUB_TOKEN` when available. Routine local development,
-validation, and builds do not require a token.
+Sync commands use `GH_TOKEN` when available and require
+`integrations.github` to be enabled in `grove.config.ts`. Routine development,
+validation, and builds need no token.
 
 ## Project structure
 
 ```text
 .
 ├── data/
-│   ├── apps/             # one YAML source record per app
-│   ├── generated/        # build-time catalog output
-│   └── taxonomy/         # allowed categories, platforms, stacks, and channels
+│   ├── records/          # one YAML source record per app
+│   ├── collections/      # curated collection definitions
+│   ├── taxonomy/         # allowed categories, platforms, stacks, licenses
+│   └── generated/        # build-time output (derived)
+├── content/
+│   ├── records/          # long-form editorial bodies
+│   └── pages/            # About and other page copy
 ├── docs/
-│   └── SCHEMA.md         # catalog schema and ownership contract
+│   └── SCHEMA.md         # record schema and ownership contract
 ├── public/               # static assets and AI-readable endpoints
-├── scripts/              # validation, generation, sync, and migration tools
 ├── src/
-│   ├── components/       # Astro UI components
-│   ├── data/             # typed catalog adapters and site metadata
-│   ├── lib/              # search, scoring, formatting, and taxonomy helpers
-│   └── pages/            # static routes and app detail pages
-└── .github/workflows/    # validation and scheduled metadata maintenance
+│   ├── components/       # site-specific Astro components
+│   ├── pages/            # routes and record detail pages
+│   └── styles/           # global CSS
+├── grove.config.ts       # site identity, nav, footer, taxonomy wiring
+└── .github/workflows/    # CI and scheduled maintenance
 ```
 
 The site is built with [Astro](https://astro.build), TypeScript, and
-[Tailwind CSS](https://tailwindcss.com/). It produces static assets in `dist/`
-and is configured for deployment with Cloudflare Wrangler.
+[Tailwind CSS](https://tailwindcss.com/) on top of the
+[Grove](https://github.com/tortuvshin/grove) packages. It produces static assets
+in `dist/`.
 
 ## Add or update an app
 
 The fastest submission path is the
-[web form](https://open-apps.dev.mn/submit). It drafts a YAML record from a
+[web form](https://openappscout.com/submit). It drafts a YAML record from a
 public GitHub URL; you review the metadata and open a pull request.
 
 For a manual contribution:
 
-1. Create or edit `data/apps/<slug>.yml`.
-2. Keep human-owned fields under `app`, `stack`, and `curation`.
-3. Do not hand-edit automation-owned `github` or `health` fields.
-4. Run `pnpm validate:data`, `pnpm test`, and `pnpm build`.
-5. Open a focused pull request.
+1. Create or edit `data/records/<slug>.yml` (the slug must match the filename).
+2. Choose `category`, `stack`, and `platforms` from `data/taxonomy/`.
+3. Edit human-owned fields freely; do not hand-edit `github.*` or `health.*`.
+4. Run `pnpm exec grove check` and `pnpm build`.
+5. Open a focused pull request explaining why the app is useful to run or study.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting data or code.
 All participants must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -175,11 +200,10 @@ All participants must follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 GitHub Actions keeps changes visible and reviewable:
 
-- pull requests that touch catalog data run schema validation, data generation,
-  and unit tests;
-- app activity and GitHub-shaped metadata are refreshed daily;
+- pull requests run icon-drift checks, `grove check`, and a production build;
+- GitHub metadata is refreshed weekly and opens a pull request when it changes;
 - repository contributor statistics are refreshed weekly;
-- stale-app candidates are reported weekly for curator review.
+- a cleanup report of records needing review runs monthly.
 
 Scheduled jobs open pull requests when source data changes. They do not silently
 remove catalog entries.
@@ -188,34 +212,36 @@ remove catalog entries.
 
 The deployed site publishes:
 
-- [`llms.txt`](https://open-apps.dev.mn/llms.txt) — a compact guide to the site;
-- [`llms-full.txt`](https://open-apps.dev.mn/llms-full.txt) — the expanded
+- [`llms.txt`](https://openappscout.com/llms.txt) — a compact guide to the site;
+- [`llms-full.txt`](https://openappscout.com/llms-full.txt) — the expanded
   catalog for AI assistants and retrieval tools.
 
 These files are generated from the same source data as the website.
 
 ## Project history
 
-Open Apps grew from
+Open App Scout grew from
 [`open-source-flutter-apps`](https://github.com/tortuvshin/open-source-flutter-apps).
 The original README-only collection is preserved in
 [README-LEGACY.md](README-LEGACY.md), while this project evolves it into a
 structured, searchable, multi-stack directory.
 
 <!-- grove-readme:start -->
-# Open Apps — a directory of real open-source applications
+# Open App Scout — evidence-backed reviews of open-source apps
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Hand-picked apps worth running, studying, and extending.
+Apps worth running, studying, and extending — with the caveats.
 
-Browse the directory → https://open-apps.dev.mn
+Browse the directory → https://openappscout.com
 
 ## Why this list
 
-Each app below is **actively maintained**, **well documented**, and
-**useful in production**. Submit a new entry via the web form or
-by opening a pull request against `data/records/`.
+Every entry is a real application with a public repository and an
+identifiable license. Listing is not an endorsement: maintenance,
+licensing, and fitness vary, and each record states what is verified
+and what is not. Submit a new entry via the web form or by opening a
+pull request against `data/records/`.
 
 ## Contents
 
@@ -253,7 +279,6 @@ by opening a pull request against `data/records/`.
 - [OnionBrowser](https://github.com/OnionBrowser/OnionBrowser) - An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network.
 - [storypad](https://github.com/theachoem/storypad) - Storypad is an offline-first Flutter diary and journal app that uses a timeline instead of folders, layers mood tracking, photo memories, and customizable typography over a local ObjectBox store with optional Google Drive sync.
 - [UTM](https://github.com/utmapp/UTM) - Run virtual machines on iOS and macOS — Windows, Linux, and retro operating systems.
-- [WhatTodo](https://github.com/burhanrashid52/WhatTodo) - A Todoist-inspired to-do list app with a clean Material interface and quick capture.
 - [YouTrack Mobile](https://github.com/JetBrains/youtrack-mobile) - Official JetBrains YouTrack mobile app — issue tracking, agile boards, knowledge base, and notifications for YouTrack projects.
 
 ## Finance
@@ -290,7 +315,6 @@ by opening a pull request against `data/records/`.
 - [GitUp](https://github.com/git-up/GitUp) - GitUp is a native macOS Git GUI built on a bespoke in-process Git toolkit (GitUpKit) that wraps a customized libgit2 fork and re-implements everything else — including its own rebase engine — to keep operations and the live commit graph fast on large repositories.
 - [Immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
 - [MarketMonk](https://github.com/brandonp2412/MarketMonk) - A Flutter stock and portfolio tracker that combines Yahoo Finance market data, interactive charts, local trade records, and multiple account support.
-- [One Second Diary](https://github.com/KyleKun/one_second_diary) - A minimalist video diary app that records one second of footage each day.
 - [PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - PeopleInSpace is a Kotlin Multiplatform reference app that shares architecture and data code across iOS, Android, desktop, web, and wearable clients.
 - [SwiftHub](https://github.com/khoren93/SwiftHub) - SwiftHub is an iOS GitHub client built on RxSwift and MVVM-C clean architecture, wiring Moya (REST v3) and Apollo (GraphQL v4) behind a flow-coordinator navigation graph with OAuth2 and personal-access-token authentication.
 - [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) - An Xterm/VT100-compatible terminal emulator implemented in Swift for iOS.
@@ -327,8 +351,6 @@ by opening a pull request against `data/records/`.
 ## Games
 
 - [Flip](https://github.com/RedBrogdon/flutterflip) - A Reversi board game implementation with a clean interface for casual play.
-- [Pokedex](https://github.com/scitbiz/flutter_pokedex) - A Pokédex reference app built in Flutter, using the public PokéAPI.
-- [Slide Puzzle](https://github.com/kevmoo/slide_puzzle) - A classic 15-slide puzzle game with a clean minimal interface.
 
 ## Media
 
@@ -340,7 +362,6 @@ by opening a pull request against `data/records/`.
 ## Entertainment
 
 - [ATV-Bilibili-demo](https://github.com/yichengchen/ATV-Bilibili-demo) - ATV-Bilibili-demo is an open-source Bilibili client demo built for Apple TV and its tvOS focus-driven interface.
-- [TV Randshow](https://github.com/deandreamatias/tv-randshow) - An app that picks a random episode from a TV show when you cannot decide what to watch.
 
 ## Social Network
 

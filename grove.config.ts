@@ -1,15 +1,16 @@
 import { defineConfig } from "@grove-dev/core";
 
-/** Open Apps is a Grove-powered directory of production open-source apps. */
+/** Open App Scout is a Grove-powered directory of production open-source apps. */
 export default defineConfig({
   blueprint: "project-directory",
 
   site: {
-    name: "Open Apps",
-    tagline: "Discover real open-source apps and the stacks behind them.",
+    name: "Open App Scout",
+    tagline:
+      "Evidence-backed reviews of open-source apps: how they work, where they fail, and what to choose instead.",
     description:
       "A searchable directory of real open-source applications, organized by stack, category, platform, activity, and maturity.",
-    url: "https://open-apps.dev.mn",
+    url: "https://openappscout.com",
     repoUrl: "https://github.com/tortuvshin/open-apps",
     // Both files carry their own `prefers-color-scheme` swap: an SVG
     // served through `<img src>` is a separate document, so page CSS
@@ -55,7 +56,7 @@ export default defineConfig({
         ],
       },
     ],
-    copyright: "Open Apps contributors",
+    copyright: "Open App Scout contributors",
     license: "Code is MIT licensed. The legacy seed collection remains CC0.",
   },
 
@@ -87,7 +88,7 @@ export default defineConfig({
   routes: { directory: "apps", item: "app" },
   labels: { singular: "app", plural: "apps" },
 
-  integrations: { github: false },
+  integrations: { github: true },
 
   // No `primaryColor`: buttons and accents fall through to
   // `--grove-foreground`, the neutral treatment the design system
@@ -112,16 +113,18 @@ export default defineConfig({
   },
 
   readme: {
-    title: "Open Apps — a directory of real open-source applications",
-    tagline: "Hand-picked apps worth running, studying, and extending.",
-    url: "https://open-apps.dev.mn",
+    title: "Open App Scout — evidence-backed reviews of open-source apps",
+    tagline: "Apps worth running, studying, and extending — with the caveats.",
+    url: "https://openappscout.com",
     browseLabel: "Browse the directory →",
     intro: [
       "## Why this list",
       "",
-      "Each app below is **actively maintained**, **well documented**, and",
-      "**useful in production**. Submit a new entry via the web form or",
-      "by opening a pull request against `data/records/`.",
+      "Every entry is a real application with a public repository and an",
+      "identifiable license. Listing is not an endorsement: maintenance,",
+      "licensing, and fitness vary, and each record states what is verified",
+      "and what is not. Submit a new entry via the web form or by opening a",
+      "pull request against `data/records/`.",
     ].join("\n"),
   },
 });
