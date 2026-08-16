@@ -1,0 +1,25 @@
+src/components/TaxonomyList.astro
+  s_4625cfde0eb40d::t_fd8014dd045c44 68
+src/pages/[slug]/[recordSlug].astro
+  s_4625cfde0eb40d::t_6b7cab497ce689 42
+src/pages/[slug]/index.astro
+  s_4625cfde0eb40d::t_06cb5321d3802c 88,164,231
+src/pages/contributors.astro
+  s_4625cfde0eb40d::t_273f89f680634c 25,67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "ba3b8f0f0ea1ff101ab21c5e40831f16c760cfb6",
+  "prompts": {},
+  "sessions": {
+    "s_4625cfde0eb40d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9f7d875b-2913-4da6-a02e-102bb2ad84bb",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
