@@ -1,0 +1,22 @@
+src/pages/index.astro
+  s_610dad34975967::t_43126477395d85 3,5-12
+  s_610dad34975967::t_f220931c25167e 35-36,38,44-59
+  s_610dad34975967::t_6529b8da629a75 93,95
+  s_610dad34975967::t_978da28c5dcb61 103-107,110-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "5e4445d91601cffa44ef89043a2b1ac5b967b6de",
+  "prompts": {},
+  "sessions": {
+    "s_610dad34975967": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e489a4e1-27ab-402e-ba58-cdfea08257b1",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
