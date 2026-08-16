@@ -1,0 +1,59 @@
+src/pages/index.astro
+  s_2739562f79e122::t_b1763ab99e7863 43
+  s_2739562f79e122::t_1dfdaac3acd782 75-81
+.github/workflows/readme.yml
+  s_2739562f79e122::t_4a3a16640e2904 1-41
+src/pages/stacks/index.astro
+  s_2739562f79e122::t_116f639e5626e3 10-15,21,26-29
+src/pages/submit.astro
+  s_2739562f79e122::t_515301c747d6b2 13
+  s_2739562f79e122::t_3f2238e35e0c79 43-50
+src/pages/collections/index.astro
+  s_2739562f79e122::t_84879686d2203f 17-18,25-28
+src/pages/contributors.astro
+  s_2739562f79e122::t_db6816f849039f 19,23-29
+src/pages/licenses/[name].astro
+  s_2739562f79e122::t_aae1b207feae86 3,18-19,23-27,31,34
+src/pages/stacks/[name].astro
+  s_2739562f79e122::t_226a7b1ace6d35 3,18-19,23-27,31,34
+src/pages/empty.astro
+  s_2739562f79e122::t_5f86139d693533 13-18
+src/pages/categories/[name].astro
+  s_2739562f79e122::t_5ed4569dcce06a 3,18-19,23-27,31,34
+src/pages/about.astro
+  s_2739562f79e122::t_9cebbd16469243 19-25,29,36-42
+docs/UPGRADE_STATUS.md
+  s_2739562f79e122::t_6be26877e00748 3-8
+src/components/DirectoryBrowse.astro
+  s_2739562f79e122::t_2f5e0b3636a905 82-84
+  s_2739562f79e122::t_704ec9fb4cc7ab 27-34
+  s_2739562f79e122::t_31d86f4700f347 68,72-73,76-77
+package.json
+  s_2739562f79e122::t_132996be465379 18-19,23-25
+CHANGELOG.md
+  s_2739562f79e122::t_e55e39c45a9518 7-56
+src/pages/collections/[slug].astro
+  s_2739562f79e122::t_f7ecfb783d8ccb 26-27,30-35
+src/pages/categories/index.astro
+  s_2739562f79e122::t_91c32a2961167c 10-15,19,24-27
+src/pages/[slug]/[recordSlug].astro
+  s_2739562f79e122::t_ed2edbc2480d69 29,33-36,38-40
+pnpm-lock.yaml
+  s_2739562f79e122::t_cce0d103fef6b5 15-16,18-19,21-22,419-420,425-426,430-431,810-885,1052-1056,1365-1368,1382-1384,1478-1491,1495-1497,1618-1621,1667-1669,1736-1738,1820-1823,2080-2082,2243-2245,2249-2251,2292-2294,2417-2420,2501-2503,2623-2625,2967-2969,3315,3317,3324,3326,3340,3342,3344,3754-3804,3986-3990,4358-4359,4370-4371,4457-4464,4473-4478,4584-4585,4645-4646,4707-4708,4824-4825,5061-5065,5228-5229,5232-5236,5269-5270,5422-5435,5573-5574,5699-5703,5974-5975
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2599fa1ac987fe203dd1e882b08cff0ecc66c638",
+  "prompts": {},
+  "sessions": {
+    "s_2739562f79e122": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9481a03b-fd55-41b4-8c8f-9f992573e488",
+        "model": "MiniMax-M3"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
