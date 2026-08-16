@@ -1,0 +1,84 @@
+src/pages/stacks/[name].astro
+  s_610dad34975967::t_ad8efcf4b46414 4,19,31-32,38
+src/pages/[slug]/[recordSlug].astro
+  s_610dad34975967::t_4748690353a6d3 29
+  s_610dad34975967::t_fc776e6143b19f 3-7,9-16,22,24,41,43,45-49,51,54,57-60,62-66
+src/pages/contributors.astro
+  s_d370a63c4f3a70::t_84bdcbaa554953 54
+  s_610dad34975967::t_2f205ec1c125d4 16,19,30,56-62,83
+src/pages/licenses/[name].astro
+  s_610dad34975967::t_7f3cc0f99026d3 4,19,21-23,33-34,40
+grove.config.ts
+  s_610dad34975967::t_db84182de5ed82 73-77
+  s_610dad34975967::t_b73698f5c258da 86-88
+src/components/TaxonomyList.astro
+  s_610dad34975967::t_ed9cdab289c415 59
+  s_610dad34975967::t_ed1c098ad51e0f 15-17
+  s_610dad34975967::t_208759181dadf8 47
+  s_610dad34975967::t_fff73decf5aa34 21
+  s_610dad34975967::t_78f9c8f6d91b28 12-14
+  s_610dad34975967::t_32ea4b86271c99 19-20
+  s_610dad34975967::t_5c7b63bddda46c 22
+  s_610dad34975967::t_192d91c3d4043e 60
+  s_610dad34975967::t_2728e4f60c402e 4,7,10-11,33,35,37,39-45,49,57,62,64-65,68-71,73,76-77,81,83-92,95,99-102
+src/pages/submit.astro
+  s_d370a63c4f3a70::t_83ab585d01e68a 7,21-22,24-39,57-59,61-67,79,129-138,145,160
+  s_610dad34975967::t_0e9abe0d757c5d 164-165,181
+src/pages/categories/[name].astro
+  s_610dad34975967::t_f77635178149a3 4,19,21-23,33-34,40
+src/pages/index.astro
+  s_610dad34975967::t_abed503b1728ca 88
+  s_610dad34975967::t_8108e65ca7a687 112
+  s_610dad34975967::t_ce18a00deb4cbc 100
+src/pages/404.astro
+  s_d370a63c4f3a70::t_344d922c55a318 26-29,32,49
+  s_d370a63c4f3a70::t_56bceb59ecda54 12-13,31,35,38,44,50,55-59
+src/pages/about.astro
+  s_d370a63c4f3a70::t_3bfbc92d4b3be0 19-20,23-27,34-35,37,40-43,45,48-49,51-55,59,61,67,97,127
+  s_d370a63c4f3a70::t_508b4840671be0 2-15,60,62-66,68-76,78-96,98-114,116-121,125
+  s_610dad34975967::t_89c297daf31304 128
+src/pages/empty.astro
+  s_d370a63c4f3a70::t_7c22786d983827 2-6,11,18-19
+  s_d370a63c4f3a70::t_ca295d27bf7265 8,14-17,20-23
+  s_610dad34975967::t_8be7043944e094 12
+package.json
+  s_610dad34975967::t_3f10ecf75a7fc2 22-24
+pnpm-lock.yaml
+  s_610dad34975967::t_0e70fccbb1c8da 15-16,18-19,21-22,419-420,425-426,430-431,3171,3173,3180,3182,3196
+src/pages/[slug]/index.astro
+  s_610dad34975967::t_e59a56c1523023 16-23,29,36-40,48-59,87,89-93,95-96,104-109,115,126,132,135-162,195,208,214,218,221,223,225-228,230,245
+src/pages/categories/index.astro
+  s_610dad34975967::t_c949a7bee9482a 1-30
+src/pages/collections/[slug].astro
+  s_610dad34975967::t_d74a72fe2e0967 26,36-39
+src/pages/collections/index.astro
+  s_610dad34975967::t_8e79c615e9aaba 18-21,25,28
+src/pages/stacks/index.astro
+  s_610dad34975967::t_aff198c899eac2 1-32
+src/styles/global.css
+  s_610dad34975967::t_2a732ccd7257bb 4-7,16-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d7479c27e5e9ede5cee00b3738ba9c1d835d07ea",
+  "prompts": {},
+  "sessions": {
+    "s_610dad34975967": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e489a4e1-27ab-402e-ba58-cdfea08257b1",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    },
+    "s_d370a63c4f3a70": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "71820f0d-9760-486a-be8b-551d632a91a8",
+        "model": "claude-haiku-4-5-20251001"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
