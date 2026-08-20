@@ -1,0 +1,29 @@
+README.md
+  s_50cca97ef4dce9::t_35f5fab3bb169b 2,6,12-20
+  s_50cca97ef4dce9::t_ba4d74fa8cef97 158-247,250-251,256-257
+.gitignore
+  h_62cffde5d182b0 23
+grove.config.ts
+  s_50cca97ef4dce9::t_db84b571e2cad9 115-117,123-131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "40a9bc95841cf2e02c6dd1d250ebda98ac32eee3",
+  "prompts": {},
+  "humans": {
+    "h_62cffde5d182b0": {
+      "author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_50cca97ef4dce9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e419ab0a-6f08-4ebf-9958-1b2c5cbb5b4b",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
