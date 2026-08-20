@@ -1,0 +1,40 @@
+.github/ISSUE_TEMPLATE/record_submission.md
+  s_50cca97ef4dce9::t_9276da80ec1a40 2-7,12-20,25,27-34,36,38-41,45,50,53,55-56,58-59
+src/components/SubmissionClient.astro
+  s_50cca97ef4dce9::t_62dc343da05bc9 1-378
+src/pages/submit.astro
+  s_50cca97ef4dce9::t_f8bbc1174ba34a 480-509
+  s_50cca97ef4dce9::t_8966a88a23a271 3
+  s_50cca97ef4dce9::t_dadb14fe7d9c65 14-15,17
+  s_50cca97ef4dce9::t_4f0e23ceee69fe 308-351,362-383
+  s_50cca97ef4dce9::t_3efe8ca0f1ea9d 104
+  s_50cca97ef4dce9::t_06c6354f1fd8cd 530
+  s_50cca97ef4dce9::t_88303da2528b8e 2,4,9,12-13,16,18
+  s_50cca97ef4dce9::t_fc78890b9ebf0d 19
+docs/SCHEMA.md
+  s_50cca97ef4dce9::t_74d81c5b25c319 161-166
+  s_50cca97ef4dce9::t_4c961265ba7a36 41-42
+.github/ISSUE_TEMPLATE/config.yml
+  s_50cca97ef4dce9::t_62109d5d6fb9a6 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "9f779bd0bc36b6b6151b188758a00b39da778962",
+  "prompts": {},
+  "humans": {
+    "h_62cffde5d182b0": {
+      "author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_50cca97ef4dce9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e419ab0a-6f08-4ebf-9958-1b2c5cbb5b4b",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
