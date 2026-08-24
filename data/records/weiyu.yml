@@ -1,0 +1,82 @@
+kind: project
+name: Weiyu
+slug: weiyu
+description: Weiyu is a local-first Windows desktop app that turns readable WeChat messages into searchable daily briefings, with history, speech-to-text, AI-assisted analysis, and a Codex bridge.
+summary: A Windows workspace for keeping useful WeChat information searchable instead of buried in chat history. The default workflow is read-only and stores normalized messages and briefings in a local SQLite database.
+sourceDescription: Local-first Windows WeChat archive and daily briefing workspace
+category: productivity
+tags:
+  - open-source
+  - desktop-app
+  - productivity
+  - privacy
+  - chat
+  - notes
+stack: tauri
+platforms:
+  - windows
+projectType: real-app
+repoUrl: https://github.com/Sutera-Diffusus/WeChat-daily
+links:
+  github: https://github.com/Sutera-Diffusus/WeChat-daily
+distribution:
+  channels:
+    - type: github-releases
+      platform: windows
+      label: GitHub Releases
+      url: https://github.com/Sutera-Diffusus/WeChat-daily/releases
+      verified: false
+source:
+  type: manual
+  owner: Sutera-Diffusus
+  repo: WeChat-daily
+  url: https://github.com/Sutera-Diffusus/WeChat-daily
+github:
+  repository:
+    full_name: Sutera-Diffusus/WeChat-daily
+    stargazers_count: 1
+    forks_count: 0
+    open_issues_count: 0
+    language: Python
+    pushed_at: 2026-08-24T12:32:57Z
+    updated_at: 2026-08-24T13:12:33Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: NOASSERTION
+      name: NOASSERTION
+    topics:
+      - ai-analysis
+      - desktop-app
+      - knowledge-management
+      - local-first
+      - open-source
+      - privacy
+      - productivity
+      - speech-to-text
+      - tauri
+      - wechat
+      - weixin
+      - windows
+  latestReleaseAt: 2026-08-24T11:44:07Z
+  homepage: null
+  sync:
+    syncedAt: 2026-08-24T13:12:33Z
+    source: api
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+licenses:
+  - mit
+health:
+  status: active
+  tier: listed
+  visibility: keep
+  cleanupCandidate: false
+  confidence: medium
+  reasons:
+    - active-development
+content: ./content/records/weiyu.md

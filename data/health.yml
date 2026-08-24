@@ -10634,3 +10634,64 @@ health:
     confidence: medium
     reasons:
     - active-development
+- id: weiyu
+  github:
+    fullName: Sutera-Diffusus/WeChat-daily
+    stars: 1
+    forks: 0
+    openIssues: 0
+    watchers: 1
+    archived: false
+    disabled: false
+    private: false
+    visibility: public
+    pushedAt: '2026-08-24T12:32:57Z'
+    updatedAt: '2026-08-24T13:12:33Z'
+    createdAt: '2026-08-24T10:33:23Z'
+    license: NOASSERTION
+    topics:
+    - ai-analysis
+    - desktop-app
+    - knowledge-management
+    - local-first
+    - open-source
+    - privacy
+    - productivity
+    - speech-to-text
+    - tauri
+    - wechat
+    - weixin
+    - windows
+    language: Python
+    defaultBranch: main
+    languages:
+      Python: 604276
+      CSS: 172510
+      JavaScript: 125118
+      HTML: 29458
+      PowerShell: 9690
+      Rust: 8667
+    contributorsKnown: 1
+    totalCommitsKnown: 0
+    openPullRequests: 0
+    description: Windows local-first WeChat archive and daily briefing workspace
+    homepage: ''
+    files:
+      readme: true
+      contributing: false
+      codeOfConduct: false
+      security: true
+      issueTemplates: true
+      pullRequestTemplate: false
+    monthlyCommits:
+    - month: 2026-08
+      commits: 0
+  health:
+    status: active
+    maturity: unknown
+    tier: listed
+    visibility: keep
+    cleanupCandidate: false
+    confidence: medium
+    reasons:
+    - active-development
