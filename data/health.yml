@@ -10644,3 +10644,13 @@ health:
     confidence: medium
     reasons:
     - active-development
+- id: rockxy
+  health:
+    status: active
+    maturity: unknown
+    tier: listed
+    visibility: keep
+    cleanupCandidate: false
+    confidence: medium
+    reasons:
+    - active-development
