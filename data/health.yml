@@ -10464,6 +10464,16 @@ health:
     confidence: medium
     reasons:
     - active-development
+- id: d1vai-app
+  health:
+    status: active
+    maturity: unknown
+    tier: listed
+    visibility: keep
+    cleanupCandidate: false
+    confidence: medium
+    reasons:
+    - active-development
 - id: habo
   github:
     fullName: xpavle00/Habo
