@@ -16,15 +16,15 @@
  * to a specific blueprint — section copy uses singular/plural
  * labels from `itemLabel()`/`itemLabelPlural()`.
  */
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import Hero from "@grove-dev/astro/components/Hero.astro";
-import RecordSection from "@grove-dev/astro/components/RecordSection.astro";
-import StackGrid from "@grove-dev/astro/components/StackGrid.astro";
-import CategoryGrid from "@grove-dev/astro/components/CategoryGrid.astro";
-import ContributorsGrid from "@grove-dev/astro/components/ContributorsGrid.astro";
-import OriginalCollection from "@grove-dev/astro/components/OriginalCollection.astro";
-import FinalCta from "@grove-dev/astro/components/FinalCta.astro";
-import CollectionTeaser from "@grove-dev/astro/components/CollectionTeaser.astro";
+import BaseLayout from "../layouts/base-layout.astro";
+import Hero from "../components/grove/hero.astro";
+import RecordSection from "../components/grove/record-section.astro";
+import StackGrid from "../components/grove/stack-grid.astro";
+import CategoryGrid from "../components/grove/category-grid.astro";
+import ContributorsGrid from "../components/grove/contributors-grid.astro";
+import OriginalCollection from "../components/grove/original-collection.astro";
+import FinalCta from "../components/grove/final-cta.astro";
+import CollectionTeaser from "../components/grove/collection-teaser.astro";
 
 import {
   getHomePageModel,
@@ -61,7 +61,7 @@ const newList = applySort(
 
 const { stacks, categories } = home;
 
-const { contributors, stats, title, description } = home;
+const { contributors, stats, description } = home;
 
 // ── Featured collections teaser ─────────────────────────────────
 const allCollections = await loadCollections(process.cwd());
@@ -90,10 +90,8 @@ const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries,
       totalStacks: stats.stacks,
       totalOwners: stats.owners,
       totalStars: stats.stars,
-      originalRepo: stats.originalRepo,
     }}
     itemsLabel={itemPlural}
-    itemLabel={itemSingular}
     searchHref={`/${slug}`}
     searchPlaceholder={`Search ${itemPlural}, stacks, or categories...`}
     quickFilters={[

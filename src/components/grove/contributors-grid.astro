@@ -1,0 +1,133 @@
+---
+/**
+ * ContributorsGrid — avatar grid for the home page.
+ *
+ * Renders a dense grid of contributor avatars with optional name and
+ * contribution count. Each tile links to the contributor's profile.
+ * No blueprint-specific terms — works for any "people" feed.
+ *
+ * Empty tiles are skipped. When the list is empty the entire section
+ * hides its body but keeps the header (so a "no contributors yet"
+ * state can be wired by a consumer via a slot).
+ */
+
+import { compact } from '@grove-dev/core';
+import EmptyState from '../ui/empty-state.astro';
+
+interface Contributor {
+  username: string;
+  name?: string;
+  avatarUrl?: string;
+  profileUrl?: string;
+  contributions?: number;
+}
+
+interface Props {
+  contributors: Contributor[];
+  /** Total count to display in the header (e.g. "1,234 contributors"). */
+  total?: number;
+  /** Optional view-all href rendered top-right. */
+  viewAllHref?: string;
+  viewAllLabel?: string;
+  title?: string;
+  description?: string;
+  /** Render per-user contribution counts (config: contributors.showContributionCount). */
+  showContributionCount?: boolean;
+  class?: string;
+}
+
+const {
+  contributors,
+  total,
+  viewAllHref,
+  viewAllLabel = 'View all',
+  title = 'Built by the community',
+  description = 'The people improving this directory through code, curation, and review.',
+  showContributionCount = true,
+  class: className = '',
+} = Astro.props;
+
+const visible = contributors.filter((c) => c.username).slice(0, 100);
+---
+
+<section
+  class:list={["py-12 sm:py-16", className]}
+  aria-labelledby="grove-contributors-heading"
+>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    <header class="mb-6 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h2
+          id="grove-contributors-heading"
+          class="m-0 text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
+        >
+          {title}
+          {typeof total === "number" && (
+            <span class="ml-2 font-mono text-[0.9375rem] font-normal text-ink-500 dark:text-ink-400">
+              ({compact(total)})
+            </span>
+          )}
+        </h2>
+        {description && (
+          <p class="m-0 mt-1 max-w-[60ch] text-[0.9375rem] text-ink-500 dark:text-ink-400">
+            {description}
+          </p>
+        )}
+      </div>
+      {viewAllHref && (
+        <a
+          href={viewAllHref}
+          class="text-sm font-medium text-ink-500 hover:text-ink-900 dark:text-ink-400 dark:hover:text-ink-100"
+        >
+          {viewAllLabel} →
+        </a>
+      )}
+    </header>
+
+    {visible.length === 0 ? (
+      <EmptyState title="Community profiles appear after the first repository metadata sync." />
+    ) : (
+      <ul
+        class="m-0 grid list-none grid-cols-[repeat(auto-fill,minmax(72px,1fr))] gap-x-3 gap-y-5 p-0"
+        aria-label="Contributors"
+      >
+        {visible.map((c) => {
+          const href = c.profileUrl ?? `https://github.com/${c.username}`;
+          const avatar =
+            c.avatarUrl ??
+            `https://avatars.githubusercontent.com/${c.username}?v=4&s=80`;
+          return (
+            <li class="m-0 p-0">
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group flex flex-col items-center gap-1.5 p-2 text-center no-underline"
+                data-event="contributor_click"
+                data-event-source="contributors_grid"
+              >
+                <img
+                  src={avatar}
+                  alt={c.name ?? c.username}
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                  class="h-12 w-12 rounded-full border border-ink-200 object-cover dark:border-ink-800"
+                />
+                <span class="line-clamp-1 text-2xs font-medium text-ink-700 group-hover:text-ink-900 dark:text-ink-300 dark:group-hover:text-ink-100">
+                  {c.name ?? c.username}
+                </span>
+                {showContributionCount && typeof c.contributions === "number" && (
+                  <span class="font-mono text-2xs text-ink-400">
+                    {compact(c.contributions)}
+                  </span>
+                )}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </div>
+</section>

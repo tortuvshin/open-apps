@@ -1,0 +1,102 @@
+---
+import type { CollectionIndexModel } from '@grove-dev/astro/server';
+import Container from '../../layouts/container.astro';
+import SectionHeader from '../../layouts/section-header.astro';
+import EmptyState from '../ui/empty-state.astro';
+/**
+ * CollectionIndex — renders a grid of every collection defined in
+ * `data/collections/*.yml`. Each card links to the collection's
+ * detail page and shows the entry count.
+ *
+ * Consumes a `CollectionIndexModel` produced by
+ * `getCollectionIndexModel`. Pass `limit` (e.g. 3) for a teaser-style
+ * subset; the framework also re-exports this component as
+ * `CollectionTeaser` for the homepage use case.
+ *
+ * API parity with `RecordSection`:
+ *  - `id`, `eyebrow`, `title`, `description`
+ *  - `viewAllHref`, `viewAllLabel` — header CTA
+ *  - `emptyLabel` — copy when there are no collections
+ *  - `<slot name="header-actions">` — custom buttons in header
+ *  - `class` — extra class on the outer <section>
+ */
+import CardGrid from './card-grid.astro';
+import CollectionCard from './collection-card.astro';
+
+interface Props {
+  model: CollectionIndexModel;
+  id?: string;
+  eyebrow?: string;
+  title?: string;
+  description?: string;
+  /** Header "View all" link. Hides when not provided. */
+  viewAllHref?: string;
+  viewAllLabel?: string;
+  emptyLabel?: string;
+  /** Cap the number of cards rendered. Omit for "all". */
+  limit?: number;
+  /**
+   * Heading level for the section title. Pass 1 when this component
+   * renders the page's title (the `/collections` index); the default
+   * 2 fits embedded use (homepage teaser).
+   */
+  level?: 1 | 2;
+  /** Noun pair for the per-card entry counts (blueprint labels). */
+  countNoun?: { singular: string; plural: string };
+  class?: string;
+}
+
+const {
+  model,
+  id,
+  eyebrow = 'Collections',
+  title = 'Collections',
+  description = 'Curated and generated directories of related items.',
+  viewAllHref,
+  viewAllLabel = 'View all',
+  emptyLabel = 'No collections yet.',
+  limit,
+  level = 2,
+  countNoun,
+  class: className = '',
+} = Astro.props;
+
+const cards = typeof limit === 'number' ? model.collections.slice(0, limit) : model.collections;
+const headerActions = Astro.slots.has('header-actions');
+---
+
+<section id={id} class={`py-12 sm:py-16 ${className}`}>
+  <Container>
+    <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+      <SectionHeader eyebrow={eyebrow} title={title} description={description} level={level} />
+      {(viewAllHref || headerActions) && (
+        <div class="flex shrink-0 items-center gap-2 pb-2">
+          {viewAllHref && (
+            <a
+              href={viewAllHref}
+              class="text-2xs font-medium text-ink-500 transition-colors hover:text-ink-900 sm:inline dark:text-ink-400 dark:hover:text-ink-100"
+            >
+              {viewAllLabel} →
+            </a>
+          )}
+          <slot name="header-actions" />
+        </div>
+      )}
+    </div>
+
+    {cards.length === 0 ? (
+      <EmptyState
+        title={emptyLabel}
+        description="Collections are defined in data/collections/*.yml — add a file there and it appears here on the next build."
+      />
+    ) : (
+      <CardGrid>
+        {cards.map((c) => (
+          <li class="m-0 p-0">
+            <CollectionCard collection={c} countNoun={countNoun} />
+          </li>
+        ))}
+      </CardGrid>
+    )}
+  </Container>
+</section>

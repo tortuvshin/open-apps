@@ -4,10 +4,10 @@ import { resolve } from "node:path";
 import { parse } from "yaml";
 import siteConfig from "@grove/generated/site-config.json";
 import { getSubmissionPageModel } from "@grove-dev/astro/server";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import Container from "@grove-dev/astro/layouts/Container.astro";
+import BaseLayout from "../layouts/base-layout.astro";
+import Container from "../layouts/container.astro";
 import SubmissionClient from "../components/SubmissionClient.astro";
-import { buttonClass } from "@grove-dev/astro/ui/button";
+import { buttonClass } from "../lib/classnames.ts";
 
 // The submission model does not expose the distribution-channel
 // taxonomy, so read it straight from the source of truth.

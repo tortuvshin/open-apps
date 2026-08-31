@@ -1,0 +1,106 @@
+---
+/**
+ * SearchField — labeled search input with the leading glass icon.
+ *
+ * The label is visually hidden but always present; placeholder text
+ * is display copy, not the accessible name. Pass the derived
+ * placeholder from `getDirectoryIndexModel().searchPlaceholder` so it
+ * only names ENABLED facets.
+ *
+ * `shortcut` renders the `/` hint and wires the global key handler.
+ * The hint is hidden once the field has focus — it is an invitation,
+ * not a persistent label — and on coarse pointers, where there is no
+ * key to press.
+ */
+
+interface Props {
+  label: string;
+  name?: string;
+  id?: string;
+  value?: string;
+  placeholder?: string;
+  /** Show the `/` hint and focus this field when `/` is pressed. */
+  shortcut?: boolean;
+  class?: string;
+}
+
+const {
+  label,
+  name = 'q',
+  id = 'search-input',
+  value = '',
+  placeholder,
+  shortcut = false,
+  class: className = '',
+} = Astro.props;
+---
+
+<label class={`grove-search relative block ${className}`}>
+  <span class="sr-only">{label}</span>
+  <svg
+    viewBox="0 0 16 16"
+    width="16"
+    height="16"
+    aria-hidden="true"
+    class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
+    fill="currentColor"
+  >
+    <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z" />
+  </svg>
+  <input
+    id={id}
+    type="search"
+    name={name}
+    value={value}
+    placeholder={placeholder}
+    autocomplete="off"
+    data-search-input
+    class="peer h-10 w-full rounded-md border border-input bg-background py-2 pl-9 pr-10 text-sm text-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20 [&::-webkit-search-cancel-button]:appearance-none"
+  />
+  {shortcut && (
+    <kbd
+      data-search-hint
+      aria-hidden="true"
+      class="pointer-events-none absolute right-2 top-1/2 hidden h-6 w-6 -translate-y-1/2 select-none items-center justify-center rounded-md border border-border bg-secondary font-mono text-[11px] leading-none text-muted-foreground peer-focus:!hidden peer-not-placeholder-shown:hidden sm:inline-flex"
+      >/</kbd
+    >
+  )}
+  <button
+    type="button"
+    data-search-clear
+    hidden={!value}
+    aria-label="Clear search"
+    class="absolute right-2 top-1/2 inline-flex h-6 w-6 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-0 bg-transparent p-0 text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/35"
+  >
+    <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="currentColor">
+      <path
+        d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.75.75 0 1 1 1.06 1.06L9.06 8l3.22 3.22a.75.75 0 1 1-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 0 1-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"
+      />
+    </svg>
+  </button>
+</label>
+
+{shortcut && (
+  <script>
+    // `/` focuses the directory search from anywhere on the page, but
+    // never while the visitor is already typing somewhere — otherwise
+    // the shortcut eats a literal slash out of another field.
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "/" || event.metaKey || event.ctrlKey || event.altKey) return;
+      const active = document.activeElement as HTMLElement | null;
+      if (
+        active &&
+        (active.tagName === "INPUT" ||
+          active.tagName === "TEXTAREA" ||
+          active.tagName === "SELECT" ||
+          active.isContentEditable)
+      )
+        return;
+      const input = document.querySelector("[data-search-input]");
+      if (!(input instanceof HTMLInputElement)) return;
+      event.preventDefault();
+      input.focus();
+      input.select();
+    });
+  </script>
+)}

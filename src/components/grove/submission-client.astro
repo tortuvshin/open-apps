@@ -1,0 +1,270 @@
+---
+import {
+  inferStackFromTopics,
+  parseGithubRepo,
+  recordSlugify,
+  yamlLines,
+  yamlQuote,
+} from '@grove-dev/core';
+
+interface Props {
+  existingSlugs: string[];
+  existingFullNames: string[];
+  repoUrl: string;
+  fields: {
+    category: boolean;
+    stack: boolean;
+    platforms: boolean;
+    tags: boolean;
+    license?: boolean;
+  };
+  /** Taxonomy ids for client-side validation. */
+  taxonomy?: {
+    categoryIds?: string[];
+    stackIds?: string[];
+    platformIds?: string[];
+  };
+  /**
+   * Optional path of a server-side proxy endpoint that wraps
+   * `api.github.com` (SSR consumers with an adapter can wire one and
+   * read a `GITHUB_TOKEN` env var to lift the rate limit). When
+   * omitted — the static-build default — the visitor's browser calls
+   * `https://api.github.com/repos/{owner}/{repo}` directly, which
+   * works on any static host but is subject to GitHub's per-IP
+   * unauthenticated limit (60 requests/hour).
+   */
+  githubProxyPath?: string;
+}
+const {
+  existingSlugs,
+  existingFullNames,
+  repoUrl,
+  fields,
+  taxonomy,
+  githubProxyPath = '',
+} = Astro.props;
+---
+
+<script is:inline define:vars={{ existingSlugs, existingFullNames, repoUrl, fields, taxonomy, githubProxyPath, recordSlugify, parseGithubRepo, yamlQuote, yamlLines, inferStackFromTopics }}>
+    /** @typedef {{ name: string; description: string | null; html_url: string; homepage: string | null; language: string | null; private: boolean; topics: string[] }} GitHubRepo */
+    /** @type {GitHubRepo | null} */
+    let repository = null;
+
+    const $ = /** @param {string} selector */ (selector) => /** @type {HTMLElement | null} */ (document.querySelector(selector));
+    /** @type {Record<string, HTMLInputElement | HTMLTextAreaElement | null>} */
+    const inputs = {
+      repo: /** @type {HTMLInputElement | null} */ ($("#repo-url")),
+      name: /** @type {HTMLInputElement | null} */ ($("#item-name")),
+      slug: /** @type {HTMLInputElement | null} */ ($("#item-slug")),
+      description: /** @type {HTMLInputElement | null} */ ($("#item-description")),
+      category: /** @type {HTMLSelectElement | null} */ ($("#item-category")),
+      stack: /** @type {HTMLSelectElement | null} */ ($("#primary-stack")),
+      tags: /** @type {HTMLInputElement | null} */ ($("#item-tags")),
+      license: /** @type {HTMLSelectElement | null} */ ($("#item-license")),
+      website: /** @type {HTMLInputElement | null} */ ($("#item-website")),
+      bestFor: /** @type {HTMLTextAreaElement | null} */ ($("#best-for")),
+    };
+    const fetchButton = /** @type {HTMLButtonElement | null} */ ($("#fetch-repo"));
+    const preview = /** @type {HTMLElement | null} */ ($("#yaml-preview"));
+    const status = /** @type {HTMLElement | null} */ ($("#submit-status"));
+    const copyButton = /** @type {HTMLButtonElement | null} */ ($("#copy-yaml"));
+    const openPrLink = /** @type {HTMLAnchorElement | null} */ ($("#open-pr-link"));
+    const slugSet = new Set(existingSlugs);
+    const repoSet = new Set(existingFullNames);
+    const categoryIds = new Set(taxonomy?.categoryIds ?? []);
+    const stackIds = new Set(taxonomy?.stackIds ?? []);
+    const platformIds = new Set(taxonomy?.platformIds ?? []);
+
+    const slugify = recordSlugify;
+    const parseRepo = parseGithubRepo;
+    const quote = yamlQuote;
+    const lines = yamlLines;
+    const inferStack = /** @param {GitHubRepo} repo */ (repo) =>
+      inferStackFromTopics({ language: repo.language, topics: repo.topics });
+    const selectedPlatforms = () =>
+      /** @type {string[]} */ ([...document.querySelectorAll("input[name=platform]:checked")].map((input) => /** @type {HTMLInputElement} */ (input).value));
+    const setStatus = (text, tone = "muted") => {
+      if (!status) return;
+      status.textContent = text;
+      // Status tokens (danger/warning/success) so the submit states use
+      // the same semantic roles as the rest of the system.
+      status.className = `mt-3 min-h-5 text-2xs ${tone === "error" ? "text-danger" : tone === "warn" ? "text-warning" : tone === "success" ? "text-success" : "text-muted-foreground"}`;
+    };
+    const generateYaml = () => {
+      if (!repository) return "";
+      const parsed = parseRepo(inputs.repo?.value ?? "");
+      if (!parsed) return "";
+      const tags = String(inputs.tags?.value ?? "").split(",").map((tag) => tag.trim()).filter(Boolean);
+      const platforms = selectedPlatforms();
+      const bestFor = String(inputs.bestFor?.value ?? "").split("\n").map((item) => item.trim()).filter(Boolean);
+      return [
+        "kind: project",
+        `slug: ${slugify(inputs.slug?.value ?? repository.name)}`,
+        `name: ${quote(inputs.name?.value ?? "")}`,
+        `description: ${quote(inputs.description?.value ?? "")}`,
+        ...(fields.category ? [`category: ${inputs.category?.value || "uncategorized"}`] : []),
+        "projectType: real-app",
+        ...(fields.stack && inputs.stack?.value ? [`stack: ${quote(inputs.stack.value)}`] : []),
+        ...(fields.platforms ? ["platforms:", platforms.length ? lines(platforms) : "  []"] : []),
+        ...(fields.tags ? ["tags:", tags.length ? lines(tags) : "  []"] : []),
+        ...(fields.license && inputs.license?.value ? ["licenses:", lines([inputs.license.value])] : []),
+        `repoUrl: ${repository.html_url}`,
+        "links:",
+        `  github: ${repository.html_url}`,
+        ...(inputs.website?.value ? [`  website: ${inputs.website.value}`] : []),
+        "bestFor:", bestFor.length ? lines(bestFor) : "  []",
+        "source:",
+        "  type: manual",
+        `  owner: ${parsed.owner}`,
+        `  repo: ${parsed.repo}`,
+        "curation:",
+        "  reviewed: false",
+        "  labels: []",
+        "  lenses: []",
+        "",
+      ].join("\n");
+    };
+    // NOTE: this taxonomy/slug membership logic duplicates a concern
+    // that belongs in `@grove-dev/core` (domain/taxonomy rules, not
+    // UI), but it can't be moved into an import here. This `<script>`
+    // uses `define:vars` (see the tag above), which Astro's compiler
+    // implicitly treats as `is:inline` — the script is emitted
+    // verbatim into the page and is NOT run through Vite's bundler,
+    // so a bare-specifier `import ... from "@grove-dev/core"` would
+    // not resolve in the browser (no bundler rewrite, no import map).
+    // `define:vars` itself only hands the script JSON-serializable
+    // data (see `taxonomy`, `existingSlugs`, etc. above) — a function
+    // reference can't cross that boundary either. Moving this out
+    // would require converting the script off `is:inline`/`define:vars`
+    // to a regular bundled `<script>` that reads its props from
+    // `data-*` attributes or a JSON island, which is a larger
+    // structural change than this fix warrants.
+    const validationIssues = () => {
+      const issues = [];
+      if (inputs.slug && slugSet.has(slugify(inputs.slug.value))) {
+        issues.push("A record with that slug already exists — update the existing one instead of opening a duplicate PR.");
+      }
+      const description = String(inputs.description?.value ?? "");
+      if (description.trim().length < 40) {
+        issues.push("Description must be at least 40 characters.");
+      }
+      if (fields.category && inputs.category) {
+        const v = inputs.category.value;
+        if (!v || v === "uncategorized" || (categoryIds.size > 0 && !categoryIds.has(v))) {
+          issues.push("Choose a category from the taxonomy.");
+        }
+      }
+      if (fields.stack && inputs.stack) {
+        const v = inputs.stack.value;
+        if (!v || (stackIds.size > 0 && !stackIds.has(v))) {
+          issues.push("Choose a primary stack from the taxonomy.");
+        }
+      }
+      if (fields.platforms && selectedPlatforms().length === 0) {
+        issues.push("Select at least one platform.");
+      } else if (fields.platforms && platformIds.size > 0) {
+        const bad = selectedPlatforms().find((p) => !platformIds.has(p));
+        if (bad) issues.push(`Platform "${bad}" is not in the taxonomy.`);
+      }
+      return issues;
+    };
+    const refresh = () => {
+      const yaml = generateYaml();
+      if (preview) preview.textContent = yaml || "Paste a GitHub URL to generate a draft.";
+      if (!yaml || !openPrLink || !copyButton) return;
+      const issues = validationIssues();
+      if (issues.length > 0) {
+        setStatus(issues[0], "error");
+        openPrLink.classList.add("pointer-events-none", "opacity-50");
+        copyButton.disabled = true;
+        copyButton.classList.add("pointer-events-none", "opacity-50");
+        return;
+      }
+      const params = new URLSearchParams({ filename: `data/records/${slugify(inputs.slug?.value ?? "")}.yml`, value: yaml });
+      openPrLink.href = `${repoUrl}/new/main?${params}`;
+      openPrLink.classList.remove("pointer-events-none", "opacity-50");
+      copyButton.disabled = false;
+      copyButton.classList.remove("pointer-events-none", "opacity-50");
+    };
+
+    fetchButton?.addEventListener("click", async () => {
+      const parsed = parseRepo(inputs.repo?.value ?? "");
+      if (!parsed) return setStatus("Enter a valid GitHub repository URL.", "error");
+      const fullName = `${parsed.owner}/${parsed.repo}`.toLowerCase();
+      if (repoSet.has(fullName)) setStatus("This repository is already listed. The draft can update its record.", "warn");
+      if (fetchButton) fetchButton.disabled = true;
+      setStatus("Fetching GitHub metadata...");
+      try {
+        if (githubProxyPath) {
+          // Server-side proxy (SSR consumers) — the endpoint reads an
+          // optional `GITHUB_TOKEN` env var and forwards the request
+          // with a Bearer header (or unauthenticated, if no token).
+          const proxyUrl = `${githubProxyPath}?owner=${encodeURIComponent(parsed.owner)}&repo=${encodeURIComponent(parsed.repo)}`;
+          const response = await fetch(proxyUrl);
+          const payload = /** @type {{ ok: boolean; status?: number; message?: string; data?: GitHubRepo }} */ (await response.json());
+          if (!response.ok || !payload.ok || !payload.data) {
+            throw new Error(payload.message || `GitHub returned ${response.status}.`);
+          }
+          repository = payload.data;
+        } else {
+          // Static-build default — call api.github.com directly. The
+          // raw payload carries the same field names the form fill
+          // logic consumes (name, description, html_url, homepage,
+          // language, private, topics).
+          const response = await fetch(
+            `https://api.github.com/repos/${encodeURIComponent(parsed.owner)}/${encodeURIComponent(parsed.repo)}`,
+            { headers: { Accept: "application/vnd.github+json" } },
+          );
+          if (response.status === 404) {
+            throw new Error("Repository not found or not public.");
+          }
+          if (response.status === 403 || response.status === 429) {
+            throw new Error(
+              "GitHub rate limit reached (60 requests/hour per visitor). Try again later or fill the fields manually.",
+            );
+          }
+          if (!response.ok) {
+            throw new Error(`GitHub returned ${response.status}.`);
+          }
+          const data = /** @type {GitHubRepo & { topics?: string[] }} */ (await response.json());
+          repository = {
+            name: data.name,
+            description: data.description ?? null,
+            html_url: data.html_url,
+            homepage: data.homepage ?? null,
+            language: data.language ?? null,
+            private: Boolean(data.private),
+            topics: Array.isArray(data.topics) ? data.topics : [],
+          };
+        }
+        if (repository.private) throw new Error("Private repositories cannot be submitted.");
+        if (inputs.name) inputs.name.value = repository.name || parsed.repo;
+        if (inputs.slug) inputs.slug.value = slugify(repository.name || parsed.repo);
+        if (inputs.description) inputs.description.value = repository.description || "";
+        if (inputs.stack) inputs.stack.value = inferStack(repository);
+        if (inputs.tags) inputs.tags.value = (repository.topics || []).slice(0, 8).join(", ");
+        if (inputs.website) inputs.website.value = repository.homepage || "";
+        const duplicate = inputs.slug ? slugSet.has(inputs.slug.value) : false;
+        setStatus(
+          duplicate ? "That slug already exists. Choose another or update the existing record." : "Draft generated. Edit any field and the YAML will refresh.",
+          duplicate ? "warn" : "success",
+        );
+        refresh();
+      } catch (error) {
+        repository = null;
+        setStatus(error instanceof Error ? error.message : "Unable to fetch repository metadata.", "error");
+      } finally {
+        if (fetchButton) fetchButton.disabled = false;
+      }
+    });
+    $("#submit-form")?.addEventListener("input", refresh);
+    $("#submit-form")?.addEventListener("change", refresh);
+    copyButton?.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(preview?.textContent || "");
+        setStatus("Copied YAML to clipboard.", "success");
+      } catch {
+        setStatus("Couldn't copy automatically. Select the YAML and copy it.", "error");
+      }
+    });
+  </script>

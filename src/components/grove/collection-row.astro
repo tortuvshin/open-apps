@@ -1,0 +1,119 @@
+---
+import type { ProjectCardModel } from '@grove-dev/astro/server';
+/**
+ * CollectionRow — collection-page adapter around the canonical
+ * `ProjectCard`.
+ *
+ * Consumes the lightweight `CollectionEntry` shape directly and maps
+ * it onto `ProjectCard`'s explicit props, so a collection page sitting
+ * next to the directory index reads as the same site. The historical
+ * public props are preserved:
+ *
+ *  - `entry` — the collection entry (slug, title, description, …)
+ *  - `href` — full detail URL; wins over `routeSlug`
+ *  - `routeSlug` — blueprint slug (e.g. "projects"); details derived
+ *    as `/${routeSlug}/${slug}` when `href` is not provided
+ *  - `showChips`, `showLabel` — deprecated no-ops. The card renders
+ *    one fixed layout everywhere, so a record cannot look like a
+ *    different record depending on the page it appears on.
+ *  - `showMeta` — still honoured: it controls whether the *data*
+ *    (stars, last-updated) is passed in at all, not how it is drawn
+ *  - `class` — extra class on the card root
+ *  - `eager` — bypass lazy loading for above-the-fold avatars
+ *
+ * The repository is reached through the card's `owner/repo` line;
+ * there is no separate footer link button.
+ *
+ * `CollectionEntry` isn't a `CardRecord`, so this adapter can't call
+ * `buildProjectCardModel()` — it builds the `ProjectCardModel` object
+ * literal directly from its own already-computed fields, reusing the
+ * same `formatStars`/`formatRelative`/`getOwnerAndRepoFromRepoUrl`/
+ * `nameInitials` helpers `buildProjectCardModel` uses internally so
+ * the two stay in lockstep.
+ *
+ * Analytics: emits `data-event="collection_item_click"` /
+ * `data-event-source="collection_row"` on the card root, so sites wire
+ * one handler in BaseLayout.
+ */
+import type { CollectionEntry } from '@grove-dev/core';
+import {
+  formatRelative,
+  formatStars,
+  getOwnerAndRepoFromRepoUrl,
+  getOwnerAvatarUrl,
+  nameInitials,
+} from '@grove-dev/core';
+import ProjectCard from './project-card.astro';
+
+interface Props {
+  entry: CollectionEntry;
+  /** Full detail-page URL. Wins over `routeSlug`. */
+  href?: string;
+  /** Blueprint route slug; detail URL = `/${routeSlug}/${slug}`. */
+  routeSlug?: string;
+  /** @deprecated Ignored — the card renders one fixed layout. */
+  showChips?: boolean;
+  /** Pass stars / last-updated through to the card. Default true. */
+  showMeta?: boolean;
+  /** @deprecated Ignored — see `showChips`. */
+  showLabel?: boolean;
+  eager?: boolean;
+  class?: string;
+}
+
+const {
+  entry,
+  href: hrefProp,
+  routeSlug,
+  showMeta = true,
+  eager = false,
+  class: className = '',
+} = Astro.props;
+
+const slug = entry.slug;
+const base = (routeSlug ?? '').replace(/^\/+|\/+$/g, '');
+const detailHref =
+  typeof hrefProp === 'string' && hrefProp.length > 0
+    ? hrefProp
+    : entry.url || (base ? `/${base}/${slug}` : `/${slug}`);
+
+const repoHref = entry.repoHref;
+const stars = showMeta ? entry.stars : undefined;
+const pushedAt = showMeta ? entry.pushedAt : undefined;
+const stackIds = entry.stack ? [entry.stack] : [];
+const { owner, repo } = getOwnerAndRepoFromRepoUrl(repoHref ?? '');
+const starsLabel = formatStars(stars);
+const updatedLabel = formatRelative(pushedAt);
+const visibleStacks = stackIds.slice(0, 4);
+
+const model: ProjectCardModel = {
+  name: entry.title,
+  slug,
+  description: entry.description ?? '',
+  initials: nameInitials(entry.title),
+  avatarUrl: getOwnerAvatarUrl(owner, 80) ?? undefined,
+  repoHref,
+  owner: owner ?? undefined,
+  repo: repo ?? undefined,
+  isArticle: Boolean(repoHref && owner && repo),
+  stars,
+  starsLabel,
+  hasStars: starsLabel !== null && typeof stars === 'number' && stars > 0,
+  pushedAt,
+  updatedLabel,
+  hasUpdated: Boolean(pushedAt),
+  stackIds,
+  visibleStacks,
+  stackOverflow: stackIds.length - visibleStacks.length,
+  hasStacks: visibleStacks.length > 0,
+};
+---
+
+<ProjectCard
+  href={detailHref}
+  model={model}
+  eager={eager}
+  event="collection_item_click"
+  eventSource="collection_row"
+  class={className}
+/>

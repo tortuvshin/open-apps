@@ -1,171 +1,77 @@
-# Grove 0.5.0 Upgrade Status
+# Grove upgrade status
 
-> **Note:** This document tracks the 0.5.0-next.2 → 0.5.4 adoption work and is
-> now **superseded** by the 0.5.4 → 0.6.0 port that completes the SEO surface
-> (per-page OG images, `seo.*` block on every page, BreadcrumbList JSON-LD on
-> every collection/taxonomy/record detail). See
-> [`../CHANGELOG.md`](../CHANGELOG.md) for the current state of the consumer.
+**Current: `@grove-dev/{astro,cli,core}` 0.8.0 — registry-first UI.**
 
-## Current State
+Grove v1 removed every UI export from `@grove-dev/astro`. The components now
+ship through a [shadcn registry](https://withgrove.dev/r/) that installs
+source into this repository, so the `.astro` files under `src/` are ours.
 
-open-apps has been upgraded to Grove `0.5.0-next.2` with all data/configuration fixes applied and documentation updated. This document tracks what's complete, what's deferred, and what patterns are ready to adopt.
+## What that changes day to day
 
-## Completed ✅
+| Before (0.6.1) | Now (0.8.0) |
+| --- | --- |
+| `import ProjectCard from "@grove-dev/astro/components/ProjectCard.astro"` | `import ProjectCard from "../components/grove/project-card.astro"` |
+| A package upgrade could change the site's UI | Only `grove update` changes UI, and it never overwrites our edits |
+| Customising a component meant forking it into `src/components/` | Every component is already in `src/` |
 
-### 1. Core Version Upgrade
-- **Version**: `0.5.0-next.2` (note: `0.5.0` on npm is incomplete)
-- **Status**: ✅ Installed and verified
-- **Build**: ✅ Passes `pnpm build` and `grove check`
-- **Package Resolution**: Using npm registry (not local symlinks)
+Business logic is still imported: `@grove-dev/core` and
+`@grove-dev/astro/server` (view-model builders) are unchanged and carry the
+data pipeline.
 
-### 2. Configuration Alignment
-- **Facets**: Top-level `facets` key (working with current version)
-- **Blueprint**: `project-directory` confirmed
-- **Routes**: `directory: "apps", item: "app"` configured
-- **Theme**: `primaryColor: "#1f6feb"` set (WCAG-safe derivation available in newer versions)
+## Keeping the UI current
 
-### 3. Record Enrichment
-- **sourceDescription backfill**: ✅ Complete (31 records)
-- **Script created**: `scripts/backfill-source-description.mjs` (reusable)
-- **Schema support**: `summary`, `sourceDescription`, `screenshots` all optional and backward-compatible
-- **Rendering**: Detail pages auto-fallback when fields unset
+```bash
+pnpm exec grove update --check   # what upstream changed; writes nothing
+pnpm exec grove update --diff    # the same, with a unified diff per file
+pnpm exec grove update           # apply what is safe
+```
 
-### 4. Documentation
-- **docs/SCHEMA.md**: ✅ Created with full field reference, ownership table, taxonomy guide, and example record
-- **README link**: ✅ Now resolves to the new schema documentation
+Files we have edited are reported and preserved, never overwritten. A file
+where both sides moved is a **conflict**: `grove update` leaves it alone and
+exits `2`, and keeps doing so on every run until someone merges it — the lock
+records what we are reconciled to, not what upstream ships.
 
-### 5. Page Updates
-- **Contributors page**: Fixed to work with current Grove version
-- **All pages**: ✅ Build without errors or type warnings
+`.grove/registry.lock.json` is what that diff runs against. It is generated;
+do not hand-edit it.
 
-## Deferred - Ready to Adopt (Waiting for Complete npm Release)
+## Deliberate forks
 
-These features are fully implemented in the sibling `grove` repo (main branch) and documented in `apps/example/` but are not yet in any published npm package:
+These are classified `locally modified` and will not be overwritten. Re-check
+them when the registry's corresponding block changes.
 
-### New UI Components
-Available in Grove main branch (`packages/astro/src/ui/`):
-- ✅ `SearchField.astro` — semantic search input with glass icon
-- ✅ `PageHeader.astro` — page title/eyebrow/description block
-- ✅ `EmptyState.astro` — consistent "nothing here" rendering with `data-grove-empty-state` marker
-- ✅ `Button.astro` — (plus `buttonClass()` utility for inline styling)
-- ✅ `Badge.astro` — status/category badges
-- ✅ `FilterDrawer.astro` — mobile bottom-sheet filter UI
+- **`src/pages/index.astro`** — two lens sections (actively developed /
+  recently added) derived locally with `applySort`, rather than the upstream
+  three (hot / new / mature) whose star-driven lenses largely echo each other
+  on this directory. Includes a dedupe pass so a record never renders twice.
+- **`src/pages/submit.astro` + `src/components/SubmissionClient.astro`** —
+  emits `distribution.channels[]` objects with a required store URL, splits
+  `sourceDescription` from the curator description, sets `source.type: submit`,
+  offers the long-form notes file flow, and reports every validation issue at
+  once. Upstream's submit block covers none of that yet. The goal is to
+  upstream these and drop the fork.
 
-### Enhanced Data Model API
-Available in Grove main branch (`packages/astro/src/server/models.ts`):
-- ✅ `facetGroups` — ordered, pre-filtered facet configuration (replaces the old `facets` object)
-- ✅ `searchPlaceholder` — dynamic placeholder naming only enabled facet dimensions
+## Local choices re-applied over upstream pages
 
-### Configuration Schema
-Available in Grove main branch (`packages/core/src/schema.ts`):
-- ✅ `browse: { facets: [...] }` — new facets location (replaces top-level `facets`)
-- ✅ `theme.primaryColor` — hex color for WCAG-safe palette derivation
-- ✅ `contributors.showContributionCount` — toggle for contributor count display
-- ✅ Deeper theme customization options
+Small, deliberate, and easy to lose on a future `--force`:
 
-## How to Adopt When Ready
+- `src/pages/404.astro` — "Not found — Open Apps", short lede.
+- `src/pages/{categories,stacks,licenses}/[name].astro` — "Browse
+  **open-source** apps…" in the lede.
+- `src/pages/about.astro` — links `withgrove.dev`, not the Grove repo.
+- `src/pages/[slug]/[recordSlug].astro` — forwards `noindex={seo.noindex}`,
+  which the upstream page drops. A hidden record must stay unindexed.
 
-### When Grove publishes a complete `0.5.0.1` or `0.5.1`:
+## Adding or restoring one component
 
-1. **Update package.json**:
-   ```json
-   "@grove-dev/astro": "^0.5.1",
-   "@grove-dev/cli": "^0.5.1",
-   "@grove-dev/core": "^0.5.1"
-   ```
+`components.json` maps `@grove` to the hosted registry, so the standard
+shadcn CLI works:
 
-2. **Migrate config** (in `grove.config.ts`):
-   ```ts
-   // Before (current)
-   facets: ["category", "stack", "platform", "license", "tags"],
-   
-   // After
-   browse: {
-     facets: ["category", "stack", "platform", "license", "tags"],
-   },
-   ```
+```bash
+npx shadcn@4.19.0 view @grove/home                     # what an item ships
+npx shadcn@4.19.0 add @grove/browse                    # install it + its deps
+npx shadcn@4.19.0 add @grove/project-card --overwrite  # reset one to upstream
+```
 
-3. **Adopt components in pages** — reference Grove example app patterns:
-
-   **404.astro** (after update):
-   ```astro
-   import { buttonClass } from "@grove-dev/astro/ui/button";
-   import SearchField from "@grove-dev/astro/ui/SearchField.astro";
-   
-   <SearchField label="Search" placeholder={`Search ${slug}...`} />
-   <button class={buttonClass("primary", "bare")}>Search</button>
-   ```
-
-   **about.astro** (after update):
-   ```astro
-   import PageHeader from "@grove-dev/astro/ui/PageHeader.astro";
-   
-   <PageHeader
-     eyebrow="About"
-     title="A directory that lives in files."
-     description={...}
-   />
-   ```
-
-   **empty.astro** (after update):
-   ```astro
-   import EmptyState from "@grove-dev/astro/ui/EmptyState.astro";
-   
-   <EmptyState
-     title="Nothing to show right now"
-     description="..."
-     action={{ label: "Browse", href: "/apps", variant: "primary" }}
-   />
-   ```
-
-   **[slug]/index.astro** (after update):
-   ```astro
-   const { facetGroups, searchPlaceholder, ... } = getDirectoryIndexModel(...);
-   
-   <SearchField
-     label={`Search ${itemLabelPlural()}`}
-     placeholder={searchPlaceholder}
-   />
-   <RefinePanel groups={facetGroups} {...} />
-   ```
-
-## Reference: Grove Example Patterns
-
-The sibling `grove/apps/example/` is the reference implementation showing all new patterns:
-
-- **pages/404.astro** — search + buttons pattern
-- **pages/about.astro** — PageHeader + prose layout
-- **pages/empty.astro** — EmptyState component usage
-- **pages/[slug]/index.astro** — full browse page with all new components
-- **src/components/TaxonomyList.astro** — custom local component pattern
-
-Use these as templates when adopting components post-upgrade.
-
-## Verification Checklist
-
-- [x] Current version builds: `pnpm build`
-- [x] Schema validation passes: `pnpm exec grove check`
-- [x] Type checking clean: `astro check` (no errors)
-- [x] 81 records valid
-- [x] sourceDescription backfill script works
-- [x] docs/SCHEMA.md created and linked
-- [ ] Awaiting complete Grove npm release for Phase 2 components
-
-## Timeline
-
-- **2026-08-16**: Upgrade to `0.5.0-next.2`, complete Phase 1 fixes, Phase 3 record enrichment, Phase 4 docs
-- **TBD**: Grove publishes complete `0.5.0.1` or `0.5.1` → adopt Phase 2 components
-- **TBD**: Curators hand-author `summary` fields for 5-10 featured records (content work)
-
-## Notes for Next Pass
-
-- Manual `summary` curation is deferred (editorial content work, not technical)
-- `screenshots` field is schema-ready but storage/capture mechanism doesn't exist yet
-- The local Grove repo symlink approach from the original setup could be revived if needed for early access to unreleased features
-- Current version is stable and production-ready; no rush to adopt new components until they're published properly
-
----
-
-**Updated**: 2026-08-16  
-**Grove Versions**: Using `0.5.0-next.2` (latest stable published)  
-**Tracking**: Waiting for complete `0.5.0.x` release on npm
+Keep `"tsx": true` in `components.json`. With `false`, shadcn runs its
+TypeScript→JavaScript transformer over every file and dies on the first
+`.astro` with a bare `Unexpected token`.

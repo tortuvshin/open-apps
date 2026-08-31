@@ -1,0 +1,67 @@
+---
+/**
+ * CardIcon — the small metadata glyphs shared by every card component
+ * (star, clock, curated check, navigation arrow, external link).
+ *
+ * Extracted so a visual tweak (size, stroke, path) is one edit instead
+ * of a copy-paste hunt across ProjectCard/IndexRow/CollectionRow.
+ * Color comes from `currentColor`; wrap in a colored span (e.g.
+ * `text-warning` for the star) to tint.
+ */
+interface Props {
+  name: 'star' | 'clock' | 'curated' | 'arrow' | 'external';
+  /** Square size in px. Defaults per-glyph to match card typography. */
+  size?: number;
+  class?: string;
+}
+
+const { name, size, class: className = '' } = Astro.props;
+
+const defaults: Record<Props['name'], number> = {
+  star: 13,
+  clock: 11,
+  curated: 10,
+  arrow: 16,
+  external: 10,
+};
+const px = size ?? defaults[name];
+---
+
+{name === "star" && (
+  <svg viewBox="0 0 16 16" width={px} height={px} aria-hidden="true" fill="currentColor" class={className}>
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+  </svg>
+)}
+{name === "clock" && (
+  <svg viewBox="0 0 16 16" width={px} height={px} aria-hidden="true" fill="currentColor" class={className}>
+    <path d="M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2Zm0 1.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm-.5 1.5a.5.5 0 0 0-1 0v3.25c0 .15.07.29.18.39l1.95 1.65a.5.5 0 0 0 .66-.76L7.5 7.55V5Z" />
+  </svg>
+)}
+{name === "curated" && (
+  <svg viewBox="0 0 16 16" width={px} height={px} aria-hidden="true" fill="currentColor" class={className}>
+    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
+  </svg>
+)}
+{name === "arrow" && (
+  <svg
+    viewBox="0 0 24 24"
+    width={px}
+    height={px}
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    class={className}
+  >
+    <path d="M5 12h14"></path>
+    <path d="m12 5 7 7-7 7"></path>
+  </svg>
+)}
+{name === "external" && (
+  <svg viewBox="0 0 16 16" width={px} height={px} aria-hidden="true" fill="currentColor" class={className}>
+    <path d="M3.75 2A1.75 1.75 0 0 0 2 3.75v8.5C2 13.216 2.784 14 3.75 14h8.5A1.75 1.75 0 0 0 14 12.25v-3.5a.75.75 0 0 0-1.5 0v3.5a.25.25 0 0 1-.25.25h-8.5a.25.25 0 0 1-.25-.25v-8.5a.25.25 0 0 1 .25-.25h3.5a.75.75 0 0 0 0-1.5h-3.5Z" />
+    <path d="M10 0a.75.75 0 0 0-.75.75v.75h-3a.75.75 0 0 0 0 1.5h3v.75A.75.75 0 0 0 10.75 4.5h2.5A.75.75 0 0 0 14 3.75v-2.5A.75.75 0 0 0 13.25.5H10Z" />
+  </svg>
+)}

@@ -1,0 +1,120 @@
+---
+/**
+ * PipelineStrip — the file-first publishing story.
+ *
+ * Three beats: a record YAML (source of truth) → the Grove build →
+ * the published outputs (this site, README, llms.txt, sitemap),
+ * plus the sync loop (edits arrive as pull requests, automation
+ * keeps every output current). The sample record shown is
+ * illustrative markup, not live data — pass `samplePath` (a real
+ * repo-relative path to one of your own records) to turn the "Read
+ * this file on GitHub" link on; without it, the link is omitted.
+ */
+
+interface Props {
+  /** Repository URL for the "read the source" link. */
+  repoUrl?: string;
+  /** Repo-relative path to a real sample record. No default — a
+   * fresh scaffold has no records yet, so the link is omitted
+   * unless you supply one. */
+  samplePath?: string;
+  class?: string;
+}
+
+const { repoUrl, samplePath, class: className = '' } = Astro.props;
+
+const sampleHref = repoUrl ? `${repoUrl.replace(/\/$/, '')}/blob/main/${samplePath}` : undefined;
+
+const outputs = [
+  { label: 'This website', detail: 'browse, search, filters' },
+  { label: 'README', detail: 'awesome-list generated' },
+  { label: 'llms.txt', detail: 'machine-readable index' },
+  { label: 'Sitemap + SEO', detail: 'structured data' },
+];
+---
+
+<section
+  id="pipeline"
+  class:list={["scroll-mt-20 border-b border-border py-12 sm:py-16", className]}
+  aria-labelledby="pipeline-heading"
+>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    <header class="flex flex-col gap-2">
+      <span class="text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+        How this site works
+      </span>
+      <h2
+        id="pipeline-heading"
+        class="m-0 max-w-[40ch] text-[1.5rem] font-semibold tracking-tight text-foreground sm:text-[1.75rem]"
+      >
+        Every listing is a plain YAML file.
+      </h2>
+      <p class="m-0 max-w-[64ch] text-[0.9375rem] leading-relaxed text-muted-foreground">
+        The content you're browsing lives as files in a repository. Grove builds them
+        into this site and its machine-readable outputs — and keeps everything in sync
+        when a file changes.
+      </p>
+    </header>
+
+    <div class="mt-7 grid grid-cols-1 gap-3 md:grid-cols-3">
+      {/* Beat 1 — the source file */}
+      <div class="flex flex-col rounded-[calc(var(--radius)+0.25rem)] border border-border bg-surface-raised p-4">
+        <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+          1 · Source file
+        </p>
+        <pre
+          class="mt-3 flex-1 overflow-x-auto rounded-md bg-surface-sunken p-3 font-mono text-[0.75rem] leading-relaxed text-foreground"
+        ><code>name: Open WebUI
+slug: open-webui
+category: interfaces
+stacks: [typescript, python]
+tags: [chat, self-host, llm]
+licenses: [mit]</code></pre>
+        {sampleHref && (
+          <a
+            href={sampleHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-3 text-2xs font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground"
+          >
+            Read this file on GitHub →
+          </a>
+        )}
+      </div>
+
+      {/* Beat 2 — the build */}
+      <div class="flex flex-col rounded-[calc(var(--radius)+0.25rem)] border border-border bg-surface-raised p-4">
+        <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+          2 · Grove build
+        </p>
+        <ul class="m-0 mt-3 flex flex-1 list-none flex-col gap-2 p-0 text-[0.8125rem] leading-relaxed text-muted-foreground">
+          <li>Validates every record against the schema</li>
+          <li>Joins taxonomy labels, health, and GitHub metadata</li>
+          <li>Generates one index consumed by every output</li>
+        </ul>
+        <p class="m-0 mt-3 font-mono text-2xs text-muted-foreground">grove check && astro build</p>
+      </div>
+
+      {/* Beat 3 — the outputs */}
+      <div class="flex flex-col rounded-[calc(var(--radius)+0.25rem)] border border-border bg-surface-raised p-4">
+        <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+          3 · Published outputs
+        </p>
+        <ul class="m-0 mt-3 flex flex-1 list-none flex-col gap-2 p-0">
+          {outputs.map((output) => (
+            <li class="flex items-baseline justify-between gap-3 text-[0.8125rem]">
+              <span class="font-medium text-foreground">{output.label}</span>
+              <span class="text-right text-2xs text-muted-foreground">{output.detail}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <p class="m-0 mt-4 text-[0.8125rem] leading-relaxed text-muted-foreground">
+      The loop: edits arrive as pull requests to the files, weekly automation refreshes
+      GitHub metadata, and every output above is regenerated from the same source —
+      nothing is entered twice, nothing goes stale.
+    </p>
+  </div>
+</section>

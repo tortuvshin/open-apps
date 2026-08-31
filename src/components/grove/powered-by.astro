@@ -1,0 +1,56 @@
+---
+/**
+ * PoweredBy — "Powered by Grove" attribution.
+ *
+ * The mark is **inlined**, not loaded through `<img src>`: an SVG
+ * served as its own document cannot see page CSS, so `currentColor`
+ * never resolves there (the bug that cost the packaged icon set both
+ * themes before 0.5.3). Inlined, the mark simply inherits the
+ * surrounding text colour and follows the site's theme toggle — no
+ * second file, no script.
+ *
+ * Generic: no `siteConfig` import. `Footer` renders it under the brand
+ * block when `footer.poweredBy` is on; consumers can also drop it
+ * anywhere themselves — e.g. into `Hero`'s `eyebrow` slot.
+ */
+
+interface Props {
+  /** Where the link points. Override only for a staging/docs mirror. */
+  href?: string;
+  /** Mark size in px. Default 16 — sized for 13px text. */
+  size?: number;
+  /** Extra class on the link. */
+  class?: string;
+}
+
+const { href = 'https://withgrove.dev', size = 16, class: className = '' } = Astro.props;
+---
+
+<a
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  class:list={[
+    "inline-flex items-center gap-1.5 transition-colors hover:text-ink-900 dark:hover:text-ink-100",
+    className,
+  ]}
+>
+  <span>Powered by</span>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+    width={size}
+    height={size}
+    style={`width:${size}px;height:${size}px`}
+    fill="none"
+    aria-hidden="true"
+    class="shrink-0 align-middle"
+  >
+    <path d="M16 28V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+    <path d="M16 14C16 14 16 8 22 6C22 6 22 12 16 14Z" fill="currentColor" fill-opacity="0.85"></path>
+    <path d="M16 14C16 14 16 8 10 6C10 6 10 12 16 14Z" fill="currentColor" fill-opacity="0.6"></path>
+    <path d="M16 18C16 18 16 22 20 23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+    <path d="M16 21C16 21 16 24 12 25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+  </svg>
+  <span class="font-semibold">Grove</span>
+</a>

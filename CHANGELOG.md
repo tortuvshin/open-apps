@@ -4,6 +4,54 @@ All notable changes to Open Apps are documented here.
 
 ## [Unreleased]
 
+### Changed — Grove 0.6.1 → 0.8.0 (registry-first UI)
+
+Grove v1 removed every UI export from `@grove-dev/astro`; the same components
+now ship through a [shadcn registry](https://withgrove.dev/r/) that installs
+into this repository. The `.astro` files under `src/` are ours outright, and
+`grove update` reconciles upstream changes against our edits instead of a
+package upgrade silently changing the site.
+
+Every route survived: all 140 build outputs are byte-for-byte present, and a
+page-by-page text diff against the pre-migration build shows nothing lost.
+The visible markup changed because this is a real UI version bump.
+
+- **Dependencies:** `@grove-dev/{astro,cli,core}` moved to `0.8.0`.
+  `@grove-dev/registry` is deliberately *not* a dependency — the registry is
+  served over HTTP and installs source, so there is nothing to install.
+- **New project files:** `components.json` (points `@grove` at
+  `https://withgrove.dev/r/{name}.json`) and `.grove/registry.lock.json`
+  (what `grove update` diffs against).
+- **`tsconfig.json`:** added the `@/*` → `src/*` path the registry's aliases
+  assume, and `allowImportingTsExtensions` — registry components import
+  `../lib/classnames.ts` by full path.
+- **Installed into `src/`:** 34 components under `components/grove/`, 6 under
+  `components/ui/`, 1 under `components/site/`, 4 layouts, 3 lib modules,
+  `styles/system.css`, and 17 page routes.
+- **Deleted `src/components/DirectoryBrowse.astro` and `TaxonomyList.astro`.**
+  Both were stock template copies, now superseded by the registry's own
+  `directory-browse.astro` and `taxonomy-list.astro`. Adopting the registry's
+  browse page also brings the curated-views `SmartLensTabs` row.
+- **Kept as local forks:** `src/pages/index.astro` (the two-lens homepage,
+  derived here because `getHomePageModel`'s star-driven lenses echo each other
+  on this directory) and `src/pages/submit.astro` +
+  `src/components/SubmissionClient.astro` (store links, `sourceDescription`,
+  the notes-file flow, and reporting every validation issue at once — none of
+  which upstream covers yet). `grove update` classifies these as locally
+  modified and will not overwrite them.
+- **Re-applied over the upstream pages:** the 404 copy, the "open-source" in
+  the taxonomy ledes, the `withgrove.dev` link on the about page, and
+  `noindex={seo.noindex}` on record detail, which the upstream page does not
+  forward.
+- **`src/styles/global.css` no longer imports Tailwind.** `system.css` already
+  does, and Tailwind v4 treats every file that imports it as its own entry
+  point — so this emitted a second complete Tailwind build. Dropping it
+  removes 36 KB of duplicate CSS from every page, leaving one 68 KB
+  stylesheet with every utility still resolved.
+- **API drift fixed:** `Hero` takes only `itemsLabel` (the `itemLabel` and
+  `stats.originalRepo` props it never read are gone — the layout reads
+  `originalRepo` from `site.stats` and `OriginalCollection` from `siteConfig`).
+
 ### Changed — Grove 0.5.4 → 0.6.0 port
 
 Adopted the Grove 0.6.0 surface — every page model now exposes a `seo: PageSeo`
@@ -52,9 +100,7 @@ changes):
 - **Disabled pagination contrast** is now WCAG-safe against the dark
   surface.
 
-## [Unreleased]
-
-### Grove rebuild context (PR #212)
+## Grove rebuild context (PR #212)
 
 The directory was rebuilt as a consumer-owned Astro application powered by
 Grove packages (see #212). The lines below record the rebuild so the

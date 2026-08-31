@@ -1,0 +1,50 @@
+---
+interface Props {
+  current: number;
+  total: number;
+  hrefFor: (page: number) => string;
+  class?: string;
+}
+
+import { paginationPageList } from '@grove-dev/astro';
+import { buttonClass, PAGINATION_DISABLED, PAGINATION_EXTRA } from '../../lib/classnames.ts';
+
+const { current, total, hrefFor, class: className = '' } = Astro.props;
+
+const pages = paginationPageList(current, total);
+const linkClass = buttonClass('secondary', 'sm', PAGINATION_EXTRA);
+const currentClass = buttonClass('selected', 'sm', PAGINATION_EXTRA);
+---
+
+{total > 1 && (
+  <nav
+    class:list={["flex flex-wrap items-center justify-center gap-1.5", className]}
+    aria-label="Pagination"
+  >
+    {current > 1 ? (
+      <a href={hrefFor(current - 1)} class={linkClass} rel="prev">Previous</a>
+    ) : (
+      <span class={`${linkClass} ${PAGINATION_DISABLED}`}>Previous</span>
+    )}
+
+    {pages.map((page) =>
+      page === "ellipsis" ? (
+        <span class="px-1 text-2xs text-ink-400" aria-hidden="true">...</span>
+      ) : (
+        <a
+          href={hrefFor(page)}
+          class={page === current ? currentClass : linkClass}
+          aria-current={page === current ? "page" : undefined}
+        >
+          {page}
+        </a>
+      ),
+    )}
+
+    {current < total ? (
+      <a href={hrefFor(current + 1)} class={linkClass} rel="next">Next</a>
+    ) : (
+      <span class={`${linkClass} ${PAGINATION_DISABLED}`}>Next</span>
+    )}
+  </nav>
+)}

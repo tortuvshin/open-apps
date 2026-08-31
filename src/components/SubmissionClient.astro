@@ -1,15 +1,19 @@
 ---
 /**
- * Local replacement for `@grove-dev/astro/components/SubmissionClient.astro`.
+ * A fork of the registry's `components/grove/submission-client.astro`.
  *
- * The packaged client (0.6.1) predates several schema realities this
- * directory depends on: `distribution.channels` entries are objects with
+ * Kept deliberately: the upstream client does not yet cover several
+ * schema realities this directory depends on: `distribution.channels` entries are objects with
  * a required store URL, records carry a `sourceDescription` distinct
  * from the curator-written `description`, `source.type: submit` exists
  * for form submissions, and long-form notes live in
  * `content/records/<slug>.md` referenced by the record's `content`
  * field. This client emits that full record shape and reports every
  * validation issue instead of only the first.
+ *
+ * `grove update` classifies this file as locally modified and will never
+ * overwrite it. Re-check against upstream when the registry's submit
+ * block changes; the goal is to upstream these features and drop the fork.
  */
 interface Props {
   existingSlugs: string[];

@@ -1,0 +1,129 @@
+---
+import type { CollectionPageModel } from '@grove-dev/astro/server';
+/**
+ * CollectionPage — renders a single curated/generated collection.
+ *
+ * Consumes a `CollectionPageModel` produced by `getCollectionPageModel`.
+ * Renders the header via `SectionHeader` (framework consistency),
+ * the matched entries via `CollectionRow`, and a related-collections
+ * section.
+ *
+ * Generic: no blueprint-specific copy. Consumers can override
+ * `eyebrow`, `title`, `description`; the `<slot name="intro">` is
+ * the natural place for editorial intros (markdown rendered with
+ * the consumer's content pipeline). `emptyLabel` matches
+ * `RecordSection`'s API for empty-state copy.
+ */
+import { formatCount } from '@grove-dev/core';
+import Container from '../../layouts/container.astro';
+import SectionHeader from '../../layouts/section-header.astro';
+import EmptyState from '../ui/empty-state.astro';
+import CardGrid from './card-grid.astro';
+import CollectionRow from './collection-row.astro';
+
+interface Props {
+  model: CollectionPageModel;
+  /** Override the eyebrow text (default: derived from collection kind). */
+  eyebrow?: string;
+  /** Override the title (default: collection.title). */
+  title?: string;
+  /** Override the description (default: collection.description). */
+  description?: string;
+  /** Default copy when the collection has no matching entries. */
+  emptyLabel?: string;
+  /** Section id (deep link + stable key). */
+  id?: string;
+  /**
+   * Heading level for the collection title. This component IS the
+   * page on collection detail routes, so it defaults to 1.
+   */
+  level?: 1 | 2;
+  /** Noun pair for the entry count (blueprint labels). */
+  countNoun?: { singular: string; plural: string };
+  class?: string;
+}
+
+const {
+  model,
+  eyebrow,
+  title,
+  description,
+  emptyLabel = 'This collection is currently empty.',
+  id,
+  level = 1,
+  countNoun = { singular: 'item', plural: 'items' },
+  class: className = '',
+} = Astro.props;
+
+const finalTitle = title ?? model.collection.title;
+const finalDescription = description ?? model.collection.description;
+const finalEyebrow =
+  eyebrow ?? (model.collection.kind === 'curated' ? 'Curated collection' : 'Generated collection');
+---
+
+<section id={id} class={`py-12 sm:py-16 ${className}`}>
+  <Container>
+    <SectionHeader eyebrow={finalEyebrow} title={finalTitle} description={finalDescription} level={level} />
+
+    {/* Editorial context reads as a quiet callout, not metadata
+        shouting in uppercase. */}
+    {model.collection.selectionNote && (
+      <aside class="mb-6 max-w-[64ch] rounded-[var(--radius-lg)] border-l-2 border-border bg-surface-sunken px-4 py-3">
+        <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+          Selection criteria
+        </p>
+        <p class="m-0 mt-1 text-[0.875rem] leading-relaxed text-foreground">
+          {model.collection.selectionNote}
+        </p>
+      </aside>
+    )}
+
+    <slot name="intro" />
+
+    {/* Bridges the heading outline: the page title is an h1 and the
+        entry cards render h3 titles — without this h2 Lighthouse
+        flags a heading-order skip. */}
+    <h2 class="sr-only">Entries</h2>
+    <p class="m-0 mb-4 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+      {formatCount(model.total, countNoun)}
+    </p>
+
+    {model.isEmpty ? (
+      <EmptyState
+        title={emptyLabel}
+        description="No records currently match this collection's query. The collection fills automatically as matching records are added."
+      />
+    ) : (
+      <CardGrid>
+        {model.entries.map((entry, i) => (
+          <li class="m-0 p-0">
+            <CollectionRow entry={entry} eager={i < 3} />
+          </li>
+        ))}
+      </CardGrid>
+    )}
+
+    {model.related.length > 0 && (
+      <section class="mt-12 border-t border-ink-200 pt-8 dark:border-ink-800">
+        <SectionHeader
+          eyebrow="Related"
+          title="Related collections"
+          description="Other curated groupings of related items."
+          level={2}
+        />
+        <ul class="m-0 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2 lg:grid-cols-4">
+          {model.related.map((r) => (
+            <li class="m-0 p-0">
+              <a
+                href={r.url}
+                class="group flex h-full flex-col gap-1 rounded-md border border-ink-200 bg-white px-3 py-2.5 no-underline transition-colors hover:border-ink-400 dark:border-ink-800 dark:bg-ink-950 dark:hover:border-ink-600"
+              >
+                <span class="text-sm font-medium text-ink-900 group-hover:underline dark:text-ink-100">{r.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </Container>
+</section>

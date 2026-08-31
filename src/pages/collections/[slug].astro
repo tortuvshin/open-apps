@@ -1,13 +1,13 @@
 ---
-import CollectionPage from "@grove-dev/astro/components/CollectionPage.astro";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
+import records from '@grove/generated/records.json';
+import siteConfig from '@grove/generated/site-config.json';
 import {
   getCollectionPageModel,
-  recordsToCollectionEntries,
   loadCollections,
-} from "@grove-dev/astro/server";
-import records from "@grove/generated/records.json";
-import siteConfig from "@grove/generated/site-config.json";
+  recordsToCollectionEntries,
+} from '@grove-dev/astro/server';
+import CollectionPage from '../../components/grove/collection-page.astro';
+import BaseLayout from '../../layouts/base-layout.astro';
 
 export async function getStaticPaths() {
   const collections = await loadCollections(process.cwd());
@@ -17,22 +17,21 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const collections = await loadCollections(process.cwd());
 const collection = collections.find((c) => c.slug === slug);
-if (!collection) return Astro.redirect("/404");
+if (!collection) return Astro.redirect('/404');
 
 const entries = recordsToCollectionEntries(
   (records as { records: unknown[] }).records as never,
   siteConfig,
 );
 const model = getCollectionPageModel(collection, entries, collections, siteConfig);
-const { seo } = model;
 ---
 <BaseLayout
-  title={seo.title}
-  description={seo.description}
-  image={seo.image}
-  imageAlt={seo.imageAlt}
-  jsonLd={seo.jsonLd}
-  noindex={seo.noindex}
+  title={model.seo.title}
+  description={model.seo.description}
+  image={model.seo.image}
+  imageAlt={model.seo.imageAlt}
+  jsonLd={model.seo.jsonLd}
+  noindex={model.seo.noindex}
   site={siteConfig}
 >
   <CollectionPage

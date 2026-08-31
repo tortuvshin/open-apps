@@ -1,0 +1,236 @@
+---
+/**
+ * Footer — 4-column grid (brand + Discover + Contribute + Project) plus
+ * a thin bar at the bottom with copyright + repo link.
+ *
+ * Generic: takes a `site` prop with brand + repoUrl + stats, plus
+ * pre-computed column data. No `siteConfig` import — consumers
+ * compose props from their own config (or from
+ * `data/generated/site-config.json` for the showcase).
+ *
+ * Each column's links are passed in as a `{ heading, items[] }` shape
+ * so consumers can customize the order and copy. Defaults are
+ * provided so the footer still renders if no extra data is supplied.
+ */
+import PoweredBy from '../components/grove/powered-by.astro';
+
+interface NavItem {
+  label: string;
+  href: string;
+  /** When true, opens in a new tab (external). */
+  external?: boolean;
+}
+
+interface FooterColumn {
+  heading: string;
+  items: NavItem[];
+}
+
+interface Site {
+  name: string;
+  tagline?: string;
+  description?: string;
+  repoUrl?: string;
+  footer?: {
+    columns?: FooterColumn[];
+    copyright?: string;
+    license?: string;
+    /** "Powered by Grove" under the brand block. Defaults to on. */
+    poweredBy?: boolean;
+  };
+  stats?: {
+    totalApps?: number;
+    totalCategories?: number;
+    totalStacks?: number;
+    totalOwners?: number;
+  };
+}
+
+interface Props {
+  site: Site;
+  /** Discover links — first content column. */
+  discover?: FooterColumn;
+  /** Contribute links — second content column. */
+  contribute?: FooterColumn;
+  /** Project links — third content column. */
+  project?: FooterColumn;
+  /** Stats line under brand blurb. */
+  stats?: {
+    totalApps?: number;
+    totalCategories?: number;
+    totalStacks?: number;
+    totalOwners?: number;
+  };
+  /**
+   * Plural label for the primary count stat. Default "items" so the
+   * footer reads naturally regardless of blueprint.
+   */
+  itemsLabel?: string;
+  /** Copyright suffix. Defaults to site.name. */
+  copyrightHolder?: string;
+  /** License line under the bar (e.g. "Content under CC BY-SA 4.0."). */
+  licenseLine?: string;
+  /**
+   * "Powered by Grove" under the brand block. Falls back to
+   * `site.footer.poweredBy`, which defaults to on.
+   */
+  poweredBy?: boolean;
+  /** Extra class for the outer footer element. */
+  class?: string;
+}
+
+const {
+  site,
+  discover = { heading: 'Discover', items: [] },
+  contribute = { heading: 'Contribute', items: [] },
+  project = { heading: 'Project', items: [] },
+  stats,
+  itemsLabel = 'items',
+  copyrightHolder,
+  licenseLine,
+  poweredBy,
+  class: className = '',
+} = Astro.props;
+
+const showPoweredBy = poweredBy ?? site.footer?.poweredBy ?? true;
+
+const year = new Date().getFullYear();
+const holder = copyrightHolder ?? site.footer?.copyright ?? site.name;
+const gh = site.repoUrl;
+const showOwners = (stats?.totalOwners ?? 0) > 0;
+
+const defaultDiscover: NavItem[] = gh
+  ? [
+      { label: 'Source on GitHub', href: gh, external: true },
+      { label: 'Latest release', href: `${gh}/releases`, external: true },
+    ]
+  : [];
+const defaultContribute: NavItem[] = gh
+  ? [
+      { label: 'Submit via GitHub', href: `${gh}/blob/main/CONTRIBUTING.md`, external: true },
+      { label: 'Report an issue', href: `${gh}/issues`, external: true },
+      { label: 'Contributing guide', href: `${gh}/blob/main/CONTRIBUTING.md`, external: true },
+    ]
+  : [];
+const defaultProject: NavItem[] = gh
+  ? [
+      { label: 'README', href: `${gh}/blob/main/README.md`, external: true },
+      { label: 'Changelog', href: `${gh}/blob/main/CHANGELOG.md`, external: true },
+    ]
+  : [];
+
+const discoverItems = discover.items.length ? discover.items : defaultDiscover;
+const contributeItems = contribute.items.length ? contribute.items : defaultContribute;
+const projectItems = project.items.length ? project.items : defaultProject;
+const configuredColumns = site.footer?.columns ?? [];
+const columns = configuredColumns.length
+  ? configuredColumns
+  : [
+      { heading: discover.heading, items: discoverItems },
+      { heading: contribute.heading, items: contributeItems },
+      { heading: project.heading, items: projectItems },
+    ].filter((column) => column.items.length > 0);
+const resolvedLicenseLine = licenseLine ?? site.footer?.license;
+---
+
+<footer
+  class:list={[
+    "border-border bg-background mt-16 border-t text-ink-500 dark:text-ink-400",
+    className,
+  ]}
+>
+  <div
+    class="mx-auto grid w-full max-w-container grid-cols-2 gap-8 px-5 py-12 md:grid-cols-4 sm:px-7"
+  >
+    <div class="col-span-2 md:col-span-1">
+      <div
+        class="mb-2 inline-flex items-center gap-2 text-[0.95rem] font-semibold text-ink-900 dark:text-ink-100"
+      >
+        <span
+          aria-hidden="true"
+          class="inline-block h-3.5 w-3.5 rounded bg-ink-900 dark:bg-ink-100"
+        ></span>
+        <span>{site.name}</span>
+      </div>
+      {site.tagline && (
+        <p class="m-0 max-w-[36ch] text-[0.8125rem] leading-relaxed text-ink-500 dark:text-ink-400">
+          {site.tagline}
+        </p>
+      )}
+      {stats && (
+        <p class="mt-3 m-0 text-2xs text-ink-500 dark:text-ink-400">
+          {stats.totalApps !== undefined && (
+            <>
+              <span class="font-mono">{stats.totalApps}</span> {itemsLabel}
+            </>
+          )}
+          {stats.totalApps !== undefined && (stats.totalCategories !== undefined || showOwners) && (
+            <span class="mx-1 text-ink-300 dark:text-ink-700">·</span>
+          )}
+          {stats.totalCategories !== undefined && (
+            <>
+              <span class="font-mono">{stats.totalCategories}</span> categories
+            </>
+          )}
+          {stats.totalCategories !== undefined && showOwners && (
+            <span class="mx-1 text-ink-300 dark:text-ink-700">·</span>
+          )}
+          {showOwners && (
+            <>
+              <span class="font-mono">{stats.totalOwners}</span> project owners
+            </>
+          )}
+        </p>
+      )}
+      {showPoweredBy && (
+        <p class="mt-4 m-0 text-[0.8125rem] text-ink-500 dark:text-ink-400">
+          <PoweredBy size={16} />
+        </p>
+      )}
+    </div>
+
+    {columns.map((column) => (
+      <div>
+        <h2 class="mb-3 text-2xs font-semibold uppercase tracking-wider text-ink-900 dark:text-ink-100">
+          {column.heading}
+        </h2>
+        <ul class="m-0 flex list-none flex-col gap-2 p-0">
+          {column.items.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class="text-sm transition-colors hover:text-ink-900 dark:hover:text-ink-100"
+                {...(item.external
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+
+  <div class="border-t border-ink-200 dark:border-ink-800">
+    <div
+      class="mx-auto flex w-full max-w-container flex-wrap items-center gap-3 px-5 py-4 text-2xs text-ink-500 sm:px-7 dark:text-ink-400"
+    >
+      <span>© {year} {holder}{resolvedLicenseLine ? `. ${resolvedLicenseLine}` : "."}</span>
+      {gh && (
+        <>
+          <span class="text-ink-300 dark:text-ink-700">·</span>
+          <a
+            href={gh}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition-colors hover:text-ink-900 dark:hover:text-ink-100"
+          >
+            View source on GitHub
+          </a>
+        </>
+      )}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,152 @@
+---
+import { formatCount } from '@grove-dev/core';
+import Icon from './icon.astro';
+
+/**
+ * StackGrid — browse-by-stack grid for the home page.
+ *
+ * Renders a card per stack with name, blurb, status pill
+ * (live/expanding/planned), and a count. The href is the list
+ * page filtered to that stack, so consumers compose the URL via
+ * the `hrefFor` prop.
+ *
+ * Generic: no blueprint-specific terms. A "stack" here is just a
+ * slug + display name + status; consumers derive both from their
+ * own data.
+ */
+
+interface StackEntry {
+  name: string;
+  slug: string;
+  blurb?: string;
+  status?: 'live' | 'expanding' | 'planned';
+  count?: number;
+}
+
+interface Props {
+  stacks: StackEntry[];
+  /** List page base. */
+  pathPrefix?: string;
+  /** Stack icon registry — maps slug → icon file name. Optional. */
+  iconAliases?: Record<string, string>;
+  /** Extra class. */
+  class?: string;
+  /** Hide the section eyebrow / header entirely. */
+  bare?: boolean;
+  itemLabelPlural?: string;
+  /** Noun pair for count chips — singular fixes "1 projects". */
+  itemNoun?: { singular: string; plural: string };
+  /** Pass 1 when this grid IS the page (`/stacks` index). */
+  level?: 1 | 2;
+  /**
+   * Card link builder. Defaults to the browse page filtered by stack
+   * (`{pathPrefix}?stack=…`); pass e.g. `(slug) => \`/stacks/${slug}\``
+   * to link to taxonomy detail routes instead.
+   */
+  hrefFor?: (slug: string) => string;
+}
+
+const {
+  stacks,
+  pathPrefix = '/',
+  iconAliases,
+  class: className = '',
+  bare = false,
+  itemLabelPlural = 'items',
+  itemNoun = { singular: 'item', plural: 'items' },
+  level = 2,
+  hrefFor,
+} = Astro.props;
+
+const Heading = `h${level}` as 'h1' | 'h2';
+
+function buildHref(slug: string): string {
+  if (hrefFor) return hrefFor(slug);
+  const base = pathPrefix.replace(/\/$/, '');
+  return `${base}?stack=${encodeURIComponent(slug)}`;
+}
+
+function statusLabel(s: StackEntry['status']): string | null {
+  switch (s) {
+    case 'live':
+      return 'Available now';
+    case 'expanding':
+      return 'Expanding';
+    case 'planned':
+      return 'Planned';
+    default:
+      return null;
+  }
+}
+---
+
+<section
+  id="stacks"
+  class:list={["py-12 sm:py-16 scroll-mt-20 border-b border-ink-200 dark:border-ink-800", className]}
+  aria-labelledby={bare ? undefined : "grove-stackgrid-heading"}
+>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    {!bare && (
+      <header class="mb-6">
+        <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+          Stacks
+        </span>
+        <Heading
+          id="grove-stackgrid-heading"
+          class="m-0 mt-1 text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
+        >
+          Browse by stack
+        </Heading>
+        <p class="m-0 max-w-[60ch] text-[0.9375rem] text-ink-500 dark:text-ink-400">
+          Pick a stack to see real {itemLabelPlural} built with it.
+        </p>
+      </header>
+    )}
+
+    <div class="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      {stacks.map((s) => (
+        <a
+          href={buildHref(s.slug)}
+          class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors hover:border-ink-300 dark:hover:border-ink-700 group flex h-full items-center gap-3 p-3.5 no-underline"
+          data-event="stack_grid_click"
+          data-event-source="stack_grid"
+        >
+          <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-md border border-ink-200 bg-white dark:border-ink-800 dark:bg-ink-950" aria-hidden="true">
+            <Icon name={iconAliases?.[s.slug] ?? s.slug} category="stack" size={18} />
+          </div>
+
+          <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+            <div class="flex items-center gap-2">
+              {/* Not a heading: these tiles are links in a grid, and
+                  heading-per-card breaks the outline when the grid
+                  sits directly under the page h1 (/stacks). */}
+              <span class="m-0 text-[0.875rem] font-semibold tracking-tight text-ink-900 group-hover:underline dark:text-ink-100">
+                {s.name}
+              </span>
+              {typeof s.count === "number" && (
+                <span class="inline-flex items-center rounded-md border border-ink-200 bg-ink-50 px-1.5 py-0.5 font-mono text-[10px] font-medium text-ink-600 dark:border-ink-800 dark:bg-ink-900/60 dark:text-ink-400">
+                  {formatCount(s.count, itemNoun)}
+                </span>
+              )}
+            </div>
+            {s.blurb && <p class="m-0 truncate text-2xs text-ink-500 dark:text-ink-400">{s.blurb}</p>}
+          </div>
+          {statusLabel(s.status) && (
+            <span
+              class:list={[
+                "shrink-0 inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider",
+                s.status === "live"
+                  ? "!bg-success/10 !text-success"
+                  : s.status === "expanding"
+                    ? "!bg-info/10 !text-info"
+                    : "!bg-warning/10 !text-warning",
+              ]}
+            >
+              {statusLabel(s.status)}
+            </span>
+          )}
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

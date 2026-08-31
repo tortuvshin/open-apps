@@ -1,0 +1,119 @@
+---
+/**
+ * FilterDrawer — mobile filter surface built on native `<dialog>`.
+ *
+ * `showModal()` gives focus trapping, Escape handling, and the
+ * top-layer backdrop for free — no dependency, no hand-rolled trap.
+ * On viewports ≥ md the trigger button hides and the slotted filter
+ * controls render inline through the same slot used on desktop, so
+ * there is exactly one copy of the filter markup.
+ *
+ * No-JS fallback: the slot content stays in normal flow (the dialog
+ * only wraps it once the client script moves it), so filters remain
+ * usable without JavaScript.
+ */
+import { buttonClass } from '../../lib/classnames.ts';
+
+interface Props {
+  /** Trigger button label. */
+  label?: string;
+  /** Count of active filters shown on the trigger. */
+  activeCount?: number;
+  /** URL that clears every filter — offered inside the sheet. */
+  clearHref?: string;
+  class?: string;
+}
+
+const { label = 'Filters', activeCount = 0, clearHref, class: className = '' } = Astro.props;
+---
+
+<div class={`grove-filter-drawer ${className}`} data-grove-filter-drawer>
+  <button
+    type="button"
+    data-drawer-open
+    class={buttonClass("secondary", "md", "w-full md:hidden")}
+    aria-haspopup="dialog"
+  >
+    {label}
+    {/* Always in the DOM (hidden at zero) so the client script can
+        update it from the live URL state on this prerendered page. */}
+    <span
+      data-drawer-count
+      class:list={[
+        "inline-flex min-w-5 items-center justify-center rounded-full bg-selected px-1.5 py-0.5 font-mono text-2xs leading-none text-selected-foreground",
+        activeCount === 0 && "hidden",
+      ]}
+    >
+      {activeCount}
+    </span>
+  </button>
+
+  {/* On mobile the client script moves this content into the dialog;
+      on ≥ md it stays inline. Not hidden by CSS — without JS the
+      filters must remain visible in flow on every viewport. */}
+  <div data-drawer-content class="md:contents">
+    <slot />
+  </div>
+
+  <dialog
+    data-drawer-dialog
+    class="m-0 mt-auto w-full max-w-none rounded-t-[calc(var(--radius)+0.5rem)] border-0 bg-surface-overlay p-0 text-foreground backdrop:bg-black/40 md:hidden"
+    aria-label={label}
+  >
+    <div class="flex items-center justify-between gap-3 border-b border-border px-4 py-3">
+      <p class="m-0 text-sm font-semibold">{label}</p>
+      <div class="flex items-center gap-2">
+        {clearHref && (
+          /* Clearing from inside the sheet is the only way out of a
+             stack of filters on mobile — the chips row is behind it. */
+          <a
+            href={clearHref}
+            data-drawer-clear
+            class:list={[buttonClass("ghost", "sm"), activeCount === 0 && "hidden"]}
+          >
+            Clear all
+          </a>
+        )}
+        <button type="button" data-drawer-close class={buttonClass("ghost", "sm")}>
+          Done
+        </button>
+      </div>
+    </div>
+    <div data-drawer-body class="max-h-[70vh] overflow-y-auto p-4"></div>
+  </dialog>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-grove-filter-drawer]").forEach((root) => {
+    const dialog = root.querySelector<HTMLDialogElement>("[data-drawer-dialog]");
+    const content = root.querySelector<HTMLElement>("[data-drawer-content]");
+    const body = root.querySelector<HTMLElement>("[data-drawer-body]");
+    const open = root.querySelector<HTMLButtonElement>("[data-drawer-open]");
+    const close = root.querySelector<HTMLButtonElement>("[data-drawer-close]");
+    if (!dialog || !content || !body || !open) return;
+
+    const mobile = window.matchMedia("(max-width: 47.999rem)");
+    const place = () => {
+      // One copy of the filter markup, moved between the inline slot
+      // (desktop) and the dialog body (mobile).
+      if (mobile.matches) {
+        body.append(...content.children);
+        content.classList.add("hidden");
+      } else {
+        if (dialog.open) dialog.close();
+        content.append(...body.children);
+        content.classList.remove("hidden");
+      }
+    };
+    place();
+    mobile.addEventListener("change", place);
+
+    open.addEventListener("click", () => dialog.showModal());
+    close?.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (event) => {
+      // Backdrop click closes: the dialog element itself is the
+      // target only when the click lands outside the panel content.
+      if (event.target === dialog) dialog.close();
+    });
+  });
+</script>

@@ -4,20 +4,21 @@
  * default header nav; each tile opens the browse page pre-filtered to
  * the category (detail pages live at `/categories/<id>/`).
  */
-import siteConfig from "@grove/generated/site-config.json";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import CategoryGrid from "@grove-dev/astro/components/CategoryGrid.astro";
+import siteConfig from '@grove/generated/site-config.json';
 import {
   getTaxonomyIndexModel,
   getTaxonomyIndexSeo,
   itemLabel,
   itemLabelPlural,
-} from "@grove-dev/astro/server";
+} from '@grove-dev/astro/server';
 
-const slug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+import CategoryGrid from '../../components/grove/category-grid.astro';
+import BaseLayout from '../../layouts/base-layout.astro';
+
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 const { categories } = getTaxonomyIndexModel();
-const seo = getTaxonomyIndexSeo("categories", siteConfig);
 const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
+const seo = getTaxonomyIndexSeo('categories', siteConfig);
 ---
 
 <BaseLayout
@@ -32,7 +33,7 @@ const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
     pathPrefix={`/${slug}`}
     itemLabelPlural={itemLabelPlural()}
     itemNoun={itemNoun}
-    headingLevel={1}
+    level={1}
     hrefFor={(categorySlug: string) => `/categories/${categorySlug}`}
   />
 </BaseLayout>

@@ -1,8 +1,8 @@
 ---
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import { itemLabelPlural, getTaxonomyPageModel } from "@grove-dev/astro/server";
-import siteConfig from "@grove/generated/site-config.json";
-import TaxonomyList from "../../components/TaxonomyList.astro";
+import siteConfig from '@grove/generated/site-config.json';
+import { getTaxonomyPageModel, itemLabelPlural } from '@grove-dev/astro/server';
+import TaxonomyList from '../../components/grove/taxonomy-list.astro';
+import BaseLayout from '../../layouts/base-layout.astro';
 
 export function getStaticPaths() {
   const categories = siteConfig.taxonomy?.categories ?? [];
@@ -14,23 +14,21 @@ export function getStaticPaths() {
 
 const { displayName } = Astro.props;
 const name = Astro.params.name;
-const items = itemLabelPlural();
-const model = getTaxonomyPageModel("categories", name, displayName, siteConfig);
-const { records, seo } = model;
+const model = getTaxonomyPageModel('categories', name, displayName, siteConfig);
 ---
 
 <BaseLayout
-  title={seo.title}
-  description={seo.description}
-  image={seo.image}
-  imageAlt={seo.imageAlt}
-  jsonLd={seo.jsonLd}
+  title={model.seo.title}
+  description={model.seo.description}
+  image={model.seo.image}
+  imageAlt={model.seo.imageAlt}
+  jsonLd={model.seo.jsonLd}
   site={siteConfig}
 >
   <TaxonomyList
-    eyebrow={model.eyebrow}
+    eyebrow="Category"
     displayName={displayName}
-    lede={`Browse open-source ${items} in this directory in the ${displayName} category.`}
-    records={records}
+    lede={`Browse open-source ${itemLabelPlural()} in this directory in the ${displayName} category.`}
+    records={model.records}
   />
 </BaseLayout>

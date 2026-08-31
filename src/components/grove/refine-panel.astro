@@ -1,0 +1,167 @@
+---
+import type { IndexFilters } from '@grove-dev/core';
+/**
+ * RefinePanel — multi-select facet dropdowns.
+ *
+ * Renders the ordered `groups` view-model produced by
+ * `getDirectoryIndexModel().facetGroups` — visibility, ORDER, display
+ * label, and selection mode all come from `browse.facets` + the core
+ * facet registry, never from this component. Option labels arrive
+ * pre-resolved from the taxonomy YAML, so the server render and the
+ * client script share one label source.
+ *
+ * The form is a GET to the list page base, with each facet as a
+ * repeated key. Empty values are dropped, so the URL stays clean.
+ */
+import { DIRECTORY_FILTER_KEYS, SORT_OPTIONS } from '@grove-dev/core';
+import FilterGroupMenu from './filter-group-menu.astro';
+
+interface FacetValue {
+  value: string;
+  label?: string;
+  count?: number;
+}
+
+interface FacetGroupModel {
+  id: string;
+  filterKey: 'stacks' | 'platforms' | 'categories' | 'tags' | 'licenses';
+  label: string;
+  single?: boolean;
+  options: FacetValue[];
+  initial: string[];
+}
+
+interface Props {
+  /** Ordered filter groups (see `getDirectoryIndexModel`). */
+  groups: FacetGroupModel[];
+  /** Current URL filter state — used to preselect the sort. */
+  initial: IndexFilters;
+  pathPrefix?: string;
+  class?: string;
+  /**
+   * Emit the default flex layout on the root. Pass `false` when the
+   * caller owns the layout — e.g. `layout={false} class="contents"` to
+   * promote the filter triggers into the parent's flex row. Without
+   * this the root's own `flex` would win over any display utility in
+   * `class`, since Tailwind emits `.contents` before `.flex`.
+   */
+  layout?: boolean;
+  /** Hide the sort select (e.g. when the page renders its own). */
+  hide?: Array<'sort'>;
+}
+
+const {
+  groups: groupModels,
+  initial,
+  pathPrefix = '/',
+  class: className = '',
+  layout = true,
+  hide = [],
+} = Astro.props;
+
+function triggerLabel(group: FacetGroupModel): string {
+  if (group.initial.length === 0) return `${group.label}: Any`;
+  if (group.initial.length === 1) {
+    const selected = group.initial[0];
+    const option = group.options.find((candidate) => candidate.value === selected);
+    return `${group.label}: ${option?.label ?? selected}`;
+  }
+  return `${group.label}: ${group.initial.length} selected`;
+}
+
+const groups = groupModels.map((group) => ({
+  ...group,
+  active: group.initial.length > 0,
+  popoverId: `filter-popover-${group.filterKey}`,
+  trigger: triggerLabel(group),
+}));
+---
+
+<div class:list={[layout && "flex flex-wrap items-center gap-2", className]} role="toolbar" aria-label="Filter items">
+    {groups.map((group) => <FilterGroupMenu {...group} />)}
+
+    {!hide.includes("sort") && (
+      <label class="relative">
+        <span class="sr-only">Sort items</span>
+        <select name="sort" class="h-9 cursor-pointer appearance-none border py-1.5 pl-3 pr-8 text-[0.8125rem] font-medium">
+          {SORT_OPTIONS.map((option) => <option value={option.value} selected={(initial.sort ?? "recently-updated") === option.value}>{option.label}</option>)}
+        </select>
+        <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" class="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-ink-400" fill="currentColor">
+          <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"/>
+        </svg>
+      </label>
+    )}
+</div>
+
+<script is:inline define:vars={{ pathPrefix, filterKeys: DIRECTORY_FILTER_KEYS }}>
+  (() => {
+    const groups = document.querySelectorAll(".grove-filter");
+    const keys = filterKeys;
+    function closeAll(except) {
+      groups.forEach((group) => {
+        if (group === except) return;
+        const popover = group.querySelector(".grove-filter-popover");
+        const trigger = group.querySelector(".grove-filter-trigger");
+        if (popover && trigger) {
+          popover.hidden = true;
+          popover.classList.add("hidden");
+          trigger.setAttribute("aria-expanded", "false");
+        }
+      });
+    }
+    // A directory controller (DirectoryIndexClient) can adopt the URL
+    // in place and re-render without a reload; it signals that by
+    // cancelling the event. Anywhere else — a taxonomy page, no
+    // controller on the page at all — this falls back to navigating,
+    // so the panel keeps working on its own.
+    function go(url) {
+      const event = new CustomEvent("grove:navigate", { detail: { url }, cancelable: true });
+      if (document.dispatchEvent(event)) location.assign(url);
+    }
+    function navigate(group, values) {
+      const params = new URLSearchParams(location.search);
+      const key = keys[group.dataset.filterGroupKey];
+      params.delete(key);
+      params.delete("page");
+      values.forEach((value) => params.append(key, value));
+      go(params.toString() ? `${pathPrefix}?${params}` : pathPrefix);
+    }
+    groups.forEach((group) => {
+      const trigger = group.querySelector(".grove-filter-trigger");
+      const popover = group.querySelector(".grove-filter-popover");
+      trigger?.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const opening = trigger.getAttribute("aria-expanded") !== "true";
+        closeAll(opening ? group : undefined);
+        popover.hidden = !opening;
+        popover.classList.toggle("hidden", !opening);
+        trigger.setAttribute("aria-expanded", String(opening));
+      });
+      group.querySelector(".grove-filter-apply")?.addEventListener("click", () => {
+        navigate(group, [...group.querySelectorAll(".grove-filter-input:checked")].map((input) => input.dataset.filterValue));
+      });
+      group.querySelector(".grove-filter-clear")?.addEventListener("click", () => navigate(group, []));
+      if (group.dataset.filterSingle === "true") {
+        group.querySelectorAll(".grove-filter-input").forEach((input) => input.addEventListener("change", () => navigate(group, [input.dataset.filterValue])));
+      }
+      popover?.addEventListener("click", (event) => event.stopPropagation());
+    });
+    document.addEventListener("click", () => closeAll());
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+      // Restore focus to the trigger whose popover was open so
+      // keyboard users don't lose their place.
+      const openGroup = [...groups].find((group) =>
+        group.querySelector('.grove-filter-trigger[aria-expanded="true"]'),
+      );
+      closeAll();
+      openGroup?.querySelector(".grove-filter-trigger")?.focus();
+    });
+    document.querySelector('select[name="sort"]')?.addEventListener("change", (event) => {
+      const params = new URLSearchParams(location.search);
+      params.set("sort", event.target.value);
+      params.delete("page");
+      go(params.toString() ? `${pathPrefix}?${params}` : pathPrefix);
+    });
+  })();
+</script>

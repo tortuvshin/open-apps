@@ -1,0 +1,171 @@
+---
+// SPDX-License-Identifier: MIT
+
+/**
+ * Per-page SEO: <title>, description, canonical, Open Graph, Twitter Card,
+ * and JSON-LD structured data. Designed to be used inside <head> by the
+ * BaseLayout. Pages pass the rich props they care about; everything else
+ * has a sensible default derived from the site config and the Astro URL.
+ *
+ * Renders:
+ *   - <title>, meta description, canonical link, robots
+ *   - Open Graph (og:*) for Facebook, LinkedIn, Discord, Slack, etc.
+ *   - Twitter Card (twitter:*) for X / Twitter
+ *   - JSON-LD WebSite+Organization identity graph on every page
+ *     (built by @grove-dev/core's `siteSchema`, with a SearchAction
+ *     pointing at the directory's browse page)
+ *   - Per-page JSON-LD nodes when `jsonLd` is provided (SoftwareSourceCode
+ *     on record pages, CollectionPage/ItemList/BreadcrumbList on
+ *     collection and taxonomy pages, ...)
+ *
+ * Noindex is opt-in via the `noindex` prop. By default everything is
+ * indexable; noindex targets today are /submit, /404, and /empty.
+ */
+import { type JsonLdNode, siteSchema, validateJsonLd } from '@grove-dev/core';
+
+interface Props {
+  title: string;
+  description: string;
+  site: {
+    name: string;
+    description?: string;
+    repoUrl?: string;
+    /** Header logo path under `public/` — used as Organization logo when set. */
+    logo?: string;
+    /** BCP-47 language tag (e.g. "en"). Drives og:locale + JSON-LD inLanguage. */
+    locale?: string;
+    /** Twitter/X handle (e.g. "@grove") — emitted as twitter:site. */
+    twitter?: string;
+  };
+  searchPath?: string;
+  /** Open Graph / Twitter image. Default: /og-image.svg. Should be absolute or root-relative. */
+  image?: string;
+  /** Alt text for the OG/Twitter image. Default: "<site name> social preview". */
+  imageAlt?: string;
+  /** og:type. Default: "website". Use "article" for blog posts / changelog. */
+  type?: 'website' | 'article' | 'profile';
+  /** Set true to add noindex,nofollow. */
+  noindex?: boolean;
+  /** Extra JSON-LD payload (object) — typically SoftwareSourceCode on item pages. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  site: siteConfig,
+  searchPath = '/items',
+  image = '/og-image.svg',
+  imageAlt,
+  type = 'website',
+  noindex = false,
+  jsonLd,
+} = Astro.props;
+
+// `Astro.site` is required for canonical / OG / Twitter / JSON-LD URLs to
+// resolve to the consumer's domain. Failing the build (rather than silently
+// emitting `https://example.com/...`) is the right call: every canonical,
+// OG, and JSON-LD URL would otherwise leak to a domain the consumer doesn't
+// own, which search engines either ignore or treat as canonical to the
+// wrong host.
+if (!Astro.site) {
+  throw new Error(
+    "Seo: `site` is not set on the Astro config. Add `site: 'https://your-domain'` to astro.config.mjs so canonical / Open Graph / Twitter / JSON-LD URLs resolve correctly.",
+  );
+}
+const siteUrl = Astro.site;
+const canonical = new URL(Astro.url.pathname, siteUrl).toString();
+const ogImage = new URL(image, siteUrl).toString();
+const ogImageAlt = imageAlt ?? `${siteConfig.name} social preview`;
+const locale = siteConfig.locale ?? 'en';
+
+// Truncate description for OG/Twitter where longer is worse (160–200 chars).
+function truncate(s: string, max: number): string {
+  if (s.length <= max) return s;
+  return s.slice(0, max - 1).trimEnd() + '…';
+}
+const shortDescription = truncate(description, 200);
+
+// WebSite+Organization identity graph — site-wide signals that appear on
+// every page (Google uses them for site links and the knowledge panel).
+// Built by core's `siteSchema` so the @id graph shape is shared with the
+// rest of the JSON-LD registry; the SearchAction is appended here because
+// the browse path is an adapter concern, not a core one.
+const bareSiteUrl = siteUrl.toString().replace(/\/$/, '');
+const [siteLd] = siteSchema({
+  url: bareSiteUrl,
+  name: siteConfig.name,
+  description: siteConfig.description ?? description,
+  inLanguage: locale,
+  orgName: siteConfig.name,
+  orgUrl: bareSiteUrl,
+  ...(siteConfig.logo ? { orgLogo: new URL(siteConfig.logo, siteUrl).toString() } : {}),
+  ...(siteConfig.repoUrl ? { sameAs: [siteConfig.repoUrl] } : {}),
+});
+siteLd.potentialAction = {
+  '@type': 'SearchAction',
+  target: `${bareSiteUrl}${searchPath}?q={search_term_string}`,
+  'query-input': 'required name=search_term_string',
+};
+
+const perPageNodes = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : null;
+
+// Dev-only well-formedness check — surfaces malformed nodes (relative
+// URLs, missing @context, duplicate @ids) in the terminal during
+// `astro dev` without ever failing or slowing a production build.
+if (import.meta.env.DEV && perPageNodes) {
+  const issues = validateJsonLd(perPageNodes as JsonLdNode[]);
+  for (const issue of issues) {
+    console.warn(`[grove seo] ${Astro.url.pathname}: ${issue.message}`);
+  }
+}
+
+// Pre-stringify the JSON-LD payloads in the frontmatter so the
+// template body just interpolates the resulting strings. For SSR
+// this saves the JSON.stringify call on every render; for static
+// builds the cost is unchanged but the template reads cleaner.
+const siteLdJson = JSON.stringify(siteLd);
+const perPageLdJson = perPageNodes ? JSON.stringify(perPageNodes) : null;
+---
+
+<!-- Primary meta -->
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex ? (
+  <meta name="robots" content="noindex,nofollow" />
+) : (
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+)}
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonical} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={shortDescription} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={ogImageAlt} />
+<meta property="og:site_name" content={siteConfig.name} />
+<meta property="og:locale" content={locale} />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+{siteConfig.twitter && <meta name="twitter:site" content={siteConfig.twitter} />}
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={shortDescription} />
+<meta name="twitter:image" content={ogImage} />
+<meta name="twitter:image:alt" content={ogImageAlt} />
+
+<!-- JSON-LD: site-wide identity graph -->
+<script is:inline type="application/ld+json" set:html={siteLdJson} />
+
+<!-- JSON-LD: per-page (SoftwareSourceCode, CollectionPage, BreadcrumbList, ...) -->
+{perPageLdJson && (
+  <script
+    is:inline
+    type="application/ld+json"
+    set:html={perPageLdJson}
+  />
+)}

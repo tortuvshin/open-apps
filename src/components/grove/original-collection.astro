@@ -1,0 +1,107 @@
+---
+import { compact } from '@grove-dev/core';
+/**
+ * OriginalCollection — legacy lineage card.
+ *
+ * Renders a single wide card that links out to the project's origin
+ * repository, with stars/forks/contributors stats. Used on home and
+ * about pages to give visitors a way to find the original curated
+ * collection this directory descends from.
+ *
+ * Generic: takes plain `stats` and a `repoUrl`. No blueprint or
+ * site-specific copy.
+ */
+import { buttonClass } from '../../lib/classnames.ts';
+
+interface OriginStats {
+  stars?: number;
+  forks?: number;
+  contributors?: number;
+  description?: string;
+}
+
+interface Props {
+  repoUrl: string;
+  repoLabel?: string;
+  stats?: OriginStats;
+  title?: string;
+  description?: string;
+  class?: string;
+}
+
+const {
+  repoUrl,
+  repoLabel = 'View on GitHub',
+  stats = {},
+  title = 'A growing list, forked from the original',
+  description = 'This directory descends from an earlier curated collection. The original still lives on — same shape, same spirit, fresh data.',
+  class: className = '',
+} = Astro.props;
+
+const hasStats =
+  stats.stars !== undefined || stats.forks !== undefined || stats.contributors !== undefined;
+---
+
+<section class:list={["py-12 sm:py-16", className]}>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    <div
+      class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <div class="flex flex-col gap-2">
+        <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+          Origin
+        </span>
+        <h2 class="m-0 text-[1.25rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100">
+          {title}
+        </h2>
+        <p class="m-0 max-w-2xl text-[0.875rem] text-ink-500 dark:text-ink-400">
+          {description}
+        </p>
+        {stats.description && (
+          <p class="m-0 max-w-2xl text-[0.8125rem] text-ink-500 dark:text-ink-400">
+            {stats.description}
+          </p>
+        )}
+        {hasStats && (
+          <dl
+            class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-2xs text-ink-500 dark:text-ink-400"
+            aria-label="Original repository signals"
+          >
+            {stats.stars !== undefined && (
+              <div class="flex items-center gap-1">
+                <dd class="m-0 font-mono">{compact(stats.stars)}</dd>
+                <dt>stars</dt>
+              </div>
+            )}
+            {stats.forks !== undefined && (
+              <div class="flex items-center gap-1">
+                <dd class="m-0 font-mono">{compact(stats.forks)}</dd>
+                <dt>forks</dt>
+              </div>
+            )}
+            {stats.contributors !== undefined && (
+              <div class="flex items-center gap-1">
+                <dd class="m-0 font-mono">
+                  {compact(stats.contributors)}
+                </dd>
+                <dt>contributors</dt>
+              </div>
+            )}
+          </dl>
+        )}
+      </div>
+      <div class="flex flex-shrink-0 items-center gap-2">
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={buttonClass("primary", "sm")}
+          data-event="original_collection_click"
+          data-event-source="original_collection"
+        >
+          {repoLabel} →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,56 @@
+---
+/**
+ * CollectionCard — card for one collection (not a record): kind
+ * eyebrow, title, description, entry count.
+ *
+ * Extracted from `CollectionIndex` so the collection tile shares the
+ * `ProjectCard` visual language (border, radius, hover lift, tokens)
+ * and stays in sync with the record cards as the design evolves.
+ * Follows the `CardGrid` sizing contract (`h-full flex flex-col`).
+ */
+import { formatCount } from '@grove-dev/core';
+
+interface Props {
+  collection: {
+    slug: string;
+    url: string;
+    kind: string;
+    title: string;
+    description?: string;
+    count: number;
+  };
+  /** Analytics source emitted with `collection_card_click`. */
+  eventSource?: string;
+  /** Noun pair for the entry count (blueprint labels). */
+  countNoun?: { singular: string; plural: string };
+  class?: string;
+}
+
+const {
+  collection: c,
+  eventSource = 'collection_index',
+  countNoun = { singular: 'item', plural: 'items' },
+  class: className = '',
+} = Astro.props;
+---
+
+<a
+  href={c.url}
+  data-event="collection_card_click"
+  data-event-source={eventSource}
+  data-event-item={c.slug}
+  class={`group relative flex h-full min-w-0 flex-col gap-2 rounded-xl border border-ink-200 bg-card p-5 no-underline outline-none transition-[border-color,background-color,transform] duration-150 hover:-translate-y-0.5 hover:border-ink-300 hover:bg-ink-50 focus-visible:border-ink-500 focus-visible:ring-2 focus-visible:ring-ink-900/15 dark:border-ink-800 dark:hover:border-ink-700 dark:hover:bg-ink-900 dark:focus-visible:border-ink-500 dark:focus-visible:ring-ink-100/15 ${className}`}
+>
+  <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+    {c.kind === "curated" ? "Curated" : "Generated"}
+  </span>
+  <span class="text-[1.0625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100">
+    {c.title}
+  </span>
+  <span class="line-clamp-2 text-[0.875rem] text-ink-500 dark:text-ink-400">
+    {c.description}
+  </span>
+  <span class="mt-auto pt-2 text-2xs font-medium text-ink-500 transition-colors group-hover:text-ink-900 dark:text-ink-400 dark:group-hover:text-ink-100">
+    {formatCount(c.count, countNoun)} →
+  </span>
+</a>

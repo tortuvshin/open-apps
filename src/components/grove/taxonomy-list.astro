@@ -1,4 +1,13 @@
 ---
+import {
+  buildProjectCardModel,
+  indexSlug,
+  itemLabel,
+  itemLabelPlural,
+} from '@grove-dev/astro/server';
+import type { IndexRecord } from '@grove-dev/core';
+import { formatCount } from '@grove-dev/core';
+import EmptyState from '../ui/empty-state.astro';
 /**
  * TaxonomyList.astro
  *
@@ -11,23 +20,11 @@
  * Records render through the package's canonical `ProjectCard` inside
  * `CardGrid`, so taxonomy pages read as the same site as the browse
  * and collection pages.
- *
- * Lives under `src/components/` because the page shell (BaseLayout)
- * and the SEO entry point (Seo) already ship from `@grove-dev/astro`;
- * a consumer-side body template is the natural place for it.
  */
-import CardGrid from "@grove-dev/astro/components/CardGrid.astro";
-import ProjectCard from "@grove-dev/astro/components/ProjectCard.astro";
-import { indexSlug, itemLabel, itemLabelPlural } from "@grove-dev/astro/server";
-import { formatCount } from "@grove-dev/core";
+import CardGrid from './card-grid.astro';
+import ProjectCard from './project-card.astro';
 
-interface TaxonomyRecord {
-  slug: string;
-  name?: string;
-  title?: string;
-  description?: string;
-  repoUrl?: string;
-}
+type TaxonomyRecord = IndexRecord;
 
 interface Props {
   /** Eyebrow label above the heading ("Stack", "Category", "License"). */
@@ -44,7 +41,11 @@ interface Props {
   itemNoun?: { singular: string; plural: string };
   /** Records filtered by `filterRecords` upstream. */
   records: TaxonomyRecord[];
-  /** Index route (e.g. "/apps") for the back link and card hrefs. */
+  /**
+   * Index route for the back link and card hrefs. Defaults to the
+   * configured directory route (`routes.directory` in `grove.config.ts`),
+   * so a site that browses at `/apps` links to `/apps`, not `/projects`.
+   */
   backHref?: string;
   /** Back-link label. */
   backLabel?: string;
@@ -61,8 +62,7 @@ const {
 } = Astro.props;
 
 const count = records.length;
-const hrefPrefix = backHref.replace(/\/$/, "");
-type CardRecord = Parameters<typeof ProjectCard>[0]["record"];
+const hrefPrefix = backHref.replace(/\/$/, '');
 ---
 
 <section class="mx-auto w-full max-w-container px-5 py-12 sm:px-7 sm:py-16">
@@ -78,16 +78,14 @@ type CardRecord = Parameters<typeof ProjectCard>[0]["record"];
     </p>
 
     {count === 0 ? (
-      <p class="mt-4 text-sm text-ink-500 dark:text-ink-400">No {itemNoun.plural} yet in {displayName}.</p>
+      <EmptyState class="mt-4" title={`No ${itemNoun.plural} yet in ${displayName}.`} />
     ) : (
       <CardGrid class="mt-6">
         {records.map((record, i) => (
           <li class="m-0 p-0">
             <ProjectCard
-              record={record as CardRecord}
+              model={buildProjectCardModel(record)}
               href={`${hrefPrefix}/${record.slug}`}
-              showCurated
-              showLicense
               eager={i < 3}
             />
           </li>

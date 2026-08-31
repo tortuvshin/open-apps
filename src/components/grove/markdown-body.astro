@@ -1,0 +1,37 @@
+---
+/**
+ * MarkdownBody.astro
+ *
+ * Renders a record's pre-sanitized Markdown body (`getContentHtml`)
+ * inside the package's `.grove-prose` stylesheet.
+ *
+ * The renderer itself lives in `@grove-dev/astro/server/directory.ts`
+ * (`renderMarkdownToSafeHtml`) and runs once per record at module
+ * load; this component is the presentation half of that pipeline.
+ *
+ * Props:
+ *   - `recordSlug`: the **record's** slug (not the route prefix).
+ *     `getContentHtml` is keyed by record slug — `detail.slug` is the
+ *     route prefix (e.g. "projects"), `detail.record.slug` is the
+ *     record (e.g. "crewai").
+ *   - `fallback`: optional content to render when the record has no
+ *     body (e.g. an empty-state message).
+ */
+import { getContentHtml } from '@grove-dev/astro/server';
+
+interface Props {
+  /** Record slug — looks up the pre-rendered HTML in the module map. */
+  recordSlug: string;
+  /** Optional fallback content for records without a body. */
+  fallback?: string;
+}
+
+const { recordSlug, fallback } = Astro.props;
+const html = getContentHtml(recordSlug);
+---
+
+{html ? (
+  <div class="grove-prose" set:html={html} />
+) : fallback ? (
+  <p class="grove-prose text-ink-500 dark:text-ink-400">{fallback}</p>
+) : null}

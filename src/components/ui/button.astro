@@ -1,0 +1,54 @@
+---
+/**
+ * Button — the shared interactive control.
+ *
+ * Renders an `<a>` when `href` is given, otherwise a `<button>`.
+ * Styling comes exclusively from `buttonClass()` (ui/button.ts) so
+ * server components, consumer pages, and the client script share one
+ * definition. Pass layout-only extras (widths, one-off spacing)
+ * through `class`.
+ */
+import {
+  type ButtonSize,
+  type ButtonVariant,
+  buttonClass,
+  PAGINATION_DISABLED,
+} from '../../lib/classnames.ts';
+
+interface Props {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  href?: string;
+  type?: 'button' | 'submit' | 'reset';
+  rel?: string;
+  target?: string;
+  disabled?: boolean;
+  id?: string;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const {
+  variant = 'secondary',
+  size = 'sm',
+  href,
+  type = 'button',
+  disabled,
+  class: className = '',
+  ...rest
+} = Astro.props;
+
+const classes = buttonClass(variant, size, className);
+---
+
+{href ? (
+  <a
+    href={href}
+    class:list={[classes, disabled && PAGINATION_DISABLED]}
+    aria-disabled={disabled ? "true" : undefined}
+    tabindex={disabled ? -1 : undefined}
+    {...rest}
+  ><slot /></a>
+) : (
+  <button type={type} class={classes} disabled={disabled} {...rest}><slot /></button>
+)}

@@ -1,0 +1,231 @@
+---
+import { compact } from '@grove-dev/core';
+/**
+ * Hero — the home page banner.
+ *
+ * Mirrors the openapps layout: trust-stats row across the top,
+ * big two-line headline with a gradient accent on the second
+ * line, descriptive paragraph, search form with a Filters
+ * shortcut, quick-filter chips, and up to 3 CTAs.
+ *
+ * Generic: every value comes through props (or `siteConfig` for
+ * the trust stats). The label next to the count is blueprint-
+ * driven via `itemsLabel` — so a project-directory renders
+ * "apps indexed", a resource-hub renders "resources indexed",
+ * an ecosystem-map renders "entities indexed".
+ */
+import Container from '../../layouts/container.astro';
+
+interface CTA {
+  label: string;
+  href: string;
+  variant?: 'primary' | 'outline' | 'ghost';
+  external?: boolean;
+}
+
+interface Props {
+  /** Site/brand name. */
+  name: string;
+  /** Short tagline — usually pulled from siteConfig.tagline. */
+  tagline: string;
+  /** Longer descriptive paragraph. */
+  description?: string;
+  /** Trust stats: items count, categories, stacks, owners, stars. */
+  stats?: {
+    totalApps?: number;
+    totalCategories?: number;
+    totalStacks?: number;
+    totalOwners?: number;
+    totalStars?: number;
+  };
+  /** Search form target — the list page. */
+  searchHref?: string;
+  /** Search input placeholder. */
+  searchPlaceholder?: string;
+  /**
+   * Plural noun for the primary count (e.g. "apps", "resources",
+   * "entities"). Used in the trust-stats label and CTA copy.
+   */
+  itemsLabel?: string;
+  /** Quick filter chips under the search bar. */
+  quickFilters?: Array<{ label: string; href: string }>;
+  /** CTAs rendered below the form. */
+  ctas?: CTA[];
+  /** Extra class. */
+  class?: string;
+  /** Eyebrow text rendered above the title. */
+  eyebrow?: string;
+  /** Optional badge content rendered next to the eyebrow. */
+  eyebrowBadge?: string;
+}
+
+const {
+  name,
+  tagline,
+  description,
+  stats = {},
+  searchHref = '/',
+  searchPlaceholder = 'Search the directory...',
+  itemsLabel = 'items',
+  quickFilters = [],
+  ctas = [],
+  class: className = '',
+  eyebrow = 'A directory of curated knowledge',
+  eyebrowBadge,
+} = Astro.props;
+
+// One compact stats line: "6 projects indexed · 5 categories · 3 stacks".
+// Every entry is guarded so a fresh directory never renders a zero-value.
+const statParts: string[] = [
+  ...(stats.totalApps !== undefined && stats.totalApps > 0
+    ? [`${compact(stats.totalApps)} ${itemsLabel} indexed`]
+    : []),
+  ...(stats.totalCategories !== undefined && stats.totalCategories > 0
+    ? [`${stats.totalCategories} categories`]
+    : []),
+  ...(stats.totalStacks !== undefined && stats.totalStacks > 0
+    ? [`${stats.totalStacks} stacks`]
+    : []),
+  ...(stats.totalOwners !== undefined && stats.totalOwners > 0
+    ? [`${compact(stats.totalOwners)} owners`]
+    : []),
+  ...(stats.totalStars !== undefined && stats.totalStars > 0
+    ? [`${compact(stats.totalStars)} stars`]
+    : []),
+];
+
+// One primary CTA only — Submit already lives in the navbar
+// (BaseLayout → Header submitHref), so the hero never duplicates it.
+const primaryCta: CTA | undefined = ctas.find((c) => c.variant === 'primary') ??
+  ctas[0] ?? { label: `Browse ${itemsLabel}`, href: searchHref, variant: 'primary' };
+---
+
+<section
+  class:list={[
+    "relative overflow-hidden border-b border-ink-200 dark:border-ink-800",
+    className,
+  ]}
+>
+  {/* Dark mode only: a barely-there radial lift behind the headline. */}
+  <div
+    aria-hidden="true"
+    class="pointer-events-none absolute inset-0 hidden dark:block"
+    style="background: radial-gradient(60% 55% at 50% 0%, color-mix(in oklab, var(--grove-foreground) 5%, transparent) 0%, transparent 70%);"
+  ></div>
+
+  <Container>
+    <div class="relative mx-auto flex max-w-[900px] flex-col items-center py-[88px] text-center lg:py-[104px]">
+      {/* Eyebrow. The `eyebrow` slot replaces the whole line — dot
+          included — so a consumer can put richer content here (a
+          `PoweredBy` link, a release badge) without forking the Hero. */}
+      <span class="inline-flex animate-fade-in items-center gap-2 text-[13px] font-medium text-ink-500 dark:text-ink-400">
+        <slot name="eyebrow">
+          <span aria-hidden="true" class="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-success"></span>
+          {eyebrow}
+          {eyebrowBadge && (
+            <span
+              class="inline-flex items-center rounded-full border border-warning/30 bg-warning/10 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-warning"
+              aria-label={eyebrowBadge}
+            >
+              {eyebrowBadge}
+            </span>
+          )}
+        </slot>
+      </span>
+
+      {/* Headline */}
+      <h1
+        class="m-0 mt-5 max-w-[820px] animate-fade-in-up text-balance text-[clamp(44px,5vw,64px)] font-[650] leading-[1.08] tracking-[-0.035em] text-ink-900 dark:text-ink-100"
+        style="animation-delay: 0.05s;"
+      >
+        <span class="block">{name}</span>
+        <span class="block">{tagline}</span>
+      </h1>
+
+      {description && (
+        <p
+          class="m-0 mt-5 max-w-[640px] animate-fade-in-up text-[16px] leading-[1.6] text-ink-500 dark:text-ink-400"
+          style="animation-delay: 0.1s;"
+        >
+          {description}
+        </p>
+      )}
+
+      {/* Search — primary interaction. The FORM is the visual control:
+          it owns the border, radius, and the single focus treatment
+          (focus-within border + soft ring). The inner input opts out
+          of the global input styling (`grove-input-unstyled`) so it
+          stays a transparent, chrome-free text slot — no second box
+          or ring appearing inside the pill on focus. */}
+      <form
+        class="mt-8 flex h-[58px] w-full max-w-[840px] animate-fade-in-up items-center gap-3 rounded-xl border border-ink-200 bg-background p-1.5 pl-4 transition-[border-color,box-shadow] focus-within:border-ink-400 focus-within:ring-3 focus-within:ring-ring/15 dark:border-ink-800 dark:focus-within:border-ink-600"
+        style="animation-delay: 0.15s;"
+        role="search"
+        action={searchHref}
+        method="get"
+      >
+        <label class="flex min-w-0 flex-1 items-center gap-3">
+          <span class="sr-only">Search {itemsLabel}, stacks, and categories</span>
+          <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" class="shrink-0 text-ink-400 dark:text-ink-500" fill="currentColor">
+            <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+          </svg>
+          <input
+            type="search"
+            name="q"
+            placeholder={searchPlaceholder}
+            class="grove-input-unstyled h-full w-full min-w-0 rounded-none border-0 bg-transparent px-0 text-[16px] text-ink-900 outline-none placeholder:text-ink-400 dark:text-ink-100 dark:placeholder:text-ink-500"
+          />
+        </label>
+        <button
+          type="submit"
+          class="inline-flex h-[46px] shrink-0 cursor-pointer items-center justify-center rounded-lg border border-transparent bg-primary px-5 text-[15px] font-medium leading-none text-primary-foreground outline-none transition-colors hover:bg-primary/90 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
+        >
+          Search
+        </button>
+      </form>
+
+      {quickFilters.length > 0 && (
+        <p class="m-0 mt-4 text-[13px] text-ink-500 dark:text-ink-400">
+          Try{" "}
+          {quickFilters.map((f, i) => (
+            <>
+              <a href={f.href} class="font-mono text-ink-700 underline-offset-2 hover:underline dark:text-ink-300">{f.label}</a>
+              {i < quickFilters.length - 1 && <span aria-hidden="true" class="mx-1">·</span>}
+            </>
+          ))}
+        </p>
+      )}
+
+      {/* Inline stats — single compact line, middle-dot separators */}
+      {statParts.length > 0 && (
+        <p class="m-0 mt-5 text-[13px] text-ink-500 dark:text-ink-400">
+          {statParts.map((part, i) => (
+            <>
+              {i > 0 && <span aria-hidden="true" class="mx-2 opacity-60">·</span>}
+              <span>{part}</span>
+            </>
+          ))}
+        </p>
+      )}
+
+      {/* Primary CTA only */}
+      {primaryCta && (
+        <div class="mt-8">
+          <a
+            href={primaryCta.href}
+            class="inline-flex h-11 cursor-pointer items-center justify-center gap-2 rounded-[var(--radius)] border border-transparent bg-primary px-5 text-[15px] font-medium leading-none text-primary-foreground outline-none transition-colors hover:bg-primary/90 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
+            {...(primaryCta.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+            data-event="hero_cta_click"
+            data-event-source="hero"
+          >
+            {primaryCta.label}
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      )}
+    </div>
+  </Container>
+</section>

@@ -1,0 +1,80 @@
+---
+/**
+ * SmartLensTabs — curated single-select lens tabs.
+ *
+ * Renders configured curated lenses as a horizontal tab bar. Sort choices,
+ * including Recently added, belong in the separate sort control.
+ * Clicking a tab navigates to the same list page with the `lens=`
+ * query param updated. Other filter params (q, stack, platform,
+ * category, sort) are preserved.
+ *
+ * The current selection is computed from `currentParams`, so the
+ * component is server-render-only — no client JS required.
+ *
+ * Generic: uses the `LENSES` registry from `lib/lenses.ts` and
+ * takes the list-page base via `pathPrefix`.
+ */
+
+import { hrefForLens, isLensActive, LENSES, lensDisplay } from '@grove-dev/core';
+import { lensTabClass } from '../../lib/classnames.ts';
+
+interface Props {
+  currentParams: URLSearchParams;
+  pathPrefix?: string;
+  class?: string;
+  /**
+   * Emit the default flex layout on the root. Pass `false` when the
+   * caller owns the layout — e.g. `layout={false} class="contents"` to
+   * promote the tabs into the parent's flex row. Without this the
+   * root's own `flex` would win over any display utility in `class`,
+   * since Tailwind emits `.contents` before `.flex`.
+   */
+  layout?: boolean;
+  /** Override the visible lens list (defaults to LENSES). */
+  lensIds?: readonly string[];
+  /** Consumer noun for the unfiltered lens, e.g. "All apps". */
+  allLabel?: string;
+}
+
+const {
+  currentParams,
+  pathPrefix = '/',
+  class: className = '',
+  layout = true,
+  lensIds,
+  allLabel,
+} = Astro.props;
+
+// If `lensIds` is provided, filter LENSES to those ids in that order.
+const lenses =
+  lensIds && lensIds.length > 0
+    ? lensIds
+        .map((id) => LENSES.find((l) => l.id === id))
+        .filter((l): l is NonNullable<typeof l> => Boolean(l))
+    : LENSES;
+---
+
+<nav
+  class:list={[
+    "grove-lens-tabs",
+    layout && "flex flex-wrap items-center gap-1.5",
+    className,
+  ]}
+  aria-label="Curated views"
+>
+  {lenses.map((lens) => {
+    const active = isLensActive(lens.id, currentParams);
+    return (
+      <a
+        href={hrefForLens(lens.id, currentParams, pathPrefix)}
+        class={lensTabClass(active)}
+        aria-current={active ? "page" : undefined}
+        data-lens-id={lens.id}
+        data-event="lens_tab_click"
+        data-event-source="smart_lens_tabs"
+      >
+        {lens.id === "all" && allLabel ? allLabel : lensDisplay(lens.id)}
+      </a>
+    );
+  })}
+</nav>

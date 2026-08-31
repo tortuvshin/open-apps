@@ -1,0 +1,43 @@
+---
+import { buttonClass } from '../../lib/classnames.ts';
+
+interface Props {
+  itemLabel?: string;
+  itemsLabel?: string;
+  browseHref?: string;
+  submitHref?: string;
+  class?: string;
+}
+
+const {
+  itemLabel = 'item',
+  itemsLabel = 'items',
+  browseHref = '/items',
+  submitHref = '/submit',
+  class: className = '',
+} = Astro.props;
+---
+
+<section class:list={["border-t border-ink-200 py-10 sm:py-12 dark:border-ink-800", className]} aria-labelledby="grove-final-cta-heading">
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    <div class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card px-6 py-7 sm:flex sm:items-center sm:justify-between sm:gap-10 sm:px-8 sm:py-8 dark:border-ink-800">
+      <div class="max-w-2xl">
+        <p class="m-0 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400">Keep the directory useful</p>
+        <h2 id="grove-final-cta-heading" class="m-0 mt-1.5 text-[1.5rem] font-semibold tracking-tight text-ink-900 sm:text-[1.75rem] dark:text-ink-100">
+          Know {itemLabel === "app" ? "an" : "a"} {itemLabel} that belongs here?
+        </h2>
+        <p class="m-0 mt-2 max-w-xl text-sm leading-relaxed text-ink-500 dark:text-ink-400">
+          Add a real, inspectable project or improve the metadata behind an existing listing.
+        </p>
+      </div>
+      <div class="mt-5 flex shrink-0 flex-wrap items-center gap-2 sm:mt-0 sm:justify-end">
+        <a href={submitHref} class={buttonClass("primary", "md", "px-4")}>
+          Submit {itemLabel}
+        </a>
+        <a href={browseHref} class={buttonClass("outline", "md", "px-4")}>
+          Explore {itemsLabel}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

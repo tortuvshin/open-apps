@@ -4,22 +4,22 @@
  * default header nav; each tile opens the browse page pre-filtered to
  * the stack (detail pages live at `/stacks/<id>/`).
  */
-import siteConfig from "@grove/generated/site-config.json";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import StackGrid from "@grove-dev/astro/components/StackGrid.astro";
+import siteConfig from '@grove/generated/site-config.json';
 import {
   getTaxonomyIndexModel,
   getTaxonomyIndexSeo,
   itemLabel,
   itemLabelPlural,
-} from "@grove-dev/astro/server";
+} from '@grove-dev/astro/server';
+import StackGrid from '../../components/grove/stack-grid.astro';
+import BaseLayout from '../../layouts/base-layout.astro';
 
-const slug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 // Uncapped: the index page lists EVERY stack (the homepage grid's
 // 12-item cap is a homepage layout choice, not a data truth).
 const { stacks } = getTaxonomyIndexModel();
-const seo = getTaxonomyIndexSeo("stacks", siteConfig);
 const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
+const seo = getTaxonomyIndexSeo('stacks', siteConfig);
 ---
 
 <BaseLayout
@@ -34,7 +34,7 @@ const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
     pathPrefix={`/${slug}`}
     itemLabelPlural={itemLabelPlural()}
     itemNoun={itemNoun}
-    headingLevel={1}
+    level={1}
     hrefFor={(stackSlug: string) => `/stacks/${stackSlug}`}
   />
 </BaseLayout>

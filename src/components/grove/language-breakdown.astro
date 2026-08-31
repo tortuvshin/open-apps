@@ -1,0 +1,67 @@
+---
+/**
+ * LanguageBreakdown.astro
+ *
+ * Visual GitHub-Linguist-style code-composition bar plus a legend
+ * showing each language's percentage. Reads from the record's
+ * pre-computed `languages` array (top-5 by bytes) and `langColor`
+ * (in @grove-dev/core).
+ *
+ * Used inside the Activity sidebar card.
+ */
+import { langColor } from '@grove-dev/core';
+
+interface LangEntry {
+  name: string;
+  bytes: number;
+}
+
+interface Props {
+  /** Top-N languages as `[name, bytes]` tuples (already sorted). */
+  languages: ReadonlyArray<readonly [string, number]>;
+  /** Total bytes across all languages (denominator). */
+  totalBytes: number;
+  /** Optional max segments to show. */
+  maxSegments?: number;
+}
+
+const { languages, totalBytes, maxSegments = 5 } = Astro.props;
+
+const segments = languages.slice(0, maxSegments).map(([name, bytes]) => {
+  const pct = Math.round((bytes / Math.max(1, totalBytes)) * 100);
+  return { name, pct, color: langColor(name) };
+});
+---
+
+{segments.length > 0 && (
+  <div class="grove-langbreak mt-4 border-t border-ink-100 pt-4 dark:border-ink-800">
+    <h3 class="m-0 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400">
+      Code composition
+    </h3>
+    <div
+      class="grove-langbreak-bar mt-2 flex h-2 w-full overflow-hidden rounded-full bg-ink-100 dark:bg-ink-800"
+      role="img"
+      aria-label={`Code composition: ${segments.map((s) => `${s.name} ${s.pct}%`).join(', ')}`}
+    >
+      {segments.map((s) => (
+        <span
+          class="grove-langbreak-seg h-full"
+          style={`width:${s.pct}%;background-color:${s.color}`}
+          title={`${s.name}: ${s.pct}%`}
+        />
+      ))}
+    </div>
+    <ul class="grove-langbreak-list mt-2 flex flex-wrap gap-x-3 gap-y-1 text-2xs text-ink-500 dark:text-ink-400">
+      {segments.map((s) => (
+        <li class="inline-flex items-center gap-1">
+          <span
+            class="inline-block h-2 w-2 rounded-sm"
+            style={`background-color:${s.color}`}
+          />
+          <span class="font-mono">{s.name}</span>
+          <span>{s.pct}%</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

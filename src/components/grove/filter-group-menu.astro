@@ -1,0 +1,69 @@
+---
+import { buttonClass, filterTriggerClass } from '../../lib/classnames.ts';
+import FilterOptions from './filter-options.astro';
+
+interface FacetValue {
+  value: string;
+  label?: string;
+  count?: number;
+}
+
+interface Props {
+  label: string;
+  filterKey: string;
+  options: FacetValue[];
+  initial: string[];
+  single?: boolean;
+  active: boolean;
+  popoverId: string;
+  trigger: string;
+}
+
+const group = Astro.props;
+---
+
+<div class="grove-filter relative" data-filter-group-key={group.filterKey} data-filter-single={group.single ? "true" : "false"}>
+  <button
+    type="button"
+    class={filterTriggerClass(group.active)}
+    aria-expanded="false"
+    aria-controls={group.popoverId}
+  >
+    <span>{group.trigger}</span>
+    <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor" class="opacity-70">
+      <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"/>
+    </svg>
+  </button>
+  {/* A group of native checkboxes/radios — the old listbox role over
+      label/input children had no valid accessibility tree. */}
+  <div
+    id={group.popoverId}
+    class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-popover text-popover-foreground shadow-xl grove-filter-popover absolute left-0 top-full z-40 mt-1 hidden w-72 max-w-[calc(100vw-2rem)] p-1.5"
+    role="group"
+    aria-label={`${group.label} filters`}
+    hidden
+  >
+    <FilterOptions filterKey={group.filterKey} options={group.options} initial={group.initial} single={group.single} />
+    {/* Single-select groups navigate on change, so Apply would be a
+        dead affordance — they keep only Clear, and the whole footer
+        hides itself while Clear is hidden (the client script toggles
+        Clear's `hidden` class from the live URL state). */}
+    <div
+      class:list={[
+        "mt-1 flex items-center justify-between border-t border-ink-100 px-2 pt-1.5 dark:border-ink-900",
+        group.single && "has-[.grove-filter-clear.hidden]:hidden",
+      ]}
+    >
+      <button
+        type="button"
+        class:list={[
+          "grove-filter-clear text-2xs font-medium text-ink-500 hover:text-ink-900 dark:text-ink-400 dark:hover:text-ink-100",
+          !group.active && "hidden",
+        ]}
+      >Clear {group.label.toLowerCase()}</button>
+      {!group.single && (
+        <button type="button" class={buttonClass("primary", "sm", "grove-filter-apply ml-auto px-2.5 text-2xs")}>Apply</button>
+      )}
+    </div>
+  </div>
+</div>

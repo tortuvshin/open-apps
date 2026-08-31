@@ -8,12 +8,12 @@
  */
 import siteConfig from '@grove/generated/site-config.json';
 import { getRecordDetailModel, recordDetailPaths } from '@grove-dev/astro/server';
-import BaseLayout from '@grove-dev/astro/layouts/BaseLayout.astro';
-import RecordHeader from '@grove-dev/astro/components/RecordHeader.astro';
-import EditorialSummary from '@grove-dev/astro/components/EditorialSummary.astro';
-import TableOfContents from '@grove-dev/astro/components/TableOfContents.astro';
-import MarkdownBody from '@grove-dev/astro/components/MarkdownBody.astro';
-import RecordSidebar from '@grove-dev/astro/components/RecordSidebar.astro';
+import EditorialSummary from '../../components/grove/editorial-summary.astro';
+import MarkdownBody from '../../components/grove/markdown-body.astro';
+import RecordHeader from '../../components/grove/record-header.astro';
+import RecordSidebar from '../../components/grove/record-sidebar.astro';
+import TableOfContents from '../../components/grove/table-of-contents.astro';
+import BaseLayout from '../../layouts/base-layout.astro';
 
 export function getStaticPaths() {
   return recordDetailPaths(siteConfig);
@@ -34,10 +34,10 @@ const { record, itemSingular, seo } = detail;
   description={seo.description}
   image={seo.image}
   imageAlt={seo.imageAlt}
+  site={siteConfig}
+  noindex={seo.noindex}
   type="article"
   jsonLd={seo.jsonLd}
-  noindex={seo.noindex}
-  site={siteConfig}
   submitHref="/submit"
   submitLabel={`Submit ${itemSingular}`}
 >

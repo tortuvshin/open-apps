@@ -1,0 +1,116 @@
+---
+/**
+ * WhyThisExists — the "what is this site for?" section.
+ *
+ * Renders 3 short, opinionated points (icon + title + body). The
+ * icon set is small and generic: "item" (window/grid glyph),
+ * "code" (angle brackets), "search" (magnifier). Defaults to
+ * the canonical "directory, source, search" trio.
+ *
+ * Generic: every point comes through props. No blueprint-specific
+ * copy. Consumers can pass `points` to swap the order or copy.
+ */
+
+interface WhyPoint {
+  title: string;
+  body: string;
+  icon: 'item' | 'code' | 'search';
+}
+
+interface Props {
+  points?: WhyPoint[];
+  eyebrow?: string;
+  title?: string;
+  description?: string;
+  class?: string;
+}
+
+const {
+  points,
+  eyebrow = 'Why this exists',
+  title = 'Most directory discovery is fragmented.',
+  description = 'Lists are useful, but they often become long, static pages without enough context to compare what is real, maintained, and worth exploring.',
+  class: className = '',
+} = Astro.props;
+
+const defaultPoints: WhyPoint[] = [
+  {
+    icon: 'item',
+    title: 'Real projects',
+    body: 'Not SDKs, templates, or tiny demos. Focused on complete projects you can actually run.',
+  },
+  {
+    icon: 'code',
+    title: 'Codebase context',
+    body: 'Stack, platform, license, activity, maturity, and contribution signals in one place.',
+  },
+  {
+    icon: 'search',
+    title: 'Searchable discovery',
+    body: 'Browse by category, stack, platform, stars, recency, and status instead of scanning a flat list.',
+  },
+];
+
+const items = points && points.length > 0 ? points : defaultPoints;
+---
+
+<section
+  id="about"
+  class:list={["py-12 sm:py-16 scroll-mt-20 border-b border-ink-200 dark:border-ink-800", className]}
+  aria-labelledby="grove-why-heading"
+>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    <header class="flex flex-col gap-2">
+      <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+        {eyebrow}
+      </span>
+      <h2
+        id="grove-why-heading"
+        class="m-0 max-w-[40ch] text-[1.5rem] sm:text-[1.75rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
+      >
+        {title}
+      </h2>
+      {description && (
+        <p class="m-0 max-w-[64ch] text-[0.9375rem] leading-relaxed text-ink-500 dark:text-ink-400">
+          {description}
+        </p>
+      )}
+    </header>
+
+    <ul
+      class="m-0 mt-7 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-3"
+      aria-label="Why this directory"
+    >
+      {items.map((p) => (
+        <li class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors p-4">
+          <div
+            aria-hidden="true"
+            class="mb-3 flex h-8 w-8 items-center justify-center rounded-md border border-ink-200 bg-white text-ink-700 dark:border-ink-800 dark:bg-ink-950 dark:text-ink-300"
+          >
+            {p.icon === "item" && (
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                <path d="M1.75 3.5a.25.25 0 0 1 .25-.25h12a.25.25 0 0 1 .25.25v8a.25.25 0 0 1-.25.25h-12a.25.25 0 0 1-.25-.25v-8ZM2 4.75v6h12v-6H2ZM2.5 6.5h4v2.5h-4V6.5Z"></path>
+              </svg>
+            )}
+            {p.icon === "code" && (
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                <path d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25Zm6.56 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L13.94 8l-3.72-3.72a.75.75 0 0 1 0-1.06Z"></path>
+              </svg>
+            )}
+            {p.icon === "search" && (
+              <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                <path d="M10.68 11.74a6 6 0 1 1 1.06-1.06l3.04 3.04a.75.75 0 1 1-1.06 1.06l-3.04-3.04ZM11.5 7a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z"></path>
+              </svg>
+            )}
+          </div>
+          <h3 class="m-0 text-[0.9375rem] font-semibold text-ink-900 dark:text-ink-100">
+            {p.title}
+          </h3>
+          <p class="m-0 mt-1.5 text-[0.8125rem] leading-relaxed text-ink-500 dark:text-ink-400">
+            {p.body}
+          </p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

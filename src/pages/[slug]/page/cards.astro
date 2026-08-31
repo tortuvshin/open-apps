@@ -16,16 +16,16 @@
  * already indexable through the paginated browse pages and its own
  * detail page.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import { getDirectoryIndexModel } from "@grove-dev/astro/server";
-import IndexRow from "@grove-dev/astro/components/IndexRow.astro";
+import siteConfig from '@grove/generated/site-config.json';
+import { getDirectoryIndexModel } from '@grove-dev/astro/server';
+import IndexRow from '../../../components/grove/index-row.astro';
 
 export function getStaticPaths() {
-  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
   return [{ params: { slug: routeSlug } }];
 }
 
-const slug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 const { sorted } = getDirectoryIndexModel(new URLSearchParams(), siteConfig);
 ---
 

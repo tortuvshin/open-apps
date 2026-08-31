@@ -23,7 +23,8 @@
  * `@grove-dev/core/directory` functions the server used. Filtered views
  * paginate with `?page=N` on the base route.
  */
-import siteConfig from "@grove/generated/site-config.json";
+import siteConfig from '@grove/generated/site-config.json';
+import { SORT_OPTIONS, sortDisplay } from '@grove-dev/astro';
 import {
   getDirectoryIndexModel,
   itemLabel,
@@ -31,19 +32,20 @@ import {
   seoTitle,
   taxonomy,
   titleCaseFirst,
-} from "@grove-dev/astro/server";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import CardGrid from "@grove-dev/astro/components/CardGrid.astro";
-import RefinePanel from "@grove-dev/astro/components/RefinePanel.astro";
-import IndexRow from "@grove-dev/astro/components/IndexRow.astro";
-import Pagination from "@grove-dev/astro/components/Pagination.astro";
-import DirectoryIndexClient from "@grove-dev/astro/components/DirectoryIndexClient.astro";
-import { SORT_OPTIONS, sortDisplay } from "@grove-dev/astro";
-import { formatCount } from "@grove-dev/core";
-import { buttonClass, chipClass } from "@grove-dev/astro/ui/button";
-import PageHeader from "@grove-dev/astro/ui/PageHeader.astro";
-import SearchField from "@grove-dev/astro/ui/SearchField.astro";
-import FilterDrawer from "@grove-dev/astro/ui/FilterDrawer.astro";
+} from '@grove-dev/astro/server';
+import { formatCount } from '@grove-dev/core';
+import BaseLayout from '../../layouts/base-layout.astro';
+import { chipClass } from '../../lib/classnames.ts';
+import Button from '../ui/button.astro';
+import FilterDrawer from '../ui/filter-drawer.astro';
+import PageHeader from '../ui/page-header.astro';
+import SearchField from '../ui/search-field.astro';
+import CardGrid from './card-grid.astro';
+import DirectoryIndexClient from './directory-index-client.astro';
+import IndexRow from './index-row.astro';
+import Pagination from './pagination.astro';
+import RefinePanel from './refine-panel.astro';
+import SmartLensTabs from './smart-lens-tabs.astro';
 
 interface Props {
   /** 1-based page this route renders. */
@@ -51,7 +53,7 @@ interface Props {
 }
 
 const { routePage = 1 } = Astro.props;
-const slug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 const {
   total,
   filters,
@@ -68,18 +70,20 @@ const {
   seo,
 } = getDirectoryIndexModel(Astro.url.searchParams, siteConfig, { page: routePage });
 
-// Page 2+ gets a distinct title so paginated routes are not a pile of
-// identical documents to a crawler — and so paginated titles fit the
-// 65-char cap `seoTitle` enforces.
+// Page 2+ gets a distinct title and skips the ItemList JSON-LD so the
+// list markup isn't duplicated across every paginated route. The
+// per-page description is built inside `getDirectoryIndexModel` so it
+// fits inside the 160-char cap; this view just forwards `seo.title`.
 const title =
   page > 1
     ? seoTitle(`Browse ${titleCaseFirst(itemLabelPlural())} — Page ${page}`, siteConfig.name)
     : seo.title;
+const description = seo.description;
 ---
 
 <BaseLayout
   title={title}
-  description={seo.description}
+  description={description}
   image={seo.image}
   jsonLd={page > 1 ? undefined : seo.jsonLd}
   site={siteConfig}
@@ -92,6 +96,17 @@ const title =
         eyebrow={slug}
         title={`Browse ${slug}`}
         description={`Search, filter, and explore ${formatCount(total, { singular: itemLabel(), plural: itemLabelPlural() })} in this directory.`}
+      />
+
+      {/* Curated views. Real links (not a JS-driven control) — the
+          same server-and-client filter pipeline (@grove-dev/core's
+          filtersFromSearchParams/filterRecords) already understands
+          `?lens=`, so this works with JS disabled too. */}
+      <SmartLensTabs
+        currentParams={Astro.url.searchParams}
+        pathPrefix={`/${slug}`}
+        lensIds={["all", "hot", "new", "mature"]}
+        class="mt-6"
       />
 
       {/* Row 1 — search and sort. Search filters as you type (see
@@ -210,7 +225,7 @@ const title =
         <p class="m-0 text-sm font-medium text-ink-700 dark:text-ink-200">
           {`No ${itemLabelPlural()} match these filters.`}
         </p>
-        <a href={clearFiltersHref} class={buttonClass("secondary", "sm", "mt-4")}>Clear filters</a>
+        <Button href={clearFiltersHref} variant="secondary" size="sm" class="mt-4">Clear filters</Button>
       </div>
       {/* Plain div wrapper — Pagination renders its own
           <nav aria-label="Pagination">, so a nav here would nest two
@@ -230,12 +245,9 @@ const title =
         <p class="m-0 max-w-2xl text-sm text-ink-500 dark:text-ink-400">
           {`Open a pull request with a YAML file. We review every submission against the bar — no marketing, no tutorials.`}
         </p>
-        <a
-          href="/submit"
-          class={buttonClass("primary", "sm", "mt-2")}
-        >
+        <Button href="/submit" variant="primary" size="sm" class="mt-2">
           {`Submit ${itemLabel()}`}
-        </a>
+        </Button>
 
       </div>
     </div>

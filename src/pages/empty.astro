@@ -1,21 +1,16 @@
 ---
+import siteConfig from '@grove/generated/site-config.json';
+import EmptyState from '../components/ui/empty-state.astro';
 /**
  * Empty-state fixture (`audit.pages` type "empty") — renders the
  * shared `EmptyState` primitive so the audit sample represents what
  * visitors actually see when a directory has nothing to show.
  */
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import EmptyState from "@grove-dev/astro/ui/EmptyState.astro";
-import siteConfig from "@grove/generated/site-config.json";
+import BaseLayout from '../layouts/base-layout.astro';
 
-const slug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 ---
-<BaseLayout
-  title="No results"
-  description="Empty state fixture."
-  noindex
-  site={siteConfig}
->
+<BaseLayout title={`No results | ${siteConfig.name}`} description="Empty state fixture." site={siteConfig} noindex>
   <section class="py-16 sm:py-24">
     <div class="mx-auto w-full max-w-narrow px-5 sm:px-7">
       <h1 class="sr-only">No results</h1>

@@ -1,0 +1,115 @@
+---
+import { formatCount } from '@grove-dev/core';
+
+/**
+ * CategoryGrid — browse-by-category grid for the home page.
+ *
+ * The lighter sibling of StackGrid. Renders a card per category with
+ * name, blurb, and count. Generic: takes a list of plain
+ * `{ name, slug, blurb, count }` entries.
+ */
+
+interface CategoryEntry {
+  name: string;
+  slug: string;
+  blurb?: string;
+  count?: number;
+}
+
+interface Props {
+  categories: CategoryEntry[];
+  /** List page base. */
+  pathPrefix?: string;
+  /** Extra class. */
+  class?: string;
+  /** Hide the section header. */
+  bare?: boolean;
+  itemLabelPlural?: string;
+  /** Noun pair for count chips — singular fixes "1 projects". */
+  itemNoun?: { singular: string; plural: string };
+  /** Pass 1 when this grid IS the page (`/categories` index). */
+  level?: 1 | 2;
+  /** Card link builder (defaults to browse filtered by category). */
+  hrefFor?: (slug: string) => string;
+}
+
+const {
+  categories,
+  pathPrefix = '/',
+  class: className = '',
+  bare = false,
+  itemLabelPlural = 'items',
+  itemNoun = { singular: 'item', plural: 'items' },
+  level = 2,
+  hrefFor,
+} = Astro.props;
+
+const Heading: 'h1' | 'h2' = level === 1 ? 'h1' : 'h2';
+
+function buildHref(slug: string): string {
+  if (hrefFor) return hrefFor(slug);
+  const base = pathPrefix.replace(/\/$/, '');
+  return `${base}?category=${encodeURIComponent(slug)}`;
+}
+---
+
+<section
+  id="categories"
+  class:list={["py-12 sm:py-16 scroll-mt-20 border-b border-ink-200 dark:border-ink-800", className]}
+  aria-labelledby={bare ? undefined : "grove-categorygrid-heading"}
+>
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    {!bare && (
+      <header class="mb-6">
+        <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+          Categories
+        </span>
+        <Heading
+          id="grove-categorygrid-heading"
+          class="m-0 mt-1 text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
+        >
+          Browse by category
+        </Heading>
+        <p class="m-0 max-w-[60ch] text-[0.9375rem] text-ink-500 dark:text-ink-400">
+          Find {itemLabelPlural} by what they do, not by which stack they use.
+        </p>
+      </header>
+    )}
+
+    <div class="overflow-hidden rounded-lg border border-ink-200 dark:border-ink-800">
+      <ul class="m-0 grid list-none grid-cols-1 divide-y divide-ink-200 p-0 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-3 dark:divide-ink-800">
+        {categories.map((c) => (
+          <li class="divide-x divide-ink-200 dark:divide-ink-800">
+            <a
+              href={buildHref(c.slug)}
+              class="group flex h-full items-start gap-3 p-4 no-underline transition-colors hover:bg-ink-50/60 dark:hover:bg-ink-900/40"
+            >
+              <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+                <div class="flex items-center gap-2">
+                  {/* Not a heading — see StackGrid: link tiles under a
+                      page h1 must not introduce h3 skips. */}
+                  <span class="m-0 text-[0.9375rem] font-semibold tracking-tight text-ink-900 group-hover:underline dark:text-ink-100">
+                    {c.name}
+                  </span>
+                  {typeof c.count === "number" && (
+                    <span class="inline-flex items-center rounded-md border border-ink-200 bg-ink-50 px-1.5 py-0.5 font-mono text-[10px] font-medium text-ink-600 dark:border-ink-800 dark:bg-ink-900/60 dark:text-ink-400">
+                      {formatCount(c.count, itemNoun)}
+                    </span>
+                  )}
+                </div>
+                {c.blurb && (
+                  <p class="m-0 text-2xs leading-relaxed text-ink-500 dark:text-ink-400">
+                    {c.blurb}
+                  </p>
+                )}
+              </div>
+              <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" class="mt-1 shrink-0 text-ink-300 transition-colors group-hover:text-ink-500 dark:text-ink-700 dark:group-hover:text-ink-400" fill="currentColor">
+                <path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z" />
+              </svg>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

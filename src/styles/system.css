@@ -1,0 +1,1197 @@
+/*
+ * Grove design system — your copy.
+ *
+ * The registry installed this file into your project; it is yours to
+ * edit. `base-layout.astro` imports it, so it is the single entry point
+ * for the whole stack. It owns Tailwind theme tokens, runtime light/dark
+ * values, base element defaults, and rendered Markdown styles. Astro
+ * components keep their presentation in HTML with Tailwind utilities.
+ *
+ * For overrides you would rather keep separate from upstream, create
+ * `src/styles/global.css` — the Grove integration auto-loads it after
+ * this file, and `grove update` never touches it.
+ */
+
+@import "tailwindcss";
+/*
+ * Custom `dark` variant — `dark:` utilities must key off the `.dark`
+ * class on <html> (set by the THEME_INIT script in BaseLayout.astro),
+ * NOT off `prefers-color-scheme`. Tailwind v4.3.0 splits the selector
+ * argument on commas — including commas inside `:where(...)` — so
+ * `(&:where(.dark, .dark *))` is silently parsed as two separate
+ * (and broken) selectors and the variant never registers. Use two
+ * selectors joined by a space instead.
+ */
+@custom-variant dark (&:where(.dark), &:where(.dark *));
+@source "./**/*.{astro,html,js,jsx,ts,tsx}";
+
+@theme {
+  /* ── Starlight-aligned neutral scale ──────────────────────────── */
+  --color-ink-50: oklch(98.5% 0 0);
+  --color-ink-100: oklch(97% 0 0);
+  --color-ink-200: oklch(92.2% 0 0);
+  --color-ink-300: oklch(87% 0 0);
+  --color-ink-400: oklch(70.8% 0 0);
+  --color-ink-500: oklch(55.6% 0 0);
+  --color-ink-600: oklch(43.9% 0 0);
+  --color-ink-700: oklch(37.1% 0 0);
+  --color-ink-800: oklch(26.9% 0 0);
+  --color-ink-900: oklch(20.5% 0 0);
+  --color-ink-950: oklch(14.5% 0 0);
+
+  /* ── Semantic colors ────────────────────────────────────────────
+   * These point at runtime variables instead of fixed palette steps so
+   * Tailwind utilities such as `bg-background` and `text-foreground`
+   * follow the resolved theme without requiring a `dark:` twin. The
+   * values below mirror packages/starlight/styles/{theme,base}.css.
+   */
+  --color-background: var(--grove-background);
+  --color-foreground: var(--grove-foreground);
+  --color-primary: var(--grove-primary);
+  --color-primary-foreground: var(--grove-primary-foreground);
+  --color-secondary: var(--grove-secondary);
+  --color-secondary-foreground: var(--grove-secondary-foreground);
+  --color-muted: var(--grove-muted);
+  --color-muted-foreground: var(--grove-muted-foreground);
+  --color-accent: var(--grove-accent);
+  --color-accent-foreground: var(--grove-accent-foreground);
+  --color-border: var(--grove-border);
+  --color-input: var(--grove-input);
+  --color-ring: var(--grove-ring);
+  --color-card: var(--grove-card);
+  --color-card-foreground: var(--grove-card-foreground);
+  --color-popover: var(--grove-popover);
+  --color-popover-foreground: var(--grove-popover-foreground);
+
+  /* ── Surfaces ───────────────────────────────────────────────────
+   * Elevation roles. `card` and `popover` above resolve to these so
+   * legacy utilities keep working while new components can name the
+   * elevation they mean.
+   */
+  --color-surface-raised: var(--grove-surface-raised);
+  --color-surface-sunken: var(--grove-surface-sunken);
+  --color-surface-overlay: var(--grove-surface-overlay);
+
+  /* ── Selection (neutral inversion) ──────────────────────────────
+   * Active filters, current lens/page, and other "you are here"
+   * states. Deliberately decoupled from the brand primary so green
+   * can mean brand action or success — never selection.
+   */
+  --color-selected: var(--grove-selected);
+  --color-selected-foreground: var(--grove-selected-foreground);
+
+  /* ── Status roles (solid fill + text-on-fill pairs) ───────────── */
+  --color-success: var(--grove-success);
+  --color-success-foreground: var(--grove-success-foreground);
+  --color-warning: var(--grove-warning);
+  --color-warning-foreground: var(--grove-warning-foreground);
+  --color-danger: var(--grove-danger);
+  --color-danger-foreground: var(--grove-danger-foreground);
+  --color-info: var(--grove-info);
+  --color-info-foreground: var(--grove-info-foreground);
+
+  /* ── Accent (interactive states) ─────────────────────────────── */
+  --color-accent-muted: color-mix(in oklab, var(--grove-foreground) 8%, transparent);
+
+  /* ── Status palettes (badges only) ───────────────────────────── */
+  --color-emerald-50: oklch(98.2% 0.018 155.826);
+  --color-emerald-300: oklch(87.1% 0.15 154.449);
+  --color-emerald-400: oklch(79.2% 0.209 151.711);
+  --color-emerald-500: oklch(72.3% 0.219 149.579);
+  --color-emerald-600: oklch(52.7% 0.154 150.069);
+  --color-emerald-700: oklch(52.7% 0.154 150.069);
+  --color-emerald-800: oklch(26.6% 0.065 152.934);
+  --color-emerald-950: oklch(26.6% 0.065 152.934);
+
+  --color-orange-50: oklch(98% 0.016 73.684);
+  --color-orange-300: oklch(90.1% 0.076 70.697);
+  --color-orange-400: oklch(83.7% 0.128 66.29);
+  --color-orange-500: oklch(70.5% 0.213 47.604);
+  --color-orange-700: oklch(70.5% 0.213 47.604);
+  --color-orange-800: oklch(55.3% 0.195 38.402);
+  --color-orange-950: oklch(40.8% 0.123 38.172);
+
+  --color-blue-50: oklch(97% 0.014 254.604);
+  --color-blue-300: oklch(82.8% 0.111 230.318);
+  --color-blue-400: oklch(70.7% 0.165 254.624);
+  --color-blue-700: oklch(48.8% 0.243 264.376);
+  --color-blue-800: oklch(29.3% 0.066 243.157);
+  --color-blue-950: oklch(29.3% 0.066 243.157);
+
+  --color-amber-50: oklch(98% 0.016 73.684);
+  --color-amber-300: oklch(90.1% 0.076 70.697);
+  --color-amber-400: oklch(83.7% 0.128 66.29);
+  --color-amber-500: oklch(83.7% 0.128 66.29);
+  --color-amber-600: oklch(70.5% 0.213 47.604);
+  --color-amber-700: oklch(70.5% 0.213 47.604);
+  --color-amber-800: oklch(55.3% 0.195 38.402);
+  --color-amber-900: oklch(40.8% 0.123 38.172);
+  --color-amber-950: oklch(40.8% 0.123 38.172);
+
+  /* ── Font stacks ─────────────────────────────────────────────── */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+
+  /* ── Starlight typography weight/rhythm ──────────────────────── */
+  --font-weight-semibold: 500;
+  --font-weight-bold: 600;
+  --leading-relaxed: 1.75;
+
+  /* ── Font size extensions (2xs) ──────────────────────────────── */
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1rem;
+
+  /* ── Container widths (showcase rhythm) ──────────────────────────
+   * The default container tracks `theme.containerWidth` from
+   * grove.config.ts: BaseLayout emits `--grove-container` on <html>
+   * and the token falls back to the package default when unset. */
+  --container-container: var(--grove-container, 1160px);
+  /* `wide` is an opt-in escape hatch, not a second site width. It is
+     clamped to the configured container so a wide section can never
+     overhang the header, footer, and the rest of the page — every
+     shell and page template uses `max-w-container`. */
+  --container-wide: min(var(--grove-container, 1400px), 1400px);
+  /* `narrow` is the reading measure for prose pages (about, 404,
+     empty). Clamped for the same reason — a site narrower than 720px
+     should not have its prose pages spill past its own frame. */
+  --container-narrow: min(var(--grove-container, 720px), 720px);
+
+  /* ── Border radius scale ──────────────────────────────────────────
+   * Driven by `theme.radius` ("none" | "soft" | "round") the same
+   * way — BaseLayout emits the `--grove-radius*` overrides. */
+  --radius: var(--grove-radius, 0.625rem);
+  --radius-lg: var(--grove-radius-lg, 0.5rem);
+  --radius-xl: var(--grove-radius-xl, 0.75rem);
+
+  /* ── Animations ──────────────────────────────────────────────── */
+  --animate-fade-in-up: fade-in-up 0.6s ease-out both;
+  --animate-fade-in: fade-in 0.8s ease-out both;
+  --animate-gradient-shift: gradient-shift 8s ease-in-out infinite;
+  --animate-subtle-bob: subtle-bob 3s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes subtle-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+/* Respect the OS-level "reduce motion" setting. Neutralizes every
+ * animation/transition (the `--animate-*` custom properties above,
+ * plus one-off `animate-pulse` / `animate-ping` utility classes used
+ * directly in components) rather than trying to freeze each keyframe
+ * mid-motion, which isn't meaningful for e.g. `background-position`. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────
+ * Base
+ * ────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    color-scheme: light;
+
+    /* Starlight light theme, expressed as Grove's public semantic API. */
+    --grove-background: oklch(100% 0 0);
+    --grove-foreground: var(--color-ink-950);
+    --grove-gray-1: var(--color-ink-900);
+    --grove-gray-2: var(--color-ink-800);
+    --grove-gray-3: var(--color-ink-700);
+    --grove-gray-4: var(--color-ink-500);
+    --grove-gray-5: var(--color-ink-400);
+    --grove-gray-6: var(--color-ink-300);
+    --grove-gray-7: var(--color-ink-100);
+    /* Brand color from `theme.primaryColor` (grove.config.ts) —
+     * BaseLayout emits `--grove-theme-primary*` on <html>; without
+     * a config the site keeps the neutral ink treatment. */
+    --grove-primary: var(--grove-theme-primary, var(--grove-foreground));
+    --grove-primary-foreground: var(--grove-theme-primary-foreground, var(--grove-gray-7));
+    --grove-secondary: var(--grove-gray-7);
+    --grove-secondary-foreground: var(--grove-foreground);
+    --grove-muted: var(--grove-gray-7);
+    --grove-muted-foreground: var(--grove-gray-4);
+    --grove-accent: var(--grove-gray-7);
+    --grove-accent-foreground: var(--grove-foreground);
+    --grove-border: var(--grove-gray-6);
+    --grove-input: var(--grove-gray-6);
+    --grove-ring: var(--grove-gray-4);
+    /* Elevation: raised surfaces stay in the light family — cards sit
+     * on the page via border, not a dark fill. */
+    --grove-surface-raised: var(--grove-background);
+    --grove-surface-sunken: var(--color-ink-100);
+    --grove-surface-overlay: var(--grove-background);
+    --grove-card: var(--grove-surface-raised);
+    --grove-card-foreground: var(--grove-foreground);
+    --grove-popover: var(--grove-surface-overlay);
+    --grove-popover-foreground: var(--grove-foreground);
+    /* Selection: neutral inversion (vite.dev-style), never the brand
+     * primary. */
+    --grove-selected: var(--color-ink-900);
+    --grove-selected-foreground: var(--color-ink-50);
+    /* Status fills with AA text-on-fill partners. */
+    --grove-success: #15803d;
+    --grove-success-foreground: #ffffff;
+    --grove-warning: #92400e;
+    --grove-warning-foreground: #ffffff;
+    --grove-danger: #b91c1c;
+    --grove-danger-foreground: #ffffff;
+    --grove-info: #1d4ed8;
+    --grove-info-foreground: #ffffff;
+  }
+
+  :root.dark {
+    color-scheme: dark;
+    --grove-background: var(--color-ink-950);
+    --grove-foreground: var(--color-ink-50);
+    --grove-gray-1: var(--color-ink-50);
+    --grove-gray-2: var(--color-ink-300);
+    --grove-gray-3: var(--color-ink-400);
+    --grove-gray-4: var(--color-ink-500);
+    --grove-gray-5: var(--color-ink-700);
+    --grove-gray-6: var(--color-ink-800);
+    --grove-gray-7: var(--color-ink-900);
+    /* Dark mode lifts the brand color toward white (see BaseLayout's
+     * emitted `--grove-theme-primary-dark`) so contrast holds. The
+     * foreground is computed against that lifted value, never assumed. */
+    --grove-primary: var(--grove-theme-primary-dark, var(--grove-foreground));
+    --grove-primary-foreground: var(--grove-theme-primary-dark-foreground, var(--grove-gray-7));
+    --grove-secondary: var(--grove-gray-6);
+    --grove-secondary-foreground: var(--grove-foreground);
+    --grove-muted: var(--grove-gray-6);
+    --grove-muted-foreground: var(--grove-gray-3);
+    --grove-accent: var(--grove-gray-5);
+    --grove-accent-foreground: var(--grove-foreground);
+    --grove-border: var(--grove-gray-6);
+    --grove-input: var(--grove-gray-5);
+    --grove-ring: var(--grove-gray-4);
+    /* Elevation: the dark raised surface sits just above the ink-950
+     * page (deliberate landing-page value; hover lifts to ink-900). */
+    --grove-surface-raised: #141516;
+    --grove-surface-sunken: oklch(11.5% 0 0);
+    --grove-surface-overlay: var(--grove-gray-7);
+    --grove-card: var(--grove-surface-raised);
+    --grove-card-foreground: var(--grove-foreground);
+    --grove-popover: var(--grove-surface-overlay);
+    --grove-popover-foreground: var(--grove-foreground);
+    /* Selection: neutral inversion, mirrored. */
+    --grove-selected: var(--color-ink-100);
+    --grove-selected-foreground: var(--color-ink-950);
+    /* Status fills lift toward pastels with dark text-on-fill. */
+    --grove-success: #4ade80;
+    --grove-success-foreground: var(--color-ink-950);
+    --grove-warning: #fbbf24;
+    --grove-warning-foreground: var(--color-ink-950);
+    --grove-danger: #f87171;
+    --grove-danger-foreground: var(--color-ink-950);
+    --grove-info: #60a5fa;
+    --grove-info-foreground: var(--color-ink-950);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    background: var(--grove-background);
+    color: var(--grove-foreground);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* Subtle selection */
+  ::selection {
+    background: var(--grove-muted);
+    color: var(--grove-foreground);
+  }
+
+  /* Slim, neutral scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--grove-border) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: var(--grove-border);
+    border-radius: 4px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font: inherit;
+  }
+
+  :where(
+    input[type="text"],
+    input[type="search"],
+    input[type="url"],
+    input[type="email"],
+    input:not([type]),
+    textarea
+  ) {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    display: none;
+  }
+
+  /* Inputs that live INSIDE a styled shell (the hero search pill)
+   * opt out with `.grove-input-unstyled`: the shell owns the border,
+   * radius, background, and the focus treatment via `focus-within` —
+   * forcing a second background/radius/focus ring on the inner input
+   * paints a box-within-a-box. */
+  :where(
+    input[type="text"],
+    input[type="search"],
+    input[type="url"],
+    input[type="email"],
+    input:not([type]),
+    select,
+    textarea
+  ):not(.grove-input-unstyled) {
+    border-color: var(--grove-input) !important;
+    border-radius: var(--radius) !important;
+    background-color: var(--grove-background) !important;
+    color: var(--grove-foreground) !important;
+  }
+
+  :where(
+    input[type="text"],
+    input[type="search"],
+    input[type="url"],
+    input[type="email"],
+    input:not([type]),
+    select,
+    textarea
+  ):not(.grove-input-unstyled):focus-visible {
+    border-color: var(--grove-ring) !important;
+    outline: none;
+    box-shadow: 0 0 0 3px color-mix(in oklab, var(--grove-ring) 35%, transparent);
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────
+ * Rendered record Markdown
+ *
+ * The `.grove-prose` class wraps any rendered Markdown body (record
+ * sidecar or consumer-authored page). Sizing follows the editorial
+ * recipe:
+ *   body  17px / 1.75
+ *   h2    28px   h3   21px   h4   17px   h5/h6  smaller, uppercase tracker
+ * The parent column owns the measure (≈760–820px on lg+), so the
+ * `.grove-prose` wrapper intentionally omits a `max-width`.
+ *
+ * Colors come from the package's `ink-*` scale via CSS variables so
+ * every consumer gets the same baseline regardless of brand overrides.
+ * ────────────────────────────────────────────────────────────────── */
+
+/* ──────────────────────────────────────────────────────────────────
+ * Monochrome brand marks (`Icon.astro`, kind: "mono")
+ *
+ * An SVG loaded through `<img src>` is an independent document that
+ * page CSS cannot reach, so `currentColor` inside it never resolves
+ * against the theme — it silently renders black in both modes. That
+ * is why single-color marks (Apple, Rust, Tauri, Deno, …) used to
+ * need a hand-maintained `-light`/`-dark` file pair plus a JS `src`
+ * swap, and why the pair was easy to get backwards.
+ *
+ * Masking inverts the relationship: the SVG supplies the *shape*
+ * (via its alpha channel) and the page supplies the *color* — no
+ * script and no second file.
+ *
+ * The paint is `--grove-foreground`, NOT `currentColor`. These are
+ * brand marks, and a brand mark's real presentation is solid black on
+ * light and solid white on dark — not whatever tint the surrounding
+ * chip label happens to use. Inheriting `currentColor` washed the
+ * Apple mark down to the chip's muted `ink-500`, which reads as a
+ * greyed-out logo rather than a logo. Callers that genuinely want a
+ * tinted mark can override `--grove-icon-mono`.
+ *
+ * The URL is per-icon and computed at render time, so it can never
+ * appear literally in a source file for Tailwind's extractor to find
+ * — arbitrary `mask-[url(…)]` utilities are structurally impossible
+ * here. Everything static lives in this class; only the URL travels
+ * inline, as `--grove-icon-url`.
+ * ────────────────────────────────────────────────────────────────── */
+.grove-icon-mask {
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+  background-color: var(--grove-icon-mono, var(--grove-foreground));
+  -webkit-mask-image: var(--grove-icon-url);
+  mask-image: var(--grove-icon-url);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* Print stylesheets drop background colors, which would erase the
+ * glyph entirely — an `<img>` would still print. */
+@media print {
+  .grove-icon-mask {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* Forced-colors mode overrides `background-color`; pin it to the
+ * system text color so the mark stays visible. */
+@media (forced-colors: active) {
+  .grove-icon-mask {
+    background-color: CanvasText;
+  }
+}
+
+.grove-prose {
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.75;
+  color: var(--color-ink-700, #3a3a3a);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.dark .grove-prose {
+  color: var(--color-ink-200, #d4d4d4);
+}
+.grove-prose > :first-child {
+  margin-top: 0;
+}
+.grove-prose > :last-child {
+  margin-bottom: 0;
+}
+
+/* Headings — full depth. */
+.grove-prose :where(h1, h2, h3, h4, h5, h6) {
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--color-ink-900, #1a1a1a);
+  scroll-margin-top: 5rem;
+}
+.dark .grove-prose :where(h1, h2, h3, h4, h5, h6) {
+  color: var(--color-ink-100, #f0f0f0);
+}
+/* Page bodies open with a `# <Page name>` heading that duplicates
+   the page title. Hide the first heading so the body flows from a
+   top-level paragraph into sections. */
+.grove-prose > h1:first-child {
+  display: none;
+}
+.grove-prose h1:not(:first-child) {
+  font-size: 2.5rem; /* 40px */
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.grove-prose h2 {
+  font-size: 1.75rem; /* 28px */
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-ink-200, #e5e5e5);
+}
+.dark .grove-prose h2 {
+  border-bottom-color: var(--color-ink-800, #2a2a2a);
+}
+.grove-prose h3 {
+  font-size: 1.3125rem; /* 21px */
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.grove-prose h4 {
+  font-size: 1.0625rem; /* 17px */
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+.grove-prose h5 {
+  font-size: 0.9375rem; /* 15px */
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-600, #555555);
+}
+.grove-prose h6 {
+  font-size: 0.875rem; /* 14px */
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-ink-500, #6a6a6a);
+}
+.dark .grove-prose h5 {
+  color: var(--color-ink-400, #8a8a8a);
+}
+.dark .grove-prose h6 {
+  color: var(--color-ink-500, #6a6a6a);
+}
+
+/* Paragraphs + lists. */
+.grove-prose p {
+  margin: 0 0 1rem 0;
+}
+.grove-prose :where(ul, ol) {
+  margin: 0 0 1rem 0;
+  padding-left: 1.5rem;
+}
+.grove-prose ul {
+  list-style: disc;
+}
+.grove-prose ol {
+  list-style: decimal;
+}
+.grove-prose li {
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+}
+.grove-prose li > :where(ul, ol) {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+}
+
+/* Definition lists. */
+.grove-prose dl {
+  margin: 0 0 1rem 0;
+}
+.grove-prose dt {
+  font-weight: 600;
+  color: var(--color-ink-900, #1a1a1a);
+  margin-top: 0.5rem;
+}
+.grove-prose dd {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-ink-700, #3a3a3a);
+}
+.dark .grove-prose dt {
+  color: var(--color-ink-100, #f0f0f0);
+}
+.dark .grove-prose dd {
+  color: var(--color-ink-200, #d4d4d4);
+}
+
+/* Inline emphasis. */
+.grove-prose strong {
+  font-weight: 600;
+  color: var(--color-ink-900, #1a1a1a);
+}
+.grove-prose em {
+  font-style: italic;
+}
+.grove-prose u {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.grove-prose :where(s, del) {
+  text-decoration: line-through;
+  color: var(--color-ink-500, #6a6a6a);
+}
+.grove-prose ins {
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-underline-offset: 2px;
+}
+.grove-prose small {
+  font-size: 0.85em;
+  color: var(--color-ink-500, #6a6a6a);
+}
+.dark .grove-prose strong {
+  color: var(--color-ink-100, #f0f0f0);
+}
+.dark .grove-prose small {
+  color: var(--color-ink-400, #8a8a8a);
+}
+
+/* Inline marks / keys / abbreviations. */
+.grove-prose mark {
+  background-color: oklch(95% 0.05 90);
+  color: var(--color-ink-900, #1a1a1a);
+  padding: 0.05em 0.25em;
+  border-radius: 0.2rem;
+}
+.dark .grove-prose mark {
+  background-color: oklch(35% 0.08 80);
+  color: var(--color-ink-50, #fafafa);
+}
+.grove-prose kbd {
+  font-family: var(--font-mono);
+  font-size: 0.8em;
+  background-color: var(--color-ink-100, #f0f0f0);
+  color: var(--color-ink-900, #1a1a1a);
+  border: 1px solid var(--color-ink-300, #c0c0c0);
+  border-bottom-width: 2px;
+  border-radius: 0.3rem;
+  padding: 0.05em 0.4em;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: baseline;
+  box-shadow: 0 1px 0 var(--color-ink-300, #c0c0c0);
+}
+.dark .grove-prose kbd {
+  background-color: var(--color-ink-900, #1a1a1a);
+  color: var(--color-ink-100, #f0f0f0);
+  border-color: var(--color-ink-700, #4a4a4a);
+  box-shadow: 0 1px 0 var(--color-ink-700, #4a4a4a);
+}
+.grove-prose abbr[title] {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  cursor: help;
+}
+.grove-prose :where(sub, sup) {
+  font-size: 0.75em;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+.grove-prose sub {
+  bottom: -0.25em;
+}
+.grove-prose sup {
+  top: -0.5em;
+}
+.grove-prose time {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Links. */
+.grove-prose a {
+  color: var(--color-ink-900, #1a1a1a);
+  text-decoration: underline;
+  text-decoration-color: var(--color-ink-300, #c0c0c0);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 120ms ease;
+}
+.grove-prose a:hover {
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+}
+.dark .grove-prose a {
+  color: var(--color-ink-100, #f0f0f0);
+  text-decoration-color: var(--color-ink-700, #4a4a4a);
+}
+
+/* Inline code. */
+.grove-prose code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background-color: var(--color-ink-100, #f0f0f0);
+  color: var(--color-ink-900, #1a1a1a);
+  padding: 0.15em 0.4em;
+  border-radius: 0.3rem;
+  word-break: break-word;
+}
+.dark .grove-prose code {
+  background-color: var(--color-ink-900, #1a1a1a);
+  color: var(--color-ink-100, #f0f0f0);
+}
+
+/* Code blocks — full column width, internal scroll on overflow. */
+.grove-prose pre {
+  background-color: var(--color-ink-100, #f0f0f0);
+  color: var(--color-ink-900, #1a1a1a);
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 0 0 1.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  border: 1px solid var(--color-ink-200, #e5e5e5);
+  max-width: 100%;
+}
+.dark .grove-prose pre {
+  background-color: var(--color-ink-900, #1a1a1a);
+  color: var(--color-ink-100, #f0f0f0);
+  border-color: var(--color-ink-800, #2a2a2a);
+}
+.grove-prose pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+  word-break: normal;
+  white-space: pre;
+}
+
+/* Shiki-themed code blocks. Shiki emits `<pre class="shiki …">`
+   with per-token `<span style="--shiki-light: …; --shiki-dark: …">`
+   when configured with `defaultColor: false`. Our job is to:
+     1. Give the block a slightly different background to read as
+        "code" (lighter than the prose surface in light mode,
+        darker in dark mode).
+     2. Make the foreground colour resolve through the dual
+        variables so the same HTML is themed correctly when
+        `.dark` toggles on `<html>`. */
+.grove-prose pre.shiki {
+  background-color: var(--color-ink-50, #fafafa) !important;
+  color: var(--shiki-light, var(--color-ink-900, #1a1a1a));
+  border-color: var(--color-ink-200, #e5e5e5);
+}
+.dark .grove-prose pre.shiki {
+  background-color: var(--color-ink-950, #0a0a0a) !important;
+  color: var(--shiki-dark, var(--color-ink-100, #f0f0f0));
+  border-color: var(--color-ink-800, #2a2a2a);
+}
+.grove-prose pre.shiki code {
+  color: inherit;
+}
+.grove-prose pre.shiki span {
+  color: var(--shiki-light);
+}
+.dark .grove-prose pre.shiki span {
+  color: var(--shiki-dark);
+}
+
+/* Blockquotes — italic + left border + background tint. */
+.grove-prose blockquote {
+  margin: 0 0 1rem 0;
+  padding: 0.65rem 1rem 0.65rem 1.1rem;
+  border-left: 3px solid var(--color-ink-300, #c0c0c0);
+  color: var(--color-ink-500, #6a6a6a);
+  font-style: italic;
+  background-color: var(--color-ink-50, #fafafa);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+.grove-prose blockquote > :first-child {
+  margin-top: 0;
+}
+.grove-prose blockquote > :last-child {
+  margin-bottom: 0;
+}
+.grove-prose blockquote p {
+  margin: 0 0 0.5rem 0;
+}
+.grove-prose blockquote blockquote {
+  margin: 0.5rem 0;
+  border-left-width: 2px;
+}
+.dark .grove-prose blockquote {
+  border-left-color: var(--color-ink-700, #4a4a4a);
+  color: var(--color-ink-400, #8a8a8a);
+  background-color: var(--color-ink-900, #1a1a1a);
+}
+
+/* Horizontal rules. */
+.grove-prose hr {
+  border: 0;
+  border-top: 1px solid var(--color-ink-200, #e5e5e5);
+  margin: 2.25rem 0;
+}
+.dark .grove-prose hr {
+  border-top-color: var(--color-ink-800, #2a2a2a);
+}
+
+/* Images — rounded border, full column width. */
+.grove-prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-ink-200, #e5e5e5);
+  display: block;
+  margin: 1.25rem 0;
+}
+.dark .grove-prose img {
+  border-color: var(--color-ink-800, #2a2a2a);
+}
+
+/* Figures + captions. */
+.grove-prose figure {
+  margin: 1.25rem 0;
+  padding: 0;
+}
+.grove-prose figure > img {
+  margin: 0 0 0.5rem 0;
+}
+.grove-prose figcaption {
+  font-size: 0.85rem;
+  color: var(--color-ink-500, #6a6a6a);
+  text-align: center;
+  margin-top: 0.4rem;
+}
+.dark .grove-prose figcaption {
+  color: var(--color-ink-400, #8a8a8a);
+}
+
+/* GFM tables — the renderer wraps them in `.grove-prose-table-wrap`
+   so the column-width overflow is contained. */
+.grove-prose-table-wrap {
+  margin: 0 0 1.5rem 0;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-ink-200, #e5e5e5);
+  background-color: var(--grove-background, #ffffff);
+}
+.dark .grove-prose-table-wrap {
+  border-color: var(--color-ink-800, #2a2a2a);
+}
+.grove-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.grove-prose table caption {
+  text-align: left;
+  font-size: 0.85rem;
+  color: var(--color-ink-500, #6a6a6a);
+  padding: 0.5rem 1rem;
+  caption-side: bottom;
+}
+.grove-prose thead {
+  background-color: var(--color-ink-50, #fafafa);
+  border-bottom: 2px solid var(--color-ink-200, #e5e5e5);
+}
+.dark .grove-prose thead {
+  background-color: var(--color-ink-900, #1a1a1a);
+  border-bottom-color: var(--color-ink-700, #4a4a4a);
+}
+.grove-prose th {
+  text-align: left;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  color: var(--color-ink-900, #1a1a1a);
+  border-bottom: 1px solid var(--color-ink-200, #e5e5e5);
+}
+.grove-prose td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--color-ink-100, #f0f0f0);
+  color: var(--color-ink-700, #3a3a3a);
+  vertical-align: top;
+}
+.grove-prose th[align="center"],
+.grove-prose td[align="center"] {
+  text-align: center;
+}
+.grove-prose th[align="right"],
+.grove-prose td[align="right"] {
+  text-align: right;
+}
+.grove-prose tbody tr:last-child td {
+  border-bottom: 0;
+}
+.grove-prose tbody tr:hover {
+  background-color: var(--color-ink-50, #fafafa);
+}
+.dark .grove-prose th {
+  color: var(--color-ink-100, #f0f0f0);
+  border-bottom-color: var(--color-ink-700, #4a4a4a);
+}
+.dark .grove-prose td {
+  color: var(--color-ink-200, #d4d4d4);
+  border-bottom-color: var(--color-ink-800, #2a2a2a);
+}
+.dark .grove-prose tbody tr:hover {
+  background-color: var(--color-ink-900, #1a1a1a);
+}
+
+/* GFM task-list checkboxes — read-only at runtime. */
+.grove-prose input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 1em;
+  height: 1em;
+  border: 1.5px solid var(--color-ink-400, #999999);
+  border-radius: 0.25rem;
+  margin-right: 0.45rem;
+  margin-top: 0.15rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.05em;
+  background-color: var(--grove-background, #ffffff);
+  cursor: default;
+  flex-shrink: 0;
+}
+.grove-prose input[type="checkbox"]:checked {
+  background-color: var(--color-ink-900, #1a1a1a);
+  border-color: var(--color-ink-900, #1a1a1a);
+}
+.grove-prose input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--grove-background, #ffffff);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.grove-prose input[type="checkbox"]:disabled {
+  opacity: 0.7;
+}
+.dark .grove-prose input[type="checkbox"] {
+  border-color: var(--color-ink-600, #555555);
+  background-color: var(--grove-background, #1a1a1a);
+}
+.dark .grove-prose input[type="checkbox"]:checked {
+  background-color: var(--color-ink-100, #f0f0f0);
+  border-color: var(--color-ink-100, #f0f0f0);
+}
+.dark .grove-prose input[type="checkbox"]:checked::after {
+  border-color: var(--grove-background, #1a1a1a);
+}
+.grove-prose li:has(> input[type="checkbox"]) {
+  list-style: none;
+  margin-left: -1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.15rem;
+}
+.grove-prose li:has(> input[type="checkbox"]) > input[type="checkbox"] {
+  margin-right: 0.55rem;
+  margin-left: 0.15rem;
+}
+
+/* Collapsibles (details / summary). */
+.grove-prose details {
+  margin: 0 0 1rem 0;
+  border: 1px solid var(--color-ink-200, #e5e5e5);
+  border-radius: 0.5rem;
+  background-color: var(--color-ink-50, #fafafa);
+  overflow: hidden;
+}
+.grove-prose details[open] {
+  background-color: var(--grove-background, #ffffff);
+}
+.grove-prose details + details {
+  margin-top: -0.5rem;
+}
+.dark .grove-prose details {
+  border-color: var(--color-ink-800, #2a2a2a);
+  background-color: var(--color-ink-900, #1a1a1a);
+}
+.dark .grove-prose details[open] {
+  background-color: var(--grove-background, #1a1a1a);
+}
+.grove-prose summary {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: var(--color-ink-900, #1a1a1a);
+  list-style: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 120ms ease;
+}
+.grove-prose summary::-webkit-details-marker {
+  display: none;
+}
+.grove-prose summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.35rem 0 0.35rem 0.55rem;
+  border-color: transparent transparent transparent var(--color-ink-500, #6a6a6a);
+  transition: transform 120ms ease;
+  flex-shrink: 0;
+}
+.grove-prose details[open] > summary::before {
+  transform: rotate(90deg);
+}
+.grove-prose summary:hover {
+  background-color: var(--color-ink-100, #f0f0f0);
+}
+.grove-prose summary strong {
+  font-weight: inherit;
+}
+.dark .grove-prose summary {
+  color: var(--color-ink-100, #f0f0f0);
+}
+.dark .grove-prose summary:hover {
+  background-color: var(--color-ink-800, #2a2a2a);
+}
+.grove-prose details > :not(summary) {
+  padding: 0 1rem 1rem 1rem;
+}
+.grove-prose details > :not(summary):first-of-type {
+  padding-top: 0;
+}
+
+/* ──────────────────────────────────────────────────────────────────
+ * On-page TOC component (`.grove-toc-*`)
+ * Selectors are static so Tailwind purges nothing. The active state
+ * is set imperatively by the TableOfContents script via
+ * `[data-toc-active]` on the matching anchor.
+ * ────────────────────────────────────────────────────────────────── */
+.grove-toc summary {
+  color: inherit;
+}
+.grove-toc[open] .grove-toc-chevron,
+.grove-toc > summary:hover .grove-toc-chevron {
+  transform: rotate(90deg);
+}
+/* Desktop (lg+): keep the TOC contents visible even before the
+ * component script sets the `open` attribute (and with JS disabled).
+ * Closed `<details>` content lives in a hidden UA shadow slot, so
+ * both the legacy child rule and the modern `::details-content`
+ * override are needed for cross-browser coverage; the script in
+ * `TableOfContents.astro` sets `open` as the primary mechanism. */
+@media (width >= 64rem) {
+  .grove-toc:not([open]) > *:not(summary) {
+    display: block;
+  }
+  .grove-toc:not([open])::details-content {
+    content-visibility: visible;
+    display: block;
+  }
+}
+/* Active item: text-color + a left-rail accent on the link's
+ * leading edge. A full pill background reads as a button, not a
+ * nav indicator, so it is reserved for hover; the rail stays put
+ * while the visitor moves between sections. */
+.grove-toc-item > .grove-toc-link {
+  position: relative;
+}
+.grove-toc-link {
+  border-left: 2px solid transparent;
+}
+.grove-toc-item--h3 > .grove-toc-link {
+  border-left-style: dashed;
+}
+.grove-toc-link[data-toc-active] {
+  color: var(--color-ink-900, #1a1a1a);
+  border-left-color: currentColor;
+  font-weight: 600;
+}
+.dark .grove-toc-link[data-toc-active] {
+  color: var(--color-ink-100, #f0f0f0);
+}
+
+/* ──────────────────────────────────────────────────────────────────
+ * Activity-badge tone classes.
+ *
+ * Tone is set via `data-activity-tone` on the element. The rules
+ * below are static strings, so Tailwind's content scanner can see
+ * them at build time and ship the CSS. Avoid rebuilding tone
+ * strings from variables — Tailwind purges anything it can't see.
+ * ────────────────────────────────────────────────────────────────── */
+.grove-pill--activity {
+  border-color: var(--color-ink-300, #c0c0c0);
+  background-color: var(--color-ink-100, #f0f0f0);
+  color: var(--color-ink-700, #3a3a3a);
+}
+[data-activity-tone="fresh"] {
+  border-color: oklch(87% 0.15 154);
+  background-color: oklch(98% 0.018 156);
+  color: oklch(40% 0.12 152);
+}
+[data-activity-tone="ok"] {
+  border-color: oklch(83% 0.11 230);
+  background-color: oklch(97% 0.014 255);
+  color: oklch(40% 0.16 255);
+}
+[data-activity-tone="low"] {
+  border-color: oklch(90% 0.08 70);
+  background-color: oklch(98% 0.016 74);
+  color: oklch(40% 0.13 60);
+}
+[data-activity-tone="dead"] {
+  border-color: oklch(90% 0.08 40);
+  background-color: oklch(98% 0.016 38);
+  color: oklch(40% 0.13 40);
+}
+.dark [data-activity-tone="fresh"] {
+  border-color: oklch(35% 0.1 154);
+  background-color: oklch(20% 0.05 156);
+  color: oklch(85% 0.15 154);
+}
+.dark [data-activity-tone="ok"] {
+  border-color: oklch(30% 0.1 230);
+  background-color: oklch(20% 0.05 255);
+  color: oklch(80% 0.13 230);
+}
+.dark [data-activity-tone="low"] {
+  border-color: oklch(35% 0.1 60);
+  background-color: oklch(20% 0.05 74);
+  color: oklch(85% 0.13 70);
+}
+.dark [data-activity-tone="dead"] {
+  border-color: oklch(35% 0.1 40);
+  background-color: oklch(20% 0.05 40);
+  color: oklch(85% 0.13 40);
+}
+
+/* ──────────────────────────────────────────────────────────────────
+ * Sidebar key-value rows.
+ * Static selector (no dynamic class concatenation) — Tailwind ships
+ * the CSS because the class string appears literally here.
+ * ────────────────────────────────────────────────────────────────── */
+.grove-kv div {
+  line-height: 1.4;
+}
+.grove-card-title {
+  letter-spacing: 0.04em;
+}
+.grove-card--muted {
+  background-color: color-mix(in oklab, var(--grove-background) 60%, transparent);
+}

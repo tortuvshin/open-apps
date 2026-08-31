@@ -1,0 +1,399 @@
+---
+import type { RecordDetailModel } from '@grove-dev/astro/server';
+import { taxonomyLabel } from '@grove-dev/astro/server';
+/**
+ * RecordSidebar.astro
+ *
+ * Sticky right-hand column on the record detail page. Renders
+ * up to four cards, each conditional on the model's `sidebar`
+ * visibility flags:
+ *
+ *   - Activity   — repo facts (stars, forks, language, license, …)
+ *   - Freshness  — last commit / last fetch / maintenance status
+ *   - Ecosystem  — stack, platforms, category, tags, hygiene files
+ *   - Source     — curation metadata + reading-time summary
+ *
+ * Empty rows are suppressed entirely — the sidebar never shows "—"
+ * or "0" placeholders that confuse "no data" with "zero".
+ *
+ * Sticky on lg+ (`lg:sticky lg:top-20 lg:max-h-calc(100vh-5rem)
+ * lg:overflow-y-auto`) so the cards stay in view while the user
+ * scrolls the body. Cards are individually rendered so the
+ * sticky container's height is bounded by the actual content.
+ */
+import { licenseDisplay } from '@grove-dev/core';
+import Badge from '../ui/badge.astro';
+import Icon from './icon.astro';
+import LanguageBreakdown from './language-breakdown.astro';
+
+interface Props {
+  detail: RecordDetailModel;
+  /**
+   * Pass false when a parent wrapper owns the sticky behavior (e.g.
+   * the detail page stacks the TOC above this sidebar inside one
+   * sticky column).
+   */
+  sticky?: boolean;
+  /**
+   * "column" (default) stacks the cards vertically for a rail;
+   * "grid" lays them out in responsive columns for full-width
+   * placement below the article.
+   */
+  layout?: 'column' | 'grid';
+}
+
+const { detail, sticky = true, layout = 'column' } = Astro.props;
+const {
+  sidebar,
+  github,
+  stars,
+  forks,
+  language,
+  licenseSpdx,
+  pushedLabel,
+  repoUrl,
+  ownerRepo,
+  healthLabel,
+  activityBadge,
+  stacks,
+  platforms,
+  tags,
+  category,
+  contributionSignals,
+  languages,
+  totalLanguageBytes,
+  readingMetrics,
+  record,
+  firstCommitYear,
+  lastFetchedLabel,
+  reviewedAtLabel,
+} = detail;
+const alsoIn: Array<{ url: string; title: string }> = detail.collectionMembership ?? [];
+
+// Visibility helpers for individual rows inside the Activity card.
+// `hasRepo` is the discriminator between "GitHub data synced" and
+// "no data fetched yet" — without it the card would show "Stars 0"
+// even when the field was never populated.
+const repo = github;
+const hasRepo = !!repo;
+const starsNumber = typeof stars === 'number' && stars > 0 ? stars : null;
+const forksNumber = typeof forks === 'number' && forks > 0 ? forks : null;
+// `repo` is a loosely-typed passthrough of the raw GitHub API response
+// (see `@grove-dev/astro/server`'s `getRecordDetailModel`) — `releases`
+// isn't in the normalized `githubMetadataSchema`, so it arrives as
+// `unknown` and needs a local shape for the three fields read below.
+const recentReleases = (
+  (repo?.releases as Array<{ html_url?: string; tag_name?: string; name?: string }> | undefined) ??
+  []
+).slice(0, 1);
+const isArchived = !!repo?.archived;
+
+// Render a kv row only when both the label and value have content.
+function row(label: string, value: unknown) {
+  if (value === null || value === undefined || value === '') return null;
+  return { label, value };
+}
+---
+
+<aside
+  class:list={[
+    layout === "grid"
+      ? "grove-sidebar grid grid-cols-1 items-start gap-4 sm:grid-cols-2 xl:grid-cols-4"
+      : "grove-sidebar flex flex-col gap-4",
+    layout === "column" &&
+      sticky &&
+      "lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:self-start lg:overflow-y-auto",
+  ]}
+  aria-label="Record metadata"
+>
+
+  {/* ── Activity card ──────────────────────────────────────── */}
+  {sidebar.showActivity && (
+    <section
+      class="grove-card rounded-[var(--radius-lg)] border border-ink-200 bg-card p-4 dark:border-ink-800"
+      aria-labelledby="sidebar-activity-title"
+    >
+      <h2
+        id="sidebar-activity-title"
+        class="grove-card-title m-0 mb-3 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
+      >
+        Activity
+      </h2>
+      <dl class="grove-kv m-0 flex flex-col gap-2.5 text-sm">
+        {row("Stars", starsNumber !== null ? starsNumber : null) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Stars</dt>
+            <dd class="font-mono tabular-nums text-ink-900 dark:text-ink-100">{starsNumber!.toLocaleString()}</dd>
+          </div>
+        )}
+        {row("Forks", forksNumber !== null ? forksNumber.toLocaleString() : null) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Forks</dt>
+            <dd class="font-mono tabular-nums text-ink-900 dark:text-ink-100">{forksNumber!.toLocaleString()}</dd>
+          </div>
+        )}
+        {row("Contributors", repo?.contributors_count) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Contributors</dt>
+            <dd class="font-mono tabular-nums text-ink-900 dark:text-ink-100">{Number(repo!.contributors_count).toLocaleString()}</dd>
+          </div>
+        )}
+        {row("Open issues", repo?.open_issues_count) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Open issues</dt>
+            <dd class="font-mono tabular-nums text-ink-900 dark:text-ink-100">{Number(repo!.open_issues_count).toLocaleString()}</dd>
+          </div>
+        )}
+        {row("Watchers", repo?.subscribers_count) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Watchers</dt>
+            <dd class="font-mono tabular-nums text-ink-900 dark:text-ink-100">{Number(repo!.subscribers_count).toLocaleString()}</dd>
+          </div>
+        )}
+        {row("Language", language) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Language</dt>
+            <dd class="text-ink-900 dark:text-ink-100">{language}</dd>
+          </div>
+        )}
+        {row("License", licenseSpdx) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">License</dt>
+            <dd class="font-mono text-ink-900 dark:text-ink-100">{licenseDisplay(licenseSpdx)}</dd>
+          </div>
+        )}
+        {row("Default branch", repo?.default_branch) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Default branch</dt>
+            <dd class="font-mono text-ink-900 dark:text-ink-100">{repo!.default_branch}</dd>
+          </div>
+        )}
+        {row("First commit", firstCommitYear) && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">First commit</dt>
+            <dd class="text-ink-900 dark:text-ink-100">
+              <time datetime={String(repo!.created_at)}>{firstCommitYear}</time>
+            </dd>
+          </div>
+        )}
+        {recentReleases[0] && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Latest release</dt>
+            <dd class="text-ink-900 dark:text-ink-100">
+              <a
+                href={recentReleases[0].html_url ?? repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="no-underline hover:underline"
+              >
+                {recentReleases[0].tag_name ?? recentReleases[0].name ?? "—"}
+              </a>
+            </dd>
+          </div>
+        )}
+      </dl>
+
+      <LanguageBreakdown languages={languages} totalBytes={totalLanguageBytes} />
+    </section>
+  )}
+
+  {/* ── Freshness card ─────────────────────────────────────── */}
+  {sidebar.showFreshness && (
+    <section
+      class="grove-card rounded-[var(--radius-lg)] border border-ink-200 bg-card p-4 dark:border-ink-800"
+      aria-labelledby="sidebar-freshness-title"
+    >
+      <h2
+        id="sidebar-freshness-title"
+        class="grove-card-title m-0 mb-3 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
+      >
+        Freshness
+      </h2>
+      <dl class="grove-kv m-0 flex flex-col gap-2.5 text-sm">
+        {pushedLabel && pushedLabel !== "—" && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Last commit</dt>
+            <dd class="text-ink-900 dark:text-ink-100">{pushedLabel}</dd>
+          </div>
+        )}
+        {repo?.updated_at && lastFetchedLabel && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Last fetched</dt>
+            <dd class="text-ink-900 dark:text-ink-100">
+              <time datetime={String(repo.updated_at)}>{lastFetchedLabel}</time>
+            </dd>
+          </div>
+        )}
+        {activityBadge && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Maintenance</dt>
+            <dd>
+              <span data-activity-tone={activityBadge.tone} class="grove-pill grove-pill--activity inline-flex items-center gap-1 rounded border px-1.5 py-0.5 text-[10px] font-medium">
+                {activityBadge.label}
+              </span>
+            </dd>
+          </div>
+        )}
+        {healthLabel && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Health</dt>
+            <dd class="text-ink-900 dark:text-ink-100">{healthLabel}</dd>
+          </div>
+        )}
+        {isArchived && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Status</dt>
+            <dd><Badge variant="warning">Archived</Badge></dd>
+          </div>
+        )}
+        {repo?.homepage && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Docs</dt>
+            <dd class="truncate text-ink-900 dark:text-ink-100">
+              <a href={String(repo.homepage)} target="_blank" rel="noopener noreferrer" class="no-underline hover:underline">
+                {new URL(String(repo.homepage)).hostname}
+              </a>
+            </dd>
+          </div>
+        )}
+        {repoUrl && (
+          <div class="flex items-baseline justify-between gap-3">
+            <dt class="text-ink-500 dark:text-ink-400">Source</dt>
+            <dd class="text-ink-900 dark:text-ink-100">
+              <a href={repoUrl} target="_blank" rel="noopener noreferrer" class="no-underline hover:underline">
+                {ownerRepo ? `${ownerRepo.owner}/${ownerRepo.repo}` : repoUrl}
+              </a>
+            </dd>
+          </div>
+        )}
+      </dl>
+    </section>
+  )}
+
+  {/* ── Ecosystem card ─────────────────────────────────────── */}
+  {sidebar.showEcosystem && (
+    <section
+      class="grove-card rounded-[var(--radius-lg)] border border-ink-200 bg-card p-4 dark:border-ink-800"
+      aria-labelledby="sidebar-ecosystem-title"
+    >
+      <h2
+        id="sidebar-ecosystem-title"
+        class="grove-card-title m-0 mb-3 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
+      >
+        Ecosystem
+      </h2>
+
+      {stacks.length > 0 && (
+        <div class="mb-3">
+          <h3 class="m-0 mb-1.5 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">Stack</h3>
+          <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0">
+            {stacks.map((s) => (
+              <li>
+                <a href={`/${detail.slug}?stack=${encodeURIComponent(s)}`} class="inline-flex items-center gap-1.5 rounded-full bg-secondary py-0.5 pl-1.5 pr-2 text-2xs font-medium text-secondary-foreground no-underline">
+                  <Icon name={s} category="stack" size={12} />
+                  {taxonomyLabel("stacks", s)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {platforms.length > 0 && (
+        <div class="mb-3">
+          <h3 class="m-0 mb-1.5 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">Platforms</h3>
+          <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0">
+            {platforms.map((p) => (
+              <li class="inline-flex items-center gap-1.5 rounded-full border border-ink-200 py-0.5 pl-1.5 pr-2 text-2xs font-medium text-ink-700 dark:border-ink-800 dark:text-ink-300">
+                <Icon name={p} category="platform" size={12} />
+                {taxonomyLabel("platforms", p)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {category && (
+        <div class="mb-3">
+          <h3 class="m-0 mb-1.5 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">Category</h3>
+          <a href={`/${detail.slug}?category=${encodeURIComponent(category)}`} class="rounded-full bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground no-underline">
+            {taxonomyLabel("categories", category)}
+          </a>
+        </div>
+      )}
+
+      {tags.length > 0 && (
+        <div class="mb-3">
+          <h3 class="m-0 mb-1.5 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">Tags</h3>
+          <ul class="m-0 flex list-none flex-wrap gap-1.5 p-0">
+            {tags.map((t) => (
+              <li>
+                <a href={`/${detail.slug}?tag=${encodeURIComponent(t)}`} class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 no-underline dark:border-ink-800 dark:text-ink-300">
+                  {taxonomyLabel("topics", t)}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {contributionSignals.length > 0 && (
+        <div>
+          <h3 class="m-0 mb-1.5 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">Repository hygiene</h3>
+          <ul class="m-0 flex list-none flex-col gap-1 p-0 text-sm">
+            {contributionSignals.map((s) => (
+              <li class="inline-flex items-center gap-1.5 text-ink-700 dark:text-ink-200">
+                {s.ok ? (
+                  <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor" class="text-emerald-600 dark:text-emerald-400">
+                    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" />
+                  </svg>
+                ) : (
+                  <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor" class="text-ink-400">
+                    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.75.75 0 1 1 1.06 1.06L9.06 8l3.22 3.22a.75.75 0 1 1-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 0 1-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z" />
+                  </svg>
+                )}
+                {s.label}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </section>
+  )}
+
+  {/* ── Source card (small) ────────────────────────────────── */}
+  {sidebar.showSource && (
+    <section
+      class="grove-card grove-card--muted rounded-[var(--radius-lg)] border border-dashed border-ink-200 bg-card/50 p-4 text-2xs text-ink-500 dark:border-ink-800 dark:text-ink-400"
+      aria-labelledby="sidebar-source-title"
+    >
+      <h2
+        id="sidebar-source-title"
+        class="grove-card-title m-0 mb-1.5 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
+      >
+        Source
+      </h2>
+      <p class="m-0 leading-relaxed">
+        Reviewed by {record.curation?.reviewedBy ?? "grove"}
+        on <time datetime={String(record.curation?.reviewedAt)}>
+          {reviewedAtLabel ?? "—"}
+        </time>.
+      </p>
+      {alsoIn.length > 0 && (
+        <p class="m-0 mt-1.5 leading-relaxed">
+          <span class="font-semibold">Also in: </span>
+          {alsoIn.map((c, i) => (
+            <>
+              <a href={c.url} class="text-inherit no-underline hover:underline">{c.title}</a>{i < alsoIn.length - 1 ? ", " : ""}
+            </>
+          ))}
+        </p>
+      )}
+      {readingMetrics.wordCount > 0 && (
+        <p class="m-0 mt-1 leading-relaxed">
+          Notes: {readingMetrics.wordCount.toLocaleString()} words · {readingMetrics.minutes} min read.
+        </p>
+      )}
+    </section>
+  )}
+</aside>

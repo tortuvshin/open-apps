@@ -1,0 +1,38 @@
+---
+/**
+ * EmptyState — a deliberate "nothing here" block that cannot be
+ * mistaken for normal content. Explains WHY the area is empty and
+ * offers a recovery action.
+ *
+ * Marked with `data-grove-empty-state` so quality gates can assert
+ * that empty regions render as empty states, not silent gaps.
+ */
+import { type ButtonVariant, buttonClass } from '../../lib/classnames.ts';
+
+interface Props {
+  title: string;
+  /** Why it's empty / what will make it non-empty. */
+  description?: string;
+  /** Recovery action (rendered as a button-styled link). */
+  action?: { label: string; href: string; variant?: ButtonVariant };
+  class?: string;
+}
+
+const { title, description, action, class: className = '' } = Astro.props;
+---
+
+<div
+  data-grove-empty-state
+  class={`flex flex-col items-center gap-2 rounded-[calc(var(--radius)+0.25rem)] border border-dashed border-border bg-surface-sunken px-6 py-10 text-center ${className}`}
+>
+  <p class="m-0 text-sm font-medium text-foreground">{title}</p>
+  {description && (
+    <p class="m-0 max-w-[52ch] text-sm leading-relaxed text-muted-foreground">{description}</p>
+  )}
+  <slot />
+  {action && (
+    <a href={action.href} class={buttonClass(action.variant ?? "secondary", "sm", "mt-2")}>
+      {action.label}
+    </a>
+  )}
+</div>

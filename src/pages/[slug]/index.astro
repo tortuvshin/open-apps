@@ -7,11 +7,11 @@
  * `/resources/`, `/entities/`) is derived from the blueprint, so the
  * same page works for every blueprint without per-blueprint forks.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import DirectoryBrowse from "../../components/DirectoryBrowse.astro";
+import siteConfig from '@grove/generated/site-config.json';
+import DirectoryBrowse from '../../components/grove/directory-browse.astro';
 
 export function getStaticPaths() {
-  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
   return [{ params: { slug: routeSlug } }];
 }
 ---

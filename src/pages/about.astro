@@ -1,4 +1,12 @@
 ---
+import siteConfig from '@grove/generated/site-config.json';
+import {
+  getAboutPageSeo,
+  getPageContentHtml,
+  indexSlug,
+  itemLabel,
+  itemLabelPlural,
+} from '@grove-dev/astro/server';
 /**
  * About page — generic.
  *
@@ -13,33 +21,19 @@
  * value (`siteConfig.tagline`, `siteConfig.repoUrl`, item labels)
  * flows from the site config.
  */
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import Container from "@grove-dev/astro/layouts/Container.astro";
-import siteConfig from "@grove/generated/site-config.json";
-import {
-  getAboutPageSeo,
-  getPageContentHtml,
-  indexSlug,
-  itemLabel,
-  itemLabelPlural,
-} from "@grove-dev/astro/server";
-import { buttonClass } from "@grove-dev/astro/ui/button";
+import BaseLayout from '../layouts/base-layout.astro';
+import Container from '../layouts/container.astro';
+import { buttonClass } from '../lib/classnames.ts';
 
 const githubUrl = siteConfig.repoUrl;
 const seo = getAboutPageSeo(siteConfig);
 const slug = indexSlug();
 const item = itemLabel();
 const items = itemLabelPlural();
-const pageContentHtml = getPageContentHtml("about");
+const pageContentHtml = getPageContentHtml('about');
 ---
 
-<BaseLayout
-  title={seo.title}
-  description={seo.description}
-  image={seo.image}
-  jsonLd={seo.jsonLd}
-  site={siteConfig}
->
+<BaseLayout title={seo.title} description={seo.description} image={seo.image} jsonLd={seo.jsonLd} site={siteConfig}>
   <Container size="narrow">
     <article class="py-12 sm:py-16">
       <nav class="text-2xs text-muted-foreground" aria-label="Breadcrumb">

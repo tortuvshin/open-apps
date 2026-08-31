@@ -1,0 +1,503 @@
+---
+/**
+ * DirectoryIndexClient — the browse page's client controller.
+ *
+ * The browse routes are prerendered per page (`/{slug}/`,
+ * `/{slug}/page/2/`), so the server never sees a query string. This
+ * script re-reads `location.search` and re-derives results, chips,
+ * facet counts, and pagination with the same `@grove-dev/core/directory`
+ * functions the server used.
+ *
+ * Two modes, one list:
+ *   - **No filters** — the server-rendered page slice is already right.
+ *     Pagination links stay the real `/page/n/` paths.
+ *   - **Filtered** — the whole record set is filtered here, the page
+ *     re-renders from `clientItemsJson`, and pagination switches to
+ *     `?page=N` on the base route.
+ */
+interface Props {
+  slug: string;
+  singular: string;
+  plural: string;
+  taxonomy: Record<string, unknown>;
+  /** Page this route prerendered; the client starts from it. */
+  routePage?: number;
+}
+
+const { slug, singular, plural, taxonomy, routePage = 1 } = Astro.props;
+const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, routePage }).replace(
+  /</g,
+  '\\u003c',
+);
+---
+
+<script is:inline id="grove-index-config" type="application/json" set:html={clientConfigJson}></script>
+<script>
+  import type { IndexRecord } from "@grove-dev/core";
+  import type { DirectoryFilterGroupKey } from "@grove-dev/core/directory";
+  import {
+    PAGE_SIZE,
+    activeFilterChips,
+    applySort,
+    buildFacets,
+    DIRECTORY_FILTER_KEYS,
+    DIRECTORY_FILTER_LABELS,
+    DIRECTORY_TAXONOMY_KINDS,
+    effectivePage,
+    effectiveSort,
+    filterRecords,
+    filtersFromSearchParams,
+    hasAnyFilter,
+    isDirectoryFilterGroupKey,
+    hrefForClearedFilters,
+    hrefForFilters,
+    pagePathHref,
+    paginationPageList,
+    searchParamsFromFilters,
+    sortDisplay,
+    totalPages,
+  } from "@grove-dev/core/directory";
+  import {
+    PAGINATION_DISABLED,
+    PAGINATION_EXTRA,
+    buttonClass,
+    chipClass,
+    filterTriggerClass,
+  } from "../../lib/classnames.ts";
+
+  (() => {
+      const configSource = document.querySelector("#grove-index-config");
+      const listNode = document.querySelector<HTMLElement>("#results-list");
+      if (!configSource || !listNode) return;
+      // Closures below cannot see the guard above; bind the narrowed type once.
+      const list = listNode;
+
+      const { slug, singular, plural, taxonomy, routePage } = JSON.parse(
+        configSource.textContent || "{}",
+      );
+      // Filled by `loadRecords()`. Until then the page shows what the
+      // server rendered, which for an unfiltered view is already right.
+      let items: IndexRecord[] = [];
+      const pathPrefix = `/${slug}`;
+
+      // Cards for this page came with the document. A filtered view can
+      // surface any record in the directory, so the rest are fetched
+      // once from `/{slug}/page/cards/` — rendered there by the same
+      // server component, which is what keeps the card to a single
+      // definition instead of a second one written in JavaScript.
+      const nodes = new Map<string, HTMLElement>();
+      for (const node of list.querySelectorAll(":scope > [data-record-slug]")) {
+        const key = (node as HTMLElement).dataset.recordSlug;
+        if (key) nodes.set(key, node as HTMLElement);
+      }
+
+      // The record index — everything filtering, sorting, and facet
+      // counting reads. Fetched rather than inlined so a paginated page
+      // does not carry the whole directory in its HTML.
+      let recordSource: Promise<void> | null = null;
+      let recordsSettled = false;
+      function loadRecords(): Promise<void> {
+        if (!recordSource) {
+          recordSource = fetch(`${pathPrefix}/page/records.json`)
+            .then((response) => (response.ok ? response.json() : []))
+            .then((data) => {
+              items = Array.isArray(data) ? data : [];
+            })
+            .catch(() => {
+              items = [];
+            })
+            .then(() => {
+              // Settled either way: a failed fetch must not leave the
+              // page retrying forever behind a busy list.
+              recordsSettled = true;
+            });
+        }
+        return recordSource;
+      }
+
+      let cardSource: Promise<void> | null = null;
+      let cardsSettled = false;
+      function loadAllCards(): Promise<void> {
+        if (!cardSource) {
+          cardSource = fetch(`${pathPrefix}/page/cards/`)
+            .then((response) => (response.ok ? response.text() : ""))
+            .then((html) => {
+              if (!html) return;
+              const parsed = new DOMParser().parseFromString(html, "text/html");
+              for (const node of parsed.querySelectorAll("#grove-index-cards > [data-record-slug]")) {
+                const key = (node as HTMLElement).dataset.recordSlug;
+                if (key && !nodes.has(key)) nodes.set(key, document.adoptNode(node) as HTMLElement);
+              }
+            })
+            .catch(() => {
+              // Offline or a stale deploy: the page keeps working with
+              // the records it already has.
+            })
+            .then(() => {
+              cardsSettled = true;
+            });
+        }
+        return cardSource;
+      }
+      /** Everything a filtered view needs: the index and the cards. */
+      const loadAll = () => Promise.all([loadRecords(), loadAllCards()]);
+
+      // Warm on the first sign of intent — a pointer or focus reaching
+      // the controls — rather than on idle. Prefetching a whole
+      // directory during load competes with the page itself for
+      // bandwidth on a phone, and most visitors never filter at all.
+      const controls = document.querySelector("#search-form")?.parentElement ?? document;
+      for (const type of ["pointerdown", "focusin", "keydown"]) {
+        controls.addEventListener(type, () => loadAll(), { once: true, passive: true });
+      }
+
+      let params = new URLSearchParams(location.search);
+      let filters = filtersFromSearchParams(params);
+      let sort = effectiveSort(filters);
+
+      /**
+       * True when the URL asks for something the prerendered document
+       * does not already show. `hasAnyFilter` deliberately ignores
+       * `sort`, but a sorted view is just as much a client view: the
+       * `/page/N/` documents are all built with the default sort, so
+       * paging out of `?sort=most-starred` onto one of them would
+       * silently re-sort the list mid-journey.
+       */
+      const isClientView = () => hasAnyFilter(filters) || Boolean(filters.sort);
+
+      /** Client views own the page number; prerendered ones use the path. */
+      const currentPage = () => (isClientView() ? effectivePage(filters) : routePage || 1);
+
+      const hrefForResultPage = (target: number) =>
+        isClientView()
+          ? hrefForFilters({ ...filters, page: target }, pathPrefix)
+          : pagePathHref(pathPrefix, target);
+
+      /** Move the page's cards into the list, in result order. */
+      function renderList(visible: { slug: string }[]) {
+        const next: HTMLElement[] = [];
+        let missing = false;
+        for (const record of visible) {
+          const node = nodes.get(record.slug);
+          if (node) next.push(node);
+          else missing = true;
+        }
+        list.replaceChildren(...next);
+        // A record whose card has not arrived yet: render what we have
+        // and finish the moment the card source lands. Only while the
+        // fetch is still outstanding — once it has settled, a missing
+        // card is missing, and retrying would spin.
+        if (missing && !cardsSettled) loadAllCards().then(() => applyClientFilters());
+      }
+
+      function applyClientFilters() {
+        const filtered = applySort(filterRecords(items, filters), sort);
+        const pageCount = totalPages(filtered.length);
+        const page = Math.min(Math.max(1, currentPage()), pageCount);
+        renderList(filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE));
+
+        const count = document.querySelector("#results-count");
+        const pageLabel = document.querySelector("#results-page");
+        const empty = document.querySelector("#empty-state");
+        if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? singular : plural}`;
+        const sortLabel = document.querySelector("#results-sort");
+        if (sortLabel) sortLabel.textContent = ` · sorted by ${sortDisplay(sort)}`;
+        if (pageLabel) pageLabel.textContent = pageCount > 1 ? ` · page ${page} of ${pageCount}` : "";
+        if (empty) empty.classList.toggle("hidden", filtered.length > 0);
+
+        // Rebuild the pagination controls, mirroring the server-rendered
+        // `Pagination.astro` (Previous/Next + windowed page list via the
+        // shared `paginationPageList`) so client filtering never degrades
+        // the affordances of the initial render.
+        const pagination = document.querySelector("#results-pagination");
+        if (pagination) {
+          pagination.innerHTML = "";
+          if (pageCount > 1) {
+            const linkClass = buttonClass("secondary", "sm", PAGINATION_EXTRA);
+            const nav = document.createElement("nav");
+            nav.className = "flex flex-wrap items-center justify-center gap-1.5";
+            nav.setAttribute("aria-label", "Pagination");
+            const control = (label: string, target: number | null, rel?: string) => {
+              if (target === null) {
+                const span = document.createElement("span");
+                span.className = `${linkClass} ${PAGINATION_DISABLED}`;
+                span.textContent = label;
+                return span;
+              }
+              const link = document.createElement("a");
+              link.href = hrefForResultPage(target);
+              link.textContent = label;
+              link.className = linkClass;
+              if (rel) link.rel = rel;
+              return link;
+            };
+            nav.append(control("Previous", page > 1 ? page - 1 : null, "prev"));
+            for (const entry of paginationPageList(page, pageCount)) {
+              if (entry === "ellipsis") {
+                const dots = document.createElement("span");
+                dots.className = "px-1 text-2xs text-ink-400";
+                dots.setAttribute("aria-hidden", "true");
+                dots.textContent = "...";
+                nav.append(dots);
+                continue;
+              }
+              const link = control(String(entry), entry);
+              link.setAttribute("aria-label", `Page ${entry}`);
+              if (entry === page) {
+                link.setAttribute("aria-current", "page");
+                link.className = buttonClass("selected", "sm", PAGINATION_EXTRA);
+              }
+              nav.append(link);
+            }
+            nav.append(control("Next", page < pageCount ? page + 1 : null, "next"));
+            pagination.append(nav);
+          }
+        }
+      }
+
+      const searchInput = document.querySelector("#search-input");
+      const searchClear = document.querySelector("[data-search-clear]");
+      if (searchInput instanceof HTMLInputElement) searchInput.value = filters.q || "";
+      document.querySelectorAll('select[name="sort"]').forEach((select) => {
+        if (select instanceof HTMLSelectElement) select.value = sort;
+      });
+
+      const filterKeys = DIRECTORY_FILTER_KEYS;
+      const filterLabels = DIRECTORY_FILTER_LABELS;
+      const taxonomyKinds = DIRECTORY_TAXONOMY_KINDS;
+      const taxonomyName = (groupKey: DirectoryFilterGroupKey, value: string) =>
+        (taxonomy[taxonomyKinds[groupKey]] || []).find(
+          (entry: { id: string; name: string }) => entry.id === value,
+        )?.name ?? value;
+
+      /** Chip labels and remove hrefs come from core — one definition. */
+      function renderChips() {
+        const activeFilters = document.querySelector("#active-filters");
+        const chips = activeFilterChips(filters, { taxonomy, pathPrefix });
+        if (activeFilters) {
+          activeFilters.innerHTML = "";
+          for (const chip of chips) {
+            const link = document.createElement("a");
+            link.href = chip.href;
+            // The whole anchor is the remove control; the visible label
+            // announces the filter value, and the aria-label spells out
+            // the action for assistive tech.
+            link.setAttribute("aria-label", `Remove filter: ${chip.label}`);
+            link.className = chipClass();
+            link.append(document.createTextNode(`${chip.label} `));
+            const close = document.createElement("span");
+            close.setAttribute("aria-hidden", "true");
+            close.textContent = "×";
+            link.append(close);
+            activeFilters.append(link);
+          }
+          if (chips.length) {
+            const clear = document.createElement("a");
+            clear.href = hrefForClearedFilters(filters, pathPrefix);
+            clear.className =
+              "text-2xs font-medium text-ink-500 underline decoration-border underline-offset-2 hover:text-ink-900 dark:hover:text-ink-100";
+            clear.setAttribute("aria-label", "Clear all active filters");
+            clear.textContent = "Clear all";
+            activeFilters.append(clear);
+          }
+          activeFilters.classList.toggle("hidden", chips.length === 0);
+        }
+
+        // Mobile filter-drawer badge + its clear-all mirror the chips.
+        const drawerCount = document.querySelector("[data-drawer-count]");
+        if (drawerCount) {
+          drawerCount.textContent = String(chips.length);
+          drawerCount.classList.toggle("hidden", chips.length === 0);
+        }
+        const drawerClear = document.querySelector("[data-drawer-clear]");
+        if (drawerClear instanceof HTMLAnchorElement) {
+          drawerClear.href = hrefForClearedFilters(filters, pathPrefix);
+          drawerClear.classList.toggle("hidden", chips.length === 0);
+        }
+      }
+
+      function renderFilterTriggers() {
+        const values = (key: string) => params.getAll(key).filter(Boolean);
+        document.querySelectorAll(".grove-filter").forEach((group) => {
+          if (!(group instanceof HTMLElement)) return;
+          const groupKey = group.dataset.filterGroupKey;
+          if (!groupKey || !isDirectoryFilterGroupKey(groupKey)) return;
+          const selected = values(filterKeys[groupKey]);
+          group.querySelectorAll(".grove-filter-input").forEach((input) => {
+            if (input instanceof HTMLInputElement) {
+              input.checked = selected.includes(input.dataset.filterValue || "");
+            }
+          });
+          const triggerButton = group.querySelector(".grove-filter-trigger");
+          const trigger = triggerButton?.querySelector("span");
+          const label = filterLabels[groupKey];
+          if (trigger) {
+            trigger.textContent = selected.length
+              ? `${label}: ${
+              selected.length === 1
+                ? taxonomyName(groupKey, selected[0] ?? "")
+                : `${selected.length} selected`
+                }`
+              : `${label}: Any`;
+          }
+          if (triggerButton) {
+            // Same builder the server render used — the class string is
+            // reassigned wholesale so the two can never drift.
+            triggerButton.className = filterTriggerClass(selected.length > 0);
+          }
+          group.querySelector(".grove-filter-clear")?.classList.toggle("hidden", selected.length === 0);
+        });
+      }
+
+      // Facet counts were rendered at build time from the UNFILTERED
+      // record set (the route is prerendered, so the server never sees
+      // the live query string). Recompute intersection counts against
+      // the current filters and patch each count span in place —
+      // never re-render the option lists, which would destroy
+      // checkbox, focus, and scroll state.
+      function renderFacetCounts() {
+        const liveFacets: Record<string, { value: string; count: number }[]> = buildFacets(items, {
+          filters,
+          curatedTagIds: (taxonomy.topics || []).map((topic: { id: string }) => topic.id),
+        });
+        document.querySelectorAll("[data-facet-count]").forEach((span) => {
+          if (!(span instanceof HTMLElement)) return;
+          const options = liveFacets[span.dataset.facet ?? ""] ?? [];
+          const count = options.find((option) => option.value === span.dataset.value)?.count ?? 0;
+          span.textContent = String(count);
+          const row = span.closest("label");
+          const input = row?.querySelector(".grove-filter-input");
+          const checked = input instanceof HTMLInputElement && input.checked;
+          // A zero-count option can't narrow anything — dim and disable
+          // it unless it's the currently selected value (which must stay
+          // interactive so the user can un-select it).
+          const inert = count === 0 && !checked;
+          row?.classList.toggle("opacity-45", inert);
+          if (input instanceof HTMLInputElement) input.disabled = inert;
+        });
+      }
+
+      function renderAll() {
+        renderChips();
+        renderFilterTriggers();
+        if (searchClear instanceof HTMLElement) searchClear.hidden = !(filters.q || "").length;
+
+        if (recordsSettled) {
+          renderFacetCounts();
+          applyClientFilters();
+          return;
+        }
+        // Nothing to filter with yet. A plain view of this page is
+        // already correct as the server rendered it; anything the URL
+        // asks for beyond that — a filter, a search, a sort — waits for
+        // the index and the cards, and says so while it does.
+        if (!isClientView()) return;
+        list.setAttribute("aria-busy", "true");
+        loadAll().then(() => {
+          list.removeAttribute("aria-busy");
+          renderAll();
+        });
+      }
+
+      /**
+       * Adopt a URL without a navigation, then re-render from it.
+       *
+       * A URL with no query is a prerendered document — clearing the
+       * last filter lands on `/{slug}/`, which on page 2+ is a
+       * *different* document than the one on screen. Adopting it there
+       * would leave records 21–40 rendered under the page-1 URL, so
+       * that case navigates for real.
+       */
+      function adopt(url: string, mode: "push" | "replace") {
+        const next = new URL(url, location.origin);
+        const samePath =
+          next.pathname.replace(/\/$/, "") === location.pathname.replace(/\/$/, "");
+        if (!next.search && (!samePath || (routePage || 1) > 1)) {
+          location.assign(next.toString());
+          return;
+        }
+        const state = { grove: true, scrollY: window.scrollY };
+        if (mode === "push") history.pushState(state, "", next);
+        else history.replaceState(state, "", next);
+        params = new URLSearchParams(next.search);
+        filters = filtersFromSearchParams(params);
+        sort = effectiveSort(filters);
+        renderAll();
+      }
+
+      // Search filters as you type. `replaceState` keeps a search
+      // session out of the history stack — Back should return to the
+      // previous result set, not to the previous keystroke.
+      let debounce = 0;
+      searchInput?.addEventListener("input", () => {
+        window.clearTimeout(debounce);
+        debounce = window.setTimeout(() => {
+          const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "";
+          adopt(hrefForFilters({ ...filters, q: query || undefined, page: 1 }, pathPrefix), "replace");
+          if (searchInput instanceof HTMLInputElement) searchInput.focus();
+        }, 150);
+      });
+      searchClear?.addEventListener("click", () => {
+        if (searchInput instanceof HTMLInputElement) {
+          searchInput.value = "";
+          searchInput.focus();
+        }
+        adopt(hrefForFilters({ ...filters, q: undefined, page: 1 }, pathPrefix), "replace");
+      });
+      document.querySelector("#search-form")?.addEventListener("submit", (event) => {
+        // Enter already has its answer on screen; submitting would only
+        // reload the same state.
+        event.preventDefault();
+      });
+
+      // RefinePanel asks before it navigates; cancelling means "this
+      // page can apply the URL in place".
+      document.addEventListener("grove:navigate", (event) => {
+        const url = (event as CustomEvent<{ url: string }>).detail?.url;
+        if (!url) return;
+        event.preventDefault();
+        adopt(url, "push");
+      });
+
+      // Filtered navigation is a real step: Back returns to the
+      // previous result set and its scroll position.
+      //
+      // Only links that carry a query are adopted. Everything else that
+      // points at this list — `/{slug}/` from "Clear all" or the "1"
+      // pagination link, `/{slug}/page/2/`, the header's "Browse" nav —
+      // is a prerendered document and must actually navigate;
+      // swallowing those left page 2's records rendered under the
+      // page-1 URL. Hash links (the skip link) are never ours.
+      document.addEventListener("click", (event) => {
+        const link = (event.target as HTMLElement | null)?.closest("a");
+        if (!(link instanceof HTMLAnchorElement)) return;
+        if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey) return;
+        if (link.target === "_blank" || !link.href.startsWith(location.origin)) return;
+        const url = new URL(link.href);
+        if (url.hash) return;
+        const isListUrl = url.pathname === `${pathPrefix}/` || url.pathname === pathPrefix;
+        if (!isListUrl || !url.search) return;
+        event.preventDefault();
+        history.replaceState({ grove: true, scrollY: window.scrollY }, "");
+        adopt(url.toString(), "push");
+        window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
+      });
+
+      window.addEventListener("popstate", (event) => {
+        params = new URLSearchParams(location.search);
+        filters = filtersFromSearchParams(params);
+        sort = effectiveSort(filters);
+        if (searchInput instanceof HTMLInputElement) searchInput.value = filters.q || "";
+        document.querySelectorAll('select[name="sort"]').forEach((select) => {
+          if (select instanceof HTMLSelectElement) select.value = sort;
+        });
+        renderAll();
+        const state = event.state as { scrollY?: number } | null;
+        if (typeof state?.scrollY === "number") {
+          window.scrollTo({ top: state.scrollY, behavior: "instant" as ScrollBehavior });
+        }
+      });
+
+      renderAll();
+    })();
+</script>

@@ -1,0 +1,41 @@
+---
+/**
+ * CardGrid — the one responsive grid host for card-shaped children.
+ *
+ * Owns the three-column layout every listing surface shares (home
+ * record sections, browse results, collection entries, taxonomy
+ * terms) so pages never re-declare grid classes. Cards are passed
+ * through the default slot, which keeps the grid card-agnostic: any
+ * component that follows the sizing contract (`h-full flex flex-col`
+ * root, package radius/padding tokens) drops in — including new card
+ * types added by consumers.
+ *
+ * Children may be bare cards or `<li>` wrappers; bare children are
+ * valid because the grid renders `role="list"` semantics regardless
+ * (Safari drops list semantics on `list-none` either way).
+ *
+ * `empty` swaps the grid for the `empty` slot so pages keep their
+ * empty-state markup next to the list they describe.
+ */
+interface Props {
+  /** id forwarded to the `<ul>` (client scripts key off it). */
+  id?: string;
+  /** Render the `empty` slot instead of the grid. */
+  empty?: boolean;
+  class?: string;
+}
+
+const { id, empty = false, class: className = '' } = Astro.props;
+---
+
+{empty ? (
+  <slot name="empty" />
+) : (
+  <ul
+    id={id}
+    role="list"
+    class={`m-0 grid list-none grid-cols-1 items-stretch gap-5 p-0 sm:grid-cols-2 lg:grid-cols-3 ${className}`}
+  >
+    <slot />
+  </ul>
+)}

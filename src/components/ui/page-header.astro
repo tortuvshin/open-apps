@@ -1,0 +1,39 @@
+---
+/**
+ * PageHeader — the page's title block. Always renders a semantic
+ * heading (h1 by default — every route needs exactly one) with an
+ * optional eyebrow and description.
+ *
+ * For section headings INSIDE a page keep using `SectionHeader`
+ * (layouts/), which defaults to h2/h3.
+ */
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  /** Escape hatch for embedded use; the default 1 is the point. */
+  level?: 1 | 2;
+  class?: string;
+}
+
+const { eyebrow, title, description, level = 1, class: className = '' } = Astro.props;
+const Heading = `h${level}` as 'h1' | 'h2';
+---
+
+<header class={`flex flex-col gap-1 ${className}`}>
+  {eyebrow && (
+    <span class="text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+      {eyebrow}
+    </span>
+  )}
+  <Heading class="m-0 text-[1.875rem] font-semibold tracking-tight text-foreground sm:text-[2.125rem]">
+    {title}
+  </Heading>
+  {description && (
+    <p class="m-0 mt-1 max-w-[64ch] text-[0.9375rem] leading-relaxed text-muted-foreground">
+      {description}
+    </p>
+  )}
+  <slot />
+</header>

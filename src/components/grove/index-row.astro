@@ -1,0 +1,43 @@
+---
+import { buildProjectCardModel } from '@grove-dev/astro/server';
+/**
+ * IndexRow — browse-page adapter around the canonical `ProjectCard`.
+ *
+ * Keeps the historical public props (`record`, `detailHref`,
+ * `showChips`, `eager`) so consumer pages copied from earlier versions
+ * keep working. The card itself is the same on every surface: a
+ * record must not look like a different record depending on whether
+ * you found it on the home page or in the browse list. The repository
+ * is reached through the card's `owner/repo` line, so this adapter
+ * adds nothing to the card at all.
+ *
+ * Builds the `ProjectCardModel` from `record` internally — `record`
+ * stays this adapter's public contract (unaffected by `ProjectCard`'s
+ * presentation-only rewrite).
+ */
+import type { IndexRecord } from '@grove-dev/core';
+import ProjectCard from './project-card.astro';
+
+interface Props {
+  record: IndexRecord;
+  detailHref: string;
+  /** @deprecated Ignored — the card renders one fixed layout. */
+  showChips?: boolean;
+  /** Set true on the first 1-2 rows of a list to bypass lazy
+   * loading for the above-the-fold avatars. Pair with
+   * `fetchpriority="high"`. */
+  eager?: boolean;
+  class?: string;
+}
+
+const { record, detailHref, eager = false, class: className = '' } = Astro.props;
+
+const model = buildProjectCardModel(record);
+---
+
+<ProjectCard
+  model={model}
+  href={detailHref}
+  eager={eager}
+  class={className}
+/>

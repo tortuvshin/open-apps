@@ -1,0 +1,221 @@
+---
+/**
+ * RecordHeader.astro
+ *
+ * Compact project-identity header used at the top of every record
+ * detail page. The header carries:
+ *   - avatar / initials
+ *   - pills row (category + curation labels + "Curated" check +
+ *     optional activity badge)
+ *   - record name + owner/repo line
+ *   - short description
+ *   - GitHub + Homepage CTAs
+ *
+ * Tags + activity metadata are surfaced separately (sidebar), so
+ * the header stays narrow on mobile and doesn't compete with the
+ * two-column layout below.
+ *
+ * Tone classes for the activity badge are static `[data-activity-tone]`
+ * selectors in `styles.css` — Tailwind purges any classes built from
+ * dynamic strings, so the package ships the rules statically and
+ * the badge's `data-activity-tone` attribute picks one at runtime.
+ */
+import type { RecordDetailModel } from '@grove-dev/astro/server';
+import { buttonClass } from '../../lib/classnames.ts';
+
+interface Props {
+  detail: RecordDetailModel;
+}
+
+const { detail } = Astro.props;
+const {
+  record,
+  repoUrl,
+  homepageUrl,
+  ownerRepo,
+  avatarSrc,
+  initials,
+  curationLabels,
+  activityBadge,
+  summary,
+  sourceDescription,
+  screenshots,
+  category,
+  name,
+} = detail;
+---
+
+<header class="mb-8">
+  {/* Identity row: logo sized to the name+repo block beside it — no
+      tall avatar column leaving dead space under the logo. Pills sit
+      at the row's right edge on wide viewports and wrap below on
+      mobile. */}
+  <div class="flex items-center gap-4">
+    {/* Initials stay in the DOM behind the logo and are revealed by the
+        image's own `onerror` — a dead logo URL or a renamed GitHub org
+        would otherwise render the broken-image glyph. */}
+    {avatarSrc && (
+      <img
+        src={avatarSrc}
+        alt=""
+        width="56"
+        height="56"
+        loading="lazy"
+        decoding="async"
+        onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+        class="h-12 w-12 shrink-0 rounded-lg border border-ink-200 object-contain bg-white p-1 dark:border-ink-800 sm:h-14 sm:w-14"
+      />
+    )}
+    <span
+      aria-hidden="true"
+      hidden={Boolean(avatarSrc)}
+      data-grove-card-fallback-initials
+      class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-ink-200 bg-ink-50 text-xl font-semibold text-ink-700 dark:border-ink-800 dark:bg-ink-900 dark:text-ink-200 sm:h-14 sm:w-14"
+    >
+      {initials || "·"}
+    </span>
+
+    <div class="min-w-0 flex-1">
+      <h1 class="m-0 text-[1.75rem] font-semibold leading-tight tracking-tight text-ink-900 dark:text-ink-100 sm:text-[2rem]">
+        {name}
+      </h1>
+      {ownerRepo && (
+        <p class="m-0 mt-0.5 text-sm text-ink-500 dark:text-ink-400">
+          <a
+            href={`https://github.com/${ownerRepo.owner}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
+          >
+            @{ownerRepo.owner}
+          </a>
+          <span class="mx-1 text-ink-300 dark:text-ink-700">/</span>
+          <a
+            href={repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
+          >
+            {ownerRepo.repo}
+          </a>
+        </p>
+      )}
+    </div>
+
+    {/* Pills — right-aligned beside the name on wide viewports. */}
+    <div class="hidden shrink-0 flex-wrap items-center justify-end gap-1.5 md:flex">
+      {category && (
+        <span class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 dark:border-ink-800 dark:text-ink-300">
+          {category}
+        </span>
+      )}
+      {curationLabels.map((l) => (
+        <span class="rounded-full bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
+          {l}
+        </span>
+      ))}
+      {/* Curated = reviewed provenance, not a success status. */}
+      {record.curation?.reviewed && (
+        <span class="inline-flex items-center gap-1 rounded-full border border-border bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
+          <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
+          </svg>
+          Curated
+        </span>
+      )}
+      {activityBadge && (
+        <span
+          data-activity-tone={activityBadge.tone}
+          class="grove-pill grove-pill--activity inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-2xs font-medium"
+        >
+          <span class="relative flex h-1.5 w-1.5">
+            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-current opacity-60"></span>
+            <span class="relative inline-flex h-1.5 w-1.5 rounded-full bg-current"></span>
+          </span>
+          {activityBadge.label}
+        </span>
+      )}
+    </div>
+  </div>
+
+  {/* Same pills below the identity row on narrow viewports. */}
+  <div class="mt-3 flex flex-wrap items-center gap-1.5 md:hidden">
+    {category && (
+      <span class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 dark:border-ink-800 dark:text-ink-300">
+        {category}
+      </span>
+    )}
+    {curationLabels.map((l) => (
+      <span class="rounded-full bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
+        {l}
+      </span>
+    ))}
+    {record.curation?.reviewed && (
+      <span class="inline-flex items-center gap-1 rounded-full border border-border bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
+        <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
+        </svg>
+        Curated
+      </span>
+    )}
+  </div>
+
+  {/* Description — full width below the identity row. */}
+  {summary && (
+    <p class="m-0 mt-4 max-w-[72ch] text-base leading-relaxed text-ink-700 dark:text-ink-200">
+      {summary}
+    </p>
+  )}
+  {sourceDescription && sourceDescription !== summary && (
+    <p class="m-0 mt-2 max-w-[72ch] text-sm leading-relaxed text-ink-500 dark:text-ink-400">
+      <span class="text-2xs font-semibold uppercase tracking-wider">From the project's README: </span>
+      {sourceDescription}
+    </p>
+  )}
+
+  {/* CTA row — primary actions only. */}
+  <div class="mt-4 flex flex-wrap items-center gap-2">
+    {repoUrl && (
+      <a
+        href={repoUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class={buttonClass("primary", "sm")}
+      >
+        View on GitHub →
+      </a>
+    )}
+    {homepageUrl && (
+      <a
+        href={homepageUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class={buttonClass("secondary", "sm")}
+      >
+        Homepage
+      </a>
+    )}
+  </div>
+  {screenshots && screenshots.length > 0 && (
+    <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-label="Screenshots">
+      {screenshots.map((shot) => (
+        <figure class="m-0 overflow-hidden rounded-[var(--radius-lg)] border border-ink-200 bg-muted dark:border-ink-800">
+          <img
+            src={shot.src}
+            alt={shot.alt}
+            loading="lazy"
+            decoding="async"
+            width={shot.width}
+            height={shot.height}
+            class="block h-auto w-full object-cover"
+          />
+          {shot.source && (
+            <figcaption class="px-3 py-1.5 text-2xs text-ink-500 dark:text-ink-400">
+              Source: <a href={shot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{shot.source.replace(/^https?:\/\//, "")}</a>
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+  )}
+</header>

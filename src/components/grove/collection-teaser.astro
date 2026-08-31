@@ -1,0 +1,47 @@
+---
+import type { CollectionIndexModel } from '@grove-dev/astro/server';
+/**
+ * CollectionTeaser — homepage-friendly subset of `CollectionIndex`.
+ *
+ * Thin wrapper that defaults `limit` to 3 and sets homepage-friendly
+ * "View all collections" link + copy. For custom card counts or
+ * different copy, use `CollectionIndex` directly with explicit
+ * `limit` and `viewAllHref` props.
+ */
+import CollectionIndex from './collection-index.astro';
+
+interface Props {
+  model: CollectionIndexModel;
+  title?: string;
+  description?: string;
+  viewAllHref?: string;
+  viewAllLabel?: string;
+  /** Cap the number of cards rendered. Default: 3. */
+  limit?: number;
+  /** Noun pair for the per-card entry counts (blueprint labels). */
+  countNoun?: { singular: string; plural: string };
+  class?: string;
+}
+
+const {
+  model,
+  title = 'Featured collections',
+  description = 'Hand-picked and auto-generated groupings of related items.',
+  viewAllHref = '/collections/',
+  viewAllLabel = 'View all collections',
+  limit = 3,
+  countNoun,
+  class: className,
+} = Astro.props;
+---
+
+<CollectionIndex
+  model={model}
+  title={title}
+  description={description}
+  viewAllHref={viewAllHref}
+  viewAllLabel={viewAllLabel}
+  limit={limit}
+  countNoun={countNoun}
+  class={className}
+/>

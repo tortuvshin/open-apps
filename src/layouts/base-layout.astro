@@ -1,0 +1,415 @@
+---
+/**
+ * BaseLayout — wraps every page. Owns the theme-detection inline
+ * script and the global shell (Header, Footer). Per-page SEO
+ * (title, description, OG, JSON-LD) is delegated to `<Seo />` so
+ * each page can declare what it needs without polluting the layout
+ * file.
+ *
+ * Generic: takes a `site` prop with brand + nav + stats. No
+ * `siteConfig` import — consumers compose the props from their
+ * own config (typically `data/generated/site-config.json` for the
+ * showcase).
+ *
+ * GA4 can be configured once through `site.analytics.googleAnalyticsId`
+ * or overridden per page with `gaId`. Omit both for privacy-first deployments.
+ */
+import '../styles/system.css';
+import { derivePrimaryPalette } from '@grove-dev/astro/server';
+import Footer from './footer.astro';
+import Header from './header.astro';
+import Seo from './seo.astro';
+
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+interface SiteStats {
+  totalApps?: number;
+  totalCategories?: number;
+  totalStacks?: number;
+  totalOwners?: number;
+  totalStars?: number;
+  repositoryStars?: number;
+  repositoryForks?: number;
+  repositoryContributors?: number;
+  originalRepo?: string;
+  originalStars?: number;
+  originalForks?: number;
+  originalContributors?: number;
+}
+
+interface Site {
+  name: string;
+  tagline?: string;
+  description?: string;
+  nav: NavItem[];
+  footer?: {
+    columns?: Array<{
+      heading: string;
+      items: Array<{ label: string; href: string; external?: boolean }>;
+    }>;
+    copyright?: string;
+    license?: string;
+  };
+  submission?: {
+    eyebrow?: string;
+    title?: string;
+    description?: string;
+    good?: string[];
+    avoid?: string[];
+  };
+  repoUrl?: string;
+  url?: string;
+  /** Header logo path under `public/` (e.g. `/logo.svg`). */
+  logo?: string;
+  /** Favicon path under `public/` (e.g. `/favicon.svg`). */
+  favicon?: string;
+  /** BCP-47 language tag (e.g. "en"). Drives `<html lang>` and og:locale. */
+  locale?: string;
+  /** Twitter/X handle (e.g. "@grove") — emitted as twitter:site. */
+  twitter?: string;
+  analytics?: {
+    googleAnalyticsId?: string;
+  };
+  /** Optional directory-level stats — populated from site-config.json
+   * at generate time. Components use it to render hero counts,
+   * origin card stats, and footer summary lines. */
+  stats?: SiteStats;
+  /** Theme knobs from grove.config.ts — resolved into CSS custom
+   * properties on `<html>` so the package stylesheet picks them up.
+   * Values are plain strings because the prop usually arrives from a
+   * JSON import; unknown values fall back to the package defaults. */
+  theme?: {
+    primaryColor?: string;
+    /** "none" | "soft" | "round" */
+    radius?: string;
+    /** "compact" | "comfortable" | "spacious" */
+    density?: string;
+    containerWidth?: string;
+  };
+  blueprintConfig?: {
+    routeSlug?: string;
+    labelSingular?: string;
+    labelPlural?: string;
+  };
+}
+
+interface Props {
+  title: string;
+  description: string;
+  site: Site;
+  type?: 'website' | 'article' | 'profile';
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** Open Graph / Twitter image path (e.g. "/og/records/foo.png").
+   * Defaults to the site-wide /og-image.svg inside <Seo />. */
+  image?: string;
+  /** Alt text for the OG/Twitter image. */
+  imageAlt?: string;
+  /** Optional Google Analytics 4 Measurement ID (e.g. "G-XXXXXX"). */
+  gaId?: string;
+  /** Path used for JSON-LD `SearchAction` target. Defaults to "/items". */
+  searchPath?: string;
+  /** Submit button label rendered in the header. Omit to hide. */
+  submitLabel?: string;
+  /** Submit button href rendered in the header. */
+  submitHref?: string;
+}
+
+const {
+  title,
+  description,
+  site,
+  type,
+  noindex,
+  jsonLd,
+  image,
+  imageAlt,
+  gaId,
+  searchPath,
+  submitLabel,
+  submitHref,
+} = Astro.props;
+const directoryPath = searchPath ?? `/${site.blueprintConfig?.routeSlug ?? 'items'}`;
+const effectiveGaId = gaId ?? site.analytics?.googleAnalyticsId;
+
+// ── Theme wiring ─────────────────────────────────────────────────
+// `theme.*` from grove.config.ts resolves to CSS custom properties
+// on the <html> style attribute. An attribute (not an inline
+// <style>) so the override wins over the bundled stylesheet
+// regardless of how Vite orders the CSS output.
+const RADIUS_PRESETS: Record<string, [string, string, string]> = {
+  none: ['0rem', '0rem', '0rem'],
+  soft: ['0.625rem', '0.5rem', '0.75rem'],
+  round: ['0.875rem', '0.75rem', '1rem'],
+};
+const DENSITY_SPACING: Record<string, string> = {
+  compact: '0.225rem',
+  comfortable: '0.25rem',
+  spacious: '0.28rem',
+};
+
+// Brand fill and text derive from ONE WCAG computation (contrast.ts)
+// so background and foreground can never drift apart across themes.
+
+const themeConfig = site.theme;
+const themeStyleParts: string[] = [];
+if (themeConfig) {
+  const radius = RADIUS_PRESETS[themeConfig.radius ?? 'soft'];
+  if (radius && themeConfig.radius && themeConfig.radius !== 'soft') {
+    themeStyleParts.push(
+      `--grove-radius: ${radius[0]}`,
+      `--grove-radius-lg: ${radius[1]}`,
+      `--grove-radius-xl: ${radius[2]}`,
+    );
+  }
+  const spacing = DENSITY_SPACING[themeConfig.density ?? 'comfortable'];
+  if (spacing && themeConfig.density && themeConfig.density !== 'comfortable') {
+    themeStyleParts.push(`--spacing: ${spacing}`);
+  }
+  if (themeConfig.containerWidth) {
+    themeStyleParts.push(`--grove-container: ${themeConfig.containerWidth}`);
+  }
+  const primary = themeConfig.primaryColor;
+  if (typeof primary === 'string' && /^#[0-9a-fA-F]{3,8}$/.test(primary)) {
+    const palette = derivePrimaryPalette(primary);
+    if (palette) {
+      themeStyleParts.push(
+        `--grove-theme-primary: ${palette.solid}`,
+        `--grove-theme-primary-foreground: ${palette.solidForeground}`,
+        `--grove-theme-primary-dark: ${palette.dark}`,
+        `--grove-theme-primary-dark-foreground: ${palette.darkForeground}`,
+      );
+    }
+  }
+}
+const themeStyle = themeStyleParts.length > 0 ? `${themeStyleParts.join('; ')};` : undefined;
+
+// `site.favicon` points at a file the consumer owns under `public/`.
+// The fallback is a generated square — tinted with the configured
+// brand color rather than a hardcoded near-black, so an unconfigured
+// site still gets a tab mark that is recognisably its own.
+const faviconFill = (site.theme?.primaryColor ?? '#18181b').trim();
+const favicon =
+  site.favicon ??
+  `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='${encodeURIComponent(faviconFill)}'/%3E%3C/svg%3E`;
+---
+
+<!doctype html>
+<html lang={site.locale ?? 'en'} style={themeStyle}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#0a0a0c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href={favicon} />
+    <link rel="sitemap" href="/sitemap.xml" />
+    {/* Preconnect to GitHub's avatar CDN — most pages render at least
+        one avatar (record list cards, detail page logo) and the
+        connection is reusable across cards. Cross-origin only, no
+        document fetch, so the cost is one TLS handshake per page. */}
+    <link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin="anonymous" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM usage guidance"
+    />
+
+    {effectiveGaId && (
+      <>
+        <script
+          is:inline
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${effectiveGaId}`}
+        />
+        <script is:inline define:vars={{ gaId: effectiveGaId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", gaId, {
+            page_path: window.location.pathname + window.location.search,
+            page_title: document.title,
+          });
+        </script>
+      </>
+    )}
+
+    <Seo
+      title={title}
+      description={description}
+      type={type}
+      noindex={noindex}
+      jsonLd={jsonLd}
+      {...(image ? { image } : {})}
+      imageAlt={imageAlt}
+      site={site}
+      searchPath={directoryPath}
+    />
+
+    <slot name="head" />
+
+    <script is:inline>
+      // THEME_INIT — runs before paint so the user never sees a
+      // flash of the wrong theme. State is persisted in localStorage
+      // under the key "grove-theme" (matching ThemeToggle.astro).
+      (function () {
+        var STORAGE_KEY = "grove-theme";
+        function getMode() {
+          try {
+            var stored = localStorage.getItem(STORAGE_KEY);
+            if (stored === "light" || stored === "dark" || stored === "system")
+              return stored;
+          } catch (e) {
+            // localStorage may be blocked (private mode, etc.) —
+            // fall through to the system default.
+          }
+          return "system";
+        }
+        function apply(mode) {
+          var resolved =
+            mode === "system"
+              ? (window.matchMedia("(prefers-color-scheme: dark)").matches
+                  ? "dark"
+                  : "light")
+              : mode;
+          var root = document.documentElement;
+          if (resolved === "dark") root.classList.add("dark");
+          else root.classList.remove("dark");
+          root.dataset.theme = mode;
+          root.dataset.resolvedTheme = resolved;
+        }
+        apply(getMode());
+        window.addEventListener("theme:set", function (e) {
+          apply(e.detail);
+        });
+        var mq = window.matchMedia("(prefers-color-scheme: dark)");
+        mq.addEventListener("change", function () {
+          if (getMode() === "system") apply("system");
+        });
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-background text-foreground">
+    <a
+      href="#main"
+      class="sr-only z-50 rounded-md bg-background px-3 py-2 text-sm font-medium text-foreground outline-none ring-2 ring-ring focus:not-sr-only focus:fixed focus:left-3 focus:top-3"
+    >
+      Skip to content
+    </a>
+    <slot name="header">
+      <Header
+        site={site}
+        submitLabel={submitLabel ?? (site.blueprintConfig ? `Submit ${site.blueprintConfig.labelSingular ?? "item"}` : undefined)}
+        submitHref={submitHref ?? (site.blueprintConfig ? "/submit" : undefined)}
+      />
+    </slot>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <slot name="footer">
+      <Footer
+        site={site}
+        stats={{
+          totalApps: site.stats?.totalApps,
+          totalCategories: site.stats?.totalCategories,
+          totalStacks: site.stats?.totalStacks,
+          totalOwners: site.stats?.totalOwners,
+        }}
+        itemsLabel={site.blueprintConfig?.labelPlural ?? "items"}
+        discover={{
+          heading: "Discover",
+          items: [
+            ...(site.stats?.totalApps
+              ? [{ label: "Browse all", href: directoryPath }]
+              : []),
+            { label: "Community", href: "/contributors" },
+            ...(site.stats?.originalRepo
+              ? [{ label: "View on GitHub", href: site.stats.originalRepo, external: true }]
+              : []),
+          ],
+        }}
+        contribute={{
+          heading: "Contribute",
+          items: [
+            ...(site.repoUrl
+              ? [
+                  {
+                    label: "Submit via GitHub",
+                    href: `${site.repoUrl}/blob/main/CONTRIBUTING.md`,
+                    external: true,
+                  },
+                ]
+              : []),
+            ...(site.repoUrl
+              ? [
+                  {
+                    label: "Report an issue",
+                    href: `${site.repoUrl}/issues`,
+                    external: true,
+                  },
+                ]
+              : []),
+          ],
+        }}
+        project={{
+          heading: "Project",
+          items: [
+            ...(site.repoUrl
+              ? [
+                  {
+                    label: "Source on GitHub",
+                    href: site.repoUrl,
+                    external: true,
+                  },
+                ]
+              : []),
+            ...(site.repoUrl
+              ? [
+                  {
+                    label: "Changelog",
+                    href: `${site.repoUrl}/blob/main/CHANGELOG.md`,
+                    external: true,
+                  },
+                ]
+              : []),
+          ],
+        }}
+      />
+    </slot>
+
+    <slot name="body-end" />
+
+    {effectiveGaId && (
+      <script is:inline define:vars={{ gaId: effectiveGaId }}>
+        (function () {
+          // GA4's `gtag('config', id)` call in the <head> already auto-pings
+          // `page_view` on full navigations, so this block only needs to
+          // catch history changes (back/forward). No history.pushState /
+          // replaceState wrap: the package does not install
+          // @astrojs/transitions' ClientRouter, and those wraps
+          // double-fired page_view events on every navigation.
+          var last = location.pathname + location.search;
+          function report() {
+            var next = location.pathname + location.search;
+            if (next === last) return;
+            last = next;
+            window.gtag("event", "page_view", {
+              page_path: next,
+              page_title: document.title,
+              page_location: location.href,
+            });
+          }
+          window.addEventListener("popstate", report);
+        })();
+      </script>
+    )}
+  </body>
+</html>

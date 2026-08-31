@@ -1,0 +1,38 @@
+---
+/**
+ * Badge — small labeled state indicator.
+ *
+ * Variant is the MEANING, not the color:
+ * - `neutral`  — plain metadata (counts, kinds).
+ * - `selected` — "you are here" (neutral inversion, never green).
+ * - `success` / `warning` / `danger` / `info` — actual status. These
+ *   use the status tokens, so green here means "healthy/succeeded",
+ *   not "brand" and not "selected".
+ */
+
+export type BadgeVariant = 'neutral' | 'selected' | 'success' | 'warning' | 'danger' | 'info';
+
+interface Props {
+  variant?: BadgeVariant;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const VARIANTS: Record<BadgeVariant, string> = {
+  neutral: 'border-border bg-secondary text-secondary-foreground',
+  selected: 'border-transparent bg-selected text-selected-foreground',
+  success: 'border-transparent bg-success text-success-foreground',
+  warning: 'border-transparent bg-warning text-warning-foreground',
+  danger: 'border-transparent bg-danger text-danger-foreground',
+  info: 'border-transparent bg-info text-info-foreground',
+};
+
+const { variant = 'neutral', class: className = '', ...rest } = Astro.props;
+---
+
+<span
+  class={`inline-flex min-h-5 items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium leading-none ${VARIANTS[variant]} ${className}`}
+  {...rest}
+>
+  <slot />
+</span>

@@ -1,0 +1,202 @@
+---
+/**
+ * ProjectCard — the canonical card for one directory record.
+ *
+ * V1 (v0.5.0) refined design for the three-column grid, now shared by
+ * every listing surface (home sections, browse results, collection
+ * entries, taxonomy pages) through thin adapters (`IndexRow`,
+ * `CollectionRow`):
+ *
+ *   - Default mode: the whole card is one clickable `<a>` (cursor:
+ *     pointer, subtle border + surface lift on hover, no more than
+ *     1–2px vertical motion).
+ *   - When the record has a repository the root becomes an
+ *     `<article>` with a stretched title link, because nesting `<a>`
+ *     inside `<a>` is invalid HTML. The `owner/repo` line is a real
+ *     link to the repository and sits above the stretched overlay
+ *     (`relative z-10`).
+ *   - App icon top-left (48px), app name + clickable owner/repo,
+ *     two-line description with reserved vertical space.
+ *   - Footer row: stack logos on the left, stars and last-updated on
+ *     the right, navigation arrow anchored bottom-right.
+ *
+ * **The layout is fixed.** Earlier versions let list pages opt into a
+ * curated badge, a license tag, a `category · status` line and
+ * labelled chip rows, so the same record rendered differently
+ * depending on where a visitor found it. Platform support is
+ * likewise off the card: it is reference detail and belongs on the
+ * record page (`RecordSidebar`).
+ *
+ * Presentation only: this component takes a pre-built
+ * `ProjectCardModel` (see `@grove-dev/astro/server`'s
+ * `buildProjectCardModel`) and renders it — no record shapes, casts,
+ * or formatting live here. Callers that render a raw record (or a
+ * lightweight adapter shape like `CollectionEntry`) build the model
+ * themselves before reaching this component.
+ *
+ * Uses the package's design-system tokens plus the standard `dark:`
+ * variant. Equal-height cards in the row are achieved at the grid
+ * level (`CardGrid`: `grid` + `items-stretch`).
+ */
+import type { ProjectCardModel } from '@grove-dev/astro/server';
+import CardIcon from './card-icon.astro';
+import Icon from './icon.astro';
+
+interface Props {
+  /** Pre-built view-model — see `buildProjectCardModel`. */
+  model: ProjectCardModel;
+  /** Full detail-page URL. */
+  href: string;
+  /** Eager-load the avatar (above-the-fold rows). */
+  eager?: boolean;
+  /** Analytics data-event attributes on the card root. */
+  event?: string;
+  eventSource?: string;
+  class?: string;
+}
+
+const { model, href, eager = false, event, eventSource, class: className = '' } = Astro.props;
+
+const {
+  name,
+  slug,
+  description,
+  initials,
+  avatarUrl,
+  repoHref,
+  owner,
+  repo,
+  isArticle,
+  stars,
+  starsLabel,
+  hasStars,
+  pushedAt,
+  updatedLabel,
+  hasUpdated,
+  visibleStacks,
+  stackOverflow,
+  hasStacks,
+} = model;
+
+const Root = isArticle ? 'article' : 'a';
+const rootAttrs = isArticle ? {} : { href, 'aria-label': `Open ${name}` };
+---
+
+<Root
+  {...rootAttrs}
+  class={`group relative flex h-full min-w-0 flex-col gap-3 rounded-xl border border-ink-200 bg-card p-5 outline-none transition-[border-color,background-color,transform] duration-150 hover:-translate-y-0.5 hover:border-ink-400 hover:bg-ink-50 focus-visible:border-ink-500 focus-visible:ring-2 focus-visible:ring-ink-900/15 dark:border-ink-800 dark:hover:border-ink-600 dark:hover:bg-ink-900 dark:focus-visible:border-ink-500 dark:focus-visible:ring-ink-100/15 ${className}`}
+  data-record-slug={slug}
+  data-event={event}
+  data-event-source={eventSource}
+  data-event-item={event ? slug : undefined}
+>
+  {/* Header: icon + name + owner.
+
+      The initials chip is always in the DOM, `hidden` behind the image,
+      and unhidden by the image's own `onerror` — the same pattern
+      `Icon.astro` uses. Rendering it only when `avatarUrl` is falsy made
+      it unreachable for every record with a GitHub owner, so a dead
+      logo URL or a renamed org showed the browser's broken-image glyph
+      instead of a fallback. */}
+  <header class="flex items-start gap-3">
+    {avatarUrl && (
+      <img
+        src={avatarUrl}
+        alt=""
+        width="48"
+        height="48"
+        loading={eager ? "eager" : "lazy"}
+        fetchpriority={eager ? "high" : undefined}
+        decoding="async"
+        onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+        class="h-12 w-12 shrink-0 rounded-lg bg-white object-contain p-1"
+      />
+    )}
+    <span
+      aria-hidden="true"
+      hidden={Boolean(avatarUrl)}
+      data-grove-card-fallback-initials
+      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-ink-100 text-base font-semibold uppercase text-ink-700 dark:bg-ink-800 dark:text-ink-200"
+    >
+      {initials}
+    </span>
+
+    <div class="flex min-w-0 flex-1 flex-col gap-0.5">
+      <h3 class="m-0 truncate text-[17px] font-semibold leading-snug tracking-tight text-ink-900 sm:text-[18px] dark:text-ink-100">
+        {isArticle ? (
+          <a
+            href={href}
+            class="text-inherit no-underline before:absolute before:inset-0 before:z-0 before:content-['']"
+          >
+            {name}
+          </a>
+        ) : (
+          name
+        )}
+      </h3>
+      {owner && repo && (
+        <p class="m-0 truncate font-mono text-[13px] text-ink-500 dark:text-ink-400">
+          {repoHref ? (
+            <a
+              href={repoHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={`${owner}/${repo} on GitHub`}
+              data-event="external_repo_click"
+              data-event-source="project_card_repo"
+              data-event-item={slug}
+              class="relative z-10 text-inherit no-underline transition-colors hover:text-ink-900 hover:underline dark:hover:text-ink-100"
+            >
+              {owner}<span class="opacity-60">/</span>{repo}
+            </a>
+          ) : (
+            <Fragment>{owner}<span class="opacity-60">/</span>{repo}</Fragment>
+          )}
+        </p>
+      )}
+    </div>
+  </header>
+
+  {/* Description — two-line clamp with reserved vertical space */}
+  <p
+    class="m-0 line-clamp-2 min-h-[42px] text-[14px] leading-[1.5] text-ink-500 dark:text-ink-400"
+  >
+    {description}
+  </p>
+
+  {/* Footer: stack logos · stars/updated · arrow */}
+  <footer class="mt-auto flex items-center justify-between gap-3 text-[12px] sm:text-[13px]">
+    {hasStacks ? (
+      <div class="flex min-w-0 items-center gap-2 text-ink-500 dark:text-ink-400">
+        {visibleStacks.map((stack) => (
+          <Icon name={stack} category="stack" size={16} title={stack} />
+        ))}
+        {stackOverflow > 0 && (
+          <span class="text-[12px] text-ink-500 dark:text-ink-400">+{stackOverflow}</span>
+        )}
+      </div>
+    ) : (
+      /* Keeps the footer's stars/updated block right-aligned without
+         shipping an empty flex container on every stackless card. */
+      <span></span>
+    )}
+
+    <div class="flex min-w-0 shrink-0 items-center gap-3 text-ink-500 dark:text-ink-400">
+      {hasStars && (
+        <span class="inline-flex items-center gap-1" title={`${stars ?? 0} stars on GitHub`}>
+          <span class="inline-flex text-warning"><CardIcon name="star" /></span>
+          <span class="font-mono">{starsLabel}</span>
+        </span>
+      )}
+      {hasUpdated && (
+        <span class="whitespace-nowrap" title={`Last updated ${pushedAt}`}>
+          Updated {updatedLabel}
+        </span>
+      )}
+      <CardIcon
+        name="arrow"
+        class="shrink-0 text-ink-400 transition-colors group-hover:text-ink-700 dark:text-ink-500 dark:group-hover:text-ink-100"
+      />
+    </div>
+  </footer>
+</Root>

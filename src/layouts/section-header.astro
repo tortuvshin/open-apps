@@ -1,0 +1,43 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  align?: 'left' | 'center';
+  /** Pass 1 when this header IS the page title (one h1 per route). */
+  level?: 1 | 2 | 3;
+}
+
+const { eyebrow, title, description, align = 'left', level = 2 } = Astro.props;
+const Heading = `h${level}` as 'h1' | 'h2' | 'h3';
+---
+
+<header
+  class={`mb-6 flex flex-col gap-2 ${
+    align === "center" ? "items-center text-center" : ""
+  }`}
+>
+  {
+    eyebrow && (
+      <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
+        {eyebrow}
+      </span>
+    )
+  }
+  <Heading
+    class="text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100 m-0"
+  >
+    {title}
+  </Heading>
+  {
+    description && (
+      <p
+        class={`text-[0.9375rem] leading-relaxed text-ink-500 dark:text-ink-400 m-0 ${
+          align === "center" ? "max-w-2xl" : "max-w-[56ch]"
+        }`}
+      >
+        {description}
+      </p>
+    )
+  }
+</header>

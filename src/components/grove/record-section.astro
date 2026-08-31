@@ -1,0 +1,129 @@
+---
+import { buildProjectCardModel } from '@grove-dev/astro/server';
+/**
+ * RecordSection — generic lens-style section wrapper for the
+ * home page.
+ *
+ * Renders a SectionHeader + a 3-column grid of `ProjectCard`s
+ * (the v0.5.0 refined card), plus an optional "View all" link
+ * in the header. Generic: takes any
+ * `IndexRecord[]` (the slim list-page shape, discriminated union
+ * over `kind`).
+ *
+ * Two equivalent APIs are supported so the same template works
+ * against both the workspace source and the published
+ * `@grove-dev/astro@0.2.10` package:
+ *
+ *   - **`hrefFor(record)`** callback — V1 published API. Caller
+ *     passes a function that returns the detail-page URL for
+ *     each item.
+ *   - **`pathPrefix` string** — convenience API for the common
+ *     case `${pathPrefix}/${item.slug}`. Mutually exclusive with
+ *     `hrefFor`; if both are provided, `hrefFor` wins.
+ *
+ * Empty-state copy is rendered when the list has no items, so the
+ * homepage never collapses to a blank section.
+ */
+import type { IndexRecord } from '@grove-dev/core';
+import Container from '../../layouts/container.astro';
+import SectionHeader from '../../layouts/section-header.astro';
+import EmptyState from '../ui/empty-state.astro';
+import CardGrid from './card-grid.astro';
+import ProjectCard from './project-card.astro';
+
+interface Props {
+  /** Used as the section id (so deep links work) and a stable key. */
+  id: string;
+  title: string;
+  description?: string;
+  items: IndexRecord[];
+  /** Detail-page href builder (V1 published API). */
+  hrefFor?: (record: IndexRecord) => string;
+  /** Detail-page URL prefix (convenience API). */
+  pathPrefix?: string;
+  /** Optional "View all" link rendered in the header. */
+  viewAllHref?: string;
+  viewAllLabel?: string;
+  /** Optional eyebrow. */
+  eyebrow?: string;
+  /** Empty-state copy. */
+  emptyLabel?: string;
+  /** Extra class on the outer <section>. */
+  class?: string;
+  /** How many records to render. Default 3 — the refined grid shows one row. */
+  limit?: number;
+}
+
+const {
+  id,
+  title,
+  description,
+  items,
+  hrefFor,
+  pathPrefix = '/items',
+  viewAllHref,
+  viewAllLabel = 'View all',
+  eyebrow,
+  emptyLabel = 'No records yet.',
+  class: className = '',
+  limit = 3,
+} = Astro.props;
+
+const visible = items.slice(0, limit);
+---
+
+<section
+  id={id}
+  class={`py-12 sm:py-16 scroll-mt-20 ${className}`}
+>
+  <Container>
+    <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+      <SectionHeader
+        eyebrow={eyebrow}
+        title={title}
+        description={description}
+      />
+      {viewAllHref && (
+        <a
+          href={viewAllHref}
+          class="hidden shrink-0 pb-2 text-2xs font-medium text-ink-500 transition-colors hover:text-ink-900 sm:inline dark:text-ink-400 dark:hover:text-ink-100"
+        >
+          {viewAllLabel} →
+        </a>
+      )}
+    </div>
+
+    {visible.length === 0 ? (
+      <EmptyState title={emptyLabel} />
+    ) : (
+      <CardGrid>
+        {visible.map((item) => {
+          // Resolve href: caller-supplied `hrefFor` callback wins;
+          // otherwise fall back to `${pathPrefix}/${slug}`. The href
+          // is what each card actually navigates to — getting it
+          // right is the difference between a working home page
+          // and a 404-storm of `/items/<slug>` links.
+          const base = pathPrefix.replace(/\/$/, "");
+          const fallbackHref = `${base}/${item.slug}`;
+          const finalHref =
+            typeof hrefFor === "function" ? hrefFor(item) : fallbackHref;
+          const model = buildProjectCardModel(item);
+          return (
+            <li class="m-0 p-0">
+              <ProjectCard model={model} href={finalHref} />
+            </li>
+          );
+        })}
+      </CardGrid>
+    )}
+
+    {viewAllHref && (
+      <div class="mt-4 sm:hidden">
+        <a
+          href={viewAllHref}
+          class="text-2xs font-medium text-ink-500 transition-colors hover:text-ink-900 dark:text-ink-400 dark:hover:text-ink-100"
+          >{viewAllLabel} →</a>
+        </div>
+    )}
+  </Container>
+</section>

@@ -11,12 +11,12 @@
  * Page 1 is the bare `/{slug}/` route — it is not duplicated here, so
  * there is one canonical URL for the first page.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import { getDirectoryIndexModel } from "@grove-dev/astro/server";
-import DirectoryBrowse from "../../../components/DirectoryBrowse.astro";
+import siteConfig from '@grove/generated/site-config.json';
+import { getDirectoryIndexModel } from '@grove-dev/astro/server';
+import DirectoryBrowse from '../../../components/grove/directory-browse.astro';
 
 export function getStaticPaths() {
-  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
   // Page count comes from the model, not from `stats.totalRecords` —
   // the browse list is scoped to the blueprint's own records.
   const { pages: count } = getDirectoryIndexModel(new URLSearchParams(), siteConfig);

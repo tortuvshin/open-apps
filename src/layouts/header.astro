@@ -1,0 +1,206 @@
+---
+/**
+ * Header — sticky brand + nav + theme toggle.
+ *
+ * Generic: takes a `site` prop with brand + nav. No `siteConfig`
+ * import — consumers compose the props from their own config.
+ *
+ * Optional `submit` button renders a "Submit app" / "Submit project"
+ * call-to-action on the right side of the nav. Set `submitHref` /
+ * `submitLabel` to enable, leave them undefined for a clean header.
+ *
+ * Optional `repoUrl` adds a "View source" GitHub button. Set
+ * `repoLabel` to change the visible text.
+ */
+
+import { compact } from '@grove-dev/core';
+import ThemeToggle from '../components/site/theme-toggle.astro';
+import { buttonClass } from '../lib/classnames.ts';
+
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+interface Site {
+  name: string;
+  tagline?: string;
+  nav: NavItem[];
+  description?: string;
+  repoUrl?: string;
+  url?: string;
+  /** Logo path under `public/` (e.g. `/logo.svg`). */
+  logo?: string;
+  stats?: {
+    /** Stars on this site's own source repository. */
+    repositoryStars?: number;
+  };
+  blueprintConfig?: {
+    routeSlug?: string;
+  };
+}
+
+interface Props {
+  site: Site;
+  /** Submit button label, e.g. "Submit app". Omit to hide. */
+  submitLabel?: string;
+  /** Submit button href, e.g. "/submit". Omit to hide. */
+  submitHref?: string;
+  /** GitHub button label, e.g. "View source". */
+  repoLabel?: string;
+  /** Extra class for the outer header element. */
+  class?: string;
+}
+
+const { site, submitLabel, submitHref, repoLabel = 'Star', class: className = '' } = Astro.props;
+const directoryPath = `/${site.blueprintConfig?.routeSlug ?? 'items'}`;
+const defaultNavItems = site.blueprintConfig
+  ? [
+      { label: 'Recently added', href: `${directoryPath}?sort=recently-added` },
+      { label: 'Trending', href: `${directoryPath}?label=hot` },
+      { label: 'Categories', href: '/categories' },
+      { label: 'Stacks', href: '/stacks' },
+      { label: 'About', href: '/about' },
+    ]
+  : [];
+const navItems = site.nav?.length ? site.nav : defaultNavItems;
+const stars = site.stats?.repositoryStars;
+const starsLabel = typeof stars === 'number' ? compact(stars) : null;
+---
+
+<header
+  class:list={[
+    "border-border bg-background/85 sticky top-0 z-50 border-b backdrop-blur",
+    className,
+  ]}
+>
+  <div
+    class="mx-auto flex w-full max-w-container items-center gap-3 px-5 py-3 sm:gap-6 sm:px-7"
+  >
+    <a
+      href="/"
+      class="inline-flex min-w-0 shrink items-center gap-2 text-[0.95rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
+    >
+      {site.logo ? (
+        <img
+          src={site.logo}
+          alt=""
+          aria-hidden="true"
+          width="18"
+          height="18"
+          class="inline-block h-[18px] w-[18px] shrink-0 object-contain"
+        />
+      ) : (
+        /* No logo configured — a neutral mark is the honest default.
+           Set `site.logo` in grove.config.ts to replace it. */
+        <span
+          aria-hidden="true"
+          class="inline-block h-[18px] w-[18px] rounded bg-ink-900 dark:bg-ink-100"
+        ></span>
+      )}
+      <span class="truncate">{site.name}</span>
+    </a>
+
+    <nav class="hidden flex-1 md:block" aria-label="Primary">
+      <ul class="m-0 flex list-none gap-5 p-0">
+        {navItems.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class="text-[0.875rem] font-medium text-ink-500 transition-colors hover:text-ink-900 dark:text-ink-400 dark:hover:text-ink-100"
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="ml-auto flex items-center gap-2">
+      <details class="group relative md:hidden">
+        <summary class="inline-flex h-9 cursor-pointer list-none items-center justify-center rounded-[var(--radius)] border border-border bg-secondary px-2.5 text-sm font-medium text-foreground hover:bg-accent focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/35">
+          Menu
+        </summary>
+        <nav aria-label="Mobile primary" class="absolute right-0 top-[calc(100%+0.5rem)] z-50 w-56 rounded-[var(--radius)] border border-border bg-background p-2 shadow-lg">
+          <ul class="m-0 flex list-none flex-col gap-1 p-0">
+            {navItems.map((item) => (
+              <li><a href={item.href} class="block rounded-md px-3 py-2 text-sm font-medium text-foreground no-underline hover:bg-accent">{item.label}</a></li>
+            ))}
+            {submitHref && (
+              <li class="border-t border-border pt-1"><a href={submitHref} class="block rounded-md px-3 py-2 text-sm font-medium text-foreground no-underline hover:bg-accent">{submitLabel ?? "Submit"}</a></li>
+            )}
+          </ul>
+        </nav>
+      </details>
+
+      {submitHref && (
+        <a
+          href={submitHref}
+          class={buttonClass("secondary", "sm", "max-sm:!hidden")}
+        >
+          <svg
+            viewBox="0 0 16 16"
+            width="13"
+            height="13"
+            aria-hidden="true"
+            fill="currentColor"
+          >
+            <path d="M7.75 2a.75.75 0 0 1 .75.75v3.5h3.5a.75.75 0 0 1 0 1.5h-3.5v3.5a.75.75 0 0 1-1.5 0v-3.5h-3.5a.75.75 0 0 1 0-1.5h3.5v-3.5A.75.75 0 0 1 7.75 2Z"></path>
+          </svg>
+          <span>{submitLabel ?? "Submit"}</span>
+        </a>
+      )}
+
+      {site.repoUrl && (
+        <a
+          href={site.repoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`${repoLabel} on GitHub${starsLabel ? ` — ${starsLabel} stars` : ""}`}
+          title={`${repoLabel} on GitHub`}
+          class={buttonClass("secondary", "bare", "h-8 overflow-hidden p-0 text-sm")}
+        >
+          <span class="flex items-center gap-1.5 px-2.5 py-1.5 text-ink-900 dark:text-ink-100">
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="currentColor">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.72 1.22 1.87.87 2.33.67.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.19c0 .21.15.46.55.38A8 8 0 0 0 8 0Z"></path>
+            </svg>
+            <span class="hidden lg:inline">{repoLabel}</span>
+          </span>
+          {starsLabel && <span class="hidden items-center gap-1 border-s border-border bg-secondary px-2 py-1.5 text-secondary-foreground sm:flex">
+            <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor" class="text-warning">
+              <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path>
+            </svg>
+            <span class="font-mono">{starsLabel}</span>
+          </span>}
+        </a>
+      )}
+
+      <ThemeToggle />
+    </div>
+  </div>
+</header>
+
+<script>
+  // Smooth-scroll for in-page anchor links (Header nav + Hero CTA).
+  // Works on any <a href="#…"> that points to an existing element on
+  // the current page. External links (e.g. /about, /projects?…) are
+  // skipped because they don't start with "#". Modifier-clicks
+  // (Cmd/Ctrl/Shift/middle) let the browser handle the anchor
+  // normally so users can open the same section in a new tab.
+  document.addEventListener("click", (e) => {
+    if (e.defaultPrevented) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (e.button !== 0) return;
+    const link = (e.target as HTMLElement).closest<HTMLAnchorElement>(
+      'a[href^="#"]',
+    );
+    if (!link) return;
+    const id = link.getAttribute("href")!;
+    if (id.length <= 1) return;
+    const target = document.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", id);
+  });
+</script>

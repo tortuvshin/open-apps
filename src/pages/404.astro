@@ -6,11 +6,11 @@
  * short message and a search form pointing at the list page. Stays
  * on-brand regardless of blueprint.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import { indexSlug } from "@grove-dev/astro/server";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import { buttonClass } from "@grove-dev/astro/ui/button";
-import SearchField from "@grove-dev/astro/ui/SearchField.astro";
+import siteConfig from '@grove/generated/site-config.json';
+import { indexSlug } from '@grove-dev/astro/server';
+import SearchField from '../components/ui/search-field.astro';
+import BaseLayout from '../layouts/base-layout.astro';
+import { buttonClass } from '../lib/classnames.ts';
 
 const slug = indexSlug();
 const title = `Not found — ${siteConfig.name}`;

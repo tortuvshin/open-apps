@@ -8,17 +8,17 @@
  * once, on idle, and the browser caches it across every page of the
  * directory.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import { getDirectoryIndexModel } from "@grove-dev/astro/server";
+import siteConfig from '@grove/generated/site-config.json';
+import { getDirectoryIndexModel } from '@grove-dev/astro/server';
 
 export function getStaticPaths() {
-  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? "projects";
+  const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
   return [{ params: { slug: routeSlug } }];
 }
 
 export function GET() {
   const { clientItemsJson } = getDirectoryIndexModel(new URLSearchParams(), siteConfig);
   return new Response(clientItemsJson, {
-    headers: { "content-type": "application/json; charset=utf-8" },
+    headers: { 'content-type': 'application/json; charset=utf-8' },
   });
 }

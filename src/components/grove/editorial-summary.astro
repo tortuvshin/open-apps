@@ -1,0 +1,58 @@
+---
+/**
+ * EditorialSummary.astro
+ *
+ * Compact card at the top of the record body that surfaces the
+ * curator's "Best for" and "Consider before using" notes. Renders
+ * nothing when both arrays are empty.
+ *
+ * This is the editorial half of the page: the sidebar (right) is
+ * auto-generated facts; the summary (left) is human-authored
+ * curation.
+ */
+interface Props {
+  bestFor: string[];
+  caveats: string[];
+}
+
+const { bestFor, caveats } = Astro.props;
+const hasAny = bestFor.length > 0 || caveats.length > 0;
+---
+
+{hasAny && (
+  <section class="grove-editorial mb-10 rounded-[var(--radius-lg)] border border-ink-200 bg-card p-5 dark:border-ink-800" aria-label="Editorial summary">
+    <h2 class="sr-only">Editorial summary</h2>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+      {bestFor.length > 0 && (
+        <div>
+          <h3 class="m-0 flex items-center gap-1.5 text-2xs font-semibold uppercase tracking-wider text-success">
+            <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor">
+              <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" />
+            </svg>
+            Best for
+          </h3>
+          <ul class="mt-2 m-0 flex list-none flex-col gap-1.5 p-0 text-sm text-ink-700 dark:text-ink-200">
+            {bestFor.map((b) => (
+              <li class="leading-relaxed">{b}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {caveats.length > 0 && (
+        <div>
+          <h3 class="m-0 flex items-center gap-1.5 text-2xs font-semibold uppercase tracking-wider text-warning">
+            <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor">
+              <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-6.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 .4 1.04l1.6.8a.75.75 0 1 0 .67-1.34l-1.17-.59V4.75z" />
+            </svg>
+            Consider before using
+          </h3>
+          <ul class="mt-2 m-0 flex list-none flex-col gap-1.5 p-0 text-sm text-ink-700 dark:text-ink-200">
+            {caveats.map((c) => (
+              <li class="leading-relaxed">{c}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  </section>
+)}

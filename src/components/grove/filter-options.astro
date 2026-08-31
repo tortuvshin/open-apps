@@ -1,0 +1,49 @@
+---
+interface FacetValue {
+  value: string;
+  label?: string;
+  count?: number;
+}
+
+interface Props {
+  filterKey: string;
+  options: FacetValue[];
+  initial: string[];
+  single?: boolean;
+}
+
+const { filterKey, options, initial, single = false } = Astro.props;
+
+function pretty(value: string): string {
+  return value
+    .split(/[-_]/)
+    .map((part) => (part ? part[0].toUpperCase() + part.slice(1) : part))
+    .join(' ');
+}
+---
+
+<ul class="m-0 flex max-h-72 list-none flex-col gap-0.5 overflow-y-auto p-0">
+  {options.map((option) => (
+    <li>
+      <label class="flex cursor-pointer items-center justify-between gap-3 rounded-md px-2 py-1.5 text-[0.8125rem] text-ink-700 transition-colors hover:bg-ink-50 dark:text-ink-300 dark:hover:bg-ink-900/60">
+        <span class="flex min-w-0 items-center gap-2">
+          <input
+            type={single ? "radio" : "checkbox"}
+            name={single ? filterKey : undefined}
+            class="grove-filter-input h-3.5 w-3.5 shrink-0 cursor-pointer accent-ink-900 dark:accent-ink-100"
+            data-filter-key={filterKey}
+            data-filter-value={option.value}
+            checked={initial.includes(option.value)}
+          />
+          <span class="truncate">{option.label ?? pretty(option.value)}</span>
+        </span>
+        <span
+          class="font-mono text-2xs tabular-nums text-ink-500 dark:text-ink-400"
+          data-facet-count
+          data-facet={filterKey}
+          data-value={option.value}
+        >{option.count ?? 0}</span>
+      </label>
+    </li>
+  ))}
+</ul>

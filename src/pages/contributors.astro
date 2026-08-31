@@ -11,10 +11,10 @@
  * The list represents contributors to the directory's own source
  * repository. Project owners in the directory are a separate metric.
  */
-import siteConfig from "@grove/generated/site-config.json";
-import BaseLayout from "@grove-dev/astro/layouts/BaseLayout.astro";
-import EmptyState from "@grove-dev/astro/ui/EmptyState.astro";
-import { getContributorsPageModel } from "@grove-dev/astro/server";
+import siteConfig from '@grove/generated/site-config.json';
+import { getContributorsPageModel } from '@grove-dev/astro/server';
+import EmptyState from '../components/ui/empty-state.astro';
+import BaseLayout from '../layouts/base-layout.astro';
 
 const {
   contributors: sorted,
@@ -25,122 +25,96 @@ const {
 } = getContributorsPageModel(siteConfig);
 ---
 
-<BaseLayout
-  title={seo.title}
-  description={seo.description}
-  image={seo.image}
-  jsonLd={seo.jsonLd}
-  site={siteConfig}
->
-  <section>
+<BaseLayout title={seo.title} description={seo.description} image={seo.image} jsonLd={seo.jsonLd} site={siteConfig}>
+  <section class="py-12 sm:py-16">
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
-      <span
-        class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400"
-      >
+      <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
         Community
       </span>
-      <h1
-        class="m-0 mt-2 text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-ink-100"
-      >
+      <h1 class="m-0 mt-2 text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-ink-100">
         {total > 0 ? `${total} community contributors` : "Community"}
       </h1>
-      <p
-        class="m-0 mt-3 max-w-2xl text-base leading-relaxed text-ink-700 dark:text-ink-200"
-      >
-        {
-          total > 0
-            ? `People who have improved ${siteConfig.name} through code, curation, and review.`
-            : `Community profiles will appear after ${siteConfig.name} syncs its source repository metadata.`
-        }
+      <p class="m-0 mt-3 max-w-2xl text-base leading-relaxed text-ink-700 dark:text-ink-200">
+        {total > 0
+          ? `People who have improved ${siteConfig.name} through code, curation, and review.`
+          : `Community profiles will appear after ${siteConfig.name} syncs its source repository metadata.`}
       </p>
 
-      {
-        contributorsGraphHref && (
-          <p class="m-0 mt-3 text-sm text-ink-500 dark:text-ink-400">
-            <a
-              href={contributorsGraphHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-medium underline decoration-ink-300 underline-offset-2 hover:decoration-ink-500 dark:decoration-ink-700 dark:hover:decoration-ink-400"
-            >
-              GitHub contributors graph →
-            </a>
-          </p>
-        )
-      }
+      {contributorsGraphHref && (
+        <p class="m-0 mt-3 text-sm text-ink-500 dark:text-ink-400">
+          <a
+            href={contributorsGraphHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-medium underline decoration-ink-300 underline-offset-2 hover:decoration-ink-500 dark:decoration-ink-700 dark:hover:decoration-ink-400"
+          >
+            GitHub contributors graph →
+          </a>
+        </p>
+      )}
     </div>
   </section>
 
-  {
-    sorted.length === 0 ? (
-      <section class="pb-12 sm:pb-16">
-        <div class="mx-auto w-full max-w-container px-5 sm:px-7">
-          <EmptyState
-            title="No contributors synced yet"
-            description={`Contributor profiles come from data/generated/contributors.json, written by the weekly sync-contributors workflow. Run "grove sync contributors" (or wait for the scheduled sync) and every contributor avatar lands here.`}
-            action={
-              contributorsGraphHref
-                ? {
-                    label: "View contributors on GitHub",
-                    href: contributorsGraphHref,
-                  }
-                : undefined
-            }
-          />
-        </div>
-      </section>
-    ) : (
-      <section class="py-12 sm:py-16" aria-label="Contributors list">
-        <div class="mx-auto w-full max-w-container px-5 pb-16 sm:px-7">
-          {/* bottom padding lives on the wrapper so the last row of cards
-            sits a clear breath away from the page footer. */}
-          <ul
-            class="m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
-            aria-label="Contributors"
-          >
-            {sorted.map((c) => {
-              const href = c.profileUrl ?? `https://github.com/${c.username}`;
-              const avatar =
-                c.avatarUrl ??
-                `https://avatars.githubusercontent.com/${c.username}?v=4&s=80`;
-              return (
-                <li class="m-0 p-0">
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="group rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors flex flex-col items-center gap-2 p-3 text-center no-underline  hover:border-ink-300 dark:hover:border-ink-700"
-                    data-event="contributor_click"
-                    data-event-source="contributors_page"
-                  >
-                    <img
-                      src={avatar}
-                      alt={c.name ?? c.username}
-                      width="56"
-                      height="56"
-                      loading="lazy"
-                      decoding="async"
-                      class="h-14 w-14 rounded-full border border-ink-200 object-cover dark:border-ink-800"
-                    />
-                    <span class="line-clamp-1 text-sm font-medium text-ink-700 group-hover:text-ink-900 dark:text-ink-300 dark:group-hover:text-ink-100">
-                      {c.name ?? c.username}
+  {sorted.length === 0 ? (
+    <section class="pb-12 sm:pb-16">
+      <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+        <EmptyState
+          title="No contributors synced yet"
+          description={`Contributor profiles come from data/generated/contributors.json, written by the weekly sync-contributors workflow. Run "grove sync contributors" (or wait for the scheduled sync) and every contributor avatar lands here.`}
+          action={contributorsGraphHref
+            ? { label: "View contributors on GitHub", href: contributorsGraphHref }
+            : undefined}
+        />
+      </div>
+    </section>
+  ) : (
+    <section class="py-12 sm:py-16" aria-label="Contributors list">
+      <div class="mx-auto w-full max-w-container px-5 pb-16 sm:px-7">
+        <ul
+          class="m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
+          aria-label="Contributors"
+        >
+          {sorted.map((c) => {
+            const href = c.profileUrl ?? `https://github.com/${c.username}`;
+            const avatar =
+              c.avatarUrl ??
+              `https://avatars.githubusercontent.com/${c.username}?v=4&s=80`;
+            return (
+              <li class="m-0 p-0">
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors flex flex-col items-center gap-2 p-3 text-center no-underline  hover:border-ink-300 dark:hover:border-ink-700"
+                  data-event="contributor_click"
+                  data-event-source="contributors_page"
+                >
+                  <img
+                    src={avatar}
+                    alt={c.name ?? c.username}
+                    width="56"
+                    height="56"
+                    loading="lazy"
+                    decoding="async"
+                    class="h-14 w-14 rounded-full border border-ink-200 object-cover dark:border-ink-800"
+                  />
+                  <span class="line-clamp-1 text-sm font-medium text-ink-700 group-hover:text-ink-900 dark:text-ink-300 dark:group-hover:text-ink-100">
+                    {c.name ?? c.username}
+                  </span>
+                  <span class="text-2xs text-ink-500 dark:text-ink-400">
+                    @{c.username}
+                  </span>
+                  {showContributionCount && typeof c.contributions === "number" && (
+                    <span class="font-mono text-2xs text-ink-400">
+                      {c.contributions.toLocaleString()} contributions
                     </span>
-                    <span class="text-2xs text-ink-500 dark:text-ink-400">
-                      @{c.username}
-                    </span>
-                    {showContributionCount &&
-                      typeof c.contributions === "number" && (
-                        <span class="font-mono text-2xs text-ink-400">
-                          {c.contributions.toLocaleString()} contributions
-                        </span>
-                      )}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
-    )
-  }
+                  )}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  )}
 </BaseLayout>
