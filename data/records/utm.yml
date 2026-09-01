@@ -107,15 +107,15 @@ github:
     releases_url: https://api.github.com/repos/utmapp/UTM/releases{/id}
     deployments_url: https://api.github.com/repos/utmapp/UTM/deployments
     created_at: 2019-04-12T16:09:24Z
-    updated_at: 2026-07-22T08:37:08Z
-    pushed_at: 2026-06-08T16:07:02Z
+    updated_at: 2026-09-01T11:45:24Z
+    pushed_at: 2026-09-01T05:28:36Z
     git_url: git://github.com/utmapp/UTM.git
     ssh_url: git@github.com:utmapp/UTM.git
     clone_url: https://github.com/utmapp/UTM.git
     svn_url: https://github.com/utmapp/UTM
     homepage: https://getutm.app
     size: 50567
-    stargazers_count: 34747
+    stargazers_count: 35223
     watchers_count: 34747
     language: Swift
     has_issues: true
@@ -124,17 +124,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1761
+    forks_count: 1803
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1081
+    open_issues_count: 1112
     license:
-      key: apache-2.0
-      name: Apache License 2.0
       spdx_id: Apache-2.0
-      url: https://api.github.com/licenses/apache-2.0
-      node_id: MDc6TGljZW5zZTI=
+      name: Apache-2.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -186,8 +183,8 @@ github:
     network_count: 1761
     subscribers_count: 381
   sync:
-    syncedAt: 2026-09-01T06:56:28.456Z
-    source: html
+    syncedAt: 2026-09-01T12:55:12.726Z
+    source: api
   languages:
     Swift: 2045626
     Objective-C: 279855
@@ -905,6 +902,8 @@ github:
     license: Apache-2.0
     language: null
     topics: []
+  latestReleaseAt: 2026-01-03T17:51:54Z
+  homepage: https://getutm.app
 health:
   status: unknown
   tier: listed

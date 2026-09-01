@@ -110,7 +110,7 @@ github:
     releases_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/releases{/id}
     deployments_url: https://api.github.com/repos/analogcode/Swift-Radio-Pro/deployments
     created_at: 2015-09-04T19:39:44Z
-    updated_at: 2026-07-21T13:39:23Z
+    updated_at: 2026-08-30T01:12:17Z
     pushed_at: 2026-07-05T16:45:42Z
     git_url: git://github.com/analogcode/Swift-Radio-Pro.git
     ssh_url: git@github.com:analogcode/Swift-Radio-Pro.git
@@ -118,7 +118,7 @@ github:
     svn_url: https://github.com/analogcode/Swift-Radio-Pro
     homepage: ""
     size: 20816
-    stargazers_count: 2934
+    stargazers_count: 2938
     watchers_count: 2934
     language: Swift
     has_issues: true
@@ -127,17 +127,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 713
+    forks_count: 711
     mirror_url: null
     archived: false
     disabled: false
     open_issues_count: 11
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -191,8 +188,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 25
   sync:
-    syncedAt: 2026-09-01T06:56:19.801Z
-    source: html
+    syncedAt: 2026-09-01T12:55:09.298Z
+    source: api
   languages:
     Swift: 161994
   latestRelease:
@@ -311,6 +308,7 @@ github:
     license: MIT
     language: null
     topics: []
+  latestReleaseAt: 2026-07-04T20:18:33Z
 health:
   status: active
   tier: curated

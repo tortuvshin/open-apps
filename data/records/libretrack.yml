@@ -101,7 +101,7 @@ github:
     releases_url: https://api.github.com/repos/proninyaroslav/libretrack/releases{/id}
     deployments_url: https://api.github.com/repos/proninyaroslav/libretrack/deployments
     created_at: 2021-06-18T10:09:46Z
-    updated_at: 2026-07-08T08:15:30Z
+    updated_at: 2026-08-25T23:12:14Z
     pushed_at: 2026-06-30T19:05:23Z
     git_url: git://github.com/proninyaroslav/libretrack.git
     ssh_url: git@github.com:proninyaroslav/libretrack.git
@@ -109,7 +109,7 @@ github:
     svn_url: https://github.com/proninyaroslav/libretrack
     homepage: ""
     size: 7872
-    stargazers_count: 356
+    stargazers_count: 364
     watchers_count: 356
     language: Dart
     has_issues: true
@@ -118,17 +118,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 27
+    forks_count: 26
     mirror_url: null
     archived: false
     disabled: false
     open_issues_count: 41
     license:
-      key: gpl-3.0
-      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      url: https://api.github.com/licenses/gpl-3.0
-      node_id: MDc6TGljZW5zZTk=
+      name: GPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -176,8 +173,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 6
   sync:
-    syncedAt: 2026-09-01T06:55:50.059Z
-    source: html
+    syncedAt: 2026-09-01T12:54:56.355Z
+    source: api
   languages:
     Dart: 1910458
     C++: 18969
@@ -589,6 +586,7 @@ github:
     license: GPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2024-12-30T14:59:40Z
 health:
   status: active
   tier: listed

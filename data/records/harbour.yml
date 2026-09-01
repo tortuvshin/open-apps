@@ -112,15 +112,15 @@ github:
     releases_url: https://api.github.com/repos/rrroyal/Harbour/releases{/id}
     deployments_url: https://api.github.com/repos/rrroyal/Harbour/deployments
     created_at: 2020-04-06T22:16:35Z
-    updated_at: 2026-07-21T00:54:40Z
-    pushed_at: 2026-07-14T11:46:22Z
+    updated_at: 2026-08-23T04:47:48Z
+    pushed_at: 2026-07-23T20:56:23Z
     git_url: git://github.com/rrroyal/Harbour.git
     ssh_url: git@github.com:rrroyal/Harbour.git
     clone_url: https://github.com/rrroyal/Harbour.git
     svn_url: https://github.com/rrroyal/Harbour
     homepage: https://harbour.shameful.xyz
     size: 41914
-    stargazers_count: 753
+    stargazers_count: 760
     watchers_count: 753
     language: Swift
     has_issues: true
@@ -135,11 +135,8 @@ github:
     disabled: false
     open_issues_count: 10
     license:
-      key: agpl-3.0
-      name: GNU Affero General Public License v3.0
       spdx_id: AGPL-3.0
-      url: https://api.github.com/licenses/agpl-3.0
-      node_id: MDc6TGljZW5zZTE=
+      name: AGPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -150,12 +147,12 @@ github:
       - ios
       - ios-app
       - ios-swift
-      - ios18
+      - ios27
       - ipados
       - ipados-app
       - macos
       - macos-app
-      - macos15
+      - macos27
       - swiftui
     visibility: public
     forks: 28
@@ -172,8 +169,8 @@ github:
     network_count: 28
     subscribers_count: 12
   sync:
-    syncedAt: 2026-09-01T06:55:35.789Z
-    source: html
+    syncedAt: 2026-09-01T12:54:52.289Z
+    source: api
   languages:
     Swift: 456217
     Shell: 2078
@@ -326,6 +323,8 @@ github:
     license: AGPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2026-05-02T21:42:25Z
+  homepage: https://harbour.shameful.xyz
 health:
   status: unknown
   tier: listed

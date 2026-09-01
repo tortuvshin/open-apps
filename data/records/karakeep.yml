@@ -114,15 +114,15 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-07-22T08:14:18Z
-    pushed_at: 2026-07-18T18:21:22Z
+    updated_at: 2026-09-01T12:49:00Z
+    pushed_at: 2026-08-31T22:52:10Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
     clone_url: https://github.com/karakeep-app/karakeep.git
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 100437
-    stargazers_count: 27643
+    stargazers_count: 28710
     watchers_count: 27643
     language: TypeScript
     has_issues: true
@@ -131,17 +131,14 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1359
+    forks_count: 1470
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 667
+    open_issues_count: 700
     license:
-      key: agpl-3.0
-      name: GNU Affero General Public License v3.0
       spdx_id: AGPL-3.0
-      url: https://api.github.com/licenses/agpl-3.0
-      node_id: MDc6TGljZW5zZTE=
+      name: AGPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -1155,12 +1152,14 @@ github:
       color: "008672"
       description: Extra attention is needed
   sync:
-    syncedAt: 2026-09-01T06:55:47.947Z
-    source: html
+    syncedAt: 2026-09-01T12:54:55.540Z
+    source: api
   html:
     license: AGPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2026-08-11T13:30:49Z
+  homepage: https://karakeep.app
 health:
   status: active
   tier: listed

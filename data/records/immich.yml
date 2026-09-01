@@ -101,15 +101,15 @@ github:
     releases_url: https://api.github.com/repos/immich-app/immich/releases{/id}
     deployments_url: https://api.github.com/repos/immich-app/immich/deployments
     created_at: 2022-02-03T15:56:27Z
-    updated_at: 2026-07-22T09:29:14Z
-    pushed_at: 2026-07-22T09:20:59Z
+    updated_at: 2026-09-01T12:30:04Z
+    pushed_at: 2026-09-01T12:51:41Z
     git_url: git://github.com/immich-app/immich.git
     ssh_url: git@github.com:immich-app/immich.git
     clone_url: https://github.com/immich-app/immich.git
     svn_url: https://github.com/immich-app/immich
     homepage: https://immich.app
     size: 324461
-    stargazers_count: 108423
+    stargazers_count: 113149
     watchers_count: 108423
     language: TypeScript
     has_issues: true
@@ -118,17 +118,14 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 6290
+    forks_count: 6796
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 702
+    open_issues_count: 698
     license:
-      key: agpl-3.0
-      name: GNU Affero General Public License v3.0
       spdx_id: AGPL-3.0
-      url: https://api.github.com/licenses/agpl-3.0
-      node_id: MDc6TGljZW5zZTE=
+      name: AGPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -204,8 +201,8 @@ github:
     openPullRequests: 231
     contributorsKnown: 955
   sync:
-    syncedAt: 2026-09-01T06:55:39.798Z
-    source: html
+    syncedAt: 2026-09-01T12:54:53.717Z
+    source: api
   languages:
     TypeScript: 5548263
     Dart: 3076639
@@ -714,6 +711,8 @@ github:
     license: AGPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2026-07-29T14:20:10Z
+  homepage: https://immich.app
 health:
   status: active
   tier: curated

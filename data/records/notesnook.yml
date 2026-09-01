@@ -117,15 +117,15 @@ github:
     releases_url: https://api.github.com/repos/streetwriters/notesnook/releases{/id}
     deployments_url: https://api.github.com/repos/streetwriters/notesnook/deployments
     created_at: 2021-04-01T17:25:54Z
-    updated_at: 2026-07-22T06:13:33Z
-    pushed_at: 2026-07-22T09:18:19Z
+    updated_at: 2026-09-01T10:47:22Z
+    pushed_at: 2026-09-01T11:04:20Z
     git_url: git://github.com/streetwriters/notesnook.git
     ssh_url: git@github.com:streetwriters/notesnook.git
     clone_url: https://github.com/streetwriters/notesnook.git
     svn_url: https://github.com/streetwriters/notesnook
     homepage: https://notesnook.com/
     size: 291745
-    stargazers_count: 14314
+    stargazers_count: 14483
     watchers_count: 14314
     language: TypeScript
     has_issues: true
@@ -134,17 +134,14 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 968
+    forks_count: 993
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 979
+    open_issues_count: 981
     license:
-      key: gpl-3.0
-      name: GNU General Public License v3.0
       spdx_id: GPL-3.0
-      url: https://api.github.com/licenses/gpl-3.0
-      node_id: MDc6TGljZW5zZTk=
+      name: GPL-3.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: true
@@ -1138,12 +1135,14 @@ github:
       color: 062DAB
       description: ""
   sync:
-    syncedAt: 2026-09-01T06:56:03.602Z
-    source: html
+    syncedAt: 2026-09-01T12:55:01.561Z
+    source: api
   html:
     license: GPL-3.0
     language: null
     topics: []
+  latestReleaseAt: 2026-08-31T08:27:23Z
+  homepage: https://notesnook.com/
 health:
   status: active
   tier: listed

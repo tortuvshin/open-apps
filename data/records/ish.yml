@@ -108,15 +108,15 @@ github:
     releases_url: https://api.github.com/repos/ish-app/ish/releases{/id}
     deployments_url: https://api.github.com/repos/ish-app/ish/deployments
     created_at: 2017-05-05T00:10:35Z
-    updated_at: 2026-07-22T06:07:19Z
-    pushed_at: 2026-07-18T06:54:56Z
+    updated_at: 2026-09-01T09:06:36Z
+    pushed_at: 2026-08-22T06:20:13Z
     git_url: git://github.com/ish-app/ish.git
     ssh_url: git@github.com:ish-app/ish.git
     clone_url: https://github.com/ish-app/ish.git
     svn_url: https://github.com/ish-app/ish
     homepage: https://ish.app
     size: 5587
-    stargazers_count: 20173
+    stargazers_count: 20393
     watchers_count: 20173
     language: C
     has_issues: true
@@ -125,17 +125,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1452
+    forks_count: 1502
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 692
+    open_issues_count: 704
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -182,8 +179,8 @@ github:
     network_count: 1452
     subscribers_count: 578
   sync:
-    syncedAt: 2026-09-01T06:55:44.929Z
-    source: html
+    syncedAt: 2026-09-01T12:54:54.701Z
+    source: api
   languages:
     C: 1027534
     Objective-C: 310805
@@ -386,6 +383,8 @@ github:
     license: null
     language: null
     topics: []
+  latestReleaseAt: 2023-05-20T23:52:42Z
+  homepage: https://ish.app
 health:
   status: unknown
   tier: listed

@@ -113,7 +113,7 @@ github:
     releases_url: https://api.github.com/repos/khoren93/SwiftHub/releases{/id}
     deployments_url: https://api.github.com/repos/khoren93/SwiftHub/deployments
     created_at: 2017-01-04T12:02:59Z
-    updated_at: 2026-07-18T07:39:06Z
+    updated_at: 2026-08-17T01:29:21Z
     pushed_at: 2026-02-15T16:15:53Z
     git_url: git://github.com/khoren93/SwiftHub.git
     ssh_url: git@github.com:khoren93/SwiftHub.git
@@ -121,7 +121,7 @@ github:
     svn_url: https://github.com/khoren93/SwiftHub
     homepage: ""
     size: 13231
-    stargazers_count: 3115
+    stargazers_count: 3117
     watchers_count: 3115
     language: Swift
     has_issues: true
@@ -136,11 +136,8 @@ github:
     disabled: false
     open_issues_count: 27
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -191,8 +188,8 @@ github:
     openPullRequests: 0
     contributorsKnown: 8
   sync:
-    syncedAt: 2026-09-01T06:56:20.770Z
-    source: html
+    syncedAt: 2026-09-01T12:55:09.743Z
+    source: api
   languages:
     Swift: 763617
     Ruby: 8497
@@ -262,6 +259,7 @@ github:
     license: MIT
     language: null
     topics: []
+  latestReleaseAt: 2021-10-13T06:14:58Z
 health:
   status: active
   tier: curated

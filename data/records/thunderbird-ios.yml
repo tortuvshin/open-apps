@@ -103,15 +103,15 @@ github:
     releases_url: https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}
     deployments_url: https://api.github.com/repos/thunderbird/thunderbird-ios/deployments
     created_at: 2025-01-20T14:50:57Z
-    updated_at: 2026-07-21T23:39:39Z
-    pushed_at: 2026-07-20T14:43:54Z
+    updated_at: 2026-09-01T11:16:01Z
+    pushed_at: 2026-08-26T21:28:23Z
     git_url: git://github.com/thunderbird/thunderbird-ios.git
     ssh_url: git@github.com:thunderbird/thunderbird-ios.git
     clone_url: https://github.com/thunderbird/thunderbird-ios.git
     svn_url: https://github.com/thunderbird/thunderbird-ios
     homepage: null
     size: 9907
-    stargazers_count: 1096
+    stargazers_count: 1164
     watchers_count: 1096
     language: Swift
     has_issues: true
@@ -120,17 +120,14 @@ github:
     has_wiki: false
     has_pages: true
     has_discussions: false
-    forks_count: 35
+    forks_count: 41
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 62
+    open_issues_count: 76
     license:
-      key: mpl-2.0
-      name: Mozilla Public License 2.0
       spdx_id: MPL-2.0
-      url: https://api.github.com/licenses/mpl-2.0
-      node_id: MDc6TGljZW5zZTE0
+      name: MPL-2.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -190,8 +187,8 @@ github:
     openPullRequests: 2
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-09-01T06:56:22.527Z
-    source: html
+    syncedAt: 2026-09-01T12:55:10.580Z
+    source: api
   languages:
     Swift: 1054739
     Ruby: 5619

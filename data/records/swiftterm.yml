@@ -104,15 +104,15 @@ github:
     releases_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}
     deployments_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments
     created_at: 2019-03-27T02:52:33Z
-    updated_at: 2026-07-21T21:50:42Z
-    pushed_at: 2026-07-19T22:12:58Z
+    updated_at: 2026-09-01T10:38:05Z
+    pushed_at: 2026-08-31T20:42:08Z
     git_url: git://github.com/migueldeicaza/SwiftTerm.git
     ssh_url: git@github.com:migueldeicaza/SwiftTerm.git
     clone_url: https://github.com/migueldeicaza/SwiftTerm.git
     svn_url: https://github.com/migueldeicaza/SwiftTerm
     homepage: ""
     size: 4527
-    stargazers_count: 1624
+    stargazers_count: 1673
     watchers_count: 1624
     language: Swift
     has_issues: true
@@ -121,17 +121,14 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 402
+    forks_count: 455
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 86
+    open_issues_count: 78
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -182,8 +179,8 @@ github:
     openPullRequests: 25
     contributorsKnown: 67
   sync:
-    syncedAt: 2026-09-01T06:56:21.592Z
-    source: html
+    syncedAt: 2026-09-01T12:55:10.076Z
+    source: api
   languages:
     Swift: 1795024
     Metal: 3957
@@ -303,6 +300,7 @@ github:
     license: MIT
     language: null
     topics: []
+  latestReleaseAt: 2026-08-18T15:55:10Z
 health:
   status: active
   tier: curated

@@ -118,15 +118,15 @@ github:
     releases_url: https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/mattermost/mattermost-mobile/deployments
     created_at: 2016-10-07T16:52:32Z
-    updated_at: 2026-07-21T08:45:34Z
-    pushed_at: 2026-07-22T08:12:46Z
+    updated_at: 2026-08-31T21:34:21Z
+    pushed_at: 2026-09-01T12:05:44Z
     git_url: git://github.com/mattermost/mattermost-mobile.git
     ssh_url: git@github.com:mattermost/mattermost-mobile.git
     clone_url: https://github.com/mattermost/mattermost-mobile.git
     svn_url: https://github.com/mattermost/mattermost-mobile
     homepage: https://about.mattermost.com/
     size: 188960
-    stargazers_count: 2699
+    stargazers_count: 2713
     watchers_count: 2699
     language: TypeScript
     has_issues: true
@@ -135,17 +135,14 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1641
+    forks_count: 1656
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 298
+    open_issues_count: 320
     license:
-      key: apache-2.0
-      name: Apache License 2.0
       spdx_id: Apache-2.0
-      url: https://api.github.com/licenses/apache-2.0
-      node_id: MDc6TGljZW5zZTI=
+      name: Apache-2.0
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -398,12 +395,14 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-09-01T06:55:57.450Z
-    source: html
+    syncedAt: 2026-09-01T12:54:58.770Z
+    source: api
   html:
     license: Apache-2.0
     language: null
     topics: []
+  latestReleaseAt: 2026-08-24T07:40:08Z
+  homepage: https://about.mattermost.com/
 health:
   status: active
   tier: listed

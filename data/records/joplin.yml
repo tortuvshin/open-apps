@@ -104,15 +104,15 @@ github:
     releases_url: https://api.github.com/repos/laurent22/joplin/releases{/id}
     deployments_url: https://api.github.com/repos/laurent22/joplin/deployments
     created_at: 2017-01-16T21:49:41Z
-    updated_at: 2026-07-22T08:59:57Z
-    pushed_at: 2026-07-21T23:53:04Z
+    updated_at: 2026-09-01T12:49:41Z
+    pushed_at: 2026-09-01T11:21:03Z
     git_url: git://github.com/laurent22/joplin.git
     ssh_url: git@github.com:laurent22/joplin.git
     clone_url: https://github.com/laurent22/joplin.git
     svn_url: https://github.com/laurent22/joplin
     homepage: https://joplinapp.org
     size: 648664
-    stargazers_count: 55683
+    stargazers_count: 56185
     watchers_count: 55683
     language: TypeScript
     has_issues: true
@@ -121,17 +121,14 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6184
+    forks_count: 6255
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 607
+    open_issues_count: 624
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -188,8 +185,8 @@ github:
     openPullRequests: 15
     contributorsKnown: 813
   sync:
-    syncedAt: 2026-09-01T06:55:46.966Z
-    source: html
+    syncedAt: 2026-09-01T12:54:55.140Z
+    source: api
   languages:
     TypeScript: 11526211
     JavaScript: 2250772
@@ -944,6 +941,8 @@ github:
     license: null
     language: null
     topics: []
+  latestReleaseAt: 2026-08-20T19:26:15Z
+  homepage: https://joplinapp.org
 health:
   status: active
   tier: curated

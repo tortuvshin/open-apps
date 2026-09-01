@@ -110,15 +110,15 @@ github:
     releases_url: https://api.github.com/repos/invoiceninja/admin-portal/releases{/id}
     deployments_url: https://api.github.com/repos/invoiceninja/admin-portal/deployments
     created_at: 2018-05-15T10:50:36Z
-    updated_at: 2026-07-16T16:11:21Z
-    pushed_at: 2026-07-09T11:18:49Z
+    updated_at: 2026-08-31T11:57:37Z
+    pushed_at: 2026-08-21T13:33:31Z
     git_url: git://github.com/invoiceninja/admin-portal.git
     ssh_url: git@github.com:invoiceninja/admin-portal.git
     clone_url: https://github.com/invoiceninja/admin-portal.git
     svn_url: https://github.com/invoiceninja/admin-portal
     homepage: https://demo.invoiceninja.com
     size: 111726
-    stargazers_count: 1747
+    stargazers_count: 1751
     watchers_count: 1747
     language: Dart
     has_issues: true
@@ -127,17 +127,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 581
+    forks_count: 580
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 72
+    open_issues_count: 75
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: true
@@ -205,8 +202,8 @@ github:
     openPullRequests: 1
     contributorsKnown: 28
   sync:
-    syncedAt: 2026-09-01T06:55:42.565Z
-    source: html
+    syncedAt: 2026-09-01T12:54:54.347Z
+    source: api
   languages:
     Dart: 13775102
     C++: 27058
@@ -353,6 +350,8 @@ github:
     license: null
     language: null
     topics: []
+  latestReleaseAt: 2026-05-14T04:37:59Z
+  homepage: https://demo.invoiceninja.com
 health:
   status: active
   tier: curated

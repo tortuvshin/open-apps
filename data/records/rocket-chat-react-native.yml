@@ -102,15 +102,15 @@ github:
     releases_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases{/id}
     deployments_url: https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments
     created_at: 2017-08-03T18:21:33Z
-    updated_at: 2026-07-22T04:02:38Z
-    pushed_at: 2026-07-21T13:10:17Z
+    updated_at: 2026-08-31T17:15:07Z
+    pushed_at: 2026-09-01T12:14:39Z
     git_url: git://github.com/RocketChat/Rocket.Chat.ReactNative.git
     ssh_url: git@github.com:RocketChat/Rocket.Chat.ReactNative.git
     clone_url: https://github.com/RocketChat/Rocket.Chat.ReactNative.git
     svn_url: https://github.com/RocketChat/Rocket.Chat.ReactNative
     homepage: https://rocket.chat
     size: 371077
-    stargazers_count: 2407
+    stargazers_count: 2413
     watchers_count: 2407
     language: TypeScript
     has_issues: true
@@ -119,17 +119,14 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1461
+    forks_count: 1467
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 479
+    open_issues_count: 483
     license:
-      key: mit
-      name: MIT License
       spdx_id: MIT
-      url: https://api.github.com/licenses/mit
-      node_id: MDc6TGljZW5zZTEz
+      name: MIT
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -194,8 +191,8 @@ github:
     openPullRequests: 255
     contributorsKnown: 139
   sync:
-    syncedAt: 2026-09-01T06:56:12.267Z
-    source: html
+    syncedAt: 2026-09-01T12:55:05.411Z
+    source: api
   languages:
     TypeScript: 3888674
     Swift: 216681
@@ -434,6 +431,8 @@ github:
     license: MIT
     language: null
     topics: []
+  latestReleaseAt: 2026-08-31T17:00:21Z
+  homepage: https://rocket.chat
 health:
   status: active
   tier: curated

@@ -119,15 +119,15 @@ github:
     releases_url: https://api.github.com/repos/MetaMask/metamask-mobile/releases{/id}
     deployments_url: https://api.github.com/repos/MetaMask/metamask-mobile/deployments
     created_at: 2018-07-18T11:47:08Z
-    updated_at: 2026-07-22T08:58:20Z
-    pushed_at: 2026-07-22T09:28:10Z
+    updated_at: 2026-09-01T12:47:28Z
+    pushed_at: 2026-09-01T12:53:26Z
     git_url: git://github.com/MetaMask/metamask-mobile.git
     ssh_url: git@github.com:MetaMask/metamask-mobile.git
     clone_url: https://github.com/MetaMask/metamask-mobile.git
     svn_url: https://github.com/MetaMask/metamask-mobile
     homepage: https://metamask.io
     size: 2072984
-    stargazers_count: 3002
+    stargazers_count: 3013
     watchers_count: 3002
     language: TypeScript
     has_issues: true
@@ -136,17 +136,14 @@ github:
     has_wiki: false
     has_pages: true
     has_discussions: false
-    forks_count: 1627
+    forks_count: 1657
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1870
+    open_issues_count: 1879
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -651,12 +648,14 @@ github:
     pullRequestTemplate: false
   labels: []
   sync:
-    syncedAt: 2026-09-01T06:56:01.005Z
-    source: html
+    syncedAt: 2026-09-01T12:55:00.252Z
+    source: api
   html:
     license: null
     language: null
     topics: []
+  latestReleaseAt: 2026-08-31T21:31:40Z
+  homepage: https://metamask.io
 health:
   status: active
   tier: listed

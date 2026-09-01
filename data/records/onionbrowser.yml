@@ -112,15 +112,15 @@ github:
     releases_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases{/id}
     deployments_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/deployments
     created_at: 2012-02-24T08:50:51Z
-    updated_at: 2026-07-22T00:23:50Z
-    pushed_at: 2026-07-02T08:56:50Z
+    updated_at: 2026-08-31T23:12:47Z
+    pushed_at: 2026-08-11T16:26:21Z
     git_url: git://github.com/OnionBrowser/OnionBrowser.git
     ssh_url: git@github.com:OnionBrowser/OnionBrowser.git
     clone_url: https://github.com/OnionBrowser/OnionBrowser.git
     svn_url: https://github.com/OnionBrowser/OnionBrowser
     homepage: https://onionbrowser.com
     size: 133239
-    stargazers_count: 2630
+    stargazers_count: 2668
     watchers_count: 2630
     language: Swift
     has_issues: true
@@ -129,17 +129,14 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 534
+    forks_count: 538
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 9
+    open_issues_count: 6
     license:
-      key: other
-      name: Other
       spdx_id: NOASSERTION
-      url: null
-      node_id: MDc6TGljZW5zZTA=
+      name: NOASSERTION
     allow_forking: true
     is_template: false
     web_commit_signoff_required: false
@@ -194,8 +191,8 @@ github:
     network_count: 534
     subscribers_count: 167
   sync:
-    syncedAt: 2026-09-01T06:56:06.706Z
-    source: html
+    syncedAt: 2026-09-01T12:55:02.802Z
+    source: api
   languages:
     Swift: 385716
     HTML: 24631
@@ -332,6 +329,8 @@ github:
     license: null
     language: null
     topics: []
+  latestReleaseAt: 2026-08-11T16:27:51Z
+  homepage: https://onionbrowser.com
 health:
   status: unknown
   tier: listed
