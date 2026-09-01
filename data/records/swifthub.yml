@@ -193,68 +193,6 @@ github:
   languages:
     Swift: 763617
     Ruby: 8497
-  latestRelease:
-    url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943
-    assets_url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943/assets
-    upload_url: https://uploads.github.com/repos/khoren93/SwiftHub/releases/51258943/assets{?name,label}
-    html_url: https://github.com/khoren93/SwiftHub/releases/tag/v1.10.0
-    id: 51258943
-    author:
-      login: khoren93
-      id: 11523360
-      node_id: MDQ6VXNlcjExNTIzMzYw
-      avatar_url: https://avatars.githubusercontent.com/u/11523360?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/khoren93
-      html_url: https://github.com/khoren93
-      followers_url: https://api.github.com/users/khoren93/followers
-      following_url: https://api.github.com/users/khoren93/following{/other_user}
-      gists_url: https://api.github.com/users/khoren93/gists{/gist_id}
-      starred_url: https://api.github.com/users/khoren93/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/khoren93/subscriptions
-      organizations_url: https://api.github.com/users/khoren93/orgs
-      repos_url: https://api.github.com/users/khoren93/repos
-      events_url: https://api.github.com/users/khoren93/events{/privacy}
-      received_events_url: https://api.github.com/users/khoren93/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOBKZeW84DDiY_
-    tag_name: v1.10.0
-    target_commitish: master
-    name: RxSwift 6.x support
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2021-10-12T19:27:16Z
-    updated_at: 2021-10-13T06:14:58Z
-    published_at: 2021-10-13T06:14:58Z
-    assets: []
-    tarball_url: https://api.github.com/repos/khoren93/SwiftHub/tarball/v1.10.0
-    zipball_url: https://api.github.com/repos/khoren93/SwiftHub/zipball/v1.10.0
-    body: "- Upgraded all dependencies based on RxSwift 6.x"
-    reactions:
-      url: https://api.github.com/repos/khoren93/SwiftHub/releases/51258943/reactions
-      total_count: 1
-      "+1": 1
-      "-1": 0
-      laugh: 0
-      hooray: 0
-      confused: 0
-      heart: 0
-      rocket: 0
-      eyes: 0
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: true
-    pullRequestTemplate: false
-  labels:
-    - name: help wanted
-      color: 128A0C
-      description: null
   html:
     license: MIT
     language: null

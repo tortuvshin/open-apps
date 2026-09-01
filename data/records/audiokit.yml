@@ -207,57 +207,6 @@ github:
     source: api
   languages:
     Swift: 1093483
-  latestRelease:
-    url: https://api.github.com/repos/AudioKit/AudioKit/releases/303895886
-    assets_url: https://api.github.com/repos/AudioKit/AudioKit/releases/303895886/assets
-    upload_url: https://uploads.github.com/repos/AudioKit/AudioKit/releases/303895886/assets{?name,label}
-    html_url: https://github.com/AudioKit/AudioKit/releases/tag/5.7.2
-    id: 303895886
-    author:
-      login: aure
-      id: 13122
-      node_id: MDQ6VXNlcjEzMTIy
-      avatar_url: https://avatars.githubusercontent.com/u/13122?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/aure
-      html_url: https://github.com/aure
-      followers_url: https://api.github.com/users/aure/followers
-      following_url: https://api.github.com/users/aure/following{/other_user}
-      gists_url: https://api.github.com/users/aure/gists{/gist_id}
-      starred_url: https://api.github.com/users/aure/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/aure/subscriptions
-      organizations_url: https://api.github.com/users/aure/orgs
-      repos_url: https://api.github.com/users/aure/repos
-      events_url: https://api.github.com/users/aure/events{/privacy}
-      received_events_url: https://api.github.com/users/aure/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOAPWdEM4SHRVO
-    tag_name: 5.7.2
-    target_commitish: main
-    name: AudioKit v5.7.2
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-03-31T20:38:36Z
-    updated_at: 2026-03-31T20:39:27Z
-    published_at: 2026-03-31T20:39:27Z
-    assets: []
-    tarball_url: https://api.github.com/repos/AudioKit/AudioKit/tarball/5.7.2
-    zipball_url: https://api.github.com/repos/AudioKit/AudioKit/zipball/5.7.2
-    body: ""
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: false
-    pullRequestTemplate: false
-  labels:
-    - name: good first issue
-      color: "38e038"
-      description: null
   html:
     license: MIT
     language: null

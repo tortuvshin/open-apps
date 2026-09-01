@@ -200,106 +200,6 @@ github:
     Shell: 8558
     Ruby: 2332
     C: 408
-  latestRelease:
-    url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/344068626
-    assets_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/344068626/assets
-    upload_url: https://uploads.github.com/repos/OnionBrowser/OnionBrowser/releases/344068626/assets{?name,label}
-    html_url: https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.0
-    id: 344068626
-    author:
-      login: tladesignz
-      id: 117089
-      node_id: MDQ6VXNlcjExNzA4OQ==
-      avatar_url: https://avatars.githubusercontent.com/u/117089?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/tladesignz
-      html_url: https://github.com/tladesignz
-      followers_url: https://api.github.com/users/tladesignz/followers
-      following_url: https://api.github.com/users/tladesignz/following{/other_user}
-      gists_url: https://api.github.com/users/tladesignz/gists{/gist_id}
-      starred_url: https://api.github.com/users/tladesignz/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/tladesignz/subscriptions
-      organizations_url: https://api.github.com/users/tladesignz/orgs
-      repos_url: https://api.github.com/users/tladesignz/repos
-      events_url: https://api.github.com/users/tladesignz/events{/privacy}
-      received_events_url: https://api.github.com/users/tladesignz/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOADXtJ84UghIS
-    tag_name: v3.4.0
-    target_commitish: 3.X
-    name: v3.4.0
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-06-30T13:52:12Z
-    updated_at: 2026-06-30T13:58:46Z
-    published_at: 2026-06-24T11:37:19Z
-    assets:
-      - url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/assets/462205862
-        id: 462205862
-        node_id: RA_kwDOADXtJ84bjLOm
-        name: OnionBrowser.ipa
-        label: null
-        uploader:
-          login: tladesignz
-          id: 117089
-          node_id: MDQ6VXNlcjExNzA4OQ==
-          avatar_url: https://avatars.githubusercontent.com/u/117089?v=4
-          gravatar_id: ""
-          url: https://api.github.com/users/tladesignz
-          html_url: https://github.com/tladesignz
-          followers_url: https://api.github.com/users/tladesignz/followers
-          following_url: https://api.github.com/users/tladesignz/following{/other_user}
-          gists_url: https://api.github.com/users/tladesignz/gists{/gist_id}
-          starred_url: https://api.github.com/users/tladesignz/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/tladesignz/subscriptions
-          organizations_url: https://api.github.com/users/tladesignz/orgs
-          repos_url: https://api.github.com/users/tladesignz/repos
-          events_url: https://api.github.com/users/tladesignz/events{/privacy}
-          received_events_url: https://api.github.com/users/tladesignz/received_events
-          type: User
-          user_view_type: public
-          site_admin: false
-        content_type: application/octet-stream
-        state: uploaded
-        size: 35892550
-        digest: sha256:28fc793eddebef97bde139ac1e1c7e6870ffd1179df96c51eb1735474e4d1442
-        download_count: 335
-        created_at: 2026-06-30T13:58:05Z
-        updated_at: 2026-06-30T13:58:46Z
-        browser_download_url: https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa
-    tarball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/tarball/v3.4.0
-    zipball_url: https://api.github.com/repos/OnionBrowser/OnionBrowser/zipball/v3.4.0
-    body: "- Updated Tor to 0.4.9.11.\r
-
-      - Updated Snowflake to 2.14.1.\r
-
-      - Updated DNSTT to 1.20260501.0.\r
-
-      - Security fix: Elevated link preview security to same as normal tabs.\r
-
-      - Fixed link preview title background in iOS 26.\r
-
-      - Make link preview optional. \r
-
-      - Updated Korean, Japanese and simplified Chinese translations.\r
-
-      - Removed outdated NYT default bookmark. Onion service was discontinued.\r
-
-      - Removed promotion hint again after end of campaign.\r\n"
-    reactions:
-      url: https://api.github.com/repos/OnionBrowser/OnionBrowser/releases/344068626/reactions
-      total_count: 1
-      "+1": 1
-      "-1": 0
-      laugh: 0
-      hooray: 0
-      confused: 0
-      heart: 0
-      rocket: 0
-      eyes: 0
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -317,14 +217,6 @@ github:
     totalCommitsKnown: 1646
     contributorsKnown: 19
     openPullRequests: 0
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: true
-    issueTemplates: false
-    pullRequestTemplate: false
-  labels: []
   html:
     license: null
     language: null

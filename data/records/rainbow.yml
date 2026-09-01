@@ -201,51 +201,6 @@ github:
     Objective-C++: 4552
     Starlark: 1910
     C: 290
-  latestRelease:
-    url: https://api.github.com/repos/rainbow-me/rainbow/releases/348399799
-    assets_url: https://api.github.com/repos/rainbow-me/rainbow/releases/348399799/assets
-    upload_url: https://uploads.github.com/repos/rainbow-me/rainbow/releases/348399799/assets{?name,label}
-    html_url: https://github.com/rainbow-me/rainbow/releases/tag/v2.0.39
-    id: 348399799
-    author:
-      login: DanielSinclair
-      id: 4412473
-      node_id: MDQ6VXNlcjQ0MTI0NzM=
-      avatar_url: https://avatars.githubusercontent.com/u/4412473?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/DanielSinclair
-      html_url: https://github.com/DanielSinclair
-      followers_url: https://api.github.com/users/DanielSinclair/followers
-      following_url: https://api.github.com/users/DanielSinclair/following{/other_user}
-      gists_url: https://api.github.com/users/DanielSinclair/gists{/gist_id}
-      starred_url: https://api.github.com/users/DanielSinclair/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/DanielSinclair/subscriptions
-      organizations_url: https://api.github.com/users/DanielSinclair/orgs
-      repos_url: https://api.github.com/users/DanielSinclair/repos
-      events_url: https://api.github.com/users/DanielSinclair/events{/privacy}
-      received_events_url: https://api.github.com/users/DanielSinclair/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOColoic4UxCi3
-    tag_name: v2.0.39
-    target_commitish: e6442b64c5b6bd6553fb5fc95a4408bd18cdf73c
-    name: v2.0.39
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-07-03T03:43:05Z
-    updated_at: 2026-07-16T17:09:31Z
-    published_at: 2026-07-16T17:09:31Z
-    assets: []
-    tarball_url: https://api.github.com/repos/rainbow-me/rainbow/tarball/v2.0.39
-    zipball_url: https://api.github.com/repos/rainbow-me/rainbow/zipball/v2.0.39
-    body: "### Fixed\r
-
-      \r
-
-      - Fixed Polymarket orders failing on markets with certain tick sizes —
-      [#7665](https://github.com/rainbow-me/rainbow/pull/7665)\r\n"
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -263,14 +218,6 @@ github:
     totalCommitsKnown: 9216
     contributorsKnown: 73
     openPullRequests: 18
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: false
-    pullRequestTemplate: true
-  labels: []
   sync:
     syncedAt: 2026-09-01T12:55:04.941Z
     source: api

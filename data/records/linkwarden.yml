@@ -195,66 +195,6 @@ github:
     CSS: 4397
     Dockerfile: 3895
     PLpgSQL: 2177
-  latestRelease:
-    url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663
-    assets_url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663/assets
-    upload_url: https://uploads.github.com/repos/linkwarden/linkwarden/releases/352413663/assets{?name,label}
-    html_url: https://github.com/linkwarden/linkwarden/releases/tag/v2.15.1
-    id: 352413663
-    author:
-      login: daniel31x13
-      id: 93432314
-      node_id: U_kgDOBZGp-g
-      avatar_url: https://avatars.githubusercontent.com/u/93432314?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/daniel31x13
-      html_url: https://github.com/daniel31x13
-      followers_url: https://api.github.com/users/daniel31x13/followers
-      following_url: https://api.github.com/users/daniel31x13/following{/other_user}
-      gists_url: https://api.github.com/users/daniel31x13/gists{/gist_id}
-      starred_url: https://api.github.com/users/daniel31x13/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/daniel31x13/subscriptions
-      organizations_url: https://api.github.com/users/daniel31x13/orgs
-      repos_url: https://api.github.com/users/daniel31x13/repos
-      events_url: https://api.github.com/users/daniel31x13/events{/privacy}
-      received_events_url: https://api.github.com/users/daniel31x13/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOHJb-Yc4VAWff
-    tag_name: v2.15.1
-    target_commitish: main
-    name: v2.15.1
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-07-11T03:27:42Z
-    updated_at: 2026-07-11T03:29:07Z
-    published_at: 2026-07-11T03:29:07Z
-    assets: []
-    tarball_url: https://api.github.com/repos/linkwarden/linkwarden/tarball/v2.15.1
-    zipball_url: https://api.github.com/repos/linkwarden/linkwarden/zipball/v2.15.1
-    body: "## What's Changed\r
-
-      * minor fix by @daniel31x13 in https://github.com/linkwarden/linkwarden/pull/1743\r
-
-      \r
-
-      \r
-
-      **Full Changelog**: https://github.com/linkwarden/linkwarden/compare/v2.15.0...v2.15.1"
-    reactions:
-      url: https://api.github.com/repos/linkwarden/linkwarden/releases/352413663/reactions
-      total_count: 7
-      "+1": 0
-      "-1": 0
-      laugh: 0
-      hooray: 5
-      confused: 0
-      heart: 2
-      rocket: 0
-      eyes: 0
-    mentions_count: 1
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -272,20 +212,6 @@ github:
     totalCommitsKnown: 3024
     contributorsKnown: 88
     openPullRequests: 28
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: true
-    pullRequestTemplate: true
-  labels:
-    - name: good first issue
-      color: 7057ff
-      description: Good for newcomers
-    - name: help wanted
-      color: "008672"
-      description: Extra attention is needed
   sync:
     syncedAt: 2026-09-01T12:54:56.712Z
     source: api

@@ -209,64 +209,6 @@ github:
     Swift: 676
     Kotlin: 194
     Objective-C: 38
-  latestRelease:
-    url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/releases/328311705
-    assets_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/releases/328311705/assets
-    upload_url: https://uploads.github.com/repos/woosignal/flutter-woocommerce-app/releases/328311705/assets{?name,label}
-    html_url: https://github.com/woosignal/flutter-woocommerce-app/releases/tag/v8.2.7
-    id: 328311705
-    author:
-      login: agordn52
-      id: 17294994
-      node_id: MDQ6VXNlcjE3Mjk0OTk0
-      avatar_url: https://avatars.githubusercontent.com/u/17294994?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/agordn52
-      html_url: https://github.com/agordn52
-      followers_url: https://api.github.com/users/agordn52/followers
-      following_url: https://api.github.com/users/agordn52/following{/other_user}
-      gists_url: https://api.github.com/users/agordn52/gists{/gist_id}
-      starred_url: https://api.github.com/users/agordn52/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/agordn52/subscriptions
-      organizations_url: https://api.github.com/users/agordn52/orgs
-      repos_url: https://api.github.com/users/agordn52/repos
-      events_url: https://api.github.com/users/agordn52/events{/privacy}
-      received_events_url: https://api.github.com/users/agordn52/received_events
-      type: User
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDODQ6Ij84TkaOZ
-    tag_name: v8.2.7
-    target_commitish: 8.x
-    name: v8.2.7
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-05-23T13:32:09Z
-    updated_at: 2026-05-23T13:32:25Z
-    published_at: 2026-05-23T13:32:25Z
-    assets: []
-    tarball_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/tarball/v8.2.7
-    zipball_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/zipball/v8.2.7
-    body: |-
-      ## [8.2.7] - 2026-05-23
-
-      * Update copyright year
-      * Dependency updates
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: false
-    pullRequestTemplate: false
-  labels:
-    - name: good first issue
-      color: 7057ff
-      description: Good for newcomers
-    - name: help wanted
-      color: "008672"
-      description: Extra attention is needed
   html:
     license: BSD-2-Clause
     language: null

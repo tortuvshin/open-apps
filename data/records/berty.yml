@@ -224,61 +224,6 @@ github:
     HCL: 1587
     Starlark: 1204
     Jinja: 1041
-  latestRelease:
-    url: https://api.github.com/repos/berty/berty/releases/348493981
-    assets_url: https://api.github.com/repos/berty/berty/releases/348493981/assets
-    upload_url: https://uploads.github.com/repos/berty/berty/releases/348493981/assets{?name,label}
-    html_url: https://github.com/berty/berty/releases/tag/v2.471.14
-    id: 348493981
-    author:
-      login: github-actions[bot]
-      id: 41898282
-      node_id: MDM6Qm90NDE4OTgyODI=
-      avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-      gravatar_id: ""
-      url: https://api.github.com/users/github-actions%5Bbot%5D
-      html_url: https://github.com/apps/github-actions
-      followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-      following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-      gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-      starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-      subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-      organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-      repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-      events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-      received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-      type: Bot
-      user_view_type: public
-      site_admin: false
-    node_id: RE_kwDOCGjcYc4UxZid
-    tag_name: v2.471.14
-    target_commitish: master
-    name: v2.471.14
-    draft: false
-    immutable: false
-    prerelease: false
-    created_at: 2026-07-03T08:32:58Z
-    updated_at: 2026-07-03T08:33:40Z
-    published_at: 2026-07-03T08:33:40Z
-    assets: []
-    tarball_url: https://api.github.com/repos/berty/berty/tarball/v2.471.14
-    zipball_url: https://api.github.com/repos/berty/berty/zipball/v2.471.14
-    body: >+
-      ## [2.471.14](https://github.com/berty/berty/compare/v2.471.13...v2.471.14) (2026-07-03)
-
-
-
-      ### Bug Fixes
-
-
-      * **bridge-expo:** derive iOS App Group per build variant
-      ([#5151](https://github.com/berty/berty/issues/5151))
-      ([4623845](https://github.com/berty/berty/commit/46238452c7feef79415b57acc18bbf73b0dd0cdc)),
-      closes [#5006](https://github.com/berty/berty/issues/5006)
-      [#5007](https://github.com/berty/berty/issues/5007)
-
-
-
   activity:
     monthlyCommits:
       - month: 2026-02
@@ -296,20 +241,6 @@ github:
     totalCommitsKnown: 8367
     contributorsKnown: 70
     openPullRequests: 23
-  files:
-    readme: true
-    contributing: false
-    codeOfConduct: false
-    security: false
-    issueTemplates: true
-    pullRequestTemplate: true
-  labels:
-    - name: good first issue
-      color: d104c6
-      description: Getting-started issue
-    - name: help wanted
-      color: 66f48c
-      description: ""
   sync:
     syncedAt: 2026-09-01T12:54:43.092Z
     source: api
