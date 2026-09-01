@@ -4025,3 +4025,23 @@ health:
       reasons:
         - Recent repository activity
         - License is missing or unclear
+  - id: helm
+    health:
+      status: active
+      maturity: unknown
+      tier: listed
+      visibility: keep
+      cleanupCandidate: false
+      confidence: medium
+      reasons:
+        - active-development
+  - id: mise
+    health:
+      status: active
+      maturity: unknown
+      tier: listed
+      visibility: keep
+      cleanupCandidate: false
+      confidence: medium
+      reasons:
+        - active-development

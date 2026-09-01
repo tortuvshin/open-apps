@@ -1,0 +1,55 @@
+kind: project
+name: Helm
+slug: helm
+description: Helm is a macOS system toolkit that puts fifteen maintenance and monitoring tools behind one window and one menu-bar item, covering storage, hardware metrics, and clipboard history.
+summary: A Flutter macOS app that replaces a folder of single-purpose utilities. It keeps 24 hours of history for memory, CPU, GPU, sensor, battery, and network metrics, and its storage tool spans a squarified treemap explorer, a byte-for-byte duplicate finder, junk cleaning, and APFS snapshot thinning.
+sourceDescription: A free, open-source macOS toolkit — fifteen native tools in one window.
+category: tools
+tags:
+  - open-source
+  - desktop-app
+  - system-monitor
+  - disk-cleaner
+  - duplicate-finder
+  - clipboard-manager
+  - menu-bar
+  - privacy
+stack: flutter
+platforms:
+  - macos
+projectType: real-app
+repoUrl: https://github.com/devShakib015/helm
+links:
+  github: https://github.com/devShakib015/helm
+  website: https://devshakib.jumyn.com/apps/helm
+licenses:
+  - mit
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: macOS disk image
+      url: https://github.com/devShakib015/helm/releases/latest
+      verified: true
+bestFor:
+  - Studying how a Flutter desktop app reads real macOS system state, including SMC sensor temperatures, purgeable disk space, and connected-accessory battery levels.
+  - Replacing several paid single-purpose Mac utilities with one MIT-licensed app that makes no network calls.
+whyListed:
+  - Fifteen tools share one window, one design language, and a configurable live menu-bar item, so the codebase shows how a broad utility suite stays coherent.
+  - The storage tool is unusually complete for an open-source app, combining a treemap explorer, disjoint category breakdown, junk cleaning with risky items opt-in, and duplicate detection that always keeps one copy.
+caveats:
+  - macOS 10.15 or later only; there is no Windows or Linux target.
+  - Reading SMC sensors and system storage means the app depends on macOS internals that can shift between releases.
+  - Cleaning tools move items to the Trash rather than deleting them, so reclaiming the space still needs an explicit empty.
+source:
+  type: submit
+  provider: github
+  owner: devShakib015
+  repo: helm
+  url: https://github.com/devShakib015/helm
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+content: ./content/records/helm.md

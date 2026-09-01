@@ -1,0 +1,55 @@
+kind: project
+name: Mise
+slug: mise
+description: Mise is a self-hosted restaurant system for macOS that runs a till, a kitchen display, QR table ordering, and a back office from one machine on the restaurant's own network.
+summary: A Flutter macOS client over an embedded PocketBase server, so the whole service runs on the restaurant's own hardware with no internet dependency. Bill totals are computed server-side and cannot be edited, orders snapshot item names and prices at the time of sale, and receipts print over ESC/POS to any network thermal printer.
+sourceDescription: Free, self-hosted restaurant management. POS, kitchen display, QR table ordering, payments and reports.
+category: business
+tags:
+  - open-source
+  - desktop-app
+  - restaurant
+  - point-of-sale
+  - offline-first
+  - self-hosted
+  - pocketbase
+  - kitchen-display
+stack: flutter
+platforms:
+  - macos
+projectType: real-app
+repoUrl: https://github.com/devShakib015/mise
+links:
+  github: https://github.com/devShakib015/mise
+  website: https://devshakib.jumyn.com/apps/mise
+licenses:
+  - mit
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: macOS disk image
+      url: https://github.com/devShakib015/mise/releases/latest
+      verified: true
+bestFor:
+  - Studying how a point-of-sale, a kitchen display, and a guest ordering surface share one Flutter codebase and a single embedded backend.
+  - Running a small restaurant on hardware the owner controls, where service must continue when the connection does not.
+whyListed:
+  - The complete MIT-licensed system is public and documents its integrity rules explicitly, including server-computed bill totals and per-order price snapshots.
+  - It is a worked example of an offline-first hospitality stack, covering shift floats and drawer counts, five staff roles, ESC/POS receipt printing, and CSV reporting.
+caveats:
+  - macOS is the only packaged target; Windows and Linux build from the same source but are not released as binaries.
+  - Builds are unsigned, so the first launch needs right-click then Open, and the project states it does not pay for an Apple Developer certificate.
+  - Guest QR ordering works over the venue's own wi-fi only; public internet ordering is deliberately out of scope to preserve the offline guarantee.
+source:
+  type: submit
+  provider: github
+  owner: devShakib015
+  repo: mise
+  url: https://github.com/devShakib015/mise
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+content: ./content/records/mise.md
