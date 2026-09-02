@@ -1,6 +1,7 @@
 kind: project
 name: GitUp
 slug: gitup
+addedAt: 2026-06-13
 description: GitUp is a native macOS Git GUI built on a bespoke in-process Git toolkit (GitUpKit)
   that wraps a customized libgit2 fork and re-implements everything else — including its own rebase
   engine — to keep operations and the live commit graph fast on large repositories.
