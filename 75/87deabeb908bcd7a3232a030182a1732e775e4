@@ -1,0 +1,28 @@
+.gitignore
+  s_2125b9f45e0719::t_0b63366b7e71d7 24-30
+src/components/grove/submission-client.astro
+  s_2125b9f45e0719::t_4d6bc3991544ca 103-106
+.grove/registry.lock.json
+  s_2125b9f45e0719::t_4d6bc3991544ca 3,172-173,196-197
+  s_2125b9f45e0719::t_80361af0ea6117 1-2,4-171,174-195,198-428
+src/components/grove/record-sidebar.astro
+  s_2125b9f45e0719::t_4d6bc3991544ca 70,377-392
+package.json
+  s_2125b9f45e0719::t_5a40a6792b3bb5 23-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "7587deabeb908bcd7a3232a030182a1732e775e4",
+  "prompts": {},
+  "sessions": {
+    "s_2125b9f45e0719": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f82d8744-91c7-478e-8e0d-39e967546924",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Turtuvshin Byambaa <toroo.byamba@gmail.com>"
+    }
+  }
+}
