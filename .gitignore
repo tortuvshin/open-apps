@@ -21,4 +21,10 @@ public/robots.txt
 
 *.log
 .claude/
-.grove/
+
+# Local Grove state, but NOT the registry lockfile: `.grove/registry.lock.json`
+# is the install-time snapshot `grove update` diffs against — a committed
+# artifact, like a package lock. Ignoring it left this project unable to run
+# `grove update` at all (exit 1, "no lockfile").
+.grove/*
+!.grove/registry.lock.json
