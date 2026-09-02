@@ -1,6 +1,7 @@
 kind: project
 name: Twenty
 slug: twenty
+addedAt: 2026-09-01
 description: Twenty is an open-source CRM whose data model is a runtime artifact — every custom
   object, field, view, role, and AI agent is a row in metadata tables, with the GraphQL schema and
   SQL queries rebuilt per workspace on demand. Written in TypeScript with NestJS, React, PostgreSQL,

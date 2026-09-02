@@ -67,6 +67,7 @@ const {
   firstCommitYear,
   lastFetchedLabel,
   reviewedAtLabel,
+  addedAtLabel,
 } = detail;
 const alsoIn: Array<{ url: string; title: string }> = detail.collectionMembership ?? [];
 
@@ -373,12 +374,22 @@ function row(label: string, value: unknown) {
       >
         Source
       </h2>
-      <p class="m-0 leading-relaxed">
-        Reviewed by {record.curation?.reviewedBy ?? "grove"}
-        on <time datetime={String(record.curation?.reviewedAt)}>
-          {reviewedAtLabel ?? "—"}
-        </time>.
-      </p>
+      {addedAtLabel && (
+        <p class="m-0 leading-relaxed">
+          Added on <time datetime={String(record.addedAt)}>{addedAtLabel}</time>.
+        </p>
+      )}
+      {/* Only when a curator actually reviewed the record. This line
+          used to render unconditionally with an em dash where the date
+          belongs, and gated the whole card besides. */}
+      {reviewedAtLabel && (
+        <p class:list={["m-0 leading-relaxed", addedAtLabel && "mt-1.5"]}>
+          Reviewed by {record.curation?.reviewedBy ?? "grove"}
+          on <time datetime={String(record.curation?.reviewedAt)}>
+            {reviewedAtLabel}
+          </time>.
+        </p>
+      )}
       {alsoIn.length > 0 && (
         <p class="m-0 mt-1.5 leading-relaxed">
           <span class="font-semibold">Also in: </span>

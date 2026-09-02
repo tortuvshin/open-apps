@@ -144,6 +144,10 @@ const {
     return [
       "kind: project",
       `slug: ${currentSlug()}`,
+      // The day the record joins the directory. Without it the
+      // `recently-added` sort has nothing to sort a new record on and
+      // drops it to the bottom of the list built to show it off.
+      `addedAt: ${new Date().toISOString().slice(0, 10)}`,
       `name: ${quote(inputs.name?.value ?? "")}`,
       `description: ${quote(description)}`,
       // Preserve GitHub's own description separately so curators can
