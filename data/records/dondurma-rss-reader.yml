@@ -1,0 +1,39 @@
+kind: project
+slug: dondurma-rss-reader
+name: "Dondurma - Rss & News Reader"
+description: "🍦 A premium, open-source RSS/Atom feed reader built with Flutter and Material 3. Cross-platform, private, and algorithm-free."
+category: news
+projectType: real-app
+stack: "flutter"
+platforms:
+  - ios
+  - android
+tags:
+  - adblocker
+  - android
+  - atom
+  - cross-platform
+  - dart
+  - desktop
+  - desktop-app
+  - feed-reader
+licenses:
+  - mit
+repoUrl: https://github.com/DevOpen-io/dondurma-rss-reader
+links:
+  github: https://github.com/DevOpen-io/dondurma-rss-reader
+  website: https://dondurma.devopen.io/
+bestFor:
+  - Reading RSS and Atom feeds
+  - Following blogs and news sources
+  - Offline article reading
+  - Privacy-focused news consumption
+  - Cross-platform RSS reading
+source:
+  type: manual
+  owner: DevOpen-io
+  repo: dondurma-rss-reader
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
