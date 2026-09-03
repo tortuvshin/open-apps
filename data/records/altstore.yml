@@ -110,7 +110,7 @@ github:
     releases_url: https://api.github.com/repos/altstoreio/AltStore/releases{/id}
     deployments_url: https://api.github.com/repos/altstoreio/AltStore/deployments
     created_at: 2019-05-10T18:29:53Z
-    updated_at: 2026-09-01T10:06:32Z
+    updated_at: 2026-09-02T22:09:58Z
     pushed_at: 2026-07-14T19:06:27Z
     git_url: git://github.com/altstoreio/AltStore.git
     ssh_url: git@github.com:altstoreio/AltStore.git
@@ -118,7 +118,7 @@ github:
     svn_url: https://github.com/altstoreio/AltStore
     homepage: https://altstore.io
     size: 225987
-    stargazers_count: 14262
+    stargazers_count: 14270
     watchers_count: 14083
     language: Swift
     has_issues: true
@@ -127,11 +127,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: false
-    forks_count: 1416
+    forks_count: 1419
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 678
+    open_issues_count: 679
     license:
       spdx_id: AGPL-3.0
       name: AGPL-3.0
@@ -194,7 +194,7 @@ github:
     openPullRequests: 26
     contributorsKnown: 12
   sync:
-    syncedAt: 2026-09-01T12:54:39.550Z
+    syncedAt: 2026-09-03T02:52:39.785Z
     source: api
   languages:
     Swift: 2109032
@@ -209,10 +209,17 @@ github:
     topics: []
   homepage: https://altstore.io
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Clear license found
 licenses:
   - agpl-3.0
 content: ./content/records/altstore.md

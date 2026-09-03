@@ -102,15 +102,15 @@ github:
     releases_url: https://api.github.com/repos/immich-app/immich/releases{/id}
     deployments_url: https://api.github.com/repos/immich-app/immich/deployments
     created_at: 2022-02-03T15:56:27Z
-    updated_at: 2026-09-01T12:30:04Z
-    pushed_at: 2026-09-01T12:51:41Z
+    updated_at: 2026-09-03T02:45:30Z
+    pushed_at: 2026-09-03T02:13:58Z
     git_url: git://github.com/immich-app/immich.git
     ssh_url: git@github.com:immich-app/immich.git
     clone_url: https://github.com/immich-app/immich.git
     svn_url: https://github.com/immich-app/immich
     homepage: https://immich.app
     size: 324461
-    stargazers_count: 113149
+    stargazers_count: 113287
     watchers_count: 108423
     language: TypeScript
     has_issues: true
@@ -119,11 +119,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 6796
+    forks_count: 6805
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 698
+    open_issues_count: 703
     license:
       spdx_id: AGPL-3.0
       name: AGPL-3.0
@@ -202,7 +202,7 @@ github:
     openPullRequests: 231
     contributorsKnown: 955
   sync:
-    syncedAt: 2026-09-01T12:54:53.717Z
+    syncedAt: 2026-09-03T02:52:55.988Z
     source: api
   languages:
     TypeScript: 5548263
@@ -233,10 +233,18 @@ github:
   latestReleaseAt: 2026-07-29T14:20:10Z
   homepage: https://immich.app
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - agpl-3.0
 content: ./content/records/immich.md

@@ -39,12 +39,12 @@ source:
 github:
   repository:
     full_name: Sutera-Diffusus/WeChat-daily
-    stargazers_count: 13
-    forks_count: 5
+    stargazers_count: 19
+    forks_count: 6
     open_issues_count: 0
     language: Python
     pushed_at: 2026-08-24T16:45:03Z
-    updated_at: 2026-09-01T10:23:01Z
+    updated_at: 2026-09-02T08:50:58Z
     archived: false
     disabled: false
     default_branch: main
@@ -67,7 +67,7 @@ github:
   latestReleaseAt: 2026-08-24T11:44:07Z
   homepage: null
   sync:
-    syncedAt: 2026-09-01T12:55:13.897Z
+    syncedAt: 2026-09-03T02:53:18.610Z
     source: api
   html:
     license: MIT
@@ -82,10 +82,14 @@ licenses:
   - mit
 health:
   status: active
-  tier: listed
+  maturity: useful
+  tier: experimental
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 content: ./content/records/weiyu.md

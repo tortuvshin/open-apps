@@ -102,15 +102,15 @@ github:
     releases_url: https://api.github.com/repos/Livinglist/Hacki/releases{/id}
     deployments_url: https://api.github.com/repos/Livinglist/Hacki/deployments
     created_at: 2021-12-25T03:59:50Z
-    updated_at: 2026-09-01T08:48:29Z
-    pushed_at: 2026-08-31T09:43:42Z
+    updated_at: 2026-09-02T10:47:22Z
+    pushed_at: 2026-09-02T11:18:21Z
     git_url: git://github.com/Livinglist/Hacki.git
     ssh_url: git@github.com:Livinglist/Hacki.git
     clone_url: https://github.com/Livinglist/Hacki.git
     svn_url: https://github.com/Livinglist/Hacki
     homepage: https://livinglist.github.io/Hacki/
     size: 291495
-    stargazers_count: 1615
+    stargazers_count: 1616
     watchers_count: 1578
     language: Dart
     has_issues: true
@@ -123,7 +123,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 38
+    open_issues_count: 31
     license:
       spdx_id: GPL-3.0
       name: GPL-3.0
@@ -176,7 +176,7 @@ github:
     openPullRequests: 13
     contributorsKnown: 4
   sync:
-    syncedAt: 2026-09-01T12:54:51.857Z
+    syncedAt: 2026-09-03T02:52:53.445Z
     source: api
   languages:
     Dart: 969792
@@ -190,12 +190,20 @@ github:
     license: GPL-3.0
     language: null
     topics: []
-  latestReleaseAt: 2026-08-29T03:24:57Z
+  latestReleaseAt: 2026-09-02T11:18:21Z
   homepage: https://livinglist.github.io/Hacki/
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - gpl-3.0

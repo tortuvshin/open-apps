@@ -174,7 +174,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-09-01T12:54:43.905Z
+    syncedAt: 2026-09-03T02:52:44.300Z
     source: api
   languages:
     Dart: 1059596
@@ -187,9 +187,15 @@ github:
     topics: []
   latestReleaseAt: 2024-10-22T18:36:38Z
 health:
-  status: quiet
+  status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Clear license found
 licenses:
   - gpl-3.0

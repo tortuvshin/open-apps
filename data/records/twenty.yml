@@ -110,26 +110,34 @@ licenses:
   - agpl-3.0
   - mit
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - License is missing or unclear
 github:
   html:
     license: null
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:11.798Z
+    syncedAt: 2026-09-03T02:53:16.330Z
     source: api
   repository:
     full_name: twentyhq/twenty
-    stargazers_count: 55983
-    forks_count: 8858
-    open_issues_count: 173
+    stargazers_count: 56077
+    forks_count: 8890
+    open_issues_count: 163
     language: TypeScript
-    pushed_at: 2026-09-01T12:53:59Z
-    updated_at: 2026-09-01T12:47:01Z
+    pushed_at: 2026-09-03T02:22:17Z
+    updated_at: 2026-09-03T02:39:24Z
     archived: false
     disabled: false
     default_branch: main

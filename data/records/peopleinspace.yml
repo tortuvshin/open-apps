@@ -112,15 +112,15 @@ github:
     releases_url: https://api.github.com/repos/joreilly/PeopleInSpace/releases{/id}
     deployments_url: https://api.github.com/repos/joreilly/PeopleInSpace/deployments
     created_at: 2019-12-22T20:19:16Z
-    updated_at: 2026-08-31T11:56:11Z
-    pushed_at: 2026-09-01T09:50:37Z
+    updated_at: 2026-09-02T16:07:15Z
+    pushed_at: 2026-09-02T16:02:54Z
     git_url: git://github.com/joreilly/PeopleInSpace.git
     ssh_url: git@github.com:joreilly/PeopleInSpace.git
     clone_url: https://github.com/joreilly/PeopleInSpace.git
     svn_url: https://github.com/joreilly/PeopleInSpace
     homepage: ""
     size: 73768
-    stargazers_count: 3424
+    stargazers_count: 3426
     watchers_count: 3358
     language: Kotlin
     has_issues: true
@@ -133,7 +133,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 13
+    open_issues_count: 12
     license:
       spdx_id: Apache-2.0
       name: Apache-2.0
@@ -194,7 +194,7 @@ github:
     openPullRequests: 10
     contributorsKnown: 38
   sync:
-    syncedAt: 2026-09-01T12:55:04.516Z
+    syncedAt: 2026-09-03T02:53:08.427Z
     source: api
   languages:
     Kotlin: 198086
@@ -207,9 +207,16 @@ github:
     language: null
     topics: []
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Clear license found
 licenses:
   - apache-2.0

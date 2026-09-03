@@ -50,29 +50,34 @@ visibility: keep
 licenses:
   - agpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: AGPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:06.652Z
+    syncedAt: 2026-09-03T02:53:10.919Z
     source: api
   repository:
     full_name: rustdesk/rustdesk
-    stargazers_count: 122321
-    forks_count: 18759
-    open_issues_count: 140
+    stargazers_count: 122462
+    forks_count: 18813
+    open_issues_count: 142
     language: Rust
-    pushed_at: 2026-09-01T02:47:26Z
-    updated_at: 2026-09-01T12:48:21Z
+    pushed_at: 2026-09-03T02:08:30Z
+    updated_at: 2026-09-03T02:51:55Z
     archived: false
     disabled: false
     default_branch: master

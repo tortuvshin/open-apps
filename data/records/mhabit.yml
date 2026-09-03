@@ -45,13 +45,18 @@ visibility: keep
 licenses:
   - apache-2.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 content: ./content/records/mhabit.md
 summary: A cross-platform Flutter habit tracker with separate scoring models for "do" and "don't"
   habits, growth-curve visualizations, and WebDAV sync via Nextcloud, Koofr, or any self-hosted
@@ -64,16 +69,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:00.642Z
+    syncedAt: 2026-09-03T02:53:03.957Z
     source: api
   repository:
     full_name: FriesI23/mhabit
-    stargazers_count: 1524
-    forks_count: 87
+    stargazers_count: 1531
+    forks_count: 88
     open_issues_count: 79
     language: Dart
-    pushed_at: 2026-09-01T01:13:10Z
-    updated_at: 2026-09-01T05:51:20Z
+    pushed_at: 2026-09-03T01:00:12Z
+    updated_at: 2026-09-03T01:54:45Z
     archived: false
     disabled: false
     default_branch: main

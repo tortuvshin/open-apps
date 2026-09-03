@@ -105,26 +105,34 @@ curation:
 licenses:
   - mit
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: MIT
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:13.204Z
+    syncedAt: 2026-09-03T02:53:17.763Z
     source: api
   repository:
     full_name: jamiepine/voicebox
-    stargazers_count: 52026
-    forks_count: 6479
-    open_issues_count: 667
+    stargazers_count: 52176
+    forks_count: 6495
+    open_issues_count: 669
     language: TypeScript
     pushed_at: 2026-08-09T00:03:42Z
-    updated_at: 2026-09-01T12:47:20Z
+    updated_at: 2026-09-03T02:32:56Z
     archived: false
     disabled: false
     default_branch: main

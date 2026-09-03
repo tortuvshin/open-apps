@@ -109,7 +109,7 @@ github:
     releases_url: https://api.github.com/repos/ish-app/ish/releases{/id}
     deployments_url: https://api.github.com/repos/ish-app/ish/deployments
     created_at: 2017-05-05T00:10:35Z
-    updated_at: 2026-09-01T09:06:36Z
+    updated_at: 2026-09-03T00:01:03Z
     pushed_at: 2026-08-22T06:20:13Z
     git_url: git://github.com/ish-app/ish.git
     ssh_url: git@github.com:ish-app/ish.git
@@ -117,7 +117,7 @@ github:
     svn_url: https://github.com/ish-app/ish
     homepage: https://ish.app
     size: 5587
-    stargazers_count: 20393
+    stargazers_count: 20401
     watchers_count: 20173
     language: C
     has_issues: true
@@ -126,7 +126,7 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1502
+    forks_count: 1503
     mirror_url: null
     archived: false
     disabled: false
@@ -180,7 +180,7 @@ github:
     network_count: 1452
     subscribers_count: 578
   sync:
-    syncedAt: 2026-09-01T12:54:54.701Z
+    syncedAt: 2026-09-03T02:52:57.334Z
     source: api
   languages:
     C: 1027534
@@ -221,9 +221,15 @@ github:
   latestReleaseAt: 2023-05-20T23:52:42Z
   homepage: https://ish.app
 health:
-  status: unknown
-  tier: listed
+  status: active
+  maturity: useful
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - License is missing or unclear
 licenses:
   - noassertion

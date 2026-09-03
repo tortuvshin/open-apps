@@ -41,29 +41,34 @@ visibility: keep
 licenses:
   - gpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: GPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:51.500Z
+    syncedAt: 2026-09-03T02:52:53.063Z
     source: api
   repository:
     full_name: xpavle00/Habo
-    stargazers_count: 1497
+    stargazers_count: 1498
     forks_count: 177
     open_issues_count: 31
     language: Dart
     pushed_at: 2026-06-15T20:55:35Z
-    updated_at: 2026-09-01T09:54:12Z
+    updated_at: 2026-09-02T14:01:42Z
     archived: false
     disabled: false
     default_branch: master

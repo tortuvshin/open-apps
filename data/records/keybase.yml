@@ -119,8 +119,8 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-09-01T02:57:09Z
-    pushed_at: 2026-08-31T21:35:19Z
+    updated_at: 2026-09-02T21:54:36Z
+    pushed_at: 2026-09-02T21:54:26Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
@@ -136,11 +136,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 1287
+    forks_count: 1285
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4254
+    open_issues_count: 4256
     license:
       spdx_id: BSD-3-Clause
       name: BSD-3-Clause
@@ -235,7 +235,7 @@ github:
     contributorsKnown: 120
     openPullRequests: 202
   sync:
-    syncedAt: 2026-09-01T12:54:55.983Z
+    syncedAt: 2026-09-03T02:52:58.754Z
     source: api
   html:
     license: BSD-3-Clause
@@ -243,9 +243,17 @@ github:
     topics: []
   latestReleaseAt: 2026-06-03T14:24:01Z
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - bsd-3-clause

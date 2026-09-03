@@ -107,15 +107,15 @@ github:
     releases_url: https://api.github.com/repos/xbmc/xbmc/releases{/id}
     deployments_url: https://api.github.com/repos/xbmc/xbmc/deployments
     created_at: 2011-01-03T21:18:51Z
-    updated_at: 2026-09-01T08:35:54Z
-    pushed_at: 2026-09-01T08:29:40Z
+    updated_at: 2026-09-03T02:26:18Z
+    pushed_at: 2026-09-02T23:07:31Z
     git_url: git://github.com/xbmc/xbmc.git
     ssh_url: git@github.com:xbmc/xbmc.git
     clone_url: https://github.com/xbmc/xbmc.git
     svn_url: https://github.com/xbmc/xbmc
     homepage: https://kodi.tv/
     size: 1650209
-    stargazers_count: 21163
+    stargazers_count: 21169
     watchers_count: 20987
     language: C++
     has_issues: true
@@ -124,11 +124,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 6591
+    forks_count: 6594
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 458
+    open_issues_count: 436
     license:
       spdx_id: NOASSERTION
       name: NOASSERTION
@@ -208,7 +208,7 @@ github:
     openPullRequests: 200
     contributorsKnown: 1272
   sync:
-    syncedAt: 2026-09-01T12:55:14.669Z
+    syncedAt: 2026-09-03T02:53:19.518Z
     source: api
   languages:
     C++: 32532018
@@ -239,10 +239,18 @@ github:
   latestReleaseAt: 2025-10-31T17:21:33Z
   homepage: https://kodi.tv/
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - License is missing or unclear
 licenses:
   - noassertion
 content: ./content/records/xbmc.md

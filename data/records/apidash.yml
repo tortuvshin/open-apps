@@ -54,22 +54,26 @@ visibility: keep
 licenses:
   - apache-2.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Clear license found
 github:
   repository:
     full_name: foss42/apidash
-    stargazers_count: 2887
-    forks_count: 991
-    open_issues_count: 225
+    stargazers_count: 2892
+    forks_count: 996
+    open_issues_count: 221
     language: Dart
     pushed_at: 2026-09-01T01:05:29Z
-    updated_at: 2026-09-01T01:06:14Z
+    updated_at: 2026-09-02T14:16:41Z
     archived: false
     disabled: false
     default_branch: main
@@ -99,5 +103,5 @@ github:
   latestReleaseAt: 2023-11-29T12:07:18Z
   homepage: https://apidash.dev
   sync:
-    syncedAt: 2026-09-01T12:54:39.919Z
+    syncedAt: 2026-09-03T02:52:40.304Z
     source: api

@@ -68,16 +68,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:57.437Z
+    syncedAt: 2026-09-03T02:53:00.375Z
     source: api
   repository:
     full_name: bart6114/loofah
     stargazers_count: 3
     forks_count: 0
-    open_issues_count: 9
+    open_issues_count: 8
     language: Rust
-    pushed_at: 2026-09-01T12:13:06Z
-    updated_at: 2026-08-31T14:48:46Z
+    pushed_at: 2026-09-02T14:07:50Z
+    updated_at: 2026-09-02T14:14:29Z
     archived: false
     disabled: false
     default_branch: main
@@ -96,5 +96,17 @@ github:
       - stt
       - tauri
       - transcription
-  latestReleaseAt: 2026-08-31T13:57:57Z
+  latestReleaseAt: 2026-09-02T13:40:19Z
   homepage: https://loofah.io
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found

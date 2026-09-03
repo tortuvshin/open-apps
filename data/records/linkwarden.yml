@@ -115,15 +115,15 @@ github:
     releases_url: https://api.github.com/repos/linkwarden/linkwarden/releases{/id}
     deployments_url: https://api.github.com/repos/linkwarden/linkwarden/deployments
     created_at: 2022-04-09T07:53:01Z
-    updated_at: 2026-09-01T12:10:09Z
-    pushed_at: 2026-08-31T23:25:39Z
+    updated_at: 2026-09-03T01:58:25Z
+    pushed_at: 2026-09-02T20:42:58Z
     git_url: git://github.com/linkwarden/linkwarden.git
     ssh_url: git@github.com:linkwarden/linkwarden.git
     clone_url: https://github.com/linkwarden/linkwarden.git
     svn_url: https://github.com/linkwarden/linkwarden
     homepage: https://linkwarden.app
     size: 36884
-    stargazers_count: 19658
+    stargazers_count: 19666
     watchers_count: 19029
     language: TypeScript
     has_issues: true
@@ -132,7 +132,7 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: false
-    forks_count: 838
+    forks_count: 839
     mirror_url: null
     archived: false
     disabled: false
@@ -214,7 +214,7 @@ github:
     contributorsKnown: 88
     openPullRequests: 28
   sync:
-    syncedAt: 2026-09-01T12:54:56.712Z
+    syncedAt: 2026-09-03T02:52:59.561Z
     source: api
   html:
     license: AGPL-3.0
@@ -223,10 +223,18 @@ github:
   latestReleaseAt: 2026-08-31T23:25:39Z
   homepage: https://linkwarden.app
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - agpl-3.0
 content: ./content/records/linkwarden.md

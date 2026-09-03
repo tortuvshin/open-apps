@@ -104,15 +104,15 @@ github:
     releases_url: https://api.github.com/repos/openfoodfacts/smooth-app/releases{/id}
     deployments_url: https://api.github.com/repos/openfoodfacts/smooth-app/deployments
     created_at: 2020-04-23T12:13:55Z
-    updated_at: 2026-09-01T12:22:56Z
-    pushed_at: 2026-09-01T12:22:24Z
+    updated_at: 2026-09-02T20:12:33Z
+    pushed_at: 2026-09-02T20:05:49Z
     git_url: git://github.com/openfoodfacts/smooth-app.git
     ssh_url: git@github.com:openfoodfacts/smooth-app.git
     clone_url: https://github.com/openfoodfacts/smooth-app.git
     svn_url: https://github.com/openfoodfacts/smooth-app
     homepage: https://world.openfoodfacts.org/open-food-facts-mobile-app?utm_source=off&utf_medium=web&utm_campaign=github-repo
     size: 326624
-    stargazers_count: 1407
+    stargazers_count: 1406
     watchers_count: 1385
     language: Dart
     has_issues: true
@@ -121,11 +121,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 468
+    forks_count: 470
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 657
+    open_issues_count: 656
     license:
       spdx_id: Apache-2.0
       name: Apache-2.0
@@ -201,7 +201,7 @@ github:
     openPullRequests: 30
     contributorsKnown: 116
   sync:
-    syncedAt: 2026-09-01T12:55:03.566Z
+    syncedAt: 2026-09-03T02:53:07.336Z
     source: api
   languages:
     Dart: 4048718
@@ -220,9 +220,17 @@ github:
   latestReleaseAt: 2026-08-24T13:35:11Z
   homepage: https://world.openfoodfacts.org/open-food-facts-mobile-app?utm_source=off&utf_medium=web&utm_campaign=github-repo
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - apache-2.0

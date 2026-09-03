@@ -33,12 +33,16 @@ licenses:
   - gpl-3.0
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   repository:
     full_name: jithware/brethap
@@ -58,5 +62,5 @@ github:
   latestReleaseAt: 2026-07-14T12:39:46Z
   homepage: https://jithware.github.io/brethap
   sync:
-    syncedAt: 2026-09-01T12:54:44.738Z
+    syncedAt: 2026-09-03T02:52:45.219Z
     source: api

@@ -109,8 +109,8 @@ github:
     releases_url: https://api.github.com/repos/artsy/eigen/releases{/id}
     deployments_url: https://api.github.com/repos/artsy/eigen/deployments
     created_at: 2015-01-22T21:52:39Z
-    updated_at: 2026-09-01T07:54:12Z
-    pushed_at: 2026-09-01T10:06:46Z
+    updated_at: 2026-09-02T13:50:01Z
+    pushed_at: 2026-09-02T23:28:49Z
     git_url: git://github.com/artsy/eigen.git
     ssh_url: git@github.com:artsy/eigen.git
     clone_url: https://github.com/artsy/eigen.git
@@ -130,7 +130,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 22
+    open_issues_count: 21
     license:
       spdx_id: MIT
       name: MIT
@@ -201,7 +201,7 @@ github:
     openPullRequests: 12
     contributorsKnown: 166
   sync:
-    syncedAt: 2026-09-01T12:54:47.591Z
+    syncedAt: 2026-09-03T02:52:48.221Z
     source: api
   languages:
     TypeScript: 7981588
@@ -223,9 +223,17 @@ github:
     topics: []
   latestReleaseAt: 2026-08-27T10:17:51Z
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - mit

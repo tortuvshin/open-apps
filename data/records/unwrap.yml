@@ -171,7 +171,7 @@ github:
     openPullRequests: 4
     contributorsKnown: 65
   sync:
-    syncedAt: 2026-09-01T12:55:12.308Z
+    syncedAt: 2026-09-03T02:53:16.919Z
     source: api
   languages:
     Swift: 513785
@@ -183,10 +183,15 @@ github:
     topics: []
   homepage: https://www.hackingwithswift.com
 health:
-  status: stale
+  status: active
+  maturity: useful
   tier: curated
   visibility: keep
-  cleanupCandidate: true
-  staleReason: no_commits_365_days
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - License is missing or unclear
 licenses:
   - noassertion

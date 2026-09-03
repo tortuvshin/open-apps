@@ -32,28 +32,32 @@ licenses:
   - mit
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: MIT
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:57.036Z
+    syncedAt: 2026-09-03T02:52:59.929Z
     source: api
   repository:
     full_name: abdulmominsakib/localmind
-    stargazers_count: 195
+    stargazers_count: 198
     forks_count: 36
-    open_issues_count: 2
+    open_issues_count: 1
     language: Dart
-    pushed_at: 2026-09-01T09:44:03Z
-    updated_at: 2026-09-01T09:45:41Z
+    pushed_at: 2026-09-02T12:58:07Z
+    updated_at: 2026-09-02T20:15:46Z
     archived: false
     disabled: false
     default_branch: main

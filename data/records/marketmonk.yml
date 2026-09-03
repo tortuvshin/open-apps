@@ -35,19 +35,23 @@ licenses:
   - mit
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: MIT
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:57.755Z
+    syncedAt: 2026-09-03T02:53:00.778Z
     source: api
   repository:
     full_name: brandonp2412/MarketMonk

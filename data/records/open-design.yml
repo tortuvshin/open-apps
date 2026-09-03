@@ -109,26 +109,34 @@ visibility: keep
 licenses:
   - apache-2.0
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: Apache-2.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:03.229Z
+    syncedAt: 2026-09-03T02:53:06.920Z
     source: api
   repository:
     full_name: nexu-io/open-design
-    stargazers_count: 93222
-    forks_count: 10760
-    open_issues_count: 920
+    stargazers_count: 93659
+    forks_count: 10801
+    open_issues_count: 925
     language: null
-    pushed_at: 2026-09-01T12:52:21Z
-    updated_at: 2026-09-01T12:49:39Z
+    pushed_at: 2026-09-03T01:29:02Z
+    updated_at: 2026-09-03T02:48:37Z
     archived: false
     disabled: false
     default_branch: main

@@ -189,7 +189,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 8
   sync:
-    syncedAt: 2026-09-01T12:55:09.743Z
+    syncedAt: 2026-09-03T02:53:14.085Z
     source: api
   languages:
     Swift: 763617
@@ -200,9 +200,15 @@ github:
     topics: []
   latestReleaseAt: 2021-10-13T06:14:58Z
 health:
-  status: active
+  status: stale
+  maturity: useful
   tier: curated
   visibility: keep
-  cleanupCandidate: false
+  cleanupCandidate: true
+  staleReason: no_commits_365_days
+  confidence: high
+  reasons:
+    - No recent commits in the last 6 months
+    - Clear license found
 licenses:
   - mit

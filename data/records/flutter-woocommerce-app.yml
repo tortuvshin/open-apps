@@ -105,7 +105,7 @@ github:
     releases_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/releases{/id}
     deployments_url: https://api.github.com/repos/woosignal/flutter-woocommerce-app/deployments
     created_at: 2019-11-01T20:16:52Z
-    updated_at: 2026-08-20T09:40:54Z
+    updated_at: 2026-09-02T02:28:45Z
     pushed_at: 2026-05-23T13:32:20Z
     git_url: git://github.com/woosignal/flutter-woocommerce-app.git
     ssh_url: git@github.com:woosignal/flutter-woocommerce-app.git
@@ -113,7 +113,7 @@ github:
     svn_url: https://github.com/woosignal/flutter-woocommerce-app
     homepage: https://woosignal.com
     size: 4406
-    stargazers_count: 715
+    stargazers_count: 714
     watchers_count: 711
     language: Dart
     has_issues: true
@@ -203,7 +203,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 7
   sync:
-    syncedAt: 2026-09-01T12:54:50.353Z
+    syncedAt: 2026-09-03T02:52:51.731Z
     source: api
   languages:
     Dart: 540390
@@ -217,9 +217,17 @@ github:
   latestReleaseAt: 2026-05-23T13:32:25Z
   homepage: https://woosignal.com
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - bsd-2-clause

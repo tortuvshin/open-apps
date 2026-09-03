@@ -25,13 +25,18 @@ visibility: keep
 licenses:
   - gpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 content: ./content/records/daily_you.md
 summary: A Flutter-built daily journal that stores entries, mood ratings, photo memories, and
   Markdown notes in a local SQLite database across six desktop and mobile platforms, with a
@@ -40,12 +45,12 @@ sourceDescription: Daily diary & journaling app
 github:
   repository:
     full_name: Demizo/Daily_You
-    stargazers_count: 1282
+    stargazers_count: 1283
     forks_count: 58
-    open_issues_count: 58
+    open_issues_count: 57
     language: Dart
-    pushed_at: 2026-08-30T23:05:56Z
-    updated_at: 2026-08-31T12:39:17Z
+    pushed_at: 2026-09-02T01:29:22Z
+    updated_at: 2026-09-02T06:06:57Z
     archived: false
     disabled: false
     default_branch: master
@@ -55,5 +60,5 @@ github:
     topics: []
   latestReleaseAt: 2026-08-24T23:14:45Z
   sync:
-    syncedAt: 2026-09-01T12:54:46.770Z
+    syncedAt: 2026-09-03T02:52:47.395Z
     source: api
