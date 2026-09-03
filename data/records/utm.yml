@@ -108,15 +108,15 @@ github:
     releases_url: https://api.github.com/repos/utmapp/UTM/releases{/id}
     deployments_url: https://api.github.com/repos/utmapp/UTM/deployments
     created_at: 2019-04-12T16:09:24Z
-    updated_at: 2026-09-01T11:45:24Z
-    pushed_at: 2026-09-01T05:28:36Z
+    updated_at: 2026-09-03T02:17:18Z
+    pushed_at: 2026-09-02T05:14:37Z
     git_url: git://github.com/utmapp/UTM.git
     ssh_url: git@github.com:utmapp/UTM.git
     clone_url: https://github.com/utmapp/UTM.git
     svn_url: https://github.com/utmapp/UTM
     homepage: https://getutm.app
     size: 50567
-    stargazers_count: 35223
+    stargazers_count: 35313
     watchers_count: 34747
     language: Swift
     has_issues: true
@@ -125,11 +125,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 1803
+    forks_count: 1804
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1112
+    open_issues_count: 1108
     license:
       spdx_id: Apache-2.0
       name: Apache-2.0
@@ -184,7 +184,7 @@ github:
     network_count: 1761
     subscribers_count: 381
   sync:
-    syncedAt: 2026-09-01T12:55:12.726Z
+    syncedAt: 2026-09-03T02:53:17.333Z
     source: api
   languages:
     Swift: 2045626
@@ -216,9 +216,17 @@ github:
   latestReleaseAt: 2026-01-03T17:51:54Z
   homepage: https://getutm.app
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - apache-2.0

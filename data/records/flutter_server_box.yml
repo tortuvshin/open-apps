@@ -40,29 +40,34 @@ visibility: keep
 licenses:
   - agpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: AGPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:50.715Z
+    syncedAt: 2026-09-03T02:52:52.135Z
     source: api
   repository:
     full_name: lollipopkit/flutter_server_box
-    stargazers_count: 8626
+    stargazers_count: 8632
     forks_count: 546
     open_issues_count: 15
     language: Dart
-    pushed_at: 2026-08-30T17:47:24Z
-    updated_at: 2026-09-01T10:03:30Z
+    pushed_at: 2026-09-03T02:46:25Z
+    updated_at: 2026-09-03T02:46:43Z
     archived: false
     disabled: false
     default_branch: main

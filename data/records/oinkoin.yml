@@ -32,19 +32,23 @@ licenses:
   - gpl-3.0
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: GPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:01.910Z
+    syncedAt: 2026-09-03T02:53:05.577Z
     source: api
   repository:
     full_name: emavgl/oinkoin

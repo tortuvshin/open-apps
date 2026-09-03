@@ -41,24 +41,28 @@ licenses:
   - agpl-3.0
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: AGPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:00.964Z
+    syncedAt: 2026-09-03T02:53:04.741Z
     source: api
   repository:
     full_name: enrique-lozano/Monekin
     stargazers_count: 253
-    forks_count: 47
+    forks_count: 48
     open_issues_count: 25
     language: Dart
     pushed_at: 2026-08-31T20:24:15Z

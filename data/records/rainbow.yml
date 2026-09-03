@@ -119,15 +119,15 @@ github:
     releases_url: https://api.github.com/repos/rainbow-me/rainbow/releases{/id}
     deployments_url: https://api.github.com/repos/rainbow-me/rainbow/deployments
     created_at: 2019-03-20T16:46:57Z
-    updated_at: 2026-09-01T07:10:02Z
-    pushed_at: 2026-09-01T12:33:53Z
+    updated_at: 2026-09-02T19:36:20Z
+    pushed_at: 2026-09-03T02:37:38Z
     git_url: git://github.com/rainbow-me/rainbow.git
     ssh_url: git@github.com:rainbow-me/rainbow.git
     clone_url: https://github.com/rainbow-me/rainbow.git
     svn_url: https://github.com/rainbow-me/rainbow
     homepage: https://rainbow.me
     size: 285625
-    stargazers_count: 4384
+    stargazers_count: 4386
     watchers_count: 4371
     language: TypeScript
     has_issues: true
@@ -140,7 +140,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 34
+    open_issues_count: 29
     license:
       spdx_id: GPL-3.0
       name: GPL-3.0
@@ -220,18 +220,26 @@ github:
     contributorsKnown: 73
     openPullRequests: 18
   sync:
-    syncedAt: 2026-09-01T12:55:04.941Z
+    syncedAt: 2026-09-03T02:53:09.260Z
     source: api
   html:
     license: GPL-3.0
     language: null
     topics: []
-  latestReleaseAt: 2026-08-11T16:29:16Z
+  latestReleaseAt: 2026-09-01T23:06:19Z
   homepage: https://rainbow.me
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - gpl-3.0

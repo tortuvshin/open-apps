@@ -202,7 +202,7 @@ github:
     openPullRequests: 10
     contributorsKnown: 311
   sync:
-    syncedAt: 2026-09-01T12:55:08.492Z
+    syncedAt: 2026-09-03T02:53:12.615Z
     source: api
   languages:
     Clojure: 6038185
@@ -227,9 +227,16 @@ github:
   latestReleaseAt: 2025-10-28T17:37:08Z
   homepage: https://status.app
 health:
-  status: quiet
-  tier: curated
-  visibility: keep
-  cleanupCandidate: false
+  status: archived
+  maturity: unknown
+  tier: hidden
+  visibility: hide
+  cleanupCandidate: true
+  staleReason: github_archived
+  confidence: high
+  reasons:
+    - Repository is archived on GitHub
+    - Recent release found
+    - Clear license found
 licenses:
   - mpl-2.0

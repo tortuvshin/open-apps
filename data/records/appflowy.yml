@@ -123,7 +123,7 @@ github:
     releases_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}
     deployments_url: https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments
     created_at: 2021-06-16T12:56:48Z
-    updated_at: 2026-09-01T12:50:29Z
+    updated_at: 2026-09-03T01:53:10Z
     pushed_at: 2026-09-01T07:10:47Z
     git_url: git://github.com/AppFlowy-IO/AppFlowy.git
     ssh_url: git@github.com:AppFlowy-IO/AppFlowy.git
@@ -131,7 +131,7 @@ github:
     svn_url: https://github.com/AppFlowy-IO/AppFlowy
     homepage: https://appflowy.com
     size: 93897
-    stargazers_count: 76163
+    stargazers_count: 76209
     watchers_count: 74159
     language: Dart
     has_issues: true
@@ -140,11 +140,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 5958
+    forks_count: 5961
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 1015
+    open_issues_count: 1018
     license:
       spdx_id: AGPL-3.0
       name: AGPL-3.0
@@ -202,7 +202,7 @@ github:
     network_count: 5688
     subscribers_count: 388
   sync:
-    syncedAt: 2026-09-01T12:54:40.831Z
+    syncedAt: 2026-09-03T02:52:41.146Z
     source: api
   languages:
     Dart: 9470739
@@ -244,13 +244,21 @@ github:
     license: AGPL-3.0
     language: null
     topics: []
-  latestReleaseAt: 2026-08-28T06:33:00Z
+  latestReleaseAt: 2026-09-01T07:10:48Z
   homepage: https://appflowy.com
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - agpl-3.0
 content: ./content/records/appflowy.md

@@ -192,7 +192,7 @@ github:
     openPullRequests: 5
     contributorsKnown: 27
   sync:
-    syncedAt: 2026-09-01T12:55:15.153Z
+    syncedAt: 2026-09-03T02:53:19.982Z
     source: api
   languages:
     TypeScript: 2232256
@@ -211,8 +211,14 @@ github:
   homepage: https://www.jetbrains.com/youtrack/features/youtrack-mobile.html
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - License is missing or unclear
 licenses:
   - noassertion

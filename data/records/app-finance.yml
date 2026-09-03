@@ -42,21 +42,25 @@ licenses:
   - noassertion
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - License is missing or unclear
 github:
   repository:
     full_name: lyskouski/app-finance
     stargazers_count: 134
-    forks_count: 29
-    open_issues_count: 23
+    forks_count: 30
+    open_issues_count: 24
     language: Dart
-    pushed_at: 2026-08-30T09:09:14Z
-    updated_at: 2026-08-30T19:29:12Z
+    pushed_at: 2026-09-02T17:41:02Z
+    updated_at: 2026-09-02T17:33:53Z
     archived: false
     disabled: false
     default_branch: main
@@ -75,8 +79,8 @@ github:
       - money-manager
       - open-source
       - personal-finances
-  latestReleaseAt: 2026-08-30T09:02:44Z
+  latestReleaseAt: 2026-09-02T17:35:25Z
   homepage: https://tercad.com/app/finance/index.html
   sync:
-    syncedAt: 2026-09-01T12:54:40.310Z
+    syncedAt: 2026-09-03T02:52:40.746Z
     source: api

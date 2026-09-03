@@ -113,7 +113,7 @@ github:
     releases_url: https://api.github.com/repos/TNT-Likely/BeeCount/releases{/id}
     deployments_url: https://api.github.com/repos/TNT-Likely/BeeCount/deployments
     created_at: 2025-09-06T02:15:06Z
-    updated_at: 2026-09-01T12:38:34Z
+    updated_at: 2026-09-03T02:39:06Z
     pushed_at: 2026-08-31T16:27:54Z
     git_url: git://github.com/TNT-Likely/BeeCount.git
     ssh_url: git@github.com:TNT-Likely/BeeCount.git
@@ -121,7 +121,7 @@ github:
     svn_url: https://github.com/TNT-Likely/BeeCount
     homepage: https://count.beejz.com
     size: 122691
-    stargazers_count: 2237
+    stargazers_count: 2250
     watchers_count: 1960
     language: Dart
     has_issues: true
@@ -130,11 +130,11 @@ github:
     has_wiki: true
     has_pages: false
     has_discussions: true
-    forks_count: 311
+    forks_count: 313
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 111
+    open_issues_count: 113
     license:
       spdx_id: NOASSERTION
       name: NOASSERTION
@@ -193,7 +193,7 @@ github:
     openPullRequests: 12
     contributorsKnown: 11
   sync:
-    syncedAt: 2026-09-01T12:54:42.714Z
+    syncedAt: 2026-09-03T02:52:42.924Z
     source: api
   languages:
     Dart: 6287299
@@ -210,9 +210,17 @@ github:
   latestReleaseAt: 2026-08-31T12:31:37Z
   homepage: https://count.beejz.com
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - License is missing or unclear
 licenses:
   - noassertion

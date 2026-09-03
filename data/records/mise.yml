@@ -2,9 +2,14 @@ kind: project
 name: Mise
 slug: mise
 addedAt: 2026-09-01
-description: Mise is a self-hosted restaurant system for macOS that runs a till, a kitchen display, QR table ordering, and a back office from one machine on the restaurant's own network.
-summary: A Flutter macOS client over an embedded PocketBase server, so the whole service runs on the restaurant's own hardware with no internet dependency. Bill totals are computed server-side and cannot be edited, orders snapshot item names and prices at the time of sale, and receipts print over ESC/POS to any network thermal printer.
-sourceDescription: Free, self-hosted restaurant management. POS, kitchen display, QR table ordering, payments and reports.
+description: Mise is a self-hosted restaurant system for macOS that runs a till, a kitchen display,
+  QR table ordering, and a back office from one machine on the restaurant's own network.
+summary: A Flutter macOS client over an embedded PocketBase server, so the whole service runs on the
+  restaurant's own hardware with no internet dependency. Bill totals are computed server-side and
+  cannot be edited, orders snapshot item names and prices at the time of sale, and receipts print
+  over ESC/POS to any network thermal printer.
+sourceDescription: Free, self-hosted restaurant management. POS, kitchen display, QR table ordering,
+  payments and reports.
 category: business
 tags:
   - open-source
@@ -33,15 +38,22 @@ distribution:
       url: https://github.com/devShakib015/mise/releases/latest
       verified: true
 bestFor:
-  - Studying how a point-of-sale, a kitchen display, and a guest ordering surface share one Flutter codebase and a single embedded backend.
-  - Running a small restaurant on hardware the owner controls, where service must continue when the connection does not.
+  - Studying how a point-of-sale, a kitchen display, and a guest ordering surface share one Flutter
+    codebase and a single embedded backend.
+  - Running a small restaurant on hardware the owner controls, where service must continue when the
+    connection does not.
 whyListed:
-  - The complete MIT-licensed system is public and documents its integrity rules explicitly, including server-computed bill totals and per-order price snapshots.
-  - It is a worked example of an offline-first hospitality stack, covering shift floats and drawer counts, five staff roles, ESC/POS receipt printing, and CSV reporting.
+  - The complete MIT-licensed system is public and documents its integrity rules explicitly,
+    including server-computed bill totals and per-order price snapshots.
+  - It is a worked example of an offline-first hospitality stack, covering shift floats and drawer
+    counts, five staff roles, ESC/POS receipt printing, and CSV reporting.
 caveats:
-  - macOS is the only packaged target; Windows and Linux build from the same source but are not released as binaries.
-  - Builds are unsigned, so the first launch needs right-click then Open, and the project states it does not pay for an Apple Developer certificate.
-  - Guest QR ordering works over the venue's own wi-fi only; public internet ordering is deliberately out of scope to preserve the offline guarantee.
+  - macOS is the only packaged target; Windows and Linux build from the same source but are not
+    released as binaries.
+  - Builds are unsigned, so the first launch needs right-click then Open, and the project states it
+    does not pay for an Apple Developer certificate.
+  - Guest QR ordering works over the venue's own wi-fi only; public internet ordering is
+    deliberately out of scope to preserve the offline guarantee.
 source:
   type: submit
   provider: github
@@ -54,3 +66,50 @@ curation:
   lenses: []
 visibility: keep
 content: ./content/records/mise.md
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: devShakib015/mise
+    stargazers_count: 0
+    forks_count: 0
+    open_issues_count: 0
+    language: Dart
+    pushed_at: 2026-09-02T12:05:16Z
+    updated_at: 2026-09-02T12:06:55Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: MIT
+      name: MIT
+    topics:
+      - dart
+      - flutter
+      - free
+      - kitchen-display
+      - macos
+      - offline-first
+      - open-source
+      - pocketbase
+      - point-of-sale
+      - pos
+      - qr-ordering
+      - restaurant
+      - restaurant-management
+      - self-hosted
+  latestReleaseAt: 2026-09-01T08:05:38Z
+  homepage: https://devshakib.jumyn.com/apps/mise
+  sync:
+    syncedAt: 2026-09-03T02:53:04.377Z
+    source: api

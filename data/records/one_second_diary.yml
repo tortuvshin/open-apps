@@ -35,28 +35,31 @@ licenses:
   - mit
 health:
   status: active
+  maturity: useful
   tier: listed
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Clear license found
 github:
   html:
     license: MIT
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:02.401Z
+    syncedAt: 2026-09-03T02:53:06.007Z
     source: api
   repository:
     full_name: KyleKun/one_second_diary
-    stargazers_count: 404
+    stargazers_count: 405
     forks_count: 77
     open_issues_count: 51
     language: Dart
     pushed_at: 2026-08-31T15:12:54Z
-    updated_at: 2026-08-31T15:30:30Z
+    updated_at: 2026-09-02T22:54:28Z
     archived: false
     disabled: false
     default_branch: main

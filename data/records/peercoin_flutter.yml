@@ -46,19 +46,23 @@ licenses:
   - agpl-3.0
 health:
   status: active
-  tier: listed
+  maturity: useful
+  tier: experimental
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: AGPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:04.003Z
+    syncedAt: 2026-09-03T02:53:07.852Z
     source: api
   repository:
     full_name: peercoin/peercoin_flutter

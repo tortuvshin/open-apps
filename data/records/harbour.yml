@@ -170,7 +170,7 @@ github:
     network_count: 28
     subscribers_count: 12
   sync:
-    syncedAt: 2026-09-01T12:54:52.289Z
+    syncedAt: 2026-09-03T02:52:53.821Z
     source: api
   languages:
     Swift: 456217
@@ -200,9 +200,17 @@ github:
   latestReleaseAt: 2026-05-02T21:42:25Z
   homepage: https://harbour.shameful.xyz
 health:
-  status: unknown
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - agpl-3.0

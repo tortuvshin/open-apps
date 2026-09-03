@@ -131,23 +131,27 @@ visibility: keep
 licenses:
   - noassertion
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
   confidence: high
   reasons:
-    - active-development
-    - large-user-base
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - License is missing or unclear
 github:
   repository:
     full_name: invoiceninja/admin-portal
-    stargazers_count: 1751
+    stargazers_count: 1752
     forks_count: 580
     open_issues_count: 75
     language: Dart
     pushed_at: 2026-08-21T13:33:31Z
-    updated_at: 2026-08-31T11:57:37Z
+    updated_at: 2026-09-01T15:50:33Z
     archived: false
     disabled: false
     default_branch: master
@@ -166,5 +170,5 @@ github:
   latestReleaseAt: 2026-05-14T04:37:59Z
   homepage: https://demo.invoiceninja.com
   sync:
-    syncedAt: 2026-09-01T12:54:38.548Z
+    syncedAt: 2026-09-03T02:52:38.814Z
     source: api

@@ -40,29 +40,34 @@ visibility: keep
 licenses:
   - mit
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: MIT
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:06.184Z
+    syncedAt: 2026-09-03T02:53:10.496Z
     source: api
   repository:
     full_name: heckmon/roxum-ide
-    stargazers_count: 595
+    stargazers_count: 599
     forks_count: 52
-    open_issues_count: 9
+    open_issues_count: 11
     language: Dart
     pushed_at: 2026-08-25T08:09:52Z
-    updated_at: 2026-09-01T01:29:11Z
+    updated_at: 2026-09-02T10:52:51Z
     archived: false
     disabled: false
     default_branch: playstore-version

@@ -2,9 +2,13 @@ kind: project
 name: Posnic POS
 slug: posnic-pos
 addedAt: 2026-09-02
-description: Posnic POS is offline-first open-source POS and billing software for retail shops and restaurants, built as a JavaScript/Electron desktop app with a local MongoDB-backed checkout.
-summary: A cross-platform JavaScript/Electron point-of-sale app for retail shops and restaurants, with billing, inventory, purchases, reports, receipt printing, local backups, and optional online/offline workflows around a local MongoDB-backed till.
-sourceDescription: Free offline-first open source POS and billing software for retail and restaurants. AGPL-3.0-only source; packages include separately licensed components.
+description: Posnic POS is offline-first open-source POS and billing software for retail shops and
+  restaurants, built as a JavaScript/Electron desktop app with a local MongoDB-backed checkout.
+summary: A cross-platform JavaScript/Electron point-of-sale app for retail shops and restaurants,
+  with billing, inventory, purchases, reports, receipt printing, local backups, and optional
+  online/offline workflows around a local MongoDB-backed till.
+sourceDescription: Free offline-first open source POS and billing software for retail and
+  restaurants. AGPL-3.0-only source; packages include separately licensed components.
 content: ./content/records/posnic-pos.md
 category: business
 tags:
@@ -54,18 +58,27 @@ distribution:
       url: https://github.com/Posnic/POS/releases/tag/v1.6.1
       verified: true
 bestFor:
-  - Studying an offline-first POS and billing desktop app that keeps checkout usable with a local database.
-  - Comparing retail and restaurant workflows such as sales, purchases, inventory, receipt printing, backups, and reports.
-  - Running or adapting a small-business POS where the application source, releases, and operating docs are public.
+  - Studying an offline-first POS and billing desktop app that keeps checkout usable with a local
+    database.
+  - Comparing retail and restaurant workflows such as sales, purchases, inventory, receipt printing,
+    backups, and reports.
+  - Running or adapting a small-business POS where the application source, releases, and operating
+    docs are public.
 whyListed:
-  - It is a complete application rather than a library, template, or one-screen demo, with public release assets for Windows, macOS, and Linux.
-  - The codebase shows how an Electron desktop shell, a local API, and a bundled MongoDB service can be packaged for point-of-sale use.
-  - The project documents installation, self-hosting, hardware expectations, release verification, privacy, governance, and third-party package licensing.
+  - It is a complete application rather than a library, template, or one-screen demo, with public
+    release assets for Windows, macOS, and Linux.
+  - The codebase shows how an Electron desktop shell, a local API, and a bundled MongoDB service can
+    be packaged for point-of-sale use.
+  - The project documents installation, self-hosting, hardware expectations, release verification,
+    privacy, governance, and third-party package licensing.
 caveats:
-  - Posnic-owned source is AGPL-3.0-only, while release packages bundle separately licensed components including MongoDB Community Server under SSPL-1.0.
-  - Windows is the best-tested retail-hardware target; macOS and Linux builds are published but tested less.
+  - Posnic-owned source is AGPL-3.0-only, while release packages bundle separately licensed
+    components including MongoDB Community Server under SSPL-1.0.
+  - Windows is the best-tested retail-hardware target; macOS and Linux builds are published but
+    tested less.
   - Builds may show operating-system trust warnings until signing and notarization mature.
-  - The project is early and low-star, so evaluate it as a useful codebase rather than a popularity signal.
+  - The project is early and low-star, so evaluate it as a useful codebase rather than a popularity
+    signal.
 source:
   type: submit
   provider: github
@@ -77,3 +90,56 @@ curation:
   labels: []
   lenses: []
 visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: Posnic/POS
+    stargazers_count: 3
+    forks_count: 3
+    open_issues_count: 427
+    language: JavaScript
+    pushed_at: 2026-09-02T20:20:25Z
+    updated_at: 2026-09-02T18:05:39Z
+    archived: false
+    disabled: false
+    default_branch: develop
+    license:
+      spdx_id: AGPL-3.0
+      name: AGPL-3.0
+    topics:
+      - billing-software
+      - electron
+      - inventory-management
+      - linux
+      - macos
+      - mongodb
+      - offline-first
+      - offline-pos
+      - online-offline-pos
+      - open-source
+      - open-source-pos
+      - point-of-sale
+      - point-of-sale-system
+      - pos
+      - pos-software
+      - pos-system
+      - restaurant
+      - retail
+      - retail-pos
+      - windows
+  latestReleaseAt: 2026-08-28T04:45:42Z
+  homepage: https://posnic.io/
+  sync:
+    syncedAt: 2026-09-03T02:53:08.844Z
+    source: api

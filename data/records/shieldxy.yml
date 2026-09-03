@@ -54,7 +54,7 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:07.011Z
+    syncedAt: 2026-09-03T02:53:11.300Z
     source: api
   repository:
     full_name: RockxyApp/Shieldxy
@@ -86,3 +86,15 @@ github:
       - swift
   latestReleaseAt: 2026-08-07T03:27:57Z
   homepage: https://rockxy.io/shieldxy
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found

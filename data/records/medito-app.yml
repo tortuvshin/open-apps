@@ -43,29 +43,33 @@ visibility: keep
 licenses:
   - agpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Clear license found
 github:
   html:
     license: AGPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:54:59.413Z
+    syncedAt: 2026-09-03T02:53:02.571Z
     source: api
   repository:
     full_name: meditohq/medito-app
-    stargazers_count: 1307
+    stargazers_count: 1308
     forks_count: 165
     open_issues_count: 1
     language: Dart
-    pushed_at: 2026-08-28T12:55:32Z
-    updated_at: 2026-08-30T19:47:51Z
+    pushed_at: 2026-09-02T14:19:10Z
+    updated_at: 2026-09-03T01:10:47Z
     archived: false
     disabled: false
     default_branch: develop

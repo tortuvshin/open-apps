@@ -2,8 +2,13 @@ kind: project
 name: Helm
 slug: helm
 addedAt: 2026-09-01
-description: Helm is a macOS system toolkit that puts fifteen maintenance and monitoring tools behind one window and one menu-bar item, covering storage, hardware metrics, and clipboard history.
-summary: A Flutter macOS app that replaces a folder of single-purpose utilities. It keeps 24 hours of history for memory, CPU, GPU, sensor, battery, and network metrics, and its storage tool spans a squarified treemap explorer, a byte-for-byte duplicate finder, junk cleaning, and APFS snapshot thinning.
+description: Helm is a macOS system toolkit that puts fifteen maintenance and monitoring tools
+  behind one window and one menu-bar item, covering storage, hardware metrics, and clipboard
+  history.
+summary: A Flutter macOS app that replaces a folder of single-purpose utilities. It keeps 24 hours
+  of history for memory, CPU, GPU, sensor, battery, and network metrics, and its storage tool spans
+  a squarified treemap explorer, a byte-for-byte duplicate finder, junk cleaning, and APFS snapshot
+  thinning.
 sourceDescription: A free, open-source macOS toolkit — fifteen native tools in one window.
 category: tools
 tags:
@@ -33,15 +38,22 @@ distribution:
       url: https://github.com/devShakib015/helm/releases/latest
       verified: true
 bestFor:
-  - Studying how a Flutter desktop app reads real macOS system state, including SMC sensor temperatures, purgeable disk space, and connected-accessory battery levels.
-  - Replacing several paid single-purpose Mac utilities with one MIT-licensed app that makes no network calls.
+  - Studying how a Flutter desktop app reads real macOS system state, including SMC sensor
+    temperatures, purgeable disk space, and connected-accessory battery levels.
+  - Replacing several paid single-purpose Mac utilities with one MIT-licensed app that makes no
+    network calls.
 whyListed:
-  - Fifteen tools share one window, one design language, and a configurable live menu-bar item, so the codebase shows how a broad utility suite stays coherent.
-  - The storage tool is unusually complete for an open-source app, combining a treemap explorer, disjoint category breakdown, junk cleaning with risky items opt-in, and duplicate detection that always keeps one copy.
+  - Fifteen tools share one window, one design language, and a configurable live menu-bar item, so
+    the codebase shows how a broad utility suite stays coherent.
+  - The storage tool is unusually complete for an open-source app, combining a treemap explorer,
+    disjoint category breakdown, junk cleaning with risky items opt-in, and duplicate detection that
+    always keeps one copy.
 caveats:
   - macOS 10.15 or later only; there is no Windows or Linux target.
-  - Reading SMC sensors and system storage means the app depends on macOS internals that can shift between releases.
-  - Cleaning tools move items to the Trash rather than deleting them, so reclaiming the space still needs an explicit empty.
+  - Reading SMC sensors and system storage means the app depends on macOS internals that can shift
+    between releases.
+  - Cleaning tools move items to the Trash rather than deleting them, so reclaiming the space still
+    needs an explicit empty.
 source:
   type: submit
   provider: github
@@ -54,3 +66,49 @@ curation:
   lenses: []
 visibility: keep
 content: ./content/records/helm.md
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: devShakib015/helm
+    stargazers_count: 0
+    forks_count: 0
+    open_issues_count: 0
+    language: Dart
+    pushed_at: 2026-09-02T12:05:12Z
+    updated_at: 2026-09-02T12:06:12Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: MIT
+      name: MIT
+    topics:
+      - clipboard-manager
+      - dart
+      - developer-tools
+      - disk-cleaner
+      - duplicate-finder
+      - flutter
+      - macos
+      - macos-app
+      - menu-bar
+      - open-source
+      - storage
+      - system-monitor
+      - uninstaller
+  latestReleaseAt: 2026-08-26T09:30:17Z
+  homepage: https://devshakib.jumyn.com/apps/helm
+  sync:
+    syncedAt: 2026-09-03T02:52:54.253Z
+    source: api

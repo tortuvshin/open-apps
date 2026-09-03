@@ -118,15 +118,15 @@ github:
     releases_url: https://api.github.com/repos/streetwriters/notesnook/releases{/id}
     deployments_url: https://api.github.com/repos/streetwriters/notesnook/deployments
     created_at: 2021-04-01T17:25:54Z
-    updated_at: 2026-09-01T10:47:22Z
-    pushed_at: 2026-09-01T11:04:20Z
+    updated_at: 2026-09-03T01:05:56Z
+    pushed_at: 2026-09-02T07:08:25Z
     git_url: git://github.com/streetwriters/notesnook.git
     ssh_url: git@github.com:streetwriters/notesnook.git
     clone_url: https://github.com/streetwriters/notesnook.git
     svn_url: https://github.com/streetwriters/notesnook
     homepage: https://notesnook.com/
     size: 291745
-    stargazers_count: 14483
+    stargazers_count: 14486
     watchers_count: 14314
     language: TypeScript
     has_issues: true
@@ -135,11 +135,11 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 993
+    forks_count: 992
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 981
+    open_issues_count: 988
     license:
       spdx_id: GPL-3.0
       name: GPL-3.0
@@ -236,7 +236,7 @@ github:
     contributorsKnown: 52
     openPullRequests: 63
   sync:
-    syncedAt: 2026-09-01T12:55:01.561Z
+    syncedAt: 2026-09-03T02:53:05.130Z
     source: api
   html:
     license: GPL-3.0
@@ -245,10 +245,18 @@ github:
   latestReleaseAt: 2026-08-31T08:27:23Z
   homepage: https://notesnook.com/
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - gpl-3.0
 content: ./content/records/notesnook.md

@@ -115,7 +115,7 @@ github:
     releases_url: https://api.github.com/repos/karakeep-app/karakeep/releases{/id}
     deployments_url: https://api.github.com/repos/karakeep-app/karakeep/deployments
     created_at: 2024-02-06T12:28:31Z
-    updated_at: 2026-09-01T12:49:00Z
+    updated_at: 2026-09-03T02:50:28Z
     pushed_at: 2026-08-31T22:52:10Z
     git_url: git://github.com/karakeep-app/karakeep.git
     ssh_url: git@github.com:karakeep-app/karakeep.git
@@ -123,7 +123,7 @@ github:
     svn_url: https://github.com/karakeep-app/karakeep
     homepage: https://karakeep.app
     size: 100437
-    stargazers_count: 28710
+    stargazers_count: 28742
     watchers_count: 27643
     language: TypeScript
     has_issues: true
@@ -132,11 +132,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 1470
+    forks_count: 1471
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 700
+    open_issues_count: 701
     license:
       spdx_id: AGPL-3.0
       name: AGPL-3.0
@@ -215,7 +215,7 @@ github:
     contributorsKnown: 187
     openPullRequests: 74
   sync:
-    syncedAt: 2026-09-01T12:54:55.540Z
+    syncedAt: 2026-09-03T02:52:58.307Z
     source: api
   html:
     license: AGPL-3.0
@@ -224,10 +224,18 @@ github:
   latestReleaseAt: 2026-08-11T13:30:49Z
   homepage: https://karakeep.app
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - agpl-3.0
 content: ./content/records/karakeep.md

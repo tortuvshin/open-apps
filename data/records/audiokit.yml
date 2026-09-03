@@ -110,7 +110,7 @@ github:
     releases_url: https://api.github.com/repos/AudioKit/AudioKit/releases{/id}
     deployments_url: https://api.github.com/repos/AudioKit/AudioKit/deployments
     created_at: 2014-01-21T08:16:07Z
-    updated_at: 2026-09-01T07:11:21Z
+    updated_at: 2026-09-01T15:12:18Z
     pushed_at: 2026-07-26T06:33:02Z
     git_url: git://github.com/AudioKit/AudioKit.git
     ssh_url: git@github.com:AudioKit/AudioKit.git
@@ -204,7 +204,7 @@ github:
     openPullRequests: 3
     contributorsKnown: 225
   sync:
-    syncedAt: 2026-09-01T12:54:41.846Z
+    syncedAt: 2026-09-03T02:52:42.052Z
     source: api
   languages:
     Swift: 1093483
@@ -215,9 +215,17 @@ github:
   latestReleaseAt: 2026-03-31T20:39:27Z
   homepage: http://audiokit.io
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 licenses:
   - mit

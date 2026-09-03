@@ -40,25 +40,30 @@ visibility: keep
 licenses:
   - gpl-3.0
 health:
-  status: active
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
-  confidence: medium
+  staleReason: null
+  confidence: high
   reasons:
-    - active-development
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
 github:
   html:
     license: GPL-3.0
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-01T12:55:08.904Z
+    syncedAt: 2026-09-03T02:53:13.087Z
     source: api
   repository:
     full_name: theachoem/storypad
     stargazers_count: 950
-    forks_count: 120
+    forks_count: 122
     open_issues_count: 11
     language: Dart
     pushed_at: 2026-08-26T18:24:42Z

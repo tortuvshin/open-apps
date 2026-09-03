@@ -104,15 +104,15 @@ github:
     releases_url: https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}
     deployments_url: https://api.github.com/repos/thunderbird/thunderbird-ios/deployments
     created_at: 2025-01-20T14:50:57Z
-    updated_at: 2026-09-01T11:16:01Z
-    pushed_at: 2026-08-26T21:28:23Z
+    updated_at: 2026-09-03T01:00:07Z
+    pushed_at: 2026-09-02T07:27:06Z
     git_url: git://github.com/thunderbird/thunderbird-ios.git
     ssh_url: git@github.com:thunderbird/thunderbird-ios.git
     clone_url: https://github.com/thunderbird/thunderbird-ios.git
     svn_url: https://github.com/thunderbird/thunderbird-ios
     homepage: null
     size: 9907
-    stargazers_count: 1164
+    stargazers_count: 1171
     watchers_count: 1096
     language: Swift
     has_issues: true
@@ -125,7 +125,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 76
+    open_issues_count: 73
     license:
       spdx_id: MPL-2.0
       name: MPL-2.0
@@ -188,7 +188,7 @@ github:
     openPullRequests: 2
     contributorsKnown: 13
   sync:
-    syncedAt: 2026-09-01T12:55:10.580Z
+    syncedAt: 2026-09-03T02:53:14.937Z
     source: api
   languages:
     Swift: 1054739
@@ -200,9 +200,16 @@ github:
     language: null
     topics: []
 health:
-  status: active
+  status: mature
+  maturity: mature
   tier: curated
   visibility: keep
   cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Clear license found
 licenses:
   - mpl-2.0
