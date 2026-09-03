@@ -7,8 +7,8 @@ description: MangoDisk is a safety-first disk cleaner and storage analyzer for m
 summary: A cross-platform Tauri desktop app with a Rust core for finding caches, large files, exact
   duplicates, and application leftovers, plus startup management, system optimization, and common
   repair tools. Scans are read-only by default, and cleanup decisions remain visible to the user.
-sourceDescription: Safety-first disk cleaner and space analyzer for macOS and Windows, with duplicate
-  cleanup, app uninstall, startup management, system optimization, and maintenance.
+sourceDescription: Safety-first disk cleaner and space analyzer for macOS and Windows, with
+  duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.
 content: ./content/records/mangodisk.md
 category: tools
 tags:
@@ -77,3 +77,57 @@ curation:
   labels: []
   lenses: []
 visibility: keep
+health:
+  status: mature
+  maturity: mature
+  tier: curated
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Strong adoption with maintenance signals
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: harry0703/MangoDisk
+    stargazers_count: 2095
+    forks_count: 138
+    open_issues_count: 15
+    language: Rust
+    pushed_at: 2026-09-03T14:54:28Z
+    updated_at: 2026-09-03T15:18:25Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: GPL-3.0
+      name: GPL-3.0
+    topics:
+      - app-uninstaller
+      - cache-cleaner
+      - cross-platform
+      - desktop-app
+      - disk-cleaner
+      - disk-cleanup
+      - disk-space-analyzer
+      - duplicate-files
+      - duplicate-finder
+      - large-files
+      - macos
+      - rust
+      - startup-manager
+      - system-cleaner
+      - system-maintenance
+      - system-optimization
+      - tauri
+      - treemap
+      - uninstaller
+      - windows
+  latestReleaseAt: 2026-08-30T09:26:03Z
+  homepage: https://mangodisk.app/
+  sync:
+    syncedAt: 2026-09-03T15:49:42.820Z
+    source: api
