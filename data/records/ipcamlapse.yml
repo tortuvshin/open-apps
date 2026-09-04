@@ -1,0 +1,122 @@
+kind: project
+name: IPCamLapse
+slug: ipcamlapse
+addedAt: 2026-09-04
+description: IPCamLapse is a self-hosted web app that captures JPEG snapshots from IP cameras on a
+  fixed schedule and renders them into H.264 timelapse videos with FFmpeg.
+summary: A local-first ASP.NET Core application for scheduled IP-camera capture, frame review,
+  storage controls, and H.264 rendering on Windows, Linux, or Docker.
+sourceDescription: Local-first .NET app that captures IP camera snapshots and creates H.264
+  timelapse videos with FFmpeg.
+content: ./content/records/ipcamlapse.md
+category: media
+tags:
+  - open-source
+  - self-hosted
+  - web-app
+  - privacy
+  - camera
+  - timelapse
+  - ffmpeg
+  - docker
+stack: aspnet-core
+platforms:
+  - web
+  - windows
+  - linux
+projectType: real-app
+repoUrl: https://github.com/KalyteraSystems/IPCamLapse
+links:
+  github: https://github.com/KalyteraSystems/IPCamLapse
+  website: https://kalyterasystems.com/OpenSource
+  docs: https://github.com/KalyteraSystems/IPCamLapse/tree/main/docs
+licenses:
+  - apache-2.0
+distribution:
+  channels:
+    - type: github-releases
+      label: Windows and Linux archives
+      url: https://github.com/KalyteraSystems/IPCamLapse/releases/latest
+      verified: true
+    - type: other
+      label: GHCR container image
+      url: https://github.com/KalyteraSystems/IPCamLapse/pkgs/container/ipcamlapse
+      verified: true
+bestFor:
+  - Turning periodic HTTP or HTTPS JPEG snapshots into local timelapse videos on a trusted machine.
+  - Trying a complete capture-to-video workflow without camera hardware by using the simulated
+    camera.
+  - Studying fixed-timeline scheduling, resilient HTTP capture, local persistence, and FFmpeg
+    integration in an ASP.NET Core application.
+whyListed:
+  - It is a complete, installable application with Windows and Linux releases and a
+    multi-architecture container image rather than a tutorial or example project.
+  - Demo mode makes the full capture, gallery, render, and download workflow testable without an IP
+    camera.
+  - The repository documents its security boundary and architecture and tests timing behavior and
+    the end-to-end capture-to-download path.
+caveats:
+  - The project is an early preview with a small user and contributor base.
+  - Camera input is limited to HTTP or HTTPS JPEG snapshot endpoints; RTSP streams are not supported.
+  - The web interface has no user authentication and should remain on loopback or behind an
+    authenticated reverse proxy.
+  - Native installations require FFmpeg for video rendering; the container image includes it.
+source:
+  type: submit
+  provider: github
+  owner: KalyteraSystems
+  repo: IPCamLapse
+  url: https://github.com/KalyteraSystems/IPCamLapse
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: KalyteraSystems/IPCamLapse
+    stargazers_count: 0
+    forks_count: 2
+    open_issues_count: 11
+    language: C#
+    pushed_at: 2026-09-04T11:54:20Z
+    updated_at: 2026-09-04T11:56:21Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: Apache-2.0
+      name: Apache-2.0
+    topics:
+      - aspnet-core
+      - camera
+      - cctv
+      - docker
+      - dotnet
+      - ffmpeg
+      - ip-camera
+      - linux
+      - razor-pages
+      - security-cameras
+      - self-hosted
+      - surveillance
+      - timelapse
+      - timelapse-videos
+      - windows
+  latestReleaseAt: 2026-09-04T11:49:50Z
+  homepage: https://kalyterasystems.com/OpenSource
+  sync:
+    syncedAt: 2026-09-04T12:02:04.693Z
+    source: api

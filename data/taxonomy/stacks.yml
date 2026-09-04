@@ -51,3 +51,9 @@
   family: web
   languages: [javascript]
   platforms: [web, desktop]
+
+- id: aspnet-core
+  name: ASP.NET Core
+  family: web
+  languages: [csharp]
+  platforms: [web, windows, linux]
