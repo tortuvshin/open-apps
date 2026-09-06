@@ -71,14 +71,13 @@ bestFor:
 whyListed:
   - It is a complete AGPL-3.0 end-user application with installable releases for Windows, macOS,
     Linux, and Android.
-  - >-
-    Its LAN/VPN-only scope is a distinct alternative to a typical RustDesk deployment: public
-    coordination and relay paths are removed rather than merely made optional.
+  - "Its LAN/VPN-only scope is a distinct alternative to a typical RustDesk deployment: public
+    coordination and relay paths are removed rather than merely made optional."
   - It combines mDNS discovery, direct endpoint connections, Argon2id password storage,
     trust-on-first-use fingerprints, and CIDR source-network allowlists.
 caveats:
-  - It cannot connect devices across unrelated networks because it has no Internet rendezvous,
-    NAT traversal, or relay service; the devices must already be mutually reachable.
+  - It cannot connect devices across unrelated networks because it has no Internet rendezvous, NAT
+    traversal, or relay service; the devices must already be mutually reachable.
   - Remote-control ports should only be exposed to trusted networks, and first-use fingerprints
     should be verified through a separate trusted channel.
 source:
@@ -102,24 +101,23 @@ health:
   confidence: high
   reasons:
     - Recent repository activity
-    - Active user adoption
     - Recent release found
     - Clear license found
 github:
   repository:
     full_name: zibo-chen/SubnetDesk
-    stargazers_count: 300
-    forks_count: 33
+    stargazers_count: 464
+    forks_count: 46
     open_issues_count: 6
     language: Rust
-    pushed_at: 2026-09-03T01:44:26Z
-    updated_at: 2026-09-05T09:36:39Z
+    pushed_at: 2026-09-05T17:23:54Z
+    updated_at: 2026-09-06T16:10:15Z
     archived: false
     disabled: false
     default_branch: master
     license:
       spdx_id: AGPL-3.0
-      name: GNU Affero General Public License v3.0
+      name: AGPL-3.0
     topics:
       - flutter
       - homelab
@@ -134,5 +132,5 @@ github:
   latestReleaseAt: 2026-08-27T16:33:43Z
   homepage: null
   sync:
-    syncedAt: 2026-09-05T09:36:39Z
+    syncedAt: 2026-09-06T17:14:10.024Z
     source: api
