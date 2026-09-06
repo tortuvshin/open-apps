@@ -39,6 +39,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Productivity
 
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
+- [Authier](https://www.authier.pm/) - Authier is an experimental AGPL password manager monorepo with a React Native client, browser extensions, and a web vault for credentials and TOTP codes.
 - [Butterfly](https://github.com/LinwoodDev/Butterfly) - Butterfly is a Flutter note-taking and drawing app whose central object is an infinite canvas — pages hold freehand ink, text, shapes, images, areas, and waypoints in a custom `.bfly` document model, with optional WebDAV sync, OneNote import, and PDF/SVG export.
 - [Feather](https://github.com/claration/Feather) - Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.
 - [Habo](https://github.com/xpavle00/Habo) - Habo is a Flutter-based, privacy-first habit tracker for iOS and Android that keeps every habit, note, and streak on-device by default and only syncs through an end-to-end encrypted Supabase backend.
@@ -49,6 +50,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Karakeep](https://github.com/karakeep-app/karakeep) - Karakeep is a self-hostable bookmark-everything application built on Next.js 16 + Hono + tRPC over Drizzle on SQLite with Meilisearch full-text and semantic search, capturing links, notes, images, and PDFs into a tagged personal archive with on-demand AI auto-tagging.
 - [LibreTrack](https://github.com/proninyaroslav/libretrack) - Private, cross-platform package tracking app.
 - [Linkwarden](https://github.com/linkwarden/linkwarden) - Linkwarden is a self-hosted collaborative bookmark manager that captures every saved page as a screenshot, PDF, and HTML snapshot to defend against link rot.
+- [Loofah](https://loofah.io) - Loofah is an MIT-licensed, local-first meeting notetaker for macOS that records and transcribes on-device and stores notes as ordinary Markdown.
 - [Memex](https://github.com/memex-lab/memex) - Memex is a Flutter-based, local-first AI journal for iOS and Android that captures text, photo, and voice fragments, runs them through a multi-agent skill system on a BYO-LLM, and weaves them into timeline cards, P.A.R.A.-organized Markdown knowledge, and chart-driven insights.
 - [mhabit](https://github.com/FriesI23/mhabit) - mhabit (Table Habit) is a Flutter-based micro-habit tracker that scores daily completion against configurable curves, stores everything locally, and syncs across devices through any WebDAV endpoint.
 - [Notesnook](https://github.com/streetwriters/notesnook) - Notesnook is a cross-platform, end-to-end encrypted note-taking app with web, desktop, and mobile clients that sync through a zero-knowledge server.
@@ -60,6 +62,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Finance
 
+- [admin-portal](https://invoiceninja.com) - Flutter (Dart) admin client for the Invoice Ninja v5 invoicing platform, shipping to iOS, Android, macOS, Windows, Linux, and web from a single codebase. Uses Redux + built_value over a single AppState that carries up to ten UserCompanyState slots, talks to the Laravel backend over REST, and ships with a hand-built .foss swap-out that strips the proprietary dependencies for the F-Droid, Snap, and Flatpak builds.
 - [app-finance](https://github.com/lyskouski/app-finance) - Fingrom is a Flutter-built, ad-free, multi-currency personal finance app that ships to iOS, Android, macOS, Windows, Linux, and the Web from a single Dart codebase, with P2P device sync and end-to-end encryption.
 - [BeeCount](https://github.com/TNT-Likely/BeeCount) - BeeCount is a Flutter-based local-first bookkeeping app for iOS, Android, and Web that offers five interchangeable sync backends (the self-hosted BeeCount Cloud, iCloud, Supabase, WebDAV, and any S3-compatible store), AI-assisted capture via a dual on-device/cloud OCR pipeline, multi-ledger accounting with per-ledger currencies, and offline-first storage on Drift over SQLite.
 - [BlueWallet](https://github.com/BlueWallet/BlueWallet) - Bitcoin wallet for iOS & Android. Built with React Native.
@@ -78,7 +81,6 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Tools
 
-- [admin-portal](https://github.com/invoiceninja/admin-portal) - Invoice Ninja's operator-side admin portal, a single Flutter codebase shipped to Android, iOS, macOS, Windows, Linux, and web that manages the full billing lifecycle — quotes, invoices, recurring invoices, credits, purchase orders, payments, expenses, projects, and time tracking — against a self-hosted or cloud Invoice Ninja v5 server.
 - [Airdash](https://github.com/simonbengtsson/airdash) - AirDrop-style file sharing to nearby devices over Wi-Fi and Bluetooth, no internet required.
 - [AltStore](https://github.com/altstoreio/AltStore) - AltStore is a sideloading app store for non-jailbroken iOS devices that re-signs installed apps with a personal Apple developer certificate and refreshes them in the background via a desktop companion to bypass Apple's 7-day signing limit.
 - [apidash](https://github.com/foss42/apidash) - API Dash is a Flutter-based cross-platform API client for building, sending, and inspecting HTTP, GraphQL, and SSE requests, with code generation for 20+ languages and an optional LLM assistant called DashBot that runs locally or against a cloud model.
@@ -90,7 +92,9 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Ejimo](https://github.com/albemala/emoji-picker) - A cross-platform emoji and symbol picker that goes beyond the system keyboard.
 - [flutter_server_box](https://github.com/lollipopkit/flutter_server_box) - A Flutter-based, cross-platform client for monitoring and administering remote Linux, Unix, and Windows servers over SSH — combining real-time status charts, an embedded xterm terminal, SFTP file transfer, and Docker / systemd / S.M.A.R.T. management on iOS, Android, macOS, Linux, and Windows.
 - [GitUp](https://github.com/git-up/GitUp) - GitUp is a native macOS Git GUI built on a bespoke in-process Git toolkit (GitUpKit) that wraps a customized libgit2 fork and re-implements everything else — including its own rebase engine — to keep operations and the live commit graph fast on large repositories.
+- [Helm](https://devshakib.jumyn.com/apps/helm) - Helm is a macOS system toolkit that puts fifteen maintenance and monitoring tools behind one window and one menu-bar item, covering storage, hardware metrics, and clipboard history.
 - [Immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
+- [MangoDisk](https://mangodisk.app/) - MangoDisk is a safety-first disk cleaner and storage analyzer for macOS and Windows that scans locally, visualizes disk usage, and lets users review paths and sizes before removal.
 - [MarketMonk](https://github.com/brandonp2412/MarketMonk) - A Flutter stock and portfolio tracker that combines Yahoo Finance market data, interactive charts, local trade records, and multiple account support.
 - [PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - PeopleInSpace is a Kotlin Multiplatform reference app that shares architecture and data code across iOS, Android, desktop, web, and wearable clients.
 - [Shieldxy](https://rockxy.io/shieldxy) - An auditable macOS application firewall and connection monitor with explicit local network controls.
@@ -98,12 +102,15 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) - An Xterm/VT100-compatible terminal emulator implemented in Swift for iOS.
 - [Tura](https://github.com/Tura-AI/tura) - Build agent that uses 80% less token and delivers better results.
 - [Unwrap](https://github.com/twostraws/Unwrap) - Learn Swift interactively on your iPhone.
+- [Voicebox](https://github.com/jamiepine/voicebox) - Voicebox is a local-first AI voice studio that bundles seven TTS engines, Whisper STT, a Qwen3 LLM for refinement and personality, and a built-in Model Context Protocol server so any MCP-aware agent can speak in a cloned voice on a single desktop install.
 - [xbmc](https://github.com/xbmc/xbmc) - Kodi is a free, open-source cross-platform media-center and entertainment-hub application written primarily in C++ with a CMake build system, built on FFmpeg for codec support and featuring a binary addon framework, hardware-accelerated video playback, and a JSON-RPC control surface — running natively on Android, Linux, BSD, macOS, iOS, tvOS, and Windows.
 
 ## Developer Tools
 
+- [d1v.ai Mobile](https://www.d1v.ai) - A Flutter mobile workspace for creating or importing projects, continuing AI-assisted work, inspecting files, and monitoring preview and deployment state from iOS or Android.
 - [flutter-pos-system](https://github.com/evan361425/flutter-pos-system) - An offline-first Flutter point-of-sale app for small restaurants and shops that runs ingredient inventory, menu management, customer demographics, order taking, Bluetooth receipt printing, custom analytics charts, and Google Sheets export entirely on-device with no remote backend.
 - [localmind](https://github.com/abdulmominsakib/localmind) - A Flutter mobile chat client that connects to on-device LLMs and any OpenAI-compatible server — Ollama, LM Studio, OpenRouter — with markdown rendering, voice input, and an MCP tool layer.
+- [OpenDesign](https://github.com/nexu-io/open-design) - A local-first Apache-2.0 desktop and web application that turns any of 27 coding-agent CLIs into a design engine, producing HTML prototypes, PDFs, PPTX decks, images, and HyperFrames MP4 against a portable `DESIGN.md` brand contract, with BYOK across OpenAI / Anthropic / Azure / Google / Ollama and an MCP stdio server for agent-native integration.
 - [Rockxy](https://rockxy.io) - A native macOS HTTP debugging proxy for inspecting HTTPS, API, WebSocket, and GraphQL traffic.
 - [roxum-ide](https://github.com/heckmon/roxum-ide) - A mobile-first Flutter code editor and mini IDE for Android with LSP, an embedded terminal, Git/GitHub tooling, and optional on-device GGUF model chat.
 - [rustdesk](https://github.com/rustdesk/rustdesk) - RustDesk is a self-hostable, cross-platform remote desktop application written in Rust with a Flutter UI, offering an open-source alternative to TeamViewer and AnyDesk for screen sharing, file transfer, and unattended access.
@@ -115,7 +122,6 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Keybase](https://github.com/keybase/client) - Keybase Go Library, Client, Service, OS X, iOS, Android, Electron.
 - [Mattermost Mobile](https://github.com/mattermost/mattermost-mobile) - Mattermost Mobile is the official React Native iOS and Android client for the self-hostable Mattermost messaging platform, giving enterprise and dev teams on-device access to channels, threads, calls, and push notifications backed by the same REST and WebSocket API as the web and desktop clients.
 - [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat.ReactNative) - Official Rocket.Chat mobile client — open-source team communication, channels, threads, file sharing, voice/video calls, end-to-end encrypted.
-- [Status.im](https://github.com/status-im/status-react) - Status is a secure messaging app, Ethereum wallet, and Web3 browser built on decentralized protocols.
 - [thunderbird-ios](https://github.com/thunderbird/thunderbird-ios) - Thunderbird for iOS – Open Source Email App for iOS.
 
 ## Health and Fitness
@@ -127,6 +133,9 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Business
 
 - [Invoice Ninja](https://invoiceninja.com/) - Companion app for the Invoice Ninja platform. Invoicing, expenses, time-billing, payments.
+- [Mise](https://devshakib.jumyn.com/apps/mise) - Mise is a self-hosted restaurant system for macOS that runs a till, a kitchen display, QR table ordering, and a back office from one machine on the restaurant's own network.
+- [Posnic POS](https://posnic.io/) - Posnic POS is offline-first open-source POS and billing software for retail shops and restaurants, built as a JavaScript/Electron desktop app with a local MongoDB-backed checkout.
+- [Twenty](https://twenty.com) - Twenty is an open-source CRM whose data model is a runtime artifact — every custom object, field, view, role, and AI agent is a row in metadata tables, with the GraphQL schema and SQL queries rebuilt per workspace on demand. Written in TypeScript with NestJS, React, PostgreSQL, and a native MCP server for Claude/ChatGPT/Cursor.
 
 ## Games
 
