@@ -4065,3 +4065,54 @@ health:
       confidence: medium
       reasons:
         - active-development
+- id: ai-novel-writer
+    github:
+      fullName: EthanYoQ/AI-Novel-Writer
+      stars: 751
+      forks: 94
+      openIssues: 9
+      watchers: 751
+      archived: false
+      disabled: false
+      private: false
+      fork: false
+      visibility: public
+      pushedAt: 2026-09-08T10:30:54Z
+      updatedAt: 2026-09-10T08:23:23Z
+      createdAt: 2026-06-20T17:27:16Z
+      latestReleaseAt: 2026-09-08T04:35:10Z
+      license: GPL-3.0
+      topics:
+        - ai-writing
+        - creative-writing
+        - deepseek-harness
+        - dsh-plugin
+        - electron
+        - fiction-writing
+        - local-first
+        - long-form-fiction
+        - novel-writing
+        - ollama
+        - rag
+        - web-novel
+        - worldbuilding
+        - writing-assistant
+      language: TypeScript
+      defaultBranch: master
+      htmlUrl: https://github.com/EthanYoQ/AI-Novel-Writer
+      description: "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。"
+      homepage: null
+      size: 70548
+    health:
+      status: active
+      maturity: useful
+      tier: listed
+      visibility: keep
+      cleanupCandidate: false
+      staleReason: null
+      confidence: high
+      reasons:
+        - Recent repository activity
+        - Active user adoption
+        - Recent release found
+        - Clear license found
