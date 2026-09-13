@@ -105,15 +105,15 @@ github:
     releases_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}
     deployments_url: https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments
     created_at: 2019-03-27T02:52:33Z
-    updated_at: 2026-09-10T06:10:52Z
-    pushed_at: 2026-09-10T01:53:18Z
+    updated_at: 2026-09-12T22:57:48Z
+    pushed_at: 2026-09-12T22:57:52Z
     git_url: git://github.com/migueldeicaza/SwiftTerm.git
     ssh_url: git@github.com:migueldeicaza/SwiftTerm.git
     clone_url: https://github.com/migueldeicaza/SwiftTerm.git
     svn_url: https://github.com/migueldeicaza/SwiftTerm
     homepage: ""
     size: 4527
-    stargazers_count: 1683
+    stargazers_count: 1684
     watchers_count: 1624
     language: Swift
     has_issues: true
@@ -122,7 +122,7 @@ github:
     has_wiki: true
     has_pages: true
     has_discussions: true
-    forks_count: 468
+    forks_count: 471
     mirror_url: null
     archived: false
     disabled: false
@@ -137,15 +137,19 @@ github:
     pull_request_creation_policy: all
     topics:
       - appkit
+      - ghostty
       - imgcat
       - ios
+      - kitty-graphics
       - macos
       - sixel
       - ssh-connection
       - swift
+      - swift-embedded
       - terminal-engine
       - uikit
       - vt100
+      - wasm
       - xterm
       - xterm-256color
     visibility: public
@@ -180,7 +184,7 @@ github:
     openPullRequests: 25
     contributorsKnown: 67
   sync:
-    syncedAt: 2026-09-11T03:24:05.655Z
+    syncedAt: 2026-09-13T12:55:15.613Z
     source: api
   languages:
     Swift: 1795024

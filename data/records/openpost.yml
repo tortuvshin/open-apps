@@ -2,7 +2,8 @@ kind: project
 name: OpenPost
 slug: openpost
 addedAt: 2026-09-12
-description: Self-hosted social publishing app for preparing, reviewing, scheduling, and tracking posts across several networks.
+description: Self-hosted social publishing app for preparing, reviewing, scheduling, and tracking
+  posts across several networks.
 category: business
 tags:
   - content-creation
@@ -27,7 +28,8 @@ bestFor:
   - Running a social publishing workflow on your own server.
   - Studying a SvelteKit app embedded in a Go server with SQLite by default.
 whyListed:
-  - A usable web app with public releases, self-hosting instructions, and source under the AGPL-3.0 license.
+  - A usable web app with public releases, self-hosting instructions, and source under the AGPL-3.0
+    license.
   - Its Go server embeds the SvelteKit interface and exposes an API, CLI, and MCP server.
 caveats:
   - Connecting social accounts requires provider OAuth configuration when self-hosted.
@@ -54,3 +56,38 @@ health:
     - Recent repository activity
     - Recent release found
     - Clear license found
+github:
+  repository:
+    full_name: getopenpost/openpost
+    stargazers_count: 210
+    forks_count: 23
+    open_issues_count: 0
+    language: TypeScript
+    pushed_at: 2026-09-13T09:10:00Z
+    updated_at: 2026-09-13T12:47:27Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: AGPL-3.0
+      name: AGPL-3.0
+    topics:
+      - automation
+      - buffer-alternative
+      - content-creation
+      - cross-posting
+      - golang
+      - mcp-server
+      - self-hosted
+      - single-binary
+      - social-media
+      - social-media-automation
+      - social-media-management
+      - social-media-scheduler
+      - svelte
+      - sveltekit
+  latestReleaseAt: 2026-09-13T07:26:39Z
+  homepage: https://openpo.st
+  sync:
+    syncedAt: 2026-09-13T12:55:08.634Z
+    source: api
