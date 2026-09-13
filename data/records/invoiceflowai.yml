@@ -1,0 +1,65 @@
+kind: project
+name: InvoiceFlowAI
+slug: invoiceflowai
+addedAt: 2026-09-09
+description: InvoiceFlowAI is an open-source desktop app that collects PDF, OFD, and XML invoices from supported email accounts, extracts fields with OCR, removes duplicates, organizes files, and exports an Excel summary.
+summary: A Windows and macOS workflow for freelancers and small teams who need to move invoices from email attachments into reviewable folders and spreadsheets while keeping uncertain recognition results visible for human checking.
+sourceDescription: Desktop invoice collection, OCR, organization, and Excel export for Windows and macOS.
+content: ./content/records/invoiceflowai.md
+category: finance
+tags:
+  - open-source
+  - desktop-app
+  - cross-platform
+  - productivity
+  - finance
+  - email
+  - invoice
+  - ocr
+  - document-processing
+platforms:
+  - windows
+  - macos
+  - desktop
+projectType: real-app
+repoUrl: https://github.com/EthanYoQ/Invoice-Downloader
+links:
+  github: https://github.com/EthanYoQ/Invoice-Downloader
+  website: https://www.orz.md/invoice-downloader/
+  download: https://github.com/EthanYoQ/Invoice-Downloader/releases/latest
+licenses:
+  - apache-2.0
+distribution:
+  channels:
+    - type: github-releases
+      platform: windows
+      label: Windows installer and portable package
+      url: https://github.com/EthanYoQ/Invoice-Downloader/releases/latest
+      verified: true
+    - type: github-releases
+      platform: macos
+      label: macOS Apple Silicon disk image
+      url: https://github.com/EthanYoQ/Invoice-Downloader/releases/latest
+      verified: true
+bestFor:
+  - Collecting invoice attachments from supported mailboxes before reimbursement or expense review.
+  - Organizing mixed PDF, OFD, and XML invoice files and exporting a consolidated Excel summary.
+  - Teams that want uncertain OCR results retained for human verification instead of silently accepted.
+whyListed:
+  - It is a complete Apache-2.0 desktop application with installable Windows and macOS release assets.
+  - It joins mailbox collection, duplicate handling, OCR, file organization, manual review, and spreadsheet export in one workflow.
+  - The Python codebase is useful for studying document-processing and desktop automation around real administrative work.
+caveats:
+  - OCR output and extracted fields should be checked before reimbursement, bookkeeping, accounting, or tax use.
+  - When an external OCR or model provider is enabled, relevant invoice images or text are sent to the provider configured by the user.
+source:
+  type: submit
+  provider: github
+  owner: EthanYoQ
+  repo: Invoice-Downloader
+  url: https://github.com/EthanYoQ/Invoice-Downloader
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
