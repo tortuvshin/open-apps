@@ -98,6 +98,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [MarketMonk](https://github.com/brandonp2412/MarketMonk) - A Flutter stock and portfolio tracker that combines Yahoo Finance market data, interactive charts, local trade records, and multiple account support.
 - [PeopleInSpace](https://github.com/joreilly/PeopleInSpace) - PeopleInSpace is a Kotlin Multiplatform reference app that shares architecture and data code across iOS, Android, desktop, web, and wearable clients.
 - [Shieldxy](https://rockxy.io/shieldxy) - An auditable macOS application firewall and connection monitor with explicit local network controls.
+- [SubnetDesk](https://github.com/zibo-chen/SubnetDesk) - SubnetDesk is a cross-platform remote desktop for devices already connected by a LAN, routed private network, or VPN, with direct IP or hostname connections and local mDNS discovery.
 - [SwiftHub](https://github.com/khoren93/SwiftHub) - SwiftHub is an iOS GitHub client built on RxSwift and MVVM-C clean architecture, wiring Moya (REST v3) and Apollo (GraphQL v4) behind a flow-coordinator navigation graph with OAuth2 and personal-access-token authentication.
 - [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) - An Xterm/VT100-compatible terminal emulator implemented in Swift for iOS.
 - [Tura](https://github.com/Tura-AI/tura) - Build agent that uses 80% less token and delivers better results.
