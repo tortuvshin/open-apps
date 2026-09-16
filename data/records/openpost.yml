@@ -45,26 +45,27 @@ curation:
   lenses: []
 visibility: keep
 health:
-  status: active
-  maturity: useful
-  tier: listed
+  status: mature
+  maturity: mature
+  tier: curated
   visibility: keep
   cleanupCandidate: false
   staleReason: null
   confidence: high
   reasons:
     - Recent repository activity
+    - Strong adoption with maintenance signals
     - Recent release found
     - Clear license found
 github:
   repository:
     full_name: getopenpost/openpost
-    stargazers_count: 214
-    forks_count: 23
-    open_issues_count: 0
+    stargazers_count: 524
+    forks_count: 58
+    open_issues_count: 2
     language: TypeScript
-    pushed_at: 2026-09-13T09:10:00Z
-    updated_at: 2026-09-13T13:46:31Z
+    pushed_at: 2026-09-15T20:46:30Z
+    updated_at: 2026-09-16T02:00:50Z
     archived: false
     disabled: false
     default_branch: main
@@ -86,8 +87,8 @@ github:
       - social-media-scheduler
       - svelte
       - sveltekit
-  latestReleaseAt: 2026-09-13T07:26:39Z
+  latestReleaseAt: 2026-09-15T21:18:14Z
   homepage: https://openpo.st
   sync:
-    syncedAt: 2026-09-13T13:47:46.557Z
+    syncedAt: 2026-09-16T02:10:41.896Z
     source: api
