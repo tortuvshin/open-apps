@@ -1,0 +1,57 @@
+kind: project
+name: YYLO
+slug: yylo
+addedAt: 2026-09-13
+description: AI coding-agent orchestration CLI that runs Claude Code, Codex CLI, and Gemini CLI in parallel git worktrees with a Kanban-style task ledger.
+category: tools
+tags:
+  - agent-orchestration
+  - claude-code
+  - cli
+  - developer-tools
+  - git-worktrees
+  - kanban
+  - llm
+  - terminal
+stack: javascript
+platforms:
+  - macos
+  - linux
+projectType: real-app
+repoUrl: https://github.com/yylo-dev/yylo
+links:
+  github: https://github.com/yylo-dev/yylo
+  website: https://yylo.dev
+licenses:
+  - mit
+bestFor:
+  - Running several AI coding agents on one project in isolated git worktrees.
+  - Studying a local-first CLI that validates agent output through a Kanban task ledger before merge.
+whyListed:
+  - A usable, documented command-line application with public npm releases, an MIT license, and active daily maintenance.
+  - Its parallel-worktree workflow and typed task ledger show a practical pattern for supervising multiple coding agents.
+caveats:
+  - Requires Node.js 20.10+, npm, and Git; bring your own API keys for the underlying coding agents.
+source:
+  type: submit
+  provider: github
+  owner: yylo-dev
+  repo: yylo
+  url: https://github.com/yylo-dev/yylo
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: listed
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
