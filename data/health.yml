@@ -4116,3 +4116,53 @@ health:
         - Active user adoption
         - Recent release found
         - Clear license found
+  - id: looptroop
+    github:
+      fullName: looptroop-ai/LoopTroop
+      stars: 152
+      forks: 12
+      openIssues: 3
+      watchers: 152
+      archived: false
+      disabled: false
+      private: false
+      fork: false
+      visibility: public
+      pushedAt: 2026-09-22T07:08:06Z
+      updatedAt: 2026-09-21T19:56:49Z
+      createdAt: 2026-03-03T13:33:49Z
+      latestReleaseAt: 2026-08-26T07:46:19Z
+      license: MIT
+      topics:
+        - agent-orchestration
+        - agentic-ai
+        - agentic-coding
+        - agentic-workflow
+        - ai-agents
+        - ai-coding
+        - ai-orchestration
+        - context-engineering
+        - llm-council
+        - llm-orchestration
+        - multi-agent-orchestration
+        - opencode
+        - ralph-loop
+      language: TypeScript
+      defaultBranch: main
+      htmlUrl: https://github.com/looptroop-ai/LoopTroop
+      description: "Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktrees, and human-gated PR delivery."
+      homepage: https://www.looptroop.ovh/
+      size: 31210
+    health:
+      status: active
+      maturity: useful
+      tier: listed
+      visibility: keep
+      cleanupCandidate: false
+      staleReason: null
+      confidence: high
+      reasons:
+        - Recent repository activity
+        - Recent release found
+        - Clear license found
+
