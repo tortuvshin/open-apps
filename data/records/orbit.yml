@@ -1,0 +1,101 @@
+kind: project
+slug: orbit
+addedAt: 2026-09-24
+name: Orbit by Noveum
+description: Orbit is a free, realtime task manager for issues, boards, projects, sprints, docs and
+  files, with a hosted MCP endpoint for AI agents.
+seo:
+  title: Orbit - Open Source Task and Project Manager
+category: productivity
+projectType: real-app
+stack: react
+platforms:
+  - web
+tags:
+  - issue-tracker
+  - kanban
+  - self-hosted
+  - mcp-server
+licenses:
+  - apache-2.0
+repoUrl: https://github.com/Noveum/orbit
+links:
+  github: https://github.com/Noveum/orbit
+  website: https://orbit.noveum.ai
+  docs: https://orbit.noveum.ai/docs
+content: ./content/records/orbit.md
+bestFor:
+  - Teams organizing issues, projects and sprints alongside shared documents.
+  - Developers studying a typed Next.js application with centralized authorization and realtime
+    updates.
+whyListed:
+  - Provides a usable hosted task manager and the complete Apache-2.0 application source.
+  - Exposes workspace-scoped OAuth MCP tools alongside its browser interface.
+caveats:
+  - Self-hosting remains in preview; deployment-provider validation is still in progress.
+  - Self-hosting requires PostgreSQL, Redis, S3-compatible storage and operational ownership.
+  - Hosted MCP access requires sign-in and workspace-scoped OAuth authorization.
+source:
+  type: submit
+  provider: github
+  owner: Noveum
+  repo: orbit
+  url: https://github.com/Noveum/orbit
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: experimental
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: Noveum/orbit
+    stargazers_count: 47
+    forks_count: 24
+    open_issues_count: 60
+    language: TypeScript
+    pushed_at: 2026-09-23T23:38:55Z
+    updated_at: 2026-09-23T23:38:57Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: Apache-2.0
+      name: Apache-2.0
+    topics:
+      - agile
+      - bun
+      - issue-tracker
+      - jira-alternative
+      - kanban
+      - linear-alternative
+      - mcp
+      - mcp-server
+      - nextjs
+      - open-source
+      - postgresql
+      - project-management
+      - realtime
+      - scrum
+      - self-hosted
+      - sprint-planning
+      - task-manager
+      - team-collaboration
+      - typescript
+      - websockets
+  latestReleaseAt: 2026-09-20T00:24:12Z
+  homepage: https://orbit.noveum.ai
+  sync:
+    syncedAt: 2026-09-24T04:49:48.680Z
+    source: api
