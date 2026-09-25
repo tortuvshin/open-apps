@@ -1,0 +1,45 @@
+kind: project
+slug: quotatempo
+addedAt: 2026-09-25
+name: QuotaTempo
+description: QuotaTempo is a native macOS menu-bar app that compares remaining weekly Codex and Claude capacity with the even-use target for the current time.
+category: developer-tools
+projectType: real-app
+platforms:
+  - macos
+  - desktop
+tags:
+  - open-source
+  - desktop-app
+  - developer-tools
+  - productivity
+  - privacy
+licenses:
+  - mit
+repoUrl: https://github.com/Ishikawa-Hidekazu/quota-tempo
+links:
+  github: https://github.com/Ishikawa-Hidekazu/quota-tempo
+  website: https://ishikawa.co/en/products/quotatempo/
+bestFor:
+  - Mac users who want to pace Codex and Claude capacity across each weekly quota window.
+  - Developers who prefer a local-first, inspectable alternative to repeatedly opening provider usage pages.
+source:
+  type: manual
+  owner: Ishikawa-Hidekazu
+  repo: quota-tempo
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+health:
+  status: active
+  maturity: useful
+  tier: listed
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent signed and notarized release
+    - Clear MIT license and installation documentation
