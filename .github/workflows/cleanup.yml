@@ -19,5 +19,17 @@ jobs:
           node-version: "24"
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm exec grove cleanup | tee cleanup-report.md
-      - run: cat cleanup-report.md >> "$GITHUB_STEP_SUMMARY"
+      # bash -o pipefail (GitHub's default for `shell: bash`) makes a failing
+      # `grove cleanup` fail the step even though its output is piped to tee.
+      - name: Run cleanup
+        shell: bash
+        run: pnpm exec grove cleanup | tee cleanup-report.md
+      - name: Write job summary
+        if: always()
+        shell: bash
+        run: |
+          if [ -s cleanup-report.md ]; then
+            cat cleanup-report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "grove cleanup produced no report; see the Run cleanup step log." >> "$GITHUB_STEP_SUMMARY"
+          fi
