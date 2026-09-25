@@ -2,7 +2,8 @@ kind: project
 slug: quotatempo
 addedAt: 2026-09-25
 name: QuotaTempo
-description: QuotaTempo is a native macOS menu-bar app that compares remaining weekly Codex and Claude capacity with the even-use target for the current time.
+description: QuotaTempo is a native macOS menu-bar app that compares remaining weekly Codex and
+  Claude capacity with the even-use target for the current time.
 category: developer-tools
 projectType: real-app
 platforms:
@@ -22,7 +23,8 @@ links:
   website: https://ishikawa.co/en/products/quotatempo/
 bestFor:
   - Mac users who want to pace Codex and Claude capacity across each weekly quota window.
-  - Developers who prefer a local-first, inspectable alternative to repeatedly opening provider usage pages.
+  - Developers who prefer a local-first, inspectable alternative to repeatedly opening provider
+    usage pages.
 source:
   type: manual
   owner: Ishikawa-Hidekazu
@@ -34,12 +36,44 @@ curation:
 health:
   status: active
   maturity: useful
-  tier: listed
+  tier: experimental
   visibility: keep
   cleanupCandidate: false
   staleReason: null
   confidence: high
   reasons:
     - Recent repository activity
-    - Recent signed and notarized release
-    - Clear MIT license and installation documentation
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: Ishikawa-Hidekazu/quota-tempo
+    stargazers_count: 1
+    forks_count: 0
+    open_issues_count: 1
+    language: Swift
+    pushed_at: 2026-09-23T12:04:05Z
+    updated_at: 2026-09-23T12:04:05Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: MIT
+      name: MIT
+    topics:
+      - ai-tools
+      - capacity-planning
+      - claude
+      - codex
+      - local-first
+      - macos
+      - macos-app
+      - menu-bar
+      - privacy
+      - swift
+      - usage-monitor
+  latestReleaseAt: 2026-09-23T11:44:10Z
+  homepage: https://ishikawa.co/en/products/quotatempo/
+  sync:
+    syncedAt: 2026-09-25T15:39:46.460Z
+    source: api
