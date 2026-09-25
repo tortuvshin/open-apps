@@ -1,0 +1,52 @@
+kind: project
+name: molt
+slug: molt
+addedAt: 2026-09-22
+description: An open-source coding agent for terminal and desktop that verifies work on disk before it can claim done.
+summary: A TypeScript terminal and Electron coding agent that runs checks against the real filesystem, records receipts, and refuses false completion claims.
+sourceDescription: A coding agent that can't say done without proving it.
+content: ./content/records/molt.md
+seo:
+  title: molt – Open Source Coding Agent with Proof-Checked Completion
+category: developer-tools
+tags:
+  - open-source
+  - coding-agent
+  - ai
+  - cli
+  - desktop-app
+  - verification
+  - receipts
+  - developer-tools
+stack: typescript
+platforms:
+  - linux
+  - macos
+  - windows
+projectType: real-app
+repoUrl: https://github.com/solvyxtech/molt
+links:
+  github: https://github.com/solvyxtech/molt
+  website: https://solvyx.xyz/work/molt
+  npm: https://www.npmjs.com/package/@solvyx/molt
+licenses:
+  - apache-2.0
+bestFor:
+  - Running an AI coding agent that verifies tests and filesystem state before accepting a completion.
+  - Keeping an auditable receipt and hash-chained journal for each coding attempt.
+whyListed:
+  - "Public Apache-2.0 source with both terminal and Electron surfaces and a clear verification model."
+  - "A distinctive developer tool: completion is accepted only when the configured bar passes on disk."
+caveats:
+  - Users supply their own model API key or local/plan-backed provider.
+source:
+  type: submit
+  provider: github
+  owner: solvyxtech
+  repo: molt
+  url: https://github.com/solvyxtech/molt
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
