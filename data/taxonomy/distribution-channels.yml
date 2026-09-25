@@ -38,6 +38,14 @@
   name: Microsoft Store
   platforms: [windows]
 
+- id: web-app
+  name: Web app
+  platforms: [web]
+
+- id: self-host
+  name: Self-host
+  platforms: [linux, macos, windows]
+
 - id: other
   name: Other
   platforms: []

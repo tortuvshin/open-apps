@@ -9,7 +9,8 @@
  *     optional activity badge)
  *   - record name + owner/repo line
  *   - short description
- *   - GitHub + Homepage CTAs
+ *   - CTAs: a verified install/try channel first when the record has
+ *     one, then source code and homepage
  *
  * Tags + activity metadata are surfaced separately (sidebar), so
  * the header stays narrow on mobile and doesn't compete with the
@@ -22,6 +23,7 @@
  */
 import type { RecordDetailModel } from '@grove-dev/astro/server';
 import { buttonClass } from '../../lib/classnames.ts';
+import { getInstallChannels } from '../../lib/channels.ts';
 
 interface Props {
   detail: RecordDetailModel;
@@ -43,6 +45,11 @@ const {
   category,
   name,
 } = detail;
+
+const installChannels = getInstallChannels(detail.distribution, repoUrl);
+const primaryChannel = installChannels[0];
+const moreChannels = installChannels.length - 1;
+const showHomepage = homepageUrl && homepageUrl !== primaryChannel?.url;
 ---
 
 <header class="mb-8">
@@ -173,26 +180,45 @@ const {
     </p>
   )}
 
-  {/* CTA row — primary actions only. */}
+  {/* CTA row. Install/try comes first only for a verified channel; the
+      repository is always "Source code", never an install option. */}
   <div class="mt-4 flex flex-wrap items-center gap-2">
+    {primaryChannel && (
+      <a
+        href={primaryChannel.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class={buttonClass("primary", "md")}
+        data-install-channel={primaryChannel.type}
+      >
+        {primaryChannel.action}
+        <span aria-hidden="true">↗</span>
+        <span class="sr-only">(opens {primaryChannel.host || "external site"})</span>
+      </a>
+    )}
     {repoUrl && (
       <a
         href={repoUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class={buttonClass("primary", "sm")}
+        class={buttonClass(primaryChannel ? "secondary" : "primary", primaryChannel ? "md" : "sm")}
       >
-        View on GitHub →
+        {primaryChannel ? "Source code" : "View on GitHub →"}
       </a>
     )}
-    {homepageUrl && (
+    {showHomepage && (
       <a
         href={homepageUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class={buttonClass("secondary", "sm")}
+        class={buttonClass(primaryChannel ? "ghost" : "secondary", primaryChannel ? "md" : "sm")}
       >
         Homepage
+      </a>
+    )}
+    {moreChannels > 0 && (
+      <a href="#install" class="text-sm text-ink-600 underline-offset-2 hover:underline dark:text-ink-300">
+        {moreChannels} more install {moreChannels === 1 ? "option" : "options"}
       </a>
     )}
   </div>

@@ -80,12 +80,12 @@ caveats:
     moderate), including SQL injection and SSRF
 distribution:
   channels:
-    - type: docker-compose
-      label: Docker Compose (self-host)
+    - type: self-host
+      label: Self-host with Docker Compose
       url: https://github.com/twentyhq/twenty/blob/main/packages/twenty-docker/docker-compose.yml
       verified: true
-    - type: cloud
-      label: Cloud (managed)
+    - type: web-app
+      label: Twenty Cloud
       url: https://app.twenty.com
       verified: true
     - type: github-releases
