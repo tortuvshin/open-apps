@@ -95,9 +95,9 @@ export default defineConfig({
   },
 
   // The contributors grid is a community wall, not a leaderboard —
-  // per-user contribution counts are noisy here, so only the avatar
-  // and handle are shown.
-  contributors: { showContributionCount: true },
+  // per-user counts are a GitHub commit tally, not curation or review
+  // credit, so only the avatar and handle are shown.
+  contributors: { showContributionCount: false },
 
   browse: {
     facets: ["category", "stack", "platform", "license", "tags"],
