@@ -2,9 +2,12 @@ kind: project
 name: LoopTroop
 slug: looptroop
 addedAt: 2026-09-22
-description: LoopTroop is an open-source coding agent orchestrator with multi-model planning councils, isolated Git worktrees, and human approval gates.
-summary: A local application and web interface for running AI coding agents in parallel Git worktrees, comparing plans across models, and reviewing pull requests before merge.
-sourceDescription: "Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktrees, and human-gated PR delivery."
+description: LoopTroop is an open-source coding agent orchestrator with multi-model planning
+  councils, isolated Git worktrees, and human approval gates.
+summary: A local application and web interface for running AI coding agents in parallel Git
+  worktrees, comparing plans across models, and reviewing pull requests before merge.
+sourceDescription: "Local AI coding orchestration for repo-scale work: LLM-council planning,
+  Ralph-loop recovery, isolated OpenCode worktrees, and human-gated PR delivery."
 content: ./content/records/looptroop.md
 seo:
   title: LoopTroop – Open Source Coding Agent Orchestrator
@@ -41,8 +44,10 @@ bestFor:
   - Comparing implementation plans from multiple LLM models before code generation starts.
   - Developers exploring multi-model consensus, isolated worktrees, and bounded error recovery loops.
 whyListed:
-  - A usable MIT-licensed developer tool with a full web UI, local server, and active repository maintenance.
-  - Demonstrates practical architecture for multi-model consensus, isolated worktrees, and human-in-the-loop agent verification.
+  - A usable MIT-licensed developer tool with a full web UI, local server, and active repository
+    maintenance.
+  - Demonstrates practical architecture for multi-model consensus, isolated worktrees, and
+    human-in-the-loop agent verification.
 caveats:
   - Requires Node.js 20+, Git, and API keys or local model endpoints for the selected providers.
 source:
@@ -56,3 +61,49 @@ curation:
   labels: []
   lenses: []
 visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: listed
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: looptroop-ai/LoopTroop
+    stargazers_count: 154
+    forks_count: 14
+    open_issues_count: 4
+    language: TypeScript
+    pushed_at: 2026-09-25T09:16:52Z
+    updated_at: 2026-09-24T12:05:30Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: MIT
+      name: MIT
+    topics:
+      - agent-orchestration
+      - agentic-ai
+      - agentic-coding
+      - agentic-workflow
+      - ai-agents
+      - ai-coding
+      - ai-orchestration
+      - context-engineering
+      - llm-council
+      - llm-orchestration
+      - multi-agent-orchestration
+      - opencode
+      - ralph-loop
+  latestReleaseAt: 2026-08-26T07:46:19Z
+  homepage: https://www.looptroop.ovh/
+  sync:
+    syncedAt: 2026-09-25T15:39:34.455Z
+    source: api
