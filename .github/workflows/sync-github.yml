@@ -28,7 +28,13 @@ jobs:
           node-version: "24"
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm exec grove sync github
+      # --strict exits non-zero when any record fails to sync. The step is
+      # allowed to continue so records that did sync still reach the PR,
+      # and the last step fails the job so the failure is never silent.
+      - name: Sync GitHub metadata
+        id: sync
+        continue-on-error: true
+        run: pnpm exec grove sync github --strict
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: peter-evans/create-pull-request@v6
@@ -37,3 +43,8 @@ jobs:
           title: "Sync GitHub metadata"
           branch: chore/sync-github
           delete-branch: true
+      - name: Fail when any record failed to sync
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo "::error::grove sync github reported failed records; see the 'Sync GitHub metadata' step log."
+          exit 1
