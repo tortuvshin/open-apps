@@ -1,6 +1,7 @@
 ---
 import type { RecordDetailModel } from '@grove-dev/astro/server';
 import { taxonomyLabel } from '@grove-dev/astro/server';
+import { getInstallChannels } from '../../lib/channels.ts';
 /**
  * RecordSidebar.astro
  *
@@ -69,6 +70,7 @@ const {
   reviewedAtLabel,
   addedAtLabel,
 } = detail;
+const installChannels = getInstallChannels(detail.distribution, repoUrl);
 const alsoIn: Array<{ url: string; title: string }> = detail.collectionMembership ?? [];
 
 // Visibility helpers for individual rows inside the Activity card.
@@ -107,6 +109,41 @@ function row(label: string, value: unknown) {
   ]}
   aria-label="Record metadata"
 >
+
+  {/* ── Install card: every verified channel ──────────────── */}
+  {installChannels.length > 0 && (
+    <section
+      id="install"
+      class="grove-card scroll-mt-24 rounded-[var(--radius-lg)] border border-ink-200 bg-card p-4 dark:border-ink-800"
+      aria-labelledby="sidebar-install-title"
+    >
+      <h2
+        id="sidebar-install-title"
+        class="grove-card-title m-0 mb-3 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
+      >
+        Install or try
+      </h2>
+      <ul class="m-0 flex list-none flex-col gap-2 p-0 text-sm">
+        {installChannels.map((channel) => (
+          <li class="flex items-baseline justify-between gap-3">
+            <a
+              href={channel.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-medium text-ink-900 underline-offset-2 hover:underline dark:text-ink-100"
+              data-install-channel={channel.type}
+            >
+              {channel.label}
+              <span aria-hidden="true"> ↗</span>
+            </a>
+            <span class="shrink-0 text-2xs text-ink-500 dark:text-ink-400">
+              {channel.platform ? taxonomyLabel("platforms", channel.platform) : channel.host}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   {/* ── Activity card ──────────────────────────────────────── */}
   {sidebar.showActivity && (

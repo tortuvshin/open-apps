@@ -98,17 +98,17 @@ distribution:
       label: F-Droid
       url: https://f-droid.org/en/packages/com.invoiceninja.app/
       verified: true
-    - type: github-releases
+    - type: microsoft-store
       platform: windows
       label: Microsoft Store
       url: https://apps.microsoft.com/store/detail/invoice-ninja/9N3F2BBCFDR6
       verified: true
-    - type: snap
+    - type: snapcraft
       platform: linux
       label: Snap
       url: https://snapcraft.io/invoiceninja
       verified: true
-    - type: flatpak
+    - type: flathub
       platform: linux
       label: Flathub
       url: https://flathub.org/en/apps/com.invoiceninja.InvoiceNinja
