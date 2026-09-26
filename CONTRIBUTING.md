@@ -31,6 +31,7 @@ platforms:
 tags:
   - habit-tracker
 addedAt: 2026-09-26
+submittedBy: your-github-login
 ---
 
 ## Why it's listed
@@ -58,6 +59,8 @@ closing `---`.
 
 ## After your app is listed
 
+- `submittedBy` credits you on the app page ("Submitted by @login") and
+  in *Apps added by the community* on `/contributors/`.
 - Links from the app page to the app's own site carry
   `ref=openappscout.com`, and no outbound link strips the referrer, so
   visits show up as coming from Open App Scout in your analytics and in

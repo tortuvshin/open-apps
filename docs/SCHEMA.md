@@ -21,6 +21,7 @@ All fields are **optional** unless otherwise noted.
 | `kind` | enum: `project` | derived | Kind of record. Leave it out: Grove fills in `project` from the project-directory blueprint. |
 | `name` | string | human | Display name of the app. |
 | `slug` | string | derived | URL-safe identifier. Leave it out: it is the file name without `.md`. |
+| `submittedBy` | string | human | GitHub login of the person who added the app. Shown as "Submitted by @login" on the app page and listed on `/contributors/`. Not part of Grove's schema, so it never reaches `records.json`; `src/lib/submitters.ts` reads it from the file. |
 | `description` | string | human | One-sentence curator-written summary of what the app does. |
 | `summary` | string | human | **NEW (0.5.0):** Editorial lead paragraph. When set, rendered as the first paragraph on the detail page; otherwise falls back to `description`. Allows curators to write a more expressive introduction distinct from the brief one-liner. |
 | `sourceDescription` | string | human | **NEW (0.5.0):** Preserved original description, typically from the project's README or GitHub repository description. When present and distinct from `summary`, rendered as a secondary "From the project's README:" paragraph on the detail page. Mechanically backfilled from `github.repository.description` where available. |

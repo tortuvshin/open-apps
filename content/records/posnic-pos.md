@@ -1,4 +1,5 @@
 ---
+submittedBy: sridharkalaibala
 name: Posnic POS
 repoUrl: https://github.com/Posnic/POS
 projectType: real-app

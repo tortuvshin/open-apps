@@ -1,4 +1,5 @@
 ---
+submittedBy: Sutera-Diffusus
 name: Weiyu
 repoUrl: https://github.com/Sutera-Diffusus/WeChat-daily
 projectType: real-app

@@ -1,4 +1,5 @@
 ---
+submittedBy: EthanYoQ
 name: AI Novel Writer
 repoUrl: https://github.com/EthanYoQ/AI-Novel-Writer
 projectType: real-app

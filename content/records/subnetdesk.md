@@ -1,4 +1,5 @@
 ---
+submittedBy: zibo-chen
 name: SubnetDesk
 repoUrl: https://github.com/zibo-chen/SubnetDesk
 projectType: real-app

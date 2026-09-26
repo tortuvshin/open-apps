@@ -1,4 +1,5 @@
 ---
+submittedBy: capaj
 name: Authier
 repoUrl: https://github.com/authier-pm/authier
 projectType: real-app

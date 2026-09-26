@@ -1,4 +1,5 @@
 ---
+submittedBy: aboutmydreams
 name: d1v.ai Mobile
 repoUrl: https://github.com/d1vai/d1vai_app
 projectType: real-app

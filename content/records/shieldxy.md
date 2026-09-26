@@ -1,4 +1,5 @@
 ---
+submittedBy: LocNguyenHuu
 name: Shieldxy
 repoUrl: https://github.com/RockxyApp/Shieldxy
 projectType: real-app

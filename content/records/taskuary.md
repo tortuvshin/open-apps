@@ -1,4 +1,5 @@
 ---
+submittedBy: ldbumble
 name: Taskuary
 repoUrl: https://github.com/ldbumble/taskuary
 projectType: real-app

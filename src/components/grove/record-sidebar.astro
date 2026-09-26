@@ -403,7 +403,7 @@ function row(label: string, value: unknown) {
   <FeaturedBadge
     pageUrl={new URL(`/${detail.slug}/${record.slug}/`, Astro.site ?? 'https://openappscout.com').href}
     origin={(Astro.site ?? new URL('https://openappscout.com')).origin}
-    name={String(record.name ?? record.slug)}
+    name={String((record as { name?: string }).name ?? record.slug)}
   />
 
   {/* ── Source card (small) ────────────────────────────────── */}

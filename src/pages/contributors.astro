@@ -15,7 +15,9 @@ import { getContributorsPageModel } from '@grove-dev/astro/server';
 import EmptyState from '../components/ui/empty-state.astro';
 import BaseLayout from '../layouts/base-layout.astro';
 import Container from '../layouts/container.astro';
+import records from '@grove/generated/records.json';
 import { buttonClass } from '../lib/classnames';
+import { submitters } from '../lib/submitters';
 
 interface RecentPull {
   number: number;
@@ -34,6 +36,25 @@ const {
   contributorsGraphHref,
   showContributionCount,
 } = getContributorsPageModel(siteConfig);
+
+// Apps each person added, from `submittedBy` in the record files. The
+// anchor ids are what "Submitted by @login" on an app page links to.
+const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'apps';
+const recordNames = new Map(
+  (records as { records: Array<{ slug: string; name?: string }> }).records.map((r) => [r.slug, r.name ?? r.slug] as const),
+);
+const submitterCards = [...submitters()]
+  .filter(([slug]) => recordNames.has(slug))
+  .reduce((acc, [slug, login]) => {
+    const key = login.toLowerCase();
+    const card = acc.get(key) ?? { login, apps: [] as Array<{ name: string; url: string }> };
+    card.apps.push({ name: recordNames.get(slug) as string, url: `/${routeSlug}/${slug}/` });
+    acc.set(key, card);
+    return acc;
+  }, new Map<string, { login: string; apps: Array<{ name: string; url: string }> }>());
+const submittedByPeople = [...submitterCards.values()].sort(
+  (a, b) => b.apps.length - a.apps.length || a.login.localeCompare(b.login),
+);
 
 // Optional file: absent until the sync has run once.
 const pullFiles = import.meta.glob<{ default: { generatedAt?: string; pulls?: RecentPull[] } }>(
@@ -176,6 +197,36 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
             </li>
           ))}
         </ol>
+      </Container>
+    </section>
+  )}
+
+  {submittedByPeople.length > 0 && (
+    <section aria-labelledby="apps-added" class="pb-10 sm:pb-12">
+      <Container>
+        <header class="mb-4 flex flex-col gap-1">
+          <h2 id="apps-added" class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">Apps added by the community</h2>
+          <p class="m-0 text-sm text-muted-foreground">
+            {submittedByPeople.reduce((n, p) => n + p.apps.length, 0)} apps came in through pull requests from {submittedByPeople.length} people. Each app page credits who submitted it.
+          </p>
+        </header>
+        <ul class="m-0 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2 lg:grid-cols-3">
+          {submittedByPeople.map((person) => (
+            <li id={person.login.toLowerCase()} class="m-0 flex scroll-mt-24 items-start gap-3 rounded-[var(--radius-lg)] border border-border bg-card p-3 target:border-ring target:ring-3 target:ring-ring/35">
+              <img src={`https://github.com/${person.login}.png?size=64`} alt="" width="32" height="32" loading="lazy" decoding="async" class="h-8 w-8 shrink-0 rounded-full border border-border" />
+              <div class="min-w-0">
+                <a href={`https://github.com/${person.login}`} target="_blank" rel="noopener" class="text-sm font-semibold text-foreground no-underline hover:underline" data-event="contributor_click" data-event-source="apps_added">
+                  @{person.login}
+                </a>
+                <p class="m-0 mt-0.5 text-sm leading-snug text-muted-foreground">
+                  {person.apps.map((app, i) => (
+                    <>{i > 0 && ', '}<a href={app.url} class="text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">{app.name}</a></>
+                  ))}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </Container>
     </section>
   )}

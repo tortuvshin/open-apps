@@ -1,4 +1,5 @@
 ---
+submittedBy: ishikawa-h
 name: QuotaTempo
 repoUrl: https://github.com/Ishikawa-Hidekazu/quota-tempo
 projectType: real-app

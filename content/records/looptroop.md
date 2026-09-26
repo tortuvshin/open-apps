@@ -1,4 +1,5 @@
 ---
+submittedBy: looptroop-ai
 name: LoopTroop
 repoUrl: https://github.com/looptroop-ai/LoopTroop
 projectType: real-app

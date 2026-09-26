@@ -27,6 +27,7 @@ import { taxonomyLabel } from '@grove-dev/astro/server';
 import { buttonClass } from '../../lib/classnames.ts';
 import { getInstallChannels } from '../../lib/channels.ts';
 import { withRef } from '../../lib/outbound.ts';
+import { submitterOf } from '../../lib/submitters.ts';
 import type { Verdict } from '../../lib/record-editorial.ts';
 import Icon from './icon.astro';
 
@@ -65,6 +66,7 @@ const showHomepage = homepageUrl && withRef(homepageUrl) !== primaryChannel?.url
 const shots = (screenshots ?? []).filter((shot) => shot?.src && shot.alt).slice(0, 3);
 const [primaryShot, ...thumbnails] = shots;
 const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
+const submittedBy = submitterOf(detail.record.slug);
 ---
 
 <header
@@ -140,6 +142,25 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
           </svg>
           Editorially verified
         </span>
+      )}
+      {submittedBy && (
+        <a
+          href={`/contributors/#${submittedBy.toLowerCase()}`}
+          class="inline-flex items-center gap-1.5 rounded-full border border-border py-0.5 pl-0.5 pr-2 text-2xs font-medium text-ink-700 no-underline hover:border-ink-400 dark:text-ink-300"
+          title={`Added to Open App Scout by @${submittedBy}`}
+          data-submitted-by={submittedBy}
+        >
+          <img
+            src={`https://github.com/${submittedBy}.png?size=32`}
+            alt=""
+            width="16"
+            height="16"
+            loading="lazy"
+            decoding="async"
+            class="h-4 w-4 rounded-full"
+          />
+          Submitted by @{submittedBy}
+        </a>
       )}
       {review.reviewedLabel && (
         <span class="text-2xs text-ink-500 dark:text-ink-400">

@@ -1,4 +1,5 @@
 ---
+submittedBy: Yohjisakamoto
 name: Tura
 repoUrl: https://github.com/Tura-AI/tura
 projectType: production

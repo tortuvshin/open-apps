@@ -1,4 +1,5 @@
 ---
+submittedBy: https-shubhamsahu
 name: NO SUS
 repoUrl: https://github.com/https-shubhamsahu/NON_SUS
 projectType: real-app

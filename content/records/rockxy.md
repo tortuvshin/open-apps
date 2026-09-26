@@ -1,4 +1,5 @@
 ---
+submittedBy: LocNguyenHuu
 name: Rockxy
 repoUrl: https://github.com/RockxyApp/Rockxy
 projectType: real-app
