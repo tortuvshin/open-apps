@@ -1,20 +1,31 @@
 ---
 /**
- * Contributors page — full list with per-user contribution counts.
+ * Community page — how to help, recent merged pull requests from
+ * contributors, and everyone with commits in the source repository.
  *
- * Generic: works for any blueprint (project-directory, resource-hub,
- * ecosystem-map) and any source of contributors. Reads from
- * `data/generated/contributors.json` if present, otherwise renders
- * a graceful empty state. The file is produced by the
- * `sync-contributors` GitHub Action (see `.github/workflows/`).
- *
- * The list represents contributors to the directory's own source
- * repository. Project owners in the directory are a separate metric.
+ * People come from `data/generated/contributors.json` (the
+ * `sync-contributors` workflow, `grove sync contributors`). Recent
+ * collaboration comes from `data/generated/recent-pulls.json`, written
+ * in the same workflow by `scripts/sync-recent-pulls.mjs`; the section
+ * renders nothing when that file is missing or empty. No counts beyond
+ * what those files hold, and no per-person contribution tallies (#289).
  */
 import siteConfig from '@grove/generated/site-config.json';
 import { getContributorsPageModel } from '@grove-dev/astro/server';
 import EmptyState from '../components/ui/empty-state.astro';
 import BaseLayout from '../layouts/base-layout.astro';
+import Container from '../layouts/container.astro';
+import { buttonClass } from '../lib/classnames';
+
+interface RecentPull {
+  number: number;
+  title: string;
+  url: string;
+  author: string;
+  authorUrl?: string;
+  avatarUrl?: string;
+  mergedAt: string;
+}
 
 const {
   contributors: sorted,
@@ -23,41 +34,171 @@ const {
   contributorsGraphHref,
   showContributionCount,
 } = getContributorsPageModel(siteConfig);
+
+// Optional file: absent until the sync has run once.
+const pullFiles = import.meta.glob<{ default: { generatedAt?: string; pulls?: RecentPull[] } }>(
+  '../../data/generated/recent-pulls.json',
+  { eager: true },
+);
+const pullData = Object.values(pullFiles)[0]?.default;
+const recentPulls = (pullData?.pulls ?? []).filter((p) => p.number && p.title && p.url && p.author);
+
+const repo = siteConfig.repoUrl?.replace(/\/$/, '');
+const formatDate = (date?: string) => {
+  const t = Date.parse(date ?? '');
+  return Number.isFinite(t)
+    ? new Date(t).toLocaleDateString('en', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' })
+    : undefined;
+};
+
+const helpItems = [
+  {
+    title: 'Submit an app',
+    body: 'Paste a public GitHub URL and the form drafts the record file and opens the pull request.',
+    href: '/submit/',
+    label: 'Open the submission form',
+    external: false,
+    secondary: repo
+      ? { href: `${repo}/issues/new?template=record_submission.md`, label: 'No PR? Suggest it in an issue' }
+      : undefined,
+  },
+  {
+    title: "Improve an app's review notes",
+    body: 'The best-for, why-listed and caveat lines on each app page are plain YAML in data/records/<slug>.yml.',
+    href: repo ? `${repo}/blob/main/CONTRIBUTING.md#update-an-app` : undefined,
+    label: 'How to update an app',
+    external: true,
+  },
+  {
+    title: 'Fix metadata',
+    body: 'A wrong description, category, stack, platform or install link is a one-file edit and a pull request.',
+    href: repo ? `${repo}/tree/main/data/records` : undefined,
+    label: 'Browse the record files',
+    external: true,
+  },
+  {
+    title: 'Report a broken link',
+    body: 'Tell us which page and which link, and what you expected to find.',
+    href: repo ? `${repo}/issues/new?template=bug_report.md&title=${encodeURIComponent('[bug] Broken link: ')}` : undefined,
+    label: 'Open a bug report',
+    external: true,
+  },
+].filter((item) => item.href);
+
+const description = `How to help ${siteConfig.name}, recent pull requests from contributors, and the people with commits in its source repository.`;
+const jsonLd = (seo.jsonLd ?? []).map((node) =>
+  'description' in node ? { ...node, description } : node,
+);
 ---
 
-<BaseLayout title={seo.title} description={seo.description} image={seo.image} jsonLd={seo.jsonLd} site={siteConfig}>
-  <section class="py-12 sm:py-16">
-    <div class="mx-auto w-full max-w-container px-5 sm:px-7">
-      <span class="text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
-        Community
-      </span>
-      <h1 class="m-0 mt-2 text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.05] tracking-tight text-ink-900 dark:text-ink-100">
-        {total > 0 ? `${total} community contributors` : "Community"}
+<BaseLayout title={seo.title} description={description} image={seo.image} jsonLd={jsonLd} site={siteConfig}>
+  <section class="pt-10 pb-8 sm:pt-14 sm:pb-10">
+    <Container>
+      <span class="text-2xs font-medium uppercase tracking-wider text-muted-foreground">Community</span>
+      <h1 class="m-0 mt-2 text-[1.875rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2.375rem]">
+        Help build {siteConfig.name}
       </h1>
-      <p class="m-0 mt-3 max-w-2xl text-base leading-relaxed text-ink-700 dark:text-ink-200">
-        {total > 0
-          ? `People who have improved ${siteConfig.name} through code, curation, and review.`
-          : `Community profiles will appear after ${siteConfig.name} syncs its source repository metadata.`}
+      <p class="m-0 mt-3 max-w-[64ch] text-[0.9375rem] leading-relaxed text-muted-foreground">
+        Every app page is a file in a public repository. Adding an app, correcting a record or reporting
+        a broken link all happen on GitHub.
+        {repo && (
+          <>
+            {' '}Start with the{' '}
+            <a href={`${repo}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener noreferrer" class="font-medium text-foreground underline decoration-border underline-offset-2 hover:decoration-foreground">
+              contributing guide
+            </a>.
+          </>
+        )}
       </p>
-
-      {contributorsGraphHref && (
-        <p class="m-0 mt-3 text-sm text-ink-500 dark:text-ink-400">
-          <a
-            href={contributorsGraphHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-medium underline decoration-ink-300 underline-offset-2 hover:decoration-ink-500 dark:decoration-ink-700 dark:hover:decoration-ink-400"
-          >
-            GitHub contributors graph →
-          </a>
-        </p>
-      )}
-    </div>
+    </Container>
   </section>
 
-  {sorted.length === 0 ? (
-    <section class="pb-12 sm:pb-16">
-      <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+  {helpItems.length > 0 && (
+    <section aria-labelledby="how-to-help" class="pb-10 sm:pb-12">
+      <Container>
+        <h2 id="how-to-help" class="m-0 mb-4 text-[1.25rem] font-semibold tracking-tight text-foreground">How to help</h2>
+        <ul class="m-0 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2 lg:grid-cols-4">
+          {helpItems.map((item) => (
+            <li class="m-0 flex flex-col gap-2 rounded-[var(--radius-lg)] border border-border bg-card p-4">
+              <h3 class="m-0 text-[1rem] font-semibold text-foreground">{item.title}</h3>
+              <p class="m-0 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
+              <div class="mt-auto flex flex-col items-start gap-2 pt-2">
+                <a
+                  href={item.href}
+                  class={buttonClass(item.external ? 'secondary' : 'primary', 'sm')}
+                  {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  data-event="community_help_click"
+                  data-event-item={item.title}
+                >
+                  {item.label}{item.external && <span aria-hidden="true"> ↗</span>}
+                  {item.external && <span class="sr-only"> (opens GitHub)</span>}
+                </a>
+                {item.secondary && (
+                  <a href={item.secondary.href} target="_blank" rel="noopener noreferrer" class="text-2xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                    {item.secondary.label}<span class="sr-only"> (opens GitHub)</span>
+                  </a>
+                )}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </Container>
+    </section>
+  )}
+
+  {recentPulls.length > 0 && (
+    <section aria-labelledby="recent-collaboration" class="pb-10 sm:pb-12">
+      <Container>
+        <header class="mb-4 flex flex-col gap-1">
+          <h2 id="recent-collaboration" class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">Recent collaboration</h2>
+          <p class="m-0 text-sm text-muted-foreground">
+            The latest pull requests from contributors merged into the source repository
+            {formatDate(pullData?.generatedAt) && (
+              <>, as of <time datetime={pullData?.generatedAt}>{formatDate(pullData?.generatedAt)}</time></>
+            )}.
+          </p>
+        </header>
+        <ol class="m-0 list-none divide-y divide-border overflow-hidden rounded-[var(--radius-lg)] border border-border bg-card p-0">
+          {recentPulls.map((pull) => (
+            <li class="relative m-0 flex items-start gap-3 px-3 py-3 transition-colors focus-within:bg-accent hover:bg-accent sm:px-4">
+              {pull.avatarUrl && (
+                <img src={`${pull.avatarUrl}${pull.avatarUrl.includes('?') ? '&' : '?'}s=48`} alt="" width="24" height="24" loading="lazy" decoding="async" class="mt-0.5 h-6 w-6 shrink-0 rounded-full border border-border" />
+              )}
+              <div class="min-w-0">
+                <a href={pull.url} target="_blank" rel="noopener noreferrer" class="text-[0.9375rem] font-medium leading-snug text-foreground no-underline outline-none after:absolute after:inset-0 after:content-[''] hover:underline focus-visible:underline">
+                  {pull.title}
+                </a>
+                <p class="m-0 mt-0.5 text-2xs text-muted-foreground">
+                  #{pull.number} by @{pull.author}
+                  {formatDate(pull.mergedAt) && <> · merged <time datetime={pull.mergedAt}>{formatDate(pull.mergedAt)}</time></>}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Container>
+    </section>
+  )}
+
+  <section aria-labelledby="people" class="pb-16">
+    <Container>
+      <header class="mb-4 flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
+        <div class="flex flex-col gap-1">
+          <h2 id="people" class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">People</h2>
+          {total > 0 && (
+            <p class="m-0 text-sm text-muted-foreground">
+              {total} people with commits in the source repository, from GitHub.
+            </p>
+          )}
+        </div>
+        {contributorsGraphHref && (
+          <a href={contributorsGraphHref} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">
+            GitHub contributors graph<span aria-hidden="true"> ↗</span>
+          </a>
+        )}
+      </header>
+
+      {sorted.length === 0 ? (
         <EmptyState
           title="No contributors synced yet"
           description={`Contributor profiles come from data/generated/contributors.json, written by the weekly sync-contributors workflow. Run "grove sync contributors" (or wait for the scheduled sync) and every contributor avatar lands here.`}
@@ -65,56 +206,34 @@ const {
             ? { label: "View contributors on GitHub", href: contributorsGraphHref }
             : undefined}
         />
-      </div>
-    </section>
-  ) : (
-    <section class="py-12 sm:py-16" aria-label="Contributors list">
-      <div class="mx-auto w-full max-w-container px-5 pb-16 sm:px-7">
-        <ul
-          class="m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
-          aria-label="Contributors"
-        >
+      ) : (
+        <ul class="m-0 grid list-none grid-cols-2 gap-2 p-0 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6" aria-label="Contributors">
           {sorted.map((c) => {
             const href = c.profileUrl ?? `https://github.com/${c.username}`;
-            const avatar =
-              c.avatarUrl ??
-              `https://avatars.githubusercontent.com/${c.username}?v=4&s=80`;
+            const avatar = c.avatarUrl
+              ? `${c.avatarUrl}${c.avatarUrl.includes('?') ? '&' : '?'}s=64`
+              : `https://avatars.githubusercontent.com/${c.username}?v=4&s=64`;
             return (
               <li class="m-0 p-0">
                 <a
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="group rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card shadow-none transition-colors flex flex-col items-center gap-2 p-3 text-center no-underline  hover:border-ink-300 dark:hover:border-ink-700"
+                  class="group flex min-w-0 items-center gap-2 rounded-[var(--radius)] border border-border bg-card px-2 py-1.5 no-underline outline-none transition-colors hover:border-ink-300 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 dark:hover:border-ink-700"
                   data-event="contributor_click"
                   data-event-source="contributors_page"
                 >
-                  <img
-                    src={avatar}
-                    alt={c.name ?? c.username}
-                    width="56"
-                    height="56"
-                    loading="lazy"
-                    decoding="async"
-                    class="h-14 w-14 rounded-full border border-ink-200 object-cover dark:border-ink-800"
-                  />
-                  <span class="line-clamp-1 text-sm font-medium text-ink-700 group-hover:text-ink-900 dark:text-ink-300 dark:group-hover:text-ink-100">
-                    {c.name ?? c.username}
-                  </span>
-                  <span class="text-2xs text-ink-500 dark:text-ink-400">
-                    @{c.username}
-                  </span>
+                  <img src={avatar} alt="" width="28" height="28" loading="lazy" decoding="async" class="h-7 w-7 shrink-0 rounded-full border border-border object-cover" />
+                  <span class="min-w-0 truncate text-sm text-foreground group-hover:underline">{c.name ?? c.username}</span>
                   {showContributionCount && typeof c.contributions === "number" && (
-                    <span class="font-mono text-2xs text-ink-400">
-                      {c.contributions.toLocaleString()} contributions
-                    </span>
+                    <span class="ml-auto font-mono text-2xs text-muted-foreground">{c.contributions.toLocaleString()}</span>
                   )}
                 </a>
               </li>
             );
           })}
         </ul>
-      </div>
-    </section>
-  )}
+      )}
+    </Container>
+  </section>
 </BaseLayout>
