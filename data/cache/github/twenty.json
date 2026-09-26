@@ -3,8 +3,14 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:43.969Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:41:01.399Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:41:01.399Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "The open alternative to Salesforce, designed for AI.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:43.969Z",
+      "syncedAt": "2026-09-26T14:41:01.399Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
-      "stargazers_count": 57515,
-      "forks_count": 9297,
-      "open_issues_count": 148,
+      "stargazers_count": 57526,
+      "forks_count": 9300,
+      "open_issues_count": 145,
       "language": "TypeScript",
-      "pushed_at": "2026-09-26T09:35:55Z",
-      "updated_at": "2026-09-26T09:32:49Z",
+      "pushed_at": "2026-09-26T14:28:27Z",
+      "updated_at": "2026-09-26T14:26:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,10 +69,72 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-front/public/images/icons/windows11/Wide310x150Logo.scale-400.png",
+        "path": "packages/twenty-front/public/images/icons/windows11/Wide310x150Logo.scale-400.png",
+        "blobSha": "661264c862677a56d875249df88a7c19051a87f7",
+        "format": "png",
+        "bytes": 17106,
+        "width": 1240,
+        "height": 600,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-front/public/manifest.json",
+          "fetchedAt": "2026-09-26T14:40:58.406Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-agent-skills/assets/twenty-logo.png",
+        "path": "packages/twenty-agent-skills/assets/twenty-logo.png",
+        "blobSha": "27cd4a9229c0a6ccc22ada41f4a634abc58f24d6",
+        "format": "png",
+        "bytes": 5288,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-agent-skills/assets/twenty-logo.png",
+          "fetchedAt": "2026-09-26T14:40:58.406Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/granola/public/logo.png",
+        "path": "packages/twenty-apps/public/granola/public/logo.png",
+        "blobSha": "5148c69b738a9478e56d4d3cba6de55e6bb20f7d",
+        "format": "png",
+        "bytes": 30444,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/granola/public/logo.png",
+          "fetchedAt": "2026-09-26T14:40:58.406Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/last-contact/public/logo.png",
+        "path": "packages/twenty-apps/public/last-contact/public/logo.png",
+        "blobSha": "fa9876266d1ba17f9299f46de46fbbe8b67ffa27",
+        "format": "png",
+        "bytes": 3033,
+        "width": 272,
+        "height": 272,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/last-contact/public/logo.png",
+          "fetchedAt": "2026-09-26T14:40:58.406Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

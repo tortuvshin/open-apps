@@ -3,8 +3,14 @@
   "slug": "peopleinspace",
   "repoUrl": "https://github.com/joreilly/PeopleInSpace",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:36.604Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:15.414Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:15.414Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.",
   "github": {
     "repository": {
@@ -175,7 +181,7 @@
       "contributorsKnown": 38
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:36.604Z",
+      "syncedAt": "2026-09-26T14:40:15.414Z",
       "source": "api"
     },
     "languages": {
@@ -200,9 +206,14 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

@@ -3,8 +3,14 @@
   "slug": "monekin",
   "repoUrl": "https://github.com/enrique-lozano/Monekin",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:32.793Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:48.647Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:48.647Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Track your money, not your data. Monekin is a fast, simple, offline-first personal finance app — 100% open source, zero ads, striking design.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:32.793Z",
+      "syncedAt": "2026-09-26T14:39:48.647Z",
       "source": "api"
     },
     "repository": {
@@ -52,9 +58,64 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/enrique-lozano/Monekin/releases/latest",
+        "facts": {
+          "tag": "v10.1.0",
+          "assets": [
+            "Monekin.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/enrique-lozano/Monekin/releases/tag/v10.1.0",
+          "fetchedAt": "2026-09-26T14:39:46.466Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/enrique-lozano/Monekin/releases/latest",
+        "facts": {
+          "tag": "v10.1.0",
+          "assets": [
+            "Monekin.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/enrique-lozano/Monekin/releases/tag/v10.1.0",
+          "fetchedAt": "2026-09-26T14:39:46.466Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/enrique-lozano/Monekin/blob/6f8145b4d0f2bb290ff004820aaa4c2c4ed70e72/assets/resources/appIcon.png",
+        "path": "assets/resources/appIcon.png",
+        "blobSha": "94388170f592282b7a1d5ea2c7966f9c6ed3bc95",
+        "format": "png",
+        "bytes": 35383,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/enrique-lozano/Monekin/blob/6f8145b4d0f2bb290ff004820aaa4c2c4ed70e72/assets/resources/appIcon.png",
+          "fetchedAt": "2026-09-26T14:39:46.466Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

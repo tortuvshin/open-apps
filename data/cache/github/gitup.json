@@ -3,8 +3,14 @@
   "slug": "gitup",
   "repoUrl": "https://github.com/git-up/GitUp",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:22.276Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:37.835Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:37.835Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "The Git interface you've been missing all your life has finally arrived.",
   "github": {
     "repository": {
@@ -177,7 +183,7 @@
       "contributorsKnown": 62
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:22.276Z",
+      "syncedAt": "2026-09-26T14:38:37.835Z",
       "source": "api"
     },
     "languages": {
@@ -202,10 +208,30 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/git-up/GitUp/blob/666c06a8f39ded95362bb0c1f5b681e89c5747aa/Assets/Icons/AppIcon.svg",
+        "path": "Assets/Icons/AppIcon.svg",
+        "blobSha": "19460866828c610f9f98508e297b8fe73cbad2b5",
+        "format": "svg",
+        "bytes": 5483,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/git-up/GitUp/blob/666c06a8f39ded95362bb0c1f5b681e89c5747aa/Assets/Icons/AppIcon.svg",
+          "fetchedAt": "2026-09-26T14:38:36.292Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

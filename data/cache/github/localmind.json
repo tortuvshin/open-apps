@@ -3,8 +3,14 @@
   "slug": "localmind",
   "repoUrl": "https://github.com/abdulmominsakib/localmind",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:28.096Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:16.916Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:16.916Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A mobile application designed to provide a beautiful, fast, and privacy-respecting interface for on device LLM and local LLM servers and cloud providers",
   "github": {
     "html": {
@@ -13,14 +19,14 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:28.096Z",
+      "syncedAt": "2026-09-26T14:39:16.916Z",
       "source": "api"
     },
     "repository": {
       "full_name": "abdulmominsakib/localmind",
       "stargazers_count": 242,
       "forks_count": 41,
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "language": "Dart",
       "pushed_at": "2026-09-25T02:09:42Z",
       "updated_at": "2026-09-25T12:37:21Z",
@@ -44,9 +50,47 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/abdulmominsakib/localmind/releases/latest",
+        "facts": {
+          "tag": "1.8.2+88",
+          "assets": [
+            "app-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/abdulmominsakib/localmind/releases/tag/1.8.2%2B88",
+          "fetchedAt": "2026-09-26T14:39:14.959Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/abdulmominsakib/localmind/blob/5efd36189512686ce585a2509fd0555e1f61f0b9/assets/images/logo.webp",
+        "path": "assets/images/logo.webp",
+        "blobSha": "9ac222e5bef30f30f1c9f6ed934a531972ce30db",
+        "format": "webp",
+        "bytes": 18938,
+        "width": 1080,
+        "height": 1080,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/abdulmominsakib/localmind/blob/5efd36189512686ce585a2509fd0555e1f61f0b9/assets/images/logo.webp",
+          "fetchedAt": "2026-09-26T14:39:14.959Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

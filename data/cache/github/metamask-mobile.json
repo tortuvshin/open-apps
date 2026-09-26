@@ -3,8 +3,14 @@
   "slug": "metamask-mobile",
   "repoUrl": "https://github.com/MetaMask/metamask-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:31.851Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:41.779Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:41.779Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Mobile web browser providing access to websites that use the Ethereum blockchain",
   "github": {
     "repository": {
@@ -76,7 +82,7 @@
       "deployments_url": "https://api.github.com/repos/MetaMask/metamask-mobile/deployments",
       "created_at": "2018-07-18T11:47:08Z",
       "updated_at": "2026-09-25T23:54:52Z",
-      "pushed_at": "2026-09-26T09:27:51Z",
+      "pushed_at": "2026-09-26T14:28:03Z",
       "git_url": "git://github.com/MetaMask/metamask-mobile.git",
       "ssh_url": "git@github.com:MetaMask/metamask-mobile.git",
       "clone_url": "https://github.com/MetaMask/metamask-mobile.git",
@@ -96,7 +102,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1868,
+      "open_issues_count": 1869,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -206,7 +212,7 @@
       "openPullRequests": 482
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:31.851Z",
+      "syncedAt": "2026-09-26T14:39:41.779Z",
       "source": "api"
     },
     "html": {
@@ -226,10 +232,30 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/MetaMask/metamask-mobile/blob/465c98e80ed70f415286437e795ad2bd8b34f100/app/component-library/components/Icons/Icon/Icon.png",
+        "path": "app/component-library/components/Icons/Icon/Icon.png",
+        "blobSha": "2a715eafc910c7b4d95c5fa90d485616e239c37c",
+        "format": "png",
+        "bytes": 5189,
+        "width": 1654,
+        "height": 640,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/MetaMask/metamask-mobile/blob/465c98e80ed70f415286437e795ad2bd8b34f100/app/component-library/components/Icons/Icon/Icon.png",
+          "fetchedAt": "2026-09-26T14:39:39.502Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

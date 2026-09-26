@@ -3,8 +3,14 @@
   "slug": "loofah",
   "repoUrl": "https://github.com/bart6114/loofah",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:28.512Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:19.414Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:19.414Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Free, open-source Markdown knowledge vault for macOS. Record and transcribe meetings locally, keep notes as files you can carry across tools, and give agents read-only MCP access. No accounts, subscriptions, telemetry, or cloud backend.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:28.512Z",
+      "syncedAt": "2026-09-26T14:39:19.414Z",
       "source": "api"
     },
     "repository": {
@@ -60,9 +66,62 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/bart6114/loofah/releases/latest",
+        "facts": {
+          "tag": "v0.40.2",
+          "assets": [
+            "FreeMeetingTranscriber_0.40.2_aarch64.dmg",
+            "Loofah_0.40.2_aarch64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/bart6114/loofah/releases/tag/v0.40.2",
+          "fetchedAt": "2026-09-26T14:39:17.238Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/public/assets/app-icon.png",
+        "path": "apps/desktop/public/assets/app-icon.png",
+        "blobSha": "8552c90f6062580c0fba289484393dc017c3dc63",
+        "format": "png",
+        "bytes": 69936,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/public/assets/app-icon.png",
+          "fetchedAt": "2026-09-26T14:39:17.238Z"
+        }
+      },
+      {
+        "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/src-tauri/icons/stable/ios/AppIcon-512%402x.png",
+        "path": "apps/desktop/src-tauri/icons/stable/ios/AppIcon-512@2x.png",
+        "blobSha": "78bbb41a25893b32cb407c7bbbeac6ff4aca7a9e",
+        "format": "png",
+        "bytes": 169847,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/src-tauri/icons/stable/ios/AppIcon-512%402x.png",
+          "fetchedAt": "2026-09-26T14:39:17.238Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

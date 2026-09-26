@@ -3,8 +3,14 @@
   "slug": "marketmonk",
   "repoUrl": "https://github.com/brandonp2412/MarketMonk",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:29.408Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:26.818Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:26.818Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Cross-platform stock and portfolio tracker with Yahoo Finance charts and customizable dashboards. Built with Flutter.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:29.408Z",
+      "syncedAt": "2026-09-26T14:39:26.818Z",
       "source": "api"
     },
     "repository": {
@@ -22,8 +28,8 @@
       "forks_count": 5,
       "open_issues_count": 0,
       "language": "Dart",
-      "pushed_at": "2026-09-26T05:31:19Z",
-      "updated_at": "2026-09-26T05:31:22Z",
+      "pushed_at": "2026-09-26T13:24:55Z",
+      "updated_at": "2026-09-26T13:24:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,7 +55,7 @@
         "yahoo-finance"
       ]
     },
-    "latestReleaseAt": "2026-09-26T05:56:34Z",
+    "latestReleaseAt": "2026-09-26T13:50:32Z",
     "homepage": "https://f-droid.org/packages/com.codesail.market_monk"
   },
   "health": {
@@ -61,9 +67,181 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.codesail.market_monk/",
+        "facts": {
+          "appId": "com.codesail.market_monk",
+          "suggestedVersionCode": 1013,
+          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.codesail.market_monk",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/brandonp2412/MarketMonk/releases/latest",
+        "facts": {
+          "tag": "v1.0.104",
+          "assets": [
+            "app-arm64-v8a-release.apk",
+            "app-armeabi-v7a-release.apk",
+            "app-x86_64-release.apk",
+            "market_monk.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/brandonp2412/MarketMonk/releases/tag/v1.0.104",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "2692813e39008e31de82dd592ea3e27f614723db",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 17944,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "83a2b1f8a678565c50993d8487cfa233a0c94bcf",
+        "format": "png",
+        "bytes": 20075,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/manifest.json",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "85bf39bc0b03cf385db4993e91641cf38a7b1041",
+        "format": "png",
+        "bytes": 8060,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+        "blobSha": "29ce7a6f71a491dc9bfa45ef749d007e4d944579",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 108286,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "blobSha": "2477d6ebbc94a85826152b7e9d8ed02fd7b37d75",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 149133,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+        "blobSha": "cee7625963045002be9da587e48668168e81f581",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 172838,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+        "blobSha": "9e9b9c78ffafe833ebb54cf7802736aa406f5b39",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 70302,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+        "blobSha": "f6383e7e081f5dde2fe3728db7335674a14fbb3e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 93313,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+        "blobSha": "1fad005fdf19c2242bb5b35c2a88e4cc29966817",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 95789,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+          "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      }
     ]
   }
 }

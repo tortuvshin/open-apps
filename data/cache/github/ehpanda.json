@@ -3,8 +3,14 @@
   "slug": "ehpanda",
   "repoUrl": "https://github.com/EhPanda-Team/EhPanda",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:18.671Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:13.841Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:13.841Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "An unofficial E-Hentai App for iOS built with SwiftUI & TCA.",
   "github": {
     "repository": {
@@ -185,7 +191,7 @@
       "contributorsKnown": 22
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:18.671Z",
+      "syncedAt": "2026-09-26T14:38:13.841Z",
       "source": "api"
     },
     "languages": {
@@ -208,10 +214,48 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/EhPanda-Team/EhPanda/releases/latest",
+        "facts": {
+          "tag": "v2.8.1",
+          "assets": [
+            "EhPanda.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/EhPanda-Team/EhPanda/releases/tag/v2.8.1",
+          "fetchedAt": "2026-09-26T14:38:12.303Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/EhPanda-Team/EhPanda/blob/37b979965cf7c4778877c795e8df60c2c0ff6eb3/EhPanda/App/Icons/AppIcon_Default%403x.png",
+        "path": "EhPanda/App/Icons/AppIcon_Default@3x.png",
+        "blobSha": "81ed79689be4cc5840f16ecc5576cd93c24bc481",
+        "format": "png",
+        "bytes": 43497,
+        "width": 180,
+        "height": 180,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/EhPanda-Team/EhPanda/blob/37b979965cf7c4778877c795e8df60c2c0ff6eb3/EhPanda/App/Icons/AppIcon_Default%403x.png",
+          "fetchedAt": "2026-09-26T14:38:12.303Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

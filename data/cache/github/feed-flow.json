@@ -3,8 +3,14 @@
   "slug": "feed-flow",
   "repoUrl": "https://github.com/prof18/feed-flow",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:19.980Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:23.115Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:23.115Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "FeedFlow is a minimalistic RSS Reader available on Android, iOS, macOS, Windows and Linux. Built with Kotlin Multiplatform, Jetpack Compose and SwiftUI.",
   "github": {
     "repository": {
@@ -160,7 +166,7 @@
       "contributorsKnown": 98
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:19.980Z",
+      "syncedAt": "2026-09-26T14:38:23.115Z",
       "source": "api"
     },
     "languages": {
@@ -189,10 +195,169 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/com.prof18.feedflow",
+        "facts": {
+          "appId": "com.prof18.feedflow",
+          "match": "metainfo",
+          "evidence": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/com.prof18.feedflow",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/prof18/feed-flow/releases/latest",
+        "facts": {
+          "tag": "1.17.0-all",
+          "assets": [
+            "FeedFlow-1.17.0-x86_64.AppImage",
+            "feedflow-1.17.0-1.x86_64.rpm",
+            "feedflow_1.17.0_amd64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/prof18/feed-flow/releases/tag/1.17.0-all",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/prof18/feed-flow/releases/latest",
+        "facts": {
+          "tag": "1.17.0-all",
+          "assets": [
+            "FeedFlow-1.17.0.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/prof18/feed-flow/releases/tag/1.17.0-all",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/prof18/feed-flow/releases/latest",
+        "facts": {
+          "tag": "1.17.0-all",
+          "assets": [
+            "FeedFlow-1.17.0.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/prof18/feed-flow/releases/tag/1.17.0-all",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/logo.svg",
+        "path": "assets/logo.svg",
+        "blobSha": "b938fd38b6d6ec56201d6233f82b3e0d19dac4f0",
+        "format": "svg",
+        "bytes": 68773,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/logo.svg",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/iosApp/Assets/Assets.xcassets/miniflux.imageset/icon.svg",
+        "path": "iosApp/Assets/Assets.xcassets/miniflux.imageset/icon.svg",
+        "blobSha": "33ae73a8799efd2ec6ba399af840d51dd41e3f0c",
+        "format": "svg",
+        "bytes": 897,
+        "width": 431,
+        "height": 298,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/iosApp/Assets/Assets.xcassets/miniflux.imageset/icon.svg",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/linux-screenshots/1.home.png",
+        "path": "assets/linux-screenshots/1.home.png",
+        "blobSha": "5f5d274acad55b66ea2876463af44d0852d0fbdf",
+        "format": "png",
+        "bytes": 286774,
+        "width": 1920,
+        "height": 1080,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/linux-screenshots/2.reader.png",
+        "path": "assets/linux-screenshots/2.reader.png",
+        "blobSha": "d83c5232d47f3def2bc77eab5e3283c9c22b674c",
+        "format": "png",
+        "bytes": 421075,
+        "width": 1920,
+        "height": 1080,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/linux-screenshots/3.sync.png",
+        "path": "assets/linux-screenshots/3.sync.png",
+        "blobSha": "07ea297b036b756cdb6d94abbd675f4a41e8d9f5",
+        "format": "png",
+        "bytes": 256503,
+        "width": 1920,
+        "height": 1080,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      },
+      {
+        "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/assets/linux-screenshots/4.list.png",
+        "path": "assets/linux-screenshots/4.list.png",
+        "blobSha": "d55dddb292e93183ce9b7573c086bbcd52551246",
+        "format": "png",
+        "bytes": 247361,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/prof18/feed-flow/blob/42549dbb02f390e3aea9909b0cd5410076199f16/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml",
+          "fetchedAt": "2026-09-26T14:38:21.604Z"
+        }
+      }
     ]
   }
 }

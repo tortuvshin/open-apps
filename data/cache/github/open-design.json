@@ -3,8 +3,14 @@
   "slug": "open-design",
   "repoUrl": "https://github.com/nexu-io/open-design",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:34.878Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:03.021Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:03.021Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:34.878Z",
+      "syncedAt": "2026-09-26T14:40:03.021Z",
       "source": "api"
     },
     "repository": {
       "full_name": "nexu-io/open-design",
-      "stargazers_count": 98133,
-      "forks_count": 11387,
-      "open_issues_count": 1124,
+      "stargazers_count": 98153,
+      "forks_count": 11388,
+      "open_issues_count": 1129,
       "language": "TypeScript",
-      "pushed_at": "2026-09-26T07:42:37Z",
-      "updated_at": "2026-09-26T09:39:52Z",
+      "pushed_at": "2026-09-26T12:24:27Z",
+      "updated_at": "2026-09-26T14:35:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,10 +72,94 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/nexu-io/open-design/releases/latest",
+        "facts": {
+          "tag": "open-design-v0.24.1",
+          "assets": [
+            "open-design-0.24.1-mac-arm64.dmg",
+            "open-design-0.24.1-mac-x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.24.1",
+          "fetchedAt": "2026-09-26T14:40:01.839Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/nexu-io/open-design/releases/latest",
+        "facts": {
+          "tag": "open-design-v0.24.1",
+          "assets": [
+            "open-design-0.24.1-win-x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.24.1",
+          "fetchedAt": "2026-09-26T14:40:01.839Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/app-icon.svg",
+        "path": "apps/web/public/app-icon.svg",
+        "blobSha": "eda9b4d0a18631358f93b1218fc08be1174d8eea",
+        "format": "svg",
+        "bytes": 4964,
+        "width": 533,
+        "height": 533,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/app-icon.svg",
+          "fetchedAt": "2026-09-26T14:40:01.839Z"
+        }
+      },
+      {
+        "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/logo-mark.svg",
+        "path": "apps/web/public/logo-mark.svg",
+        "blobSha": "17fb2d3a2c7f66435055d694846613c3b834b203",
+        "format": "svg",
+        "bytes": 1205,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/logo-mark.svg",
+          "fetchedAt": "2026-09-26T14:40:01.839Z"
+        }
+      },
+      {
+        "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/logo.svg",
+        "path": "apps/web/public/logo.svg",
+        "blobSha": "19980f0fa72f17bc1de3dc050433bb74695f48c5",
+        "format": "svg",
+        "bytes": 980,
+        "width": 82,
+        "height": 82,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/nexu-io/open-design/blob/1b47e60bd46641469fcd8b69c496c4e3a548bc28/apps/web/public/logo.svg",
+          "fetchedAt": "2026-09-26T14:40:01.839Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

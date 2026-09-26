@@ -3,8 +3,14 @@
   "slug": "libretrack",
   "repoUrl": "https://github.com/proninyaroslav/libretrack",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:27.289Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:12.613Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:12.613Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Private, cross-platform package tracking app",
   "github": {
     "repository": {
@@ -165,7 +171,7 @@
       "contributorsKnown": 6
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:27.289Z",
+      "syncedAt": "2026-09-26T14:39:12.613Z",
       "source": "api"
     },
     "languages": {
@@ -195,8 +201,225 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/org.proninyaroslav.libretrack/",
+        "facts": {
+          "appId": "org.proninyaroslav.libretrack",
+          "suggestedVersionCode": 6133,
+          "evidence": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/org.proninyaroslav.libretrack",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/ru.proninyaroslav.libretrack",
+        "facts": {
+          "appId": "ru.proninyaroslav.libretrack",
+          "match": "appstream-urls"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/ru.proninyaroslav.libretrack",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/proninyaroslav/libretrack/releases/latest",
+        "facts": {
+          "tag": "1.7.0",
+          "assets": [
+            "LibreTrack-1.7.0-all.apk",
+            "LibreTrack-1.7.0-arm64-v8a.apk",
+            "LibreTrack-1.7.0-armeabi-v7a.apk",
+            "LibreTrack-1.7.0-x86_64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/proninyaroslav/libretrack/releases/tag/1.7.0",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/proninyaroslav/libretrack/releases/latest",
+        "facts": {
+          "tag": "1.7.0",
+          "assets": [
+            "libretrack_1.7.0_amd64.snap",
+            "libretrack_1.7.0_arm64.snap"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/proninyaroslav/libretrack/releases/tag/1.7.0",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "9fad4db128db158e5e9c7573d33da9fa4fd9caaa",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 46476,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/linux/icons/app-icon.svg",
+        "path": "linux/icons/app-icon.svg",
+        "blobSha": "379845bfc608c28487a7d209caae8f66c4de056e",
+        "format": "svg",
+        "bytes": 7060,
+        "width": 142,
+        "height": 142,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/linux/icons/app-icon.svg",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+        "blobSha": "a7448ea45de9b99742c40f8112d8941393e9316a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 304284,
+        "width": 1440,
+        "height": 3040,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+        "blobSha": "5b2128bbe781a9db7daff64c980c50624eb1aa0c",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 290637,
+        "width": 1440,
+        "height": 3040,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+        "blobSha": "ae88eb8b1ea8e5f47c78a3fc14a2aea33ef36b59",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 237430,
+        "width": 1440,
+        "height": 3040,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+        "blobSha": "ac16e1476e67e2ba4f6cd8ee2d079b37d1368e51",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 360064,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+        "blobSha": "e1f69b77ad56de331710182cca05b09e5af8871a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 182475,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+        "blobSha": "fed01b0aa4e5320483c07e769f8b2650d5420017",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 170857,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+        "blobSha": "bae0dbcbc5957c7cd04452bb38a49a9ee4ef8bf8",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 183965,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+        "blobSha": "5e067136782cef877cba3450d0d4f5db2943bee9",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 131506,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/libretrack/blob/018a216623f003376d9d71d96de052788bb2ec50/fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+          "fetchedAt": "2026-09-26T14:39:10.351Z"
+        }
+      }
     ]
   }
 }

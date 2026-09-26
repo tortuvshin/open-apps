@@ -3,8 +3,14 @@
   "slug": "mise",
   "repoUrl": "https://github.com/devShakib015/mise",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:32.436Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:46.035Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:46.035Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Free, self-hosted restaurant management. POS, kitchen display, QR table ordering, payments and reports — runs on your own machine, works when the internet doesn't.",
   "github": {
     "repository": {
@@ -42,7 +48,7 @@
     "latestReleaseAt": "2026-09-01T08:05:38Z",
     "homepage": "https://devshakib.jumyn.com/apps/mise",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:32.436Z",
+      "syncedAt": "2026-09-26T14:39:46.035Z",
       "source": "api"
     }
   },
@@ -55,9 +61,61 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/devShakib015/mise/releases/latest",
+        "facts": {
+          "tag": "v1.1.0",
+          "assets": [
+            "Mise.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/devShakib015/mise/releases/tag/v1.1.0",
+          "fetchedAt": "2026-09-26T14:39:43.976Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/devShakib015/mise/blob/c56d1c3c5f3a80e22b1db01e80b7e676f67d48a6/app/web/icons/Icon-512.png",
+        "path": "app/web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/devShakib015/mise/blob/c56d1c3c5f3a80e22b1db01e80b7e676f67d48a6/app/web/manifest.json",
+          "fetchedAt": "2026-09-26T14:39:43.976Z"
+        }
+      },
+      {
+        "url": "https://github.com/devShakib015/mise/blob/c56d1c3c5f3a80e22b1db01e80b7e676f67d48a6/app/web/icons/Icon-192.png",
+        "path": "app/web/icons/Icon-192.png",
+        "blobSha": "b749bfef07473333cf1dd31e9eed89862a5d52aa",
+        "format": "png",
+        "bytes": 5292,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/devShakib015/mise/blob/c56d1c3c5f3a80e22b1db01e80b7e676f67d48a6/app/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T14:39:43.976Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }
