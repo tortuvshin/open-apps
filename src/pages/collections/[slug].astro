@@ -9,6 +9,13 @@ import {
 } from '@grove-dev/astro/server';
 import CollectionPage from '../../components/grove/collection-page.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
+import {
+  browseLinkFor,
+  type GuideRecord,
+  isEditorial,
+  refreshedAt,
+  splitBody,
+} from '../../lib/collection-guide';
 
 export async function getStaticPaths() {
   const collections = await loadCollections(process.cwd());
@@ -20,12 +27,19 @@ const collections = await loadCollections(process.cwd());
 const collection = collections.find((c) => c.slug === slug);
 if (!collection) return Astro.redirect('/404');
 
-const entries = recordsToCollectionEntries(
-  (records as { records: unknown[] }).records as never,
-  siteConfig,
-);
+const allRecords = (records as { records: unknown[] }).records;
+const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
 const model = getCollectionPageModel(collection, entries, collections, siteConfig);
-const bodyHtml = getCollectionBodyHtml(collection.content);
+const body = splitBody(getCollectionBodyHtml(collection.content));
+const recordsBySlug = new Map(
+  (allRecords as GuideRecord[]).map((record) => [record.slug, record] as const),
+);
+const editorial = isEditorial(model.entries);
+const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'apps';
+// Ranking presets that sort on activity get a one-line reminder of what
+// that means; the full formula stays in the selection note.
+const activityRanked =
+  collection.ranking?.preset === 'active' || collection.ranking?.preset === 'recency';
 ---
 <BaseLayout
   title={model.seo.title}
@@ -38,8 +52,17 @@ const bodyHtml = getCollectionBodyHtml(collection.content);
 >
   <CollectionPage
     model={model}
-    bodyHtml={bodyHtml}
-    eyebrow={model.collection.kind === "curated" ? "Curated collection" : "Generated collection"}
+    leadHtml={body.lead}
+    comparisonAnchor={body.tableAnchor}
+    bodyHtml={body.rest}
+    editorial={editorial}
+    eyebrow={editorial ? "Editor's picks" : "Live view"}
+    records={recordsBySlug}
+    browse={editorial ? undefined : browseLinkFor(collection, routeSlug)}
+    refreshedAt={editorial ? undefined : refreshedAt(model.entries, recordsBySlug)}
+    activityNote={activityRanked
+      ? "Ranked by repository activity — recent releases, pushes and commits — not by star growth."
+      : undefined}
     countNoun={{
       singular: siteConfig.blueprintConfig?.labelSingular ?? "item",
       plural: siteConfig.blueprintConfig?.labelPlural ?? "items",
