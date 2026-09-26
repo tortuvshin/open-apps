@@ -111,7 +111,9 @@ const title = recordTitle(
 // Quick-find row and hidden aliases: the search-intent title ("Oinkoin –
 // Open Source Offline Expense Tracker"), what it is an alternative to,
 // its stack and tags — words people type that the body may not contain.
-const indexable = !(seo.noindex || hidden);
+// A record the index policy excludes (no body or no review yet) is kept
+// out of search engines, not away from readers: it stays in quick-find.
+const searchable = !hidden;
 const taxonomy = siteConfig.taxonomy;
 const alternativeTo = (record.relations ?? [])
   .filter((relation) => relation.type === 'alternative-to')
@@ -138,13 +140,14 @@ const searchMeta = {
   imageAlt={seo.imageAlt}
   site={siteConfig}
   noindex={seo.noindex || hidden}
+  robots={hidden ? undefined : seo.robots}
   type="article"
   jsonLd={seo.jsonLd}
   submitHref="/submit"
   submitLabel={`Submit ${itemSingular}`}
 >
-  <article class="py-8 sm:py-10" data-pagefind-body={indexable ? "" : undefined}>
-    {indexable && <SearchMeta type="App" meta={searchMeta} />}
+  <article class="py-8 sm:py-10" data-pagefind-body={searchable ? "" : undefined}>
+    {searchable && <SearchMeta type="App" meta={searchMeta} />}
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
       <RecordHeader
         detail={detail}

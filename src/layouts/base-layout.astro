@@ -102,6 +102,8 @@ interface Props {
   site: Site;
   type?: 'website' | 'article' | 'profile';
   noindex?: boolean;
+  /** Exact robots value (a page model's `seo.robots`); wins over `noindex`. */
+  robots?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   /** Open Graph / Twitter image path (e.g. "/og/records/foo.png").
    * Defaults to the site-wide /og-image.svg inside <Seo />. */
@@ -124,6 +126,7 @@ const {
   site,
   type,
   noindex,
+  robots,
   jsonLd,
   image,
   imageAlt,
@@ -248,6 +251,7 @@ const favicon =
       description={description}
       type={type}
       noindex={noindex}
+      robots={robots}
       jsonLd={jsonLd}
       {...(image ? { image } : {})}
       imageAlt={imageAlt}

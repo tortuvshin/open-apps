@@ -23,6 +23,19 @@ export default defineConfig({
     googleAnalyticsId: "G-MB9GWW1LVX",
   },
 
+  // Index only what a person wrote or reviewed. Most records are
+  // imported GitHub metadata; indexing a page per record is the
+  // scaled-content pattern search engines discount. Excluded pages
+  // still render (noindex,follow), stay in quick-find and leave the
+  // sitemap. A record needs a Markdown body and `curation.reviewed`;
+  // a collection an `editorial.introduction`; a category or stack a
+  // `description` in data/taxonomy.
+  seo: {
+    recordIndexPolicy: "editorial-and-reviewed",
+    collectionIndexPolicy: "editorial",
+    taxonomyIndexPolicy: "editorial",
+  },
+
   nav: [
     { label: "Home", href: "/" },
     { label: "Browse", href: "/apps/" },
