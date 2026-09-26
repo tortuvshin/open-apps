@@ -14,8 +14,8 @@ This list is for the other case: discovering **real, production-grade
 apps** — not tutorials, boilerplates, or package-only libraries — and
 understanding what each one is worth your time for.
 
-Every entry is a human-curated YAML record in `data/records/`, kept
-fresh by weekly GitHub metadata syncs. To add an app, use the
+Every entry is one human-curated Markdown file in `content/records/`,
+kept fresh by weekly GitHub metadata syncs. To add an app, use the
 [submission form](https://openappscout.com/submit) or open a pull
 request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -64,7 +64,7 @@ const helpItems = [
   },
   {
     title: "Improve an app's review notes",
-    body: 'The best-for, why-listed and caveat lines on each app page are plain YAML in data/records/<slug>.yml.',
+    body: 'Each app is one Markdown file, content/records/<slug>.md: the why-listed, best-for and caveat lines up top, the review below.',
     href: repo ? `${repo}/blob/main/CONTRIBUTING.md#update-an-app` : undefined,
     label: 'How to update an app',
     external: true,
@@ -72,7 +72,7 @@ const helpItems = [
   {
     title: 'Fix metadata',
     body: 'A wrong description, category, stack, platform or install link is a one-file edit and a pull request.',
-    href: repo ? `${repo}/tree/main/data/records` : undefined,
+    href: repo ? `${repo}/tree/main/content/records` : undefined,
     label: 'Browse the record files',
     external: true,
   },

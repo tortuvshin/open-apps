@@ -33,7 +33,8 @@ running, studying, comparing, or contributing to.
 
 ## Open data
 
-Each app is plain YAML under `data/records/`. Taxonomy, product pages,
+Each app is one Markdown file under `content/records/`: a short YAML
+frontmatter for the facts, then the review. Taxonomy, product pages,
 analytics, and deployment configuration also live in this repository.
 Grove supplies reusable contracts, UI, and maintenance commands
 without owning the Open App Scout product. Anyone can suggest an app, fix
@@ -43,10 +44,10 @@ is no proprietary backend and no opaque database.
 ## How to contribute
 
 - **Suggest a new app** — open the [submission page](/submit) or send
-  a pull request that adds a `data/records/<slug>.yml` file.
-- **Fix incorrect metadata** — every YAML carries human-curated and
-  automation-synced fields; the GitHub sync opens reviewable PRs when
-  upstream data changes.
+  a pull request that adds one `content/records/<slug>.md` file.
+- **Fix incorrect metadata** — each record file holds the human-curated
+  fields; GitHub data lives in `data/cache/github/`, and the weekly
+  sync opens a reviewable PR when it changes.
 - **Improve the directory** — page copy, taxonomy, and styling all
   live in this repository.
 

@@ -2,14 +2,16 @@
 /**
  * A fork of the registry's `components/grove/submission-client.astro`.
  *
- * Kept deliberately: the upstream client does not yet cover several
- * schema realities this directory depends on: `distribution.channels` entries are objects with
- * a required store URL, records carry a `sourceDescription` distinct
- * from the curator-written `description`, `source.type: submit` exists
- * for form submissions, and long-form notes live in
- * `content/records/<slug>.md` referenced by the record's `content`
- * field. This client emits that full record shape and reports every
- * validation issue instead of only the first.
+ * Kept deliberately: a record here is ONE Markdown file,
+ * `content/records/<slug>.md` — contributor-owned frontmatter plus the
+ * review shown on the app page — and the upstream client still emits a
+ * YAML record. This client writes that single file (so a contributor's PR
+ * has exactly one file), keeps GitHub's own description as
+ * `sourceDescription`, emits `distribution.channels` objects with a
+ * required URL (unverified until a reviewer approves them), and reports
+ * every validation issue instead of only the first. Fields the site
+ * derives or reviewers own (slug, kind, curation, visibility, source,
+ * links.github) are left out.
  *
  * `grove update` classifies this file as locally modified and will never
  * overwrite it. Re-check against upstream when the registry's submit
@@ -54,16 +56,17 @@ const {
     tags: $("#item-tags"),
     license: $("#item-license"),
     website: $("#item-website"),
+    whyUseful: $("#why-useful"),
     bestFor: $("#best-for"),
-    includeNotes: $("#include-notes"),
+    watchOut: $("#watch-out"),
+    review: $("#item-review"),
   };
   const fetchButton = $("#fetch-repo");
   const preview = $("#yaml-preview");
   const status = $("#submit-status");
   const copyButton = $("#copy-yaml");
   const openPrLink = $("#open-pr-link");
-  const copyNotesButton = $("#copy-notes");
-  const openNotesLink = $("#open-notes-link");
+  const recordPathLabel = $("#record-path");
   const channelRowsBox = $("#channel-rows");
   const channelTemplate = $("#channel-row-template");
   const addChannelButton = $("#add-channel");
@@ -128,47 +131,39 @@ const {
       .filter((entry) => entry.type || entry.url);
 
   const currentSlug = () => slugify(inputs.slug?.value ?? repository?.name ?? "");
-  const notesPath = () => `content/records/${currentSlug()}.md`;
-  const includeNotes = () => Boolean(inputs.includeNotes?.checked);
+  const recordPath = () => `content/records/${currentSlug()}.md`;
+  const listOf = (input) =>
+    String(input?.value ?? "").split("\n").map((item) => item.trim()).filter(Boolean);
+  const yamlList = (key, values) => (values.length ? [`${key}:`, lines(values.map(quote))] : []);
 
-  const generateYaml = () => {
+  // Frontmatter: only what a contributor owns. The site derives the slug
+  // (file name), kind (blueprint) and GitHub facts (sync cache); reviewers
+  // own curation, visibility and channel verification.
+  const generateFrontmatter = () => {
     if (!repository) return "";
-    const parsed = parseRepo(inputs.repo?.value ?? "");
-    if (!parsed) return "";
     const tags = String(inputs.tags?.value ?? "").split(",").map((tag) => tag.trim()).filter(Boolean);
     const platforms = selectedPlatforms();
-    const bestFor = String(inputs.bestFor?.value ?? "").split("\n").map((item) => item.trim()).filter(Boolean);
     const description = String(inputs.description?.value ?? "").trim();
     const sourceDescription = String(repository.description ?? "").trim();
     const channels = channelEntries().filter((entry) => entry.type && entry.url);
     return [
-      "kind: project",
-      `slug: ${currentSlug()}`,
-      // The day the record joins the directory. Without it the
-      // `recently-added` sort has nothing to sort a new record on and
-      // drops it to the bottom of the list built to show it off.
-      `addedAt: ${new Date().toISOString().slice(0, 10)}`,
+      "---",
       `name: ${quote(inputs.name?.value ?? "")}`,
+      `repoUrl: ${repository.html_url}`,
+      ...(fields.category && inputs.category?.value ? [`category: ${inputs.category.value}`] : []),
+      ...(fields.stack && inputs.stack?.value ? [`stack: ${inputs.stack.value}`] : []),
       `description: ${quote(description)}`,
-      // Preserve GitHub's own description separately so curators can
-      // rewrite `description` without losing what the project says.
+      // GitHub's own words, kept apart so curators can rewrite `description`.
       ...(sourceDescription && sourceDescription !== description
         ? [`sourceDescription: ${quote(sourceDescription)}`]
         : []),
-      ...(fields.category && inputs.category?.value ? [`category: ${inputs.category.value}`] : []),
-      "projectType: real-app",
-      ...(fields.stack && inputs.stack?.value ? [`stack: ${inputs.stack.value}`] : []),
-      ...(fields.platforms ? ["platforms:", platforms.length ? lines(platforms) : "  []"] : []),
-      ...(fields.tags ? ["tags:", tags.length ? lines(tags) : "  []"] : []),
+      ...(fields.platforms && platforms.length ? ["platforms:", lines(platforms)] : []),
+      ...(fields.tags && tags.length ? ["tags:", lines(tags)] : []),
       ...(fields.license && inputs.license?.value ? ["licenses:", lines([inputs.license.value])] : []),
-      `repoUrl: ${repository.html_url}`,
-      "links:",
-      `  github: ${repository.html_url}`,
-      ...(inputs.website?.value ? [`  website: ${inputs.website.value}`] : []),
-      ...(includeNotes() ? [`content: ./${notesPath()}`] : []),
-      "distribution:",
+      ...(inputs.website?.value ? ["links:", `  website: ${inputs.website.value}`] : ["links: {}"]),
       ...(channels.length
         ? [
+            "distribution:",
             "  channels:",
             ...channels.flatMap((entry) => [
               `    - type: ${entry.type}`,
@@ -178,43 +173,31 @@ const {
               "      verified: false",
             ]),
           ]
-        : ["  channels: []"]),
-      "bestFor:", bestFor.length ? lines(bestFor) : "  []",
-      "whyListed: []",
-      "caveats: []",
-      "source:",
-      "  type: submit",
-      "  provider: github",
-      `  owner: ${parsed.owner}`,
-      `  repo: ${parsed.repo}`,
-      `  url: ${repository.html_url}`,
-      "curation:",
-      "  reviewed: false",
-      "  labels: []",
-      "  lenses: []",
-      "visibility: keep",
+        : []),
+      ...yamlList("whyListed", listOf(inputs.whyUseful)),
+      ...yamlList("bestFor", listOf(inputs.bestFor)),
+      ...yamlList("caveats", listOf(inputs.watchOut)),
+      // The day the record joins the directory; `recently-added` sorts on it.
+      `addedAt: ${new Date().toISOString().slice(0, 10)}`,
+      "---",
       "",
     ].join("\n");
+  };
+  const generateBody = () => String(inputs.review?.value ?? "").trim();
+  const generateRecord = () => {
+    const frontmatter = generateFrontmatter();
+    if (!frontmatter) return "";
+    const body = generateBody();
+    return body ? `${frontmatter}\n${body}\n` : frontmatter;
   };
 
-  const generateNotes = () => {
-    if (!repository) return "";
-    const name = String(inputs.name?.value ?? repository.name ?? "").trim();
-    const description = String(inputs.description?.value ?? "").trim();
-    return [
-      `# ${name}`,
-      "",
-      description || "What the app does, in two to four sentences.",
-      "",
-      "<!--",
-      "Expand this file into a short review before opening the PR:",
-      "what the app does, why the codebase is worth reading, notable",
-      "architecture decisions, and any caveats. See",
-      "content/records/joplin.md for a strong example.",
-      "-->",
-      "",
-    ].join("\n");
-  };
+  // GitHub's new-file page takes the content in the URL, and very long
+  // URLs are cut off. Past this length the link carries the frontmatter
+  // and the review goes to the clipboard to paste below it.
+  const MAX_NEW_FILE_URL = 7000;
+  const newFileUrl = (value) =>
+    `${repoUrl}/new/main?${new URLSearchParams({ filename: recordPath(), value })}`;
+  let bodyNeedsPaste = false;
 
   const validationIssues = () => {
     const issues = [];
@@ -224,6 +207,9 @@ const {
     const description = String(inputs.description?.value ?? "");
     if (description.trim().length < 40) {
       issues.push("Description must be at least 40 characters.");
+    }
+    if (listOf(inputs.whyUseful).length === 0) {
+      issues.push("Say why the app is useful — at least one line.");
     }
     if (fields.category && inputs.category) {
       const value = inputs.category.value;
@@ -265,29 +251,27 @@ const {
   };
 
   const refresh = () => {
-    const yaml = generateYaml();
-    if (preview) preview.textContent = yaml || "Paste a GitHub URL to generate a draft.";
-    if (!yaml) return;
+    const record = generateRecord();
+    if (preview) preview.textContent = record || "Paste a GitHub URL to generate a draft.";
+    if (recordPathLabel) recordPathLabel.textContent = record ? recordPath() : "";
+    if (!record) return;
     const issues = validationIssues();
     if (issues.length > 0) {
       setStatus(issues.map((issue) => `• ${issue}`).join("\n"), "error");
-      [openPrLink, copyButton, copyNotesButton, openNotesLink].forEach(disable);
+      [openPrLink, copyButton].forEach(disable);
       return;
     }
-    const yamlParams = new URLSearchParams({ filename: `data/records/${currentSlug()}.yml`, value: yaml });
-    if (openPrLink) openPrLink.href = `${repoUrl}/new/main?${yamlParams}`;
+    const full = newFileUrl(record);
+    bodyNeedsPaste = full.length > MAX_NEW_FILE_URL;
+    if (openPrLink) openPrLink.href = bodyNeedsPaste ? newFileUrl(generateFrontmatter()) : full;
     enable(openPrLink);
     enable(copyButton);
-    if (includeNotes()) {
-      const notesParams = new URLSearchParams({ filename: notesPath(), value: generateNotes() });
-      if (openNotesLink) openNotesLink.href = `${repoUrl}/new/main?${notesParams}`;
-      enable(copyNotesButton);
-      enable(openNotesLink);
-      setStatus(`Draft is valid. Open the PR with the YAML record, then add ${notesPath()} in the same branch.`, "success");
-    } else {
-      [copyNotesButton, openNotesLink].forEach(disable);
-      setStatus("Draft is valid. Open the PR with the YAML record.", "success");
-    }
+    setStatus(
+      bodyNeedsPaste
+        ? `Draft is valid. The review is too long for GitHub's link: "Open pull request" copies it to your clipboard — paste it below the frontmatter in ${recordPath()}.`
+        : `Draft is valid. "Open pull request" creates ${recordPath()} in one step.`,
+      "success",
+    );
   };
 
   const addChannelRow = () => {
@@ -354,7 +338,7 @@ const {
       if (inputs.website) inputs.website.value = repository.homepage || "";
       const duplicate = inputs.slug ? slugSet.has(inputs.slug.value) : false;
       setStatus(
-        duplicate ? "That slug already exists. Choose another or update the existing record." : "Draft generated. Edit any field and the YAML will refresh.",
+        duplicate ? "That slug already exists. Choose another or update the existing record." : "Draft generated. Answer the questions and the file will refresh.",
         duplicate ? "warn" : "success",
       );
       refresh();
@@ -369,18 +353,19 @@ const {
   $("#submit-form")?.addEventListener("change", refresh);
   copyButton?.addEventListener("click", async () => {
     try {
-      await navigator.clipboard.writeText(generateYaml());
-      setStatus("Copied YAML to clipboard.", "success");
+      await navigator.clipboard.writeText(generateRecord());
+      setStatus(`Copied ${recordPath()} to the clipboard.`, "success");
     } catch {
-      setStatus("Couldn't copy automatically. Select the YAML and copy it.", "error");
+      setStatus("Couldn't copy automatically. Select the preview and copy it.", "error");
     }
   });
-  copyNotesButton?.addEventListener("click", async () => {
+  openPrLink?.addEventListener("click", async () => {
+    if (!bodyNeedsPaste) return;
     try {
-      await navigator.clipboard.writeText(generateNotes());
-      setStatus(`Copied the notes skeleton. Save it as ${notesPath()} in your PR.`, "success");
+      await navigator.clipboard.writeText(generateBody());
+      setStatus(`Review copied — paste it below the frontmatter in ${recordPath()}.`, "success");
     } catch {
-      setStatus("Couldn't copy automatically. Use the create-file link instead.", "error");
+      setStatus("Couldn't copy the review automatically. Copy it from the form and paste it into the file.", "error");
     }
   });
 </script>

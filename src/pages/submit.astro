@@ -99,9 +99,9 @@ const pleaseAvoid = [
         {
           [
             ["1", "Paste a GitHub URL"],
-            ["2", "Review the draft"],
-            ["3", "Open a pull request"],
-            ["4", "Add the notes file"],
+            ["2", "Answer three questions"],
+            ["3", "Check the preview"],
+            ["4", "Open one pull request"],
           ].map(([number, heading]) => (
             <li class="flex items-center gap-1.5">
               <span class="inline-flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full border border-border font-mono text-[10px] font-semibold text-foreground">
@@ -352,35 +352,43 @@ const pleaseAvoid = [
             <label class="grid gap-1.5"
               ><span
                 class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Best for</span
-              ><textarea
-                id="best-for"
+                >Why is it useful?</span
+              ><span class="text-2xs text-muted-foreground">Required. What makes it worth using or studying — one point per line.</span><textarea
+                id="why-useful"
                 rows="3"
                 class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                placeholder="One use case per line"></textarea></label
+                placeholder="Works fully offline and keeps data on the device"></textarea></label
             >
-
-            <label
-              class="flex items-start gap-2 rounded-md border border-ink-200 px-3 py-2.5 text-sm dark:border-ink-800"
+            <label class="grid gap-1.5"
+              ><span
+                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
+                >Who is it for?</span
+              ><span class="text-2xs text-muted-foreground">Optional. One audience or use case per line.</span><textarea
+                id="best-for"
+                rows="2"
+                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
+                placeholder="People who want a private budget tracker"></textarea></label
             >
-              <input
-                id="include-notes"
-                type="checkbox"
-                checked
-                class="mt-0.5 h-4 w-4"
-              />
-              <span class="grid gap-0.5">
-                <span class="font-medium text-foreground"
-                  >Include long-form notes</span
-                >
-                <span class="text-2xs text-muted-foreground"
-                  >Adds <code>content: ./content/records/&lt;slug&gt;.md</code>
-                  to the record. Your PR must then also add that Markdown
-                  file — a skeleton is generated for you in the panel on the
-                  right.</span
-                >
-              </span>
-            </label>
+            <label class="grid gap-1.5"
+              ><span
+                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
+                >What should people watch out for?</span
+              ><span class="text-2xs text-muted-foreground">Optional. Limits, missing features or licence caveats — one per line.</span><textarea
+                id="watch-out"
+                rows="2"
+                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
+                placeholder="No cloud sync between devices"></textarea></label
+            >
+            <label class="grid gap-1.5"
+              ><span
+                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
+                >Detailed review shown on the app page</span
+              ><span class="text-2xs text-muted-foreground">Optional. What the app does, how it is built, what you learned using it. Headings and lists are fine.</span><textarea
+                id="item-review"
+                rows="6"
+                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
+                placeholder="Oinkoin keeps expenses and budgets locally…"></textarea></label
+            >
           </div>
         </form>
 
@@ -451,7 +459,7 @@ const pleaseAvoid = [
               <h2
                 class="m-0 text-base font-semibold text-ink-900 dark:text-ink-100"
               >
-                YAML draft
+                Record file
               </h2>
               <div class="flex items-center gap-2">
                 <button
@@ -462,7 +470,7 @@ const pleaseAvoid = [
                     "sm",
                     "whitespace-nowrap pointer-events-none opacity-50",
                   )}
-                  disabled>Copy YAML</button
+                  disabled>Copy file</button
                 >
                 <a
                   id="open-pr-link"
@@ -473,40 +481,11 @@ const pleaseAvoid = [
                     "secondary",
                     "sm",
                     "whitespace-nowrap pointer-events-none opacity-50",
-                  )}>Open PR draft</a
+                  )}>Open pull request</a
                 >
               </div>
             </div>
-            <div
-              class="mt-3 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-3"
-            >
-              <span class="text-2xs font-medium text-muted-foreground"
-                >Notes file (<code>content/records/…</code>)</span
-              >
-              <div class="flex items-center gap-2">
-                <button
-                  id="copy-notes"
-                  type="button"
-                  class={buttonClass(
-                    "secondary",
-                    "sm",
-                    "whitespace-nowrap pointer-events-none opacity-50",
-                  )}
-                  disabled>Copy skeleton</button
-                >
-                <a
-                  id="open-notes-link"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class={buttonClass(
-                    "secondary",
-                    "sm",
-                    "whitespace-nowrap pointer-events-none opacity-50",
-                  )}>Create file</a
-                >
-              </div>
-            </div>
+            <p id="record-path" class="m-0 mt-2 font-mono text-2xs text-muted-foreground"></p>
             <pre
               class="mt-4 min-h-0 flex-1 overflow-auto rounded-md border border-ink-200 bg-ink-50 p-3 text-xs leading-relaxed text-ink-800 dark:border-ink-800 dark:bg-ink-900/60 dark:text-ink-200"><code id="yaml-preview">Paste a GitHub URL to generate a draft.</code></pre>
             <p
