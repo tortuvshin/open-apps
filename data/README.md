@@ -11,6 +11,10 @@ will clobber the changes:
 - `generated/contributors.json` — auto-generated list of human
   contributors to this repository (bots filtered out at the
   framework level). Produced by the `sync-contributors` workflow.
+- `generated/recent-pulls.json` — the latest merged pull requests
+  from people other than the repository owner, shown as "Recent
+  collaboration" on /contributors/. Written by
+  `scripts/sync-recent-pulls.mjs` in the same workflow.
 
 Files you CAN hand-edit:
 

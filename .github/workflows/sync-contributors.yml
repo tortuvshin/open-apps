@@ -22,7 +22,10 @@ jobs:
       - run: pnpm exec grove sync contributors
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: node scripts/sync-recent-pulls.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "chore(data): sync contributors"
-          file_pattern: data/generated/contributors.json data/generated/repo-stats.json
+          file_pattern: data/generated/contributors.json data/generated/repo-stats.json data/generated/recent-pulls.json
