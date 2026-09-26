@@ -3,8 +3,14 @@
   "slug": "flutter-woocommerce-app",
   "repoUrl": "https://github.com/woosignal/flutter-woocommerce-app",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:21.679Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:33.250Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:33.250Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "WooCommerce App template that uses Flutter. Integrated to work with WooCommerce stores, connect and create an IOS and Android app from Flutter for IOS and Android",
   "github": {
     "repository": {
@@ -192,7 +198,7 @@
       "contributorsKnown": 7
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:21.679Z",
+      "syncedAt": "2026-09-26T14:38:33.250Z",
       "source": "api"
     },
     "languages": {
@@ -218,10 +224,30 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/woosignal/flutter-woocommerce-app/blob/3690fbec4403dab1f6cd706c7ef4c9645703753b/LabelStoreMax/public/app_icon/appicon.png",
+        "path": "LabelStoreMax/public/app_icon/appicon.png",
+        "blobSha": "a5c257cd14f5cb89d8717f63d1201fede747749c",
+        "format": "png",
+        "bytes": 143992,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/woosignal/flutter-woocommerce-app/blob/3690fbec4403dab1f6cd706c7ef4c9645703753b/LabelStoreMax/public/app_icon/appicon.png",
+          "fetchedAt": "2026-09-26T14:38:31.265Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

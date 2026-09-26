@@ -3,18 +3,24 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:16.382Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:37:57.976Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:37:57.976Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "🎨 Powerful, minimalistic, cross-platform, opensource note-taking app",
   "github": {
     "repository": {
       "full_name": "LinwoodDev/Butterfly",
-      "stargazers_count": 2036,
+      "stargazers_count": 2037,
       "forks_count": 151,
       "open_issues_count": 55,
       "language": "Dart",
       "pushed_at": "2026-09-25T12:30:45Z",
-      "updated_at": "2026-09-26T03:44:18Z",
+      "updated_at": "2026-09-26T13:23:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -47,7 +53,7 @@
     "latestReleaseAt": "2026-08-10T12:27:46Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:16.382Z",
+      "syncedAt": "2026-09-26T14:37:57.976Z",
       "source": "api"
     }
   },
@@ -60,10 +66,202 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/dev.linwood.butterfly/",
+        "facts": {
+          "appId": "dev.linwood.butterfly",
+          "suggestedVersionCode": 192,
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/android/app/build.gradle.kts"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/dev.linwood.butterfly",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/dev.linwood.butterfly",
+        "facts": {
+          "appId": "dev.linwood.butterfly",
+          "match": "metainfo",
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/dev.linwood.butterfly",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
+        "facts": {
+          "tag": "v2.5.5",
+          "assets": [
+            "linwood-butterfly-android-arm-legacy.apk",
+            "linwood-butterfly-android-arm.apk",
+            "linwood-butterfly-android-arm64-legacy.apk",
+            "linwood-butterfly-android-arm64.apk",
+            "linwood-butterfly-android-legacy.apk",
+            "linwood-butterfly-android-x86_64-legacy.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.5.5",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
+        "facts": {
+          "tag": "v2.5.5",
+          "assets": [
+            "linwood-butterfly-ios.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.5.5",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
+        "facts": {
+          "tag": "v2.5.5",
+          "assets": [
+            "linwood-butterfly-linux-alternative-arm64.AppImage",
+            "linwood-butterfly-linux-alternative-arm64.deb",
+            "linwood-butterfly-linux-alternative-arm64.rpm",
+            "linwood-butterfly-linux-alternative-x86_64.AppImage",
+            "linwood-butterfly-linux-alternative-x86_64.deb",
+            "linwood-butterfly-linux-alternative-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.5.5",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
+        "facts": {
+          "tag": "v2.5.5",
+          "assets": [
+            "linwood-butterfly-macos.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.5.5",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
+        "facts": {
+          "tag": "v2.5.5",
+          "assets": [
+            "linwood-butterfly-windows-setup-arm64.exe",
+            "linwood-butterfly-windows-setup-x86_64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.5.5",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/web_nightly/windows11/Wide310x150Logo.scale-400.png",
+        "path": "app/web_nightly/windows11/Wide310x150Logo.scale-400.png",
+        "blobSha": "e75c9d794f6921052651f606d3a8b33d6ad7685d",
+        "format": "png",
+        "bytes": 11889,
+        "width": 1240,
+        "height": 600,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/web_nightly/manifest.json",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/web/windows11/Wide310x150Logo.scale-400.png",
+        "path": "app/web/windows11/Wide310x150Logo.scale-400.png",
+        "blobSha": "efa4ee5dcde853dde576b8c4e96d576d675be48f",
+        "format": "png",
+        "bytes": 16453,
+        "width": 1240,
+        "height": 600,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/web/manifest.json",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/docs/src/assets/img/home.png",
+        "path": "docs/src/assets/img/home.png",
+        "blobSha": "ef7ab7c0f529e18d727a5eb4e246b41eaa006283",
+        "format": "png",
+        "bytes": 20813,
+        "width": 1340,
+        "height": 818,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      },
+      {
+        "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/docs/src/assets/img/main.png",
+        "path": "docs/src/assets/img/main.png",
+        "blobSha": "b91b0017bc5bdad34b6c6852cf9a826ce94dece6",
+        "format": "png",
+        "bytes": 22880,
+        "width": 1340,
+        "height": 818,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/LinwoodDev/Butterfly/blob/f899039b90095d4b3db7d41912952a7c49170179/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml",
+          "fetchedAt": "2026-09-26T14:37:56.556Z"
+        }
+      }
     ]
   }
 }

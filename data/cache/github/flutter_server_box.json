@@ -3,8 +3,14 @@
   "slug": "flutter_server_box",
   "repoUrl": "https://github.com/lollipopkit/flutter_server_box",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:21.978Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:36.017Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:36.017Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "ServerBox - server status & toolbox",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:21.978Z",
+      "syncedAt": "2026-09-26T14:38:36.017Z",
       "source": "api"
     },
     "repository": {
       "full_name": "lollipopkit/flutter_server_box",
-      "stargazers_count": 8746,
+      "stargazers_count": 8748,
       "forks_count": 562,
-      "open_issues_count": 16,
+      "open_issues_count": 17,
       "language": "Dart",
-      "pushed_at": "2026-09-26T08:59:29Z",
-      "updated_at": "2026-09-26T06:01:06Z",
+      "pushed_at": "2026-09-26T14:29:13Z",
+      "updated_at": "2026-09-26T14:05:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -54,10 +60,182 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/tech.lolli.toolbox/",
+        "facts": {
+          "appId": "tech.lolli.toolbox",
+          "suggestedVersionCode": 146603,
+          "evidence": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/tech.lolli.toolbox",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
+        "facts": {
+          "tag": "v1.0.1617",
+          "assets": [
+            "ServerBox_v1.0.1617_amd64.apk",
+            "ServerBox_v1.0.1617_arm.apk",
+            "ServerBox_v1.0.1617_arm64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
+        "facts": {
+          "tag": "v1.0.1617",
+          "assets": [
+            "ServerBox_v1.0.1617_NoSign.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
+        "facts": {
+          "tag": "v1.0.1617",
+          "assets": [
+            "ServerBox_v1.0.1617_amd64.AppImage",
+            "ServerBox_v1.0.1617_legacy_amd64.AppImage"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
+        "facts": {
+          "tag": "v1.0.1617",
+          "assets": [
+            "ServerBox-1.0.1617-amd64.dmg",
+            "ServerBox-1.0.1617-arm64.dmg",
+            "ServerBox_v1.0.1617_NoSign_amd64.dmg",
+            "ServerBox_v1.0.1617_NoSign_arm64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "2ab34c7a3b4d4400d647594a3a6786cec1331aa7",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 15362,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "blobSha": "a02ab189f23946f7108529fe25775fa8b9816212",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 49262,
+        "width": 662,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "blobSha": "9fb7664eba173e847a360827b60f998255926b75",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 83374,
+        "width": 662,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "blobSha": "0d002c81826c96c3e13b9aad480905ab56bcf53b",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 227750,
+        "width": 662,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      },
+      {
+        "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+        "blobSha": "a3521d2a12e5e57e8f3fc2bd0cbc4cd4396a7937",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 74081,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/lollipopkit/flutter_server_box/blob/e802a9762a43512b596c6ffb9323b7b6c84b88bc/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+          "fetchedAt": "2026-09-26T14:38:33.608Z"
+        }
+      }
     ]
   }
 }

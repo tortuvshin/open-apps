@@ -3,8 +3,14 @@
   "slug": "memex",
   "repoUrl": "https://github.com/memex-lab/memex",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:31.482Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:39.109Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:39.109Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open-source, local-first AI journal app for iOS and Android. Capture text, photos, and voice — AI agents organize them into timeline cards and insights. Your data stays on your device. Bring your own LLM (OpenAI, Claude, Gemini, Ollama, and more).",
   "github": {
     "repository": {
@@ -195,7 +201,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:31.482Z",
+      "syncedAt": "2026-09-26T14:39:39.109Z",
       "source": "api"
     },
     "languages": {
@@ -225,10 +231,48 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/memex-lab/memex/releases/latest",
+        "facts": {
+          "tag": "v1.0.37",
+          "assets": [
+            "app-global-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/memex-lab/memex/releases/tag/v1.0.37",
+          "fetchedAt": "2026-09-26T14:39:36.954Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/memex-lab/memex/blob/4401c41603dcbf603b8e215ba4d7370b7773c954/assets/icon.png",
+        "path": "assets/icon.png",
+        "blobSha": "ee5e43f0e10447451de1b4fe4c36772592ad6175",
+        "format": "png",
+        "bytes": 121550,
+        "width": 570,
+        "height": 517,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/memex-lab/memex/blob/4401c41603dcbf603b8e215ba4d7370b7773c954/assets/icon.png",
+          "fetchedAt": "2026-09-26T14:39:36.954Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

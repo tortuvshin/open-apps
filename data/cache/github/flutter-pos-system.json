@@ -3,8 +3,14 @@
   "slug": "flutter-pos-system",
   "repoUrl": "https://github.com/evan361425/flutter-pos-system",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:21.332Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:30.943Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:30.943Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "An open-source Flutter POS system designed for small restaurants and businesses.",
   "github": {
     "repository": {
@@ -33,7 +39,7 @@
     "latestReleaseAt": "2026-08-07T13:41:35Z",
     "homepage": "https://evan361425.github.io/flutter-pos-system/",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:21.332Z",
+      "syncedAt": "2026-09-26T14:38:30.943Z",
       "source": "api"
     },
     "html": {
@@ -51,10 +57,142 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "android/fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "720864bbdc09d7555bcfde2ad17ff57bd5929ce9",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 51179,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/1_analysis_chart.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/1_analysis_chart.png",
+        "blobSha": "9f263f33e833e1a5545d89b3723824cd31b850b5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 259684,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/1_analysis_chart.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/2_analysis_chart_dark.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/2_analysis_chart_dark.png",
+        "blobSha": "2a845eddd615d0ed8ff862b79c52de2baa718428",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 268881,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/2_analysis_chart_dark.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/3_menu_product.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/3_menu_product.png",
+        "blobSha": "735e89b107eb1a1cb535201e20620ac282793f5a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 865140,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/3_menu_product.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/4_order_action.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/4_order_action.png",
+        "blobSha": "786c97b4b65e16006cb8fdddb9b9f7874061202a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1122795,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/4_order_action.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/5_order_details.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/5_order_details.png",
+        "blobSha": "5a47205451d8b58b139beaf4003b45af3cb602d9",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 204536,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/5_order_details.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/6_more.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/6_more.png",
+        "blobSha": "7d6eb03274e066cd90b886dfb5be4b48eb459006",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 405765,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/6_more.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/7_inventory.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/7_inventory.png",
+        "blobSha": "e6371c249ff0a461bb05a85a704e7ec23ee61bd4",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 269284,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/7_inventory.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      },
+      {
+        "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/8_printer.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/8_printer.png",
+        "blobSha": "b43f130f02ca7c9a05ec48c233a298cf663f37a7",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 166427,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/evan361425/flutter-pos-system/blob/22e7ae439eadd4f3a14f90a10cd54d0f3fd7c298/android/fastlane/metadata/android/en-US/images/phoneScreenshots/8_printer.png",
+          "fetchedAt": "2026-09-26T14:38:28.808Z"
+        }
+      }
     ]
   }
 }

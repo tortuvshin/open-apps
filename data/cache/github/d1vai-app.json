@@ -3,8 +3,14 @@
   "slug": "d1vai-app",
   "repoUrl": "https://github.com/d1vai/d1vai_app",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:17.883Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:09.307Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:09.307Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "github": {
     "repository": {
       "full_name": "d1vai/d1vai_app",
@@ -24,7 +30,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:17.883Z",
+      "syncedAt": "2026-09-26T14:38:09.307Z",
       "source": "api"
     }
   },
@@ -37,8 +43,42 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/d1vai/d1vai_app/blob/4e0076ffb41be32d09a2c17223599709c6228ebb/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/d1vai/d1vai_app/blob/4e0076ffb41be32d09a2c17223599709c6228ebb/web/manifest.json",
+          "fetchedAt": "2026-09-26T14:38:06.932Z"
+        }
+      },
+      {
+        "url": "https://github.com/d1vai/d1vai_app/blob/4e0076ffb41be32d09a2c17223599709c6228ebb/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "b749bfef07473333cf1dd31e9eed89862a5d52aa",
+        "format": "png",
+        "bytes": 5292,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/d1vai/d1vai_app/blob/4e0076ffb41be32d09a2c17223599709c6228ebb/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T14:38:06.932Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

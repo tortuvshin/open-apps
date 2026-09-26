@@ -3,8 +3,14 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:33.782Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:56.187Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:56.187Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Oinkoin is a flutter app for helping you managing your expenses. No internet required.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:33.782Z",
+      "syncedAt": "2026-09-26T14:39:56.187Z",
       "source": "api"
     },
     "repository": {
@@ -45,9 +51,101 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.github.emavgl.piggybankpro/",
+        "facts": {
+          "appId": "com.github.emavgl.piggybankpro",
+          "suggestedVersionCode": 7150004,
+          "evidence": "https://github.com/emavgl/oinkoin/blob/9f474874bc404854cba8bc137ff35b0f8782449b/android/app/build.gradle"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.github.emavgl.piggybankpro",
+          "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/emavgl/oinkoin/releases/latest",
+        "facts": {
+          "tag": "1.14.0",
+          "assets": [
+            "app-arm64-v8a-pro-release.apk",
+            "app-armeabi-v7a-pro-release.apk",
+            "app-x86_64-pro-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
+          "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/emavgl/oinkoin/releases/latest",
+        "facts": {
+          "tag": "1.14.0",
+          "assets": [
+            "piggybank-1.14.0+7150-linux.AppImage",
+            "piggybank-1.14.0+7150-linux.deb",
+            "piggybank-1.14.0+7150-linux.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
+          "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/emavgl/oinkoin/releases/latest",
+        "facts": {
+          "tag": "1.14.0",
+          "assets": [
+            "oinkoin-windows-x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
+          "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/emavgl/oinkoin/blob/9f474874bc404854cba8bc137ff35b0f8782449b/website/public/oinkoin-icon.png",
+        "path": "website/public/oinkoin-icon.png",
+        "blobSha": "5a9c4e047a48df52665dea715e6cdaa25cdd4dea",
+        "format": "png",
+        "bytes": 18259,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/emavgl/oinkoin/blob/9f474874bc404854cba8bc137ff35b0f8782449b/website/public/oinkoin-icon.png",
+          "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

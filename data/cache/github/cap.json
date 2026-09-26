@@ -3,8 +3,14 @@
   "slug": "cap",
   "repoUrl": "https://github.com/CapSoftware/Cap",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:17.166Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:02.462Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:02.462Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open source Loom alternative. Beautiful, shareable screen recordings.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:17.166Z",
+      "syncedAt": "2026-09-26T14:38:02.462Z",
       "source": "api"
     },
     "repository": {
       "full_name": "CapSoftware/Cap",
-      "stargazers_count": 22829,
+      "stargazers_count": 22837,
       "forks_count": 1969,
-      "open_issues_count": 387,
+      "open_issues_count": 388,
       "language": "Rust",
-      "pushed_at": "2026-09-26T02:32:32Z",
-      "updated_at": "2026-09-26T09:33:36Z",
+      "pushed_at": "2026-09-26T14:24:45Z",
+      "updated_at": "2026-09-26T12:56:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,10 +72,72 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/android-chrome-512x512.png",
+        "path": "apps/web/public/android-chrome-512x512.png",
+        "blobSha": "0358e1a50187aea669cf007226d005ad368349d5",
+        "format": "png",
+        "bytes": 28064,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/site.webmanifest",
+          "fetchedAt": "2026-09-26T14:38:00.433Z"
+        }
+      },
+      {
+        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/mobile/assets/icon.svg",
+        "path": "apps/mobile/assets/icon.svg",
+        "blobSha": "5e6e3521098b62b4a49f94b99df5fc0a8be0d7a6",
+        "format": "svg",
+        "bytes": 314,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/mobile/assets/icon.svg",
+          "fetchedAt": "2026-09-26T14:38:00.433Z"
+        }
+      },
+      {
+        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/cap-icon.svg",
+        "path": "apps/web/public/cap-icon.svg",
+        "blobSha": "7071770d13d47dffe353d4b2db54fa50f51dd9ae",
+        "format": "svg",
+        "bytes": 1014,
+        "width": 1631,
+        "height": 1631,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/cap-icon.svg",
+          "fetchedAt": "2026-09-26T14:38:00.433Z"
+        }
+      },
+      {
+        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/packages/ui-solid/icons/logo-full-dark.svg",
+        "path": "packages/ui-solid/icons/logo-full-dark.svg",
+        "blobSha": "ada743fb8e3e1f26c4d3920a81458873768752dd",
+        "format": "svg",
+        "bytes": 2547,
+        "width": 103,
+        "height": 40,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/packages/ui-solid/icons/logo-full-dark.svg",
+          "fetchedAt": "2026-09-26T14:38:00.433Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

@@ -3,8 +3,14 @@
   "slug": "habo",
   "repoUrl": "https://github.com/xpavle00/Habo",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:22.611Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:38:40.376Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:38:40.376Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.",
   "github": {
     "html": {
@@ -13,13 +19,13 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:22.611Z",
+      "syncedAt": "2026-09-26T14:38:40.376Z",
       "source": "api"
     },
     "repository": {
       "full_name": "xpavle00/Habo",
       "stargazers_count": 1513,
-      "forks_count": 181,
+      "forks_count": 182,
       "open_issues_count": 31,
       "language": "Dart",
       "pushed_at": "2026-09-20T08:10:38Z",
@@ -55,10 +61,163 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/xpavle00/Habo/releases/latest",
+        "facts": {
+          "tag": "v4.0.0",
+          "assets": [
+            "app-arm64-v8a-release_signed.apk",
+            "app-armeabi-v7a-release_signed.apk",
+            "app-x86_64-release_signed.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/xpavle00/Habo/releases/tag/v4.0.0",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "6e079cc209b4f88ff28517e526d5d77cded7f8b5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 7384,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/assets/images/icon.png",
+        "path": "assets/images/icon.png",
+        "blobSha": "989c16c65ab45816fbd0f83fa890ff64d41659f5",
+        "format": "png",
+        "bytes": 74208,
+        "width": 900,
+        "height": 900,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/assets/images/icon.png",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+        "blobSha": "75d84c01029fae6d34e9b681e6f1196353bd685e",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 27160,
+        "width": 350,
+        "height": 707,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+        "blobSha": "689bee602c539c10129a5cb13ab04365eb77d4e8",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 29117,
+        "width": 350,
+        "height": 699,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+        "blobSha": "df86b684831ec043cf8257e15f1680c331b7221d",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 24348,
+        "width": 350,
+        "height": 658,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+        "blobSha": "dff43b6b26f032ccebdc1e283dab5925d1e9ac68",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 17560,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg",
+        "blobSha": "ed7a1186039eee93dcc0f5a6ea2a5c7d3857f440",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 21568,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/05.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/06.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/06.jpg",
+        "blobSha": "40762c07d40b6bab834248e2bfd80d4500947991",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 20018,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/06.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      },
+      {
+        "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/07.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/07.jpg",
+        "blobSha": "c080ad96f3af6713505f1700dd6dc71d3357526e",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 15130,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/xpavle00/Habo/blob/1ddf4c43075f0f13121a44ae91a01ca8185cedb9/fastlane/metadata/android/en-US/images/phoneScreenshots/07.jpg",
+          "fetchedAt": "2026-09-26T14:38:38.160Z"
+        }
+      }
     ]
   }
 }

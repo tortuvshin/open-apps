@@ -3,14 +3,20 @@
   "slug": "orbit",
   "repoUrl": "https://github.com/Noveum/orbit",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:35.849Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:10.499Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:10.499Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Free, open source, realtime task manager. Issues, boards, sprints, projects and docs that sync instantly. Keyboard-first, self-hostable, with an MCP server for AI agents. No pricing, ever.",
   "github": {
     "repository": {
       "full_name": "Noveum/orbit",
       "stargazers_count": 48,
-      "forks_count": 24,
+      "forks_count": 25,
       "open_issues_count": 61,
       "language": "TypeScript",
       "pushed_at": "2026-09-24T09:39:37Z",
@@ -48,7 +54,7 @@
     "latestReleaseAt": "2026-09-20T00:24:12Z",
     "homepage": "https://orbit.noveum.ai",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:35.849Z",
+      "syncedAt": "2026-09-26T14:40:10.499Z",
       "source": "api"
     }
   },
@@ -61,9 +67,29 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/Noveum/orbit/blob/41691a5cc32e2e2531eea2dd96d3ae18243949fc/apps/web/public/logo.png",
+        "path": "apps/web/public/logo.png",
+        "blobSha": "c7adba315857b25a8c083814658b5fdf775353da",
+        "format": "png",
+        "bytes": 97832,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Noveum/orbit/blob/41691a5cc32e2e2531eea2dd96d3ae18243949fc/apps/web/public/logo.png",
+          "fetchedAt": "2026-09-26T14:40:08.726Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

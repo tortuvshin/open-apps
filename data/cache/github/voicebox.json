@@ -3,8 +3,14 @@
   "slug": "voicebox",
   "repoUrl": "https://github.com/jamiepine/voicebox",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:45.108Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:41:07.841Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:41:07.841Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "The open-source AI voice studio. Clone, dictate, create.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:45.108Z",
+      "syncedAt": "2026-09-26T14:41:07.841Z",
       "source": "api"
     },
     "repository": {
       "full_name": "jamiepine/voicebox",
-      "stargazers_count": 55735,
-      "forks_count": 6943,
-      "open_issues_count": 705,
+      "stargazers_count": 55751,
+      "forks_count": 6946,
+      "open_issues_count": 706,
       "language": "TypeScript",
       "pushed_at": "2026-08-09T00:03:42Z",
-      "updated_at": "2026-09-26T09:26:08Z",
+      "updated_at": "2026-09-26T14:38:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -54,10 +60,81 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/jamiepine/voicebox/releases/latest",
+        "facts": {
+          "tag": "v0.5.0",
+          "assets": [
+            "Voicebox_0.5.0_aarch64.dmg",
+            "Voicebox_0.5.0_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.5.0",
+          "fetchedAt": "2026-09-26T14:41:06.066Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/jamiepine/voicebox/releases/latest",
+        "facts": {
+          "tag": "v0.5.0",
+          "assets": [
+            "Voicebox_0.5.0_x64-setup.exe",
+            "Voicebox_0.5.0_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.5.0",
+          "fetchedAt": "2026-09-26T14:41:06.066Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/assets/voicebox-logo.png",
+        "path": "app/src/assets/voicebox-logo.png",
+        "blobSha": "eebe5438a7bc3b8c418ffa2a9c6c980457802417",
+        "format": "png",
+        "bytes": 4245540,
+        "width": 4096,
+        "height": 4096,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/app/src/assets/voicebox-logo.png",
+          "fetchedAt": "2026-09-26T14:41:06.066Z"
+        }
+      },
+      {
+        "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/landing/public/voicebox-logo-2.png",
+        "path": "landing/public/voicebox-logo-2.png",
+        "blobSha": "beffea35efdca38de1e22229ed295538eac74cae",
+        "format": "png",
+        "bytes": 2971308,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/landing/public/voicebox-logo-2.png",
+          "fetchedAt": "2026-09-26T14:41:06.066Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

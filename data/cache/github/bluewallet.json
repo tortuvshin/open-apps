@@ -3,8 +3,14 @@
   "slug": "bluewallet",
   "repoUrl": "https://github.com/BlueWallet/BlueWallet",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:15.628Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:37:53.419Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:37:53.419Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Bitcoin wallet for iOS & Android. Built with React Native ",
   "github": {
     "repository": {
@@ -197,7 +203,7 @@
       "openPullRequests": 76
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:15.628Z",
+      "syncedAt": "2026-09-26T14:37:53.419Z",
       "source": "api"
     },
     "html": {
@@ -217,10 +223,138 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/BlueWallet/BlueWallet/releases/latest",
+        "facts": {
+          "tag": "8.0.1",
+          "assets": [
+            "BlueWallet-8.0.1-1784558752.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases/tag/8.0.1",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/BlueWallet/BlueWallet/releases/latest",
+        "facts": {
+          "tag": "8.0.1",
+          "assets": [
+            "BlueWallet_8.0.1_1784575843.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases/tag/8.0.1",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "ec541528a9a35368962bfaaa59dac1bdc66f940c",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 13025,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/01-Home.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/01-Home.png",
+        "blobSha": "5d8514a4258a53020457db393e8e2acc0d5058fc",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 93705,
+        "width": 403,
+        "height": 806,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/01-Home.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      },
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/02-Wallet.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/02-Wallet.png",
+        "blobSha": "fde57d6fee236257e07faba4a59936dc4a52ebd6",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 89749,
+        "width": 402,
+        "height": 806,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/02-Wallet.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      },
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/03-Send.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/03-Send.png",
+        "blobSha": "899369e9cbc2462546dabcc22d17ccf2c0aac513",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 25983,
+        "width": 403,
+        "height": 806,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/03-Send.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      },
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/04-Receive.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/04-Receive.png",
+        "blobSha": "8f9812169ab57d08f2e1a4436327d8075d901e2d",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 52696,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/04-Receive.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      },
+      {
+        "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/05-Create.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/05-Create.png",
+        "blobSha": "e5002a77da933fc07c2d600a43fed1149a4a7e11",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 32344,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/BlueWallet/BlueWallet/blob/e3f79549ebb931622a61c744a93df45b779ef007/fastlane/metadata/android/en-US/images/phoneScreenshots/05-Create.png",
+          "fetchedAt": "2026-09-26T14:37:51.490Z"
+        }
+      }
     ]
   }
 }

@@ -3,8 +3,14 @@
   "slug": "keybase",
   "repoUrl": "https://github.com/keybase/client",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:26.955Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:09.950Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:09.950Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Keybase Go Library, Client, Service, OS X, iOS, Android, Electron",
   "github": {
     "repository": {
@@ -211,7 +217,7 @@
       "openPullRequests": 202
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:26.955Z",
+      "syncedAt": "2026-09-26T14:39:09.950Z",
       "source": "api"
     },
     "html": {
@@ -230,10 +236,58 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_128x128%402x.png",
+        "path": "media/icons/Keybase.iconset/icon_128x128@2x.png",
+        "blobSha": "e4442a8bcc5ce04c3bbc182b3d02f9a20b60cf99",
+        "format": "png",
+        "bytes": 32452,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_128x128%402x.png",
+          "fetchedAt": "2026-09-26T14:39:06.615Z"
+        }
+      },
+      {
+        "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_256x256.png",
+        "path": "media/icons/Keybase.iconset/icon_256x256.png",
+        "blobSha": "d9db85eb492d4adb11f9e23a3f67b0350ae95495",
+        "format": "png",
+        "bytes": 31784,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_256x256.png",
+          "fetchedAt": "2026-09-26T14:39:06.615Z"
+        }
+      },
+      {
+        "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_256x256%402x.png",
+        "path": "media/icons/Keybase.iconset/icon_256x256@2x.png",
+        "blobSha": "3751df0e95481649085d305caff31ca799f2a918",
+        "format": "png",
+        "bytes": 79444,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/keybase/client/blob/5584146dc9d37751c06ae5216c3a890ab1031983/media/icons/Keybase.iconset/icon_256x256%402x.png",
+          "fetchedAt": "2026-09-26T14:39:06.615Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

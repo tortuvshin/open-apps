@@ -3,8 +3,14 @@
   "slug": "airdash",
   "repoUrl": "https://github.com/simonbengtsson/airdash",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:10.973Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:37:21.142Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:37:21.142Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "File sharing flutter webrtc app enabling sending files to any device from anywhere",
   "github": {
     "repository": {
@@ -170,7 +176,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:10.973Z",
+      "syncedAt": "2026-09-26T14:37:21.142Z",
       "source": "api"
     },
     "languages": {
@@ -202,9 +208,98 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/simonbengtsson/airdash/releases/latest",
+        "facts": {
+          "tag": "v2.0.158",
+          "assets": [
+            "airdash.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158",
+          "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/simonbengtsson/airdash/releases/latest",
+        "facts": {
+          "tag": "v2.0.158",
+          "assets": [
+            "airdash.snap"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158",
+          "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/simonbengtsson/airdash/releases/latest",
+        "facts": {
+          "tag": "v2.0.158",
+          "assets": [
+            "airdash.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158",
+          "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/simonbengtsson/airdash/releases/latest",
+        "facts": {
+          "tag": "v2.0.158",
+          "assets": [
+            "airdash.msix"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158",
+          "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/simonbengtsson/airdash/blob/ef2f08691771f53e3fa7150d1f02e2d0835c694c/assets/app_icon_round.png",
+        "path": "assets/app_icon_round.png",
+        "blobSha": "dc81e1fb92e5fb464db2a3d0f6793f652ed0afbd",
+        "format": "png",
+        "bytes": 614336,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/simonbengtsson/airdash/blob/ef2f08691771f53e3fa7150d1f02e2d0835c694c/assets/app_icon_round.png",
+          "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

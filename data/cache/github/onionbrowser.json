@@ -3,8 +3,14 @@
   "slug": "onionbrowser",
   "repoUrl": "https://github.com/OnionBrowser/OnionBrowser",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:34.465Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:01.453Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:01.453Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network",
   "github": {
     "repository": {
@@ -159,7 +165,7 @@
       "subscribers_count": 167
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:34.465Z",
+      "syncedAt": "2026-09-26T14:40:01.453Z",
       "source": "api"
     },
     "languages": {
@@ -218,10 +224,76 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OnionBrowser/OnionBrowser/releases/latest",
+        "facts": {
+          "tag": "v3.4.1",
+          "assets": [
+            "OnionBrowser.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OnionBrowser/OnionBrowser/releases/tag/v3.4.1",
+          "fetchedAt": "2026-09-26T14:39:59.637Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-onion-browser.imageset/appicon_128.png",
+        "path": "Resources/Media.xcassets/icon-onion-browser.imageset/appicon_128.png",
+        "blobSha": "3383c417a6a99d526a24fb28159e47fa7368462d",
+        "format": "png",
+        "bytes": 30417,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-onion-browser.imageset/appicon_128.png",
+          "fetchedAt": "2026-09-26T14:39:59.637Z"
+        }
+      },
+      {
+        "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-onion-browser.imageset/appicon_256.png",
+        "path": "Resources/Media.xcassets/icon-onion-browser.imageset/appicon_256.png",
+        "blobSha": "7934d61b9818846f38d61ea182f05efb922457c2",
+        "format": "png",
+        "bytes": 84325,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-onion-browser.imageset/appicon_256.png",
+          "fetchedAt": "2026-09-26T14:39:59.637Z"
+        }
+      },
+      {
+        "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-orbot.imageset/Icon-128.png",
+        "path": "Resources/Media.xcassets/icon-orbot.imageset/Icon-128.png",
+        "blobSha": "5a7194a9586e9bb8eeba339f136d403c7a5eb301",
+        "format": "png",
+        "bytes": 9399,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OnionBrowser/OnionBrowser/blob/8fc8e2d565b8a8e3842220e361731ee57e0b7f47/Resources/Media.xcassets/icon-orbot.imageset/Icon-128.png",
+          "fetchedAt": "2026-09-26T14:39:59.637Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

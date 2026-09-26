@@ -3,8 +3,14 @@
   "slug": "storypad",
   "repoUrl": "https://github.com/theachoem/storypad",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:40.744Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:41.011Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:41.011Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "An open source diary & journal app with over 100k downloads 🪴",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:40.744Z",
+      "syncedAt": "2026-09-26T14:40:41.011Z",
       "source": "api"
     },
     "repository": {
       "full_name": "theachoem/storypad",
-      "stargazers_count": 965,
+      "stargazers_count": 966,
       "forks_count": 126,
       "open_issues_count": 10,
       "language": "Dart",
       "pushed_at": "2026-09-17T16:24:06Z",
-      "updated_at": "2026-09-24T12:29:10Z",
+      "updated_at": "2026-09-26T10:11:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -54,10 +60,58 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png",
+        "path": "assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png",
+        "blobSha": "6801ea6851a54f1c5315577591bb73d857afdc3b",
+        "format": "png",
+        "bytes": 100790,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png",
+          "fetchedAt": "2026-09-26T14:40:38.396Z"
+        }
+      },
+      {
+        "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png",
+        "path": "assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png",
+        "blobSha": "8fed3e710cba60f28a360900a98c22575898b000",
+        "format": "png",
+        "bytes": 108037,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png",
+          "fetchedAt": "2026-09-26T14:40:38.396Z"
+        }
+      },
+      {
+        "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png",
+        "path": "assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png",
+        "blobSha": "8d0211e73922764fb5ff9a1586ac40eb6c6bdd71",
+        "format": "png",
+        "bytes": 132617,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/theachoem/storypad/blob/08ea0ef71b55def62ece039fd4791eff4e7aa9de/assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png",
+          "fetchedAt": "2026-09-26T14:40:38.396Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

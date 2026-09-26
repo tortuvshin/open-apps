@@ -3,18 +3,24 @@
   "slug": "posnic-pos",
   "repoUrl": "https://github.com/Posnic/POS",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:37.017Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:40:18.541Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:40:18.541Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Free offline-first open source POS and billing software for retail and restaurants. AGPL-3.0-only source; packages include separately licensed components.",
   "github": {
     "repository": {
       "full_name": "Posnic/POS",
       "stargazers_count": 5,
-      "forks_count": 13,
-      "open_issues_count": 403,
+      "forks_count": 14,
+      "open_issues_count": 401,
       "language": "JavaScript",
-      "pushed_at": "2026-09-26T09:02:59Z",
-      "updated_at": "2026-09-26T09:03:03Z",
+      "pushed_at": "2026-09-26T14:30:51Z",
+      "updated_at": "2026-09-26T14:30:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -48,7 +54,7 @@
     "latestReleaseAt": "2026-09-20T03:00:26Z",
     "homepage": "https://www.posnic.com/",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:37.017Z",
+      "syncedAt": "2026-09-26T14:40:18.541Z",
       "source": "api"
     }
   },
@@ -61,9 +67,142 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Posnic/POS/releases/latest",
+        "facts": {
+          "tag": "v1.8.0",
+          "assets": [
+            "Posnic-1.8.0-linux-x86_64.AppImage",
+            "posnic_1.8.0_amd64.deb",
+            "posnic_1.8.0_amd64.snap"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.8.0",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Posnic/POS/releases/latest",
+        "facts": {
+          "tag": "v1.8.0",
+          "assets": [
+            "Posnic-1.8.0-macos-arm64.dmg",
+            "Posnic-1.8.0-macos-x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.8.0",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Posnic/POS/releases/latest",
+        "facts": {
+          "tag": "v1.8.0",
+          "assets": [
+            "Posnic-1.8.0-windows-x64-installer.exe",
+            "Posnic-1.8.0-windows-x64-portable.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.8.0",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/images/logo/posnic-logo.svg",
+        "path": "frontend/static/images/logo/posnic-logo.svg",
+        "blobSha": "462db5edeaba8a5c8b912b1bb963eab3eee83638",
+        "format": "svg",
+        "bytes": 2874,
+        "width": 38,
+        "height": 35,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/manifest.webmanifest",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      },
+      {
+        "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/images/icons-pwa/icon-192.png",
+        "path": "frontend/static/images/icons-pwa/icon-192.png",
+        "blobSha": "da055908e496859f67311511d58fce03fd2efb08",
+        "format": "png",
+        "bytes": 15230,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/images/icons-pwa/icon-192.png",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      },
+      {
+        "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/images/icons-pwa/icon-512.png",
+        "path": "frontend/static/images/icons-pwa/icon-512.png",
+        "blobSha": "389adebcd481db1b7d67bbc50bd859d3f4fa2cb7",
+        "format": "png",
+        "bytes": 70471,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/images/icons-pwa/icon-512.png",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      },
+      {
+        "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/style/images/logo.svg",
+        "path": "frontend/static/style/images/logo.svg",
+        "blobSha": "32222525c185db3bf16e1cfcf2bd76308594ff7c",
+        "format": "svg",
+        "bytes": 1360,
+        "width": 137,
+        "height": 40,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/frontend/static/style/images/logo.svg",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/docs/images/offline-sale-v1-3-0.png",
+        "path": "docs/images/offline-sale-v1-3-0.png",
+        "blobSha": "4af54379073e1976776c87ace445fbd9bfe7764b",
+        "format": "png",
+        "bytes": 114384,
+        "width": 1920,
+        "height": 1032,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/Posnic/POS/blob/9836593a9e01ed81104d7e4a3acbbf8e8b31f0c1/builds/linux/com.posnic.app.metainfo.xml",
+          "fetchedAt": "2026-09-26T14:40:15.790Z"
+        }
+      }
     ]
   }
 }

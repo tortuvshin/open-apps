@@ -3,8 +3,14 @@
   "slug": "karakeep",
   "repoUrl": "https://github.com/karakeep-app/karakeep",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:26.651Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T14:39:06.256Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T14:39:06.256Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/karakeep-app/karakeep/releases{/id}",
       "deployments_url": "https://api.github.com/repos/karakeep-app/karakeep/deployments",
       "created_at": "2024-02-06T12:28:31Z",
-      "updated_at": "2026-09-26T09:01:51Z",
+      "updated_at": "2026-09-26T14:27:23Z",
       "pushed_at": "2026-09-24T06:44:47Z",
       "git_url": "git://github.com/karakeep-app/karakeep.git",
       "ssh_url": "git@github.com:karakeep-app/karakeep.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/karakeep-app/karakeep",
       "homepage": "https://karakeep.app",
       "size": 100437,
-      "stargazers_count": 29286,
+      "stargazers_count": 29292,
       "watchers_count": 27643,
       "language": "TypeScript",
       "has_issues": true,
@@ -92,11 +98,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1533,
+      "forks_count": 1535,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 728,
+      "open_issues_count": 730,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -195,7 +201,7 @@
       "openPullRequests": 74
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:26.651Z",
+      "syncedAt": "2026-09-26T14:39:06.256Z",
       "source": "api"
     },
     "html": {
@@ -215,10 +221,44 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/karakeep-app/karakeep/blob/3c4411430a5386b6cfb84331a788372e1dcea95e/apps/landing/public/icons/logo-full.svg",
+        "path": "apps/landing/public/icons/logo-full.svg",
+        "blobSha": "3526f5808ef0e681ef4995d9872369e28b914869",
+        "format": "svg",
+        "bytes": 8785,
+        "width": 507,
+        "height": 96,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/karakeep-app/karakeep/blob/3c4411430a5386b6cfb84331a788372e1dcea95e/apps/landing/public/icons/logo-full.svg",
+          "fetchedAt": "2026-09-26T14:39:04.543Z"
+        }
+      },
+      {
+        "url": "https://github.com/karakeep-app/karakeep/blob/3c4411430a5386b6cfb84331a788372e1dcea95e/apps/landing/public/icons/logo-text.svg",
+        "path": "apps/landing/public/icons/logo-text.svg",
+        "blobSha": "c6f182096e1620706e14300e10f61ce549265558",
+        "format": "svg",
+        "bytes": 8269,
+        "width": 594,
+        "height": 115,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/karakeep-app/karakeep/blob/3c4411430a5386b6cfb84331a788372e1dcea95e/apps/landing/public/icons/logo-text.svg",
+          "fetchedAt": "2026-09-26T14:39:04.543Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }
