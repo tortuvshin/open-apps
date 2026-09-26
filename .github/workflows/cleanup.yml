@@ -1,16 +1,50 @@
 name: Cleanup report
 
+# Keeps ONE standing issue labelled `review-queue` in step with
+# `grove cleanup`: records that are stale, needs_review, archived,
+# inactive, unavailable or unknown and have no decision yet.
+#
+# The body is edited in place; the workflow never comments. Editing an
+# issue body sends no notification, so the only notification is the
+# issue being opened when the queue goes from empty to non-empty. With
+# zero findings no issue is opened, and an open one is closed quietly.
 on:
+  # `grove sync github` hands its results over as a PR, so the cache on
+  # main only changes when that PR merges. This is the trigger that sees
+  # fresh data.
+  push:
+    branches: [main]
+    paths:
+      - "data/cache/github/**"
+      - "data/decisions.yml"
+  # Also run straight after every sync, so a sync that failed outright
+  # (and produced no PR) still refreshes the queue from what is on main.
+  # A cancelled sync says nothing new and is skipped.
+  workflow_run:
+    workflows: ["Sync GitHub"]
+    types: [completed]
+    branches: [main]
   schedule:
-    - cron: "0 5 1-7 * 1"
+    - cron: "0 5 1 * *"
   workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Render the queue to the job summary only; do not touch issues"
+        type: boolean
+        default: false
+
+concurrency:
+  group: cleanup-review-queue
+  cancel-in-progress: false
 
 jobs:
   report:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: read
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -19,17 +53,42 @@ jobs:
           node-version: "24"
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # bash -o pipefail (GitHub's default for `shell: bash`) makes a failing
-      # `grove cleanup` fail the step even though its output is piped to tee.
       - name: Run cleanup
-        shell: bash
-        run: pnpm exec grove cleanup | tee cleanup-report.md
+        run: pnpm exec grove cleanup
+      - name: Render review queue
+        id: render
+        run: node scripts/render-review-queue.mjs --out review-queue.md
       - name: Write job summary
         if: always()
         shell: bash
         run: |
-          if [ -s cleanup-report.md ]; then
-            cat cleanup-report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -s review-queue.md ]; then
+            cat review-queue.md >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "grove cleanup produced no report; see the Run cleanup step log." >> "$GITHUB_STEP_SUMMARY"
+            echo "No review queue was rendered; see the Run cleanup step log." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Update the review-queue issue
+        if: ${{ !inputs.dry-run }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          COUNT: ${{ steps.render.outputs.count }}
+        run: |
+          existing=$(gh issue list --label review-queue --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ "$COUNT" -gt 0 ]; then
+            if [ -n "$existing" ]; then
+              gh issue edit "$existing" --body-file review-queue.md
+              echo "Updated #$existing ($COUNT to review)."
+            else
+              gh label create review-queue --color FBCA04 \
+                --description "Records waiting for a curation decision" 2>/dev/null || true
+              gh issue create --title "Review queue" --label review-queue --body-file review-queue.md
+            fi
+          elif [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file review-queue.md
+            gh issue close "$existing" --reason completed
+            echo "Queue is empty; closed #$existing."
+          else
+            echo "Queue is empty; nothing to do."
           fi
