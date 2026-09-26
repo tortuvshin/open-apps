@@ -18,6 +18,7 @@
  *     body (e.g. an empty-state message).
  */
 import { getContentHtml } from '@grove-dev/astro/server';
+import { keepReferrer } from '../../lib/outbound';
 
 interface Props {
   /** Record slug — looks up the pre-rendered HTML in the module map. */
@@ -27,7 +28,7 @@ interface Props {
 }
 
 const { recordSlug, fallback } = Astro.props;
-const html = getContentHtml(recordSlug);
+const html = keepReferrer(getContentHtml(recordSlug));
 ---
 
 {html ? (

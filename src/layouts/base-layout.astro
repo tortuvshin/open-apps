@@ -415,6 +415,21 @@ const favicon =
             });
           }
           window.addEventListener("popstate", report);
+
+          // Links and cards carry `data-event` (+ optional
+          // `data-event-source` / `data-event-item`); send each click as a
+          // GA event so installs and outbound clicks per app are counted.
+          document.addEventListener("click", function (e) {
+            var el = e.target instanceof Element ? e.target.closest("[data-event]") : null;
+            if (!el || typeof window.gtag !== "function") return;
+            var href = el.getAttribute("href") || undefined;
+            window.gtag("event", el.getAttribute("data-event"), {
+              event_source: el.getAttribute("data-event-source") || undefined,
+              event_item: el.getAttribute("data-event-item") || undefined,
+              link_url: href,
+              transport_type: "beacon",
+            });
+          });
         })();
       </script>
     )}

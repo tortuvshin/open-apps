@@ -214,7 +214,7 @@ const primaryCta: CTA | undefined = ctas.find((c) => c.variant === 'primary') ??
           <a
             href={primaryCta.href}
             class="inline-flex h-11 cursor-pointer items-center justify-center gap-2 rounded-[var(--radius)] border border-transparent bg-primary px-5 text-[15px] font-medium leading-none text-primary-foreground outline-none transition-colors hover:bg-primary/90 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-            {...(primaryCta.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+            {...(primaryCta.external ? { target: "_blank", rel: "noopener" } : {})}
             data-event="hero_cta_click"
             data-event-source="hero"
           >

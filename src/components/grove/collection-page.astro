@@ -238,7 +238,7 @@ const jumpLinks = [
 
               <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-4 text-2xs text-muted-foreground">
                 {install && (
-                  <a href={install.url} rel="noopener noreferrer" target="_blank" class={buttonClass('primary', 'sm')} data-event="install_click" data-event-source="collection_pick" data-event-item={entry.slug}>
+                  <a href={install.url} rel="noopener" target="_blank" class={buttonClass('primary', 'sm')} data-event="install_click" data-event-source="collection_pick" data-event-item={entry.slug}>
                     {install.action}<span class="sr-only"> (opens {install.host})</span>
                   </a>
                 )}
@@ -248,7 +248,7 @@ const jumpLinks = [
                   <span>{taxonomyLabel('licenses', (entry.licenses?.[0] ?? entry.license) as string)}</span>
                 )}
                 {entry.repoHref && (
-                  <a href={entry.repoHref} rel="noopener noreferrer" target="_blank" class="text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                  <a href={entry.repoHref} rel="noopener" target="_blank" class="text-muted-foreground underline underline-offset-2 hover:text-foreground">
                     Source<span class="sr-only"> code of {entry.title}</span>
                   </a>
                 )}

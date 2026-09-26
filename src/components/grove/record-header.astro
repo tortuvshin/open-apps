@@ -26,6 +26,7 @@ import type { RecordContextModel, RecordDetailModel } from '@grove-dev/astro/ser
 import { taxonomyLabel } from '@grove-dev/astro/server';
 import { buttonClass } from '../../lib/classnames.ts';
 import { getInstallChannels } from '../../lib/channels.ts';
+import { withRef } from '../../lib/outbound.ts';
 import type { Verdict } from '../../lib/record-editorial.ts';
 import Icon from './icon.astro';
 
@@ -58,7 +59,7 @@ const {
 const installChannels = getInstallChannels(detail.distribution, repoUrl);
 const primaryChannel = installChannels[0];
 const moreChannels = installChannels.length - 1;
-const showHomepage = homepageUrl && homepageUrl !== primaryChannel?.url;
+const showHomepage = homepageUrl && withRef(homepageUrl) !== primaryChannel?.url;
 
 // One primary screenshot and at most two thumbnails.
 const shots = (screenshots ?? []).filter((shot) => shot?.src && shot.alt).slice(0, 3);
@@ -106,7 +107,7 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
             <a
               href={`https://github.com/${ownerRepo.owner}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
             >
               @{ownerRepo.owner}
@@ -115,7 +116,7 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
             <a
               href={repoUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
             >
               {ownerRepo.repo}
@@ -229,9 +230,11 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
         <a
           href={primaryChannel.url}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           class={buttonClass("primary", "md")}
           data-install-channel={primaryChannel.type}
+          data-event="install_click"
+          data-event-source="record_header"
         >
           {primaryChannel.action}
           <span aria-hidden="true">↗</span>
@@ -242,7 +245,7 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
         <a
           href={repoUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           class={buttonClass(primaryChannel ? "secondary" : "primary", "md")}
         >
           {primaryChannel ? "Source code" : "View on GitHub →"}
@@ -250,9 +253,11 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
       )}
       {showHomepage && (
         <a
-          href={homepageUrl}
+          href={withRef(homepageUrl)}
+          data-event="homepage_click"
+          data-event-source="record_header"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           class={buttonClass(primaryChannel ? "ghost" : "secondary", "md")}
         >
           Homepage
@@ -307,7 +312,7 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
         </a>
         {primaryShot.source && (
           <figcaption class="mt-1.5 text-2xs text-ink-500 dark:text-ink-400">
-            Source: <a href={primaryShot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{primaryShot.source.replace(/^https?:\/\//, "")}</a>
+            Source: <a href={primaryShot.source} target="_blank" rel="noopener" class="text-inherit no-underline hover:underline">{primaryShot.source.replace(/^https?:\/\//, "")}</a>
           </figcaption>
         )}
       </figure>
@@ -328,7 +333,7 @@ const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
               </a>
               {shot.source && (
                 <p class="m-0 mt-1 truncate text-2xs text-ink-500 dark:text-ink-400">
-                  Source: <a href={shot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{shot.source.replace(/^https?:\/\//, "")}</a>
+                  Source: <a href={shot.source} target="_blank" rel="noopener" class="text-inherit no-underline hover:underline">{shot.source.replace(/^https?:\/\//, "")}</a>
                 </p>
               )}
             </li>

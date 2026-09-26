@@ -9,6 +9,7 @@ import {
 } from '@grove-dev/astro/server';
 import CollectionPage from '../../components/grove/collection-page.astro';
 import SearchMeta from '../../components/site/search-meta.astro';
+import { keepReferrer } from '../../lib/outbound';
 import BaseLayout from '../../layouts/base-layout.astro';
 import {
   browseLinkFor,
@@ -68,9 +69,9 @@ const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collec
     )}
     <CollectionPage
       model={model}
-      leadHtml={body.lead}
+      leadHtml={keepReferrer(body.lead)}
       comparisonAnchor={body.tableAnchor}
-      bodyHtml={body.rest}
+      bodyHtml={keepReferrer(body.rest)}
       editorial={editorial}
       eyebrow={editorial ? "Editor's picks" : "Live view"}
       records={recordsBySlug}

@@ -11,6 +11,7 @@
  * verbs and aliases below are this site's copy.
  */
 import { taxonomyLabel } from '@grove-dev/astro/server';
+import { withRef } from './outbound';
 
 export interface RawChannel {
   type: string;
@@ -116,7 +117,7 @@ export function getInstallChannels(
     const host = hostOf(channel.url);
     out.push({
       type,
-      url: channel.url,
+      url: withRef(channel.url),
       label,
       action: actionFor(type, label, host),
       platform: channel.platform,

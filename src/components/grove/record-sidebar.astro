@@ -2,6 +2,7 @@
 import type { RecordDetailModel } from '@grove-dev/astro/server';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 import { getInstallChannels } from '../../lib/channels.ts';
+import { withRef } from '../../lib/outbound.ts';
 /**
  * RecordSidebar.astro
  *
@@ -128,7 +129,7 @@ function row(label: string, value: unknown) {
             <a
               href={channel.url}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener"
               class="font-medium text-ink-900 underline-offset-2 hover:underline dark:text-ink-100"
               data-install-channel={channel.type}
             >
@@ -220,7 +221,7 @@ function row(label: string, value: unknown) {
               <a
                 href={recentReleases[0].html_url ?? repoUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 class="no-underline hover:underline"
               >
                 {recentReleases[0].tag_name ?? recentReleases[0].name ?? "—"}
@@ -287,7 +288,7 @@ function row(label: string, value: unknown) {
           <div class="flex items-baseline justify-between gap-3">
             <dt class="text-ink-500 dark:text-ink-400">Docs</dt>
             <dd class="truncate text-ink-900 dark:text-ink-100">
-              <a href={String(repo.homepage)} target="_blank" rel="noopener noreferrer" class="no-underline hover:underline">
+              <a href={withRef(String(repo.homepage))} target="_blank" rel="noopener" class="no-underline hover:underline">
                 {new URL(String(repo.homepage)).hostname}
               </a>
             </dd>
@@ -297,7 +298,7 @@ function row(label: string, value: unknown) {
           <div class="flex items-baseline justify-between gap-3">
             <dt class="text-ink-500 dark:text-ink-400">Source</dt>
             <dd class="text-ink-900 dark:text-ink-100">
-              <a href={repoUrl} target="_blank" rel="noopener noreferrer" class="no-underline hover:underline">
+              <a href={repoUrl} target="_blank" rel="noopener" class="no-underline hover:underline">
                 {ownerRepo ? `${ownerRepo.owner}/${ownerRepo.repo}` : repoUrl}
               </a>
             </dd>

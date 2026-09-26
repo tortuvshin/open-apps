@@ -201,7 +201,7 @@ const resolvedLicenseLine = licenseLine ?? site.footer?.license;
                 href={item.href}
                 class="text-sm transition-colors hover:text-ink-900 dark:hover:text-ink-100"
                 {...(item.external
-                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  ? { target: "_blank", rel: "noopener" }
                   : {})}
               >
                 {item.label}
@@ -224,7 +224,7 @@ const resolvedLicenseLine = licenseLine ?? site.footer?.license;
           <a
             href={gh}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             class="transition-colors hover:text-ink-900 dark:hover:text-ink-100"
           >
             View source on GitHub

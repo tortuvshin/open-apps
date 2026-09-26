@@ -104,7 +104,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
         {repo && (
           <>
             {' '}Start with the{' '}
-            <a href={`${repo}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener noreferrer" class="font-medium text-foreground underline decoration-border underline-offset-2 hover:decoration-foreground">
+            <a href={`${repo}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noopener" class="font-medium text-foreground underline decoration-border underline-offset-2 hover:decoration-foreground">
               contributing guide
             </a>.
           </>
@@ -126,7 +126,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
                 <a
                   href={item.href}
                   class={buttonClass(item.external ? 'secondary' : 'primary', 'sm')}
-                  {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  {...(item.external ? { target: '_blank', rel: 'noopener' } : {})}
                   data-event="community_help_click"
                   data-event-item={item.title}
                 >
@@ -134,7 +134,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
                   {item.external && <span class="sr-only"> (opens GitHub)</span>}
                 </a>
                 {item.secondary && (
-                  <a href={item.secondary.href} target="_blank" rel="noopener noreferrer" class="text-2xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                  <a href={item.secondary.href} target="_blank" rel="noopener" class="text-2xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
                     {item.secondary.label}<span class="sr-only"> (opens GitHub)</span>
                   </a>
                 )}
@@ -165,7 +165,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
                 <img src={`${pull.avatarUrl}${pull.avatarUrl.includes('?') ? '&' : '?'}s=48`} alt="" width="24" height="24" loading="lazy" decoding="async" class="mt-0.5 h-6 w-6 shrink-0 rounded-full border border-border" />
               )}
               <div class="min-w-0">
-                <a href={pull.url} target="_blank" rel="noopener noreferrer" class="text-[0.9375rem] font-medium leading-snug text-foreground no-underline outline-none after:absolute after:inset-0 after:content-[''] hover:underline focus-visible:underline">
+                <a href={pull.url} target="_blank" rel="noopener" class="text-[0.9375rem] font-medium leading-snug text-foreground no-underline outline-none after:absolute after:inset-0 after:content-[''] hover:underline focus-visible:underline">
                   {pull.title}
                 </a>
                 <p class="m-0 mt-0.5 text-2xs text-muted-foreground">
@@ -192,7 +192,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
           )}
         </div>
         {contributorsGraphHref && (
-          <a href={contributorsGraphHref} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">
+          <a href={contributorsGraphHref} target="_blank" rel="noopener" class="text-sm font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">
             GitHub contributors graph<span aria-hidden="true"> ↗</span>
           </a>
         )}
@@ -218,7 +218,7 @@ const jsonLd = (seo.jsonLd ?? []).map((node) =>
                 <a
                   href={href}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                   class="group flex min-w-0 items-center gap-2 rounded-[var(--radius)] border border-border bg-card px-2 py-1.5 no-underline outline-none transition-colors hover:border-ink-300 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 dark:hover:border-ink-700"
                   data-event="contributor_click"
                   data-event-source="contributors_page"
