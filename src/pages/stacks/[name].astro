@@ -20,7 +20,10 @@ const { displayName, term } = Astro.props;
 const name = Astro.params.name;
 const model = getTaxonomyPageModel('stacks', name, displayName, siteConfig);
 const plural = itemLabelPlural();
-const indexable = model.records.length > 0;
+// Empty terms are noindex; so is a term without intro copy (`description`
+// in data/taxonomy) under the index policy — that one stays in quick-find.
+const searchable = model.records.length > 0;
+const indexable = searchable && !model.seo.noindex;
 const description = taxonomyDescription('stacks', term, plural);
 ---
 
@@ -32,9 +35,10 @@ const description = taxonomyDescription('stacks', term, plural);
   jsonLd={model.seo.jsonLd}
   site={siteConfig}
   noindex={!indexable}
+  robots={searchable ? model.seo.robots : undefined}
 >
-  <div data-pagefind-body={indexable ? "" : undefined}>
-    {indexable && (
+  <div data-pagefind-body={searchable ? "" : undefined}>
+    {searchable && (
       <SearchMeta
         type="Stack"
         title={displayName}
