@@ -4,10 +4,11 @@ The files in this directory are produced and consumed by the Grove
 framework. Do not hand-edit any of the following — the next sync
 will clobber the changes:
 
-- The `health` and `github` blocks inside each
-  `data/records/<slug>.yml` — written by `pnpm exec grove sync github`
-  (`status`, `tier`, `cleanupCandidate`, `confidence`, `reasons`).
-  PRs that edit them outside the sync commit are almost always wrong.
+- `cache/github/<slug>.json` — GitHub metadata and health
+  (`status`, `tier`, `cleanupCandidate`, `confidence`, `reasons`) plus
+  `lastSuccessAt` and recent `partialFailures`, written by
+  `pnpm exec grove sync github`. Records never carry these fields;
+  PRs that edit the cache outside the sync commit are almost always wrong.
 - `generated/contributors.json` — auto-generated list of human
   contributors to this repository (bots filtered out at the
   framework level). Produced by the `sync-contributors` workflow.

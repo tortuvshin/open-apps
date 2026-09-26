@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "slug": "voicebox",
+  "repoUrl": "https://github.com/jamiepine/voicebox",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:33.504Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "MIT",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:33.504Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "jamiepine/voicebox",
+      "stargazers_count": 55731,
+      "forks_count": 6943,
+      "open_issues_count": 705,
+      "language": "TypeScript",
+      "pushed_at": "2026-08-09T00:03:42Z",
+      "updated_at": "2026-09-26T08:38:14Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ]
+    },
+    "latestReleaseAt": "2026-04-25T22:46:53Z",
+    "homepage": "https://voicebox.sh"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "slug": "orbit",
+  "repoUrl": "https://github.com/Noveum/orbit",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:24.174Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "full_name": "Noveum/orbit",
+      "stargazers_count": 48,
+      "forks_count": 24,
+      "open_issues_count": 61,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-24T09:39:37Z",
+      "updated_at": "2026-09-24T21:47:30Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "agile",
+        "bun",
+        "issue-tracker",
+        "jira-alternative",
+        "kanban",
+        "linear-alternative",
+        "mcp",
+        "mcp-server",
+        "nextjs",
+        "open-source",
+        "postgresql",
+        "project-management",
+        "realtime",
+        "scrum",
+        "self-hosted",
+        "sprint-planning",
+        "task-manager",
+        "team-collaboration",
+        "typescript",
+        "websockets"
+      ]
+    },
+    "latestReleaseAt": "2026-09-20T00:24:12Z",
+    "homepage": "https://orbit.noveum.ai",
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:24.174Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

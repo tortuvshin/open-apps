@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "slug": "looptroop",
+  "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:17.170Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "full_name": "looptroop-ai/LoopTroop",
+      "stargazers_count": 154,
+      "forks_count": 14,
+      "open_issues_count": 2,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-26T08:29:04Z",
+      "updated_at": "2026-09-26T08:29:06Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-workflow",
+        "ai-agents",
+        "ai-coding",
+        "ai-orchestration",
+        "context-engineering",
+        "llm-council",
+        "llm-orchestration",
+        "multi-agent-orchestration",
+        "opencode",
+        "ralph-loop"
+      ]
+    },
+    "latestReleaseAt": "2026-08-26T07:46:19Z",
+    "homepage": "https://www.looptroop.ovh/",
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:17.170Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

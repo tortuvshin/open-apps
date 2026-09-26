@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "slug": "swiftterm",
+  "repoUrl": "https://github.com/migueldeicaza/SwiftTerm",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:30.594Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 177906917,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNzc5MDY5MTc=",
+      "name": "SwiftTerm",
+      "full_name": "migueldeicaza/SwiftTerm",
+      "private": false,
+      "owner": {
+        "login": "migueldeicaza",
+        "id": 36863,
+        "node_id": "MDQ6VXNlcjM2ODYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36863?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/migueldeicaza",
+        "html_url": "https://github.com/migueldeicaza",
+        "followers_url": "https://api.github.com/users/migueldeicaza/followers",
+        "following_url": "https://api.github.com/users/migueldeicaza/following{/other_user}",
+        "gists_url": "https://api.github.com/users/migueldeicaza/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/migueldeicaza/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/migueldeicaza/subscriptions",
+        "organizations_url": "https://api.github.com/users/migueldeicaza/orgs",
+        "repos_url": "https://api.github.com/users/migueldeicaza/repos",
+        "events_url": "https://api.github.com/users/migueldeicaza/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/migueldeicaza/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/migueldeicaza/SwiftTerm",
+      "description": "Xterm/VT100 Terminal emulator in Swift",
+      "fork": false,
+      "url": "https://api.github.com/repos/migueldeicaza/SwiftTerm",
+      "forks_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/forks",
+      "keys_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/teams",
+      "hooks_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/hooks",
+      "issue_events_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/events",
+      "assignees_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/tags",
+      "blobs_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/languages",
+      "stargazers_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/stargazers",
+      "contributors_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/contributors",
+      "subscribers_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/subscribers",
+      "subscription_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/subscription",
+      "commits_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/merges",
+      "archive_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/downloads",
+      "issues_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/labels{/name}",
+      "releases_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/migueldeicaza/SwiftTerm/deployments",
+      "created_at": "2019-03-27T02:52:33Z",
+      "updated_at": "2026-09-25T22:06:13Z",
+      "pushed_at": "2026-09-25T15:35:48Z",
+      "git_url": "git://github.com/migueldeicaza/SwiftTerm.git",
+      "ssh_url": "git@github.com:migueldeicaza/SwiftTerm.git",
+      "clone_url": "https://github.com/migueldeicaza/SwiftTerm.git",
+      "svn_url": "https://github.com/migueldeicaza/SwiftTerm",
+      "homepage": "",
+      "size": 4527,
+      "stargazers_count": 1706,
+      "watchers_count": 1624,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": true,
+      "forks_count": 490,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 92,
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "appkit",
+        "ghostty",
+        "imgcat",
+        "ios",
+        "kitty-graphics",
+        "macos",
+        "sixel",
+        "ssh-connection",
+        "swift",
+        "swift-embedded",
+        "terminal-engine",
+        "uikit",
+        "vt100",
+        "wasm",
+        "xterm",
+        "xterm-256color"
+      ],
+      "visibility": "public",
+      "forks": 402,
+      "open_issues": 86,
+      "watchers": 1624,
+      "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "network_count": 402,
+      "subscribers_count": 20
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 0
+        },
+        {
+          "month": "2026-03",
+          "commits": 3
+        },
+        {
+          "month": "2026-04",
+          "commits": 23
+        },
+        {
+          "month": "2026-05",
+          "commits": 26
+        },
+        {
+          "month": "2026-06",
+          "commits": 27
+        },
+        {
+          "month": "2026-07",
+          "commits": 21
+        }
+      ],
+      "totalCommitsKnown": 1084,
+      "openPullRequests": 25,
+      "contributorsKnown": 67
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:30.594Z",
+      "source": "api"
+    },
+    "languages": {
+      "Swift": 1795024,
+      "Metal": 3957,
+      "Python": 3410,
+      "Makefile": 878
+    },
+    "html": {
+      "license": "MIT",
+      "language": null,
+      "topics": []
+    },
+    "latestReleaseAt": "2026-08-18T15:55:10Z"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

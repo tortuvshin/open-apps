@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "slug": "flutter_server_box",
+  "repoUrl": "https://github.com/lollipopkit/flutter_server_box",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:10.239Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:10.239Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "lollipopkit/flutter_server_box",
+      "stargazers_count": 8746,
+      "forks_count": 562,
+      "open_issues_count": 15,
+      "language": "Dart",
+      "pushed_at": "2026-09-26T05:21:05Z",
+      "updated_at": "2026-09-26T06:01:06Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "android",
+        "dart",
+        "flutter",
+        "ios",
+        "server",
+        "ssh",
+        "status",
+        "vps"
+      ]
+    },
+    "latestReleaseAt": "2026-09-12T08:09:07Z",
+    "homepage": "https://serverbox.lollipopkit.com"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

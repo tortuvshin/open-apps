@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "slug": "horizoncalendar",
+  "repoUrl": "https://github.com/airbnb/HorizonCalendar",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:12.422Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 272846197,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyNzI4NDYxOTc=",
+      "name": "HorizonCalendar",
+      "full_name": "airbnb/HorizonCalendar",
+      "private": false,
+      "owner": {
+        "login": "airbnb",
+        "id": 698437,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5ODQzNw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/airbnb",
+        "html_url": "https://github.com/airbnb",
+        "followers_url": "https://api.github.com/users/airbnb/followers",
+        "following_url": "https://api.github.com/users/airbnb/following{/other_user}",
+        "gists_url": "https://api.github.com/users/airbnb/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/airbnb/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/airbnb/subscriptions",
+        "organizations_url": "https://api.github.com/users/airbnb/orgs",
+        "repos_url": "https://api.github.com/users/airbnb/repos",
+        "events_url": "https://api.github.com/users/airbnb/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/airbnb/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/airbnb/HorizonCalendar",
+      "description": "A declarative, performant, iOS calendar UI component that supports use cases ranging from simple date pickers all the way up to fully-featured calendar apps.",
+      "fork": false,
+      "url": "https://api.github.com/repos/airbnb/HorizonCalendar",
+      "forks_url": "https://api.github.com/repos/airbnb/HorizonCalendar/forks",
+      "keys_url": "https://api.github.com/repos/airbnb/HorizonCalendar/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/airbnb/HorizonCalendar/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/airbnb/HorizonCalendar/teams",
+      "hooks_url": "https://api.github.com/repos/airbnb/HorizonCalendar/hooks",
+      "issue_events_url": "https://api.github.com/repos/airbnb/HorizonCalendar/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/airbnb/HorizonCalendar/events",
+      "assignees_url": "https://api.github.com/repos/airbnb/HorizonCalendar/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/airbnb/HorizonCalendar/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/airbnb/HorizonCalendar/tags",
+      "blobs_url": "https://api.github.com/repos/airbnb/HorizonCalendar/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/airbnb/HorizonCalendar/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/airbnb/HorizonCalendar/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/airbnb/HorizonCalendar/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/airbnb/HorizonCalendar/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/airbnb/HorizonCalendar/languages",
+      "stargazers_url": "https://api.github.com/repos/airbnb/HorizonCalendar/stargazers",
+      "contributors_url": "https://api.github.com/repos/airbnb/HorizonCalendar/contributors",
+      "subscribers_url": "https://api.github.com/repos/airbnb/HorizonCalendar/subscribers",
+      "subscription_url": "https://api.github.com/repos/airbnb/HorizonCalendar/subscription",
+      "commits_url": "https://api.github.com/repos/airbnb/HorizonCalendar/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/airbnb/HorizonCalendar/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/airbnb/HorizonCalendar/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/airbnb/HorizonCalendar/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/airbnb/HorizonCalendar/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/airbnb/HorizonCalendar/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/airbnb/HorizonCalendar/merges",
+      "archive_url": "https://api.github.com/repos/airbnb/HorizonCalendar/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/airbnb/HorizonCalendar/downloads",
+      "issues_url": "https://api.github.com/repos/airbnb/HorizonCalendar/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/airbnb/HorizonCalendar/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/airbnb/HorizonCalendar/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/airbnb/HorizonCalendar/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/airbnb/HorizonCalendar/labels{/name}",
+      "releases_url": "https://api.github.com/repos/airbnb/HorizonCalendar/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/airbnb/HorizonCalendar/deployments",
+      "created_at": "2020-06-17T01:06:23Z",
+      "updated_at": "2026-09-22T08:27:35Z",
+      "pushed_at": "2026-09-03T20:43:33Z",
+      "git_url": "git://github.com/airbnb/HorizonCalendar.git",
+      "ssh_url": "git@github.com:airbnb/HorizonCalendar.git",
+      "clone_url": "https://github.com/airbnb/HorizonCalendar.git",
+      "svn_url": "https://github.com/airbnb/HorizonCalendar",
+      "homepage": "",
+      "size": 20381,
+      "stargazers_count": 3158,
+      "watchers_count": 3149,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 263,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 64,
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [],
+      "visibility": "public",
+      "forks": 261,
+      "open_issues": 62,
+      "watchers": 3149,
+      "default_branch": "master",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "custom_properties": {},
+      "organization": {
+        "login": "airbnb",
+        "id": 698437,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5ODQzNw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/airbnb",
+        "html_url": "https://github.com/airbnb",
+        "followers_url": "https://api.github.com/users/airbnb/followers",
+        "following_url": "https://api.github.com/users/airbnb/following{/other_user}",
+        "gists_url": "https://api.github.com/users/airbnb/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/airbnb/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/airbnb/subscriptions",
+        "organizations_url": "https://api.github.com/users/airbnb/orgs",
+        "repos_url": "https://api.github.com/users/airbnb/repos",
+        "events_url": "https://api.github.com/users/airbnb/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/airbnb/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "network_count": 261,
+      "subscribers_count": 32
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 2
+        },
+        {
+          "month": "2026-03",
+          "commits": 0
+        },
+        {
+          "month": "2026-04",
+          "commits": 0
+        },
+        {
+          "month": "2026-05",
+          "commits": 1
+        },
+        {
+          "month": "2026-06",
+          "commits": 0
+        },
+        {
+          "month": "2026-07",
+          "commits": 0
+        }
+      ],
+      "totalCommitsKnown": 165,
+      "openPullRequests": 8,
+      "contributorsKnown": 14
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:12.422Z",
+      "source": "api"
+    },
+    "languages": {
+      "Swift": 615725,
+      "Ruby": 2568
+    },
+    "html": {
+      "license": "Apache-2.0",
+      "language": null,
+      "topics": []
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Clear license found"
+    ]
+  }
+}

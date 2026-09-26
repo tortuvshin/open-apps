@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "slug": "twenty",
+  "repoUrl": "https://github.com/twentyhq/twenty",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:32.392Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": null,
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:32.392Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "twentyhq/twenty",
+      "stargazers_count": 57515,
+      "forks_count": 9295,
+      "open_issues_count": 148,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-26T08:54:14Z",
+      "updated_at": "2026-09-26T08:38:47Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "crm",
+        "crm-system",
+        "customer",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "javascript",
+        "marketing",
+        "monorepo",
+        "nestjs",
+        "open-source",
+        "postgresql",
+        "react",
+        "reactjs",
+        "sales",
+        "typescript",
+        "web"
+      ]
+    },
+    "latestReleaseAt": "2026-09-23T13:36:15Z",
+    "homepage": "https://twenty.com"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  }
+}

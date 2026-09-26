@@ -3,6 +3,9 @@
  * Backfill sourceDescription field from github.repository.description
  * for all records where github metadata exists and sourceDescription is unset.
  *
+ * GitHub metadata lives in data/cache/github/<slug>.json (written by
+ * `grove sync github`); a legacy inline `github` block is still read.
+ *
  * Usage:
  *   node scripts/backfill-source-description.mjs [--check]
  *
@@ -16,6 +19,15 @@ import { parse, stringify } from 'yaml';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RECORDS_DIR = path.resolve(__dirname, '../data/records');
+const CACHE_DIR = path.resolve(__dirname, '../data/cache/github');
+
+function cachedGithub(slug) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(CACHE_DIR, `${slug}.json`), 'utf-8')).github;
+  } catch {
+    return undefined;
+  }
+}
 const CHECK_MODE = process.argv.includes('--check');
 
 if (CHECK_MODE) {
@@ -41,7 +53,8 @@ for (const file of files) {
   }
 
   // Check if the record has github metadata with a description
-  const githubDescription = record?.github?.repository?.description;
+  const github = cachedGithub(path.basename(file, '.yml')) ?? record?.github;
+  const githubDescription = github?.repository?.description;
   const sourceDescription = record?.sourceDescription;
 
   if (!githubDescription) {

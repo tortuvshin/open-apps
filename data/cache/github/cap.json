@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "cap",
+  "repoUrl": "https://github.com/CapSoftware/Cap",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:05.082Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": null,
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:05.082Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "CapSoftware/Cap",
+      "stargazers_count": 22826,
+      "forks_count": 1969,
+      "open_issues_count": 386,
+      "language": "Rust",
+      "pushed_at": "2026-09-26T02:32:32Z",
+      "updated_at": "2026-09-26T08:13:46Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "app",
+        "cap",
+        "coss",
+        "loom",
+        "mac",
+        "nextjs",
+        "nextjs15",
+        "open-source",
+        "oss",
+        "react",
+        "record",
+        "rust",
+        "screen-capture",
+        "screen-recorder",
+        "screenshot",
+        "solidjs",
+        "tauri",
+        "tauri-app",
+        "typescript",
+        "vite"
+      ]
+    },
+    "latestReleaseAt": "2026-09-15T13:10:21Z",
+    "homepage": "https://cap.so"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  }
+}
