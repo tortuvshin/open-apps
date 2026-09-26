@@ -128,8 +128,12 @@ for (const file of files) {
   const match = repoUrl.match(/github\.com\/([^/]+)\/([^/#?]+)/);
   const fullName = match ? `${match[1]}/${match[2].replace(/\.git$/, '')}`.toLowerCase() : '';
   const duplicate = existing.find(
-    (record) =>
-      record.slug !== slug && String(record.repoUrl ?? '').toLowerCase().includes(`github.com/${fullName}`),
+    (entry) =>
+      entry.slug !== slug &&
+      String(entry.record?.repoUrl ?? '')
+        .toLowerCase()
+        .replace(/\.git$|\/+$/g, '')
+        .endsWith(`github.com/${fullName}`),
   );
   add(
     'Duplicate',
