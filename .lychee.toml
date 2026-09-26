@@ -1,0 +1,52 @@
+# lychee config for the monthly link check (.github/workflows/links.yml).
+# Reference: https://lychee.cli.rs/usage/config/
+
+# Keep the check polite: modest concurrency, a few retries, and a short
+# timeout so one slow homepage cannot stall the run.
+max_concurrency = 8
+max_retries = 2
+retry_wait_time = 5
+timeout = 20
+
+# Remember results between runs (the workflow restores .lycheecache via
+# actions/cache). Never cache a 429 or a 5xx: those are transient and
+# must be re-checked next time.
+cache = true
+max_cache_age = "1d"
+cache_exclude_status = ["429", "500..=599"]
+
+# 429 (rate limited) is not a broken link. Count it as OK instead of
+# failing the report.
+accept = ["200..=299", "429"]
+
+# Local directory links (/apps/foo/) must resolve to an index.html.
+index_files = ["index.html"]
+
+include_mail = false
+exclude_all_private = true
+
+exclude = [
+  # Our own origin: every canonical, og:url and logo link on every page.
+  # Internal links are root-relative and are checked as files under
+  # --root-dir, so hitting production for them adds nothing.
+  '^https://openappscout\.com',
+  # Placeholders.
+  '^https?://(www\.)?example\.(com|org)',
+  # Hosts that reject or throttle automated requests regardless of
+  # whether the page exists (403/999/login walls).
+  '^https?://(www\.)?(twitter|x)\.com',
+  '^https?://(www\.)?linkedin\.com',
+  '^https?://(www\.)?npmjs\.com',
+  '^https?://(www\.)?reddit\.com',
+  '^https?://(www\.)?instagram\.com',
+  '^https?://(www\.)?facebook\.com',
+  '^https?://apps\.apple\.com',
+  '^https?://play\.google\.com',
+  # Resource hints and asset CDNs, not links a reader follows.
+  '^https://fonts\.(googleapis|gstatic)\.com',
+  '^https://avatars\.githubusercontent\.com',
+  '^https://www\.googletagmanager\.com',
+]
+
+# Generated assets carry no human-authored links.
+exclude_path = ['dist/_astro', 'dist/pagefind']
