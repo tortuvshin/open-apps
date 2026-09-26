@@ -21,7 +21,8 @@ Steps for a reviewer to follow:
 
 - [ ] `pnpm exec grove validate` passes
 - [ ] `pnpm run build` succeeds locally
-- [ ] For record changes: the `slug` is unique and matches the
-      filename (`data/records/<slug>.yml`)
+- [ ] For record changes: one file per app,
+      `content/records/<slug>.md` (frontmatter plus notes), and the file
+      name is the slug
 - [ ] For new categories / stacks / platforms: the field appears
       sensibly in `Browse by category` and `Browse by stack`
