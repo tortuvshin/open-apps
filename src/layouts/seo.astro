@@ -57,6 +57,9 @@ interface Props {
   type?: 'website' | 'article' | 'profile';
   /** Set true to add noindex,nofollow. */
   noindex?: boolean;
+  /** Exact robots value (e.g. a page model's `seo.robots`, "noindex,follow"
+   *  for pages the index policy excludes); wins over `noindex`. */
+  robots?: string;
   /** Extra JSON-LD payload (object) — typically SoftwareSourceCode on item pages. */
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
@@ -70,8 +73,11 @@ const {
   imageAlt,
   type = 'website',
   noindex = false,
+  robots,
   jsonLd,
 } = Astro.props;
+const robotsContent =
+  robots ?? (noindex ? 'noindex,nofollow' : 'index,follow,max-image-preview:large');
 
 // `Astro.site` is required for canonical / OG / Twitter / JSON-LD URLs to
 // resolve to the consumer's domain. Failing the build (rather than silently
@@ -143,11 +149,7 @@ const perPageLdJson = perPageNodes ? JSON.stringify(perPageNodes) : null;
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
-{noindex ? (
-  <meta name="robots" content="noindex,nofollow" />
-) : (
-  <meta name="robots" content="index,follow,max-image-preview:large" />
-)}
+<meta name="robots" content={robotsContent} />
 
 <!-- Open Graph -->
 <meta property="og:type" content={type} />

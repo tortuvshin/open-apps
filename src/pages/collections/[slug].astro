@@ -41,6 +41,9 @@ const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'apps';
 // that means; the full formula stays in the selection note.
 const activityRanked =
   collection.ranking?.preset === 'active' || collection.ranking?.preset === 'recency';
+// `seo.robots` is set only when the index policy excludes the page (no
+// introduction): out of search engines, still in quick-find.
+const searchable = !model.seo.noindex || Boolean(model.seo.robots);
 const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collection.subject)?.name;
 ---
 <BaseLayout
@@ -50,10 +53,11 @@ const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collec
   imageAlt={model.seo.imageAlt}
   jsonLd={model.seo.jsonLd}
   noindex={model.seo.noindex}
+  robots={model.seo.robots}
   site={siteConfig}
 >
-  <div data-pagefind-body={model.seo.noindex ? undefined : ""}>
-    {!model.seo.noindex && (
+  <div data-pagefind-body={searchable ? "" : undefined}>
+    {searchable && (
       <SearchMeta
         type="Collection"
         meta={{
