@@ -1,0 +1,14 @@
+---
+/** Small neutral chips (platforms, tags). */
+interface Props {
+  items: string[];
+}
+const items = [...new Set(Astro.props.items.filter(Boolean))];
+---
+{items.length > 0 && (
+  <ul class="m-0 mt-3 flex list-none flex-wrap gap-1.5 p-0">
+    {items.map((item) => (
+      <li class="m-0 rounded-full border border-border px-2 py-0.5 text-2xs font-medium text-muted-foreground">{item}</li>
+    ))}
+  </ul>
+)}

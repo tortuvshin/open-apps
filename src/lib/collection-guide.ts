@@ -17,7 +17,7 @@
  * a reader is trying to do, not what the apps are like.
  */
 import type { Collection, CollectionEntry } from '@grove-dev/core';
-import { getOwnerAndRepoFromRepoUrl, getOwnerAvatarUrl } from '@grove-dev/core';
+import { formatCount, getOwnerAndRepoFromRepoUrl, getOwnerAvatarUrl, runCollection } from '@grove-dev/core';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 
 const DAY = 24 * 3600 * 1000;
@@ -245,4 +245,50 @@ export function avatarFor(
   if (record?.logoUrl) return record.logoUrl;
   const { owner } = getOwnerAndRepoFromRepoUrl(repoHref ?? record?.repoUrl ?? '');
   return getOwnerAvatarUrl(owner, size) ?? undefined;
+}
+
+/** Everything a collection card needs, from the collection and its resolved entries. */
+export function tileFor(
+  collection: Collection,
+  entries: CollectionEntry[],
+  ctx: {
+    records: Map<string, GuideRecord>;
+    subjects: Array<{ id: string; name: string }>;
+    countNoun: { singular: string; plural: string };
+    now?: number;
+  },
+) {
+  const result = runCollection(collection, entries);
+  const editorial = isEditorial(result.entries);
+  const freshness = freshnessOf(collection, result.entries, ctx.records, ctx.now ?? Date.now());
+  const introduction = collection.editorial?.introduction;
+  return {
+    result,
+    freshness,
+    tile: {
+      slug: collection.slug,
+      url: `/collections/${collection.slug}/`,
+      title: collection.title,
+      question: questionFor(collection, ctx.subjects),
+      takeaway: firstSentence(introduction) ?? collection.description,
+      editorial,
+      count: result.entries.length,
+      countLabel: formatCount(result.entries.length, ctx.countNoun),
+      faces: result.entries.map((entry) => ({
+        title: entry.title,
+        avatarUrl: avatarFor(ctx.records.get(entry.slug), entry.repoHref, 56),
+      })),
+      examples: result.entries.slice(0, editorial ? 4 : 3).map((entry) => ({
+        title: entry.title,
+        url: `/collections/${collection.slug}/#pick-${entry.slug}`,
+        pick: firstSentence(entry.note) ?? ctx.records.get(entry.slug)?.bestFor?.[0],
+        avatarUrl: avatarFor(ctx.records.get(entry.slug), entry.repoHref, 72),
+        stars: entry.stars,
+      })),
+      dateLabel: freshness.label,
+      date: freshness.date,
+      dateText: formatDate(freshness.date),
+      introduction,
+    },
+  };
 }

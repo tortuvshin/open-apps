@@ -5,10 +5,10 @@ import {
   getCollectionBodyHtml,
   getCollectionPageModel,
   loadCollections,
-  recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
 import CollectionPage from '../../components/grove/collection-page.astro';
 import SearchMeta from '../../components/site/search-meta.astro';
+import { collectionEntries } from '../../lib/collection-entries';
 import { keepReferrer } from '../../lib/outbound';
 import BaseLayout from '../../layouts/base-layout.astro';
 import {
@@ -17,6 +17,7 @@ import {
   isEditorial,
   refreshedAt,
   splitBody,
+  tileFor,
 } from '../../lib/collection-guide';
 
 export async function getStaticPaths() {
@@ -30,7 +31,7 @@ const collection = collections.find((c) => c.slug === slug);
 if (!collection) return Astro.redirect('/404');
 
 const allRecords = (records as { records: unknown[] }).records;
-const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
+const entries = collectionEntries(allRecords, siteConfig);
 const model = getCollectionPageModel(collection, entries, collections, siteConfig);
 const body = splitBody(getCollectionBodyHtml(collection.content));
 const recordsBySlug = new Map(
@@ -45,6 +46,18 @@ const activityRanked =
 // `seo.robots` is set only when the index policy excludes the page (no
 // introduction): out of search engines, still in quick-find.
 const searchable = !model.seo.noindex || Boolean(model.seo.robots);
+const countNoun = {
+  singular: siteConfig.blueprintConfig?.labelSingular ?? 'item',
+  plural: siteConfig.blueprintConfig?.labelPlural ?? 'items',
+};
+const relatedTiles = model.related
+  .map((r) => collections.find((c) => `/collections/${c.slug}/` === r.url || c.slug === r.slug))
+  .filter((c): c is NonNullable<typeof c> => Boolean(c))
+  .map((c) => tileFor(c, entries, {
+    records: recordsBySlug,
+    subjects: (siteConfig.taxonomy?.subjects ?? []) as Array<{ id: string; name: string }>,
+    countNoun,
+  }).tile);
 const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collection.subject)?.name;
 ---
 <BaseLayout
@@ -80,10 +93,8 @@ const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collec
       activityNote={activityRanked
         ? "Ranked by repository activity — recent releases, pushes and commits — not by star growth."
         : undefined}
-      countNoun={{
-        singular: siteConfig.blueprintConfig?.labelSingular ?? "item",
-        plural: siteConfig.blueprintConfig?.labelPlural ?? "items",
-      }}
+      countNoun={countNoun}
+      relatedTiles={relatedTiles}
     />
   </div>
 </BaseLayout>

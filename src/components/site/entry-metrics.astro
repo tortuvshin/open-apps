@@ -1,0 +1,37 @@
+---
+/** Stars · last push · licence, with icons. Renders nothing when all are missing. */
+import { formatRelative, formatStars } from '@grove-dev/core';
+
+interface Props {
+  stars?: number;
+  pushedAt?: string;
+  license?: string;
+  /** Top border, for the foot of a card. */
+  bordered?: boolean;
+}
+const { stars, pushedAt, license, bordered = false } = Astro.props;
+const starsText = typeof stars === 'number' && stars > 0 ? formatStars(stars) : undefined;
+const pushedText = pushedAt ? formatRelative(pushedAt) : undefined;
+---
+{(starsText || pushedText || license) && (
+  <p class:list={["m-0 mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-2xs text-muted-foreground", bordered && "border-t border-border pt-3"]}>
+    {starsText && (
+      <span class="inline-flex items-center gap-1 tabular-nums" title={`${stars?.toLocaleString('en')} GitHub stars`}>
+        <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="currentColor" class="text-warning"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
+        {starsText}<span class="sr-only"> stars</span>
+      </span>
+    )}
+    {pushedText && (
+      <span class="inline-flex items-center gap-1" title="Last push to the repository">
+        <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="8" cy="8" r="6.25"></circle><path d="M8 4.75V8l2.25 1.5"></path></svg>
+        <span><span class="sr-only">Last commit </span>{pushedText}</span>
+      </span>
+    )}
+    {license && (
+      <span class="inline-flex items-center gap-1">
+        <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.75v12.5M3.25 4.25h9.5M4.75 4.25 2.5 9a2.25 2.25 0 0 0 4.5 0L4.75 4.25ZM11.25 4.25 9 9a2.25 2.25 0 0 0 4.5 0l-2.25-4.75ZM5.5 14.25h5"></path></svg>
+        {license}
+      </span>
+    )}
+  </p>
+)}

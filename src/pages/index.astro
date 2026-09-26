@@ -32,12 +32,12 @@ import {
   getCollectionTeaserModel,
   getHomePageModel,
   loadCollections,
-  recordsToCollectionEntries,
   seoTitle,
 } from "@grove-dev/astro/server";
 import { applySort, runCollection } from "@grove-dev/core";
 import { HOME_TITLE } from "../lib/seo";
 import { press } from "../lib/press";
+import { collectionEntries } from "../lib/collection-entries";
 import type { IndexRecord } from "@grove-dev/core";
 import records from "@grove/generated/records.json";
 import indexPayload from "@grove/generated/records.index.json";
@@ -49,10 +49,7 @@ const { seo } = home;
 
 // ── Collections (teaser + the trending strip) ───────────────────
 const allCollections = await loadCollections(process.cwd());
-const entries = recordsToCollectionEntries(
-  (records as { records: unknown[] }).records as never,
-  siteConfig,
-);
+const entries = collectionEntries((records as { records: unknown[] }).records, siteConfig);
 const collectionTeaser = getCollectionTeaserModel(allCollections, entries, 3);
 
 // ── Lens sectioning (Trending / New) ────────────────────────────

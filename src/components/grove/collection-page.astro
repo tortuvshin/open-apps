@@ -22,13 +22,19 @@ import type { CollectionPageModel } from '@grove-dev/astro/server';
  * Every value comes from the collection file or the records; this
  * component writes no editorial claims of its own.
  */
-import { formatCount, formatRelative, formatStars } from '@grove-dev/core';
+import { formatCount } from '@grove-dev/core';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 import Container from '../../layouts/container.astro';
 import SectionHeader from '../../layouts/section-header.astro';
 import { getInstallChannels } from '../../lib/channels';
+import { withRef } from '../../lib/outbound';
+import CollectionTile, { type CollectionTileData } from '../site/collection-tile.astro';
+import Avatar from '../site/entry-avatar.astro';
+import Chips from '../site/entry-chips.astro';
+import Metrics from '../site/entry-metrics.astro';
 import { buttonClass } from '../../lib/classnames';
 import {
+  avatarFor,
   firstSentence,
   formatDate,
   type GuideRecord,
@@ -62,6 +68,10 @@ interface Props {
   id?: string;
   level?: 1 | 2;
   countNoun?: { singular: string; plural: string };
+  /** Cards for related collections; falls back to plain links from the model. */
+  relatedTiles?: CollectionTileData[];
+  /** Where "Know an app that fits?" points. */
+  submitHref?: string;
   class?: string;
 }
 
@@ -82,6 +92,8 @@ const {
   id,
   level = 1,
   countNoun = { singular: 'item', plural: 'items' },
+  relatedTiles = [],
+  submitHref = '/submit/',
   class: className = '',
 } = Astro.props;
 
@@ -108,237 +120,304 @@ const quickPicks = editorial
 const picks = model.entries.map((entry) => {
   const record = records.get(entry.slug);
   const install = getInstallChannels(record?.distribution?.channels, record?.repoUrl)[0];
+  // GitHub reports NOASSERTION when it cannot detect a licence; say nothing then.
+  const license = [entry.licenses?.[0], entry.license].find(
+    (id) => id && !['noassertion', 'other', 'unknown'].includes(id.toLowerCase()),
+  );
   return {
     entry,
+    avatarUrl: avatarFor(record, entry.repoHref, 80),
     whyListed: record?.whyListed ?? [],
     caveats: record?.caveats ?? [],
     platforms: platformLabels(record?.platforms),
+    tags: (record?.tags ?? []).slice(0, 3).map((t) => taxonomyLabel('topics', t)),
+    license: license ? taxonomyLabel('licenses', license) : undefined,
     install,
+    website: entry.homepageHref && entry.homepageHref !== install?.url ? withRef(entry.homepageHref) : undefined,
     reviewedAt: record?.curation?.reviewed ? record.curation.reviewedAt : undefined,
   };
 });
-
+const faces = picks.filter((p) => p.avatarUrl).slice(0, 6);
 const jumpLinks = [
   leadHtml ? { href: `#${comparisonAnchor}`, label: 'Comparison' } : null,
   model.isEmpty ? null : { href: '#entries', label: editorial ? `The ${countText}` : `All ${countText}` },
   model.collection.selectionNote ? { href: '#how-we-picked', label: 'How we picked' } : null,
   model.faq.length > 0 ? { href: '#faq', label: 'Questions' } : null,
+  model.related.length > 0 ? { href: '#related', label: 'Related collections' } : null,
 ].filter((link): link is { href: string; label: string } => link !== null);
 ---
 
-<section id={id} class={`py-10 sm:py-14 ${className}`}>
+<section id={id} class={className}>
+  {/* ── Header band ─────────────────────────────────────── */}
+  <div class="border-b border-border bg-surface-sunken/60">
+    <Container>
+      <header class="max-w-[76ch] py-10 sm:py-14">
+        <nav aria-label="Breadcrumb" class="flex items-center gap-2 text-2xs text-muted-foreground">
+          <a href="/collections/" class="text-muted-foreground no-underline hover:text-foreground hover:underline">Collections</a>
+          <span aria-hidden="true">/</span>
+          {editorial ? (
+            <span class="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 font-semibold text-emerald-700 dark:text-emerald-300">{finalEyebrow}</span>
+          ) : (
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-secondary px-2 py-0.5 font-semibold text-secondary-foreground"><span class="h-1.5 w-1.5 rounded-full bg-success" aria-hidden="true"></span>{finalEyebrow}</span>
+          )}
+        </nav>
+        <Heading class="m-0 mt-4 text-[2rem] font-semibold leading-[1.1] tracking-tight text-foreground sm:text-[2.625rem]">
+          {finalTitle}
+        </Heading>
+        {verdict && (
+          <p class="m-0 mt-4 text-[1.0625rem] leading-relaxed text-foreground sm:text-[1.125rem]">{verdict}</p>
+        )}
+        <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+          {faces.length > 0 && (
+            <span class="flex -space-x-2" aria-hidden="true">
+              {faces.map((p) => (
+                <img src={p.avatarUrl} alt="" width="28" height="28" loading="eager" decoding="async" class="h-7 w-7 rounded-full border-2 border-background bg-secondary object-cover" />
+              ))}
+            </span>
+          )}
+          <span class="font-medium text-foreground">{countText}</span>
+          {editorial && reviewedText && (
+            <span>Reviewed <time datetime={model.collection.lastReviewedAt}>{reviewedText}</time></span>
+          )}
+          {!editorial && refreshedText && (
+            <span>Refreshed <time datetime={refreshedAt}>{refreshedText}</time></span>
+          )}
+        </div>
+        {activityNote && (
+          <p class="m-0 mt-3 text-sm text-muted-foreground">{activityNote}</p>
+        )}
+      </header>
+    </Container>
+  </div>
+
   <Container>
-    {/* ── First screen ─────────────────────────────────────── */}
-    <header class="max-w-[72ch]">
-      <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
-        <a href="/collections/" class="text-muted-foreground no-underline hover:text-foreground hover:underline">Collections</a>
-        <span aria-hidden="true"> / </span>{finalEyebrow}
-      </p>
-      <Heading class="m-0 mt-2 text-[1.875rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2.25rem]">
-        {finalTitle}
-      </Heading>
-      {verdict && (
-        <p class="m-0 mt-3 text-[1.0625rem] leading-relaxed text-foreground">{verdict}</p>
-      )}
-      <p class="m-0 mt-3 text-2xs text-muted-foreground">
-        {countText}
-        {editorial && reviewedText && (
-          <> · Reviewed <time datetime={model.collection.lastReviewedAt}>{reviewedText}</time></>
+    <div class="grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-12">
+      <div class="min-w-0">
+        {jumpLinks.length > 1 && (
+          <nav aria-label="On this page" class="mb-8 lg:hidden">
+            <ul class="m-0 flex list-none flex-wrap gap-2 p-0">
+              {jumpLinks.map((link) => (
+                <li class="m-0"><a href={link.href} class={buttonClass('outline', 'sm')}>{link.label}</a></li>
+              ))}
+            </ul>
+          </nav>
         )}
-        {!editorial && refreshedText && (
-          <> · Refreshed <time datetime={refreshedAt}>{refreshedText}</time></>
+
+        {quickPicks.length > 0 && (
+          <section aria-labelledby="quick-picks" class="mb-10 max-w-[76ch] rounded-[var(--radius-lg)] border border-border bg-card p-4 sm:p-5">
+            <h2 id="quick-picks" class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Quick picks</h2>
+            <ul class="m-0 mt-3 flex list-none flex-col gap-2 p-0">
+              {quickPicks.map((p) => (
+                <li class="m-0 text-[0.9375rem] leading-relaxed text-foreground">
+                  <a href={`#pick-${p.slug}`} class="font-semibold text-foreground underline decoration-border underline-offset-2 hover:decoration-foreground">{p.title}</a>
+                  <span class="text-muted-foreground"> — {p.pick}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
-      </p>
-      {activityNote && (
-        <p class="m-0 mt-2 text-sm text-muted-foreground">{activityNote}</p>
-      )}
-    </header>
 
-    {quickPicks.length > 0 && (
-      <section aria-labelledby="quick-picks" class="mt-6 max-w-[72ch] rounded-[var(--radius-lg)] border border-border bg-card p-4 sm:p-5">
-        <h2 id="quick-picks" class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Quick picks</h2>
-        <ul class="m-0 mt-3 flex list-none flex-col gap-2 p-0">
-          {quickPicks.map((p) => (
-            <li class="m-0 text-[0.9375rem] leading-relaxed text-foreground">
-              <a href={`#pick-${p.slug}`} class="font-semibold text-foreground underline decoration-border underline-offset-2 hover:decoration-foreground">{p.title}</a>
-              <span class="text-muted-foreground"> — {p.pick}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
+        <slot name="intro" />
 
-    {jumpLinks.length > 1 && (
-      <nav aria-label="On this page" class="mt-5">
-        <ul class="m-0 flex list-none flex-wrap gap-2 p-0">
-          {jumpLinks.map((link) => (
-            <li class="m-0"><a href={link.href} class={buttonClass('outline', 'sm')}>{link.label}</a></li>
-          ))}
-        </ul>
-      </nav>
-    )}
+        {/* ── Comparison (editorial body, above the picks) ─────── */}
+        {leadHtml && (
+          <section id="comparison" aria-label="Comparison" class="grove-prose mb-12 max-w-[76ch] scroll-mt-20" set:html={leadHtml} />
+        )}
 
-    <slot name="intro" />
+        {/* ── Entries ──────────────────────────────────────────── */}
+        <section id="entries" aria-labelledby="entries-heading" class="scroll-mt-20">
+          <div class="mb-4 flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
+            <h2 id="entries-heading" class="m-0 text-[1.375rem] font-semibold tracking-tight text-foreground">
+              {editorial ? `The ${countText}` : `All ${countText}, ranked`}
+            </h2>
+            {browse && !model.isEmpty && (
+              <a href={browse.href} class="text-sm font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">
+                {browse.label} →
+              </a>
+            )}
+          </div>
 
-    {/* ── Comparison (editorial body, above the picks) ─────── */}
-    {leadHtml && (
-      <section id="comparison" aria-label="Comparison" class="grove-prose mt-10 max-w-[72ch] scroll-mt-20" set:html={leadHtml} />
-    )}
+          {model.isEmpty ? (
+            <EmptyState
+              title={emptyLabel}
+              description="No records currently match this collection's query. The collection fills automatically as matching records are added."
+            />
+          ) : editorial ? (
+            <ol class="m-0 flex list-none flex-col gap-4 p-0">
+              {picks.map(({ entry, avatarUrl, whyListed, caveats, platforms, tags, license, install, website, reviewedAt }, i) => (
+                <li id={`pick-${entry.slug}`} class="m-0 scroll-mt-20 rounded-[var(--radius-lg)] border border-border bg-card p-5 sm:p-6">
+                  <div class="flex items-start gap-4">
+                    <Avatar src={avatarUrl} title={entry.title} size="lg" />
+                    <div class="min-w-0 flex-1">
+                      <h3 class="m-0 flex flex-wrap items-baseline gap-x-2 text-[1.1875rem] font-semibold leading-snug text-foreground">
+                        <span class="tabular-nums text-muted-foreground">{i + 1}.</span>
+                        <a href={entry.url} class="text-foreground no-underline hover:underline">{entry.title}</a>
+                      </h3>
+                      <Metrics stars={entry.stars} pushedAt={entry.pushedAt} license={license} />
+                    </div>
+                  </div>
+                  <p class="m-0 mt-4 max-w-[72ch] text-[0.9375rem] leading-relaxed text-foreground">
+                    {entry.note ?? entry.description}
+                  </p>
 
-    {/* ── Entries ──────────────────────────────────────────── */}
-    <section id="entries" aria-labelledby="entries-heading" class="mt-10 scroll-mt-20">
-      <div class="mb-4 flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
-        <h2 id="entries-heading" class="m-0 text-[1.375rem] font-semibold tracking-tight text-foreground">
-          {editorial ? `The ${countText}` : `All ${countText}, ranked`}
-        </h2>
-        {browse && !model.isEmpty && (
-          <a href={browse.href} class="text-sm font-medium text-muted-foreground underline decoration-border underline-offset-2 hover:text-foreground">
-            {browse.label} →
-          </a>
+                  {(whyListed.length > 0 || caveats.length > 0) && (
+                    <div class="mt-4 grid gap-4 md:grid-cols-2">
+                      {whyListed.length > 0 && (
+                        <div>
+                          <h4 class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Why it is listed</h4>
+                          <ul class="m-0 mt-2 flex list-disc flex-col gap-1 pl-5 text-sm leading-relaxed text-foreground">
+                            {whyListed.map((line) => <li>{line}</li>)}
+                          </ul>
+                        </div>
+                      )}
+                      {caveats.length > 0 && (
+                        <div>
+                          <h4 class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Caveats</h4>
+                          <ul class="m-0 mt-2 flex list-disc flex-col gap-1 pl-5 text-sm leading-relaxed text-foreground">
+                            {caveats.map((line) => <li>{line}</li>)}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  <Chips items={[...platforms, ...tags]} />
+
+                  <div class="mt-4 flex flex-wrap items-center gap-2 border-t border-border pt-4">
+                    {install && (
+                      <a href={install.url} rel="noopener" target="_blank" class={buttonClass('primary', 'sm')} data-event="install_click" data-event-source="collection_pick" data-event-item={entry.slug}>
+                        {install.action}<span class="sr-only"> (opens {install.host})</span>
+                      </a>
+                    )}
+                    {website && (
+                      <a href={website} rel="noopener" target="_blank" class={buttonClass('secondary', 'sm')} data-event="homepage_click" data-event-source="collection_pick" data-event-item={entry.slug}>
+                        Website<span class="sr-only"> of {entry.title}</span>
+                      </a>
+                    )}
+                    {entry.repoHref && (
+                      <a href={entry.repoHref} rel="noopener" target="_blank" class={buttonClass('ghost', 'sm')} data-event="external_repo_click" data-event-source="collection_pick" data-event-item={entry.slug}>
+                        Source<span class="sr-only"> code of {entry.title}</span>
+                      </a>
+                    )}
+                    <a href={entry.url} class="ml-auto text-sm font-medium text-muted-foreground no-underline hover:text-foreground hover:underline">
+                      Full review →
+                    </a>
+                  </div>
+                  {reviewedAt && formatDate(reviewedAt) && (
+                    <p class="m-0 mt-2 text-2xs text-muted-foreground">Record reviewed <time datetime={reviewedAt}>{formatDate(reviewedAt)}</time></p>
+                  )}
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <ol class="m-0 grid list-none grid-cols-1 gap-3 p-0 md:grid-cols-2">
+              {picks.map(({ entry, avatarUrl, tags, license }, i) => (
+                <li id={`pick-${entry.slug}`} class="group relative m-0 flex scroll-mt-20 flex-col rounded-[var(--radius-lg)] border border-border bg-card p-4 transition-[border-color,box-shadow] focus-within:border-ring hover:border-ink-300 hover:shadow-md dark:hover:border-ink-700">
+                  <div class="flex items-start gap-3">
+                    <Avatar src={avatarUrl} title={entry.title} />
+                    <div class="min-w-0 flex-1">
+                      <h3 class="m-0 text-[1rem] font-semibold leading-snug text-foreground">
+                        <a href={entry.url} class="text-foreground no-underline outline-none after:absolute after:inset-0 after:content-[''] group-hover:underline">
+                          {entry.title}
+                        </a>
+                      </h3>
+                      {entry.stack && <p class="m-0 mt-0.5 text-2xs text-muted-foreground">{taxonomyLabel('stacks', entry.stack)}</p>}
+                    </div>
+                    <span class="shrink-0 rounded-full bg-secondary px-2 py-0.5 text-2xs font-semibold tabular-nums text-secondary-foreground" aria-label={`Rank ${i + 1}`}>#{i + 1}</span>
+                  </div>
+                  <p class="m-0 mt-3 line-clamp-2 text-sm leading-relaxed text-muted-foreground">{entry.description}</p>
+                  <Chips items={tags} />
+                  <div class="mt-auto pt-3">
+                    <Metrics stars={entry.stars} pushedAt={entry.pushedAt} license={license} bordered />
+                  </div>
+                </li>
+              ))}
+            </ol>
+          )}
+        </section>
+
+        {bodyHtml && <div class="grove-prose mt-12 max-w-[76ch]" set:html={bodyHtml} />}
+
+        {/* ── How we picked ────────────────────────────────────── */}
+        {model.collection.selectionNote && (
+          <details id="how-we-picked" class="group mt-12 max-w-[76ch] scroll-mt-20 rounded-[var(--radius-lg)] border border-border bg-surface-sunken">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-3 rounded-[var(--radius-lg)] px-4 py-3 text-[1rem] font-semibold text-foreground outline-none focus-visible:ring-3 focus-visible:ring-ring/35 [&::-webkit-details-marker]:hidden">
+              <h2 class="m-0 text-[1rem] font-semibold">How we picked</h2>
+              <span aria-hidden="true" class="text-muted-foreground transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <div class="px-4 pb-4">
+              <p class="m-0 text-[0.9375rem] leading-relaxed text-foreground">
+                {model.collection.selectionNote.trim().replace(/\s*\n\s*/g, ' ')}
+              </p>
+              <p class="m-0 mt-3 text-2xs text-muted-foreground">
+                {reviewedText && (
+                  <>{editorial ? 'Picks reviewed' : 'Criteria reviewed'} <time datetime={model.collection.lastReviewedAt}>{reviewedText}</time></>
+                )}
+                {!editorial && refreshedText && (
+                  <>{reviewedText ? ' · ' : ''}List refreshed from GitHub data <time datetime={refreshedAt}>{refreshedText}</time></>
+                )}
+              </p>
+            </div>
+          </details>
+        )}
+
+        {model.faq.length > 0 && (
+          <section id="faq" aria-labelledby="faq-heading" class="mt-12 max-w-[76ch] scroll-mt-20">
+            <h2 id="faq-heading" class="m-0 mb-4 text-[1.375rem] font-semibold tracking-tight text-foreground">
+              Frequently asked questions
+            </h2>
+            <dl class="m-0 flex flex-col gap-5">
+              {model.faq.map((item) => (
+                <div>
+                  <dt class="m-0 text-[1rem] font-semibold text-foreground">{item.q}</dt>
+                  <dd class="m-0 mt-1 text-[0.9375rem] leading-relaxed text-foreground">{item.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
         )}
       </div>
 
-      {model.isEmpty ? (
-        <EmptyState
-          title={emptyLabel}
-          description="No records currently match this collection's query. The collection fills automatically as matching records are added."
-        />
-      ) : editorial ? (
-        <ol class="m-0 flex list-none flex-col gap-4 p-0">
-          {picks.map(({ entry, whyListed, caveats, platforms, install, reviewedAt }, i) => (
-            <li id={`pick-${entry.slug}`} class="m-0 scroll-mt-20 rounded-[var(--radius-lg)] border border-border bg-card p-4 sm:p-6">
-              <h3 class="m-0 text-[1.1875rem] font-semibold leading-snug text-foreground">
-                <span class="mr-2 tabular-nums text-muted-foreground">{i + 1}.</span>
-                <a href={entry.url} class="text-foreground no-underline hover:underline">{entry.title}</a>
-              </h3>
-              <p class="m-0 mt-2 max-w-[72ch] text-[0.9375rem] leading-relaxed text-foreground">
-                {entry.note ?? entry.description}
-              </p>
-
-              {(whyListed.length > 0 || caveats.length > 0) && (
-                <div class="mt-4 grid gap-4 md:grid-cols-2">
-                  {whyListed.length > 0 && (
-                    <div>
-                      <h4 class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Why it is listed</h4>
-                      <ul class="m-0 mt-2 flex list-disc flex-col gap-1 pl-5 text-sm leading-relaxed text-foreground">
-                        {whyListed.map((line) => <li>{line}</li>)}
-                      </ul>
-                    </div>
-                  )}
-                  {caveats.length > 0 && (
-                    <div>
-                      <h4 class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Caveats</h4>
-                      <ul class="m-0 mt-2 flex list-disc flex-col gap-1 pl-5 text-sm leading-relaxed text-foreground">
-                        {caveats.map((line) => <li>{line}</li>)}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              )}
-
-              <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-4 text-2xs text-muted-foreground">
-                {install && (
-                  <a href={install.url} rel="noopener" target="_blank" class={buttonClass('primary', 'sm')} data-event="install_click" data-event-source="collection_pick" data-event-item={entry.slug}>
-                    {install.action}<span class="sr-only"> (opens {install.host})</span>
-                  </a>
-                )}
-                {platforms.length > 0 && <span>Runs on {platforms.join(', ')}</span>}
-                {typeof entry.stars === 'number' && entry.stars > 0 && <span>{formatStars(entry.stars)} stars</span>}
-                {(entry.licenses?.[0] ?? entry.license) && (
-                  <span>{taxonomyLabel('licenses', (entry.licenses?.[0] ?? entry.license) as string)}</span>
-                )}
-                {entry.repoHref && (
-                  <a href={entry.repoHref} rel="noopener" target="_blank" class="text-muted-foreground underline underline-offset-2 hover:text-foreground">
-                    Source<span class="sr-only"> code of {entry.title}</span>
-                  </a>
-                )}
-                {reviewedAt && formatDate(reviewedAt) && (
-                  <span>Record reviewed <time datetime={reviewedAt}>{formatDate(reviewedAt)}</time></span>
-                )}
-              </div>
-            </li>
-          ))}
-        </ol>
-      ) : (
-        <ol class="m-0 list-none divide-y divide-border overflow-hidden rounded-[var(--radius-lg)] border border-border bg-card p-0">
-          {model.entries.map((entry, i) => (
-            <li id={`pick-${entry.slug}`} class="relative m-0 grid grid-cols-[2rem_minmax(0,1fr)] gap-x-2 px-3 py-3 transition-colors focus-within:bg-accent hover:bg-accent sm:grid-cols-[2.5rem_minmax(0,1fr)_auto] sm:items-center sm:gap-x-4 sm:px-4">
-              <span class="pt-0.5 text-sm tabular-nums text-muted-foreground sm:pt-0">{i + 1}</span>
-              <div class="min-w-0">
-                <h3 class="m-0 text-[0.9375rem] font-semibold leading-snug text-foreground">
-                  <a href={entry.url} class="text-foreground no-underline outline-none after:absolute after:inset-0 after:content-[''] hover:underline focus-visible:underline">
-                    {entry.title}
-                  </a>
-                </h3>
-                <p class="m-0 mt-0.5 line-clamp-2 text-sm leading-snug text-muted-foreground sm:line-clamp-1">{entry.description}</p>
-              </div>
-              <p class="col-start-2 m-0 mt-1 flex flex-wrap gap-x-3 gap-y-0.5 text-2xs text-muted-foreground sm:col-start-auto sm:mt-0 sm:justify-end sm:text-right">
-                {entry.stack && <span>{taxonomyLabel('stacks', entry.stack)}</span>}
-                {typeof entry.stars === 'number' && entry.stars > 0 && <span class="tabular-nums">{formatStars(entry.stars)} stars</span>}
-                {entry.pushedAt && formatRelative(entry.pushedAt) && <span>Pushed {formatRelative(entry.pushedAt)}</span>}
-              </p>
-            </li>
-          ))}
-        </ol>
-      )}
-    </section>
-
-    {bodyHtml && <div class="grove-prose mt-12 max-w-[72ch]" set:html={bodyHtml} />}
-
-    {/* ── How we picked ────────────────────────────────────── */}
-    {model.collection.selectionNote && (
-      <details id="how-we-picked" class="group mt-12 max-w-[72ch] scroll-mt-20 rounded-[var(--radius-lg)] border border-border bg-surface-sunken">
-        <summary class="flex cursor-pointer list-none items-center justify-between gap-3 rounded-[var(--radius-lg)] px-4 py-3 text-[1rem] font-semibold text-foreground outline-none focus-visible:ring-3 focus-visible:ring-ring/35 [&::-webkit-details-marker]:hidden">
-          <h2 class="m-0 text-[1rem] font-semibold">How we picked</h2>
-          <span aria-hidden="true" class="text-muted-foreground transition-transform group-open:rotate-45">+</span>
-        </summary>
-        <div class="px-4 pb-4">
-          <p class="m-0 text-[0.9375rem] leading-relaxed text-foreground">
-            {model.collection.selectionNote.trim().replace(/\s*\n\s*/g, ' ')}
-          </p>
-          <p class="m-0 mt-3 text-2xs text-muted-foreground">
-            {reviewedText && (
-              <>{editorial ? 'Picks reviewed' : 'Criteria reviewed'} <time datetime={model.collection.lastReviewedAt}>{reviewedText}</time></>
-            )}
-            {!editorial && refreshedText && (
-              <>{reviewedText ? ' · ' : ''}List refreshed from GitHub data <time datetime={refreshedAt}>{refreshedText}</time></>
-            )}
-          </p>
+      {/* ── Right rail (desktop) ─────────────────────────────── */}
+      <aside class="hidden lg:block" data-pagefind-ignore>
+        <div class="sticky top-20 flex flex-col gap-4">
+          {jumpLinks.length > 1 && (
+            <nav aria-label="On this page" class="rounded-[var(--radius-lg)] border border-border bg-card p-3">
+              <p class="m-0 px-2 text-2xs font-medium uppercase tracking-wider text-muted-foreground">On this page</p>
+              <ul class="m-0 mt-2 flex list-none flex-col p-0">
+                {jumpLinks.map((link) => (
+                  <li class="m-0"><a href={link.href} class="block rounded-[var(--radius)] px-2 py-1.5 text-sm text-foreground no-underline hover:bg-accent">{link.label}</a></li>
+                ))}
+              </ul>
+            </nav>
+          )}
+          <div class="rounded-[var(--radius-lg)] border border-dashed border-border p-4">
+            <p class="m-0 text-sm font-semibold text-foreground">Know an app that fits?</p>
+            <p class="m-0 mt-1 text-2xs leading-relaxed text-muted-foreground">Submit it in about three minutes. You are credited on its page.</p>
+            <a href={submitHref} class={buttonClass('secondary', 'sm', 'mt-3 w-full justify-center')}>Submit an app</a>
+          </div>
         </div>
-      </details>
-    )}
-
-    {model.faq.length > 0 && (
-      <section id="faq" aria-labelledby="faq-heading" class="mt-12 max-w-[72ch] scroll-mt-20">
-        <h2 id="faq-heading" class="m-0 mb-4 text-[1.375rem] font-semibold tracking-tight text-foreground">
-          Frequently asked questions
-        </h2>
-        <dl class="m-0 flex flex-col gap-5">
-          {model.faq.map((item) => (
-            <div>
-              <dt class="m-0 text-[1rem] font-semibold text-foreground">{item.q}</dt>
-              <dd class="m-0 mt-1 text-[0.9375rem] leading-relaxed text-foreground">{item.a}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-    )}
+      </aside>
+    </div>
 
     {model.related.length > 0 && (
-      <section data-pagefind-ignore class="mt-12 border-t border-ink-200 pt-8 dark:border-ink-800">
+      <section id="related" data-pagefind-ignore class="scroll-mt-20 border-t border-border pb-16 pt-10">
         <SectionHeader eyebrow="Related" title="Related collections" level={2} />
-        <ul class="m-0 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2 lg:grid-cols-4">
-          {model.related.map((r) => (
-            <li class="m-0 p-0">
-              <a
-                href={r.url}
-                class="group flex h-full flex-col gap-1 rounded-md border border-ink-200 bg-white px-3 py-2.5 no-underline transition-colors hover:border-ink-400 dark:border-ink-800 dark:bg-ink-950 dark:hover:border-ink-600"
-              >
-                <span class="text-sm font-medium text-ink-900 group-hover:underline dark:text-ink-100">{r.title}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
+        {relatedTiles.length > 0 ? (
+          <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedTiles.map((tile) => (
+              <li class="m-0 p-0"><CollectionTile tile={tile} eventSource="collection_related" /></li>
+            ))}
+          </ul>
+        ) : (
+          <ul class="m-0 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2 lg:grid-cols-4">
+            {model.related.map((r) => (
+              <li class="m-0 p-0">
+                <a href={r.url} class="flex h-full rounded-md border border-border bg-card px-3 py-2.5 text-sm font-medium text-foreground no-underline hover:underline">{r.title}</a>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
     )}
   </Container>

@@ -6,20 +6,15 @@ import {
   getCollectionIndexModel,
   loadCollections,
 } from '@grove-dev/astro/server';
-import { formatCount, runCollection } from '@grove-dev/core';
+import { runCollection } from '@grove-dev/core';
 import CollectionGuide, { type GuideTile } from '../../components/site/collection-guide.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
 import { collectionEntries } from '../../lib/collection-entries';
 import {
-  avatarFor,
-  firstSentence,
-  formatDate,
-  freshnessOf,
   type GuideRecord,
   INTENT_GROUPS,
   intentOf,
-  isEditorial,
-  questionFor,
+  tileFor,
 } from '../../lib/collection-guide';
 
 const collections = await loadCollections(process.cwd());
@@ -37,38 +32,17 @@ const subjects = (siteConfig.taxonomy?.subjects ?? []) as Array<{ id: string; na
 
 const now = Date.now();
 const tiles = collections.map((collection) => {
-  const result = runCollection(collection, entries);
-  const editorial = isEditorial(result.entries);
-  const freshness = freshnessOf(collection, result.entries, recordsBySlug, now);
-  const introduction = collection.editorial?.introduction;
-  const tile: GuideTile = {
-    slug: collection.slug,
-    url: `/collections/${collection.slug}/`,
-    title: collection.title,
-    question: questionFor(collection, subjects),
-    takeaway: firstSentence(introduction) ?? collection.description,
-    editorial,
-    count: result.entries.length,
-    countLabel: formatCount(result.entries.length, countNoun),
-    faces: result.entries.map((entry) => ({
-      title: entry.title,
-      avatarUrl: avatarFor(recordsBySlug.get(entry.slug), entry.repoHref, 56),
-    })),
-    examples: result.entries.slice(0, editorial ? 4 : 3).map((entry) => ({
-      title: entry.title,
-      url: `/collections/${collection.slug}/#pick-${entry.slug}`,
-      pick: firstSentence(entry.note) ?? recordsBySlug.get(entry.slug)?.bestFor?.[0],
-      avatarUrl: avatarFor(recordsBySlug.get(entry.slug), entry.repoHref, 72),
-      stars: entry.stars,
-    })),
-    dateLabel: freshness.label,
-    date: freshness.date,
-    dateText: formatDate(freshness.date),
-    introduction,
-    hasComparison: Boolean(getCollectionBodyHtml(collection.content)?.includes('<table')),
-  };
+  const { result, freshness, tile } = tileFor(collection, entries, {
+    records: recordsBySlug,
+    subjects,
+    countNoun,
+    now,
+  });
   return {
-    tile,
+    tile: {
+      ...tile,
+      hasComparison: Boolean(getCollectionBodyHtml(collection.content)?.includes('<table')),
+    } satisfies GuideTile,
     intent: intentOf(collection),
     empty: result.isEmpty,
     stale: freshness.stale,

@@ -1,0 +1,16 @@
+---
+/** App icon: the record's logo or the GitHub owner's avatar, else initials. */
+interface Props {
+  src?: string;
+  title: string;
+  size?: 'md' | 'lg';
+}
+const { src, title, size = 'md' } = Astro.props;
+const box = size === 'lg' ? 'h-12 w-12 rounded-xl' : 'h-10 w-10 rounded-lg';
+const initials = title.replace(/[^A-Za-z0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() || title.slice(0, 2).toUpperCase();
+---
+{src ? (
+  <img src={src} alt="" width={size === 'lg' ? 48 : 40} height={size === 'lg' ? 48 : 40} loading="lazy" decoding="async" class={`${box} shrink-0 border border-border bg-background object-cover`} />
+) : (
+  <span aria-hidden="true" class={`${box} inline-flex shrink-0 items-center justify-center border border-border bg-secondary text-sm font-semibold text-secondary-foreground`}>{initials}</span>
+)}
