@@ -1,0 +1,37 @@
+kind: project
+name: Codex Quota Overlay
+slug: codex-quota-overlay
+addedAt: 2026-09-26
+description: A Windows companion for Codex Desktop that displays quota and reset timing beside the conversation title.
+seo:
+  title: Codex Quota Overlay – Open Source Windows Quota Monitor
+category: developer-tools
+tags:
+  - open-source
+  - desktop-app
+  - codex
+  - quota
+stack: javascript
+platforms:
+  - windows
+projectType: real-app
+repoUrl: https://github.com/cpys/codex-quota-overlay
+links:
+  github: https://github.com/cpys/codex-quota-overlay
+  website: https://cpys.github.io/codex-quota-overlay/
+licenses:
+  - mit
+bestFor:
+  - Windows Codex Desktop users who want quota and reset timing visible beside the conversation.
+whyListed:
+  - An installable Windows desktop application with a public MIT-licensed source repository.
+caveats:
+  - Independent project; not affiliated with or endorsed by OpenAI.
+source:
+  type: manual
+  owner: cpys
+  repo: codex-quota-overlay
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
