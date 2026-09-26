@@ -37,7 +37,6 @@ export default defineConfig({
   },
 
   nav: [
-    { label: "Home", href: "/" },
     { label: "Browse", href: "/apps/" },
     { label: "Collections", href: "/collections/" },
     { label: "Community", href: "/contributors/" },

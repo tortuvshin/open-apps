@@ -16,6 +16,7 @@
 import { compact } from '@grove-dev/core';
 import ThemeToggle from '../components/site/theme-toggle.astro';
 import { buttonClass } from '../lib/classnames.ts';
+import { isCurrent, type NavMenu, primaryNav } from '../lib/nav.ts';
 
 interface NavItem {
   label: string;
@@ -64,6 +65,12 @@ const defaultNavItems = site.blueprintConfig
     ]
   : [];
 const navItems = site.nav?.length ? site.nav : defaultNavItems;
+// Site menus (Browse / Collections with panels). Falls back to the flat
+// config nav only when the directory has no blueprint route.
+const menus: NavMenu[] = site.blueprintConfig
+  ? await primaryNav(site.blueprintConfig.routeSlug ?? 'apps')
+  : navItems.map((item) => ({ ...item, match: [item.href] }));
+const pathname = Astro.url.pathname;
 const stars = site.stats?.repositoryStars;
 const starsLabel = typeof stars === 'number' ? compact(stars) : null;
 ---
@@ -102,17 +109,48 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
     </a>
 
     <nav class="hidden flex-1 md:block" aria-label="Primary">
-      <ul class="m-0 flex list-none gap-5 p-0">
-        {navItems.map((item) => (
-          <li>
-            <a
-              href={item.href}
-              class="text-[0.875rem] font-medium text-ink-500 transition-colors hover:text-ink-900 dark:text-ink-400 dark:hover:text-ink-100"
-            >
-              {item.label}
-            </a>
-          </li>
-        ))}
+      <ul class="m-0 flex list-none items-center gap-1 p-0">
+        {menus.map((menu) => {
+          const current = isCurrent(menu, pathname);
+          const itemClass = [
+            "relative inline-flex h-8 cursor-pointer list-none items-center gap-1 rounded-[var(--radius)] px-2.5 text-[0.875rem] font-medium no-underline outline-none transition-colors hover:bg-accent hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/35 [&::-webkit-details-marker]:hidden",
+            current ? "text-foreground after:absolute after:inset-x-2.5 after:-bottom-[0.8125rem] after:h-0.5 after:rounded-full after:bg-foreground after:content-['']" : "text-muted-foreground",
+          ].join(" ");
+          return (
+            <li class="relative">
+              {menu.items?.length ? (
+                <details class="group" data-nav-menu>
+                  <summary class={itemClass} aria-current={current ? "page" : undefined}>
+                    {menu.label}
+                    <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="opacity-60 transition-transform group-open:rotate-180"><path d="m4 6 4 4 4-4"></path></svg>
+                  </summary>
+                  <div class:list={[
+                    "absolute left-0 top-[calc(100%+0.625rem)] z-50 rounded-[var(--radius-lg)] border border-border bg-popover p-2 shadow-lg",
+                    menu.items.length > 5 ? "w-[34rem]" : "w-80",
+                  ]}>
+                    <ul class:list={["m-0 grid list-none gap-0.5 p-0", menu.items.length > 5 && "grid-cols-2"]}>
+                      {menu.items.map((item) => (
+                        <li>
+                          <a href={item.href} class="block rounded-[var(--radius)] px-3 py-2 no-underline outline-none hover:bg-accent focus-visible:bg-accent">
+                            <span class="block text-sm font-medium text-foreground">{item.label}</span>
+                            {item.description && <span class="mt-0.5 line-clamp-2 block text-2xs leading-snug text-muted-foreground">{item.description}</span>}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                    {menu.footer && (
+                      <a href={menu.footer.href} class="mt-1 flex items-center justify-between rounded-[var(--radius)] border-t border-border px-3 pb-1 pt-2.5 text-sm font-medium text-foreground no-underline hover:underline">
+                        {menu.footer.label}<span aria-hidden="true">→</span>
+                      </a>
+                    )}
+                  </div>
+                </details>
+              ) : (
+                <a href={menu.href} class={itemClass} aria-current={current ? "page" : undefined}>{menu.label}</a>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </nav>
 
@@ -143,17 +181,29 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
         >⌘K</kbd>
       </button>
 
-      <details class="group relative md:hidden">
-        <summary class="inline-flex h-9 cursor-pointer list-none items-center justify-center rounded-[var(--radius)] border border-border bg-secondary px-2.5 text-sm font-medium text-foreground hover:bg-accent focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/35">
+      <details class="group relative md:hidden" data-nav-menu>
+        <summary class="inline-flex h-9 cursor-pointer list-none items-center justify-center gap-1.5 rounded-[var(--radius)] border border-border bg-secondary px-2.5 text-sm font-medium text-foreground hover:bg-accent focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/35 [&::-webkit-details-marker]:hidden">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h11"></path></svg>
           Menu
         </summary>
-        <nav aria-label="Mobile primary" class="absolute right-0 top-[calc(100%+0.5rem)] z-50 w-56 rounded-[var(--radius)] border border-border bg-background p-2 shadow-lg">
-          <ul class="m-0 flex list-none flex-col gap-1 p-0">
-            {navItems.map((item) => (
-              <li><a href={item.href} class="block rounded-md px-3 py-2 text-sm font-medium text-foreground no-underline hover:bg-accent">{item.label}</a></li>
+        <nav aria-label="Mobile primary" class="fixed inset-x-3 top-[3.75rem] z-50 max-h-[calc(100dvh-5rem)] overflow-y-auto rounded-[var(--radius-lg)] border border-border bg-popover p-3 shadow-lg">
+          <ul class="m-0 flex list-none flex-col gap-3 p-0">
+            {menus.map((menu) => (
+              <li>
+                <a href={menu.href} aria-current={isCurrent(menu, pathname) ? "page" : undefined} class="block rounded-md px-2 py-1.5 text-sm font-semibold text-foreground no-underline hover:bg-accent aria-[current=page]:bg-accent">{menu.label}</a>
+                {menu.items?.length ? (
+                  <ul class="m-0 mt-1 grid list-none grid-cols-2 gap-0.5 p-0">
+                    {menu.items.map((item) => (
+                      <li><a href={item.href} class="block truncate rounded-md px-2 py-1.5 text-sm text-muted-foreground no-underline hover:bg-accent hover:text-foreground">{item.label}</a></li>
+                    ))}
+                  </ul>
+                ) : null}
+              </li>
             ))}
             {submitHref && (
-              <li class="border-t border-border pt-1"><a href={submitHref} class="block rounded-md px-3 py-2 text-sm font-medium text-foreground no-underline hover:bg-accent">{submitLabel ?? "Submit"}</a></li>
+              <li class="border-t border-border pt-3">
+                <a href={submitHref} class={buttonClass("primary", "md", "w-full justify-center")}>{submitLabel ?? "Submit"}</a>
+              </li>
             )}
           </ul>
         </nav>
@@ -162,7 +212,7 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
       {submitHref && (
         <a
           href={submitHref}
-          class={buttonClass("secondary", "sm", "max-sm:!hidden")}
+          class={buttonClass("primary", "sm", "max-sm:!hidden")}
         >
           <svg
             viewBox="0 0 16 16"
@@ -207,6 +257,28 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
 </header>
 
 <script>
+  // Nav menus are <details>: one open at a time, closed by Escape,
+  // an outside click, or following a link inside the panel.
+  const menus = [...document.querySelectorAll<HTMLDetailsElement>("[data-nav-menu]")];
+  const closeAll = (except?: HTMLDetailsElement) =>
+    menus.forEach((menu) => { if (menu !== except) menu.open = false; });
+  menus.forEach((menu) => {
+    menu.addEventListener("toggle", () => { if (menu.open) closeAll(menu); });
+    menu.addEventListener("click", (e) => {
+      if ((e.target as HTMLElement).closest("a")) menu.open = false;
+    });
+  });
+  document.addEventListener("click", (e) => {
+    if (!(e.target as HTMLElement).closest("[data-nav-menu]")) closeAll();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    const open = menus.find((menu) => menu.open);
+    if (!open) return;
+    open.open = false;
+    open.querySelector("summary")?.focus();
+  });
+
   // Quick-find: the button, ⌘K / Ctrl+K from anywhere, and `/` when the
   // user is not typing. Everything else lives in a chunk that is only
   // imported on first open.
