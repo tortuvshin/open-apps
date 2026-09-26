@@ -1,0 +1,67 @@
+name: Submission review
+
+# Keeps one "Submission review" comment on every pull request that adds or
+# changes an app record, so a reviewer can decide without opening files.
+#
+# pull_request_target runs main's workflow and code with a token that can
+# comment on fork PRs. It never runs the PR's code: the job checks out
+# main, then copies in only the PR's record files (data, not scripts) and
+# reviews them with main's scripts.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "content/records/**"
+      - "data/records/**"
+
+concurrency:
+  group: submission-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Copy the PR's record files onto main
+        id: files
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          # Only plain file names: the list is passed on to the next step.
+          git fetch --no-tags --depth=1 origin "pull/${PR}/head:pr-head"
+          files=$(gh pr diff "$PR" --repo "$GITHUB_REPOSITORY" --name-only \
+            | grep -E '^(content/records/[A-Za-z0-9._-]+\.md|data/records/[A-Za-z0-9._-]+\.ya?ml)$' || true)
+          # shellcheck disable=SC2086
+          for f in $files; do
+            if git cat-file -e "pr-head:$f" 2>/dev/null; then
+              git show "pr-head:$f" > "$f"
+            else
+              rm -f "$f"
+            fi
+          done
+          # shellcheck disable=SC2086 # names are [A-Za-z0-9._-] only
+          echo "list=$(echo $files | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+      - name: Review
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILES: ${{ steps.files.outputs.list }}
+        run: |
+          # shellcheck disable=SC2086 # one argument per file
+          node scripts/review-submission.mjs --out review.md $FILES
+      - uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: submission-review
+          path: review.md
