@@ -20,6 +20,17 @@
  *
  * Noindex is opt-in via the `noindex` prop. By default everything is
  * indexable; noindex targets today are /submit, /404, and /empty.
+ *
+ * Any URL with a query string (`/apps/?q=`, `?sort=`, facet filters,
+ * the same on category and stack pages) is a filtered view of a static
+ * page: the server sends the base page's HTML, canonical included. The
+ * inline script at the end switches the robots meta to `noindex,follow`
+ * on those URLs, so the variant is not indexed and the canonical keeps
+ * pointing at the base page. Google renders JavaScript and honours a
+ * robots meta that the page adds at runtime. Crawlers that don't run
+ * JavaScript still get the canonical. An `X-Robots-Tag` header on
+ * requests with a query string would be the static equivalent (a
+ * Cloudflare Transform Rule); that is an infra change, not made here.
  */
 import { type JsonLdNode, siteSchema, validateJsonLd } from '@grove-dev/core';
 
@@ -169,3 +180,10 @@ const perPageLdJson = perPageNodes ? JSON.stringify(perPageNodes) : null;
     set:html={perPageLdJson}
   />
 )}
+
+<!-- Filtered / parameter URLs: noindex the variant; canonical stays the base page. -->
+<script is:inline data-grove-param-robots>
+  if (location.search) {
+    document.querySelector('meta[name="robots"]')?.setAttribute('content', 'noindex,follow');
+  }
+</script>
