@@ -93,7 +93,7 @@ export default defineConfig({
     eyebrow: "Open app submission",
     title: "Add an open-source app",
     description:
-      "Generate a Grove record from a public GitHub repository, review the app taxonomy, then open a pull request.",
+      "Paste a public GitHub repository, answer a few questions and open one pull request. About three minutes — a person reviews it, and the app page credits you.",
     good: [
       "A usable application that people can install or run",
       "A public repository with a clear license and enough documentation to evaluate",

@@ -53,6 +53,17 @@ const pleaseAvoid = [
         "Records with no license or verifiable repository",
       ]),
 ];
+
+// Shared control styling.
+const control =
+  "min-h-10 w-full rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35";
+const labelText = "text-sm font-medium text-foreground";
+const hint = "text-2xs leading-relaxed text-muted-foreground";
+const steps = [
+  { id: "repo", title: "Repository", text: "Paste the GitHub URL" },
+  { id: "details", title: "Details", text: "Say what it is and why it matters" },
+  { id: "review", title: "Open the pull request", text: "Check the preview, open one PR" },
+];
 ---
 
 <BaseLayout
@@ -62,442 +73,309 @@ const pleaseAvoid = [
   site={siteConfig}
   submitHref="/submit"
 >
-  <Container>
-    <section class="py-10 sm:py-14">
-      <div class="max-w-3xl">
-        <p
-          class="m-0 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400"
-        >
+  <div class="border-b border-border bg-surface-sunken/60">
+    <Container>
+      <section class="py-10 sm:py-14">
+        <p class="m-0 text-2xs font-semibold uppercase tracking-wider text-muted-foreground">
           {copy.eyebrow ?? `${singular} submission`}
         </p>
-        <h1
-          class="mt-2 text-[2rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
-        >
-          {
-            copy.title ??
-              `Add ${singular === "app" ? "an" : "a"} ${singular} to the directory`
-          }
+        <h1 class="m-0 mt-2 text-[2rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2.5rem]">
+          {copy.title ?? `Add ${singular === "app" ? "an" : "a"} ${singular} to the directory`}
         </h1>
-        <p
-          class="m-0 mt-3 max-w-[60ch] text-[0.9375rem] leading-relaxed text-ink-500 dark:text-ink-400"
-        >
-          {
-            copy.description ??
-              `Paste a GitHub URL to pull in the basics, edit the generated draft, then open a pull request. The data stays in this repository.`
-          }
+        <p class="m-0 mt-3 max-w-[62ch] text-[1rem] leading-relaxed text-muted-foreground">
+          {copy.description ?? description}
         </p>
-      </div>
-
-      {
-        /* One compact line, not three cards — on mobile the form
-          starts within the first viewport. */
-      }
-      <ol
-        class="mt-4 flex flex-wrap gap-x-6 gap-y-1.5 text-2xs text-muted-foreground"
-        aria-label="Submission steps"
-      >
-        {
-          [
-            ["1", "Paste a GitHub URL"],
-            ["2", "Answer three questions"],
-            ["3", "Check the preview"],
-            ["4", "Open one pull request"],
-          ].map(([number, heading]) => (
-            <li class="flex items-center gap-1.5">
-              <span class="inline-flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full border border-border font-mono text-[10px] font-semibold text-foreground">
-                {number}
-              </span>
-              <span class="font-medium text-foreground">{heading}</span>
+        <ul class="m-0 mt-5 flex list-none flex-wrap gap-2 p-0 text-2xs">
+          {["No account on this site", "Reviewed by a person", "Credited on the app page", "README badge for maintainers"].map((item) => (
+            <li class="inline-flex items-center gap-1.5 rounded-full border border-border bg-background px-2.5 py-1 font-medium text-foreground">
+              <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor" class="text-success"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" /></svg>
+              {item}
             </li>
-          ))
-        }
-      </ol>
+          ))}
+        </ul>
 
-      <div
-        class="mt-8 grid grid-cols-1 items-start gap-6 md:grid-cols-[minmax(0,1fr)_minmax(300px,0.72fr)]"
-      >
-        <form
-          id="submit-form"
-          class="rounded-[calc(var(--radius)+0.25rem)] border border-ink-200 bg-background p-5 shadow-sm dark:border-ink-800"
-        >
-          <div class="grid gap-5">
-            <label class="grid gap-1.5">
-              <span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >GitHub URL</span
-              >
-              <div class="flex flex-col gap-2 sm:flex-row">
-                <input
-                  id="repo-url"
-                  type="url"
-                  required
-                  placeholder="https://github.com/owner/repo"
-                  class="min-h-10 flex-1 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                />
-                <button
-                  id="fetch-repo"
-                  type="button"
-                  class={buttonClass(
-                    "primary",
-                    "bare",
-                    "min-h-10 whitespace-nowrap px-3 text-sm",
-                  )}>Generate draft</button
-                >
-              </div>
-              <span class="text-2xs text-muted-foreground"
-                >The repository must be public. We never write to it.</span
-              >
-            </label>
+        <ol id="submit-steps" class="m-0 mt-8 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-3" aria-label="Submission steps">
+          {steps.map((step, i) => (
+            <li data-step={step.id} data-state={i === 0 ? "current" : "todo"} class="group flex items-center gap-3 rounded-[var(--radius-lg)] border border-border bg-background px-3 py-2.5 data-[state=current]:border-foreground data-[state=done]:border-success/50">
+              <span class="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-border text-xs font-semibold tabular-nums text-muted-foreground group-data-[state=current]:border-foreground group-data-[state=current]:bg-foreground group-data-[state=current]:text-background group-data-[state=done]:border-success group-data-[state=done]:bg-success group-data-[state=done]:text-background">
+                <span class="group-data-[state=done]:hidden">{i + 1}</span>
+                <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="currentColor" class="hidden group-data-[state=done]:block"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" /></svg>
+              </span>
+              <span class="min-w-0">
+                <span class="block text-sm font-semibold text-foreground">{step.title}</span>
+                <span class="block truncate text-2xs text-muted-foreground">{step.text}</span>
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    </Container>
+  </div>
 
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <label class="grid gap-1.5"
-                ><span
-                  class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                  >Name</span
-                ><input
-                  id="item-name"
-                  type="text"
-                  class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                /></label
-              >
-              <label class="grid gap-1.5"
-                ><span
-                  class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                  >Slug</span
-                ><input
-                  id="item-slug"
-                  type="text"
-                  class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 font-mono text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                /><span class="text-2xs text-muted-foreground"
-                  >URL fragment, auto-filled from the repository name.</span
-                ></label
-              >
+  <Container>
+    <div class="grid grid-cols-1 items-start gap-6 py-8 sm:py-10 lg:grid-cols-[minmax(0,1fr)_minmax(320px,0.8fr)]">
+      <form id="submit-form" class="grid gap-6" novalidate>
+        {/* ── 1. Repository ───────────────────────────── */}
+        <section aria-labelledby="step-repo" class="rounded-[var(--radius-lg)] border border-border bg-card p-5 sm:p-6">
+          <h2 id="step-repo" class="m-0 flex items-center gap-2 text-[1.0625rem] font-semibold text-foreground">
+            <span class="text-muted-foreground">1.</span> Repository
+          </h2>
+          <label class="mt-4 grid gap-1.5">
+            <span class={labelText}>GitHub URL</span>
+            <div class="flex flex-col gap-2 sm:flex-row">
+              <input id="repo-url" type="url" required autocomplete="off" placeholder="https://github.com/owner/repo" class={`${control} min-h-11 text-[0.9375rem] sm:flex-1`} />
+              <button id="fetch-repo" type="button" class={buttonClass("primary", "bare", "min-h-11 whitespace-nowrap px-4 text-sm")}>Fetch details</button>
+            </div>
+            <span class={hint}>Public repositories only. We read it from the GitHub API and never write to it.</span>
+          </label>
+          <div id="repo-card" hidden class="mt-4 flex items-start gap-3 rounded-[var(--radius)] border border-border bg-background p-3">
+            <img id="repo-avatar" src="data:," alt="" width="40" height="40" class="h-10 w-10 shrink-0 rounded-lg border border-border object-cover" />
+            <div class="min-w-0 flex-1">
+              <p id="repo-name" class="m-0 truncate text-sm font-semibold text-foreground"></p>
+              <p id="repo-description" class="m-0 mt-0.5 line-clamp-2 text-2xs text-muted-foreground"></p>
+              <p id="repo-facts" class="m-0 mt-1.5 flex flex-wrap gap-x-3 text-2xs text-muted-foreground"></p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── 2. Details ──────────────────────────────── */}
+        <section aria-labelledby="step-details" class="rounded-[var(--radius-lg)] border border-border bg-card p-5 sm:p-6">
+          <h2 id="step-details" class="m-0 flex items-center gap-2 text-[1.0625rem] font-semibold text-foreground">
+            <span class="text-muted-foreground">2.</span> About the app
+          </h2>
+          <p class="m-0 mt-1 text-2xs text-muted-foreground">Filled from GitHub where possible — edit anything that reads like a README.</p>
+
+          <div class="mt-5 grid gap-5">
+            <div class="grid grid-cols-1 items-start gap-4 sm:grid-cols-[minmax(0,1fr)_14rem]">
+              <label class="grid gap-1.5">
+                <span class={labelText}>Name</span>
+                <input id="item-name" type="text" class={control} />
+              </label>
+              <label class="grid gap-1.5">
+                <span class={labelText}>Page address</span>
+                <input id="item-slug" type="text" class={`${control} font-mono`} />
+                <span class={hint}>/apps/<em>this</em>/ — from the repo name.</span>
+              </label>
             </div>
 
             <label class="grid gap-1.5">
-              <span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Description</span
-              >
-              <textarea
-                id="item-description"
-                rows="3"
-                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-              ></textarea>
-              <span class="text-2xs text-muted-foreground"
-                >One or two sentences in plain language.</span
-              >
+              <span class={labelText}>Description</span>
+              <textarea id="item-description" rows="3" class={`${control} resize-y`}></textarea>
+              <span class={hint}>One or two plain sentences: what it is and who it is for. At least 40 characters.</span>
             </label>
 
-            {
-              (fields.category || fields.stack) && (
-                <div
-                  class:list={[
-                    "grid grid-cols-1 gap-4",
-                    fields.category && fields.stack && "sm:grid-cols-2",
-                  ]}
-                >
-                  {fields.category && (
-                    <label class="grid gap-1.5">
-                      <span class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground">
-                        Category
-                      </span>
-                      <select
-                        id="item-category"
-                        class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                      >
-                        <option value="">Choose a category</option>
-                        {categories.map((option) => (
-                          <option value={option.id}>{option.label}</option>
-                        ))}
-                      </select>
-                    </label>
-                  )}
-                  {fields.stack && (
-                    <label class="grid gap-1.5">
-                      <span class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground">
-                        Primary stack
-                      </span>
-                      <select
-                        id="primary-stack"
-                        class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                      >
-                        <option value="">Choose a stack</option>
-                        {stacks.map((option) => (
-                          <option value={option.id}>{option.label}</option>
-                        ))}
-                      </select>
-                    </label>
-                  )}
-                </div>
-              )
-            }
-
-            {
-              fields.platforms && (
-                <fieldset class="grid gap-2">
-                  <legend class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground">
-                    Platforms
-                  </legend>
-                  <div class="grid grid-cols-2 gap-2 sm:grid-cols-3">
-                    {platformOptions.map((platform) => (
-                      <label class="flex min-h-9 items-center gap-2 rounded-md border border-ink-200 px-2 text-sm dark:border-ink-800">
-                        <input
-                          type="checkbox"
-                          name="platform"
-                          value={platform.id}
-                          class="h-4 w-4"
-                        />
-                        <span>{platform.label}</span>
-                      </label>
-                    ))}
-                  </div>
-                </fieldset>
-              )
-            }
-
-            {
-              fields.tags && (
-                <label class="grid gap-1.5">
-                  <>
-                    <span class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground">
-                      Tags
-                    </span>
-                    <input
-                      id="item-tags"
-                      type="text"
-                      placeholder="self-hosted, developer-tools, offline-first"
-                      class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                    />
-                  </>
-                </label>
-              )
-            }
-
-            {
-              fields.license && licenseOptions.length > 0 && (
-                <label class="grid gap-1.5">
-                  <span class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground">
-                    License
-                  </span>
-                  <select
-                    id="item-license"
-                    class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                  >
-                    <option value="">
-                      Detected from the repository if left empty
-                    </option>
-                    {licenseOptions.map((option) => (
-                      <option value={option.id}>{option.label}</option>
-                    ))}
-                  </select>
-                </label>
-              )
-            }
-            <label class="grid gap-1.5"
-              ><span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Website</span
-              ><input
-                id="item-website"
-                type="url"
-                placeholder="https://example.com"
-                class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-              /></label
-            >
-            <fieldset class="grid gap-2">
-              <legend
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-              >
-                Store links
-              </legend>
-              <p class="m-0 text-2xs text-muted-foreground">
-                Where users install the app — pick a channel and paste its
-                URL (App Store, Play Store, F-Droid, releases page, …).
-              </p>
-              <div id="channel-rows" class="grid gap-2"></div>
-              <button
-                id="add-channel"
-                type="button"
-                class={buttonClass("secondary", "sm", "justify-self-start whitespace-nowrap")}
-                >+ Add store link</button
-              >
-              <template id="channel-row-template">
-                <div class="channel-row flex flex-col gap-2 sm:flex-row">
-                  <select
-                    data-channel-type
-                    class="min-h-10 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 sm:w-44"
-                  >
-                    <option value="">Channel</option>
-                    {channelOptions.map((channel) => (
-                      <option value={channel.id}>{channel.name}</option>
-                    ))}
-                  </select>
-                  <input
-                    data-channel-url
-                    type="url"
-                    placeholder="https://apps.apple.com/…"
-                    class="min-h-10 flex-1 rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                  />
-                  <button
-                    type="button"
-                    data-remove-channel
-                    class={buttonClass("secondary", "sm", "whitespace-nowrap")}
-                    >Remove</button
-                  >
-                </div>
-              </template>
-            </fieldset>
-
-            <label class="grid gap-1.5"
-              ><span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Why is it useful?</span
-              ><span class="text-2xs text-muted-foreground">Required. What makes it worth using or studying — one point per line.</span><textarea
-                id="why-useful"
-                rows="3"
-                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                placeholder="Works fully offline and keeps data on the device"></textarea></label
-            >
-            <label class="grid gap-1.5"
-              ><span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Who is it for?</span
-              ><span class="text-2xs text-muted-foreground">Optional. One audience or use case per line.</span><textarea
-                id="best-for"
-                rows="2"
-                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                placeholder="People who want a private budget tracker"></textarea></label
-            >
-            <label class="grid gap-1.5"
-              ><span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >What should people watch out for?</span
-              ><span class="text-2xs text-muted-foreground">Optional. Limits, missing features or licence caveats — one per line.</span><textarea
-                id="watch-out"
-                rows="2"
-                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                placeholder="No cloud sync between devices"></textarea></label
-            >
-            <label class="grid gap-1.5"
-              ><span
-                class="text-2xs font-medium uppercase tracking-[.05em] text-muted-foreground"
-                >Detailed review shown on the app page</span
-              ><span class="text-2xs text-muted-foreground">Optional. What the app does, how it is built, what you learned using it. Headings and lists are fine.</span><textarea
-                id="item-review"
-                rows="6"
-                class="min-h-10 resize-y rounded-[var(--radius)] border border-input bg-background px-3 py-2 text-sm text-foreground outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35"
-                placeholder="Oinkoin keeps expenses and budgets locally…"></textarea></label
-            >
-          </div>
-        </form>
-
-        <aside class="flex flex-col gap-4 md:sticky md:top-24">
-          <div
-            class="rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card p-5"
-          >
-            <h2
-              class="m-0 text-[0.9375rem] font-semibold text-ink-900 dark:text-ink-100"
-            >
-              Submission criteria
-            </h2>
-            <p class="m-0 mt-1 text-2xs text-ink-500 dark:text-ink-400">
-              Use this checklist before opening the draft.
-            </p>
-            <div
-              class="mt-4 grid grid-cols-1 gap-4 text-2xs sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2"
-            >
-              <div>
-                <div
-                  class="font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400"
-                >
-                  Good submissions
-                </div>
-                <ul
-                  class="m-0 mt-2 list-none space-y-1 p-0 text-ink-700 dark:text-ink-200"
-                >
-                  {
-                    goodSubmissions.map((item) => (
-                      <li class="flex gap-2">
-                        <>
-                          <span class="text-emerald-600">✓</span>
-                          <span>{item}</span>
-                        </>
-                      </li>
-                    ))
-                  }
-                </ul>
+            {(fields.category || fields.stack) && (
+              <div class:list={["grid grid-cols-1 gap-4", fields.category && fields.stack && "sm:grid-cols-2"]}>
+                {fields.category && (
+                  <label class="grid gap-1.5">
+                    <span class={labelText}>Category</span>
+                    <select id="item-category" class={control}>
+                      <option value="">Choose a category</option>
+                      {categories.map((option) => <option value={option.id}>{option.label}</option>)}
+                    </select>
+                  </label>
+                )}
+                {fields.stack && (
+                  <label class="grid gap-1.5">
+                    <span class={labelText}>Primary stack</span>
+                    <select id="primary-stack" class={control}>
+                      <option value="">Choose a stack</option>
+                      {stacks.map((option) => <option value={option.id}>{option.label}</option>)}
+                    </select>
+                  </label>
+                )}
               </div>
-              <div>
-                <div
-                  class="font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400"
-                >
-                  Please avoid
-                </div>
-                <ul
-                  class="m-0 mt-2 list-none space-y-1 p-0 text-ink-700 dark:text-ink-200"
-                >
-                  {
-                    pleaseAvoid.map((item) => (
-                      <li class="flex gap-2">
-                        <>
-                          <span class="text-amber-600">·</span>
-                          <span>{item}</span>
-                        </>
-                      </li>
-                    ))
-                  }
-                </ul>
-              </div>
-            </div>
-          </div>
+            )}
 
-          <div
-            class="flex min-h-[360px] flex-col rounded-[calc(var(--radius)+0.25rem)] border border-border bg-card p-5"
-          >
-            <div class="flex flex-wrap items-center justify-between gap-3">
-              <h2
-                class="m-0 text-base font-semibold text-ink-900 dark:text-ink-100"
-              >
-                Record file
-              </h2>
+            {fields.platforms && (
+              <fieldset class="m-0 grid gap-2 border-0 p-0">
+                <legend class={`${labelText} mb-2`}>Platforms</legend>
+                <div class="flex flex-wrap gap-2">
+                  {platformOptions.map((platform) => (
+                    <label class="inline-flex min-h-9 cursor-pointer items-center gap-2 rounded-full border border-border px-3 text-sm text-foreground has-[:checked]:border-foreground has-[:checked]:bg-foreground has-[:checked]:text-background">
+                      <input type="checkbox" name="platform" value={platform.id} class="sr-only" />
+                      <span>{platform.label}</span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+            )}
+
+            <label class="grid gap-1.5">
+              <span class={labelText}>Why is it worth listing?</span>
+              <textarea id="why-useful" rows="3" class={`${control} resize-y`} placeholder="Works fully offline and keeps data on the device"></textarea>
+              <span class={hint}>What makes it worth using or studying — one point per line.</span>
+            </label>
+
+            <label class="grid gap-1.5">
+              <span class={labelText}>Your GitHub username <span class="font-normal text-muted-foreground">(recommended)</span></span>
               <div class="flex items-center gap-2">
-                <button
-                  id="copy-yaml"
-                  type="button"
-                  class={buttonClass(
-                    "secondary",
-                    "sm",
-                    "whitespace-nowrap pointer-events-none opacity-50",
+                <span class="text-sm text-muted-foreground">@</span>
+                <input id="submitted-by" type="text" autocomplete="username" spellcheck="false" placeholder="octocat" class={`${control} max-w-xs`} />
+              </div>
+              <span class={hint}>Shown as “Submitted by @you” on the app page and on the community page.</span>
+            </label>
+
+            <details class="group rounded-[var(--radius)] border border-border bg-background">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-sm font-medium text-foreground [&::-webkit-details-marker]:hidden">
+                <span>Add more detail <span class="font-normal text-muted-foreground">— optional: tags, licence, website, store links, a longer review</span></span>
+                <span aria-hidden="true" class="text-muted-foreground transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <div class="grid gap-5 border-t border-border px-4 pb-5 pt-4">
+                {fields.tags && (
+                  <label class="grid gap-1.5">
+                    <span class={labelText}>Tags</span>
+                    <input id="item-tags" type="text" placeholder="self-hosted, developer-tools, offline-first" class={control} />
+                    <span class={hint}>Comma-separated. Pre-filled from the repository topics.</span>
+                  </label>
+                )}
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  {fields.license && licenseOptions.length > 0 && (
+                    <label class="grid gap-1.5">
+                      <span class={labelText}>Licence</span>
+                      <select id="item-license" class={control}>
+                        <option value="">Detected from the repository</option>
+                        {licenseOptions.map((option) => <option value={option.id}>{option.label}</option>)}
+                      </select>
+                    </label>
                   )}
-                  disabled>Copy file</button
-                >
-                <a
-                  id="open-pr-link"
-                  href="#"
-                  target="_blank"
-                  rel="noopener"
-                  class={buttonClass(
-                    "secondary",
-                    "sm",
-                    "whitespace-nowrap pointer-events-none opacity-50",
-                  )}>Open pull request</a
-                >
+                  <label class="grid gap-1.5">
+                    <span class={labelText}>Website</span>
+                    <input id="item-website" type="url" placeholder="https://example.com" class={control} />
+                  </label>
+                </div>
+                <fieldset class="m-0 grid gap-2 border-0 p-0">
+                  <legend class={labelText}>Where to install it</legend>
+                  <p class={`m-0 ${hint}`}>App Store, Play Store, F-Droid, a releases page… A reviewer checks each link before it shows.</p>
+                  <div id="channel-rows" class="grid gap-2"></div>
+                  <button id="add-channel" type="button" class={buttonClass("secondary", "sm", "justify-self-start whitespace-nowrap")}>+ Add install link</button>
+                  <template id="channel-row-template">
+                    <div class="channel-row flex flex-col gap-2 sm:flex-row">
+                      <select data-channel-type class={`${control} sm:w-44`}>
+                        <option value="">Channel</option>
+                        {channelOptions.map((channel) => <option value={channel.id}>{channel.name}</option>)}
+                      </select>
+                      <input data-channel-url type="url" placeholder="https://apps.apple.com/…" class={`${control} flex-1`} />
+                      <button type="button" data-remove-channel class={buttonClass("secondary", "sm", "whitespace-nowrap")}>Remove</button>
+                    </div>
+                  </template>
+                </fieldset>
+                <label class="grid gap-1.5">
+                  <span class={labelText}>Who is it for?</span>
+                  <textarea id="best-for" rows="2" class={`${control} resize-y`} placeholder="People who want a private budget tracker"></textarea>
+                  <span class={hint}>One audience or use case per line.</span>
+                </label>
+                <label class="grid gap-1.5">
+                  <span class={labelText}>What should people watch out for?</span>
+                  <textarea id="watch-out" rows="2" class={`${control} resize-y`} placeholder="No cloud sync between devices"></textarea>
+                  <span class={hint}>Limits, missing features or licence caveats — one per line.</span>
+                </label>
+                <label class="grid gap-1.5">
+                  <span class={labelText}>Longer review for the app page</span>
+                  <textarea id="item-review" rows="6" class={`${control} resize-y`} placeholder="Oinkoin keeps expenses and budgets locally…"></textarea>
+                  <span class={hint}>What it does, how it is built, what you learned using it. Markdown headings and lists are fine.</span>
+                </label>
+              </div>
+            </details>
+          </div>
+        </section>
+      </form>
+
+      {/* ── 3. Review & open the pull request ─────────── */}
+      <aside class="flex flex-col gap-4 lg:sticky lg:top-20" aria-labelledby="step-review">
+        <section class="rounded-[var(--radius-lg)] border border-border bg-card p-5">
+          <h2 id="step-review" class="m-0 flex items-center gap-2 text-[1.0625rem] font-semibold text-foreground">
+            <span class="text-muted-foreground">3.</span> Preview and open the PR
+          </h2>
+
+          <div id="preview-card" class="mt-4 rounded-[var(--radius)] border border-border bg-background p-4">
+            <div class="flex items-start gap-3">
+              <img id="preview-avatar" hidden src="data:," alt="" width="40" height="40" class="h-10 w-10 shrink-0 rounded-lg border border-border object-cover" />
+              <span id="preview-initials" class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-dashed border-border text-sm font-semibold text-muted-foreground">?</span>
+              <div class="min-w-0">
+                <p id="preview-name" class="m-0 truncate text-[0.9375rem] font-semibold text-foreground">Your app</p>
+                <p id="preview-meta" class="m-0 mt-0.5 text-2xs text-muted-foreground">Category · Stack</p>
               </div>
             </div>
-            <p id="record-path" class="m-0 mt-2 font-mono text-2xs text-muted-foreground"></p>
-            <pre
-              class="mt-4 min-h-0 flex-1 overflow-auto rounded-md border border-ink-200 bg-ink-50 p-3 text-xs leading-relaxed text-ink-800 dark:border-ink-800 dark:bg-ink-900/60 dark:text-ink-200"><code id="yaml-preview">Paste a GitHub URL to generate a draft.</code></pre>
-            <p
-              id="submit-status"
-              class="mt-3 min-h-5 text-2xs text-ink-500 dark:text-ink-400"
-              aria-live="polite"
-            >
-            </p>
+            <p id="preview-description" class="m-0 mt-3 line-clamp-3 text-sm leading-relaxed text-muted-foreground">The description appears here.</p>
+            <p id="preview-credit" hidden class="m-0 mt-3 text-2xs text-muted-foreground"></p>
           </div>
-        </aside>
-      </div>
-    </section>
+
+          <ul id="submit-checklist" class="m-0 mt-4 flex list-none flex-col gap-1.5 p-0 text-sm" aria-label="Before you open the pull request">
+            {[
+              ["repo", "Repository fetched"],
+              ["description", "Description of 40+ characters"],
+              ...(fields.category ? [["category", "Category chosen"]] : []),
+              ...(fields.stack ? [["stack", "Primary stack chosen"]] : []),
+              ...(fields.platforms ? [["platforms", "At least one platform"]] : []),
+              ["why", "Why it is worth listing"],
+              ["credit", "Your GitHub username (optional)"],
+            ].map(([key, label]) => (
+              <li data-check={key} data-ok="false" class="group flex items-center gap-2 text-muted-foreground data-[ok=true]:text-foreground">
+                <span class="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-border group-data-[ok=true]:border-success group-data-[ok=true]:bg-success group-data-[ok=true]:text-background">
+                  <svg viewBox="0 0 16 16" width="9" height="9" aria-hidden="true" fill="currentColor" class="hidden group-data-[ok=true]:block"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" /></svg>
+                </span>
+                {label}
+              </li>
+            ))}
+          </ul>
+
+          <div class="mt-5 grid gap-2">
+            <a id="open-pr-link" href="#" target="_blank" rel="noopener" class={buttonClass("primary", "md", "w-full justify-center pointer-events-none opacity-50")}>
+              Open pull request on GitHub
+            </a>
+            <button id="copy-yaml" type="button" disabled class={buttonClass("ghost", "sm", "w-full justify-center pointer-events-none opacity-50")}>Copy the file instead</button>
+          </div>
+          <p id="submit-status" class="m-0 mt-3 min-h-5 text-2xs text-muted-foreground" aria-live="polite"></p>
+
+          <details class="group mt-2 border-t border-border pt-3">
+            <summary class="flex cursor-pointer list-none items-center justify-between text-2xs font-medium text-muted-foreground hover:text-foreground [&::-webkit-details-marker]:hidden">
+              <span>Show the file <span id="record-path" class="font-mono"></span></span>
+              <span aria-hidden="true" class="transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <pre class="mt-3 max-h-96 overflow-auto rounded-md border border-border bg-surface-sunken p-3 text-xs leading-relaxed text-foreground"><code id="yaml-preview">Paste a GitHub URL to generate a draft.</code></pre>
+          </details>
+        </section>
+
+        <section class="rounded-[var(--radius-lg)] border border-border bg-card p-5">
+          <h2 class="m-0 text-sm font-semibold text-foreground">What happens next</h2>
+          <ol class="m-0 mt-3 flex list-none flex-col gap-3 p-0 text-2xs leading-relaxed text-muted-foreground">
+            {[
+              ["GitHub opens with the file ready.", "Commit it to a fork and open the pull request — one file, content/records/<slug>.md."],
+              ["A bot checks it within a minute.", "It posts one review comment: duplicates, links, taxonomy, star count."],
+              ["A maintainer reviews and merges.", "Install links are verified by hand before they show."],
+              ["The app goes live and credits you.", "The page shows “Submitted by @you”, and maintainers get a README badge."],
+            ].map(([head, text], i) => (
+              <li class="flex gap-3">
+                <span class="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary text-[10px] font-semibold text-secondary-foreground">{i + 1}</span>
+                <span><strong class="font-semibold text-foreground">{head}</strong> {text}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <details class="group rounded-[var(--radius-lg)] border border-border bg-card">
+          <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
+            Is it a good fit?
+            <span aria-hidden="true" class="text-muted-foreground transition-transform group-open:rotate-45">+</span>
+          </summary>
+          <div class="grid gap-4 border-t border-border px-5 pb-5 pt-4 text-2xs sm:grid-cols-2 lg:grid-cols-1">
+            <div>
+              <p class="m-0 font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">Good fit</p>
+              <ul class="m-0 mt-2 list-none space-y-1.5 p-0 text-foreground">
+                {goodSubmissions.map((item) => <li class="flex gap-2"><span class="text-success">✓</span><span>{item}</span></li>)}
+              </ul>
+            </div>
+            <div>
+              <p class="m-0 font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">Not a fit</p>
+              <ul class="m-0 mt-2 list-none space-y-1.5 p-0 text-foreground">
+                {pleaseAvoid.map((item) => <li class="flex gap-2"><span class="text-warning">×</span><span>{item}</span></li>)}
+              </ul>
+            </div>
+          </div>
+        </details>
+      </aside>
+    </div>
   </Container>
 
   <SubmissionClient
@@ -507,5 +385,7 @@ const pleaseAvoid = [
     fields={fields}
     taxonomy={taxonomy}
     channelOptions={channelOptions}
+    categoryLabels={Object.fromEntries(categories.map((c) => [c.id, c.label]))}
+    stackLabels={Object.fromEntries(stacks.map((c) => [c.id, c.label]))}
   />
 </BaseLayout>

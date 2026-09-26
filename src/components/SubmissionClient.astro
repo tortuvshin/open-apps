@@ -29,6 +29,9 @@ interface Props {
   };
   /** Channel taxonomy: ids, display names, and platform hints. */
   channelOptions: { id: string; name: string; platforms: string[] }[];
+  /** id → label, for the live preview card. */
+  categoryLabels?: Record<string, string>;
+  stackLabels?: Record<string, string>;
 }
 const {
   existingSlugs,
@@ -37,10 +40,12 @@ const {
   fields,
   taxonomy,
   channelOptions,
+  categoryLabels = {},
+  stackLabels = {},
 } = Astro.props;
 ---
 
-<script is:inline define:vars={{ existingSlugs, existingFullNames, repoUrl, fields, taxonomy, channelOptions }}>
+<script is:inline define:vars={{ existingSlugs, existingFullNames, repoUrl, fields, taxonomy, channelOptions, categoryLabels, stackLabels }}>
   /** @typedef {{ name: string; description: string | null; html_url: string; homepage: string | null; language: string | null; private: boolean; topics: string[] }} GitHubRepo */
   /** @type {GitHubRepo | null} */
   let repository = null;
@@ -60,7 +65,12 @@ const {
     bestFor: $("#best-for"),
     watchOut: $("#watch-out"),
     review: $("#item-review"),
+    submittedBy: $("#submitted-by"),
   };
+  /** Facts shown on the repository card; not written to the file. */
+  let repoFacts = null;
+  const GITHUB_LOGIN = /^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$/;
+  const submitter = () => String(inputs.submittedBy?.value ?? "").trim().replace(/^@/, "");
   const fetchButton = $("#fetch-repo");
   const preview = $("#yaml-preview");
   const status = $("#submit-status");
@@ -179,6 +189,8 @@ const {
       ...yamlList("caveats", listOf(inputs.watchOut)),
       // The day the record joins the directory; `recently-added` sorts on it.
       `addedAt: ${new Date().toISOString().slice(0, 10)}`,
+      // Credits the contributor on the app page and /contributors/.
+      ...(GITHUB_LOGIN.test(submitter()) ? [`submittedBy: ${submitter()}`] : []),
       "---",
       "",
     ].join("\n");
@@ -229,6 +241,9 @@ const {
       const bad = selectedPlatforms().find((platform) => !platformIds.has(platform));
       if (bad) issues.push(`Platform "${bad}" is not in the taxonomy.`);
     }
+    if (submitter() && !GITHUB_LOGIN.test(submitter())) {
+      issues.push("That GitHub username doesn't look right — letters, digits and dashes only.");
+    }
     for (const entry of channelEntries()) {
       if (!entry.type) {
         issues.push("Every store link needs a channel — pick one or remove the row.");
@@ -250,7 +265,88 @@ const {
     if ("disabled" in element) element.disabled = false;
   };
 
+  // ── Live preview, checklist and step states ──────────────────
+  const setText = (selector, text) => {
+    const el = $(selector);
+    if (el) el.textContent = text;
+  };
+  const checks = () => ({
+    repo: Boolean(repository),
+    description: String(inputs.description?.value ?? "").trim().length >= 40,
+    category: Boolean(inputs.category?.value),
+    stack: Boolean(inputs.stack?.value),
+    platforms: selectedPlatforms().length > 0,
+    why: listOf(inputs.whyUseful).length > 0,
+    credit: GITHUB_LOGIN.test(submitter()),
+  });
+  const updateGuide = (valid) => {
+    const state = checks();
+    document.querySelectorAll("[data-check]").forEach((li) => {
+      li.setAttribute("data-ok", String(Boolean(state[li.getAttribute("data-check")])));
+    });
+    const steps = {
+      repo: state.repo ? "done" : "current",
+      details: !state.repo ? "todo" : valid ? "done" : "current",
+      review: state.repo && valid ? "current" : "todo",
+    };
+    document.querySelectorAll("[data-step]").forEach((li) => {
+      li.setAttribute("data-state", steps[li.getAttribute("data-step")] ?? "todo");
+    });
+
+    const name = String(inputs.name?.value ?? "").trim();
+    setText("#preview-name", name || "Your app");
+    setText("#preview-initials", name ? name.slice(0, 2).toUpperCase() : "?");
+    const meta = [
+      categoryLabels[inputs.category?.value ?? ""],
+      stackLabels[inputs.stack?.value ?? ""],
+    ].filter(Boolean);
+    setText("#preview-meta", meta.length ? meta.join(" · ") : "Category · Stack");
+    const description = String(inputs.description?.value ?? "").trim();
+    setText("#preview-description", description || "The description appears here.");
+    const avatar = $("#preview-avatar");
+    const initials = $("#preview-initials");
+    if (avatar && initials) {
+      avatar.hidden = !repoFacts?.avatar;
+      initials.hidden = Boolean(repoFacts?.avatar);
+      if (repoFacts?.avatar) avatar.src = repoFacts.avatar;
+    }
+    const credit = $("#preview-credit");
+    if (credit) {
+      credit.hidden = !state.credit;
+      credit.textContent = state.credit ? `Submitted by @${submitter()}` : "";
+    }
+  };
+
+  const showRepoCard = () => {
+    const card = $("#repo-card");
+    if (!card) return;
+    card.hidden = !repoFacts;
+    if (!repoFacts) return;
+    const avatar = $("#repo-avatar");
+    if (avatar) avatar.src = repoFacts.avatar;
+    setText("#repo-name", repoFacts.fullName);
+    setText("#repo-description", repoFacts.description || "No description on GitHub.");
+    const facts = $("#repo-facts");
+    if (facts) {
+      facts.replaceChildren(
+        ...[
+          `★ ${repoFacts.stars.toLocaleString("en")} stars`,
+          repoFacts.license ? `Licence: ${repoFacts.license}` : "No licence detected",
+          repoFacts.pushedAt ? `Last push ${new Date(repoFacts.pushedAt).toLocaleDateString("en", { year: "numeric", month: "short", day: "numeric" })}` : "",
+          repoFacts.archived ? "Archived" : "",
+        ]
+          .filter(Boolean)
+          .map((text) => {
+            const span = document.createElement("span");
+            span.textContent = text;
+            return span;
+          }),
+      );
+    }
+  };
+
   const refresh = () => {
+    updateGuide(Boolean(generateRecord()) && validationIssues().length === 0);
     const record = generateRecord();
     if (preview) preview.textContent = record || "Paste a GitHub URL to generate a draft.";
     if (recordPathLabel) recordPathLabel.textContent = record ? recordPath() : "";
@@ -324,6 +420,16 @@ const {
         private: Boolean(data.private),
         topics: Array.isArray(data.topics) ? data.topics : [],
       };
+      repoFacts = {
+        fullName: data.full_name ?? `${parsed.owner}/${parsed.repo}`,
+        description: data.description ?? "",
+        avatar: data.owner?.avatar_url ? `${data.owner.avatar_url}&s=80` : `https://github.com/${parsed.owner}.png?size=80`,
+        stars: Number(data.stargazers_count ?? 0),
+        license: data.license?.spdx_id && data.license.spdx_id !== "NOASSERTION" ? data.license.spdx_id : "",
+        pushedAt: data.pushed_at ?? "",
+        archived: Boolean(data.archived),
+      };
+      showRepoCard();
       if (repository.private) throw new Error("Private repositories cannot be submitted.");
       if (inputs.name) inputs.name.value = repository.name || parsed.repo;
       if (inputs.slug) inputs.slug.value = slugify(repository.name || parsed.repo);
@@ -344,11 +450,21 @@ const {
       refresh();
     } catch (error) {
       repository = null;
+      repoFacts = null;
+      showRepoCard();
+      refresh();
       setStatus(error instanceof Error ? error.message : "Unable to fetch repository metadata.", "error");
     } finally {
       if (fetchButton) fetchButton.disabled = false;
     }
   });
+  inputs.repo?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      fetchButton?.click();
+    }
+  });
+  $("#submit-form")?.addEventListener("submit", (event) => event.preventDefault());
   $("#submit-form")?.addEventListener("input", refresh);
   $("#submit-form")?.addEventListener("change", refresh);
   copyButton?.addEventListener("click", async () => {
