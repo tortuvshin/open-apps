@@ -325,7 +325,7 @@ const jumpLinks = [
     )}
 
     {model.related.length > 0 && (
-      <section class="mt-12 border-t border-ink-200 pt-8 dark:border-ink-800">
+      <section data-pagefind-ignore class="mt-12 border-t border-ink-200 pt-8 dark:border-ink-800">
         <SectionHeader eyebrow="Related" title="Related collections" level={2} />
         <ul class="m-0 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2 lg:grid-cols-4">
           {model.related.map((r) => (

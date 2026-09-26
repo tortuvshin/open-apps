@@ -117,6 +117,32 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
     </nav>
 
     <div class="ml-auto flex items-center gap-2">
+      {/* Quick-find trigger. A plain button so the header has its final
+          size before any search code loads: Pagefind's modal, bundle and
+          index are fetched on first open (src/lib/quick-find.ts). */}
+      <button
+        type="button"
+        data-search-trigger
+        data-directory={`${directoryPath}/`}
+        aria-haspopup="dialog"
+        aria-expanded="false"
+        aria-keyshortcuts="Meta+K Control+K /"
+        aria-label="Search apps, collections and categories"
+        title="Search (⌘K or /)"
+        class="inline-flex h-9 w-9 shrink-0 cursor-pointer items-center justify-center gap-2 rounded-[var(--radius)] border border-border bg-secondary p-0 text-sm text-muted-foreground outline-none transition-colors hover:bg-accent hover:text-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 aria-busy:cursor-progress lg:w-52 lg:justify-start lg:px-2.5"
+      >
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" class="shrink-0">
+          <circle cx="7" cy="7" r="4.75"></circle>
+          <path d="m10.5 10.5 3.5 3.5"></path>
+        </svg>
+        <span class="hidden lg:inline">Search</span>
+        <kbd
+          data-search-shortcut
+          aria-hidden="true"
+          class="ml-auto hidden w-14 justify-center rounded border border-border bg-background px-1 py-0.5 font-mono text-2xs leading-none text-muted-foreground lg:inline-flex"
+        >⌘K</kbd>
+      </button>
+
       <details class="group relative md:hidden">
         <summary class="inline-flex h-9 cursor-pointer list-none items-center justify-center rounded-[var(--radius)] border border-border bg-secondary px-2.5 text-sm font-medium text-foreground hover:bg-accent focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-ring/35">
           Menu
@@ -181,6 +207,40 @@ const starsLabel = typeof stars === 'number' ? compact(stars) : null;
 </header>
 
 <script>
+  // Quick-find: the button, ⌘K / Ctrl+K from anywhere, and `/` when the
+  // user is not typing. Everything else lives in a chunk that is only
+  // imported on first open.
+  const searchTrigger = document.querySelector<HTMLButtonElement>("[data-search-trigger]");
+  if (searchTrigger) {
+    const isMac = /mac|iphone|ipad/i.test(navigator.userAgent);
+    if (!isMac) {
+      const hint = searchTrigger.querySelector("[data-search-shortcut]");
+      if (hint) hint.textContent = "Ctrl K";
+      searchTrigger.title = "Search (Ctrl+K or /)";
+    }
+    const openSearch = () =>
+      import("../lib/quick-find.ts")
+        .then(({ openQuickFind }) => openQuickFind(searchTrigger))
+        .catch(() => {
+          // No index (e.g. `astro dev`) or offline: the directory's own
+          // filter is the next best search.
+          window.location.href = searchTrigger.dataset.directory ?? "/";
+        });
+    const isTyping = (target: EventTarget | null) =>
+      target instanceof HTMLElement &&
+      (target.isContentEditable || !!target.closest("input, textarea, select"));
+    searchTrigger.addEventListener("click", openSearch);
+    document.addEventListener("keydown", (e) => {
+      if (e.defaultPrevented || e.isComposing || e.altKey || e.shiftKey) return;
+      const modK = (isMac ? e.metaKey : e.ctrlKey) && e.key.toLowerCase() === "k";
+      const slash = e.key === "/" && !e.metaKey && !e.ctrlKey && !isTyping(e.target);
+      if (!modK && !slash) return;
+      if (searchTrigger.getAttribute("aria-expanded") === "true") return;
+      e.preventDefault();
+      openSearch();
+    });
+  }
+
   // Smooth-scroll for in-page anchor links (Header nav + Hero CTA).
   // Works on any <a href="#…"> that points to an existing element on
   // the current page. External links (e.g. /about, /projects?…) are

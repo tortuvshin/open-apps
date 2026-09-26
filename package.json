@@ -10,7 +10,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "dev": "astro dev",
     "start": "astro dev",
     "preview": "astro preview",
@@ -30,6 +30,7 @@
     "yaml": "^2.9.0"
   },
   "devDependencies": {
-    "@types/node": "^25.9.2"
+    "@types/node": "^25.9.2",
+    "pagefind": "1.5.2"
   }
 }

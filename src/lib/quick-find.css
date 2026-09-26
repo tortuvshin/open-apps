@@ -1,0 +1,134 @@
+/*
+ * Quick-find modal theme. Loaded with the quick-find chunk, never on
+ * page load. Pagefind's Component UI is themed only through `--pf-*`
+ * properties; pointing them at the Grove tokens makes the modal follow
+ * the site's light/dark switch (`html.dark`) without its own toggle.
+ * Set on the modal element, not `:root`: Pagefind's stylesheet loads
+ * later and declares its defaults on `:root`. Pagefind already limits
+ * its own motion to `prefers-reduced-motion: no-preference`.
+ */
+pagefind-modal {
+  --pf-font: var(--font-sans);
+  --pf-text: var(--grove-foreground);
+  --pf-text-secondary: var(--grove-muted-foreground);
+  --pf-text-muted: var(--grove-muted-foreground);
+  --pf-background: var(--grove-background);
+  --pf-border: var(--grove-border);
+  --pf-border-focus: var(--grove-ring);
+  --pf-hover: var(--grove-accent);
+  --pf-mark: var(--grove-foreground);
+  --pf-skeleton: var(--grove-muted);
+  --pf-skeleton-shine: var(--grove-accent);
+  --pf-outline-focus: var(--grove-ring);
+  --pf-border-radius: var(--radius);
+  --pf-modal-max-width: 640px;
+}
+
+/* Pagefind resets inherited styles on its own elements (`all: initial`),
+ * so the results list sets its own type and color. */
+quick-find-results {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--grove-foreground);
+}
+
+.qf {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block: 0.5rem;
+}
+
+.qf-heading {
+  margin: 0 0 0.25rem;
+  padding-inline: 0.5rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--grove-muted-foreground);
+}
+
+.qf-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.qf-link,
+.qf-all,
+.qf-action {
+  border-radius: var(--radius);
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+.qf-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.5rem;
+}
+
+.qf-link:hover,
+.qf-link:focus-visible,
+.qf-all:hover,
+.qf-all:focus-visible,
+.qf-action:hover,
+.qf-action:focus-visible {
+  background: var(--grove-accent);
+}
+
+.qf-link:focus-visible,
+.qf-all:focus-visible,
+.qf-action:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--grove-ring);
+}
+
+.qf-title {
+  font-weight: 500;
+}
+
+.qf-summary,
+.qf-facts {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--grove-muted-foreground);
+}
+
+.qf-facts {
+  font-size: 0.75rem;
+}
+
+.qf-all {
+  align-self: flex-start;
+  padding: 0.5rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.qf-empty {
+  padding: 0.5rem;
+}
+
+.qf-empty-title {
+  margin: 0 0 0.75rem;
+}
+
+.qf-empty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.qf-action {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--grove-border);
+  font-weight: 500;
+}
