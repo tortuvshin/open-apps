@@ -1,3 +1,125 @@
+---
+name: Voicebox
+repoUrl: https://github.com/jamiepine/voicebox
+projectType: real-app
+category: tools
+stack: tauri
+summary: A Tauri + FastAPI desktop app that puts the entire voice I/O loop (TTS with cloning,
+  dictation, effects, MCP agent voice) on one local machine — open-source alternative to ElevenLabs
+  and WisprFlow, with the unusual twist that a single Qwen3 instance powers refinement, dictation
+  cleanup, and per-voice personality rewriting.
+description: Voicebox is a local-first AI voice studio that bundles seven TTS engines, Whisper STT,
+  a Qwen3 LLM for refinement and personality, and a built-in Model Context Protocol server so any
+  MCP-aware agent can speak in a cloned voice on a single desktop install.
+platforms:
+  - macos
+  - windows
+  - linux
+  - desktop
+licenses:
+  - mit
+links:
+  github: https://github.com/jamiepine/voicebox
+  docs: https://docs.voicebox.sh
+  homepage: https://voicebox.sh
+  download: https://voicebox.sh/download
+  linux_install: https://voicebox.sh/linux-install
+tags:
+  - tauri
+  - rust
+  - python
+  - fastapi
+  - react
+  - typescript
+  - ai
+  - voice
+  - tts
+  - stt
+  - voice-cloning
+  - dictation
+  - mcp
+  - mcp-server
+  - desktop-app
+  - offline-first
+  - self-hosted
+  - open-source
+  - foss-alternative
+  - privacy
+  - qwen3
+  - whisper
+  - kokoro
+  - chatterbox
+  - luxtts
+  - hume
+bestFor:
+  - Local-first voice cloning with Qwen3-TTS quality without sending audio to ElevenLabs
+  - Giving any MCP-aware agent (Claude Code, Cursor, Cline) a voice via a tool call
+  - Local dictation with a bundled LLM that runs on-device for refinement
+  - Studying how to wrap a Python ML backend inside a Tauri desktop shell
+whyListed:
+  - The only consumer-facing desktop app that ships the entire voice I/O loop (TTS + cloning +
+    dictation + effects + agent voice) on one local machine.
+  - Unusually well-engineered Tauri ↔ Python sidecar handshake (parent-PID watchdog + sentinel-file
+    fallback) that's reusable beyond this project.
+  - Built-in Model Context Protocol server with per-client voice binding is genuinely
+    differentiating — no other open-source project exposes local voice I/O as MCP tools.
+  - The "one local LLM, multiple roles" pattern (refinement + dictation cleanup + personality
+    compose/rewrite) is a substantive prompt-engineering case study for small local models.
+  - Maintainer's own PROJECT_STATUS.md is an unusually candid accountability document that openly
+    lists 0.5.0 regressions and the 88-PR backlog.
+caveats:
+  - "0.5.0 shipped with multiple acknowledged regressions: macOS Apple Silicon load crashes,
+    30-second capture cutoffs, broken paste, refinement silently translating non-English to
+    English."
+  - Cross-platform GPU support is genuinely painful — Windows on older GPUs (Pascal/Maxwell) and
+    Intel Arc have recurring "GPU Not Available" complaints; Linux has no prebuilt binaries and
+    requires build-from-source.
+  - Server memory grows unbounded over time on long-running installs (~0.5 GB/day on CUDA); restart
+    is the documented workaround.
+  - The "23 languages" claim applies to the bundle, not to any single engine — only Chatterbox
+    Multilingual actually ships 23; Qwen3-TTS caps at 10 and TADA-1B/Chatterbox Turbo are
+    English-only.
+  - No authentication on the FastAPI REST surface — the project documents this honestly, but binding
+    `--host 0.0.0.0` exposes an open TTS/STT API to the network.
+  - The "end-to-end encrypted backup & sync" copy in the UI describes a future product; shipped
+    `cloud.py` only stores the bearer key in plaintext SQLite.
+  - The `VoiceDesign` ("designed voice") feature is schema-defined but no engine consumes it — a
+    designed voice profile returns a dict that no TTS engine accepts.
+  - HumeAI TADA is built on Llama 3.2 and inherits the Llama 3.2 Community License's "Built with
+    Llama" attribution and 700M MAU clause — anyone shipping TADA-derived audio at scale needs
+    Llama's separate grant.
+  - Solo-developer project with 646 open issues and 154 open PRs; maintainer responsiveness is thin
+    (zero comments on sampled open issues).
+  - The `$VOICEBOX` Solana token sparked community controversy about long-term sustainability and
+    whether future sync features will become a paywall behind Voicebox Cloud.
+relations:
+  - type: alternative-to
+    to: elevenlabs
+    evidence:
+      type: self-described
+      url: https://github.com/jamiepine/voicebox
+      quote: a free and open-source alternative to ElevenLabs and WisprFlow in one app
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: wispr-flow
+    evidence:
+      type: self-described
+      url: https://github.com/jamiepine/voicebox
+      quote: a free and open-source alternative to ElevenLabs and WisprFlow in one app
+      checkedAt: 2026-09-22
+seo:
+  title: Voicebox – Open Source Local AI Voice Studio
+addedAt: 2026-09-01
+curation:
+  reviewed: true
+  reviewedAt: 2026-08-21
+  reviewedBy: Open Apps curators
+  labels:
+    - hot
+    - new
+  lenses:
+    - good-to-learn
+---
 Voicebox is the only consumer-facing desktop app that puts the **entire voice I/O loop on a single local machine**: text-to-speech with voice cloning, voice dictation, post-processing effects, a multi-track Stories editor, and — the unusual part — a built-in Model Context Protocol server that lets any agent (Claude Code, Cursor, Cline) speak in your cloned voice. The cloud incumbents own one half of the loop each (ElevenLabs on output, WisprFlow on input); the open-source TTS projects (OpenVoice, F5-TTS, Coqui, Kokoro) ship one engine at a time. Voicebox ships the whole thing on one install.
 
 The architectural choice that makes this possible is more interesting than the feature list. Voicebox is a Tauri (Rust) desktop shell that wraps a FastAPI (Python) ML backend as a sidecar binary, and the way the two halves coordinate is the cleanest "Tauri + ML" build the open-source desktop world has produced.

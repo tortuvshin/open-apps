@@ -1,3 +1,64 @@
+---
+name: rustdesk
+repoUrl: https://github.com/rustdesk/rustdesk
+projectType: real-app
+category: developer-tools
+stack: flutter
+summary: A self-hostable TeamViewer replacement built on a Rust core (video codec, transport,
+  rendezvous) with a Flutter UI client that supports direct peer-to-peer TCP hole punching and falls
+  back to a relay when NATs refuse to cooperate.
+description: RustDesk is a self-hostable, cross-platform remote desktop application written in Rust
+  with a Flutter UI, offering an open-source alternative to TeamViewer and AnyDesk for screen
+  sharing, file transfer, and unattended access.
+sourceDescription: An open-source remote desktop application designed for self-hosting, as an
+  alternative to TeamViewer.
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/rustdesk/rustdesk
+tags:
+  - android
+  - anydesk
+  - dart
+  - flatpak
+  - flutter
+  - flutter-apps
+  - ios
+  - linux
+  - macos
+  - p2p
+  - rdp
+  - remote-control
+  - remote-desktop
+  - rust
+  - rust-lang
+  - teamviewer
+  - vnc
+  - wayland
+  - windows
+relations:
+  - type: alternative-to
+    to: teamviewer
+    evidence:
+      type: self-described
+      url: https://github.com/rustdesk/rustdesk
+      quote: An open-source remote desktop application designed for self-hosting, as an alternative to
+        TeamViewer.
+      checkedAt: 2026-09-22
+seo:
+  title: RustDesk – Open Source Remote Desktop & TeamViewer Alternative
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: rustdesk
+  repo: rustdesk
+  url: https://github.com/rustdesk/rustdesk
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 RustDesk is an open-source, self-hostable remote-desktop application
 written in Rust with a Flutter UI, supporting Windows, macOS, Linux, iOS,
 Android, and a web client. It speaks a custom protobuf-over-TCP/UDP

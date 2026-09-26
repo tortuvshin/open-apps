@@ -1,3 +1,59 @@
+---
+name: Keybase
+repoUrl: https://github.com/keybase/client
+projectType: real-app
+category: communication
+stack: react-native
+summary: Keybase ties cryptographic identities to public social-media proofs (Twitter, GitHub,
+  Reddit, personal sites) and then layers an end-to-end-encrypted chat protocol and the KBFS
+  encrypted filesystem on top of that verified identity — a model no mainstream messenger
+  replicates. The consumer product was wound down in 2024 after Zoom's 2020 acquisition, but the Go
+  client, chat1 protocol, and KBFS / Stellar libraries remain useful as reference implementations.
+description: Keybase Go Library, Client, Service, OS X, iOS, Android, Electron..
+sourceDescription: Keybase Go Library, Client, Service, OS X, iOS, Android, Electron..
+platforms:
+  - android
+  - ios
+licenses:
+  - bsd-3-clause
+links:
+  github: https://github.com/keybase/client
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/keybase/client/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/keybase/client/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: Keybase – Open Source Encrypted Chat & Identity App
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: keybase
+  repo: client
+  url: https://github.com/keybase/client
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 Keybase is an open-source, end-to-end-encrypted chat, file-sharing, and
 identity-verification platform written primarily in Go. Its distinguishing
 feature is not the cryptography itself but the identity-plus-proofs model:

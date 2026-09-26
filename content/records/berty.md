@@ -1,3 +1,60 @@
+---
+name: Berty
+repoUrl: https://github.com/berty/berty
+projectType: real-app
+category: communication
+stack: react-native
+summary: An open-source messenger built on the Wesh protocol that runs over libp2p with mDNS, BLE,
+  and Tor transports, letting peers exchange messages directly without any central server or trusted
+  infrastructure.
+description: Berty is a peer-to-peer messenger that runs entirely over the Wesh protocol on top of
+  libp2p, so peers connect directly via mDNS, Bluetooth Low Energy, or Tor with no central server in
+  the loop.
+sourceDescription: Berty is a secure peer-to-peer messaging app that works with or without internet
+  access, cellular data or trust in the network.
+platforms:
+  - android
+  - ios
+licenses:
+  - noassertion
+links:
+  github: https://github.com/berty/berty
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/berty/berty/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/berty/berty/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: Berty – Open Source Peer-to-Peer Encrypted Messenger
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: berty
+  repo: berty
+  url: https://github.com/berty/berty
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 Berty is a peer-to-peer messenger that runs entirely over the **Wesh
 protocol**, an SDK built directly on **libp2p**. There is no central
 server, no account creation, and no phone number requirement — peers

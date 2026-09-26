@@ -19,8 +19,13 @@ will clobber the changes:
 
 Files you CAN hand-edit:
 
-- `data/records/<slug>.yml` — one file per record. Schema lives
-  in the framework; `pnpm exec grove validate` enforces it.
+- `content/records/<slug>.md` (outside this directory) — one file
+  per app: the record's fields as YAML frontmatter, then the review
+  notes. Schema lives in the framework; `pnpm exec grove check`
+  enforces it.
+- `data/records/<slug>.yml` — the older layout, left for four apps
+  (`onionbrowser`, `swiftterm`, `tura`, `utm`) until #287 decides
+  their notes files. Do not add new records here.
 - `data/collections/<slug>.yml` — one file per curated list.
   Each must include an auditable `selectionNote`.
 - `data/taxonomy/{categories,stacks,topics,licenses}.yml` —

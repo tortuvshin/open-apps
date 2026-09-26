@@ -1,3 +1,83 @@
+---
+name: MangoDisk
+repoUrl: https://github.com/harry0703/MangoDisk
+projectType: real-app
+category: tools
+stack: tauri
+summary: A cross-platform Tauri desktop app with a Rust core for finding caches, large files, exact
+  duplicates, and application leftovers, plus startup management, system optimization, and common
+  repair tools. Scans are read-only by default, and cleanup decisions remain visible to the user.
+description: MangoDisk is a safety-first disk cleaner and storage analyzer for macOS and Windows
+  that scans locally, visualizes disk usage, and lets users review paths and sizes before removal.
+sourceDescription: Safety-first disk cleaner and space analyzer for macOS and Windows, with
+  duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.
+platforms:
+  - macos
+  - windows
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/harry0703/MangoDisk
+  website: https://mangodisk.app/
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: macOS disk image
+      url: https://github.com/harry0703/MangoDisk/releases/latest
+      verified: true
+    - type: github-releases
+      platform: windows
+      label: Windows installer and portable build
+      url: https://github.com/harry0703/MangoDisk/releases/latest
+      verified: true
+tags:
+  - open-source
+  - desktop-app
+  - local-first
+  - disk-cleaner
+  - disk-space-analyzer
+  - duplicate-files
+  - app-uninstaller
+  - startup-manager
+  - system-maintenance
+  - rust
+  - vue
+  - macos
+  - windows
+bestFor:
+  - Studying how a Tauri application keeps filesystem-heavy business logic in reusable Rust crates
+    while sharing a Vue interface across macOS and Windows.
+  - Finding what is consuming storage before deciding whether anything should be removed.
+  - Reviewing a local-first cleanup workflow with explicit safety boundaries and operation history.
+whyListed:
+  - It is a complete GPL-3.0 desktop application with signed public releases for macOS and Windows,
+    multilingual documentation, and an actively maintained rule library.
+  - The codebase separates scanning, safety rules, cleanup execution, CLI support, and the desktop
+    interface, making the implementation useful beyond the finished application.
+  - Its storage treemap, content-based duplicate detection, application-leftover review, startup
+    management, and repair tools cover a broad real-world system-utility workflow.
+caveats:
+  - Cleanup, permanent deletion, application uninstall, and system changes may not be reversible;
+    users should review selections and keep backups of important data.
+  - Some cleanup and maintenance operations require administrator access, and some system changes
+    require a restart before they take effect.
+  - Linux is not currently a supported packaged target.
+seo:
+  title: MangoDisk – Open Source Disk Cleaner for macOS & Windows
+addedAt: 2026-09-03
+source:
+  type: submit
+  provider: github
+  owner: harry0703
+  repo: MangoDisk
+  url: https://github.com/harry0703/MangoDisk
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 MangoDisk is a local-first disk cleaner and storage analyzer for macOS and Windows. It combines the jobs that often require several utilities—finding large files, inspecting caches, locating exact duplicates, removing application leftovers, managing startup items, and repairing common system problems—while keeping the cleanup decision visible.
 
 ## What the codebase includes

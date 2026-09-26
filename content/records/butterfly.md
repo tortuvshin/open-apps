@@ -1,3 +1,55 @@
+---
+name: Butterfly
+repoUrl: https://github.com/LinwoodDev/Butterfly
+projectType: real-app
+category: productivity
+stack: flutter
+summary: A Linwood-maintained visual-notes app where a `butterfly_api` package owns the document
+  format and protocol while the Flutter client layers a Bloc/Cubit state machine, perfect-freehand
+  ink rendering, a WebDAV-backed file system, and an optional separately-licensed `api/` server for
+  sync and collaboration.
+description: Butterfly is a Flutter note-taking and drawing app whose central object is an infinite
+  canvas — pages hold freehand ink, text, shapes, images, areas, and waypoints in a custom `.bfly`
+  document model, with optional WebDAV sync, OneNote import, and PDF/SVG export.
+sourceDescription: 🎨 Powerful, minimalistic, cross-platform, opensource note-taking app
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/LinwoodDev/Butterfly
+tags:
+  - android
+  - app
+  - cross-platform
+  - customizable
+  - dart
+  - dartlang
+  - drawing
+  - flutter
+  - linux
+  - note
+  - note-taking
+  - notes
+  - notes-app
+  - onenote
+  - opensource
+  - productivity
+  - web
+  - windows
+  - writing
+seo:
+  title: Butterfly – Open Source Cross-Platform Note-Taking App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: LinwoodDev
+  repo: Butterfly
+  url: https://github.com/LinwoodDev/Butterfly
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Butterfly (branded as **Linwood Butterfly**) is a Flutter note-taking app
 where the primary artifact is an infinite drawing canvas. Notes are organized
 into pages, and each page is a free-form composition of hand-drawn ink,

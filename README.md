@@ -187,21 +187,22 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
 [![Built with Grove](https://img.shields.io/badge/built%20with-Grove-166534?style=flat-square)](https://withgrove.dev)
 
-The list above is one view of the catalog. The same YAML records also build
+The list above is one view of the catalog. The same records also build
 [openappscout.com](https://openappscout.com) — a searchable directory with
 per-app detail pages, curated collections, stack and category browsing, and
 contributor credits.
 
-- Every app is one file: `data/records/<slug>.yml`. The schema and field
+- Every app is one file: `content/records/<slug>.md`, its fields as YAML
+  frontmatter and its review notes underneath. The schema and field
   ownership rules are documented in [docs/SCHEMA.md](docs/SCHEMA.md).
-- Human-curated fields and automation-owned GitHub metadata live side by
-  side in each record; scheduled jobs refresh the metadata through
-  reviewable pull requests.
+- Automation-owned GitHub metadata lives apart from the records, in
+  `data/cache/github/`; scheduled jobs refresh it through reviewable pull
+  requests.
 - The site is built with [Grove](https://withgrove.dev) on
   [Astro](https://astro.build) and Tailwind CSS, and deploys as a static
   site to Cloudflare.
 - The list section of this README is generated from the records with
-  `grove readme generate` — edit the YAML, not the list.
+  `grove readme generate` — edit the records, not the list.
 
 ## Add or update an app
 
@@ -211,7 +212,8 @@ open a pull request.
 
 For a manual contribution:
 
-1. Create or edit `data/records/<slug>.yml`.
+1. Create or edit `content/records/<slug>.md` (see
+   [CONTRIBUTING.md](CONTRIBUTING.md#one-file-per-app) for the format).
 2. Run `pnpm exec grove check` and `pnpm build`.
 3. Open a focused pull request.
 

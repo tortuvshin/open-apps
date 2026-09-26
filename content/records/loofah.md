@@ -1,0 +1,72 @@
+---
+name: Loofah
+repoUrl: https://github.com/bart6114/loofah
+projectType: real-app
+category: productivity
+stack: tauri
+summary: A Tauri/Rust desktop app and CLI with no account, backend, telemetry, or required cloud;
+  optional summaries use the user's chosen LLM, and a read-only local MCP server exposes the vault
+  to agents.
+description: Loofah is an MIT-licensed, local-first meeting notetaker for macOS that records and
+  transcribes on-device and stores notes as ordinary Markdown.
+sourceDescription: Free, open-source meeting notes for macOS with private on-device transcription,
+  Markdown storage, and optional bring-your-own AI—no accounts, subscriptions, or telemetry.
+platforms:
+  - macos
+  - desktop
+licenses:
+  - mit
+links:
+  github: https://github.com/bart6114/loofah
+  website: https://loofah.io
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: GitHub Releases
+      url: https://github.com/bart6114/loofah/releases/latest
+      verified: true
+    - type: website
+      platform: macos
+      label: Loofah website
+      url: https://loofah.io
+      verified: true
+tags:
+  - open-source
+  - offline-first
+  - desktop-app
+  - productivity
+  - privacy
+  - notes
+  - cli
+bestFor:
+  - Keeping meeting recordings, transcripts, notes, research, and agent-created artifacts in one
+    local Markdown vault.
+  - People who want on-device meeting transcription without adding a bot to calls.
+whyListed:
+  - The complete MIT-licensed application is available to run, inspect, and study.
+  - The codebase combines a Tauri desktop app, Rust CLI, local transcription, Markdown storage, and
+    read-only MCP access.
+caveats:
+  - The desktop app currently requires an Apple Silicon Mac; the CLI also supports Linux.
+relations:
+  - type: alternative-to
+    to: granola
+    evidence:
+      type: editorial
+      checkedAt: 2026-09-22
+seo:
+  title: Loofah – Open Source Meeting Notes App for macOS
+addedAt: 2026-08-31
+source:
+  type: import
+  provider: github
+  owner: bart6114
+  repo: loofah
+  url: https://github.com/bart6114/loofah
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---

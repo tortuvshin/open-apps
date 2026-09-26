@@ -11,8 +11,8 @@ assignees: []
 
 > [!IMPORTANT]
 > **This issue does not add the app to the directory.** Apps land only
-> through a pull request that adds `data/records/<slug>.yml` (and
-> usually `content/records/<slug>.md`).
+> through a pull request that adds one file, `content/records/<slug>.md`
+> (the record's fields as frontmatter, then the notes).
 >
 > The fastest path is the **[submission form](https://openappscout.com/submit)**:
 > paste the GitHub URL, review the generated draft, and it opens the PR

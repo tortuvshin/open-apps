@@ -1,3 +1,48 @@
+---
+name: medito-app
+repoUrl: https://github.com/meditohq/medito-app
+projectType: real-app
+category: health-and-fitness
+stack: flutter
+summary: The same Dart codebase targets Android and iOS, with Riverpod driving state, Pigeon
+  bridging native sides, and a Mock run mode that intercepts every network call so volunteers can
+  build and exercise the full UI without API keys, Firebase, or Stripe. Content is organised into
+  Packs (themed collections), Paths (ordered multi-day courses), and standalone Tracks, and an
+  in-app Stats screen plus a favorites list turn completed sessions into a private practice log.
+description: Medito is a permanently-free Flutter meditation app maintained by the Medito Foundation
+  that streams guided sessions, multi-day courses, and themed packs from a CMS-backed catalogue,
+  pairing each track with a `just_audio` + `audio_service` foreground player and an optional
+  background-sound bed.
+sourceDescription: The Medito app is a 100% free meditation app built with flutter. The app is
+  available on Android and iOS.
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/meditohq/medito-app
+tags:
+  - android
+  - flutter
+  - ios
+  - meditation
+  - meditation-app
+  - meditation-practice
+  - medito-foundation
+  - mindfulness
+  - wellbeing
+seo:
+  title: Medito – Open Source Free Meditation App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: meditohq
+  repo: medito-app
+  url: https://github.com/meditohq/medito-app
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Medito is a 100% free, non-commercial meditation app for Android and iOS,
 maintained by the Medito Foundation (a registered Dutch nonprofit) and
 shipped from a single Flutter codebase. It targets both first-time

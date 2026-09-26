@@ -1,10 +1,10 @@
 # Open Apps Record Schema
 
-This document is the canonical reference for the structure and ownership of records in the Open Apps directory (`data/records/*.yml`).
+This document is the canonical reference for the structure and ownership of records in the Open Apps directory (`content/records/*.md`).
 
 ## Overview
 
-Each app in the directory is represented as a single YAML file in `data/records/`. Fields are grouped by **ownership**:
+Each app in the directory is one Markdown file, `content/records/<slug>.md`: the fields below as YAML frontmatter between two `---` lines, then the review notes rendered on the detail page. The file name is the slug. (Four apps, `onionbrowser`, `swiftterm`, `tura` and `utm`, are still `data/records/<slug>.yml` until #287 decides their notes files; the same fields apply.) Fields are grouped by **ownership**:
 
 - **Human-curated** fields are edited directly by contributors and curators in pull requests
 - **Automation-owned** fields are written by GitHub Actions (sync workflows) and should never be hand-edited
@@ -18,9 +18,9 @@ All fields are **optional** unless otherwise noted.
 ### App Identity
 | Field | Type | Ownership | Description |
 |-------|------|-----------|-------------|
-| `kind` | enum: `project` | human | Kind of record (Open Apps uses `project` for the project-directory blueprint). |
+| `kind` | enum: `project` | derived | Kind of record. Leave it out: Grove fills in `project` from the project-directory blueprint. |
 | `name` | string | human | Display name of the app. |
-| `slug` | string | human | URL-safe identifier; must match the filename (without `.yml`). |
+| `slug` | string | derived | URL-safe identifier. Leave it out: it is the file name without `.md`. |
 | `description` | string | human | One-sentence curator-written summary of what the app does. |
 | `summary` | string | human | **NEW (0.5.0):** Editorial lead paragraph. When set, rendered as the first paragraph on the detail page; otherwise falls back to `description`. Allows curators to write a more expressive introduction distinct from the brief one-liner. |
 | `sourceDescription` | string | human | **NEW (0.5.0):** Preserved original description, typically from the project's README or GitHub repository description. When present and distinct from `summary`, rendered as a secondary "From the project's README:" paragraph on the detail page. Mechanically backfilled from `github.repository.description` where available. |
@@ -41,7 +41,7 @@ All fields are **optional** unless otherwise noted.
 | `licenses` | array of strings | human | SPDX license IDs (e.g., `["MIT", "Apache-2.0"]`). Optional; `github` sync can populate from GitHub. |
 | `links` | object | human | Additional project links: `{ github, website, docs, source }` (all URLs). |
 | `distribution.channels` | array of objects | human | Where users can download/install. Each entry: `{ type (channel ID from data/taxonomy/distribution-channels.yml, e.g. "play-store"), url (required store/download URL), platform?, label?, verified?, notes? }`. |
-| `content` | string | human | Path to the record's long-form Markdown notes, e.g. `./content/records/<slug>.md`. The referenced file is rendered on the detail page and should ship in the same PR as the record. |
+| `content` | string | derived | Leave it out of a Markdown record: the notes are the file's own body. Only a YAML record uses it, to point at its notes file. |
 | `screenshots` | array of objects | human | **NEW (0.5.0):** Curated screenshots for the detail page. Each entry: `{ src (URL), alt (string), source? (URL), width? (number), height? (number) }`. Currently optional/deferred; schema-ready but not yet populated in the catalog. |
 
 ### Curation & Context
@@ -127,122 +127,71 @@ Defined in `data/taxonomy/topics.yml`:
 
 ## Example Record
 
-Here's a fully annotated real example (`immich.yml`), showing both curator-written and synced fields:
+Here is a real record, `content/records/immich.md` (notes shortened). Everything above the second `---` is human-owned frontmatter; the notes underneath render on the detail page.
 
-```yaml
-# =============================================================================
-# HUMAN-CURATED SECTIONS
-# =============================================================================
-
-kind: project
+```markdown
+---
 name: Immich
-slug: immich
-description: Self-hosted photo and video backup solution directly from your mobile phone
-
-# New in Grove 0.5.0: curator-written lead paragraph for the detail page
-summary: A feature-rich, self-hosted photo and video management platform built with Flutter and NestJS, supporting full end-to-end encrypted backups from iOS and Android.
-
-# New in Grove 0.5.0: GitHub-sourced description (backfilled from github.repository.description)
-sourceDescription: High performance self-hosted photo and video management solution.
-
+repoUrl: https://github.com/immich-app/immich
+projectType: real-app
 category: tools
-tags:
-  - cross-platform
-  - privacy-first
-  - self-hosted
 stack: flutter
+summary: A self-hosted photo and video backup service with first-class mobile apps and on-device
+  machine learning.
+description: Self-hosted photo and video backup solution directly from your mobile phone
+sourceDescription: Self-hosted photo and video backup solution directly from your mobile phone
 platforms:
   - android
   - ios
-projectType: real-app
-repoUrl: https://github.com/immich-app/immich
-
+licenses:
+  - agpl-3.0
 links:
   github: https://github.com/immich-app/immich
-  website: https://immich.app
-
 distribution:
-  channels:
-    - type: play-store
-      platform: android
-      label: Play Store
-      url: https://play.google.com/store/apps/details?id=app.alextran.immich
-      verified: false
-
-bestFor:
-  - Personal photo/video backup
-  - Privacy-conscious users
-
-whyListed:
-  - Well-architected, production-ready app
-  - Excellent documentation
-  - Active development and community
-
+  channels: []
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
 caveats: []
-
+relations:
+  - type: alternative-to
+    to: google-photos
+    evidence:
+      type: repo-topic
+      url: https://github.com/immich-app/immich
+      quote: google-photos-alternative
+      checkedAt: 2026-09-22
+seo:
+  title: Immich – Open Source Self-Hosted Photo & Video Backup
+addedAt: 2026-06-07
 source:
   type: import
   provider: github
   owner: immich-app
   repo: immich
   url: https://github.com/immich-app/immich
-
 curation:
   reviewed: true
   reviewedAt: 2026-08-11
-  reviewedBy: Open Apps curators
   labels:
     - mature
     - hot
   lenses: []
-
+  reviewedBy: Open Apps curators
 visibility: keep
-
-# =============================================================================
-# AUTOMATION-OWNED SECTIONS (synced by GitHub Actions, do not edit)
-# =============================================================================
-
-github:
-  repository:
-    id: 455229168
-    name: immich
-    full_name: immich-app/immich
-    description: High performance self-hosted photo and video management solution.
-    stargazers_count: 48000
-    forks_count: 2400
-    language: Dart
-    license:
-      spdx_id: AGPL-3.0-or-later
-    pushed_at: 2026-08-16T10:30:00Z
-    archived: false
-    disabled: false
-    # ... (more GitHub API fields omitted for brevity)
-  
-  languages:
-    Dart: 500000
-    Kotlin: 250000
-    TypeScript: 200000
-  
-  # Additional synced fields (latestRelease, activity, files, labels, sync)
-  # omitted for brevity. These are populated by automation.
-
-health:
-  status: active
-  maturity: production
-  tier: featured
-  confidence: 0.95
-  reasons:
-    - Regular releases
-    - Active community
-    - Well-documented
-  # ... (other health fields omitted)
+---
+Immich is a self-hosted photo and video backup service that runs on your own
+hardware and ships native iOS and Android apps written in Flutter. …
 ```
+
+GitHub metadata and health are automation-owned and never appear in the record. `grove sync github` writes them to `data/cache/github/immich.json`, and the build merges them in.
 
 ## Contributing Records
 
 When submitting a new app or updating an existing one:
 
-1. **Use the web form** at `/submit` to generate a draft YAML record from a GitHub URL
+1. **Use the web form** at `/submit` to generate a draft from a GitHub URL, then save it as `content/records/<slug>.md` (see [CONTRIBUTING.md](../CONTRIBUTING.md#one-file-per-app))
 2. **Review and refine**: adjust `description`, `bestFor`, `whyListed`, `caveats`, and `tags` as needed
 3. **Respect ownership**: only edit human-curated fields (see **Ownership Table** above)
 4. **Add evidence**: link issues or examples in `curation.notes` that justify inclusion
@@ -255,10 +204,10 @@ For detailed submission guidelines, see [CONTRIBUTING.md](../CONTRIBUTING.md).
 ### GitHub Metadata Sync
 The `sync-github` GitHub Action runs daily and:
 - Fetches current `repository`, `languages`, `latestRelease`, and `activity` data from the GitHub API
-- Overwrites `github.*` fields in all records
+- Writes them to `data/cache/github/<slug>.json`; records are never touched
 - Opens a pull request with changes for curator review
 
-**Do not hand-edit `github.*` fields** — they'll be overwritten on the next sync run.
+**Do not hand-edit `data/cache/github/`** — it is overwritten on the next sync run.
 
 ### Incremental Backfills
 Certain fields (like `sourceDescription`) are backfilled mechanically from synced data:
@@ -282,6 +231,6 @@ Earlier versions of this catalog used different structures; see [CHANGELOG.md](.
 ---
 
 **Last updated**: 2026-08-16 (Grove 0.5.0)  
-**File structure**: `data/records/*.yml`  
+**File structure**: `content/records/*.md` (frontmatter plus notes)  
 **Validation**: `grove check` / `pnpm exec grove check`  
 **For questions**: See [CONTRIBUTING.md](../CONTRIBUTING.md) or [README.md](../README.md)

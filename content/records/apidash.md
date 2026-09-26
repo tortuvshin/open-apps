@@ -1,3 +1,74 @@
+---
+name: apidash
+repoUrl: https://github.com/foss42/apidash
+projectType: real-app
+category: tools
+stack: flutter
+summary: Open-source API client written in Flutter so one Dart codebase ships to iOS, macOS,
+  Windows, and Linux. Its codegen layer is a thin dispatcher over per-language templates (curl, HAR,
+  Python/requests, Rust/reqwest, JS fetch/axios, Go net/http, etc.) and its import layer covers
+  Postman, cURL, Insomnia, OpenAPI, and HAR — a breadth most paid clients gate behind collaboration
+  tiers.
+description: API Dash is a Flutter-based cross-platform API client for building, sending, and
+  inspecting HTTP, GraphQL, and SSE requests, with code generation for 20+ languages and an optional
+  LLM assistant called DashBot that runs locally or against a cloud model.
+sourceDescription: API Dash is a beautiful AI-powered open-source cross-platform (Desktop & Mobile)
+  API Client built using Flutter which can help you easily create & customize your HTTP & GraphQL
+  API requests, visually inspect responses and generate API integration code. A lightweight
+  alternative to postman/insomnia.
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/foss42/apidash
+tags:
+  - api
+  - api-client
+  - api-testing
+  - dart
+  - developer-tools
+  - flutter
+  - flutter-apps
+  - flutter-desktop
+  - graphql
+  - graphql-api
+  - graphql-client
+  - gssoc
+  - hacktoberfest
+  - http-client
+  - http-requests
+  - postman
+  - rest-api
+  - server-sent-events
+  - websocket
+relations:
+  - type: alternative-to
+    to: postman
+    evidence:
+      type: self-described
+      url: https://github.com/foss42/apidash
+      quote: alternative to postman/insomnia
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: insomnia
+    evidence:
+      type: self-described
+      url: https://github.com/foss42/apidash
+      quote: alternative to postman/insomnia
+      checkedAt: 2026-09-22
+seo:
+  title: API Dash – Open Source API Client Built with Flutter
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: foss42
+  repo: apidash
+  url: https://github.com/foss42/apidash
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 API Dash is a cross-platform API client that lives in a single Flutter
 codebase and ships to iOS, macOS, Windows, and Linux. It targets the
 HTTP-API work that Postman and Insomnia have owned for a decade, but

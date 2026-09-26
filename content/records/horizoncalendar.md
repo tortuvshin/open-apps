@@ -1,3 +1,53 @@
+---
+name: HorizonCalendar
+repoUrl: https://github.com/airbnb/HorizonCalendar
+projectType: real-app
+category: productivity
+stack: ios
+summary: Airbnb's declarative iOS calendar UI library — a data-driven rendering model where a single
+  `CalendarViewContent` value type drives month and week views through provider closures, with a
+  custom (non-`UICollectionView`) layout that keeps memory flat at ~100k years of dates — beautiful
+  and architecturally influential, but now in maintenance mode after Airbnb scaled back its
+  open-source iOS work.
+description: HorizonCalendar is Airbnb's declarative, performant iOS calendar UI framework that
+  renders month and week views from a single content value type, scaling from simple date pickers up
+  to fully featured calendar apps on virtually infinite date ranges.
+sourceDescription: A declarative, performant, iOS calendar UI component that supports use cases
+  ranging from simple date pickers all the way up to fully-featured calendar apps.
+platforms:
+  - ios
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/airbnb/HorizonCalendar
+distribution:
+  channels: []
+tags:
+  - swift
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (3,136 stars on GitHub).
+caveats: []
+seo:
+  title: HorizonCalendar – Open Source iOS Calendar UI Library
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: airbnb
+  repo: HorizonCalendar
+  url: https://github.com/airbnb/HorizonCalendar
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 HorizonCalendar is Airbnb's declarative iOS calendar UI library — a
 `UIView` subclass whose visible state is a pure function of a single
 `CalendarViewContent` value type, much like a SwiftUI view is a

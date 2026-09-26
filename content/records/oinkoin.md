@@ -1,3 +1,36 @@
+---
+name: oinkoin
+repoUrl: https://github.com/emavgl/oinkoin
+projectType: real-app
+category: finance
+stack: flutter
+summary: A privacy-first, ad-free personal-finance tracker written in Flutter that stores expenses,
+  incomes, transfers, and budgets in a local SQLite database, syncs nothing to the cloud, and
+  exposes charts, CSV import, and biometric app-lock out of the box. PRO unlocks encrypted backups,
+  recurring patterns, tags, and custom date ranges, and the whole thing ships in 24 locales.
+description: Oinkoin is an offline-first Flutter expense tracker that keeps every record in a local
+  SQLite database, ships with biometric app-lock and CSV import, and adds wallets, recurring
+  records, and tags behind a paid PRO build that doubles as the project's funding model.
+sourceDescription: Oinkoin is a flutter app for helping you managing your expenses. No internet required.
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/emavgl/oinkoin
+tags: []
+seo:
+  title: Oinkoin – Open Source Offline Expense Tracker
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: emavgl
+  repo: oinkoin
+  url: https://github.com/emavgl/oinkoin
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Oinkoin is a privacy-first personal-finance tracker written in Flutter.
 Every expense, income, transfer, and recurring pattern lives in a local
 SQLite database (`sqflite` on mobile, `sqflite_common_ffi` on desktop) —

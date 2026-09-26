@@ -1,3 +1,59 @@
+---
+name: Rainbow
+repoUrl: https://github.com/rainbow-me/rainbow
+projectType: real-app
+category: finance
+stack: react-native
+summary: Rainbow is a React Native mobile wallet that combines Ethereum mainnet and L2 support with
+  built-in swap routing, an NFT gallery, a dapp browser, and Hyperliquid perpetuals, with the slick
+  feel that comes from Reanimated 3 plus FlashList. The project was acquired by OrangeFun in 2024
+  and remains actively developed under the rainbow-me organization.
+description: Rainbow is a multi-chain Ethereum wallet for iOS and Android, built on React Native
+  with Reanimated 3 and Shopify FlashList for fast mobile UX and broad NFT, DeFi, and swap coverage.
+sourceDescription: 🌈‒ the Ethereum wallet that lives in your pocket.
+platforms:
+  - android
+  - ios
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/rainbow-me/rainbow
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/rainbow-me/rainbow/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/rainbow-me/rainbow/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: Rainbow – Open Source Ethereum Wallet in React Native
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: rainbow-me
+  repo: rainbow
+  url: https://github.com/rainbow-me/rainbow
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 Rainbow is a mobile-first Ethereum wallet for iOS and Android, plus a
 browser extension, that covers far more than a plain ETH balance: it
 speaks to Ethereum mainnet and a wide set of L2s, surfaces an NFT

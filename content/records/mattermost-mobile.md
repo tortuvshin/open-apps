@@ -1,3 +1,65 @@
+---
+name: Mattermost Mobile
+repoUrl: https://github.com/mattermost/mattermost-mobile
+projectType: real-app
+category: communication
+stack: react-native
+summary: The production-grade React Native client for Mattermost, the open-source, self-hostable
+  Slack alternative used by dev teams and regulated enterprises.
+description: Mattermost Mobile is the official React Native iOS and Android client for the
+  self-hostable Mattermost messaging platform, giving enterprise and dev teams on-device access to
+  channels, threads, calls, and push notifications backed by the same REST and WebSocket API as the
+  web and desktop clients.
+sourceDescription: Next generation iOS and Android apps for Mattermost in React Native.
+platforms:
+  - android
+  - ios
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/mattermost/mattermost-mobile
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/mattermost/mattermost-mobile/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/mattermost/mattermost-mobile/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+relations:
+  - type: alternative-to
+    to: slack
+    evidence:
+      type: editorial
+      checkedAt: 2026-09-22
+seo:
+  title: Mattermost Mobile – Open Source Slack Alternative App
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: mattermost
+  repo: mattermost-mobile
+  url: https://github.com/mattermost/mattermost-mobile
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 Mattermost Mobile is the official mobile client for Mattermost, the
 open-source, self-hostable Slack alternative trusted by developer teams,
 regulated enterprises, and government agencies. It wraps the same

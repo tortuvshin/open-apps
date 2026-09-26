@@ -1,3 +1,60 @@
+---
+name: MetaMask Mobile
+repoUrl: https://github.com/MetaMask/metamask-mobile
+projectType: real-app
+category: finance
+stack: react-native
+summary: The dominant mobile Ethereum wallet in production. React Native on top of native iOS
+  (Swift/Obj-C) and Android (Kotlin/Java) modules, with a controller-based architecture
+  (KeyringController, TransactionController, AccountsController) and a growing multichain footprint
+  (EVM L2s, Solana, Bitcoin, Tron, Stellar).
+description: MetaMask Mobile is the official Consensys-maintained mobile wallet for the Ethereum
+  ecosystem, shipped as a React Native app with native iOS and Android modules that supports
+  multi-chain accounts, a built-in dapp browser, and self-custodial key management.
+sourceDescription: Mobile web browser providing access to websites that use the Ethereum blockchain.
+platforms:
+  - android
+  - ios
+licenses:
+  - noassertion
+links:
+  github: https://github.com/MetaMask/metamask-mobile
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/MetaMask/metamask-mobile/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/MetaMask/metamask-mobile/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: MetaMask Mobile – Open Source Ethereum Wallet
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: MetaMask
+  repo: metamask-mobile
+  url: https://github.com/MetaMask/metamask-mobile
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 MetaMask Mobile is the official Consensys-maintained mobile wallet for the
 Ethereum ecosystem. It is a self-custodial, multi-chain, dapp-capable wallet
 shipped to the App Store and Google Play, and it is the largest production

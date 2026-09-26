@@ -12,22 +12,62 @@ project history for another developer to evaluate it.
 Popularity is useful context, not an automatic pass. Reviewers consider
 product scope, source quality, maintenance, documentation, and learning value.
 
+## One file per app
+
+Every app is one Markdown file, `content/records/<slug>.md`. The file name
+is the slug. The record's fields go in the YAML frontmatter between the two
+`---` lines, and the review notes go underneath:
+
+```markdown
+---
+name: Habo
+repoUrl: https://github.com/xpavle00/Habo
+category: productivity
+stack: flutter
+description: Privacy-first habit tracker for iOS and Android.
+platforms:
+  - android
+  - ios
+tags:
+  - habit-tracker
+addedAt: 2026-09-26
+---
+
+## Why it's listed
+
+The notes shown on the app page.
+```
+
+Leave out `slug`, `kind` and `content`: Grove takes them from the file name,
+the site and the file itself. A record with no notes stops after the
+closing `---`.
+
 ## Add an app
 
 1. Open `/submit` on the site and paste the canonical GitHub repository URL.
 2. Review the generated YAML draft.
 3. Choose category, primary stack, platforms, and free-form tags carefully.
    Categories and stacks come from `data/taxonomy/`; tags do not replace them.
-4. Add the draft as `data/records/<slug>.yml`.
+4. Add the draft as `content/records/<slug>.md`: the YAML between `---`
+   lines at the top (without `slug`, `kind` or `content`), your notes
+   underneath. The form still offers the draft as `data/records/<slug>.yml`
+   plus a notes file; that layout is accepted too, and a maintainer can
+   convert it.
 5. Run `pnpm exec grove check` and `pnpm build`.
 6. Open a pull request explaining why the app is useful to run or study.
 
 ## Update an app
 
-Human-owned fields such as description, taxonomy, `bestFor`, `whyListed`,
-`caveats`, and curation labels may be edited directly. GitHub metadata and
-health signals are refreshed by Grove workflows; avoid hand-editing those
-blocks unless the change specifically fixes bad automation output.
+Edit the app's `content/records/<slug>.md`: the frontmatter for
+description, taxonomy, `bestFor`, `whyListed`, `caveats` and curation labels,
+the body for the notes. GitHub metadata and health signals live in
+`data/cache/github/` and are refreshed by Grove workflows; avoid
+hand-editing them unless the change specifically fixes bad automation
+output.
+
+Four apps (`onionbrowser`, `swiftterm`, `tura`, `utm`) are still
+`data/records/<slug>.yml` while #287 decides what happens to their notes
+files; edit those in the YAML.
 
 If a repository moved, verify the canonical replacement before changing its
 URL. For removal, open an issue or pull request with the reason. Security,
@@ -35,7 +75,7 @@ malware, copyright, and takedown concerns should follow `SECURITY.md`.
 
 ## Style
 
-- Keep one app per YAML file and use two-space indentation.
+- Keep one app per file and use two-space indentation in the frontmatter.
 - Write plain-language descriptions ending with a full stop.
 - Do not repeat category or primary stack values as a substitute for useful
   tags.

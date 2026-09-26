@@ -1,3 +1,48 @@
+---
+name: ATV-Bilibili-demo
+repoUrl: https://github.com/yichengchen/ATV-Bilibili-demo
+projectType: real-app
+category: entertainment
+stack: ios
+summary: Often described as an early SwiftUI tvOS experiment, this Bilibili client demo now
+  demonstrates a substantial UIKit-based Apple TV experience.
+description: ATV-Bilibili-demo is an open-source Bilibili client demo built for Apple TV and its
+  tvOS focus-driven interface.
+sourceDescription: BiliBili Client Demo for Apple TV (tvOS).
+platforms:
+  - ios
+licenses:
+  - gpl-2.0
+links:
+  github: https://github.com/yichengchen/ATV-Bilibili-demo
+distribution:
+  channels: []
+tags:
+  - swift
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (3,066 stars on GitHub).
+caveats: []
+seo:
+  title: ATV Bilibili Demo – Open Source Bilibili Client for Apple TV
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: yichengchen
+  repo: ATV-Bilibili-demo
+  url: https://github.com/yichengchen/ATV-Bilibili-demo
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 ## Why it matters
 
 ATV-Bilibili-demo explores what a third-party Bilibili client can feel like on Apple TV: large, glanceable rows of video artwork, remote-first selection, and playback designed for a ten-foot interface. It is especially useful as a study of tvOS focus-engine conventions rather than as a production-ready replacement for an official client.

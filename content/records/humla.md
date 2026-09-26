@@ -1,3 +1,83 @@
+---
+name: Humla
+repoUrl: https://github.com/michaelwilhelmsen/humla
+projectType: real-app
+category: productivity
+stack: tauri
+summary: A Tauri 2, Rust and Swift app inspired by Granola. It transcribes with local Whisper or a
+  provider chosen per language, labels speakers on-device, and answers questions about past meetings
+  with cited notes.
+description: Humla is an MIT-licensed AI meeting-notes app for Apple Silicon Macs that records mic
+  and system audio as two streams, identifies speakers offline and merges your notes with the
+  transcript.
+sourceDescription: Open-source AI meeting notes for Mac. Records mic + system audio with no bot,
+  transcribes on-device or via OpenAI / Deepgram / Groq, identifies speakers offline, and writes
+  summaries that fuse your notes with the transcript.
+platforms:
+  - macos
+  - desktop
+licenses:
+  - mit
+links:
+  github: https://github.com/michaelwilhelmsen/humla
+  website: https://humla.team
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: GitHub Releases
+      url: https://github.com/michaelwilhelmsen/humla/releases/latest
+      verified: true
+tags:
+  - foss-alternative
+  - offline-first
+  - desktop-app
+  - privacy
+  - notes
+bestFor:
+  - Meetings in more than one language — the transcription engine can be set per language, including
+    a Norwegian-tuned Whisper model.
+  - Remote calls where your voice and the other side should stay separate in the transcript.
+  - Asking questions across past meetings and seeing which notes the answer came from.
+whyListed:
+  - Speaker identification runs on the Mac with no audio upload, which most hosted notetakers cannot
+    offer.
+  - Notes are reachable from Claude Code, Codex and other MCP clients.
+caveats:
+  - Early-stage — the repository was created in April 2026 and is maintained by one developer as an
+    indie project.
+  - Apple Silicon only; the release ships a single aarch64 .dmg.
+  - Not local-only by default. OpenAI, Deepgram and Groq are first-class transcription options;
+    choose local Whisper and a local LLM server to keep a meeting on the device.
+  - Sync across devices and shared workspaces are part of a separate paid Humla Cloud.
+relations:
+  - type: alternative-to
+    to: granola
+    evidence:
+      type: repo-topic
+      url: https://github.com/michaelwilhelmsen/humla
+      quote: granola-alternative
+      checkedAt: 2026-09-22
+seo:
+  title: Humla – Open Source AI Meeting Notes for Mac
+  description: Humla records meetings on an Apple Silicon Mac with no bot, transcribes with local
+    Whisper or your own API key, and labels speakers offline. MIT-licensed and early-stage.
+addedAt: 2026-09-22
+source:
+  type: manual
+  provider: github
+  owner: michaelwilhelmsen
+  repo: humla
+  url: https://github.com/michaelwilhelmsen/humla
+curation:
+  reviewed: true
+  reviewedAt: 2026-09-22
+  reviewedBy: Open Apps curators
+  labels:
+    - new
+  lenses: []
+visibility: keep
+---
 Humla is the most thoughtful of the small Granola-style apps, and the youngest: a one-developer project whose repository was created in April 2026. It is worth running if you are on an Apple Silicon Mac and hold meetings in more than one language. It is not a local-only app out of the box — hosted transcription providers are first-class options — so set it up deliberately if privacy is why you are here. Verified against the repository on 22 September 2026, at release v0.64.0.
 
 ## Two audio streams, and a transcription engine per language

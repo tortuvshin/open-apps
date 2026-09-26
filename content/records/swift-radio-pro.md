@@ -1,3 +1,51 @@
+---
+name: Swift-Radio-Pro
+repoUrl: https://github.com/analogcode/Swift-Radio-Pro
+projectType: real-app
+category: media
+stack: ios
+summary: A long-standing open-source iOS radio app template that demonstrates the end-to-end
+  streaming-radio pattern (live stream playback, ICY metadata, iTunes album art, lock-screen and
+  CarPlay controls), and is now best treated as a reference / starting point rather than an actively
+  shipped product.
+description: Swift-Radio-Pro is a Swift iOS streaming-audio reference app that plays live radio from
+  a list of stations, surfaces now-playing metadata and album art, and integrates with the lock
+  screen and Control Center.
+sourceDescription: A professional radio station app for iOS with streaming, favorites, and live metadata.
+platforms:
+  - ios
+licenses:
+  - mit
+links:
+  github: https://github.com/analogcode/Swift-Radio-Pro
+distribution:
+  channels: []
+tags:
+  - swift
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (2,927 stars on GitHub).
+caveats: []
+seo:
+  title: Swift Radio Pro – Open Source iOS Radio Station App
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: analogcode
+  repo: Swift-Radio-Pro
+  url: https://github.com/analogcode/Swift-Radio-Pro
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 Swift Radio Pro is a Swift iOS streaming-audio app template that wires up the
 complete radio-station experience: a list of stations loaded from JSON,
 live-stream playback, now-playing metadata and album art, background audio,
