@@ -228,9 +228,12 @@ const favicon =
         />
         <script is:inline define:vars={{ gaId: effectiveGaId }}>
           window.dataLayer = window.dataLayer || [];
-          function gtag() {
+          // define:vars wraps this script in a function, so a plain
+          // `function gtag` would stay local; the Back/Forward handler at
+          // the end of <body> needs it on window.
+          window.gtag = function gtag() {
             dataLayer.push(arguments);
-          }
+          };
           gtag("js", new Date());
           gtag("config", gaId, {
             page_path: window.location.pathname + window.location.search,
@@ -399,7 +402,7 @@ const favicon =
           var last = location.pathname + location.search;
           function report() {
             var next = location.pathname + location.search;
-            if (next === last) return;
+            if (next === last || typeof window.gtag !== "function") return;
             last = next;
             window.gtag("event", "page_view", {
               page_path: next,
