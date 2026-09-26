@@ -14,6 +14,13 @@
  *   - **Filtered** — the whole record set is filtered here, the page
  *     re-renders from `clientItemsJson`, and pagination switches to
  *     `?page=N` on the base route.
+ *
+ * Filters apply live. Changes made while a facet popover or the mobile
+ * drawer is open replace the current history entry, and closing the
+ * last one pushes a single entry (see `FilterHistorySession`), so Back
+ * skips the individual checkboxes. The result count goes to a
+ * debounced polite live region, and re-renders never leave keyboard
+ * focus stranded on `<body>`.
  */
 interface Props {
   slug: string;
@@ -64,6 +71,15 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
     chipClass,
     filterTriggerClass,
   } from "../../lib/classnames.ts";
+  import {
+    FilterHistorySession,
+    canAdoptInPlace,
+    countLabel,
+    debounce as debounced,
+    focusIndexAfterRender,
+    resultsAnnouncement,
+    showResultsLabel,
+  } from "../../lib/live-filters.ts";
 
   (() => {
       const configSource = document.querySelector("#grove-index-config");
@@ -168,6 +184,68 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
       /** Client views own the page number; prerendered ones use the path. */
       const currentPage = () => (isClientView() ? effectivePage(filters) : routePage || 1);
 
+      const heading = document.querySelector<HTMLElement>("#results-heading");
+      const drawerResults = document.querySelector<HTMLElement>("[data-drawer-results]");
+
+      // The count is announced once rapid toggles settle. One message
+      // per burst, not one per checkbox.
+      const status = document.querySelector("#results-status");
+      const announce = debounced((text: string) => {
+        if (!status) return;
+        // Assistive tech skips a live region whose text did not change.
+        // A trailing no-break space makes a repeat count heard again.
+        status.textContent = status.textContent === text ? `${text}\u00a0` : text;
+      }, 500);
+      /** Set by user-driven re-renders. The first render stays silent. */
+      let announceNext = false;
+
+      /** Busy while a change waits on the record index. */
+      function setPending(pending: boolean) {
+        if (pending) list.setAttribute("aria-busy", "true");
+        else list.removeAttribute("aria-busy");
+        list.classList.toggle("opacity-60", pending);
+        if (drawerResults) {
+          if (pending) {
+            drawerResults.setAttribute("aria-busy", "true");
+            drawerResults.textContent = showResultsLabel(0, singular, plural, true);
+          } else {
+            drawerResults.removeAttribute("aria-busy");
+          }
+        }
+      }
+
+      /**
+       * Where focus goes when the element that had it disappears in a
+       * re-render. Inside the open drawer it stays in the drawer, because
+       * the page behind a modal dialog is inert. Everywhere else it goes
+       * to the results heading.
+       */
+      function focusFallback(lost: Element | null) {
+        const dialog = lost?.closest("dialog[open]");
+        const target = dialog
+          ? dialog.querySelector<HTMLElement>(".grove-filter-trigger, [data-drawer-close]")
+          : heading;
+        target?.focus({ preventScroll: true });
+      }
+
+      /**
+       * Run a re-render, and if it removed or hid the focused element,
+       * move focus somewhere sensible instead of <body>. Focus is only
+       * moved when the re-render lost it, never taken from elsewhere.
+       */
+      function keepingFocus(render: () => void) {
+        const before = document.activeElement;
+        render();
+        if (!(before instanceof HTMLElement) || before === document.body) return;
+        const now = document.activeElement;
+        const lost =
+          !before.isConnected ||
+          Boolean(before.closest(".hidden, [hidden]")) ||
+          now === null ||
+          now === document.body;
+        if (lost && (now === null || now === document.body || now === before)) focusFallback(before);
+      }
+
       const hrefForResultPage = (target: number) =>
         isClientView()
           ? hrefForFilters({ ...filters, page: target }, pathPrefix)
@@ -199,7 +277,17 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         const count = document.querySelector("#results-count");
         const pageLabel = document.querySelector("#results-page");
         const empty = document.querySelector("#empty-state");
-        if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? singular : plural}`;
+        if (count) count.textContent = countLabel(filtered.length, singular, plural);
+        if (drawerResults) drawerResults.textContent = showResultsLabel(filtered.length, singular, plural);
+        if (announceNext) {
+          announceNext = false;
+          announce(resultsAnnouncement(filtered.length, singular, plural));
+        }
+        // The zero-results reset keeps the chosen sort, like "Clear all".
+        const emptyReset = document.querySelector("[data-empty-reset]");
+        if (emptyReset instanceof HTMLAnchorElement) {
+          emptyReset.href = hrefForClearedFilters(filters, pathPrefix);
+        }
         const sortLabel = document.querySelector("#results-sort");
         if (sortLabel) sortLabel.textContent = ` · sorted by ${sortDisplay(sort)}`;
         if (pageLabel) pageLabel.textContent = pageCount > 1 ? ` · page ${page} of ${pageCount}` : "";
@@ -270,12 +358,23 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
           (entry: { id: string; name: string }) => entry.id === value,
         )?.name ?? value;
 
-      /** Chip labels and remove hrefs come from core — one definition. */
+      /**
+       * Chip labels and remove hrefs come from core — one definition.
+       * The same chips render in every `[data-active-filters]` row:
+       * above the results, and inside the mobile filter sheet.
+       */
       function renderChips() {
-        const activeFilters = document.querySelector("#active-filters");
         const chips = activeFilterChips(filters, { taxonomy, pathPrefix });
-        if (activeFilters) {
-          activeFilters.innerHTML = "";
+        document.querySelectorAll<HTMLElement>("[data-active-filters]").forEach((row) => {
+          // Removing a chip removes the link that had focus. Remember
+          // its position and give focus to whatever takes its place.
+          const focused = document.activeElement;
+          const focusIndex =
+            focused instanceof HTMLAnchorElement && row.contains(focused)
+              ? [...row.querySelectorAll("a")].indexOf(focused)
+              : -1;
+
+          row.innerHTML = "";
           for (const chip of chips) {
             const link = document.createElement("a");
             link.href = chip.href;
@@ -289,19 +388,26 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
             close.setAttribute("aria-hidden", "true");
             close.textContent = "×";
             link.append(close);
-            activeFilters.append(link);
+            row.append(link);
           }
-          if (chips.length) {
+          if (chips.length && !row.hasAttribute("data-without-clear")) {
             const clear = document.createElement("a");
             clear.href = hrefForClearedFilters(filters, pathPrefix);
             clear.className =
               "text-2xs font-medium text-ink-500 underline decoration-border underline-offset-2 hover:text-ink-900 dark:hover:text-ink-100";
             clear.setAttribute("aria-label", "Clear all active filters");
             clear.textContent = "Clear all";
-            activeFilters.append(clear);
+            row.append(clear);
           }
-          activeFilters.classList.toggle("hidden", chips.length === 0);
-        }
+          row.classList.toggle("hidden", chips.length === 0);
+
+          if (focusIndex >= 0) {
+            const links = row.querySelectorAll("a");
+            const next = focusIndexAfterRender(focusIndex, links.length);
+            if (next >= 0) links[next]?.focus({ preventScroll: true });
+            else focusFallback(row);
+          }
+        });
 
         // Mobile filter-drawer badge + its clear-all mirror the chips.
         const drawerCount = document.querySelector("[data-drawer-count]");
@@ -371,7 +477,9 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
           // A zero-count option can't narrow anything — dim and disable
           // it unless it's the currently selected value (which must stay
           // interactive so the user can un-select it).
-          const inert = count === 0 && !checked;
+          // The focused option is never disabled under the user; that
+          // would drop keyboard focus to <body>.
+          const inert = count === 0 && !checked && input !== document.activeElement;
           row?.classList.toggle("opacity-45", inert);
           if (input instanceof HTMLInputElement) input.disabled = inert;
         });
@@ -385,6 +493,7 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         if (recordsSettled) {
           renderFacetCounts();
           applyClientFilters();
+          setPending(false);
           return;
         }
         // Nothing to filter with yet. A plain view of this page is
@@ -392,10 +501,10 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         // asks for beyond that — a filter, a search, a sort — waits for
         // the index and the cards, and says so while it does.
         if (!isClientView()) return;
-        list.setAttribute("aria-busy", "true");
+        setPending(true);
         loadAll().then(() => {
-          list.removeAttribute("aria-busy");
-          renderAll();
+          setPending(false);
+          keepingFocus(renderAll);
         });
       }
 
@@ -410,20 +519,48 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
        */
       function adopt(url: string, mode: "push" | "replace") {
         const next = new URL(url, location.origin);
-        const samePath =
-          next.pathname.replace(/\/$/, "") === location.pathname.replace(/\/$/, "");
-        if (!next.search && (!samePath || (routePage || 1) > 1)) {
+        if (!canAdoptInPlace(next, location.pathname, routePage || 1)) {
           location.assign(next.toString());
           return;
         }
         const state = { grove: true, scrollY: window.scrollY };
-        if (mode === "push") history.pushState(state, "", next);
+        // Re-selecting the URL already on screen (the header's Browse
+        // link on an unfiltered page 1) must not add a Back step.
+        if (mode === "push" && next.href !== location.href) history.pushState(state, "", next);
         else history.replaceState(state, "", next);
         params = new URLSearchParams(next.search);
         filters = filtersFromSearchParams(params);
         sort = effectiveSort(filters);
-        renderAll();
+        // A chip, "Clear all" or the zero-results reset can drop the
+        // query. Keep the box in step, but never rewrite it while the
+        // user is typing in it.
+        if (searchInput instanceof HTMLInputElement && document.activeElement !== searchInput) {
+          searchInput.value = filters.q || "";
+        }
+        announceNext = true;
+        keepingFocus(renderAll);
       }
+
+      /** The current URL as the history session compares it. */
+      const here = () => `${location.pathname}${location.search}`;
+
+      // One history entry per filter session. A popover or the drawer
+      // opening starts a session. While it is open, changes replace the
+      // current entry. When the last surface closes, the starting URL is
+      // put back on this entry and the final URL is pushed once.
+      const session = new FilterHistorySession();
+      document.addEventListener("grove:filter-surface", (event) => {
+        const detail = (event as CustomEvent<{ surface: string; open: boolean }>).detail;
+        if (!detail?.surface) return;
+        if (detail.open) {
+          session.open(detail.surface, { url: here(), scrollY: window.scrollY });
+          return;
+        }
+        const commit = session.close(detail.surface, here());
+        if (!commit) return;
+        history.replaceState({ grove: true, scrollY: commit.start.scrollY }, "", commit.start.url);
+        history.pushState({ grove: true, scrollY: window.scrollY }, "", commit.end);
+      });
 
       // Search filters as you type. `replaceState` keeps a search
       // session out of the history stack — Back should return to the
@@ -434,7 +571,12 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         debounce = window.setTimeout(() => {
           const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "";
           adopt(hrefForFilters({ ...filters, q: query || undefined, page: 1 }, pathPrefix), "replace");
-          if (searchInput instanceof HTMLInputElement) searchInput.focus();
+          // Only reclaim focus when the re-render dropped it. If the
+          // user has already moved on (tabbed to a filter) focus stays
+          // where they put it.
+          if (searchInput instanceof HTMLInputElement && document.activeElement === document.body) {
+            searchInput.focus();
+          }
         }, 150);
       });
       searchClear?.addEventListener("click", () => {
@@ -456,17 +598,21 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         const url = (event as CustomEvent<{ url: string }>).detail?.url;
         if (!url) return;
         event.preventDefault();
-        adopt(url, "push");
+        // Inside an open popover or drawer, replace; the session pushes
+        // once on close. Outside one (the sort select), push.
+        adopt(url, session.modeForChange());
       });
 
       // Filtered navigation is a real step: Back returns to the
       // previous result set and its scroll position.
       //
-      // Only links that carry a query are adopted. Everything else that
-      // points at this list — `/{slug}/` from "Clear all" or the "1"
-      // pagination link, `/{slug}/page/2/`, the header's "Browse" nav —
-      // is a prerendered document and must actually navigate;
-      // swallowing those left page 2's records rendered under the
+      // Links that carry a query are adopted. A link to the bare list
+      // (`/{slug}/` from "Clear all", the last chip, or the "1"
+      // pagination link) is adopted only from page 1 of that list,
+      // where it is the document already on screen. That keeps focus and
+      // an open filter drawer in place. From `/{slug}/page/2/` it is a
+      // different prerendered document and must actually navigate.
+      // Swallowing it there left page 2's records rendered under the
       // page-1 URL. Hash links (the skip link) are never ours.
       document.addEventListener("click", (event) => {
         const link = (event.target as HTMLElement | null)?.closest("a");
@@ -476,8 +622,14 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         const url = new URL(link.href);
         if (url.hash) return;
         const isListUrl = url.pathname === `${pathPrefix}/` || url.pathname === pathPrefix;
-        if (!isListUrl || !url.search) return;
+        if (!isListUrl || !canAdoptInPlace(url, location.pathname, routePage || 1)) return;
         event.preventDefault();
+        // A chip removed inside the open drawer is part of that filter
+        // session. It replaces, and the page does not jump under the sheet.
+        if (session.active) {
+          adopt(url.toString(), "replace");
+          return;
+        }
         history.replaceState({ grove: true, scrollY: window.scrollY }, "");
         adopt(url.toString(), "push");
         window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
@@ -491,7 +643,11 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         document.querySelectorAll('select[name="sort"]').forEach((select) => {
           if (select instanceof HTMLSelectElement) select.value = sort;
         });
-        renderAll();
+        // Back/Forward with a popover or the drawer still open: this
+        // entry becomes where that session started.
+        session.rebase({ url: here(), scrollY: window.scrollY });
+        announceNext = true;
+        keepingFocus(renderAll);
         const state = event.state as { scrollY?: number } | null;
         if (typeof state?.scrollY === "number") {
           window.scrollTo({ top: state.scrollY, behavior: "instant" as ScrollBehavior });

@@ -10,10 +10,14 @@ import type { IndexFilters } from '@grove-dev/core';
  * pre-resolved from the taxonomy YAML, so the server render and the
  * client script share one label source.
  *
- * The form is a GET to the list page base, with each facet as a
- * repeated key. Empty values are dropped, so the URL stays clean.
+ * The URL is the list page base with each facet as a repeated key.
+ * Empty values are dropped, so the URL stays clean.
+ *
+ * Filters apply live. Each checkbox or radio change builds the new
+ * URL and asks the page to adopt it, and the popover stays open.
+ * There is no Apply step.
  */
-import { DIRECTORY_FILTER_KEYS, SORT_OPTIONS } from '@grove-dev/core';
+import { SORT_OPTIONS } from '@grove-dev/core';
 import FilterGroupMenu from './filter-group-menu.astro';
 
 interface FacetValue {
@@ -77,7 +81,13 @@ const groups = groupModels.map((group) => ({
 }));
 ---
 
-<div class:list={[layout && "flex flex-wrap items-center gap-2", className]} role="toolbar" aria-label="Filter items">
+<div
+  class:list={[layout && "flex flex-wrap items-center gap-2", className]}
+  role="toolbar"
+  aria-label="Filter items"
+  data-refine-panel
+  data-path-prefix={pathPrefix}
+>
     {groups.map((group) => <FilterGroupMenu {...group} />)}
 
     {!hide.includes("sort") && (
@@ -93,75 +103,97 @@ const groups = groupModels.map((group) => ({
     )}
 </div>
 
-<script is:inline define:vars={{ pathPrefix, filterKeys: DIRECTORY_FILTER_KEYS }}>
-  (() => {
-    const groups = document.querySelectorAll(".grove-filter");
-    const keys = filterKeys;
-    function closeAll(except) {
-      groups.forEach((group) => {
-        if (group === except) return;
-        const popover = group.querySelector(".grove-filter-popover");
-        const trigger = group.querySelector(".grove-filter-trigger");
-        if (popover && trigger) {
-          popover.hidden = true;
-          popover.classList.add("hidden");
-          trigger.setAttribute("aria-expanded", "false");
-        }
-      });
+<script>
+  import { DIRECTORY_FILTER_KEYS, isDirectoryFilterGroupKey } from "@grove-dev/core/directory";
+  import { hrefForGroupSelection } from "../../lib/live-filters.ts";
+
+  document.querySelectorAll<HTMLElement>("[data-refine-panel]").forEach((panel) => {
+    const pathPrefix = panel.dataset.pathPrefix || "/";
+    const groups = [...panel.querySelectorAll<HTMLElement>(".grove-filter")];
+    const parts = (group: HTMLElement) => ({
+      trigger: group.querySelector<HTMLButtonElement>(".grove-filter-trigger"),
+      popover: group.querySelector<HTMLElement>(".grove-filter-popover"),
+    });
+    const isOpen = (group: HTMLElement) =>
+      parts(group).trigger?.getAttribute("aria-expanded") === "true";
+
+    // Tell the page when a popover opens or closes. DirectoryIndexClient
+    // uses this to replace history entries while a popover is open and
+    // push one entry when it closes.
+    function setOpen(group: HTMLElement, open: boolean) {
+      const { trigger, popover } = parts(group);
+      if (!trigger || !popover || isOpen(group) === open) return;
+      popover.hidden = !open;
+      popover.classList.toggle("hidden", !open);
+      trigger.setAttribute("aria-expanded", String(open));
+      document.dispatchEvent(
+        new CustomEvent("grove:filter-surface", {
+          detail: { surface: `popover:${group.dataset.filterGroupKey}`, open },
+        }),
+      );
     }
+    function closeAll(except?: HTMLElement) {
+      for (const group of groups) if (group !== except) setOpen(group, false);
+    }
+
     // A directory controller (DirectoryIndexClient) can adopt the URL
-    // in place and re-render without a reload; it signals that by
-    // cancelling the event. Anywhere else — a taxonomy page, no
-    // controller on the page at all — this falls back to navigating,
-    // so the panel keeps working on its own.
-    function go(url) {
+    // in place and re-render without a reload. It signals that by
+    // cancelling the event. Anywhere else (a taxonomy page, or no
+    // controller on the page) this falls back to navigating, so the
+    // panel still works on its own.
+    function go(url: string) {
       const event = new CustomEvent("grove:navigate", { detail: { url }, cancelable: true });
       if (document.dispatchEvent(event)) location.assign(url);
     }
-    function navigate(group, values) {
-      const params = new URLSearchParams(location.search);
-      const key = keys[group.dataset.filterGroupKey];
-      params.delete(key);
-      params.delete("page");
-      values.forEach((value) => params.append(key, value));
-      go(params.toString() ? `${pathPrefix}?${params}` : pathPrefix);
+    function navigate(group: HTMLElement, values: string[]) {
+      const groupKey = group.dataset.filterGroupKey ?? "";
+      if (!isDirectoryFilterGroupKey(groupKey)) return;
+      go(hrefForGroupSelection(location.search, pathPrefix, DIRECTORY_FILTER_KEYS[groupKey], values));
     }
-    groups.forEach((group) => {
-      const trigger = group.querySelector(".grove-filter-trigger");
-      const popover = group.querySelector(".grove-filter-popover");
+    const checkedValues = (group: HTMLElement) =>
+      [...group.querySelectorAll<HTMLInputElement>(".grove-filter-input:checked")].map(
+        (input) => input.dataset.filterValue ?? "",
+      );
+
+    for (const group of groups) {
+      const { trigger, popover } = parts(group);
       trigger?.addEventListener("click", (event) => {
         event.stopPropagation();
-        const opening = trigger.getAttribute("aria-expanded") !== "true";
+        const opening = !isOpen(group);
         closeAll(opening ? group : undefined);
-        popover.hidden = !opening;
-        popover.classList.toggle("hidden", !opening);
-        trigger.setAttribute("aria-expanded", String(opening));
+        setOpen(group, opening);
       });
-      group.querySelector(".grove-filter-apply")?.addEventListener("click", () => {
-        navigate(group, [...group.querySelectorAll(".grove-filter-input:checked")].map((input) => input.dataset.filterValue));
+      // Live: every change applies at once and the popover stays open,
+      // so the next choice is one click away and the results behind it
+      // show what the last one did.
+      group.querySelectorAll<HTMLInputElement>(".grove-filter-input").forEach((input) => {
+        input.addEventListener("change", () => navigate(group, checkedValues(group)));
       });
-      group.querySelector(".grove-filter-clear")?.addEventListener("click", () => navigate(group, []));
-      if (group.dataset.filterSingle === "true") {
-        group.querySelectorAll(".grove-filter-input").forEach((input) => input.addEventListener("change", () => navigate(group, [input.dataset.filterValue])));
-      }
+      group.querySelector(".grove-filter-clear")?.addEventListener("click", () => {
+        navigate(group, []);
+        // The Clear button hides once its group is empty. Keep keyboard
+        // focus in the popover rather than letting it drop to <body>.
+        group.querySelector<HTMLInputElement>(".grove-filter-input:not(:disabled)")?.focus();
+      });
       popover?.addEventListener("click", (event) => event.stopPropagation());
-    });
+    }
     document.addEventListener("click", () => closeAll());
     document.addEventListener("keydown", (event) => {
       if (event.key !== "Escape") return;
-      // Restore focus to the trigger whose popover was open so
-      // keyboard users don't lose their place.
-      const openGroup = [...groups].find((group) =>
-        group.querySelector('.grove-filter-trigger[aria-expanded="true"]'),
-      );
+      const openGroup = groups.find(isOpen);
+      if (!openGroup) return;
+      // Escape closes the popover only. Inside the mobile drawer it
+      // must not also close the drawer, so the default is cancelled.
+      event.preventDefault();
       closeAll();
-      openGroup?.querySelector(".grove-filter-trigger")?.focus();
+      // Put focus back on the trigger so keyboard users keep their place.
+      parts(openGroup).trigger?.focus();
     });
-    document.querySelector('select[name="sort"]')?.addEventListener("change", (event) => {
+    document.querySelector<HTMLSelectElement>('select[name="sort"]')?.addEventListener("change", (event) => {
       const params = new URLSearchParams(location.search);
-      params.set("sort", event.target.value);
+      params.set("sort", (event.target as HTMLSelectElement).value);
       params.delete("page");
       go(params.toString() ? `${pathPrefix}?${params}` : pathPrefix);
     });
-  })();
+  });
 </script>

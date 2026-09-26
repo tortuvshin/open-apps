@@ -1,5 +1,5 @@
 ---
-import { buttonClass, filterTriggerClass } from '../../lib/classnames.ts';
+import { filterTriggerClass } from '../../lib/classnames.ts';
 import FilterOptions from './filter-options.astro';
 
 interface FacetValue {
@@ -44,15 +44,12 @@ const group = Astro.props;
     hidden
   >
     <FilterOptions filterKey={group.filterKey} options={group.options} initial={group.initial} single={group.single} />
-    {/* Single-select groups navigate on change, so Apply would be a
-        dead affordance — they keep only Clear, and the whole footer
-        hides itself while Clear is hidden (the client script toggles
-        Clear's `hidden` class from the live URL state). */}
+    {/* Every change applies the moment it happens (see RefinePanel), so
+        there is no Apply button. The footer only holds "Clear", and it
+        hides itself while Clear is hidden. The client script toggles
+        Clear's `hidden` class from the live URL state. */}
     <div
-      class:list={[
-        "mt-1 flex items-center justify-between border-t border-ink-100 px-2 pt-1.5 dark:border-ink-900",
-        group.single && "has-[.grove-filter-clear.hidden]:hidden",
-      ]}
+      class="mt-1 flex items-center justify-between border-t border-ink-100 px-2 pt-1.5 has-[.grove-filter-clear.hidden]:hidden dark:border-ink-900"
     >
       <button
         type="button"
@@ -61,9 +58,6 @@ const group = Astro.props;
           !group.active && "hidden",
         ]}
       >Clear {group.label.toLowerCase()}</button>
-      {!group.single && (
-        <button type="button" class={buttonClass("primary", "sm", "grove-filter-apply ml-auto px-2.5 text-2xs")}>Apply</button>
-      )}
     </div>
   </div>
 </div>
