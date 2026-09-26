@@ -3,17 +3,18 @@
   "slug": "humla",
   "repoUrl": "https://github.com/michaelwilhelmsen/humla",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T08:56:12.744Z",
+  "lastSuccessAt": "2026-09-26T09:40:24.314Z",
   "partialFailures": [],
+  "sourceDescription": "Open-source AI meeting notes for Mac. Records mic + system audio with no bot, transcribes on-device or via OpenAI / Deepgram / Groq, identifies speakers offline, and writes summaries that fuse your notes with the transcript. Ask your notes and get cited answers. Tauri 2 + Rust + Swift.",
   "github": {
     "repository": {
       "full_name": "michaelwilhelmsen/humla",
-      "stargazers_count": 291,
+      "stargazers_count": 290,
       "forks_count": 34,
       "open_issues_count": 19,
       "language": "Rust",
       "pushed_at": "2026-09-25T17:15:56Z",
-      "updated_at": "2026-09-25T23:32:36Z",
+      "updated_at": "2026-09-26T09:20:58Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +48,7 @@
     "latestReleaseAt": "2026-09-24T18:54:24Z",
     "homepage": "https://humla.team",
     "sync": {
-      "syncedAt": "2026-09-26T08:56:12.744Z",
+      "syncedAt": "2026-09-26T09:40:24.314Z",
       "source": "api"
     }
   },
