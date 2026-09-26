@@ -3,8 +3,14 @@
   "slug": "blink-comparison",
   "repoUrl": "https://github.com/proninyaroslav/blink-comparison",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:15.250Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:57.451Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:57.451Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Simplifies comparing photos of tamper-evident seals and patterns using your eyes",
   "github": {
     "repository": {
@@ -165,7 +171,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:15.250Z",
+      "syncedAt": "2026-09-26T17:37:57.451Z",
       "source": "api"
     },
     "languages": {
@@ -190,8 +196,178 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/org.proninyaroslav.blink_comparison/",
+        "facts": {
+          "appId": "org.proninyaroslav.blink_comparison",
+          "suggestedVersionCode": 5073,
+          "evidence": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/org.proninyaroslav.blink_comparison",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/proninyaroslav/blink-comparison/releases/latest",
+        "facts": {
+          "tag": "1.2.1",
+          "assets": [
+            "Blink_Comparison-1.2.1-all.apk",
+            "Blink_Comparison-1.2.1-arm64-v8a.apk",
+            "Blink_Comparison-1.2.1-armeabi-v7a.apk",
+            "Blink_Comparison-1.2.1-x86_64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/proninyaroslav/blink-comparison/releases/tag/1.2.1",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "ed8703995810a59f6d2f3723f2b8540ad11c0b77",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 35672,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+        "blobSha": "57cc8ea4cd5e94c377231efe1f31fb117c992983",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1528668,
+        "width": 1187,
+        "height": 2513,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s1.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+        "blobSha": "fcfe1e8c73e68b4f980d1d92f931d45938e1048a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1520754,
+        "width": 1187,
+        "height": 2513,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s2.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+        "blobSha": "7d0546a694fe95228aea92a2c3e74ab8edad1289",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 3062900,
+        "width": 1187,
+        "height": 2513,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s3.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+        "blobSha": "626cdc731e162486ae923463783cbc58dc55d6ba",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 2504766,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s4.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+        "blobSha": "96bd7548fa40d517c83ca0811790fa9ca0c39334",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1636420,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s5.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+        "blobSha": "563a20e3d0c241326729bc3474346fa1ae4ad020",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1978437,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s6.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+        "blobSha": "8d47405fc6161abfdd393a67cfdd95dcbfae5a61",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 660449,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s7.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      },
+      {
+        "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+        "blobSha": "cb45d594da1eb507e386e5e63045295295e6d52a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 646114,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/proninyaroslav/blink-comparison/blob/3d324901ba0bbd2180a2c6e897f0ef0387cc3b45/fastlane/metadata/android/en-US/images/phoneScreenshots/s8.png",
+          "fetchedAt": "2026-09-26T17:37:54.446Z"
+        }
+      }
     ]
   }
 }

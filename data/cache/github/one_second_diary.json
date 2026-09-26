@@ -3,8 +3,14 @@
   "slug": "one_second_diary",
   "repoUrl": "https://github.com/KyleKun/one_second_diary",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:34.114Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:07.357Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:07.357Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Minimalist video diary app.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:34.114Z",
+      "syncedAt": "2026-09-26T17:40:07.357Z",
       "source": "api"
     },
     "repository": {
@@ -23,7 +29,7 @@
       "open_issues_count": 29,
       "language": "Dart",
       "pushed_at": "2026-09-25T20:51:46Z",
-      "updated_at": "2026-09-26T06:31:14Z",
+      "updated_at": "2026-09-26T13:23:40Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,9 +55,110 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/KyleKun/one_second_diary/releases/latest",
+        "facts": {
+          "tag": "v1.7.0",
+          "assets": [
+            "one-second-diary-v1.7.0-arm64-v8a-release.apk",
+            "one-second-diary-v1.7.0-armeabi-v7a-release.apk",
+            "one-second-diary-v1.7.0-universal-release.apk",
+            "one-second-diary-v1.7.0-x86_64-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/KyleKun/one_second_diary/releases/tag/v1.7.0",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "279ba0ec79c677c2528845111c038dd0bdd9d90e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 44099,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "blobSha": "dbb49f2d69484b6c1717180ea3324967d9491791",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 128981,
+        "width": 1080,
+        "height": 2280,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      },
+      {
+        "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "blobSha": "68ea1f06e070706b59ff37f6c98959d41936032c",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1618092,
+        "width": 1080,
+        "height": 2280,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      },
+      {
+        "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "blobSha": "f4ff8cbb82bc128871b38d83072d1c60a22295ef",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 975017,
+        "width": 1080,
+        "height": 2280,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      },
+      {
+        "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "blobSha": "5160f5abfcac842742deccf6cd133c7491a988d3",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 95142,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/KyleKun/one_second_diary/blob/a1e8e72986d9b787deb93b4afd0625d657833444/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+          "fetchedAt": "2026-09-26T17:40:04.758Z"
+        }
+      }
     ]
   }
 }

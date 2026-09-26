@@ -3,8 +3,14 @@
   "slug": "berty",
   "repoUrl": "https://github.com/berty/berty",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:14.530Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:52.254Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:52.254Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network",
   "github": {
     "repository": {
@@ -217,7 +223,7 @@
       "openPullRequests": 23
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:14.530Z",
+      "syncedAt": "2026-09-26T17:37:52.254Z",
       "source": "api"
     },
     "html": {
@@ -237,10 +243,44 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/berty/berty/blob/4fa7e5b4e6a515162743a507543af92d8b1090a4/js/web/public/logo512.png",
+        "path": "js/web/public/logo512.png",
+        "blobSha": "bbe57143a64759f43633e6dfcd463c1f8efa168d",
+        "format": "png",
+        "bytes": 54946,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/berty/berty/blob/4fa7e5b4e6a515162743a507543af92d8b1090a4/js/web/public/manifest.json",
+          "fetchedAt": "2026-09-26T17:37:49.390Z"
+        }
+      },
+      {
+        "url": "https://github.com/berty/berty/blob/4fa7e5b4e6a515162743a507543af92d8b1090a4/js/web/public/logo192.png",
+        "path": "js/web/public/logo192.png",
+        "blobSha": "16992a19323cf5de3b317c5629dcb3184a63feb7",
+        "format": "png",
+        "bytes": 11777,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/berty/berty/blob/4fa7e5b4e6a515162743a507543af92d8b1090a4/js/web/public/logo192.png",
+          "fetchedAt": "2026-09-26T17:37:49.390Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

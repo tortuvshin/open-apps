@@ -3,8 +3,14 @@
   "slug": "peercoin_flutter",
   "repoUrl": "https://github.com/peercoin/peercoin_flutter",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:36.215Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:24.211Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:24.211Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Light Peercoin wallet written in Flutter, deployable on Android, iOS and Web.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:36.215Z",
+      "syncedAt": "2026-09-26T17:40:24.211Z",
       "source": "api"
     },
     "repository": {
@@ -54,9 +60,174 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.coinerella.peercoin/",
+        "facts": {
+          "appId": "com.coinerella.peercoin",
+          "suggestedVersionCode": 160,
+          "evidence": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.coinerella.peercoin",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "f46b23e0ef8e6f25d620a66dd60e141680415dae",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 11767,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "ce7a0921a67ae13ddf6a82e8e2f52b954dd621cc",
+        "format": "png",
+        "bytes": 11509,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "bcc13e899c94492644b1f300b255976786d6238d",
+        "format": "png",
+        "bytes": 13240,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/web/icons/Icon-512.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "blobSha": "30e5de43c1270167eccad88f9eef6f0a43fdcee7",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 83953,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "blobSha": "193246ade3116f116d1fd0876a5c78abb74306d7",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 194179,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "blobSha": "ecb9523093577b376eb1d4528400fd0f8e05745c",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 86994,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "blobSha": "10505e5b915a3e69276f2f3dfe7baa8899da180e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 112140,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+        "blobSha": "f167b4da4082b1adfb7d20b80efd4949ab5734ce",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 125480,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+        "blobSha": "57effe98ee2afa7385415fccee6e36143c9ca87f",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 114697,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      },
+      {
+        "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+        "blobSha": "d9a25a692396e31e0a59b28d8469e62521bec9a5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 85358,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/peercoin/peercoin_flutter/blob/402b4a740ef725dc38273cd893284fd2ce9d3ff7/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+          "fetchedAt": "2026-09-26T17:40:21.536Z"
+        }
+      }
     ]
   }
 }

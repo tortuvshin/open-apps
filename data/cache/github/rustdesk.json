@@ -3,8 +3,14 @@
   "slug": "rustdesk",
   "repoUrl": "https://github.com/rustdesk/rustdesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:39.035Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:41.251Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:41.251Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:39.035Z",
+      "syncedAt": "2026-09-26T17:40:41.251Z",
       "source": "api"
     },
     "repository": {
       "full_name": "rustdesk/rustdesk",
-      "stargazers_count": 124559,
-      "forks_count": 19272,
-      "open_issues_count": 161,
+      "stargazers_count": 124581,
+      "forks_count": 19279,
+      "open_issues_count": 164,
       "language": "Rust",
       "pushed_at": "2026-09-26T07:08:52Z",
-      "updated_at": "2026-09-26T09:30:43Z",
+      "updated_at": "2026-09-26T17:36:00Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -65,10 +71,228 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.carriez.flutter_hbb/",
+        "facts": {
+          "appId": "com.carriez.flutter_hbb",
+          "suggestedVersionCode": 104090003,
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flutter/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.carriez.flutter_hbb",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/com.rustdesk.RustDesk",
+        "facts": {
+          "appId": "com.rustdesk.RustDesk",
+          "match": "metainfo",
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rustdesk/rustdesk/releases/latest",
+        "facts": {
+          "tag": "1.4.9",
+          "assets": [
+            "rustdesk-1.4.9-aarch64-signed.apk",
+            "rustdesk-1.4.9-armv7-signed.apk",
+            "rustdesk-1.4.9-universal-signed.apk",
+            "rustdesk-1.4.9-x86_64-signed.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rustdesk/rustdesk/releases/latest",
+        "facts": {
+          "tag": "1.4.9",
+          "assets": [
+            "rustdesk-1.4.9-0.aarch64-suse.rpm",
+            "rustdesk-1.4.9-0.aarch64.rpm",
+            "rustdesk-1.4.9-0.x86_64-suse.rpm",
+            "rustdesk-1.4.9-0.x86_64.rpm",
+            "rustdesk-1.4.9-aarch64.AppImage",
+            "rustdesk-1.4.9-aarch64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rustdesk/rustdesk/releases/latest",
+        "facts": {
+          "tag": "1.4.9",
+          "assets": [
+            "rustdesk-1.4.9-aarch64.dmg",
+            "rustdesk-1.4.9-x86_64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rustdesk/rustdesk/releases/latest",
+        "facts": {
+          "tag": "1.4.9",
+          "assets": [
+            "rustdesk-1.4.9-aarch64.exe",
+            "rustdesk-1.4.9-aarch64.msi",
+            "rustdesk-1.4.9-x86-sciter.exe",
+            "rustdesk-1.4.9-x86_64.exe",
+            "rustdesk-1.4.9-x86_64.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.9",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "3668c7106125ac99104bc125a94186fc1487e58c",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 6312,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flutter/assets/icon.svg",
+        "path": "flutter/assets/icon.svg",
+        "blobSha": "4d43f8bcdd38dd141cb95f8387f1480f29957125",
+        "format": "svg",
+        "bytes": 1177,
+        "width": 26,
+        "height": 26,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flutter/assets/icon.svg",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "blobSha": "9b0125f217c3b540e50bad3fbcd3e6616912285d",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 26922,
+        "width": 1242,
+        "height": 2688,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "blobSha": "caffe504bfca6c06815061d9a3ce343c0b9bb68d",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 325660,
+        "width": 1242,
+        "height": 2688,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "blobSha": "05b6afabbd9467461f902e35b481229c674f20c4",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 428945,
+        "width": 1242,
+        "height": 2688,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "blobSha": "39a15ba7712e988b39e22a74e29b71ad13408d34",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 126986,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      },
+      {
+        "url": "https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png",
+        "format": "png",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flatpak/com.rustdesk.RustDesk.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:40:40.069Z"
+        }
+      }
     ]
   }
 }

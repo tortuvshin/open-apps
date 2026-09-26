@@ -3,8 +3,14 @@
   "slug": "flutter-games",
   "repoUrl": "https://github.com/searchy2/FlutterGames",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:21.050Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:36.726Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:36.726Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Flutter app for purchasing and renting games. ",
   "github": {
     "repository": {
@@ -168,7 +174,7 @@
       "contributorsKnown": 1
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:21.050Z",
+      "syncedAt": "2026-09-26T17:38:36.726Z",
       "source": "api"
     },
     "languages": {
@@ -197,8 +203,13 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

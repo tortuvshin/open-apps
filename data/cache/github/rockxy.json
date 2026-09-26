@@ -3,8 +3,14 @@
   "slug": "rockxy",
   "repoUrl": "https://github.com/RockxyApp/Rockxy",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:38.315Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:37.313Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:37.313Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:38.315Z",
+      "syncedAt": "2026-09-26T17:40:37.313Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RockxyApp/Rockxy",
-      "stargazers_count": 1385,
+      "stargazers_count": 1386,
       "forks_count": 78,
       "open_issues_count": 98,
       "language": "Swift",
       "pushed_at": "2026-09-25T06:58:55Z",
-      "updated_at": "2026-09-26T06:14:58Z",
+      "updated_at": "2026-09-26T15:07:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,10 +72,33 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/RockxyApp/Rockxy/releases/latest",
+        "facts": {
+          "tag": "v0.40.0",
+          "assets": [
+            "Rockxy-0.40.0-61.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/RockxyApp/Rockxy/releases/tag/v0.40.0",
+          "fetchedAt": "2026-09-26T17:40:35.766Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

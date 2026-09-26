@@ -3,8 +3,14 @@
   "slug": "utm",
   "repoUrl": "https://github.com/utmapp/UTM",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:44.736Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:17.492Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:17.492Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Virtual machines for iOS and macOS",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/utmapp/UTM/releases{/id}",
       "deployments_url": "https://api.github.com/repos/utmapp/UTM/deployments",
       "created_at": "2019-04-12T16:09:24Z",
-      "updated_at": "2026-09-26T09:40:31Z",
+      "updated_at": "2026-09-26T17:41:07Z",
       "pushed_at": "2026-09-25T01:53:47Z",
       "git_url": "git://github.com/utmapp/UTM.git",
       "ssh_url": "git@github.com:utmapp/UTM.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/utmapp/UTM",
       "homepage": "https://getutm.app",
       "size": 50567,
-      "stargazers_count": 35642,
+      "stargazers_count": 35648,
       "watchers_count": 34747,
       "language": "Swift",
       "has_issues": true,
@@ -92,7 +98,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1831,
+      "forks_count": 1832,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -156,7 +162,7 @@
       "subscribers_count": 381
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:44.736Z",
+      "syncedAt": "2026-09-26T17:41:17.492Z",
       "source": "api"
     },
     "languages": {
@@ -214,10 +220,72 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/utmapp/UTM/releases/latest",
+        "facts": {
+          "tag": "v4.7.5",
+          "assets": [
+            "UTM-HV.ipa",
+            "UTM-Remote-visionOS.ipa",
+            "UTM-Remote.ipa",
+            "UTM-SE-visionOS.ipa",
+            "UTM-SE.ipa",
+            "UTM-visionOS.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/utmapp/UTM/releases/tag/v4.7.5",
+          "fetchedAt": "2026-09-26T17:41:15.971Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/utmapp/UTM/releases/latest",
+        "facts": {
+          "tag": "v4.7.5",
+          "assets": [
+            "UTM.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/utmapp/UTM/releases/tag/v4.7.5",
+          "fetchedAt": "2026-09-26T17:41:15.971Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/utmapp/UTM/releases/latest",
+        "facts": {
+          "tag": "v4.7.5",
+          "assets": [
+            "UTM.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/utmapp/UTM/releases/tag/v4.7.5",
+          "fetchedAt": "2026-09-26T17:41:15.971Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

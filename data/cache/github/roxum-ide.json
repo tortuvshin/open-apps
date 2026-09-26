@@ -3,8 +3,14 @@
   "slug": "roxum-ide",
   "repoUrl": "https://github.com/heckmon/roxum-ide",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:38.685Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:39.738Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:39.738Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A minimal and powerful IDE/Code editor for Android",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:38.685Z",
+      "syncedAt": "2026-09-26T17:40:39.738Z",
       "source": "api"
     },
     "repository": {
       "full_name": "heckmon/roxum-ide",
-      "stargazers_count": 622,
+      "stargazers_count": 623,
       "forks_count": 54,
       "open_issues_count": 15,
       "language": "Dart",
       "pushed_at": "2026-09-20T15:12:59Z",
-      "updated_at": "2026-09-26T06:04:45Z",
+      "updated_at": "2026-09-26T16:40:10Z",
       "archived": false,
       "disabled": false,
       "default_branch": "playstore-version",
@@ -51,10 +57,48 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/heckmon/roxum-ide/releases/latest",
+        "facts": {
+          "tag": "2.7.0",
+          "assets": [
+            "roxum-full.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/heckmon/roxum-ide/releases/tag/2.7.0",
+          "fetchedAt": "2026-09-26T17:40:37.584Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/heckmon/roxum-ide/blob/e6bd6269ec133469562b5022e4d6c201242f27ba/assets/icons/app-icon.png",
+        "path": "assets/icons/app-icon.png",
+        "blobSha": "6d9ee98cb20943b9aac7022e5ea2dc8e30167464",
+        "format": "png",
+        "bytes": 58412,
+        "width": 2000,
+        "height": 2000,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/heckmon/roxum-ide/blob/e6bd6269ec133469562b5022e4d6c201242f27ba/assets/icons/app-icon.png",
+          "fetchedAt": "2026-09-26T17:40:37.584Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

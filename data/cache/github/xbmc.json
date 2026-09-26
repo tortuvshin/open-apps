@@ -3,8 +3,14 @@
   "slug": "xbmc",
   "repoUrl": "https://github.com/xbmc/xbmc",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:46.357Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:30.371Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:30.371Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/xbmc/xbmc/releases{/id}",
       "deployments_url": "https://api.github.com/repos/xbmc/xbmc/deployments",
       "created_at": "2011-01-03T21:18:51Z",
-      "updated_at": "2026-09-26T08:13:24Z",
+      "updated_at": "2026-09-26T17:36:05Z",
       "pushed_at": "2026-09-26T08:13:18Z",
       "git_url": "git://github.com/xbmc/xbmc.git",
       "ssh_url": "git@github.com:xbmc/xbmc.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/xbmc/xbmc",
       "homepage": "https://kodi.tv/",
       "size": 1650209,
-      "stargazers_count": 21250,
+      "stargazers_count": 21252,
       "watchers_count": 20987,
       "language": "C++",
       "has_issues": true,
@@ -92,11 +98,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6605,
+      "forks_count": 6606,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 427,
+      "open_issues_count": 429,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -195,7 +201,7 @@
       "contributorsKnown": 1272
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:46.357Z",
+      "syncedAt": "2026-09-26T17:41:30.371Z",
       "source": "api"
     },
     "languages": {
@@ -238,10 +244,131 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/media/icon256x256.png",
+        "path": "media/icon256x256.png",
+        "blobSha": "58a47763249c2d47bb70632287796353faac3e7e",
+        "format": "png",
+        "bytes": 23461,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/media/icon256x256.png",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/packaging/media/icon128x128.png",
+        "path": "tools/Linux/packaging/media/icon128x128.png",
+        "blobSha": "8a25c4a16ec428406dc22bdaa8d4e3456fa0fd90",
+        "format": "png",
+        "bytes": 3825,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/packaging/media/icon128x128.png",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/packaging/media/icon256x256.png",
+        "path": "tools/Linux/packaging/media/icon256x256.png",
+        "blobSha": "cc2ee49f14b71088cccff778bf0237f254360d27",
+        "format": "png",
+        "bytes": 6729,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/packaging/media/icon256x256.png",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-addons.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-epg.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-music-info.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-recently-added.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-tvshow.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-video-info.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-videolibrary.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      },
+      {
+        "url": "https://mirrors.kodi.tv/screenshots/kodi-weather.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/xbmc/xbmc/blob/d65a18164d176ea4d88f7e45bc5b34e69c357d0f/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-09-26T17:41:28.242Z"
+        }
+      }
     ]
   }
 }

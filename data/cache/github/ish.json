@@ -3,8 +3,14 @@
   "slug": "ish",
   "repoUrl": "https://github.com/ish-app/ish",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:25.973Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:09.864Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:09.864Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Linux shell for iOS",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/ish-app/ish/releases{/id}",
       "deployments_url": "https://api.github.com/repos/ish-app/ish/deployments",
       "created_at": "2017-05-05T00:10:35Z",
-      "updated_at": "2026-09-26T06:16:04Z",
+      "updated_at": "2026-09-26T10:59:43Z",
       "pushed_at": "2026-09-20T20:50:36Z",
       "git_url": "git://github.com/ish-app/ish.git",
       "ssh_url": "git@github.com:ish-app/ish.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/ish-app/ish",
       "homepage": "https://ish.app",
       "size": 5587,
-      "stargazers_count": 20511,
+      "stargazers_count": 20510,
       "watchers_count": 20173,
       "language": "C",
       "has_issues": true,
@@ -92,7 +98,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1538,
+      "forks_count": 1539,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -151,7 +157,7 @@
       "subscribers_count": 578
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:25.973Z",
+      "syncedAt": "2026-09-26T17:39:09.864Z",
       "source": "api"
     },
     "languages": {
@@ -218,8 +224,60 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/ish-app/ish/releases/latest",
+        "facts": {
+          "tag": "builds/494",
+          "assets": [
+            "iSH.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/ish-app/ish/releases/tag/builds/494",
+          "fetchedAt": "2026-09-26T17:39:08.076Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/ish-app/ish/blob/83348361fe65311f6e87ad2e1cbb0ac38d123f69/app/Icons/icon.png",
+        "path": "app/Icons/icon.png",
+        "blobSha": "4638322d671d0fea17bc3b2328abd5ecd62110ce",
+        "format": "png",
+        "bytes": 2395,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ish-app/ish/blob/83348361fe65311f6e87ad2e1cbb0ac38d123f69/app/Icons/icon.png",
+          "fetchedAt": "2026-09-26T17:39:08.076Z"
+        }
+      },
+      {
+        "url": "https://github.com/ish-app/ish/blob/83348361fe65311f6e87ad2e1cbb0ac38d123f69/app/Icons/icon1337.png",
+        "path": "app/Icons/icon1337.png",
+        "blobSha": "6f7f16e9a2c05e41ed540028cb07c6bd833a1ef9",
+        "format": "png",
+        "bytes": 5774,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ish-app/ish/blob/83348361fe65311f6e87ad2e1cbb0ac38d123f69/app/Icons/icon1337.png",
+          "fetchedAt": "2026-09-26T17:39:08.076Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

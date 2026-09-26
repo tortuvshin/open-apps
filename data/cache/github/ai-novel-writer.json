@@ -3,18 +3,24 @@
   "slug": "ai-novel-writer",
   "repoUrl": "https://github.com/EthanYoQ/AI-Novel-Writer",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:10.586Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:25.664Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:25.664Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    }
+  ],
   "sourceDescription": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.",
   "github": {
     "repository": {
       "full_name": "EthanYoQ/AI-Novel-Writer",
-      "stargazers_count": 1122,
+      "stargazers_count": 1130,
       "forks_count": 139,
       "open_issues_count": 24,
       "language": "TypeScript",
       "pushed_at": "2026-09-26T03:43:56Z",
-      "updated_at": "2026-09-26T08:55:46Z",
+      "updated_at": "2026-09-26T16:42:40Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -41,7 +47,7 @@
     },
     "latestReleaseAt": "2026-09-08T04:35:10Z",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:10.586Z",
+      "syncedAt": "2026-09-26T17:37:25.664Z",
       "source": "api"
     }
   },
@@ -54,10 +60,51 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/latest",
+        "facts": {
+          "tag": "v1.1.0",
+          "assets": [
+            "ai-novel-writer-mac-arm64-1.1.0-installer.dmg",
+            "ai-novel-writer-mac-x64-1.1.0-installer.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.1.0",
+          "fetchedAt": "2026-09-26T17:37:23.972Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/latest",
+        "facts": {
+          "tag": "v1.1.0",
+          "assets": [
+            "ai-novel-writer-setup-1.1.0.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.1.0",
+          "fetchedAt": "2026-09-26T17:37:23.972Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

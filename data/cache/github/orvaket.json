@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "slug": "quotatempo",
-  "repoUrl": "https://github.com/Ishikawa-Hidekazu/quota-tempo",
+  "slug": "orvaket",
+  "repoUrl": "https://github.com/Akam1123/orvaket",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T17:40:31.331Z",
+  "lastSuccessAt": "2026-09-26T17:40:21.138Z",
   "partialFailures": [
     {
-      "at": "2026-09-26T17:40:31.331Z",
+      "at": "2026-09-26T17:40:21.138Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Local-first macOS menu bar app to track and pace Codex and Claude weekly AI usage.",
+  "sourceDescription": "Orvaket — free local-first accounts receivable follow-up workspace",
   "github": {
     "repository": {
-      "full_name": "Ishikawa-Hidekazu/quota-tempo",
-      "stargazers_count": 1,
+      "full_name": "Akam1123/orvaket",
+      "stargazers_count": 0,
       "forks_count": 0,
-      "open_issues_count": 2,
-      "language": "Swift",
-      "pushed_at": "2026-09-26T12:45:39Z",
-      "updated_at": "2026-09-26T00:47:20Z",
+      "open_issues_count": 6,
+      "language": "HTML",
+      "pushed_at": "2026-09-26T17:37:13Z",
+      "updated_at": "2026-09-26T17:37:17Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -29,23 +29,17 @@
         "name": "MIT"
       },
       "topics": [
-        "ai-tools",
-        "capacity-planning",
-        "claude",
-        "codex",
+        "accounts-receivable",
+        "csv",
+        "invoice-management",
         "local-first",
-        "macos",
-        "macos-app",
-        "menu-bar",
-        "privacy",
-        "swift",
-        "usage-monitor"
+        "open-source"
       ]
     },
-    "latestReleaseAt": "2026-09-23T11:44:10Z",
-    "homepage": "https://ishikawa.co/en/products/quotatempo/",
+    "latestReleaseAt": "2026-09-26T17:10:40Z",
+    "homepage": "https://orvaket.pages.dev/",
     "sync": {
-      "syncedAt": "2026-09-26T17:40:31.331Z",
+      "syncedAt": "2026-09-26T17:40:21.138Z",
       "source": "api"
     }
   },

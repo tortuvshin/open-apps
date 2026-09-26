@@ -3,17 +3,23 @@
   "slug": "authier",
   "repoUrl": "https://github.com/authier-pm/authier",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:13.901Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:46.654Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:46.654Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open-source password manager and TOTP vault for browsers and the web",
   "github": {
     "repository": {
       "full_name": "authier-pm/authier",
       "stargazers_count": 21,
       "forks_count": 2,
-      "open_issues_count": 50,
+      "open_issues_count": 51,
       "language": "TypeScript",
-      "pushed_at": "2026-09-22T19:37:06Z",
+      "pushed_at": "2026-09-26T16:09:57Z",
       "updated_at": "2026-09-22T19:37:11Z",
       "archived": false,
       "disabled": false,
@@ -48,7 +54,7 @@
     "latestReleaseAt": "2026-09-22T16:57:41Z",
     "homepage": "https://www.authier.pm/",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:13.901Z",
+      "syncedAt": "2026-09-26T17:37:46.654Z",
       "source": "api"
     }
   },
@@ -61,9 +67,57 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/brand/icon-512.png",
+        "path": "landing-page/public/brand/icon-512.png",
+        "blobSha": "685f0de814331c446c11d2e849abaee1d4043b1f",
+        "format": "png",
+        "bytes": 30323,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/site.webmanifest",
+          "fetchedAt": "2026-09-26T17:37:44.061Z"
+        }
+      },
+      {
+        "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/brand/authier-logo.png",
+        "path": "landing-page/public/brand/authier-logo.png",
+        "blobSha": "179039787548b777e2b784cf73a95daed26d1ccc",
+        "format": "png",
+        "bytes": 105816,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/brand/authier-logo.png",
+          "fetchedAt": "2026-09-26T17:37:44.061Z"
+        }
+      },
+      {
+        "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/brand/icon-192.png",
+        "path": "landing-page/public/brand/icon-192.png",
+        "blobSha": "4021cd8687391db46064d8e9a6b2f3bbd741df59",
+        "format": "png",
+        "bytes": 9396,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/authier-pm/authier/blob/244e8a9689f8784d9819e3de2ce86535042f0861/landing-page/public/brand/icon-192.png",
+          "fetchedAt": "2026-09-26T17:37:44.061Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

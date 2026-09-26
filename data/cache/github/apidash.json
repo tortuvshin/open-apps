@@ -3,15 +3,21 @@
   "slug": "apidash",
   "repoUrl": "https://github.com/foss42/apidash",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:12.122Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:35.279Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:35.279Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "API Dash is a beautiful AI-powered open-source cross-platform (Desktop & Mobile) API Client built using Flutter which can help you easily create & customize your HTTP & GraphQL API requests, visually inspect responses and generate API integration code. A lightweight alternative to postman/insomnia.",
   "github": {
     "repository": {
       "full_name": "foss42/apidash",
       "stargazers_count": 2913,
-      "forks_count": 1007,
-      "open_issues_count": 208,
+      "forks_count": 1008,
+      "open_issues_count": 206,
       "language": "Dart",
       "pushed_at": "2026-09-21T20:21:34Z",
       "updated_at": "2026-09-26T07:11:05Z",
@@ -47,7 +53,7 @@
     "latestReleaseAt": "2023-11-29T12:07:18Z",
     "homepage": "https://apidash.dev",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:12.122Z",
+      "syncedAt": "2026-09-26T17:37:35.279Z",
       "source": "api"
     }
   },
@@ -60,9 +66,69 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/foss42/apidash/releases/latest",
+        "facts": {
+          "tag": "v0.3.0",
+          "assets": [
+            "apidash-linux-aarch64.rpm",
+            "apidash-linux-amd64.deb",
+            "apidash-linux-arm64.deb",
+            "apidash-linux-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/foss42/apidash/releases/tag/v0.3.0",
+          "fetchedAt": "2026-09-26T17:37:33.545Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/foss42/apidash/releases/latest",
+        "facts": {
+          "tag": "v0.3.0",
+          "assets": [
+            "apidash-macos.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/foss42/apidash/releases/tag/v0.3.0",
+          "fetchedAt": "2026-09-26T17:37:33.545Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/foss42/apidash/releases/latest",
+        "facts": {
+          "tag": "v0.3.0",
+          "assets": [
+            "apidash-windows-x86_64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/foss42/apidash/releases/tag/v0.3.0",
+          "fetchedAt": "2026-09-26T17:37:33.545Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "slug": "codex-quota-overlay",
+  "repoUrl": "https://github.com/cpys/codex-quota-overlay",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T17:38:11.545Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:11.545Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Privacy-friendly Codex Desktop quota overlay for Windows and macOS — quota, reset time, and reset credits beside the conversation title.",
+  "github": {
+    "repository": {
+      "full_name": "cpys/codex-quota-overlay",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "open_issues_count": 13,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-13T06:28:59Z",
+      "updated_at": "2026-09-21T07:04:04Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "codex",
+        "codex-desktop",
+        "desktop-app",
+        "developer-tool",
+        "electron",
+        "macos",
+        "menu-bar",
+        "open-source",
+        "productivity",
+        "quota",
+        "quota-monitor",
+        "windows"
+      ]
+    },
+    "latestReleaseAt": "2026-08-23T16:04:41Z",
+    "homepage": "https://cpys.github.io/codex-quota-overlay/",
+    "sync": {
+      "syncedAt": "2026-09-26T17:38:11.545Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/cpys/codex-quota-overlay/releases/latest",
+        "facts": {
+          "tag": "v0.4.0",
+          "assets": [
+            "CodexQuotaOverlay-Windows-Setup-0.4.0-x64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/cpys/codex-quota-overlay/releases/tag/v0.4.0",
+          "fetchedAt": "2026-09-26T17:38:09.954Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/cpys/codex-quota-overlay/blob/fb33bdb2d93cc83f7a86480cca069de33f026c56/site/assets/app-icon.png",
+        "path": "site/assets/app-icon.png",
+        "blobSha": "72a5588572d17a29b908cf3ca859d50748756141",
+        "format": "png",
+        "bytes": 4525,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/cpys/codex-quota-overlay/blob/fb33bdb2d93cc83f7a86480cca069de33f026c56/site/assets/app-icon.png",
+          "fetchedAt": "2026-09-26T17:38:09.954Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

@@ -3,8 +3,14 @@
   "slug": "sossoldi",
   "repoUrl": "https://github.com/RIP-Comm/sossoldi",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:39.684Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:45.837Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:45.837Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "\"Sossoldi\" is a wealth management / personal finance / Net Worth tracking app, made with Flutter.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:39.684Z",
+      "syncedAt": "2026-09-26T17:40:45.837Z",
       "source": "api"
     },
     "repository": {
@@ -50,10 +56,92 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.ripster.sossoldi/",
+        "facts": {
+          "appId": "com.ripster.sossoldi",
+          "suggestedVersionCode": 1054,
+          "evidence": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/android/app/build.gradle.kts"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.ripster.sossoldi",
+          "fetchedAt": "2026-09-26T17:40:43.588Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/RIP-Comm/sossoldi/releases/latest",
+        "facts": {
+          "tag": "1.0.0",
+          "assets": [
+            "sossoldi-1.0.0-arm64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/RIP-Comm/sossoldi/releases/tag/1.0.0",
+          "fetchedAt": "2026-09-26T17:40:43.588Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:40:43.588Z"
+        }
+      },
+      {
+        "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/assets/icon.png",
+        "path": "assets/icon.png",
+        "blobSha": "245b68a137f0b5f7fb6649232840d12b163f39b4",
+        "format": "png",
+        "bytes": 64784,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/assets/icon.png",
+          "fetchedAt": "2026-09-26T17:40:43.588Z"
+        }
+      },
+      {
+        "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "b749bfef07473333cf1dd31e9eed89862a5d52aa",
+        "format": "png",
+        "bytes": 5292,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/RIP-Comm/sossoldi/blob/841d620eb81e4d6f8951ed841a22197108635047/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:40:43.588Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

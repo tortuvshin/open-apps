@@ -3,8 +3,14 @@
   "slug": "weiyu",
   "repoUrl": "https://github.com/Sutera-Diffusus/WeChat-daily",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:45.725Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:24.693Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:24.693Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "本地微信消息、历史档案与可解释情报分析工作台",
   "github": {
     "repository": {
@@ -40,7 +46,7 @@
     "latestReleaseAt": "2026-08-24T11:44:07Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-09-26T09:40:45.725Z",
+      "syncedAt": "2026-09-26T17:41:24.693Z",
       "source": "api"
     },
     "html": {
@@ -58,9 +64,47 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Sutera-Diffusus/WeChat-daily/releases/latest",
+        "facts": {
+          "tag": "v0.1.4",
+          "assets": [
+            "weiyu-0.1.4-windows-installer.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Sutera-Diffusus/WeChat-daily/releases/tag/v0.1.4",
+          "fetchedAt": "2026-09-26T17:41:23.002Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Sutera-Diffusus/WeChat-daily/blob/8b4a94dc661fc8d89e2a7da7c7422d5fff5797ae/desktop/src-tauri/icons/icon.png",
+        "path": "desktop/src-tauri/icons/icon.png",
+        "blobSha": "26fd6923522405f765a37901bc0993e9066eb500",
+        "format": "png",
+        "bytes": 11178,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Sutera-Diffusus/WeChat-daily/blob/8b4a94dc661fc8d89e2a7da7c7422d5fff5797ae/desktop/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-09-26T17:41:23.002Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

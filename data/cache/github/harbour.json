@@ -3,8 +3,14 @@
   "slug": "harbour",
   "repoUrl": "https://github.com/rrroyal/Harbour",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:23.336Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:54.572Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:54.572Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Docker/Portainer management app for iOS, iPadOS and macOS.",
   "github": {
     "repository": {
@@ -136,7 +142,7 @@
       "subscribers_count": 12
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:23.336Z",
+      "syncedAt": "2026-09-26T17:38:54.572Z",
       "source": "api"
     },
     "languages": {
@@ -192,10 +198,50 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rrroyal/Harbour/releases/latest",
+        "facts": {
+          "tag": "v4.2.9",
+          "assets": [
+            "Harbour-v4.2.9-63.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rrroyal/Harbour/releases/tag/v4.2.9",
+          "fetchedAt": "2026-09-26T17:38:53.125Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/rrroyal/Harbour/releases/latest",
+        "facts": {
+          "tag": "v4.2.9",
+          "assets": [
+            "Harbour-v4.2.9-63.pkg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/rrroyal/Harbour/releases/tag/v4.2.9",
+          "fetchedAt": "2026-09-26T17:38:53.125Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

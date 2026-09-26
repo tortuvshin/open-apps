@@ -3,8 +3,14 @@
   "slug": "shieldxy",
   "repoUrl": "https://github.com/RockxyApp/Shieldxy",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:39.380Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:43.296Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:43.296Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open-source, auditable application firewall and connection monitor for macOS.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:39.380Z",
+      "syncedAt": "2026-09-26T17:40:43.296Z",
       "source": "api"
     },
     "repository": {
@@ -59,9 +65,32 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/RockxyApp/Shieldxy/releases/latest",
+        "facts": {
+          "tag": "v0.1.1",
+          "assets": [
+            "Shieldxy-0.1.1-8.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/RockxyApp/Shieldxy/releases/tag/v0.1.1",
+          "fetchedAt": "2026-09-26T17:40:41.673Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
   }
 }

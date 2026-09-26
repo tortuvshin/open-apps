@@ -3,8 +3,14 @@
   "slug": "waterfly-iii",
   "repoUrl": "https://github.com/dreautall/waterfly-iii",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:45.399Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:22.728Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:22.728Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Unofficial Android App for Firefly III, a free and open source personal finance manager.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:45.399Z",
+      "syncedAt": "2026-09-26T17:41:22.728Z",
       "source": "api"
     },
     "repository": {
@@ -51,10 +57,207 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.dreautall.waterflyiii/",
+        "facts": {
+          "appId": "com.dreautall.waterflyiii",
+          "suggestedVersionCode": 41023,
+          "evidence": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/android/app/build.gradle.kts",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.dreautall.waterflyiii",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/dreautall/waterfly-iii/releases/latest",
+        "facts": {
+          "tag": "v1.2.1",
+          "assets": [
+            "app-arm64-v8a-release.apk",
+            "app-armeabi-v7a-release.apk",
+            "app-x86_64-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/dreautall/waterfly-iii/releases/tag/v1.2.1",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "82aa0bd7aa02c584b39bf93f926036b6f9424646",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 20448,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/assets/images/logo.png",
+        "path": "assets/images/logo.png",
+        "blobSha": "d6e7ab2ecd60420619624d8dd95c2d0d67d953da",
+        "format": "png",
+        "bytes": 44482,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/assets/images/logo.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/assets/images/logo.svg",
+        "path": "assets/images/logo.svg",
+        "blobSha": "3ded9d7c9687882c9fd467c722d7570c7ac2b5f9",
+        "format": "svg",
+        "bytes": 2303,
+        "width": 500,
+        "height": 500,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/assets/images/logo.svg",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "blobSha": "9e8c007985cf18f7714083fa2a895801d6717ffa",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 189269,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+        "blobSha": "44378d261613fdfb199c9c31818f60ac65d52902",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 244247,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+        "blobSha": "6b35bcecda3bc7abcd0b455a72427958293b87ea",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 162939,
+        "width": 1080,
+        "height": 2400,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+        "blobSha": "08f154b60fb45a5ea2c8079e0e8f44f453a7d7bf",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 120569,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+        "blobSha": "838f7f0dc20d5f004bf0b36189d3860cd19a68a1",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 159171,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+        "blobSha": "a24184ebcfd8c908c2bc158e4f25889db051cb6b",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 165236,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+        "blobSha": "8611cd504e7aa17c31117bc6ce817dff8ea9538d",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 228838,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/8.png",
+        "blobSha": "8b6f204e2c67f5f186dbd7e89d413e2859d1f73d",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 138734,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png",
+          "fetchedAt": "2026-09-26T17:41:20.158Z"
+        }
+      }
     ]
   }
 }

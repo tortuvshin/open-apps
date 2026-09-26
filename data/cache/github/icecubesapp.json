@@ -3,8 +3,14 @@
   "slug": "icecubesapp",
   "repoUrl": "https://github.com/Dimillian/IceCubesApp",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:24.606Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:02.521Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:02.521Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A SwiftUI Mastodon client",
   "github": {
     "repository": {
@@ -160,7 +166,7 @@
       "contributorsKnown": 147
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:24.606Z",
+      "syncedAt": "2026-09-26T17:39:02.521Z",
       "source": "api"
     },
     "languages": {
@@ -185,10 +191,15 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

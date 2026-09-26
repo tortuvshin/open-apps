@@ -3,8 +3,14 @@
   "slug": "looptroop",
   "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:28.837Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:29.494Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:29.494Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktrees, and human-gated PR delivery.",
   "github": {
     "repository": {
@@ -13,8 +19,8 @@
       "forks_count": 14,
       "open_issues_count": 1,
       "language": "TypeScript",
-      "pushed_at": "2026-09-26T08:57:25Z",
-      "updated_at": "2026-09-26T08:57:29Z",
+      "pushed_at": "2026-09-26T16:44:09Z",
+      "updated_at": "2026-09-26T16:44:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -41,7 +47,7 @@
     "latestReleaseAt": "2026-08-26T07:46:19Z",
     "homepage": "https://www.looptroop.ovh/",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:28.837Z",
+      "syncedAt": "2026-09-26T17:39:29.494Z",
       "source": "api"
     }
   },
@@ -54,9 +60,14 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

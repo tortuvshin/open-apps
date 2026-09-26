@@ -3,8 +3,14 @@
   "slug": "notesnook",
   "repoUrl": "https://github.com/streetwriters/notesnook",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:33.460Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:01.540Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:01.540Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
   "github": {
     "repository": {
@@ -75,15 +81,15 @@
       "releases_url": "https://api.github.com/repos/streetwriters/notesnook/releases{/id}",
       "deployments_url": "https://api.github.com/repos/streetwriters/notesnook/deployments",
       "created_at": "2021-04-01T17:25:54Z",
-      "updated_at": "2026-09-25T23:32:55Z",
-      "pushed_at": "2026-09-26T08:51:55Z",
+      "updated_at": "2026-09-26T15:46:40Z",
+      "pushed_at": "2026-09-26T15:00:23Z",
       "git_url": "git://github.com/streetwriters/notesnook.git",
       "ssh_url": "git@github.com:streetwriters/notesnook.git",
       "clone_url": "https://github.com/streetwriters/notesnook.git",
       "svn_url": "https://github.com/streetwriters/notesnook",
       "homepage": "https://notesnook.com/",
       "size": 291745,
-      "stargazers_count": 14640,
+      "stargazers_count": 14643,
       "watchers_count": 14314,
       "language": "TypeScript",
       "has_issues": true,
@@ -213,7 +219,7 @@
       "openPullRequests": 63
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:33.460Z",
+      "syncedAt": "2026-09-26T17:40:01.540Z",
       "source": "api"
     },
     "html": {
@@ -233,10 +239,247 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.streetwriters.notesnook/",
+        "facts": {
+          "appId": "com.streetwriters.notesnook",
+          "suggestedVersionCode": 15594,
+          "evidence": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/apps/mobile/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.streetwriters.notesnook",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/streetwriters/notesnook/releases/latest",
+        "facts": {
+          "tag": "v3.4.8",
+          "assets": [
+            "notesnook_linux_arm64.AppImage",
+            "notesnook_linux_x86_64.AppImage"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/streetwriters/notesnook/releases/latest",
+        "facts": {
+          "tag": "v3.4.8",
+          "assets": [
+            "notesnook_mac_arm64.dmg",
+            "notesnook_mac_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/streetwriters/notesnook/releases/latest",
+        "facts": {
+          "tag": "v3.4.8",
+          "assets": [
+            "notesnook_win.exe",
+            "notesnook_win_arm64.exe",
+            "notesnook_win_arm64_portable.exe",
+            "notesnook_win_portable.exe",
+            "notesnook_win_x64.exe",
+            "notesnook_win_x64_portable.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "ad30e6876c2fdba06444da0f09e3ce90897b213e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 14482,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/apps/monograph/public/logo.svg",
+        "path": "apps/monograph/public/logo.svg",
+        "blobSha": "c7f54a7e189b541d279659e8461ecbea2ce0cad8",
+        "format": "svg",
+        "bytes": 1884,
+        "width": 80,
+        "height": 80,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/apps/monograph/public/logo.svg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/extensions/web-clipper/assets/logo.svg",
+        "path": "extensions/web-clipper/assets/logo.svg",
+        "blobSha": "1577e87e7b3970f780cc40a32612ed0aa6411a69",
+        "format": "svg",
+        "bytes": 1614,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/extensions/web-clipper/assets/logo.svg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/resources/icon.png",
+        "path": "resources/icon.png",
+        "blobSha": "cece986856f4018080e7309b389035068b163d01",
+        "format": "png",
+        "bytes": 8808,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/resources/icon.png",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+        "blobSha": "dfe94e2b489226ad789756a95a824f2b6db444e2",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 114098,
+        "width": 810,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+        "blobSha": "664aeaf01c6a47a23d2b4f5847c813168c709a9b",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 93741,
+        "width": 810,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+        "blobSha": "12c403b12d38eb8e99178061ce4f9f40e8b3ab1c",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 134394,
+        "width": 810,
+        "height": 1440,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+        "blobSha": "961c47f13b735f87eab452d65d008148cf3a7454",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 124346,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+        "blobSha": "37d10836c0455423c432946c2149312f4874efda",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 134566,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+        "blobSha": "e2ad77940bdbfa1eabf7176ad70c07441aaf3dbb",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 176404,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      },
+      {
+        "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+        "blobSha": "01cd4ab6b2141f31fbe28343a799472731efa51d",
+        "locale": "en-US",
+        "format": "jpeg",
+        "bytes": 157907,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg",
+          "fetchedAt": "2026-09-26T17:39:58.590Z"
+        }
+      }
     ]
   }
 }

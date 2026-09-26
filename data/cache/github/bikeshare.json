@@ -3,8 +3,14 @@
   "slug": "bikeshare",
   "repoUrl": "https://github.com/joreilly/BikeShare",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:14.948Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:54.151Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:54.151Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local persistence",
   "github": {
     "repository": {
@@ -175,7 +181,7 @@
       "contributorsKnown": 7
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:14.948Z",
+      "syncedAt": "2026-09-26T17:37:54.151Z",
       "source": "api"
     },
     "languages": {
@@ -200,9 +206,14 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

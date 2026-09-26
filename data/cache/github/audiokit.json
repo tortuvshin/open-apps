@@ -3,8 +3,14 @@
   "slug": "audiokit",
   "repoUrl": "https://github.com/AudioKit/AudioKit",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:13.617Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:43.787Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:43.787Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Audio synthesis, processing, & analysis platform for iOS, macOS and tvOS",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/AudioKit/AudioKit/releases{/id}",
       "deployments_url": "https://api.github.com/repos/AudioKit/AudioKit/deployments",
       "created_at": "2014-01-21T08:16:07Z",
-      "updated_at": "2026-09-25T23:23:22Z",
+      "updated_at": "2026-09-26T13:59:31Z",
       "pushed_at": "2026-07-26T06:33:02Z",
       "git_url": "git://github.com/AudioKit/AudioKit.git",
       "ssh_url": "git@github.com:AudioKit/AudioKit.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/AudioKit/AudioKit",
       "homepage": "http://audiokit.io",
       "size": 119733,
-      "stargazers_count": 11464,
+      "stargazers_count": 11465,
       "watchers_count": 11413,
       "language": "Swift",
       "has_issues": true,
@@ -188,7 +194,7 @@
       "contributorsKnown": 225
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:13.617Z",
+      "syncedAt": "2026-09-26T17:37:43.787Z",
       "source": "api"
     },
     "languages": {
@@ -211,10 +217,15 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

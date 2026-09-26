@@ -3,8 +3,14 @@
   "slug": "flip",
   "repoUrl": "https://github.com/RedBrogdon/flutterflip",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:20.423Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:34.078Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:34.078Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Public repo for flutterflip, a reversi clone built with Flutter.",
   "github": {
     "repository": {
@@ -155,7 +161,7 @@
       "contributorsKnown": 2
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:20.423Z",
+      "syncedAt": "2026-09-26T17:38:34.078Z",
       "source": "api"
     },
     "languages": {
@@ -184,8 +190,42 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/RedBrogdon/flutterflip/blob/13993d6375b225cc3f24fbb67dda237df0d83b59/packages/flutterflip/web/icons/Icon-512.png",
+        "path": "packages/flutterflip/web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/RedBrogdon/flutterflip/blob/13993d6375b225cc3f24fbb67dda237df0d83b59/packages/flutterflip/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:38:31.566Z"
+        }
+      },
+      {
+        "url": "https://github.com/RedBrogdon/flutterflip/blob/13993d6375b225cc3f24fbb67dda237df0d83b59/packages/flutterflip/web/icons/Icon-192.png",
+        "path": "packages/flutterflip/web/icons/Icon-192.png",
+        "blobSha": "b749bfef07473333cf1dd31e9eed89862a5d52aa",
+        "format": "png",
+        "bytes": 5292,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/RedBrogdon/flutterflip/blob/13993d6375b225cc3f24fbb67dda237df0d83b59/packages/flutterflip/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:38:31.566Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

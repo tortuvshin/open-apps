@@ -3,8 +3,14 @@
   "slug": "mhabit",
   "repoUrl": "https://github.com/FriesI23/mhabit",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:32.163Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:51.650Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:51.650Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Open-source Flutter habit tracker with smart scoring, WebDAV sync, local-first storage, privacy-focused design, and support for Android, iOS, Windows, macOS, and Linux.",
   "github": {
     "html": {
@@ -13,17 +19,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:32.163Z",
+      "syncedAt": "2026-09-26T17:39:51.650Z",
       "source": "api"
     },
     "repository": {
       "full_name": "FriesI23/mhabit",
-      "stargazers_count": 1604,
+      "stargazers_count": 1606,
       "forks_count": 97,
       "open_issues_count": 79,
       "language": "Dart",
       "pushed_at": "2026-09-24T10:51:47Z",
-      "updated_at": "2026-09-26T07:58:24Z",
+      "updated_at": "2026-09-26T13:37:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,10 +72,272 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/io.github.friesi23.mhabit/",
+        "facts": {
+          "appId": "io.github.friesi23.mhabit",
+          "suggestedVersionCode": 198,
+          "evidence": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/io.github.friesi23.mhabit",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/io.github.friesi23.mhabit",
+        "facts": {
+          "appId": "io.github.friesi23.mhabit",
+          "match": "metainfo",
+          "evidence": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/flatpak/io.github.friesi23.mhabit.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/io.github.friesi23.mhabit",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/FriesI23/mhabit/releases/latest",
+        "facts": {
+          "tag": "v1.27.9+198",
+          "assets": [
+            "app-arm64-v8a-release.apk",
+            "app-armeabi-v7a-release.apk",
+            "app-release.apk",
+            "app-x86_64-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/FriesI23/mhabit/releases/latest",
+        "facts": {
+          "tag": "v1.27.9+198",
+          "assets": [
+            "mhabit-aarch64.flatpak",
+            "mhabit-x86_64.flatpak"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/FriesI23/mhabit/releases/latest",
+        "facts": {
+          "tag": "v1.27.9+198",
+          "assets": [
+            "mhabit.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/FriesI23/mhabit/releases/latest",
+        "facts": {
+          "tag": "v1.27.9+198",
+          "assets": [
+            "mhabit_x64.msix"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "7600f583871724abfd767007cd1105c7a055605a",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 70,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/assets/logo/icon-1024x1024.png",
+        "path": "assets/logo/icon-1024x1024.png",
+        "blobSha": "1ecd33945b563f02dfdb2dec853698a806d158db",
+        "format": "png",
+        "bytes": 66282,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/assets/logo/icon-1024x1024.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/assets/logo/icon.svg",
+        "path": "assets/logo/icon.svg",
+        "blobSha": "d37c70b76f36a36a5d6111f32f2b37f0b96b5355",
+        "format": "svg",
+        "bytes": 3132,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/assets/logo/icon.svg",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+        "blobSha": "5df0ff021bd14fd932c95a6b69b02c584600bc2f",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1263300,
+        "width": 1242,
+        "height": 2208,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+        "blobSha": "543beafaee5ed32242df68b361404e0b6a5cb6cb",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1234612,
+        "width": 1242,
+        "height": 2208,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+        "blobSha": "cae2b09a211f76b2b4c538c7007b39b23051e02b",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1256193,
+        "width": 1242,
+        "height": 2208,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+        "blobSha": "aa4b7cbef8b91b3287a8c36dd9cc7d2953b67834",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1234251,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/4_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+        "blobSha": "2a9725181c6f1e00f54b24d3d7f9833e95dce8b8",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1176796,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/5_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+        "blobSha": "82f94b7a7c9e169602e3a971bbe68c7d4630334e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1233848,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/fastlane/metadata/android/en-US/images/phoneScreenshots/6_en-US.png",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/flatpak/screenshots/en-US/1.png",
+        "path": "flatpak/screenshots/en-US/1.png",
+        "blobSha": "59bf40dc7b0d1d8521ca8bdab6083dab172207d7",
+        "format": "png",
+        "bytes": 69112,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/flatpak/io.github.friesi23.mhabit.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      },
+      {
+        "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/flatpak/screenshots/en-US/2.png",
+        "path": "flatpak/screenshots/en-US/2.png",
+        "blobSha": "62707823493236b74f743a1b5bde36611e95ce07",
+        "format": "png",
+        "bytes": 66339,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/FriesI23/mhabit/blob/00ca8a6dcb8a18fe6e884674b1596da47da55b1f/flatpak/io.github.friesi23.mhabit.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:39:49.941Z"
+        }
+      }
     ]
   }
 }

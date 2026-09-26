@@ -3,8 +3,14 @@
   "slug": "unwrap",
   "repoUrl": "https://github.com/twostraws/Unwrap",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:44.365Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:15.406Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:15.406Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Learn Swift interactively on your iPhone.",
   "github": {
     "repository": {
@@ -161,7 +167,7 @@
       "contributorsKnown": 65
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:44.365Z",
+      "syncedAt": "2026-09-26T17:41:15.406Z",
       "source": "api"
     },
     "languages": {
@@ -185,8 +191,13 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

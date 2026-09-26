@@ -3,8 +3,14 @@
   "slug": "no-sus",
   "repoUrl": "https://github.com/https-shubhamsahu/NON_SUS",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:33.111Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:58.154Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:58.154Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "github": {
     "repository": {
       "full_name": "https-shubhamsahu/NON_SUS",
@@ -26,7 +32,7 @@
     "latestReleaseAt": "2026-09-26T06:47:58Z",
     "homepage": "https://nosus.foo",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:33.111Z",
+      "syncedAt": "2026-09-26T17:39:58.154Z",
       "source": "api"
     }
   },
@@ -39,9 +45,76 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/https-shubhamsahu/NON_SUS/releases/latest",
+        "facts": {
+          "tag": "v1.4.2",
+          "assets": [
+            "app-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/https-shubhamsahu/NON_SUS/releases/tag/v1.4.2",
+          "fetchedAt": "2026-09-26T17:39:56.696Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/fastlane/metadata/android/en-IN/images/icon.png",
+        "path": "fastlane/metadata/android/en-IN/images/icon.png",
+        "blobSha": "68281239607f9a5f78c63dec5c7d61a813d7bb2f",
+        "locale": "en-IN",
+        "format": "png",
+        "bytes": 22521,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/fastlane/metadata/android/en-IN/images/icon.png",
+          "fetchedAt": "2026-09-26T17:39:56.696Z"
+        }
+      },
+      {
+        "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "6cd2c1855b6542b9982ece4cf5094eb3bd1bb508",
+        "format": "png",
+        "bytes": 24166,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:39:56.696Z"
+        }
+      },
+      {
+        "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "00849179cd7a068e4ceea95d054c2dc82223596b",
+        "format": "png",
+        "bytes": 4746,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/https-shubhamsahu/NON_SUS/blob/eca0b8538d5bf2e3502ea6a70e0ede0c575680c5/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:39:56.696Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

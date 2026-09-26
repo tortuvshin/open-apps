@@ -3,8 +3,14 @@
   "slug": "linkwarden",
   "repoUrl": "https://github.com/linkwarden/linkwarden",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:27.699Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:22.691Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:22.691Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/linkwarden/linkwarden/releases{/id}",
       "deployments_url": "https://api.github.com/repos/linkwarden/linkwarden/deployments",
       "created_at": "2022-04-09T07:53:01Z",
-      "updated_at": "2026-09-26T06:34:54Z",
+      "updated_at": "2026-09-26T15:17:53Z",
       "pushed_at": "2026-09-10T18:53:30Z",
       "git_url": "git://github.com/linkwarden/linkwarden.git",
       "ssh_url": "git@github.com:linkwarden/linkwarden.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/linkwarden/linkwarden",
       "homepage": "https://linkwarden.app",
       "size": 36884,
-      "stargazers_count": 19845,
+      "stargazers_count": 19844,
       "watchers_count": 19029,
       "language": "TypeScript",
       "has_issues": true,
@@ -92,7 +98,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 850,
+      "forks_count": 852,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -194,7 +200,7 @@
       "openPullRequests": 28
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:27.699Z",
+      "syncedAt": "2026-09-26T17:39:22.691Z",
       "source": "api"
     },
     "html": {
@@ -214,10 +220,44 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/linkwarden/linkwarden/blob/952ac4540657cae3a67c3ca59433899d2fda8374/apps/web/public/android-chrome-512x512.png",
+        "path": "apps/web/public/android-chrome-512x512.png",
+        "blobSha": "4c15855350627eb62db8c7d159f9ad81818f9726",
+        "format": "png",
+        "bytes": 260936,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/linkwarden/linkwarden/blob/952ac4540657cae3a67c3ca59433899d2fda8374/apps/web/public/site.webmanifest",
+          "fetchedAt": "2026-09-26T17:39:21.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/linkwarden/linkwarden/blob/952ac4540657cae3a67c3ca59433899d2fda8374/assets/logo.png",
+        "path": "assets/logo.png",
+        "blobSha": "3f70f2df0220b8b7b5bb348121203d79595547e5",
+        "format": "png",
+        "bytes": 242285,
+        "width": 551,
+        "height": 551,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/linkwarden/linkwarden/blob/952ac4540657cae3a67c3ca59433899d2fda8374/assets/logo.png",
+          "fetchedAt": "2026-09-26T17:39:21.013Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

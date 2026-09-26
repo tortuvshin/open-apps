@@ -3,8 +3,14 @@
   "slug": "youtrack-mobile",
   "repoUrl": "https://github.com/JetBrains/youtrack-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:46.756Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:33.141Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:33.141Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A iOS and Android client for YouTrack",
   "github": {
     "repository": {
@@ -183,7 +189,7 @@
       "contributorsKnown": 27
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:46.756Z",
+      "syncedAt": "2026-09-26T17:41:33.141Z",
       "source": "api"
     },
     "languages": {
@@ -213,8 +219,28 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/JetBrains/youtrack-mobile/blob/82e9cd7a0582a52ea34649bad8f2ae450ddf7bc1/src/components/icon/assets/logo.png",
+        "path": "src/components/icon/assets/logo.png",
+        "blobSha": "049d5fca759400431ec65fc5d57ea2af4ec38a9a",
+        "format": "png",
+        "bytes": 65079,
+        "width": 480,
+        "height": 480,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/JetBrains/youtrack-mobile/blob/82e9cd7a0582a52ea34649bad8f2ae450ddf7bc1/src/components/icon/assets/logo.png",
+          "fetchedAt": "2026-09-26T17:41:30.849Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

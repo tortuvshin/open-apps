@@ -3,8 +3,14 @@
   "slug": "mathematics",
   "repoUrl": "https://github.com/j-j-gajjar/mathematics/",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:29.855Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:37.187Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:37.187Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "In this application, we can perform some actions like subtraction, addition, multiplication, and division. And by selecting any of these, you will receive a PDF with the answer key to your MCQ or question!",
   "github": {
     "repository": {
@@ -168,7 +174,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:29.855Z",
+      "syncedAt": "2026-09-26T17:39:37.187Z",
       "source": "api"
     },
     "languages": {
@@ -196,8 +202,28 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "License is missing or unclear"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/j-j-gajjar/mathematics/blob/4816dcb37e77a27574bff7089104bc80041577ff/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "d57a8d4e85b2e5e6b3d6d573012e3970fda4a5c5",
+        "format": "png",
+        "bytes": 5544,
+        "width": 144,
+        "height": 144,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/j-j-gajjar/mathematics/blob/4816dcb37e77a27574bff7089104bc80041577ff/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:39:35.024Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

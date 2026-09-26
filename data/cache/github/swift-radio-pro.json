@@ -3,8 +3,14 @@
   "slug": "swift-radio-pro",
   "repoUrl": "https://github.com/analogcode/Swift-Radio-Pro",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:41.401Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:57.476Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:57.476Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Professional Radio Station App for iOS!",
   "github": {
     "repository": {
@@ -171,7 +177,7 @@
       "contributorsKnown": 25
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:41.401Z",
+      "syncedAt": "2026-09-26T17:40:57.476Z",
       "source": "api"
     },
     "languages": {
@@ -193,10 +199,15 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

@@ -3,18 +3,24 @@
   "slug": "meetily",
   "repoUrl": "https://github.com/Zackriya-Solutions/meetily",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:31.025Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:43.968Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:43.968Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
   "github": {
     "repository": {
       "full_name": "Zackriya-Solutions/meetily",
-      "stargazers_count": 31117,
-      "forks_count": 3393,
+      "stargazers_count": 31123,
+      "forks_count": 3395,
       "open_issues_count": 350,
       "language": "Rust",
       "pushed_at": "2026-09-15T18:32:32Z",
-      "updated_at": "2026-09-26T09:20:31Z",
+      "updated_at": "2026-09-26T16:45:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,7 +54,7 @@
     "latestReleaseAt": "2026-09-12T06:15:42Z",
     "homepage": "https://meetily.ai",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:31.025Z",
+      "syncedAt": "2026-09-26T17:39:43.968Z",
       "source": "api"
     }
   },
@@ -61,10 +67,80 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Zackriya-Solutions/meetily/releases/latest",
+        "facts": {
+          "tag": "v0.4.1",
+          "assets": [
+            "meetily_0.4.1_aarch64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
+          "fetchedAt": "2026-09-26T17:39:42.158Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Zackriya-Solutions/meetily/releases/latest",
+        "facts": {
+          "tag": "v0.4.1",
+          "assets": [
+            "meetily_0.4.1_x64-setup.exe",
+            "meetily_0.4.1_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
+          "fetchedAt": "2026-09-26T17:39:42.158Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Zackriya-Solutions/meetily/blob/a2cb62e827da7ef59f65064c97233efb2313878e/frontend/public/icon_128x128.png",
+        "path": "frontend/public/icon_128x128.png",
+        "blobSha": "5ffe59de360bed6d0a17b210e5ea6cf5976b65db",
+        "format": "png",
+        "bytes": 9430,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Zackriya-Solutions/meetily/blob/a2cb62e827da7ef59f65064c97233efb2313878e/frontend/public/icon_128x128.png",
+          "fetchedAt": "2026-09-26T17:39:42.158Z"
+        }
+      },
+      {
+        "url": "https://github.com/Zackriya-Solutions/meetily/blob/a2cb62e827da7ef59f65064c97233efb2313878e/frontend/public/logo.png",
+        "path": "frontend/public/logo.png",
+        "blobSha": "e0ea2e50add662f49538c8f5c3b0ba728643871b",
+        "format": "png",
+        "bytes": 154943,
+        "width": 845,
+        "height": 295,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Zackriya-Solutions/meetily/blob/a2cb62e827da7ef59f65064c97233efb2313878e/frontend/public/logo.png",
+          "fetchedAt": "2026-09-26T17:39:42.158Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

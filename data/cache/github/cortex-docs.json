@@ -3,18 +3,24 @@
   "slug": "cortex-docs",
   "repoUrl": "https://github.com/cortex-docs/cortex",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:17.487Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:13.717Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:13.717Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Cortex - Generates interactive API documentation, typed SDKs, and MCP servers from OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, and Markdown.",
   "github": {
     "repository": {
       "full_name": "cortex-docs/cortex",
-      "stargazers_count": 3219,
+      "stargazers_count": 3224,
       "forks_count": 158,
       "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-09-25T10:08:28Z",
-      "updated_at": "2026-09-26T08:13:32Z",
+      "pushed_at": "2026-09-26T10:21:39Z",
+      "updated_at": "2026-09-26T17:31:27Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +53,7 @@
     "latestReleaseAt": "2026-09-22T14:53:59Z",
     "homepage": "https://cortexdocs.dev",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:17.487Z",
+      "syncedAt": "2026-09-26T17:38:13.717Z",
       "source": "api"
     }
   },
@@ -60,10 +66,44 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/cortex-docs/cortex/blob/0aa5e33cddc440e8ad7efa2de2bf9fd9e8fc8ce9/packages/docs-site/assets/logo_dark.svg",
+        "path": "packages/docs-site/assets/logo_dark.svg",
+        "blobSha": "74ab03304bc7c43834bcc1f2aba0531df5fcb377",
+        "format": "svg",
+        "bytes": 631,
+        "width": 82,
+        "height": 20,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/cortex-docs/cortex/blob/0aa5e33cddc440e8ad7efa2de2bf9fd9e8fc8ce9/packages/docs-site/assets/logo_dark.svg",
+          "fetchedAt": "2026-09-26T17:38:11.951Z"
+        }
+      },
+      {
+        "url": "https://github.com/cortex-docs/cortex/blob/0aa5e33cddc440e8ad7efa2de2bf9fd9e8fc8ce9/packages/docs-site/assets/logo_light.svg",
+        "path": "packages/docs-site/assets/logo_light.svg",
+        "blobSha": "1b5c264d72bb5702694c0b6d04ce9f1b53fe22cb",
+        "format": "svg",
+        "bytes": 632,
+        "width": 82,
+        "height": 20,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/cortex-docs/cortex/blob/0aa5e33cddc440e8ad7efa2de2bf9fd9e8fc8ce9/packages/docs-site/assets/logo_light.svg",
+          "fetchedAt": "2026-09-26T17:38:11.951Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

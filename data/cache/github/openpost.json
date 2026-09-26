@@ -3,18 +3,24 @@
   "slug": "openpost",
   "repoUrl": "https://github.com/getopenpost/openpost",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:35.536Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:40:17.462Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:40:17.462Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Create, adapt, schedule, and track social posts. Open-source, hosted or self-hosted.",
   "github": {
     "repository": {
       "full_name": "getopenpost/openpost",
-      "stargazers_count": 617,
+      "stargazers_count": 621,
       "forks_count": 78,
       "open_issues_count": 2,
       "language": "TypeScript",
-      "pushed_at": "2026-09-26T08:38:52Z",
-      "updated_at": "2026-09-26T08:14:03Z",
+      "pushed_at": "2026-09-26T17:31:05Z",
+      "updated_at": "2026-09-26T17:15:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -38,7 +44,7 @@
     "latestReleaseAt": "2026-09-25T21:58:48Z",
     "homepage": "https://openpo.st",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:35.536Z",
+      "syncedAt": "2026-09-26T17:40:17.462Z",
       "source": "api"
     }
   },
@@ -51,10 +57,78 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/getopenpost/openpost/releases/latest",
+        "facts": {
+          "tag": "v6.2.0",
+          "assets": [
+            "openpost-cli-windows-amd64.exe",
+            "openpost-mcp-windows-amd64.exe",
+            "openpost-server-windows-amd64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v6.2.0",
+          "fetchedAt": "2026-09-26T17:40:15.505Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/icon.svg",
+        "path": "assets/brand/icon.svg",
+        "blobSha": "cc091ac5da672714535816b2a5a4e0302ab7e8a1",
+        "format": "svg",
+        "bytes": 815,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/icon.svg",
+          "fetchedAt": "2026-09-26T17:40:15.505Z"
+        }
+      },
+      {
+        "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/logo-dark.svg",
+        "path": "assets/brand/logo-dark.svg",
+        "blobSha": "f46f47c3a0262db1a50dbc73096ef39ac86f444a",
+        "format": "svg",
+        "bytes": 715,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/logo-dark.svg",
+          "fetchedAt": "2026-09-26T17:40:15.505Z"
+        }
+      },
+      {
+        "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/logo.svg",
+        "path": "assets/brand/logo.svg",
+        "blobSha": "d1fcdb7373271abb6e78ba201a15b6fa1261f170",
+        "format": "svg",
+        "bytes": 715,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/getopenpost/openpost/blob/9d3f7eaa57c080e86b98943f1b2cb83fb65ca989/assets/brand/logo.svg",
+          "fetchedAt": "2026-09-26T17:40:15.505Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }

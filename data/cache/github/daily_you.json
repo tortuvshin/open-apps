@@ -3,8 +3,14 @@
   "slug": "daily_you",
   "repoUrl": "https://github.com/Demizo/Daily_You",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:18.293Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:19.093Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:19.093Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Daily diary & journaling app",
   "github": {
     "repository": {
@@ -37,7 +43,7 @@
     },
     "latestReleaseAt": "2026-09-12T16:03:01Z",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:18.293Z",
+      "syncedAt": "2026-09-26T17:38:19.093Z",
       "source": "api"
     }
   },
@@ -50,10 +56,169 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/com.demizo.daily_you/",
+        "facts": {
+          "appId": "com.demizo.daily_you",
+          "suggestedVersionCode": 30040003,
+          "evidence": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/com.demizo.daily_you",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Demizo/Daily_You/releases/latest",
+        "facts": {
+          "tag": "v3.4.0",
+          "assets": [
+            "daily-you-arm64-v8a-v3.4.0.apk",
+            "daily-you-armeabi-v7a-v3.4.0.apk",
+            "daily-you-x86_64-v3.4.0.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Demizo/Daily_You/releases/tag/v3.4.0",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "26656fc60519b2cd4dedaf350e992e0b7f997124",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 29138,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo_monochrome.png",
+        "path": "assets/logo_monochrome.png",
+        "blobSha": "92fa9a9da8ba20f130a620ee5fc5f70eb7c0992d",
+        "format": "png",
+        "bytes": 19918,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo_monochrome.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo.png",
+        "path": "assets/logo.png",
+        "blobSha": "507f0bf079b277fe7dc4859eebb67600f6b64e6a",
+        "format": "png",
+        "bytes": 45380,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo.svg",
+        "path": "assets/logo.svg",
+        "blobSha": "871aa6f97ee450ae826dcb10362ec999aa499959",
+        "format": "svg",
+        "bytes": 9505,
+        "width": 72,
+        "height": 72,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/assets/logo.svg",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/1_home.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/1_home.png",
+        "blobSha": "e99b7b5087964342958d6d3d94885f38fe11846b",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 2566842,
+        "width": 1280,
+        "height": 2856,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/1_home.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/2_gallery.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/2_gallery.png",
+        "blobSha": "52259e4aa49f8cf121a2683e0131957835e66ebe",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 4261663,
+        "width": 1280,
+        "height": 2856,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/2_gallery.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/3_stats.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/3_stats.png",
+        "blobSha": "a89915b196f4d0b2b7fdd4240b31d6abcdbbd5eb",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 281207,
+        "width": 1280,
+        "height": 2856,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/3_stats.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      },
+      {
+        "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/4_entry_view.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/4_entry_view.png",
+        "blobSha": "b473b4e1224885e0005a6a40000729199dd9edbf",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1067900,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/Demizo/Daily_You/blob/7766e919400c1e2b8c14b20040bb0a6e9e89e132/fastlane/metadata/android/en-US/images/phoneScreenshots/4_entry_view.png",
+          "fetchedAt": "2026-09-26T17:38:17.013Z"
+        }
+      }
     ]
   }
 }

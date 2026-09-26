@@ -3,8 +3,14 @@
   "slug": "horizoncalendar",
   "repoUrl": "https://github.com/airbnb/HorizonCalendar",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:24.008Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:38:58.607Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:38:58.607Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "A declarative, performant, iOS calendar UI component that supports use cases ranging from simple date pickers all the way up to fully-featured calendar apps.",
   "github": {
     "repository": {
@@ -177,7 +183,7 @@
       "contributorsKnown": 14
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:24.008Z",
+      "syncedAt": "2026-09-26T17:38:58.607Z",
       "source": "api"
     },
     "languages": {
@@ -199,9 +205,14 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

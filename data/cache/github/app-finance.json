@@ -3,8 +3,14 @@
   "slug": "app-finance",
   "repoUrl": "https://github.com/lyskouski/app-finance",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:12.478Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:37.895Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:37.895Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Fingrom -- open-source platform-agnostic financial accounting application",
   "github": {
     "repository": {
@@ -39,7 +45,7 @@
     "latestReleaseAt": "2026-09-22T18:02:17Z",
     "homepage": "https://tercad.com/app/finance/index.html",
     "sync": {
-      "syncedAt": "2026-09-26T09:40:12.478Z",
+      "syncedAt": "2026-09-26T17:37:37.895Z",
       "source": "api"
     }
   },
@@ -52,9 +58,213 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Recent release found",
       "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/com.tercad.fingrom",
+        "facts": {
+          "appId": "com.tercad.fingrom",
+          "match": "metainfo",
+          "evidence": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/com.tercad.fingrom",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lyskouski/app-finance/releases/latest",
+        "facts": {
+          "tag": "v7.2.11",
+          "assets": [
+            "fingrom_iOS.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.2.11",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/lyskouski/app-finance/releases/latest",
+        "facts": {
+          "tag": "v7.2.11",
+          "assets": [
+            "fingrom_Linux.AppImage",
+            "fingrom_LinuxFlatpak.flatpak",
+            "fingrom_LinuxSnap.snap"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.2.11",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "2e537dc3c77b09e1f10247fb3f6366495424c354",
+        "format": "png",
+        "bytes": 24761,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/assets/images/logo.png",
+        "path": "assets/images/logo.png",
+        "blobSha": "5c4bf5ab2f519d0bf01199de4836ad52b78fddfd",
+        "format": "png",
+        "bytes": 14861,
+        "width": 320,
+        "height": 320,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/assets/images/logo.png",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/web/icons/Icon-192.png",
+        "path": "web/icons/Icon-192.png",
+        "blobSha": "cb5b140582447d0ce6b4eafde5c76ec38db2c9a9",
+        "format": "png",
+        "bytes": 8546,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/desktop-account-metrics.png",
+        "path": "docs/marketing-flow/screenshots/desktop-account-metrics.png",
+        "blobSha": "7987fbbc84db2bcbf0bb2dfa5d8517c014c4df37",
+        "format": "png",
+        "bytes": 61106,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/desktop-bill-form.png",
+        "path": "docs/marketing-flow/screenshots/desktop-bill-form.png",
+        "blobSha": "1ec575ce314e726cac9aeb618a17513de5d90b72",
+        "format": "png",
+        "bytes": 63121,
+        "width": 1280,
+        "height": 800,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/desktop-bill-metrics.png",
+        "path": "docs/marketing-flow/screenshots/desktop-bill-metrics.png",
+        "blobSha": "849e2358e99382857d0a6e2dcf417a13c09f540a",
+        "format": "png",
+        "bytes": 62934,
+        "width": 1280,
+        "height": 800,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/desktop-main-page.png",
+        "path": "docs/marketing-flow/screenshots/desktop-main-page.png",
+        "blobSha": "39da59c6f39bb9b437ff5988a63d268b6ee46b0d",
+        "format": "png",
+        "bytes": 137312,
+        "width": 1280,
+        "height": 717,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/widescreen-account-page.png",
+        "path": "docs/marketing-flow/screenshots/widescreen-account-page.png",
+        "blobSha": "4ee02eec459a214c25f539abbdc684033150df6d",
+        "format": "png",
+        "bytes": 323195,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/widescreen-bill-page.png",
+        "path": "docs/marketing-flow/screenshots/widescreen-bill-page.png",
+        "blobSha": "e881f60500f7c9bf84b988e0c1532849243d1a96",
+        "format": "png",
+        "bytes": 481223,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/widescreen-budget-page.png",
+        "path": "docs/marketing-flow/screenshots/widescreen-budget-page.png",
+        "blobSha": "eb0c5246e33ae4ca1918b27105bc39c113a74471",
+        "format": "png",
+        "bytes": 319587,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      },
+      {
+        "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/docs/marketing-flow/screenshots/widescreen-currencies.png",
+        "path": "docs/marketing-flow/screenshots/widescreen-currencies.png",
+        "blobSha": "2303e5261caa8a9f6fa150aa946c6490f06d72c9",
+        "format": "png",
+        "bytes": 73955,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/lyskouski/app-finance/blob/23b741396ae6a640678048ee2eed833c999573a3/linux-flatpak/com.tercad.fingrom.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:35.653Z"
+        }
+      }
     ]
   }
 }

@@ -3,8 +3,14 @@
   "slug": "joplin",
   "repoUrl": "https://github.com/laurent22/joplin",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:26.316Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:13.077Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:13.077Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/laurent22/joplin/releases{/id}",
       "deployments_url": "https://api.github.com/repos/laurent22/joplin/deployments",
       "created_at": "2017-01-16T21:49:41Z",
-      "updated_at": "2026-09-26T09:33:03Z",
+      "updated_at": "2026-09-26T16:50:37Z",
       "pushed_at": "2026-09-26T04:24:21Z",
       "git_url": "git://github.com/laurent22/joplin.git",
       "ssh_url": "git@github.com:laurent22/joplin.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/laurent22/joplin",
       "homepage": "https://joplinapp.org",
       "size": 648664,
-      "stargazers_count": 56482,
+      "stargazers_count": 56488,
       "watchers_count": 55683,
       "language": "TypeScript",
       "has_issues": true,
@@ -92,11 +98,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6304,
+      "forks_count": 6305,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 635,
+      "open_issues_count": 637,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -174,7 +180,7 @@
       "contributorsKnown": 813
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:26.316Z",
+      "syncedAt": "2026-09-26T17:39:13.077Z",
       "source": "api"
     },
     "languages": {
@@ -216,10 +222,207 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "fdroid",
+        "platform": "android",
+        "label": "F-Droid",
+        "url": "https://f-droid.org/packages/net.cozic.joplin/",
+        "facts": {
+          "appId": "net.cozic.joplin",
+          "suggestedVersionCode": 2097817,
+          "evidence": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/packages/app-mobile/android/app/build.gradle",
+          "fastlane": "fastlane/metadata/android"
+        },
+        "provenance": {
+          "source": "fdroid",
+          "url": "https://f-droid.org/api/v1/packages/net.cozic.joplin",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/net.cozic.joplin_desktop",
+        "facts": {
+          "appId": "net.cozic.joplin_desktop",
+          "match": "appstream-urls"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/net.cozic.joplin_desktop",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/laurent22/joplin/releases/latest",
+        "facts": {
+          "tag": "v3.7.21",
+          "assets": [
+            "Joplin-3.7.21.AppImage",
+            "Joplin-3.7.21.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/laurent22/joplin/releases/tag/v3.7.21",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/laurent22/joplin/releases/latest",
+        "facts": {
+          "tag": "v3.7.21",
+          "assets": [
+            "Joplin-3.7.21-arm64.DMG",
+            "Joplin-3.7.21-arm64.pkg",
+            "Joplin-3.7.21.dmg",
+            "Joplin-3.7.21.pkg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/laurent22/joplin/releases/tag/v3.7.21",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/laurent22/joplin/releases/latest",
+        "facts": {
+          "tag": "v3.7.21",
+          "assets": [
+            "Joplin-Setup-3.7.21.exe",
+            "JoplinPortable.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/laurent22/joplin/releases/tag/v3.7.21",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "870a7a5a874916d8ad383186892c6ad1ca001ba5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 3272,
+        "width": 124,
+        "height": 124,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/packages/app-mobile/web/public/icons/icon-512.png",
+        "path": "packages/app-mobile/web/public/icons/icon-512.png",
+        "blobSha": "dcc0887e6d1d463abab918cb5d9705b04c27c6f9",
+        "format": "png",
+        "bytes": 86723,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/packages/app-mobile/web/public/manifest.json",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/JoplinIcon.svg",
+        "path": "Assets/JoplinIcon.svg",
+        "blobSha": "0d334a3fbdb268b41928aea9f0bbabd9bcea5237",
+        "format": "svg",
+        "bytes": 3120,
+        "width": 683,
+        "height": 683,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/JoplinIcon.svg",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/JoplinIconBlack.svg",
+        "path": "Assets/JoplinIconBlack.svg",
+        "blobSha": "90f5c30f61269f5882a2c8ac097783b35c67700b",
+        "format": "svg",
+        "bytes": 2751,
+        "width": 1536,
+        "height": 1536,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/JoplinIconBlack.svg",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/WebsiteAssets/images/logo-text.svg",
+        "path": "Assets/WebsiteAssets/images/logo-text.svg",
+        "blobSha": "536ac6108223faa450081427327677a665b2b296",
+        "format": "svg",
+        "bytes": 152365,
+        "width": 92,
+        "height": 30,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/Assets/WebsiteAssets/images/logo-text.svg",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+        "blobSha": "f826d77713cdc07745b4232c9d1f9a1622089152",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 287787,
+        "width": 543,
+        "height": 960,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      },
+      {
+        "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+        "blobSha": "7462ec1139e289168543da98f0b46882af5c8c23",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 71047,
+        "width": 555,
+        "height": 960,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/laurent22/joplin/blob/c5f185aacd84f27e9b4245f8eaa0c7c8ca65f156/fastlane/metadata/android/en-US/images/phoneScreenshots/02.png",
+          "fetchedAt": "2026-09-26T17:39:10.122Z"
+        }
+      }
     ]
   }
 }

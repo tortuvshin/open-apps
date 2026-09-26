@@ -3,8 +3,14 @@
   "slug": "appflowy",
   "repoUrl": "https://github.com/AppFlowy-IO/AppFlowy",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:12.837Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:37:40.158Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:37:40.158Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments",
       "created_at": "2021-06-16T12:56:48Z",
-      "updated_at": "2026-09-26T09:34:27Z",
+      "updated_at": "2026-09-26T17:35:45Z",
       "pushed_at": "2026-09-22T07:09:34Z",
       "git_url": "git://github.com/AppFlowy-IO/AppFlowy.git",
       "ssh_url": "git@github.com:AppFlowy-IO/AppFlowy.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/AppFlowy-IO/AppFlowy",
       "homepage": "https://appflowy.com",
       "size": 93897,
-      "stargazers_count": 76936,
+      "stargazers_count": 76941,
       "watchers_count": 74159,
       "language": "Dart",
       "has_issues": true,
@@ -92,11 +98,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 6038,
+      "forks_count": 6039,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1029,
+      "open_issues_count": 1030,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -159,7 +165,7 @@
       "subscribers_count": 388
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:12.837Z",
+      "syncedAt": "2026-09-26T17:37:40.158Z",
       "source": "api"
     },
     "languages": {
@@ -230,10 +236,176 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/io.appflowy.AppFlowy",
+        "facts": {
+          "appId": "io.appflowy.AppFlowy",
+          "match": "metainfo",
+          "evidence": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/io.appflowy.AppFlowy",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
+        "facts": {
+          "tag": "0.14.5",
+          "assets": [
+            "AppFlowy-0.14.5-android.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.5",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
+        "facts": {
+          "tag": "0.14.5",
+          "assets": [
+            "AppFlowy-0.14.5-linux-x86_64.AppImage",
+            "AppFlowy-0.14.5-linux-x86_64.deb",
+            "AppFlowy-0.14.5-linux-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.5",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
+        "facts": {
+          "tag": "0.14.5",
+          "assets": [
+            "AppFlowy-0.14.5-macos-arm64.dmg",
+            "AppFlowy-0.14.5-macos-universal.dmg",
+            "AppFlowy-0.14.5-macos-x86_64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.5",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
+        "facts": {
+          "tag": "0.14.5",
+          "assets": [
+            "AppFlowy-0.14.5-windows-x86_64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.5",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/appflowy_flutter/web/icons/Icon-512.png",
+        "path": "frontend/appflowy_flutter/web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/appflowy_flutter/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/appflowy_flutter/web/icons/Icon-192.png",
+        "path": "frontend/appflowy_flutter/web/icons/Icon-192.png",
+        "blobSha": "b749bfef07473333cf1dd31e9eed89862a5d52aa",
+        "format": "png",
+        "bytes": 5292,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/appflowy_flutter/web/icons/Icon-192.png",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/resources/flowy_icons/16x/app_logo.svg",
+        "path": "frontend/resources/flowy_icons/16x/app_logo.svg",
+        "blobSha": "96af87f8ffbd630ceb037785eab30042d77c7413",
+        "format": "svg",
+        "bytes": 3096,
+        "width": 30,
+        "height": 30,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/resources/flowy_icons/16x/app_logo.svg",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      },
+      {
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/resources/flowy_icons/40x/app_logo.svg",
+        "path": "frontend/resources/flowy_icons/40x/app_logo.svg",
+        "blobSha": "3958a1a253b402ebe4e75af12ae72e1c2f67793e",
+        "format": "svg",
+        "bytes": 2853,
+        "width": 41,
+        "height": 40,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/resources/flowy_icons/40x/app_logo.svg",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/doc/imgs/welcome.png",
+        "path": "doc/imgs/welcome.png",
+        "blobSha": "ab26b3bb1648e205d85c840eaadaa4e5ea45d3de",
+        "format": "png",
+        "bytes": 346853,
+        "width": 4696,
+        "height": 3344,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml",
+          "fetchedAt": "2026-09-26T17:37:38.557Z"
+        }
+      }
     ]
   }
 }

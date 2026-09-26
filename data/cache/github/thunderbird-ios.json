@@ -3,8 +3,14 @@
   "slug": "thunderbird-ios",
   "repoUrl": "https://github.com/thunderbird/thunderbird-ios",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:43.061Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:41:05.990Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:41:05.990Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "Thunderbird for iOS – Open Source Email App for iOS",
   "github": {
     "repository": {
@@ -75,7 +81,7 @@
       "releases_url": "https://api.github.com/repos/thunderbird/thunderbird-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/thunderbird/thunderbird-ios/deployments",
       "created_at": "2025-01-20T14:50:57Z",
-      "updated_at": "2026-09-26T09:34:40Z",
+      "updated_at": "2026-09-26T16:21:53Z",
       "pushed_at": "2026-09-25T18:54:51Z",
       "git_url": "git://github.com/thunderbird/thunderbird-ios.git",
       "ssh_url": "git@github.com:thunderbird/thunderbird-ios.git",
@@ -83,7 +89,7 @@
       "svn_url": "https://github.com/thunderbird/thunderbird-ios",
       "homepage": null,
       "size": 9907,
-      "stargazers_count": 1209,
+      "stargazers_count": 1210,
       "watchers_count": 1096,
       "language": "Swift",
       "has_issues": true,
@@ -177,7 +183,7 @@
       "contributorsKnown": 13
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:43.061Z",
+      "syncedAt": "2026-09-26T17:41:05.990Z",
       "source": "api"
     },
     "languages": {
@@ -201,9 +207,14 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
   }
 }

@@ -3,8 +3,14 @@
   "slug": "medito-app",
   "repoUrl": "https://github.com/meditohq/medito-app",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T09:40:30.621Z",
-  "partialFailures": [],
+  "lastSuccessAt": "2026-09-26T17:39:41.831Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-26T17:39:41.831Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
   "sourceDescription": "The Medito app is a 100% free meditation app built with flutter. The app is available on Android and iOS.",
   "github": {
     "html": {
@@ -13,7 +19,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T09:40:30.621Z",
+      "syncedAt": "2026-09-26T17:39:41.831Z",
       "source": "api"
     },
     "repository": {
@@ -22,8 +28,8 @@
       "forks_count": 167,
       "open_issues_count": 3,
       "language": "Dart",
-      "pushed_at": "2026-09-26T09:39:24Z",
-      "updated_at": "2026-09-26T09:39:28Z",
+      "pushed_at": "2026-09-26T09:50:09Z",
+      "updated_at": "2026-09-26T09:50:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -54,9 +60,61 @@
     "staleReason": null,
     "confidence": "high",
     "reasons": [
-      "Recent repository activity",
+      "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
       "Clear license found"
     ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/meditohq/medito-app/releases/latest",
+        "facts": {
+          "tag": "v2.0.48",
+          "assets": [
+            "medito-v2.0.48.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/meditohq/medito-app/releases/tag/v2.0.48",
+          "fetchedAt": "2026-09-26T17:39:39.979Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/meditohq/medito-app/blob/8f0ad7970f6791144ef457d5a2392407305f0c72/widgetbook/web/icons/Icon-512.png",
+        "path": "widgetbook/web/icons/Icon-512.png",
+        "blobSha": "88cfd48dff1169879ba46840804b412fe02fefd6",
+        "format": "png",
+        "bytes": 8252,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/meditohq/medito-app/blob/8f0ad7970f6791144ef457d5a2392407305f0c72/widgetbook/web/manifest.json",
+          "fetchedAt": "2026-09-26T17:39:39.979Z"
+        }
+      },
+      {
+        "url": "https://github.com/meditohq/medito-app/blob/8f0ad7970f6791144ef457d5a2392407305f0c72/assets/blush_medito_ios_logo.icon/Assets/logo.svg",
+        "path": "assets/blush_medito_ios_logo.icon/Assets/logo.svg",
+        "blobSha": "f9f0f33e1facd15486fe03b9c4f13a3182353b44",
+        "format": "svg",
+        "bytes": 3207,
+        "width": 120,
+        "height": 61,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/meditohq/medito-app/blob/8f0ad7970f6791144ef457d5a2392407305f0c72/assets/blush_medito_ios_logo.icon/Assets/logo.svg",
+          "fetchedAt": "2026-09-26T17:39:39.979Z"
+        }
+      }
+    ],
+    "screenshots": []
   }
 }
