@@ -22,6 +22,7 @@ import RecordHeader from '../../components/grove/record-header.astro';
 import RecordRelations from '../../components/grove/record-relations.astro';
 import RecordSidebar from '../../components/grove/record-sidebar.astro';
 import TableOfContents from '../../components/grove/table-of-contents.astro';
+import SearchMeta from '../../components/site/search-meta.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
 import { recordTitle } from '../../lib/seo';
 
@@ -70,6 +71,28 @@ const title = recordTitle(
   },
   siteConfig.name,
 );
+
+// Quick-find row and hidden aliases: the search-intent title ("Oinkoin –
+// Open Source Offline Expense Tracker"), what it is an alternative to,
+// its stack and tags — words people type that the body may not contain.
+const indexable = !(seo.noindex || hidden);
+const taxonomy = siteConfig.taxonomy;
+const alternativeTo = (record.relations ?? [])
+  .filter((relation) => relation.type === 'alternative-to')
+  .map((relation) => termName(taxonomy?.subjects, relation.to) ?? relation.to);
+const searchMeta = {
+  summary: detail.description,
+  category: termName(taxonomy?.categories, record.category),
+  platforms: detail.platforms.map((id) => termName(taxonomy?.platforms, id) ?? id).join(', '),
+  aliases: [
+    title.replace(` | ${siteConfig.name}`, ''),
+    ...alternativeTo.map((subject) => `${subject} alternative`),
+    termName(taxonomy?.stacks, project?.stack),
+    ...detail.tags,
+  ]
+    .filter(Boolean)
+    .join(', '),
+};
 ---
 
 <BaseLayout
@@ -84,7 +107,8 @@ const title = recordTitle(
   submitHref="/submit"
   submitLabel={`Submit ${itemSingular}`}
 >
-  <article class="py-8 sm:py-10">
+  <article class="py-8 sm:py-10" data-pagefind-body={indexable ? "" : undefined}>
+    {indexable && <SearchMeta type="App" meta={searchMeta} />}
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
       <RecordHeader detail={detail} />
       <RecordRelations relations={context.relations} />
@@ -106,15 +130,18 @@ const title = recordTitle(
           />
         </div>
         {/* Right rail: the TOC and nothing else. */}
-        <div class="min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:self-start lg:overflow-y-auto">
+        <div data-pagefind-ignore class="min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:self-start lg:overflow-y-auto">
           <TableOfContents items={detail.toc} />
         </div>
       </div>
 
-      <RelatedRecords context={context} />
+      {/* Other records' names would make this page match their searches. */}
+      <div data-pagefind-ignore>
+        <RelatedRecords context={context} />
+      </div>
 
       {/* Metadata panels — full width below the article. */}
-      <section class="mt-12 border-t border-border pt-8" aria-label="Project details">
+      <section data-pagefind-ignore class="mt-12 border-t border-border pt-8" aria-label="Project details">
         <RecordSidebar detail={detail} sticky={false} layout="grid" />
       </section>
     </div>

@@ -12,6 +12,8 @@
  *     other than the page's own URL on `site.url`
  *   - a `noindex` page that the sitemap still lists, or an indexable
  *     page the sitemap leaves out — the two must agree
+ *   - a `noindex` page marked `data-pagefind-body`, which would put it
+ *     in the header quick-find
  *   - the retired "Open Apps" brand in <title> or og:site_name
  *
  * Over-long titles and descriptions are warnings: they get truncated in
@@ -96,6 +98,7 @@ for (const file of walk(DIST)) {
   if (noindex) {
     noindexCount += 1;
     if (inSitemap(path)) errors.push(`${path}: noindex, but listed in the sitemap`);
+    if (/data-pagefind-body/.test(html)) errors.push(`${path}: noindex, but in the search index`);
     continue;
   }
 

@@ -1,0 +1,35 @@
+---
+/**
+ * SearchMeta — hidden Pagefind filter and metadata for the header
+ * quick-find (`pagefind --site dist`, run by `pnpm build`).
+ *
+ * The page itself marks its main content with `data-pagefind-body`.
+ * Once any page does, Pagefind indexes only pages that do, so a noindex
+ * page (a hidden record, an empty taxonomy term) leaves the attribute
+ * off and stays out of search the way it stays out of the sitemap.
+ *
+ * `type` is the filter the quick-find groups results by. `meta` entries
+ * are returned with each result to render its row, and are searched as
+ * text: that is how an alias such as "Granola alternative" matches a
+ * record whose body never says it.
+ */
+
+interface Props {
+  type: 'App' | 'Collection' | 'Category' | 'Stack';
+  /** Result title override (default: the page's first h1). */
+  title?: string | undefined;
+  meta?: Record<string, string | null | undefined>;
+}
+
+const { type, title, meta = {} } = Astro.props;
+
+// An inline value runs to the end of the attribute, so commas are safe.
+const entries = Object.entries({ title, ...meta })
+  .map(([key, value]) => [key, (value ?? '').replace(/\s+/g, ' ').trim()] as const)
+  .filter(([, value]) => value !== '');
+---
+
+<div hidden data-pagefind-ignore>
+  <span data-pagefind-filter={`type:${type}`}></span>
+  {entries.map(([key, value]) => <span data-pagefind-meta={`${key}:${value}`}></span>)}
+</div>

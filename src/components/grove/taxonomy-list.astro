@@ -75,7 +75,9 @@ const hrefPrefix = backHref.replace(/\/$/, '');
   </h1>
   <p class="m-0 mt-3 max-w-2xl text-[0.9375rem] leading-relaxed text-ink-500 dark:text-ink-400">{lede}</p>
 
-  <div class="mt-10">
+  {/* The cards repeat every listed record; indexing them would make this
+      page match each record's own search. The term is found by name. */}
+  <div class="mt-10" data-pagefind-ignore>
     <p class="m-0 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">
       {formatCount(count, itemNoun)}
     </p>

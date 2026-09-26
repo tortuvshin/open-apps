@@ -2,6 +2,7 @@
 import siteConfig from '@grove/generated/site-config.json';
 import { getTaxonomyPageModel, itemLabelPlural } from '@grove-dev/astro/server';
 import TaxonomyList from '../../components/grove/taxonomy-list.astro';
+import SearchMeta from '../../components/site/search-meta.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
 import { taxonomyDescription, taxonomyHeading, taxonomyTitle, type TaxonomyTerm } from '../../lib/seo';
 
@@ -19,6 +20,7 @@ const { displayName, term } = Astro.props;
 const name = Astro.params.name;
 const model = getTaxonomyPageModel('stacks', name, displayName, siteConfig);
 const plural = itemLabelPlural();
+const indexable = model.records.length > 0;
 const description = taxonomyDescription('stacks', term, plural);
 ---
 
@@ -29,13 +31,25 @@ const description = taxonomyDescription('stacks', term, plural);
   imageAlt={model.seo.imageAlt}
   jsonLd={model.seo.jsonLd}
   site={siteConfig}
-  noindex={model.records.length === 0}
+  noindex={!indexable}
 >
-  <TaxonomyList
-    eyebrow="Stack"
-    displayName={displayName}
-    heading={taxonomyHeading(term, plural)}
-    lede={description}
-    records={model.records}
-  />
+  <div data-pagefind-body={indexable ? "" : undefined}>
+    {indexable && (
+      <SearchMeta
+        type="Stack"
+        title={displayName}
+        meta={{
+          summary: description,
+          aliases: [taxonomyHeading(term, plural), term.seoTitle, name].filter(Boolean).join(', '),
+        }}
+      />
+    )}
+    <TaxonomyList
+      eyebrow="Stack"
+      displayName={displayName}
+      heading={taxonomyHeading(term, plural)}
+      lede={description}
+      records={model.records}
+    />
+  </div>
 </BaseLayout>

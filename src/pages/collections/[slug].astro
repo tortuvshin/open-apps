@@ -8,6 +8,7 @@ import {
   recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
 import CollectionPage from '../../components/grove/collection-page.astro';
+import SearchMeta from '../../components/site/search-meta.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
 import {
   browseLinkFor,
@@ -40,6 +41,7 @@ const routeSlug = siteConfig.blueprintConfig?.routeSlug ?? 'apps';
 // that means; the full formula stays in the selection note.
 const activityRanked =
   collection.ranking?.preset === 'active' || collection.ranking?.preset === 'recency';
+const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collection.subject)?.name;
 ---
 <BaseLayout
   title={model.seo.title}
@@ -50,22 +52,33 @@ const activityRanked =
   noindex={model.seo.noindex}
   site={siteConfig}
 >
-  <CollectionPage
-    model={model}
-    leadHtml={body.lead}
-    comparisonAnchor={body.tableAnchor}
-    bodyHtml={body.rest}
-    editorial={editorial}
-    eyebrow={editorial ? "Editor's picks" : "Live view"}
-    records={recordsBySlug}
-    browse={editorial ? undefined : browseLinkFor(collection, routeSlug)}
-    refreshedAt={editorial ? undefined : refreshedAt(model.entries, recordsBySlug)}
-    activityNote={activityRanked
-      ? "Ranked by repository activity — recent releases, pushes and commits — not by star growth."
-      : undefined}
-    countNoun={{
-      singular: siteConfig.blueprintConfig?.labelSingular ?? "item",
-      plural: siteConfig.blueprintConfig?.labelPlural ?? "items",
-    }}
-  />
+  <div data-pagefind-body={model.seo.noindex ? undefined : ""}>
+    {!model.seo.noindex && (
+      <SearchMeta
+        type="Collection"
+        meta={{
+          summary: model.collection.description,
+          aliases: subject ? `${subject} alternatives, ${subject} alternative` : undefined,
+        }}
+      />
+    )}
+    <CollectionPage
+      model={model}
+      leadHtml={body.lead}
+      comparisonAnchor={body.tableAnchor}
+      bodyHtml={body.rest}
+      editorial={editorial}
+      eyebrow={editorial ? "Editor's picks" : "Live view"}
+      records={recordsBySlug}
+      browse={editorial ? undefined : browseLinkFor(collection, routeSlug)}
+      refreshedAt={editorial ? undefined : refreshedAt(model.entries, recordsBySlug)}
+      activityNote={activityRanked
+        ? "Ranked by repository activity — recent releases, pushes and commits — not by star growth."
+        : undefined}
+      countNoun={{
+        singular: siteConfig.blueprintConfig?.labelSingular ?? "item",
+        plural: siteConfig.blueprintConfig?.labelPlural ?? "items",
+      }}
+    />
+  </div>
 </BaseLayout>
