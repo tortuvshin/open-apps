@@ -21,26 +21,52 @@
  * skips the individual checkboxes. The result count goes to a
  * debounced polite live region, and re-renders never leave keyboard
  * focus stranded on `<body>`.
+ *
+ * With a `scope` (a taxonomy page), the record index is narrowed to the
+ * scope before anything else, the scoped groups are stripped from the
+ * URL's filters, and every URL is built on the page's own
+ * `pathPrefix`. A scoped list is one page long: it has no prerendered
+ * `/page/{n}/` routes to hand off to.
  */
+import type { DirectoryScope } from '../../lib/live-filters.ts';
+
 interface Props {
+  /** Directory route slug: where the record index and cards live. */
   slug: string;
   singular: string;
   plural: string;
   taxonomy: Record<string, unknown>;
   /** Page this route prerendered; the client starts from it. */
   routePage?: number;
+  /** Immutable filters merged into every query (see DirectoryBrowseView). */
+  scope?: DirectoryScope | undefined;
+  /** Path filtered URLs are built on. Default: `/{slug}`. */
+  pathPrefix?: string;
 }
 
-const { slug, singular, plural, taxonomy, routePage = 1 } = Astro.props;
-const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, routePage }).replace(
-  /</g,
-  '\\u003c',
-);
+const {
+  slug,
+  singular,
+  plural,
+  taxonomy,
+  routePage = 1,
+  scope,
+  pathPrefix = `/${slug}`,
+} = Astro.props;
+const clientConfigJson = JSON.stringify({
+  slug,
+  singular,
+  plural,
+  taxonomy,
+  routePage,
+  scope: scope ?? null,
+  pathPrefix,
+}).replace(/</g, '\\u003c');
 ---
 
 <script is:inline id="grove-index-config" type="application/json" set:html={clientConfigJson}></script>
 <script>
-  import type { IndexRecord } from "@grove-dev/core";
+  import type { IndexFilters, IndexRecord } from "@grove-dev/core";
   import type { DirectoryFilterGroupKey } from "@grove-dev/core/directory";
   import {
     PAGE_SIZE,
@@ -78,8 +104,12 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
     debounce as debounced,
     focusIndexAfterRender,
     resultsAnnouncement,
+    scopedGroups,
+    searchWithoutScope,
     showResultsLabel,
+    withoutScope,
   } from "../../lib/live-filters.ts";
+  import type { DirectoryScope } from "../../lib/live-filters.ts";
 
   (() => {
       const configSource = document.querySelector("#grove-index-config");
@@ -88,13 +118,22 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
       // Closures below cannot see the guard above; bind the narrowed type once.
       const list = listNode;
 
-      const { slug, singular, plural, taxonomy, routePage } = JSON.parse(
-        configSource.textContent || "{}",
-      );
+      const config = JSON.parse(configSource.textContent || "{}");
+      const { slug, singular, plural, taxonomy, routePage, pathPrefix: listPath } = config;
+      const scope: DirectoryScope | null = config.scope ?? null;
+      const scoped = scopedGroups(scope).length > 0;
       // Filled by `loadRecords()`. Until then the page shows what the
       // server rendered, which for an unfiltered view is already right.
       let items: IndexRecord[] = [];
-      const pathPrefix = `/${slug}`;
+      // The record index and the cards always live under the directory.
+      // The URLs this page builds live under its own path, which is the
+      // same thing except on a scoped page.
+      const dataPrefix = `/${slug}`;
+      const pathPrefix: string = listPath || dataPrefix;
+
+      /** URL filters, minus anything the scope already fixes. */
+      const readFilters = (source: URLSearchParams) =>
+        withoutScope(filtersFromSearchParams(source), scope);
 
       // Cards for this page came with the document. A filtered view can
       // surface any record in the directory, so the rest are fetched
@@ -114,10 +153,13 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
       let recordsSettled = false;
       function loadRecords(): Promise<void> {
         if (!recordSource) {
-          recordSource = fetch(`${pathPrefix}/page/records.json`)
+          recordSource = fetch(`${dataPrefix}/page/records.json`)
             .then((response) => (response.ok ? response.json() : []))
             .then((data) => {
-              items = Array.isArray(data) ? data : [];
+              const all: IndexRecord[] = Array.isArray(data) ? data : [];
+              // The scope is applied once, here. Everything downstream
+              // (results, facet counts) only ever sees the scoped set.
+              items = scope ? filterRecords(all, scope as IndexFilters) : all;
             })
             .catch(() => {
               items = [];
@@ -135,7 +177,7 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
       let cardsSettled = false;
       function loadAllCards(): Promise<void> {
         if (!cardSource) {
-          cardSource = fetch(`${pathPrefix}/page/cards/`)
+          cardSource = fetch(`${dataPrefix}/page/cards/`)
             .then((response) => (response.ok ? response.text() : ""))
             .then((html) => {
               if (!html) return;
@@ -167,8 +209,16 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         controls.addEventListener(type, () => loadAll(), { once: true, passive: true });
       }
 
+      // A hand-written `/stacks/flutter/?stack=react` names the scope
+      // in the query. The scope wins, so tidy the URL to match what the
+      // page shows.
+      const tidied = searchWithoutScope(location.search, scope, DIRECTORY_FILTER_KEYS);
+      if (tidied !== null) {
+        history.replaceState(history.state, "", `${location.pathname}${tidied}${location.hash}`);
+      }
+
       let params = new URLSearchParams(location.search);
-      let filters = filtersFromSearchParams(params);
+      let filters = readFilters(params);
       let sort = effectiveSort(filters);
 
       /**
@@ -183,6 +233,9 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
 
       /** Client views own the page number; prerendered ones use the path. */
       const currentPage = () => (isClientView() ? effectivePage(filters) : routePage || 1);
+
+      /** A scoped list is one page, like its prerendered document. */
+      const pageSizeFor = (count: number) => (scoped ? Math.max(count, 1) : PAGE_SIZE);
 
       const heading = document.querySelector<HTMLElement>("#results-heading");
       const drawerResults = document.querySelector<HTMLElement>("[data-drawer-results]");
@@ -270,9 +323,10 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
 
       function applyClientFilters() {
         const filtered = applySort(filterRecords(items, filters), sort);
-        const pageCount = totalPages(filtered.length);
+        const pageSize = pageSizeFor(filtered.length);
+        const pageCount = totalPages(filtered.length, pageSize);
         const page = Math.min(Math.max(1, currentPage()), pageCount);
-        renderList(filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE));
+        renderList(filtered.slice((page - 1) * pageSize, page * pageSize));
 
         const count = document.querySelector("#results-count");
         const pageLabel = document.querySelector("#results-page");
@@ -529,7 +583,7 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
         if (mode === "push" && next.href !== location.href) history.pushState(state, "", next);
         else history.replaceState(state, "", next);
         params = new URLSearchParams(next.search);
-        filters = filtersFromSearchParams(params);
+        filters = readFilters(params);
         sort = effectiveSort(filters);
         // A chip, "Clear all" or the zero-results reset can drop the
         // query. Keep the box in step, but never rewrite it while the
@@ -637,7 +691,7 @@ const clientConfigJson = JSON.stringify({ slug, singular, plural, taxonomy, rout
 
       window.addEventListener("popstate", (event) => {
         params = new URLSearchParams(location.search);
-        filters = filtersFromSearchParams(params);
+        filters = readFilters(params);
         sort = effectiveSort(filters);
         if (searchInput instanceof HTMLInputElement) searchInput.value = filters.q || "";
         document.querySelectorAll('select[name="sort"]').forEach((select) => {
