@@ -1,6 +1,6 @@
 ---
 name: "budgetly"
-repoUrl: https://github.com/example/budgetly
+repoUrl: https://github.com/emavgl/oinkoin
 category: finance
 stack: flutter
 description: "Budgetly tracks spending offline and keeps every entry on the device, with no account."
