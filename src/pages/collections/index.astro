@@ -2,23 +2,86 @@
 import records from '@grove/generated/records.json';
 import siteConfig from '@grove/generated/site-config.json';
 import {
+  getCollectionBodyHtml,
   getCollectionIndexModel,
   loadCollections,
   recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
-import CollectionIndex from '../../components/grove/collection-index.astro';
+import { formatCount, runCollection } from '@grove-dev/core';
+import CollectionGuide, { type GuideTile } from '../../components/site/collection-guide.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
+import {
+  firstSentence,
+  formatDate,
+  freshnessOf,
+  type GuideRecord,
+  INTENT_GROUPS,
+  intentOf,
+  isEditorial,
+  questionFor,
+} from '../../lib/collection-guide';
 
 const collections = await loadCollections(process.cwd());
-const entries = recordsToCollectionEntries(
-  (records as { records: unknown[] }).records as never,
-  siteConfig,
-);
+const allRecords = (records as { records: unknown[] }).records;
+const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
 const model = getCollectionIndexModel(collections, entries, siteConfig);
 const countNoun = {
   singular: siteConfig.blueprintConfig?.labelSingular ?? 'item',
   plural: siteConfig.blueprintConfig?.labelPlural ?? 'items',
 };
+const recordsBySlug = new Map(
+  (allRecords as GuideRecord[]).map((record) => [record.slug, record] as const),
+);
+const subjects = (siteConfig.taxonomy?.subjects ?? []) as Array<{ id: string; name: string }>;
+
+const now = Date.now();
+const tiles = collections.map((collection) => {
+  const result = runCollection(collection, entries);
+  const editorial = isEditorial(result.entries);
+  const freshness = freshnessOf(collection, result.entries, recordsBySlug, now);
+  const introduction = collection.editorial?.introduction;
+  const tile: GuideTile = {
+    slug: collection.slug,
+    url: `/collections/${collection.slug}/`,
+    title: collection.title,
+    question: questionFor(collection, subjects),
+    takeaway: firstSentence(introduction) ?? collection.description,
+    editorial,
+    countLabel: formatCount(result.entries.length, countNoun),
+    examples: result.entries.slice(0, editorial ? 4 : 3).map((entry) => ({
+      title: entry.title,
+      url: `/collections/${collection.slug}/#pick-${entry.slug}`,
+      pick: firstSentence(entry.note) ?? recordsBySlug.get(entry.slug)?.bestFor?.[0],
+    })),
+    dateLabel: freshness.label,
+    date: freshness.date,
+    dateText: formatDate(freshness.date),
+    introduction,
+    hasComparison: Boolean(getCollectionBodyHtml(collection.content)?.includes('<table')),
+  };
+  return {
+    tile,
+    intent: intentOf(collection),
+    empty: result.isEmpty,
+    stale: freshness.stale,
+    reviewedAt: Date.parse(collection.editorial?.lastReviewedAt ?? '') || 0,
+  };
+});
+
+// Feature the most recently reviewed editor's-picks collection; never an
+// empty or stale one. With none eligible, nothing is featured.
+const featuredCandidate = tiles
+  .filter((t) => t.tile.editorial && !t.empty && !t.stale)
+  .sort((a, b) => b.reviewedAt - a.reviewedAt)[0];
+const featured = featuredCandidate?.tile;
+
+const groups = INTENT_GROUPS.map((group) => ({
+  ...group,
+  tiles: tiles
+    .filter((t) => t.intent === group.id && t.tile.slug !== featured?.slug)
+    .map((t) => ({ ...t.tile, examples: t.tile.examples.slice(0, 3) })),
+})).filter((group) => group.tiles.length > 0);
+
 const seo = model.seo;
 ---
 <BaseLayout
@@ -28,5 +91,5 @@ const seo = model.seo;
   jsonLd={seo?.jsonLd}
   site={siteConfig}
 >
-  <CollectionIndex model={model} level={1} countNoun={countNoun} />
+  <CollectionGuide featured={featured} groups={groups} />
 </BaseLayout>
