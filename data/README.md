@@ -4,12 +4,10 @@ The files in this directory are produced and consumed by the Grove
 framework. Do not hand-edit any of the following — the next sync
 will clobber the changes:
 
-- `health.yml` — auto-generated per-record health snapshot
-  (`status`, `tier`, `cleanupCandidate`, `confidence`, `reasons`)
-  produced by `pnpm exec grove sync` from the GitHub API metadata
-  in each `data/records/<slug>.yml`. ~10k lines, churns on every
-  sync; PRs that touch it for reasons other than the `sync`
-  commit are almost always wrong.
+- The `health` and `github` blocks inside each
+  `data/records/<slug>.yml` — written by `pnpm exec grove sync github`
+  (`status`, `tier`, `cleanupCandidate`, `confidence`, `reasons`).
+  PRs that edit them outside the sync commit are almost always wrong.
 - `generated/contributors.json` — auto-generated list of human
   contributors to this repository (bots filtered out at the
   framework level). Produced by the `sync-contributors` workflow.
