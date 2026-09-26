@@ -105,7 +105,12 @@ export default defineConfig({
   routes: { directory: "apps", item: "app" },
   labels: { singular: "app", plural: "apps" },
 
-  integrations: { github: true },
+  // `candidates` makes the weekly sync collect install-channel, logo and
+  // screenshot candidates into data/cache/github/. Nothing is shown on the
+  // site until a reviewer approves it in data/decisions.yml.
+  integrations: {
+    github: { metadata: true, contributors: true, health: true, candidates: true },
+  },
 
   // No `primaryColor`: buttons and accents fall through to
   // `--grove-foreground`, the neutral treatment the design system
