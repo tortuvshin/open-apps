@@ -1,3 +1,54 @@
+---
+name: OnionBrowser
+repoUrl: https://github.com/OnionBrowser/OnionBrowser
+projectType: production
+category: productivity
+stack: ios
+description: An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network
+sourceDescription: An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network
+platforms:
+  - ios
+licenses:
+  - noassertion
+links:
+  github: https://github.com/OnionBrowser/OnionBrowser
+distribution:
+  channels:
+    - type: app-store
+      platform: ios
+      label: App Store
+      url: https://apps.apple.com/us/app/onion-browser/id519296448
+      verified: false
+tags:
+  - anonymity
+  - browser
+  - mobile
+  - mpl
+  - objective-c
+  - onion
+  - privacy
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: Onion Browser – Open Source Tor Browser for iOS
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: OnionBrowser
+  repo: OnionBrowser
+  url: https://github.com/OnionBrowser/OnionBrowser
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T02:50:40+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 OnionBrowser is the long-standing open-source browser for iOS that
 **routes all traffic through the Tor network**. It is maintained by
 Mike Tigas, was the first Tor-capable browser on the App Store, and

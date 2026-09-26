@@ -1,3 +1,49 @@
+---
+name: UTM
+repoUrl: https://github.com/utmapp/UTM
+projectType: production
+category: productivity
+stack: ios
+description: Run virtual machines on iOS and macOS — Windows, Linux, and retro operating systems.
+sourceDescription: Virtual machines for iOS and macOS
+platforms:
+  - ios
+  - macos
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/utmapp/UTM
+distribution:
+  channels: []
+tags:
+  - apple
+  - emulation
+  - jailbreak
+  - qemu
+  - utm
+  - virtual-machines
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: UTM – Open Source Virtual Machines for iOS & macOS
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: utmapp
+  repo: UTM
+  url: https://github.com/utmapp/UTM
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:11:22+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 UTM is an iOS and macOS frontend for **QEMU**, the open-source machine
 emulator that became the de-facto standard for cross-architecture
 virtualization. The same team ships it as a Mac App Store release and

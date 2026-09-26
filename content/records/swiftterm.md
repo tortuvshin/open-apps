@@ -1,3 +1,46 @@
+---
+name: SwiftTerm
+repoUrl: https://github.com/migueldeicaza/SwiftTerm
+projectType: real-app
+category: tools
+stack: ios
+description: An Xterm/VT100-compatible terminal emulator implemented in Swift for iOS.
+sourceDescription: Xterm/VT100 Terminal emulator in Swift
+platforms:
+  - ios
+licenses:
+  - mit
+links:
+  github: https://github.com/migueldeicaza/SwiftTerm
+distribution:
+  channels: []
+tags:
+  - swift
+  - swiftui
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (1,572 stars on GitHub).
+caveats: []
+seo:
+  title: SwiftTerm – Open Source Terminal Emulator in Swift
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: migueldeicaza
+  repo: SwiftTerm
+  url: https://github.com/migueldeicaza/SwiftTerm
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 SwiftTerm is an Xterm/VT100-compatible terminal emulator implemented
 in Swift for iOS and macOS. It is maintained by Miguel de Icaza
 (of GNOME, Xamarin, and .NET MAUI fame) and is the most permissive
