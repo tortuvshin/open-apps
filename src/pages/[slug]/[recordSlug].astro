@@ -1,14 +1,18 @@
 ---
 /**
- * Detail page — thin consumer wiring up the package's
- * RecordHeader, EditorialSummary, TableOfContents, MarkdownBody,
- * and RecordSidebar components. All rendering logic, prose
- * styling, sidebar visibility, and activity-badge rules live in
- * `@grove-dev/astro`; this file only composes them.
+ * Detail page. Above the fold: identity, a one-sentence descriptor,
+ * platforms and stack, install/source CTAs and the curator's one
+ * verdict and one caveat (RecordHeader). Then the article, with its
+ * table of contents beside it when there is one; "Explore similar apps"
+ * after the article; project facts last.
+ *
+ * Which verdict, caveat, badge and collections to show is decided in
+ * `lib/record-editorial.ts`; the components only render.
  */
 import records from '@grove/generated/records.json';
 import siteConfig from '@grove/generated/site-config.json';
 import {
+  getContentHtml,
   getRecordContextModel,
   getRecordDetailModel,
   loadCollections,
@@ -19,11 +23,11 @@ import EditorialSummary from '../../components/grove/editorial-summary.astro';
 import MarkdownBody from '../../components/grove/markdown-body.astro';
 import RelatedRecords from '../../components/grove/related-records.astro';
 import RecordHeader from '../../components/grove/record-header.astro';
-import RecordRelations from '../../components/grove/record-relations.astro';
 import RecordSidebar from '../../components/grove/record-sidebar.astro';
 import TableOfContents from '../../components/grove/table-of-contents.astro';
 import SearchMeta from '../../components/site/search-meta.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
+import { editorialReview, pickVerdict, similarCollections, splitLead } from '../../lib/record-editorial';
 import { recordTitle } from '../../lib/seo';
 
 export function getStaticPaths() {
@@ -43,14 +47,46 @@ const project = record.kind === 'project' ? record : undefined;
 
 // Where this page links out to: subject hubs, sibling records, and the
 // collections the record appears in.
+const collections = await loadCollections(process.cwd());
 const context = getRecordContextModel(record, {
-  collections: await loadCollections(process.cwd()),
+  collections,
   entries: recordsToCollectionEntries(
     (records as { records: unknown[] }).records as never,
     siteConfig,
   ),
   subjects: siteConfig.taxonomy?.subjects ?? [],
 });
+
+// "Alternative to X" only where the relation carries evidence.
+const verifiedRelations = context.relations.filter((relation) => relation.evidence);
+const verifiedSubjects = verifiedRelations.map((relation) => relation.subject.id);
+const relatedRecords = context.relatedRecords.filter((group) =>
+  verifiedSubjects.includes(group.subject.id),
+);
+const exploreCollections = similarCollections(
+  record.slug,
+  context.collectionMembership,
+  collections,
+  verifiedSubjects,
+);
+
+// Header: the summary's first sentence; the rest opens the article.
+const { lead, rest: summaryRest } = splitLead(detail.summary);
+const projectWords =
+  detail.sourceDescription && detail.sourceDescription !== detail.summary
+    ? detail.sourceDescription
+    : '';
+// One verdict and one caveat in the header. A written article already
+// covers the rest; without one, the remaining notes become sections.
+const verdict = pickVerdict(detail.whyListed, detail.caveats);
+const review = editorialReview(record.curation);
+const hasBody = Boolean(getContentHtml(record.slug));
+const remainingNotes = {
+  whyListed: verdict.verdict ? detail.whyListed.slice(1) : detail.whyListed,
+  bestFor: detail.bestFor,
+  caveats: verdict.caveat ? detail.caveats.slice(1) : detail.caveats,
+};
+const hasToc = detail.toc.length > 1;
 
 // A record the health sweep has hidden is off every list and out of
 // the sitemap; its page stays up for old links but is not indexed.
@@ -110,34 +146,62 @@ const searchMeta = {
   <article class="py-8 sm:py-10" data-pagefind-body={indexable ? "" : undefined}>
     {indexable && <SearchMeta type="App" meta={searchMeta} />}
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
-      <RecordHeader detail={detail} />
-      <RecordRelations relations={context.relations} />
+      <RecordHeader
+        detail={detail}
+        lead={lead}
+        relations={verifiedRelations}
+        verdict={verdict}
+        review={review}
+      />
 
+      {/* The TOC rail only exists when there is an article to navigate;
+          otherwise the reading column stands alone at a readable width. */}
       <div
-        class="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-12"
+        class:list={[
+          hasToc
+            ? "grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-12"
+            : "max-w-[72ch]",
+        ]}
       >
-        {/* Reading column: editorial context, then the article —
-            no TOC panel pushing the body down. */}
         <div class="min-w-0">
-          <EditorialSummary
-            bestFor={detail.bestFor}
-            caveats={detail.caveats}
-            whyListed={detail.whyListed}
-          />
-          <MarkdownBody
-            recordSlug={record.slug}
-            fallback={record.content ? "This record doesn't have notes yet." : undefined}
-          />
+          {(summaryRest || projectWords) && (
+            <div class="mb-8 flex flex-col gap-2">
+              {summaryRest && (
+                <p class="m-0 text-base leading-relaxed text-ink-700 dark:text-ink-200">{summaryRest}</p>
+              )}
+              {projectWords && (
+                <p class="m-0 text-sm leading-relaxed text-ink-500 dark:text-ink-400">
+                  <span class="text-2xs font-semibold uppercase tracking-wider">From the project's README: </span>
+                  {projectWords}
+                </p>
+              )}
+            </div>
+          )}
+          {hasBody ? (
+            <MarkdownBody recordSlug={record.slug} />
+          ) : (
+            <EditorialSummary {...remainingNotes} />
+          )}
         </div>
-        {/* Right rail: the TOC and nothing else. */}
-        <div data-pagefind-ignore class="min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:self-start lg:overflow-y-auto">
-          <TableOfContents items={detail.toc} />
-        </div>
+        {hasToc && (
+          <div data-pagefind-ignore class="min-w-0 lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:self-start lg:overflow-y-auto">
+            <TableOfContents items={detail.toc} />
+          </div>
+        )}
       </div>
 
       {/* Other records' names would make this page match their searches. */}
       <div data-pagefind-ignore>
-        <RelatedRecords context={context} />
+        <RelatedRecords
+          collections={exploreCollections}
+          relatedRecords={relatedRecords}
+          category={record.category
+            ? {
+                url: `/categories/${record.category}/`,
+                label: termName(taxonomy?.categories, record.category) ?? record.category,
+              }
+            : undefined}
+        />
       </div>
 
       {/* Metadata panels — full width below the article. */}

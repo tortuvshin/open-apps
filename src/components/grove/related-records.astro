@@ -1,31 +1,59 @@
 ---
 /**
- * RelatedRecords.astro
+ * RelatedRecords.astro — "Explore similar apps".
  *
- * Where a record page leads next: sibling records that share a subject
- * ("Other alternatives to Notion") and the collections the record
- * appears in. Both come from `getRecordContextModel`. Before this, a
- * detail page linked to its stack and its category and nothing else.
+ * Where a record page leads once the reader has finished the article:
+ *   - up to three collections that actually contain the record, the
+ *     comparison hub and hand-picked lists first (see
+ *     `similarCollections`)
+ *   - sibling records that share a subject ("Other alternatives to
+ *     Notion"), with the hub as the "compare them all" link
+ *   - the record's category, for readers who want the wider shelf
  *
- * Renders nothing when there is neither.
+ * Renders nothing when there are neither collections nor siblings.
  */
 import type { RecordContextModel } from '@grove-dev/astro/server';
+import type { SimilarCollection } from '../../lib/record-editorial.ts';
 
 interface Props {
-  context: RecordContextModel;
+  collections: SimilarCollection[];
+  relatedRecords: RecordContextModel['relatedRecords'];
+  category?: { url: string; label: string };
 }
 
-const { context } = Astro.props;
-const hasAny = context.relatedRecords.length > 0 || context.collectionMembership.length > 0;
+const { collections, relatedRecords, category } = Astro.props;
+const hasAny = collections.length > 0 || relatedRecords.length > 0;
 ---
 
 {hasAny && (
-  <section class="mt-12 border-t border-border pt-8" aria-label="Related">
-    {context.relatedRecords.map((group) => (
-      <div class="mb-8">
-        <h2 class="m-0 text-[1.125rem] font-semibold tracking-tight text-foreground">
+  <section class="mt-12 border-t border-border pt-8" aria-labelledby="explore-similar-title">
+    <h2 id="explore-similar-title" class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">
+      Explore similar apps
+    </h2>
+
+    {collections.length > 0 && (
+      <div class="mt-5">
+        <h3 class="m-0 text-2xs font-semibold uppercase tracking-wider text-muted-foreground">Featured in</h3>
+        <ul class="m-0 mt-3 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
+          {collections.map((c) => (
+            <li class="m-0">
+              <a href={c.url} class="block h-full rounded-[var(--radius-lg)] border border-border bg-card px-4 py-3 no-underline hover:border-ink-400">
+                <span class="block text-sm font-medium text-foreground">{c.title} →</span>
+                {c.description && (
+                  <span class="mt-1 line-clamp-2 block text-[0.8125rem] leading-relaxed text-muted-foreground">{c.description}</span>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {relatedRecords.map((group) => (
+      <div class="mt-8">
+        <h3 class="m-0 text-2xs font-semibold uppercase tracking-wider text-muted-foreground">
           Other {group.label.toLowerCase().replace(/ to$/, 's to')} {group.subject.name}
-        </h2>
+        </h3>
         <ul class="m-0 mt-3 grid list-none grid-cols-1 gap-2 p-0 sm:grid-cols-2">
           {group.records.map((r) => (
             <li class="m-0 rounded-md border border-border bg-card px-3 py-2.5">
@@ -36,7 +64,8 @@ const hasAny = context.relatedRecords.length > 0 || context.collectionMembership
             </li>
           ))}
         </ul>
-        {group.hub && (
+        {/* The hub is already a "Featured in" card when the record is in it. */}
+        {group.hub && !collections.some((c) => c.url === group.hub?.url) && (
           <p class="m-0 mt-3 text-sm">
             <a href={group.hub.url} class="font-medium text-foreground underline underline-offset-2">
               Compare them all: {group.hub.title} →
@@ -46,19 +75,12 @@ const hasAny = context.relatedRecords.length > 0 || context.collectionMembership
       </div>
     ))}
 
-    {context.collectionMembership.length > 0 && (
-      <div>
-        <h2 class="m-0 text-[1.125rem] font-semibold tracking-tight text-foreground">Featured in</h2>
-        <ul class="m-0 mt-3 flex list-none flex-wrap gap-2 p-0">
-          {context.collectionMembership.map((c) => (
-            <li class="m-0">
-              <a href={c.url} class="inline-flex rounded-full border border-border bg-card px-3 py-1 text-sm text-foreground no-underline hover:border-ink-400">
-                {c.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+    {category && (
+      <p class="m-0 mt-6 text-sm">
+        <a href={category.url} class="text-ink-600 underline underline-offset-2 dark:text-ink-300">
+          More {category.label} apps →
+        </a>
+      </p>
     )}
   </section>
 )}
