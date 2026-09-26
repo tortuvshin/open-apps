@@ -234,6 +234,8 @@ const markdown = [
   '',
   '</details>',
   '',
+  '> **After merge:** the app page offers a "Featured on Open App Scout" README badge, and links from it to your site carry `ref=openappscout.com`. Add `submittedBy: <your GitHub login>` to the frontmatter to be credited on the page.',
+  '',
   `<sub>${UNKNOWN} = could not be checked (rate limit, network, bot blocking) — never counted as a pass. Updated on every push.</sub>`,
 ].join('\n');
 

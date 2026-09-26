@@ -56,6 +56,15 @@ closing `---`.
 5. Run `pnpm exec grove check` and `pnpm build`.
 6. Open a pull request explaining why the app is useful to run or study.
 
+## After your app is listed
+
+- Links from the app page to the app's own site carry
+  `ref=openappscout.com`, and no outbound link strips the referrer, so
+  visits show up as coming from Open App Scout in your analytics and in
+  GitHub's Traffic → Referring sites.
+- The app page's sidebar has a "Featured on Open App Scout" badge with
+  Markdown and HTML snippets (light and dark) for your README.
+
 ## Update an app
 
 Edit the app's `content/records/<slug>.md`: the frontmatter for

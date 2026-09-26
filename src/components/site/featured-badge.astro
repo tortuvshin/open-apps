@@ -1,0 +1,64 @@
+---
+/**
+ * FeaturedBadge — "Featured on Open App Scout" snippet for maintainers.
+ *
+ * Sits in the record sidebar. The badge links back to the record with
+ * `?ref=badge` so badge traffic is visible in analytics, and ships a
+ * dark variant through <picture>, which GitHub READMEs honour.
+ */
+interface Props {
+  /** Absolute URL of the record page, without query string. */
+  pageUrl: string;
+  /** Absolute site origin, e.g. https://openappscout.com */
+  origin: string;
+  name: string;
+}
+
+const { pageUrl, origin, name } = Astro.props;
+const href = `${pageUrl}?ref=badge`;
+const light = `${origin}/badges/featured.svg`;
+const dark = `${origin}/badges/featured-dark.svg`;
+const alt = `${name} on Open App Scout`;
+const markdown = `[![${alt}](${light})](${href})`;
+const html = `<a href="${href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${dark}"><img alt="${alt}" src="${light}" width="196" height="40"></picture></a>`;
+---
+
+<section
+  class="grove-card rounded-[var(--radius-lg)] border border-ink-200 bg-card p-4 dark:border-ink-800"
+  aria-labelledby="sidebar-badge-title"
+>
+  <h2 id="sidebar-badge-title" class="m-0 text-2xs font-semibold uppercase tracking-wider text-ink-500 dark:text-ink-400">
+    Maintainer? Add the badge
+  </h2>
+  <p class="m-0 mt-1.5 text-sm leading-relaxed text-ink-700 dark:text-ink-300">
+    Show readers where to find the review. Visits from this page reach your
+    site with <code class="text-2xs">ref=openappscout.com</code>.
+  </p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/badges/featured-dark.svg" />
+    <img src="/badges/featured.svg" alt="" width="196" height="40" loading="lazy" decoding="async" class="mt-3 block" />
+  </picture>
+  <div class="mt-3 flex flex-wrap gap-2" data-badge-copy>
+    <button type="button" data-copy={markdown} class="cursor-pointer rounded-[var(--radius)] border border-border bg-secondary px-2.5 py-1 text-2xs font-medium text-secondary-foreground hover:bg-accent">
+      Copy Markdown
+    </button>
+    <button type="button" data-copy={html} class="cursor-pointer rounded-[var(--radius)] border border-border bg-secondary px-2.5 py-1 text-2xs font-medium text-secondary-foreground hover:bg-accent">
+      Copy HTML
+    </button>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-badge-copy] [data-copy]').forEach((button) => {
+    const label = button.textContent?.trim() ?? '';
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(button.dataset.copy ?? '');
+        button.textContent = 'Copied';
+      } catch {
+        button.textContent = 'Copy failed';
+      }
+      setTimeout(() => (button.textContent = label), 1500);
+    });
+  });
+</script>

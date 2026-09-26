@@ -27,6 +27,7 @@ import { licenseDisplay } from '@grove-dev/core';
 import Badge from '../ui/badge.astro';
 import Icon from './icon.astro';
 import LanguageBreakdown from './language-breakdown.astro';
+import FeaturedBadge from '../site/featured-badge.astro';
 
 interface Props {
   detail: RecordDetailModel;
@@ -398,6 +399,12 @@ function row(label: string, value: unknown) {
       )}
     </section>
   )}
+
+  <FeaturedBadge
+    pageUrl={new URL(`/${detail.slug}/${record.slug}/`, Astro.site ?? 'https://openappscout.com').href}
+    origin={(Astro.site ?? new URL('https://openappscout.com')).origin}
+    name={String(record.name ?? record.slug)}
+  />
 
   {/* ── Source card (small) ────────────────────────────────── */}
   {sidebar.showSource && (
