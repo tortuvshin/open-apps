@@ -71,7 +71,6 @@ const {
   addedAtLabel,
 } = detail;
 const installChannels = getInstallChannels(detail.distribution, repoUrl);
-const alsoIn: Array<{ url: string; title: string }> = detail.collectionMembership ?? [];
 
 // Visibility helpers for individual rows inside the Activity card.
 // `hasRepo` is the discriminator between "GitHub data synced" and
@@ -416,25 +415,14 @@ function row(label: string, value: unknown) {
           Added on <time datetime={String(record.addedAt)}>{addedAtLabel}</time>.
         </p>
       )}
-      {/* Only when a curator actually reviewed the record. This line
-          used to render unconditionally with an em dash where the date
-          belongs, and gated the whole card besides. */}
-      {reviewedAtLabel && (
+      {/* Only when a curator actually reviewed the record: an import
+          can stamp `reviewedAt` on a record nobody has read. */}
+      {record.curation?.reviewed && reviewedAtLabel && (
         <p class:list={["m-0 leading-relaxed", addedAtLabel && "mt-1.5"]}>
           Reviewed by {record.curation?.reviewedBy ?? "grove"}
           on <time datetime={String(record.curation?.reviewedAt)}>
             {reviewedAtLabel}
           </time>.
-        </p>
-      )}
-      {alsoIn.length > 0 && (
-        <p class="m-0 mt-1.5 leading-relaxed">
-          <span class="font-semibold">Also in: </span>
-          {alsoIn.map((c, i) => (
-            <>
-              <a href={c.url} class="text-inherit no-underline hover:underline">{c.title}</a>{i < alsoIn.length - 1 ? ", " : ""}
-            </>
-          ))}
         </p>
       )}
       {readingMetrics.wordCount > 0 && (

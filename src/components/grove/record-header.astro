@@ -2,36 +2,45 @@
 /**
  * RecordHeader.astro
  *
- * Compact project-identity header used at the top of every record
- * detail page. The header carries:
- *   - avatar / initials
- *   - pills row (category + curation labels + "Curated" check +
- *     optional activity badge)
- *   - record name + owner/repo line
- *   - short description
+ * Everything a reader needs before deciding to scroll, in this order:
+ *   - logo + name + owner/repo
+ *   - pills: category, curation labels, "Editorially verified" (only for
+ *     `curation.reviewed: true`, with the review date), activity badge
+ *   - a one-sentence descriptor (the summary's first sentence)
+ *   - platforms and stack
+ *   - evidenced "Alternative to X" relations
  *   - CTAs: a verified install/try channel first when the record has
  *     one, then source code and homepage
+ *   - one verdict and one caveat from the curator, when written
  *
- * Tags + activity metadata are surfaced separately (sidebar), so
- * the header stays narrow on mobile and doesn't compete with the
- * two-column layout below.
+ * Screenshots: with curated media the text sits in a column beside one
+ * primary screenshot, with up to two thumbnails under it. On mobile the
+ * text and CTAs come first and the image follows at its natural ratio.
+ * Without media the header is a single text column — no placeholder
+ * hero, no empty second column.
  *
  * Tone classes for the activity badge are static `[data-activity-tone]`
- * selectors in `styles.css` — Tailwind purges any classes built from
- * dynamic strings, so the package ships the rules statically and
- * the badge's `data-activity-tone` attribute picks one at runtime.
+ * selectors in `styles.css`.
  */
-import type { RecordDetailModel } from '@grove-dev/astro/server';
+import type { RecordContextModel, RecordDetailModel } from '@grove-dev/astro/server';
+import { taxonomyLabel } from '@grove-dev/astro/server';
 import { buttonClass } from '../../lib/classnames.ts';
 import { getInstallChannels } from '../../lib/channels.ts';
+import type { Verdict } from '../../lib/record-editorial.ts';
+import Icon from './icon.astro';
 
 interface Props {
   detail: RecordDetailModel;
+  /** One-sentence descriptor; the rest of the summary opens the article. */
+  lead: string;
+  /** Relations with evidence only — the page filters out the rest. */
+  relations: RecordContextModel['relations'];
+  verdict: Verdict;
+  review: { verified: boolean; reviewedAt?: string; reviewedLabel?: string };
 }
 
-const { detail } = Astro.props;
+const { detail, lead, relations, verdict, review } = Astro.props;
 const {
-  record,
   repoUrl,
   homepageUrl,
   ownerRepo,
@@ -39,10 +48,10 @@ const {
   initials,
   curationLabels,
   activityBadge,
-  summary,
-  sourceDescription,
   screenshots,
   category,
+  platforms,
+  stacks,
   name,
 } = detail;
 
@@ -50,86 +59,105 @@ const installChannels = getInstallChannels(detail.distribution, repoUrl);
 const primaryChannel = installChannels[0];
 const moreChannels = installChannels.length - 1;
 const showHomepage = homepageUrl && homepageUrl !== primaryChannel?.url;
+
+// One primary screenshot and at most two thumbnails.
+const shots = (screenshots ?? []).filter((shot) => shot?.src && shot.alt).slice(0, 3);
+const [primaryShot, ...thumbnails] = shots;
+const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
 ---
 
-<header class="mb-8">
-  {/* Identity row: logo sized to the name+repo block beside it — no
-      tall avatar column leaving dead space under the logo. Pills sit
-      at the row's right edge on wide viewports and wrap below on
-      mobile. */}
-  <div class="flex items-center gap-4">
-    {/* Initials stay in the DOM behind the logo and are revealed by the
-        image's own `onerror` — a dead logo URL or a renamed GitHub org
-        would otherwise render the broken-image glyph. */}
-    {avatarSrc && (
-      <img
-        src={avatarSrc}
-        alt=""
-        width="56"
-        height="56"
-        loading="lazy"
-        decoding="async"
-        onerror="this.hidden=true;this.nextElementSibling.hidden=false"
-        class="h-12 w-12 shrink-0 rounded-lg border border-ink-200 object-contain bg-white p-1 dark:border-ink-800 sm:h-14 sm:w-14"
-      />
-    )}
-    <span
-      aria-hidden="true"
-      hidden={Boolean(avatarSrc)}
-      data-grove-card-fallback-initials
-      class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-ink-200 bg-ink-50 text-xl font-semibold text-ink-700 dark:border-ink-800 dark:bg-ink-900 dark:text-ink-200 sm:h-14 sm:w-14"
-    >
-      {initials || "·"}
-    </span>
-
-    <div class="min-w-0 flex-1">
-      <h1 class="m-0 text-[1.75rem] font-semibold leading-tight tracking-tight text-ink-900 dark:text-ink-100 sm:text-[2rem]">
-        {name}
-      </h1>
-      {ownerRepo && (
-        <p class="m-0 mt-0.5 text-sm text-ink-500 dark:text-ink-400">
-          <a
-            href={`https://github.com/${ownerRepo.owner}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
-          >
-            @{ownerRepo.owner}
-          </a>
-          <span class="mx-1 text-ink-300 dark:text-ink-700">/</span>
-          <a
-            href={repoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
-          >
-            {ownerRepo.repo}
-          </a>
-        </p>
+<header
+  class:list={[
+    "mb-10",
+    primaryShot && "lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start lg:gap-10",
+  ]}
+>
+  <div class="min-w-0 max-w-[72ch]">
+    {/* Identity row. Initials stay in the DOM behind the logo and are
+        revealed by the image's own `onerror`. */}
+    <div class="flex items-center gap-4">
+      {avatarSrc && (
+        <img
+          src={avatarSrc}
+          alt=""
+          width="56"
+          height="56"
+          loading="lazy"
+          decoding="async"
+          onerror="this.hidden=true;this.nextElementSibling.hidden=false"
+          class="h-12 w-12 shrink-0 rounded-lg border border-ink-200 object-contain bg-white p-1 dark:border-ink-800 sm:h-14 sm:w-14"
+        />
       )}
+      <span
+        aria-hidden="true"
+        hidden={Boolean(avatarSrc)}
+        data-grove-card-fallback-initials
+        class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-ink-200 bg-ink-50 text-xl font-semibold text-ink-700 dark:border-ink-800 dark:bg-ink-900 dark:text-ink-200 sm:h-14 sm:w-14"
+      >
+        {initials || "·"}
+      </span>
+
+      <div class="min-w-0 flex-1">
+        <h1 class="m-0 text-[1.75rem] font-semibold leading-tight tracking-tight text-ink-900 dark:text-ink-100 sm:text-[2rem]">
+          {name}
+        </h1>
+        {ownerRepo && (
+          <p class="m-0 mt-0.5 text-sm text-ink-500 dark:text-ink-400">
+            <a
+              href={`https://github.com/${ownerRepo.owner}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
+            >
+              @{ownerRepo.owner}
+            </a>
+            <span class="mx-1 text-ink-300 dark:text-ink-700">/</span>
+            <a
+              href={repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-inherit no-underline hover:text-ink-900 dark:hover:text-ink-100"
+            >
+              {ownerRepo.repo}
+            </a>
+          </p>
+        )}
+      </div>
     </div>
 
-    {/* Pills — right-aligned beside the name on wide viewports. */}
-    <div class="hidden shrink-0 flex-wrap items-center justify-end gap-1.5 md:flex">
-      {category && (
-        <span class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 dark:border-ink-800 dark:text-ink-300">
-          {category}
+    {/* Pills. "Editorially verified" is a person's review, never an
+        automated health signal — the activity badge stays separate. */}
+    <div class="mt-3 flex flex-wrap items-center gap-1.5">
+      {review.verified && (
+        <span
+          class="inline-flex items-center gap-1 rounded-full border border-border bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground"
+          title="A curator reviewed this page by hand"
+          data-editorially-verified
+        >
+          <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
+          </svg>
+          Editorially verified
         </span>
+      )}
+      {review.reviewedLabel && (
+        <span class="text-2xs text-ink-500 dark:text-ink-400">
+          last reviewed <time datetime={review.reviewedAt}>{review.reviewedLabel}</time>
+        </span>
+      )}
+      {category && (
+        <a
+          href={`/categories/${category}/`}
+          class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 no-underline hover:border-ink-400 dark:border-ink-800 dark:text-ink-300"
+        >
+          {taxonomyLabel("categories", category)}
+        </a>
       )}
       {curationLabels.map((l) => (
         <span class="rounded-full bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
           {l}
         </span>
       ))}
-      {/* Curated = reviewed provenance, not a success status. */}
-      {record.curation?.reviewed && (
-        <span class="inline-flex items-center gap-1 rounded-full border border-border bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
-          <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor">
-            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
-          </svg>
-          Curated
-        </span>
-      )}
       {activityBadge && (
         <span
           data-activity-tone={activityBadge.tone}
@@ -143,105 +171,170 @@ const showHomepage = homepageUrl && homepageUrl !== primaryChannel?.url;
         </span>
       )}
     </div>
+
+    {/* One-sentence descriptor. */}
+    {lead && (
+      <p class="m-0 mt-4 text-base leading-relaxed text-ink-700 dark:text-ink-200 sm:text-[1.0625rem]">
+        {lead}
+      </p>
+    )}
+
+    {/* Where it runs and what it is built with. */}
+    {(platforms.length > 0 || stacks.length > 0) && (
+      <ul class="m-0 mt-3 flex list-none flex-wrap items-center gap-x-3 gap-y-1.5 p-0 text-sm text-ink-600 dark:text-ink-300" aria-label="Platforms and stack">
+        {platforms.map((p) => (
+          <li class="m-0 inline-flex items-center gap-1.5">
+            <Icon name={p} category="platform" size={14} />
+            {taxonomyLabel("platforms", p)}
+          </li>
+        ))}
+        {stacks.map((s) => (
+          <li class="m-0 inline-flex items-center gap-1.5">
+            <a href={`/stacks/${s}/`} class="inline-flex items-center gap-1.5 text-inherit no-underline hover:underline">
+              <Icon name={s} category="stack" size={14} />
+              Built with {taxonomyLabel("stacks", s).replace(/\s*\(.*\)$/, "")}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    {/* "Alternative to X" — only relations with evidence reach here. The
+        subject links to its comparison hub when one exists; a vendor
+        link would send the reader away from the directory. */}
+    {relations.length > 0 && (
+      <ul class="m-0 mt-2 flex list-none flex-wrap gap-x-4 gap-y-1 p-0 text-sm text-ink-600 dark:text-ink-300" aria-label="Related products">
+        {relations.map((relation) => (
+          <li class="m-0" title={relation.evidence?.quote}>
+            {relation.label}{" "}
+            {relation.hub ? (
+              <a href={relation.hub.url} class="font-medium text-foreground underline underline-offset-2">
+                {relation.subject.name}
+              </a>
+            ) : (
+              <span class="font-medium text-foreground">{relation.subject.name}</span>
+            )}
+            {relation.evidence?.type === "editorial" && (
+              <span class="text-2xs text-ink-500 dark:text-ink-400" title="The curator's comparison, not the project's own claim"> · editor's match</span>
+            )}
+          </li>
+        ))}
+      </ul>
+    )}
+
+    {/* CTA row. Install/try comes first only for a verified channel; the
+        repository is always "Source code", never an install option. */}
+    <div class="mt-5 flex flex-wrap items-center gap-2">
+      {primaryChannel && (
+        <a
+          href={primaryChannel.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={buttonClass("primary", "md")}
+          data-install-channel={primaryChannel.type}
+        >
+          {primaryChannel.action}
+          <span aria-hidden="true">↗</span>
+          <span class="sr-only">(opens {primaryChannel.host || "external site"})</span>
+        </a>
+      )}
+      {repoUrl && (
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={buttonClass(primaryChannel ? "secondary" : "primary", "md")}
+        >
+          {primaryChannel ? "Source code" : "View on GitHub →"}
+        </a>
+      )}
+      {showHomepage && (
+        <a
+          href={homepageUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={buttonClass(primaryChannel ? "ghost" : "secondary", "md")}
+        >
+          Homepage
+        </a>
+      )}
+      {moreChannels > 0 && (
+        <a href="#install" class="text-sm text-ink-600 underline-offset-2 hover:underline dark:text-ink-300">
+          {moreChannels} more install {moreChannels === 1 ? "option" : "options"}
+        </a>
+      )}
+    </div>
+
+    {/* The curator's one verdict and one caveat. The full reasoning
+        lives under the article's own headings. */}
+    {hasVerdict && (
+      <dl class="m-0 mt-6 flex flex-col gap-3 border-l-2 border-ink-200 pl-4 text-sm dark:border-ink-800" aria-label="Editorial verdict">
+        {verdict.verdict && (
+          <div>
+            <dt class="text-2xs font-semibold uppercase tracking-wider text-muted-foreground">Why it's listed</dt>
+            <dd class="m-0 mt-1 leading-relaxed text-ink-800 dark:text-ink-100">{verdict.verdict}</dd>
+          </div>
+        )}
+        {verdict.caveat && (
+          <div>
+            <dt class="flex items-center gap-1.5 text-2xs font-semibold uppercase tracking-wider text-warning">
+              <svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true" fill="currentColor">
+                <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-6.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 .4 1.04l1.6.8a.75.75 0 1 0 .67-1.34l-1.17-.59V4.75z" />
+              </svg>
+              Consider before using
+            </dt>
+            <dd class="m-0 mt-1 leading-relaxed text-ink-800 dark:text-ink-100">{verdict.caveat}</dd>
+          </div>
+        )}
+      </dl>
+    )}
   </div>
 
-  {/* Same pills below the identity row on narrow viewports. */}
-  <div class="mt-3 flex flex-wrap items-center gap-1.5 md:hidden">
-    {category && (
-      <span class="rounded-full border border-ink-200 px-2 py-0.5 text-2xs font-medium text-ink-700 dark:border-ink-800 dark:text-ink-300">
-        {category}
-      </span>
-    )}
-    {curationLabels.map((l) => (
-      <span class="rounded-full bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
-        {l}
-      </span>
-    ))}
-    {record.curation?.reviewed && (
-      <span class="inline-flex items-center gap-1 rounded-full border border-border bg-secondary px-2 py-0.5 text-2xs font-medium text-secondary-foreground">
-        <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor">
-          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.41 5.09a.75.75 0 0 0-1.06 0L6.75 8.69 5.65 7.59a.75.75 0 1 0-1.06 1.06l1.65 1.65a.75.75 0 0 0 1.06 0l4.11-4.11a.75.75 0 0 0 0-1.06Z" />
-        </svg>
-        Curated
-      </span>
-    )}
-  </div>
-
-  {/* Description — full width below the identity row. */}
-  {summary && (
-    <p class="m-0 mt-4 max-w-[72ch] text-base leading-relaxed text-ink-700 dark:text-ink-200">
-      {summary}
-    </p>
-  )}
-  {sourceDescription && sourceDescription !== summary && (
-    <p class="m-0 mt-2 max-w-[72ch] text-sm leading-relaxed text-ink-500 dark:text-ink-400">
-      <span class="text-2xs font-semibold uppercase tracking-wider">From the project's README: </span>
-      {sourceDescription}
-    </p>
-  )}
-
-  {/* CTA row. Install/try comes first only for a verified channel; the
-      repository is always "Source code", never an install option. */}
-  <div class="mt-4 flex flex-wrap items-center gap-2">
-    {primaryChannel && (
-      <a
-        href={primaryChannel.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        class={buttonClass("primary", "md")}
-        data-install-channel={primaryChannel.type}
-      >
-        {primaryChannel.action}
-        <span aria-hidden="true">↗</span>
-        <span class="sr-only">(opens {primaryChannel.host || "external site"})</span>
-      </a>
-    )}
-    {repoUrl && (
-      <a
-        href={repoUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        class={buttonClass(primaryChannel ? "secondary" : "primary", primaryChannel ? "md" : "sm")}
-      >
-        {primaryChannel ? "Source code" : "View on GitHub →"}
-      </a>
-    )}
-    {showHomepage && (
-      <a
-        href={homepageUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        class={buttonClass(primaryChannel ? "ghost" : "secondary", primaryChannel ? "md" : "sm")}
-      >
-        Homepage
-      </a>
-    )}
-    {moreChannels > 0 && (
-      <a href="#install" class="text-sm text-ink-600 underline-offset-2 hover:underline dark:text-ink-300">
-        {moreChannels} more install {moreChannels === 1 ? "option" : "options"}
-      </a>
-    )}
-  </div>
-  {screenshots && screenshots.length > 0 && (
-    <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3" aria-label="Screenshots">
-      {screenshots.map((shot) => (
-        <figure class="m-0 overflow-hidden rounded-[var(--radius-lg)] border border-ink-200 bg-muted dark:border-ink-800">
+  {/* Screenshots: one primary at its natural ratio, then thumbnails. */}
+  {primaryShot && (
+    <div class="mt-8 min-w-0 lg:mt-0" aria-label="Screenshots" role="group">
+      <figure class="m-0">
+        <a href={primaryShot.src} target="_blank" rel="noopener" class="block overflow-hidden rounded-[var(--radius-lg)] border border-ink-200 bg-muted dark:border-ink-800">
           <img
-            src={shot.src}
-            alt={shot.alt}
-            loading="lazy"
+            src={primaryShot.src}
+            alt={primaryShot.alt}
+            width={primaryShot.width}
+            height={primaryShot.height}
             decoding="async"
-            width={shot.width}
-            height={shot.height}
-            class="block h-auto w-full object-cover"
+            fetchpriority="high"
+            class="mx-auto block h-auto max-h-[80vh] w-auto max-w-full"
           />
-          {shot.source && (
-            <figcaption class="px-3 py-1.5 text-2xs text-ink-500 dark:text-ink-400">
-              Source: <a href={shot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{shot.source.replace(/^https?:\/\//, "")}</a>
-            </figcaption>
-          )}
-        </figure>
-      ))}
+        </a>
+        {primaryShot.source && (
+          <figcaption class="mt-1.5 text-2xs text-ink-500 dark:text-ink-400">
+            Source: <a href={primaryShot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{primaryShot.source.replace(/^https?:\/\//, "")}</a>
+          </figcaption>
+        )}
+      </figure>
+      {thumbnails.length > 0 && (
+        <ul class="m-0 mt-3 grid list-none grid-cols-2 gap-3 p-0">
+          {thumbnails.map((shot) => (
+            <li class="m-0">
+              <a href={shot.src} target="_blank" rel="noopener" class="block overflow-hidden rounded-[var(--radius)] border border-ink-200 bg-muted dark:border-ink-800">
+                <img
+                  src={shot.src}
+                  alt={shot.alt}
+                  width={shot.width}
+                  height={shot.height}
+                  loading="lazy"
+                  decoding="async"
+                  class="mx-auto block h-auto max-h-64 w-auto max-w-full"
+                />
+              </a>
+              {shot.source && (
+                <p class="m-0 mt-1 truncate text-2xs text-ink-500 dark:text-ink-400">
+                  Source: <a href={shot.source} target="_blank" rel="noopener noreferrer" class="text-inherit no-underline hover:underline">{shot.source.replace(/^https?:\/\//, "")}</a>
+                </p>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )}
 </header>
