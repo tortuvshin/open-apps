@@ -1,3 +1,53 @@
+---
+name: xbmc
+repoUrl: https://github.com/xbmc/xbmc
+projectType: real-app
+category: tools
+stack: ios
+summary: Kodi (despite the legacy `xbmc` GitHub repo name, this is the post-rebrand media-center
+  project, not the original XBMC) is a cross-platform entertainment hub that plays local and
+  streamed audio/video, scrapes metadata for a personal library, and exposes a binary addon
+  framework plus a JSON-RPC interface for remote control and third-party integrations.
+description: Kodi is a free, open-source cross-platform media-center and entertainment-hub
+  application written primarily in C++ with a CMake build system, built on FFmpeg for codec support
+  and featuring a binary addon framework, hardware-accelerated video playback, and a JSON-RPC
+  control surface — running natively on Android, Linux, BSD, macOS, iOS, tvOS, and Windows.
+sourceDescription: Kodi is an award-winning free and open source home theater/media center software
+  and entertainment hub for digital media. With its beautiful interface and powerful skinning
+  engine, it's available for Android, BSD, Linux, macOS, iOS, tvOS and Windows.
+platforms:
+  - ios
+licenses:
+  - noassertion
+links:
+  github: https://github.com/xbmc/xbmc
+distribution:
+  channels: []
+tags:
+  - objc
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (20,860 stars on GitHub).
+caveats: []
+seo:
+  title: Kodi – Open Source Home Theater & Media Center
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: xbmc
+  repo: xbmc
+  url: https://github.com/xbmc/xbmc
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses: []
+visibility: keep
+---
 Kodi is a cross-platform media-center and entertainment-hub application
 that plays local and networked audio and video, scrapes online metadata
 to build a personal library, and exposes a full addon framework for

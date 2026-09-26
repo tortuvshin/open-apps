@@ -1,3 +1,39 @@
+---
+name: one_second_diary
+repoUrl: https://github.com/KyleKun/one_second_diary
+projectType: real-app
+category: media
+stack: flutter
+summary: A privacy-first Flutter diary that captures one short video per day and uses an FFmpeg
+  pipeline to render overlays, geotag subtitles, and concatenate clips into a yearly compilation
+  movie.
+description: One Second Diary is a minimalist Flutter video diary app that lets you capture a
+  one-to-ten second clip each day, then stitch your recordings into a shareable compilation movie of
+  your life.
+sourceDescription: Minimalist video diary app.
+licenses:
+  - mit
+links:
+  github: https://github.com/KyleKun/one_second_diary
+tags:
+  - android
+  - diary
+  - flutter
+  - flutter-app
+seo:
+  title: One Second Diary – Open Source Video Diary App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: KyleKun
+  repo: one_second_diary
+  url: https://github.com/KyleKun/one_second_diary
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 One Second Diary is a Flutter video journal that turns a daily
 recording habit into a shareable "movie of your life." Each day you
 record or upload a clip between one and ten seconds; over months and

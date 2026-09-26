@@ -1,3 +1,70 @@
+---
+name: NO SUS
+repoUrl: https://github.com/https-shubhamsahu/NON_SUS
+projectType: real-app
+category: tools
+stack: flutter
+summary: Built and run by one developer. Go opens your Saved chat (stored in your own Google Drive)
+  on a cyber-cafe, print-shop, or college-lab PC after you scan a QR with the phone app, so that PC
+  never gets your Google password or token. Burn Notes and Burn Files are encrypted in the browser
+  with the key in the URL fragment, and SecureSend stamps each viewer's identity on a shared
+  document with view limits, expiry, and revocation. The repository holds the Flutter client (web
+  and Android) plus the Supabase migrations and Deno edge functions.
+description: NO SUS is a Flutter and Supabase privacy toolkit for students that opens your Saved
+  files on a borrowed PC through a phone QR approval, sends self-destructing notes and files, and
+  shares watermarked documents.
+platforms:
+  - web
+  - android
+licenses:
+  - mit
+links:
+  github: https://github.com/https-shubhamsahu/NON_SUS
+  website: https://nosus.foo
+tags:
+  - privacy
+  - encryption
+  - burn-after-reading
+  - file-sharing
+  - watermark
+  - supabase
+  - students
+bestFor:
+  - Students who have to use a cyber-cafe, print-shop, or college-lab PC and do not want to sign
+    their Google account in there.
+  - Sending a one-time note or a file up to 25 MB that expires after 1 hour, 24 hours, or 7 days,
+    with no account on either side.
+  - Developers studying browser-side AES burn links, an RLS-first Supabase schema, and a
+    phone-approved QR session in Flutter.
+whyListed:
+  - A usable MIT-licensed Flutter app for web and Android with regular releases (v1.2.0 in July 2026
+    through v1.4.1 in September 2026).
+  - Documents plainly which parts are encrypted client-side (burn links) and which rely on
+    access-control policies (shared documents).
+caveats:
+  - SecureSend and group or vault files are not end-to-end encrypted; they rely on
+    row-level-security policies.
+  - A burn link that uses the optional 2-digit pairing code keeps its key on the server for up to 20
+    minutes.
+  - On a borrowed PC, anything you download or print may stay on that machine, and browser
+    screenshots cannot be blocked (only deterred with blur and watermarks).
+  - Solo early-stage project; the Drop feature shown on the site is marked coming soon and does not
+    work yet.
+seo:
+  title: NO SUS – Open Source Student Privacy Toolkit Built with Flutter
+addedAt: 2026-09-24
+source:
+  type: submit
+  provider: github
+  owner: https-shubhamsahu
+  repo: NON_SUS
+  url: https://github.com/https-shubhamsahu/NON_SUS
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 # NO SUS
 
 NO SUS is a privacy toolkit for students, built as a Flutter app (web and Android) on Supabase by one developer.

@@ -1,3 +1,52 @@
+---
+name: EhPanda
+repoUrl: https://github.com/EhPanda-Team/EhPanda
+projectType: real-app
+category: media
+stack: ios
+summary: One of the most polished SwiftUI-native apps in open source — a full gallery browser,
+  reader, and account client for E-Hentai/ExHentai built with TCA reducers, a Kanna-based HTML
+  scraping layer, and Core Data caching, distributed only as a sideloadable IPA.
+description: EhPanda is an unofficial iOS and iPadOS client for the E-Hentai and ExHentai galleries,
+  written entirely in SwiftUI on top of Point-Free's Composable Architecture, with a Combine/Kanna
+  scraping layer and Core Data persistence.
+sourceDescription: An unofficial E-Hentai App for iOS built with SwiftUI & TCA.
+platforms:
+  - ios
+licenses:
+  - mit
+links:
+  github: https://github.com/EhPanda-Team/EhPanda
+distribution:
+  channels: []
+tags:
+  - swiftui
+  - combine
+  - adult
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (3,866 stars on GitHub).
+caveats: []
+seo:
+  title: EhPanda – Open Source SwiftUI & TCA Gallery App for iOS
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: EhPanda-Team
+  repo: EhPanda
+  url: https://github.com/EhPanda-Team/EhPanda
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 EhPanda is an unofficial iOS/iPadOS client for the E-Hentai and
 ExHentai gallery sites, built entirely in SwiftUI on top of
 Point-Free's Composable Architecture (TCA).

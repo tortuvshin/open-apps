@@ -1,3 +1,36 @@
+---
+name: localmind
+repoUrl: https://github.com/abdulmominsakib/localmind
+projectType: real-app
+category: developer-tools
+stack: flutter
+summary: A privacy-first Flutter AI client that runs GGUF models on-device via llamadart and
+  flutter_gemma or talks directly to user-configured Ollama, LM Studio, or OpenAI-compatible
+  endpoints, with zero analytics, MCP tool support, and end-to-end encrypted local storage.
+description: A Flutter mobile chat client that connects to on-device LLMs and any OpenAI-compatible
+  server — Ollama, LM Studio, OpenRouter — with markdown rendering, voice input, and an MCP tool
+  layer.
+sourceDescription: A mobile application designed to provide a beautiful, fast, and
+  privacy-respecting interface for on device LLM and local LLM servers and cloud providers
+licenses:
+  - mit
+links:
+  github: https://github.com/abdulmominsakib/localmind
+tags: []
+seo:
+  title: localmind – Open Source On-Device LLM Chat App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: abdulmominsakib
+  repo: localmind
+  url: https://github.com/abdulmominsakib/localmind
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 LocalMind is a Flutter mobile chat client for talking to AI models without
 sending your conversations to anyone else's infrastructure. It speaks
 directly to user-configured servers — on-device inference, local

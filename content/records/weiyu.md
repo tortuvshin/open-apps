@@ -1,3 +1,50 @@
+---
+name: Weiyu
+repoUrl: https://github.com/Sutera-Diffusus/WeChat-daily
+projectType: real-app
+category: productivity
+stack: tauri
+summary: A Windows workspace for keeping useful WeChat information searchable instead of buried in
+  chat history. The default workflow is read-only and stores normalized messages and briefings in a
+  local SQLite database.
+description: Weiyu is a local-first Windows desktop app that turns readable WeChat messages into
+  searchable daily briefings, with history, speech-to-text, AI-assisted analysis, and a Codex
+  bridge.
+sourceDescription: Local-first Windows WeChat archive and daily briefing workspace
+platforms:
+  - windows
+licenses:
+  - mit
+links:
+  github: https://github.com/Sutera-Diffusus/WeChat-daily
+distribution:
+  channels:
+    - type: github-releases
+      platform: windows
+      label: GitHub Releases
+      url: https://github.com/Sutera-Diffusus/WeChat-daily/releases
+      verified: false
+tags:
+  - open-source
+  - desktop-app
+  - productivity
+  - privacy
+  - chat
+  - notes
+seo:
+  title: Weiyu – Open Source Local-First WeChat Archive for Windows
+addedAt: 2026-08-27
+source:
+  type: manual
+  owner: Sutera-Diffusus
+  repo: WeChat-daily
+  url: https://github.com/Sutera-Diffusus/WeChat-daily
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Weiyu is a Windows desktop app for people who receive useful information in WeChat but do not want to lose it in the chat list. It reads supported local message data, stores normalized messages in SQLite, and builds date-based briefings that can be traced back to source messages.
 
 ## What it includes

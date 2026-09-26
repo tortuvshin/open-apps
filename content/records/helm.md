@@ -1,3 +1,72 @@
+---
+name: Helm
+repoUrl: https://github.com/devShakib015/helm
+projectType: real-app
+category: tools
+stack: flutter
+summary: A Flutter macOS app that replaces a folder of single-purpose utilities. It keeps 24 hours
+  of history for memory, CPU, GPU, sensor, battery, and network metrics, and its storage tool spans
+  a squarified treemap explorer, a byte-for-byte duplicate finder, junk cleaning, and APFS snapshot
+  thinning.
+description: Helm is a macOS system toolkit that puts fifteen maintenance and monitoring tools
+  behind one window and one menu-bar item, covering storage, hardware metrics, and clipboard
+  history.
+sourceDescription: A free, open-source macOS toolkit — fifteen native tools in one window.
+platforms:
+  - macos
+licenses:
+  - mit
+links:
+  github: https://github.com/devShakib015/helm
+  website: https://devshakib.jumyn.com/apps/helm
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: macOS disk image
+      url: https://github.com/devShakib015/helm/releases/latest
+      verified: true
+tags:
+  - open-source
+  - desktop-app
+  - system-monitor
+  - disk-cleaner
+  - duplicate-finder
+  - clipboard-manager
+  - menu-bar
+  - privacy
+bestFor:
+  - Studying how a Flutter desktop app reads real macOS system state, including SMC sensor
+    temperatures, purgeable disk space, and connected-accessory battery levels.
+  - Replacing several paid single-purpose Mac utilities with one MIT-licensed app that makes no
+    network calls.
+whyListed:
+  - Fifteen tools share one window, one design language, and a configurable live menu-bar item, so
+    the codebase shows how a broad utility suite stays coherent.
+  - The storage tool is unusually complete for an open-source app, combining a treemap explorer,
+    disjoint category breakdown, junk cleaning with risky items opt-in, and duplicate detection that
+    always keeps one copy.
+caveats:
+  - macOS 10.15 or later only; there is no Windows or Linux target.
+  - Reading SMC sensors and system storage means the app depends on macOS internals that can shift
+    between releases.
+  - Cleaning tools move items to the Trash rather than deleting them, so reclaiming the space still
+    needs an explicit empty.
+seo:
+  title: Helm – Open Source macOS System Toolkit Built with Flutter
+addedAt: 2026-09-01
+source:
+  type: submit
+  provider: github
+  owner: devShakib015
+  repo: helm
+  url: https://github.com/devShakib015/helm
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Helm is a macOS toolkit that collects fifteen system tools behind one window and one menu-bar item. It is MIT licensed, built with Flutter, and makes no network calls.
 
 ## What the codebase includes

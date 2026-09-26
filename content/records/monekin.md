@@ -1,3 +1,45 @@
+---
+name: Monekin
+repoUrl: https://github.com/enrique-lozano/Monekin
+projectType: real-app
+category: finance
+stack: flutter
+summary: An ad-free, offline-first Flutter finance app whose every transaction, budget, and
+  investment lives in an on-device SQLite database, with Material You theming, per-account
+  multi-currency support, and recurring-transaction automation for Android and Windows.
+description: Monekin is an offline-first, open-source Flutter personal finance manager that tracks
+  unlimited accounts, transactions, budgets, goals, investments, and debts across 50+ currencies,
+  storing every byte on-device in SQLite with no account, no ads, and no internet connection
+  required.
+sourceDescription: A 100% Open Source app that tries to make personal finances easier. Fast, simple,
+  without ads, without the need for an Internet connection and with a groundbreaking design, that's
+  Monekin.
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/enrique-lozano/Monekin
+tags:
+  - finance-management
+  - flutter-app
+  - hybrid-app
+  - material-design
+  - money-manager
+  - open-source
+  - personal-finances
+seo:
+  title: Monekin – Open Source Offline Personal Finance App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: enrique-lozano
+  repo: Monekin
+  url: https://github.com/enrique-lozano/Monekin
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Monekin is an open-source, offline-first personal finance manager
 written in Flutter from a single Dart codebase and currently shipping
 to Android (Google Play) and Windows (GitHub releases / Microsoft

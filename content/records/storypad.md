@@ -1,3 +1,45 @@
+---
+name: storypad
+repoUrl: https://github.com/theachoem/storypad
+projectType: real-app
+category: productivity
+stack: flutter
+summary: A cross-platform writing app for personal journaling rather than fiction — entries live on
+  a single reverse-chronological timeline with rich-text, 45+ mood tags, and photo attachments, all
+  stored locally behind PIN, FaceID, or fingerprint. The codebase is a clean MVVM Flutter split
+  (lib/models, lib/views, lib/view_models, lib/providers) where the entire writing surface is a
+  customized fork of flutter_quill pinned to a specific commit.
+description: Storypad is an offline-first Flutter diary and journal app that uses a timeline instead
+  of folders, layers mood tracking, photo memories, and customizable typography over a local
+  ObjectBox store with optional Google Drive sync.
+sourceDescription: An open source diary & journal app with over 100k downloads 🪴
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/theachoem/storypad
+tags:
+  - cross-platform
+  - diary
+  - diary-app
+  - journal-app
+  - journals
+  - minimalist
+  - notes-app
+  - offline-first
+seo:
+  title: StoryPad – Open Source Diary & Journal App
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: theachoem
+  repo: storypad
+  url: https://github.com/theachoem/storypad
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Storypad is an open-source diary and journal app for Android, iOS, and
 macOS that ships from a single Flutter codebase. Despite the name
 suggesting a fiction-writing or Wattpad-style platform, it is a private,

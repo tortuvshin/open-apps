@@ -1,3 +1,123 @@
+---
+name: Twenty
+repoUrl: https://github.com/twentyhq/twenty
+projectType: real-app
+category: business
+stack: react
+summary: A modern open-source CRM where the schema, the apps, and the AI agents all share one
+  metadata-driven data model — version-controlled in code, exposed to AI tooling via a native MCP
+  server, and runnable as a 4-service Docker stack.
+description: Twenty is an open-source CRM whose data model is a runtime artifact — every custom
+  object, field, view, role, and AI agent is a row in metadata tables, with the GraphQL schema and
+  SQL queries rebuilt per workspace on demand. Written in TypeScript with NestJS, React, PostgreSQL,
+  and a native MCP server for Claude/ChatGPT/Cursor.
+platforms:
+  - web
+  - linux
+licenses:
+  - agpl-3.0
+  - mit
+links:
+  github: https://github.com/twentyhq/twenty
+  website: https://twenty.com
+  docs: https://docs.twenty.com
+distribution:
+  channels:
+    - type: self-host
+      label: Self-host with Docker Compose
+      url: https://github.com/twentyhq/twenty/blob/main/packages/twenty-docker/docker-compose.yml
+      verified: true
+    - type: web-app
+      label: Twenty Cloud
+      url: https://app.twenty.com
+      verified: true
+    - type: github-releases
+      label: GitHub Releases
+      url: https://github.com/twentyhq/twenty/releases
+      verified: true
+tags:
+  - ai
+  - ai-agents
+  - crm
+  - docker-compose
+  - foss-alternative
+  - gpt-integration
+  - graphql
+  - mcp
+  - mcp-server
+  - nestjs
+  - open-source
+  - postgres
+  - postgresql
+  - react
+  - sales
+  - self-hosted
+  - typescript
+  - web-app
+  - workflow
+bestFor:
+  - Engineering-led teams (5–200 people) who want to version their CRM schema in git
+  - Replacing Salesforce Sales/Service clouds with a self-hostable, programmable alternative
+  - B2B SaaS, partnerships, and agencies where the data model is the moat
+  - Privacy-conscious teams (defense-adjacent, EU public sector, regulated industries)
+  - Workflows that AI agents drive via the native MCP server
+  - Studying a metadata-driven CRM architecture in production
+whyListed:
+  - The Open App space lacks a real, modern OSS CRM alternative to Salesforce — Twenty is the
+    most-funded, most-starred, and most actively developed option in the category
+  - The architecture is a textbook case study of metadata-as-rows cascading into a runtime GraphQL
+    pipeline, a custom ORM, and an apps framework
+  - The native MCP server is the most defensible AI integration in any open-source CRM today
+  - $5M seed + YC S23 + 280+ contributors + weekly releases through Aug 2026 shows real engineering
+    velocity
+  - Licensed AGPLv3 with a Section 7 "Application Exception" that protects app developers from
+    copyleft — a deliberate, well-documented licensing stance
+caveats:
+  - No native CPQ / line-item editor for multi-product quotes — the biggest credibility gap, GitHub
+    Discussion
+  - No native mobile app; web-only mobile is white-screen on iPhone and rich-text is unusable with a
+    soft keyboard
+  - No email compose-and-send from inside the CRM as of the latest review
+  - Workflow builder is still a work-in-progress — missing NOT logic, undo/redo, "IS" operator on
+    text/link fields
+  - "Self-hosting is rough: first-boot migration wedge (#24432), v2.31 upgrade failure on instances
+    with apps but no workspaces (#24273), ≥4 GB RAM recommended"
+  - AGPLv3 with a Section 7 Application Exception + Contributor License Agreement — read the LICENSE
+    before forking
+  - Cloud AI features require supplying your own provider key (OpenAI, Anthropic, Google, etc.) — no
+    model ships with the OSS binary
+  - Customer logos (Bayer, PwC, République Française) appear in the trusted-by bar but are not
+    individually documented in case studies; verified case studies are all SMB
+  - Multiple maintainers self-reported 7 security advisories in 2026 (2 critical, 2 high, 3
+    moderate), including SQL injection and SSRF
+relations:
+  - type: alternative-to
+    to: salesforce
+    evidence:
+      type: self-described
+      url: https://github.com/twentyhq/twenty
+      quote: The open alternative to Salesforce, designed for AI.
+      checkedAt: 2026-09-22
+seo:
+  title: Twenty – Open Source CRM & Salesforce Alternative
+addedAt: 2026-09-01
+source:
+  type: github-topic
+  owner: twentyhq
+  repo: twenty
+  url: https://github.com/twentyhq/twenty
+curation:
+  reviewed: true
+  reviewedAt: 2026-08-21
+  reviewedBy: Open Apps curators
+  labels:
+    - hot
+    - mature
+  lenses:
+    - good-to-learn
+    - production-like
+visibility: keep
+---
 Twenty is an open-source CRM where the schema is a runtime artifact, not a database. Every custom object, field, view, role, agent, and skill is a row in PostgreSQL metadata tables; the GraphQL schema, resolvers, and SQL queries are rebuilt per workspace on demand. That single choice — metadata-as-rows — is what makes the platform cohere: code-defined apps that publish into the same data model, an MCP server that exposes the same data model to Claude and Cursor, and a 4-service Docker stack that inherits the same model. The closest comparison isn't SuiteCRM or EspoCRM — it's a values-level cousin of Directus or Strapi, wearing a CRM-shaped UI.
 
 The headline numbers are real and they set the tone: **55.2k stars, 8.6k forks, 14,574 commits, three releases on a single day in August 2026**, $5M seed (led by Runa Capital, with angels from Front, HubSpot, Strapi, and the ex-Pipedrive CEO), YC S23, and 280+ contributors. The project is the most-funded, most-starred, and most actively shipped open-source CRM. The interesting question is whether the engineering matches the velocity.

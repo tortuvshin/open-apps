@@ -1,3 +1,56 @@
+---
+name: mhabit
+repoUrl: https://github.com/FriesI23/mhabit
+projectType: real-app
+category: productivity
+stack: flutter
+summary: A cross-platform Flutter habit tracker with separate scoring models for "do" and "don't"
+  habits, growth-curve visualizations, and WebDAV sync via Nextcloud, Koofr, or any self-hosted
+  endpoint.
+description: mhabit (Table Habit) is a Flutter-based micro-habit tracker that scores daily
+  completion against configurable curves, stores everything locally, and syncs across devices
+  through any WebDAV endpoint.
+sourceDescription: Open-source Flutter habit tracker with smart scoring, WebDAV sync, local-first
+  storage, privacy-focused design, and support for Android, iOS, Windows, macOS, and Linux.
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/FriesI23/mhabit
+tags:
+  - android
+  - cross-platform
+  - dart
+  - flutter
+  - goal-tracking
+  - habit-tracker
+  - habit-tracking
+  - ios
+  - linux
+  - local-first
+  - macos
+  - material3
+  - micro-habit
+  - offline-first
+  - open-source
+  - privacy-focused
+  - productivity
+  - self-improvement
+  - webdav
+  - windows
+seo:
+  title: mhabit – Open Source Habit Tracker with WebDAV Sync
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: friesi23
+  repo: mhabit
+  url: https://github.com/FriesI23/mhabit
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 mhabit, marketed under the name **Table Habit**, is a Flutter-built
 micro-habit tracker that treats each habit as a colored row in a
 calendar and scores daily completion against a configurable growth

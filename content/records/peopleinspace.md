@@ -1,3 +1,51 @@
+---
+name: PeopleInSpace
+repoUrl: https://github.com/joreilly/PeopleInSpace
+projectType: real-app
+category: tools
+stack: ios
+summary: A long-running KMP reference that demonstrates multi-platform architecture across iOS,
+  Android, desktop, web, and Wear OS from shared Kotlin code.
+description: PeopleInSpace is a Kotlin Multiplatform reference app that shares architecture and data
+  code across iOS, Android, desktop, web, and wearable clients.
+sourceDescription: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear,
+  Compose for Desktop, and Compose for Web clients along with Ktor backend.
+platforms:
+  - ios
+licenses:
+  - apache-2.0
+links:
+  github: https://github.com/joreilly/PeopleInSpace
+distribution:
+  channels: []
+tags:
+  - kmm
+  - kotlin
+  - swiftui
+  - native
+bestFor: []
+whyListed:
+  - Top entry from dkhamsing/open-source-ios-apps curated list (3,347 stars on GitHub).
+caveats: []
+seo:
+  title: PeopleInSpace – Open Source Kotlin Multiplatform Sample App
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: joreilly
+  repo: PeopleInSpace
+  url: https://github.com/joreilly/PeopleInSpace
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T03:31:57+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - good-to-learn
+visibility: keep
+---
 PeopleInSpace is John O'Reilly's Kotlin Multiplatform reference app for exploring who is currently in space and tracking the International Space Station. Its shared Kotlin code supports native and Compose-based clients while a small Ktor service supplies astronaut and ISS data.
 
 ## Why it matters

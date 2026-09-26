@@ -1,3 +1,54 @@
+---
+name: Immich
+repoUrl: https://github.com/immich-app/immich
+projectType: real-app
+category: tools
+stack: flutter
+summary: A self-hosted photo and video backup service with first-class mobile apps and on-device
+  machine learning.
+description: Self-hosted photo and video backup solution directly from your mobile phone
+sourceDescription: Self-hosted photo and video backup solution directly from your mobile phone
+platforms:
+  - android
+  - ios
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/immich-app/immich
+distribution:
+  channels: []
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+relations:
+  - type: alternative-to
+    to: google-photos
+    evidence:
+      type: repo-topic
+      url: https://github.com/immich-app/immich
+      quote: google-photos-alternative
+      checkedAt: 2026-09-22
+seo:
+  title: Immich – Open Source Self-Hosted Photo & Video Backup
+addedAt: 2026-06-07
+source:
+  type: import
+  provider: github
+  owner: immich-app
+  repo: immich
+  url: https://github.com/immich-app/immich
+curation:
+  reviewed: true
+  reviewedAt: 2026-08-11
+  labels:
+    - mature
+    - hot
+  lenses: []
+  reviewedBy: Open Apps curators
+visibility: keep
+---
 Immich is a self-hosted photo and video backup service that runs on your own
 hardware and ships native iOS and Android apps written in Flutter. It does
 on-device-class machine learning on the server — face recognition, CLIP-based

@@ -1,3 +1,67 @@
+---
+name: Notesnook
+repoUrl: https://github.com/streetwriters/notesnook
+projectType: real-app
+category: productivity
+stack: react-native
+summary: Notesnook encrypts every note on the device with XChaCha20-Poly1305 (via libsodium),
+  derives the master key from the user's password with Argon2id, and pairs a Vite web client, an
+  Electron desktop client, and a React Native mobile client that all sync ciphertext-only to a
+  remote server.
+description: Notesnook is a cross-platform, end-to-end encrypted note-taking app with web, desktop,
+  and mobile clients that sync through a zero-knowledge server.
+sourceDescription: A fully open source & end-to-end encrypted note taking alternative to Evernote.
+platforms:
+  - android
+  - ios
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/streetwriters/notesnook
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/streetwriters/notesnook/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/streetwriters/notesnook/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+relations:
+  - type: alternative-to
+    to: evernote
+    evidence:
+      type: self-described
+      url: https://github.com/streetwriters/notesnook
+      quote: A fully open source & end-to-end encrypted note taking alternative to Evernote.
+      checkedAt: 2026-09-22
+seo:
+  title: Notesnook – Open Source Encrypted Evernote Alternative
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: streetwriters
+  repo: notesnook
+  url: https://github.com/streetwriters/notesnook
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-13T00:29:01+08:00
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+visibility: keep
+---
 Notesnook is a cross-platform note-taking application that encrypts
 every note, attachment, and notebook on the user's device before it
 leaves the device. The server only ever sees opaque ciphertext, so a

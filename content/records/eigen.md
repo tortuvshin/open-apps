@@ -1,3 +1,49 @@
+---
+name: Artsy
+repoUrl: https://github.com/artsy/eigen
+projectType: real-app
+category: shopping
+stack: react-native
+summary: Artsy's flagship mobile app for discovering fine art, following artists and galleries, and
+  bidding in live online auctions — a production-grade React Native codebase that talks to Artsy's
+  Metaphysics GraphQL gateway.
+description: Artsy Eigen is the official iOS and Android client for artsy.net, built as a React
+  Native app with native Swift and Kotlin modules for browsing artworks, following artists and
+  galleries, and participating in live timed auctions.
+sourceDescription: The mobile app for artsy.net — discover fine art, browse artists and artworks,
+  follow galleries, and bid in auctions from your phone.
+platforms:
+  - android
+  - ios
+licenses:
+  - mit
+links:
+  github: https://github.com/artsy/eigen
+distribution:
+  channels: []
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: Artsy – Open Source React Native Art Marketplace App
+addedAt: 2026-06-07
+source:
+  type: import
+  provider: github
+  owner: artsy
+  repo: eigen
+  url: https://github.com/artsy/eigen
+curation:
+  reviewed: false
+  reviewedAt: 2026-06-07T23:19:27+08:00
+  labels:
+    - mature
+    - hot
+  lenses: []
+visibility: keep
+---
 Eigen is the iOS and Android client for [Artsy](https://www.artsy.net),
 the largest online art marketplace. Artsy ships it to the App Store
 and Google Play as the public face of its catalogue of artists,

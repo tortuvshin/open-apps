@@ -1,3 +1,57 @@
+---
+name: BlueWallet
+repoUrl: https://github.com/BlueWallet/BlueWallet
+projectType: real-app
+category: finance
+stack: react-native
+summary: A Bitcoin wallet focused on privacy with on-chain transactions, Lightning Network payments,
+  and hardware-wallet integration.
+description: Bitcoin wallet for iOS & Android. Built with React Native.
+sourceDescription: Bitcoin wallet for iOS & Android. Built with React Native.
+platforms:
+  - android
+  - ios
+licenses:
+  - mit
+links:
+  github: https://github.com/BlueWallet/BlueWallet
+distribution:
+  channels:
+    - type: github-releases
+      platform: android
+      label: GitHub Releases
+      url: https://github.com/BlueWallet/BlueWallet/releases
+      verified: false
+    - type: github-releases
+      platform: ios
+      label: GitHub Releases
+      url: https://github.com/BlueWallet/BlueWallet/releases
+      verified: false
+tags:
+  - cross-platform
+bestFor: []
+whyListed: []
+caveats: []
+seo:
+  title: BlueWallet – Open Source Bitcoin & Lightning Wallet
+addedAt: 2026-06-13
+source:
+  type: import
+  provider: github
+  owner: BlueWallet
+  repo: BlueWallet
+  url: https://github.com/BlueWallet/BlueWallet
+curation:
+  reviewed: true
+  reviewedAt: 2026-08-11
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+  reviewedBy: Open Apps curators
+visibility: keep
+---
 BlueWallet is a Bitcoin wallet focused on privacy, with first-class
 support for on-chain transactions, Lightning Network payments, and
 hardware-wallet integration.

@@ -1,3 +1,46 @@
+---
+name: Habo
+repoUrl: https://github.com/xpavle00/Habo
+projectType: real-app
+category: productivity
+stack: flutter
+summary: Built by a single maintainer as a minimalist alternative to gamified habit apps, Habo
+  supports boolean and numeric habits, an Atomic-Habits-style cue/routine/reward model, calendars
+  and streaks, and optional zero-knowledge sync that can be pointed at a self-hosted Supabase
+  instance. The codebase is a clean ~23k-line Flutter app with a dedicated encryption service, a
+  sync manager, and a RevenueCat-backed subscription for the hosted sync tier.
+description: Habo is a Flutter-based, privacy-first habit tracker for iOS and Android that keeps
+  every habit, note, and streak on-device by default and only syncs through an end-to-end encrypted
+  Supabase backend.
+sourceDescription: Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.
+licenses:
+  - gpl-3.0
+links:
+  github: https://github.com/xpavle00/Habo
+tags:
+  - android
+  - backup
+  - e2e-encryption
+  - flutter
+  - habit-tracker
+  - ios
+  - minimalistic
+  - simple
+  - sync
+seo:
+  title: Habo – Open Source Privacy-First Habit Tracker
+addedAt: 2026-08-11
+source:
+  type: github-topic
+  owner: xpavle00
+  repo: Habo
+  url: https://github.com/xpavle00/Habo
+curation:
+  reviewed: false
+  labels: []
+  lenses: []
+visibility: keep
+---
 Habo is a minimalist, privacy-first habit tracker for iOS and Android
 built in Flutter by a single maintainer. It stores habits locally in
 SQLite by default, requires no account to use, and only reaches the

@@ -1,3 +1,82 @@
+---
+name: AppFlowy
+repoUrl: https://github.com/AppFlowy-IO/AppFlowy
+projectType: production
+category: productivity
+stack: flutter
+summary: A local-first collaborative workspace — pages, databases, and AI assistants — with the data
+  stored on infrastructure you control.
+description: Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative
+  workspace where you achieve more without losing control of your data. The leading open source
+  Notion alternative.
+sourceDescription: Bring projects, wikis, and teams together with AI. AppFlowy is the AI
+  collaborative workspace where you achieve more without losing control of your data. The leading
+  open source Notion alternative.
+platforms:
+  - ios
+  - android
+licenses:
+  - agpl-3.0
+links:
+  github: https://github.com/AppFlowy-IO/AppFlowy
+distribution:
+  channels:
+    - type: app-store
+      platform: ios
+      label: App Store
+      url: https://apps.apple.com/us/app/appflowy/id6457261352
+      verified: false
+    - type: play-store
+      platform: android
+      label: Play Store
+      url: https://play.google.com/store/apps/details?id=io.appflowy.appflowy&pli=1
+      verified: false
+tags:
+  - blog
+  - confluence-alternative
+  - content-management
+  - content-services
+  - documentation
+  - note-taking
+  - notion-alternative
+bestFor: []
+whyListed: []
+caveats: []
+relations:
+  - type: alternative-to
+    to: notion
+    evidence:
+      type: repo-topic
+      url: https://github.com/AppFlowy-IO/AppFlowy
+      quote: notion-alternative
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: confluence
+    evidence:
+      type: repo-topic
+      url: https://github.com/AppFlowy-IO/AppFlowy
+      quote: confluence-alternative
+      checkedAt: 2026-09-22
+seo:
+  title: AppFlowy – Open Source Notion Alternative
+addedAt: 2026-07-06
+source:
+  type: import
+  provider: github
+  owner: AppFlowy-IO
+  repo: AppFlowy
+  url: https://github.com/AppFlowy-IO/AppFlowy
+curation:
+  reviewed: true
+  reviewedAt: 2026-08-11
+  labels:
+    - mature
+    - hot
+  lenses:
+    - production-like
+  reviewedBy: Open Apps curators
+visibility: keep
+---
 AppFlowy is a self-hostable, open-source productivity workspace that pairs a
 Notion-style block editor with database views (Grid, Board, Calendar),
 real-time multi-user collaboration, and an optional AI assistant. The data
