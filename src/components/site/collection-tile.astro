@@ -1,0 +1,101 @@
+---
+/**
+ * CollectionTile — one collection as a card: kind, title, the reader's
+ * question, a one-line takeaway, faces of the apps inside and the
+ * review / refresh date. Used on /collections/ and as "Related
+ * collections" on a collection page.
+ */
+export interface TileFace {
+  title: string;
+  avatarUrl?: string;
+}
+
+export interface CollectionTileData {
+  slug: string;
+  url: string;
+  title: string;
+  question?: string;
+  takeaway?: string;
+  editorial: boolean;
+  count: number;
+  countLabel: string;
+  faces: TileFace[];
+  dateLabel?: 'Reviewed' | 'Refreshed';
+  date?: string;
+  dateText?: string;
+  /** Reader intent the collection answers, e.g. "Learn from production code". */
+  intent?: string;
+}
+
+interface Props {
+  tile: CollectionTileData;
+  headingLevel?: 'h2' | 'h3';
+  eventSource?: string;
+}
+
+const { tile, headingLevel: Heading = 'h3', eventSource = 'collection_index' } = Astro.props;
+const faces = tile.faces.slice(0, 5);
+const extra = Math.max(0, tile.count - faces.length);
+const names = tile.faces.slice(0, 2).map((f) => f.title);
+const namesText = names.length
+  ? `${names.join(', ')}${tile.count > names.length ? ` and ${tile.count - names.length} more` : ''}`
+  : '';
+---
+
+<a
+  href={tile.url}
+  data-event="collection_card_click"
+  data-event-source={eventSource}
+  data-event-item={tile.slug}
+  class="group flex h-full min-w-0 flex-col rounded-[var(--radius-lg)] border border-border bg-card p-5 no-underline outline-none transition-[border-color,box-shadow,transform] hover:-translate-y-0.5 hover:border-ink-300 hover:shadow-md focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 dark:hover:border-ink-700"
+>
+  <div class="flex items-center justify-between gap-3">
+    {tile.editorial ? (
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2 py-0.5 text-2xs font-semibold text-emerald-700 dark:text-emerald-300">
+        <svg viewBox="0 0 16 16" width="10" height="10" aria-hidden="true" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
+        Editor's picks
+      </span>
+    ) : (
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-secondary px-2 py-0.5 text-2xs font-semibold text-secondary-foreground">
+        <span class="h-1.5 w-1.5 rounded-full bg-success" aria-hidden="true"></span>
+        Live view
+      </span>
+    )}
+    <span class="text-2xs tabular-nums text-muted-foreground">{tile.countLabel}</span>
+  </div>
+
+  {tile.intent && (
+    <p class="m-0 mt-4 text-2xs font-medium uppercase tracking-wider text-muted-foreground">{tile.intent}</p>
+  )}
+  <Heading class:list={["m-0 text-[1.125rem] font-semibold leading-snug tracking-tight text-foreground group-hover:underline", tile.intent ? "mt-1" : "mt-4"]}>
+    {tile.title}
+  </Heading>
+  {tile.question && tile.question !== tile.title && (
+    <p class="m-0 mt-1 text-sm font-medium text-muted-foreground">{tile.question}</p>
+  )}
+  {tile.takeaway && (
+    <p class="m-0 mt-3 line-clamp-2 text-sm leading-relaxed text-muted-foreground">{tile.takeaway}</p>
+  )}
+
+  <div class="mt-auto flex items-center gap-3 pt-5">
+    {faces.length > 0 && (
+      <span class="flex shrink-0 -space-x-2" aria-hidden="true">
+        {faces.map((face) => face.avatarUrl ? (
+          <img src={face.avatarUrl} alt="" width="28" height="28" loading="lazy" decoding="async" class="h-7 w-7 rounded-full border-2 border-card bg-secondary object-cover" />
+        ) : (
+          <span class="inline-flex h-7 w-7 items-center justify-center rounded-full border-2 border-card bg-secondary text-[10px] font-semibold text-secondary-foreground">{face.title.slice(0, 2)}</span>
+        ))}
+        {extra > 0 && (
+          <span class="inline-flex h-7 min-w-7 items-center justify-center rounded-full border-2 border-card bg-secondary px-1 text-[10px] font-semibold tabular-nums text-secondary-foreground">+{extra}</span>
+        )}
+      </span>
+    )}
+    <span class="min-w-0 flex-1 truncate text-2xs text-muted-foreground">{namesText}</span>
+  </div>
+  {tile.dateText && (
+    <p class="m-0 mt-3 flex items-center justify-between border-t border-border pt-3 text-2xs text-muted-foreground">
+      <span>{tile.dateLabel} <time datetime={tile.date}>{tile.dateText}</time></span>
+      <span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">→</span>
+    </p>
+  )}
+</a>

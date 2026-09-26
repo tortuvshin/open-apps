@@ -5,12 +5,13 @@ import {
   getCollectionBodyHtml,
   getCollectionIndexModel,
   loadCollections,
-  recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
 import { formatCount, runCollection } from '@grove-dev/core';
 import CollectionGuide, { type GuideTile } from '../../components/site/collection-guide.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
+import { collectionEntries } from '../../lib/collection-entries';
 import {
+  avatarFor,
   firstSentence,
   formatDate,
   freshnessOf,
@@ -23,7 +24,7 @@ import {
 
 const collections = await loadCollections(process.cwd());
 const allRecords = (records as { records: unknown[] }).records;
-const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
+const entries = collectionEntries(allRecords, siteConfig);
 const model = getCollectionIndexModel(collections, entries, siteConfig);
 const countNoun = {
   singular: siteConfig.blueprintConfig?.labelSingular ?? 'item',
@@ -47,11 +48,18 @@ const tiles = collections.map((collection) => {
     question: questionFor(collection, subjects),
     takeaway: firstSentence(introduction) ?? collection.description,
     editorial,
+    count: result.entries.length,
     countLabel: formatCount(result.entries.length, countNoun),
+    faces: result.entries.map((entry) => ({
+      title: entry.title,
+      avatarUrl: avatarFor(recordsBySlug.get(entry.slug), entry.repoHref, 56),
+    })),
     examples: result.entries.slice(0, editorial ? 4 : 3).map((entry) => ({
       title: entry.title,
       url: `/collections/${collection.slug}/#pick-${entry.slug}`,
       pick: firstSentence(entry.note) ?? recordsBySlug.get(entry.slug)?.bestFor?.[0],
+      avatarUrl: avatarFor(recordsBySlug.get(entry.slug), entry.repoHref, 72),
+      stars: entry.stars,
     })),
     dateLabel: freshness.label,
     date: freshness.date,
@@ -79,8 +87,12 @@ const groups = INTENT_GROUPS.map((group) => ({
   ...group,
   tiles: tiles
     .filter((t) => t.intent === group.id && t.tile.slug !== featured?.slug)
-    .map((t) => ({ ...t.tile, examples: t.tile.examples.slice(0, 3) })),
+    .map((t) => t.tile),
 })).filter((group) => group.tiles.length > 0);
+
+const appsCovered = new Set(
+  collections.flatMap((collection) => runCollection(collection, entries).entries.map((e) => e.slug)),
+).size;
 
 const seo = model.seo;
 ---
@@ -91,5 +103,5 @@ const seo = model.seo;
   jsonLd={seo?.jsonLd}
   site={siteConfig}
 >
-  <CollectionGuide featured={featured} groups={groups} />
+  <CollectionGuide featured={featured} groups={groups} totals={{ collections: collections.length, apps: appsCovered }} />
 </BaseLayout>

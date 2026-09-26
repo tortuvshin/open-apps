@@ -17,6 +17,7 @@
  * a reader is trying to do, not what the apps are like.
  */
 import type { Collection, CollectionEntry } from '@grove-dev/core';
+import { getOwnerAndRepoFromRepoUrl, getOwnerAvatarUrl } from '@grove-dev/core';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 
 const DAY = 24 * 3600 * 1000;
@@ -54,6 +55,9 @@ export const INTENT_GROUPS: ReadonlyArray<{ id: IntentId; title: string; blurb: 
 /** Minimal slice of a synced record this module reads. */
 export interface GuideRecord {
   slug: string;
+  name?: string;
+  logoUrl?: string;
+  tags?: string[];
   platforms?: string[];
   bestFor?: string[];
   whyListed?: string[];
@@ -230,4 +234,15 @@ export function platformLabels(platforms: string[] | undefined): string[] {
   const umbrella = new Set(['desktop', 'mobile']);
   const specific = list.filter((id) => !umbrella.has(id));
   return (specific.length ? specific : list).map((id) => taxonomyLabel('platforms', id));
+}
+
+/** Square avatar for an entry: the record's logo, else the GitHub owner's avatar. */
+export function avatarFor(
+  record: Pick<GuideRecord, 'logoUrl' | 'repoUrl'> | undefined,
+  repoHref: string | undefined,
+  size = 64,
+): string | undefined {
+  if (record?.logoUrl) return record.logoUrl;
+  const { owner } = getOwnerAndRepoFromRepoUrl(repoHref ?? record?.repoUrl ?? '');
+  return getOwnerAvatarUrl(owner, size) ?? undefined;
 }

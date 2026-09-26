@@ -2,26 +2,19 @@
 /**
  * CollectionGuide — the /collections/ index.
  *
- * Opens on the reader's question, explains the two kinds of collection
- * in plain words, features one editor's-picks story, and groups the
- * rest as small tiles by intent. Every line on a tile comes from the
- * collection file or its resolved entries; see `lib/collection-guide.ts`.
+ * A short header with the two kinds of collection as a legend, one
+ * featured editor's-picks story with its picks, then every other
+ * collection as a card, grouped by what the reader wants to do. Every
+ * line on a card comes from the collection file or its resolved
+ * entries; see `lib/collection-guide.ts`.
  */
+import { formatStars } from '@grove-dev/core';
 import Container from '../../layouts/container.astro';
 import { buttonClass } from '../../lib/classnames';
+import CollectionTile, { type CollectionTileData } from './collection-tile.astro';
 
-export interface GuideTile {
-  slug: string;
-  url: string;
-  title: string;
-  question: string;
-  takeaway?: string;
-  editorial: boolean;
-  countLabel: string;
-  examples: Array<{ title: string; url: string; pick?: string }>;
-  dateLabel?: 'Reviewed' | 'Refreshed';
-  date?: string;
-  dateText?: string;
+export interface GuideTile extends CollectionTileData {
+  examples: Array<{ title: string; url: string; pick?: string; avatarUrl?: string; stars?: number }>;
   introduction?: string;
   hasComparison: boolean;
 }
@@ -29,46 +22,64 @@ export interface GuideTile {
 interface Props {
   featured?: GuideTile;
   groups: Array<{ id: string; title: string; blurb: string; tiles: GuideTile[] }>;
+  totals: { collections: number; apps: number };
 }
 
-const { featured, groups } = Astro.props;
-const kindLabel = (t: GuideTile) => (t.editorial ? "Editor's picks" : 'Live view');
+const { featured, groups, totals } = Astro.props;
+// One grid, in intent order; each card names its intent.
+const tiles = groups.flatMap((group) => group.tiles.map((tile) => ({ ...tile, intent: group.title })));
 ---
 
-<section class="pt-10 pb-6 sm:pt-14 sm:pb-8">
+<section class="border-b border-border pb-10 pt-12 sm:pb-12 sm:pt-16">
   <Container>
-    <span class="text-2xs font-medium uppercase tracking-wider text-muted-foreground">Collections</span>
-    <h1 class="m-0 mt-2 text-[1.875rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2.375rem]">
-      What are you looking for?
-    </h1>
-    <p class="m-0 mt-3 max-w-[64ch] text-[0.9375rem] leading-relaxed text-muted-foreground">
-      Collections come in two kinds.{' '}
-      <strong class="font-semibold text-foreground">Editor's picks</strong> are short lists where a
-      person chose each app and wrote down why, with a review date.{' '}
-      <strong class="font-semibold text-foreground">Live views</strong> are saved searches over the
-      directory: the rules stay fixed and the list re-sorts whenever GitHub data syncs.
-    </p>
+    <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-[60ch]">
+        <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+          {totals.collections} collections · {totals.apps} apps covered
+        </p>
+        <h1 class="m-0 mt-2 text-[2rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2.625rem]">
+          Collections
+        </h1>
+        <p class="m-0 mt-3 text-[1.0625rem] leading-relaxed text-muted-foreground">
+          Shortlists for a question you already have — what to use instead of a product,
+          which codebases to learn from, what is moving right now.
+        </p>
+      </div>
+      <dl class="m-0 grid gap-2 text-sm sm:grid-cols-2 lg:w-[30rem]">
+        <div class="rounded-[var(--radius-lg)] border border-border bg-card p-3">
+          <dt class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2 py-0.5 text-2xs font-semibold text-emerald-700 dark:text-emerald-300">Editor's picks</dt>
+          <dd class="m-0 mt-2 text-2xs leading-relaxed text-muted-foreground">A person chose each app and wrote down why. Dated reviews.</dd>
+        </div>
+        <div class="rounded-[var(--radius-lg)] border border-border bg-card p-3">
+          <dt class="inline-flex items-center gap-1.5 rounded-full bg-secondary px-2 py-0.5 text-2xs font-semibold text-secondary-foreground">
+            <span class="h-1.5 w-1.5 rounded-full bg-success" aria-hidden="true"></span>Live view
+          </dt>
+          <dd class="m-0 mt-2 text-2xs leading-relaxed text-muted-foreground">Fixed rules over the directory, re-ranked on every GitHub sync.</dd>
+        </div>
+      </dl>
+    </div>
   </Container>
 </section>
 
 {featured && (
-  <section aria-labelledby="featured-heading" class="pb-10 sm:pb-12">
+  <section aria-labelledby="featured-heading" class="pt-10 sm:pt-12">
     <Container>
-      <article class="grid gap-6 rounded-[var(--radius-lg)] border border-border bg-card p-5 sm:p-7 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] lg:gap-10">
-        <div class="min-w-0">
-          <p class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
-            Featured · {kindLabel(featured)}
+      <article class="grid overflow-hidden rounded-[var(--radius-lg)] border border-border bg-card lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+        <div class="flex min-w-0 flex-col p-6 sm:p-8">
+          <p class="m-0 flex items-center gap-2 text-2xs font-medium uppercase tracking-wider text-muted-foreground">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 px-2 py-0.5 font-semibold normal-case tracking-normal text-emerald-700 dark:text-emerald-300">Featured</span>
+            {featured.editorial ? "Editor's picks" : 'Live view'}
           </p>
-          <h2 id="featured-heading" class="m-0 mt-2 text-[1.5rem] font-semibold leading-snug tracking-tight text-foreground sm:text-[1.75rem]">
-            {featured.question}
+          <h2 id="featured-heading" class="m-0 mt-4 text-[1.625rem] font-semibold leading-tight tracking-tight text-foreground sm:text-[2rem]">
+            <a href={featured.url} class="text-foreground no-underline hover:underline">{featured.title}</a>
           </h2>
-          <p class="m-0 mt-1 text-sm font-medium text-muted-foreground">{featured.title}</p>
+          {featured.question && <p class="m-0 mt-1.5 text-[0.9375rem] font-medium text-muted-foreground">{featured.question}</p>}
           {(featured.introduction ?? featured.takeaway) && (
-            <p class="m-0 mt-4 max-w-[60ch] text-[0.9375rem] leading-relaxed text-foreground">
+            <p class="m-0 mt-4 max-w-[58ch] text-[0.9375rem] leading-relaxed text-foreground">
               {featured.introduction ?? featured.takeaway}
             </p>
           )}
-          <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
+          <div class="mt-auto flex flex-wrap items-center gap-x-4 gap-y-2 pt-6">
             <a href={featured.url} class={buttonClass('primary', 'md')} data-event="collection_card_click" data-event-source="collection_featured" data-event-item={featured.slug}>
               {featured.hasComparison ? 'Read the comparison' : 'See the picks'} →
             </a>
@@ -81,15 +92,27 @@ const kindLabel = (t: GuideTile) => (t.editorial ? "Editor's picks" : 'Live view
           </div>
         </div>
         {featured.examples.length > 0 && (
-          <div class="min-w-0">
-            <h3 class="m-0 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Quick picks</h3>
-            <ol class="m-0 mt-3 flex list-none flex-col gap-3 p-0">
-              {featured.examples.map((ex) => (
-                <li class="m-0 border-t border-border pt-3 first:border-t-0 first:pt-0">
-                  <a href={ex.url} class="text-[0.9375rem] font-semibold text-foreground no-underline hover:underline">
-                    {ex.title}
+          <div class="min-w-0 border-t border-border bg-surface-sunken p-4 sm:p-6 lg:border-l lg:border-t-0">
+            <h3 class="m-0 px-2 text-2xs font-medium uppercase tracking-wider text-muted-foreground">Quick picks</h3>
+            <ol class="m-0 mt-2 flex list-none flex-col p-0">
+              {featured.examples.map((ex, i) => (
+                <li class="m-0">
+                  <a href={ex.url} class="group flex items-start gap-3 rounded-[var(--radius)] px-2 py-2.5 no-underline hover:bg-accent">
+                    {ex.avatarUrl ? (
+                      <img src={ex.avatarUrl} alt="" width="36" height="36" loading="lazy" decoding="async" class="h-9 w-9 shrink-0 rounded-lg border border-border bg-background object-cover" />
+                    ) : (
+                      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-border bg-background text-xs font-semibold text-muted-foreground">{i + 1}</span>
+                    )}
+                    <span class="min-w-0 flex-1">
+                      <span class="flex items-baseline justify-between gap-3">
+                        <span class="text-[0.9375rem] font-semibold text-foreground group-hover:underline">{ex.title}</span>
+                        {typeof ex.stars === 'number' && ex.stars > 0 && (
+                          <span class="shrink-0 text-2xs tabular-nums text-muted-foreground">★ {formatStars(ex.stars)}</span>
+                        )}
+                      </span>
+                      {ex.pick && <span class="mt-0.5 block text-sm leading-snug text-muted-foreground">{ex.pick}</span>}
+                    </span>
                   </a>
-                  {ex.pick && <p class="m-0 mt-0.5 text-sm leading-relaxed text-muted-foreground">{ex.pick}</p>}
                 </li>
               ))}
             </ol>
@@ -100,53 +123,20 @@ const kindLabel = (t: GuideTile) => (t.editorial ? "Editor's picks" : 'Live view
   </section>
 )}
 
-{groups.map((group) => (
-  <section aria-labelledby={`group-${group.id}`} class="pb-8 sm:pb-10">
+{tiles.length > 0 && (
+  <section aria-labelledby="all-collections" class="pb-16 pt-12">
     <Container>
-      <div class="grid gap-4 border-t border-border pt-6 lg:grid-cols-[16rem_minmax(0,1fr)] lg:gap-8">
-      <header class="flex flex-col gap-1">
-        <h2 id={`group-${group.id}`} class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">
-          {group.title}
+      <header class="mb-4 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <h2 id="all-collections" class="m-0 text-[1.25rem] font-semibold tracking-tight text-foreground">
+          {featured ? 'More collections' : 'All collections'}
         </h2>
-        {group.blurb && <p class="m-0 text-sm text-muted-foreground">{group.blurb}</p>}
+        <p class="m-0 text-sm text-muted-foreground">Grouped by what you want to do.</p>
       </header>
-      <ul class="m-0 grid list-none grid-cols-1 gap-3 p-0 sm:grid-cols-2">
-        {group.tiles.map((tile) => (
-          <li class="m-0 p-0">
-            <a
-              href={tile.url}
-              data-event="collection_card_click"
-              data-event-source="collection_index"
-              data-event-item={tile.slug}
-              class="group flex h-full min-w-0 flex-col gap-2 rounded-[var(--radius-lg)] border border-border bg-card p-4 no-underline outline-none transition-colors hover:border-ink-300 hover:bg-ink-50 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/35 sm:p-5 dark:hover:border-ink-700 dark:hover:bg-ink-900"
-            >
-              <span class="text-2xs font-medium uppercase tracking-wider text-muted-foreground">
-                {kindLabel(tile)}
-              </span>
-              <h3 class="m-0 text-[1.0625rem] font-semibold leading-snug tracking-tight text-foreground group-hover:underline">
-                {tile.question}
-              </h3>
-              <span class="text-sm font-medium text-foreground">{tile.title}</span>
-              {tile.takeaway && (
-                <p class="m-0 line-clamp-3 text-sm leading-relaxed text-muted-foreground">{tile.takeaway}</p>
-              )}
-              {tile.examples.length > 0 && (
-                <p class="m-0 text-sm text-foreground">
-                  <span class="text-muted-foreground">Includes </span>
-                  {tile.examples.map((ex) => ex.title).join(', ')}
-                </p>
-              )}
-              <span class="mt-auto pt-2 text-2xs text-muted-foreground">
-                {tile.countLabel}
-                {tile.dateText && (
-                  <> · {tile.dateLabel} <time datetime={tile.date}>{tile.dateText}</time></>
-                )}
-              </span>
-            </a>
-          </li>
+      <ul class="m-0 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3">
+        {tiles.map((tile) => (
+          <li class="m-0 p-0"><CollectionTile tile={tile} /></li>
         ))}
       </ul>
-      </div>
     </Container>
   </section>
-))}
+)}
