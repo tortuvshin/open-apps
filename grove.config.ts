@@ -144,6 +144,9 @@ export default defineConfig({
       "A hand-picked directory of real open-source applications — apps worth running, studying, and extending.",
     url: "https://openappscout.com",
     browseLabel: "Browse the directory →",
+    // Entries link to the app's page here; the repository follows as
+    // a "Source" link.
+    entryLinkTarget: "detail",
     intro: [
       "## Why this list",
       "",
