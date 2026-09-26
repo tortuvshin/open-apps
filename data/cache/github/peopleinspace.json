@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "slug": "peopleinspace",
+  "repoUrl": "https://github.com/joreilly/PeopleInSpace",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:24.921Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 229625157,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjk2MjUxNTc=",
+      "name": "PeopleInSpace",
+      "full_name": "joreilly/PeopleInSpace",
+      "private": false,
+      "owner": {
+        "login": "joreilly",
+        "id": 6302,
+        "node_id": "MDQ6VXNlcjYzMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6302?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joreilly",
+        "html_url": "https://github.com/joreilly",
+        "followers_url": "https://api.github.com/users/joreilly/followers",
+        "following_url": "https://api.github.com/users/joreilly/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joreilly/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joreilly/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joreilly/subscriptions",
+        "organizations_url": "https://api.github.com/users/joreilly/orgs",
+        "repos_url": "https://api.github.com/users/joreilly/repos",
+        "events_url": "https://api.github.com/users/joreilly/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joreilly/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/joreilly/PeopleInSpace",
+      "description": "Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.",
+      "fork": false,
+      "url": "https://api.github.com/repos/joreilly/PeopleInSpace",
+      "forks_url": "https://api.github.com/repos/joreilly/PeopleInSpace/forks",
+      "keys_url": "https://api.github.com/repos/joreilly/PeopleInSpace/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/joreilly/PeopleInSpace/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/joreilly/PeopleInSpace/teams",
+      "hooks_url": "https://api.github.com/repos/joreilly/PeopleInSpace/hooks",
+      "issue_events_url": "https://api.github.com/repos/joreilly/PeopleInSpace/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/joreilly/PeopleInSpace/events",
+      "assignees_url": "https://api.github.com/repos/joreilly/PeopleInSpace/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/joreilly/PeopleInSpace/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/joreilly/PeopleInSpace/tags",
+      "blobs_url": "https://api.github.com/repos/joreilly/PeopleInSpace/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/joreilly/PeopleInSpace/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/joreilly/PeopleInSpace/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/joreilly/PeopleInSpace/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/joreilly/PeopleInSpace/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/joreilly/PeopleInSpace/languages",
+      "stargazers_url": "https://api.github.com/repos/joreilly/PeopleInSpace/stargazers",
+      "contributors_url": "https://api.github.com/repos/joreilly/PeopleInSpace/contributors",
+      "subscribers_url": "https://api.github.com/repos/joreilly/PeopleInSpace/subscribers",
+      "subscription_url": "https://api.github.com/repos/joreilly/PeopleInSpace/subscription",
+      "commits_url": "https://api.github.com/repos/joreilly/PeopleInSpace/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/joreilly/PeopleInSpace/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/joreilly/PeopleInSpace/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/joreilly/PeopleInSpace/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/joreilly/PeopleInSpace/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/joreilly/PeopleInSpace/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/joreilly/PeopleInSpace/merges",
+      "archive_url": "https://api.github.com/repos/joreilly/PeopleInSpace/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/joreilly/PeopleInSpace/downloads",
+      "issues_url": "https://api.github.com/repos/joreilly/PeopleInSpace/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/joreilly/PeopleInSpace/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/joreilly/PeopleInSpace/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/joreilly/PeopleInSpace/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/joreilly/PeopleInSpace/labels{/name}",
+      "releases_url": "https://api.github.com/repos/joreilly/PeopleInSpace/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/joreilly/PeopleInSpace/deployments",
+      "created_at": "2019-12-22T20:19:16Z",
+      "updated_at": "2026-09-25T18:51:01Z",
+      "pushed_at": "2026-09-25T18:50:56Z",
+      "git_url": "git://github.com/joreilly/PeopleInSpace.git",
+      "ssh_url": "git@github.com:joreilly/PeopleInSpace.git",
+      "clone_url": "https://github.com/joreilly/PeopleInSpace.git",
+      "svn_url": "https://github.com/joreilly/PeopleInSpace",
+      "homepage": "",
+      "size": 73768,
+      "stargazers_count": 3428,
+      "watchers_count": 3358,
+      "language": "Kotlin",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": true,
+      "has_discussions": true,
+      "forks_count": 315,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 9,
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "allow_forking": true,
+      "is_template": true,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "android",
+        "compose-desktop",
+        "compose-ios",
+        "compose-multiplatform",
+        "compose-web",
+        "ios",
+        "jetpack-compose",
+        "kmp",
+        "kmp-sample",
+        "koin",
+        "kotlin",
+        "kotlin-coroutines",
+        "kotlin-multiplatform",
+        "kotlin-native",
+        "ktor",
+        "mcp",
+        "swift",
+        "swiftui",
+        "wasm"
+      ],
+      "visibility": "public",
+      "forks": 301,
+      "open_issues": 11,
+      "watchers": 3358,
+      "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "network_count": 301,
+      "subscribers_count": 35
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 0
+        },
+        {
+          "month": "2026-03",
+          "commits": 0
+        },
+        {
+          "month": "2026-04",
+          "commits": 4
+        },
+        {
+          "month": "2026-05",
+          "commits": 6
+        },
+        {
+          "month": "2026-06",
+          "commits": 0
+        },
+        {
+          "month": "2026-07",
+          "commits": 9
+        }
+      ],
+      "totalCommitsKnown": 1000,
+      "openPullRequests": 10,
+      "contributorsKnown": 38
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:24.921Z",
+      "source": "api"
+    },
+    "languages": {
+      "Kotlin": 198086,
+      "Swift": 17963,
+      "JavaScript": 2354,
+      "Ruby": 1580,
+      "HTML": 639
+    },
+    "html": {
+      "license": "Apache-2.0",
+      "language": null,
+      "topics": []
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Clear license found"
+    ]
+  }
+}

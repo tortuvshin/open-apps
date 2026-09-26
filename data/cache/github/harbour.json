@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "slug": "harbour",
+  "repoUrl": "https://github.com/rrroyal/Harbour",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:11.658Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 253628037,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyNTM2MjgwMzc=",
+      "name": "Harbour",
+      "full_name": "rrroyal/Harbour",
+      "private": false,
+      "owner": {
+        "login": "rrroyal",
+        "id": 23171377,
+        "node_id": "MDQ6VXNlcjIzMTcxMzc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23171377?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rrroyal",
+        "html_url": "https://github.com/rrroyal",
+        "followers_url": "https://api.github.com/users/rrroyal/followers",
+        "following_url": "https://api.github.com/users/rrroyal/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rrroyal/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rrroyal/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rrroyal/subscriptions",
+        "organizations_url": "https://api.github.com/users/rrroyal/orgs",
+        "repos_url": "https://api.github.com/users/rrroyal/repos",
+        "events_url": "https://api.github.com/users/rrroyal/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rrroyal/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/rrroyal/Harbour",
+      "description": "Docker/Portainer management app for iOS, iPadOS and macOS.",
+      "fork": false,
+      "url": "https://api.github.com/repos/rrroyal/Harbour",
+      "forks_url": "https://api.github.com/repos/rrroyal/Harbour/forks",
+      "keys_url": "https://api.github.com/repos/rrroyal/Harbour/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/rrroyal/Harbour/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/rrroyal/Harbour/teams",
+      "hooks_url": "https://api.github.com/repos/rrroyal/Harbour/hooks",
+      "issue_events_url": "https://api.github.com/repos/rrroyal/Harbour/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/rrroyal/Harbour/events",
+      "assignees_url": "https://api.github.com/repos/rrroyal/Harbour/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/rrroyal/Harbour/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/rrroyal/Harbour/tags",
+      "blobs_url": "https://api.github.com/repos/rrroyal/Harbour/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/rrroyal/Harbour/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/rrroyal/Harbour/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/rrroyal/Harbour/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/rrroyal/Harbour/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/rrroyal/Harbour/languages",
+      "stargazers_url": "https://api.github.com/repos/rrroyal/Harbour/stargazers",
+      "contributors_url": "https://api.github.com/repos/rrroyal/Harbour/contributors",
+      "subscribers_url": "https://api.github.com/repos/rrroyal/Harbour/subscribers",
+      "subscription_url": "https://api.github.com/repos/rrroyal/Harbour/subscription",
+      "commits_url": "https://api.github.com/repos/rrroyal/Harbour/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/rrroyal/Harbour/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/rrroyal/Harbour/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/rrroyal/Harbour/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/rrroyal/Harbour/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/rrroyal/Harbour/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/rrroyal/Harbour/merges",
+      "archive_url": "https://api.github.com/repos/rrroyal/Harbour/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/rrroyal/Harbour/downloads",
+      "issues_url": "https://api.github.com/repos/rrroyal/Harbour/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/rrroyal/Harbour/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/rrroyal/Harbour/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/rrroyal/Harbour/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/rrroyal/Harbour/labels{/name}",
+      "releases_url": "https://api.github.com/repos/rrroyal/Harbour/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/rrroyal/Harbour/deployments",
+      "created_at": "2020-04-06T22:16:35Z",
+      "updated_at": "2026-09-22T00:48:35Z",
+      "pushed_at": "2026-07-23T20:56:23Z",
+      "git_url": "git://github.com/rrroyal/Harbour.git",
+      "ssh_url": "git@github.com:rrroyal/Harbour.git",
+      "clone_url": "https://github.com/rrroyal/Harbour.git",
+      "svn_url": "https://github.com/rrroyal/Harbour",
+      "homepage": "https://harbour.shameful.xyz",
+      "size": 41914,
+      "stargazers_count": 763,
+      "watchers_count": 753,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 29,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 9,
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "docker-client",
+        "ios",
+        "ios-app",
+        "ios-swift",
+        "ios27",
+        "ipados",
+        "ipados-app",
+        "macos",
+        "macos-app",
+        "macos27",
+        "swiftui"
+      ],
+      "visibility": "public",
+      "forks": 28,
+      "open_issues": 10,
+      "watchers": 753,
+      "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "network_count": 28,
+      "subscribers_count": 12
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:11.658Z",
+      "source": "api"
+    },
+    "languages": {
+      "Swift": 456217,
+      "Shell": 2078,
+      "Ruby": 1997
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 0
+        },
+        {
+          "month": "2026-03",
+          "commits": 0
+        },
+        {
+          "month": "2026-04",
+          "commits": 7
+        },
+        {
+          "month": "2026-05",
+          "commits": 0
+        },
+        {
+          "month": "2026-06",
+          "commits": 0
+        },
+        {
+          "month": "2026-07",
+          "commits": 0
+        }
+      ],
+      "totalCommitsKnown": 216,
+      "contributorsKnown": 2,
+      "openPullRequests": 0
+    },
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "latestReleaseAt": "2026-05-02T21:42:25Z",
+    "homepage": "https://harbour.shameful.xyz"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

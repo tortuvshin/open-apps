@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "slug": "peercoin_flutter",
+  "repoUrl": "https://github.com/peercoin/peercoin_flutter",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:24.534Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:24.534Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "peercoin/peercoin_flutter",
+      "stargazers_count": 32,
+      "forks_count": 22,
+      "open_issues_count": 10,
+      "language": "Dart",
+      "pushed_at": "2026-07-22T13:30:28Z",
+      "updated_at": "2026-07-31T08:37:21Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "android",
+        "dart",
+        "flutter",
+        "flutter-app",
+        "ios",
+        "peercoin",
+        "proof-of-stake",
+        "wallet"
+      ]
+    },
+    "latestReleaseAt": "2026-07-22T09:30:01Z",
+    "homepage": "https://wallet.peercoin.net"
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

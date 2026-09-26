@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "open-design",
+  "repoUrl": "https://github.com/nexu-io/open-design",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:23.127Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "Apache-2.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:23.127Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "nexu-io/open-design",
+      "stargazers_count": 98131,
+      "forks_count": 11385,
+      "open_issues_count": 1124,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-26T07:42:37Z",
+      "updated_at": "2026-09-26T08:45:11Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents",
+        "cursor-design",
+        "deepseek",
+        "deepseek-harness",
+        "design-systems",
+        "desktop-app",
+        "dsh",
+        "dsh-plugin",
+        "figma-alternative",
+        "hermes-agent",
+        "local-first",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
+      ]
+    },
+    "latestReleaseAt": "2026-09-24T09:48:53Z",
+    "homepage": "https://open-design.ai"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

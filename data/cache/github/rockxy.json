@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "slug": "rockxy",
+  "repoUrl": "https://github.com/RockxyApp/Rockxy",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:26.693Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:26.693Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "RockxyApp/Rockxy",
+      "stargazers_count": 1385,
+      "forks_count": 78,
+      "open_issues_count": 98,
+      "language": "Swift",
+      "pushed_at": "2026-09-25T06:58:55Z",
+      "updated_at": "2026-09-26T06:14:58Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "ai",
+        "api-debugging",
+        "charles-proxy-alternative",
+        "debugging-proxy",
+        "graphql",
+        "http-proxy",
+        "https-inspection",
+        "macos-app",
+        "man-in-the-middle",
+        "mock-api",
+        "network-debugging",
+        "proxy-server",
+        "proxyman",
+        "proxyman-alternative",
+        "swift",
+        "swiftnio",
+        "swiftui",
+        "traffic-capture",
+        "web3",
+        "websocket"
+      ]
+    },
+    "latestReleaseAt": "2026-09-25T06:56:17Z",
+    "homepage": "https://rockxy.io"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

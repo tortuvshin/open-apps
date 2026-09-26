@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "slug": "icecubesapp",
+  "repoUrl": "https://github.com/Dimillian/IceCubesApp",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:13.055Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 568430347,
+      "node_id": "R_kgDOIeGPCw",
+      "name": "IceCubesApp",
+      "full_name": "Dimillian/IceCubesApp",
+      "private": false,
+      "owner": {
+        "login": "Dimillian",
+        "id": 535509,
+        "node_id": "MDQ6VXNlcjUzNTUwOQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/535509?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Dimillian",
+        "html_url": "https://github.com/Dimillian",
+        "followers_url": "https://api.github.com/users/Dimillian/followers",
+        "following_url": "https://api.github.com/users/Dimillian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Dimillian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Dimillian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Dimillian/subscriptions",
+        "organizations_url": "https://api.github.com/users/Dimillian/orgs",
+        "repos_url": "https://api.github.com/users/Dimillian/repos",
+        "events_url": "https://api.github.com/users/Dimillian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Dimillian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/Dimillian/IceCubesApp",
+      "description": "A SwiftUI Mastodon client",
+      "fork": false,
+      "url": "https://api.github.com/repos/Dimillian/IceCubesApp",
+      "forks_url": "https://api.github.com/repos/Dimillian/IceCubesApp/forks",
+      "keys_url": "https://api.github.com/repos/Dimillian/IceCubesApp/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/Dimillian/IceCubesApp/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/Dimillian/IceCubesApp/teams",
+      "hooks_url": "https://api.github.com/repos/Dimillian/IceCubesApp/hooks",
+      "issue_events_url": "https://api.github.com/repos/Dimillian/IceCubesApp/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/Dimillian/IceCubesApp/events",
+      "assignees_url": "https://api.github.com/repos/Dimillian/IceCubesApp/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/Dimillian/IceCubesApp/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/Dimillian/IceCubesApp/tags",
+      "blobs_url": "https://api.github.com/repos/Dimillian/IceCubesApp/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/Dimillian/IceCubesApp/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/Dimillian/IceCubesApp/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/Dimillian/IceCubesApp/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/Dimillian/IceCubesApp/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/Dimillian/IceCubesApp/languages",
+      "stargazers_url": "https://api.github.com/repos/Dimillian/IceCubesApp/stargazers",
+      "contributors_url": "https://api.github.com/repos/Dimillian/IceCubesApp/contributors",
+      "subscribers_url": "https://api.github.com/repos/Dimillian/IceCubesApp/subscribers",
+      "subscription_url": "https://api.github.com/repos/Dimillian/IceCubesApp/subscription",
+      "commits_url": "https://api.github.com/repos/Dimillian/IceCubesApp/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/Dimillian/IceCubesApp/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/Dimillian/IceCubesApp/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/Dimillian/IceCubesApp/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/Dimillian/IceCubesApp/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/Dimillian/IceCubesApp/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/Dimillian/IceCubesApp/merges",
+      "archive_url": "https://api.github.com/repos/Dimillian/IceCubesApp/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/Dimillian/IceCubesApp/downloads",
+      "issues_url": "https://api.github.com/repos/Dimillian/IceCubesApp/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/Dimillian/IceCubesApp/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/Dimillian/IceCubesApp/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/Dimillian/IceCubesApp/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/Dimillian/IceCubesApp/labels{/name}",
+      "releases_url": "https://api.github.com/repos/Dimillian/IceCubesApp/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/Dimillian/IceCubesApp/deployments",
+      "created_at": "2022-11-20T14:10:57Z",
+      "updated_at": "2026-09-25T17:57:18Z",
+      "pushed_at": "2026-09-20T07:42:26Z",
+      "git_url": "git://github.com/Dimillian/IceCubesApp.git",
+      "ssh_url": "git@github.com:Dimillian/IceCubesApp.git",
+      "clone_url": "https://github.com/Dimillian/IceCubesApp.git",
+      "svn_url": "https://github.com/Dimillian/IceCubesApp",
+      "homepage": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
+      "size": 224718,
+      "stargazers_count": 7066,
+      "watchers_count": 7028,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 721,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 580,
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "ios",
+        "mastodon",
+        "swift",
+        "swiftui"
+      ],
+      "visibility": "public",
+      "forks": 717,
+      "open_issues": 580,
+      "watchers": 7028,
+      "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "network_count": 717,
+      "subscribers_count": 53
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 4
+        },
+        {
+          "month": "2026-03",
+          "commits": 2
+        },
+        {
+          "month": "2026-04",
+          "commits": 0
+        },
+        {
+          "month": "2026-05",
+          "commits": 0
+        },
+        {
+          "month": "2026-06",
+          "commits": 3
+        },
+        {
+          "month": "2026-07",
+          "commits": 0
+        }
+      ],
+      "totalCommitsKnown": 2657,
+      "openPullRequests": 14,
+      "contributorsKnown": 147
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:13.055Z",
+      "source": "api"
+    },
+    "languages": {
+      "Swift": 1292685,
+      "Shell": 3910,
+      "JavaScript": 470
+    },
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "latestReleaseAt": "2026-01-09T16:15:42Z",
+    "homepage": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

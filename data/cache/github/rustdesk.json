@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "rustdesk",
+  "repoUrl": "https://github.com/rustdesk/rustdesk",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:27.436Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "AGPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:27.436Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "rustdesk/rustdesk",
+      "stargazers_count": 124559,
+      "forks_count": 19270,
+      "open_issues_count": 161,
+      "language": "Rust",
+      "pushed_at": "2026-09-26T07:08:52Z",
+      "updated_at": "2026-09-26T08:55:56Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
+      ]
+    },
+    "latestReleaseAt": "2026-07-06T10:02:30Z",
+    "homepage": "https://rustdesk.com"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}

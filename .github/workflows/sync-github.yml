@@ -43,6 +43,8 @@ jobs:
           title: "Sync GitHub metadata"
           branch: chore/sync-github
           delete-branch: true
+          # Sync writes only the generated cache; records stay human-owned.
+          add-paths: data/cache/github/**
       - name: Fail when any record failed to sync
         if: steps.sync.outcome == 'failure'
         run: |

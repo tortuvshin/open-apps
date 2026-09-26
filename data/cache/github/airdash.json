@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "slug": "airdash",
+  "repoUrl": "https://github.com/simonbengtsson/airdash",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:55:58.699Z",
+  "partialFailures": [],
+  "github": {
+    "repository": {
+      "id": 517636103,
+      "node_id": "R_kgDOHtqABw",
+      "name": "airdash",
+      "full_name": "simonbengtsson/airdash",
+      "private": false,
+      "owner": {
+        "login": "simonbengtsson",
+        "id": 3586691,
+        "node_id": "MDQ6VXNlcjM1ODY2OTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3586691?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/simonbengtsson",
+        "html_url": "https://github.com/simonbengtsson",
+        "followers_url": "https://api.github.com/users/simonbengtsson/followers",
+        "following_url": "https://api.github.com/users/simonbengtsson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/simonbengtsson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/simonbengtsson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/simonbengtsson/subscriptions",
+        "organizations_url": "https://api.github.com/users/simonbengtsson/orgs",
+        "repos_url": "https://api.github.com/users/simonbengtsson/repos",
+        "events_url": "https://api.github.com/users/simonbengtsson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/simonbengtsson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/simonbengtsson/airdash",
+      "description": "File sharing flutter webrtc app enabling sending files to any device from anywhere",
+      "fork": false,
+      "url": "https://api.github.com/repos/simonbengtsson/airdash",
+      "forks_url": "https://api.github.com/repos/simonbengtsson/airdash/forks",
+      "keys_url": "https://api.github.com/repos/simonbengtsson/airdash/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/simonbengtsson/airdash/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/simonbengtsson/airdash/teams",
+      "hooks_url": "https://api.github.com/repos/simonbengtsson/airdash/hooks",
+      "issue_events_url": "https://api.github.com/repos/simonbengtsson/airdash/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/simonbengtsson/airdash/events",
+      "assignees_url": "https://api.github.com/repos/simonbengtsson/airdash/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/simonbengtsson/airdash/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/simonbengtsson/airdash/tags",
+      "blobs_url": "https://api.github.com/repos/simonbengtsson/airdash/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/simonbengtsson/airdash/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/simonbengtsson/airdash/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/simonbengtsson/airdash/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/simonbengtsson/airdash/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/simonbengtsson/airdash/languages",
+      "stargazers_url": "https://api.github.com/repos/simonbengtsson/airdash/stargazers",
+      "contributors_url": "https://api.github.com/repos/simonbengtsson/airdash/contributors",
+      "subscribers_url": "https://api.github.com/repos/simonbengtsson/airdash/subscribers",
+      "subscription_url": "https://api.github.com/repos/simonbengtsson/airdash/subscription",
+      "commits_url": "https://api.github.com/repos/simonbengtsson/airdash/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/simonbengtsson/airdash/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/simonbengtsson/airdash/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/simonbengtsson/airdash/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/simonbengtsson/airdash/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/simonbengtsson/airdash/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/simonbengtsson/airdash/merges",
+      "archive_url": "https://api.github.com/repos/simonbengtsson/airdash/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/simonbengtsson/airdash/downloads",
+      "issues_url": "https://api.github.com/repos/simonbengtsson/airdash/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/simonbengtsson/airdash/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/simonbengtsson/airdash/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/simonbengtsson/airdash/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/simonbengtsson/airdash/labels{/name}",
+      "releases_url": "https://api.github.com/repos/simonbengtsson/airdash/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/simonbengtsson/airdash/deployments",
+      "created_at": "2022-07-25T11:24:41Z",
+      "updated_at": "2026-09-23T03:36:37Z",
+      "pushed_at": "2026-08-27T19:08:30Z",
+      "git_url": "git://github.com/simonbengtsson/airdash.git",
+      "ssh_url": "git@github.com:simonbengtsson/airdash.git",
+      "clone_url": "https://github.com/simonbengtsson/airdash.git",
+      "svn_url": "https://github.com/simonbengtsson/airdash",
+      "homepage": "https://airdash-project.web.app",
+      "size": 5202,
+      "stargazers_count": 668,
+      "watchers_count": 667,
+      "language": "Dart",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": false,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 126,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 18,
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "app-store-connect",
+        "file-sharing",
+        "file-transfer",
+        "firebase-firestore",
+        "firebase-functions",
+        "flutter",
+        "flutter-app",
+        "flutter-apps",
+        "flutter-ci",
+        "flutter-desktop",
+        "peer-to-peer",
+        "production-app",
+        "webrtc",
+        "webrtc-signaling"
+      ],
+      "visibility": "public",
+      "forks": 125,
+      "open_issues": 18,
+      "watchers": 667,
+      "default_branch": "main",
+      "permissions": {
+        "admin": false,
+        "maintain": false,
+        "push": false,
+        "triage": false,
+        "pull": false
+      },
+      "temp_clone_token": "",
+      "network_count": 125,
+      "subscribers_count": 8
+    },
+    "activity": {
+      "monthlyCommits": [
+        {
+          "month": "2026-02",
+          "commits": 2
+        },
+        {
+          "month": "2026-03",
+          "commits": 0
+        },
+        {
+          "month": "2026-04",
+          "commits": 0
+        },
+        {
+          "month": "2026-05",
+          "commits": 0
+        },
+        {
+          "month": "2026-06",
+          "commits": 0
+        },
+        {
+          "month": "2026-07",
+          "commits": 0
+        }
+      ],
+      "totalCommitsKnown": 255,
+      "openPullRequests": 0,
+      "contributorsKnown": 5
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:55:58.699Z",
+      "source": "api"
+    },
+    "languages": {
+      "Dart": 188660,
+      "HTML": 27455,
+      "Swift": 23448,
+      "C++": 20534,
+      "CMake": 17111,
+      "JavaScript": 6152,
+      "Ruby": 3939,
+      "Kotlin": 1506,
+      "C": 820,
+      "Objective-C": 38
+    },
+    "html": {
+      "license": "MIT",
+      "language": null,
+      "topics": []
+    },
+    "latestReleaseAt": "2024-09-02T11:16:28Z",
+    "homepage": "https://airdash-project.web.app"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Clear license found"
+    ]
+  }
+}

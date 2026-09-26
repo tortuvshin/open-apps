@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "slug": "habo",
+  "repoUrl": "https://github.com/xpavle00/Habo",
+  "source": "api",
+  "lastSuccessAt": "2026-09-26T08:56:10.924Z",
+  "partialFailures": [],
+  "github": {
+    "html": {
+      "license": "GPL-3.0",
+      "language": null,
+      "topics": []
+    },
+    "sync": {
+      "syncedAt": "2026-09-26T08:56:10.924Z",
+      "source": "api"
+    },
+    "repository": {
+      "full_name": "xpavle00/Habo",
+      "stargazers_count": 1513,
+      "forks_count": 181,
+      "open_issues_count": 31,
+      "language": "Dart",
+      "pushed_at": "2026-09-20T08:10:38Z",
+      "updated_at": "2026-09-25T12:59:15Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "android",
+        "backup",
+        "e2e-encryption",
+        "flutter",
+        "habit-tracker",
+        "ios",
+        "minimalistic",
+        "simple",
+        "sync"
+      ]
+    },
+    "latestReleaseAt": "2026-05-06T11:09:46Z",
+    "homepage": "https://habo.space"
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Recent repository activity",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  }
+}
