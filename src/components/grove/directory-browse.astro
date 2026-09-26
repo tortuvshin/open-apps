@@ -152,9 +152,29 @@ const description = seo.description;
       </form>
 
       {/* Row 2 — every filter on one line. On mobile they collapse into
-          a full-width "Filters (n)" button opening a bottom sheet. */}
+          a full-width "Filters (n)" button opening a bottom sheet.
+          Filters apply live in both places. The sheet's footer button
+          ("Show 12 apps") just closes it and moves focus to the
+          results heading. */}
       <div class="mt-3">
-        <FilterDrawer label="Filters" activeCount={chips.length} clearHref={clearFiltersHref}>
+        <FilterDrawer
+          label="Filters"
+          activeCount={chips.length}
+          clearHref={clearFiltersHref}
+          resultsLabel={`Show ${sorted.length} ${sorted.length === 1 ? itemLabel() : itemLabelPlural()}`}
+          resultsTarget="#results-heading"
+        >
+          {/* The applied chips again, inside the sheet: on mobile the
+              row above the list is behind the sheet. On desktop the
+              filters render inline right above that row, so this copy
+              stays hidden. DirectoryIndexClient fills both. The sheet's
+              header already has "Clear all", so this row leaves it out. */}
+          <div
+            data-active-filters
+            data-without-clear
+            class:list={["mb-3 flex flex-wrap items-center gap-1.5 md:hidden", chips.length === 0 && "hidden"]}
+            aria-label="Active filters"
+          ></div>
           <RefinePanel
             class="max-md:flex-col max-md:items-stretch"
             groups={facetGroups}
@@ -170,6 +190,7 @@ const description = seo.description;
           the client fills it from the live query string. */}
       <div
         id="active-filters"
+        data-active-filters
         class:list={["mt-3 flex flex-wrap items-center gap-1.5 pb-6", chips.length === 0 && "hidden"]}
         aria-label="Active filters"
       >
@@ -198,9 +219,12 @@ const description = seo.description;
           which "All projects / Every item in the directory" did not,
           and it keeps the document's heading order intact above the
           cards' own h3s. */}
+      {/* `tabindex="-1"` lets the drawer's "Show N" button and the
+          focus fallbacks in DirectoryIndexClient move focus here. */}
       <h2
         id="results-heading"
-        class="m-0 mb-5 text-2xs font-normal text-ink-500 dark:text-ink-400"
+        tabindex="-1"
+        class="m-0 mb-5 scroll-mt-4 text-2xs font-normal text-ink-500 dark:text-ink-400"
       >
         <span id="results-count" class="font-mono font-semibold text-ink-900 dark:text-ink-100">
           {sorted.length} {sorted.length === 1 ? itemLabel() : itemLabelPlural()}
@@ -208,6 +232,12 @@ const description = seo.description;
         <span id="results-sort">{` · sorted by ${sortDisplay(sort)}`}</span>
         <span id="results-page">{pages > 1 ? ` · page ${page} of ${pages}` : ""}</span>
       </h2>
+
+      {/* Screen readers hear the result count here, debounced by
+          DirectoryIndexClient so rapid toggles make one announcement.
+          The visible count above is deliberately not a live region,
+          or every change would be announced twice. */}
+      <p id="results-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
 
       <CardGrid id="results-list">
         {pageItems.map((item, i) => (
@@ -225,7 +255,9 @@ const description = seo.description;
         <p class="m-0 text-sm font-medium text-ink-700 dark:text-ink-200">
           {`No ${itemLabelPlural()} match these filters.`}
         </p>
-        <Button href={clearFiltersHref} variant="secondary" size="sm" class="mt-4">Clear filters</Button>
+        {/* The client keeps this href in step with the live query, so
+            clearing keeps the chosen sort. */}
+        <Button href={clearFiltersHref} variant="secondary" size="sm" class="mt-4" data-empty-reset>Clear filters</Button>
       </div>
       {/* Plain div wrapper — Pagination renders its own
           <nav aria-label="Pagination">, so a nav here would nest two
