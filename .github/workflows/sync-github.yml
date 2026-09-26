@@ -6,10 +6,13 @@ on:
   # A record merged on Monday used to wait until Sunday for its first
   # metadata sync. With no stars and no pushedAt it sorted last on every
   # order the directory offers — including "Recently added", where it
-  # belonged at the top. Sync as soon as a record lands instead.
+  # belonged at the top. Sync as soon as a record lands instead. Records
+  # are Markdown files in content/records/; the few left as YAML are in
+  # data/records/.
   push:
     branches: [main]
     paths:
+      - "content/records/**"
       - "data/records/**"
   workflow_dispatch:
 
