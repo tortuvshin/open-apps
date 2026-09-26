@@ -226,6 +226,9 @@ const primaryCta: CTA | undefined = ctas.find((c) => c.variant === 'primary') ??
           </a>
         </div>
       )}
+
+      {/* Social proof under the CTA — press, contributors, stars. */}
+      <slot name="proof" />
     </div>
   </Container>
 </section>
