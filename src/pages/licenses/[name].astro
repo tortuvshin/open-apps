@@ -30,6 +30,8 @@ const model = getTaxonomyPageModel('licenses', name, displayName, siteConfig);
     eyebrow="License"
     displayName={displayName}
     lede={`Browse open-source ${itemLabelPlural()} in this directory licensed under ${displayName}.`}
-    records={model.records}
+    scope={{ licenses: [name] }}
+    count={model.records.length}
+    pathPrefix={`/licenses/${name}`}
   />
 </BaseLayout>

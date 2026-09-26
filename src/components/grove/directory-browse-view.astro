@@ -1,0 +1,267 @@
+---
+/**
+ * DirectoryBrowseView — the browse engine's body: search and sort, the
+ * facet filters, the applied-filter chips, the results, and the client
+ * controller that keeps all of it in step with the query string.
+ *
+ * Two kinds of page render it:
+ *   - `DirectoryBrowse` (`/{slug}/`, `/{slug}/page/{n}/`), which puts
+ *     its page header and lens tabs in the `header` slot.
+ *   - `TaxonomyList` (`/stacks/<id>/`, `/categories/<id>/`, …), which
+ *     passes a `scope` and its own `pathPrefix`.
+ *
+ * `scope` is an immutable slice of the directory, such as
+ * `{ stacks: ['flutter'] }`. It is merged into every query, so results
+ * and facet counts only ever come from the scoped set. It is never a
+ * chip, its facet group is not rendered, and it never goes in the URL:
+ * the page's own path already says it. Filters, sort and the query
+ * live in that page's query string (`/stacks/flutter/?platform=ios`),
+ * and "Clear all" or the zero-results reset lead back to the page
+ * itself, so nothing can drop the scope.
+ *
+ * A scoped list is not paginated. The host page has no `/page/{n}/`
+ * routes, so one prerendered document carries every record in the
+ * scope, which keeps all of them linked without JavaScript. That is
+ * what taxonomy pages rendered before they had filters.
+ *
+ * With no `scope` this renders exactly what `/{slug}/` always did.
+ */
+import siteConfig from '@grove/generated/site-config.json';
+import { SORT_OPTIONS, sortDisplay } from '@grove-dev/astro';
+import {
+  getDirectoryIndexModel,
+  itemLabel,
+  itemLabelPlural,
+  taxonomy,
+} from '@grove-dev/astro/server';
+import { searchParamsFromFilters } from '@grove-dev/core';
+import { chipClass } from '../../lib/classnames.ts';
+import { type DirectoryScope, scopedGroups } from '../../lib/live-filters.ts';
+import Button from '../ui/button.astro';
+import FilterDrawer from '../ui/filter-drawer.astro';
+import SearchField from '../ui/search-field.astro';
+import CardGrid from './card-grid.astro';
+import DirectoryIndexClient from './directory-index-client.astro';
+import IndexRow from './index-row.astro';
+import Pagination from './pagination.astro';
+import RefinePanel from './refine-panel.astro';
+
+interface Props {
+  /** 1-based page this route renders. Ignored when `scope` is set. */
+  routePage?: number;
+  /**
+   * Fixed filters for every query on this page, e.g.
+   * `{ categories: ['productivity'] }`. Omit on the directory itself.
+   */
+  scope?: DirectoryScope;
+  /**
+   * Path the filtered URLs are built on, without a trailing slash.
+   * Default: the directory route (`/{slug}`). A scoped page passes its
+   * own path (`/stacks/flutter`).
+   */
+  pathPrefix?: string;
+}
+
+const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
+const { routePage = 1, scope, pathPrefix = `/${slug}` } = Astro.props;
+const fixed = scopedGroups(scope);
+const scoped = fixed.length > 0;
+
+// A scoped page asks the same model the directory uses, with the scope
+// as its query. Every facet's intersection count then already excludes
+// records outside the scope, and `sorted` is the scoped set. On an
+// unscoped page the build never sees a query, so this is empty.
+const query = scoped
+  ? searchParamsFromFilters(
+      Object.fromEntries(fixed.map((group) => [group, [...(scope?.[group] ?? [])]])),
+    )
+  : Astro.url.searchParams;
+const model = getDirectoryIndexModel(query, siteConfig, { page: scoped ? 1 : routePage });
+const { filters, searchPlaceholder, sort, sorted } = model;
+
+// The scoped group is the page itself, not a choice: no facet for it,
+// and no chip. Nothing else the visitor picked exists at build time.
+const facetGroups = model.facetGroups.filter(
+  (group) => !fixed.includes(group.filterKey as (typeof fixed)[number]),
+);
+const chips = scoped ? [] : model.chips;
+const clearFiltersHref = scoped ? `${pathPrefix}/` : model.clearFiltersHref;
+const pageItems = scoped ? sorted : model.pageItems;
+const pages = scoped ? 1 : model.pages;
+const page = scoped ? 1 : model.page;
+const { hrefForResultPage } = model;
+---
+
+<section class="border-b border-border bg-background">
+  <div class:list={["mx-auto w-full max-w-container px-5 sm:px-7", Astro.slots.has("header") && "pt-10 sm:pt-12"]}>
+    <slot name="header" />
+
+    {/* Row 1 — search and sort. Search filters as you type (see
+        DirectoryIndexClient); the submit button is sr-only so Enter
+        still works when JavaScript never arrives. */}
+    <form
+      method="get"
+      action={pathPrefix}
+      id="search-form"
+      class:list={["flex flex-col gap-2 sm:flex-row", Astro.slots.has("header") && "mt-6"]}
+      role="search"
+    >
+      <SearchField
+        class="flex-1"
+        label={`Search ${itemLabelPlural()}`}
+        value={filters.q ?? ""}
+        placeholder={searchPlaceholder}
+        shortcut
+      />
+      <label class="relative">
+        <span class="sr-only">{`Sort ${itemLabelPlural()}`}</span>
+        <select
+          id="sort-select"
+          name="sort"
+          class="h-10 w-full cursor-pointer appearance-none rounded-md border border-input bg-background py-1.5 pl-3 pr-8 text-sm font-medium text-foreground transition-colors hover:border-ring focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20 sm:w-auto"
+        >
+          {SORT_OPTIONS.map((o) => (
+            <option value={o.value} selected={o.value === sort}>{o.label}</option>
+          ))}
+        </select>
+        <svg
+          viewBox="0 0 16 16"
+          width="11"
+          height="11"
+          aria-hidden="true"
+          class="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground"
+          fill="currentColor"
+        >
+          <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" />
+        </svg>
+      </label>
+      <button type="submit" class="sr-only">Search</button>
+    </form>
+
+    {/* Row 2 — every filter on one line. On mobile they collapse into
+        a full-width "Filters (n)" button opening a bottom sheet.
+        Filters apply live in both places. The sheet's footer button
+        ("Show 12 apps") just closes it and moves focus to the
+        results heading. */}
+    <div class="mt-3">
+      <FilterDrawer
+        label="Filters"
+        activeCount={chips.length}
+        clearHref={clearFiltersHref}
+        resultsLabel={`Show ${sorted.length} ${sorted.length === 1 ? itemLabel() : itemLabelPlural()}`}
+        resultsTarget="#results-heading"
+      >
+        {/* The applied chips again, inside the sheet: on mobile the
+            row above the list is behind the sheet. On desktop the
+            filters render inline right above that row, so this copy
+            stays hidden. DirectoryIndexClient fills both. The sheet's
+            header already has "Clear all", so this row leaves it out. */}
+        <div
+          data-active-filters
+          data-without-clear
+          class:list={["mb-3 flex flex-wrap items-center gap-1.5 md:hidden", chips.length === 0 && "hidden"]}
+          aria-label="Active filters"
+        ></div>
+        <RefinePanel
+          class="max-md:flex-col max-md:items-stretch"
+          groups={facetGroups}
+          initial={filters}
+          pathPrefix={pathPrefix}
+          hide={["sort"]}
+        />
+      </FilterDrawer>
+    </div>
+
+    {/* Row 3 — what is currently narrowing the list, and one way out
+        of all of it. Server-rendered empty on this prerendered route;
+        the client fills it from the live query string. */}
+    <div
+      id="active-filters"
+      data-active-filters
+      class:list={["mt-3 flex flex-wrap items-center gap-1.5 pb-6", chips.length === 0 && "hidden"]}
+      aria-label="Active filters"
+    >
+      {chips.map((chip) => (
+        <a href={chip.href} class={chipClass()} aria-label={`Remove filter: ${chip.label}`}>
+          {chip.label} <span aria-hidden="true">×</span>
+        </a>
+      ))}
+      {chips.length > 0 && (
+        <a
+          href={clearFiltersHref}
+          class="text-2xs font-medium text-ink-500 underline decoration-border underline-offset-2 hover:text-ink-900 dark:hover:text-ink-100"
+          aria-label="Clear all active filters"
+        >
+          Clear all
+        </a>
+      )}
+    </div>
+    {chips.length === 0 && <div class="pb-6"></div>}
+  </div>
+</section>
+
+<section class="py-10 sm:py-12">
+  <div class="mx-auto w-full max-w-container px-5 sm:px-7">
+    {/* The count line IS the results heading — it carries a fact,
+        which "All projects / Every item in the directory" did not,
+        and it keeps the document's heading order intact above the
+        cards' own h3s. */}
+    {/* `tabindex="-1"` lets the drawer's "Show N" button and the
+        focus fallbacks in DirectoryIndexClient move focus here. */}
+    <h2
+      id="results-heading"
+      tabindex="-1"
+      class="m-0 mb-5 scroll-mt-4 text-2xs font-normal text-ink-500 dark:text-ink-400"
+    >
+      <span id="results-count" class="font-mono font-semibold text-ink-900 dark:text-ink-100">
+        {sorted.length} {sorted.length === 1 ? itemLabel() : itemLabelPlural()}
+      </span>
+      <span id="results-sort">{` · sorted by ${sortDisplay(sort)}`}</span>
+      <span id="results-page">{pages > 1 ? ` · page ${page} of ${pages}` : ""}</span>
+    </h2>
+
+    {/* Screen readers hear the result count here, debounced by
+        DirectoryIndexClient so rapid toggles make one announcement.
+        The visible count above is deliberately not a live region,
+        or every change would be announced twice. */}
+    <p id="results-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+
+    <CardGrid id="results-list">
+      {pageItems.map((item, i) => (
+          <li class="m-0 p-0" data-record-slug={item.slug}>
+            <IndexRow
+              record={item as Parameters<typeof IndexRow>[0]["record"]}
+              detailHref={`/${slug}/${item.slug}/`}
+              eager={i < 3}
+            />
+          </li>
+      ))}
+    </CardGrid>
+
+    <div id="empty-state" class:list={["py-12 text-center", sorted.length > 0 && "hidden"]}>
+      <p class="m-0 text-sm font-medium text-ink-700 dark:text-ink-200">
+        {`No ${itemLabelPlural()} match these filters.`}
+      </p>
+      {/* The client keeps this href in step with the live query, so
+          clearing keeps the chosen sort, and on a scoped page it stays
+          on that page. */}
+      <Button href={clearFiltersHref} variant="secondary" size="sm" class="mt-4" data-empty-reset>Clear filters</Button>
+    </div>
+    {/* Plain div wrapper — Pagination renders its own
+        <nav aria-label="Pagination">, so a nav here would nest two
+        identical landmarks. */}
+    <div id="results-pagination" class="mt-8 flex flex-wrap items-center justify-center gap-1.5">
+      <Pagination current={page} total={pages} hrefFor={hrefForResultPage} />
+    </div>
+  </div>
+</section>
+
+<DirectoryIndexClient
+  slug={slug}
+  singular={itemLabel()}
+  plural={itemLabelPlural()}
+  taxonomy={taxonomy}
+  routePage={page}
+  scope={scoped ? scope : undefined}
+  pathPrefix={pathPrefix}
+/>

@@ -4,12 +4,10 @@
  * that render it: `/{slug}/` (page 1) and `/{slug}/page/{n}/`.
  *
  * Layout, top to bottom:
- *   - PageHeader (the only place the page names itself)
- *   - Search + Sort on one row
- *   - Every facet filter on the next row
- *   - Applied-filter chips + Clear all on their own row
- *   - Result count / sort / page line
- *   - Card grid, then pagination
+ *   - PageHeader (the only place the page names itself) and lens tabs
+ *   - `DirectoryBrowseView`: search + sort, facet filters, applied
+ *     chips, the result count line, the card grid and pagination
+ *   - The submit call to action
  *
  * Navigation model: **pages are real paths.** Each route prerenders
  * only its own 20 records, so an unfiltered directory of any size is
@@ -18,33 +16,25 @@
  *
  * Filtering stays client-side: these routes are PRERENDERED, so at
  * build time `Astro.url.searchParams` is empty. `DirectoryIndexClient`
- * re-reads `location.search` and re-derives the result list, chips,
- * pagination, and facet intersection counts with the same
- * `@grove-dev/core/directory` functions the server used. Filtered views
- * paginate with `?page=N` on the base route.
+ * (rendered by `DirectoryBrowseView`) re-reads `location.search` and
+ * re-derives the result list, chips, pagination, and facet
+ * intersection counts with the same `@grove-dev/core/directory`
+ * functions the server used. Filtered views paginate with `?page=N` on
+ * the base route. Taxonomy pages render the same view with a `scope`.
  */
 import siteConfig from '@grove/generated/site-config.json';
-import { SORT_OPTIONS, sortDisplay } from '@grove-dev/astro';
 import {
   getDirectoryIndexModel,
   itemLabel,
   itemLabelPlural,
   seoTitle,
-  taxonomy,
   titleCaseFirst,
 } from '@grove-dev/astro/server';
 import { formatCount } from '@grove-dev/core';
 import BaseLayout from '../../layouts/base-layout.astro';
-import { chipClass } from '../../lib/classnames.ts';
 import Button from '../ui/button.astro';
-import FilterDrawer from '../ui/filter-drawer.astro';
 import PageHeader from '../ui/page-header.astro';
-import SearchField from '../ui/search-field.astro';
-import CardGrid from './card-grid.astro';
-import DirectoryIndexClient from './directory-index-client.astro';
-import IndexRow from './index-row.astro';
-import Pagination from './pagination.astro';
-import RefinePanel from './refine-panel.astro';
+import DirectoryBrowseView from './directory-browse-view.astro';
 import SmartLensTabs from './smart-lens-tabs.astro';
 
 interface Props {
@@ -54,21 +44,9 @@ interface Props {
 
 const { routePage = 1 } = Astro.props;
 const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
-const {
-  total,
-  filters,
-  facetGroups,
-  searchPlaceholder,
-  sort,
-  sorted,
-  pageItems,
-  pages,
-  page,
-  chips,
-  clearFiltersHref,
-  hrefForResultPage,
-  seo,
-} = getDirectoryIndexModel(Astro.url.searchParams, siteConfig, { page: routePage });
+const { total, page, seo } = getDirectoryIndexModel(Astro.url.searchParams, siteConfig, {
+  page: routePage,
+});
 
 // Page 2+ gets a distinct title and skips the ItemList JSON-LD so the
 // list markup isn't duplicated across every paginated route. The
@@ -90,8 +68,8 @@ const description = seo.description;
   submitHref="/submit"
   submitLabel={`Submit ${itemLabel()}`}
 >
-  <section class="border-b border-border bg-background">
-    <div class="mx-auto w-full max-w-container px-5 pt-10 sm:px-7 sm:pt-12">
+  <DirectoryBrowseView routePage={routePage}>
+    <Fragment slot="header">
       <PageHeader
         eyebrow={slug}
         title={`Browse ${slug}`}
@@ -108,165 +86,8 @@ const description = seo.description;
         lensIds={["all", "hot", "new", "mature"]}
         class="mt-6"
       />
-
-      {/* Row 1 — search and sort. Search filters as you type (see
-          DirectoryIndexClient); the submit button is sr-only so Enter
-          still works when JavaScript never arrives. */}
-      <form
-        method="get"
-        action={`/${slug}`}
-        id="search-form"
-        class="mt-6 flex flex-col gap-2 sm:flex-row"
-        role="search"
-      >
-        <SearchField
-          class="flex-1"
-          label={`Search ${itemLabelPlural()}`}
-          value={filters.q ?? ""}
-          placeholder={searchPlaceholder}
-          shortcut
-        />
-        <label class="relative">
-          <span class="sr-only">{`Sort ${itemLabelPlural()}`}</span>
-          <select
-            id="sort-select"
-            name="sort"
-            class="h-10 w-full cursor-pointer appearance-none rounded-md border border-input bg-background py-1.5 pl-3 pr-8 text-sm font-medium text-foreground transition-colors hover:border-ring focus:border-ring focus:outline-none focus:ring-2 focus:ring-ring/20 sm:w-auto"
-          >
-            {SORT_OPTIONS.map((o) => (
-              <option value={o.value} selected={o.value === sort}>{o.label}</option>
-            ))}
-          </select>
-          <svg
-            viewBox="0 0 16 16"
-            width="11"
-            height="11"
-            aria-hidden="true"
-            class="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground"
-            fill="currentColor"
-          >
-            <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" />
-          </svg>
-        </label>
-        <button type="submit" class="sr-only">Search</button>
-      </form>
-
-      {/* Row 2 — every filter on one line. On mobile they collapse into
-          a full-width "Filters (n)" button opening a bottom sheet.
-          Filters apply live in both places. The sheet's footer button
-          ("Show 12 apps") just closes it and moves focus to the
-          results heading. */}
-      <div class="mt-3">
-        <FilterDrawer
-          label="Filters"
-          activeCount={chips.length}
-          clearHref={clearFiltersHref}
-          resultsLabel={`Show ${sorted.length} ${sorted.length === 1 ? itemLabel() : itemLabelPlural()}`}
-          resultsTarget="#results-heading"
-        >
-          {/* The applied chips again, inside the sheet: on mobile the
-              row above the list is behind the sheet. On desktop the
-              filters render inline right above that row, so this copy
-              stays hidden. DirectoryIndexClient fills both. The sheet's
-              header already has "Clear all", so this row leaves it out. */}
-          <div
-            data-active-filters
-            data-without-clear
-            class:list={["mb-3 flex flex-wrap items-center gap-1.5 md:hidden", chips.length === 0 && "hidden"]}
-            aria-label="Active filters"
-          ></div>
-          <RefinePanel
-            class="max-md:flex-col max-md:items-stretch"
-            groups={facetGroups}
-            initial={filters}
-            pathPrefix={`/${slug}`}
-            hide={["sort"]}
-          />
-        </FilterDrawer>
-      </div>
-
-      {/* Row 3 — what is currently narrowing the list, and one way out
-          of all of it. Server-rendered empty on this prerendered route;
-          the client fills it from the live query string. */}
-      <div
-        id="active-filters"
-        data-active-filters
-        class:list={["mt-3 flex flex-wrap items-center gap-1.5 pb-6", chips.length === 0 && "hidden"]}
-        aria-label="Active filters"
-      >
-        {chips.map((chip) => (
-          <a href={chip.href} class={chipClass()} aria-label={`Remove filter: ${chip.label}`}>
-            {chip.label} <span aria-hidden="true">×</span>
-          </a>
-        ))}
-        {chips.length > 0 && (
-          <a
-            href={clearFiltersHref}
-            class="text-2xs font-medium text-ink-500 underline decoration-border underline-offset-2 hover:text-ink-900 dark:hover:text-ink-100"
-            aria-label="Clear all active filters"
-          >
-            Clear all
-          </a>
-        )}
-      </div>
-      {chips.length === 0 && <div class="pb-6"></div>}
-    </div>
-  </section>
-
-  <section class="py-10 sm:py-12">
-    <div class="mx-auto w-full max-w-container px-5 sm:px-7">
-      {/* The count line IS the results heading — it carries a fact,
-          which "All projects / Every item in the directory" did not,
-          and it keeps the document's heading order intact above the
-          cards' own h3s. */}
-      {/* `tabindex="-1"` lets the drawer's "Show N" button and the
-          focus fallbacks in DirectoryIndexClient move focus here. */}
-      <h2
-        id="results-heading"
-        tabindex="-1"
-        class="m-0 mb-5 scroll-mt-4 text-2xs font-normal text-ink-500 dark:text-ink-400"
-      >
-        <span id="results-count" class="font-mono font-semibold text-ink-900 dark:text-ink-100">
-          {sorted.length} {sorted.length === 1 ? itemLabel() : itemLabelPlural()}
-        </span>
-        <span id="results-sort">{` · sorted by ${sortDisplay(sort)}`}</span>
-        <span id="results-page">{pages > 1 ? ` · page ${page} of ${pages}` : ""}</span>
-      </h2>
-
-      {/* Screen readers hear the result count here, debounced by
-          DirectoryIndexClient so rapid toggles make one announcement.
-          The visible count above is deliberately not a live region,
-          or every change would be announced twice. */}
-      <p id="results-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
-
-      <CardGrid id="results-list">
-        {pageItems.map((item, i) => (
-            <li class="m-0 p-0" data-record-slug={item.slug}>
-              <IndexRow
-                record={item as Parameters<typeof IndexRow>[0]["record"]}
-                detailHref={`/${slug}/${item.slug}/`}
-                eager={i < 3}
-              />
-            </li>
-        ))}
-      </CardGrid>
-
-      <div id="empty-state" class:list={["py-12 text-center", sorted.length > 0 && "hidden"]}>
-        <p class="m-0 text-sm font-medium text-ink-700 dark:text-ink-200">
-          {`No ${itemLabelPlural()} match these filters.`}
-        </p>
-        {/* The client keeps this href in step with the live query, so
-            clearing keeps the chosen sort. */}
-        <Button href={clearFiltersHref} variant="secondary" size="sm" class="mt-4" data-empty-reset>Clear filters</Button>
-      </div>
-      {/* Plain div wrapper — Pagination renders its own
-          <nav aria-label="Pagination">, so a nav here would nest two
-          identical landmarks. */}
-      <div id="results-pagination" class="mt-8 flex flex-wrap items-center justify-center gap-1.5">
-        <Pagination current={page} total={pages} hrefFor={hrefForResultPage} />
-      </div>
-    </div>
-  </section>
+    </Fragment>
+  </DirectoryBrowseView>
 
   <section class="border-t border-ink-200 dark:border-ink-800">
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
@@ -284,12 +105,4 @@ const description = seo.description;
       </div>
     </div>
   </section>
-
-  <DirectoryIndexClient
-    slug={slug}
-    singular={itemLabel()}
-    plural={itemLabelPlural()}
-    taxonomy={taxonomy}
-    routePage={page}
-  />
 </BaseLayout>

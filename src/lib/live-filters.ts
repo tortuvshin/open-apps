@@ -9,6 +9,71 @@
  * import them.
  */
 
+/** The facet groups a scope can fix (core's `DirectoryFilterGroupKey`). */
+export type ScopeGroup = 'stacks' | 'platforms' | 'categories' | 'tags' | 'licenses';
+
+/**
+ * A fixed slice of the directory that a page browses inside, keyed by
+ * facet group: `{ stacks: ['flutter'] }` on `/stacks/flutter/`,
+ * `{ categories: ['productivity'] }` on `/categories/productivity/`.
+ *
+ * A scope is not a filter the visitor chose. It is merged into every
+ * query, but it never shows as a chip or a facet, and it never goes in
+ * the URL: the page's own path already says it. So clearing filters,
+ * the zero-results reset and Back/Forward can never drop it.
+ */
+export type DirectoryScope = Partial<Record<ScopeGroup, readonly string[]>>;
+
+/** The facet groups a scope fixes. Groups with no values do not count. */
+export function scopedGroups(scope: DirectoryScope | null | undefined): ScopeGroup[] {
+  if (!scope) return [];
+  return (Object.keys(scope) as ScopeGroup[]).filter((key) => (scope[key]?.length ?? 0) > 0);
+}
+
+/**
+ * Drop the scoped groups from a filter state read off the URL. On
+ * `/stacks/flutter/?stack=react` the `stack` parameter is ignored:
+ * the page is Flutter, whatever the query says.
+ */
+export function withoutScope<F extends Partial<Record<ScopeGroup, unknown>>>(
+  filters: F,
+  scope: DirectoryScope | null | undefined,
+): F {
+  const groups = scopedGroups(scope);
+  if (groups.length === 0) return filters;
+  const next = { ...filters };
+  for (const group of groups) delete next[group];
+  return next;
+}
+
+/**
+ * The query string with the scoped groups' parameters removed, or
+ * `null` when there was nothing to remove. The page uses it to tidy a
+ * hand-written URL like `/stacks/flutter/?stack=react&platform=ios`.
+ *
+ * `paramKeys` maps a group to its URL key. Callers pass core's
+ * `DIRECTORY_FILTER_KEYS`, so this file needs no package import.
+ */
+export function searchWithoutScope(
+  search: string,
+  scope: DirectoryScope | null | undefined,
+  paramKeys: Readonly<Record<ScopeGroup, string>>,
+): string | null {
+  const groups = scopedGroups(scope);
+  const params = new URLSearchParams(search);
+  let changed = false;
+  for (const group of groups) {
+    const key = paramKeys[group];
+    if (params.has(key)) {
+      params.delete(key);
+      changed = true;
+    }
+  }
+  if (!changed) return null;
+  const query = params.toString();
+  return query ? `?${query}` : '';
+}
+
 /**
  * URL for one facet group's new selection. Every other parameter in
  * `search` is kept, so the query, other groups, sort and lens survive.

@@ -49,7 +49,9 @@ const description = taxonomyDescription('stacks', term, plural);
       displayName={displayName}
       heading={taxonomyHeading(term, plural)}
       lede={description}
-      records={model.records}
+      scope={{ stacks: [name] }}
+      count={model.records.length}
+      pathPrefix={`/stacks/${name}`}
     />
   </div>
 </BaseLayout>
