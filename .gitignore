@@ -29,3 +29,5 @@ public/robots.txt
 # `grove update` at all (exit 1, "no lockfile").
 .grove/*
 !.grove/registry.lock.json
+# lychee link-check cache (see .lychee.toml)
+.lycheecache

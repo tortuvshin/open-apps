@@ -1,0 +1,109 @@
+name: Link check
+
+on:
+  schedule:
+    # 06:00 UTC on the 2nd of every month.
+    - cron: "0 6 2 * *"
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Check links and write the job summary, but do not create, update or close the issue"
+        type: boolean
+        default: false
+
+concurrency:
+  group: links
+  cancel-in-progress: false
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      issues: write
+    env:
+      ISSUE_LABEL: broken-links
+      ISSUE_TITLE: Broken links report
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      # Reuse the previous run's results (1 day max age, see .lychee.toml)
+      # so a re-run after a flaky host does not re-request every link.
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      # fail: false — a broken link is a maintenance task, not a failed
+      # build. The exit code drives the issue step below instead.
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          output: ./lychee/out.md
+          args: >-
+            --config .lychee.toml
+            --no-progress
+            --root-dir "${{ github.workspace }}/dist"
+            './dist/**/*.html'
+            README.md
+
+      # One standing issue: find the open one by label and update it in
+      # place, so a monthly run never opens a second issue.
+      - name: Find the open broken-links issue
+        id: issue
+        if: ${{ !inputs.dry-run }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label "$ISSUE_LABEL" --state open \
+            --json number --jq '.[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+
+      - name: Ensure the issue label exists
+        if: ${{ !inputs.dry-run && steps.lychee.outputs.exit_code != '0' && steps.issue.outputs.number == '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "$ISSUE_LABEL" --repo "$GITHUB_REPOSITORY" \
+            --color B60205 --description "Opened by the monthly link check" 2>/dev/null || true
+
+      # Empty issue-number creates the issue; a number updates its body.
+      - name: Create or update the broken-links issue
+        if: ${{ !inputs.dry-run && steps.lychee.outputs.exit_code != '0' }}
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          issue-number: ${{ steps.issue.outputs.number }}
+          title: ${{ env.ISSUE_TITLE }}
+          content-filepath: ./lychee/out.md
+          labels: ${{ env.ISSUE_LABEL }}
+
+      # Every link resolves again: close the standing issue without a
+      # comment, so a clean month sends no notification.
+      - name: Close the broken-links issue when clean
+        if: ${{ !inputs.dry-run && steps.lychee.outputs.exit_code == '0' && steps.issue.outputs.number != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ steps.issue.outputs.number }}
+        run: gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
+
+      - name: Report lychee result
+        if: always()
+        env:
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+          DRY_RUN: ${{ inputs.dry-run }}
+        run: |
+          echo "lychee exit code: ${EXIT_CODE:-unset} (dry-run: ${DRY_RUN:-false})"
