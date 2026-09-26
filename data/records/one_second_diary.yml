@@ -45,6 +45,7 @@ health:
   confidence: high
   reasons:
     - Recent repository activity
+    - Recent release found
     - Clear license found
 github:
   html:
@@ -52,16 +53,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-25T15:39:41.876Z
+    syncedAt: 2026-09-26T08:56:22.472Z
     source: api
   repository:
     full_name: KyleKun/one_second_diary
-    stargazers_count: 408
+    stargazers_count: 409
     forks_count: 79
-    open_issues_count: 46
+    open_issues_count: 29
     language: Dart
-    pushed_at: 2026-09-25T15:32:18Z
-    updated_at: 2026-09-25T15:32:23Z
+    pushed_at: 2026-09-25T20:51:46Z
+    updated_at: 2026-09-26T06:31:14Z
     archived: false
     disabled: false
     default_branch: main
@@ -73,4 +74,4 @@ github:
       - diary
       - flutter
       - flutter-app
-  latestReleaseAt: 2023-09-08T02:34:52Z
+  latestReleaseAt: 2026-09-25T20:51:47Z
