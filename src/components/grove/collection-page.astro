@@ -27,14 +27,14 @@ import { taxonomyLabel } from '@grove-dev/astro/server';
 import Container from '../../layouts/container.astro';
 import SectionHeader from '../../layouts/section-header.astro';
 import { getInstallChannels } from '../../lib/channels';
-import { withRef } from '../../lib/outbound';
+import siteConfig from '@grove/generated/site-config.json';
+import { isDetectedLicense, withRef } from '@grove-dev/core';
 import CollectionTile, { type CollectionTileData } from '../site/collection-tile.astro';
 import Avatar from '../site/entry-avatar.astro';
 import Chips from '../site/entry-chips.astro';
 import Metrics from '../site/entry-metrics.astro';
 import { buttonClass } from '../../lib/classnames';
 import {
-  avatarFor,
   firstSentence,
   formatDate,
   type GuideRecord,
@@ -121,19 +121,17 @@ const picks = model.entries.map((entry) => {
   const record = records.get(entry.slug);
   const install = getInstallChannels(record?.distribution?.channels, record?.repoUrl)[0];
   // GitHub reports NOASSERTION when it cannot detect a licence; say nothing then.
-  const license = [entry.licenses?.[0], entry.license].find(
-    (id) => id && !['noassertion', 'other', 'unknown'].includes(id.toLowerCase()),
-  );
+  const license = [entry.licenses?.[0], entry.license].find((id) => isDetectedLicense(id));
   return {
     entry,
-    avatarUrl: avatarFor(record, entry.repoHref, 80),
+    avatarUrl: entry.avatarUrl,
     whyListed: record?.whyListed ?? [],
     caveats: record?.caveats ?? [],
     platforms: platformLabels(record?.platforms),
     tags: (record?.tags ?? []).slice(0, 3).map((t) => taxonomyLabel('topics', t)),
     license: license ? taxonomyLabel('licenses', license) : undefined,
     install,
-    website: entry.homepageHref && entry.homepageHref !== install?.url ? withRef(entry.homepageHref) : undefined,
+    website: entry.homepageHref && entry.homepageHref !== install?.url ? withRef(entry.homepageHref, siteConfig.outbound) : undefined,
     reviewedAt: record?.curation?.reviewed ? record.curation.reviewedAt : undefined,
   };
 });

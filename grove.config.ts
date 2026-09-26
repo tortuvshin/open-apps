@@ -17,6 +17,17 @@ export default defineConfig({
     // chrome follows the OS) and a known tradeoff for the header mark.
     logo: "/logo.svg",
     favicon: "/favicon.svg",
+    // Shown in the home hero and on /about. Link the exact post only.
+    press: [
+      {
+        outlet: "Astro",
+        title: "What's new in Astro — August 2026",
+        url: "https://astro.build/blog/whats-new-august-2026/",
+        date: "2026-08",
+        label: "Featured in Astro's August 2026 roundup",
+        logo: "/icons/brands/astro.svg",
+      },
+    ],
   },
 
   analytics: {
@@ -37,8 +48,18 @@ export default defineConfig({
   },
 
   nav: [
-    { label: "Browse", href: "/apps/" },
-    { label: "Collections", href: "/collections/" },
+    {
+      label: "Browse",
+      href: "/apps/",
+      children: [
+        { label: "All apps", href: "/apps/", description: "Search and filter the whole directory" },
+        { label: "Recently added", href: "/apps/?sort=recently-added", description: "The newest apps first" },
+        { label: "Most starred", href: "/apps/?sort=most-starred", description: "Ranked by GitHub stars" },
+        { label: "Categories", href: "/categories/", description: "Productivity, finance, tools and more" },
+        { label: "Stacks", href: "/stacks/", description: "Flutter, Swift, React Native, Tauri…" },
+      ],
+    },
+    { label: "Collections", href: "/collections/", menu: "collections" },
     { label: "Community", href: "/contributors/" },
     { label: "About", href: "/about/" },
   ],

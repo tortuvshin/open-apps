@@ -1,26 +1,33 @@
 ---
 /**
- * FeaturedBadge — "Featured on Open App Scout" snippet for maintainers.
+ * FeaturedBadge — "Featured on <site>" README badge for maintainers.
  *
- * Sits in the record sidebar. The badge links back to the record with
- * `?ref=badge` so badge traffic is visible in analytics, and ships a
- * dark variant through <picture>, which GitHub READMEs honour.
+ * The SVGs are generated into `public/badges/` by the Grove build
+ * (light and dark). The snippets link back to the record with
+ * `?ref=badge` so badge traffic shows up in analytics, and the HTML
+ * variant swaps to the dark badge through <picture>, which GitHub
+ * READMEs honour.
  */
 interface Props {
-  /** Absolute URL of the record page, without query string. */
+  /** Absolute URL of the record page, without a query string. */
   pageUrl: string;
-  /** Absolute site origin, e.g. https://openappscout.com */
+  /** Absolute site origin, e.g. https://example.dev */
   origin: string;
+  /** Site name, for the alt text. */
+  siteName: string;
+  /** Record name, for the alt text. */
   name: string;
+  /** The `ref` value outbound links carry, if any — mentioned in the copy. */
+  outboundRef?: string | false;
 }
 
-const { pageUrl, origin, name } = Astro.props;
+const { pageUrl, origin, siteName, name, outboundRef } = Astro.props;
 const href = `${pageUrl}?ref=badge`;
 const light = `${origin}/badges/featured.svg`;
 const dark = `${origin}/badges/featured-dark.svg`;
-const alt = `${name} on Open App Scout`;
+const alt = `${name} on ${siteName}`;
 const markdown = `[![${alt}](${light})](${href})`;
-const html = `<a href="${href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${dark}"><img alt="${alt}" src="${light}" width="196" height="40"></picture></a>`;
+const html = `<a href="${href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${dark}"><img alt="${alt}" src="${light}" height="40"></picture></a>`;
 ---
 
 <section
@@ -31,12 +38,12 @@ const html = `<a href="${href}"><picture><source media="(prefers-color-scheme: d
     Maintainer? Add the badge
   </h2>
   <p class="m-0 mt-1.5 text-sm leading-relaxed text-ink-700 dark:text-ink-300">
-    Show readers where to find the review. Visits from this page reach your
-    site with <code class="text-2xs">ref=openappscout.com</code>.
+    Show readers where to find this page.
+    {outboundRef && <> Visits from here reach your site with <code class="text-2xs">ref={outboundRef}</code>.</>}
   </p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="/badges/featured-dark.svg" />
-    <img src="/badges/featured.svg" alt="" width="196" height="40" loading="lazy" decoding="async" class="mt-3 block" />
+    <img src="/badges/featured.svg" alt="" height="40" loading="lazy" decoding="async" class="mt-3 block h-10 w-auto" />
   </picture>
   <div class="mt-3 flex flex-wrap gap-2" data-badge-copy>
     <button type="button" data-copy={markdown} class="cursor-pointer rounded-[var(--radius)] border border-border bg-secondary px-2.5 py-1 text-2xs font-medium text-secondary-foreground hover:bg-accent">

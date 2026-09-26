@@ -5,11 +5,10 @@ import {
   getCollectionBodyHtml,
   getCollectionPageModel,
   loadCollections,
+  recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
 import CollectionPage from '../../components/grove/collection-page.astro';
 import SearchMeta from '../../components/site/search-meta.astro';
-import { collectionEntries } from '../../lib/collection-entries';
-import { keepReferrer } from '../../lib/outbound';
 import BaseLayout from '../../layouts/base-layout.astro';
 import {
   browseLinkFor,
@@ -31,7 +30,7 @@ const collection = collections.find((c) => c.slug === slug);
 if (!collection) return Astro.redirect('/404');
 
 const allRecords = (records as { records: unknown[] }).records;
-const entries = collectionEntries(allRecords, siteConfig);
+const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
 const model = getCollectionPageModel(collection, entries, collections, siteConfig);
 const body = splitBody(getCollectionBodyHtml(collection.content));
 const recordsBySlug = new Map(
@@ -82,9 +81,9 @@ const subject = siteConfig.taxonomy?.subjects?.find((term) => term.id === collec
     )}
     <CollectionPage
       model={model}
-      leadHtml={keepReferrer(body.lead)}
+      leadHtml={body.lead}
       comparisonAnchor={body.tableAnchor}
-      bodyHtml={keepReferrer(body.rest)}
+      bodyHtml={body.rest}
       editorial={editorial}
       eyebrow={editorial ? "Editor's picks" : "Live view"}
       records={recordsBySlug}

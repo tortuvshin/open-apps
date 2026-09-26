@@ -26,8 +26,8 @@ import type { RecordContextModel, RecordDetailModel } from '@grove-dev/astro/ser
 import { taxonomyLabel } from '@grove-dev/astro/server';
 import { buttonClass } from '../../lib/classnames.ts';
 import { getInstallChannels } from '../../lib/channels.ts';
-import { withRef } from '../../lib/outbound.ts';
-import { submitterOf } from '../../lib/submitters.ts';
+import siteConfig from '@grove/generated/site-config.json';
+import { withRef } from '@grove-dev/core';
 import type { Verdict } from '../../lib/record-editorial.ts';
 import Icon from './icon.astro';
 
@@ -60,13 +60,13 @@ const {
 const installChannels = getInstallChannels(detail.distribution, repoUrl);
 const primaryChannel = installChannels[0];
 const moreChannels = installChannels.length - 1;
-const showHomepage = homepageUrl && withRef(homepageUrl) !== primaryChannel?.url;
+const showHomepage = homepageUrl && withRef(homepageUrl, siteConfig.outbound) !== primaryChannel?.url;
 
 // One primary screenshot and at most two thumbnails.
 const shots = (screenshots ?? []).filter((shot) => shot?.src && shot.alt).slice(0, 3);
 const [primaryShot, ...thumbnails] = shots;
 const hasVerdict = Boolean(verdict.verdict || verdict.caveat);
-const submittedBy = submitterOf(detail.record.slug);
+const submittedBy = (detail.record as { submittedBy?: string }).submittedBy;
 ---
 
 <header
@@ -274,7 +274,7 @@ const submittedBy = submitterOf(detail.record.slug);
       )}
       {showHomepage && (
         <a
-          href={withRef(homepageUrl)}
+          href={withRef(homepageUrl, siteConfig.outbound)}
           data-event="homepage_click"
           data-event-source="record_header"
           target="_blank"

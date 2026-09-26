@@ -20,6 +20,7 @@
  */
 import BaseLayout from "../layouts/base-layout.astro";
 import Hero from "../components/grove/hero.astro";
+import HeroProof from "../components/grove/hero-proof.astro";
 import RecordSection from "../components/grove/record-section.astro";
 import StackGrid from "../components/grove/stack-grid.astro";
 import CategoryGrid from "../components/grove/category-grid.astro";
@@ -32,12 +33,11 @@ import {
   getCollectionTeaserModel,
   getHomePageModel,
   loadCollections,
+  recordsToCollectionEntries,
   seoTitle,
 } from "@grove-dev/astro/server";
 import { applySort, runCollection } from "@grove-dev/core";
 import { HOME_TITLE } from "../lib/seo";
-import { press } from "../lib/press";
-import { collectionEntries } from "../lib/collection-entries";
 import type { IndexRecord } from "@grove-dev/core";
 import records from "@grove/generated/records.json";
 import indexPayload from "@grove/generated/records.index.json";
@@ -49,7 +49,10 @@ const { seo } = home;
 
 // ── Collections (teaser + the trending strip) ───────────────────
 const allCollections = await loadCollections(process.cwd());
-const entries = collectionEntries((records as { records: unknown[] }).records, siteConfig);
+const entries = recordsToCollectionEntries(
+  (records as { records: unknown[] }).records as never,
+  siteConfig,
+);
 const collectionTeaser = getCollectionTeaserModel(allCollections, entries, 3);
 
 // ── Lens sectioning (Trending / New) ────────────────────────────
@@ -76,12 +79,6 @@ const newList = applySort(
 const { stacks, categories } = home;
 
 const { contributors, stats } = home;
-const featured = press[0];
-const repoStars = siteConfig.stats?.repositoryStars ?? 0;
-const repoContributors = siteConfig.stats?.repositoryContributors ?? contributors.length;
-const proofFaces = contributors.filter((c) => c.avatarUrl).slice(0, 5);
-const compactCount = (n: number) =>
-  n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, "")}k` : String(n);
 const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
 ---
 
@@ -116,56 +113,8 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
       { label: `Browse ${itemPlural}`, href: `/${slug}/`, variant: "primary" },
     ]}
   >
-    {featured && (
-      <a
-        slot="eyebrow"
-        href={featured.url}
-        target="_blank"
-        rel="noopener"
-        class="group inline-flex items-center gap-2 rounded-full border border-border bg-secondary py-1 pl-1.5 pr-3 text-[13px] font-medium text-secondary-foreground no-underline transition-colors hover:border-ink-400 dark:hover:border-ink-600"
-        data-event="press_click"
-        data-event-source="hero_eyebrow"
-        data-event-item={featured.outlet}
-      >
-        <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-foreground text-background">
-          <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true" fill="currentColor"><path d={featured.markPath} /></svg>
-        </span>
-        {featured.short}
-        <span aria-hidden="true" class="text-muted-foreground transition-transform group-hover:translate-x-0.5">→</span>
-      </a>
-    )}
-    <div slot="proof" class="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[13px] text-ink-500 dark:text-ink-400">
-      {proofFaces.length > 0 && (
-        <a href="/contributors/" class="inline-flex items-center gap-2.5 text-inherit no-underline hover:text-foreground">
-          <span class="flex -space-x-2" aria-hidden="true">
-            {proofFaces.map((c) => (
-              <img
-                src={`${c.avatarUrl}${c.avatarUrl!.includes("?") ? "&" : "?"}s=48`}
-                alt=""
-                width="24"
-                height="24"
-                loading="lazy"
-                decoding="async"
-                class="h-6 w-6 rounded-full border-2 border-background"
-              />
-            ))}
-          </span>
-          <span><strong class="font-semibold text-foreground">{repoContributors}</strong> contributors</span>
-        </a>
-      )}
-      {repoStars > 0 && siteConfig.repoUrl && (
-        <a href={siteConfig.repoUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-inherit no-underline hover:text-foreground">
-          <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" fill="currentColor" class="text-warning"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
-          <span><strong class="font-semibold text-foreground">{compactCount(repoStars)}</strong> stars on GitHub</span>
-        </a>
-      )}
-      {featured && (
-        <a href={featured.url} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-inherit no-underline hover:text-foreground" data-event="press_click" data-event-source="hero_proof" data-event-item={featured.outlet}>
-          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="currentColor" class="text-foreground"><path d={featured.markPath} /></svg>
-          <span>Featured by <strong class="font-semibold text-foreground">{featured.outlet}</strong></span>
-        </a>
-      )}
-    </div>
+    {siteConfig.press.length > 0 && <HeroProof slot="eyebrow" variant="pill" />}
+    <HeroProof slot="proof" variant="row" contributors={contributors} />
   </Hero>
 
   <RecordSection

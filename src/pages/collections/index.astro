@@ -5,11 +5,11 @@ import {
   getCollectionBodyHtml,
   getCollectionIndexModel,
   loadCollections,
+  recordsToCollectionEntries,
 } from '@grove-dev/astro/server';
 import { runCollection } from '@grove-dev/core';
 import CollectionGuide, { type GuideTile } from '../../components/site/collection-guide.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
-import { collectionEntries } from '../../lib/collection-entries';
 import {
   type GuideRecord,
   INTENT_GROUPS,
@@ -19,7 +19,7 @@ import {
 
 const collections = await loadCollections(process.cwd());
 const allRecords = (records as { records: unknown[] }).records;
-const entries = collectionEntries(allRecords, siteConfig);
+const entries = recordsToCollectionEntries(allRecords as never, siteConfig);
 const model = getCollectionIndexModel(collections, entries, siteConfig);
 const countNoun = {
   singular: siteConfig.blueprintConfig?.labelSingular ?? 'item',

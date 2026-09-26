@@ -1,8 +1,9 @@
 ---
+import siteConfig from '@grove/generated/site-config.json';
 import type { RecordDetailModel } from '@grove-dev/astro/server';
+import { withRef } from '@grove-dev/core';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 import { getInstallChannels } from '../../lib/channels.ts';
-import { withRef } from '../../lib/outbound.ts';
 /**
  * RecordSidebar.astro
  *
@@ -289,7 +290,7 @@ function row(label: string, value: unknown) {
           <div class="flex items-baseline justify-between gap-3">
             <dt class="text-ink-500 dark:text-ink-400">Docs</dt>
             <dd class="truncate text-ink-900 dark:text-ink-100">
-              <a href={withRef(String(repo.homepage))} target="_blank" rel="noopener" class="no-underline hover:underline">
+              <a href={withRef(String(repo.homepage), siteConfig.outbound)} target="_blank" rel="noopener" class="no-underline hover:underline">
                 {new URL(String(repo.homepage)).hostname}
               </a>
             </dd>
@@ -401,9 +402,11 @@ function row(label: string, value: unknown) {
   )}
 
   <FeaturedBadge
-    pageUrl={new URL(`/${detail.slug}/${record.slug}/`, Astro.site ?? 'https://openappscout.com').href}
-    origin={(Astro.site ?? new URL('https://openappscout.com')).origin}
+    pageUrl={new URL(`/${detail.slug}/${record.slug}/`, siteConfig.siteUrl).href}
+    origin={new URL(siteConfig.siteUrl).origin}
+    siteName={siteConfig.name}
     name={String((record as { name?: string }).name ?? record.slug)}
+    outboundRef={siteConfig.outbound.ref}
   />
 
   {/* ── Source card (small) ────────────────────────────────── */}

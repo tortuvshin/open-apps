@@ -16,11 +16,17 @@
 import { compact } from '@grove-dev/core';
 import ThemeToggle from '../components/site/theme-toggle.astro';
 import { buttonClass } from '../lib/classnames.ts';
-import { isCurrent, type NavMenu, primaryNav } from '../lib/nav.ts';
+import { loadCollections } from '@grove-dev/astro/server';
 
-interface NavItem {
+interface NavLink {
   label: string;
   href: string;
+  description?: string;
+}
+
+interface NavItem extends NavLink {
+  children?: NavLink[];
+  menu?: 'collections';
 }
 
 interface Site {
@@ -65,11 +71,25 @@ const defaultNavItems = site.blueprintConfig
     ]
   : [];
 const navItems = site.nav?.length ? site.nav : defaultNavItems;
-// Site menus (Browse / Collections with panels). Falls back to the flat
-// config nav only when the directory has no blueprint route.
-const menus: NavMenu[] = site.blueprintConfig
-  ? await primaryNav(site.blueprintConfig.routeSlug ?? 'apps')
-  : navItems.map((item) => ({ ...item, match: [item.href] }));
+// Menus from grove.config.ts: `children`, or the collection files for
+// `menu: "collections"` (same resolution as Grove's registry header).
+const collections = navItems.some((item: NavItem) => item.menu === 'collections')
+  ? await loadCollections(process.cwd())
+  : [];
+const menus = (navItems as NavItem[]).map((item) => {
+  const items: NavLink[] =
+    item.menu === 'collections'
+      ? collections
+          .map((c) => ({ label: c.title, href: `/collections/${c.slug}/`, description: c.description }))
+          .sort((a, b) => a.label.localeCompare(b.label))
+      : (item.children ?? []);
+  return { ...item, items, footer: item.menu === 'collections' ? { label: 'All collections', href: item.href } : undefined };
+});
+const withSlash = (path: string) => (path.endsWith('/') ? path : `${path}/`);
+const isCurrent = (menu: (typeof menus)[number], path: string) =>
+  [menu.href, ...menu.items.map((c) => c.href)]
+    .map((href) => withSlash(href.split('?')[0] ?? ''))
+    .some((href) => href !== '/' && withSlash(path).startsWith(href));
 const pathname = Astro.url.pathname;
 const stars = site.stats?.repositoryStars;
 const starsLabel = typeof stars === 'number' ? compact(stars) : null;

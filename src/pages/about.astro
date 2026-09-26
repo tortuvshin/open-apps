@@ -24,15 +24,14 @@ import {
 import BaseLayout from '../layouts/base-layout.astro';
 import Container from '../layouts/container.astro';
 import { buttonClass } from '../lib/classnames.ts';
-import { keepReferrer } from '../lib/outbound.ts';
-import { press } from '../lib/press.ts';
+const press = siteConfig.press;
 
 const githubUrl = siteConfig.repoUrl;
 const seo = getAboutPageSeo(siteConfig);
 const slug = indexSlug();
 const item = itemLabel();
 const items = itemLabelPlural();
-const pageContentHtml = keepReferrer(getPageContentHtml('about'));
+const pageContentHtml = getPageContentHtml('about');
 ---
 
 <BaseLayout title={seo.title} description={seo.description} image={seo.image} jsonLd={seo.jsonLd} site={siteConfig}>
@@ -140,10 +139,8 @@ const pageContentHtml = keepReferrer(getPageContentHtml('about'));
             {press.map((item) => (
               <li class="m-0">
                 <a href={item.url} target="_blank" rel="noopener" class="flex items-center gap-3 rounded-[var(--radius-lg)] border border-border bg-card p-3 no-underline hover:border-ink-400 dark:hover:border-ink-600">
-                  {item.markPath && (
-                    <span class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-foreground text-background">
-                      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor"><path d={item.markPath} /></svg>
-                    </span>
+                  {item.logo && (
+                    <span class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white p-1.5"><img src={item.logo} alt="" width="20" height="20" class="h-5 w-5" /></span>
                   )}
                   <span class="min-w-0">
                     <span class="block text-sm font-semibold text-foreground">{item.title}</span>

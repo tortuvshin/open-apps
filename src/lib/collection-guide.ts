@@ -17,7 +17,7 @@
  * a reader is trying to do, not what the apps are like.
  */
 import type { Collection, CollectionEntry } from '@grove-dev/core';
-import { formatCount, getOwnerAndRepoFromRepoUrl, getOwnerAvatarUrl, runCollection } from '@grove-dev/core';
+import { formatCount, runCollection } from '@grove-dev/core';
 import { taxonomyLabel } from '@grove-dev/astro/server';
 
 const DAY = 24 * 3600 * 1000;
@@ -236,17 +236,6 @@ export function platformLabels(platforms: string[] | undefined): string[] {
   return (specific.length ? specific : list).map((id) => taxonomyLabel('platforms', id));
 }
 
-/** Square avatar for an entry: the record's logo, else the GitHub owner's avatar. */
-export function avatarFor(
-  record: Pick<GuideRecord, 'logoUrl' | 'repoUrl'> | undefined,
-  repoHref: string | undefined,
-  size = 64,
-): string | undefined {
-  if (record?.logoUrl) return record.logoUrl;
-  const { owner } = getOwnerAndRepoFromRepoUrl(repoHref ?? record?.repoUrl ?? '');
-  return getOwnerAvatarUrl(owner, size) ?? undefined;
-}
-
 /** Everything a collection card needs, from the collection and its resolved entries. */
 export function tileFor(
   collection: Collection,
@@ -276,13 +265,13 @@ export function tileFor(
       countLabel: formatCount(result.entries.length, ctx.countNoun),
       faces: result.entries.map((entry) => ({
         title: entry.title,
-        avatarUrl: avatarFor(ctx.records.get(entry.slug), entry.repoHref, 56),
+        avatarUrl: entry.avatarUrl,
       })),
       examples: result.entries.slice(0, editorial ? 4 : 3).map((entry) => ({
         title: entry.title,
         url: `/collections/${collection.slug}/#pick-${entry.slug}`,
         pick: firstSentence(entry.note) ?? ctx.records.get(entry.slug)?.bestFor?.[0],
-        avatarUrl: avatarFor(ctx.records.get(entry.slug), entry.repoHref, 72),
+        avatarUrl: entry.avatarUrl,
         stars: entry.stars,
       })),
       dateLabel: freshness.label,

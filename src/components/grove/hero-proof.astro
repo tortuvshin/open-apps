@@ -1,0 +1,84 @@
+---
+/**
+ * HeroProof — the proof row under the home hero, and the "featured in"
+ * pill for its eyebrow.
+ *
+ * `variant="pill"` renders the newest `site.press` mention as a link
+ * for the hero's `eyebrow` slot. `variant="row"` renders contributor
+ * faces and count, the site repository's stars and the newest mention.
+ * Every value comes from site-config.json; parts with no data are left
+ * out, so a new site shows nothing rather than zeros.
+ */
+import siteConfig from '@grove/generated/site-config.json';
+import { compact } from '@grove-dev/core';
+
+interface Props {
+  variant: 'pill' | 'row';
+  /** Contributors for the faces (the home model's `contributors`). */
+  contributors?: Array<{ username: string; avatarUrl?: string }>;
+  slot?: string;
+}
+
+const { variant, contributors = [] } = Astro.props;
+type Press = { outlet: string; title: string; url: string; date: string; label?: string; logo?: string };
+const site = siteConfig as {
+  press?: Press[];
+  repoUrl?: string;
+  stats?: { repositoryStars?: number; repositoryContributors?: number };
+};
+const featured = site.press?.[0];
+const stars = site.stats?.repositoryStars ?? 0;
+const people = site.stats?.repositoryContributors || contributors.length;
+const faces = contributors.filter((c) => c.avatarUrl).slice(0, 5);
+const monthYear = (date: string) =>
+  new Date(`${date}-01T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+
+{variant === 'pill' ? (
+  featured && (
+    <a
+      href={featured.url}
+      target="_blank"
+      rel="noopener"
+      class="group inline-flex items-center gap-2 rounded-full border border-border bg-secondary py-1 pl-1.5 pr-3 text-[13px] font-medium text-secondary-foreground no-underline transition-colors hover:border-ink-400 dark:hover:border-ink-600"
+      data-event="press_click"
+      data-event-source="hero_eyebrow"
+      data-event-item={featured.outlet}
+    >
+      {featured.logo ? (
+        <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white p-0.5"><img src={featured.logo} alt="" width="14" height="14" class="h-3.5 w-3.5" /></span>
+      ) : (
+        <span aria-hidden="true" class="inline-block h-1.5 w-1.5 rounded-full bg-success"></span>
+      )}
+      {featured.label ?? `Featured in ${featured.outlet} · ${monthYear(featured.date)}`}
+      <span aria-hidden="true" class="text-muted-foreground transition-transform group-hover:translate-x-0.5">→</span>
+    </a>
+  )
+) : (
+  (faces.length > 0 || stars > 0 || featured) && (
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[13px] text-ink-500 dark:text-ink-400">
+      {faces.length > 0 && (
+        <a href="/contributors/" class="inline-flex items-center gap-2.5 text-inherit no-underline hover:text-foreground">
+          <span class="flex -space-x-2" aria-hidden="true">
+            {faces.map((c) => (
+              <img src={`${c.avatarUrl}${c.avatarUrl!.includes('?') ? '&' : '?'}s=48`} alt="" width="24" height="24" loading="lazy" decoding="async" class="h-6 w-6 rounded-full border-2 border-background" />
+            ))}
+          </span>
+          <span><strong class="font-semibold text-foreground">{people}</strong> contributors</span>
+        </a>
+      )}
+      {stars > 0 && site.repoUrl && (
+        <a href={site.repoUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-inherit no-underline hover:text-foreground">
+          <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" fill="currentColor" class="text-warning"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
+          <span><strong class="font-semibold text-foreground">{compact(stars)}</strong> stars on GitHub</span>
+        </a>
+      )}
+      {featured && (
+        <a href={featured.url} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-inherit no-underline hover:text-foreground" data-event="press_click" data-event-source="hero_proof" data-event-item={featured.outlet}>
+          {featured.logo && <span class="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white p-px"><img src={featured.logo} alt="" width="12" height="12" class="h-3 w-3" /></span>}
+          <span>Featured by <strong class="font-semibold text-foreground">{featured.outlet}</strong></span>
+        </a>
+      )}
+    </div>
+  )
+)}
