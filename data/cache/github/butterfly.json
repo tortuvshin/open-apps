@@ -3,10 +3,15 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:37:57.976Z",
+  "lastSuccessAt": "2026-09-27T09:00:58.502Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:57.976Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:00:58.502Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -17,10 +22,10 @@
       "full_name": "LinwoodDev/Butterfly",
       "stargazers_count": 2037,
       "forks_count": 151,
-      "open_issues_count": 55,
+      "open_issues_count": 54,
       "language": "Dart",
-      "pushed_at": "2026-09-25T12:30:45Z",
-      "updated_at": "2026-09-26T13:23:57Z",
+      "pushed_at": "2026-09-26T15:39:55Z",
+      "updated_at": "2026-09-27T06:56:40Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -53,7 +58,7 @@
     "latestReleaseAt": "2026-08-10T12:27:46Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-09-26T14:37:57.976Z",
+      "syncedAt": "2026-09-27T09:00:58.502Z",
       "source": "api"
     }
   },

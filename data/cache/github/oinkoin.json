@@ -3,10 +3,15 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:39:56.187Z",
+  "lastSuccessAt": "2026-09-27T09:02:47.967Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:56.187Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:02:47.967Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -19,17 +24,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T14:39:56.187Z",
+      "syncedAt": "2026-09-27T09:02:47.967Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
-      "stargazers_count": 470,
+      "stargazers_count": 471,
       "forks_count": 56,
       "open_issues_count": 24,
       "language": "Dart",
       "pushed_at": "2026-09-23T05:00:21Z",
-      "updated_at": "2026-09-23T14:15:38Z",
+      "updated_at": "2026-09-26T15:30:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",

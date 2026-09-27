@@ -3,10 +3,15 @@
   "slug": "habo",
   "repoUrl": "https://github.com/xpavle00/Habo",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:38:40.376Z",
+  "lastSuccessAt": "2026-09-27T09:01:39.771Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:40.376Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:01:39.771Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -19,7 +24,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-26T14:38:40.376Z",
+      "syncedAt": "2026-09-27T09:01:39.771Z",
       "source": "api"
     },
     "repository": {

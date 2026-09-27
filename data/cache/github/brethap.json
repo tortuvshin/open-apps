@@ -3,10 +3,15 @@
   "slug": "brethap",
   "repoUrl": "https://github.com/jithware/brethap",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:37:56.202Z",
+  "lastSuccessAt": "2026-09-27T09:00:56.512Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:56.202Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:00:56.512Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -16,10 +21,10 @@
       "full_name": "jithware/brethap",
       "stargazers_count": 86,
       "forks_count": 18,
-      "open_issues_count": 5,
+      "open_issues_count": 3,
       "language": "Dart",
-      "pushed_at": "2026-08-07T17:16:03Z",
-      "updated_at": "2026-09-07T07:29:27Z",
+      "pushed_at": "2026-09-26T19:02:45Z",
+      "updated_at": "2026-09-26T18:48:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -32,7 +37,7 @@
     "latestReleaseAt": "2026-07-14T12:39:46Z",
     "homepage": "https://jithware.github.io/brethap",
     "sync": {
-      "syncedAt": "2026-09-26T14:37:56.202Z",
+      "syncedAt": "2026-09-27T09:00:56.512Z",
       "source": "api"
     }
   },
@@ -60,13 +65,13 @@
         "facts": {
           "appId": "com.jithware.brethap",
           "suggestedVersionCode": 142,
-          "evidence": "https://github.com/jithware/brethap/blob/2b637effd01463246e4ac3df5ffc5747e3965ace/android/app/build.gradle",
+          "evidence": "https://github.com/jithware/brethap/blob/400ee4874903a48e89e4c41fbcc29633c7a77769/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.jithware.brethap",
-          "fetchedAt": "2026-09-26T14:37:53.759Z"
+          "fetchedAt": "2026-09-27T09:00:53.873Z"
         }
       }
     ],

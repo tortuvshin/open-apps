@@ -3,10 +3,15 @@
   "slug": "ish",
   "repoUrl": "https://github.com/ish-app/ish",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:39:00.864Z",
+  "lastSuccessAt": "2026-09-27T09:01:58.547Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:00.864Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:01:58.547Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -81,7 +86,7 @@
       "releases_url": "https://api.github.com/repos/ish-app/ish/releases{/id}",
       "deployments_url": "https://api.github.com/repos/ish-app/ish/deployments",
       "created_at": "2017-05-05T00:10:35Z",
-      "updated_at": "2026-09-26T10:59:43Z",
+      "updated_at": "2026-09-27T08:16:41Z",
       "pushed_at": "2026-09-20T20:50:36Z",
       "git_url": "git://github.com/ish-app/ish.git",
       "ssh_url": "git@github.com:ish-app/ish.git",
@@ -89,7 +94,7 @@
       "svn_url": "https://github.com/ish-app/ish",
       "homepage": "https://ish.app",
       "size": 5587,
-      "stargazers_count": 20510,
+      "stargazers_count": 20513,
       "watchers_count": 20173,
       "language": "C",
       "has_issues": true,
@@ -98,11 +103,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1539,
+      "forks_count": 1540,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 642,
+      "open_issues_count": 644,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -157,7 +162,7 @@
       "subscribers_count": 578
     },
     "sync": {
-      "syncedAt": "2026-09-26T14:39:00.864Z",
+      "syncedAt": "2026-09-27T09:01:58.547Z",
       "source": "api"
     },
     "languages": {

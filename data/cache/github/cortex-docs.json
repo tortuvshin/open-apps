@@ -3,10 +3,15 @@
   "slug": "cortex-docs",
   "repoUrl": "https://github.com/cortex-docs/cortex",
   "source": "api",
-  "lastSuccessAt": "2026-09-26T14:38:06.451Z",
+  "lastSuccessAt": "2026-09-27T09:01:07.123Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:06.451Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-27T09:01:07.123Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "cortex-docs/cortex",
-      "stargazers_count": 3222,
+      "stargazers_count": 3226,
       "forks_count": 158,
       "open_issues_count": 0,
       "language": "TypeScript",
       "pushed_at": "2026-09-26T10:21:39Z",
-      "updated_at": "2026-09-26T14:09:36Z",
+      "updated_at": "2026-09-27T05:18:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,7 +58,7 @@
     "latestReleaseAt": "2026-09-22T14:53:59Z",
     "homepage": "https://cortexdocs.dev",
     "sync": {
-      "syncedAt": "2026-09-26T14:38:06.451Z",
+      "syncedAt": "2026-09-27T09:01:07.123Z",
       "source": "api"
     }
   },
