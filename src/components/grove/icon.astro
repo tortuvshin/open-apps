@@ -49,13 +49,6 @@ import { resolveIconAsset, slugifyIconName } from '../../lib/icon-registry';
 
 export type { IconCategory, IconKind };
 
-/**
- * @deprecated Theme variants are no longer file-based — `mono` icons
- * inherit `currentColor`. Accepted and ignored so consumers passing
- * `mode="auto"` do not hit a type error.
- */
-export type IconMode = 'static' | 'auto';
-
 interface Props {
   /**
    * Registry id. Resolved through `aliases` first, then matched
@@ -70,8 +63,6 @@ interface Props {
   class?: string;
   /** Tooltip / aria-label. */
   title?: string;
-  /** @deprecated No-op. Kept for one minor release. */
-  mode?: IconMode;
   /**
    * Override the packaged kind classification. Pass `"mono"` for a
    * consumer-supplied single-color mark so it is painted black on

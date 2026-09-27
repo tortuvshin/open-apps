@@ -4,6 +4,26 @@ All notable changes to Open Apps are documented here.
 
 ## [Unreleased]
 
+### Changed — Grove 0.8.0 → 1.0.0
+
+Grove is now 1.0 (stable API). Most of what this site had patched locally
+moved into Grove and is used from there.
+
+- **Referral credit:** outbound links keep the referrer (`rel="noopener"`)
+  and links to an app's own site carry `ref=openappscout.com`, so
+  maintainers see this site in GitHub Traffic and their analytics. App
+  pages offer a "Featured on Open App Scout" README badge.
+- **Contributor credit:** records take `submittedBy`; app pages show
+  "Submitted by @login" and `/contributors/` lists what each person added.
+  22 existing records were credited from their merged pull requests.
+- **Header:** Browse and Collections menus, the current section marked,
+  Submit as the primary button.
+- **Home:** the hero links Astro's August 2026 roundup that featured the
+  site, with contributors and GitHub stars under the call to action.
+- **Collections:** a visual index with app icons, and collection pages as
+  ranked cards with stars, last push and licence.
+- **Submit:** a guided three-step form with a live preview and checklist.
+
 ### Changed — Grove 0.6.1 → 0.8.0 (registry-first UI)
 
 Grove v1 removed every UI export from `@grove-dev/astro`; the same components

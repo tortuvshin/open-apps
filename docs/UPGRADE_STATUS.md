@@ -1,6 +1,12 @@
 # Grove upgrade status
 
-**Current: `@grove-dev/{astro,cli,core}` 0.8.0 — registry-first UI.**
+**Current: `@grove-dev/{astro,cli,core}` 1.0.0 — stable API, registry-first UI.**
+
+From 1.0 Grove follows semver: a change that breaks our config, records or
+the `@grove-dev/*` imports we use ships only in a major version. The UI
+files under `src/` are ours and outside that promise — `grove update`
+offers upstream changes and keeps our edits. See Grove's
+[stability policy](https://withgrove.dev/project/roadmap/#stability).
 
 Grove v1 removed every UI export from `@grove-dev/astro`. The components now
 ship through a [shadcn registry](https://withgrove.dev/r/) that installs
@@ -8,7 +14,7 @@ source into this repository, so the `.astro` files under `src/` are ours.
 
 ## What that changes day to day
 
-| Before (0.6.1) | Now (0.8.0) |
+| Before (0.6.1) | Since 0.8.0 |
 | --- | --- |
 | `import ProjectCard from "@grove-dev/astro/components/ProjectCard.astro"` | `import ProjectCard from "../components/grove/project-card.astro"` |
 | A package upgrade could change the site's UI | Only `grove update` changes UI, and it never overwrites our edits |

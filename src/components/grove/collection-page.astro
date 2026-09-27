@@ -121,7 +121,7 @@ const picks = model.entries.map((entry) => {
   const record = records.get(entry.slug);
   const install = getInstallChannels(record?.distribution?.channels, record?.repoUrl)[0];
   // GitHub reports NOASSERTION when it cannot detect a licence; say nothing then.
-  const license = [entry.licenses?.[0], entry.license].find((id) => isDetectedLicense(id));
+  const license = entry.licenses?.find((id) => isDetectedLicense(id));
   return {
     entry,
     avatarUrl: entry.avatarUrl,

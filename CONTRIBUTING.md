@@ -46,16 +46,13 @@ closing `---`.
 ## Add an app
 
 1. Open `/submit` on the site and paste the canonical GitHub repository URL.
-2. Review the generated YAML draft.
-3. Choose category, primary stack, platforms, and free-form tags carefully.
+2. Answer the questions: description, category, primary stack, platforms,
+   why it is worth listing, and your GitHub username for the credit.
    Categories and stacks come from `data/taxonomy/`; tags do not replace them.
-4. Add the draft as `content/records/<slug>.md`: the YAML between `---`
-   lines at the top (without `slug`, `kind` or `content`), your notes
-   underneath. The form still offers the draft as `data/records/<slug>.yml`
-   plus a notes file; that layout is accepted too, and a maintainer can
-   convert it.
-5. Run `pnpm exec grove check` and `pnpm build`.
-6. Open a pull request explaining why the app is useful to run or study.
+3. Check the preview, then "Open pull request". GitHub opens with
+   `content/records/<slug>.md` filled in — frontmatter on top, your review
+   underneath. A bot posts one review comment on the pull request.
+4. Explain in the pull request why the app is useful to run or study.
 
 ## After your app is listed
 

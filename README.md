@@ -207,8 +207,9 @@ contributor credits.
 ## Add or update an app
 
 The fastest path is the [web form](https://openappscout.com/submit): it
-drafts a YAML record from a public GitHub URL; you review the taxonomy and
-open a pull request.
+fetches a public GitHub repository, asks a few questions and opens a pull
+request with one file, `content/records/<slug>.md`. Add your GitHub username
+and the app page credits you.
 
 For a manual contribution:
 
