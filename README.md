@@ -115,6 +115,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Developer Tools
 
+- [Codex Quota Overlay](https://openappscout.com/apps/codex-quota-overlay/) - A Windows companion for Codex Desktop that displays quota and reset timing beside the conversation title. ([Source](https://github.com/cpys/codex-quota-overlay))
 - [Cortex](https://openappscout.com/apps/cortex-docs/) - Cortex is an open-source CLI that turns API specifications and Markdown into interactive documentation, typed SDKs, and MCP servers. ([Source](https://github.com/cortex-docs/cortex))
 - [d1v.ai Mobile](https://openappscout.com/apps/d1vai-app/) - A Flutter mobile workspace for creating or importing projects, continuing AI-assisted work, inspecting files, and monitoring preview and deployment state from iOS or Android. ([Source](https://github.com/d1vai/d1vai_app))
 - [flutter-pos-system](https://openappscout.com/apps/flutter-pos-system/) - An offline-first Flutter point-of-sale app for small restaurants and shops that runs ingredient inventory, menu management, customer demographics, order taking, Bluetooth receipt printing, custom analytics charts, and Google Sheets export entirely on-device with no remote backend. ([Source](https://github.com/evan361425/flutter-pos-system))
@@ -146,6 +147,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Invoice Ninja](https://openappscout.com/apps/invoice-ninja/) - Companion app for the Invoice Ninja platform. Invoicing, expenses, time-billing, payments. ([Source](https://github.com/invoiceninja/flutter-mobile))
 - [Mise](https://openappscout.com/apps/mise/) - Mise is a self-hosted restaurant system for macOS that runs a till, a kitchen display, QR table ordering, and a back office from one machine on the restaurant's own network. ([Source](https://github.com/devShakib015/mise))
 - [OpenPost](https://openappscout.com/apps/openpost/) - Self-hosted social publishing app for preparing, reviewing, scheduling, and tracking posts across several networks. ([Source](https://github.com/getopenpost/openpost))
+- [Orvaket](https://openappscout.com/apps/orvaket/) - A browser-based accounts receivable board that turns CSV invoice exports into a human-reviewed follow-up plan. ([Source](https://github.com/Akam1123/orvaket))
 - [Posnic POS](https://openappscout.com/apps/posnic-pos/) - Posnic POS is offline-first open-source POS and billing software for retail shops and restaurants, built as a JavaScript/Electron desktop app with a local MongoDB-backed checkout. ([Source](https://github.com/Posnic/POS))
 - [Twenty](https://openappscout.com/apps/twenty/) - Twenty is an open-source CRM whose data model is a runtime artifact — every custom object, field, view, role, and AI agent is a row in metadata tables, with the GraphQL schema and SQL queries rebuilt per workspace on demand. Written in TypeScript with NestJS, React, PostgreSQL, and a native MCP server for Claude/ChatGPT/Cursor. ([Source](https://github.com/twentyhq/twenty))
 
