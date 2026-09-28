@@ -3,7 +3,7 @@
   "slug": "rockxy",
   "repoUrl": "https://github.com/RockxyApp/Rockxy",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:36:56.548Z",
+  "lastSuccessAt": "2026-09-28T18:17:50.805Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:26.382Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:36:56.548Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:17:50.805Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
@@ -34,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:36:56.548Z",
+      "syncedAt": "2026-09-28T18:17:50.805Z",
       "source": "api"
     },
     "repository": {

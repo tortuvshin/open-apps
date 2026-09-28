@@ -3,7 +3,7 @@
   "slug": "hacki",
   "repoUrl": "https://github.com/Livinglist/Hacki",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:34:29.465Z",
+  "lastSuccessAt": "2026-09-28T18:14:06.714Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:43.180Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:34:29.465Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:14:06.714Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -188,7 +193,7 @@
       "contributorsKnown": 4
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:34:29.465Z",
+      "syncedAt": "2026-09-28T18:14:06.714Z",
       "source": "api"
     },
     "languages": {

@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:36:00.001Z",
+  "lastSuccessAt": "2026-09-28T18:16:13.124Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:56.187Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:36:00.001Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:16:13.124Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Oinkoin is a flutter app for helping you managing your expenses. No internet required.",
@@ -34,14 +39,14 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:36:00.001Z",
+      "syncedAt": "2026-09-28T18:16:13.124Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
       "stargazers_count": 471,
       "forks_count": 56,
-      "open_issues_count": 24,
+      "open_issues_count": 26,
       "language": "Dart",
       "pushed_at": "2026-09-23T05:00:21Z",
       "updated_at": "2026-09-26T15:30:33Z",

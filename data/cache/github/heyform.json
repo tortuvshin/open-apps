@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "slug": "heyform",
+  "repoUrl": "https://github.com/heyform/heyform",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:14:16.871Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:14:16.871Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Open-Source Form Builder",
+  "github": {
+    "repository": {
+      "full_name": "heyform/heyform",
+      "stargazers_count": 8988,
+      "forks_count": 715,
+      "open_issues_count": 12,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-09T07:29:46Z",
+      "updated_at": "2026-09-28T16:38:17Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "next",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "form",
+        "quiz",
+        "survey"
+      ]
+    },
+    "latestReleaseAt": "2026-09-09T07:31:11Z",
+    "homepage": "https://heyform.net",
+    "sync": {
+      "syncedAt": "2026-09-28T18:14:16.871Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/assets/images/logo.svg",
+        "path": "assets/images/logo.svg",
+        "blobSha": "9ee63af45ba1cfea4e789e3c369ef33de34936df",
+        "format": "svg",
+        "bytes": 4083,
+        "width": 179,
+        "height": 48,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/assets/images/logo.svg",
+          "fetchedAt": "2026-09-28T18:14:13.663Z"
+        }
+      },
+      {
+        "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/packages/webapp/public/static/icon_128.png",
+        "path": "packages/webapp/public/static/icon_128.png",
+        "blobSha": "bb53689341f83fb1d37c350ea3e208ea97448c9d",
+        "format": "png",
+        "bytes": 4327,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/packages/webapp/public/static/icon_128.png",
+          "fetchedAt": "2026-09-28T18:14:13.663Z"
+        }
+      },
+      {
+        "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/packages/webapp/src/assets/logo.svg",
+        "path": "packages/webapp/src/assets/logo.svg",
+        "blobSha": "4368eac37f56d6ea610a89f6fb91da67fcd26cef",
+        "format": "svg",
+        "bytes": 1834,
+        "width": 107,
+        "height": 108,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/heyform/heyform/blob/92aa9f4269a8f6b61d5154d00f8a3ca11d5c5ee3/packages/webapp/src/assets/logo.svg",
+          "fetchedAt": "2026-09-28T18:14:13.663Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

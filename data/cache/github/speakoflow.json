@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "slug": "speakoflow",
+  "repoUrl": "https://github.com/AbhishekBarali/SpeakoFlow",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:18:09.973Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:18:09.973Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Free, open-source offline voice dictation for Windows, macOS, and Linux. A Wispr Flow alternative with an AI assistant that can read your screen on request and answer questions.",
+  "github": {
+    "repository": {
+      "full_name": "AbhishekBarali/SpeakoFlow",
+      "stargazers_count": 256,
+      "forks_count": 26,
+      "open_issues_count": 4,
+      "language": "Rust",
+      "pushed_at": "2026-09-28T13:51:13Z",
+      "updated_at": "2026-09-28T12:04:37Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-assistant",
+        "cross-platform",
+        "dictation",
+        "local-first",
+        "offline-speech-recognition",
+        "privacy-focused",
+        "rust",
+        "speech-to-text",
+        "superwhisper-alternative",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "voice-assistant",
+        "voice-to-text",
+        "voice-typing",
+        "whisper",
+        "whisper-cpp",
+        "wispr-flow-alternative",
+        "wisprflow-alternative"
+      ]
+    },
+    "latestReleaseAt": "2026-08-30T08:22:17Z",
+    "homepage": "https://www.speakoflow.com",
+    "sync": {
+      "syncedAt": "2026-09-28T18:18:09.973Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/latest",
+        "facts": {
+          "tag": "v1.4.0",
+          "assets": [
+            "SpeakoFlow_1.4.0_aarch64.AppImage",
+            "SpeakoFlow_1.4.0_amd64.AppImage",
+            "SpeakoFlow_1.4.0_amd64.deb",
+            "SpeakoFlow_1.4.0_arm64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/tag/v1.4.0",
+          "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/latest",
+        "facts": {
+          "tag": "v1.4.0",
+          "assets": [
+            "SpeakoFlow_1.4.0_aarch64.dmg",
+            "SpeakoFlow_1.4.0_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/tag/v1.4.0",
+          "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/latest",
+        "facts": {
+          "tag": "v1.4.0",
+          "assets": [
+            "SpeakoFlow_1.4.0_x64-setup.exe",
+            "SpeakoFlow_1.4.0_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/tag/v1.4.0",
+          "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/AbhishekBarali/SpeakoFlow/blob/4fb2a46e539c18d97d808aa625b0420d314c8519/docs-site/logo/icon.svg",
+        "path": "docs-site/logo/icon.svg",
+        "blobSha": "fe28f55573c9644bee7b81c5ceadf133005cfcf1",
+        "format": "svg",
+        "bytes": 538134,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/AbhishekBarali/SpeakoFlow/blob/4fb2a46e539c18d97d808aa625b0420d314c8519/docs-site/logo/icon.svg",
+          "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      },
+      {
+        "url": "https://github.com/AbhishekBarali/SpeakoFlow/blob/4fb2a46e539c18d97d808aa625b0420d314c8519/Logo/final/icon-square.svg",
+        "path": "Logo/final/icon-square.svg",
+        "blobSha": "e17472e1745b565c6567187c412945012df48c4b",
+        "format": "svg",
+        "bytes": 5268,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/AbhishekBarali/SpeakoFlow/blob/4fb2a46e539c18d97d808aa625b0420d314c8519/Logo/final/icon-square.svg",
+          "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

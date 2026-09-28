@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "slug": "vane",
+  "repoUrl": "https://github.com/ItzCrazyKns/Vane",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:19:06.469Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:19:06.469Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Vane is an AI-powered answering engine.",
+  "github": {
+    "repository": {
+      "full_name": "ItzCrazyKns/Vane",
+      "stargazers_count": 36926,
+      "forks_count": 4098,
+      "open_issues_count": 353,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-01T14:12:12Z",
+      "updated_at": "2026-09-28T18:18:35Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-agents",
+        "ai-search-engine",
+        "answering-engine",
+        "artificial-intelligence",
+        "llm",
+        "machine-learning",
+        "open-source-ai-search-engine",
+        "perplexica",
+        "rag",
+        "search-engine",
+        "searxng",
+        "searxng-copilot",
+        "self-hosted-ai",
+        "vane"
+      ]
+    },
+    "latestReleaseAt": "2026-04-10T13:30:52Z",
+    "sync": {
+      "syncedAt": "2026-09-28T18:19:06.469Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/ItzCrazyKns/Vane/blob/348feca3e378fb4157b217724ed508dc707f853f/public/icon.png",
+        "path": "public/icon.png",
+        "blobSha": "f6fe3c7728b8aa93e8c462a411755a9a6b33eb67",
+        "format": "png",
+        "bytes": 30498,
+        "width": 440,
+        "height": 440,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ItzCrazyKns/Vane/blob/348feca3e378fb4157b217724ed508dc707f853f/public/icon.png",
+          "fetchedAt": "2026-09-28T18:19:04.636Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

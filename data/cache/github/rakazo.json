@@ -3,7 +3,7 @@
   "slug": "rakazo",
   "repoUrl": "https://github.com/elie222/rakazo",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:36:53.104Z",
+  "lastSuccessAt": "2026-09-28T18:17:46.865Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:38.204Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-28T17:36:53.104Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:17:46.865Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
   "github": {
     "repository": {
       "full_name": "elie222/rakazo",
-      "stargazers_count": 3023,
+      "stargazers_count": 3025,
       "forks_count": 528,
-      "open_issues_count": 28,
+      "open_issues_count": 29,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:25:08Z",
-      "updated_at": "2026-09-28T17:07:22Z",
+      "pushed_at": "2026-09-28T18:12:56Z",
+      "updated_at": "2026-09-28T18:00:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,7 +53,7 @@
     "latestReleaseAt": "2026-09-08T05:47:07Z",
     "homepage": "https://rakazo.com",
     "sync": {
-      "syncedAt": "2026-09-28T17:36:53.104Z",
+      "syncedAt": "2026-09-28T18:17:46.865Z",
       "source": "api"
     }
   },

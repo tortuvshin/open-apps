@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "slug": "grist",
+  "repoUrl": "https://github.com/gristlabs/grist-core",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:14:01.063Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:14:01.063Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Grist is the evolution of spreadsheets.",
+  "github": {
+    "repository": {
+      "full_name": "gristlabs/grist-core",
+      "stargazers_count": 11880,
+      "forks_count": 650,
+      "open_issues_count": 735,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T17:17:53Z",
+      "updated_at": "2026-09-28T16:41:09Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "awesome",
+        "database",
+        "spreadsheet"
+      ]
+    },
+    "latestReleaseAt": "2026-09-06T03:29:20Z",
+    "homepage": "https://www.getgrist.com",
+    "sync": {
+      "syncedAt": "2026-09-28T18:14:01.063Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
+  }
+}

@@ -3,7 +3,7 @@
   "slug": "handy",
   "repoUrl": "https://github.com/cjpais/Handy",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:34:31.767Z",
+  "lastSuccessAt": "2026-09-28T18:14:08.869Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:20.964Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-28T17:34:31.767Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:14:08.869Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A free, open source, and extensible speech-to-text application that works completely offline.",
   "github": {
     "repository": {
       "full_name": "cjpais/Handy",
-      "stargazers_count": 32362,
+      "stargazers_count": 32363,
       "forks_count": 2977,
       "open_issues_count": 185,
       "language": "Rust",
       "pushed_at": "2026-09-28T07:02:36Z",
-      "updated_at": "2026-09-28T17:33:43Z",
+      "updated_at": "2026-09-28T17:47:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -43,7 +48,7 @@
     "latestReleaseAt": "2026-09-18T14:11:52Z",
     "homepage": "https://handy.computer",
     "sync": {
-      "syncedAt": "2026-09-28T17:34:31.767Z",
+      "syncedAt": "2026-09-28T18:14:08.869Z",
       "source": "api"
     }
   },

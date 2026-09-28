@@ -3,7 +3,7 @@
   "slug": "anythingllm",
   "repoUrl": "https://github.com/Mintplex-Labs/anything-llm",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:32:53.544Z",
+  "lastSuccessAt": "2026-09-28T18:11:45.523Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:48.583Z",
@@ -14,6 +14,11 @@
       "at": "2026-09-28T17:32:53.544Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:11:45.523Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
@@ -22,10 +27,10 @@
       "full_name": "Mintplex-Labs/anything-llm",
       "stargazers_count": 66551,
       "forks_count": 7418,
-      "open_issues_count": 338,
+      "open_issues_count": 335,
       "language": "JavaScript",
-      "pushed_at": "2026-09-26T01:04:54Z",
-      "updated_at": "2026-09-28T16:44:32Z",
+      "pushed_at": "2026-09-28T18:04:13Z",
+      "updated_at": "2026-09-28T18:04:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -54,7 +59,7 @@
     "latestReleaseAt": "2026-09-22T19:06:03Z",
     "homepage": "https://anythingllm.com",
     "sync": {
-      "syncedAt": "2026-09-28T17:32:53.544Z",
+      "syncedAt": "2026-09-28T18:11:45.523Z",
       "source": "api"
     }
   },

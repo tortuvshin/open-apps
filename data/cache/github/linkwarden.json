@@ -3,7 +3,7 @@
   "slug": "linkwarden",
   "repoUrl": "https://github.com/linkwarden/linkwarden",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:35:13.494Z",
+  "lastSuccessAt": "2026-09-28T18:15:17.978Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:14.687Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:35:13.494Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:15:17.978Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -215,7 +220,7 @@
       "openPullRequests": 28
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:35:13.494Z",
+      "syncedAt": "2026-09-28T18:15:17.978Z",
       "source": "api"
     },
     "html": {

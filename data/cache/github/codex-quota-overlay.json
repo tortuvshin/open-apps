@@ -3,7 +3,7 @@
   "slug": "codex-quota-overlay",
   "repoUrl": "https://github.com/cpys/codex-quota-overlay",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:33:37.230Z",
+  "lastSuccessAt": "2026-09-28T18:12:49.638Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:04.292Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:33:37.230Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:12:49.638Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -61,7 +66,7 @@
     "latestReleaseAt": "2026-08-23T16:04:41Z",
     "homepage": "https://cpys.github.io/codex-quota-overlay/",
     "sync": {
-      "syncedAt": "2026-09-28T17:33:37.230Z",
+      "syncedAt": "2026-09-28T18:12:49.638Z",
       "source": "api"
     }
   },

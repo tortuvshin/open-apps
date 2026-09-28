@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "teable",
+  "repoUrl": "https://github.com/teableio/teable",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:18:40.289Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:18:40.289Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "✨ AI Spreadsheet for Business",
+  "github": {
+    "repository": {
+      "full_name": "teableio/teable",
+      "stargazers_count": 21842,
+      "forks_count": 1351,
+      "open_issues_count": 140,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-27T13:24:10Z",
+      "updated_at": "2026-09-28T17:58:40Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "develop",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "ai-agent",
+        "airtable",
+        "airtable-alternative",
+        "app-builder",
+        "database",
+        "internal-tool",
+        "low-code",
+        "no-code",
+        "postgres",
+        "postgresql",
+        "sandbox",
+        "spreadsheet"
+      ]
+    },
+    "latestReleaseAt": "2026-09-27T06:10:00Z",
+    "homepage": "https://teable.ai",
+    "sync": {
+      "syncedAt": "2026-09-28T18:18:40.289Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
+  }
+}

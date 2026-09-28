@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "slug": "baserow",
+  "repoUrl": "https://github.com/baserow/baserow",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:12:07.775Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:12:07.775Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+  "github": {
+    "repository": {
+      "full_name": "baserow/baserow",
+      "stargazers_count": 6017,
+      "forks_count": 742,
+      "open_issues_count": 1233,
+      "language": "Python",
+      "pushed_at": "2026-09-28T16:58:00Z",
+      "updated_at": "2026-09-28T16:04:12Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "develop",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "airtable",
+        "airtable-alternative",
+        "airtable-replacement",
+        "application-builder",
+        "automations",
+        "dashboards",
+        "database",
+        "low-code",
+        "no-code",
+        "no-code-database",
+        "no-code-platform",
+        "online-database",
+        "postgresql",
+        "restful-api",
+        "self-hosted",
+        "spreadsheet"
+      ]
+    },
+    "latestReleaseAt": "2026-09-15T15:38:09Z",
+    "homepage": "https://baserow.io",
+    "sync": {
+      "syncedAt": "2026-09-28T18:12:07.775Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/baserow-icon.svg",
+        "path": "web-frontend/modules/core/static/img/baserow-icon.svg",
+        "blobSha": "ed4ec9547242c0bd489d65a48cd9d331a4afca41",
+        "format": "svg",
+        "bytes": 1561,
+        "width": 14,
+        "height": 14,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/baserow-icon.svg",
+          "fetchedAt": "2026-09-28T18:12:05.636Z"
+        }
+      },
+      {
+        "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/logo-white.svg",
+        "path": "web-frontend/modules/core/static/img/logo-white.svg",
+        "blobSha": "c639b60dae83d21e947322b1da0d719209e92b4d",
+        "format": "svg",
+        "bytes": 4472,
+        "width": 176,
+        "height": 29,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/logo-white.svg",
+          "fetchedAt": "2026-09-28T18:12:05.636Z"
+        }
+      },
+      {
+        "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/logo.svg",
+        "path": "web-frontend/modules/core/static/img/logo.svg",
+        "blobSha": "f471f4d9f599d036433ee4638dd9112b59db0f21",
+        "format": "svg",
+        "bytes": 4510,
+        "width": 176,
+        "height": 29,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/baserow/baserow/blob/4716fc756199e9ea829a3a4d851b714719d930d5/web-frontend/modules/core/static/img/logo.svg",
+          "fetchedAt": "2026-09-28T18:12:05.636Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

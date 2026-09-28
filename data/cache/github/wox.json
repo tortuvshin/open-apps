@@ -3,10 +3,15 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:38:07.408Z",
+  "lastSuccessAt": "2026-09-28T18:19:41.011Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:19:41.011Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -45,7 +50,7 @@
     "latestReleaseAt": "2026-09-23T02:56:52Z",
     "homepage": "https://www.woxlauncher.com/",
     "sync": {
-      "syncedAt": "2026-09-28T17:38:07.408Z",
+      "syncedAt": "2026-09-28T18:19:41.011Z",
       "source": "api"
     }
   },

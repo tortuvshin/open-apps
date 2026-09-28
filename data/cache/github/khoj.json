@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "slug": "khoj",
+  "repoUrl": "https://github.com/khoj-ai/khoj",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:14:58.166Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:14:58.166Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+  "github": {
+    "repository": {
+      "full_name": "khoj-ai/khoj",
+      "stargazers_count": 37531,
+      "forks_count": 2497,
+      "open_issues_count": 163,
+      "language": "Python",
+      "pushed_at": "2026-08-02T01:55:40Z",
+      "updated_at": "2026-09-28T15:18:23Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "agent",
+        "ai",
+        "assistant",
+        "chat",
+        "chatgpt",
+        "emacs",
+        "image-generation",
+        "llama3",
+        "llamacpp",
+        "llm",
+        "obsidian",
+        "obsidian-md",
+        "offline-llm",
+        "productivity",
+        "rag",
+        "research",
+        "self-hosted",
+        "semantic-search",
+        "stt",
+        "whatsapp-ai"
+      ]
+    },
+    "latestReleaseAt": "2026-03-26T03:36:04Z",
+    "homepage": "https://khoj.dev",
+    "sync": {
+      "syncedAt": "2026-09-28T18:14:58.166Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/khoj-ai/khoj/blob/ae229ca894c0b80ad84664afcfdde523b5e87057/src/interface/desktop/assets/icons/khoj_logo.png",
+        "path": "src/interface/desktop/assets/icons/khoj_logo.png",
+        "blobSha": "a3301e62241f9f88207e113cc785a64f6bd96903",
+        "format": "png",
+        "bytes": 10355,
+        "width": 442,
+        "height": 198,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/khoj-ai/khoj/blob/ae229ca894c0b80ad84664afcfdde523b5e87057/src/interface/desktop/assets/icons/khoj_logo.png",
+          "fetchedAt": "2026-09-28T18:14:55.459Z"
+        }
+      },
+      {
+        "url": "https://github.com/khoj-ai/khoj/blob/ae229ca894c0b80ad84664afcfdde523b5e87057/src/interface/web/public/logo.svg",
+        "path": "src/interface/web/public/logo.svg",
+        "blobSha": "8c6f62b2451a82a88a17e7ec8d6f3fd7dc6ec8bd",
+        "format": "svg",
+        "bytes": 8059,
+        "width": 250,
+        "height": 250,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/khoj-ai/khoj/blob/ae229ca894c0b80ad84664afcfdde523b5e87057/src/interface/web/public/logo.svg",
+          "fetchedAt": "2026-09-28T18:14:55.459Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

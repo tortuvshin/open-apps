@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "slug": "chatwoot",
+  "repoUrl": "https://github.com/chatwoot/chatwoot",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:12:44.949Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:12:44.949Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+  "github": {
+    "repository": {
+      "full_name": "chatwoot/chatwoot",
+      "stargazers_count": 37279,
+      "forks_count": 9059,
+      "open_issues_count": 1508,
+      "language": "Ruby",
+      "pushed_at": "2026-09-28T18:12:13Z",
+      "updated_at": "2026-09-28T17:56:35Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "develop",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "actioncable",
+        "chat-widget",
+        "conversation",
+        "customer-support",
+        "dashboard",
+        "design",
+        "docker",
+        "docker-image",
+        "heroku",
+        "intercom",
+        "javascript",
+        "livechat",
+        "opensource",
+        "rails",
+        "ruby",
+        "sass",
+        "vuejs",
+        "whatsapp",
+        "zendesk"
+      ]
+    },
+    "latestReleaseAt": "2026-09-18T00:02:33Z",
+    "homepage": "https://www.chatwoot.com/help-center",
+    "sync": {
+      "syncedAt": "2026-09-28T18:12:44.949Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/android-icon-192x192.png",
+        "path": "public/android-icon-192x192.png",
+        "blobSha": "e5eaa103260713a30dcc4bf4ac8e33f87bbedbc8",
+        "format": "png",
+        "bytes": 5920,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/manifest.json",
+          "fetchedAt": "2026-09-28T18:12:41.949Z"
+        }
+      },
+      {
+        "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/app/javascript/widget/assets/images/logo.svg",
+        "path": "app/javascript/widget/assets/images/logo.svg",
+        "blobSha": "16529675d68abe4241fd2ed1ee9daecf50dd1b27",
+        "format": "svg",
+        "bytes": 916,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/app/javascript/widget/assets/images/logo.svg",
+          "fetchedAt": "2026-09-28T18:12:41.949Z"
+        }
+      },
+      {
+        "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/brand-assets/logo_dark.svg",
+        "path": "public/brand-assets/logo_dark.svg",
+        "blobSha": "679ae46873e1d7aeedd34d44261a7ea26bf0357d",
+        "format": "svg",
+        "bytes": 8396,
+        "width": 2559,
+        "height": 581,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/brand-assets/logo_dark.svg",
+          "fetchedAt": "2026-09-28T18:12:41.949Z"
+        }
+      },
+      {
+        "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/brand-assets/logo.svg",
+        "path": "public/brand-assets/logo.svg",
+        "blobSha": "63adcde76d3a85b5a938d1fe5b25bca39845ba52",
+        "format": "svg",
+        "bytes": 8398,
+        "width": 2559,
+        "height": 581,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/chatwoot/chatwoot/blob/0b7a26f449f2541f9fdfe04b583475ea41fb3074/public/brand-assets/logo.svg",
+          "fetchedAt": "2026-09-28T18:12:41.949Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

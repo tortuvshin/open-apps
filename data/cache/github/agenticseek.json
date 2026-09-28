@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "slug": "agenticseek",
+  "repoUrl": "https://github.com/Fosowl/agenticSeek",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:11:26.987Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:11:26.987Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
+  "github": {
+    "repository": {
+      "full_name": "Fosowl/agenticSeek",
+      "stargazers_count": 27362,
+      "forks_count": 3067,
+      "open_issues_count": 28,
+      "language": "Python",
+      "pushed_at": "2026-09-25T19:13:46Z",
+      "updated_at": "2026-09-28T16:49:08Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "autonomous-agents",
+        "deepseek-r1",
+        "llm",
+        "llm-agents",
+        "voice-assistant"
+      ]
+    },
+    "homepage": "http://agenticseek.tech",
+    "sync": {
+      "syncedAt": "2026-09-28T18:11:26.987Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/Fosowl/agenticSeek/blob/d057a3a6daff54265c165baf59fa902c40606f0d/frontend/agentic-seek-front/public/logo192.png",
+        "path": "frontend/agentic-seek-front/public/logo192.png",
+        "blobSha": "58782a23ff50a7a5759cef1a487439c85cfd553c",
+        "format": "png",
+        "bytes": 151491,
+        "width": 500,
+        "height": 500,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Fosowl/agenticSeek/blob/d057a3a6daff54265c165baf59fa902c40606f0d/frontend/agentic-seek-front/public/logo192.png",
+          "fetchedAt": "2026-09-28T18:11:23.887Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

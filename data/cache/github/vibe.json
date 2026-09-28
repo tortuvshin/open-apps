@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "slug": "vibe",
+  "repoUrl": "https://github.com/thewh1teagle/vibe",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:19:09.674Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:19:09.674Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Transcribe on your own!",
+  "github": {
+    "repository": {
+      "full_name": "thewh1teagle/vibe",
+      "stargazers_count": 7635,
+      "forks_count": 549,
+      "open_issues_count": 200,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T01:01:36Z",
+      "updated_at": "2026-09-28T17:06:16Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai",
+        "cross-platform",
+        "desktop",
+        "openai",
+        "rust",
+        "transcribe",
+        "whisper"
+      ]
+    },
+    "latestReleaseAt": "2026-09-05T13:24:57Z",
+    "homepage": "https://thewh1teagle.github.io/vibe/",
+    "sync": {
+      "syncedAt": "2026-09-28T18:19:09.674Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/thewh1teagle/vibe/releases/latest",
+        "facts": {
+          "tag": "v3.2.2",
+          "assets": [
+            "vibe-3.2.2-1.aarch64.rpm",
+            "vibe-3.2.2-1.x86_64.rpm",
+            "vibe_3.2.2_amd64.deb",
+            "vibe_3.2.2_arm64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/thewh1teagle/vibe/releases/tag/v3.2.2",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/thewh1teagle/vibe/releases/latest",
+        "facts": {
+          "tag": "v3.2.2",
+          "assets": [
+            "vibe_3.2.2_aarch64.dmg",
+            "vibe_3.2.2_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/thewh1teagle/vibe/releases/tag/v3.2.2",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/thewh1teagle/vibe/releases/latest",
+        "facts": {
+          "tag": "v3.2.2",
+          "assets": [
+            "vibe_3.2.2_x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/thewh1teagle/vibe/releases/tag/v3.2.2",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/handoff/pwa/public/icons/icon-512.png",
+        "path": "handoff/pwa/public/icons/icon-512.png",
+        "blobSha": "574528b22c525bf52488df193f55302b409a39a8",
+        "format": "png",
+        "bytes": 62595,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/handoff/pwa/public/manifest.webmanifest",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      },
+      {
+        "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/website/public/logo.png",
+        "path": "website/public/logo.png",
+        "blobSha": "01c0675ce0988746e4b99f8efa8b39065cba90e6",
+        "format": "png",
+        "bytes": 3579,
+        "width": 170,
+        "height": 170,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/website/public/logo.png",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      },
+      {
+        "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/website/public/logo.svg",
+        "path": "website/public/logo.svg",
+        "blobSha": "6cf943a049f5aed5b696a05c512a7042ee5c587f",
+        "format": "svg",
+        "bytes": 1925,
+        "width": 169,
+        "height": 169,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/thewh1teagle/vibe/blob/4d1db65fd07d7927d7b4ef3a3d949539010147dc/website/public/logo.svg",
+          "fetchedAt": "2026-09-28T18:19:07.032Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

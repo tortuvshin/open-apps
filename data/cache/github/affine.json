@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "affine",
+  "repoUrl": "https://github.com/toeverything/AFFiNE",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:11:21.066Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:11:21.066Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    }
+  ],
+  "sourceDescription": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+  "github": {
+    "repository": {
+      "full_name": "toeverything/AFFiNE",
+      "stargazers_count": 73068,
+      "forks_count": 5315,
+      "open_issues_count": 761,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-27T14:51:50Z",
+      "updated_at": "2026-09-28T17:24:55Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "canary",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": [
+        "app",
+        "crdt",
+        "editor",
+        "electron",
+        "knowledge-base",
+        "markdown",
+        "miro",
+        "notes",
+        "notion",
+        "notion-alternative",
+        "rust",
+        "rust-lang",
+        "rust-language",
+        "table",
+        "tableview",
+        "whiteboard",
+        "wiki",
+        "workspace"
+      ]
+    },
+    "latestReleaseAt": "2026-08-18T16:51:39Z",
+    "homepage": "https://affine.pro",
+    "sync": {
+      "syncedAt": "2026-09-28T18:11:21.066Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/toeverything/AFFiNE/releases/latest",
+        "facts": {
+          "tag": "v0.27.4",
+          "assets": [
+            "affine-0.27.4-stable-linux-x64.appimage",
+            "affine-0.27.4-stable-linux-x64.deb",
+            "affine-0.27.4-stable-linux-x64.flatpak"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/toeverything/AFFiNE/releases/latest",
+        "facts": {
+          "tag": "v0.27.4",
+          "assets": [
+            "affine-0.27.4-stable-macos-arm64.dmg",
+            "affine-0.27.4-stable-macos-x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/toeverything/AFFiNE/releases/latest",
+        "facts": {
+          "tag": "v0.27.4",
+          "assets": [
+            "affine-0.27.4-stable-windows-arm64.exe",
+            "affine-0.27.4-stable-windows-arm64.nsis.exe",
+            "affine-0.27.4-stable-windows-x64.exe",
+            "affine-0.27.4-stable-windows-x64.nsis.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/core/public/favicon-192.png",
+        "path": "packages/frontend/core/public/favicon-192.png",
+        "blobSha": "51e9bad3d1d5fa51eb5f94414dc4840b35f34626",
+        "format": "png",
+        "bytes": 15885,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/core/public/manifest.json",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/blocksuite/playground/public/logo.svg",
+        "path": "blocksuite/playground/public/logo.svg",
+        "blobSha": "0fda3514a37a3a5a49278fa3452749ed6f6ed78d",
+        "format": "svg",
+        "bytes": 608,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/blocksuite/playground/public/logo.svg",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/icons/icon.png",
+        "path": "packages/frontend/apps/electron/resources/icons/icon.png",
+        "blobSha": "a5e61afbb83f0e7fd4e3623a7e05e5e463230489",
+        "format": "png",
+        "bytes": 1227964,
+        "width": 2048,
+        "height": 2048,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/icons/icon.png",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://affine.pro/overview/Draw.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "url": "https://affine.pro/overview/Plan.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      },
+      {
+        "url": "https://affine.pro/overview/Write.jpg",
+        "format": "jpeg",
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-09-28T18:11:16.603Z"
+        }
+      }
+    ]
+  }
+}

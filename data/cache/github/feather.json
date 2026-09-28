@@ -3,7 +3,7 @@
   "slug": "feather",
   "repoUrl": "https://github.com/claration/Feather",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:33:57.724Z",
+  "lastSuccessAt": "2026-09-28T18:13:19.460Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:21.238Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:33:57.724Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:13:19.460Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -158,7 +163,7 @@
       "subscribers_count": 41
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:33:57.724Z",
+      "syncedAt": "2026-09-28T18:13:19.460Z",
       "source": "api"
     },
     "languages": {

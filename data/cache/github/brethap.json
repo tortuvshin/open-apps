@@ -3,7 +3,7 @@
   "slug": "brethap",
   "repoUrl": "https://github.com/jithware/brethap",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:33:25.223Z",
+  "lastSuccessAt": "2026-09-28T18:12:26.954Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:56.202Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:33:25.223Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:12:26.954Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-07-14T12:39:46Z",
     "homepage": "https://jithware.github.io/brethap",
     "sync": {
-      "syncedAt": "2026-09-28T17:33:25.223Z",
+      "syncedAt": "2026-09-28T18:12:26.954Z",
       "source": "api"
     }
   },

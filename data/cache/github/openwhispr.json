@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "slug": "openwhispr",
+  "repoUrl": "https://github.com/OpenWhispr/openwhispr",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:16:59.572Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:16:59.572Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+  "github": {
+    "repository": {
+      "full_name": "OpenWhispr/openwhispr",
+      "stargazers_count": 8768,
+      "forks_count": 1079,
+      "open_issues_count": 392,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-28T17:56:13Z",
+      "updated_at": "2026-09-28T18:16:20Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai",
+        "anthropic",
+        "cross-platform",
+        "gemini",
+        "groq",
+        "linux",
+        "macos",
+        "nvidia",
+        "open-source",
+        "openai",
+        "parakeet",
+        "speech-to-text",
+        "transcribe",
+        "whisper",
+        "windows"
+      ]
+    },
+    "latestReleaseAt": "2026-09-15T03:14:49Z",
+    "homepage": "https://openwhispr.com",
+    "sync": {
+      "syncedAt": "2026-09-28T18:16:59.572Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
+        "facts": {
+          "tag": "v1.10.2",
+          "assets": [
+            "OpenWhispr-1.10.2-linux-amd64.deb",
+            "OpenWhispr-1.10.2-linux-x86_64.AppImage",
+            "OpenWhispr-1.10.2-linux-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
+        "facts": {
+          "tag": "v1.10.2",
+          "assets": [
+            "OpenWhispr-1.10.2-arm64.dmg",
+            "OpenWhispr-1.10.2.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
+        "facts": {
+          "tag": "v1.10.2",
+          "assets": [
+            "OpenWhispr-1.10.2.exe",
+            "OpenWhispr-Setup-1.10.2.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/openwhispr-mobile/assets/icon.png",
+        "path": "openwhispr-mobile/assets/icon.png",
+        "blobSha": "582e005632c2bcf4fcad92ad322274869adfd5fc",
+        "format": "png",
+        "bytes": 162384,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/openwhispr-mobile/assets/icon.png",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/src/assets/icon.png",
+        "path": "src/assets/icon.png",
+        "blobSha": "86d28e6c46b7ea4aaa982148e802d8f255628a6a",
+        "format": "png",
+        "bytes": 38026,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/src/assets/icon.png",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/src/assets/logo.svg",
+        "path": "src/assets/logo.svg",
+        "blobSha": "50a1497eca6dcb20c00b973b997949bfb535a286",
+        "format": "svg",
+        "bytes": 497,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenWhispr/openwhispr/blob/acc806b240ff86bc047ba8bf05b14fe3059d1216/src/assets/logo.svg",
+          "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

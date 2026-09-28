@@ -3,7 +3,7 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:37:39.924Z",
+  "lastSuccessAt": "2026-09-28T18:18:54.834Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:41:01.399Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:37:39.924Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:18:54.834Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open alternative to Salesforce, designed for AI.",
@@ -34,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:37:39.924Z",
+      "syncedAt": "2026-09-28T18:18:54.834Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
       "stargazers_count": 57654,
-      "forks_count": 9343,
-      "open_issues_count": 163,
+      "forks_count": 9344,
+      "open_issues_count": 160,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:31:29Z",
-      "updated_at": "2026-09-28T17:33:33Z",
+      "pushed_at": "2026-09-28T18:14:44Z",
+      "updated_at": "2026-09-28T18:11:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

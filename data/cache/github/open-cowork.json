@@ -3,7 +3,7 @@
   "slug": "open-cowork",
   "repoUrl": "https://github.com/OpenCoworkAI/open-cowork",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:36:07.127Z",
+  "lastSuccessAt": "2026-09-28T18:16:21.955Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:51.993Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-28T17:36:07.127Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:16:21.955Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -53,7 +58,7 @@
     "latestReleaseAt": "2026-05-23T16:43:09Z",
     "homepage": "https://github.com/OpenCoworkAI/open-cowork",
     "sync": {
-      "syncedAt": "2026-09-28T17:36:07.127Z",
+      "syncedAt": "2026-09-28T18:16:21.955Z",
       "source": "api"
     }
   },

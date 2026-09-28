@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "slug": "openhands",
+  "repoUrl": "https://github.com/OpenHands/OpenHands",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:16:39.319Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:16:39.319Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "🙌 OpenHands: AI-Driven Development",
+  "github": {
+    "repository": {
+      "full_name": "OpenHands/OpenHands",
+      "stargazers_count": 89393,
+      "forks_count": 11785,
+      "open_issues_count": 866,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T18:05:22Z",
+      "updated_at": "2026-09-28T17:59:51Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ]
+    },
+    "latestReleaseAt": "2026-09-25T15:09:26Z",
+    "homepage": "https://openhands.dev",
+    "sync": {
+      "syncedAt": "2026-09-28T18:16:39.319Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenHands/OpenHands/releases/latest",
+        "facts": {
+          "tag": "v1.24.0",
+          "assets": [
+            "OpenHands.Agent.Canvas-1.24.0.AppImage",
+            "agent-canvas_1.24.0_amd64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.24.0",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenHands/OpenHands/releases/latest",
+        "facts": {
+          "tag": "v1.24.0",
+          "assets": [
+            "OpenHands-Agent-Canvas-1.24.0-universal.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.24.0",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenHands/OpenHands/releases/latest",
+        "facts": {
+          "tag": "v1.24.0",
+          "assets": [
+            "OpenHands-Agent-Canvas-Setup-1.24.0.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.24.0",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/public/android-chrome-512x512.png",
+        "path": "public/android-chrome-512x512.png",
+        "blobSha": "57e1544c5fb75622676059acd8765599b2ee21db",
+        "format": "png",
+        "bytes": 37506,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/public/site.webmanifest",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/src/assets/branding/openhands-logo-white.svg",
+        "path": "src/assets/branding/openhands-logo-white.svg",
+        "blobSha": "dcb9f0ae6829c9da0b2d1c660e8e1bffb73be71d",
+        "format": "svg",
+        "bytes": 8911,
+        "width": 1365,
+        "height": 1365,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/src/assets/branding/openhands-logo-white.svg",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/src/assets/branding/openhands-logo.svg",
+        "path": "src/assets/branding/openhands-logo.svg",
+        "blobSha": "f6938f73a6e532985aa68dc3bdbefca3f98b24ae",
+        "format": "svg",
+        "bytes": 10655,
+        "width": 47,
+        "height": 30,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenHands/OpenHands/blob/f174ba8465233e46e66ab2c5667b358f1d6676d6/src/assets/branding/openhands-logo.svg",
+          "fetchedAt": "2026-09-28T18:16:36.866Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

@@ -3,7 +3,7 @@
   "slug": "libre-webui",
   "repoUrl": "https://github.com/libre-webui/libre-webui",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:35:08.027Z",
+  "lastSuccessAt": "2026-09-28T18:15:06.013Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:54.463Z",
@@ -14,6 +14,11 @@
       "at": "2026-09-28T17:35:08.027Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:15:06.013Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A local-first workspace for chat, private knowledge, artifacts, and isolated model-driven work. Self-hosted. Provider-flexible. Apache 2.0.",
@@ -22,9 +27,9 @@
       "full_name": "libre-webui/libre-webui",
       "stargazers_count": 88,
       "forks_count": 10,
-      "open_issues_count": 2,
+      "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T09:35:32Z",
+      "pushed_at": "2026-09-28T18:06:41Z",
       "updated_at": "2026-09-27T00:57:42Z",
       "archived": false,
       "disabled": false,
@@ -59,7 +64,7 @@
     "latestReleaseAt": "2026-09-26T12:16:22Z",
     "homepage": "https://librewebui.org",
     "sync": {
-      "syncedAt": "2026-09-28T17:35:08.027Z",
+      "syncedAt": "2026-09-28T18:15:06.013Z",
       "source": "api"
     }
   },

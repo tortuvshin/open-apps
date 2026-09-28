@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "slug": "emdash",
+  "repoUrl": "https://github.com/generalaction/emdash",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:13:15.234Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:13:15.234Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+  "github": {
+    "repository": {
+      "full_name": "generalaction/emdash",
+      "stargazers_count": 5865,
+      "forks_count": 614,
+      "open_issues_count": 94,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-27T09:29:15Z",
+      "updated_at": "2026-09-28T18:05:13Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "agenticdevelopment",
+        "agenticdevelopmentenvironment",
+        "ai",
+        "claude-code",
+        "cli",
+        "coding-agents",
+        "codingagents",
+        "containerization",
+        "docker",
+        "gitworktrees",
+        "jira",
+        "linear",
+        "llm",
+        "openai",
+        "opensource",
+        "orchestration",
+        "parallel-agents",
+        "parallelexecution",
+        "terminal"
+      ]
+    },
+    "latestReleaseAt": "2026-09-27T09:29:15Z",
+    "homepage": "https://emdash.com",
+    "sync": {
+      "syncedAt": "2026-09-28T18:13:15.234Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/generalaction/emdash/releases/latest",
+        "facts": {
+          "tag": "v1.2.7",
+          "assets": [
+            "emdash-aarch64.rpm",
+            "emdash-amd64.deb",
+            "emdash-arm64.AppImage",
+            "emdash-arm64.deb",
+            "emdash-x86_64.AppImage",
+            "emdash-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7",
+          "fetchedAt": "2026-09-28T18:13:13.009Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/generalaction/emdash/releases/latest",
+        "facts": {
+          "tag": "v1.2.7",
+          "assets": [
+            "emdash-arm64.dmg",
+            "emdash-x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7",
+          "fetchedAt": "2026-09-28T18:13:13.009Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/generalaction/emdash/releases/latest",
+        "facts": {
+          "tag": "v1.2.7",
+          "assets": [
+            "emdash-x64.exe",
+            "emdash-x64.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7",
+          "fetchedAt": "2026-09-28T18:13:13.009Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/generalaction/emdash/blob/873a3e2067f4abc136272ed2b61abea3a2c07bcf/apps/emdash-desktop/src/assets/images/emdash/icon-light.png",
+        "path": "apps/emdash-desktop/src/assets/images/emdash/icon-light.png",
+        "blobSha": "0a71445ccd323e8778c1e87b6ae959147d3e5ce8",
+        "format": "png",
+        "bytes": 34966,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/generalaction/emdash/blob/873a3e2067f4abc136272ed2b61abea3a2c07bcf/apps/emdash-desktop/src/assets/images/emdash/icon-light.png",
+          "fetchedAt": "2026-09-28T18:13:13.009Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

@@ -3,7 +3,7 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:33:27.997Z",
+  "lastSuccessAt": "2026-09-28T18:12:31.486Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:57.976Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:33:27.997Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:12:31.486Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -68,7 +73,7 @@
     "latestReleaseAt": "2026-09-28T08:29:29Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-09-28T17:33:27.997Z",
+      "syncedAt": "2026-09-28T18:12:31.486Z",
       "source": "api"
     }
   },

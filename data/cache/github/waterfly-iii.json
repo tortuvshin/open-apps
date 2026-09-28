@@ -3,7 +3,7 @@
   "slug": "waterfly-iii",
   "repoUrl": "https://github.com/dreautall/waterfly-iii",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:37:59.121Z",
+  "lastSuccessAt": "2026-09-28T18:19:30.560Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:41:10.546Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:37:59.121Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:19:30.560Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Unofficial Android App for Firefly III, a free and open source personal finance manager.",
@@ -34,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:37:59.121Z",
+      "syncedAt": "2026-09-28T18:19:30.560Z",
       "source": "api"
     },
     "repository": {

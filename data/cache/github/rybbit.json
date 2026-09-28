@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "slug": "rybbit",
+  "repoUrl": "https://github.com/rybbit-io/rybbit",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:17:59.706Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:17:59.706Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.",
+  "github": {
+    "repository": {
+      "full_name": "rybbit-io/rybbit",
+      "stargazers_count": 13070,
+      "forks_count": 753,
+      "open_issues_count": 210,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T18:14:46Z",
+      "updated_at": "2026-09-28T17:49:21Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "analytics",
+        "google-analytics",
+        "product-analytics",
+        "web-analytics"
+      ]
+    },
+    "latestReleaseAt": "2026-09-12T03:49:15Z",
+    "homepage": "https://rybbit.com",
+    "sync": {
+      "syncedAt": "2026-09-28T18:17:59.706Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
+  }
+}

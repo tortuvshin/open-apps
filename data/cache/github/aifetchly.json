@@ -3,7 +3,7 @@
   "slug": "aifetchly",
   "repoUrl": "https://github.com/robertzengcn/aiFetchly",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:32:42.548Z",
+  "lastSuccessAt": "2026-09-28T18:11:31.832Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:37.536Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-28T17:32:42.548Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:11:31.832Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -37,7 +42,7 @@
     },
     "latestReleaseAt": "2026-09-27T14:33:30Z",
     "sync": {
-      "syncedAt": "2026-09-28T17:32:42.548Z",
+      "syncedAt": "2026-09-28T18:11:31.832Z",
       "source": "api"
     }
   },

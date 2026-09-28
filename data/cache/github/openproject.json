@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "slug": "openproject",
+  "repoUrl": "https://github.com/opf/openproject",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:16:54.075Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:16:54.075Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub",
+  "github": {
+    "repository": {
+      "full_name": "opf/openproject",
+      "stargazers_count": 16246,
+      "forks_count": 3518,
+      "open_issues_count": 237,
+      "language": "Ruby",
+      "pushed_at": "2026-09-28T17:48:53Z",
+      "updated_at": "2026-09-28T15:40:40Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "dev",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "agile-development",
+        "angular",
+        "bcf",
+        "boards",
+        "bug-tracker",
+        "gantt",
+        "gantt-chart",
+        "ifc",
+        "issue-tracker",
+        "jira-alternative",
+        "kanban",
+        "openproject",
+        "product-management",
+        "project-management",
+        "project-planning",
+        "roadmap",
+        "ruby",
+        "scrum",
+        "timeline",
+        "workflows"
+      ]
+    },
+    "latestReleaseAt": "2026-09-02T06:46:44Z",
+    "homepage": "https://www.openproject.org",
+    "sync": {
+      "syncedAt": "2026-09-28T18:16:54.075Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/opf/openproject/blob/cca8908c50db86e5e3f3c0f20610b73cd32d1038/docker/dev/keycloak/themes/openproject/account/resources/logo.svg",
+        "path": "docker/dev/keycloak/themes/openproject/account/resources/logo.svg",
+        "blobSha": "6fe5a2f56595aaae28f2c9965ecabb4847843e9e",
+        "format": "svg",
+        "bytes": 7218,
+        "width": 416,
+        "height": 78,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/opf/openproject/blob/cca8908c50db86e5e3f3c0f20610b73cd32d1038/docker/dev/keycloak/themes/openproject/account/resources/logo.svg",
+          "fetchedAt": "2026-09-28T18:16:51.400Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

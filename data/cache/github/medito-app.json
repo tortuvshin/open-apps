@@ -3,7 +3,7 @@
   "slug": "medito-app",
   "repoUrl": "https://github.com/meditohq/medito-app",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:35:35.443Z",
+  "lastSuccessAt": "2026-09-28T18:15:43.152Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:34.094Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:35:35.443Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:15:43.152Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The Medito app is a 100% free meditation app built with flutter. The app is available on Android and iOS.",
@@ -34,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:35:35.443Z",
+      "syncedAt": "2026-09-28T18:15:43.152Z",
       "source": "api"
     },
     "repository": {

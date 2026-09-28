@@ -3,7 +3,7 @@
   "slug": "harbour",
   "repoUrl": "https://github.com/rrroyal/Harbour",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:34:33.911Z",
+  "lastSuccessAt": "2026-09-28T18:14:10.961Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:44.969Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:34:33.911Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:14:10.961Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -157,7 +162,7 @@
       "subscribers_count": 12
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:34:33.911Z",
+      "syncedAt": "2026-09-28T18:14:10.961Z",
       "source": "api"
     },
     "languages": {

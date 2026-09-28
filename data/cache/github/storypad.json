@@ -3,7 +3,7 @@
   "slug": "storypad",
   "repoUrl": "https://github.com/theachoem/storypad",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:37:17.579Z",
+  "lastSuccessAt": "2026-09-28T18:18:17.001Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:41.011Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:37:17.579Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:18:17.001Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "An open source diary & journal app with over 100k downloads 🪴",
@@ -34,14 +39,14 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:37:17.579Z",
+      "syncedAt": "2026-09-28T18:18:17.001Z",
       "source": "api"
     },
     "repository": {
       "full_name": "theachoem/storypad",
       "stargazers_count": 969,
       "forks_count": 126,
-      "open_issues_count": 10,
+      "open_issues_count": 11,
       "language": "Dart",
       "pushed_at": "2026-09-17T16:24:06Z",
       "updated_at": "2026-09-28T14:06:27Z",

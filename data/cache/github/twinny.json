@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "slug": "twinny",
+  "repoUrl": "https://github.com/twinnydotdev/twinny",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T18:18:57.061Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T18:18:57.061Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Open-source AI coding assistant for VS Code. Code completion, chat, edits and reviews with local or hosted models. Your models, your infrastructure.",
+  "github": {
+    "repository": {
+      "full_name": "twinnydotdev/twinny",
+      "stargazers_count": 3657,
+      "forks_count": 230,
+      "open_issues_count": 50,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T12:00:54Z",
+      "updated_at": "2026-09-28T18:18:24Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-coding-assistant",
+        "artificial-intelligence",
+        "code-chat",
+        "code-completion",
+        "code-generation",
+        "code-review",
+        "code-review-assistant",
+        "developer-tools",
+        "embeddings",
+        "llamacpp",
+        "llm",
+        "local-ai",
+        "ollama",
+        "private-ai",
+        "self-hosted",
+        "self-hosted-ai",
+        "self-hosted-llm",
+        "vscode-extension"
+      ]
+    },
+    "latestReleaseAt": "2026-09-22T10:32:33Z",
+    "homepage": "https://twinny.dev",
+    "sync": {
+      "syncedAt": "2026-09-28T18:18:57.061Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/twinnydotdev/twinny/blob/3e4f381d7a26ce467d2f3eb4df158923577e783b/assets/icon.png",
+        "path": "assets/icon.png",
+        "blobSha": "07eab0dc5e1ecebfa079fd8330e6efad4f5b95ad",
+        "format": "png",
+        "bytes": 121461,
+        "width": 669,
+        "height": 580,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twinnydotdev/twinny/blob/3e4f381d7a26ce467d2f3eb4df158923577e783b/assets/icon.png",
+          "fetchedAt": "2026-09-28T18:18:55.219Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

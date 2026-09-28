@@ -3,7 +3,7 @@
   "slug": "tura",
   "repoUrl": "https://github.com/Tura-AI/tura",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:37:36.796Z",
+  "lastSuccessAt": "2026-09-28T18:18:51.543Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:58.081Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:37:36.796Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:18:51.543Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -180,7 +185,7 @@
       "subscribers_count": 4
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:37:36.796Z",
+      "syncedAt": "2026-09-28T18:18:51.543Z",
       "source": "api"
     },
     "languages": {

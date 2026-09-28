@@ -3,7 +3,7 @@
   "slug": "looptroop",
   "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:35:21.442Z",
+  "lastSuccessAt": "2026-09-28T18:15:25.840Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:21.302Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-28T17:35:21.442Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:15:25.840Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Local AI coding orchestration for repo-scale work: LLM-council planning, Ralph-loop recovery, isolated OpenCode worktrees, and human-gated PR delivery.",
@@ -34,7 +39,7 @@
       "forks_count": 14,
       "open_issues_count": 4,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T16:36:39Z",
+      "pushed_at": "2026-09-28T17:59:34Z",
       "updated_at": "2026-09-27T13:33:44Z",
       "archived": false,
       "disabled": false,
@@ -62,7 +67,7 @@
     "latestReleaseAt": "2026-08-26T07:46:19Z",
     "homepage": "https://www.looptroop.ovh/",
     "sync": {
-      "syncedAt": "2026-09-28T17:35:21.442Z",
+      "syncedAt": "2026-09-28T18:15:25.840Z",
       "source": "api"
     }
   },

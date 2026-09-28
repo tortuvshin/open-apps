@@ -3,7 +3,7 @@
   "slug": "audiokit",
   "repoUrl": "https://github.com/AudioKit/AudioKit",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:33:05.057Z",
+  "lastSuccessAt": "2026-09-28T18:12:02.261Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:36.683Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T17:33:05.057Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:12:02.261Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -209,7 +214,7 @@
       "contributorsKnown": 225
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:33:05.057Z",
+      "syncedAt": "2026-09-28T18:12:02.261Z",
       "source": "api"
     },
     "languages": {

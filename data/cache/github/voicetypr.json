@@ -3,7 +3,7 @@
   "slug": "voicetypr",
   "repoUrl": "https://github.com/ideaplexa/voicetypr",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:37:56.415Z",
+  "lastSuccessAt": "2026-09-28T18:19:23.854Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:35.894Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-28T17:37:56.415Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T18:19:23.854Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-09-27T22:50:24Z",
     "homepage": "https://voicetypr.com",
     "sync": {
-      "syncedAt": "2026-09-28T17:37:56.415Z",
+      "syncedAt": "2026-09-28T18:19:23.854Z",
       "source": "api"
     }
   },
