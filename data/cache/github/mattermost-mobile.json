@@ -3,7 +3,7 @@
   "slug": "mattermost-mobile",
   "repoUrl": "https://github.com/mattermost/mattermost-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:11:17.889Z",
+  "lastSuccessAt": "2026-09-28T17:35:32.351Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:31.784Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:11:17.889Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:35:32.351Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -209,7 +214,7 @@
       "openPullRequests": 88
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:11:17.889Z",
+      "syncedAt": "2026-09-28T17:35:32.351Z",
       "source": "api"
     },
     "html": {

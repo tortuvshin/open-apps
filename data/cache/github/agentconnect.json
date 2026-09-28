@@ -3,10 +3,15 @@
   "slug": "agentconnect",
   "repoUrl": "https://github.com/agentconnect-md/agentconnect",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:08:31.984Z",
+  "lastSuccessAt": "2026-09-28T17:32:37.618Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:31.984Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    },
+    {
+      "at": "2026-09-28T17:32:37.618Z",
       "source": "candidates",
       "reason": "repology: fetch failed (ECONNREFUSED)"
     }
@@ -17,7 +22,7 @@
       "full_name": "agentconnect-md/agentconnect",
       "stargazers_count": 1438,
       "forks_count": 63,
-      "open_issues_count": 32,
+      "open_issues_count": 33,
       "language": "TypeScript",
       "pushed_at": "2026-09-28T17:05:10Z",
       "updated_at": "2026-09-28T16:50:01Z",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-09-28T10:39:10Z",
     "homepage": "https://www.agentconnect.md",
     "sync": {
-      "syncedAt": "2026-09-28T17:08:31.984Z",
+      "syncedAt": "2026-09-28T17:32:37.618Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "bluewallet",
   "repoUrl": "https://github.com/BlueWallet/BlueWallet",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:09:16.575Z",
+  "lastSuccessAt": "2026-09-28T17:33:22.447Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:53.419Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:09:16.575Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:33:22.447Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -213,7 +218,7 @@
       "openPullRequests": 76
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:09:16.575Z",
+      "syncedAt": "2026-09-28T17:33:22.447Z",
       "source": "api"
     },
     "html": {

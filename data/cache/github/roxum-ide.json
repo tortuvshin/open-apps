@@ -3,7 +3,7 @@
   "slug": "roxum-ide",
   "repoUrl": "https://github.com/heckmon/roxum-ide",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:12:48.185Z",
+  "lastSuccessAt": "2026-09-28T17:37:02.032Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:28.889Z",
@@ -19,6 +19,11 @@
       "at": "2026-09-28T17:12:48.185Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:37:02.032Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A minimal and powerful IDE/Code editor for Android",
@@ -29,7 +34,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:12:48.185Z",
+      "syncedAt": "2026-09-28T17:37:02.032Z",
       "source": "api"
     },
     "repository": {

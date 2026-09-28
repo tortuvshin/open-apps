@@ -3,7 +3,7 @@
   "slug": "monekin",
   "repoUrl": "https://github.com/enrique-lozano/Monekin",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:11:34.947Z",
+  "lastSuccessAt": "2026-09-28T17:35:50.469Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:48.647Z",
@@ -19,6 +19,11 @@
       "at": "2026-09-28T17:11:34.947Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:35:50.469Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Track your money, not your data. Monekin is a fast, simple, offline-first personal finance app — 100% open source, zero ads, striking design.",
@@ -29,7 +34,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:11:34.947Z",
+      "syncedAt": "2026-09-28T17:35:50.469Z",
       "source": "api"
     },
     "repository": {

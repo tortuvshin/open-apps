@@ -3,7 +3,7 @@
   "slug": "ai-novel-writer",
   "repoUrl": "https://github.com/EthanYoQ/AI-Novel-Writer",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:08:34.282Z",
+  "lastSuccessAt": "2026-09-28T17:32:39.868Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:18.567Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:08:34.282Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:32:39.868Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -57,7 +62,7 @@
     },
     "latestReleaseAt": "2026-09-08T04:35:10Z",
     "sync": {
-      "syncedAt": "2026-09-28T17:08:34.282Z",
+      "syncedAt": "2026-09-28T17:32:39.868Z",
       "source": "api"
     }
   },

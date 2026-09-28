@@ -3,10 +3,15 @@
   "slug": "openless",
   "repoUrl": "https://github.com/Open-Less/openless",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:12:02.232Z",
+  "lastSuccessAt": "2026-09-28T17:36:16.944Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:02.232Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:36:16.944Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -50,7 +55,7 @@
     "latestReleaseAt": "2026-08-21T13:23:21Z",
     "homepage": "https://github.com/appergb/openless",
     "sync": {
-      "syncedAt": "2026-09-28T17:12:02.232Z",
+      "syncedAt": "2026-09-28T17:36:16.944Z",
       "source": "api"
     }
   },

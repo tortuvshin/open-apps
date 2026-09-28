@@ -3,7 +3,7 @@
   "slug": "humla",
   "repoUrl": "https://github.com/michaelwilhelmsen/humla",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:10:29.592Z",
+  "lastSuccessAt": "2026-09-28T17:34:40.719Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:51.439Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:10:29.592Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:34:40.719Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -64,7 +69,7 @@
     "latestReleaseAt": "2026-09-27T14:55:48Z",
     "homepage": "https://humla.team",
     "sync": {
-      "syncedAt": "2026-09-28T17:10:29.592Z",
+      "syncedAt": "2026-09-28T17:34:40.719Z",
       "source": "api"
     }
   },

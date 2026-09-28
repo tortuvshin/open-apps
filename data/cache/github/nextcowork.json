@@ -3,10 +3,15 @@
   "slug": "nextcowork",
   "repoUrl": "https://github.com/AIDotNet/NextCoWork",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:11:37.536Z",
+  "lastSuccessAt": "2026-09-28T17:35:52.741Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:37.536Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:35:52.741Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -19,8 +24,8 @@
       "forks_count": 130,
       "open_issues_count": 2,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T06:31:22Z",
-      "updated_at": "2026-09-28T16:02:41Z",
+      "pushed_at": "2026-09-28T17:30:18Z",
+      "updated_at": "2026-09-28T17:30:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -33,7 +38,7 @@
     "latestReleaseAt": "2026-09-28T06:41:36Z",
     "homepage": "https://nextco.work/",
     "sync": {
-      "syncedAt": "2026-09-28T17:11:37.536Z",
+      "syncedAt": "2026-09-28T17:35:52.741Z",
       "source": "api"
     }
   },

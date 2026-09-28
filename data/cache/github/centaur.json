@@ -3,10 +3,15 @@
   "slug": "centaur",
   "repoUrl": "https://github.com/paradigmxyz/centaur",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:09:28.505Z",
+  "lastSuccessAt": "2026-09-28T17:33:35.032Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:28.505Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:33:35.032Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -19,8 +24,8 @@
       "forks_count": 253,
       "open_issues_count": 113,
       "language": "Python",
-      "pushed_at": "2026-09-28T17:04:50Z",
-      "updated_at": "2026-09-28T17:04:34Z",
+      "pushed_at": "2026-09-28T17:12:58Z",
+      "updated_at": "2026-09-28T17:12:38Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -33,7 +38,7 @@
     "latestReleaseAt": "2026-09-25T23:29:44Z",
     "homepage": "https://centaur.run",
     "sync": {
-      "syncedAt": "2026-09-28T17:09:28.505Z",
+      "syncedAt": "2026-09-28T17:33:35.032Z",
       "source": "api"
     }
   },

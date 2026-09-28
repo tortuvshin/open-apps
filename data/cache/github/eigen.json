@@ -3,7 +3,7 @@
   "slug": "eigen",
   "repoUrl": "https://github.com/artsy/eigen",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:09:42.515Z",
+  "lastSuccessAt": "2026-09-28T17:33:50.231Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:16.736Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:09:42.515Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:33:50.231Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -202,7 +207,7 @@
       "contributorsKnown": 166
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:09:42.515Z",
+      "syncedAt": "2026-09-28T17:33:50.231Z",
       "source": "api"
     },
     "languages": {

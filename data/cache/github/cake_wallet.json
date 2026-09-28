@@ -3,7 +3,7 @@
   "slug": "cake_wallet",
   "repoUrl": "https://github.com/cake-tech/cake_wallet",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:09:23.689Z",
+  "lastSuccessAt": "2026-09-28T17:33:30.498Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:00.120Z",
@@ -19,6 +19,11 @@
       "at": "2026-09-28T17:09:23.689Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:33:30.498Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open source repository for Cake Wallet, a noncustodial multi-currency wallet, and Monero.com, a noncustodial Monero-only wallet. Need help? Check out https://docs.cakewallet.com",
@@ -29,7 +34,7 @@
       "forks_count": 395,
       "open_issues_count": 353,
       "language": "Dart",
-      "pushed_at": "2026-09-28T15:33:44Z",
+      "pushed_at": "2026-09-28T17:32:55Z",
       "updated_at": "2026-09-27T14:20:48Z",
       "archived": false,
       "disabled": false,
@@ -62,7 +67,7 @@
     "latestReleaseAt": "2026-09-20T00:52:32Z",
     "homepage": "https://cakewallet.com",
     "sync": {
-      "syncedAt": "2026-09-28T17:09:23.689Z",
+      "syncedAt": "2026-09-28T17:33:30.498Z",
       "source": "api"
     }
   },

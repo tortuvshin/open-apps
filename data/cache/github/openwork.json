@@ -3,10 +3,15 @@
   "slug": "openwork",
   "repoUrl": "https://github.com/different-ai/openwork",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:12:12.614Z",
+  "lastSuccessAt": "2026-09-28T17:36:27.100Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:12.614Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:36:27.100Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "different-ai/openwork",
-      "stargazers_count": 23769,
+      "stargazers_count": 23770,
       "forks_count": 2392,
       "open_issues_count": 559,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:08:17Z",
-      "updated_at": "2026-09-28T14:45:49Z",
+      "pushed_at": "2026-09-28T17:35:22Z",
+      "updated_at": "2026-09-28T17:22:27Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -33,7 +38,7 @@
     "latestReleaseAt": "2026-09-25T23:28:01Z",
     "homepage": "https://openworklabs.com",
     "sync": {
-      "syncedAt": "2026-09-28T17:12:12.614Z",
+      "syncedAt": "2026-09-28T17:36:27.100Z",
       "source": "api"
     }
   },

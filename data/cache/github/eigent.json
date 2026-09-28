@@ -3,10 +3,15 @@
   "slug": "eigent",
   "repoUrl": "https://github.com/eigent-ai/eigent",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:09:45.474Z",
+  "lastSuccessAt": "2026-09-28T17:33:52.486Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:45.474Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:33:52.486Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -43,7 +48,7 @@
     "latestReleaseAt": "2026-09-25T14:05:30Z",
     "homepage": "https://www.eigent.ai",
     "sync": {
-      "syncedAt": "2026-09-28T17:09:45.474Z",
+      "syncedAt": "2026-09-28T17:33:52.486Z",
       "source": "api"
     }
   },

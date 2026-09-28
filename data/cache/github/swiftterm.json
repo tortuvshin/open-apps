@@ -3,7 +3,7 @@
   "slug": "swiftterm",
   "repoUrl": "https://github.com/migueldeicaza/SwiftTerm",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:13:11.228Z",
+  "lastSuccessAt": "2026-09-28T17:37:27.540Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:49.852Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:13:11.228Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:37:27.540Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -188,7 +193,7 @@
       "contributorsKnown": 67
     },
     "sync": {
-      "syncedAt": "2026-09-28T17:13:11.228Z",
+      "syncedAt": "2026-09-28T17:37:27.540Z",
       "source": "api"
     },
     "languages": {

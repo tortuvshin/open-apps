@@ -3,7 +3,7 @@
   "slug": "orbit",
   "repoUrl": "https://github.com/Noveum/orbit",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T17:12:17.023Z",
+  "lastSuccessAt": "2026-09-28T17:36:31.487Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:10.499Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T17:12:17.023Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:36:31.487Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -64,7 +69,7 @@
     "latestReleaseAt": "2026-09-27T00:25:21Z",
     "homepage": "https://orbit.noveum.ai",
     "sync": {
-      "syncedAt": "2026-09-28T17:12:17.023Z",
+      "syncedAt": "2026-09-28T17:36:31.487Z",
       "source": "api"
     }
   },
