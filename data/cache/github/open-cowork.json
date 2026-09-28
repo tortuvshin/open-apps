@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "slug": "open-cowork",
+  "repoUrl": "https://github.com/OpenCoworkAI/open-cowork",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:11:51.993Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:11:51.993Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration.",
+  "github": {
+    "repository": {
+      "full_name": "OpenCoworkAI/open-cowork",
+      "stargazers_count": 2172,
+      "forks_count": 307,
+      "open_issues_count": 105,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T15:36:10Z",
+      "updated_at": "2026-09-28T15:37:15Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-agent",
+        "ai-coding",
+        "ai-tools",
+        "anthropic",
+        "claude-code",
+        "coding-agent",
+        "computer-use",
+        "desktop-app",
+        "electron",
+        "mcp",
+        "multi-model",
+        "open-cowork",
+        "sandbox",
+        "skills"
+      ]
+    },
+    "latestReleaseAt": "2026-05-23T16:43:09Z",
+    "homepage": "https://github.com/OpenCoworkAI/open-cowork",
+    "sync": {
+      "syncedAt": "2026-09-28T17:11:51.993Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenCoworkAI/open-cowork/releases/latest",
+        "facts": {
+          "tag": "v3.3.1",
+          "assets": [
+            "Open.Cowork-3.3.1-mac-arm64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenCoworkAI/open-cowork/releases/tag/v3.3.1",
+          "fetchedAt": "2026-09-28T17:11:49.551Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/OpenCoworkAI/open-cowork/releases/latest",
+        "facts": {
+          "tag": "v3.3.1",
+          "assets": [
+            "Open.Cowork-3.3.1-win-x64.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/OpenCoworkAI/open-cowork/releases/tag/v3.3.1",
+          "fetchedAt": "2026-09-28T17:11:49.551Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.iconset/icon_128x128.png",
+        "path": "resources/icon.iconset/icon_128x128.png",
+        "blobSha": "40a4d59e138e985fda9e7872e0ad958a719ae184",
+        "format": "png",
+        "bytes": 20718,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.iconset/icon_128x128.png",
+          "fetchedAt": "2026-09-28T17:11:49.551Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.iconset/icon_128x128%402x.png",
+        "path": "resources/icon.iconset/icon_128x128@2x.png",
+        "blobSha": "e0f56f29f13420801d00d7379bc5dea0656afe60",
+        "format": "png",
+        "bytes": 68438,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.iconset/icon_128x128%402x.png",
+          "fetchedAt": "2026-09-28T17:11:49.551Z"
+        }
+      },
+      {
+        "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.png",
+        "path": "resources/icon.png",
+        "blobSha": "54532f02a08f4bfff31a8ec05b531765b2c923ff",
+        "format": "png",
+        "bytes": 2949666,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/OpenCoworkAI/open-cowork/blob/4c2cdfcf2ee7633ef27fe51109ba7ba0fbdc4a25/resources/icon.png",
+          "fetchedAt": "2026-09-28T17:11:49.551Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

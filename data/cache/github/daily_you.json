@@ -3,7 +3,7 @@
   "slug": "daily_you",
   "repoUrl": "https://github.com/Demizo/Daily_You",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:11.886Z",
+  "lastSuccessAt": "2026-09-28T17:09:37.391Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:11.914Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-27T09:01:11.886Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:09:37.391Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Daily diary & journaling app",
   "github": {
     "repository": {
       "full_name": "Demizo/Daily_You",
-      "stargazers_count": 1330,
+      "stargazers_count": 1332,
       "forks_count": 59,
-      "open_issues_count": 58,
+      "open_issues_count": 61,
       "language": "Dart",
-      "pushed_at": "2026-09-26T20:50:21Z",
-      "updated_at": "2026-09-26T20:46:31Z",
+      "pushed_at": "2026-09-28T01:40:45Z",
+      "updated_at": "2026-09-28T16:03:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -48,7 +53,7 @@
     },
     "latestReleaseAt": "2026-09-26T20:50:21Z",
     "sync": {
-      "syncedAt": "2026-09-27T09:01:11.886Z",
+      "syncedAt": "2026-09-28T17:09:37.391Z",
       "source": "api"
     }
   },

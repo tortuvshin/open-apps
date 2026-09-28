@@ -3,7 +3,7 @@
   "slug": "rustdesk",
   "repoUrl": "https://github.com/rustdesk/rustdesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:03:23.049Z",
+  "lastSuccessAt": "2026-09-28T17:12:49.907Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:30.664Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:03:23.049Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:12:49.907Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,17 +29,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:03:23.049Z",
+      "syncedAt": "2026-09-28T17:12:49.907Z",
       "source": "api"
     },
     "repository": {
       "full_name": "rustdesk/rustdesk",
-      "stargazers_count": 124610,
-      "forks_count": 19285,
+      "stargazers_count": 124709,
+      "forks_count": 19307,
       "open_issues_count": 170,
       "language": "Rust",
-      "pushed_at": "2026-09-26T07:08:52Z",
-      "updated_at": "2026-09-27T08:50:33Z",
+      "pushed_at": "2026-09-28T13:55:28Z",
+      "updated_at": "2026-09-28T16:46:38Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -92,13 +97,13 @@
         "facts": {
           "appId": "com.carriez.flutter_hbb",
           "suggestedVersionCode": 104090003,
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flutter/android/app/build.gradle",
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/4812a9815bd3c6a93f3ad903f29504168c4930a1/flutter/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.carriez.flutter_hbb",
-          "fetchedAt": "2026-09-26T14:40:29.262Z"
+          "fetchedAt": "2026-09-28T17:12:48.587Z"
         }
       },
       {
@@ -109,12 +114,12 @@
         "facts": {
           "appId": "com.rustdesk.RustDesk",
           "match": "metainfo",
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/4812a9815bd3c6a93f3ad903f29504168c4930a1/flatpak/com.rustdesk.RustDesk.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
-          "fetchedAt": "2026-09-26T14:40:29.262Z"
+          "fetchedAt": "2026-09-28T17:12:48.587Z"
         }
       },
       {
@@ -294,8 +299,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/rustdesk/rustdesk/blob/b5d8b979d8723921902eef9d33c83ff0580fed7b/flatpak/com.rustdesk.RustDesk.metainfo.xml",
-          "fetchedAt": "2026-09-26T14:40:29.262Z"
+          "url": "https://github.com/rustdesk/rustdesk/blob/4812a9815bd3c6a93f3ad903f29504168c4930a1/flatpak/com.rustdesk.RustDesk.metainfo.xml",
+          "fetchedAt": "2026-09-28T17:12:48.587Z"
         }
       }
     ]

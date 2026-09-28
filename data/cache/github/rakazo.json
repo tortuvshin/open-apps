@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "slug": "rakazo",
+  "repoUrl": "https://github.com/elie222/rakazo",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:12:38.204Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:12:38.204Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+  "github": {
+    "repository": {
+      "full_name": "elie222/rakazo",
+      "stargazers_count": 3023,
+      "forks_count": 528,
+      "open_issues_count": 28,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T15:11:24Z",
+      "updated_at": "2026-09-28T17:07:22Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ]
+    },
+    "latestReleaseAt": "2026-09-08T05:47:07Z",
+    "homepage": "https://rakazo.com",
+    "sync": {
+      "syncedAt": "2026-09-28T17:12:38.204Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/elie222/rakazo/releases/latest",
+        "facts": {
+          "tag": "v0.1.6",
+          "assets": [
+            "Rakazo-0.1.6.AppImage"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.1.6",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/elie222/rakazo/releases/latest",
+        "facts": {
+          "tag": "v0.1.6",
+          "assets": [
+            "Rakazo-0.1.6-universal.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.1.6",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/web/public/icon-512.png",
+        "path": "apps/web/public/icon-512.png",
+        "blobSha": "09bfab7284aa27df34f67c47438da3814243273d",
+        "format": "png",
+        "bytes": 238813,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/web/public/site.webmanifest",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/desktop/assets/icon.png",
+        "path": "apps/desktop/assets/icon.png",
+        "blobSha": "71e783d938ede6661de1bdeb7a258153ff05a21b",
+        "format": "png",
+        "bytes": 901507,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/desktop/assets/icon.png",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/mobile/assets/icon.png",
+        "path": "apps/mobile/assets/icon.png",
+        "blobSha": "2c0e6df4a507069086387bb545d1ef8c96cf81bb",
+        "format": "png",
+        "bytes": 1011286,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/mobile/assets/icon.png",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      },
+      {
+        "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/web/public/icon-192.png",
+        "path": "apps/web/public/icon-192.png",
+        "blobSha": "f1b6a7819b36774a0228c8dd1dd4f186f67c7aea",
+        "format": "png",
+        "bytes": 32037,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/elie222/rakazo/blob/72fa5f60ad73392abf0e4b5724e95d4dcf517de7/apps/web/public/icon-192.png",
+          "fetchedAt": "2026-09-28T17:12:35.352Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

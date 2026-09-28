@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "slug": "openwork",
+  "repoUrl": "https://github.com/different-ai/openwork",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:12:12.614Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:12:12.614Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "The open-source alternative to Claude Cowork (powered by opencode)",
+  "github": {
+    "repository": {
+      "full_name": "different-ai/openwork",
+      "stargazers_count": 23769,
+      "forks_count": 2392,
+      "open_issues_count": 559,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T17:08:17Z",
+      "updated_at": "2026-09-28T14:45:49Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "dev",
+      "license": {
+        "spdx_id": "NOASSERTION",
+        "name": "NOASSERTION"
+      },
+      "topics": []
+    },
+    "latestReleaseAt": "2026-09-25T23:28:01Z",
+    "homepage": "https://openworklabs.com",
+    "sync": {
+      "syncedAt": "2026-09-28T17:12:12.614Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "License is missing or unclear"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/different-ai/openwork/releases/latest",
+        "facts": {
+          "tag": "v0.18.54",
+          "assets": [
+            "openwork-cloud-linux-arm64-0.18.54.AppImage",
+            "openwork-cloud-linux-x86_64-0.18.54.AppImage",
+            "openwork-enterprise-linux-arm64-0.18.54.AppImage",
+            "openwork-enterprise-linux-x86_64-0.18.54.AppImage",
+            "openwork-linux-arm64-0.18.54.AppImage",
+            "openwork-linux-x86_64-0.18.54.AppImage"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/different-ai/openwork/releases/latest",
+        "facts": {
+          "tag": "v0.18.54",
+          "assets": [
+            "openwork-cloud-mac-arm64-0.18.54.dmg",
+            "openwork-cloud-mac-x64-0.18.54.dmg",
+            "openwork-enterprise-mac-arm64-0.18.54.dmg",
+            "openwork-enterprise-mac-x64-0.18.54.dmg",
+            "openwork-mac-arm64-0.18.54.dmg",
+            "openwork-mac-x64-0.18.54.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/different-ai/openwork/releases/latest",
+        "facts": {
+          "tag": "v0.18.54",
+          "assets": [
+            "openwork-cloud-win-arm64-0.18.54.exe",
+            "openwork-cloud-win-x64-0.18.54.exe",
+            "openwork-enterprise-win-arm64-0.18.54.exe",
+            "openwork-enterprise-win-x64-0.18.54.exe",
+            "openwork-win-arm64-0.18.54.exe",
+            "openwork-win-x64-0.18.54.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/openwork-mark.svg",
+        "path": "apps/app/public/openwork-mark.svg",
+        "blobSha": "c13174fbcaa6a3356f1788f608e654ddaa231382",
+        "format": "svg",
+        "bytes": 4747,
+        "width": 834,
+        "height": 649,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/manifest.webmanifest",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/openwork-logo-square.svg",
+        "path": "apps/app/public/openwork-logo-square.svg",
+        "blobSha": "05e4ca1aab4e8e4cad612a1c7310282cb69ace8b",
+        "format": "svg",
+        "bytes": 5750,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/openwork-logo-square.svg",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/openwork-logo.svg",
+        "path": "apps/app/public/openwork-logo.svg",
+        "blobSha": "1052922e80eec87ee849eed3df01a7a5351840a9",
+        "format": "svg",
+        "bytes": 5595,
+        "width": 1024,
+        "height": 866,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/openwork-logo.svg",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/ee/apps/den-web/public/openwork-logo-transparent.svg",
+        "path": "ee/apps/den-web/public/openwork-logo-transparent.svg",
+        "blobSha": "f64cb6648ce71f6d07eb4cb40e641f31dd84b715",
+        "format": "svg",
+        "bytes": 8965,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/ee/apps/den-web/public/openwork-logo-transparent.svg",
+          "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

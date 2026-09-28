@@ -3,7 +3,7 @@
   "slug": "mise",
   "repoUrl": "https://github.com/devShakib015/mise",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:02:39.403Z",
+  "lastSuccessAt": "2026-09-28T17:11:32.462Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:46.035Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-27T09:02:39.403Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:11:32.462Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free, self-hosted restaurant management. POS, kitchen display, QR table ordering, payments and reports — runs on your own machine, works when the internet doesn't.",
   "github": {
     "repository": {
       "full_name": "devShakib015/mise",
-      "stargazers_count": 1,
-      "forks_count": 0,
+      "stargazers_count": 2,
+      "forks_count": 1,
       "open_issues_count": 0,
       "language": "Dart",
       "pushed_at": "2026-09-02T12:05:16Z",
-      "updated_at": "2026-09-21T08:19:56Z",
+      "updated_at": "2026-09-28T13:32:32Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,7 +58,7 @@
     "latestReleaseAt": "2026-09-01T08:05:38Z",
     "homepage": "https://devshakib.jumyn.com/apps/mise",
     "sync": {
-      "syncedAt": "2026-09-27T09:02:39.403Z",
+      "syncedAt": "2026-09-28T17:11:32.462Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "feather",
   "repoUrl": "https://github.com/claration/Feather",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:21.262Z",
+  "lastSuccessAt": "2026-09-28T17:09:50.350Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:21.238Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:01:21.262Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:09:50.350Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -86,7 +91,7 @@
       "releases_url": "https://api.github.com/repos/claration/Feather/releases{/id}",
       "deployments_url": "https://api.github.com/repos/claration/Feather/deployments",
       "created_at": "2024-05-19T17:44:22Z",
-      "updated_at": "2026-09-27T01:18:11Z",
+      "updated_at": "2026-09-28T14:26:26Z",
       "pushed_at": "2026-09-26T00:46:13Z",
       "git_url": "git://github.com/claration/Feather.git",
       "ssh_url": "git@github.com:claration/Feather.git",
@@ -94,7 +99,7 @@
       "svn_url": "https://github.com/claration/Feather",
       "homepage": "https://feather.claration.dev",
       "size": 49966,
-      "stargazers_count": 4771,
+      "stargazers_count": 4777,
       "watchers_count": 4400,
       "language": "Swift",
       "has_issues": true,
@@ -103,7 +108,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 423,
+      "forks_count": 425,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -148,7 +153,7 @@
       "subscribers_count": 41
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:01:21.262Z",
+      "syncedAt": "2026-09-28T17:09:50.350Z",
       "source": "api"
     },
     "languages": {

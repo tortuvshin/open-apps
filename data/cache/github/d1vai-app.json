@@ -3,7 +3,7 @@
   "slug": "d1vai-app",
   "repoUrl": "https://github.com/d1vai/d1vai_app",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:09.856Z",
+  "lastSuccessAt": "2026-09-28T17:09:35.783Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:09.307Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:01:09.856Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:09:35.783Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -35,7 +40,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:01:09.856Z",
+      "syncedAt": "2026-09-28T17:09:35.783Z",
       "source": "api"
     }
   },

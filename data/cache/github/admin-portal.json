@@ -3,7 +3,7 @@
   "slug": "admin-portal",
   "repoUrl": "https://github.com/invoiceninja/admin-portal",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:00:17.439Z",
+  "lastSuccessAt": "2026-09-28T17:08:29.572Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:16.577Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:00:17.439Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    },
+    {
+      "at": "2026-09-28T17:08:29.572Z",
       "source": "candidates",
       "reason": "repology: fetch failed (ECONNREFUSED)"
     }
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-05-14T04:37:59Z",
     "homepage": "https://demo.invoiceninja.com",
     "sync": {
-      "syncedAt": "2026-09-27T09:00:17.439Z",
+      "syncedAt": "2026-09-28T17:08:29.572Z",
       "source": "api"
     }
   },

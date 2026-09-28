@@ -3,7 +3,7 @@
   "slug": "openpost",
   "repoUrl": "https://github.com/getopenpost/openpost",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:02:59.237Z",
+  "lastSuccessAt": "2026-09-28T17:12:07.421Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:08.277Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-27T09:02:59.237Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:12:07.421Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Create, adapt, schedule, and track social posts. Open-source, hosted or self-hosted.",
   "github": {
     "repository": {
       "full_name": "getopenpost/openpost",
-      "stargazers_count": 623,
+      "stargazers_count": 631,
       "forks_count": 78,
-      "open_issues_count": 7,
+      "open_issues_count": 1,
       "language": "TypeScript",
-      "pushed_at": "2026-09-26T22:26:46Z",
-      "updated_at": "2026-09-27T07:11:42Z",
+      "pushed_at": "2026-09-28T16:51:44Z",
+      "updated_at": "2026-09-28T16:51:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -46,10 +51,10 @@
         "sveltekit"
       ]
     },
-    "latestReleaseAt": "2026-09-26T22:26:15Z",
+    "latestReleaseAt": "2026-09-28T01:40:08Z",
     "homepage": "https://openpo.st",
     "sync": {
-      "syncedAt": "2026-09-27T09:02:59.237Z",
+      "syncedAt": "2026-09-28T17:12:07.421Z",
       "source": "api"
     }
   },
@@ -76,15 +81,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/getopenpost/openpost/releases/latest",
         "facts": {
-          "tag": "v6.3.0",
+          "tag": "v7.2.4",
           "assets": [
             "openpost-app-android.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/getopenpost/openpost/releases/tag/v6.3.0",
-          "fetchedAt": "2026-09-27T09:02:57.423Z"
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.2.4",
+          "fetchedAt": "2026-09-28T17:12:05.586Z"
         }
       },
       {
@@ -93,7 +98,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/getopenpost/openpost/releases/latest",
         "facts": {
-          "tag": "v6.3.0",
+          "tag": "v7.2.4",
           "assets": [
             "openpost-cli-windows-amd64.exe",
             "openpost-mcp-windows-amd64.exe",
@@ -102,8 +107,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/getopenpost/openpost/releases/tag/v6.3.0",
-          "fetchedAt": "2026-09-27T09:02:57.423Z"
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.2.4",
+          "fetchedAt": "2026-09-28T17:12:05.586Z"
         }
       }
     ],

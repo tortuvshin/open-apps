@@ -3,7 +3,7 @@
   "slug": "habo",
   "repoUrl": "https://github.com/xpavle00/Habo",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:39.771Z",
+  "lastSuccessAt": "2026-09-28T17:10:15.786Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:40.376Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:01:39.771Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:10:15.786Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,17 +29,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:01:39.771Z",
+      "syncedAt": "2026-09-28T17:10:15.786Z",
       "source": "api"
     },
     "repository": {
       "full_name": "xpavle00/Habo",
-      "stargazers_count": 1513,
+      "stargazers_count": 1514,
       "forks_count": 182,
       "open_issues_count": 31,
       "language": "Dart",
       "pushed_at": "2026-09-20T08:10:38Z",
-      "updated_at": "2026-09-25T12:59:15Z",
+      "updated_at": "2026-09-27T23:58:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",

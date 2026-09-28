@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "slug": "openworker",
+  "repoUrl": "https://github.com/andrewyng/openworker",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:12:14.716Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:12:14.716Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "github": {
+    "repository": {
+      "full_name": "andrewyng/openworker",
+      "stargazers_count": 18328,
+      "forks_count": 2591,
+      "open_issues_count": 516,
+      "language": "Python",
+      "pushed_at": "2026-09-28T10:39:23Z",
+      "updated_at": "2026-09-28T13:42:17Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": []
+    },
+    "latestReleaseAt": "2026-08-25T17:07:49Z",
+    "homepage": "http://openworker.com",
+    "sync": {
+      "syncedAt": "2026-09-28T17:12:14.716Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/andrewyng/openworker/releases/latest",
+        "facts": {
+          "tag": "v0.2.1",
+          "assets": [
+            "OpenWorker-macos-arm64.dmg",
+            "OpenWorker-macos-x64.dmg",
+            "OpenWorker_0.2.1_aarch64.dmg",
+            "OpenWorker_0.2.1_x86_64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.2.1",
+          "fetchedAt": "2026-09-28T17:12:12.984Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/andrewyng/openworker/releases/latest",
+        "facts": {
+          "tag": "v0.2.1",
+          "assets": [
+            "OpenWorker-windows-setup.exe",
+            "OpenWorker-windows.msi",
+            "OpenWorker_0.2.1_x64-setup.exe",
+            "OpenWorker_0.2.1_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.2.1",
+          "fetchedAt": "2026-09-28T17:12:12.984Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/andrewyng/openworker/blob/5870585321e2cae0b2afbcd8903e14b63c959ac7/surfaces/gui/assets/icon.png",
+        "path": "surfaces/gui/assets/icon.png",
+        "blobSha": "7748610443bcb17a0ae355ec025ae5998039e4a7",
+        "format": "png",
+        "bytes": 21710,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/andrewyng/openworker/blob/5870585321e2cae0b2afbcd8903e14b63c959ac7/surfaces/gui/assets/icon.png",
+          "fetchedAt": "2026-09-28T17:12:12.984Z"
+        }
+      },
+      {
+        "url": "https://github.com/andrewyng/openworker/blob/5870585321e2cae0b2afbcd8903e14b63c959ac7/surfaces/gui/src-tauri/icons/icon.png",
+        "path": "surfaces/gui/src-tauri/icons/icon.png",
+        "blobSha": "0cefd591e0c344a52e77b4fdafb78e18df164c4a",
+        "format": "png",
+        "bytes": 24338,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/andrewyng/openworker/blob/5870585321e2cae0b2afbcd8903e14b63c959ac7/surfaces/gui/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-09-28T17:12:12.984Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

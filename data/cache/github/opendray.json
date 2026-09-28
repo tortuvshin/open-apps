@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "slug": "opendray",
+  "repoUrl": "https://github.com/Opendray/opendray",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:11:59.226Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:11:59.226Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Self-hosted gateway for Claude Code, Codex, Antigravity, Grok Build, OpenCode. Run AI coding agents on your own infra with a shared local-first memory layer. Drive from web, mobile, Telegram / Slack / Discord / Feishu / DingTalk / WeCom. Open REST + WebSocket API. Apache 2.0.",
+  "github": {
+    "repository": {
+      "full_name": "Opendray/opendray",
+      "stargazers_count": 67,
+      "forks_count": 14,
+      "open_issues_count": 10,
+      "language": "Dart",
+      "pushed_at": "2026-09-24T04:38:35Z",
+      "updated_at": "2026-09-27T09:01:52Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "agent-runtime",
+        "ai-agents",
+        "ai-coding",
+        "ai-gateway",
+        "antigravity",
+        "claude-code",
+        "codex-cli",
+        "dingtalk",
+        "discord-bot",
+        "feishu",
+        "flutter",
+        "gateway",
+        "go",
+        "grok",
+        "homelab-ai",
+        "mcp",
+        "opencode",
+        "pgvector",
+        "self-hosted",
+        "telegram-bot"
+      ]
+    },
+    "latestReleaseAt": "2026-09-24T02:28:05Z",
+    "homepage": "https://opendray.dev",
+    "sync": {
+      "syncedAt": "2026-09-28T17:11:59.226Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_128.png",
+        "path": "assets/icons/logo/logo_128.png",
+        "blobSha": "ef65b9ce4dcd062a648c265cf7c25a8f94e765ee",
+        "format": "png",
+        "bytes": 16243,
+        "width": 128,
+        "height": 128,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_128.png",
+          "fetchedAt": "2026-09-28T17:11:56.753Z"
+        }
+      },
+      {
+        "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_180.png",
+        "path": "assets/icons/logo/logo_180.png",
+        "blobSha": "71857b08c39dc88da7e51dc6620d7f4e524c400c",
+        "format": "png",
+        "bytes": 29225,
+        "width": 180,
+        "height": 180,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_180.png",
+          "fetchedAt": "2026-09-28T17:11:56.753Z"
+        }
+      },
+      {
+        "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_1024.png",
+        "path": "assets/icons/logo/logo_1024.png",
+        "blobSha": "4efa6eae6f7dd200f6487842e4fef9505e61d987",
+        "format": "png",
+        "bytes": 554774,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Opendray/opendray/blob/d83471dd8d27f5c9fc6cdadd053b69a2b6c9c084/assets/icons/logo/logo_1024.png",
+          "fetchedAt": "2026-09-28T17:11:56.753Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

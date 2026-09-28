@@ -3,7 +3,7 @@
   "slug": "invoice-ninja",
   "repoUrl": "https://github.com/invoiceninja/flutter-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:56.587Z",
+  "lastSuccessAt": "2026-09-28T17:10:36.634Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:58.667Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:01:56.587Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:10:36.634Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -197,7 +202,7 @@
       "contributorsKnown": 28
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:01:56.587Z",
+      "syncedAt": "2026-09-28T17:10:36.634Z",
       "source": "api"
     },
     "languages": {

@@ -3,7 +3,7 @@
   "slug": "linkwarden",
   "repoUrl": "https://github.com/linkwarden/linkwarden",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:02:10.185Z",
+  "lastSuccessAt": "2026-09-28T17:10:59.767Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:14.687Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:02:10.185Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:10:59.767Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -86,7 +91,7 @@
       "releases_url": "https://api.github.com/repos/linkwarden/linkwarden/releases{/id}",
       "deployments_url": "https://api.github.com/repos/linkwarden/linkwarden/deployments",
       "created_at": "2022-04-09T07:53:01Z",
-      "updated_at": "2026-09-27T06:33:40Z",
+      "updated_at": "2026-09-28T16:53:58Z",
       "pushed_at": "2026-09-10T18:53:30Z",
       "git_url": "git://github.com/linkwarden/linkwarden.git",
       "ssh_url": "git@github.com:linkwarden/linkwarden.git",
@@ -94,7 +99,7 @@
       "svn_url": "https://github.com/linkwarden/linkwarden",
       "homepage": "https://linkwarden.app",
       "size": 36884,
-      "stargazers_count": 19848,
+      "stargazers_count": 19859,
       "watchers_count": 19029,
       "language": "TypeScript",
       "has_issues": true,
@@ -103,11 +108,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 853,
+      "forks_count": 851,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 668,
+      "open_issues_count": 672,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -205,7 +210,7 @@
       "openPullRequests": 28
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:02:10.185Z",
+      "syncedAt": "2026-09-28T17:10:59.767Z",
       "source": "api"
     },
     "html": {

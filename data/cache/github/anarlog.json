@@ -3,7 +3,7 @@
   "slug": "anarlog",
   "repoUrl": "https://github.com/fastrepl/anarlog",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:00:27.402Z",
+  "lastSuccessAt": "2026-09-28T17:08:45.916Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:26.521Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-27T09:00:27.402Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:08:45.916Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open source Granola AI Alternative",
   "github": {
     "repository": {
       "full_name": "fastrepl/anarlog",
-      "stargazers_count": 9401,
-      "forks_count": 772,
-      "open_issues_count": 28,
+      "stargazers_count": 9408,
+      "forks_count": 773,
+      "open_issues_count": 27,
       "language": "TypeScript",
-      "pushed_at": "2026-09-27T03:55:25Z",
-      "updated_at": "2026-09-27T03:55:30Z",
+      "pushed_at": "2026-09-28T15:47:09Z",
+      "updated_at": "2026-09-28T15:05:06Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-09-25T12:52:39Z",
     "homepage": "https://anarlog.so",
     "sync": {
-      "syncedAt": "2026-09-27T09:00:27.402Z",
+      "syncedAt": "2026-09-28T17:08:45.916Z",
       "source": "api"
     }
   },
@@ -172,24 +177,24 @@
         "url": "https://github.com/user-attachments/assets/268ab859-a194-484b-b895-bc640df18dd4",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/1e7c81d3b940d4c6005885105ba43602aaa12197/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-09-27T09:00:24.898Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/9ee80f5b2c00341679f22036edf010bc4752c9ef/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-09-28T17:08:43.275Z"
         }
       },
       {
         "url": "https://github.com/user-attachments/assets/a6552c99-acbc-4d47-9d21-7f1925989344",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/1e7c81d3b940d4c6005885105ba43602aaa12197/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-09-27T09:00:24.898Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/9ee80f5b2c00341679f22036edf010bc4752c9ef/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-09-28T17:08:43.275Z"
         }
       },
       {
         "url": "https://github.com/user-attachments/assets/e63ce73f-1a5f-49ce-a14d-dd8ba161e5bc",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/1e7c81d3b940d4c6005885105ba43602aaa12197/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-09-27T09:00:24.898Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/9ee80f5b2c00341679f22036edf010bc4752c9ef/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-09-28T17:08:43.275Z"
         }
       }
     ]

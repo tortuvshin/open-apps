@@ -3,7 +3,7 @@
   "slug": "flutter_server_box",
   "repoUrl": "https://github.com/lollipopkit/flutter_server_box",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:01:35.591Z",
+  "lastSuccessAt": "2026-09-28T17:10:07.919Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:38:36.017Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:01:35.591Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:10:07.919Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,17 +29,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:01:35.591Z",
+      "syncedAt": "2026-09-28T17:10:07.919Z",
       "source": "api"
     },
     "repository": {
       "full_name": "lollipopkit/flutter_server_box",
-      "stargazers_count": 8747,
-      "forks_count": 562,
-      "open_issues_count": 15,
+      "stargazers_count": 8756,
+      "forks_count": 561,
+      "open_issues_count": 18,
       "language": "Dart",
-      "pushed_at": "2026-09-26T16:21:35Z",
-      "updated_at": "2026-09-27T05:32:05Z",
+      "pushed_at": "2026-09-28T17:08:07Z",
+      "updated_at": "2026-09-28T14:40:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -81,13 +86,13 @@
         "facts": {
           "appId": "tech.lolli.toolbox",
           "suggestedVersionCode": 146603,
-          "evidence": "https://github.com/lollipopkit/flutter_server_box/blob/2b51a2eb2234bce429f7f53cca485de257621aee/android/app/build.gradle",
+          "evidence": "https://github.com/lollipopkit/flutter_server_box/blob/8ec7e08cbdba93e660e023493713d15dc9be786c/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/tech.lolli.toolbox",
-          "fetchedAt": "2026-09-27T09:01:33.794Z"
+          "fetchedAt": "2026-09-28T17:10:06.111Z"
         }
       },
       {

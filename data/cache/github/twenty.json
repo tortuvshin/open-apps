@@ -3,7 +3,7 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:03:52.872Z",
+  "lastSuccessAt": "2026-09-28T17:13:22.992Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:41:01.399Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:03:52.872Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:13:22.992Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,17 +29,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:03:52.872Z",
+      "syncedAt": "2026-09-28T17:13:22.992Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
-      "stargazers_count": 57549,
-      "forks_count": 9311,
-      "open_issues_count": 119,
+      "stargazers_count": 57655,
+      "forks_count": 9342,
+      "open_issues_count": 164,
       "language": "TypeScript",
-      "pushed_at": "2026-09-27T09:01:13Z",
-      "updated_at": "2026-09-27T08:47:56Z",
+      "pushed_at": "2026-09-28T17:13:01Z",
+      "updated_at": "2026-09-28T17:07:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -62,7 +67,7 @@
         "web"
       ]
     },
-    "latestReleaseAt": "2026-09-23T13:36:15Z",
+    "latestReleaseAt": "2026-09-28T15:44:44Z",
     "homepage": "https://twenty.com"
   },
   "health": {

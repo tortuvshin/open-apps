@@ -3,7 +3,7 @@
   "slug": "app-finance",
   "repoUrl": "https://github.com/lyskouski/app-finance",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:00:32.611Z",
+  "lastSuccessAt": "2026-09-28T17:08:53.662Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:37:30.796Z",
@@ -14,6 +14,11 @@
       "at": "2026-09-27T09:00:32.611Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:08:53.662Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Fingrom -- open-source platform-agnostic financial accounting application",
@@ -22,7 +27,7 @@
       "full_name": "lyskouski/app-finance",
       "stargazers_count": 136,
       "forks_count": 32,
-      "open_issues_count": 24,
+      "open_issues_count": 25,
       "language": "Dart",
       "pushed_at": "2026-09-25T12:13:45Z",
       "updated_at": "2026-09-25T12:07:08Z",
@@ -50,7 +55,7 @@
     "latestReleaseAt": "2026-09-22T18:02:17Z",
     "homepage": "https://tercad.com/app/finance/index.html",
     "sync": {
-      "syncedAt": "2026-09-27T09:00:32.611Z",
+      "syncedAt": "2026-09-28T17:08:53.662Z",
       "source": "api"
     }
   },

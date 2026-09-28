@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "agentconnect",
+  "repoUrl": "https://github.com/agentconnect-md/agentconnect",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:08:31.984Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:08:31.984Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    }
+  ],
+  "sourceDescription": "The open-source, multi-agent alternative to Claude Tag.  @ any agent, wherever work happens, they work alongside your team, learning as they go.",
+  "github": {
+    "repository": {
+      "full_name": "agentconnect-md/agentconnect",
+      "stargazers_count": 1438,
+      "forks_count": 63,
+      "open_issues_count": 32,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T17:05:10Z",
+      "updated_at": "2026-09-28T16:50:01Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "agent-client-protocol",
+        "agent-sandbox",
+        "ai-agent",
+        "claude-tag-alternative",
+        "codereview",
+        "developer-tools",
+        "github",
+        "jev",
+        "kubernetes",
+        "multi-agent",
+        "slack",
+        "typescript"
+      ]
+    },
+    "latestReleaseAt": "2026-09-28T10:39:10Z",
+    "homepage": "https://www.agentconnect.md",
+    "sync": {
+      "syncedAt": "2026-09-28T17:08:31.984Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
+  }
+}

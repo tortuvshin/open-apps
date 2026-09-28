@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "slug": "voicetypr",
+  "repoUrl": "https://github.com/ideaplexa/voicetypr",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:13:35.894Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:13:35.894Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Voicetypr - AI powered offline voice to text dictation tool for busy founders, vibe coders, AI power users on macos, windows. Alternative to wispr flow and superwhisper.",
+  "github": {
+    "repository": {
+      "full_name": "ideaplexa/voicetypr",
+      "stargazers_count": 723,
+      "forks_count": 101,
+      "open_issues_count": 3,
+      "language": "Rust",
+      "pushed_at": "2026-09-28T12:22:04Z",
+      "updated_at": "2026-09-27T22:52:15Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "reactjs",
+        "shadcn-ui",
+        "tailwindcss",
+        "tauri",
+        "voice-assistant",
+        "voice-recognition",
+        "voice-to-text",
+        "whisper-ai"
+      ]
+    },
+    "latestReleaseAt": "2026-09-27T22:50:24Z",
+    "homepage": "https://voicetypr.com",
+    "sync": {
+      "syncedAt": "2026-09-28T17:13:35.894Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/ideaplexa/voicetypr/releases/latest",
+        "facts": {
+          "tag": "v2.0.7",
+          "assets": [
+            "Voicetypr_2.0.7_aarch64.dmg",
+            "Voicetypr_2.0.7_x86_64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/ideaplexa/voicetypr/releases/tag/v2.0.7",
+          "fetchedAt": "2026-09-28T17:13:33.508Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/ideaplexa/voicetypr/releases/latest",
+        "facts": {
+          "tag": "v2.0.7",
+          "assets": [
+            "Voicetypr_2.0.7_x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/ideaplexa/voicetypr/releases/tag/v2.0.7",
+          "fetchedAt": "2026-09-28T17:13:33.508Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/AppIcon.png",
+        "path": "public/AppIcon.png",
+        "blobSha": "d3ef9d6ba53177b729bdfa2a7c3f81e6f8555093",
+        "format": "png",
+        "bytes": 136405,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/AppIcon.png",
+          "fetchedAt": "2026-09-28T17:13:33.508Z"
+        }
+      },
+      {
+        "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/logo-transparent.png",
+        "path": "public/logo-transparent.png",
+        "blobSha": "0a3c915088caf63baeb1b607f4fb58449d490e17",
+        "format": "png",
+        "bytes": 402361,
+        "width": 3839,
+        "height": 3839,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/logo-transparent.png",
+          "fetchedAt": "2026-09-28T17:13:33.508Z"
+        }
+      },
+      {
+        "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/logo.png",
+        "path": "public/logo.png",
+        "blobSha": "034e70965a80e0e3c0bd36a581542ae56db72762",
+        "format": "png",
+        "bytes": 30888,
+        "width": 300,
+        "height": 300,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ideaplexa/voicetypr/blob/46267bd8d900e28f268a10b36c7b3c8b2dfdafff/public/logo.png",
+          "fetchedAt": "2026-09-28T17:13:33.508Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

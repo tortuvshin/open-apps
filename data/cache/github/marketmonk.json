@@ -3,7 +3,7 @@
   "slug": "marketmonk",
   "repoUrl": "https://github.com/brandonp2412/MarketMonk",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:02:21.693Z",
+  "lastSuccessAt": "2026-09-28T17:11:11.968Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:39:26.818Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:02:21.693Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:11:11.968Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,7 +29,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:02:21.693Z",
+      "syncedAt": "2026-09-28T17:11:11.968Z",
       "source": "api"
     },
     "repository": {
@@ -33,8 +38,8 @@
       "forks_count": 5,
       "open_issues_count": 0,
       "language": "Dart",
-      "pushed_at": "2026-09-27T05:28:04Z",
-      "updated_at": "2026-09-27T05:28:06Z",
+      "pushed_at": "2026-09-28T13:16:43Z",
+      "updated_at": "2026-09-28T13:16:53Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,7 +65,7 @@
         "yahoo-finance"
       ]
     },
-    "latestReleaseAt": "2026-09-27T05:51:16Z",
+    "latestReleaseAt": "2026-09-27T21:46:15Z",
     "homepage": "https://f-droid.org/packages/com.codesail.market_monk"
   },
   "health": {
@@ -87,13 +92,13 @@
         "facts": {
           "appId": "com.codesail.market_monk",
           "suggestedVersionCode": 1033,
-          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/d91cabc62c5c9c07c3d9bdbdfa3bb21f94e03820/android/app/build.gradle",
+          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/6836c997a174ef8b078820832d1d0faa41ebf3b1/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.codesail.market_monk",
-          "fetchedAt": "2026-09-27T09:02:19.201Z"
+          "fetchedAt": "2026-09-28T17:11:09.407Z"
         }
       },
       {
@@ -102,7 +107,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/brandonp2412/MarketMonk/releases/latest",
         "facts": {
-          "tag": "v1.0.108",
+          "tag": "v1.0.112",
           "assets": [
             "app-arm64-v8a-release.apk",
             "app-armeabi-v7a-release.apk",
@@ -112,8 +117,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/brandonp2412/MarketMonk/releases/tag/v1.0.108",
-          "fetchedAt": "2026-09-27T09:02:19.201Z"
+          "url": "https://github.com/brandonp2412/MarketMonk/releases/tag/v1.0.112",
+          "fetchedAt": "2026-09-28T17:11:09.407Z"
         }
       }
     ],
@@ -134,17 +139,17 @@
         }
       },
       {
-        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/icons/Icon-512.png",
-        "path": "web/icons/Icon-512.png",
-        "blobSha": "83a2b1f8a678565c50993d8487cfa233a0c94bcf",
-        "format": "png",
-        "bytes": 20075,
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/6836c997a174ef8b078820832d1d0faa41ebf3b1/web/icons/Icon-512.webp",
+        "path": "web/icons/Icon-512.webp",
+        "blobSha": "70a6e94fc1914a10f22b1d55e332dfed16f95942",
+        "format": "webp",
+        "bytes": 6864,
         "width": 512,
         "height": 512,
         "provenance": {
           "source": "web-manifest",
-          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/manifest.json",
-          "fetchedAt": "2026-09-26T14:39:23.537Z"
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/6836c997a174ef8b078820832d1d0faa41ebf3b1/web/manifest.json",
+          "fetchedAt": "2026-09-28T17:11:09.407Z"
         }
       },
       {
@@ -159,6 +164,20 @@
           "source": "repo-asset",
           "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/web/icons/Icon-192.png",
           "fetchedAt": "2026-09-26T14:39:23.537Z"
+        }
+      },
+      {
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/6836c997a174ef8b078820832d1d0faa41ebf3b1/web/icons/Icon-512.png",
+        "path": "web/icons/Icon-512.png",
+        "blobSha": "83a2b1f8a678565c50993d8487cfa233a0c94bcf",
+        "format": "png",
+        "bytes": 20075,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/6836c997a174ef8b078820832d1d0faa41ebf3b1/web/icons/Icon-512.png",
+          "fetchedAt": "2026-09-28T17:11:09.407Z"
         }
       }
     ],

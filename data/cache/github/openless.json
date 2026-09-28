@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "slug": "openless",
+  "repoUrl": "https://github.com/Open-Less/openless",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:12:02.232Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:12:02.232Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)",
+  "github": {
+    "repository": {
+      "full_name": "Open-Less/openless",
+      "stargazers_count": 3663,
+      "forks_count": 345,
+      "open_issues_count": 39,
+      "language": "Rust",
+      "pushed_at": "2026-09-27T17:28:26Z",
+      "updated_at": "2026-09-28T16:39:03Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "beta",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "ai-prompt",
+        "asr",
+        "dictation",
+        "linux",
+        "llm",
+        "macos",
+        "open-source",
+        "prompt-engineering",
+        "rust",
+        "speech-to-text",
+        "tauri",
+        "typeless",
+        "typeless-alternative",
+        "voice-input",
+        "windows",
+        "wispr-flow-alternative"
+      ]
+    },
+    "latestReleaseAt": "2026-08-21T13:23:21Z",
+    "homepage": "https://github.com/appergb/openless",
+    "sync": {
+      "syncedAt": "2026-09-28T17:12:02.232Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Open-Less/openless/releases/latest",
+        "facts": {
+          "tag": "v1.3.18-tauri",
+          "assets": [
+            "OpenLess_1.3.18_arm64-v8a.apk",
+            "OpenLess_1.3.18_armeabi-v7a.apk",
+            "OpenLess_1.3.18_x86.apk",
+            "OpenLess_1.3.18_x86_64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Open-Less/openless/releases/latest",
+        "facts": {
+          "tag": "v1.3.18-tauri",
+          "assets": [
+            "OpenLess-1.3.18-1.x86_64.rpm",
+            "OpenLess_1.3.18_amd64.AppImage",
+            "OpenLess_1.3.18_amd64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Open-Less/openless/releases/latest",
+        "facts": {
+          "tag": "v1.3.18-tauri",
+          "assets": [
+            "OpenLess_1.3.18_aarch64.dmg",
+            "OpenLess_1.3.18_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Open-Less/openless/releases/latest",
+        "facts": {
+          "tag": "v1.3.18-tauri",
+          "assets": [
+            "OpenLess_1.3.18_x64-setup.exe",
+            "OpenLess_1.3.18_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Open-Less/openless/blob/5b39599486e3a0abe596fdb0dcc7451febaf9060/openless-all/app/public/AppIcon.png",
+        "path": "openless-all/app/public/AppIcon.png",
+        "blobSha": "3bdcb6b84e31229cdf17a7188b1a6f0e84e8000f",
+        "format": "png",
+        "bytes": 87011,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Open-Less/openless/blob/5b39599486e3a0abe596fdb0dcc7451febaf9060/openless-all/app/public/AppIcon.png",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      },
+      {
+        "url": "https://github.com/Open-Less/openless/blob/5b39599486e3a0abe596fdb0dcc7451febaf9060/openless-all/app/src-tauri/icons/ios/AppIcon-512%402x.png",
+        "path": "openless-all/app/src-tauri/icons/ios/AppIcon-512@2x.png",
+        "blobSha": "496bf7a62597d89ce086ab8be22aadb12649e179",
+        "format": "png",
+        "bytes": 250978,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Open-Less/openless/blob/5b39599486e3a0abe596fdb0dcc7451febaf9060/openless-all/app/src-tauri/icons/ios/AppIcon-512%402x.png",
+          "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

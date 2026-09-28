@@ -3,7 +3,7 @@
   "slug": "rocket-chat-react-native",
   "repoUrl": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:03:16.742Z",
+  "lastSuccessAt": "2026-09-28T17:12:39.543Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:24.094Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:03:16.742Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:12:39.543Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -87,7 +92,7 @@
       "deployments_url": "https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments",
       "created_at": "2017-08-03T18:21:33Z",
       "updated_at": "2026-09-26T02:05:27Z",
-      "pushed_at": "2026-09-27T04:14:33Z",
+      "pushed_at": "2026-09-28T16:58:41Z",
       "git_url": "git://github.com/RocketChat/Rocket.Chat.ReactNative.git",
       "ssh_url": "git@github.com:RocketChat/Rocket.Chat.ReactNative.git",
       "clone_url": "https://github.com/RocketChat/Rocket.Chat.ReactNative.git",
@@ -103,7 +108,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1470,
+      "forks_count": 1468,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -194,7 +199,7 @@
       "contributorsKnown": 139
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:03:16.742Z",
+      "syncedAt": "2026-09-28T17:12:39.543Z",
       "source": "api"
     },
     "languages": {

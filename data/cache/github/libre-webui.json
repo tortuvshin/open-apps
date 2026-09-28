@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "slug": "libre-webui",
+  "repoUrl": "https://github.com/libre-webui/libre-webui",
+  "source": "api",
+  "lastSuccessAt": "2026-09-28T17:10:54.463Z",
+  "partialFailures": [
+    {
+      "at": "2026-09-28T17:10:54.463Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "A local-first workspace for chat, private knowledge, artifacts, and isolated model-driven work. Self-hosted. Provider-flexible. Apache 2.0.",
+  "github": {
+    "repository": {
+      "full_name": "libre-webui/libre-webui",
+      "stargazers_count": 88,
+      "forks_count": 10,
+      "open_issues_count": 2,
+      "language": "TypeScript",
+      "pushed_at": "2026-09-28T09:35:32Z",
+      "updated_at": "2026-09-27T00:57:42Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "ai",
+        "ai-agents",
+        "apache-2",
+        "chat-interface",
+        "desktop-app",
+        "docker",
+        "electron",
+        "foss",
+        "homelab",
+        "llm",
+        "local-ai",
+        "local-llm",
+        "mcp",
+        "ollama",
+        "open-source",
+        "privacy-first",
+        "rag",
+        "sandbox",
+        "self-hosted",
+        "webui"
+      ]
+    },
+    "latestReleaseAt": "2026-09-26T12:16:22Z",
+    "homepage": "https://librewebui.org",
+    "sync": {
+      "syncedAt": "2026-09-28T17:10:54.463Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/libre-webui/libre-webui/releases/latest",
+        "facts": {
+          "tag": "v0.38.0",
+          "assets": [
+            "Libre-WebUI-Desktop-0.38.0-amd64.deb",
+            "Libre-WebUI-Desktop-0.38.0.AppImage"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/libre-webui/libre-webui/releases/latest",
+        "facts": {
+          "tag": "v0.38.0",
+          "assets": [
+            "Libre-WebUI-Desktop-0.38.0-mac-arm64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/libre-webui/libre-webui/releases/latest",
+        "facts": {
+          "tag": "v0.38.0",
+          "assets": [
+            "Libre-WebUI-Desktop-0.38.0.exe",
+            "Libre-WebUI-Desktop-Setup-0.38.0.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/icon-512.png",
+        "path": "frontend/public/icon-512.png",
+        "blobSha": "b530ac776d18475812444c30dc65166a78a533e1",
+        "format": "png",
+        "bytes": 12045,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/manifest.webmanifest",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      },
+      {
+        "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo-dark.svg",
+        "path": "frontend/public/logo-dark.svg",
+        "blobSha": "893fa7ea8e15203a20ce9e1ca942a7924d5644bd",
+        "format": "svg",
+        "bytes": 330,
+        "width": 64,
+        "height": 64,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo-dark.svg",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      },
+      {
+        "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo-light.svg",
+        "path": "frontend/public/logo-light.svg",
+        "blobSha": "82c9f7dba9684649cdcc7328bca5adb4782204f7",
+        "format": "svg",
+        "bytes": 330,
+        "width": 64,
+        "height": 64,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo-light.svg",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      },
+      {
+        "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo.svg",
+        "path": "frontend/public/logo.svg",
+        "blobSha": "2212ee15b1634370c05c7265aea5e8f54306b6ad",
+        "format": "svg",
+        "bytes": 340,
+        "width": 64,
+        "height": 64,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/libre-webui/libre-webui/blob/1eef74012d958e51ec7afb26685eaf12cd228f28/frontend/public/logo.svg",
+          "fetchedAt": "2026-09-28T17:10:51.866Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

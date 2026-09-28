@@ -3,7 +3,7 @@
   "slug": "waterfly-iii",
   "repoUrl": "https://github.com/dreautall/waterfly-iii",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:04:01.341Z",
+  "lastSuccessAt": "2026-09-28T17:13:38.489Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:41:10.546Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:04:01.341Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:13:38.489Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,14 +29,14 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:04:01.341Z",
+      "syncedAt": "2026-09-28T17:13:38.489Z",
       "source": "api"
     },
     "repository": {
       "full_name": "dreautall/waterfly-iii",
       "stargazers_count": 714,
       "forks_count": 67,
-      "open_issues_count": 35,
+      "open_issues_count": 34,
       "language": "Dart",
       "pushed_at": "2026-09-24T20:51:47Z",
       "updated_at": "2026-09-25T14:13:25Z",

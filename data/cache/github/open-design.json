@@ -3,7 +3,7 @@
   "slug": "open-design",
   "repoUrl": "https://github.com/nexu-io/open-design",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:02:54.545Z",
+  "lastSuccessAt": "2026-09-28T17:11:53.492Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:03.021Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:02:54.545Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:11:53.492Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,17 +29,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:02:54.545Z",
+      "syncedAt": "2026-09-28T17:11:53.492Z",
       "source": "api"
     },
     "repository": {
       "full_name": "nexu-io/open-design",
-      "stargazers_count": 98245,
-      "forks_count": 11391,
-      "open_issues_count": 1130,
+      "stargazers_count": 98475,
+      "forks_count": 11416,
+      "open_issues_count": 1139,
       "language": "TypeScript",
-      "pushed_at": "2026-09-27T01:31:35Z",
-      "updated_at": "2026-09-27T08:56:56Z",
+      "pushed_at": "2026-09-28T10:22:08Z",
+      "updated_at": "2026-09-28T16:56:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

@@ -3,7 +3,7 @@
   "slug": "sossoldi",
   "repoUrl": "https://github.com/RIP-Comm/sossoldi",
   "source": "api",
-  "lastSuccessAt": "2026-09-27T09:03:27.373Z",
+  "lastSuccessAt": "2026-09-28T17:12:54.323Z",
   "partialFailures": [
     {
       "at": "2026-09-26T14:40:35.148Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-27T09:03:27.373Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-28T17:12:54.323Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -24,7 +29,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-27T09:03:27.373Z",
+      "syncedAt": "2026-09-28T17:12:54.323Z",
       "source": "api"
     },
     "repository": {
