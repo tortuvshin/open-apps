@@ -12,6 +12,18 @@ tags:
   - adb
   - mcp
   - accessibility
+bestFor:
+  - Android developers on a Mac who test dark mode, RTL, font scale or TalkBack many times a day
+  - Letting Claude Code, Codex or Cursor see and drive the Android Emulator through MCP
+  - Checking layouts in dp and TalkBack order on any installed app
+whyListed:
+  - One always-visible native panel for emulators and real phones that works with Android Studio closed
+  - Built-in stdio MCP server (18 tools, dp coordinates) in a single signed binary, no Node or Python runtime
+  - A small, readable SwiftUI + adb codebase, useful to study how a Mac app wraps adb and exposes MCP tools
+caveats:
+  - Needs macOS 26 Tahoe or later; release binaries are Apple silicon only
+  - Most system toggles need an emulator or a phone with adb debugging on; some depend on the Android API level
+  - Young project (first release September 2026)
 addedAt: 2026-09-29
 submittedBy: ateymoori
 ---
