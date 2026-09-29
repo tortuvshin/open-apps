@@ -3,7 +3,7 @@
   "slug": "opendray",
   "repoUrl": "https://github.com/Opendray/opendray",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:16:36.347Z",
+  "lastSuccessAt": "2026-09-29T13:19:42.755Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:59.226Z",
@@ -17,6 +17,11 @@
     },
     {
       "at": "2026-09-28T18:16:36.347Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:19:42.755Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -64,7 +69,7 @@
     "latestReleaseAt": "2026-09-24T02:28:05Z",
     "homepage": "https://opendray.dev",
     "sync": {
-      "syncedAt": "2026-09-28T18:16:36.347Z",
+      "syncedAt": "2026-09-29T13:19:42.755Z",
       "source": "api"
     }
   },

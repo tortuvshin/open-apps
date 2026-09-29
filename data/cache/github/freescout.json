@@ -3,10 +3,15 @@
   "slug": "freescout",
   "repoUrl": "https://github.com/freescout-help-desk/freescout",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:13:54.288Z",
+  "lastSuccessAt": "2026-09-29T13:16:33.253Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:54.288Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:16:33.253Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "freescout-help-desk/freescout",
-      "stargazers_count": 4567,
-      "forks_count": 720,
+      "stargazers_count": 4569,
+      "forks_count": 721,
       "open_issues_count": 26,
       "language": "PHP",
-      "pushed_at": "2026-09-28T11:15:17Z",
-      "updated_at": "2026-09-28T18:08:12Z",
+      "pushed_at": "2026-09-29T12:57:26Z",
+      "updated_at": "2026-09-29T08:46:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dist",
@@ -48,7 +53,7 @@
     "latestReleaseAt": "2026-09-27T10:45:03Z",
     "homepage": "https://freescout.net",
     "sync": {
-      "syncedAt": "2026-09-28T18:13:54.288Z",
+      "syncedAt": "2026-09-29T13:16:33.253Z",
       "source": "api"
     }
   },

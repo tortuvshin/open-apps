@@ -3,7 +3,7 @@
   "slug": "kaneo",
   "repoUrl": "https://github.com/usekaneo/kaneo",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:14:47.100Z",
+  "lastSuccessAt": "2026-09-29T13:17:36.335Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:46.712Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-28T18:14:47.100Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:17:36.335Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
   "github": {
     "repository": {
       "full_name": "usekaneo/kaneo",
-      "stargazers_count": 9261,
-      "forks_count": 826,
-      "open_issues_count": 93,
+      "stargazers_count": 9278,
+      "forks_count": 831,
+      "open_issues_count": 95,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T11:45:46Z",
-      "updated_at": "2026-09-28T17:36:52Z",
+      "pushed_at": "2026-09-29T12:42:06Z",
+      "updated_at": "2026-09-29T12:42:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -55,7 +60,7 @@
     "latestReleaseAt": "2026-09-27T21:59:19Z",
     "homepage": "https://kaneo.app/",
     "sync": {
-      "syncedAt": "2026-09-28T18:14:47.100Z",
+      "syncedAt": "2026-09-29T13:17:36.335Z",
       "source": "api"
     }
   },

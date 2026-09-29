@@ -3,13 +3,8 @@
   "slug": "taskuary",
   "repoUrl": "https://github.com/ldbumble/taskuary",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:18:37.698Z",
+  "lastSuccessAt": "2026-09-29T13:21:59.322Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:40:51.848Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:03:43.211Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-28T18:18:37.698Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:21:59.322Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Automate your job: local-first AI task hub. Email, Teams, Slack & reports -> one timeline -> AI triage -> your coding agents (Claude Code, Codex, Gemini) do the work, you approve.",
@@ -36,11 +36,11 @@
     "repository": {
       "full_name": "ldbumble/taskuary",
       "stargazers_count": 128,
-      "forks_count": 34,
-      "open_issues_count": 34,
+      "forks_count": 35,
+      "open_issues_count": 16,
       "language": "Python",
-      "pushed_at": "2026-09-28T18:10:33Z",
-      "updated_at": "2026-09-28T18:10:37Z",
+      "pushed_at": "2026-09-29T12:59:44Z",
+      "updated_at": "2026-09-29T12:59:52Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -71,10 +71,10 @@
         "task-management"
       ]
     },
-    "latestReleaseAt": "2026-09-28T18:07:41Z",
+    "latestReleaseAt": "2026-09-29T02:52:59Z",
     "homepage": "https://taskuary.com",
     "sync": {
-      "syncedAt": "2026-09-28T18:18:37.698Z",
+      "syncedAt": "2026-09-29T13:21:59.322Z",
       "source": "api"
     }
   },
@@ -100,15 +100,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/ldbumble/taskuary/releases/latest",
         "facts": {
-          "tag": "v0.3.6.14",
+          "tag": "v0.3.6.15",
           "assets": [
             "Taskuary.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.6.14",
-          "fetchedAt": "2026-09-28T18:18:36.038Z"
+          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.6.15",
+          "fetchedAt": "2026-09-29T13:21:57.167Z"
         }
       }
     ],

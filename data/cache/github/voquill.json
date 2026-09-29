@@ -3,10 +3,15 @@
   "slug": "voquill",
   "repoUrl": "https://github.com/voquill/voquill",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:27.905Z",
+  "lastSuccessAt": "2026-09-29T13:22:53.867Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:27.905Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:22:53.867Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -17,7 +22,7 @@
       "full_name": "voquill/voquill",
       "stargazers_count": 1013,
       "forks_count": 126,
-      "open_issues_count": 62,
+      "open_issues_count": 63,
       "language": "TypeScript",
       "pushed_at": "2026-09-26T17:29:37Z",
       "updated_at": "2026-09-28T01:28:58Z",
@@ -44,7 +49,7 @@
     "latestReleaseAt": "2026-09-26T17:43:21Z",
     "homepage": "https://voquill.com/dictation",
     "sync": {
-      "syncedAt": "2026-09-28T18:19:27.905Z",
+      "syncedAt": "2026-09-29T13:22:53.867Z",
       "source": "api"
     }
   },

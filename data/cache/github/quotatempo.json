@@ -3,13 +3,8 @@
   "slug": "quotatempo",
   "repoUrl": "https://github.com/Ishikawa-Hidekazu/quota-tempo",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:36.320Z",
+  "lastSuccessAt": "2026-09-29T13:20:48.721Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:40:20.420Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:03:12.692Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-28T18:17:36.320Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:20:48.721Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Local-first macOS menu bar app to track and pace Codex and Claude weekly AI usage.",
@@ -37,9 +37,9 @@
       "full_name": "Ishikawa-Hidekazu/quota-tempo",
       "stargazers_count": 1,
       "forks_count": 0,
-      "open_issues_count": 2,
+      "open_issues_count": 3,
       "language": "Swift",
-      "pushed_at": "2026-09-27T23:23:34Z",
+      "pushed_at": "2026-09-29T12:28:03Z",
       "updated_at": "2026-09-27T10:35:16Z",
       "archived": false,
       "disabled": false,
@@ -65,7 +65,7 @@
     "latestReleaseAt": "2026-09-27T10:11:58Z",
     "homepage": "https://ishikawa.co/en/products/quotatempo/",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:36.320Z",
+      "syncedAt": "2026-09-29T13:20:48.721Z",
       "source": "api"
     }
   },

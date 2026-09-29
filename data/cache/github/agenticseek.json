@@ -3,10 +3,15 @@
   "slug": "agenticseek",
   "repoUrl": "https://github.com/Fosowl/agenticSeek",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:11:26.987Z",
+  "lastSuccessAt": "2026-09-29T13:13:42.891Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:26.987Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:13:42.891Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "Fosowl/agenticSeek",
-      "stargazers_count": 27362,
+      "stargazers_count": 27380,
       "forks_count": 3067,
       "open_issues_count": 28,
       "language": "Python",
       "pushed_at": "2026-09-25T19:13:46Z",
-      "updated_at": "2026-09-28T16:49:08Z",
+      "updated_at": "2026-09-29T12:58:18Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -41,7 +46,7 @@
     },
     "homepage": "http://agenticseek.tech",
     "sync": {
-      "syncedAt": "2026-09-28T18:11:26.987Z",
+      "syncedAt": "2026-09-29T13:13:42.891Z",
       "source": "api"
     }
   },

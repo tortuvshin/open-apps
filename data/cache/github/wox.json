@@ -3,7 +3,7 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:41.011Z",
+  "lastSuccessAt": "2026-09-29T13:23:09.257Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-28T18:19:41.011Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:23:09.257Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A cross-platform launcher that simply works",
   "github": {
     "repository": {
       "full_name": "Wox-launcher/Wox",
-      "stargazers_count": 27460,
-      "forks_count": 2434,
-      "open_issues_count": 4,
+      "stargazers_count": 27467,
+      "forks_count": 2435,
+      "open_issues_count": 5,
       "language": "Go",
-      "pushed_at": "2026-09-28T15:08:09Z",
-      "updated_at": "2026-09-28T15:09:09Z",
+      "pushed_at": "2026-09-29T13:11:10Z",
+      "updated_at": "2026-09-29T13:11:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -50,7 +55,7 @@
     "latestReleaseAt": "2026-09-23T02:56:52Z",
     "homepage": "https://www.woxlauncher.com/",
     "sync": {
-      "syncedAt": "2026-09-28T18:19:41.011Z",
+      "syncedAt": "2026-09-29T13:23:09.257Z",
       "source": "api"
     }
   },

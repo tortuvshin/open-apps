@@ -3,10 +3,15 @@
   "slug": "excalidraw",
   "repoUrl": "https://github.com/excalidraw/excalidraw",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:13:17.451Z",
+  "lastSuccessAt": "2026-09-29T13:15:55.806Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:17.451Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:15:55.806Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "excalidraw/excalidraw",
-      "stargazers_count": 133158,
-      "forks_count": 15508,
-      "open_issues_count": 3271,
+      "stargazers_count": 133218,
+      "forks_count": 15518,
+      "open_issues_count": 3273,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:55:29Z",
-      "updated_at": "2026-09-28T18:06:01Z",
+      "pushed_at": "2026-09-29T13:15:30Z",
+      "updated_at": "2026-09-29T12:57:29Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -41,7 +46,7 @@
     "latestReleaseAt": "2026-04-21T08:43:20Z",
     "homepage": "https://excalidraw.com",
     "sync": {
-      "syncedAt": "2026-09-28T18:13:17.451Z",
+      "syncedAt": "2026-09-29T13:15:55.806Z",
       "source": "api"
     }
   },

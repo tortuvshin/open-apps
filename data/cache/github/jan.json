@@ -3,10 +3,15 @@
   "slug": "jan",
   "repoUrl": "https://github.com/janhq/jan",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:14:38.414Z",
+  "lastSuccessAt": "2026-09-29T13:17:26.022Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:38.414Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:17:26.022Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "janhq/jan",
-      "stargazers_count": 44687,
-      "forks_count": 3058,
-      "open_issues_count": 546,
+      "stargazers_count": 44705,
+      "forks_count": 3061,
+      "open_issues_count": 542,
       "language": "Rust",
-      "pushed_at": "2026-09-28T13:36:40Z",
-      "updated_at": "2026-09-28T15:42:35Z",
+      "pushed_at": "2026-09-29T10:42:20Z",
+      "updated_at": "2026-09-29T13:03:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -42,7 +47,7 @@
     "latestReleaseAt": "2026-07-23T06:29:15Z",
     "homepage": "https://jan.ai/",
     "sync": {
-      "syncedAt": "2026-09-28T18:14:38.414Z",
+      "syncedAt": "2026-09-29T13:17:26.022Z",
       "source": "api"
     }
   },
@@ -71,12 +76,12 @@
         "facts": {
           "appId": "ai.jan.Jan",
           "match": "metainfo",
-          "evidence": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml"
+          "evidence": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/ai.jan.Jan",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -154,8 +159,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -163,8 +168,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -172,8 +177,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -181,8 +186,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -190,8 +195,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       },
       {
@@ -199,8 +204,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/8c816cafbb0958ef7aeb0e12a08dd30cf01a0395/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-09-29T13:17:24.707Z"
         }
       }
     ]

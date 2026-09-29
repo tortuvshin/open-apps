@@ -3,13 +3,8 @@
   "slug": "daily_you",
   "repoUrl": "https://github.com/Demizo/Daily_You",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:12:58.814Z",
+  "lastSuccessAt": "2026-09-29T13:15:34.260Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:38:11.914Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:01:11.886Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-28T18:12:58.814Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:15:34.260Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Daily diary & journaling app",
   "github": {
     "repository": {
       "full_name": "Demizo/Daily_You",
-      "stargazers_count": 1332,
-      "forks_count": 59,
-      "open_issues_count": 60,
+      "stargazers_count": 1334,
+      "forks_count": 60,
+      "open_issues_count": 59,
       "language": "Dart",
-      "pushed_at": "2026-09-28T01:40:45Z",
-      "updated_at": "2026-09-28T16:03:51Z",
+      "pushed_at": "2026-09-29T03:40:13Z",
+      "updated_at": "2026-09-29T03:30:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -63,7 +63,7 @@
     },
     "latestReleaseAt": "2026-09-26T20:50:21Z",
     "sync": {
-      "syncedAt": "2026-09-28T18:12:58.814Z",
+      "syncedAt": "2026-09-29T13:15:34.260Z",
       "source": "api"
     }
   },
@@ -91,14 +91,14 @@
         "url": "https://f-droid.org/packages/com.demizo.daily_you/",
         "facts": {
           "appId": "com.demizo.daily_you",
-          "suggestedVersionCode": 30040003,
-          "evidence": "https://github.com/Demizo/Daily_You/blob/04d6a0cc88d54cdd2d37d1b3f4047b82d2e06ec8/android/app/build.gradle",
+          "suggestedVersionCode": 30050003,
+          "evidence": "https://github.com/Demizo/Daily_You/blob/fe775223f0d25a7916115ff6daae92bf5b63fd31/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.demizo.daily_you",
-          "fetchedAt": "2026-09-27T09:01:10.238Z"
+          "fetchedAt": "2026-09-29T13:15:32.323Z"
         }
       },
       {

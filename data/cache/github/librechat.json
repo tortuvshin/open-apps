@@ -3,10 +3,15 @@
   "slug": "librechat",
   "repoUrl": "https://github.com/LibreChat-AI/LibreChat",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:15:09.027Z",
+  "lastSuccessAt": "2026-09-29T13:18:00.774Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:09.027Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:18:00.774Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "LibreChat-AI/LibreChat",
-      "stargazers_count": 45048,
-      "forks_count": 9231,
-      "open_issues_count": 804,
+      "stargazers_count": 45108,
+      "forks_count": 9244,
+      "open_issues_count": 824,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T18:03:47Z",
-      "updated_at": "2026-09-28T17:58:51Z",
+      "pushed_at": "2026-09-29T12:54:44Z",
+      "updated_at": "2026-09-29T12:35:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,7 +58,7 @@
     },
     "homepage": "https://librechat.ai/",
     "sync": {
-      "syncedAt": "2026-09-28T18:15:09.027Z",
+      "syncedAt": "2026-09-29T13:18:00.774Z",
       "source": "api"
     }
   },

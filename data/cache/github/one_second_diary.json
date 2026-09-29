@@ -3,13 +3,8 @@
   "slug": "one_second_diary",
   "repoUrl": "https://github.com/KyleKun/one_second_diary",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:16:16.031Z",
+  "lastSuccessAt": "2026-09-29T13:19:24.595Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:39:59.285Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:02:50.394Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-28T18:16:16.031Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:19:24.595Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Minimalist video diary app.",
@@ -39,14 +39,14 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T18:16:16.031Z",
+      "syncedAt": "2026-09-29T13:19:24.595Z",
       "source": "api"
     },
     "repository": {
       "full_name": "KyleKun/one_second_diary",
       "stargazers_count": 409,
       "forks_count": 80,
-      "open_issues_count": 29,
+      "open_issues_count": 30,
       "language": "Dart",
       "pushed_at": "2026-09-26T22:29:12Z",
       "updated_at": "2026-09-26T22:28:45Z",

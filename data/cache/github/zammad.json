@@ -3,10 +3,15 @@
   "slug": "zammad",
   "repoUrl": "https://github.com/zammad/zammad",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:50.375Z",
+  "lastSuccessAt": "2026-09-29T13:23:19.445Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:50.375Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:23:19.445Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "zammad/zammad",
-      "stargazers_count": 5964,
-      "forks_count": 1067,
-      "open_issues_count": 458,
+      "stargazers_count": 5966,
+      "forks_count": 1066,
+      "open_issues_count": 462,
       "language": "Ruby",
-      "pushed_at": "2026-09-28T16:43:46Z",
-      "updated_at": "2026-09-28T16:43:55Z",
+      "pushed_at": "2026-09-29T11:37:28Z",
+      "updated_at": "2026-09-29T10:26:44Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -47,7 +52,7 @@
     },
     "homepage": "https://zammad.org",
     "sync": {
-      "syncedAt": "2026-09-28T18:19:50.375Z",
+      "syncedAt": "2026-09-29T13:23:19.445Z",
       "source": "api"
     }
   },

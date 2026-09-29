@@ -3,10 +3,15 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:40.025Z",
+  "lastSuccessAt": "2026-09-29T13:20:52.311Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:20:52.311Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 28197,
-      "forks_count": 3122,
-      "open_issues_count": 1510,
+      "stargazers_count": 28219,
+      "forks_count": 3129,
+      "open_issues_count": 1526,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T18:13:24Z",
-      "updated_at": "2026-09-28T18:03:56Z",
+      "pushed_at": "2026-09-29T13:20:28Z",
+      "updated_at": "2026-09-29T12:55:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-09-26T01:26:02Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:40.025Z",
+      "syncedAt": "2026-09-29T13:20:52.311Z",
       "source": "api"
     }
   },

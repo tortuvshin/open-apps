@@ -3,7 +3,7 @@
   "slug": "openworker",
   "repoUrl": "https://github.com/andrewyng/openworker",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:04.050Z",
+  "lastSuccessAt": "2026-09-29T13:20:12.989Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:14.716Z",
@@ -19,17 +19,22 @@
       "at": "2026-09-28T18:17:04.050Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:20:12.989Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "github": {
     "repository": {
       "full_name": "andrewyng/openworker",
-      "stargazers_count": 18328,
-      "forks_count": 2592,
-      "open_issues_count": 515,
+      "stargazers_count": 18364,
+      "forks_count": 2596,
+      "open_issues_count": 514,
       "language": "Python",
-      "pushed_at": "2026-09-28T18:10:36Z",
-      "updated_at": "2026-09-28T18:11:05Z",
+      "pushed_at": "2026-09-29T12:29:19Z",
+      "updated_at": "2026-09-29T12:34:44Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -42,7 +47,7 @@
     "latestReleaseAt": "2026-08-25T17:07:49Z",
     "homepage": "http://openworker.com",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:04.050Z",
+      "syncedAt": "2026-09-29T13:20:12.989Z",
       "source": "api"
     }
   },

@@ -3,10 +3,15 @@
   "slug": "zed",
   "repoUrl": "https://github.com/zed-industries/zed",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:53.860Z",
+  "lastSuccessAt": "2026-09-29T13:23:22.935Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:53.860Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:23:22.935Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "zed-industries/zed",
-      "stargazers_count": 91010,
-      "forks_count": 10810,
-      "open_issues_count": 3150,
+      "stargazers_count": 91058,
+      "forks_count": 10824,
+      "open_issues_count": 3167,
       "language": "Rust",
-      "pushed_at": "2026-09-28T17:03:19Z",
-      "updated_at": "2026-09-28T18:18:04Z",
+      "pushed_at": "2026-09-29T13:16:08Z",
+      "updated_at": "2026-09-29T13:17:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -38,7 +43,7 @@
     "latestReleaseAt": "2026-09-23T15:42:38Z",
     "homepage": "https://zed.dev",
     "sync": {
-      "syncedAt": "2026-09-28T18:19:53.860Z",
+      "syncedAt": "2026-09-29T13:23:22.935Z",
       "source": "api"
     }
   },
@@ -161,8 +166,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/zed-industries/zed/blob/72d28c32c2ba77a579e1c02f984654518552124b/crates/zed/resources/flatpak/zed.metainfo.xml.in",
-          "fetchedAt": "2026-09-28T18:19:50.889Z"
+          "url": "https://github.com/zed-industries/zed/blob/7604aa3f19cef0c4d8be2bb3335c24acd788ccb1/crates/zed/resources/flatpak/zed.metainfo.xml.in",
+          "fetchedAt": "2026-09-29T13:23:20.094Z"
         }
       },
       {
@@ -170,8 +175,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/zed-industries/zed/blob/72d28c32c2ba77a579e1c02f984654518552124b/crates/zed/resources/flatpak/zed.metainfo.xml.in",
-          "fetchedAt": "2026-09-28T18:19:50.889Z"
+          "url": "https://github.com/zed-industries/zed/blob/7604aa3f19cef0c4d8be2bb3335c24acd788ccb1/crates/zed/resources/flatpak/zed.metainfo.xml.in",
+          "fetchedAt": "2026-09-29T13:23:20.094Z"
         }
       },
       {
@@ -179,8 +184,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/zed-industries/zed/blob/72d28c32c2ba77a579e1c02f984654518552124b/crates/zed/resources/flatpak/zed.metainfo.xml.in",
-          "fetchedAt": "2026-09-28T18:19:50.889Z"
+          "url": "https://github.com/zed-industries/zed/blob/7604aa3f19cef0c4d8be2bb3335c24acd788ccb1/crates/zed/resources/flatpak/zed.metainfo.xml.in",
+          "fetchedAt": "2026-09-29T13:23:20.094Z"
         }
       },
       {
@@ -188,8 +193,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/zed-industries/zed/blob/72d28c32c2ba77a579e1c02f984654518552124b/crates/zed/resources/flatpak/zed.metainfo.xml.in",
-          "fetchedAt": "2026-09-28T18:19:50.889Z"
+          "url": "https://github.com/zed-industries/zed/blob/7604aa3f19cef0c4d8be2bb3335c24acd788ccb1/crates/zed/resources/flatpak/zed.metainfo.xml.in",
+          "fetchedAt": "2026-09-29T13:23:20.094Z"
         }
       },
       {
@@ -197,8 +202,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/zed-industries/zed/blob/72d28c32c2ba77a579e1c02f984654518552124b/crates/zed/resources/flatpak/zed.metainfo.xml.in",
-          "fetchedAt": "2026-09-28T18:19:50.889Z"
+          "url": "https://github.com/zed-industries/zed/blob/7604aa3f19cef0c4d8be2bb3335c24acd788ccb1/crates/zed/resources/flatpak/zed.metainfo.xml.in",
+          "fetchedAt": "2026-09-29T13:23:20.094Z"
         }
       }
     ]

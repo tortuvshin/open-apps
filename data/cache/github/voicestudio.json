@@ -3,7 +3,7 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:21.308Z",
+  "lastSuccessAt": "2026-09-29T13:22:46.557Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:32.995Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-28T18:19:21.308Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:22:46.557Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 43185,
-      "forks_count": 5033,
-      "open_issues_count": 43,
+      "stargazers_count": 46563,
+      "forks_count": 5276,
+      "open_issues_count": 63,
       "language": "Python",
-      "pushed_at": "2026-09-28T17:59:35Z",
-      "updated_at": "2026-09-28T18:19:17Z",
+      "pushed_at": "2026-09-29T11:52:32Z",
+      "updated_at": "2026-09-29T13:22:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,7 +69,7 @@
     "latestReleaseAt": "2026-09-23T08:53:32Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-09-28T18:19:21.308Z",
+      "syncedAt": "2026-09-29T13:22:46.557Z",
       "source": "api"
     }
   },

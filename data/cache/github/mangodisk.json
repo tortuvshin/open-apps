@@ -3,13 +3,8 @@
   "slug": "mangodisk",
   "repoUrl": "https://github.com/harry0703/MangoDisk",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:15:28.082Z",
+  "lastSuccessAt": "2026-09-29T13:18:24.077Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:39:23.211Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:02:18.741Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-28T18:15:28.082Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:18:24.077Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Safety-first disk cleaner and space analyzer for macOS and Windows, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
   "github": {
     "repository": {
       "full_name": "harry0703/MangoDisk",
-      "stargazers_count": 3426,
-      "forks_count": 254,
+      "stargazers_count": 3460,
+      "forks_count": 256,
       "open_issues_count": 12,
       "language": "Rust",
-      "pushed_at": "2026-09-28T06:26:36Z",
-      "updated_at": "2026-09-28T17:54:29Z",
+      "pushed_at": "2026-09-29T10:40:57Z",
+      "updated_at": "2026-09-29T12:57:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-25T04:45:15Z",
     "homepage": "https://mangodisk.app/",
     "sync": {
-      "syncedAt": "2026-09-28T18:15:28.082Z",
+      "syncedAt": "2026-09-29T13:18:24.077Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "aifetchly",
   "repoUrl": "https://github.com/robertzengcn/aiFetchly",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:11:31.832Z",
+  "lastSuccessAt": "2026-09-29T13:13:48.875Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:37.536Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-28T18:11:31.832Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:13:48.875Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "aiFetchly is an Desktop AI Agent for Business Automation, include function of local knowledge, browser automation, installable skills, scheduled tasks, plugins",
   "github": {
     "repository": {
       "full_name": "robertzengcn/aiFetchly",
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "open_issues_count": 52,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T14:40:10Z",
-      "updated_at": "2026-09-28T02:04:14Z",
+      "pushed_at": "2026-09-29T11:39:48Z",
+      "updated_at": "2026-09-29T10:29:58Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -42,7 +47,7 @@
     },
     "latestReleaseAt": "2026-09-27T14:33:30Z",
     "sync": {
-      "syncedAt": "2026-09-28T18:11:31.832Z",
+      "syncedAt": "2026-09-29T13:13:48.875Z",
       "source": "api"
     }
   },

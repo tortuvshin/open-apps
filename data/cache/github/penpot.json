@@ -3,10 +3,15 @@
   "slug": "penpot",
   "repoUrl": "https://github.com/penpot/penpot",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:17.039Z",
+  "lastSuccessAt": "2026-09-29T13:20:27.243Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:17.039Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:20:27.243Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "penpot/penpot",
-      "stargazers_count": 60473,
-      "forks_count": 4151,
-      "open_issues_count": 752,
+      "stargazers_count": 60492,
+      "forks_count": 4155,
+      "open_issues_count": 756,
       "language": "Clojure",
-      "pushed_at": "2026-09-28T17:21:46Z",
-      "updated_at": "2026-09-28T18:13:53Z",
+      "pushed_at": "2026-09-29T13:19:00Z",
+      "updated_at": "2026-09-29T12:56:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -41,7 +46,7 @@
     "latestReleaseAt": "2026-09-23T09:02:03Z",
     "homepage": "https://penpot.app",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:17.039Z",
+      "syncedAt": "2026-09-29T13:20:27.243Z",
       "source": "api"
     }
   },

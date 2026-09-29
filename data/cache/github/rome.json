@@ -3,7 +3,7 @@
   "slug": "rome",
   "repoUrl": "https://github.com/rome-os/rome",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:53.329Z",
+  "lastSuccessAt": "2026-09-29T13:21:06.269Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:45.379Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-28T18:17:53.329Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:21:06.269Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A compounding agent OS for recursive agents. Also an open source alternative to Grok Bot and Meta's Muse.",
   "github": {
     "repository": {
       "full_name": "rome-os/rome",
-      "stargazers_count": 624,
-      "forks_count": 52,
-      "open_issues_count": 79,
+      "stargazers_count": 648,
+      "forks_count": 56,
+      "open_issues_count": 70,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:55:40Z",
-      "updated_at": "2026-09-28T18:08:41Z",
+      "pushed_at": "2026-09-29T08:05:49Z",
+      "updated_at": "2026-09-29T12:50:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,7 +62,7 @@
     "latestReleaseAt": "2026-09-25T02:45:43Z",
     "homepage": "https://romeos.cc",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:53.329Z",
+      "syncedAt": "2026-09-29T13:21:06.269Z",
       "source": "api"
     }
   },

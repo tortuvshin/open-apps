@@ -3,10 +3,15 @@
   "slug": "formbricks",
   "repoUrl": "https://github.com/formbricks/formbricks",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:13:46.685Z",
+  "lastSuccessAt": "2026-09-29T13:16:25.228Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:46.685Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:16:25.228Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "formbricks/formbricks",
-      "stargazers_count": 13037,
-      "forks_count": 2548,
-      "open_issues_count": 186,
+      "stargazers_count": 13040,
+      "forks_count": 2547,
+      "open_issues_count": 181,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T15:51:41Z",
-      "updated_at": "2026-09-28T17:09:42Z",
+      "pushed_at": "2026-09-29T12:51:07Z",
+      "updated_at": "2026-09-29T10:43:04Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,10 +53,10 @@
         "xm"
       ]
     },
-    "latestReleaseAt": "2026-09-21T08:52:39Z",
+    "latestReleaseAt": "2026-09-29T12:04:49Z",
     "homepage": "https://formbricks.com",
     "sync": {
-      "syncedAt": "2026-09-28T18:13:46.685Z",
+      "syncedAt": "2026-09-29T13:16:25.228Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "orvaket",
   "repoUrl": "https://github.com/Akam1123/orvaket",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:17:11.047Z",
+  "lastSuccessAt": "2026-09-29T13:20:21.239Z",
   "partialFailures": [
     {
       "at": "2026-09-27T09:03:03.358Z",
@@ -22,6 +22,11 @@
     },
     {
       "at": "2026-09-28T18:17:11.047Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:20:21.239Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -54,7 +59,7 @@
     "latestReleaseAt": "2026-09-26T17:10:40Z",
     "homepage": "https://orvaket.pages.dev/",
     "sync": {
-      "syncedAt": "2026-09-28T18:17:11.047Z",
+      "syncedAt": "2026-09-29T13:20:21.239Z",
       "source": "api"
     }
   },

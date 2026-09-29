@@ -3,13 +3,8 @@
   "slug": "mathematics",
   "repoUrl": "https://github.com/j-j-gajjar/mathematics/",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:15:34.230Z",
+  "lastSuccessAt": "2026-09-29T13:18:31.950Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:39:29.379Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:02:24.227Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-28T18:15:34.230Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:18:31.950Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -194,7 +194,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-28T18:15:34.230Z",
+      "syncedAt": "2026-09-29T13:18:31.950Z",
       "source": "api"
     },
     "languages": {

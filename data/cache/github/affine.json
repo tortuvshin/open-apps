@@ -3,10 +3,15 @@
   "slug": "affine",
   "repoUrl": "https://github.com/toeverything/AFFiNE",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:11:21.066Z",
+  "lastSuccessAt": "2026-09-29T13:13:37.511Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:21.066Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
+    },
+    {
+      "at": "2026-09-29T13:13:37.511Z",
       "source": "candidates",
       "reason": "repology: fetch failed (ECONNREFUSED)"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "toeverything/AFFiNE",
-      "stargazers_count": 73068,
-      "forks_count": 5315,
-      "open_issues_count": 761,
+      "stargazers_count": 73086,
+      "forks_count": 5316,
+      "open_issues_count": 763,
       "language": "TypeScript",
-      "pushed_at": "2026-09-27T14:51:50Z",
-      "updated_at": "2026-09-28T17:24:55Z",
+      "pushed_at": "2026-09-29T10:00:33Z",
+      "updated_at": "2026-09-29T13:01:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "canary",
@@ -52,7 +57,7 @@
     "latestReleaseAt": "2026-08-18T16:51:39Z",
     "homepage": "https://affine.pro",
     "sync": {
-      "syncedAt": "2026-09-28T18:11:21.066Z",
+      "syncedAt": "2026-09-29T13:13:37.511Z",
       "source": "api"
     }
   },

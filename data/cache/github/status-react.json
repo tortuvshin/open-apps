@@ -3,13 +3,8 @@
   "slug": "status-react",
   "repoUrl": "https://github.com/status-im/status-react",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:18:13.997Z",
+  "lastSuccessAt": "2026-09-29T13:21:30.692Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:40:38.128Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:03:30.291Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-28T18:18:13.997Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:21:30.692Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -219,7 +219,7 @@
       "contributorsKnown": 311
     },
     "sync": {
-      "syncedAt": "2026-09-28T18:18:13.997Z",
+      "syncedAt": "2026-09-29T13:21:30.692Z",
       "source": "api"
     },
     "languages": {

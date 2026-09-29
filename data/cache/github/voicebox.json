@@ -3,13 +3,8 @@
   "slug": "voicebox",
   "repoUrl": "https://github.com/jamiepine/voicebox",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:19:16.940Z",
+  "lastSuccessAt": "2026-09-29T13:22:41.044Z",
   "partialFailures": [
-    {
-      "at": "2026-09-26T14:41:07.841Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-27T09:03:58.790Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-28T18:19:16.940Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:22:41.044Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open-source AI voice studio. Clone, dictate, create.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-28T18:19:16.940Z",
+      "syncedAt": "2026-09-29T13:22:41.044Z",
       "source": "api"
     },
     "repository": {
       "full_name": "jamiepine/voicebox",
-      "stargazers_count": 55908,
-      "forks_count": 6965,
+      "stargazers_count": 55963,
+      "forks_count": 6975,
       "open_issues_count": 708,
       "language": "TypeScript",
       "pushed_at": "2026-08-09T00:03:42Z",
-      "updated_at": "2026-09-28T18:17:26Z",
+      "updated_at": "2026-09-29T12:53:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

@@ -2,14 +2,9 @@
   "schemaVersion": 1,
   "slug": "swifthub",
   "repoUrl": "https://github.com/khoren93/SwiftHub",
-  "source": "html",
-  "lastSuccessAt": "2026-09-28T17:37:25.510Z",
+  "source": "api",
+  "lastSuccessAt": "2026-09-29T13:21:50.554Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:39.633Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:09.235Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-28T18:18:30.442Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:21:50.554Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -194,8 +194,8 @@
       "contributorsKnown": 8
     },
     "sync": {
-      "syncedAt": "2026-09-28T18:18:30.442Z",
-      "source": "html"
+      "syncedAt": "2026-09-29T13:21:50.554Z",
+      "source": "api"
     },
     "languages": {
       "Swift": 763617,

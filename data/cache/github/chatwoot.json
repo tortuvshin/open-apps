@@ -3,10 +3,15 @@
   "slug": "chatwoot",
   "repoUrl": "https://github.com/chatwoot/chatwoot",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:12:44.949Z",
+  "lastSuccessAt": "2026-09-29T13:15:15.588Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:44.949Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:15:15.588Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "chatwoot/chatwoot",
-      "stargazers_count": 37279,
-      "forks_count": 9059,
-      "open_issues_count": 1508,
+      "stargazers_count": 37306,
+      "forks_count": 9069,
+      "open_issues_count": 1511,
       "language": "Ruby",
-      "pushed_at": "2026-09-28T18:12:13Z",
-      "updated_at": "2026-09-28T17:56:35Z",
+      "pushed_at": "2026-09-29T12:48:44Z",
+      "updated_at": "2026-09-29T13:02:08Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -53,7 +58,7 @@
     "latestReleaseAt": "2026-09-18T00:02:33Z",
     "homepage": "https://www.chatwoot.com/help-center",
     "sync": {
-      "syncedAt": "2026-09-28T18:12:44.949Z",
+      "syncedAt": "2026-09-29T13:15:15.588Z",
       "source": "api"
     }
   },

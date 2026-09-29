@@ -3,10 +3,15 @@
   "slug": "dyad",
   "repoUrl": "https://github.com/dyad-sh/dyad",
   "source": "api",
-  "lastSuccessAt": "2026-09-28T18:13:01.300Z",
+  "lastSuccessAt": "2026-09-29T13:15:37.130Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:01.300Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-29T13:15:37.130Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -15,12 +20,12 @@
   "github": {
     "repository": {
       "full_name": "dyad-sh/dyad",
-      "stargazers_count": 21614,
-      "forks_count": 2649,
-      "open_issues_count": 327,
+      "stargazers_count": 21617,
+      "forks_count": 2650,
+      "open_issues_count": 331,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T17:21:11Z",
-      "updated_at": "2026-09-28T17:19:03Z",
+      "pushed_at": "2026-09-29T10:36:22Z",
+      "updated_at": "2026-09-29T10:33:14Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -50,10 +55,10 @@
         "vercel"
       ]
     },
-    "latestReleaseAt": "2026-09-21T17:05:21Z",
+    "latestReleaseAt": "2026-09-28T18:36:13Z",
     "homepage": "https://dyad.sh",
     "sync": {
-      "syncedAt": "2026-09-28T18:13:01.300Z",
+      "syncedAt": "2026-09-29T13:15:37.130Z",
       "source": "api"
     }
   },
@@ -80,17 +85,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.16.0",
+          "tag": "v1.17.0",
           "assets": [
-            "dyad-1.16.0-1.x86_64.rpm",
-            "dyad_1.16.0_amd64.deb",
-            "dyad_1.16.0_x86_64.AppImage"
+            "dyad-1.17.0-1.x86_64.rpm",
+            "dyad_1.17.0_amd64.deb",
+            "dyad_1.17.0_x86_64.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.16.0",
-          "fetchedAt": "2026-09-28T18:12:59.260Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0",
+          "fetchedAt": "2026-09-29T13:15:35.062Z"
         }
       },
       {
@@ -99,15 +104,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.16.0",
+          "tag": "v1.17.0",
           "assets": [
-            "dyad-1.16.0.Setup.exe"
+            "dyad-1.17.0.Setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.16.0",
-          "fetchedAt": "2026-09-28T18:12:59.260Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0",
+          "fetchedAt": "2026-09-29T13:15:35.062Z"
         }
       }
     ],
