@@ -11,6 +11,15 @@ tags:
   - invoice-management
   - document-processing
   - expense-management
+bestFor:
+  - People preparing expense reimbursements from invoices received by email.
+  - Developers studying a desktop workflow that combines document parsing, OCR, manual review, and spreadsheet output.
+whyListed:
+  - It is a complete Apache-2.0 desktop app with current Windows and macOS release packages.
+  - Its source connects mailbox collection, PDF/OFD/XML processing, duplicate detection, review, and Excel export in one workflow.
+caveats:
+  - OCR results need human review before financial use.
+  - If an external OCR or model provider is enabled, invoice content is processed by that configured service.
 seo:
   title: InvoiceFlowAI – Open Source Invoice Organizer
 addedAt: 2026-09-30
