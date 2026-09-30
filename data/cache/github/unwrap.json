@@ -3,13 +3,8 @@
   "slug": "unwrap",
   "repoUrl": "https://github.com/twostraws/Unwrap",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:25.335Z",
+  "lastSuccessAt": "2026-09-30T16:20:41.727Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:54.942Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:25.441Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:22:25.335Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:41.727Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -187,7 +187,7 @@
       "contributorsKnown": 65
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:22:25.335Z",
+      "syncedAt": "2026-09-30T16:20:41.727Z",
       "source": "api"
     },
     "languages": {

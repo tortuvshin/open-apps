@@ -3,7 +3,7 @@
   "slug": "libre-webui",
   "repoUrl": "https://github.com/libre-webui/libre-webui",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:57.173Z",
+  "lastSuccessAt": "2026-09-30T16:16:57.486Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:54.463Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-29T13:17:57.173Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:16:57.486Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "A local-first workspace for chat, private knowledge, artifacts, and isolated model-driven work. Self-hosted. Provider-flexible. Apache 2.0.",
@@ -34,8 +39,8 @@
       "forks_count": 10,
       "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T11:51:36Z",
-      "updated_at": "2026-09-27T00:57:42Z",
+      "pushed_at": "2026-09-29T23:59:28Z",
+      "updated_at": "2026-09-29T22:58:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,10 +71,10 @@
         "webui"
       ]
     },
-    "latestReleaseAt": "2026-09-26T12:16:22Z",
+    "latestReleaseAt": "2026-09-29T23:36:45Z",
     "homepage": "https://librewebui.org",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:57.173Z",
+      "syncedAt": "2026-09-30T16:16:57.486Z",
       "source": "api"
     }
   },
@@ -95,16 +100,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/libre-webui/libre-webui/releases/latest",
         "facts": {
-          "tag": "v0.38.0",
+          "tag": "v0.39.0",
           "assets": [
-            "Libre-WebUI-Desktop-0.38.0-amd64.deb",
-            "Libre-WebUI-Desktop-0.38.0.AppImage"
+            "Libre-WebUI-Desktop-0.39.0-amd64.deb",
+            "Libre-WebUI-Desktop-0.39.0.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
-          "fetchedAt": "2026-09-28T17:10:51.866Z"
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.39.0",
+          "fetchedAt": "2026-09-30T16:16:55.261Z"
         }
       },
       {
@@ -113,15 +118,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/libre-webui/libre-webui/releases/latest",
         "facts": {
-          "tag": "v0.38.0",
+          "tag": "v0.39.0",
           "assets": [
-            "Libre-WebUI-Desktop-0.38.0-mac-arm64.dmg"
+            "Libre-WebUI-Desktop-0.39.0-mac-arm64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
-          "fetchedAt": "2026-09-28T17:10:51.866Z"
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.39.0",
+          "fetchedAt": "2026-09-30T16:16:55.261Z"
         }
       },
       {
@@ -130,16 +135,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/libre-webui/libre-webui/releases/latest",
         "facts": {
-          "tag": "v0.38.0",
+          "tag": "v0.39.0",
           "assets": [
-            "Libre-WebUI-Desktop-0.38.0.exe",
-            "Libre-WebUI-Desktop-Setup-0.38.0.exe"
+            "Libre-WebUI-Desktop-0.39.0.exe",
+            "Libre-WebUI-Desktop-Setup-0.39.0.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.38.0",
-          "fetchedAt": "2026-09-28T17:10:51.866Z"
+          "url": "https://github.com/libre-webui/libre-webui/releases/tag/v0.39.0",
+          "fetchedAt": "2026-09-30T16:16:55.261Z"
         }
       }
     ],

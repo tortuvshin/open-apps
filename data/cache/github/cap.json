@@ -3,13 +3,8 @@
   "slug": "cap",
   "repoUrl": "https://github.com/CapSoftware/Cap",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:09.925Z",
+  "lastSuccessAt": "2026-09-30T16:14:33.741Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:02.994Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:26.293Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:15:09.925Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:14:33.741Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open source Loom alternative. Beautiful, shareable screen recordings.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:15:09.925Z",
+      "syncedAt": "2026-09-30T16:14:33.741Z",
       "source": "api"
     },
     "repository": {
       "full_name": "CapSoftware/Cap",
-      "stargazers_count": 22938,
-      "forks_count": 1985,
-      "open_issues_count": 412,
+      "stargazers_count": 22975,
+      "forks_count": 1988,
+      "open_issues_count": 411,
       "language": "Rust",
-      "pushed_at": "2026-09-29T12:52:00Z",
-      "updated_at": "2026-09-29T13:05:40Z",
+      "pushed_at": "2026-09-30T15:58:23Z",
+      "updated_at": "2026-09-30T15:27:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

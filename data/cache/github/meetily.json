@@ -3,13 +3,8 @@
   "slug": "meetily",
   "repoUrl": "https://github.com/Zackriya-Solutions/meetily",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:44.402Z",
+  "lastSuccessAt": "2026-09-30T16:17:34.530Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:30.844Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:22.761Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:18:44.402Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:34.530Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
   "github": {
     "repository": {
       "full_name": "Zackriya-Solutions/meetily",
-      "stargazers_count": 31232,
-      "forks_count": 3408,
-      "open_issues_count": 353,
+      "stargazers_count": 31287,
+      "forks_count": 3419,
+      "open_issues_count": 354,
       "language": "Rust",
       "pushed_at": "2026-09-15T18:32:32Z",
-      "updated_at": "2026-09-29T13:13:34Z",
+      "updated_at": "2026-09-30T15:59:53Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-12T06:15:42Z",
     "homepage": "https://meetily.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:44.402Z",
+      "syncedAt": "2026-09-30T16:17:34.530Z",
       "source": "api"
     }
   },

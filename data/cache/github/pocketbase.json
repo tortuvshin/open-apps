@@ -3,7 +3,7 @@
   "slug": "pocketbase",
   "repoUrl": "https://github.com/pocketbase/pocketbase",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:39.351Z",
+  "lastSuccessAt": "2026-09-30T16:19:13.160Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:27.902Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:20:39.351Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:13.160Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open Source realtime backend in 1 file",
   "github": {
     "repository": {
       "full_name": "pocketbase/pocketbase",
-      "stargazers_count": 61206,
-      "forks_count": 3707,
+      "stargazers_count": 61217,
+      "forks_count": 3710,
       "open_issues_count": 19,
       "language": "Go",
       "pushed_at": "2026-09-28T19:09:36Z",
-      "updated_at": "2026-09-29T13:03:19Z",
+      "updated_at": "2026-09-30T14:38:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -43,7 +48,7 @@
     "latestReleaseAt": "2026-09-12T14:35:16Z",
     "homepage": "https://pocketbase.io",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:39.351Z",
+      "syncedAt": "2026-09-30T16:19:13.160Z",
       "source": "api"
     }
   },

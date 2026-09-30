@@ -3,7 +3,7 @@
   "slug": "agenticseek",
   "repoUrl": "https://github.com/Fosowl/agenticSeek",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:42.891Z",
+  "lastSuccessAt": "2026-09-30T16:13:23.029Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:26.987Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:13:42.891Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:23.029Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
   "github": {
     "repository": {
       "full_name": "Fosowl/agenticSeek",
-      "stargazers_count": 27380,
-      "forks_count": 3067,
+      "stargazers_count": 27395,
+      "forks_count": 3071,
       "open_issues_count": 28,
       "language": "Python",
       "pushed_at": "2026-09-25T19:13:46Z",
-      "updated_at": "2026-09-29T12:58:18Z",
+      "updated_at": "2026-09-30T15:35:39Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -46,7 +51,7 @@
     },
     "homepage": "http://agenticseek.tech",
     "sync": {
-      "syncedAt": "2026-09-29T13:13:42.891Z",
+      "syncedAt": "2026-09-30T16:13:23.029Z",
       "source": "api"
     }
   },

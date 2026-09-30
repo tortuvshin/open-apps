@@ -3,13 +3,8 @@
   "slug": "habo",
   "repoUrl": "https://github.com/xpavle00/Habo",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:46.457Z",
+  "lastSuccessAt": "2026-09-30T16:15:54.109Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:39.771Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:15.786Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:16:46.457Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:15:54.109Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.",
@@ -39,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:16:46.457Z",
+      "syncedAt": "2026-09-30T16:15:54.109Z",
       "source": "api"
     },
     "repository": {

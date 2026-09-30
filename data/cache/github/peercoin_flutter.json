@@ -3,13 +3,8 @@
   "slug": "peercoin_flutter",
   "repoUrl": "https://github.com/peercoin/peercoin_flutter",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:24.379Z",
+  "lastSuccessAt": "2026-09-30T16:18:59.039Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:05.982Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:21.946Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:20:24.379Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:18:59.039Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Light Peercoin wallet written in Flutter, deployable on Android, iOS and Web.",
@@ -39,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:20:24.379Z",
+      "syncedAt": "2026-09-30T16:18:59.039Z",
       "source": "api"
     },
     "repository": {

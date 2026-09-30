@@ -3,13 +3,8 @@
   "slug": "weiyu",
   "repoUrl": "https://github.com/Sutera-Diffusus/WeChat-daily",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:59.676Z",
+  "lastSuccessAt": "2026-09-30T16:21:10.718Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:04:03.201Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:40.633Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:22:59.676Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:21:10.718Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -66,7 +66,7 @@
     "latestReleaseAt": "2026-08-24T11:44:07Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-09-29T13:22:59.676Z",
+      "syncedAt": "2026-09-30T16:21:10.718Z",
       "source": "api"
     },
     "html": {

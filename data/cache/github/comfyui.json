@@ -3,7 +3,7 @@
   "slug": "comfyui",
   "repoUrl": "https://github.com/Comfy-Org/ComfyUI",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:24.439Z",
+  "lastSuccessAt": "2026-09-30T16:14:45.042Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:52.014Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:15:24.439Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:14:45.042Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
   "github": {
     "repository": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stargazers_count": 135473,
-      "forks_count": 16058,
-      "open_issues_count": 4993,
+      "stargazers_count": 135611,
+      "forks_count": 16084,
+      "open_issues_count": 5016,
       "language": "Python",
-      "pushed_at": "2026-09-29T11:18:21Z",
-      "updated_at": "2026-09-29T13:11:07Z",
+      "pushed_at": "2026-09-30T16:14:25Z",
+      "updated_at": "2026-09-30T16:05:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -42,10 +47,10 @@
         "stable-diffusion"
       ]
     },
-    "latestReleaseAt": "2026-09-21T07:35:01Z",
+    "latestReleaseAt": "2026-09-29T21:46:45Z",
     "homepage": "https://www.comfy.org/",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:24.439Z",
+      "syncedAt": "2026-09-30T16:14:45.042Z",
       "source": "api"
     }
   },

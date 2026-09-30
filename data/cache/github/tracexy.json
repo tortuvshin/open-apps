@@ -3,13 +3,8 @@
   "slug": "tracexy",
   "repoUrl": "https://github.com/RockxyApp/Tracexy",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:10.545Z",
+  "lastSuccessAt": "2026-09-30T16:20:29.322Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:47.276Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:17.667Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:22:10.545Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:29.322Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Native, local-first network intelligence for macOS—capture live traffic, inspect PCAP/PCAPNG files, and investigate sessions, protocols, processes, flows, and packet evidence.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:22:10.545Z",
+      "syncedAt": "2026-09-30T16:20:29.322Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RockxyApp/Tracexy",
-      "stargazers_count": 176,
+      "stargazers_count": 179,
       "forks_count": 5,
       "open_issues_count": 32,
       "language": "Swift",
       "pushed_at": "2026-09-22T01:41:19Z",
-      "updated_at": "2026-09-28T03:48:19Z",
+      "updated_at": "2026-09-29T16:16:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

@@ -3,7 +3,7 @@
   "slug": "vikunja",
   "repoUrl": "https://github.com/go-vikunja/vikunja",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:38.615Z",
+  "lastSuccessAt": "2026-09-30T16:20:53.326Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:14.863Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:38.615Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:53.326Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The task manager you actually own.",
   "github": {
     "repository": {
       "full_name": "go-vikunja/vikunja",
-      "stargazers_count": 5549,
+      "stargazers_count": 5561,
       "forks_count": 718,
-      "open_issues_count": 279,
+      "open_issues_count": 262,
       "language": "Go",
-      "pushed_at": "2026-09-29T00:42:37Z",
-      "updated_at": "2026-09-29T12:19:46Z",
+      "pushed_at": "2026-09-30T15:33:55Z",
+      "updated_at": "2026-09-30T14:41:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-08-31T18:13:15Z",
     "homepage": "https://vikunja.io",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:38.615Z",
+      "syncedAt": "2026-09-30T16:20:53.326Z",
       "source": "api"
     }
   },

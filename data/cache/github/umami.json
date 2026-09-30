@@ -3,7 +3,7 @@
   "slug": "umami",
   "repoUrl": "https://github.com/umami-software/umami",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:22.425Z",
+  "lastSuccessAt": "2026-09-30T16:20:39.116Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:59.662Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:22.425Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:39.116Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.",
   "github": {
     "repository": {
       "full_name": "umami-software/umami",
-      "stargazers_count": 39079,
-      "forks_count": 8139,
-      "open_issues_count": 122,
+      "stargazers_count": 39096,
+      "forks_count": 8156,
+      "open_issues_count": 124,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T06:45:41Z",
-      "updated_at": "2026-09-29T09:43:57Z",
+      "pushed_at": "2026-09-29T19:42:34Z",
+      "updated_at": "2026-09-30T15:45:39Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -48,7 +53,7 @@
     "latestReleaseAt": "2026-09-17T04:21:49Z",
     "homepage": "https://umami.is",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:22.425Z",
+      "syncedAt": "2026-09-30T16:20:39.116Z",
       "source": "api"
     }
   },

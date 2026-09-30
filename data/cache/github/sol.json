@@ -3,7 +3,7 @@
   "slug": "sol",
   "repoUrl": "https://github.com/ospfranco/sol",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:19.543Z",
+  "lastSuccessAt": "2026-09-30T16:19:45.762Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:37:08.122Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-29T13:21:19.543Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:45.762Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "MacOS launcher & command palette",
   "github": {
     "repository": {
       "full_name": "ospfranco/sol",
-      "stargazers_count": 3149,
-      "forks_count": 183,
+      "stargazers_count": 3152,
+      "forks_count": 184,
       "open_issues_count": 15,
       "language": "TypeScript",
       "pushed_at": "2026-09-20T01:19:04Z",
-      "updated_at": "2026-09-28T23:45:27Z",
+      "updated_at": "2026-09-30T14:37:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +57,7 @@
     },
     "latestReleaseAt": "2026-09-20T01:18:48Z",
     "sync": {
-      "syncedAt": "2026-09-29T13:21:19.543Z",
+      "syncedAt": "2026-09-30T16:19:45.762Z",
       "source": "api"
     }
   },

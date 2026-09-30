@@ -3,7 +3,7 @@
   "slug": "penpot",
   "repoUrl": "https://github.com/penpot/penpot",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:27.243Z",
+  "lastSuccessAt": "2026-09-30T16:19:01.635Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:17.039Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:20:27.243Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:01.635Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
   "github": {
     "repository": {
       "full_name": "penpot/penpot",
-      "stargazers_count": 60492,
-      "forks_count": 4155,
-      "open_issues_count": 756,
+      "stargazers_count": 60534,
+      "forks_count": 4163,
+      "open_issues_count": 770,
       "language": "Clojure",
-      "pushed_at": "2026-09-29T13:19:00Z",
-      "updated_at": "2026-09-29T12:56:30Z",
+      "pushed_at": "2026-09-30T16:14:00Z",
+      "updated_at": "2026-09-30T15:41:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-09-23T09:02:03Z",
     "homepage": "https://penpot.app",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:27.243Z",
+      "syncedAt": "2026-09-30T16:19:01.635Z",
       "source": "api"
     }
   },

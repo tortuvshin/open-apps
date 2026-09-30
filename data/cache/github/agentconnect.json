@@ -3,7 +3,7 @@
   "slug": "agentconnect",
   "repoUrl": "https://github.com/agentconnect-md/agentconnect",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:40.108Z",
+  "lastSuccessAt": "2026-09-30T16:13:20.833Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:31.984Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-29T13:13:40.108Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:20.833Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open-source, multi-agent alternative to Claude Tag.  @ any agent, wherever work happens, they work alongside your team, learning as they go.",
@@ -31,11 +36,11 @@
     "repository": {
       "full_name": "agentconnect-md/agentconnect",
       "stargazers_count": 1439,
-      "forks_count": 63,
-      "open_issues_count": 32,
+      "forks_count": 64,
+      "open_issues_count": 29,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T13:12:42Z",
-      "updated_at": "2026-09-29T13:05:52Z",
+      "pushed_at": "2026-09-30T15:58:53Z",
+      "updated_at": "2026-09-30T15:51:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,10 +63,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-09-28T10:39:10Z",
+    "latestReleaseAt": "2026-09-29T14:38:45Z",
     "homepage": "https://www.agentconnect.md",
     "sync": {
-      "syncedAt": "2026-09-29T13:13:40.108Z",
+      "syncedAt": "2026-09-30T16:13:20.833Z",
       "source": "api"
     }
   },

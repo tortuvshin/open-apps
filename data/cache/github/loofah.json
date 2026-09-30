@@ -3,13 +3,8 @@
   "slug": "loofah",
   "repoUrl": "https://github.com/bart6114/loofah",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:18.526Z",
+  "lastSuccessAt": "2026-09-30T16:17:13.519Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:14.665Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:04.613Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:18:18.526Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:13.519Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free, open-source Markdown knowledge vault for macOS. Record and transcribe meetings locally, keep notes as files you can carry across tools, and give agents read-only MCP access. No accounts, subscriptions, telemetry, or cloud backend.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:18:18.526Z",
+      "syncedAt": "2026-09-30T16:17:13.519Z",
       "source": "api"
     },
     "repository": {
       "full_name": "bart6114/loofah",
       "stargazers_count": 8,
       "forks_count": 0,
-      "open_issues_count": 6,
+      "open_issues_count": 7,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T19:39:03Z",
-      "updated_at": "2026-09-28T19:39:08Z",
+      "pushed_at": "2026-09-30T14:43:04Z",
+      "updated_at": "2026-09-30T14:15:43Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
         "transcription"
       ]
     },
-    "latestReleaseAt": "2026-09-28T18:47:28Z",
+    "latestReleaseAt": "2026-09-30T14:14:35Z",
     "homepage": "https://loofah.io"
   },
   "health": {
@@ -92,26 +92,7 @@
     ]
   },
   "candidates": {
-    "channels": [
-      {
-        "type": "github-releases",
-        "platform": "macos",
-        "label": "GitHub Releases",
-        "url": "https://github.com/bart6114/loofah/releases/latest",
-        "facts": {
-          "tag": "v0.41.0",
-          "assets": [
-            "FreeMeetingTranscriber_0.41.0_aarch64.dmg",
-            "Loofah_0.41.0_aarch64.dmg"
-          ]
-        },
-        "provenance": {
-          "source": "github-releases",
-          "url": "https://github.com/bart6114/loofah/releases/tag/v0.41.0",
-          "fetchedAt": "2026-09-29T13:18:15.787Z"
-        }
-      }
-    ],
+    "channels": [],
     "logos": [
       {
         "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/public/assets/app-icon.png",

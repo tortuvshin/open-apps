@@ -3,13 +3,8 @@
   "slug": "libretrack",
   "repoUrl": "https://github.com/proninyaroslav/libretrack",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:04.424Z",
+  "lastSuccessAt": "2026-09-30T16:17:03.305Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:08.290Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:57.671Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:18:04.424Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:03.305Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -191,7 +191,7 @@
       "contributorsKnown": 6
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:18:04.424Z",
+      "syncedAt": "2026-09-30T16:17:03.305Z",
       "source": "api"
     },
     "languages": {

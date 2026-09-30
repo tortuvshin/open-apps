@@ -3,13 +3,8 @@
   "slug": "posnic-pos",
   "repoUrl": "https://github.com/Posnic/POS",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:43.013Z",
+  "lastSuccessAt": "2026-09-30T16:19:16.351Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:10.762Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:30.134Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:20:43.013Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:16.351Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free offline-first open source POS and billing software for retail and restaurants. AGPL-3.0-only source; packages include separately licensed components.",
@@ -37,10 +37,10 @@
       "full_name": "Posnic/POS",
       "stargazers_count": 5,
       "forks_count": 13,
-      "open_issues_count": 416,
+      "open_issues_count": 407,
       "language": "JavaScript",
-      "pushed_at": "2026-09-29T13:17:22Z",
-      "updated_at": "2026-09-29T13:13:23Z",
+      "pushed_at": "2026-09-30T16:03:27Z",
+      "updated_at": "2026-09-30T15:40:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-20T03:00:26Z",
     "homepage": "https://www.posnic.com/",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:43.013Z",
+      "syncedAt": "2026-09-30T16:19:16.351Z",
       "source": "api"
     }
   },

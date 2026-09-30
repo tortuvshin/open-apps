@@ -3,7 +3,7 @@
   "slug": "kilo-code",
   "repoUrl": "https://github.com/Kilo-Org/kilocode",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:51.918Z",
+  "lastSuccessAt": "2026-09-30T16:16:52.598Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:00.997Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:17:51.918Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:16:52.598Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
   "github": {
     "repository": {
       "full_name": "Kilo-Org/kilocode",
-      "stargazers_count": 27438,
-      "forks_count": 3215,
-      "open_issues_count": 613,
+      "stargazers_count": 27451,
+      "forks_count": 3217,
+      "open_issues_count": 606,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T13:12:19Z",
-      "updated_at": "2026-09-29T12:48:38Z",
+      "pushed_at": "2026-09-30T16:14:22Z",
+      "updated_at": "2026-09-30T15:54:32Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -51,7 +56,7 @@
     "latestReleaseAt": "2026-09-25T20:18:14Z",
     "homepage": "https://kilo.ai/",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:51.918Z",
+      "syncedAt": "2026-09-30T16:16:52.598Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "opendray",
   "repoUrl": "https://github.com/Opendray/opendray",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:19:42.755Z",
+  "lastSuccessAt": "2026-09-30T16:18:21.844Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:59.226Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:19:42.755Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:18:21.844Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Self-hosted gateway for Claude Code, Codex, Antigravity, Grok Build, OpenCode. Run AI coding agents on your own infra with a shared local-first memory layer. Drive from web, mobile, Telegram / Slack / Discord / Feishu / DingTalk / WeCom. Open REST + WebSocket API. Apache 2.0.",
   "github": {
     "repository": {
       "full_name": "Opendray/opendray",
-      "stargazers_count": 67,
+      "stargazers_count": 68,
       "forks_count": 14,
       "open_issues_count": 10,
       "language": "Dart",
       "pushed_at": "2026-09-24T04:38:35Z",
-      "updated_at": "2026-09-27T09:01:52Z",
+      "updated_at": "2026-09-30T04:15:02Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -69,7 +74,7 @@
     "latestReleaseAt": "2026-09-24T02:28:05Z",
     "homepage": "https://opendray.dev",
     "sync": {
-      "syncedAt": "2026-09-29T13:19:42.755Z",
+      "syncedAt": "2026-09-30T16:18:21.844Z",
       "source": "api"
     }
   },

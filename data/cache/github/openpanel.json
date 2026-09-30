@@ -3,7 +3,7 @@
   "slug": "openpanel",
   "repoUrl": "https://github.com/Openpanel-dev/openpanel",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:19:55.851Z",
+  "lastSuccessAt": "2026-09-30T16:18:33.155Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:48.294Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:19:55.851Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:18:33.155Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
   "github": {
     "repository": {
       "full_name": "Openpanel-dev/openpanel",
-      "stargazers_count": 7063,
-      "forks_count": 498,
+      "stargazers_count": 7073,
+      "forks_count": 500,
       "open_issues_count": 65,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T10:35:25Z",
-      "updated_at": "2026-09-29T09:32:54Z",
+      "pushed_at": "2026-09-30T09:03:37Z",
+      "updated_at": "2026-09-30T10:33:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,7 +49,7 @@
     },
     "homepage": "https://openpanel.dev",
     "sync": {
-      "syncedAt": "2026-09-29T13:19:55.851Z",
+      "syncedAt": "2026-09-30T16:18:33.155Z",
       "source": "api"
     }
   },

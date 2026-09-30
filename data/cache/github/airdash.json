@@ -3,13 +3,8 @@
   "slug": "airdash",
   "repoUrl": "https://github.com/simonbengtsson/airdash",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:52.193Z",
+  "lastSuccessAt": "2026-09-30T16:13:30.682Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:22.411Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:08:40.356Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:13:52.193Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:30.682Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -196,7 +196,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:13:52.193Z",
+      "syncedAt": "2026-09-30T16:13:30.682Z",
       "source": "api"
     },
     "languages": {

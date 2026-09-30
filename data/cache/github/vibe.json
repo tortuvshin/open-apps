@@ -3,7 +3,7 @@
   "slug": "vibe",
   "repoUrl": "https://github.com/thewh1teagle/vibe",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:33.130Z",
+  "lastSuccessAt": "2026-09-30T16:20:48.556Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:09.674Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:33.130Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:48.556Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Transcribe on your own!",
   "github": {
     "repository": {
       "full_name": "thewh1teagle/vibe",
-      "stargazers_count": 7646,
-      "forks_count": 549,
-      "open_issues_count": 200,
+      "stargazers_count": 7665,
+      "forks_count": 551,
+      "open_issues_count": 201,
       "language": "TypeScript",
       "pushed_at": "2026-09-28T01:01:36Z",
-      "updated_at": "2026-09-29T11:53:36Z",
+      "updated_at": "2026-09-30T16:15:47Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-09-05T13:24:57Z",
     "homepage": "https://thewh1teagle.github.io/vibe/",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:33.130Z",
+      "syncedAt": "2026-09-30T16:20:48.556Z",
       "source": "api"
     }
   },

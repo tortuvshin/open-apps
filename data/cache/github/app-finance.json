@@ -3,13 +3,8 @@
   "slug": "app-finance",
   "repoUrl": "https://github.com/lyskouski/app-finance",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:14:13.425Z",
+  "lastSuccessAt": "2026-09-30T16:13:45.804Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:32.611Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:08:53.662Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:14:13.425Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:45.804Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -65,7 +65,7 @@
     "latestReleaseAt": "2026-09-29T11:31:39Z",
     "homepage": "https://tercad.com/app/finance/index.html",
     "sync": {
-      "syncedAt": "2026-09-29T13:14:13.425Z",
+      "syncedAt": "2026-09-30T16:13:45.804Z",
       "source": "api"
     }
   },

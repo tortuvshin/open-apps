@@ -3,13 +3,8 @@
   "slug": "mise",
   "repoUrl": "https://github.com/devShakib015/mise",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:19:00.407Z",
+  "lastSuccessAt": "2026-09-30T16:17:47.395Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:39.403Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:32.462Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:19:00.407Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:47.395Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -68,7 +68,7 @@
     "latestReleaseAt": "2026-09-01T08:05:38Z",
     "homepage": "https://devshakib.jumyn.com/apps/mise",
     "sync": {
-      "syncedAt": "2026-09-29T13:19:00.407Z",
+      "syncedAt": "2026-09-30T16:17:47.395Z",
       "source": "api"
     }
   },

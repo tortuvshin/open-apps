@@ -3,13 +3,8 @@
   "slug": "marketmonk",
   "repoUrl": "https://github.com/brandonp2412/MarketMonk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:27.645Z",
+  "lastSuccessAt": "2026-09-30T16:17:20.740Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:21.693Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:11.968Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:18:27.645Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:20.740Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Cross-platform stock and portfolio tracker with Yahoo Finance charts and customizable dashboards. Built with Flutter.",
@@ -39,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:18:27.645Z",
+      "syncedAt": "2026-09-30T16:17:20.740Z",
       "source": "api"
     },
     "repository": {
@@ -48,8 +48,8 @@
       "forks_count": 5,
       "open_issues_count": 0,
       "language": "Dart",
-      "pushed_at": "2026-09-29T13:09:18Z",
-      "updated_at": "2026-09-29T13:09:22Z",
+      "pushed_at": "2026-09-30T15:04:20Z",
+      "updated_at": "2026-09-30T15:04:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -102,13 +102,13 @@
         "facts": {
           "appId": "com.codesail.market_monk",
           "suggestedVersionCode": 1083,
-          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/93337c9b047109a4251e7e6f821d2e6100a1b21f/android/app/build.gradle",
+          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/0535e4d1a6bd7c2c94847b6c1113faf4712b4391/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.codesail.market_monk",
-          "fetchedAt": "2026-09-29T13:18:24.674Z"
+          "fetchedAt": "2026-09-30T16:17:18.176Z"
         }
       },
       {

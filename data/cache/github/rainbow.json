@@ -3,13 +3,8 @@
   "slug": "rainbow",
   "repoUrl": "https://github.com/rainbow-me/rainbow",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:55.504Z",
+  "lastSuccessAt": "2026-09-30T16:19:26.381Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:15.589Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:34.780Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:20:55.504Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:26.381Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,8 +101,8 @@
       "releases_url": "https://api.github.com/repos/rainbow-me/rainbow/releases{/id}",
       "deployments_url": "https://api.github.com/repos/rainbow-me/rainbow/deployments",
       "created_at": "2019-03-20T16:46:57Z",
-      "updated_at": "2026-09-28T18:08:36Z",
-      "pushed_at": "2026-09-29T06:20:40Z",
+      "updated_at": "2026-09-30T00:00:26Z",
+      "pushed_at": "2026-09-30T16:02:21Z",
       "git_url": "git://github.com/rainbow-me/rainbow.git",
       "ssh_url": "git@github.com:rainbow-me/rainbow.git",
       "clone_url": "https://github.com/rainbow-me/rainbow.git",
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 761,
+      "forks_count": 760,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 29,
+      "open_issues_count": 43,
       "license": {
         "spdx_id": "GPL-3.0",
         "name": "GPL-3.0"
@@ -222,7 +222,7 @@
       "openPullRequests": 18
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:20:55.504Z",
+      "syncedAt": "2026-09-30T16:19:26.381Z",
       "source": "api"
     },
     "html": {

@@ -3,13 +3,8 @@
   "slug": "orbit",
   "repoUrl": "https://github.com/Noveum/orbit",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:18.255Z",
+  "lastSuccessAt": "2026-09-30T16:18:53.996Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:01.412Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:17.023Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:20:18.255Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:18:53.996Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free, open source, realtime task manager. Issues, boards, sprints, projects and docs that sync instantly. Keyboard-first, self-hostable, with an MCP server for AI agents. No pricing, ever.",
   "github": {
     "repository": {
       "full_name": "Noveum/orbit",
-      "stargazers_count": 51,
+      "stargazers_count": 52,
       "forks_count": 25,
-      "open_issues_count": 59,
+      "open_issues_count": 57,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T21:37:34Z",
-      "updated_at": "2026-09-28T21:37:37Z",
+      "pushed_at": "2026-09-30T11:47:58Z",
+      "updated_at": "2026-09-30T10:30:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-27T00:25:21Z",
     "homepage": "https://orbit.noveum.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:18.255Z",
+      "syncedAt": "2026-09-30T16:18:53.996Z",
       "source": "api"
     }
   },

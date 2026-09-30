@@ -3,7 +3,7 @@
   "slug": "openproject",
   "repoUrl": "https://github.com/opf/openproject",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:02.349Z",
+  "lastSuccessAt": "2026-09-30T16:18:40.967Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:54.075Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:20:02.349Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:18:40.967Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. ⭐ Star us on GitHub",
   "github": {
     "repository": {
       "full_name": "opf/openproject",
-      "stargazers_count": 16255,
-      "forks_count": 3517,
-      "open_issues_count": 230,
+      "stargazers_count": 16271,
+      "forks_count": 3520,
+      "open_issues_count": 233,
       "language": "Ruby",
-      "pushed_at": "2026-09-29T13:13:17Z",
-      "updated_at": "2026-09-29T13:12:25Z",
+      "pushed_at": "2026-09-30T16:15:10Z",
+      "updated_at": "2026-09-30T13:12:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -56,10 +61,10 @@
         "workflows"
       ]
     },
-    "latestReleaseAt": "2026-09-02T06:46:44Z",
+    "latestReleaseAt": "2026-09-30T06:33:42Z",
     "homepage": "https://www.openproject.org",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:02.349Z",
+      "syncedAt": "2026-09-30T16:18:40.967Z",
       "source": "api"
     }
   },

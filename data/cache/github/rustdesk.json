@@ -3,13 +3,8 @@
   "slug": "rustdesk",
   "repoUrl": "https://github.com/rustdesk/rustdesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:12.029Z",
+  "lastSuccessAt": "2026-09-30T16:19:39.413Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:23.049Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:49.907Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:21:12.029Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:39.413Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:12.029Z",
+      "syncedAt": "2026-09-30T16:19:39.413Z",
       "source": "api"
     },
     "repository": {
       "full_name": "rustdesk/rustdesk",
-      "stargazers_count": 124771,
-      "forks_count": 19326,
-      "open_issues_count": 167,
+      "stargazers_count": 124851,
+      "forks_count": 19343,
+      "open_issues_count": 166,
       "language": "Rust",
-      "pushed_at": "2026-09-29T02:18:59Z",
-      "updated_at": "2026-09-29T13:19:28Z",
+      "pushed_at": "2026-09-30T16:11:02Z",
+      "updated_at": "2026-09-30T16:16:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -107,13 +107,13 @@
         "facts": {
           "appId": "com.carriez.flutter_hbb",
           "suggestedVersionCode": 104090003,
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/a7f2260203befb7e9c70b585219f0f0b5ca57703/flutter/android/app/build.gradle",
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/fada664df7a294d1d1a9ca3e7cd3637069122f17/flutter/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.carriez.flutter_hbb",
-          "fetchedAt": "2026-09-29T13:21:10.502Z"
+          "fetchedAt": "2026-09-30T16:19:38.184Z"
         }
       },
       {
@@ -124,12 +124,12 @@
         "facts": {
           "appId": "com.rustdesk.RustDesk",
           "match": "metainfo",
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/a7f2260203befb7e9c70b585219f0f0b5ca57703/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/fada664df7a294d1d1a9ca3e7cd3637069122f17/flatpak/com.rustdesk.RustDesk.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
-          "fetchedAt": "2026-09-29T13:21:10.502Z"
+          "fetchedAt": "2026-09-30T16:19:38.184Z"
         }
       },
       {
@@ -309,8 +309,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/rustdesk/rustdesk/blob/a7f2260203befb7e9c70b585219f0f0b5ca57703/flatpak/com.rustdesk.RustDesk.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:21:10.502Z"
+          "url": "https://github.com/rustdesk/rustdesk/blob/fada664df7a294d1d1a9ca3e7cd3637069122f17/flatpak/com.rustdesk.RustDesk.metainfo.xml",
+          "fetchedAt": "2026-09-30T16:19:38.184Z"
         }
       }
     ]

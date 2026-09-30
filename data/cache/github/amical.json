@@ -3,7 +3,7 @@
   "slug": "amical",
   "repoUrl": "https://github.com/amicalhq/amical",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:58.895Z",
+  "lastSuccessAt": "2026-09-30T16:13:35.176Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:39.675Z",
@@ -12,6 +12,11 @@
     },
     {
       "at": "2026-09-29T13:13:58.895Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:35.176Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -58,7 +63,7 @@
     "latestReleaseAt": "2026-09-25T13:14:49Z",
     "homepage": "https://amical.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:13:58.895Z",
+      "syncedAt": "2026-09-30T16:13:35.176Z",
       "source": "api"
     }
   },

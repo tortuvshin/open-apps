@@ -3,13 +3,8 @@
   "slug": "mangodisk",
   "repoUrl": "https://github.com/harry0703/MangoDisk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:24.077Z",
+  "lastSuccessAt": "2026-09-30T16:17:17.687Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:18.741Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:09.049Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:18:24.077Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:17.687Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Safety-first disk cleaner and space analyzer for macOS and Windows, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
   "github": {
     "repository": {
       "full_name": "harry0703/MangoDisk",
-      "stargazers_count": 3460,
-      "forks_count": 256,
-      "open_issues_count": 12,
+      "stargazers_count": 3499,
+      "forks_count": 258,
+      "open_issues_count": 9,
       "language": "Rust",
-      "pushed_at": "2026-09-29T10:40:57Z",
-      "updated_at": "2026-09-29T12:57:19Z",
+      "pushed_at": "2026-09-30T12:51:56Z",
+      "updated_at": "2026-09-30T15:39:15Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -71,10 +71,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-25T04:45:15Z",
+    "latestReleaseAt": "2026-09-30T07:30:26Z",
     "homepage": "https://mangodisk.app/",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:24.077Z",
+      "syncedAt": "2026-09-30T16:17:17.687Z",
       "source": "api"
     }
   },
@@ -101,18 +101,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.1.4",
+          "tag": "v1.1.5",
           "assets": [
-            "MangoDisk-1.1.4-linux-arm64.AppImage",
-            "MangoDisk-1.1.4-linux-arm64.deb",
-            "MangoDisk-1.1.4-linux-x64.AppImage",
-            "MangoDisk-1.1.4-linux-x64.deb"
+            "MangoDisk-1.1.5-linux-arm64.AppImage",
+            "MangoDisk-1.1.5-linux-arm64.deb",
+            "MangoDisk-1.1.5-linux-x64.AppImage",
+            "MangoDisk-1.1.5-linux-x64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.4",
-          "fetchedAt": "2026-09-26T14:39:21.663Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.5",
+          "fetchedAt": "2026-09-30T16:17:16.106Z"
         }
       },
       {
@@ -121,15 +121,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.1.4",
+          "tag": "v1.1.5",
           "assets": [
-            "MangoDisk-1.1.4-macos.dmg"
+            "MangoDisk-1.1.5-macos.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.4",
-          "fetchedAt": "2026-09-26T14:39:21.663Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.5",
+          "fetchedAt": "2026-09-30T16:17:16.106Z"
         }
       },
       {
@@ -138,17 +138,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.1.4",
+          "tag": "v1.1.5",
           "assets": [
-            "MangoDisk-1.1.4-windows-cli.exe",
-            "MangoDisk-1.1.4-windows-portable.exe",
-            "MangoDisk-1.1.4-windows.exe"
+            "MangoDisk-1.1.5-windows-cli.exe",
+            "MangoDisk-1.1.5-windows-portable.exe",
+            "MangoDisk-1.1.5-windows.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.4",
-          "fetchedAt": "2026-09-26T14:39:21.663Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.5",
+          "fetchedAt": "2026-09-30T16:17:16.106Z"
         }
       }
     ],

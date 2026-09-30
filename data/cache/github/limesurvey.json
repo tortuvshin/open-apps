@@ -3,7 +3,7 @@
   "slug": "limesurvey",
   "repoUrl": "https://github.com/LimeSurvey/LimeSurvey",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:09.139Z",
+  "lastSuccessAt": "2026-09-30T16:17:06.120Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:15.788Z",
@@ -14,6 +14,11 @@
       "at": "2026-09-29T13:18:09.139Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:06.120Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "🔥 LimeSurvey – A powerful, open-source survey platform. A free alternative to SurveyMonkey, Typeform, Qualtrics, and Google Forms, making it simple to create online surveys and forms with unmatched flexibility.",
@@ -22,10 +27,10 @@
       "full_name": "LimeSurvey/LimeSurvey",
       "stargazers_count": 3738,
       "forks_count": 1125,
-      "open_issues_count": 91,
+      "open_issues_count": 89,
       "language": "JavaScript",
-      "pushed_at": "2026-09-29T13:05:31Z",
-      "updated_at": "2026-09-29T13:06:00Z",
+      "pushed_at": "2026-09-30T16:16:31Z",
+      "updated_at": "2026-09-30T16:16:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -48,7 +53,7 @@
     },
     "homepage": "https://www.limesurvey.org",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:09.139Z",
+      "syncedAt": "2026-09-30T16:17:06.120Z",
       "source": "api"
     }
   },

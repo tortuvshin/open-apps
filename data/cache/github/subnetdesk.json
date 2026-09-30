@@ -3,13 +3,8 @@
   "slug": "subnetdesk",
   "repoUrl": "https://github.com/zibo-chen/SubnetDesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:39.600Z",
+  "lastSuccessAt": "2026-09-30T16:20:01.169Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:35.583Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:03.807Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:21:39.600Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:20:01.169Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "LAN-only remote desktop based on RustDesk",
   "github": {
     "repository": {
       "full_name": "zibo-chen/SubnetDesk",
-      "stargazers_count": 616,
+      "stargazers_count": 618,
       "forks_count": 64,
       "open_issues_count": 10,
       "language": "Rust",
-      "pushed_at": "2026-09-12T03:11:30Z",
-      "updated_at": "2026-09-29T05:45:33Z",
+      "pushed_at": "2026-09-30T15:46:29Z",
+      "updated_at": "2026-09-30T14:46:04Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -64,7 +64,7 @@
     "latestReleaseAt": "2026-08-27T16:33:43Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-09-29T13:21:39.600Z",
+      "syncedAt": "2026-09-30T16:20:01.169Z",
       "source": "api"
     }
   },

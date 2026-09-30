@@ -3,13 +3,8 @@
   "slug": "humla",
   "repoUrl": "https://github.com/michaelwilhelmsen/humla",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:06.799Z",
+  "lastSuccessAt": "2026-09-30T16:16:12.035Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:50.334Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:29.592Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:17:06.799Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:16:12.035Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source AI meeting notes for Mac. Records mic + system audio with no bot, transcribes on-device or via OpenAI / Deepgram / Groq, identifies speakers offline, and writes summaries that fuse your notes with the transcript. Ask your notes and get cited answers. Tauri 2 + Rust + Swift.",
   "github": {
     "repository": {
       "full_name": "michaelwilhelmsen/humla",
-      "stargazers_count": 291,
+      "stargazers_count": 292,
       "forks_count": 35,
-      "open_issues_count": 19,
+      "open_issues_count": 20,
       "language": "Rust",
       "pushed_at": "2026-09-27T14:54:03Z",
-      "updated_at": "2026-09-27T15:14:54Z",
+      "updated_at": "2026-09-30T00:19:26Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-27T14:55:48Z",
     "homepage": "https://humla.team",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:06.799Z",
+      "syncedAt": "2026-09-30T16:16:12.035Z",
       "source": "api"
     }
   },

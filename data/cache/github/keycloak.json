@@ -3,7 +3,7 @@
   "slug": "keycloak",
   "repoUrl": "https://github.com/keycloak/keycloak",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:44.999Z",
+  "lastSuccessAt": "2026-09-30T16:16:46.718Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:55.017Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:17:44.999Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:16:46.718Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open Source Identity and Access Management For Modern Applications and Services",
   "github": {
     "repository": {
       "full_name": "keycloak/keycloak",
-      "stargazers_count": 37049,
-      "forks_count": 8983,
-      "open_issues_count": 3244,
+      "stargazers_count": 37070,
+      "forks_count": 8994,
+      "open_issues_count": 3215,
       "language": "Java",
-      "pushed_at": "2026-09-29T13:00:45Z",
-      "updated_at": "2026-09-29T13:09:31Z",
+      "pushed_at": "2026-09-30T15:01:14Z",
+      "updated_at": "2026-09-30T15:53:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -42,7 +47,7 @@
     "latestReleaseAt": "2026-09-16T14:44:06Z",
     "homepage": "https://www.keycloak.org",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:44.999Z",
+      "syncedAt": "2026-09-30T16:16:46.718Z",
       "source": "api"
     }
   },

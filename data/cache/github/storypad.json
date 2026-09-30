@@ -3,13 +3,8 @@
   "slug": "storypad",
   "repoUrl": "https://github.com/theachoem/storypad",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:34.605Z",
+  "lastSuccessAt": "2026-09-30T16:19:57.628Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:33.018Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:00.513Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:21:34.605Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:19:57.628Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "An open source diary & journal app with over 100k downloads 🪴",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:34.605Z",
+      "syncedAt": "2026-09-30T16:19:57.628Z",
       "source": "api"
     },
     "repository": {
       "full_name": "theachoem/storypad",
-      "stargazers_count": 969,
+      "stargazers_count": 970,
       "forks_count": 126,
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "language": "Dart",
-      "pushed_at": "2026-09-17T16:24:06Z",
-      "updated_at": "2026-09-28T14:06:27Z",
+      "pushed_at": "2026-09-30T06:09:52Z",
+      "updated_at": "2026-09-30T14:09:48Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",

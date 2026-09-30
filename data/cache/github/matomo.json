@@ -3,7 +3,7 @@
   "slug": "matomo",
   "repoUrl": "https://github.com/matomo-org/matomo",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:34.882Z",
+  "lastSuccessAt": "2026-09-30T16:17:26.641Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:36.989Z",
@@ -14,6 +14,11 @@
       "at": "2026-09-29T13:18:34.882Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:17:26.641Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
@@ -21,11 +26,11 @@
     "repository": {
       "full_name": "matomo-org/matomo",
       "stargazers_count": 21912,
-      "forks_count": 2900,
-      "open_issues_count": 2566,
+      "forks_count": 2902,
+      "open_issues_count": 2570,
       "language": "PHP",
-      "pushed_at": "2026-09-29T13:12:44Z",
-      "updated_at": "2026-09-29T10:49:46Z",
+      "pushed_at": "2026-09-30T16:15:48Z",
+      "updated_at": "2026-09-30T11:20:21Z",
       "archived": false,
       "disabled": false,
       "default_branch": "6.x-dev",
@@ -54,7 +59,7 @@
     "latestReleaseAt": "2026-09-21T21:11:13Z",
     "homepage": "https://matomo.org/",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:34.882Z",
+      "syncedAt": "2026-09-30T16:17:26.641Z",
       "source": "api"
     }
   },

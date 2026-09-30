@@ -3,7 +3,7 @@
   "slug": "zammad",
   "repoUrl": "https://github.com/zammad/zammad",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:23:19.445Z",
+  "lastSuccessAt": "2026-09-30T16:21:27.498Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:50.375Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:23:19.445Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:21:27.498Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Zammad is a web based open source helpdesk/customer support system.",
   "github": {
     "repository": {
       "full_name": "zammad/zammad",
-      "stargazers_count": 5966,
-      "forks_count": 1066,
-      "open_issues_count": 462,
+      "stargazers_count": 5971,
+      "forks_count": 1068,
+      "open_issues_count": 463,
       "language": "Ruby",
-      "pushed_at": "2026-09-29T11:37:28Z",
-      "updated_at": "2026-09-29T10:26:44Z",
+      "pushed_at": "2026-09-30T15:09:12Z",
+      "updated_at": "2026-09-30T15:34:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -52,7 +57,7 @@
     },
     "homepage": "https://zammad.org",
     "sync": {
-      "syncedAt": "2026-09-29T13:23:19.445Z",
+      "syncedAt": "2026-09-30T16:21:27.498Z",
       "source": "api"
     }
   },

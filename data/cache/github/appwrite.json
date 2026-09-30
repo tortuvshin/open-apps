@@ -3,7 +3,7 @@
   "slug": "appwrite",
   "repoUrl": "https://github.com/appwrite/appwrite",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:14:22.654Z",
+  "lastSuccessAt": "2026-09-30T16:13:53.771Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:57.994Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:14:22.654Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:13:53.771Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
   "github": {
     "repository": {
       "full_name": "appwrite/appwrite",
-      "stargazers_count": 57507,
-      "forks_count": 5758,
-      "open_issues_count": 662,
+      "stargazers_count": 57518,
+      "forks_count": 5756,
+      "open_issues_count": 671,
       "language": "PHP",
-      "pushed_at": "2026-09-29T13:11:57Z",
-      "updated_at": "2026-09-29T12:58:53Z",
+      "pushed_at": "2026-09-30T16:08:57Z",
+      "updated_at": "2026-09-30T15:59:02Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -59,7 +64,7 @@
     "latestReleaseAt": "2026-09-23T13:52:45Z",
     "homepage": "https://appwrite.io",
     "sync": {
-      "syncedAt": "2026-09-29T13:14:22.654Z",
+      "syncedAt": "2026-09-30T16:13:53.771Z",
       "source": "api"
     }
   },

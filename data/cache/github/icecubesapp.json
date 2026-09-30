@@ -3,13 +3,8 @@
   "slug": "icecubesapp",
   "repoUrl": "https://github.com/Dimillian/IceCubesApp",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:09.852Z",
+  "lastSuccessAt": "2026-09-30T16:16:14.780Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:52.080Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:31.565Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:17:09.852Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:16:14.780Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -118,7 +118,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 721,
+      "forks_count": 722,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -186,7 +186,7 @@
       "contributorsKnown": 147
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:17:09.852Z",
+      "syncedAt": "2026-09-30T16:16:14.780Z",
       "source": "api"
     },
     "languages": {

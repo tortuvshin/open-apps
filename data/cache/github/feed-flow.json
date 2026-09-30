@@ -3,13 +3,8 @@
   "slug": "feed-flow",
   "repoUrl": "https://github.com/prof18/feed-flow",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:00.468Z",
+  "lastSuccessAt": "2026-09-30T16:15:14.681Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:22.957Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:52.214Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:16:00.468Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:15:14.681Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/prof18/feed-flow/releases{/id}",
       "deployments_url": "https://api.github.com/repos/prof18/feed-flow/deployments",
       "created_at": "2023-02-11T00:04:52Z",
-      "updated_at": "2026-09-28T08:15:23Z",
-      "pushed_at": "2026-09-29T06:51:29Z",
+      "updated_at": "2026-09-30T14:36:56Z",
+      "pushed_at": "2026-09-29T19:51:38Z",
       "git_url": "git://github.com/prof18/feed-flow.git",
       "ssh_url": "git@github.com:prof18/feed-flow.git",
       "clone_url": "https://github.com/prof18/feed-flow.git",
       "svn_url": "https://github.com/prof18/feed-flow",
       "homepage": "https://www.feedflow.dev",
       "size": 909175,
-      "stargazers_count": 1228,
+      "stargazers_count": 1236,
       "watchers_count": 1011,
       "language": "Kotlin",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": false,
-      "forks_count": 66,
+      "forks_count": 67,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 99,
+      "open_issues_count": 100,
       "license": {
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
@@ -186,7 +186,7 @@
       "contributorsKnown": 98
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:16:00.468Z",
+      "syncedAt": "2026-09-30T16:15:14.681Z",
       "source": "api"
     },
     "languages": {

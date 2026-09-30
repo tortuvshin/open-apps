@@ -3,13 +3,8 @@
   "slug": "wger",
   "repoUrl": "https://github.com/wger-project/flutter",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:23:05.689Z",
+  "lastSuccessAt": "2026-09-30T16:21:15.744Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:04:04.961Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:42.780Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:23:05.689Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-09-30T16:21:15.744Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -211,7 +211,7 @@
       "contributorsKnown": 336
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:23:05.689Z",
+      "syncedAt": "2026-09-30T16:21:15.744Z",
       "source": "api"
     },
     "languages": {
