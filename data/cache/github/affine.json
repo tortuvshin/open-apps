@@ -3,7 +3,7 @@
   "slug": "affine",
   "repoUrl": "https://github.com/toeverything/AFFiNE",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:37.511Z",
+  "lastSuccessAt": "2026-10-01T01:04:29.693Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:21.066Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:13:37.511Z",
       "source": "candidates",
       "reason": "repology: fetch failed (ECONNREFUSED)"
+    },
+    {
+      "at": "2026-10-01T01:04:29.693Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (ECONNREFUSED)"
     }
   ],
   "sourceDescription": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
   "github": {
     "repository": {
       "full_name": "toeverything/AFFiNE",
-      "stargazers_count": 73086,
-      "forks_count": 5316,
-      "open_issues_count": 763,
+      "stargazers_count": 73137,
+      "forks_count": 5318,
+      "open_issues_count": 762,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T10:00:33Z",
-      "updated_at": "2026-09-29T13:01:07Z",
+      "pushed_at": "2026-09-30T09:39:27Z",
+      "updated_at": "2026-10-01T00:40:48Z",
       "archived": false,
       "disabled": false,
       "default_branch": "canary",
@@ -57,7 +62,7 @@
     "latestReleaseAt": "2026-08-18T16:51:39Z",
     "homepage": "https://affine.pro",
     "sync": {
-      "syncedAt": "2026-09-29T13:13:37.511Z",
+      "syncedAt": "2026-10-01T01:04:29.693Z",
       "source": "api"
     }
   },
@@ -186,8 +191,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:11:16.603Z"
+          "url": "https://github.com/toeverything/AFFiNE/blob/b71bb7cfc45f66998ed3827ba5606e0420f8fbb4/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:04:22.660Z"
         }
       },
       {
@@ -195,8 +200,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:11:16.603Z"
+          "url": "https://github.com/toeverything/AFFiNE/blob/b71bb7cfc45f66998ed3827ba5606e0420f8fbb4/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:04:22.660Z"
         }
       },
       {
@@ -204,8 +209,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/toeverything/AFFiNE/blob/164a84ffe00e8e3df289396b6a25d9b85e0343d1/packages/frontend/apps/electron/resources/affine.metainfo.xml",
-          "fetchedAt": "2026-09-28T18:11:16.603Z"
+          "url": "https://github.com/toeverything/AFFiNE/blob/b71bb7cfc45f66998ed3827ba5606e0420f8fbb4/packages/frontend/apps/electron/resources/affine.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:04:22.660Z"
         }
       }
     ]

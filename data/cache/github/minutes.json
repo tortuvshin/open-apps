@@ -3,7 +3,7 @@
   "slug": "minutes",
   "repoUrl": "https://github.com/silverstein/minutes",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:56.954Z",
+  "lastSuccessAt": "2026-10-01T01:09:47.390Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:55.901Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:18:56.954Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:09:47.390Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source, local-first Granola/Otter alternative that Claude Code, Codex, Cursor, and any MCP client can query. Meetings, calls, and voice memos transcribed on-device into markdown you own.",
   "github": {
     "repository": {
       "full_name": "silverstein/minutes",
-      "stargazers_count": 1516,
-      "forks_count": 166,
-      "open_issues_count": 75,
+      "stargazers_count": 1519,
+      "forks_count": 168,
+      "open_issues_count": 79,
       "language": "Rust",
-      "pushed_at": "2026-09-29T13:03:27Z",
-      "updated_at": "2026-09-29T13:04:11Z",
+      "pushed_at": "2026-09-30T23:47:06Z",
+      "updated_at": "2026-09-30T23:42:18Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,10 +54,10 @@
         "whisper"
       ]
     },
-    "latestReleaseAt": "2026-09-25T21:38:38Z",
+    "latestReleaseAt": "2026-10-01T00:12:12Z",
     "homepage": "https://useminutes.app",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:56.954Z",
+      "syncedAt": "2026-10-01T01:09:47.390Z",
       "source": "api"
     }
   },
@@ -79,15 +84,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/silverstein/minutes/releases/latest",
         "facts": {
-          "tag": "v0.27.0",
+          "tag": "v0.27.1",
           "assets": [
-            "Minutes_0.27.0_aarch64.dmg"
+            "Minutes_0.27.1_aarch64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.0",
-          "fetchedAt": "2026-09-28T18:15:53.385Z"
+          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.1",
+          "fetchedAt": "2026-10-01T01:09:45.013Z"
         }
       },
       {
@@ -96,7 +101,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/silverstein/minutes/releases/latest",
         "facts": {
-          "tag": "v0.27.0",
+          "tag": "v0.27.1",
           "assets": [
             "minutes-desktop-windows-x64-setup.exe",
             "minutes-desktop-windows-x64.exe",
@@ -105,8 +110,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.0",
-          "fetchedAt": "2026-09-28T18:15:53.385Z"
+          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.1",
+          "fetchedAt": "2026-10-01T01:09:45.013Z"
         }
       }
     ],

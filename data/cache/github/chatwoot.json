@@ -3,7 +3,7 @@
   "slug": "chatwoot",
   "repoUrl": "https://github.com/chatwoot/chatwoot",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:15.588Z",
+  "lastSuccessAt": "2026-10-01T01:06:07.942Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:44.949Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:15:15.588Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:07.942Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
   "github": {
     "repository": {
       "full_name": "chatwoot/chatwoot",
-      "stargazers_count": 37306,
-      "forks_count": 9069,
-      "open_issues_count": 1511,
+      "stargazers_count": 37374,
+      "forks_count": 9093,
+      "open_issues_count": 1521,
       "language": "Ruby",
-      "pushed_at": "2026-09-29T12:48:44Z",
-      "updated_at": "2026-09-29T13:02:08Z",
+      "pushed_at": "2026-10-01T01:05:38Z",
+      "updated_at": "2026-10-01T00:41:21Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -58,7 +63,7 @@
     "latestReleaseAt": "2026-09-18T00:02:33Z",
     "homepage": "https://www.chatwoot.com/help-center",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:15.588Z",
+      "syncedAt": "2026-10-01T01:06:07.942Z",
       "source": "api"
     }
   },

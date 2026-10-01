@@ -3,13 +3,8 @@
   "slug": "blink-comparison",
   "repoUrl": "https://github.com/proninyaroslav/blink-comparison",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:14:50.812Z",
+  "lastSuccessAt": "2026-10-01T01:05:42.903Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:51.418Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:14.156Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:14:50.812Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:42.903Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "license": {
         "spdx_id": "GPL-3.0",
         "name": "GPL-3.0"
@@ -191,7 +191,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:14:50.812Z",
+      "syncedAt": "2026-10-01T01:05:42.903Z",
       "source": "api"
     },
     "languages": {

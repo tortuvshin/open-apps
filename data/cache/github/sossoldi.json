@@ -3,13 +3,8 @@
   "slug": "sossoldi",
   "repoUrl": "https://github.com/RIP-Comm/sossoldi",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:23.239Z",
+  "lastSuccessAt": "2026-10-01T01:12:13.689Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:27.373Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:54.323Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:21:23.239Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:13.689Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "\"Sossoldi\" is a wealth management / personal finance / Net Worth tracking app, made with Flutter.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:23.239Z",
+      "syncedAt": "2026-10-01T01:12:13.689Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RIP-Comm/sossoldi",
-      "stargazers_count": 1399,
-      "forks_count": 216,
-      "open_issues_count": 37,
+      "stargazers_count": 1400,
+      "forks_count": 217,
+      "open_issues_count": 31,
       "language": "Dart",
       "pushed_at": "2026-09-12T08:46:29Z",
-      "updated_at": "2026-09-29T10:21:08Z",
+      "updated_at": "2026-09-29T19:44:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

@@ -3,7 +3,7 @@
   "slug": "speakoflow",
   "repoUrl": "https://github.com/AbhishekBarali/SpeakoFlow",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:26.100Z",
+  "lastSuccessAt": "2026-10-01T01:12:15.957Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:09.973Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:21:26.100Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:15.957Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free, open-source offline voice dictation for Windows, macOS, and Linux. A Wispr Flow alternative with an AI assistant that can read your screen on request and answer questions.",
   "github": {
     "repository": {
       "full_name": "AbhishekBarali/SpeakoFlow",
-      "stargazers_count": 257,
+      "stargazers_count": 258,
       "forks_count": 26,
       "open_issues_count": 4,
       "language": "Rust",
-      "pushed_at": "2026-09-29T11:37:24Z",
-      "updated_at": "2026-09-29T11:52:29Z",
+      "pushed_at": "2026-09-30T08:39:00Z",
+      "updated_at": "2026-09-30T07:49:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +63,7 @@
     "latestReleaseAt": "2026-08-30T08:22:17Z",
     "homepage": "https://www.speakoflow.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:21:26.100Z",
+      "syncedAt": "2026-10-01T01:12:15.957Z",
       "source": "api"
     }
   },

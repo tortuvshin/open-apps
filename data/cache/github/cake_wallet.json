@@ -3,13 +3,8 @@
   "slug": "cake_wallet",
   "repoUrl": "https://github.com/cake-tech/cake_wallet",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:07.048Z",
+  "lastSuccessAt": "2026-10-01T01:05:59.307Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:00.762Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:23.689Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:15:07.048Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:59.307Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open source repository for Cake Wallet, a noncustodial multi-currency wallet, and Monero.com, a noncustodial Monero-only wallet. Need help? Check out https://docs.cakewallet.com",
   "github": {
     "repository": {
       "full_name": "cake-tech/cake_wallet",
-      "stargazers_count": 1936,
-      "forks_count": 395,
-      "open_issues_count": 352,
+      "stargazers_count": 1940,
+      "forks_count": 396,
+      "open_issues_count": 356,
       "language": "Dart",
-      "pushed_at": "2026-09-29T12:58:16Z",
-      "updated_at": "2026-09-29T11:51:59Z",
+      "pushed_at": "2026-09-30T22:30:40Z",
+      "updated_at": "2026-09-30T16:39:54Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -72,7 +72,7 @@
     "latestReleaseAt": "2026-09-20T00:52:32Z",
     "homepage": "https://cakewallet.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:07.048Z",
+      "syncedAt": "2026-10-01T01:05:59.307Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "swarmui",
   "repoUrl": "https://github.com/mcmonkeyprojects/SwarmUI",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:45.292Z",
+  "lastSuccessAt": "2026-10-01T01:12:35.531Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:25.330Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:21:45.292Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:35.531Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.",
   "github": {
     "repository": {
       "full_name": "mcmonkeyprojects/SwarmUI",
-      "stargazers_count": 4616,
-      "forks_count": 461,
+      "stargazers_count": 4620,
+      "forks_count": 463,
       "open_issues_count": 151,
       "language": "C#",
-      "pushed_at": "2026-09-29T06:20:01Z",
-      "updated_at": "2026-09-29T06:20:05Z",
+      "pushed_at": "2026-09-30T03:22:29Z",
+      "updated_at": "2026-09-30T11:08:08Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -47,7 +52,7 @@
     },
     "latestReleaseAt": "2026-02-06T16:54:03Z",
     "sync": {
-      "syncedAt": "2026-09-29T13:21:45.292Z",
+      "syncedAt": "2026-10-01T01:12:35.531Z",
       "source": "api"
     }
   },

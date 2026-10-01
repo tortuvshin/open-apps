@@ -3,13 +3,8 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:02.376Z",
+  "lastSuccessAt": "2026-10-01T01:05:55.487Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:58.502Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:21.444Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:15:02.376Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:55.487Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "🎨 Powerful, minimalistic, cross-platform, opensource note-taking app",
   "github": {
     "repository": {
       "full_name": "LinwoodDev/Butterfly",
-      "stargazers_count": 2040,
+      "stargazers_count": 2042,
       "forks_count": 152,
-      "open_issues_count": 54,
+      "open_issues_count": 49,
       "language": "Dart",
-      "pushed_at": "2026-09-28T20:12:26Z",
-      "updated_at": "2026-09-29T07:23:47Z",
+      "pushed_at": "2026-09-30T21:05:38Z",
+      "updated_at": "2026-09-30T21:05:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -73,7 +73,7 @@
     "latestReleaseAt": "2026-09-28T08:29:29Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:02.376Z",
+      "syncedAt": "2026-10-01T01:05:55.487Z",
       "source": "api"
     }
   },
@@ -102,12 +102,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "suggestedVersionCode": 192,
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/f39912ebce046430e32c5dbe310d2767b0394609/app/android/app/build.gradle.kts"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/066d18b7c26de8903cda1387b399497eeea3304b/app/android/app/build.gradle.kts"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/dev.linwood.butterfly",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "fetchedAt": "2026-10-01T01:05:53.455Z"
         }
       },
       {
@@ -118,12 +118,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "match": "metainfo",
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/f39912ebce046430e32c5dbe310d2767b0394609/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/066d18b7c26de8903cda1387b399497eeea3304b/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/dev.linwood.butterfly",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "fetchedAt": "2026-10-01T01:05:53.455Z"
         }
       },
       {

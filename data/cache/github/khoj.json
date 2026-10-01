@@ -3,7 +3,7 @@
   "slug": "khoj",
   "repoUrl": "https://github.com/khoj-ai/khoj",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:48.785Z",
+  "lastSuccessAt": "2026-10-01T01:08:40.656Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:58.166Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:17:48.785Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:40.656Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
   "github": {
     "repository": {
       "full_name": "khoj-ai/khoj",
-      "stargazers_count": 37533,
-      "forks_count": 2497,
-      "open_issues_count": 163,
+      "stargazers_count": 37549,
+      "forks_count": 2498,
+      "open_issues_count": 162,
       "language": "Python",
       "pushed_at": "2026-08-02T01:55:40Z",
-      "updated_at": "2026-09-29T11:49:04Z",
+      "updated_at": "2026-10-01T01:07:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +64,7 @@
     "latestReleaseAt": "2026-03-26T03:36:04Z",
     "homepage": "https://khoj.dev",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:48.785Z",
+      "syncedAt": "2026-10-01T01:08:40.656Z",
       "source": "api"
     }
   },

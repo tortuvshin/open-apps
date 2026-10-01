@@ -3,13 +3,8 @@
   "slug": "utm",
   "repoUrl": "https://github.com/utmapp/UTM",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:27.908Z",
+  "lastSuccessAt": "2026-10-01T01:13:19.658Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:56.806Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:27.390Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:22:27.908Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:19.658Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/utmapp/UTM/releases{/id}",
       "deployments_url": "https://api.github.com/repos/utmapp/UTM/deployments",
       "created_at": "2019-04-12T16:09:24Z",
-      "updated_at": "2026-09-29T12:27:13Z",
+      "updated_at": "2026-09-30T21:30:36Z",
       "pushed_at": "2026-09-25T01:53:47Z",
       "git_url": "git://github.com/utmapp/UTM.git",
       "ssh_url": "git@github.com:utmapp/UTM.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/utmapp/UTM",
       "homepage": "https://getutm.app",
       "size": 50567,
-      "stargazers_count": 35680,
+      "stargazers_count": 35703,
       "watchers_count": 34747,
       "language": "Swift",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1835,
+      "forks_count": 1838,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1101,
+      "open_issues_count": 1102,
       "license": {
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
@@ -182,7 +182,7 @@
       "subscribers_count": 381
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:22:27.908Z",
+      "syncedAt": "2026-10-01T01:13:19.658Z",
       "source": "api"
     },
     "languages": {

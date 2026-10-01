@@ -3,13 +3,8 @@
   "slug": "swifthub",
   "repoUrl": "https://github.com/khoren93/SwiftHub",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:50.554Z",
+  "lastSuccessAt": "2026-10-01T01:12:41.412Z",
   "partialFailures": [
-    {
-      "at": "2026-09-28T17:13:09.235Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:37:25.510Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:21:50.554Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:41.412Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/khoren93/SwiftHub/releases{/id}",
       "deployments_url": "https://api.github.com/repos/khoren93/SwiftHub/deployments",
       "created_at": "2017-01-04T12:02:59Z",
-      "updated_at": "2026-09-28T07:51:28Z",
+      "updated_at": "2026-09-30T20:39:30Z",
       "pushed_at": "2026-02-15T16:15:53Z",
       "git_url": "git://github.com/khoren93/SwiftHub.git",
       "ssh_url": "git@github.com:khoren93/SwiftHub.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/khoren93/SwiftHub",
       "homepage": "",
       "size": 13231,
-      "stargazers_count": 3114,
+      "stargazers_count": 3113,
       "watchers_count": 3115,
       "language": "Swift",
       "has_issues": true,
@@ -194,7 +194,7 @@
       "contributorsKnown": 8
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:50.554Z",
+      "syncedAt": "2026-10-01T01:12:41.412Z",
       "source": "api"
     },
     "languages": {

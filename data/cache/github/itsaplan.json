@@ -3,7 +3,7 @@
   "slug": "itsaplan",
   "repoUrl": "https://github.com/croffasia/itsaplan",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:24.086Z",
+  "lastSuccessAt": "2026-10-01T01:08:18.404Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:41.003Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:17:24.086Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:18.404Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
   "github": {
     "repository": {
       "full_name": "croffasia/itsaplan",
-      "stargazers_count": 851,
-      "forks_count": 133,
-      "open_issues_count": 27,
+      "stargazers_count": 861,
+      "forks_count": 134,
+      "open_issues_count": 29,
       "language": "TypeScript",
       "pushed_at": "2026-09-28T05:11:59Z",
-      "updated_at": "2026-09-29T06:51:57Z",
+      "updated_at": "2026-09-30T20:44:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -69,7 +74,7 @@
     "latestReleaseAt": "2026-09-26T22:53:08Z",
     "homepage": "https://itsaplan.dev/",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:24.086Z",
+      "syncedAt": "2026-10-01T01:08:18.404Z",
       "source": "api"
     }
   },

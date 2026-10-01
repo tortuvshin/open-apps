@@ -3,13 +3,8 @@
   "slug": "ai-novel-writer",
   "repoUrl": "https://github.com/EthanYoQ/AI-Novel-Writer",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:13:45.686Z",
+  "lastSuccessAt": "2026-10-01T01:04:37.589Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:19.788Z",
-      "source": "candidates",
-      "reason": "repology: fetch failed (ECONNREFUSED)"
-    },
     {
       "at": "2026-09-28T17:08:34.282Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-29T13:13:45.686Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:04:37.589Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.",
   "github": {
     "repository": {
       "full_name": "EthanYoQ/AI-Novel-Writer",
-      "stargazers_count": 1196,
-      "forks_count": 148,
-      "open_issues_count": 29,
+      "stargazers_count": 1224,
+      "forks_count": 149,
+      "open_issues_count": 25,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T11:07:33Z",
-      "updated_at": "2026-09-29T13:09:49Z",
+      "pushed_at": "2026-10-01T00:51:57Z",
+      "updated_at": "2026-10-01T00:44:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -67,7 +67,7 @@
     },
     "latestReleaseAt": "2026-09-08T04:35:10Z",
     "sync": {
-      "syncedAt": "2026-09-29T13:13:45.686Z",
+      "syncedAt": "2026-10-01T01:04:37.589Z",
       "source": "api"
     }
   },

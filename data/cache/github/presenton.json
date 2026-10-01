@@ -3,7 +3,7 @@
   "slug": "presenton",
   "repoUrl": "https://github.com/presenton/presenton",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:46.354Z",
+  "lastSuccessAt": "2026-10-01T01:11:37.363Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:34.342Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:20:46.354Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:11:37.363Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
   "github": {
     "repository": {
       "full_name": "presenton/presenton",
-      "stargazers_count": 10845,
-      "forks_count": 1646,
-      "open_issues_count": 24,
+      "stargazers_count": 10877,
+      "forks_count": 1657,
+      "open_issues_count": 27,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T05:10:50Z",
-      "updated_at": "2026-09-29T13:14:24Z",
+      "pushed_at": "2026-09-30T11:28:56Z",
+      "updated_at": "2026-09-30T20:17:46Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-09-21T12:06:32Z",
     "homepage": "https://presenton.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:46.354Z",
+      "syncedAt": "2026-10-01T01:11:37.363Z",
       "source": "api"
     }
   },

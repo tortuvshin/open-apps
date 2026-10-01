@@ -3,7 +3,7 @@
   "slug": "fluidvoice",
   "repoUrl": "https://github.com/altic-dev/FluidVoice",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:09.162Z",
+  "lastSuccessAt": "2026-10-01T01:06:59.876Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:57.693Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:16:09.162Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:59.876Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X exclusive model access! 😉 - https://x.com/fluidvoiceapp",
   "github": {
     "repository": {
       "full_name": "altic-dev/FluidVoice",
-      "stargazers_count": 11824,
-      "forks_count": 850,
-      "open_issues_count": 96,
+      "stargazers_count": 11850,
+      "forks_count": 859,
+      "open_issues_count": 99,
       "language": "Swift",
       "pushed_at": "2026-09-29T05:51:14Z",
-      "updated_at": "2026-09-29T13:16:02Z",
+      "updated_at": "2026-10-01T00:46:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -55,7 +60,7 @@
     "latestReleaseAt": "2026-08-18T08:01:44Z",
     "homepage": "https://altic.dev/fluid",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:09.162Z",
+      "syncedAt": "2026-10-01T01:06:59.876Z",
       "source": "api"
     }
   },

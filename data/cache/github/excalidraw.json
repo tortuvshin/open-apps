@@ -3,7 +3,7 @@
   "slug": "excalidraw",
   "repoUrl": "https://github.com/excalidraw/excalidraw",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:55.806Z",
+  "lastSuccessAt": "2026-10-01T01:06:46.130Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:17.451Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:15:55.806Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:46.130Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Virtual whiteboard for sketching hand-drawn like diagrams",
   "github": {
     "repository": {
       "full_name": "excalidraw/excalidraw",
-      "stargazers_count": 133218,
-      "forks_count": 15518,
-      "open_issues_count": 3273,
+      "stargazers_count": 133326,
+      "forks_count": 15534,
+      "open_issues_count": 3278,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T13:15:30Z",
-      "updated_at": "2026-09-29T12:57:29Z",
+      "pushed_at": "2026-09-30T21:26:45Z",
+      "updated_at": "2026-10-01T00:57:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -46,7 +51,7 @@
     "latestReleaseAt": "2026-04-21T08:43:20Z",
     "homepage": "https://excalidraw.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:55.806Z",
+      "syncedAt": "2026-10-01T01:06:46.130Z",
       "source": "api"
     }
   },

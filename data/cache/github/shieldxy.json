@@ -3,13 +3,8 @@
   "slug": "shieldxy",
   "repoUrl": "https://github.com/RockxyApp/Shieldxy",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:17.019Z",
+  "lastSuccessAt": "2026-10-01T01:12:07.680Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:24.969Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:51.907Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:21:17.019Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:07.680Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source, auditable application firewall and connection monitor for macOS.",
@@ -39,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:17.019Z",
+      "syncedAt": "2026-10-01T01:12:07.680Z",
       "source": "api"
     },
     "repository": {

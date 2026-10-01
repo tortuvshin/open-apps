@@ -3,13 +3,8 @@
   "slug": "rockxy",
   "repoUrl": "https://github.com/RockxyApp/Rockxy",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:03.448Z",
+  "lastSuccessAt": "2026-10-01T01:11:54.159Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:19.048Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:12:42.735Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:21:03.448Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:11:54.159Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs, mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:03.448Z",
+      "syncedAt": "2026-10-01T01:11:54.159Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RockxyApp/Rockxy",
-      "stargazers_count": 1391,
-      "forks_count": 80,
+      "stargazers_count": 1401,
+      "forks_count": 81,
       "open_issues_count": 98,
       "language": "Swift",
       "pushed_at": "2026-09-25T06:58:55Z",
-      "updated_at": "2026-09-29T07:54:37Z",
+      "updated_at": "2026-09-30T22:21:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",

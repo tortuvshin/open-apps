@@ -3,7 +3,7 @@
   "slug": "vane",
   "repoUrl": "https://github.com/ItzCrazyKns/Vane",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:30.269Z",
+  "lastSuccessAt": "2026-10-01T01:13:21.777Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:06.469Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:30.269Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:21.777Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Vane is an AI-powered answering engine.",
   "github": {
     "repository": {
       "full_name": "ItzCrazyKns/Vane",
-      "stargazers_count": 36935,
-      "forks_count": 4101,
-      "open_issues_count": 354,
+      "stargazers_count": 36944,
+      "forks_count": 4102,
+      "open_issues_count": 356,
       "language": "TypeScript",
       "pushed_at": "2026-09-01T14:12:12Z",
-      "updated_at": "2026-09-29T12:46:04Z",
+      "updated_at": "2026-09-30T21:26:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -52,7 +57,7 @@
     },
     "latestReleaseAt": "2026-04-10T13:30:52Z",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:30.269Z",
+      "syncedAt": "2026-10-01T01:13:21.777Z",
       "source": "api"
     }
   },

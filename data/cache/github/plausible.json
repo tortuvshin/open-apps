@@ -3,7 +3,7 @@
   "slug": "plausible",
   "repoUrl": "https://github.com/plausible/analytics",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:36.700Z",
+  "lastSuccessAt": "2026-10-01T01:11:28.815Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:25.462Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:20:36.700Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:11:28.815Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
   "github": {
     "repository": {
       "full_name": "plausible/analytics",
-      "stargazers_count": 29252,
+      "stargazers_count": 29271,
       "forks_count": 1878,
-      "open_issues_count": 67,
+      "open_issues_count": 69,
       "language": "Elixir",
-      "pushed_at": "2026-09-29T13:00:54Z",
-      "updated_at": "2026-09-29T12:55:41Z",
+      "pushed_at": "2026-09-30T14:12:33Z",
+      "updated_at": "2026-10-01T00:35:35Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +64,7 @@
     "latestReleaseAt": "2026-05-15T09:15:56Z",
     "homepage": "https://plausible.io",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:36.700Z",
+      "syncedAt": "2026-10-01T01:11:28.815Z",
       "source": "api"
     }
   },

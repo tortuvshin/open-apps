@@ -3,7 +3,7 @@
   "slug": "tooljet",
   "repoUrl": "https://github.com/ToolJet/ToolJet",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:08.021Z",
+  "lastSuccessAt": "2026-10-01T01:12:58.633Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:46.500Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:08.021Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:58.633Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
   "github": {
     "repository": {
       "full_name": "ToolJet/ToolJet",
-      "stargazers_count": 41010,
-      "forks_count": 5460,
-      "open_issues_count": 1275,
+      "stargazers_count": 41018,
+      "forks_count": 5463,
+      "open_issues_count": 1283,
       "language": "JavaScript",
-      "pushed_at": "2026-09-29T12:57:24Z",
-      "updated_at": "2026-09-29T13:01:46Z",
+      "pushed_at": "2026-09-30T21:15:53Z",
+      "updated_at": "2026-09-30T20:21:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -54,10 +59,10 @@
         "workflow-automation"
       ]
     },
-    "latestReleaseAt": "2026-09-29T12:16:47Z",
+    "latestReleaseAt": "2026-09-30T14:37:03Z",
     "homepage": "https://tooljet.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:08.021Z",
+      "syncedAt": "2026-10-01T01:12:58.633Z",
       "source": "api"
     }
   },

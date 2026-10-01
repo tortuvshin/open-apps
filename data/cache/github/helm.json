@@ -3,13 +3,8 @@
   "slug": "helm",
   "repoUrl": "https://github.com/devShakib015/helm",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:58.790Z",
+  "lastSuccessAt": "2026-10-01T01:07:49.680Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:46.368Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:25.216Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:16:58.790Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:07:49.680Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -67,7 +67,7 @@
     "latestReleaseAt": "2026-09-10T10:29:22Z",
     "homepage": "https://devshakib.jumyn.com/apps/helm",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:58.790Z",
+      "syncedAt": "2026-10-01T01:07:49.680Z",
       "source": "api"
     }
   },

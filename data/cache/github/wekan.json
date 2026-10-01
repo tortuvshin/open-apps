@@ -3,7 +3,7 @@
   "slug": "wekan",
   "repoUrl": "https://github.com/wekan/wekan",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:23:02.563Z",
+  "lastSuccessAt": "2026-10-01T01:13:54.343Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:35.960Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:23:02.563Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:54.343Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . PR source translation to imports/i18n/data/en.i18n.json, other translations at https://app.transifex.com/wekan/wekan . No telemetry.",
   "github": {
     "repository": {
       "full_name": "wekan/wekan",
-      "stargazers_count": 21097,
+      "stargazers_count": 21099,
       "forks_count": 3001,
-      "open_issues_count": 118,
+      "open_issues_count": 115,
       "language": "JavaScript",
-      "pushed_at": "2026-09-29T13:21:51Z",
-      "updated_at": "2026-09-29T13:22:19Z",
+      "pushed_at": "2026-09-30T07:22:39Z",
+      "updated_at": "2026-09-30T07:22:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +50,10 @@
         "wekan"
       ]
     },
-    "latestReleaseAt": "2026-09-28T19:03:53Z",
+    "latestReleaseAt": "2026-09-30T06:47:50Z",
     "homepage": "https://wekan.fi",
     "sync": {
-      "syncedAt": "2026-09-29T13:23:02.563Z",
+      "syncedAt": "2026-10-01T01:13:54.343Z",
       "source": "api"
     }
   },
@@ -75,20 +80,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/wekan/wekan/releases/latest",
         "facts": {
-          "tag": "v12.09",
+          "tag": "v12.12",
           "assets": [
-            "WeKan-12.09-aarch64.AppImage",
-            "WeKan-12.09-armhf.AppImage",
-            "WeKan-12.09-i686.AppImage",
-            "WeKan-12.09-x86_64.AppImage",
-            "wekan_12.09_amd64.snap",
-            "wekan_12.09_arm64.snap"
+            "WeKan-12.12-aarch64.AppImage",
+            "WeKan-12.12-armhf.AppImage",
+            "WeKan-12.12-i686.AppImage",
+            "WeKan-12.12-x86_64.AppImage",
+            "wekan_12.12_amd64.snap",
+            "wekan_12.12_arm64.snap"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/wekan/wekan/releases/tag/v12.09",
-          "fetchedAt": "2026-09-29T13:23:00.224Z"
+          "url": "https://github.com/wekan/wekan/releases/tag/v12.12",
+          "fetchedAt": "2026-10-01T01:13:51.366Z"
         }
       },
       {
@@ -97,15 +102,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/wekan/wekan/releases/latest",
         "facts": {
-          "tag": "v12.09",
+          "tag": "v12.12",
           "assets": [
-            "WeKan-12.09-win64.exe"
+            "WeKan-12.12-win64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/wekan/wekan/releases/tag/v12.09",
-          "fetchedAt": "2026-09-29T13:23:00.224Z"
+          "url": "https://github.com/wekan/wekan/releases/tag/v12.12",
+          "fetchedAt": "2026-10-01T01:13:51.366Z"
         }
       }
     ],

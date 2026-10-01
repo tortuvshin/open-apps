@@ -3,7 +3,7 @@
   "slug": "invokeai",
   "repoUrl": "https://github.com/invoke-ai/InvokeAI",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:19.179Z",
+  "lastSuccessAt": "2026-10-01T01:08:13.474Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:31.417Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:17:19.179Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:13.474Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
   "github": {
     "repository": {
       "full_name": "invoke-ai/InvokeAI",
-      "stargazers_count": 28312,
-      "forks_count": 2981,
-      "open_issues_count": 359,
+      "stargazers_count": 28318,
+      "forks_count": 2984,
+      "open_issues_count": 364,
       "language": "Python",
       "pushed_at": "2026-09-27T17:00:58Z",
-      "updated_at": "2026-09-29T11:43:04Z",
+      "updated_at": "2026-09-30T21:53:52Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +57,7 @@
     "latestReleaseAt": "2026-09-27T18:31:53Z",
     "homepage": "https://invoke-ai.github.io/InvokeAI/",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:19.179Z",
+      "syncedAt": "2026-10-01T01:08:13.474Z",
       "source": "api"
     }
   },

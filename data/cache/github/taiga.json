@@ -3,7 +3,7 @@
   "slug": "taiga",
   "repoUrl": "https://github.com/taigaio/taiga-back",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:56.490Z",
+  "lastSuccessAt": "2026-10-01T01:12:47.315Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:35.665Z",
@@ -14,13 +14,18 @@
       "at": "2026-09-29T13:21:56.490Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:47.315Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "github": {
     "repository": {
       "full_name": "taigaio/taiga-back",
       "stargazers_count": 854,
-      "forks_count": 308,
+      "forks_count": 310,
       "open_issues_count": 92,
       "language": "Python",
       "pushed_at": "2026-09-28T17:26:49Z",
@@ -35,7 +40,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:56.490Z",
+      "syncedAt": "2026-10-01T01:12:47.315Z",
       "source": "api"
     }
   },

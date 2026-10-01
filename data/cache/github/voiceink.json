@@ -3,7 +3,7 @@
   "slug": "voiceink",
   "repoUrl": "https://github.com/Beingpax/VoiceInk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:43.375Z",
+  "lastSuccessAt": "2026-10-01T01:13:35.227Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:31.158Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:22:43.375Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:35.227Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The best open-source alternative to Superwhisper & Wispr Flow. Voice-to-text app for macOS with no subscription",
   "github": {
     "repository": {
       "full_name": "Beingpax/VoiceInk",
-      "stargazers_count": 6605,
-      "forks_count": 933,
-      "open_issues_count": 130,
+      "stargazers_count": 6619,
+      "forks_count": 937,
+      "open_issues_count": 131,
       "language": "Swift",
-      "pushed_at": "2026-09-29T07:56:18Z",
-      "updated_at": "2026-09-29T12:50:00Z",
+      "pushed_at": "2026-09-30T17:31:35Z",
+      "updated_at": "2026-09-30T22:59:54Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +57,7 @@
     "latestReleaseAt": "2026-09-28T14:30:01Z",
     "homepage": "https://tryvoiceink.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:43.375Z",
+      "syncedAt": "2026-10-01T01:13:35.227Z",
       "source": "api"
     }
   },

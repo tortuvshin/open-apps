@@ -3,7 +3,7 @@
   "slug": "jan",
   "repoUrl": "https://github.com/janhq/jan",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:26.022Z",
+  "lastSuccessAt": "2026-10-01T01:08:19.924Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:38.414Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:17:26.022Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:19.924Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
   "github": {
     "repository": {
       "full_name": "janhq/jan",
-      "stargazers_count": 44705,
-      "forks_count": 3061,
-      "open_issues_count": 542,
+      "stargazers_count": 44726,
+      "forks_count": 3062,
+      "open_issues_count": 546,
       "language": "Rust",
-      "pushed_at": "2026-09-29T10:42:20Z",
-      "updated_at": "2026-09-29T13:03:13Z",
+      "pushed_at": "2026-09-30T16:39:40Z",
+      "updated_at": "2026-09-30T23:40:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +52,7 @@
     "latestReleaseAt": "2026-07-23T06:29:15Z",
     "homepage": "https://jan.ai/",
     "sync": {
-      "syncedAt": "2026-09-29T13:17:26.022Z",
+      "syncedAt": "2026-10-01T01:08:19.924Z",
       "source": "api"
     }
   },
@@ -76,12 +81,12 @@
         "facts": {
           "appId": "ai.jan.Jan",
           "match": "metainfo",
-          "evidence": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml"
+          "evidence": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/ai.jan.Jan",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -159,8 +164,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -168,8 +173,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -177,8 +182,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -186,8 +191,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -195,8 +200,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       },
       {
@@ -204,8 +209,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/ec1b7faebb7e5424a5c57fa130f08bdff6d08810/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-29T13:17:24.707Z"
+          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-01T01:08:18.859Z"
         }
       }
     ]

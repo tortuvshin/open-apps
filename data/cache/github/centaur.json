@@ -3,7 +3,7 @@
   "slug": "centaur",
   "repoUrl": "https://github.com/paradigmxyz/centaur",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:12.767Z",
+  "lastSuccessAt": "2026-10-01T01:06:04.653Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:28.505Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:15:12.767Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:04.653Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Centaur is frontier, agentic infrastructure that you own. Centaur is like Claude Tag, but open source and on steroids.",
   "github": {
     "repository": {
       "full_name": "paradigmxyz/centaur",
-      "stargazers_count": 1338,
-      "forks_count": 253,
-      "open_issues_count": 113,
+      "stargazers_count": 1342,
+      "forks_count": 255,
+      "open_issues_count": 117,
       "language": "Python",
-      "pushed_at": "2026-09-29T12:20:05Z",
-      "updated_at": "2026-09-28T23:04:26Z",
+      "pushed_at": "2026-09-30T21:32:55Z",
+      "updated_at": "2026-09-30T21:32:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,7 +53,7 @@
     "latestReleaseAt": "2026-09-25T23:29:44Z",
     "homepage": "https://centaur.run",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:12.767Z",
+      "syncedAt": "2026-10-01T01:06:04.653Z",
       "source": "api"
     }
   },

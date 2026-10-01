@@ -3,7 +3,7 @@
   "slug": "supabase",
   "repoUrl": "https://github.com/supabase/supabase",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:42.898Z",
+  "lastSuccessAt": "2026-10-01T01:12:32.412Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:23.234Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:21:42.898Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:32.412Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
   "github": {
     "repository": {
       "full_name": "supabase/supabase",
-      "stargazers_count": 110886,
-      "forks_count": 15406,
-      "open_issues_count": 1081,
+      "stargazers_count": 110945,
+      "forks_count": 15454,
+      "open_issues_count": 1098,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T12:51:01Z",
-      "updated_at": "2026-09-29T13:21:36Z",
+      "pushed_at": "2026-10-01T01:07:29Z",
+      "updated_at": "2026-10-01T01:08:29Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -58,7 +63,7 @@
     "latestReleaseAt": "2026-08-07T13:57:57Z",
     "homepage": "https://supabase.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:21:42.898Z",
+      "syncedAt": "2026-10-01T01:12:32.412Z",
       "source": "api"
     }
   },

@@ -3,13 +3,8 @@
   "slug": "waterfly-iii",
   "repoUrl": "https://github.com/dreautall/waterfly-iii",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:57.018Z",
+  "lastSuccessAt": "2026-10-01T01:13:48.015Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:04:01.341Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:38.489Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:22:57.018Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:48.015Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Unofficial Android App for Firefly III, a free and open source personal finance manager.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:22:57.018Z",
+      "syncedAt": "2026-10-01T01:13:48.015Z",
       "source": "api"
     },
     "repository": {
       "full_name": "dreautall/waterfly-iii",
-      "stargazers_count": 715,
+      "stargazers_count": 717,
       "forks_count": 67,
       "open_issues_count": 34,
       "language": "Dart",
-      "pushed_at": "2026-09-24T20:51:47Z",
-      "updated_at": "2026-09-28T20:34:48Z",
+      "pushed_at": "2026-09-29T15:40:40Z",
+      "updated_at": "2026-09-30T09:26:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",

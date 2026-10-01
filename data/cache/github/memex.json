@@ -3,13 +3,8 @@
   "slug": "memex",
   "repoUrl": "https://github.com/memex-lab/memex",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:48.229Z",
+  "lastSuccessAt": "2026-10-01T01:09:38.806Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:33.227Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:11:25.463Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:18:48.229Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:09:38.806Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/memex-lab/memex/releases{/id}",
       "deployments_url": "https://api.github.com/repos/memex-lab/memex/deployments",
       "created_at": "2026-03-11T14:04:59Z",
-      "updated_at": "2026-09-28T03:04:00Z",
-      "pushed_at": "2026-09-28T19:24:00Z",
+      "updated_at": "2026-09-30T14:23:48Z",
+      "pushed_at": "2026-09-30T19:25:12Z",
       "git_url": "git://github.com/memex-lab/memex.git",
       "ssh_url": "git@github.com:memex-lab/memex.git",
       "clone_url": "https://github.com/memex-lab/memex.git",
       "svn_url": "https://github.com/memex-lab/memex",
       "homepage": "https://memexlab.ai",
       "size": 58896,
-      "stargazers_count": 759,
+      "stargazers_count": 763,
       "watchers_count": 625,
       "language": "Dart",
       "has_issues": true,
@@ -118,7 +118,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 76,
+      "forks_count": 77,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -221,7 +221,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:18:48.229Z",
+      "syncedAt": "2026-10-01T01:09:38.806Z",
       "source": "api"
     },
     "languages": {

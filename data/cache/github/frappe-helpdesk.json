@@ -3,7 +3,7 @@
   "slug": "frappe-helpdesk",
   "repoUrl": "https://github.com/frappe/helpdesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:27.943Z",
+  "lastSuccessAt": "2026-10-01T01:07:19.285Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:48.750Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:16:27.943Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:07:19.285Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Modern, Streamlined, Free and Open Source Customer Service Software",
   "github": {
     "repository": {
       "full_name": "frappe/helpdesk",
-      "stargazers_count": 3398,
-      "forks_count": 959,
-      "open_issues_count": 174,
+      "stargazers_count": 3407,
+      "forks_count": 958,
+      "open_issues_count": 172,
       "language": "Vue",
-      "pushed_at": "2026-09-29T06:28:53Z",
-      "updated_at": "2026-09-29T12:32:25Z",
+      "pushed_at": "2026-09-30T20:34:57Z",
+      "updated_at": "2026-09-30T22:15:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -52,7 +57,7 @@
     "latestReleaseAt": "2026-09-03T09:19:40Z",
     "homepage": "https://frappe.io/helpdesk",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:27.943Z",
+      "syncedAt": "2026-10-01T01:07:19.285Z",
       "source": "api"
     }
   },

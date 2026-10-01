@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "slug": "invoiceflowai",
+  "repoUrl": "https://github.com/EthanYoQ/Invoice-Downloader",
+  "source": "api",
+  "lastSuccessAt": "2026-10-01T01:08:10.539Z",
+  "partialFailures": [
+    {
+      "at": "2026-10-01T01:08:10.539Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    }
+  ],
+  "sourceDescription": "电子发票整理与报销准备工具：从邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并生成 Excel 汇总；提供 Windows/macOS 桌面版与 DSH 插件。",
+  "github": {
+    "repository": {
+      "full_name": "EthanYoQ/Invoice-Downloader",
+      "stargazers_count": 477,
+      "forks_count": 51,
+      "open_issues_count": 1,
+      "language": "Python",
+      "pushed_at": "2026-09-25T10:06:22Z",
+      "updated_at": "2026-09-30T07:16:47Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "deepseek-harness",
+        "desktop-app",
+        "document-processing",
+        "dsh-plugin",
+        "e-invoice",
+        "email",
+        "expense-management",
+        "fapiao",
+        "imap",
+        "invoice",
+        "invoice-automation",
+        "invoice-management",
+        "macos",
+        "ocr",
+        "ofd",
+        "python",
+        "reimbursement",
+        "windows"
+      ]
+    },
+    "latestReleaseAt": "2026-09-25T10:06:22Z",
+    "homepage": "https://github.com/EthanYoQ/Invoice-Downloader/releases/latest",
+    "sync": {
+      "syncedAt": "2026-10-01T01:08:10.539Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/EthanYoQ/Invoice-Downloader/releases/latest",
+        "facts": {
+          "tag": "v2026.09.25.1",
+          "assets": [
+            "InvoiceFlowAI-v2026.09.25.1-macos-arm64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/EthanYoQ/Invoice-Downloader/releases/tag/v2026.09.25.1",
+          "fetchedAt": "2026-10-01T01:08:08.164Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/EthanYoQ/Invoice-Downloader/releases/latest",
+        "facts": {
+          "tag": "v2026.09.25.1",
+          "assets": [
+            "InvoiceFlowAI-v2026.09.25.1-windows-x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/EthanYoQ/Invoice-Downloader/releases/tag/v2026.09.25.1",
+          "fetchedAt": "2026-10-01T01:08:08.164Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
+  }
+}

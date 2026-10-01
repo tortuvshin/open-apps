@@ -3,13 +3,8 @@
   "slug": "karakeep",
   "repoUrl": "https://github.com/karakeep-app/karakeep",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:17:38.743Z",
+  "lastSuccessAt": "2026-10-01T01:08:31.654Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:02:03.962Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:48.747Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:17:38.743Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:31.654Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/karakeep-app/karakeep/releases{/id}",
       "deployments_url": "https://api.github.com/repos/karakeep-app/karakeep/deployments",
       "created_at": "2024-02-06T12:28:31Z",
-      "updated_at": "2026-09-29T10:49:49Z",
-      "pushed_at": "2026-09-27T01:00:26Z",
+      "updated_at": "2026-10-01T00:11:24Z",
+      "pushed_at": "2026-09-29T21:44:10Z",
       "git_url": "git://github.com/karakeep-app/karakeep.git",
       "ssh_url": "git@github.com:karakeep-app/karakeep.git",
       "clone_url": "https://github.com/karakeep-app/karakeep.git",
       "svn_url": "https://github.com/karakeep-app/karakeep",
       "homepage": "https://karakeep.app",
       "size": 100437,
-      "stargazers_count": 29343,
+      "stargazers_count": 29369,
       "watchers_count": 27643,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1543,
+      "forks_count": 1549,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 722,
+      "open_issues_count": 727,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -221,7 +221,7 @@
       "openPullRequests": 74
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:17:38.743Z",
+      "syncedAt": "2026-10-01T01:08:31.654Z",
       "source": "api"
     },
     "html": {

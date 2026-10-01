@@ -3,7 +3,7 @@
   "slug": "librechat",
   "repoUrl": "https://github.com/LibreChat-AI/LibreChat",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:18:00.774Z",
+  "lastSuccessAt": "2026-10-01T01:08:52.208Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:09.027Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:18:00.774Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:08:52.208Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
   "github": {
     "repository": {
       "full_name": "LibreChat-AI/LibreChat",
-      "stargazers_count": 45108,
-      "forks_count": 9244,
-      "open_issues_count": 824,
+      "stargazers_count": 45167,
+      "forks_count": 9256,
+      "open_issues_count": 822,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T12:54:44Z",
-      "updated_at": "2026-09-29T12:35:37Z",
+      "pushed_at": "2026-10-01T00:59:25Z",
+      "updated_at": "2026-09-30T23:46:04Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +63,7 @@
     },
     "homepage": "https://librechat.ai/",
     "sync": {
-      "syncedAt": "2026-09-29T13:18:00.774Z",
+      "syncedAt": "2026-10-01T01:08:52.208Z",
       "source": "api"
     }
   },

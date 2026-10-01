@@ -3,13 +3,8 @@
   "slug": "ehpanda",
   "repoUrl": "https://github.com/EhPanda-Team/EhPanda",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:40.106Z",
+  "lastSuccessAt": "2026-10-01T01:06:30.003Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:13.964Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:39.642Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:15:40.106Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:30.003Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/EhPanda-Team/EhPanda/releases{/id}",
       "deployments_url": "https://api.github.com/repos/EhPanda-Team/EhPanda/deployments",
       "created_at": "2020-10-28T14:32:59Z",
-      "updated_at": "2026-09-28T19:23:05Z",
+      "updated_at": "2026-09-30T20:58:38Z",
       "pushed_at": "2026-09-23T11:37:15Z",
       "git_url": "git://github.com/EhPanda-Team/EhPanda.git",
       "ssh_url": "git@github.com:EhPanda-Team/EhPanda.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/EhPanda-Team/EhPanda",
       "homepage": "https://ehpanda.app",
       "size": 78381,
-      "stargazers_count": 3985,
+      "stargazers_count": 3986,
       "watchers_count": 3907,
       "language": "Swift",
       "has_issues": true,
@@ -118,7 +118,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 256,
+      "forks_count": 257,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -211,7 +211,7 @@
       "contributorsKnown": 22
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:15:40.106Z",
+      "syncedAt": "2026-10-01T01:06:30.003Z",
       "source": "api"
     },
     "languages": {

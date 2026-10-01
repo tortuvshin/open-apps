@@ -3,13 +3,8 @@
   "slug": "swift-radio-pro",
   "repoUrl": "https://github.com/analogcode/Swift-Radio-Pro",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:21:47.753Z",
+  "lastSuccessAt": "2026-10-01T01:12:38.107Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:03:37.715Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:13:05.900Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:21:47.753Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:12:38.107Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -197,7 +197,7 @@
       "contributorsKnown": 25
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:21:47.753Z",
+      "syncedAt": "2026-10-01T01:12:38.107Z",
       "source": "api"
     },
     "languages": {

@@ -3,7 +3,7 @@
   "slug": "freeflow",
   "repoUrl": "https://github.com/zachlatta/freeflow",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:30.580Z",
+  "lastSuccessAt": "2026-10-01T01:07:22.121Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:10.702Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:16:30.580Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:07:22.121Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Free & fast alternative to Wispr Flow",
   "github": {
     "repository": {
       "full_name": "zachlatta/freeflow",
-      "stargazers_count": 2760,
-      "forks_count": 278,
-      "open_issues_count": 83,
+      "stargazers_count": 2768,
+      "forks_count": 280,
+      "open_issues_count": 85,
       "language": "Swift",
       "pushed_at": "2026-09-28T06:27:32Z",
-      "updated_at": "2026-09-29T12:06:33Z",
+      "updated_at": "2026-09-30T17:02:26Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,7 +53,7 @@
     "latestReleaseAt": "2026-08-11T12:54:59Z",
     "homepage": "https://freeflow.zachlatta.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:30.580Z",
+      "syncedAt": "2026-10-01T01:07:22.121Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "flow-launcher",
   "repoUrl": "https://github.com/Flow-Launcher/Flow.Launcher",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:06.440Z",
+  "lastSuccessAt": "2026-10-01T01:06:56.785Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:34:05.146Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-29T13:16:06.440Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:56.785Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": ":mag: Quick file search & app launcher for Windows with community-made plugins",
   "github": {
     "repository": {
       "full_name": "Flow-Launcher/Flow.Launcher",
-      "stargazers_count": 15675,
+      "stargazers_count": 15687,
       "forks_count": 655,
-      "open_issues_count": 309,
+      "open_issues_count": 308,
       "language": "C#",
-      "pushed_at": "2026-09-28T14:00:53Z",
-      "updated_at": "2026-09-29T13:05:25Z",
+      "pushed_at": "2026-09-30T20:23:24Z",
+      "updated_at": "2026-09-30T23:34:48Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -63,7 +68,7 @@
     "latestReleaseAt": "2026-09-20T11:11:21Z",
     "homepage": "https://flowlauncher.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:06.440Z",
+      "syncedAt": "2026-10-01T01:06:56.785Z",
       "source": "api"
     }
   },

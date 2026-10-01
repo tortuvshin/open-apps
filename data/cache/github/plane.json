@@ -3,7 +3,7 @@
   "slug": "plane",
   "repoUrl": "https://github.com/makeplane/plane",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:34.308Z",
+  "lastSuccessAt": "2026-10-01T01:11:26.273Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:26.905Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:20:34.308Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:11:26.273Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
   "github": {
     "repository": {
       "full_name": "makeplane/plane",
-      "stargazers_count": 60063,
-      "forks_count": 5910,
-      "open_issues_count": 1064,
+      "stargazers_count": 60188,
+      "forks_count": 5928,
+      "open_issues_count": 1069,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T13:03:18Z",
-      "updated_at": "2026-09-29T13:11:55Z",
+      "pushed_at": "2026-09-30T06:19:58Z",
+      "updated_at": "2026-10-01T01:02:43Z",
       "archived": false,
       "disabled": false,
       "default_branch": "preview",
@@ -69,7 +74,7 @@
     "latestReleaseAt": "2026-08-23T14:39:21Z",
     "homepage": "http://plane.so",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:34.308Z",
+      "syncedAt": "2026-10-01T01:11:26.273Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "eigent",
   "repoUrl": "https://github.com/eigent-ai/eigent",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:46.811Z",
+  "lastSuccessAt": "2026-10-01T01:06:36.950Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:45.474Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:15:46.811Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:36.950Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
   "github": {
     "repository": {
       "full_name": "eigent-ai/eigent",
-      "stargazers_count": 15447,
+      "stargazers_count": 15451,
       "forks_count": 1840,
-      "open_issues_count": 235,
+      "open_issues_count": 255,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T05:53:23Z",
-      "updated_at": "2026-09-29T12:37:46Z",
+      "pushed_at": "2026-09-30T17:01:49Z",
+      "updated_at": "2026-09-30T19:06:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +63,7 @@
     "latestReleaseAt": "2026-09-25T14:05:30Z",
     "homepage": "https://www.eigent.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:46.811Z",
+      "syncedAt": "2026-10-01T01:06:36.950Z",
       "source": "api"
     }
   },

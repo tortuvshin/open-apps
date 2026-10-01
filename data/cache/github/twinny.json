@@ -3,7 +3,7 @@
   "slug": "twinny",
   "repoUrl": "https://github.com/twinnydotdev/twinny",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:19.840Z",
+  "lastSuccessAt": "2026-10-01T01:13:11.244Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:57.061Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:22:19.840Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:11.244Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source AI coding assistant for VS Code. Code completion, chat, edits and reviews with local or hosted models. Your models, your infrastructure.",
   "github": {
     "repository": {
       "full_name": "twinnydotdev/twinny",
-      "stargazers_count": 3658,
+      "stargazers_count": 3659,
       "forks_count": 230,
       "open_issues_count": 51,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T11:03:03Z",
-      "updated_at": "2026-09-29T11:03:07Z",
+      "pushed_at": "2026-09-30T08:54:42Z",
+      "updated_at": "2026-09-30T08:54:48Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,7 +62,7 @@
     "latestReleaseAt": "2026-09-22T10:32:33Z",
     "homepage": "https://twinny.dev",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:19.840Z",
+      "syncedAt": "2026-10-01T01:13:11.244Z",
       "source": "api"
     }
   },

@@ -3,7 +3,7 @@
   "slug": "opentag",
   "repoUrl": "https://github.com/amplifthq/opentag",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:20:04.983Z",
+  "lastSuccessAt": "2026-10-01T01:10:56.060Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:09.539Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:20:04.983Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:10:56.060Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Mention any ACP coding agent from Slack, GitHub, GitLab, Linear, or Lark. OpenTag runs Claude Code, Codex, Cursor and more on your own machine, then replies in-thread with verified, evidence-backed results.",
   "github": {
     "repository": {
       "full_name": "amplifthq/opentag",
-      "stargazers_count": 1378,
+      "stargazers_count": 1380,
       "forks_count": 78,
       "open_issues_count": 6,
       "language": "TypeScript",
       "pushed_at": "2026-09-28T01:12:15Z",
-      "updated_at": "2026-09-28T04:38:10Z",
+      "updated_at": "2026-09-30T20:48:43Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +63,7 @@
     },
     "latestReleaseAt": "2026-08-17T06:51:22Z",
     "sync": {
-      "syncedAt": "2026-09-29T13:20:04.983Z",
+      "syncedAt": "2026-10-01T01:10:56.060Z",
       "source": "api"
     }
   },

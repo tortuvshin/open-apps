@@ -3,7 +3,7 @@
   "slug": "buzz",
   "repoUrl": "https://github.com/chidiwilliams/buzz",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:04.035Z",
+  "lastSuccessAt": "2026-10-01T01:05:56.817Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:34.729Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:15:04.035Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:56.817Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
   "github": {
     "repository": {
       "full_name": "chidiwilliams/buzz",
-      "stargazers_count": 21738,
-      "forks_count": 1608,
-      "open_issues_count": 20,
+      "stargazers_count": 21771,
+      "forks_count": 1610,
+      "open_issues_count": 23,
       "language": "Python",
       "pushed_at": "2026-09-23T12:49:26Z",
-      "updated_at": "2026-09-29T13:06:45Z",
+      "updated_at": "2026-10-01T00:37:15Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -40,7 +45,7 @@
     "latestReleaseAt": "2026-08-23T08:28:36Z",
     "homepage": "https://chidiwilliams.github.io/buzz",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:04.035Z",
+      "syncedAt": "2026-10-01T01:05:56.817Z",
       "source": "api"
     }
   },

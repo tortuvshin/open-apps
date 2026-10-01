@@ -3,13 +3,8 @@
   "slug": "bikeshare",
   "repoUrl": "https://github.com/joreilly/BikeShare",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:14:45.770Z",
+  "lastSuccessAt": "2026-10-01T01:05:39.389Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:00:48.602Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:09:10.650Z",
       "source": "candidates",
@@ -27,6 +22,11 @@
     },
     {
       "at": "2026-09-29T13:14:45.770Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:39.389Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
@@ -118,7 +118,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 58,
+      "forks_count": 59,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -201,7 +201,7 @@
       "contributorsKnown": 7
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:14:45.770Z",
+      "syncedAt": "2026-10-01T01:05:39.389Z",
       "source": "api"
     },
     "languages": {

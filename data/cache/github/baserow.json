@@ -3,7 +3,7 @@
   "slug": "baserow",
   "repoUrl": "https://github.com/baserow/baserow",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:14:35.589Z",
+  "lastSuccessAt": "2026-10-01T01:05:25.801Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:07.775Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:14:35.589Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:05:25.801Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
   "github": {
     "repository": {
       "full_name": "baserow/baserow",
-      "stargazers_count": 6021,
-      "forks_count": 743,
-      "open_issues_count": 1227,
+      "stargazers_count": 6035,
+      "forks_count": 747,
+      "open_issues_count": 1201,
       "language": "Python",
-      "pushed_at": "2026-09-29T13:12:18Z",
-      "updated_at": "2026-09-29T13:12:41Z",
+      "pushed_at": "2026-09-30T22:33:34Z",
+      "updated_at": "2026-10-01T00:10:38Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -52,10 +57,10 @@
         "spreadsheet"
       ]
     },
-    "latestReleaseAt": "2026-09-15T15:38:09Z",
+    "latestReleaseAt": "2026-09-30T08:29:05Z",
     "homepage": "https://baserow.io",
     "sync": {
-      "syncedAt": "2026-09-29T13:14:35.589Z",
+      "syncedAt": "2026-10-01T01:05:25.801Z",
       "source": "api"
     }
   },

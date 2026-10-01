@@ -3,7 +3,7 @@
   "slug": "voicetypr",
   "repoUrl": "https://github.com/ideaplexa/voicetypr",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:22:49.162Z",
+  "lastSuccessAt": "2026-10-01T01:13:41.176Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:35.894Z",
@@ -24,6 +24,11 @@
       "at": "2026-09-29T13:22:49.162Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:13:41.176Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Voicetypr - AI powered offline voice to text dictation tool for busy founders, vibe coders, AI power users on macos, windows. Alternative to wispr flow and superwhisper.",
@@ -31,11 +36,11 @@
     "repository": {
       "full_name": "ideaplexa/voicetypr",
       "stargazers_count": 724,
-      "forks_count": 101,
+      "forks_count": 102,
       "open_issues_count": 2,
       "language": "Rust",
-      "pushed_at": "2026-09-29T11:44:45Z",
-      "updated_at": "2026-09-29T10:57:02Z",
+      "pushed_at": "2026-09-29T21:40:54Z",
+      "updated_at": "2026-09-29T21:23:31Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,7 +62,7 @@
     "latestReleaseAt": "2026-09-27T22:50:24Z",
     "homepage": "https://voicetypr.com",
     "sync": {
-      "syncedAt": "2026-09-29T13:22:49.162Z",
+      "syncedAt": "2026-10-01T01:13:41.176Z",
       "source": "api"
     }
   },

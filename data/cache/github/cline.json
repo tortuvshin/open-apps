@@ -3,7 +3,7 @@
   "slug": "cline",
   "repoUrl": "https://github.com/cline/cline",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:15:19.351Z",
+  "lastSuccessAt": "2026-10-01T01:06:10.290Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:47.445Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:15:19.351Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:06:10.290Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
   "github": {
     "repository": {
       "full_name": "cline/cline",
-      "stargazers_count": 69539,
-      "forks_count": 7548,
-      "open_issues_count": 1483,
+      "stargazers_count": 69627,
+      "forks_count": 7569,
+      "open_issues_count": 1531,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T10:37:44Z",
-      "updated_at": "2026-09-29T13:02:44Z",
+      "pushed_at": "2026-10-01T00:41:50Z",
+      "updated_at": "2026-10-01T00:47:10Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -35,10 +40,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-29T05:30:55Z",
+    "latestReleaseAt": "2026-09-30T23:56:13Z",
     "homepage": "https://cline.bot",
     "sync": {
-      "syncedAt": "2026-09-29T13:15:19.351Z",
+      "syncedAt": "2026-10-01T01:06:10.290Z",
       "source": "api"
     }
   },
@@ -58,7 +63,62 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/cline/cline/releases/latest",
+        "facts": {
+          "tag": "desktop-v0.0.40",
+          "assets": [
+            "Cline_0.0.40_aarch64.rpm",
+            "Cline_0.0.40_amd64.deb",
+            "Cline_0.0.40_arm64.deb",
+            "Cline_0.0.40_x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.40",
+          "fetchedAt": "2026-10-01T01:06:08.391Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/cline/cline/releases/latest",
+        "facts": {
+          "tag": "desktop-v0.0.40",
+          "assets": [
+            "Cline_0.0.40_universal.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.40",
+          "fetchedAt": "2026-10-01T01:06:08.391Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/cline/cline/releases/latest",
+        "facts": {
+          "tag": "desktop-v0.0.40",
+          "assets": [
+            "Cline_0.0.40_x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.40",
+          "fetchedAt": "2026-10-01T01:06:08.391Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/cline/cline/blob/efecb47fea0b1d43588c54bce8e0ce3d47b6167f/assets/branding/cline-app-icon.svg",

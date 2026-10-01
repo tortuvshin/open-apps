@@ -3,13 +3,8 @@
   "slug": "habo",
   "repoUrl": "https://github.com/xpavle00/Habo",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:46.457Z",
+  "lastSuccessAt": "2026-10-01T01:07:38.151Z",
   "partialFailures": [
-    {
-      "at": "2026-09-27T09:01:39.771Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:10:15.786Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-29T13:16:46.457Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:07:38.151Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-29T13:16:46.457Z",
+      "syncedAt": "2026-10-01T01:07:38.151Z",
       "source": "api"
     },
     "repository": {
       "full_name": "xpavle00/Habo",
-      "stargazers_count": 1514,
+      "stargazers_count": 1513,
       "forks_count": 182,
       "open_issues_count": 31,
       "language": "Dart",
-      "pushed_at": "2026-09-20T08:10:38Z",
-      "updated_at": "2026-09-27T23:58:05Z",
+      "pushed_at": "2026-09-30T20:49:03Z",
+      "updated_at": "2026-09-30T21:24:49Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",

@@ -3,7 +3,7 @@
   "slug": "opencode",
   "repoUrl": "https://github.com/anomalyco/opencode",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:19:39.370Z",
+  "lastSuccessAt": "2026-10-01T01:10:29.611Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:32.753Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:19:39.370Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:10:29.611Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "The open source coding agent.",
   "github": {
     "repository": {
       "full_name": "anomalyco/opencode",
-      "stargazers_count": 210770,
-      "forks_count": 27910,
-      "open_issues_count": 6251,
+      "stargazers_count": 211179,
+      "forks_count": 27985,
+      "open_issues_count": 6346,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T12:22:55Z",
-      "updated_at": "2026-09-29T13:19:10Z",
+      "pushed_at": "2026-09-30T23:19:36Z",
+      "updated_at": "2026-10-01T01:04:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -35,10 +40,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-28T04:22:46Z",
+    "latestReleaseAt": "2026-09-30T22:39:45Z",
     "homepage": "https://opencode.ai",
     "sync": {
-      "syncedAt": "2026-09-29T13:19:39.370Z",
+      "syncedAt": "2026-10-01T01:10:29.611Z",
       "source": "api"
     }
   },
@@ -80,7 +85,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/anomalyco/opencode/releases/latest",
         "facts": {
-          "tag": "v1.18.33",
+          "tag": "v1.18.34",
           "assets": [
             "opencode-desktop-linux-aarch64.rpm",
             "opencode-desktop-linux-amd64.deb",
@@ -92,8 +97,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.33",
-          "fetchedAt": "2026-09-28T18:16:27.512Z"
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.34",
+          "fetchedAt": "2026-10-01T01:10:26.371Z"
         }
       },
       {
@@ -102,7 +107,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/anomalyco/opencode/releases/latest",
         "facts": {
-          "tag": "v1.18.33",
+          "tag": "v1.18.34",
           "assets": [
             "opencode-desktop-mac-arm64.dmg",
             "opencode-desktop-mac-x64.dmg"
@@ -110,8 +115,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.33",
-          "fetchedAt": "2026-09-28T18:16:27.512Z"
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.34",
+          "fetchedAt": "2026-10-01T01:10:26.371Z"
         }
       },
       {
@@ -120,7 +125,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/anomalyco/opencode/releases/latest",
         "facts": {
-          "tag": "v1.18.33",
+          "tag": "v1.18.34",
           "assets": [
             "opencode-desktop-win-arm64.exe",
             "opencode-desktop-win-x64.exe"
@@ -128,8 +133,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.33",
-          "fetchedAt": "2026-09-28T18:16:27.512Z"
+          "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.34",
+          "fetchedAt": "2026-10-01T01:10:26.371Z"
         }
       }
     ],

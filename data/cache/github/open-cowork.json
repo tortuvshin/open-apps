@@ -3,7 +3,7 @@
   "slug": "open-cowork",
   "repoUrl": "https://github.com/OpenCoworkAI/open-cowork",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:19:29.925Z",
+  "lastSuccessAt": "2026-10-01T01:10:20.931Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:51.993Z",
@@ -24,18 +24,23 @@
       "at": "2026-09-29T13:19:29.925Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:10:20.931Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration.",
   "github": {
     "repository": {
       "full_name": "OpenCoworkAI/open-cowork",
-      "stargazers_count": 2176,
-      "forks_count": 308,
-      "open_issues_count": 108,
+      "stargazers_count": 2179,
+      "forks_count": 309,
+      "open_issues_count": 104,
       "language": "TypeScript",
-      "pushed_at": "2026-09-28T15:36:10Z",
-      "updated_at": "2026-09-29T13:02:36Z",
+      "pushed_at": "2026-09-30T13:59:48Z",
+      "updated_at": "2026-09-30T17:42:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,7 +68,7 @@
     "latestReleaseAt": "2026-05-23T16:43:09Z",
     "homepage": "https://github.com/OpenCoworkAI/open-cowork",
     "sync": {
-      "syncedAt": "2026-09-29T13:19:29.925Z",
+      "syncedAt": "2026-10-01T01:10:20.931Z",
       "source": "api"
     }
   },

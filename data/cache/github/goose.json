@@ -3,7 +3,7 @@
   "slug": "goose",
   "repoUrl": "https://github.com/aaif-goose/goose",
   "source": "api",
-  "lastSuccessAt": "2026-09-29T13:16:39.968Z",
+  "lastSuccessAt": "2026-10-01T01:07:31.323Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:58.940Z",
@@ -14,18 +14,23 @@
       "at": "2026-09-29T13:16:39.968Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-01T01:07:31.323Z",
+      "source": "candidates",
+      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
   "sourceDescription": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
   "github": {
     "repository": {
       "full_name": "aaif-goose/goose",
-      "stargazers_count": 54766,
-      "forks_count": 6341,
-      "open_issues_count": 427,
+      "stargazers_count": 54816,
+      "forks_count": 6354,
+      "open_issues_count": 412,
       "language": "Rust",
-      "pushed_at": "2026-09-29T08:46:17Z",
-      "updated_at": "2026-09-29T13:02:16Z",
+      "pushed_at": "2026-09-30T20:54:07Z",
+      "updated_at": "2026-09-30T23:20:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -43,7 +48,7 @@
     "latestReleaseAt": "2026-09-23T14:59:14Z",
     "homepage": "https://goose-docs.ai/",
     "sync": {
-      "syncedAt": "2026-09-29T13:16:39.968Z",
+      "syncedAt": "2026-10-01T01:07:31.323Z",
       "source": "api"
     }
   },
