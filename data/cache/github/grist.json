@@ -3,7 +3,7 @@
   "slug": "grist",
   "repoUrl": "https://github.com/gristlabs/grist-core",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:51.047Z",
+  "lastSuccessAt": "2026-10-03T08:37:49.553Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:01.063Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "gristlabs/grist-core",
-      "stargazers_count": 11881,
-      "forks_count": 650,
+      "stargazers_count": 11886,
+      "forks_count": 652,
       "open_issues_count": 733,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:01:16Z",
-      "updated_at": "2026-09-30T16:01:27Z",
+      "pushed_at": "2026-10-03T06:14:37Z",
+      "updated_at": "2026-10-02T18:52:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +47,7 @@
     "latestReleaseAt": "2026-09-28T23:04:24Z",
     "homepage": "https://www.getgrist.com",
     "sync": {
-      "syncedAt": "2026-09-30T16:15:51.047Z",
+      "syncedAt": "2026-10-03T08:37:49.553Z",
       "source": "api"
     }
   },
@@ -67,7 +67,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=grist-core",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "grist-core",
+          "version": "1.7.19",
+          "project": "grist-core",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/grist-core/versions",
+          "fetchedAt": "2026-10-03T08:37:47.676Z"
+        }
+      }
+    ],
     "logos": [],
     "screenshots": []
   }

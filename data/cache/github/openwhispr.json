@@ -3,7 +3,7 @@
   "slug": "openwhispr",
   "repoUrl": "https://github.com/OpenWhispr/openwhispr",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:18:45.133Z",
+  "lastSuccessAt": "2026-10-03T08:40:54.333Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:59.572Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "OpenWhispr/openwhispr",
-      "stargazers_count": 8879,
-      "forks_count": 1099,
-      "open_issues_count": 403,
+      "stargazers_count": 8979,
+      "forks_count": 1109,
+      "open_issues_count": 412,
       "language": "JavaScript",
-      "pushed_at": "2026-09-30T09:57:39Z",
-      "updated_at": "2026-09-30T16:12:17Z",
+      "pushed_at": "2026-10-02T23:54:01Z",
+      "updated_at": "2026-10-03T07:27:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -59,7 +59,7 @@
     "latestReleaseAt": "2026-09-15T03:14:49Z",
     "homepage": "https://openwhispr.com",
     "sync": {
-      "syncedAt": "2026-09-30T16:18:45.133Z",
+      "syncedAt": "2026-10-03T08:40:54.333Z",
       "source": "api"
     }
   },
@@ -133,6 +133,63 @@
           "source": "github-releases",
           "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
           "fetchedAt": "2026-09-28T18:16:56.819Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/openwhispr-appimage",
+        "facts": {
+          "repository": "aur",
+          "package": "openwhispr-appimage",
+          "version": "1.10.2",
+          "project": "openwhispr",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwhispr/versions",
+          "fetchedAt": "2026-10-03T08:40:52.505Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/openwhispr",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "openwhispr",
+          "version": "1.10.2",
+          "project": "openwhispr",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwhispr/versions",
+          "fetchedAt": "2026-10-03T08:40:52.505Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=openwhispr",
+        "facts": {
+          "repository": "scoop",
+          "package": "openwhispr",
+          "version": "1.10.2",
+          "project": "openwhispr",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwhispr/versions",
+          "fetchedAt": "2026-10-03T08:40:52.505Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "voquill",
   "repoUrl": "https://github.com/voquill/voquill",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:21:05.746Z",
+  "lastSuccessAt": "2026-10-03T08:43:23.371Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:27.905Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "voquill/voquill",
-      "stargazers_count": 1012,
+      "stargazers_count": 1013,
       "forks_count": 127,
-      "open_issues_count": 63,
+      "open_issues_count": 66,
       "language": "TypeScript",
       "pushed_at": "2026-09-26T17:29:37Z",
-      "updated_at": "2026-09-30T07:50:41Z",
+      "updated_at": "2026-10-02T19:54:46Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -54,7 +54,7 @@
     "latestReleaseAt": "2026-09-26T17:43:21Z",
     "homepage": "https://voquill.com/dictation",
     "sync": {
-      "syncedAt": "2026-09-30T16:21:05.746Z",
+      "syncedAt": "2026-10-03T08:43:23.371Z",
       "source": "api"
     }
   },
@@ -129,6 +129,25 @@
           "source": "github-releases",
           "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.652",
           "fetchedAt": "2026-09-28T18:19:24.350Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/voquill",
+        "facts": {
+          "repository": "aur",
+          "package": "voquill",
+          "version": "0.0.652",
+          "project": "voquill",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/voquill/versions",
+          "fetchedAt": "2026-10-03T08:43:19.720Z"
         }
       }
     ],

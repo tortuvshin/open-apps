@@ -3,7 +3,7 @@
   "slug": "notesnook",
   "repoUrl": "https://github.com/streetwriters/notesnook",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:59.439Z",
+  "lastSuccessAt": "2026-10-03T08:40:06.174Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:41.129Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/streetwriters/notesnook/releases{/id}",
       "deployments_url": "https://api.github.com/repos/streetwriters/notesnook/deployments",
       "created_at": "2021-04-01T17:25:54Z",
-      "updated_at": "2026-09-30T15:47:20Z",
-      "pushed_at": "2026-09-30T07:52:14Z",
+      "updated_at": "2026-10-03T08:22:45Z",
+      "pushed_at": "2026-10-03T08:21:56Z",
       "git_url": "git://github.com/streetwriters/notesnook.git",
       "ssh_url": "git@github.com:streetwriters/notesnook.git",
       "clone_url": "https://github.com/streetwriters/notesnook.git",
       "svn_url": "https://github.com/streetwriters/notesnook",
       "homepage": "https://notesnook.com/",
       "size": 291745,
-      "stargazers_count": 14702,
+      "stargazers_count": 14709,
       "watchers_count": 14314,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": true,
-      "forks_count": 1015,
+      "forks_count": 1025,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1065,
+      "open_issues_count": 1070,
       "license": {
         "spdx_id": "GPL-3.0",
         "name": "GPL-3.0"
@@ -239,7 +239,7 @@
       "openPullRequests": 63
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:17:59.439Z",
+      "syncedAt": "2026-10-03T08:40:06.174Z",
       "source": "api"
     },
     "html": {
@@ -340,6 +340,101 @@
           "source": "github-releases",
           "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
           "fetchedAt": "2026-09-26T14:39:50.600Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/notesnook",
+        "facts": {
+          "repository": "aur",
+          "package": "notesnook",
+          "version": "3.4.8",
+          "project": "notesnook",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/notesnook/versions",
+          "fetchedAt": "2026-10-03T08:40:02.852Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=notesnook",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "notesnook",
+          "version": "3.4.7",
+          "project": "notesnook",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/notesnook/versions",
+          "fetchedAt": "2026-10-03T08:40:02.852Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/notesnook",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "notesnook",
+          "version": "3.4.8",
+          "project": "notesnook",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/notesnook/versions",
+          "fetchedAt": "2026-10-03T08:40:02.852Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/notesnook",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "notesnook",
+          "version": "3.4.8",
+          "project": "notesnook",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/notesnook/versions",
+          "fetchedAt": "2026-10-03T08:40:02.852Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=notesnook",
+        "facts": {
+          "repository": "scoop",
+          "package": "notesnook",
+          "version": "3.4.8",
+          "project": "notesnook",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/notesnook/versions",
+          "fetchedAt": "2026-10-03T08:40:02.852Z"
         }
       }
     ],

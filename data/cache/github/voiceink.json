@@ -3,7 +3,7 @@
   "slug": "voiceink",
   "repoUrl": "https://github.com/Beingpax/VoiceInk",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:20:57.752Z",
+  "lastSuccessAt": "2026-10-03T08:43:14.606Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:31.158Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Beingpax/VoiceInk",
-      "stargazers_count": 6616,
-      "forks_count": 936,
-      "open_issues_count": 130,
+      "stargazers_count": 6642,
+      "forks_count": 941,
+      "open_issues_count": 135,
       "language": "Swift",
-      "pushed_at": "2026-09-30T15:17:36Z",
-      "updated_at": "2026-09-30T15:19:16Z",
+      "pushed_at": "2026-10-01T09:16:53Z",
+      "updated_at": "2026-10-03T05:36:27Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,7 +57,7 @@
     "latestReleaseAt": "2026-09-28T14:30:01Z",
     "homepage": "https://tryvoiceink.com",
     "sync": {
-      "syncedAt": "2026-09-30T16:20:57.752Z",
+      "syncedAt": "2026-10-03T08:43:14.606Z",
       "source": "api"
     }
   },
@@ -93,6 +93,25 @@
           "source": "github-releases",
           "url": "https://github.com/Beingpax/VoiceInk/releases/tag/v2.21",
           "fetchedAt": "2026-09-28T17:13:29.705Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/voiceink",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "voiceink",
+          "version": "2.21",
+          "project": "voiceink",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/voiceink/versions",
+          "fetchedAt": "2026-10-03T08:43:12.859Z"
         }
       }
     ],

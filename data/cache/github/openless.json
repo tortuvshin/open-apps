@@ -3,7 +3,7 @@
   "slug": "openless",
   "repoUrl": "https://github.com/Open-Less/openless",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:18:26.823Z",
+  "lastSuccessAt": "2026-10-03T08:40:37.872Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:02.232Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Open-Less/openless",
-      "stargazers_count": 3680,
+      "stargazers_count": 3699,
       "forks_count": 346,
-      "open_issues_count": 27,
+      "open_issues_count": 37,
       "language": "Rust",
-      "pushed_at": "2026-09-30T13:23:16Z",
-      "updated_at": "2026-09-30T15:35:52Z",
+      "pushed_at": "2026-10-02T05:45:03Z",
+      "updated_at": "2026-10-03T01:16:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "beta",
@@ -70,7 +70,7 @@
     "latestReleaseAt": "2026-08-21T13:23:21Z",
     "homepage": "https://github.com/appergb/openless",
     "sync": {
-      "syncedAt": "2026-09-30T16:18:26.823Z",
+      "syncedAt": "2026-10-03T08:40:37.872Z",
       "source": "api"
     }
   },
@@ -164,6 +164,25 @@
           "source": "github-releases",
           "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
           "fetchedAt": "2026-09-28T17:11:59.616Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/openless-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "openless-bin",
+          "version": "1.3.18",
+          "project": "openless",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openless/versions",
+          "fetchedAt": "2026-10-03T08:40:35.460Z"
         }
       }
     ],

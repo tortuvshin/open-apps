@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:18:04.871Z",
+  "lastSuccessAt": "2026-10-03T08:40:13.298Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:44.614Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:18:04.871Z",
+      "syncedAt": "2026-10-03T08:40:13.298Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
-      "stargazers_count": 472,
+      "stargazers_count": 473,
       "forks_count": 58,
-      "open_issues_count": 26,
+      "open_issues_count": 27,
       "language": "Dart",
       "pushed_at": "2026-09-23T05:00:21Z",
-      "updated_at": "2026-09-30T09:48:30Z",
+      "updated_at": "2026-10-02T10:14:17Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -147,6 +147,25 @@
           "source": "github-releases",
           "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
           "fetchedAt": "2026-09-26T14:39:53.531Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/oinkoin-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "oinkoin-bin",
+          "version": "1.14.0",
+          "project": "oinkoin",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/oinkoin/versions",
+          "fetchedAt": "2026-10-03T08:40:09.019Z"
         }
       }
     ],

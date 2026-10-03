@@ -3,7 +3,7 @@
   "slug": "kanboard",
   "repoUrl": "https://github.com/kanboard/kanboard",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:37.127Z",
+  "lastSuccessAt": "2026-10-03T08:38:33.929Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:44.332Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "kanboard/kanboard",
-      "stargazers_count": 9890,
-      "forks_count": 1994,
-      "open_issues_count": 169,
+      "stargazers_count": 9895,
+      "forks_count": 1992,
+      "open_issues_count": 163,
       "language": "PHP",
-      "pushed_at": "2026-09-23T21:33:19Z",
-      "updated_at": "2026-09-30T01:24:02Z",
+      "pushed_at": "2026-10-03T07:52:11Z",
+      "updated_at": "2026-10-03T07:52:21Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,7 +49,7 @@
     "latestReleaseAt": "2026-08-29T02:38:58Z",
     "homepage": "https://kanboard.org",
     "sync": {
-      "syncedAt": "2026-09-30T16:16:37.127Z",
+      "syncedAt": "2026-10-03T08:38:33.929Z",
       "source": "api"
     }
   },
@@ -69,7 +69,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/kanboard",
+        "facts": {
+          "repository": "aur",
+          "package": "kanboard",
+          "version": "1.2.54",
+          "project": "kanboard",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/kanboard/versions",
+          "fetchedAt": "2026-10-03T08:38:32.058Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=kanboard",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "kanboard",
+          "version": "1.2.52",
+          "project": "kanboard",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/kanboard/versions",
+          "fetchedAt": "2026-10-03T08:38:32.058Z"
+        }
+      }
+    ],
     "logos": [],
     "screenshots": []
   }

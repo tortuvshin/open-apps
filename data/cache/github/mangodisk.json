@@ -3,7 +3,7 @@
   "slug": "mangodisk",
   "repoUrl": "https://github.com/harry0703/MangoDisk",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:17.687Z",
+  "lastSuccessAt": "2026-10-03T08:39:22.273Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:09.049Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "harry0703/MangoDisk",
-      "stargazers_count": 3499,
-      "forks_count": 258,
-      "open_issues_count": 9,
+      "stargazers_count": 3596,
+      "forks_count": 262,
+      "open_issues_count": 8,
       "language": "Rust",
-      "pushed_at": "2026-09-30T12:51:56Z",
-      "updated_at": "2026-09-30T15:39:15Z",
+      "pushed_at": "2026-10-03T03:57:48Z",
+      "updated_at": "2026-10-03T08:32:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-30T07:30:26Z",
     "homepage": "https://mangodisk.app/",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:17.687Z",
+      "syncedAt": "2026-10-03T08:39:22.273Z",
       "source": "api"
     }
   },
@@ -149,6 +149,25 @@
           "source": "github-releases",
           "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.1.5",
           "fetchedAt": "2026-09-30T16:17:16.106Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/mangodisk",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "mangodisk",
+          "version": "1.1.5",
+          "project": "mangodisk",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mangodisk/versions",
+          "fetchedAt": "2026-10-03T08:39:20.526Z"
         }
       }
     ],

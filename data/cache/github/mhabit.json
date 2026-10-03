@@ -3,7 +3,7 @@
   "slug": "mhabit",
   "repoUrl": "https://github.com/FriesI23/mhabit",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:42.682Z",
+  "lastSuccessAt": "2026-10-03T08:39:49.167Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:30.058Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:17:42.682Z",
+      "syncedAt": "2026-10-03T08:39:49.167Z",
       "source": "api"
     },
     "repository": {
       "full_name": "FriesI23/mhabit",
-      "stargazers_count": 1619,
+      "stargazers_count": 1626,
       "forks_count": 100,
       "open_issues_count": 79,
       "language": "Dart",
-      "pushed_at": "2026-09-30T01:29:17Z",
-      "updated_at": "2026-09-30T15:04:30Z",
+      "pushed_at": "2026-10-02T00:53:12Z",
+      "updated_at": "2026-10-03T07:17:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -108,13 +108,13 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "suggestedVersionCode": 198,
-          "evidence": "https://github.com/FriesI23/mhabit/blob/6bb2c9c6e0448537751afe8d03fd200d957963f8/android/app/build.gradle",
+          "evidence": "https://github.com/FriesI23/mhabit/blob/65c5c4bb5463c89e3c06f4a78a70ce0868aae82d/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-09-30T16:17:40.947Z"
+          "fetchedAt": "2026-10-03T08:39:47.275Z"
         }
       },
       {
@@ -125,12 +125,12 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "match": "metainfo",
-          "evidence": "https://github.com/FriesI23/mhabit/blob/6bb2c9c6e0448537751afe8d03fd200d957963f8/flatpak/io.github.friesi23.mhabit.metainfo.xml"
+          "evidence": "https://github.com/FriesI23/mhabit/blob/65c5c4bb5463c89e3c06f4a78a70ce0868aae82d/flatpak/io.github.friesi23.mhabit.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-09-30T16:17:40.947Z"
+          "fetchedAt": "2026-10-03T08:39:47.275Z"
         }
       },
       {
@@ -203,6 +203,25 @@
           "source": "github-releases",
           "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
           "fetchedAt": "2026-09-26T14:39:42.068Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=mhabit",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "mhabit",
+          "version": "1.26.7+180",
+          "project": "mhabit",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mhabit/versions",
+          "fetchedAt": "2026-10-03T08:39:47.275Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:21:18.941Z",
+  "lastSuccessAt": "2026-10-03T08:43:36.874Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
@@ -30,12 +30,12 @@
   "github": {
     "repository": {
       "full_name": "Wox-launcher/Wox",
-      "stargazers_count": 27472,
+      "stargazers_count": 27476,
       "forks_count": 2437,
-      "open_issues_count": 4,
+      "open_issues_count": 1,
       "language": "Go",
-      "pushed_at": "2026-09-30T15:38:26Z",
-      "updated_at": "2026-09-30T15:38:37Z",
+      "pushed_at": "2026-10-03T07:23:42Z",
+      "updated_at": "2026-10-03T08:29:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-09-23T02:56:52Z",
     "homepage": "https://www.woxlauncher.com/",
     "sync": {
-      "syncedAt": "2026-09-30T16:21:18.941Z",
+      "syncedAt": "2026-10-03T08:43:36.874Z",
       "source": "api"
     }
   },
@@ -133,6 +133,101 @@
           "source": "github-releases",
           "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.4.5",
           "fetchedAt": "2026-09-28T17:38:04.586Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/wox-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "wox-bin",
+          "version": "2.4.5",
+          "project": "wox",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/wox/versions",
+          "fetchedAt": "2026-10-03T08:43:34.068Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=wox",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "wox",
+          "version": "2.3.0",
+          "project": "wox",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/wox/versions",
+          "fetchedAt": "2026-10-03T08:43:34.068Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/wox",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "wox",
+          "version": "2.4.5",
+          "project": "wox",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/wox/versions",
+          "fetchedAt": "2026-10-03T08:43:34.068Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/wox",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "wox",
+          "version": "2.3.0",
+          "project": "wox",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/wox/versions",
+          "fetchedAt": "2026-10-03T08:43:34.068Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=wox",
+        "facts": {
+          "repository": "scoop",
+          "package": "wox",
+          "version": "2.4.5",
+          "project": "wox",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/wox/versions",
+          "fetchedAt": "2026-10-03T08:43:34.068Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "invokeai",
   "repoUrl": "https://github.com/invoke-ai/InvokeAI",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:25.156Z",
+  "lastSuccessAt": "2026-10-03T08:38:21.677Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:31.417Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "invoke-ai/InvokeAI",
-      "stargazers_count": 28314,
-      "forks_count": 2983,
-      "open_issues_count": 364,
-      "language": "Python",
-      "pushed_at": "2026-09-27T17:00:58Z",
-      "updated_at": "2026-09-30T15:15:45Z",
+      "stargazers_count": 28336,
+      "forks_count": 2987,
+      "open_issues_count": 392,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-03T03:02:03Z",
+      "updated_at": "2026-10-03T07:49:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,7 +57,7 @@
     "latestReleaseAt": "2026-09-27T18:31:53Z",
     "homepage": "https://invoke-ai.github.io/InvokeAI/",
     "sync": {
-      "syncedAt": "2026-09-30T16:16:25.156Z",
+      "syncedAt": "2026-10-03T08:38:21.677Z",
       "source": "api"
     }
   },
@@ -78,7 +78,22 @@
   },
   "candidates": {
     "channels": [],
-    "logos": [],
+    "logos": [
+      {
+        "url": "https://github.com/invoke-ai/InvokeAI/blob/1ddf586e4a365f26d1c98a0ccde031f3d93f3f49/invokeai/frontend/webv2/public/invoke-icon.svg",
+        "path": "invokeai/frontend/webv2/public/invoke-icon.svg",
+        "blobSha": "3a3d4d553b96df2291078912c6eced9cafb273b4",
+        "format": "svg",
+        "bytes": 779,
+        "width": 16,
+        "height": 16,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/invoke-ai/InvokeAI/blob/1ddf586e4a365f26d1c98a0ccde031f3d93f3f49/invokeai/frontend/webv2/public/manifest.webmanifest",
+          "fetchedAt": "2026-10-03T08:38:19.528Z"
+        }
+      }
+    ],
     "screenshots": []
   }
 }

@@ -3,7 +3,7 @@
   "slug": "eigent",
   "repoUrl": "https://github.com/eigent-ai/eigent",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:02.450Z",
+  "lastSuccessAt": "2026-10-03T08:37:00.345Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:45.474Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "eigent-ai/eigent",
-      "stargazers_count": 15450,
-      "forks_count": 1839,
-      "open_issues_count": 253,
+      "stargazers_count": 15452,
+      "forks_count": 1836,
+      "open_issues_count": 243,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:01:26Z",
-      "updated_at": "2026-09-30T16:05:16Z",
+      "pushed_at": "2026-10-02T16:16:46Z",
+      "updated_at": "2026-10-03T01:33:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,7 +63,7 @@
     "latestReleaseAt": "2026-09-25T14:05:30Z",
     "homepage": "https://www.eigent.ai",
     "sync": {
-      "syncedAt": "2026-09-30T16:15:02.450Z",
+      "syncedAt": "2026-10-03T08:37:00.345Z",
       "source": "api"
     }
   },
@@ -134,6 +134,44 @@
           "source": "github-releases",
           "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.5",
           "fetchedAt": "2026-09-28T17:09:43.033Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/eigent-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "eigent-bin",
+          "version": "1.0.0",
+          "project": "eigent",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigent/versions",
+          "fetchedAt": "2026-10-03T08:36:58.429Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/eigent",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "eigent",
+          "version": "1.0.5",
+          "project": "eigent",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigent/versions",
+          "fetchedAt": "2026-10-03T08:36:58.429Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "minutes",
   "repoUrl": "https://github.com/silverstein/minutes",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:44.798Z",
+  "lastSuccessAt": "2026-10-03T08:39:51.363Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:55.901Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "silverstein/minutes",
-      "stargazers_count": 1519,
-      "forks_count": 167,
-      "open_issues_count": 76,
+      "stargazers_count": 1526,
+      "forks_count": 168,
+      "open_issues_count": 80,
       "language": "Rust",
-      "pushed_at": "2026-09-30T14:13:40Z",
-      "updated_at": "2026-09-30T11:29:28Z",
+      "pushed_at": "2026-10-03T04:11:28Z",
+      "updated_at": "2026-10-03T00:09:49Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -54,10 +54,10 @@
         "whisper"
       ]
     },
-    "latestReleaseAt": "2026-09-25T21:38:38Z",
+    "latestReleaseAt": "2026-10-01T04:24:55Z",
     "homepage": "https://useminutes.app",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:44.798Z",
+      "syncedAt": "2026-10-03T08:39:51.363Z",
       "source": "api"
     }
   },
@@ -84,15 +84,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/silverstein/minutes/releases/latest",
         "facts": {
-          "tag": "v0.27.0",
+          "tag": "v0.27.2",
           "assets": [
-            "Minutes_0.27.0_aarch64.dmg"
+            "Minutes_0.27.2_aarch64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.0",
-          "fetchedAt": "2026-09-28T18:15:53.385Z"
+          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.2",
+          "fetchedAt": "2026-10-03T08:39:49.526Z"
         }
       },
       {
@@ -101,7 +101,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/silverstein/minutes/releases/latest",
         "facts": {
-          "tag": "v0.27.0",
+          "tag": "v0.27.2",
           "assets": [
             "minutes-desktop-windows-x64-setup.exe",
             "minutes-desktop-windows-x64.exe",
@@ -110,8 +110,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.0",
-          "fetchedAt": "2026-09-28T18:15:53.385Z"
+          "url": "https://github.com/silverstein/minutes/releases/tag/v0.27.2",
+          "fetchedAt": "2026-10-03T08:39:49.526Z"
         }
       }
     ],

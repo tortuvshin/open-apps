@@ -3,7 +3,7 @@
   "slug": "comfyui",
   "repoUrl": "https://github.com/Comfy-Org/ComfyUI",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:14:45.042Z",
+  "lastSuccessAt": "2026-10-03T08:36:41.284Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:52.014Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stargazers_count": 135611,
-      "forks_count": 16084,
-      "open_issues_count": 5016,
+      "stargazers_count": 135931,
+      "forks_count": 16115,
+      "open_issues_count": 5027,
       "language": "Python",
-      "pushed_at": "2026-09-30T16:14:25Z",
-      "updated_at": "2026-09-30T16:05:42Z",
+      "pushed_at": "2026-10-03T08:30:39Z",
+      "updated_at": "2026-10-03T08:36:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -50,7 +50,7 @@
     "latestReleaseAt": "2026-09-29T21:46:45Z",
     "homepage": "https://www.comfy.org/",
     "sync": {
-      "syncedAt": "2026-09-30T16:14:45.042Z",
+      "syncedAt": "2026-10-03T08:36:41.284Z",
       "source": "api"
     }
   },
@@ -70,7 +70,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/comfyui",
+        "facts": {
+          "repository": "aur",
+          "package": "comfyui",
+          "version": "0.37.0",
+          "project": "comfyui",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/comfyui/versions",
+          "fetchedAt": "2026-10-03T08:36:38.976Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=comfyui",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "comfyui",
+          "version": "0.37.0",
+          "project": "comfyui",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/comfyui/versions",
+          "fetchedAt": "2026-10-03T08:36:38.976Z"
+        }
+      }
+    ],
     "logos": [],
     "screenshots": []
   }

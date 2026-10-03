@@ -3,7 +3,7 @@
   "slug": "joplin",
   "repoUrl": "https://github.com/laurent22/joplin",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:34.956Z",
+  "lastSuccessAt": "2026-10-03T08:38:31.655Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:44.202Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/laurent22/joplin/releases{/id}",
       "deployments_url": "https://api.github.com/repos/laurent22/joplin/deployments",
       "created_at": "2017-01-16T21:49:41Z",
-      "updated_at": "2026-09-30T15:26:43Z",
-      "pushed_at": "2026-09-30T13:47:48Z",
+      "updated_at": "2026-10-03T05:21:01Z",
+      "pushed_at": "2026-10-03T00:24:42Z",
       "git_url": "git://github.com/laurent22/joplin.git",
       "ssh_url": "git@github.com:laurent22/joplin.git",
       "clone_url": "https://github.com/laurent22/joplin.git",
       "svn_url": "https://github.com/laurent22/joplin",
       "homepage": "https://joplinapp.org",
       "size": 648664,
-      "stargazers_count": 56542,
+      "stargazers_count": 56567,
       "watchers_count": 55683,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6314,
+      "forks_count": 6313,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 651,
+      "open_issues_count": 644,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -200,7 +200,7 @@
       "contributorsKnown": 813
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:16:34.956Z",
+      "syncedAt": "2026-10-03T08:38:31.655Z",
       "source": "api"
     },
     "languages": {
@@ -258,13 +258,13 @@
         "facts": {
           "appId": "net.cozic.joplin",
           "suggestedVersionCode": 2097817,
-          "evidence": "https://github.com/laurent22/joplin/blob/06ebfbacde3b448fe86f6f50953d8c0951bfc495/packages/app-mobile/android/app/build.gradle",
+          "evidence": "https://github.com/laurent22/joplin/blob/b04a5f04890a71c8929db4b0ccd45369ea983ae4/packages/app-mobile/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/net.cozic.joplin",
-          "fetchedAt": "2026-09-30T16:16:31.757Z"
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
         }
       },
       {
@@ -336,6 +336,120 @@
           "source": "github-releases",
           "url": "https://github.com/laurent22/joplin/releases/tag/v3.7.21",
           "fetchedAt": "2026-09-26T14:39:01.231Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/joplin-desktop",
+        "facts": {
+          "repository": "aur",
+          "package": "joplin-desktop",
+          "version": "3.7.18",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=joplin-cli",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "joplin-cli",
+          "version": "3.7.1",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/joplin-cli",
+        "facts": {
+          "repository": "homebrew",
+          "package": "joplin-cli",
+          "version": "3.7.1",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/joplin",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "joplin",
+          "version": "3.7.21",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/joplin",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "joplin",
+          "version": "3.7.21",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=joplin",
+        "facts": {
+          "repository": "scoop",
+          "package": "joplin",
+          "version": "3.7.21",
+          "project": "joplin",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/joplin/versions",
+          "fetchedAt": "2026-10-03T08:38:28.203Z"
         }
       }
     ],

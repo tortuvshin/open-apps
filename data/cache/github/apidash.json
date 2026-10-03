@@ -3,7 +3,7 @@
   "slug": "apidash",
   "repoUrl": "https://github.com/foss42/apidash",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:13:43.512Z",
+  "lastSuccessAt": "2026-10-03T08:35:37.148Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:51.037Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "foss42/apidash",
-      "stargazers_count": 2915,
-      "forks_count": 1009,
-      "open_issues_count": 209,
+      "stargazers_count": 2916,
+      "forks_count": 1010,
+      "open_issues_count": 194,
       "language": "Dart",
-      "pushed_at": "2026-09-21T20:21:34Z",
-      "updated_at": "2026-09-30T04:50:27Z",
+      "pushed_at": "2026-10-02T08:22:09Z",
+      "updated_at": "2026-10-02T16:45:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,8 +60,6 @@
         "graphql",
         "graphql-api",
         "graphql-client",
-        "gssoc",
-        "hacktoberfest",
         "http-client",
         "http-requests",
         "postman",
@@ -73,7 +71,7 @@
     "latestReleaseAt": "2023-11-29T12:07:18Z",
     "homepage": "https://apidash.dev",
     "sync": {
-      "syncedAt": "2026-09-30T16:13:43.512Z",
+      "syncedAt": "2026-10-03T08:35:37.148Z",
       "source": "api"
     }
   },
@@ -145,6 +143,25 @@
           "source": "github-releases",
           "url": "https://github.com/foss42/apidash/releases/tag/v0.3.0",
           "fetchedAt": "2026-09-26T14:37:26.878Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/apidash-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "apidash-bin",
+          "version": "0.3.0",
+          "project": "apidash",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/apidash/versions",
+          "fetchedAt": "2026-10-03T08:35:34.581Z"
         }
       }
     ],

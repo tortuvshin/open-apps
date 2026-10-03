@@ -3,7 +3,7 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:20:59.670Z",
+  "lastSuccessAt": "2026-10-03T08:43:16.993Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:32.995Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 49991,
-      "forks_count": 5557,
-      "open_issues_count": 76,
+      "stargazers_count": 52123,
+      "forks_count": 5812,
+      "open_issues_count": 87,
       "language": "Python",
-      "pushed_at": "2026-09-29T15:45:28Z",
-      "updated_at": "2026-09-30T16:19:56Z",
+      "pushed_at": "2026-10-03T08:13:42Z",
+      "updated_at": "2026-10-03T08:42:01Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-23T08:53:32Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-09-30T16:20:59.670Z",
+      "syncedAt": "2026-10-03T08:43:16.993Z",
       "source": "api"
     }
   },
@@ -146,6 +146,44 @@
           "source": "github-releases",
           "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
           "fetchedAt": "2026-09-28T17:13:31.474Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/voicestudio-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "voicestudio-bin",
+          "version": "0.5.6",
+          "project": "voicestudio",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/voicestudio/versions",
+          "fetchedAt": "2026-10-03T08:43:15.002Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=voicestudio",
+        "facts": {
+          "repository": "scoop",
+          "package": "voicestudio",
+          "version": "0.5.6",
+          "project": "voicestudio",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/voicestudio/versions",
+          "fetchedAt": "2026-10-03T08:43:15.002Z"
         }
       }
     ],

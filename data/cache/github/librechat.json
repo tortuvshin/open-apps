@@ -3,7 +3,7 @@
   "slug": "librechat",
   "repoUrl": "https://github.com/LibreChat-AI/LibreChat",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:00.085Z",
+  "lastSuccessAt": "2026-10-03T08:39:01.405Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:09.027Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "LibreChat-AI/LibreChat",
-      "stargazers_count": 45157,
-      "forks_count": 9255,
-      "open_issues_count": 819,
+      "stargazers_count": 45209,
+      "forks_count": 9268,
+      "open_issues_count": 844,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T15:33:44Z",
-      "updated_at": "2026-09-30T16:03:23Z",
+      "pushed_at": "2026-10-03T05:04:13Z",
+      "updated_at": "2026-10-03T06:55:52Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,7 +63,7 @@
     },
     "homepage": "https://librechat.ai/",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:00.085Z",
+      "syncedAt": "2026-10-03T08:39:01.405Z",
       "source": "api"
     }
   },
@@ -82,7 +82,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/librechat",
+        "facts": {
+          "repository": "aur",
+          "package": "librechat",
+          "version": "0.8.7",
+          "project": "librechat",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/librechat/versions",
+          "fetchedAt": "2026-10-03T08:38:59.219Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=librechat",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "librechat",
+          "version": "0.8.7",
+          "project": "librechat",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/librechat/versions",
+          "fetchedAt": "2026-10-03T08:38:59.219Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/LibreChat-AI/LibreChat/blob/c8c5478cf1aad413fd398eb80d551eaa7d7d7721/client/public/assets/icon-192x192.png",

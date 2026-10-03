@@ -3,7 +3,7 @@
   "slug": "zammad",
   "repoUrl": "https://github.com/zammad/zammad",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:21:27.498Z",
+  "lastSuccessAt": "2026-10-03T08:43:45.640Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:50.375Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "zammad/zammad",
-      "stargazers_count": 5971,
+      "stargazers_count": 5974,
       "forks_count": 1068,
       "open_issues_count": 463,
       "language": "Ruby",
-      "pushed_at": "2026-09-30T15:09:12Z",
-      "updated_at": "2026-09-30T15:34:19Z",
+      "pushed_at": "2026-10-02T12:16:24Z",
+      "updated_at": "2026-10-02T12:32:14Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -57,7 +57,7 @@
     },
     "homepage": "https://zammad.org",
     "sync": {
-      "syncedAt": "2026-09-30T16:21:27.498Z",
+      "syncedAt": "2026-10-03T08:43:45.640Z",
       "source": "api"
     }
   },
@@ -76,7 +76,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/zammad",
+        "facts": {
+          "repository": "aur",
+          "package": "zammad",
+          "version": "5.1.0",
+          "project": "zammad",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/zammad/versions",
+          "fetchedAt": "2026-10-03T08:43:43.397Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=zammad",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "zammad",
+          "version": "7.1.3",
+          "project": "zammad",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/zammad/versions",
+          "fetchedAt": "2026-10-03T08:43:43.397Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/zammad/zammad/blob/c63f3625eaac8b36ac687daaf066a35e6056a37d/public/assets/frontend/app-icon-192.png",

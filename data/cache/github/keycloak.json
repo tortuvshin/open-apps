@@ -3,7 +3,7 @@
   "slug": "keycloak",
   "repoUrl": "https://github.com/keycloak/keycloak",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:46.718Z",
+  "lastSuccessAt": "2026-10-03T08:38:44.895Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:55.017Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "keycloak/keycloak",
-      "stargazers_count": 37070,
-      "forks_count": 8994,
-      "open_issues_count": 3215,
+      "stargazers_count": 37106,
+      "forks_count": 9004,
+      "open_issues_count": 3203,
       "language": "Java",
-      "pushed_at": "2026-09-30T15:01:14Z",
-      "updated_at": "2026-09-30T15:53:33Z",
+      "pushed_at": "2026-10-03T03:35:46Z",
+      "updated_at": "2026-10-03T07:31:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,10 +44,10 @@
         "saml"
       ]
     },
-    "latestReleaseAt": "2026-09-16T14:44:06Z",
+    "latestReleaseAt": "2026-10-01T05:57:20Z",
     "homepage": "https://www.keycloak.org",
     "sync": {
-      "syncedAt": "2026-09-30T16:16:46.718Z",
+      "syncedAt": "2026-10-03T08:38:44.895Z",
       "source": "api"
     }
   },
@@ -67,7 +67,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Arch Linux",
+        "url": "https://archlinux.org/packages/?q=keycloak",
+        "facts": {
+          "repository": "arch",
+          "package": "keycloak",
+          "version": "26.8.0",
+          "project": "keycloak",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/keycloak/versions",
+          "fetchedAt": "2026-10-03T08:38:42.471Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=keycloak",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "keycloak",
+          "version": "26.7.4",
+          "project": "keycloak",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/keycloak/versions",
+          "fetchedAt": "2026-10-03T08:38:42.471Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/keycloak/keycloak/blob/96a415cdd7ecf32e5a55ad8255d08f4433e23e44/js/apps/admin-ui/public/icon.svg",

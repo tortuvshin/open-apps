@@ -3,7 +3,7 @@
   "slug": "appwrite",
   "repoUrl": "https://github.com/appwrite/appwrite",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:13:53.771Z",
+  "lastSuccessAt": "2026-10-03T08:35:47.313Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:57.994Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "appwrite/appwrite",
-      "stargazers_count": 57518,
-      "forks_count": 5756,
-      "open_issues_count": 671,
+      "stargazers_count": 57547,
+      "forks_count": 5755,
+      "open_issues_count": 685,
       "language": "PHP",
-      "pushed_at": "2026-09-30T16:08:57Z",
-      "updated_at": "2026-09-30T15:59:02Z",
+      "pushed_at": "2026-10-03T08:02:08Z",
+      "updated_at": "2026-10-03T08:35:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,7 +64,7 @@
     "latestReleaseAt": "2026-09-23T13:52:45Z",
     "homepage": "https://appwrite.io",
     "sync": {
-      "syncedAt": "2026-09-30T16:13:53.771Z",
+      "syncedAt": "2026-10-03T08:35:47.313Z",
       "source": "api"
     }
   },
@@ -84,7 +84,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/appwrite",
+        "facts": {
+          "repository": "homebrew",
+          "package": "appwrite",
+          "version": "28.1.0",
+          "project": "appwrite",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/appwrite/versions",
+          "fetchedAt": "2026-10-03T08:35:45.371Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/appwrite/appwrite/blob/fdb3311e8058cfef651e75aaad48851cd1001ab4/app/views/install/installer/icons/appwrite-logo.svg",

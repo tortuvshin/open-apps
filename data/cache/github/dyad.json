@@ -3,7 +3,7 @@
   "slug": "dyad",
   "repoUrl": "https://github.com/dyad-sh/dyad",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:14:55.206Z",
+  "lastSuccessAt": "2026-10-03T08:36:51.663Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:01.300Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "dyad-sh/dyad",
-      "stargazers_count": 21619,
-      "forks_count": 2655,
-      "open_issues_count": 327,
+      "stargazers_count": 21650,
+      "forks_count": 2661,
+      "open_issues_count": 309,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:14:37Z",
-      "updated_at": "2026-09-30T15:36:23Z",
+      "pushed_at": "2026-10-01T22:56:45Z",
+      "updated_at": "2026-10-03T05:48:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,7 +63,7 @@
     "latestReleaseAt": "2026-09-28T18:36:13Z",
     "homepage": "https://dyad.sh",
     "sync": {
-      "syncedAt": "2026-09-30T16:14:55.206Z",
+      "syncedAt": "2026-10-03T08:36:51.663Z",
       "source": "api"
     }
   },
@@ -118,6 +118,82 @@
           "source": "github-releases",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0",
           "fetchedAt": "2026-09-29T13:15:35.062Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/dyad-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "dyad-bin",
+          "version": "1.1.0",
+          "project": "dyad",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/dyad/versions",
+          "fetchedAt": "2026-10-03T08:36:49.683Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/dyad",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "dyad",
+          "version": "1.17.0",
+          "project": "dyad",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/dyad/versions",
+          "fetchedAt": "2026-10-03T08:36:49.683Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/dyad",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "dyad",
+          "version": "1.16.0",
+          "project": "dyad",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/dyad/versions",
+          "fetchedAt": "2026-10-03T08:36:49.683Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=dyad",
+        "facts": {
+          "repository": "scoop",
+          "package": "dyad",
+          "version": "1.17.0",
+          "project": "dyad",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/dyad/versions",
+          "fetchedAt": "2026-10-03T08:36:49.683Z"
         }
       }
     ],
