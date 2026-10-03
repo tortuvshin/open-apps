@@ -3,7 +3,7 @@
   "slug": "karakeep",
   "repoUrl": "https://github.com/karakeep-app/karakeep",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:41.668Z",
+  "lastSuccessAt": "2026-10-03T08:38:39.066Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:48.747Z",
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/karakeep-app/karakeep/releases{/id}",
       "deployments_url": "https://api.github.com/repos/karakeep-app/karakeep/deployments",
       "created_at": "2024-02-06T12:28:31Z",
-      "updated_at": "2026-09-30T15:40:49Z",
+      "updated_at": "2026-10-03T04:56:56Z",
       "pushed_at": "2026-09-29T21:44:10Z",
       "git_url": "git://github.com/karakeep-app/karakeep.git",
       "ssh_url": "git@github.com:karakeep-app/karakeep.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/karakeep-app/karakeep",
       "homepage": "https://karakeep.app",
       "size": 100437,
-      "stargazers_count": 29365,
+      "stargazers_count": 29396,
       "watchers_count": 27643,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1548,
+      "forks_count": 1549,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 726,
+      "open_issues_count": 724,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -221,7 +221,7 @@
       "openPullRequests": 74
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:16:41.668Z",
+      "syncedAt": "2026-10-03T08:38:39.066Z",
       "source": "api"
     },
     "html": {
@@ -248,7 +248,65 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/karakeep",
+        "facts": {
+          "repository": "aur",
+          "package": "karakeep",
+          "version": "0.33.2",
+          "project": "karakeep",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/karakeep/versions",
+          "fetchedAt": "2026-10-03T08:38:37.104Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=karakeep",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "karakeep",
+          "version": "0.33.1",
+          "project": "karakeep",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/karakeep/versions",
+          "fetchedAt": "2026-10-03T08:38:37.104Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/karakeep",
+        "facts": {
+          "repository": "homebrew",
+          "package": "karakeep",
+          "version": "0.33.2",
+          "project": "karakeep",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/karakeep/versions",
+          "fetchedAt": "2026-10-03T08:38:37.104Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/karakeep-app/karakeep/blob/3c4411430a5386b6cfb84331a788372e1dcea95e/apps/landing/public/icons/logo-full.svg",

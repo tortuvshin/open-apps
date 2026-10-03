@@ -3,7 +3,7 @@
   "slug": "wger",
   "repoUrl": "https://github.com/wger-project/flutter",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:21:15.744Z",
+  "lastSuccessAt": "2026-10-03T08:43:33.534Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:42.780Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/wger-project/flutter/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wger-project/flutter/deployments",
       "created_at": "2020-09-12T10:09:59Z",
-      "updated_at": "2026-09-28T16:29:06Z",
-      "pushed_at": "2026-09-29T03:14:21Z",
+      "updated_at": "2026-10-02T12:35:39Z",
+      "pushed_at": "2026-10-03T00:45:05Z",
       "git_url": "git://github.com/wger-project/flutter.git",
       "ssh_url": "git@github.com:wger-project/flutter.git",
       "clone_url": "https://github.com/wger-project/flutter.git",
       "svn_url": "https://github.com/wger-project/flutter",
       "homepage": "",
       "size": 400675,
-      "stargazers_count": 977,
+      "stargazers_count": 976,
       "watchers_count": 943,
       "language": "Dart",
       "has_issues": true,
@@ -118,7 +118,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 438,
+      "forks_count": 439,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -211,7 +211,7 @@
       "contributorsKnown": 336
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:21:15.744Z",
+      "syncedAt": "2026-10-03T08:43:33.534Z",
       "source": "api"
     },
     "languages": {
@@ -299,6 +299,82 @@
           "source": "github-releases",
           "url": "https://github.com/wger-project/flutter/releases/tag/2.1.0",
           "fetchedAt": "2026-09-26T14:41:12.898Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/flutter",
+        "facts": {
+          "repository": "aur",
+          "package": "flutter",
+          "version": "3.41.2",
+          "project": "flutter",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/flutter/versions",
+          "fetchedAt": "2026-10-03T08:43:31.225Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/flutter",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "flutter",
+          "version": "3.47.6",
+          "project": "flutter",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/flutter/versions",
+          "fetchedAt": "2026-10-03T08:43:31.225Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/flutter",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "flutter",
+          "version": "3.47.1",
+          "project": "flutter",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/flutter/versions",
+          "fetchedAt": "2026-10-03T08:43:31.225Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=flutter",
+        "facts": {
+          "repository": "scoop",
+          "package": "flutter",
+          "version": "3.47.6",
+          "project": "flutter",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/flutter/versions",
+          "fetchedAt": "2026-10-03T08:43:31.225Z"
         }
       }
     ],

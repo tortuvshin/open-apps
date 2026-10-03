@@ -3,7 +3,7 @@
   "slug": "pocketbase",
   "repoUrl": "https://github.com/pocketbase/pocketbase",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:19:13.160Z",
+  "lastSuccessAt": "2026-10-03T08:41:24.145Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:27.902Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "pocketbase/pocketbase",
-      "stargazers_count": 61217,
-      "forks_count": 3710,
+      "stargazers_count": 61252,
+      "forks_count": 3716,
       "open_issues_count": 19,
       "language": "Go",
-      "pushed_at": "2026-09-28T19:09:36Z",
-      "updated_at": "2026-09-30T14:38:03Z",
+      "pushed_at": "2026-10-02T08:39:50Z",
+      "updated_at": "2026-10-03T08:34:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -48,7 +48,7 @@
     "latestReleaseAt": "2026-09-12T14:35:16Z",
     "homepage": "https://pocketbase.io",
     "sync": {
-      "syncedAt": "2026-09-30T16:19:13.160Z",
+      "syncedAt": "2026-10-03T08:41:24.145Z",
       "source": "api"
     }
   },
@@ -68,7 +68,84 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/pocketbase-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "pocketbase-bin",
+          "version": "0.40.4",
+          "project": "pocketbase",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/pocketbase/versions",
+          "fetchedAt": "2026-10-03T08:41:22.078Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=pocketbase",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "pocketbase",
+          "version": "0.39.11",
+          "project": "pocketbase",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/pocketbase/versions",
+          "fetchedAt": "2026-10-03T08:41:22.078Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/pocketbase",
+        "facts": {
+          "repository": "homebrew",
+          "package": "pocketbase",
+          "version": "0.40.4",
+          "project": "pocketbase",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/pocketbase/versions",
+          "fetchedAt": "2026-10-03T08:41:22.078Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=pocketbase",
+        "facts": {
+          "repository": "scoop",
+          "package": "pocketbase",
+          "version": "0.40.4",
+          "project": "pocketbase",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/pocketbase/versions",
+          "fetchedAt": "2026-10-03T08:41:22.078Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/pocketbase/pocketbase/blob/5cec579da984436a258602a46a96302fbd31f77c/ui/public/images/logo_white.svg",

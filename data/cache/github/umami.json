@@ -3,7 +3,7 @@
   "slug": "umami",
   "repoUrl": "https://github.com/umami-software/umami",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:20:39.116Z",
+  "lastSuccessAt": "2026-10-03T08:42:55.359Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:59.662Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "umami-software/umami",
-      "stargazers_count": 39096,
-      "forks_count": 8156,
-      "open_issues_count": 124,
+      "stargazers_count": 39134,
+      "forks_count": 8183,
+      "open_issues_count": 132,
       "language": "TypeScript",
-      "pushed_at": "2026-09-29T19:42:34Z",
-      "updated_at": "2026-09-30T15:45:39Z",
+      "pushed_at": "2026-10-03T03:38:47Z",
+      "updated_at": "2026-10-03T06:08:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -53,7 +53,7 @@
     "latestReleaseAt": "2026-09-17T04:21:49Z",
     "homepage": "https://umami.is",
     "sync": {
-      "syncedAt": "2026-09-30T16:20:39.116Z",
+      "syncedAt": "2026-10-03T08:42:55.359Z",
       "source": "api"
     }
   },
@@ -73,7 +73,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=umami",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "umami",
+          "version": "3.3.1",
+          "project": "umami",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/umami/versions",
+          "fetchedAt": "2026-10-03T08:42:53.428Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/umami-software/umami/blob/ec0ff50388c264ed8ce46f00967e92f7e71476ae/public/android-chrome-512x512.png",

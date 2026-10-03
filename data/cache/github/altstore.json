@@ -3,7 +3,7 @@
   "slug": "altstore",
   "repoUrl": "https://github.com/altstoreio/AltStore",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:13:33.097Z",
+  "lastSuccessAt": "2026-10-03T08:35:25.082Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:42.803Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/altstoreio/AltStore/releases{/id}",
       "deployments_url": "https://api.github.com/repos/altstoreio/AltStore/deployments",
       "created_at": "2019-05-10T18:29:53Z",
-      "updated_at": "2026-09-30T12:28:03Z",
-      "pushed_at": "2026-09-17T19:39:21Z",
+      "updated_at": "2026-10-03T07:48:55Z",
+      "pushed_at": "2026-09-30T20:12:19Z",
       "git_url": "git://github.com/altstoreio/AltStore.git",
       "ssh_url": "git@github.com:altstoreio/AltStore.git",
       "clone_url": "https://github.com/altstoreio/AltStore.git",
       "svn_url": "https://github.com/altstoreio/AltStore",
       "homepage": "https://altstore.io",
       "size": 225987,
-      "stargazers_count": 14474,
+      "stargazers_count": 14481,
       "watchers_count": 14083,
       "language": "Swift",
       "has_issues": true,
@@ -118,7 +118,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 1555,
+      "forks_count": 1557,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -203,7 +203,7 @@
       "contributorsKnown": 12
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:13:33.097Z",
+      "syncedAt": "2026-10-03T08:35:25.082Z",
       "source": "api"
     },
     "languages": {
@@ -219,7 +219,8 @@
       "language": null,
       "topics": []
     },
-    "homepage": "https://altstore.io"
+    "homepage": "https://altstore.io",
+    "latestReleaseAt": "2026-09-30T20:16:23Z"
   },
   "health": {
     "status": "mature",
@@ -232,11 +233,30 @@
     "reasons": [
       "Pushed to within the last 6 months",
       "Strong adoption with maintenance signals",
+      "Recent release found",
       "Clear license found"
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/altstoreio/AltStore/releases/latest",
+        "facts": {
+          "tag": "v2.3",
+          "assets": [
+            "AltStore_Classic_Notarized_2_3.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/altstoreio/AltStore/releases/tag/v2.3",
+          "fetchedAt": "2026-10-03T08:35:23.166Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/altstoreio/AltStore/blob/56854e66fef2eac32dad88dcbad1dc131d430e60/AltStore/Resources/Icons.xcassets/Raw/Turquoise.imageset/AppIconDark.png",

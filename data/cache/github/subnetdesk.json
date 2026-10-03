@@ -3,7 +3,7 @@
   "slug": "subnetdesk",
   "repoUrl": "https://github.com/zibo-chen/SubnetDesk",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:20:01.169Z",
+  "lastSuccessAt": "2026-10-03T08:42:17.998Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:03.807Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "zibo-chen/SubnetDesk",
-      "stargazers_count": 618,
+      "stargazers_count": 625,
       "forks_count": 64,
-      "open_issues_count": 10,
+      "open_issues_count": 9,
       "language": "Rust",
-      "pushed_at": "2026-09-30T15:46:29Z",
-      "updated_at": "2026-09-30T14:46:04Z",
+      "pushed_at": "2026-10-01T07:17:02Z",
+      "updated_at": "2026-10-03T08:39:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -64,7 +64,7 @@
     "latestReleaseAt": "2026-08-27T16:33:43Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-09-30T16:20:01.169Z",
+      "syncedAt": "2026-10-03T08:42:17.998Z",
       "source": "api"
     }
   },
@@ -163,6 +163,44 @@
           "source": "github-releases",
           "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v1.3.0",
           "fetchedAt": "2026-09-26T14:40:41.356Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/subnetdesk-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "subnetdesk-bin",
+          "version": "1.3.0",
+          "project": "subnetdesk",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/subnetdesk/versions",
+          "fetchedAt": "2026-10-03T08:42:15.082Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=subnetdesk",
+        "facts": {
+          "repository": "scoop",
+          "package": "subnetdesk",
+          "version": "1.3.0",
+          "project": "subnetdesk",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/subnetdesk/versions",
+          "fetchedAt": "2026-10-03T08:42:15.082Z"
         }
       }
     ],

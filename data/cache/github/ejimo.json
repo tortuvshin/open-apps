@@ -3,7 +3,7 @@
   "slug": "ejimo",
   "repoUrl": "https://github.com/albemala/emoji-picker",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:05.905Z",
+  "lastSuccessAt": "2026-10-03T08:37:03.448Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:48.531Z",
@@ -181,7 +181,7 @@
       "contributorsKnown": 1
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:15:05.905Z",
+      "syncedAt": "2026-10-03T08:37:03.448Z",
       "source": "api"
     },
     "languages": {
@@ -218,7 +218,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=emoji-picker",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "emoji-picker",
+          "version": "0.2.0",
+          "project": "emoji-picker",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/emoji-picker/versions",
+          "fetchedAt": "2026-10-03T08:37:00.737Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/albemala/emoji-picker/blob/d11861b9a0fb4502886a2982e5d4b3a0765712af/android/fastlane/metadata/android/en-US/images/icon.png",

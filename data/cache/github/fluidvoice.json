@@ -3,7 +3,7 @@
   "slug": "fluidvoice",
   "repoUrl": "https://github.com/altic-dev/FluidVoice",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:22.917Z",
+  "lastSuccessAt": "2026-10-03T08:37:20.326Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:57.693Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "altic-dev/FluidVoice",
-      "stargazers_count": 11843,
-      "forks_count": 854,
-      "open_issues_count": 97,
+      "stargazers_count": 11886,
+      "forks_count": 861,
+      "open_issues_count": 105,
       "language": "Swift",
-      "pushed_at": "2026-09-29T05:51:14Z",
-      "updated_at": "2026-09-30T15:52:55Z",
+      "pushed_at": "2026-10-02T06:01:40Z",
+      "updated_at": "2026-10-03T07:01:58Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-08-18T08:01:44Z",
     "homepage": "https://altic.dev/fluid",
     "sync": {
-      "syncedAt": "2026-09-30T16:15:22.917Z",
+      "syncedAt": "2026-10-03T08:37:20.326Z",
       "source": "api"
     }
   },
@@ -96,6 +96,25 @@
           "source": "github-releases",
           "url": "https://github.com/altic-dev/FluidVoice/releases/tag/v1.6.9",
           "fetchedAt": "2026-09-28T17:09:55.902Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/fluidvoice",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "fluidvoice",
+          "version": "1.6.9",
+          "project": "fluidvoice",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/fluidvoice/versions",
+          "fetchedAt": "2026-10-03T08:37:18.380Z"
         }
       }
     ],

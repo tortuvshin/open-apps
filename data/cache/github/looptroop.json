@@ -3,7 +3,7 @@
   "slug": "looptroop",
   "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:15.670Z",
+  "lastSuccessAt": "2026-10-03T08:39:17.547Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:06.775Z",
@@ -37,10 +37,10 @@
       "full_name": "looptroop-ai/LoopTroop",
       "stargazers_count": 155,
       "forks_count": 14,
-      "open_issues_count": 3,
+      "open_issues_count": 6,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T15:56:03Z",
-      "updated_at": "2026-09-30T14:52:26Z",
+      "pushed_at": "2026-10-03T08:19:50Z",
+      "updated_at": "2026-10-02T10:34:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,10 +64,10 @@
         "ralph-loop"
       ]
     },
-    "latestReleaseAt": "2026-08-26T07:46:19Z",
+    "latestReleaseAt": "2026-10-01T19:44:19Z",
     "homepage": "https://www.looptroop.ovh/",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:15.670Z",
+      "syncedAt": "2026-10-03T08:39:17.547Z",
       "source": "api"
     }
   },
@@ -86,7 +86,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/looptroop",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "looptroop",
+          "version": "0.5.9",
+          "project": "looptroop",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/looptroop/versions",
+          "fetchedAt": "2026-10-03T08:39:15.781Z"
+        }
+      }
+    ],
     "logos": [],
     "screenshots": []
   }

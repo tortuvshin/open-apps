@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:19:23.835Z",
+  "lastSuccessAt": "2026-10-03T08:41:35.751Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 28238,
-      "forks_count": 3137,
-      "open_issues_count": 1570,
+      "stargazers_count": 28283,
+      "forks_count": 3146,
+      "open_issues_count": 1606,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:10:38Z",
-      "updated_at": "2026-09-30T16:02:17Z",
+      "pushed_at": "2026-10-03T08:24:03Z",
+      "updated_at": "2026-10-03T08:30:39Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -56,7 +56,7 @@
     "latestReleaseAt": "2026-09-29T15:12:40Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-09-30T16:19:23.835Z",
+      "syncedAt": "2026-10-03T08:41:35.751Z",
       "source": "api"
     }
   },
@@ -76,7 +76,103 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/qwen-code-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "qwen-code-bin",
+          "version": "0.24.7",
+          "project": "qwen-code",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/qwen-code/versions",
+          "fetchedAt": "2026-10-03T08:41:32.688Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Arch Linux",
+        "url": "https://archlinux.org/packages/?q=qwen-code",
+        "facts": {
+          "repository": "arch",
+          "package": "qwen-code",
+          "version": "0.21.11",
+          "project": "qwen-code",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/qwen-code/versions",
+          "fetchedAt": "2026-10-03T08:41:32.688Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=qwen-code",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "qwen-code",
+          "version": "0.23.4",
+          "project": "qwen-code",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/qwen-code/versions",
+          "fetchedAt": "2026-10-03T08:41:32.688Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/qwen-code",
+        "facts": {
+          "repository": "homebrew",
+          "package": "qwen-code",
+          "version": "0.24.7",
+          "project": "qwen-code",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/qwen-code/versions",
+          "fetchedAt": "2026-10-03T08:41:32.688Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/qwen-code",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "qwen-code",
+          "version": "0.24.6",
+          "project": "qwen-code",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/qwen-code/versions",
+          "fetchedAt": "2026-10-03T08:41:32.688Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/QwenLM/qwen-code/blob/9f6138ae441af192d08ba226e8f38eb821cb7f8e/packages/web-shell/client/public/assets/icon.svg",

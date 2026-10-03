@@ -3,7 +3,7 @@
   "slug": "vane",
   "repoUrl": "https://github.com/ItzCrazyKns/Vane",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:20:46.124Z",
+  "lastSuccessAt": "2026-10-03T08:43:02.441Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:06.469Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "ItzCrazyKns/Vane",
-      "stargazers_count": 36944,
-      "forks_count": 4103,
+      "stargazers_count": 36986,
+      "forks_count": 4102,
       "open_issues_count": 356,
       "language": "TypeScript",
       "pushed_at": "2026-09-01T14:12:12Z",
-      "updated_at": "2026-09-30T16:02:21Z",
+      "updated_at": "2026-10-03T06:11:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -57,7 +57,7 @@
     },
     "latestReleaseAt": "2026-04-10T13:30:52Z",
     "sync": {
-      "syncedAt": "2026-09-30T16:20:46.124Z",
+      "syncedAt": "2026-10-03T08:43:02.441Z",
       "source": "api"
     }
   },
@@ -77,7 +77,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/vane",
+        "facts": {
+          "repository": "aur",
+          "package": "vane",
+          "version": "0.9.2",
+          "project": "vane",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/vane/versions",
+          "fetchedAt": "2026-10-03T08:43:00.656Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/ItzCrazyKns/Vane/blob/348feca3e378fb4157b217724ed508dc707f853f/public/icon.png",

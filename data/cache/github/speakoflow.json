@@ -3,7 +3,7 @@
   "slug": "speakoflow",
   "repoUrl": "https://github.com/AbhishekBarali/SpeakoFlow",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:19:50.971Z",
+  "lastSuccessAt": "2026-10-03T08:42:07.316Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:09.973Z",
@@ -29,8 +29,8 @@
       "forks_count": 26,
       "open_issues_count": 4,
       "language": "Rust",
-      "pushed_at": "2026-09-30T08:39:00Z",
-      "updated_at": "2026-09-30T07:49:37Z",
+      "pushed_at": "2026-10-03T05:30:42Z",
+      "updated_at": "2026-10-01T19:08:54Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,7 +63,7 @@
     "latestReleaseAt": "2026-08-30T08:22:17Z",
     "homepage": "https://www.speakoflow.com",
     "sync": {
-      "syncedAt": "2026-09-30T16:19:50.971Z",
+      "syncedAt": "2026-10-03T08:42:07.316Z",
       "source": "api"
     }
   },
@@ -137,6 +137,25 @@
           "source": "github-releases",
           "url": "https://github.com/AbhishekBarali/SpeakoFlow/releases/tag/v1.4.0",
           "fetchedAt": "2026-09-28T18:18:07.478Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/speakoflow-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "speakoflow-bin",
+          "version": "1.0.2",
+          "project": "speakoflow",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/speakoflow/versions",
+          "fetchedAt": "2026-10-03T08:42:05.440Z"
         }
       }
     ],

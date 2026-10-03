@@ -3,7 +3,7 @@
   "slug": "flutter_server_box",
   "repoUrl": "https://github.com/lollipopkit/flutter_server_box",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:34.912Z",
+  "lastSuccessAt": "2026-10-03T08:37:32.125Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:07.919Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:15:34.912Z",
+      "syncedAt": "2026-10-03T08:37:32.125Z",
       "source": "api"
     },
     "repository": {
       "full_name": "lollipopkit/flutter_server_box",
-      "stargazers_count": 8761,
+      "stargazers_count": 8768,
       "forks_count": 562,
-      "open_issues_count": 18,
+      "open_issues_count": 21,
       "language": "Dart",
-      "pushed_at": "2026-09-30T16:08:35Z",
-      "updated_at": "2026-09-30T15:51:09Z",
+      "pushed_at": "2026-10-03T06:11:49Z",
+      "updated_at": "2026-10-03T06:11:49Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -68,7 +68,7 @@
         "vps"
       ]
     },
-    "latestReleaseAt": "2026-09-12T08:09:07Z",
+    "latestReleaseAt": "2026-10-01T13:43:37Z",
     "homepage": "https://serverbox.lollipopkit.com"
   },
   "health": {
@@ -96,13 +96,13 @@
         "facts": {
           "appId": "tech.lolli.toolbox",
           "suggestedVersionCode": 146603,
-          "evidence": "https://github.com/lollipopkit/flutter_server_box/blob/f0d9ba85c712e67b2a24332019305d61edc4a093/android/app/build.gradle",
+          "evidence": "https://github.com/lollipopkit/flutter_server_box/blob/23184e5a077fde6a968cc8a256c71f6c2c50a813/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/tech.lolli.toolbox",
-          "fetchedAt": "2026-09-30T16:15:32.514Z"
+          "fetchedAt": "2026-10-03T08:37:29.913Z"
         }
       },
       {
@@ -111,17 +111,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
         "facts": {
-          "tag": "v1.0.1617",
+          "tag": "v1.0.1719",
           "assets": [
-            "ServerBox_v1.0.1617_amd64.apk",
-            "ServerBox_v1.0.1617_arm.apk",
-            "ServerBox_v1.0.1617_arm64.apk"
+            "ServerBox_v1.0.1719_amd64.apk",
+            "ServerBox_v1.0.1719_arm.apk",
+            "ServerBox_v1.0.1719_arm64.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
-          "fetchedAt": "2026-09-26T14:38:33.608Z"
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1719",
+          "fetchedAt": "2026-10-03T08:37:29.913Z"
         }
       },
       {
@@ -130,15 +130,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
         "facts": {
-          "tag": "v1.0.1617",
+          "tag": "v1.0.1719",
           "assets": [
-            "ServerBox_v1.0.1617_NoSign.ipa"
+            "ServerBox_v1.0.1719_NoSign.ipa"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
-          "fetchedAt": "2026-09-26T14:38:33.608Z"
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1719",
+          "fetchedAt": "2026-10-03T08:37:29.913Z"
         }
       },
       {
@@ -147,16 +147,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
         "facts": {
-          "tag": "v1.0.1617",
+          "tag": "v1.0.1719",
           "assets": [
-            "ServerBox_v1.0.1617_amd64.AppImage",
-            "ServerBox_v1.0.1617_legacy_amd64.AppImage"
+            "ServerBox_v1.0.1719_amd64.AppImage",
+            "ServerBox_v1.0.1719_legacy_amd64.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
-          "fetchedAt": "2026-09-26T14:38:33.608Z"
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1719",
+          "fetchedAt": "2026-10-03T08:37:29.913Z"
         }
       },
       {
@@ -165,18 +165,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lollipopkit/flutter_server_box/releases/latest",
         "facts": {
-          "tag": "v1.0.1617",
+          "tag": "v1.0.1719",
           "assets": [
-            "ServerBox-1.0.1617-amd64.dmg",
-            "ServerBox-1.0.1617-arm64.dmg",
-            "ServerBox_v1.0.1617_NoSign_amd64.dmg",
-            "ServerBox_v1.0.1617_NoSign_arm64.dmg"
+            "ServerBox-1.0.1719-amd64.dmg",
+            "ServerBox-1.0.1719-arm64.dmg",
+            "ServerBox_v1.0.1719_NoSign_amd64.dmg",
+            "ServerBox_v1.0.1719_NoSign_arm64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1617",
-          "fetchedAt": "2026-09-26T14:38:33.608Z"
+          "url": "https://github.com/lollipopkit/flutter_server_box/releases/tag/v1.0.1719",
+          "fetchedAt": "2026-10-03T08:37:29.913Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "nextcowork",
   "repoUrl": "https://github.com/AIDotNet/NextCoWork",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:55.130Z",
+  "lastSuccessAt": "2026-10-03T08:40:02.079Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:37.536Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "AIDotNet/NextCoWork",
-      "stargazers_count": 638,
-      "forks_count": 129,
+      "stargazers_count": 637,
+      "forks_count": 128,
       "open_issues_count": 2,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T14:34:07Z",
-      "updated_at": "2026-09-30T14:33:48Z",
+      "pushed_at": "2026-10-02T16:51:04Z",
+      "updated_at": "2026-10-02T16:51:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -50,10 +50,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-30T14:47:45Z",
+    "latestReleaseAt": "2026-10-02T17:02:03Z",
     "homepage": "https://nextco.work/",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:55.130Z",
+      "syncedAt": "2026-10-03T08:40:02.079Z",
       "source": "api"
     }
   },
@@ -80,15 +80,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AIDotNet/NextCoWork/releases/latest",
         "facts": {
-          "tag": "v2.5.2",
+          "tag": "v2.5.3",
           "assets": [
-            "NextCoWork-2.5.2.AppImage"
+            "NextCoWork-2.5.3.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.2",
-          "fetchedAt": "2026-09-30T16:17:53.133Z"
+          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.3",
+          "fetchedAt": "2026-10-03T08:40:00.287Z"
         }
       },
       {
@@ -97,16 +97,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AIDotNet/NextCoWork/releases/latest",
         "facts": {
-          "tag": "v2.5.2",
+          "tag": "v2.5.3",
           "assets": [
-            "NextCoWork-2.5.2-arm64-mac.dmg",
-            "NextCoWork-2.5.2-x64-mac.dmg"
+            "NextCoWork-2.5.3-arm64-mac.dmg",
+            "NextCoWork-2.5.3-x64-mac.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.2",
-          "fetchedAt": "2026-09-30T16:17:53.133Z"
+          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.3",
+          "fetchedAt": "2026-10-03T08:40:00.287Z"
         }
       },
       {
@@ -115,34 +115,19 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AIDotNet/NextCoWork/releases/latest",
         "facts": {
-          "tag": "v2.5.2",
+          "tag": "v2.5.3",
           "assets": [
-            "nextcowork-2.5.2-setup.exe"
+            "nextcowork-2.5.3-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.2",
-          "fetchedAt": "2026-09-30T16:17:53.133Z"
+          "url": "https://github.com/AIDotNet/NextCoWork/releases/tag/v2.5.3",
+          "fetchedAt": "2026-10-03T08:40:00.287Z"
         }
       }
     ],
-    "logos": [
-      {
-        "url": "https://github.com/AIDotNet/NextCoWork/blob/3a053e2d26a2f4e2943dd3df05426528a8de0625/resources/icon.png",
-        "path": "resources/icon.png",
-        "blobSha": "0b0ec5e85db43b2bdf5bb0dff679b072fb8086c4",
-        "format": "png",
-        "bytes": 875373,
-        "width": 1024,
-        "height": 1024,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/AIDotNet/NextCoWork/blob/3a053e2d26a2f4e2943dd3df05426528a8de0625/resources/icon.png",
-          "fetchedAt": "2026-09-28T17:11:35.374Z"
-        }
-      }
-    ],
+    "logos": [],
     "screenshots": []
   }
 }

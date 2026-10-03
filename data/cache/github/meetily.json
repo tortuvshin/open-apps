@@ -3,7 +3,7 @@
   "slug": "meetily",
   "repoUrl": "https://github.com/Zackriya-Solutions/meetily",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:34.530Z",
+  "lastSuccessAt": "2026-10-03T08:39:40.414Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:22.761Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Zackriya-Solutions/meetily",
-      "stargazers_count": 31287,
-      "forks_count": 3419,
-      "open_issues_count": 354,
+      "stargazers_count": 31395,
+      "forks_count": 3430,
+      "open_issues_count": 356,
       "language": "Rust",
       "pushed_at": "2026-09-15T18:32:32Z",
-      "updated_at": "2026-09-30T15:59:53Z",
+      "updated_at": "2026-10-03T08:32:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-12T06:15:42Z",
     "homepage": "https://meetily.ai",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:34.530Z",
+      "syncedAt": "2026-10-03T08:39:40.414Z",
       "source": "api"
     }
   },
@@ -128,6 +128,44 @@
           "source": "github-releases",
           "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
           "fetchedAt": "2026-09-26T14:39:34.462Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/meetily",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "meetily",
+          "version": "0.4.1",
+          "project": "meetily",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/meetily/versions",
+          "fetchedAt": "2026-10-03T08:39:38.544Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/meetily",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "meetily",
+          "version": "0.4.1",
+          "project": "meetily",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/meetily/versions",
+          "fetchedAt": "2026-10-03T08:39:38.544Z"
         }
       }
     ],

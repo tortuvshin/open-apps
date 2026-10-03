@@ -3,7 +3,7 @@
   "slug": "limesurvey",
   "repoUrl": "https://github.com/LimeSurvey/LimeSurvey",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:06.120Z",
+  "lastSuccessAt": "2026-10-03T08:39:07.924Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:15.788Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "LimeSurvey/LimeSurvey",
-      "stargazers_count": 3738,
-      "forks_count": 1125,
-      "open_issues_count": 89,
+      "stargazers_count": 3742,
+      "forks_count": 1123,
+      "open_issues_count": 60,
       "language": "JavaScript",
-      "pushed_at": "2026-09-30T16:16:31Z",
-      "updated_at": "2026-09-30T16:16:37Z",
+      "pushed_at": "2026-10-03T08:26:17Z",
+      "updated_at": "2026-10-03T08:10:18Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -53,7 +53,7 @@
     },
     "homepage": "https://www.limesurvey.org",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:06.120Z",
+      "syncedAt": "2026-10-03T08:39:07.924Z",
       "source": "api"
     }
   },
@@ -71,7 +71,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/limesurvey",
+        "facts": {
+          "repository": "aur",
+          "package": "limesurvey",
+          "version": "6.17.1",
+          "project": "limesurvey",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/limesurvey/versions",
+          "fetchedAt": "2026-10-03T08:39:05.333Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=limesurvey",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "limesurvey",
+          "version": "6.15.14+250924",
+          "project": "limesurvey",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/limesurvey/versions",
+          "fetchedAt": "2026-10-03T08:39:05.333Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/LimeSurvey/LimeSurvey/blob/77690e35e3d9c1d98aea50aac4cc6dfe7a8a0b9c/assets/images/logo-white.png",

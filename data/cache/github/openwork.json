@@ -3,7 +3,7 @@
   "slug": "openwork",
   "repoUrl": "https://github.com/different-ai/openwork",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:18:47.787Z",
+  "lastSuccessAt": "2026-10-03T08:40:56.889Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:12.614Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "different-ai/openwork",
-      "stargazers_count": 23794,
-      "forks_count": 2396,
-      "open_issues_count": 567,
+      "stargazers_count": 23828,
+      "forks_count": 2399,
+      "open_issues_count": 595,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:11:31Z",
-      "updated_at": "2026-09-30T12:36:34Z",
+      "pushed_at": "2026-10-03T07:13:32Z",
+      "updated_at": "2026-10-03T07:24:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -50,10 +50,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-25T23:28:01Z",
+    "latestReleaseAt": "2026-10-03T05:30:05Z",
     "homepage": "https://openworklabs.com",
     "sync": {
-      "syncedAt": "2026-09-30T16:18:47.787Z",
+      "syncedAt": "2026-10-03T08:40:56.889Z",
       "source": "api"
     }
   },
@@ -80,20 +80,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.54",
+          "tag": "v0.18.56",
           "assets": [
-            "openwork-cloud-linux-arm64-0.18.54.AppImage",
-            "openwork-cloud-linux-x86_64-0.18.54.AppImage",
-            "openwork-enterprise-linux-arm64-0.18.54.AppImage",
-            "openwork-enterprise-linux-x86_64-0.18.54.AppImage",
-            "openwork-linux-arm64-0.18.54.AppImage",
-            "openwork-linux-x86_64-0.18.54.AppImage"
+            "openwork-cloud-linux-arm64-0.18.56.AppImage",
+            "openwork-cloud-linux-x86_64-0.18.56.AppImage",
+            "openwork-enterprise-linux-arm64-0.18.56.AppImage",
+            "openwork-enterprise-linux-x86_64-0.18.56.AppImage",
+            "openwork-linux-arm64-0.18.56.AppImage",
+            "openwork-linux-x86_64-0.18.56.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
-          "fetchedAt": "2026-09-28T17:12:10.074Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.56",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
         }
       },
       {
@@ -102,20 +102,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.54",
+          "tag": "v0.18.56",
           "assets": [
-            "openwork-cloud-mac-arm64-0.18.54.dmg",
-            "openwork-cloud-mac-x64-0.18.54.dmg",
-            "openwork-enterprise-mac-arm64-0.18.54.dmg",
-            "openwork-enterprise-mac-x64-0.18.54.dmg",
-            "openwork-mac-arm64-0.18.54.dmg",
-            "openwork-mac-x64-0.18.54.dmg"
+            "openwork-cloud-mac-arm64-0.18.56.dmg",
+            "openwork-cloud-mac-x64-0.18.56.dmg",
+            "openwork-enterprise-mac-arm64-0.18.56.dmg",
+            "openwork-enterprise-mac-x64-0.18.56.dmg",
+            "openwork-mac-arm64-0.18.56.dmg",
+            "openwork-mac-x64-0.18.56.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
-          "fetchedAt": "2026-09-28T17:12:10.074Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.56",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
         }
       },
       {
@@ -124,20 +124,96 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.54",
+          "tag": "v0.18.56",
           "assets": [
-            "openwork-cloud-win-arm64-0.18.54.exe",
-            "openwork-cloud-win-x64-0.18.54.exe",
-            "openwork-enterprise-win-arm64-0.18.54.exe",
-            "openwork-enterprise-win-x64-0.18.54.exe",
-            "openwork-win-arm64-0.18.54.exe",
-            "openwork-win-x64-0.18.54.exe"
+            "openwork-cloud-win-arm64-0.18.56.exe",
+            "openwork-cloud-win-x64-0.18.56.exe",
+            "openwork-enterprise-win-arm64-0.18.56.exe",
+            "openwork-enterprise-win-x64-0.18.56.exe",
+            "openwork-win-arm64-0.18.56.exe",
+            "openwork-win-x64-0.18.56.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.54",
-          "fetchedAt": "2026-09-28T17:12:10.074Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.56",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/openwork",
+        "facts": {
+          "repository": "aur",
+          "package": "openwork",
+          "version": "0.18.56",
+          "project": "openwork",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwork/versions",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/openwork",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "openwork",
+          "version": "0.18.55",
+          "project": "openwork",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwork/versions",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/openwork",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "openwork",
+          "version": "0.18.54",
+          "project": "openwork",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwork/versions",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=openwork",
+        "facts": {
+          "repository": "scoop",
+          "package": "openwork",
+          "version": "0.18.55",
+          "project": "openwork",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openwork/versions",
+          "fetchedAt": "2026-10-03T08:40:54.803Z"
         }
       }
     ],

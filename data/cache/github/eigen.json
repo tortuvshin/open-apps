@@ -3,7 +3,7 @@
   "slug": "eigen",
   "repoUrl": "https://github.com/artsy/eigen",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:15:00.286Z",
+  "lastSuccessAt": "2026-10-03T08:36:58.017Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:42.515Z",
@@ -101,8 +101,8 @@
       "releases_url": "https://api.github.com/repos/artsy/eigen/releases{/id}",
       "deployments_url": "https://api.github.com/repos/artsy/eigen/deployments",
       "created_at": "2015-01-22T21:52:39Z",
-      "updated_at": "2026-09-30T15:45:03Z",
-      "pushed_at": "2026-09-30T15:44:59Z",
+      "updated_at": "2026-10-02T22:40:28Z",
+      "pushed_at": "2026-10-03T05:22:53Z",
       "git_url": "git://github.com/artsy/eigen.git",
       "ssh_url": "git@github.com:artsy/eigen.git",
       "clone_url": "https://github.com/artsy/eigen.git",
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 25,
+      "open_issues_count": 24,
       "license": {
         "spdx_id": "MIT",
         "name": "MIT"
@@ -212,7 +212,7 @@
       "contributorsKnown": 166
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:15:00.286Z",
+      "syncedAt": "2026-10-03T08:36:58.017Z",
       "source": "api"
     },
     "languages": {
@@ -235,7 +235,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-09-23T15:06:57Z"
+    "latestReleaseAt": "2026-09-30T18:09:35Z"
   },
   "health": {
     "status": "mature",
@@ -253,7 +253,103 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/android-aarch64-eigen",
+        "facts": {
+          "repository": "aur",
+          "package": "android-aarch64-eigen",
+          "version": "5.0.1",
+          "project": "eigen",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigen/versions",
+          "fetchedAt": "2026-10-03T08:36:54.813Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Arch Linux",
+        "url": "https://archlinux.org/packages/?q=eigen",
+        "facts": {
+          "repository": "arch",
+          "package": "eigen",
+          "version": "5.0.1",
+          "project": "eigen",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigen/versions",
+          "fetchedAt": "2026-10-03T08:36:54.813Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=eigen",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "eigen",
+          "version": "3.4.1",
+          "project": "eigen",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigen/versions",
+          "fetchedAt": "2026-10-03T08:36:54.813Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/eigen",
+        "facts": {
+          "repository": "homebrew",
+          "package": "eigen",
+          "version": "5.0.1",
+          "project": "eigen",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigen/versions",
+          "fetchedAt": "2026-10-03T08:36:54.813Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/eigen",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "eigen",
+          "version": "3.4.0.20240224",
+          "project": "eigen",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/eigen/versions",
+          "fetchedAt": "2026-10-03T08:36:54.813Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/artsy/eigen/blob/b9206f5c098270a0ba8ea4624e4dd3a74ac125d1/fastlane/metadata/android/en-US/images/icon.png",

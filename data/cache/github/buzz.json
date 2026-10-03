@@ -3,7 +3,7 @@
   "slug": "buzz",
   "repoUrl": "https://github.com/chidiwilliams/buzz",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:14:28.600Z",
+  "lastSuccessAt": "2026-10-03T08:36:23.362Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:34.729Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "chidiwilliams/buzz",
-      "stargazers_count": 21764,
-      "forks_count": 1610,
-      "open_issues_count": 22,
+      "stargazers_count": 21807,
+      "forks_count": 1614,
+      "open_issues_count": 20,
       "language": "Python",
-      "pushed_at": "2026-09-23T12:49:26Z",
-      "updated_at": "2026-09-30T14:38:04Z",
+      "pushed_at": "2026-10-02T08:35:54Z",
+      "updated_at": "2026-10-03T08:19:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,7 +45,7 @@
     "latestReleaseAt": "2026-08-23T08:28:36Z",
     "homepage": "https://chidiwilliams.github.io/buzz",
     "sync": {
-      "syncedAt": "2026-09-30T16:14:28.600Z",
+      "syncedAt": "2026-10-03T08:36:23.362Z",
       "source": "api"
     }
   },
@@ -74,12 +74,12 @@
         "facts": {
           "appId": "io.github.chidiwilliams.Buzz",
           "match": "metainfo",
-          "evidence": "https://github.com/chidiwilliams/buzz/blob/838a191089cf56c374815d8ae55ee1295d57a3d4/share/metainfo/io.github.chidiwilliams.Buzz.metainfo.xml"
+          "evidence": "https://github.com/chidiwilliams/buzz/blob/100589fd8c492869f2994b525e1092eda81e4e88/share/metainfo/io.github.chidiwilliams.Buzz.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/io.github.chidiwilliams.Buzz",
-          "fetchedAt": "2026-09-28T18:12:31.937Z"
+          "fetchedAt": "2026-10-03T08:36:22.313Z"
         }
       },
       {
@@ -115,6 +115,44 @@
           "source": "github-releases",
           "url": "https://github.com/chidiwilliams/buzz/releases/tag/v1.4.5",
           "fetchedAt": "2026-09-28T18:12:31.937Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/buzz-appimage",
+        "facts": {
+          "repository": "aur",
+          "package": "buzz-appimage",
+          "version": "0.5.26",
+          "project": "buzz",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/buzz/versions",
+          "fetchedAt": "2026-10-03T08:36:22.313Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/buzz",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "buzz",
+          "version": "1.4.5",
+          "project": "buzz",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/buzz/versions",
+          "fetchedAt": "2026-10-03T08:36:22.313Z"
         }
       }
     ],

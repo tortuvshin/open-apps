@@ -3,7 +3,7 @@
   "slug": "rome",
   "repoUrl": "https://github.com/rome-os/rome",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:19:34.910Z",
+  "lastSuccessAt": "2026-10-03T08:41:49.445Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:45.379Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "rome-os/rome",
-      "stargazers_count": 659,
-      "forks_count": 56,
-      "open_issues_count": 75,
+      "stargazers_count": 680,
+      "forks_count": 59,
+      "open_issues_count": 97,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:16:49Z",
-      "updated_at": "2026-09-30T15:46:56Z",
+      "pushed_at": "2026-10-03T06:02:00Z",
+      "updated_at": "2026-10-03T06:54:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -67,7 +67,7 @@
     "latestReleaseAt": "2026-09-25T02:45:43Z",
     "homepage": "https://romeos.cc",
     "sync": {
-      "syncedAt": "2026-09-30T16:19:34.910Z",
+      "syncedAt": "2026-10-03T08:41:49.445Z",
       "source": "api"
     }
   },
@@ -87,7 +87,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/rome-git",
+        "facts": {
+          "repository": "aur",
+          "package": "rome-git",
+          "version": "0.4.2.r56.g03c946ed9c",
+          "project": "rome",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/rome/versions",
+          "fetchedAt": "2026-10-03T08:41:47.292Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/rome-os/rome/blob/8a436b87bb745fa51880157267501cdd5f8e0582/packages/web/public/icon-512.png",

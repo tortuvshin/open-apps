@@ -3,7 +3,7 @@
   "slug": "airdash",
   "repoUrl": "https://github.com/simonbengtsson/airdash",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:13:30.682Z",
+  "lastSuccessAt": "2026-10-03T08:35:22.756Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:40.356Z",
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/simonbengtsson/airdash/releases{/id}",
       "deployments_url": "https://api.github.com/repos/simonbengtsson/airdash/deployments",
       "created_at": "2022-07-25T11:24:41Z",
-      "updated_at": "2026-09-23T03:36:37Z",
+      "updated_at": "2026-10-02T16:21:19Z",
       "pushed_at": "2026-08-27T19:08:30Z",
       "git_url": "git://github.com/simonbengtsson/airdash.git",
       "ssh_url": "git@github.com:simonbengtsson/airdash.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/simonbengtsson/airdash",
       "homepage": "https://airdash-project.web.app",
       "size": 5202,
-      "stargazers_count": 668,
+      "stargazers_count": 669,
       "watchers_count": 667,
       "language": "Dart",
       "has_issues": true,
@@ -196,7 +196,7 @@
       "contributorsKnown": 5
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:13:30.682Z",
+      "syncedAt": "2026-10-03T08:35:22.756Z",
       "source": "api"
     },
     "languages": {
@@ -301,6 +301,25 @@
           "source": "github-releases",
           "url": "https://github.com/simonbengtsson/airdash/releases/tag/v2.0.158",
           "fetchedAt": "2026-09-26T14:37:18.946Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/airdash",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "airdash",
+          "version": "2.0.158",
+          "project": "airdash",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/airdash/versions",
+          "fetchedAt": "2026-10-03T08:35:19.903Z"
         }
       }
     ],

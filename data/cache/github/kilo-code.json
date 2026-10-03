@@ -3,7 +3,7 @@
   "slug": "kilo-code",
   "repoUrl": "https://github.com/Kilo-Org/kilocode",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:52.598Z",
+  "lastSuccessAt": "2026-10-03T08:38:50.772Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:00.997Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "Kilo-Org/kilocode",
-      "stargazers_count": 27451,
-      "forks_count": 3217,
-      "open_issues_count": 606,
+      "stargazers_count": 27478,
+      "forks_count": 3225,
+      "open_issues_count": 607,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:14:22Z",
-      "updated_at": "2026-09-30T15:54:32Z",
+      "pushed_at": "2026-10-03T07:17:44Z",
+      "updated_at": "2026-10-03T06:26:13Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "vscode-extension"
       ]
     },
-    "latestReleaseAt": "2026-09-25T20:18:14Z",
+    "latestReleaseAt": "2026-10-01T13:19:25Z",
     "homepage": "https://kilo.ai/",
     "sync": {
-      "syncedAt": "2026-09-30T16:16:52.598Z",
+      "syncedAt": "2026-10-03T08:38:50.772Z",
       "source": "api"
     }
   },
@@ -76,7 +76,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/kilocode",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "kilocode",
+          "version": "7.8.1",
+          "project": "kilocode",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/kilocode/versions",
+          "fetchedAt": "2026-10-03T08:38:48.363Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/Kilo-Org/kilocode/blob/d13d50df600fe97b272b88a377551bd1e505a080/packages/kilo-docs/public/img/logo.svg",

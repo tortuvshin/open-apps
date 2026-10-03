@@ -3,7 +3,7 @@
   "slug": "cap",
   "repoUrl": "https://github.com/CapSoftware/Cap",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:14:33.741Z",
+  "lastSuccessAt": "2026-10-03T08:36:28.759Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:26.293Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-09-30T16:14:33.741Z",
+      "syncedAt": "2026-10-03T08:36:28.759Z",
       "source": "api"
     },
     "repository": {
       "full_name": "CapSoftware/Cap",
-      "stargazers_count": 22975,
-      "forks_count": 1988,
-      "open_issues_count": 411,
+      "stargazers_count": 23014,
+      "forks_count": 1997,
+      "open_issues_count": 423,
       "language": "Rust",
-      "pushed_at": "2026-09-30T15:58:23Z",
-      "updated_at": "2026-09-30T15:27:22Z",
+      "pushed_at": "2026-10-02T10:57:24Z",
+      "updated_at": "2026-10-03T07:58:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -99,7 +99,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/cap",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "cap",
+          "version": "0.6.0",
+          "project": "cap",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/cap/versions",
+          "fetchedAt": "2026-10-03T08:36:26.209Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/android-chrome-512x512.png",

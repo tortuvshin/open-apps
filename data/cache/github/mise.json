@@ -3,7 +3,7 @@
   "slug": "mise",
   "repoUrl": "https://github.com/devShakib015/mise",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:47.395Z",
+  "lastSuccessAt": "2026-10-03T08:39:54.530Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:32.462Z",
@@ -68,7 +68,7 @@
     "latestReleaseAt": "2026-09-01T08:05:38Z",
     "homepage": "https://devshakib.jumyn.com/apps/mise",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:47.395Z",
+      "syncedAt": "2026-10-03T08:39:54.530Z",
       "source": "api"
     }
   },
@@ -103,6 +103,120 @@
           "source": "github-releases",
           "url": "https://github.com/devShakib015/mise/releases/tag/v1.1.0",
           "fetchedAt": "2026-09-26T14:39:43.976Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/mise-bin",
+        "facts": {
+          "repository": "aur",
+          "package": "mise-bin",
+          "version": "2026.10.0",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Arch Linux",
+        "url": "https://archlinux.org/packages/?q=mise",
+        "facts": {
+          "repository": "arch",
+          "package": "mise",
+          "version": "2026.9.17",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=mise",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "mise",
+          "version": "2026.8.6",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/mise",
+        "facts": {
+          "repository": "homebrew",
+          "package": "mise",
+          "version": "2026.9.15",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/mise",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "mise",
+          "version": "2026.9.8",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=mise",
+        "facts": {
+          "repository": "scoop",
+          "package": "mise",
+          "version": "2026.10.0",
+          "project": "mise",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mise/versions",
+          "fetchedAt": "2026-10-03T08:39:51.765Z"
         }
       }
     ],

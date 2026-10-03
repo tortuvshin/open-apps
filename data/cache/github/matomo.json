@@ -3,7 +3,7 @@
   "slug": "matomo",
   "repoUrl": "https://github.com/matomo-org/matomo",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:17:26.641Z",
+  "lastSuccessAt": "2026-10-03T08:39:31.501Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:36.989Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "matomo-org/matomo",
-      "stargazers_count": 21912,
-      "forks_count": 2902,
-      "open_issues_count": 2570,
+      "stargazers_count": 21920,
+      "forks_count": 2903,
+      "open_issues_count": 2522,
       "language": "PHP",
-      "pushed_at": "2026-09-30T16:15:48Z",
-      "updated_at": "2026-09-30T11:20:21Z",
+      "pushed_at": "2026-10-02T09:40:09Z",
+      "updated_at": "2026-10-02T21:34:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "6.x-dev",
@@ -59,7 +59,7 @@
     "latestReleaseAt": "2026-09-21T21:11:13Z",
     "homepage": "https://matomo.org/",
     "sync": {
-      "syncedAt": "2026-09-30T16:17:26.641Z",
+      "syncedAt": "2026-10-03T08:39:31.501Z",
       "source": "api"
     }
   },
@@ -79,7 +79,46 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/matomo",
+        "facts": {
+          "repository": "aur",
+          "package": "matomo",
+          "version": "5.14.0",
+          "project": "matomo",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/matomo/versions",
+          "fetchedAt": "2026-10-03T08:39:29.253Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=matomo",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "matomo",
+          "version": "5.13.0",
+          "project": "matomo",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/matomo/versions",
+          "fetchedAt": "2026-10-03T08:39:29.253Z"
+        }
+      }
+    ],
     "logos": [],
     "screenshots": []
   }

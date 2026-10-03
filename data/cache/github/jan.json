@@ -3,7 +3,7 @@
   "slug": "jan",
   "repoUrl": "https://github.com/janhq/jan",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:16:31.336Z",
+  "lastSuccessAt": "2026-10-03T08:38:27.814Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:38.414Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "janhq/jan",
-      "stargazers_count": 44718,
-      "forks_count": 3062,
-      "open_issues_count": 544,
+      "stargazers_count": 44767,
+      "forks_count": 3060,
+      "open_issues_count": 541,
       "language": "Rust",
-      "pushed_at": "2026-09-30T14:37:24Z",
-      "updated_at": "2026-09-30T15:29:16Z",
+      "pushed_at": "2026-10-02T06:37:34Z",
+      "updated_at": "2026-10-03T08:07:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +52,7 @@
     "latestReleaseAt": "2026-07-23T06:29:15Z",
     "homepage": "https://jan.ai/",
     "sync": {
-      "syncedAt": "2026-09-30T16:16:31.336Z",
+      "syncedAt": "2026-10-03T08:38:27.814Z",
       "source": "api"
     }
   },
@@ -81,12 +81,12 @@
         "facts": {
           "appId": "ai.jan.Jan",
           "match": "metainfo",
-          "evidence": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml"
+          "evidence": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/ai.jan.Jan",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -140,6 +140,101 @@
           "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
           "fetchedAt": "2026-09-28T18:14:37.167Z"
         }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/jan",
+        "facts": {
+          "repository": "aur",
+          "package": "jan",
+          "version": "0.8.4",
+          "project": "jan",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/jan/versions",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=jan",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "jan",
+          "version": "0.8.4",
+          "project": "jan",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/jan/versions",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/jan",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "jan",
+          "version": "0.8.4",
+          "project": "jan",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/jan/versions",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/jan",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "jan",
+          "version": "0.8.3",
+          "project": "jan",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/jan/versions",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Scoop",
+        "url": "https://scoop.sh/#/apps?q=jan",
+        "facts": {
+          "repository": "scoop",
+          "package": "jan",
+          "version": "0.8.4",
+          "project": "jan",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/jan/versions",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
+        }
       }
     ],
     "logos": [
@@ -164,8 +259,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -173,8 +268,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -182,8 +277,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -191,8 +286,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -200,8 +295,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       },
       {
@@ -209,8 +304,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/74a8b1b02e6908a40569cb700ffba4954a03d03f/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-09-30T16:16:30.300Z"
+          "url": "https://github.com/janhq/jan/blob/14a720628f9592c8e60f7e081ef733076db8a6a9/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-03T08:38:26.671Z"
         }
       }
     ]

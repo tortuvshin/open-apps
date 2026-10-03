@@ -3,7 +3,7 @@
   "slug": "openproject",
   "repoUrl": "https://github.com/opf/openproject",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:18:40.967Z",
+  "lastSuccessAt": "2026-10-03T08:40:48.849Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:54.075Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "opf/openproject",
-      "stargazers_count": 16271,
-      "forks_count": 3520,
-      "open_issues_count": 233,
+      "stargazers_count": 16292,
+      "forks_count": 3521,
+      "open_issues_count": 245,
       "language": "Ruby",
-      "pushed_at": "2026-09-30T16:15:10Z",
-      "updated_at": "2026-09-30T13:12:30Z",
+      "pushed_at": "2026-10-03T03:34:53Z",
+      "updated_at": "2026-10-03T04:52:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -61,10 +61,10 @@
         "workflows"
       ]
     },
-    "latestReleaseAt": "2026-09-30T06:33:42Z",
+    "latestReleaseAt": "2026-10-01T10:50:28Z",
     "homepage": "https://www.openproject.org",
     "sync": {
-      "syncedAt": "2026-09-30T16:18:40.967Z",
+      "syncedAt": "2026-10-03T08:40:48.849Z",
       "source": "api"
     }
   },
@@ -84,7 +84,27 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/openproject",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "openproject",
+          "version": "17.8.0",
+          "project": "openproject",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/openproject/versions",
+          "fetchedAt": "2026-10-03T08:40:46.485Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/opf/openproject/blob/cca8908c50db86e5e3f3c0f20610b73cd32d1038/docker/dev/keycloak/themes/openproject/account/resources/logo.svg",

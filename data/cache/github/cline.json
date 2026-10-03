@@ -3,7 +3,7 @@
   "slug": "cline",
   "repoUrl": "https://github.com/cline/cline",
   "source": "api",
-  "lastSuccessAt": "2026-09-30T16:14:40.616Z",
+  "lastSuccessAt": "2026-10-03T08:36:36.323Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:47.445Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "cline/cline",
-      "stargazers_count": 69602,
-      "forks_count": 7560,
-      "open_issues_count": 1525,
+      "stargazers_count": 69752,
+      "forks_count": 7591,
+      "open_issues_count": 1582,
       "language": "TypeScript",
-      "pushed_at": "2026-09-30T16:12:22Z",
-      "updated_at": "2026-09-30T15:54:52Z",
+      "pushed_at": "2026-10-03T03:04:24Z",
+      "updated_at": "2026-10-03T07:12:18Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -40,10 +40,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-30T07:18:19Z",
+    "latestReleaseAt": "2026-10-02T20:39:04Z",
     "homepage": "https://cline.bot",
     "sync": {
-      "syncedAt": "2026-09-30T16:14:40.616Z",
+      "syncedAt": "2026-10-03T08:36:36.323Z",
       "source": "api"
     }
   },
@@ -70,18 +70,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cline/cline/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.39",
+          "tag": "desktop-v0.0.43",
           "assets": [
-            "Cline_0.0.39_aarch64.rpm",
-            "Cline_0.0.39_amd64.deb",
-            "Cline_0.0.39_arm64.deb",
-            "Cline_0.0.39_x86_64.rpm"
+            "Cline_0.0.43_aarch64.rpm",
+            "Cline_0.0.43_amd64.deb",
+            "Cline_0.0.43_arm64.deb",
+            "Cline_0.0.43_x86_64.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.39",
-          "fetchedAt": "2026-09-30T16:14:38.888Z"
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43",
+          "fetchedAt": "2026-10-03T08:36:34.240Z"
         }
       },
       {
@@ -90,15 +90,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cline/cline/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.39",
+          "tag": "desktop-v0.0.43",
           "assets": [
-            "Cline_0.0.39_universal.dmg"
+            "Cline_0.0.43_universal.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.39",
-          "fetchedAt": "2026-09-30T16:14:38.888Z"
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43",
+          "fetchedAt": "2026-10-03T08:36:34.240Z"
         }
       },
       {
@@ -107,15 +107,34 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cline/cline/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.39",
+          "tag": "desktop-v0.0.43",
           "assets": [
-            "Cline_0.0.39_x64-setup.exe"
+            "Cline_0.0.43_x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.39",
-          "fetchedAt": "2026-09-30T16:14:38.888Z"
+          "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43",
+          "fetchedAt": "2026-10-03T08:36:34.240Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/cline",
+        "facts": {
+          "repository": "homebrew",
+          "package": "cline",
+          "version": "3.0.3",
+          "project": "cline",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/cline/versions",
+          "fetchedAt": "2026-10-03T08:36:34.240Z"
         }
       }
     ],
