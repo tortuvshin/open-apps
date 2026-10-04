@@ -3,7 +3,7 @@
   "slug": "openpost",
   "repoUrl": "https://github.com/getopenpost/openpost",
   "source": "api",
-  "lastSuccessAt": "2026-10-03T08:40:46.129Z",
+  "lastSuccessAt": "2026-10-04T09:31:18.909Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:07.421Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "getopenpost/openpost",
-      "stargazers_count": 647,
+      "stargazers_count": 648,
       "forks_count": 82,
-      "open_issues_count": 2,
+      "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-10-01T16:25:27Z",
-      "updated_at": "2026-10-03T04:09:04Z",
+      "pushed_at": "2026-10-03T23:30:49Z",
+      "updated_at": "2026-10-03T23:31:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -61,10 +61,10 @@
         "sveltekit"
       ]
     },
-    "latestReleaseAt": "2026-09-30T14:55:55Z",
+    "latestReleaseAt": "2026-10-03T23:30:17Z",
     "homepage": "https://openpo.st",
     "sync": {
-      "syncedAt": "2026-10-03T08:40:46.129Z",
+      "syncedAt": "2026-10-04T09:31:18.909Z",
       "source": "api"
     }
   },
@@ -91,7 +91,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/getopenpost/openpost/releases/latest",
         "facts": {
-          "tag": "v7.6.2",
+          "tag": "v7.8.8",
           "assets": [
             "openpost-cli-windows-amd64.exe",
             "openpost-mcp-windows-amd64.exe",
@@ -100,8 +100,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.6.2",
-          "fetchedAt": "2026-09-30T16:18:33.675Z"
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.8.8",
+          "fetchedAt": "2026-10-04T09:31:17.070Z"
         }
       }
     ],

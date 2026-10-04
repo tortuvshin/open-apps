@@ -3,7 +3,7 @@
   "slug": "mattermost-mobile",
   "repoUrl": "https://github.com/mattermost/mattermost-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-10-03T08:39:34.933Z",
+  "lastSuccessAt": "2026-10-04T09:30:17.558Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:17.889Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}",
       "deployments_url": "https://api.github.com/repos/mattermost/mattermost-mobile/deployments",
       "created_at": "2016-10-07T16:52:32Z",
-      "updated_at": "2026-10-02T16:56:47Z",
-      "pushed_at": "2026-10-03T03:50:58Z",
+      "updated_at": "2026-10-04T04:54:13Z",
+      "pushed_at": "2026-10-04T04:57:18Z",
       "git_url": "git://github.com/mattermost/mattermost-mobile.git",
       "ssh_url": "git@github.com:mattermost/mattermost-mobile.git",
       "clone_url": "https://github.com/mattermost/mattermost-mobile.git",
       "svn_url": "https://github.com/mattermost/mattermost-mobile",
       "homepage": "https://about.mattermost.com/",
       "size": 188960,
-      "stargazers_count": 2727,
+      "stargazers_count": 2728,
       "watchers_count": 2699,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,7 +118,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 1665,
+      "forks_count": 1666,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -219,7 +219,7 @@
       "openPullRequests": 88
     },
     "sync": {
-      "syncedAt": "2026-10-03T08:39:34.933Z",
+      "syncedAt": "2026-10-04T09:30:17.558Z",
       "source": "api"
     },
     "html": {
@@ -255,13 +255,13 @@
         "facts": {
           "appId": "com.mattermost.rnbeta",
           "suggestedVersionCode": 81504,
-          "evidence": "https://github.com/mattermost/mattermost-mobile/blob/e5be3119634923d2cdb2bbcaeee0da81a23a5509/android/app/build.gradle",
+          "evidence": "https://github.com/mattermost/mattermost-mobile/blob/d295fa1c9e93d189b89f77dbe97c7b59fe60a1b7/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.mattermost.rnbeta",
-          "fetchedAt": "2026-10-03T08:39:31.866Z"
+          "fetchedAt": "2026-10-04T09:30:15.073Z"
         }
       }
     ],

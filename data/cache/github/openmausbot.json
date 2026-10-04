@@ -3,7 +3,7 @@
   "slug": "openmausbot",
   "repoUrl": "https://github.com/milind-soni/OpenMausBot",
   "source": "api",
-  "lastSuccessAt": "2026-10-03T08:40:40.985Z",
+  "lastSuccessAt": "2026-10-04T09:31:14.343Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:05.126Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Open Source Alternative to Grok Bot with a virtual machine that bots can use",
+  "sourceDescription": "Open-source Grok Bot alternative with a virtual machine that bots can use",
   "github": {
     "repository": {
       "full_name": "milind-soni/OpenMausBot",
-      "stargazers_count": 3978,
-      "forks_count": 678,
+      "stargazers_count": 4016,
+      "forks_count": 691,
       "open_issues_count": 330,
       "language": "TypeScript",
-      "pushed_at": "2026-10-03T07:55:05Z",
-      "updated_at": "2026-10-03T07:55:13Z",
+      "pushed_at": "2026-10-04T09:30:03Z",
+      "updated_at": "2026-10-04T09:21:18Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,12 +48,25 @@
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
       },
-      "topics": []
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ]
     },
-    "latestReleaseAt": "2026-10-02T19:41:21Z",
+    "latestReleaseAt": "2026-10-03T15:20:46Z",
     "homepage": "https://www.openmausbot.com/",
     "sync": {
-      "syncedAt": "2026-10-03T08:40:40.985Z",
+      "syncedAt": "2026-10-04T09:31:14.343Z",
       "source": "api"
     }
   },
@@ -80,18 +93,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.94",
+          "tag": "v0.1.95",
           "assets": [
-            "OpenMausBot-0.1.94-amd64.deb",
-            "OpenMausBot-0.1.94-x86_64.AppImage",
+            "OpenMausBot-0.1.95-amd64.deb",
+            "OpenMausBot-0.1.95-x86_64.AppImage",
             "OpenMausBot-amd64.deb",
             "OpenMausBot.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.94",
-          "fetchedAt": "2026-10-03T08:40:38.242Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
+          "fetchedAt": "2026-10-04T09:31:12.195Z"
         }
       },
       {
@@ -100,18 +113,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.94",
+          "tag": "v0.1.95",
           "assets": [
-            "OpenMausBot-0.1.94-arm64.dmg",
-            "OpenMausBot-0.1.94-x64.dmg",
+            "OpenMausBot-0.1.95-arm64.dmg",
+            "OpenMausBot-0.1.95-x64.dmg",
             "OpenMausBot-intel.dmg",
             "OpenMausBot.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.94",
-          "fetchedAt": "2026-10-03T08:40:38.242Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
+          "fetchedAt": "2026-10-04T09:31:12.195Z"
         }
       },
       {
@@ -120,16 +133,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.94",
+          "tag": "v0.1.95",
           "assets": [
-            "OpenMausBot-0.1.94-setup.exe",
+            "OpenMausBot-0.1.95-setup.exe",
             "OpenMausBot-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.94",
-          "fetchedAt": "2026-10-03T08:40:38.242Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
+          "fetchedAt": "2026-10-04T09:31:12.195Z"
         }
       }
     ],

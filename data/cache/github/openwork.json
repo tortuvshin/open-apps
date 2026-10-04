@@ -3,7 +3,7 @@
   "slug": "openwork",
   "repoUrl": "https://github.com/different-ai/openwork",
   "source": "api",
-  "lastSuccessAt": "2026-10-03T08:40:56.889Z",
+  "lastSuccessAt": "2026-10-04T09:31:27.998Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:12.614Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "different-ai/openwork",
-      "stargazers_count": 23828,
-      "forks_count": 2399,
-      "open_issues_count": 595,
+      "stargazers_count": 23840,
+      "forks_count": 2401,
+      "open_issues_count": 599,
       "language": "TypeScript",
-      "pushed_at": "2026-10-03T07:13:32Z",
-      "updated_at": "2026-10-03T07:24:23Z",
+      "pushed_at": "2026-10-04T06:36:02Z",
+      "updated_at": "2026-10-04T09:17:16Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -53,7 +53,7 @@
     "latestReleaseAt": "2026-10-03T05:30:05Z",
     "homepage": "https://openworklabs.com",
     "sync": {
-      "syncedAt": "2026-10-03T08:40:56.889Z",
+      "syncedAt": "2026-10-04T09:31:27.998Z",
       "source": "api"
     }
   },
@@ -167,15 +167,15 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "openwork",
-          "version": "0.18.55",
+          "version": "0.18.56",
           "project": "openwork",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-10-03T08:40:54.803Z"
+          "fetchedAt": "2026-10-04T09:31:26.100Z"
         }
       },
       {
@@ -205,15 +205,15 @@
         "facts": {
           "repository": "scoop",
           "package": "openwork",
-          "version": "0.18.55",
+          "version": "0.18.56",
           "project": "openwork",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-10-03T08:40:54.803Z"
+          "fetchedAt": "2026-10-04T09:31:26.100Z"
         }
       }
     ],
