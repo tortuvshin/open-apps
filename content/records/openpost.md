@@ -14,7 +14,7 @@ licenses:
 links:
   github: https://github.com/getopenpost/openpost
   website: https://openpo.st
-  docs: https://docs.openpo.st
+  docs: https://openpo.st/docs
 tags:
   - content-creation
   - docker-compose
