@@ -3,7 +3,7 @@
   "slug": "matomo",
   "repoUrl": "https://github.com/matomo-org/matomo",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:30:14.700Z",
+  "lastSuccessAt": "2026-10-07T02:27:22.769Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:36.989Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "matomo-org/matomo",
-      "stargazers_count": 21920,
-      "forks_count": 2903,
-      "open_issues_count": 2523,
+      "stargazers_count": 21929,
+      "forks_count": 2904,
+      "open_issues_count": 2529,
       "language": "PHP",
-      "pushed_at": "2026-10-04T04:52:48Z",
-      "updated_at": "2026-10-04T07:14:33Z",
+      "pushed_at": "2026-10-07T01:37:44Z",
+      "updated_at": "2026-10-06T23:15:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "6.x-dev",
@@ -56,10 +56,10 @@
         "website"
       ]
     },
-    "latestReleaseAt": "2026-09-21T21:11:13Z",
+    "latestReleaseAt": "2026-10-04T19:50:07Z",
     "homepage": "https://matomo.org/",
     "sync": {
-      "syncedAt": "2026-10-04T09:30:14.700Z",
+      "syncedAt": "2026-10-07T02:27:22.769Z",
       "source": "api"
     }
   },
@@ -88,7 +88,7 @@
         "facts": {
           "repository": "aur",
           "package": "matomo",
-          "version": "5.14.0",
+          "version": "5.14.1",
           "project": "matomo",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -96,7 +96,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/matomo/versions",
-          "fetchedAt": "2026-10-03T08:39:29.253Z"
+          "fetchedAt": "2026-10-07T02:27:20.600Z"
         }
       },
       {

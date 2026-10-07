@@ -3,7 +3,7 @@
   "slug": "rustdesk",
   "repoUrl": "https://github.com/rustdesk/rustdesk",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:32:14.299Z",
+  "lastSuccessAt": "2026-10-07T02:29:42.244Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:49.907Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-04T09:32:14.299Z",
+      "syncedAt": "2026-10-07T02:29:42.244Z",
       "source": "api"
     },
     "repository": {
       "full_name": "rustdesk/rustdesk",
-      "stargazers_count": 125087,
-      "forks_count": 19407,
-      "open_issues_count": 173,
+      "stargazers_count": 125286,
+      "forks_count": 19485,
+      "open_issues_count": 183,
       "language": "Rust",
-      "pushed_at": "2026-10-04T09:28:51Z",
-      "updated_at": "2026-10-04T09:29:12Z",
+      "pushed_at": "2026-10-06T23:47:49Z",
+      "updated_at": "2026-10-07T02:21:08Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -107,13 +107,13 @@
         "facts": {
           "appId": "com.carriez.flutter_hbb",
           "suggestedVersionCode": 104090003,
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/e5bc204fe4dacc4db9c3cdb1f1338813986c89e7/flutter/android/app/build.gradle",
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/9f9585ce155a6558f0625eaf8fabfe8827c9a552/flutter/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.carriez.flutter_hbb",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-10-07T02:29:40.934Z"
         }
       },
       {
@@ -124,12 +124,12 @@
         "facts": {
           "appId": "com.rustdesk.RustDesk",
           "match": "metainfo",
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/e5bc204fe4dacc4db9c3cdb1f1338813986c89e7/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/9f9585ce155a6558f0625eaf8fabfe8827c9a552/flatpak/com.rustdesk.RustDesk.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-10-07T02:29:40.934Z"
         }
       },
       {
@@ -221,15 +221,15 @@
         "facts": {
           "repository": "aur",
           "package": "rustdesk",
-          "version": "1.4.9",
+          "version": "1.5.0",
           "project": "rustdesk",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-10-07T02:29:40.934Z"
         }
       },
       {
@@ -240,15 +240,15 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "rustdesk",
-          "version": "1.4.9",
+          "version": "1.5.0",
           "project": "rustdesk",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-10-07T02:29:40.934Z"
         }
       },
       {
@@ -404,8 +404,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/rustdesk/rustdesk/blob/e5bc204fe4dacc4db9c3cdb1f1338813986c89e7/flatpak/com.rustdesk.RustDesk.metainfo.xml",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "url": "https://github.com/rustdesk/rustdesk/blob/9f9585ce155a6558f0625eaf8fabfe8827c9a552/flatpak/com.rustdesk.RustDesk.metainfo.xml",
+          "fetchedAt": "2026-10-07T02:29:40.934Z"
         }
       }
     ]

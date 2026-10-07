@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:32:00.010Z",
+  "lastSuccessAt": "2026-10-07T02:29:24.492Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 28296,
-      "forks_count": 3158,
-      "open_issues_count": 1672,
+      "stargazers_count": 28337,
+      "forks_count": 3166,
+      "open_issues_count": 1688,
       "language": "TypeScript",
-      "pushed_at": "2026-10-04T09:19:41Z",
-      "updated_at": "2026-10-04T08:35:28Z",
+      "pushed_at": "2026-10-07T02:13:56Z",
+      "updated_at": "2026-10-07T02:29:01Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-09-29T15:12:40Z",
+    "latestReleaseAt": "2026-10-05T10:23:32Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-10-04T09:32:00.010Z",
+      "syncedAt": "2026-10-07T02:29:24.492Z",
       "source": "api"
     }
   },
@@ -85,7 +85,7 @@
         "facts": {
           "repository": "aur",
           "package": "qwen-code-bin",
-          "version": "0.24.7",
+          "version": "0.25.0",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -93,7 +93,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-03T08:41:32.688Z"
+          "fetchedAt": "2026-10-07T02:29:21.694Z"
         }
       },
       {
@@ -142,7 +142,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "qwen-code",
-          "version": "0.24.7",
+          "version": "0.25.0",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -150,7 +150,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-03T08:41:32.688Z"
+          "fetchedAt": "2026-10-07T02:29:21.694Z"
         }
       },
       {
@@ -161,7 +161,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "qwen-code",
-          "version": "0.24.6",
+          "version": "0.24.7",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -169,7 +169,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-03T08:41:32.688Z"
+          "fetchedAt": "2026-10-07T02:29:21.694Z"
         }
       }
     ],

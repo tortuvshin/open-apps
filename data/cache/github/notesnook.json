@@ -3,7 +3,7 @@
   "slug": "notesnook",
   "repoUrl": "https://github.com/streetwriters/notesnook",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:30:44.362Z",
+  "lastSuccessAt": "2026-10-07T02:27:56.940Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:41.129Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/streetwriters/notesnook/releases{/id}",
       "deployments_url": "https://api.github.com/repos/streetwriters/notesnook/deployments",
       "created_at": "2021-04-01T17:25:54Z",
-      "updated_at": "2026-10-04T09:07:14Z",
-      "pushed_at": "2026-10-03T10:32:08Z",
+      "updated_at": "2026-10-07T00:40:07Z",
+      "pushed_at": "2026-10-06T16:33:53Z",
       "git_url": "git://github.com/streetwriters/notesnook.git",
       "ssh_url": "git@github.com:streetwriters/notesnook.git",
       "clone_url": "https://github.com/streetwriters/notesnook.git",
       "svn_url": "https://github.com/streetwriters/notesnook",
       "homepage": "https://notesnook.com/",
       "size": 291745,
-      "stargazers_count": 14715,
+      "stargazers_count": 14723,
       "watchers_count": 14314,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": true,
-      "forks_count": 1025,
+      "forks_count": 1026,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1073,
+      "open_issues_count": 1070,
       "license": {
         "spdx_id": "GPL-3.0",
         "name": "GPL-3.0"
@@ -239,7 +239,7 @@
       "openPullRequests": 63
     },
     "sync": {
-      "syncedAt": "2026-10-04T09:30:44.362Z",
+      "syncedAt": "2026-10-07T02:27:56.940Z",
       "source": "api"
     },
     "html": {
@@ -247,7 +247,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-09-14T08:37:38Z",
+    "latestReleaseAt": "2026-10-06T04:22:57Z",
     "homepage": "https://notesnook.com/"
   },
   "health": {
@@ -275,13 +275,13 @@
         "facts": {
           "appId": "com.streetwriters.notesnook",
           "suggestedVersionCode": 15594,
-          "evidence": "https://github.com/streetwriters/notesnook/blob/bf909697d8bb2979d698334374f935a0f6161669/apps/mobile/android/app/build.gradle",
+          "evidence": "https://github.com/streetwriters/notesnook/blob/add8f57ed29efda27da3fb30aed7c61e803979fd/apps/mobile/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.streetwriters.notesnook",
-          "fetchedAt": "2026-09-26T14:39:50.600Z"
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -290,7 +290,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/streetwriters/notesnook/releases/latest",
         "facts": {
-          "tag": "v3.4.8",
+          "tag": "v3.4.9",
           "assets": [
             "notesnook_linux_arm64.AppImage",
             "notesnook_linux_x86_64.AppImage"
@@ -298,8 +298,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
-          "fetchedAt": "2026-09-26T14:39:50.600Z"
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.9",
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -308,7 +308,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/streetwriters/notesnook/releases/latest",
         "facts": {
-          "tag": "v3.4.8",
+          "tag": "v3.4.9",
           "assets": [
             "notesnook_mac_arm64.dmg",
             "notesnook_mac_x64.dmg"
@@ -316,8 +316,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
-          "fetchedAt": "2026-09-26T14:39:50.600Z"
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.9",
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -326,7 +326,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/streetwriters/notesnook/releases/latest",
         "facts": {
-          "tag": "v3.4.8",
+          "tag": "v3.4.9",
           "assets": [
             "notesnook_win.exe",
             "notesnook_win_arm64.exe",
@@ -338,8 +338,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.8",
-          "fetchedAt": "2026-09-26T14:39:50.600Z"
+          "url": "https://github.com/streetwriters/notesnook/releases/tag/v3.4.9",
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -353,12 +353,12 @@
           "version": "3.4.8",
           "project": "notesnook",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/notesnook/versions",
-          "fetchedAt": "2026-10-03T08:40:02.852Z"
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -388,7 +388,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "notesnook",
-          "version": "3.4.8",
+          "version": "3.4.9",
           "project": "notesnook",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -396,7 +396,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/notesnook/versions",
-          "fetchedAt": "2026-10-03T08:40:02.852Z"
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -410,12 +410,12 @@
           "version": "3.4.8",
           "project": "notesnook",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/notesnook/versions",
-          "fetchedAt": "2026-10-03T08:40:02.852Z"
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       },
       {
@@ -426,7 +426,7 @@
         "facts": {
           "repository": "scoop",
           "package": "notesnook",
-          "version": "3.4.8",
+          "version": "3.4.9",
           "project": "notesnook",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -434,7 +434,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/notesnook/versions",
-          "fetchedAt": "2026-10-03T08:40:02.852Z"
+          "fetchedAt": "2026-10-07T02:27:53.551Z"
         }
       }
     ],

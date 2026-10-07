@@ -3,7 +3,7 @@
   "slug": "openmausbot",
   "repoUrl": "https://github.com/milind-soni/OpenMausBot",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:31:14.343Z",
+  "lastSuccessAt": "2026-10-07T02:28:29.101Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:05.126Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "milind-soni/OpenMausBot",
-      "stargazers_count": 4016,
-      "forks_count": 691,
-      "open_issues_count": 330,
+      "stargazers_count": 4111,
+      "forks_count": 707,
+      "open_issues_count": 351,
       "language": "TypeScript",
-      "pushed_at": "2026-10-04T09:30:03Z",
-      "updated_at": "2026-10-04T09:21:18Z",
+      "pushed_at": "2026-10-07T01:19:16Z",
+      "updated_at": "2026-10-07T01:18:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -63,10 +63,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-10-03T15:20:46Z",
+    "latestReleaseAt": "2026-10-07T00:32:52Z",
     "homepage": "https://www.openmausbot.com/",
     "sync": {
-      "syncedAt": "2026-10-04T09:31:14.343Z",
+      "syncedAt": "2026-10-07T02:28:29.101Z",
       "source": "api"
     }
   },
@@ -93,18 +93,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.95",
+          "tag": "v0.1.98",
           "assets": [
-            "OpenMausBot-0.1.95-amd64.deb",
-            "OpenMausBot-0.1.95-x86_64.AppImage",
+            "OpenMausBot-0.1.98-amd64.deb",
+            "OpenMausBot-0.1.98-x86_64.AppImage",
             "OpenMausBot-amd64.deb",
             "OpenMausBot.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
-          "fetchedAt": "2026-10-04T09:31:12.195Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.98",
+          "fetchedAt": "2026-10-07T02:28:26.987Z"
         }
       },
       {
@@ -113,18 +113,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.95",
+          "tag": "v0.1.98",
           "assets": [
-            "OpenMausBot-0.1.95-arm64.dmg",
-            "OpenMausBot-0.1.95-x64.dmg",
+            "OpenMausBot-0.1.98-arm64.dmg",
+            "OpenMausBot-0.1.98-x64.dmg",
             "OpenMausBot-intel.dmg",
             "OpenMausBot.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
-          "fetchedAt": "2026-10-04T09:31:12.195Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.98",
+          "fetchedAt": "2026-10-07T02:28:26.987Z"
         }
       },
       {
@@ -133,16 +133,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.95",
+          "tag": "v0.1.98",
           "assets": [
-            "OpenMausBot-0.1.95-setup.exe",
+            "OpenMausBot-0.1.98-setup.exe",
             "OpenMausBot-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.95",
-          "fetchedAt": "2026-10-04T09:31:12.195Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.98",
+          "fetchedAt": "2026-10-07T02:28:26.987Z"
         }
       }
     ],
@@ -173,6 +173,20 @@
           "source": "repo-asset",
           "url": "https://github.com/milind-soni/OpenMausBot/blob/55d475ef75558221c35212ed4d9499f15b694967/public/app-icon.svg",
           "fetchedAt": "2026-09-28T17:12:02.741Z"
+        }
+      },
+      {
+        "url": "https://github.com/milind-soni/OpenMausBot/blob/63d0ef37f7f416857db51b498227edff7713e3b0/src/assets/whop/logo.png",
+        "path": "src/assets/whop/logo.png",
+        "blobSha": "d76e547ec7a2b58ce9e1b44b4383f36ef8fe460e",
+        "format": "png",
+        "bytes": 2873,
+        "width": 417,
+        "height": 417,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/milind-soni/OpenMausBot/blob/63d0ef37f7f416857db51b498227edff7713e3b0/src/assets/whop/logo.png",
+          "fetchedAt": "2026-10-07T02:28:26.987Z"
         }
       }
     ],

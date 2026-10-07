@@ -3,7 +3,7 @@
   "slug": "appflowy",
   "repoUrl": "https://github.com/AppFlowy-IO/AppFlowy",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:26:52.870Z",
+  "lastSuccessAt": "2026-10-07T02:23:30.016Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:55.721Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments",
       "created_at": "2021-06-16T12:56:48Z",
-      "updated_at": "2026-10-04T06:50:17Z",
-      "pushed_at": "2026-10-01T03:32:57Z",
+      "updated_at": "2026-10-07T01:57:47Z",
+      "pushed_at": "2026-10-06T13:05:59Z",
       "git_url": "git://github.com/AppFlowy-IO/AppFlowy.git",
       "ssh_url": "git@github.com:AppFlowy-IO/AppFlowy.git",
       "clone_url": "https://github.com/AppFlowy-IO/AppFlowy.git",
       "svn_url": "https://github.com/AppFlowy-IO/AppFlowy",
       "homepage": "https://appflowy.com",
       "size": 93897,
-      "stargazers_count": 77114,
+      "stargazers_count": 77167,
       "watchers_count": 74159,
       "language": "Dart",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 6052,
+      "forks_count": 6051,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1032,
+      "open_issues_count": 1034,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -185,7 +185,7 @@
       "subscribers_count": 388
     },
     "sync": {
-      "syncedAt": "2026-10-04T09:26:52.870Z",
+      "syncedAt": "2026-10-07T02:23:30.016Z",
       "source": "api"
     },
     "languages": {
@@ -244,7 +244,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-10-01T03:32:58Z",
+    "latestReleaseAt": "2026-10-06T13:05:59Z",
     "homepage": "https://appflowy.com"
   },
   "health": {
@@ -286,15 +286,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.6",
+          "tag": "0.14.7",
           "assets": [
-            "AppFlowy-0.14.6-android.apk"
+            "AppFlowy-0.14.7-android.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.6",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.7",
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -303,17 +303,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.6",
+          "tag": "0.14.7",
           "assets": [
-            "AppFlowy-0.14.6-linux-x86_64.AppImage",
-            "AppFlowy-0.14.6-linux-x86_64.deb",
-            "AppFlowy-0.14.6-linux-x86_64.rpm"
+            "AppFlowy-0.14.7-linux-x86_64.AppImage",
+            "AppFlowy-0.14.7-linux-x86_64.deb",
+            "AppFlowy-0.14.7-linux-x86_64.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.6",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.7",
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -322,17 +322,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.6",
+          "tag": "0.14.7",
           "assets": [
-            "AppFlowy-0.14.6-macos-arm64.dmg",
-            "AppFlowy-0.14.6-macos-universal.dmg",
-            "AppFlowy-0.14.6-macos-x86_64.dmg"
+            "AppFlowy-0.14.7-macos-arm64.dmg",
+            "AppFlowy-0.14.7-macos-universal.dmg",
+            "AppFlowy-0.14.7-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.6",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.7",
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -341,15 +341,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.6",
+          "tag": "0.14.7",
           "assets": [
-            "AppFlowy-0.14.6-windows-x86_64.exe"
+            "AppFlowy-0.14.7-windows-x86_64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.6",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.7",
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -363,12 +363,12 @@
           "version": "0.14.6",
           "project": "appflowy",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -398,7 +398,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "appflowy",
-          "version": "0.14.6",
+          "version": "0.14.7",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -406,7 +406,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       },
       {
@@ -417,7 +417,7 @@
         "facts": {
           "repository": "scoop",
           "package": "appflowy",
-          "version": "0.14.6",
+          "version": "0.14.7",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -425,7 +425,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "fetchedAt": "2026-10-07T02:23:28.055Z"
         }
       }
     ],

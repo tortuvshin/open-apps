@@ -3,7 +3,7 @@
   "slug": "voicebox",
   "repoUrl": "https://github.com/jamiepine/voicebox",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:33:22.725Z",
+  "lastSuccessAt": "2026-10-07T02:31:00.492Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:29.377Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-04T09:33:22.725Z",
+      "syncedAt": "2026-10-07T02:31:00.492Z",
       "source": "api"
     },
     "repository": {
       "full_name": "jamiepine/voicebox",
-      "stargazers_count": 56313,
-      "forks_count": 7015,
-      "open_issues_count": 669,
-      "language": "TypeScript",
-      "pushed_at": "2026-10-04T02:04:14Z",
-      "updated_at": "2026-10-04T09:22:48Z",
+      "stargazers_count": 56519,
+      "forks_count": 7042,
+      "open_issues_count": 655,
+      "language": "Python",
+      "pushed_at": "2026-10-07T01:17:58Z",
+      "updated_at": "2026-10-07T02:23:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -141,17 +141,31 @@
         }
       },
       {
-        "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/landing/public/voicebox-logo-2.png",
-        "path": "landing/public/voicebox-logo-2.png",
-        "blobSha": "beffea35efdca38de1e22229ed295538eac74cae",
+        "url": "https://github.com/jamiepine/voicebox/blob/8af7efe62fab8d33e2a5dfbedabaa45f68a5184f/tauri/src-tauri/icons/icon.png",
+        "path": "tauri/src-tauri/icons/icon.png",
+        "blobSha": "b8557caecd6a1160a396db0a1ff99d09d0c31682",
         "format": "png",
-        "bytes": 2971308,
+        "bytes": 318876,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jamiepine/voicebox/blob/8af7efe62fab8d33e2a5dfbedabaa45f68a5184f/tauri/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-10-07T02:30:58.450Z"
+        }
+      },
+      {
+        "url": "https://github.com/jamiepine/voicebox/blob/8af7efe62fab8d33e2a5dfbedabaa45f68a5184f/tauri/src-tauri/icons/ios/AppIcon-512%402x.png",
+        "path": "tauri/src-tauri/icons/ios/AppIcon-512@2x.png",
+        "blobSha": "971d45bd0c67600f692d5e25a8f19cceed9dd293",
+        "format": "png",
+        "bytes": 12414,
         "width": 1024,
         "height": 1024,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/jamiepine/voicebox/blob/51f49dea198384b4eb6087b72c17057c6eb1c1cd/landing/public/voicebox-logo-2.png",
-          "fetchedAt": "2026-09-26T14:41:06.066Z"
+          "url": "https://github.com/jamiepine/voicebox/blob/8af7efe62fab8d33e2a5dfbedabaa45f68a5184f/tauri/src-tauri/icons/ios/AppIcon-512%402x.png",
+          "fetchedAt": "2026-10-07T02:30:58.450Z"
         }
       }
     ],

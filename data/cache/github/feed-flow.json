@@ -3,7 +3,7 @@
   "slug": "feed-flow",
   "repoUrl": "https://github.com/prof18/feed-flow",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:28:09.324Z",
+  "lastSuccessAt": "2026-10-07T02:24:57.950Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:52.214Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/prof18/feed-flow/releases{/id}",
       "deployments_url": "https://api.github.com/repos/prof18/feed-flow/deployments",
       "created_at": "2023-02-11T00:04:52Z",
-      "updated_at": "2026-10-04T08:13:26Z",
-      "pushed_at": "2026-10-04T09:16:44Z",
+      "updated_at": "2026-10-06T13:15:46Z",
+      "pushed_at": "2026-10-07T00:36:35Z",
       "git_url": "git://github.com/prof18/feed-flow.git",
       "ssh_url": "git@github.com:prof18/feed-flow.git",
       "clone_url": "https://github.com/prof18/feed-flow.git",
       "svn_url": "https://github.com/prof18/feed-flow",
       "homepage": "https://www.feedflow.dev",
       "size": 909175,
-      "stargazers_count": 1243,
+      "stargazers_count": 1249,
       "watchers_count": 1011,
       "language": "Kotlin",
       "has_issues": true,
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 100,
+      "open_issues_count": 98,
       "license": {
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
@@ -186,7 +186,7 @@
       "contributorsKnown": 98
     },
     "sync": {
-      "syncedAt": "2026-10-04T09:28:09.324Z",
+      "syncedAt": "2026-10-07T02:24:57.950Z",
       "source": "api"
     },
     "languages": {
@@ -231,12 +231,12 @@
         "facts": {
           "appId": "com.prof18.feedflow",
           "match": "metainfo",
-          "evidence": "https://github.com/prof18/feed-flow/blob/afcb3ca9b855dfa9be51cefdbd395971dc304344/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml"
+          "evidence": "https://github.com/prof18/feed-flow/blob/4aa283128f4a8440ac6ac0fe6f579b6faaff9511/desktopApp/packaging/flatpak/com.prof18.feedflow.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.prof18.feedflow",
-          "fetchedAt": "2026-10-04T09:28:08.392Z"
+          "fetchedAt": "2026-10-07T02:24:56.627Z"
         }
       },
       {

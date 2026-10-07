@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "slug": "orkas",
+  "repoUrl": "https://github.com/Orkas-AI/Orkas",
+  "source": "api",
+  "lastSuccessAt": "2026-10-07T02:28:55.075Z",
+  "partialFailures": [],
+  "sourceDescription": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
+  "github": {
+    "repository": {
+      "full_name": "Orkas-AI/Orkas",
+      "stargazers_count": 2154,
+      "forks_count": 88,
+      "open_issues_count": 12,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-03T03:43:28Z",
+      "updated_at": "2026-10-06T21:20:17Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "agent-collaboration",
+        "agent-orchestration",
+        "agent-team",
+        "agentic-ai",
+        "ai-agents",
+        "ai-assistant",
+        "ai-team",
+        "ai-workflow",
+        "autonomous-agents",
+        "byo-llm",
+        "cross-platform",
+        "desktop-app",
+        "electron",
+        "llm",
+        "local-first",
+        "mcp",
+        "mcp-client",
+        "multi-agent",
+        "multi-agent-system",
+        "self-evolving-agents"
+      ]
+    },
+    "latestReleaseAt": "2026-10-01T08:26:44Z",
+    "homepage": "https://orkas.ai?source=gh-orkas",
+    "sync": {
+      "syncedAt": "2026-10-07T02:28:55.075Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
+        "facts": {
+          "tag": "v2026.10.1",
+          "assets": [
+            "Orkas-1.8.0-arm64.dmg",
+            "Orkas-1.8.0.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1",
+          "fetchedAt": "2026-10-07T02:28:52.712Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
+        "facts": {
+          "tag": "v2026.10.1",
+          "assets": [
+            "Orkas.Setup.1.8.0.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1",
+          "fetchedAt": "2026-10-07T02:28:52.712Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/blob/595358993d6c98e868030990fc9e3a1130c45191/src/resources/icons/icon.png",
+        "path": "src/resources/icons/icon.png",
+        "blobSha": "3e212f2d267d127770a8fe9fc6e226c1d76604b5",
+        "format": "png",
+        "bytes": 44013,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Orkas-AI/Orkas/blob/595358993d6c98e868030990fc9e3a1130c45191/src/resources/icons/icon.png",
+          "fetchedAt": "2026-10-07T02:28:52.712Z"
+        }
+      },
+      {
+        "url": "https://github.com/Orkas-AI/Orkas/blob/595358993d6c98e868030990fc9e3a1130c45191/src/resources/icons/logo.png",
+        "path": "src/resources/icons/logo.png",
+        "blobSha": "2598bfd0e8378f67f2425d088cd7b95e01ef6448",
+        "format": "png",
+        "bytes": 42897,
+        "width": 414,
+        "height": 414,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Orkas-AI/Orkas/blob/595358993d6c98e868030990fc9e3a1130c45191/src/resources/icons/logo.png",
+          "fetchedAt": "2026-10-07T02:28:52.712Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

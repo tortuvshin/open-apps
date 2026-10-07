@@ -3,7 +3,7 @@
   "slug": "openworker",
   "repoUrl": "https://github.com/andrewyng/openworker",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:31:29.972Z",
+  "lastSuccessAt": "2026-10-07T02:28:47.358Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:14.716Z",
@@ -34,12 +34,12 @@
   "github": {
     "repository": {
       "full_name": "andrewyng/openworker",
-      "stargazers_count": 18416,
-      "forks_count": 2609,
-      "open_issues_count": 520,
+      "stargazers_count": 18450,
+      "forks_count": 2614,
+      "open_issues_count": 508,
       "language": "Python",
-      "pushed_at": "2026-10-04T03:02:02Z",
-      "updated_at": "2026-10-04T07:10:30Z",
+      "pushed_at": "2026-10-06T22:57:32Z",
+      "updated_at": "2026-10-06T23:59:48Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,10 +49,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-30T20:13:05Z",
+    "latestReleaseAt": "2026-10-05T21:12:52Z",
     "homepage": "http://openworker.com",
     "sync": {
-      "syncedAt": "2026-10-04T09:31:29.972Z",
+      "syncedAt": "2026-10-07T02:28:47.358Z",
       "source": "api"
     }
   },
@@ -79,18 +79,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/andrewyng/openworker/releases/latest",
         "facts": {
-          "tag": "v0.3.0",
+          "tag": "v0.3.1",
           "assets": [
             "OpenWorker-macos-arm64.dmg",
             "OpenWorker-macos-x64.dmg",
-            "OpenWorker_0.3.0_aarch64.dmg",
-            "OpenWorker_0.3.0_x86_64.dmg"
+            "OpenWorker_0.3.1_aarch64.dmg",
+            "OpenWorker_0.3.1_x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.3.0",
-          "fetchedAt": "2026-10-03T08:40:57.292Z"
+          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.3.1",
+          "fetchedAt": "2026-10-07T02:28:45.596Z"
         }
       },
       {
@@ -99,18 +99,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/andrewyng/openworker/releases/latest",
         "facts": {
-          "tag": "v0.3.0",
+          "tag": "v0.3.1",
           "assets": [
             "OpenWorker-windows-setup.exe",
             "OpenWorker-windows.msi",
-            "OpenWorker_0.3.0_x64-setup.exe",
-            "OpenWorker_0.3.0_x64_en-US.msi"
+            "OpenWorker_0.3.1_x64-setup.exe",
+            "OpenWorker_0.3.1_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.3.0",
-          "fetchedAt": "2026-10-03T08:40:57.292Z"
+          "url": "https://github.com/andrewyng/openworker/releases/tag/v0.3.1",
+          "fetchedAt": "2026-10-07T02:28:45.596Z"
         }
       },
       {
@@ -121,7 +121,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "openworker",
-          "version": "0.2.1",
+          "version": "0.3.0",
           "project": "openworker",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -129,7 +129,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openworker/versions",
-          "fetchedAt": "2026-10-03T08:40:57.292Z"
+          "fetchedAt": "2026-10-07T02:28:45.596Z"
         }
       }
     ],

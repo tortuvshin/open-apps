@@ -3,7 +3,7 @@
   "slug": "openproject",
   "repoUrl": "https://github.com/opf/openproject",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:31:21.482Z",
+  "lastSuccessAt": "2026-10-07T02:28:37.872Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:54.075Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "opf/openproject",
-      "stargazers_count": 16302,
-      "forks_count": 3522,
-      "open_issues_count": 253,
+      "stargazers_count": 16329,
+      "forks_count": 3532,
+      "open_issues_count": 267,
       "language": "Ruby",
-      "pushed_at": "2026-10-04T09:23:47Z",
-      "updated_at": "2026-10-04T08:37:29Z",
+      "pushed_at": "2026-10-06T23:18:56Z",
+      "updated_at": "2026-10-07T02:02:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -64,7 +64,7 @@
     "latestReleaseAt": "2026-10-01T10:50:28Z",
     "homepage": "https://www.openproject.org",
     "sync": {
-      "syncedAt": "2026-10-04T09:31:21.482Z",
+      "syncedAt": "2026-10-07T02:28:37.872Z",
       "source": "api"
     }
   },
@@ -93,15 +93,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "openproject",
-          "version": "17.8.0",
+          "version": "17.9.1",
           "project": "openproject",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openproject/versions",
-          "fetchedAt": "2026-10-03T08:40:46.485Z"
+          "fetchedAt": "2026-10-07T02:28:35.255Z"
         }
       }
     ],

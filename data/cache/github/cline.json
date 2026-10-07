@@ -3,7 +3,7 @@
   "slug": "cline",
   "repoUrl": "https://github.com/cline/cline",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:27:38.883Z",
+  "lastSuccessAt": "2026-10-07T02:24:23.073Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:47.445Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "cline/cline",
-      "stargazers_count": 69811,
-      "forks_count": 7598,
-      "open_issues_count": 1593,
+      "stargazers_count": 69952,
+      "forks_count": 7611,
+      "open_issues_count": 1614,
       "language": "TypeScript",
-      "pushed_at": "2026-10-03T03:04:24Z",
-      "updated_at": "2026-10-04T09:18:53Z",
+      "pushed_at": "2026-10-07T02:15:28Z",
+      "updated_at": "2026-10-07T02:04:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -43,7 +43,7 @@
     "latestReleaseAt": "2026-10-02T20:39:04Z",
     "homepage": "https://cline.bot",
     "sync": {
-      "syncedAt": "2026-10-04T09:27:38.883Z",
+      "syncedAt": "2026-10-07T02:24:23.073Z",
       "source": "api"
     }
   },
@@ -116,6 +116,25 @@
           "source": "github-releases",
           "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.43",
           "fetchedAt": "2026-10-03T08:36:34.240Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "Nixpkgs",
+        "url": "https://search.nixos.org/packages?channel=unstable&query=cline",
+        "facts": {
+          "repository": "nix_unstable",
+          "package": "cline",
+          "version": "3.0.68",
+          "project": "cline",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/cline/versions",
+          "fetchedAt": "2026-10-07T02:24:21.158Z"
         }
       },
       {

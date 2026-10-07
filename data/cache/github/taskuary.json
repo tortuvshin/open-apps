@@ -3,7 +3,7 @@
   "slug": "taskuary",
   "repoUrl": "https://github.com/ldbumble/taskuary",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:32:50.038Z",
+  "lastSuccessAt": "2026-10-07T02:30:22.163Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:13.200Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Automate your job: local-first AI task hub. Email, Teams, Slack & reports -> one timeline -> AI triage -> your coding agents (Claude Code, Codex, Gemini) do the work, you approve.",
+  "sourceDescription": "Your work, already underway. A personal AI assistant for your job: mail, chats and tickets become tasks, the agents you already use (Claude Code, Codex, Gemini) do the work, and nothing goes out until you approve. Open source, runs on your machine.",
   "github": {
     "repository": {
       "full_name": "ldbumble/taskuary",
-      "stargazers_count": 135,
+      "stargazers_count": 136,
       "forks_count": 36,
-      "open_issues_count": 5,
+      "open_issues_count": 4,
       "language": "Python",
-      "pushed_at": "2026-10-03T12:30:35Z",
-      "updated_at": "2026-10-02T21:02:10Z",
+      "pushed_at": "2026-10-07T01:57:07Z",
+      "updated_at": "2026-10-07T01:57:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -71,10 +71,10 @@
         "task-management"
       ]
     },
-    "latestReleaseAt": "2026-10-02T22:43:15Z",
+    "latestReleaseAt": "2026-10-06T22:18:15Z",
     "homepage": "https://taskuary.com",
     "sync": {
-      "syncedAt": "2026-10-04T09:32:50.038Z",
+      "syncedAt": "2026-10-07T02:30:22.163Z",
       "source": "api"
     }
   },
@@ -100,15 +100,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/ldbumble/taskuary/releases/latest",
         "facts": {
-          "tag": "v0.3.7.6",
+          "tag": "v0.3.7.10",
           "assets": [
             "Taskuary.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.7.6",
-          "fetchedAt": "2026-10-03T08:42:33.211Z"
+          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.7.10",
+          "fetchedAt": "2026-10-07T02:30:20.319Z"
         }
       }
     ],

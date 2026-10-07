@@ -3,7 +3,7 @@
   "slug": "umami",
   "repoUrl": "https://github.com/umami-software/umami",
   "source": "api",
-  "lastSuccessAt": "2026-10-04T09:33:07.984Z",
+  "lastSuccessAt": "2026-10-07T02:30:42.933Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:59.662Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "umami-software/umami",
-      "stargazers_count": 39154,
-      "forks_count": 8192,
-      "open_issues_count": 132,
+      "stargazers_count": 39208,
+      "forks_count": 8218,
+      "open_issues_count": 125,
       "language": "TypeScript",
-      "pushed_at": "2026-10-04T02:40:26Z",
-      "updated_at": "2026-10-04T08:19:04Z",
+      "pushed_at": "2026-10-07T00:49:25Z",
+      "updated_at": "2026-10-07T02:05:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -53,7 +53,7 @@
     "latestReleaseAt": "2026-09-17T04:21:49Z",
     "homepage": "https://umami.is",
     "sync": {
-      "syncedAt": "2026-10-04T09:33:07.984Z",
+      "syncedAt": "2026-10-07T02:30:42.933Z",
       "source": "api"
     }
   },
@@ -82,15 +82,15 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "umami",
-          "version": "3.3.1",
+          "version": "3.4.0",
           "project": "umami",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/umami/versions",
-          "fetchedAt": "2026-10-03T08:42:53.428Z"
+          "fetchedAt": "2026-10-07T02:30:40.787Z"
         }
       }
     ],
