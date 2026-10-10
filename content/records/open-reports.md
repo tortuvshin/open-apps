@@ -22,7 +22,7 @@ distribution:
       verified: true
     - type: self-host
       label: Source and self-hosting instructions
-      url: https://github.com/varaprasadreddy9676/open-reports
+      url: https://github.com/varaprasadreddy9676/open-reports/blob/claude/upbeat-volta-pe84n7/docs/DEPLOYMENT.md
       verified: true
 tags:
   - report-designer
