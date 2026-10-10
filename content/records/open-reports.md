@@ -38,6 +38,7 @@ whyListed:
   - It is a usable browser-based application with a public source repository and live demo.
   - The repository documents both embedding the designer and rendering host-owned JSON definitions through an API.
   - The design-to-render workflow is a useful example for developers comparing open-source reporting tools.
+  - Although the repository is new and has little adoption history, it is a runnable MIT-licensed application with documentation, a working demo, and a concrete host-owned JSON rendering and embedding workflow to evaluate.
 caveats:
   - Early-stage project; verify the current feature set and deployment instructions before adopting it for production.
   - JRXML import creates drafts and is partial; this is not a drop-in JasperReports or `.jasper` runtime replacement, and output parity is not guaranteed.
@@ -45,6 +46,7 @@ seo:
   title: Open Reports – Open Source Report Designer and Engine
   description: Design operational reports in a browser and render host-owned JSON definitions through an API. MIT-licensed, self-hostable, with a live demo.
 addedAt: 2026-10-11
+submittedBy: varaprasadreddy9676
 source:
   type: manual
   provider: github
