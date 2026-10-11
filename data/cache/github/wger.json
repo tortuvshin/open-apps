@@ -3,7 +3,7 @@
   "slug": "wger",
   "repoUrl": "https://github.com/wger-project/flutter",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T09:52:45.421Z",
+  "lastSuccessAt": "2026-10-11T15:59:33.851Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:42.780Z",
@@ -211,7 +211,7 @@
       "contributorsKnown": 336
     },
     "sync": {
-      "syncedAt": "2026-10-11T09:52:45.421Z",
+      "syncedAt": "2026-10-11T15:59:33.851Z",
       "source": "api"
     },
     "languages": {
@@ -305,10 +305,10 @@
         "type": "package-manager",
         "platform": "linux",
         "label": "AUR",
-        "url": "https://aur.archlinux.org/packages/flutter",
+        "url": "https://aur.archlinux.org/packages/flutter-artifacts-engine-android-google-bin",
         "facts": {
           "repository": "aur",
-          "package": "flutter",
+          "package": "flutter-artifacts-engine-android-google-bin",
           "version": "3.41.2",
           "project": "flutter",
           "match": "project-name",
@@ -317,7 +317,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/flutter/versions",
-          "fetchedAt": "2026-10-03T08:43:31.225Z"
+          "fetchedAt": "2026-10-11T15:59:31.883Z"
         }
       },
       {
