@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:28:02.755Z",
+  "lastSuccessAt": "2026-10-11T03:18:33.220Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:44.614Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:28:02.755Z",
+      "syncedAt": "2026-10-11T03:18:33.220Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
-      "stargazers_count": 474,
+      "stargazers_count": 476,
       "forks_count": 59,
-      "open_issues_count": 28,
+      "open_issues_count": 26,
       "language": "Dart",
-      "pushed_at": "2026-09-23T05:00:21Z",
-      "updated_at": "2026-10-05T10:41:23Z",
+      "pushed_at": "2026-10-10T12:59:08Z",
+      "updated_at": "2026-10-10T12:59:10Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +59,7 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-09-15T20:11:50Z",
+    "latestReleaseAt": "2026-10-10T12:47:02Z",
     "homepage": "https://oinkoin.com"
   },
   "health": {
@@ -86,12 +86,12 @@
         "facts": {
           "appId": "com.github.emavgl.piggybankpro",
           "suggestedVersionCode": 7150004,
-          "evidence": "https://github.com/emavgl/oinkoin/blob/9f474874bc404854cba8bc137ff35b0f8782449b/android/app/build.gradle"
+          "evidence": "https://github.com/emavgl/oinkoin/blob/482b500747061dfe2747e39127fc3c7b12d5d800/android/app/build.gradle"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.github.emavgl.piggybankpro",
-          "fetchedAt": "2026-09-26T14:39:53.531Z"
+          "fetchedAt": "2026-10-11T03:18:28.816Z"
         }
       },
       {
@@ -100,7 +100,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.14.0",
+          "tag": "1.15.0",
           "assets": [
             "app-arm64-v8a-pro-release.apk",
             "app-armeabi-v7a-pro-release.apk",
@@ -109,8 +109,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
-          "fetchedAt": "2026-09-26T14:39:53.531Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.0",
+          "fetchedAt": "2026-10-11T03:18:28.816Z"
         }
       },
       {
@@ -119,17 +119,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.14.0",
+          "tag": "1.15.0",
           "assets": [
-            "piggybank-1.14.0+7150-linux.AppImage",
-            "piggybank-1.14.0+7150-linux.deb",
-            "piggybank-1.14.0+7150-linux.rpm"
+            "piggybank-1.15.0+7151-linux.AppImage",
+            "piggybank-1.15.0+7151-linux.deb",
+            "piggybank-1.15.0+7151-linux.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
-          "fetchedAt": "2026-09-26T14:39:53.531Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.0",
+          "fetchedAt": "2026-10-11T03:18:28.816Z"
         }
       },
       {
@@ -138,15 +138,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.14.0",
+          "tag": "1.15.0",
           "assets": [
             "oinkoin-windows-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.14.0",
-          "fetchedAt": "2026-09-26T14:39:53.531Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.0",
+          "fetchedAt": "2026-10-11T03:18:28.816Z"
         }
       },
       {
@@ -160,12 +160,12 @@
           "version": "1.14.0",
           "project": "oinkoin",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/oinkoin/versions",
-          "fetchedAt": "2026-10-03T08:40:09.019Z"
+          "fetchedAt": "2026-10-11T03:18:28.816Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "jan",
   "repoUrl": "https://github.com/janhq/jan",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:26:18.951Z",
+  "lastSuccessAt": "2026-10-11T03:16:40.083Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:38.414Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "janhq/jan",
-      "stargazers_count": 44831,
-      "forks_count": 3069,
-      "open_issues_count": 537,
+      "stargazers_count": 44878,
+      "forks_count": 3081,
+      "open_issues_count": 546,
       "language": "Rust",
-      "pushed_at": "2026-10-07T01:55:01Z",
-      "updated_at": "2026-10-07T02:16:30Z",
+      "pushed_at": "2026-10-10T02:57:20Z",
+      "updated_at": "2026-10-11T03:12:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,10 +49,10 @@
         "tauri"
       ]
     },
-    "latestReleaseAt": "2026-07-23T06:29:15Z",
+    "latestReleaseAt": "2026-10-09T09:03:08Z",
     "homepage": "https://jan.ai/",
     "sync": {
-      "syncedAt": "2026-10-07T02:26:18.951Z",
+      "syncedAt": "2026-10-11T03:16:40.083Z",
       "source": "api"
     }
   },
@@ -81,12 +81,12 @@
         "facts": {
           "appId": "ai.jan.Jan",
           "match": "metainfo",
-          "evidence": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml"
+          "evidence": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/ai.jan.Jan",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -95,16 +95,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/janhq/jan/releases/latest",
         "facts": {
-          "tag": "v0.8.4",
+          "tag": "v0.8.6",
           "assets": [
-            "Jan_0.8.4_amd64.AppImage",
-            "Jan_0.8.4_amd64.deb"
+            "Jan_0.8.6_amd64.AppImage",
+            "Jan_0.8.6_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/releases/tag/v0.8.6",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -113,15 +113,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/janhq/jan/releases/latest",
         "facts": {
-          "tag": "v0.8.4",
+          "tag": "v0.8.6",
           "assets": [
-            "Jan_0.8.4_universal.dmg"
+            "Jan_0.8.6_universal.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/releases/tag/v0.8.6",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -130,15 +130,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/janhq/jan/releases/latest",
         "facts": {
-          "tag": "v0.8.4",
+          "tag": "v0.8.6",
           "assets": [
-            "Jan_0.8.4_x64-setup.exe"
+            "Jan_0.8.6_arm64-setup.exe",
+            "Jan_0.8.6_x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/janhq/jan/releases/tag/v0.8.4",
-          "fetchedAt": "2026-09-28T18:14:37.167Z"
+          "url": "https://github.com/janhq/jan/releases/tag/v0.8.6",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -152,12 +153,12 @@
           "version": "0.8.4",
           "project": "jan",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/jan/versions",
-          "fetchedAt": "2026-10-03T08:38:26.671Z"
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -171,12 +172,12 @@
           "version": "0.8.4",
           "project": "jan",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/jan/versions",
-          "fetchedAt": "2026-10-03T08:38:26.671Z"
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -187,7 +188,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "jan",
-          "version": "0.8.4",
+          "version": "0.8.6",
           "project": "jan",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -195,7 +196,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/jan/versions",
-          "fetchedAt": "2026-10-03T08:38:26.671Z"
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -225,7 +226,7 @@
         "facts": {
           "repository": "scoop",
           "package": "jan",
-          "version": "0.8.4",
+          "version": "0.8.6",
           "project": "jan",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -233,7 +234,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/jan/versions",
-          "fetchedAt": "2026-10-03T08:38:26.671Z"
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       }
     ],
@@ -259,8 +260,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -268,8 +269,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -277,8 +278,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -286,8 +287,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -295,8 +296,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       },
       {
@@ -304,8 +305,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/janhq/jan/blob/71eb4863b7222e2d1b7d003ad66d98eecd2d2352/flatpak/ai.jan.Jan.metainfo.xml",
-          "fetchedAt": "2026-10-07T02:26:17.750Z"
+          "url": "https://github.com/janhq/jan/blob/f2cd837fabe99cd6b8bbe985891bab8782e4034b/flatpak/ai.jan.Jan.metainfo.xml",
+          "fetchedAt": "2026-10-11T03:16:38.885Z"
         }
       }
     ]

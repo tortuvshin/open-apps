@@ -3,7 +3,7 @@
   "slug": "mhabit",
   "repoUrl": "https://github.com/FriesI23/mhabit",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:27:40.155Z",
+  "lastSuccessAt": "2026-10-11T03:18:03.942Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:30.058Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:27:40.155Z",
+      "syncedAt": "2026-10-11T03:18:03.942Z",
       "source": "api"
     },
     "repository": {
       "full_name": "FriesI23/mhabit",
-      "stargazers_count": 1629,
+      "stargazers_count": 1644,
       "forks_count": 100,
       "open_issues_count": 79,
       "language": "Dart",
-      "pushed_at": "2026-10-06T11:08:49Z",
-      "updated_at": "2026-10-06T11:08:51Z",
+      "pushed_at": "2026-10-10T08:49:36Z",
+      "updated_at": "2026-10-10T20:19:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -80,7 +80,7 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-20T23:24:07Z",
+    "latestReleaseAt": "2026-10-10T00:16:09Z",
     "homepage": "https://github.com/FriesI23/mhabit"
   },
   "health": {
@@ -108,13 +108,13 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "suggestedVersionCode": 198,
-          "evidence": "https://github.com/FriesI23/mhabit/blob/a0565800155eec7cdc43afe042a9410102a53005/android/app/build.gradle",
+          "evidence": "https://github.com/FriesI23/mhabit/blob/caad49ea1c52b52aec9892f493db1982dbd9e3d8/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-10-07T02:27:38.010Z"
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {
@@ -125,12 +125,12 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "match": "metainfo",
-          "evidence": "https://github.com/FriesI23/mhabit/blob/a0565800155eec7cdc43afe042a9410102a53005/flatpak/io.github.friesi23.mhabit.metainfo.xml"
+          "evidence": "https://github.com/FriesI23/mhabit/blob/caad49ea1c52b52aec9892f493db1982dbd9e3d8/flatpak/io.github.friesi23.mhabit.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-10-07T02:27:38.010Z"
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {
@@ -139,7 +139,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/FriesI23/mhabit/releases/latest",
         "facts": {
-          "tag": "v1.27.9+198",
+          "tag": "v1.27.13+202",
           "assets": [
             "app-arm64-v8a-release.apk",
             "app-armeabi-v7a-release.apk",
@@ -149,8 +149,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
-          "fetchedAt": "2026-09-26T14:39:42.068Z"
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.13%2B202",
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {
@@ -159,7 +159,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/FriesI23/mhabit/releases/latest",
         "facts": {
-          "tag": "v1.27.9+198",
+          "tag": "v1.27.13+202",
           "assets": [
             "mhabit-aarch64.flatpak",
             "mhabit-x86_64.flatpak"
@@ -167,8 +167,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
-          "fetchedAt": "2026-09-26T14:39:42.068Z"
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.13%2B202",
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {
@@ -177,15 +177,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/FriesI23/mhabit/releases/latest",
         "facts": {
-          "tag": "v1.27.9+198",
+          "tag": "v1.27.13+202",
           "assets": [
             "mhabit.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
-          "fetchedAt": "2026-09-26T14:39:42.068Z"
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.13%2B202",
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {
@@ -194,15 +194,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/FriesI23/mhabit/releases/latest",
         "facts": {
-          "tag": "v1.27.9+198",
+          "tag": "v1.27.13+202",
           "assets": [
             "mhabit_x64.msix"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.9%2B198",
-          "fetchedAt": "2026-09-26T14:39:42.068Z"
+          "url": "https://github.com/FriesI23/mhabit/releases/tag/v1.27.13%2B202",
+          "fetchedAt": "2026-10-11T03:18:02.205Z"
         }
       },
       {

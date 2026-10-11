@@ -3,7 +3,7 @@
   "slug": "admin-portal",
   "repoUrl": "https://github.com/invoiceninja/admin-portal",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:22:52.930Z",
+  "lastSuccessAt": "2026-10-11T03:12:55.500Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:29.572Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "invoiceninja/admin-portal",
-      "stargazers_count": 1754,
+      "stargazers_count": 1755,
       "forks_count": 581,
       "open_issues_count": 77,
       "language": "Dart",
-      "pushed_at": "2026-08-21T13:33:31Z",
-      "updated_at": "2026-10-05T08:53:50Z",
+      "pushed_at": "2026-10-08T21:13:51Z",
+      "updated_at": "2026-10-08T21:08:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,10 +59,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-05-14T04:37:59Z",
+    "latestReleaseAt": "2026-10-08T21:13:52Z",
     "homepage": "https://demo.invoiceninja.com",
     "sync": {
-      "syncedAt": "2026-10-07T02:22:52.930Z",
+      "syncedAt": "2026-10-11T03:12:55.500Z",
       "source": "api"
     }
   },
@@ -91,12 +91,12 @@
         "facts": {
           "appId": "com.invoiceninja.InvoiceNinja",
           "match": "metainfo",
-          "evidence": "https://github.com/invoiceninja/admin-portal/blob/806269400fce6a9845ce183fcf8e4828c29f5d65/flatpak/com.invoiceninja.InvoiceNinja.metainfo.xml"
+          "evidence": "https://github.com/invoiceninja/admin-portal/blob/f8946dcec4a04517f16ef6fb185958c05c70b843/flatpak/com.invoiceninja.InvoiceNinja.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.invoiceninja.InvoiceNinja",
-          "fetchedAt": "2026-09-26T14:37:14.618Z"
+          "fetchedAt": "2026-10-11T03:12:50.639Z"
         }
       }
     ],

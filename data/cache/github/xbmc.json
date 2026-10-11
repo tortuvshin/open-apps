@@ -3,7 +3,7 @@
   "slug": "xbmc",
   "repoUrl": "https://github.com/xbmc/xbmc",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:31:27.241Z",
+  "lastSuccessAt": "2026-10-11T03:22:17.794Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:45.359Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/xbmc/xbmc/releases{/id}",
       "deployments_url": "https://api.github.com/repos/xbmc/xbmc/deployments",
       "created_at": "2011-01-03T21:18:51Z",
-      "updated_at": "2026-10-06T17:56:25Z",
-      "pushed_at": "2026-10-06T12:07:51Z",
+      "updated_at": "2026-10-10T23:12:39Z",
+      "pushed_at": "2026-10-10T23:12:34Z",
       "git_url": "git://github.com/xbmc/xbmc.git",
       "ssh_url": "git@github.com:xbmc/xbmc.git",
       "clone_url": "https://github.com/xbmc/xbmc.git",
       "svn_url": "https://github.com/xbmc/xbmc",
       "homepage": "https://kodi.tv/",
       "size": 1650209,
-      "stargazers_count": 21285,
+      "stargazers_count": 21304,
       "watchers_count": 20987,
       "language": "C++",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6615,
+      "forks_count": 6620,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 499,
+      "open_issues_count": 518,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -221,7 +221,7 @@
       "contributorsKnown": 1272
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:31:27.241Z",
+      "syncedAt": "2026-10-11T03:22:17.794Z",
       "source": "api"
     },
     "languages": {
@@ -322,8 +322,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -331,8 +331,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -340,8 +340,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -349,8 +349,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -358,8 +358,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -367,8 +367,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -376,8 +376,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       },
       {
@@ -385,8 +385,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/c25d72466b3cea5988578ae557321beeb8874ca5/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-07T02:31:24.924Z"
+          "url": "https://github.com/xbmc/xbmc/blob/494721df6fde78d1188ae110b6688d2a8324ba44/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-10-11T03:22:15.445Z"
         }
       }
     ]

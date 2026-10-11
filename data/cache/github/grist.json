@@ -3,7 +3,7 @@
   "slug": "grist",
   "repoUrl": "https://github.com/gristlabs/grist-core",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:25:35.031Z",
+  "lastSuccessAt": "2026-10-11T03:15:54.132Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:01.063Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "gristlabs/grist-core",
-      "stargazers_count": 11909,
-      "forks_count": 651,
-      "open_issues_count": 736,
+      "stargazers_count": 11931,
+      "forks_count": 657,
+      "open_issues_count": 744,
       "language": "TypeScript",
-      "pushed_at": "2026-10-06T18:33:13Z",
-      "updated_at": "2026-10-06T20:30:29Z",
+      "pushed_at": "2026-10-10T06:14:38Z",
+      "updated_at": "2026-10-11T02:44:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,10 +44,10 @@
         "spreadsheet"
       ]
     },
-    "latestReleaseAt": "2026-09-28T23:04:24Z",
+    "latestReleaseAt": "2026-10-09T20:08:10Z",
     "homepage": "https://www.getgrist.com",
     "sync": {
-      "syncedAt": "2026-10-07T02:25:35.031Z",
+      "syncedAt": "2026-10-11T03:15:54.132Z",
       "source": "api"
     }
   },
@@ -79,12 +79,12 @@
           "version": "1.7.20",
           "project": "grist-core",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/grist-core/versions",
-          "fetchedAt": "2026-10-07T02:25:33.160Z"
+          "fetchedAt": "2026-10-11T03:15:52.220Z"
         }
       }
     ],

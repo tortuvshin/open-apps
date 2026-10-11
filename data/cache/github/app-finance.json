@@ -3,7 +3,7 @@
   "slug": "app-finance",
   "repoUrl": "https://github.com/lyskouski/app-finance",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:23:27.581Z",
+  "lastSuccessAt": "2026-10-11T03:13:32.991Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:53.662Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "lyskouski/app-finance",
-      "stargazers_count": 136,
-      "forks_count": 32,
-      "open_issues_count": 24,
+      "stargazers_count": 137,
+      "forks_count": 31,
+      "open_issues_count": 25,
       "language": "Dart",
-      "pushed_at": "2026-10-06T19:18:04Z",
-      "updated_at": "2026-10-06T19:03:39Z",
+      "pushed_at": "2026-10-08T17:19:44Z",
+      "updated_at": "2026-10-09T10:07:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -62,10 +62,10 @@
         "personal-finances"
       ]
     },
-    "latestReleaseAt": "2026-10-01T07:18:51Z",
+    "latestReleaseAt": "2026-10-08T15:44:24Z",
     "homepage": "https://tercad.com/app/finance/index.html",
     "sync": {
-      "syncedAt": "2026-10-07T02:23:27.581Z",
+      "syncedAt": "2026-10-11T03:13:32.991Z",
       "source": "api"
     }
   },
@@ -93,12 +93,12 @@
         "facts": {
           "appId": "com.tercad.fingrom",
           "match": "metainfo",
-          "evidence": "https://github.com/lyskouski/app-finance/blob/bfa5e4e7f27eec6fafed69837e2d24dfdc196de3/linux-flatpak/com.tercad.fingrom.metainfo.xml"
+          "evidence": "https://github.com/lyskouski/app-finance/blob/85fd4c2db51d86104efac34ae0202502ba58cb09/linux-flatpak/com.tercad.fingrom.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.tercad.fingrom",
-          "fetchedAt": "2026-10-07T02:23:25.076Z"
+          "fetchedAt": "2026-10-11T03:13:30.245Z"
         }
       },
       {
@@ -107,15 +107,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lyskouski/app-finance/releases/latest",
         "facts": {
-          "tag": "v7.2.17",
+          "tag": "v7.3.1",
           "assets": [
             "fingrom_iOS.ipa"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.2.17",
-          "fetchedAt": "2026-10-03T08:35:37.567Z"
+          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.3.1",
+          "fetchedAt": "2026-10-11T03:13:30.245Z"
         }
       },
       {
@@ -124,17 +124,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/lyskouski/app-finance/releases/latest",
         "facts": {
-          "tag": "v7.2.17",
+          "tag": "v7.3.1",
           "assets": [
-            "Fingrom-7.2.17-x86_64.AppImage",
+            "Fingrom-7.3.1-x86_64.AppImage",
             "fingrom_LinuxFlatpak.flatpak",
             "fingrom_LinuxSnap.snap"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.2.17",
-          "fetchedAt": "2026-10-03T08:35:37.567Z"
+          "url": "https://github.com/lyskouski/app-finance/releases/tag/v7.3.1",
+          "fetchedAt": "2026-10-11T03:13:30.245Z"
         }
       }
     ],

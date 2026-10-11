@@ -3,7 +3,7 @@
   "slug": "invoice-ninja",
   "repoUrl": "https://github.com/invoiceninja/flutter-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:26:03.134Z",
+  "lastSuccessAt": "2026-10-11T03:16:23.787Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:36.634Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/invoiceninja/admin-portal/releases{/id}",
       "deployments_url": "https://api.github.com/repos/invoiceninja/admin-portal/deployments",
       "created_at": "2018-05-15T10:50:36Z",
-      "updated_at": "2026-10-05T08:53:50Z",
-      "pushed_at": "2026-08-21T13:33:31Z",
+      "updated_at": "2026-10-08T21:08:05Z",
+      "pushed_at": "2026-10-08T21:13:51Z",
       "git_url": "git://github.com/invoiceninja/admin-portal.git",
       "ssh_url": "git@github.com:invoiceninja/admin-portal.git",
       "clone_url": "https://github.com/invoiceninja/admin-portal.git",
       "svn_url": "https://github.com/invoiceninja/admin-portal",
       "homepage": "https://demo.invoiceninja.com",
       "size": 111726,
-      "stargazers_count": 1754,
+      "stargazers_count": 1755,
       "watchers_count": 1747,
       "language": "Dart",
       "has_issues": true,
@@ -212,7 +212,7 @@
       "contributorsKnown": 28
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:26:03.134Z",
+      "syncedAt": "2026-10-11T03:16:23.787Z",
       "source": "api"
     },
     "languages": {
@@ -232,7 +232,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-05-14T04:37:59Z",
+    "latestReleaseAt": "2026-10-08T21:13:52Z",
     "homepage": "https://demo.invoiceninja.com"
   },
   "health": {
@@ -260,12 +260,12 @@
         "facts": {
           "appId": "com.invoiceninja.InvoiceNinja",
           "match": "metainfo",
-          "evidence": "https://github.com/invoiceninja/flutter-mobile/blob/806269400fce6a9845ce183fcf8e4828c29f5d65/flatpak/com.invoiceninja.InvoiceNinja.metainfo.xml"
+          "evidence": "https://github.com/invoiceninja/flutter-mobile/blob/f8946dcec4a04517f16ef6fb185958c05c70b843/flatpak/com.invoiceninja.InvoiceNinja.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.invoiceninja.InvoiceNinja",
-          "fetchedAt": "2026-09-26T14:38:57.106Z"
+          "fetchedAt": "2026-10-11T03:16:21.724Z"
         }
       }
     ],

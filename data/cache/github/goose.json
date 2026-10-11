@@ -3,7 +3,7 @@
   "slug": "goose",
   "repoUrl": "https://github.com/aaif-goose/goose",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:25:32.730Z",
+  "lastSuccessAt": "2026-10-11T03:15:51.819Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:58.940Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "aaif-goose/goose",
-      "stargazers_count": 55016,
-      "forks_count": 6371,
-      "open_issues_count": 464,
+      "stargazers_count": 55142,
+      "forks_count": 6404,
+      "open_issues_count": 499,
       "language": "Rust",
-      "pushed_at": "2026-10-07T02:23:57Z",
-      "updated_at": "2026-10-07T02:12:44Z",
+      "pushed_at": "2026-10-09T23:52:36Z",
+      "updated_at": "2026-10-11T02:39:29Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +45,10 @@
         "mcp"
       ]
     },
-    "latestReleaseAt": "2026-10-02T18:44:11Z",
+    "latestReleaseAt": "2026-10-08T18:44:54Z",
     "homepage": "https://goose-docs.ai/",
     "sync": {
-      "syncedAt": "2026-10-07T02:25:32.730Z",
+      "syncedAt": "2026-10-11T03:15:51.819Z",
       "source": "api"
     }
   },
@@ -75,20 +75,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/aaif-goose/goose/releases/latest",
         "facts": {
-          "tag": "v1.53.0",
+          "tag": "v1.54.0",
           "assets": [
-            "Goose-1.53.0-1.arm64-vulkan.rpm",
-            "Goose-1.53.0-1.arm64.rpm",
-            "Goose-1.53.0-1.x86_64-vulkan.rpm",
-            "Goose-1.53.0-1.x86_64.rpm",
-            "goose_1.53.0_amd64-vulkan.deb",
-            "goose_1.53.0_amd64.deb"
+            "Goose-1.54.0-1.arm64-vulkan.rpm",
+            "Goose-1.54.0-1.arm64.rpm",
+            "Goose-1.54.0-1.x86_64-vulkan.rpm",
+            "Goose-1.54.0-1.x86_64.rpm",
+            "goose_1.54.0_amd64-vulkan.deb",
+            "goose_1.54.0_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/aaif-goose/goose/releases/tag/v1.53.0",
-          "fetchedAt": "2026-10-03T08:37:45.302Z"
+          "url": "https://github.com/aaif-goose/goose/releases/tag/v1.54.0",
+          "fetchedAt": "2026-10-11T03:15:49.605Z"
         }
       }
     ],

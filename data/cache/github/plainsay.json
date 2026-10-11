@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "slug": "plainsay",
+  "repoUrl": "https://github.com/conrader/plainsay",
+  "source": "api",
+  "lastSuccessAt": "2026-10-11T03:19:44.406Z",
+  "partialFailures": [],
+  "sourceDescription": "Native Mac dictation in a 12 MB download. Free Local mode with Whisper + Parakeet, reproducible benchmarks, optional Cloud. MIT-licensed client.",
+  "github": {
+    "repository": {
+      "full_name": "conrader/plainsay",
+      "stargazers_count": 11,
+      "forks_count": 1,
+      "open_issues_count": 1,
+      "language": "Swift",
+      "pushed_at": "2026-10-10T14:27:58Z",
+      "updated_at": "2026-10-10T18:53:18Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "apple-silicon",
+        "coreml",
+        "dictation",
+        "dictation-app",
+        "local-ai",
+        "macos",
+        "menu-bar-app",
+        "offline",
+        "on-device",
+        "open-source",
+        "parakeet",
+        "privacy",
+        "speech-recognition",
+        "speech-to-text",
+        "swift",
+        "swiftui",
+        "voice-to-text",
+        "whisper",
+        "whisperkit",
+        "wispr-flow-alternative"
+      ]
+    },
+    "latestReleaseAt": "2026-10-09T03:02:38Z",
+    "homepage": "https://plainsay.app",
+    "sync": {
+      "syncedAt": "2026-10-11T03:19:44.406Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/conrader/plainsay/releases/latest",
+        "facts": {
+          "tag": "v0.2.38",
+          "assets": [
+            "Plainsay-0.2.38.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/conrader/plainsay/releases/tag/v0.2.38",
+          "fetchedAt": "2026-10-11T03:19:42.196Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/conrader/plainsay/blob/6a6b0008cfc0909a0c9207d8dcd76d803e76714f/windows/src-tauri/icons/icon.png",
+        "path": "windows/src-tauri/icons/icon.png",
+        "blobSha": "db05c1ed14d03d083d17a45a4ff0c04ba23041bc",
+        "format": "png",
+        "bytes": 8316,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/conrader/plainsay/blob/6a6b0008cfc0909a0c9207d8dcd76d803e76714f/windows/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-10-11T03:19:42.196Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

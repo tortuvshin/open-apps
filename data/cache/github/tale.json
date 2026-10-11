@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "slug": "tale",
+  "repoUrl": "https://github.com/tale-project/tale",
+  "source": "api",
+  "lastSuccessAt": "2026-10-11T03:21:06.398Z",
+  "partialFailures": [],
+  "sourceDescription": "Open-source project workspace for teams and AI agents. Assign tasks, coordinate agents in persistent sandboxes, and review results together. Self-hosted or managed cloud.",
+  "github": {
+    "repository": {
+      "full_name": "tale-project/tale",
+      "stargazers_count": 33,
+      "forks_count": 5,
+      "open_issues_count": 250,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-11T03:20:07Z",
+      "updated_at": "2026-10-11T03:10:30Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "agent-orchestration",
+        "agent-skills",
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "codex",
+        "hermes-agent",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "open-source",
+        "openclaw",
+        "project-management",
+        "rag",
+        "sandbox",
+        "self-hosted",
+        "task-management",
+        "team-collaboration",
+        "typescript",
+        "workflow-automation"
+      ]
+    },
+    "latestReleaseAt": "2026-10-10T09:56:07Z",
+    "homepage": "https://tale.dev",
+    "sync": {
+      "syncedAt": "2026-10-11T03:21:06.398Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/tale-project/tale/releases/latest",
+        "facts": {
+          "tag": "v0.5.79",
+          "assets": [
+            "tale_windows.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/tale-project/tale/releases/tag/v0.5.79",
+          "fetchedAt": "2026-10-11T03:21:03.400Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/tale-git",
+        "facts": {
+          "repository": "aur",
+          "package": "tale-git",
+          "version": "1.0.0.r18.g53d701b",
+          "project": "tale",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/tale/versions",
+          "fetchedAt": "2026-10-11T03:21:03.400Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-black.svg",
+        "path": "services/platform/public/assets/logo-black.svg",
+        "blobSha": "ec0e56cdb2096c7b2f390dc29d353e4ae87a0e7d",
+        "format": "svg",
+        "bytes": 470,
+        "width": 20,
+        "height": 20,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-black.svg",
+          "fetchedAt": "2026-10-11T03:21:03.400Z"
+        }
+      },
+      {
+        "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-text-black.svg",
+        "path": "services/platform/public/assets/logo-text-black.svg",
+        "blobSha": "4668522e36c498e9c2e521522c54953c50eeb806",
+        "format": "svg",
+        "bytes": 2068,
+        "width": 74,
+        "height": 20,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-text-black.svg",
+          "fetchedAt": "2026-10-11T03:21:03.400Z"
+        }
+      },
+      {
+        "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-text-white.svg",
+        "path": "services/platform/public/assets/logo-text-white.svg",
+        "blobSha": "be915324324989683ee8405fdd5d79500e6964d7",
+        "format": "svg",
+        "bytes": 2065,
+        "width": 74,
+        "height": 20,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/tale-project/tale/blob/fc978b2fb3462470c20dbcdfc3779ace96d43bc1/services/platform/public/assets/logo-text-white.svg",
+          "fetchedAt": "2026-10-11T03:21:03.400Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

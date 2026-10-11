@@ -3,7 +3,7 @@
   "slug": "bluewallet",
   "repoUrl": "https://github.com/BlueWallet/BlueWallet",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:24:01.128Z",
+  "lastSuccessAt": "2026-10-11T03:14:09.229Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:16.575Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/BlueWallet/BlueWallet/releases{/id}",
       "deployments_url": "https://api.github.com/repos/BlueWallet/BlueWallet/deployments",
       "created_at": "2018-01-14T20:14:02Z",
-      "updated_at": "2026-10-06T19:39:55Z",
-      "pushed_at": "2026-10-06T19:39:45Z",
+      "updated_at": "2026-10-10T22:44:26Z",
+      "pushed_at": "2026-10-10T22:37:15Z",
       "git_url": "git://github.com/BlueWallet/BlueWallet.git",
       "ssh_url": "git@github.com:BlueWallet/BlueWallet.git",
       "clone_url": "https://github.com/BlueWallet/BlueWallet.git",
       "svn_url": "https://github.com/BlueWallet/BlueWallet",
       "homepage": "https://bluewallet.io",
       "size": 212697,
-      "stargazers_count": 3307,
+      "stargazers_count": 3311,
       "watchers_count": 3238,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 1069,
+      "forks_count": 1068,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 443,
+      "open_issues_count": 445,
       "license": {
         "spdx_id": "MIT",
         "name": "MIT"
@@ -223,7 +223,7 @@
       "openPullRequests": 76
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:24:01.128Z",
+      "syncedAt": "2026-10-11T03:14:09.229Z",
       "source": "api"
     },
     "html": {
@@ -252,6 +252,40 @@
   "candidates": {
     "channels": [
       {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/BlueWallet/BlueWallet/releases/latest",
+        "facts": {
+          "tag": "v8.0.2",
+          "assets": [
+            "BlueWallet-8.0.2.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases/tag/v8.0.2",
+          "fetchedAt": "2026-10-11T03:14:07.045Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/BlueWallet/BlueWallet/releases/latest",
+        "facts": {
+          "tag": "v8.0.2",
+          "assets": [
+            "BlueWallet.8.0.2.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/BlueWallet/BlueWallet/releases/tag/v8.0.2",
+          "fetchedAt": "2026-10-11T03:14:07.045Z"
+        }
+      },
+      {
         "type": "package-manager",
         "platform": "macos",
         "label": "Homebrew Cask",
@@ -259,15 +293,15 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "bluewallet",
-          "version": "7.2.6",
+          "version": "8.0.2",
           "project": "bluewallet",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/bluewallet/versions",
-          "fetchedAt": "2026-10-03T08:36:11.340Z"
+          "fetchedAt": "2026-10-11T03:14:07.045Z"
         }
       }
     ],

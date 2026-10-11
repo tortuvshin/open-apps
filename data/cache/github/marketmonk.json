@@ -3,7 +3,7 @@
   "slug": "marketmonk",
   "repoUrl": "https://github.com/brandonp2412/MarketMonk",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:27:17.097Z",
+  "lastSuccessAt": "2026-10-11T03:17:39.846Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:11.968Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-07T02:27:17.097Z",
+      "syncedAt": "2026-10-11T03:17:39.846Z",
       "source": "api"
     },
     "repository": {
       "full_name": "brandonp2412/MarketMonk",
-      "stargazers_count": 63,
+      "stargazers_count": 64,
       "forks_count": 5,
       "open_issues_count": 0,
       "language": "Dart",
-      "pushed_at": "2026-10-07T00:24:49Z",
-      "updated_at": "2026-10-07T00:24:53Z",
+      "pushed_at": "2026-10-11T03:15:27Z",
+      "updated_at": "2026-10-11T03:15:31Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -102,13 +102,13 @@
         "facts": {
           "appId": "com.codesail.market_monk",
           "suggestedVersionCode": 1083,
-          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/35fd21f99a49739a855f93001b998a3010054012/android/app/build.gradle",
+          "evidence": "https://github.com/brandonp2412/MarketMonk/blob/c0d50f952886a062ef57c17db2e23b01381f6383/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.codesail.market_monk",
-          "fetchedAt": "2026-10-07T02:27:14.010Z"
+          "fetchedAt": "2026-10-11T03:17:36.931Z"
         }
       },
       {
@@ -134,18 +134,18 @@
     ],
     "logos": [
       {
-        "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/icon.png",
+        "url": "https://github.com/brandonp2412/MarketMonk/blob/c0d50f952886a062ef57c17db2e23b01381f6383/fastlane/metadata/android/en-US/images/icon.png",
         "path": "fastlane/metadata/android/en-US/images/icon.png",
-        "blobSha": "2692813e39008e31de82dd592ea3e27f614723db",
+        "blobSha": "b80714f7bb7d94d943610c55ab1b147aa7f94b5f",
         "locale": "en-US",
         "format": "png",
-        "bytes": 17944,
+        "bytes": 17415,
         "width": 512,
         "height": 512,
         "provenance": {
           "source": "fastlane",
-          "url": "https://github.com/brandonp2412/MarketMonk/blob/21d00c8806ae2147815724d14717c45b6043dd19/fastlane/metadata/android/en-US/images/icon.png",
-          "fetchedAt": "2026-09-26T14:39:23.537Z"
+          "url": "https://github.com/brandonp2412/MarketMonk/blob/c0d50f952886a062ef57c17db2e23b01381f6383/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-10-11T03:17:36.931Z"
         }
       },
       {

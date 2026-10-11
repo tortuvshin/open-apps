@@ -3,7 +3,7 @@
   "slug": "invoiceflowai",
   "repoUrl": "https://github.com/EthanYoQ/Invoice-Downloader",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:26:05.394Z",
+  "lastSuccessAt": "2026-10-11T03:16:26.143Z",
   "partialFailures": [
     {
       "at": "2026-09-30T16:16:22.811Z",
@@ -15,12 +15,12 @@
   "github": {
     "repository": {
       "full_name": "EthanYoQ/Invoice-Downloader",
-      "stargazers_count": 496,
+      "stargazers_count": 502,
       "forks_count": 54,
       "open_issues_count": 1,
       "language": "Python",
       "pushed_at": "2026-09-25T10:06:22Z",
-      "updated_at": "2026-10-06T19:42:43Z",
+      "updated_at": "2026-10-08T21:29:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,20 +52,21 @@
     "latestReleaseAt": "2026-09-25T10:06:22Z",
     "homepage": "https://github.com/EthanYoQ/Invoice-Downloader/releases/latest",
     "sync": {
-      "syncedAt": "2026-10-07T02:26:05.394Z",
+      "syncedAt": "2026-10-11T03:16:26.143Z",
       "source": "api"
     }
   },
   "health": {
-    "status": "active",
-    "maturity": "useful",
-    "tier": "listed",
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
     "visibility": "keep",
     "cleanupCandidate": false,
     "staleReason": null,
     "confidence": "high",
     "reasons": [
       "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
