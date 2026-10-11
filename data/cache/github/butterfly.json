@@ -3,7 +3,7 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:24:08.822Z",
+  "lastSuccessAt": "2026-10-11T03:14:18.838Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:21.444Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "LinwoodDev/Butterfly",
-      "stargazers_count": 2047,
-      "forks_count": 151,
+      "stargazers_count": 2053,
+      "forks_count": 152,
       "open_issues_count": 49,
       "language": "Dart",
-      "pushed_at": "2026-10-06T19:38:43Z",
-      "updated_at": "2026-10-06T19:36:06Z",
+      "pushed_at": "2026-10-10T13:07:00Z",
+      "updated_at": "2026-10-10T13:07:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -73,7 +73,7 @@
     "latestReleaseAt": "2026-09-28T08:29:29Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-10-07T02:24:08.822Z",
+      "syncedAt": "2026-10-11T03:14:18.838Z",
       "source": "api"
     }
   },
@@ -102,12 +102,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "suggestedVersionCode": 199,
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/5b4f303c8d5283688790a6f211545a4f9b3d730a/app/android/app/build.gradle.kts"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/acbb68637ff0af8fc944eac89d78867d608f4a2a/app/android/app/build.gradle.kts"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/dev.linwood.butterfly",
-          "fetchedAt": "2026-10-07T02:24:06.831Z"
+          "fetchedAt": "2026-10-11T03:14:16.574Z"
         }
       },
       {
@@ -118,12 +118,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "match": "metainfo",
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/5b4f303c8d5283688790a6f211545a4f9b3d730a/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/acbb68637ff0af8fc944eac89d78867d608f4a2a/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/dev.linwood.butterfly",
-          "fetchedAt": "2026-10-07T02:24:06.831Z"
+          "fetchedAt": "2026-10-11T03:14:16.574Z"
         }
       },
       {

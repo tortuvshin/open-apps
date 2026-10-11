@@ -3,7 +3,7 @@
   "slug": "appwrite",
   "repoUrl": "https://github.com/appwrite/appwrite",
   "source": "api",
-  "lastSuccessAt": "2026-10-07T02:23:35.587Z",
+  "lastSuccessAt": "2026-10-11T03:13:41.853Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:57.994Z",
@@ -21,16 +21,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+  "sourceDescription": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
   "github": {
     "repository": {
       "full_name": "appwrite/appwrite",
-      "stargazers_count": 57584,
-      "forks_count": 5763,
-      "open_issues_count": 730,
-      "language": "PHP",
-      "pushed_at": "2026-10-06T18:31:55Z",
-      "updated_at": "2026-10-06T22:19:30Z",
+      "stargazers_count": 57626,
+      "forks_count": 5776,
+      "open_issues_count": 779,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-10T21:21:34Z",
+      "updated_at": "2026-10-11T02:31:53Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,6 +45,7 @@
         "backend-as-a-service",
         "docker",
         "firebase",
+        "firewall",
         "flutter",
         "hosting",
         "ios",
@@ -55,16 +56,15 @@
         "reactnative",
         "self-hosted",
         "selfhosted",
-        "serverless",
         "supabase",
         "swift",
         "web"
       ]
     },
-    "latestReleaseAt": "2026-09-23T13:52:45Z",
+    "latestReleaseAt": "2026-10-08T10:21:50Z",
     "homepage": "https://appwrite.io",
     "sync": {
-      "syncedAt": "2026-10-07T02:23:35.587Z",
+      "syncedAt": "2026-10-11T03:13:41.853Z",
       "source": "api"
     }
   },
@@ -93,7 +93,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "appwrite",
-          "version": "28.1.0",
+          "version": "28.3.0",
           "project": "appwrite",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -101,37 +101,37 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appwrite/versions",
-          "fetchedAt": "2026-10-03T08:35:45.371Z"
+          "fetchedAt": "2026-10-11T03:13:38.683Z"
         }
       }
     ],
     "logos": [
       {
-        "url": "https://github.com/appwrite/appwrite/blob/fdb3311e8058cfef651e75aaad48851cd1001ab4/app/views/install/installer/icons/appwrite-logo.svg",
-        "path": "app/views/install/installer/icons/appwrite-logo.svg",
-        "blobSha": "af9378f8fce0401d5c442774aebed11afcc7c05a",
+        "url": "https://github.com/appwrite/appwrite/blob/ab112e0b5a2764ace6169bb1bed0d0fec5cd29da/apps/console/public/logo-white%202.svg",
+        "path": "apps/console/public/logo-white 2.svg",
+        "blobSha": "eb5c0dc36105ee6948b059af33779bcc9c85d5ab",
         "format": "svg",
-        "bytes": 4178,
-        "width": 131,
-        "height": 25,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/appwrite/appwrite/blob/fdb3311e8058cfef651e75aaad48851cd1001ab4/app/views/install/installer/icons/appwrite-logo.svg",
-          "fetchedAt": "2026-09-28T18:11:55.923Z"
-        }
-      },
-      {
-        "url": "https://github.com/appwrite/appwrite/blob/fdb3311e8058cfef651e75aaad48851cd1001ab4/public/images/logos/appwrite-icon.svg",
-        "path": "public/images/logos/appwrite-icon.svg",
-        "blobSha": "afbc1124c24a87c2739335d0bb4fab5905b8f5e2",
-        "format": "svg",
-        "bytes": 1125,
+        "bytes": 977,
         "width": 24,
         "height": 24,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/appwrite/appwrite/blob/fdb3311e8058cfef651e75aaad48851cd1001ab4/public/images/logos/appwrite-icon.svg",
-          "fetchedAt": "2026-09-28T18:11:55.923Z"
+          "url": "https://github.com/appwrite/appwrite/blob/ab112e0b5a2764ace6169bb1bed0d0fec5cd29da/apps/console/public/logo-white%202.svg",
+          "fetchedAt": "2026-10-11T03:13:38.683Z"
+        }
+      },
+      {
+        "url": "https://github.com/appwrite/appwrite/blob/ab112e0b5a2764ace6169bb1bed0d0fec5cd29da/apps/console/public/logo.svg",
+        "path": "apps/console/public/logo.svg",
+        "blobSha": "bd847aa86d6752b2c14bbec00e9ed99f6da109c2",
+        "format": "svg",
+        "bytes": 976,
+        "width": 24,
+        "height": 24,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/appwrite/appwrite/blob/ab112e0b5a2764ace6169bb1bed0d0fec5cd29da/apps/console/public/logo.svg",
+          "fetchedAt": "2026-10-11T03:13:38.683Z"
         }
       }
     ],
