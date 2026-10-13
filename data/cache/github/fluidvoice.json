@@ -3,7 +3,7 @@
   "slug": "fluidvoice",
   "repoUrl": "https://github.com/altic-dev/FluidVoice",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:52:49.698Z",
+  "lastSuccessAt": "2026-10-13T07:10:23.655Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:57.693Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "altic-dev/FluidVoice",
-      "stargazers_count": 11989,
-      "forks_count": 868,
-      "open_issues_count": 120,
+      "stargazers_count": 12032,
+      "forks_count": 871,
+      "open_issues_count": 118,
       "language": "Swift",
-      "pushed_at": "2026-10-06T23:39:03Z",
-      "updated_at": "2026-10-11T14:40:45Z",
+      "pushed_at": "2026-10-13T06:04:30Z",
+      "updated_at": "2026-10-13T07:04:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,10 +57,10 @@
         "swift"
       ]
     },
-    "latestReleaseAt": "2026-08-18T08:01:44Z",
+    "latestReleaseAt": "2026-10-12T19:34:41Z",
     "homepage": "https://altic.dev/fluid",
     "sync": {
-      "syncedAt": "2026-10-11T15:52:49.698Z",
+      "syncedAt": "2026-10-13T07:10:23.655Z",
       "source": "api"
     }
   },
@@ -87,15 +87,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/altic-dev/FluidVoice/releases/latest",
         "facts": {
-          "tag": "v1.6.9",
+          "tag": "v1.6.11",
           "assets": [
-            "Fluid-oss-1.6.9.dmg"
+            "Fluid-oss-1.6.11.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/altic-dev/FluidVoice/releases/tag/v1.6.9",
-          "fetchedAt": "2026-09-28T17:09:55.902Z"
+          "url": "https://github.com/altic-dev/FluidVoice/releases/tag/v1.6.11",
+          "fetchedAt": "2026-10-13T07:10:21.052Z"
         }
       },
       {
@@ -106,7 +106,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "fluidvoice",
-          "version": "1.6.9",
+          "version": "1.6.11",
           "project": "fluidvoice",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -114,7 +114,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/fluidvoice/versions",
-          "fetchedAt": "2026-10-03T08:37:18.380Z"
+          "fetchedAt": "2026-10-13T07:10:21.052Z"
         }
       }
     ],

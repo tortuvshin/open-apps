@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "slug": "orbi",
+  "repoUrl": "https://github.com/orbi-build/orbi",
+  "source": "api",
+  "lastSuccessAt": "2026-10-13T07:14:44.386Z",
+  "partialFailures": [],
+  "sourceDescription": "Open-source (AGPL-3.0), self-hostable lights-out software factory for the agent era: label a GitHub Issue, get an independently reviewed, merged PR and a tagged release.",
+  "github": {
+    "repository": {
+      "full_name": "orbi-build/orbi",
+      "stargazers_count": 215,
+      "forks_count": 24,
+      "open_issues_count": 26,
+      "language": "Python",
+      "pushed_at": "2026-10-12T13:28:55Z",
+      "updated_at": "2026-10-12T13:28:59Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "agpl",
+        "ai-agent",
+        "ai-coding-agent",
+        "autonomous-agents",
+        "autonomous-coding",
+        "autonomous-coding-agent",
+        "background-agent",
+        "background-agents",
+        "ci-cd",
+        "codex-alternative",
+        "coding-agent",
+        "devin-alternative",
+        "devops",
+        "github-automation",
+        "issue-to-pr",
+        "open-source",
+        "pi-coding-agent",
+        "self-hosted",
+        "software-delivery"
+      ]
+    },
+    "latestReleaseAt": "2026-10-12T13:28:43Z",
+    "homepage": "https://orbi.build",
+    "sync": {
+      "syncedAt": "2026-10-13T07:14:44.386Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [],
+    "screenshots": []
+  }
+}

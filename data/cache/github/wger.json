@@ -3,7 +3,7 @@
   "slug": "wger",
   "repoUrl": "https://github.com/wger-project/flutter",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:59:33.851Z",
+  "lastSuccessAt": "2026-10-13T07:17:50.847Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:42.780Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/wger-project/flutter/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wger-project/flutter/deployments",
       "created_at": "2020-09-12T10:09:59Z",
-      "updated_at": "2026-10-10T08:13:42Z",
-      "pushed_at": "2026-10-10T18:52:36Z",
+      "updated_at": "2026-10-12T10:40:33Z",
+      "pushed_at": "2026-10-12T02:29:42Z",
       "git_url": "git://github.com/wger-project/flutter.git",
       "ssh_url": "git@github.com:wger-project/flutter.git",
       "clone_url": "https://github.com/wger-project/flutter.git",
       "svn_url": "https://github.com/wger-project/flutter",
       "homepage": "",
       "size": 400675,
-      "stargazers_count": 981,
+      "stargazers_count": 983,
       "watchers_count": 943,
       "language": "Dart",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 440,
+      "forks_count": 441,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 104,
+      "open_issues_count": 110,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -211,7 +211,7 @@
       "contributorsKnown": 336
     },
     "sync": {
-      "syncedAt": "2026-10-11T15:59:33.851Z",
+      "syncedAt": "2026-10-13T07:17:50.847Z",
       "source": "api"
     },
     "languages": {
@@ -305,10 +305,10 @@
         "type": "package-manager",
         "platform": "linux",
         "label": "AUR",
-        "url": "https://aur.archlinux.org/packages/flutter-artifacts-engine-android-google-bin",
+        "url": "https://aur.archlinux.org/packages/flutter",
         "facts": {
           "repository": "aur",
-          "package": "flutter-artifacts-engine-android-google-bin",
+          "package": "flutter",
           "version": "3.41.2",
           "project": "flutter",
           "match": "project-name",
@@ -317,7 +317,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/flutter/versions",
-          "fetchedAt": "2026-10-11T15:59:31.883Z"
+          "fetchedAt": "2026-10-13T07:17:48.480Z"
         }
       },
       {

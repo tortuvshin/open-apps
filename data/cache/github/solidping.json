@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "slug": "solidping",
+  "repoUrl": "https://github.com/fclairamb/solidping",
+  "source": "api",
+  "lastSuccessAt": "2026-10-13T07:15:58.429Z",
+  "partialFailures": [],
+  "sourceDescription": "Distributed, self-hostable uptime monitoring: 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation — in a single Go binary.",
+  "github": {
+    "repository": {
+      "full_name": "fclairamb/solidping",
+      "stargazers_count": 18,
+      "forks_count": 2,
+      "open_issues_count": 4,
+      "language": "Go",
+      "pushed_at": "2026-10-13T07:06:55Z",
+      "updated_at": "2026-10-13T06:22:18Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "alerting",
+        "devops",
+        "distributed-systems",
+        "golang",
+        "health-check",
+        "incident-management",
+        "mcp-server",
+        "monitoring",
+        "observability",
+        "on-call",
+        "postgresql",
+        "react",
+        "self-hosted",
+        "sre",
+        "status-page",
+        "synthetic-monitoring",
+        "uptime",
+        "uptime-kuma-alternative",
+        "uptime-monitoring",
+        "website-monitoring"
+      ]
+    },
+    "latestReleaseAt": "2026-10-11T22:29:46Z",
+    "homepage": "https://www.solidping.io",
+    "sync": {
+      "syncedAt": "2026-10-13T07:15:58.429Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/fclairamb/solidping/blob/c3428d36391b8d7af43c7b7abb97cbb5724f3c45/web/dash0/public/assets/favicon.svg",
+        "path": "web/dash0/public/assets/favicon.svg",
+        "blobSha": "8f9d8b0a6f78eb097dc2524605d113de6e3f38bc",
+        "format": "svg",
+        "bytes": 9522,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/fclairamb/solidping/blob/c3428d36391b8d7af43c7b7abb97cbb5724f3c45/web/dash0/public/manifest.webmanifest",
+          "fetchedAt": "2026-10-13T07:15:55.842Z"
+        }
+      },
+      {
+        "url": "https://github.com/fclairamb/solidping/blob/c3428d36391b8d7af43c7b7abb97cbb5724f3c45/web/dash0/public/logo.png",
+        "path": "web/dash0/public/logo.png",
+        "blobSha": "446a8ef4d748845fe55a615bb741a61e599e9f42",
+        "format": "png",
+        "bytes": 59214,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/fclairamb/solidping/blob/c3428d36391b8d7af43c7b7abb97cbb5724f3c45/web/dash0/public/logo.png",
+          "fetchedAt": "2026-10-13T07:15:55.842Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "slug": "vpn-bypass",
+  "repoUrl": "https://github.com/GeiserX/VPN-Bypass",
+  "source": "api",
+  "lastSuccessAt": "2026-10-13T07:17:39.027Z",
+  "partialFailures": [],
+  "sourceDescription": "macOS menu-bar app for fine-grained VPN routing: bypass the VPN for chosen domains/services, force others through it, or (Custom mode) route each domain/subnet out a specific egress — direct, a specific VPN, an HTTP/SOCKS5 proxy, or a Tailscale peer. Includes a vpnb CLI.",
+  "github": {
+    "repository": {
+      "full_name": "GeiserX/VPN-Bypass",
+      "stargazers_count": 127,
+      "forks_count": 11,
+      "open_issues_count": 0,
+      "language": "Swift",
+      "pushed_at": "2026-10-08T10:21:32Z",
+      "updated_at": "2026-10-09T06:14:48Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "cisco",
+        "corporate-vpn",
+        "dns",
+        "globalprotect",
+        "homebrew",
+        "macos",
+        "macos-app",
+        "macos-menubar",
+        "menu-bar-app",
+        "network-tools",
+        "networking",
+        "privacy",
+        "routing",
+        "security",
+        "socks5",
+        "split-tunneling",
+        "swiftui",
+        "tailscale",
+        "vpn",
+        "vpn-bypass"
+      ]
+    },
+    "latestReleaseAt": "2026-10-05T21:01:22Z",
+    "homepage": "https://geiserx.github.io/VPN-Bypass/",
+    "sync": {
+      "syncedAt": "2026-10-13T07:17:39.027Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/GeiserX/VPN-Bypass/releases/latest",
+        "facts": {
+          "tag": "v5.1.4",
+          "assets": [
+            "VPN-Bypass-5.1.4.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/GeiserX/VPN-Bypass/releases/tag/v5.1.4",
+          "fetchedAt": "2026-10-13T07:17:36.779Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
+  }
+}

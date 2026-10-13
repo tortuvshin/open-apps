@@ -3,7 +3,7 @@
   "slug": "joplin",
   "repoUrl": "https://github.com/laurent22/joplin",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:54:10.463Z",
+  "lastSuccessAt": "2026-10-13T07:11:50.777Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:44.202Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/laurent22/joplin/releases{/id}",
       "deployments_url": "https://api.github.com/repos/laurent22/joplin/deployments",
       "created_at": "2017-01-16T21:49:41Z",
-      "updated_at": "2026-10-11T15:19:00Z",
-      "pushed_at": "2026-10-11T15:18:55Z",
+      "updated_at": "2026-10-13T06:38:10Z",
+      "pushed_at": "2026-10-12T20:29:22Z",
       "git_url": "git://github.com/laurent22/joplin.git",
       "ssh_url": "git@github.com:laurent22/joplin.git",
       "clone_url": "https://github.com/laurent22/joplin.git",
       "svn_url": "https://github.com/laurent22/joplin",
       "homepage": "https://joplinapp.org",
       "size": 648664,
-      "stargazers_count": 56681,
+      "stargazers_count": 56712,
       "watchers_count": 55683,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6329,
+      "forks_count": 6335,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 639,
+      "open_issues_count": 642,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -200,7 +200,7 @@
       "contributorsKnown": 813
     },
     "sync": {
-      "syncedAt": "2026-10-11T15:54:10.463Z",
+      "syncedAt": "2026-10-13T07:11:50.777Z",
       "source": "api"
     },
     "languages": {
@@ -258,13 +258,13 @@
         "facts": {
           "appId": "net.cozic.joplin",
           "suggestedVersionCode": 2097817,
-          "evidence": "https://github.com/laurent22/joplin/blob/c87f694dc7895ed003766fdf0b2a8155d3f41019/packages/app-mobile/android/app/build.gradle",
+          "evidence": "https://github.com/laurent22/joplin/blob/6de5ec074a0e58a338eca35a79b757556dd9976a/packages/app-mobile/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/net.cozic.joplin",
-          "fetchedAt": "2026-10-11T15:54:07.030Z"
+          "fetchedAt": "2026-10-13T07:11:47.312Z"
         }
       },
       {

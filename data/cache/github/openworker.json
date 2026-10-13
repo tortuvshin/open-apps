@@ -3,7 +3,7 @@
   "slug": "openworker",
   "repoUrl": "https://github.com/andrewyng/openworker",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:56:44.215Z",
+  "lastSuccessAt": "2026-10-13T07:14:39.090Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:14.716Z",
@@ -34,12 +34,12 @@
   "github": {
     "repository": {
       "full_name": "andrewyng/openworker",
-      "stargazers_count": 18489,
-      "forks_count": 2624,
+      "stargazers_count": 18507,
+      "forks_count": 2621,
       "open_issues_count": 506,
       "language": "Python",
       "pushed_at": "2026-10-10T06:07:06Z",
-      "updated_at": "2026-10-11T15:34:52Z",
+      "updated_at": "2026-10-13T06:15:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +52,7 @@
     "latestReleaseAt": "2026-10-05T21:12:52Z",
     "homepage": "http://openworker.com",
     "sync": {
-      "syncedAt": "2026-10-11T15:56:44.215Z",
+      "syncedAt": "2026-10-13T07:14:39.090Z",
       "source": "api"
     }
   },
@@ -121,15 +121,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "openworker",
-          "version": "0.3.0",
+          "version": "0.3.1",
           "project": "openworker",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openworker/versions",
-          "fetchedAt": "2026-10-07T02:28:45.596Z"
+          "fetchedAt": "2026-10-13T07:14:37.290Z"
         }
       }
     ],

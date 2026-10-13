@@ -3,7 +3,7 @@
   "slug": "immich",
   "repoUrl": "https://github.com/immich-app/immich",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:53:46.016Z",
+  "lastSuccessAt": "2026-10-13T07:11:27.075Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:34.423Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/immich-app/immich/releases{/id}",
       "deployments_url": "https://api.github.com/repos/immich-app/immich/deployments",
       "created_at": "2022-02-03T15:56:27Z",
-      "updated_at": "2026-10-11T15:45:02Z",
-      "pushed_at": "2026-10-11T15:37:30Z",
+      "updated_at": "2026-10-13T06:34:52Z",
+      "pushed_at": "2026-10-13T06:56:04Z",
       "git_url": "git://github.com/immich-app/immich.git",
       "ssh_url": "git@github.com:immich-app/immich.git",
       "clone_url": "https://github.com/immich-app/immich.git",
       "svn_url": "https://github.com/immich-app/immich",
       "homepage": "https://immich.app",
       "size": 324461,
-      "stargazers_count": 116015,
+      "stargazers_count": 116130,
       "watchers_count": 108423,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 7184,
+      "forks_count": 7206,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 709,
+      "open_issues_count": 723,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -220,7 +220,7 @@
       "contributorsKnown": 955
     },
     "sync": {
-      "syncedAt": "2026-10-11T15:53:46.016Z",
+      "syncedAt": "2026-10-13T07:11:27.075Z",
       "source": "api"
     },
     "languages": {
@@ -278,14 +278,14 @@
         "url": "https://f-droid.org/packages/app.alextran.immich/",
         "facts": {
           "appId": "app.alextran.immich",
-          "suggestedVersionCode": 3020499,
-          "evidence": "https://github.com/immich-app/immich/blob/2685234ed390746413203a2cf0b18bc36dba53d1/mobile/android/app/build.gradle",
+          "suggestedVersionCode": 3030199,
+          "evidence": "https://github.com/immich-app/immich/blob/024e8e769624c953982957d4886368dcae838a18/mobile/android/app/build.gradle",
           "fastlane": "mobile/android/fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/app.alextran.immich",
-          "fetchedAt": "2026-10-11T09:47:47.249Z"
+          "fetchedAt": "2026-10-13T07:11:23.860Z"
         }
       },
       {

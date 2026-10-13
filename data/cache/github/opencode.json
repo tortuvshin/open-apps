@@ -3,7 +3,7 @@
   "slug": "opencode",
   "repoUrl": "https://github.com/anomalyco/opencode",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:56:14.139Z",
+  "lastSuccessAt": "2026-10-13T07:14:06.702Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:32.753Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "anomalyco/opencode",
-      "stargazers_count": 212685,
-      "forks_count": 28427,
-      "open_issues_count": 5248,
+      "stargazers_count": 213021,
+      "forks_count": 28548,
+      "open_issues_count": 4146,
       "language": "TypeScript",
-      "pushed_at": "2026-10-11T09:27:11Z",
-      "updated_at": "2026-10-11T15:47:52Z",
+      "pushed_at": "2026-10-13T07:13:04Z",
+      "updated_at": "2026-10-13T07:14:00Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -43,7 +43,7 @@
     "latestReleaseAt": "2026-10-11T01:39:22Z",
     "homepage": "https://opencode.ai",
     "sync": {
-      "syncedAt": "2026-10-11T15:56:14.139Z",
+      "syncedAt": "2026-10-13T07:14:06.702Z",
       "source": "api"
     }
   },
@@ -164,7 +164,7 @@
         "facts": {
           "repository": "arch",
           "package": "opencode",
-          "version": "2.0.26",
+          "version": "2.0.27",
           "project": "opencode",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -172,7 +172,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-11T09:49:53.712Z"
+          "fetchedAt": "2026-10-13T07:14:03.795Z"
         }
       },
       {
@@ -221,15 +221,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "opencode",
-          "version": "1.18.34",
+          "version": "1.19.0",
           "project": "opencode",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-07T02:28:15.190Z"
+          "fetchedAt": "2026-10-13T07:14:03.795Z"
         }
       },
       {

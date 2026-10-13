@@ -3,7 +3,7 @@
   "slug": "supabase",
   "repoUrl": "https://github.com/supabase/supabase",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:58:12.092Z",
+  "lastSuccessAt": "2026-10-13T07:16:20.461Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:23.234Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "supabase/supabase",
-      "stargazers_count": 111362,
-      "forks_count": 16496,
-      "open_issues_count": 1152,
+      "stargazers_count": 111454,
+      "forks_count": 16595,
+      "open_issues_count": 1154,
       "language": "TypeScript",
-      "pushed_at": "2026-10-11T14:49:17Z",
-      "updated_at": "2026-10-11T15:48:16Z",
+      "pushed_at": "2026-10-13T06:08:08Z",
+      "updated_at": "2026-10-13T07:06:31Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -63,7 +63,7 @@
     "latestReleaseAt": "2026-08-07T13:57:57Z",
     "homepage": "https://supabase.com",
     "sync": {
-      "syncedAt": "2026-10-11T15:58:12.092Z",
+      "syncedAt": "2026-10-13T07:16:20.461Z",
       "source": "api"
     }
   },
@@ -162,6 +162,34 @@
       }
     ],
     "logos": [
+      {
+        "url": "https://github.com/supabase/supabase/blob/fe8b4df66d599b37e5a752d11d3d7f90f64240d9/apps/design-system/public/favicon/android-icon-512x512.png",
+        "path": "apps/design-system/public/favicon/android-icon-512x512.png",
+        "blobSha": "d861a381b0f51e781cc61371f9e332d731335e52",
+        "format": "png",
+        "bytes": 23899,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/supabase/supabase/blob/fe8b4df66d599b37e5a752d11d3d7f90f64240d9/apps/design-system/public/favicon/manifest.json",
+          "fetchedAt": "2026-10-13T07:16:17.339Z"
+        }
+      },
+      {
+        "url": "https://github.com/supabase/supabase/blob/fe8b4df66d599b37e5a752d11d3d7f90f64240d9/apps/kb/public/favicon/android-icon-512x512.png",
+        "path": "apps/kb/public/favicon/android-icon-512x512.png",
+        "blobSha": "a95b768d8f7ea3bb4da8c6b3ee675de75d5605df",
+        "format": "png",
+        "bytes": 20562,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/supabase/supabase/blob/fe8b4df66d599b37e5a752d11d3d7f90f64240d9/apps/kb/public/favicon/manifest.json",
+          "fetchedAt": "2026-10-13T07:16:17.339Z"
+        }
+      },
       {
         "url": "https://github.com/supabase/supabase/blob/dd02e96a17d9a5ea90b783ba8025db090b0797fd/apps/studio/public/img/libraries/supabase-icon.svg",
         "path": "apps/studio/public/img/libraries/supabase-icon.svg",

@@ -3,7 +3,7 @@
   "slug": "openmausbot",
   "repoUrl": "https://github.com/milind-soni/OpenMausBot",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:56:25.597Z",
+  "lastSuccessAt": "2026-10-13T07:14:19.750Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:05.126Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "milind-soni/OpenMausBot",
-      "stargazers_count": 4470,
-      "forks_count": 767,
-      "open_issues_count": 374,
+      "stargazers_count": 4662,
+      "forks_count": 793,
+      "open_issues_count": 394,
       "language": "TypeScript",
-      "pushed_at": "2026-10-11T13:48:25Z",
-      "updated_at": "2026-10-11T15:42:40Z",
+      "pushed_at": "2026-10-13T06:54:33Z",
+      "updated_at": "2026-10-13T07:07:54Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -66,7 +66,7 @@
     "latestReleaseAt": "2026-10-10T18:03:52Z",
     "homepage": "https://www.openmausbot.com/",
     "sync": {
-      "syncedAt": "2026-10-11T15:56:25.597Z",
+      "syncedAt": "2026-10-13T07:14:19.750Z",
       "source": "api"
     }
   },
@@ -148,17 +148,31 @@
     ],
     "logos": [
       {
-        "url": "https://github.com/milind-soni/OpenMausBot/blob/55d475ef75558221c35212ed4d9499f15b694967/electron/resources/app-icon.png",
-        "path": "electron/resources/app-icon.png",
-        "blobSha": "9f4dbd746a4f0b1af8dab6e258d1690384b3788d",
+        "url": "https://github.com/milind-soni/OpenMausBot/blob/34cbd59bb46341839febcb5ed5b014b11be9e102/public/app-icon-512.png",
+        "path": "public/app-icon-512.png",
+        "blobSha": "030685d013dad402667dff5725a17a2239f6bf93",
         "format": "png",
-        "bytes": 196042,
-        "width": 1024,
-        "height": 1024,
+        "bytes": 48638,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/milind-soni/OpenMausBot/blob/34cbd59bb46341839febcb5ed5b014b11be9e102/public/manifest.webmanifest",
+          "fetchedAt": "2026-10-13T07:14:17.037Z"
+        }
+      },
+      {
+        "url": "https://github.com/milind-soni/OpenMausBot/blob/34cbd59bb46341839febcb5ed5b014b11be9e102/public/app-icon-192.png",
+        "path": "public/app-icon-192.png",
+        "blobSha": "ca4d779a41302e3ae20a23dbe43b5cdbad53e05c",
+        "format": "png",
+        "bytes": 17051,
+        "width": 192,
+        "height": 192,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/milind-soni/OpenMausBot/blob/55d475ef75558221c35212ed4d9499f15b694967/electron/resources/app-icon.png",
-          "fetchedAt": "2026-09-28T17:12:02.741Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/blob/34cbd59bb46341839febcb5ed5b014b11be9e102/public/app-icon-192.png",
+          "fetchedAt": "2026-10-13T07:14:17.037Z"
         }
       },
       {
@@ -173,20 +187,6 @@
           "source": "repo-asset",
           "url": "https://github.com/milind-soni/OpenMausBot/blob/55d475ef75558221c35212ed4d9499f15b694967/public/app-icon.svg",
           "fetchedAt": "2026-09-28T17:12:02.741Z"
-        }
-      },
-      {
-        "url": "https://github.com/milind-soni/OpenMausBot/blob/63d0ef37f7f416857db51b498227edff7713e3b0/src/assets/whop/logo.png",
-        "path": "src/assets/whop/logo.png",
-        "blobSha": "d76e547ec7a2b58ce9e1b44b4383f36ef8fe460e",
-        "format": "png",
-        "bytes": 2873,
-        "width": 417,
-        "height": 417,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/milind-soni/OpenMausBot/blob/63d0ef37f7f416857db51b498227edff7713e3b0/src/assets/whop/logo.png",
-          "fetchedAt": "2026-10-07T02:28:26.987Z"
         }
       }
     ],

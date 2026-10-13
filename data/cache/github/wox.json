@@ -3,7 +3,7 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:59:37.330Z",
+  "lastSuccessAt": "2026-10-13T07:17:54.486Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
@@ -31,11 +31,11 @@
     "repository": {
       "full_name": "Wox-launcher/Wox",
       "stargazers_count": 27505,
-      "forks_count": 2436,
+      "forks_count": 2437,
       "open_issues_count": 0,
       "language": "Go",
-      "pushed_at": "2026-10-11T15:05:37Z",
-      "updated_at": "2026-10-11T14:09:21Z",
+      "pushed_at": "2026-10-13T03:12:58Z",
+      "updated_at": "2026-10-13T02:55:08Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-10-06T11:36:37Z",
     "homepage": "https://www.woxlauncher.com/",
     "sync": {
-      "syncedAt": "2026-10-11T15:59:37.330Z",
+      "syncedAt": "2026-10-13T07:17:54.486Z",
       "source": "api"
     }
   },
@@ -200,7 +200,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "wox",
-          "version": "2.3.0",
+          "version": "2.4.5",
           "project": "wox",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -208,7 +208,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-10-03T08:43:34.068Z"
+          "fetchedAt": "2026-10-13T07:17:51.572Z"
         }
       },
       {

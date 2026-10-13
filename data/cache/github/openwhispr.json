@@ -3,7 +3,7 @@
   "slug": "openwhispr",
   "repoUrl": "https://github.com/OpenWhispr/openwhispr",
   "source": "api",
-  "lastSuccessAt": "2026-10-11T15:56:39.185Z",
+  "lastSuccessAt": "2026-10-13T07:14:33.864Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:59.572Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "OpenWhispr/openwhispr",
-      "stargazers_count": 9257,
-      "forks_count": 1150,
-      "open_issues_count": 440,
+      "stargazers_count": 9326,
+      "forks_count": 1162,
+      "open_issues_count": 398,
       "language": "JavaScript",
-      "pushed_at": "2026-10-10T01:40:57Z",
-      "updated_at": "2026-10-11T14:47:00Z",
+      "pushed_at": "2026-10-12T20:45:15Z",
+      "updated_at": "2026-10-13T07:14:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -56,10 +56,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-15T03:14:49Z",
+    "latestReleaseAt": "2026-10-12T16:56:16Z",
     "homepage": "https://openwhispr.com",
     "sync": {
-      "syncedAt": "2026-10-11T15:56:39.185Z",
+      "syncedAt": "2026-10-13T07:14:33.864Z",
       "source": "api"
     }
   },
@@ -86,17 +86,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
         "facts": {
-          "tag": "v1.10.2",
+          "tag": "v1.10.3",
           "assets": [
-            "OpenWhispr-1.10.2-linux-amd64.deb",
-            "OpenWhispr-1.10.2-linux-x86_64.AppImage",
-            "OpenWhispr-1.10.2-linux-x86_64.rpm"
+            "OpenWhispr-1.10.3-linux-amd64.deb",
+            "OpenWhispr-1.10.3-linux-x86_64.AppImage",
+            "OpenWhispr-1.10.3-linux-x86_64.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
-          "fetchedAt": "2026-09-28T18:16:56.819Z"
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.3",
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       },
       {
@@ -105,16 +105,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
         "facts": {
-          "tag": "v1.10.2",
+          "tag": "v1.10.3",
           "assets": [
-            "OpenWhispr-1.10.2-arm64.dmg",
-            "OpenWhispr-1.10.2.dmg"
+            "OpenWhispr-1.10.3-arm64.dmg",
+            "OpenWhispr-1.10.3.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
-          "fetchedAt": "2026-09-28T18:16:56.819Z"
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.3",
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       },
       {
@@ -123,16 +123,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenWhispr/openwhispr/releases/latest",
         "facts": {
-          "tag": "v1.10.2",
+          "tag": "v1.10.3",
           "assets": [
-            "OpenWhispr-1.10.2.exe",
-            "OpenWhispr-Setup-1.10.2.exe"
+            "OpenWhispr-Setup-1.10.3.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.2",
-          "fetchedAt": "2026-09-28T18:16:56.819Z"
+          "url": "https://github.com/OpenWhispr/openwhispr/releases/tag/v1.10.3",
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       },
       {
@@ -143,7 +142,7 @@
         "facts": {
           "repository": "aur",
           "package": "openwhispr-appimage",
-          "version": "1.10.2",
+          "version": "1.10.3",
           "project": "openwhispr",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -151,7 +150,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwhispr/versions",
-          "fetchedAt": "2026-10-03T08:40:52.505Z"
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       },
       {
@@ -162,7 +161,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "openwhispr",
-          "version": "1.10.2",
+          "version": "1.10.3",
           "project": "openwhispr",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -170,7 +169,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwhispr/versions",
-          "fetchedAt": "2026-10-03T08:40:52.505Z"
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       },
       {
@@ -181,7 +180,7 @@
         "facts": {
           "repository": "scoop",
           "package": "openwhispr",
-          "version": "1.10.2",
+          "version": "1.10.3",
           "project": "openwhispr",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -189,7 +188,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwhispr/versions",
-          "fetchedAt": "2026-10-03T08:40:52.505Z"
+          "fetchedAt": "2026-10-13T07:14:31.712Z"
         }
       }
     ],
