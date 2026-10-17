@@ -3,7 +3,7 @@
   "slug": "openproject",
   "repoUrl": "https://github.com/opf/openproject",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:22:08.196Z",
+  "lastSuccessAt": "2026-10-17T15:57:44.393Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:54.075Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "opf/openproject",
-      "stargazers_count": 16404,
-      "forks_count": 3551,
-      "open_issues_count": 297,
+      "stargazers_count": 16450,
+      "forks_count": 3563,
+      "open_issues_count": 318,
       "language": "Ruby",
-      "pushed_at": "2026-10-13T11:03:29Z",
-      "updated_at": "2026-10-13T10:51:27Z",
+      "pushed_at": "2026-10-17T03:26:50Z",
+      "updated_at": "2026-10-17T11:16:14Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -61,10 +61,10 @@
         "workflows"
       ]
     },
-    "latestReleaseAt": "2026-10-01T10:50:28Z",
+    "latestReleaseAt": "2026-10-15T11:56:10Z",
     "homepage": "https://www.openproject.org",
     "sync": {
-      "syncedAt": "2026-10-13T11:22:08.196Z",
+      "syncedAt": "2026-10-17T15:57:44.393Z",
       "source": "api"
     }
   },
@@ -96,12 +96,12 @@
           "version": "17.9.1",
           "project": "openproject",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openproject/versions",
-          "fetchedAt": "2026-10-07T02:28:35.255Z"
+          "fetchedAt": "2026-10-17T15:57:41.410Z"
         }
       }
     ],

@@ -3,18 +3,18 @@
   "slug": "itspaint",
   "repoUrl": "https://github.com/joshlin2201/itspaint",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:19:37.829Z",
+  "lastSuccessAt": "2026-10-17T15:55:26.346Z",
   "partialFailures": [],
   "sourceDescription": "MS Paint for the Mac. Mark up screenshots or paint from scratch. The drawing engine ships as PaintKit, a UI-free Swift package with no dependencies that supports macOS 12 and iOS 15 and later.",
   "github": {
     "repository": {
       "full_name": "joshlin2201/itspaint",
-      "stargazers_count": 40,
-      "forks_count": 1,
+      "stargazers_count": 53,
+      "forks_count": 2,
       "open_issues_count": 11,
       "language": "Swift",
-      "pushed_at": "2026-10-13T09:40:30Z",
-      "updated_at": "2026-10-10T05:54:50Z",
+      "pushed_at": "2026-10-16T16:27:16Z",
+      "updated_at": "2026-10-17T12:24:34Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -29,12 +29,12 @@
         "help-wanted",
         "image-editor",
         "image-processing",
+        "ios",
         "mac-app",
         "macos",
         "markup",
         "ms-paint",
         "mspaint",
-        "open-source",
         "paint",
         "paint-app",
         "pixel-art",
@@ -45,17 +45,17 @@
         "swiftpm"
       ]
     },
-    "latestReleaseAt": "2026-09-25T08:20:57Z",
+    "latestReleaseAt": "2026-10-14T01:23:11Z",
     "homepage": "https://itspaintmac.com/",
     "sync": {
-      "syncedAt": "2026-10-13T11:19:37.829Z",
+      "syncedAt": "2026-10-17T15:55:26.346Z",
       "source": "api"
     }
   },
   "health": {
     "status": "active",
     "maturity": "useful",
-    "tier": "experimental",
+    "tier": "listed",
     "visibility": "keep",
     "cleanupCandidate": false,
     "staleReason": null,
@@ -74,15 +74,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/joshlin2201/itspaint/releases/latest",
         "facts": {
-          "tag": "v0.23.0",
+          "tag": "v0.24.0",
           "assets": [
-            "ItsPaint-0.23.0.dmg"
+            "ItsPaint-0.24.0.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/joshlin2201/itspaint/releases/tag/v0.23.0",
-          "fetchedAt": "2026-10-04T09:29:16.909Z"
+          "url": "https://github.com/joshlin2201/itspaint/releases/tag/v0.24.0",
+          "fetchedAt": "2026-10-17T15:55:24.440Z"
         }
       }
     ],

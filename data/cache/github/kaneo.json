@@ -3,7 +3,7 @@
   "slug": "kaneo",
   "repoUrl": "https://github.com/usekaneo/kaneo",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:19:48.211Z",
+  "lastSuccessAt": "2026-10-17T15:55:36.112Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:46.712Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "usekaneo/kaneo",
-      "stargazers_count": 9466,
-      "forks_count": 865,
-      "open_issues_count": 87,
+      "stargazers_count": 9507,
+      "forks_count": 881,
+      "open_issues_count": 60,
       "language": "TypeScript",
-      "pushed_at": "2026-10-12T22:42:28Z",
-      "updated_at": "2026-10-13T09:50:21Z",
+      "pushed_at": "2026-10-17T15:28:58Z",
+      "updated_at": "2026-10-17T15:29:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -65,7 +65,7 @@
     "latestReleaseAt": "2026-10-12T22:42:29Z",
     "homepage": "https://kaneo.app/",
     "sync": {
-      "syncedAt": "2026-10-13T11:19:48.211Z",
+      "syncedAt": "2026-10-17T15:55:36.112Z",
       "source": "api"
     }
   },
@@ -88,31 +88,31 @@
     "channels": [],
     "logos": [
       {
-        "url": "https://github.com/usekaneo/kaneo/blob/26eec3bca6153effb9300f5da518098096aad5b0/apps/site/public/logo-dark.svg",
-        "path": "apps/site/public/logo-dark.svg",
-        "blobSha": "69a252b2ec58b0620ec70ce4b79b4fa50e4c7b00",
-        "format": "svg",
-        "bytes": 5430,
-        "width": 450,
-        "height": 104,
+        "url": "https://github.com/usekaneo/kaneo/blob/756c7ee8b3b4926ef499780e73a2608dada3deed/apps/mobile/assets/images/icon.png",
+        "path": "apps/mobile/assets/images/icon.png",
+        "blobSha": "b380c6ebf13ec85f3360f6c6d6fe848890594a3a",
+        "format": "png",
+        "bytes": 16313,
+        "width": 1024,
+        "height": 1024,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/usekaneo/kaneo/blob/26eec3bca6153effb9300f5da518098096aad5b0/apps/site/public/logo-dark.svg",
-          "fetchedAt": "2026-09-28T17:10:44.512Z"
+          "url": "https://github.com/usekaneo/kaneo/blob/756c7ee8b3b4926ef499780e73a2608dada3deed/apps/mobile/assets/images/icon.png",
+          "fetchedAt": "2026-10-17T15:55:33.775Z"
         }
       },
       {
-        "url": "https://github.com/usekaneo/kaneo/blob/26eec3bca6153effb9300f5da518098096aad5b0/apps/site/public/logo-light.svg",
-        "path": "apps/site/public/logo-light.svg",
-        "blobSha": "efb6145da79314c06652178726605eadb7b705c5",
-        "format": "svg",
-        "bytes": 5438,
-        "width": 450,
-        "height": 104,
+        "url": "https://github.com/usekaneo/kaneo/blob/756c7ee8b3b4926ef499780e73a2608dada3deed/apps/site/public/logo-512.png",
+        "path": "apps/site/public/logo-512.png",
+        "blobSha": "94b1be8d0e5520ebe057f570016074fb92662464",
+        "format": "png",
+        "bytes": 12312,
+        "width": 512,
+        "height": 512,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/usekaneo/kaneo/blob/26eec3bca6153effb9300f5da518098096aad5b0/apps/site/public/logo-light.svg",
-          "fetchedAt": "2026-09-28T17:10:44.512Z"
+          "url": "https://github.com/usekaneo/kaneo/blob/756c7ee8b3b4926ef499780e73a2608dada3deed/apps/site/public/logo-512.png",
+          "fetchedAt": "2026-10-17T15:55:33.775Z"
         }
       }
     ],

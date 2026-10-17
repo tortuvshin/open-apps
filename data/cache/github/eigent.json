@@ -3,7 +3,7 @@
   "slug": "eigent",
   "repoUrl": "https://github.com/eigent-ai/eigent",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:57.526Z",
+  "lastSuccessAt": "2026-10-17T15:53:53.077Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:45.474Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "eigent-ai/eigent",
-      "stargazers_count": 15509,
-      "forks_count": 1852,
-      "open_issues_count": 235,
+      "stargazers_count": 15580,
+      "forks_count": 1870,
+      "open_issues_count": 245,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T10:53:12Z",
-      "updated_at": "2026-10-13T10:57:30Z",
+      "pushed_at": "2026-10-16T14:59:12Z",
+      "updated_at": "2026-10-17T14:44:39Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +60,10 @@
         "multi-agent-systems"
       ]
     },
-    "latestReleaseAt": "2026-09-25T14:05:30Z",
+    "latestReleaseAt": "2026-10-16T03:44:49Z",
     "homepage": "https://www.eigent.ai",
     "sync": {
-      "syncedAt": "2026-10-13T11:17:57.526Z",
+      "syncedAt": "2026-10-17T15:53:53.077Z",
       "source": "api"
     }
   },
@@ -90,15 +90,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/eigent-ai/eigent/releases/latest",
         "facts": {
-          "tag": "v1.0.5",
+          "tag": "v1.0.6",
           "assets": [
-            "Eigent-1.0.5.AppImage"
+            "Eigent-1.0.6.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.5",
-          "fetchedAt": "2026-09-28T17:09:43.033Z"
+          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.6",
+          "fetchedAt": "2026-10-17T15:53:51.177Z"
         }
       },
       {
@@ -107,16 +107,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/eigent-ai/eigent/releases/latest",
         "facts": {
-          "tag": "v1.0.5",
+          "tag": "v1.0.6",
           "assets": [
-            "Eigent-1.0.5-arm64.dmg",
-            "Eigent-1.0.5.dmg"
+            "Eigent-1.0.6-arm64.dmg",
+            "Eigent-1.0.6.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.5",
-          "fetchedAt": "2026-09-28T17:09:43.033Z"
+          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.6",
+          "fetchedAt": "2026-10-17T15:53:51.177Z"
         }
       },
       {
@@ -125,15 +125,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/eigent-ai/eigent/releases/latest",
         "facts": {
-          "tag": "v1.0.5",
+          "tag": "v1.0.6",
           "assets": [
-            "Eigent.Setup.1.0.5.exe"
+            "Eigent.Setup.1.0.6.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.5",
-          "fetchedAt": "2026-09-28T17:09:43.033Z"
+          "url": "https://github.com/eigent-ai/eigent/releases/tag/v1.0.6",
+          "fetchedAt": "2026-10-17T15:53:51.177Z"
         }
       },
       {
@@ -163,7 +163,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "eigent",
-          "version": "1.0.5",
+          "version": "1.0.6",
           "project": "eigent",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -171,7 +171,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/eigent/versions",
-          "fetchedAt": "2026-10-03T08:36:58.429Z"
+          "fetchedAt": "2026-10-17T15:53:51.177Z"
         }
       }
     ],

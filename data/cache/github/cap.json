@@ -3,7 +3,7 @@
   "slug": "cap",
   "repoUrl": "https://github.com/CapSoftware/Cap",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:23.330Z",
+  "lastSuccessAt": "2026-10-17T15:53:20.189Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:26.293Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:17:23.330Z",
+      "syncedAt": "2026-10-17T15:53:20.189Z",
       "source": "api"
     },
     "repository": {
       "full_name": "CapSoftware/Cap",
-      "stargazers_count": 23266,
-      "forks_count": 2035,
-      "open_issues_count": 420,
+      "stargazers_count": 23382,
+      "forks_count": 2097,
+      "open_issues_count": 517,
       "language": "Rust",
-      "pushed_at": "2026-10-13T11:14:35Z",
-      "updated_at": "2026-10-13T10:35:15Z",
+      "pushed_at": "2026-10-17T05:27:26Z",
+      "updated_at": "2026-10-17T15:44:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -150,8 +150,8 @@
         }
       },
       {
-        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/cap-icon.svg",
-        "path": "apps/web/public/cap-icon.svg",
+        "url": "https://github.com/CapSoftware/Cap/blob/f2e13fbf6943954501193ec30de4a104dcfa0aff/apps/status/public/cap-icon.svg",
+        "path": "apps/status/public/cap-icon.svg",
         "blobSha": "7071770d13d47dffe353d4b2db54fa50f51dd9ae",
         "format": "svg",
         "bytes": 1014,
@@ -159,22 +159,8 @@
         "height": 1631,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/cap-icon.svg",
-          "fetchedAt": "2026-09-26T14:38:00.433Z"
-        }
-      },
-      {
-        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/packages/ui-solid/icons/logo-full-dark.svg",
-        "path": "packages/ui-solid/icons/logo-full-dark.svg",
-        "blobSha": "ada743fb8e3e1f26c4d3920a81458873768752dd",
-        "format": "svg",
-        "bytes": 2547,
-        "width": 103,
-        "height": 40,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/packages/ui-solid/icons/logo-full-dark.svg",
-          "fetchedAt": "2026-09-26T14:38:00.433Z"
+          "url": "https://github.com/CapSoftware/Cap/blob/f2e13fbf6943954501193ec30de4a104dcfa0aff/apps/status/public/cap-icon.svg",
+          "fetchedAt": "2026-10-17T15:53:18.079Z"
         }
       }
     ],

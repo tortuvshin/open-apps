@@ -3,7 +3,7 @@
   "slug": "localmind",
   "repoUrl": "https://github.com/abdulmominsakib/localmind",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:20:24.626Z",
+  "lastSuccessAt": "2026-10-17T15:56:10.731Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:02.227Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:20:24.626Z",
+      "syncedAt": "2026-10-17T15:56:10.731Z",
       "source": "api"
     },
     "repository": {
       "full_name": "abdulmominsakib/localmind",
-      "stargazers_count": 277,
-      "forks_count": 47,
+      "stargazers_count": 281,
+      "forks_count": 45,
       "open_issues_count": 2,
       "language": "Dart",
-      "pushed_at": "2026-10-13T01:03:18Z",
-      "updated_at": "2026-10-13T08:23:14Z",
+      "pushed_at": "2026-10-16T03:21:28Z",
+      "updated_at": "2026-10-17T05:59:26Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,9 +57,30 @@
         "spdx_id": "MIT",
         "name": "MIT"
       },
-      "topics": []
+      "topics": [
+        "ai-chat",
+        "android",
+        "chatgpt-alternative",
+        "dart",
+        "flutter",
+        "gemma",
+        "gguf",
+        "ios",
+        "llama-cpp",
+        "llm",
+        "lm-studio",
+        "local-llm",
+        "mcp",
+        "model-context-protocol",
+        "offline-ai",
+        "ollama",
+        "on-device-ai",
+        "openrouter",
+        "privacy",
+        "self-hosted"
+      ]
     },
-    "latestReleaseAt": "2026-09-30T11:39:10Z"
+    "latestReleaseAt": "2026-10-14T07:04:27Z"
   },
   "health": {
     "status": "active",
@@ -83,15 +104,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/abdulmominsakib/localmind/releases/latest",
         "facts": {
-          "tag": "1.8.5+91",
+          "tag": "1.9.0+95",
           "assets": [
             "app-release.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/abdulmominsakib/localmind/releases/tag/1.8.5%2B91",
-          "fetchedAt": "2026-09-30T16:17:08.593Z"
+          "url": "https://github.com/abdulmominsakib/localmind/releases/tag/1.9.0%2B95",
+          "fetchedAt": "2026-10-17T15:56:08.328Z"
         }
       }
     ],

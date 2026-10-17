@@ -3,7 +3,7 @@
   "slug": "mattermost-mobile",
   "repoUrl": "https://github.com/mattermost/mattermost-mobile",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:20:47.822Z",
+  "lastSuccessAt": "2026-10-17T15:56:32.335Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:17.889Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/mattermost/mattermost-mobile/releases{/id}",
       "deployments_url": "https://api.github.com/repos/mattermost/mattermost-mobile/deployments",
       "created_at": "2016-10-07T16:52:32Z",
-      "updated_at": "2026-10-12T20:02:53Z",
-      "pushed_at": "2026-10-13T06:19:58Z",
+      "updated_at": "2026-10-17T07:44:37Z",
+      "pushed_at": "2026-10-17T12:11:01Z",
       "git_url": "git://github.com/mattermost/mattermost-mobile.git",
       "ssh_url": "git@github.com:mattermost/mattermost-mobile.git",
       "clone_url": "https://github.com/mattermost/mattermost-mobile.git",
       "svn_url": "https://github.com/mattermost/mattermost-mobile",
       "homepage": "https://about.mattermost.com/",
       "size": 188960,
-      "stargazers_count": 2734,
+      "stargazers_count": 2737,
       "watchers_count": 2699,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 1671,
+      "forks_count": 1673,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 344,
+      "open_issues_count": 345,
       "license": {
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
@@ -219,7 +219,7 @@
       "openPullRequests": 88
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:20:47.822Z",
+      "syncedAt": "2026-10-17T15:56:32.335Z",
       "source": "api"
     },
     "html": {
@@ -227,7 +227,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-10-12T09:22:09Z",
+    "latestReleaseAt": "2026-10-15T06:34:02Z",
     "homepage": "https://about.mattermost.com/"
   },
   "health": {
@@ -254,14 +254,14 @@
         "url": "https://f-droid.org/packages/com.mattermost.rnbeta/",
         "facts": {
           "appId": "com.mattermost.rnbeta",
-          "suggestedVersionCode": 81504,
-          "evidence": "https://github.com/mattermost/mattermost-mobile/blob/726cd9865d4b2c0040853e9c364fa6365791dbb1/android/app/build.gradle",
+          "suggestedVersionCode": 82704,
+          "evidence": "https://github.com/mattermost/mattermost-mobile/blob/16c5849eb6dbcbbe6814d7e0669d734f7020d1c4/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.mattermost.rnbeta",
-          "fetchedAt": "2026-10-13T11:20:45.162Z"
+          "fetchedAt": "2026-10-17T15:56:29.768Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "cake_wallet",
   "repoUrl": "https://github.com/cake-tech/cake_wallet",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:20.205Z",
+  "lastSuccessAt": "2026-10-17T15:53:17.569Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:23.689Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "cake-tech/cake_wallet",
-      "stargazers_count": 1971,
-      "forks_count": 396,
-      "open_issues_count": 372,
+      "stargazers_count": 1981,
+      "forks_count": 397,
+      "open_issues_count": 375,
       "language": "Dart",
-      "pushed_at": "2026-10-13T10:15:30Z",
-      "updated_at": "2026-10-13T04:14:09Z",
+      "pushed_at": "2026-10-16T17:47:07Z",
+      "updated_at": "2026-10-16T21:43:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -69,10 +69,10 @@
         "xmr"
       ]
     },
-    "latestReleaseAt": "2026-10-05T23:21:20Z",
+    "latestReleaseAt": "2026-10-12T15:05:04Z",
     "homepage": "https://cakewallet.com",
     "sync": {
-      "syncedAt": "2026-10-13T11:17:20.205Z",
+      "syncedAt": "2026-10-17T15:53:17.569Z",
       "source": "api"
     }
   },
@@ -99,20 +99,38 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cake-tech/cake_wallet/releases/latest",
         "facts": {
-          "tag": "v6.4.6",
+          "tag": "v6.5.0",
           "assets": [
-            "Cake_Wallet_v6.4.6-arm64-v8a.apk",
-            "Cake_Wallet_v6.4.6-armeabi-v7a.apk",
-            "Cake_Wallet_v6.4.6-x86_64.apk",
-            "Cake_Wallet_v6.4.6_4426.apk",
-            "Monero.com_v6.4.6-arm64-v8a.apk",
-            "Monero.com_v6.4.6-armeabi-v7a.apk"
+            "Cake_Wallet_v6.5.0-arm64-v8a.apk",
+            "Cake_Wallet_v6.5.0-armeabi-v7a.apk",
+            "Cake_Wallet_v6.5.0-x86_64.apk",
+            "Cake_Wallet_v6.5.0_4428.apk",
+            "Monero.com_v6.5.0-arm64-v8a.apk",
+            "Monero.com_v6.5.0-armeabi-v7a.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cake-tech/cake_wallet/releases/tag/v6.4.6",
-          "fetchedAt": "2026-10-07T02:24:10.642Z"
+          "url": "https://github.com/cake-tech/cake_wallet/releases/tag/v6.5.0",
+          "fetchedAt": "2026-10-17T15:53:15.645Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/cake-tech/cake_wallet/releases/latest",
+        "facts": {
+          "tag": "v6.5.0",
+          "assets": [
+            "Cake_Wallet_v6.5.0.dmg",
+            "Monero_com_v6.5.0.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/cake-tech/cake_wallet/releases/tag/v6.5.0",
+          "fetchedAt": "2026-10-17T15:53:15.645Z"
         }
       }
     ],

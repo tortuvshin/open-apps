@@ -3,7 +3,7 @@
   "slug": "vicinae",
   "repoUrl": "https://github.com/vicinaehq/vicinae",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:24:59.822Z",
+  "lastSuccessAt": "2026-10-17T16:00:11.075Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:37:47.336Z",
@@ -30,12 +30,12 @@
   "github": {
     "repository": {
       "full_name": "vicinaehq/vicinae",
-      "stargazers_count": 10240,
-      "forks_count": 312,
-      "open_issues_count": 234,
+      "stargazers_count": 10276,
+      "forks_count": 319,
+      "open_issues_count": 235,
       "language": "C++",
-      "pushed_at": "2026-10-13T00:07:16Z",
-      "updated_at": "2026-10-13T10:27:56Z",
+      "pushed_at": "2026-10-16T15:56:45Z",
+      "updated_at": "2026-10-17T15:56:02Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-09-30T12:48:11Z",
     "homepage": "https://vicinae.com",
     "sync": {
-      "syncedAt": "2026-10-13T11:24:59.822Z",
+      "syncedAt": "2026-10-17T16:00:11.075Z",
       "source": "api"
     }
   },
@@ -160,15 +160,15 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "vicinae",
-          "version": "0.29.0",
+          "version": "0.29.1",
           "project": "vicinae",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vicinae/versions",
-          "fetchedAt": "2026-10-03T08:43:05.304Z"
+          "fetchedAt": "2026-10-17T16:00:09.124Z"
         }
       },
       {

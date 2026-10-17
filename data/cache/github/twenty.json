@@ -3,13 +3,8 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:24:41.026Z",
+  "lastSuccessAt": "2026-10-17T15:59:54.725Z",
   "partialFailures": [
-    {
-      "at": "2026-09-28T17:13:22.992Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:37:39.924Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-09-30T16:20:34.702Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-10-17T15:59:54.725Z",
+      "source": "candidates",
+      "reason": "tree: GitHub truncated the file tree"
     }
   ],
   "sourceDescription": "The open alternative to Salesforce, designed for AI.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:24:41.026Z",
+      "syncedAt": "2026-10-17T15:59:54.725Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
-      "stargazers_count": 58274,
-      "forks_count": 9515,
-      "open_issues_count": 139,
+      "stargazers_count": 58447,
+      "forks_count": 9568,
+      "open_issues_count": 105,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T11:23:02Z",
-      "updated_at": "2026-10-13T11:17:56Z",
+      "pushed_at": "2026-10-17T15:47:14Z",
+      "updated_at": "2026-10-17T15:36:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -77,7 +77,7 @@
         "web"
       ]
     },
-    "latestReleaseAt": "2026-10-12T08:20:57Z",
+    "latestReleaseAt": "2026-10-16T11:55:10Z",
     "homepage": "https://twenty.com"
   },
   "health": {
@@ -152,6 +152,20 @@
           "source": "repo-asset",
           "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/last-contact/public/logo.png",
           "fetchedAt": "2026-09-26T14:40:58.406Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/289976eaeeb78fda1b85ff9f3c92fa6ab6f93eb6/packages/twenty-apps/public/last-contact/public/logo.png",
+        "path": "packages/twenty-apps/public/last-contact/public/logo.png",
+        "blobSha": "e19a98952064c6d88b467387aac5248d130dfb55",
+        "format": "png",
+        "bytes": 45223,
+        "width": 272,
+        "height": 272,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/289976eaeeb78fda1b85ff9f3c92fa6ab6f93eb6/packages/twenty-apps/public/last-contact/public/logo.png",
+          "fetchedAt": "2026-10-17T15:59:51.795Z"
         }
       }
     ],

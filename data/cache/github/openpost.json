@@ -3,7 +3,7 @@
   "slug": "openpost",
   "repoUrl": "https://github.com/getopenpost/openpost",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:22:04.878Z",
+  "lastSuccessAt": "2026-10-17T15:57:40.989Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:07.421Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "getopenpost/openpost",
-      "stargazers_count": 731,
-      "forks_count": 91,
-      "open_issues_count": 2,
+      "stargazers_count": 747,
+      "forks_count": 97,
+      "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T11:09:29Z",
-      "updated_at": "2026-10-13T11:00:52Z",
+      "pushed_at": "2026-10-17T12:57:53Z",
+      "updated_at": "2026-10-17T12:57:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -61,10 +61,10 @@
         "sveltekit"
       ]
     },
-    "latestReleaseAt": "2026-10-13T08:15:40Z",
+    "latestReleaseAt": "2026-10-17T12:48:21Z",
     "homepage": "https://openpo.st",
     "sync": {
-      "syncedAt": "2026-10-13T11:22:04.878Z",
+      "syncedAt": "2026-10-17T15:57:40.989Z",
       "source": "api"
     }
   },
@@ -87,11 +87,28 @@
     "channels": [
       {
         "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/getopenpost/openpost/releases/latest",
+        "facts": {
+          "tag": "v7.22.4",
+          "assets": [
+            "openpost-app-android.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.22.4",
+          "fetchedAt": "2026-10-17T15:57:38.882Z"
+        }
+      },
+      {
+        "type": "github-releases",
         "platform": "windows",
         "label": "GitHub Releases",
         "url": "https://github.com/getopenpost/openpost/releases/latest",
         "facts": {
-          "tag": "v7.18.5",
+          "tag": "v7.22.4",
           "assets": [
             "openpost-cli-windows-amd64.exe",
             "openpost-mcp-windows-amd64.exe",
@@ -100,8 +117,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.18.5",
-          "fetchedAt": "2026-10-13T11:22:02.730Z"
+          "url": "https://github.com/getopenpost/openpost/releases/tag/v7.22.4",
+          "fetchedAt": "2026-10-17T15:57:38.882Z"
         }
       }
     ],

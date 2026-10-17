@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "slug": "device-hub-pro",
+  "repoUrl": "https://github.com/gitemre/device-hub-pro",
+  "source": "api",
+  "lastSuccessAt": "2026-10-17T15:53:42.530Z",
+  "partialFailures": [],
+  "sourceDescription": "Android and iOS devices, side by side on your Mac. Mirror, control, change settings and capture — free and open source.",
+  "github": {
+    "repository": {
+      "full_name": "gitemre/device-hub-pro",
+      "stargazers_count": 88,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "language": "Swift",
+      "pushed_at": "2026-10-16T10:16:49Z",
+      "updated_at": "2026-10-16T10:16:49Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "adb",
+        "android",
+        "android-emulator",
+        "developer-tools",
+        "device-control",
+        "device-manager",
+        "emulator",
+        "foldable",
+        "ios",
+        "ios-simulator",
+        "iphone",
+        "iphone-duo",
+        "macos",
+        "mobile-testing",
+        "qa-tools",
+        "scrcpy-alternative",
+        "simulator",
+        "swift",
+        "swiftui",
+        "xcode"
+      ]
+    },
+    "latestReleaseAt": "2026-10-15T22:32:14Z",
+    "homepage": "https://gitemre.github.io/device-hub-pro/",
+    "sync": {
+      "syncedAt": "2026-10-17T15:53:42.530Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/gitemre/device-hub-pro/releases/latest",
+        "facts": {
+          "tag": "v1.1.4",
+          "assets": [
+            "DeviceHubPro-1.1.4.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/gitemre/device-hub-pro/releases/tag/v1.1.4",
+          "fetchedAt": "2026-10-17T15:53:40.191Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/gitemre/device-hub-pro/blob/934f6f6235f5e1f189deaa5ab7d31fe914b9fa00/site/assets/icon-256.png",
+        "path": "site/assets/icon-256.png",
+        "blobSha": "9ce8f68386d608ef1ff1a15532a87987f8ed6e7f",
+        "format": "png",
+        "bytes": 47102,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/gitemre/device-hub-pro/blob/934f6f6235f5e1f189deaa5ab7d31fe914b9fa00/site/assets/icon-256.png",
+          "fetchedAt": "2026-10-17T15:53:40.191Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

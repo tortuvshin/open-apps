@@ -3,7 +3,7 @@
   "slug": "daily_you",
   "repoUrl": "https://github.com/Demizo/Daily_You",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:45.864Z",
+  "lastSuccessAt": "2026-10-17T15:53:39.710Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:37.391Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Demizo/Daily_You",
-      "stargazers_count": 1363,
-      "forks_count": 63,
-      "open_issues_count": 60,
+      "stargazers_count": 1369,
+      "forks_count": 64,
+      "open_issues_count": 58,
       "language": "Dart",
-      "pushed_at": "2026-10-10T16:24:09Z",
-      "updated_at": "2026-10-13T09:52:25Z",
+      "pushed_at": "2026-10-14T04:33:51Z",
+      "updated_at": "2026-10-17T01:23:56Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -63,7 +63,7 @@
     },
     "latestReleaseAt": "2026-10-09T03:34:00Z",
     "sync": {
-      "syncedAt": "2026-10-13T11:17:45.864Z",
+      "syncedAt": "2026-10-17T15:53:39.710Z",
       "source": "api"
     }
   },
@@ -92,13 +92,13 @@
         "facts": {
           "appId": "com.demizo.daily_you",
           "suggestedVersionCode": 30060013,
-          "evidence": "https://github.com/Demizo/Daily_You/blob/4b778e0f78d5e36a3a4bbcb5cdc9018776404fef/android/app/build.gradle",
+          "evidence": "https://github.com/Demizo/Daily_You/blob/405cea50b0930128a3506fd45f47f0972d5f4258/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.demizo.daily_you",
-          "fetchedAt": "2026-10-13T11:17:44.406Z"
+          "fetchedAt": "2026-10-17T15:53:38.128Z"
         }
       },
       {

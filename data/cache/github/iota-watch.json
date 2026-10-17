@@ -3,7 +3,7 @@
   "slug": "iota-watch",
   "repoUrl": "https://github.com/molimao/iota",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:19:29.598Z",
+  "lastSuccessAt": "2026-10-17T15:55:19.437Z",
   "partialFailures": [],
   "sourceDescription": "Open-source five-language dashboard for IOTA Train at Home, xCoin XID / MMM and Quantus QTC: read-only status, rewards and network visualization.",
   "github": {
@@ -13,8 +13,8 @@
       "forks_count": 0,
       "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T10:04:01Z",
-      "updated_at": "2026-10-13T10:04:05Z",
+      "pushed_at": "2026-10-17T15:23:32Z",
+      "updated_at": "2026-10-17T15:23:35Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -39,7 +39,7 @@
     },
     "homepage": "https://iotahome.site",
     "sync": {
-      "syncedAt": "2026-10-13T11:19:29.598Z",
+      "syncedAt": "2026-10-17T15:55:19.437Z",
       "source": "api"
     }
   },
@@ -78,7 +78,36 @@
         }
       }
     ],
-    "logos": [],
+    "logos": [
+      {
+        "url": "https://github.com/molimao/iota/blob/8bba5410f966ace823a4ce31b56d8a090a7f0612/public/brand/icon-512.png",
+        "path": "public/brand/icon-512.png",
+        "blobSha": "02f2a195f24cce4d5c61f1a094a753b8e44ea434",
+        "format": "png",
+        "bytes": 25377,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/molimao/iota/blob/8bba5410f966ace823a4ce31b56d8a090a7f0612/public/site.webmanifest",
+          "fetchedAt": "2026-10-17T15:55:17.003Z"
+        }
+      },
+      {
+        "url": "https://github.com/molimao/iota/blob/8bba5410f966ace823a4ce31b56d8a090a7f0612/public/brand/icon-192.png",
+        "path": "public/brand/icon-192.png",
+        "blobSha": "a374bfc18f9628afc23c018703d0c5fcc61e93d1",
+        "format": "png",
+        "bytes": 8453,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/molimao/iota/blob/8bba5410f966ace823a4ce31b56d8a090a7f0612/public/brand/icon-192.png",
+          "fetchedAt": "2026-10-17T15:55:17.003Z"
+        }
+      }
+    ],
     "screenshots": []
   }
 }

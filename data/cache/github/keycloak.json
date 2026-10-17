@@ -3,7 +3,7 @@
   "slug": "keycloak",
   "repoUrl": "https://github.com/keycloak/keycloak",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:19:55.654Z",
+  "lastSuccessAt": "2026-10-17T15:55:43.310Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:55.017Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "keycloak/keycloak",
-      "stargazers_count": 37328,
-      "forks_count": 9045,
-      "open_issues_count": 3253,
+      "stargazers_count": 37413,
+      "forks_count": 9071,
+      "open_issues_count": 3241,
       "language": "Java",
-      "pushed_at": "2026-10-13T11:03:49Z",
-      "updated_at": "2026-10-13T10:36:58Z",
+      "pushed_at": "2026-10-17T14:28:04Z",
+      "updated_at": "2026-10-17T14:38:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +47,7 @@
     "latestReleaseAt": "2026-10-13T08:58:15Z",
     "homepage": "https://www.keycloak.org",
     "sync": {
-      "syncedAt": "2026-10-13T11:19:55.654Z",
+      "syncedAt": "2026-10-17T15:55:43.310Z",
       "source": "api"
     }
   },
@@ -95,15 +95,15 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "keycloak",
-          "version": "26.7.5",
+          "version": "26.8.1",
           "project": "keycloak",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/keycloak/versions",
-          "fetchedAt": "2026-10-07T02:26:33.621Z"
+          "fetchedAt": "2026-10-17T15:55:41.304Z"
         }
       }
     ],

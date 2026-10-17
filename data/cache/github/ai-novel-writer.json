@@ -3,7 +3,7 @@
   "slug": "ai-novel-writer",
   "repoUrl": "https://github.com/EthanYoQ/AI-Novel-Writer",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:16:10.775Z",
+  "lastSuccessAt": "2026-10-17T15:52:09.403Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:34.282Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "EthanYoQ/AI-Novel-Writer",
-      "stargazers_count": 1433,
-      "forks_count": 167,
-      "open_issues_count": 22,
+      "stargazers_count": 1587,
+      "forks_count": 184,
+      "open_issues_count": 34,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T07:56:36Z",
-      "updated_at": "2026-10-13T11:07:19Z",
+      "pushed_at": "2026-10-17T15:48:12Z",
+      "updated_at": "2026-10-17T15:10:34Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -49,12 +49,17 @@
         "name": "GPL-3.0"
       },
       "topics": [
+        "ai",
+        "ai-agent",
         "ai-writing",
+        "aigc",
         "creative-writing",
         "deepseek-harness",
         "dsh-plugin",
         "electron",
         "fiction-writing",
+        "generative-ai",
+        "llm",
         "local-first",
         "long-form-fiction",
         "novel-writing",
@@ -65,9 +70,9 @@
         "writing-assistant"
       ]
     },
-    "latestReleaseAt": "2026-10-11T08:54:02Z",
+    "latestReleaseAt": "2026-10-13T18:52:51Z",
     "sync": {
-      "syncedAt": "2026-10-13T11:16:10.775Z",
+      "syncedAt": "2026-10-17T15:52:09.403Z",
       "source": "api"
     }
   },
@@ -94,16 +99,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/latest",
         "facts": {
-          "tag": "v1.2.2-Preview",
+          "tag": "v1.2.3-Preview",
           "assets": [
-            "ai-novel-writer-mac-arm64-1.2.2-Preview-installer.dmg",
-            "ai-novel-writer-mac-x64-1.2.2-Preview-installer.dmg"
+            "ai-novel-writer-mac-arm64-1.2.3-Preview-installer.dmg",
+            "ai-novel-writer-mac-x64-1.2.3-Preview-installer.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.2.2-Preview",
-          "fetchedAt": "2026-10-11T09:45:00.420Z"
+          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.2.3-Preview",
+          "fetchedAt": "2026-10-17T15:52:07.596Z"
         }
       },
       {
@@ -112,15 +117,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/latest",
         "facts": {
-          "tag": "v1.2.2-Preview",
+          "tag": "v1.2.3-Preview",
           "assets": [
-            "ai-novel-writer-setup-1.2.2-Preview.exe"
+            "ai-novel-writer-setup-1.2.3-Preview.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.2.2-Preview",
-          "fetchedAt": "2026-10-11T09:45:00.420Z"
+          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.2.3-Preview",
+          "fetchedAt": "2026-10-17T15:52:07.596Z"
         }
       }
     ],

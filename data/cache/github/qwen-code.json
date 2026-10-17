@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:23:08.020Z",
+  "lastSuccessAt": "2026-10-17T15:58:37.912Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 28461,
-      "forks_count": 3197,
-      "open_issues_count": 1812,
+      "stargazers_count": 28538,
+      "forks_count": 3218,
+      "open_issues_count": 1869,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T11:18:10Z",
-      "updated_at": "2026-10-13T11:17:00Z",
+      "pushed_at": "2026-10-17T15:58:29Z",
+      "updated_at": "2026-10-17T15:04:56Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-10-11T11:42:33Z",
+    "latestReleaseAt": "2026-10-15T16:21:10Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-10-13T11:23:08.020Z",
+      "syncedAt": "2026-10-17T15:58:37.912Z",
       "source": "api"
     }
   },
@@ -85,7 +85,7 @@
         "facts": {
           "repository": "aur",
           "package": "qwen-code-bin",
-          "version": "0.25.1",
+          "version": "0.25.2",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -93,7 +93,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-12T13:53:46.097Z"
+          "fetchedAt": "2026-10-17T15:58:35.406Z"
         }
       },
       {
@@ -104,7 +104,7 @@
         "facts": {
           "repository": "arch",
           "package": "qwen-code",
-          "version": "0.21.13",
+          "version": "0.21.14",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -112,7 +112,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-13T11:23:05.290Z"
+          "fetchedAt": "2026-10-17T15:58:35.406Z"
         }
       },
       {
@@ -123,7 +123,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "qwen-code",
-          "version": "0.23.4",
+          "version": "0.25.1",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -131,7 +131,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-03T08:41:32.688Z"
+          "fetchedAt": "2026-10-17T15:58:35.406Z"
         }
       },
       {
@@ -142,7 +142,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "qwen-code",
-          "version": "0.25.1",
+          "version": "0.25.2",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -150,7 +150,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-13T11:23:05.290Z"
+          "fetchedAt": "2026-10-17T15:58:35.406Z"
         }
       },
       {
@@ -175,17 +175,17 @@
     ],
     "logos": [
       {
-        "url": "https://github.com/QwenLM/qwen-code/blob/9f6138ae441af192d08ba226e8f38eb821cb7f8e/packages/web-shell/client/public/assets/icon.svg",
+        "url": "https://github.com/QwenLM/qwen-code/blob/6ad896c20b974f9a6f5b5c0a8683f290ca8aa28d/packages/web-shell/client/public/assets/icon.svg",
         "path": "packages/web-shell/client/public/assets/icon.svg",
-        "blobSha": "bd100cf394ed156832734cb4b16b903949c6f232",
+        "blobSha": "9e9ffdd38e08a71a769266eab1522ddf9ecc6f3d",
         "format": "svg",
-        "bytes": 933,
-        "width": 141,
-        "height": 140,
+        "bytes": 1117,
+        "width": 136,
+        "height": 136,
         "provenance": {
           "source": "web-manifest",
-          "url": "https://github.com/QwenLM/qwen-code/blob/9f6138ae441af192d08ba226e8f38eb821cb7f8e/packages/web-shell/client/public/manifest.webmanifest",
-          "fetchedAt": "2026-09-28T18:17:36.735Z"
+          "url": "https://github.com/QwenLM/qwen-code/blob/6ad896c20b974f9a6f5b5c0a8683f290ca8aa28d/packages/web-shell/client/public/manifest.webmanifest",
+          "fetchedAt": "2026-10-17T15:58:35.406Z"
         }
       },
       {

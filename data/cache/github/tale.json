@@ -3,18 +3,18 @@
   "slug": "tale",
   "repoUrl": "https://github.com/tale-project/tale",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:24:18.717Z",
+  "lastSuccessAt": "2026-10-17T15:59:36.816Z",
   "partialFailures": [],
   "sourceDescription": "Open-source project workspace for teams and AI agents. Assign tasks, coordinate agents in persistent sandboxes, and review results together. Self-hosted or managed cloud.",
   "github": {
     "repository": {
       "full_name": "tale-project/tale",
-      "stargazers_count": 34,
-      "forks_count": 6,
-      "open_issues_count": 271,
+      "stargazers_count": 35,
+      "forks_count": 7,
+      "open_issues_count": 248,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T11:17:02Z",
-      "updated_at": "2026-10-13T11:00:42Z",
+      "pushed_at": "2026-10-17T05:37:07Z",
+      "updated_at": "2026-10-17T05:36:46Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +45,10 @@
         "workflow-automation"
       ]
     },
-    "latestReleaseAt": "2026-10-13T07:06:00Z",
+    "latestReleaseAt": "2026-10-15T06:18:45Z",
     "homepage": "https://tale.dev",
     "sync": {
-      "syncedAt": "2026-10-13T11:24:18.717Z",
+      "syncedAt": "2026-10-17T15:59:36.816Z",
       "source": "api"
     }
   },
@@ -74,15 +74,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/tale-project/tale/releases/latest",
         "facts": {
-          "tag": "v0.5.87",
+          "tag": "v0.5.91",
           "assets": [
             "tale_windows.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/tale-project/tale/releases/tag/v0.5.87",
-          "fetchedAt": "2026-10-13T11:24:15.743Z"
+          "url": "https://github.com/tale-project/tale/releases/tag/v0.5.91",
+          "fetchedAt": "2026-10-17T15:59:33.980Z"
         }
       },
       {
@@ -106,6 +106,20 @@
       }
     ],
     "logos": [
+      {
+        "url": "https://github.com/tale-project/tale/blob/c9d5ea8a025d3c3f3c0d32d1ce4977b1d05f368d/services/web/public/favicon-light.png",
+        "path": "services/web/public/favicon-light.png",
+        "blobSha": "86712a98fa42b4dcc7cfd6bc82660766b1c908f6",
+        "format": "png",
+        "bytes": 17171,
+        "width": 1040,
+        "height": 1040,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/tale-project/tale/blob/c9d5ea8a025d3c3f3c0d32d1ce4977b1d05f368d/services/web/public/manifest.webmanifest",
+          "fetchedAt": "2026-10-17T15:59:33.980Z"
+        }
+      },
       {
         "url": "https://github.com/tale-project/tale/blob/fe4e38d5784044f723aeb83b35921e70f683a7c7/services/platform/public/assets/logo-black.svg",
         "path": "services/platform/public/assets/logo-black.svg",

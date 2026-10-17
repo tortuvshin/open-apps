@@ -3,7 +3,7 @@
   "slug": "butterfly",
   "repoUrl": "https://github.com/LinwoodDev/Butterfly",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:16.084Z",
+  "lastSuccessAt": "2026-10-17T15:53:13.615Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:21.444Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "LinwoodDev/Butterfly",
-      "stargazers_count": 2055,
-      "forks_count": 152,
-      "open_issues_count": 49,
+      "stargazers_count": 2062,
+      "forks_count": 153,
+      "open_issues_count": 47,
       "language": "Dart",
-      "pushed_at": "2026-10-12T18:49:56Z",
-      "updated_at": "2026-10-13T08:25:15Z",
+      "pushed_at": "2026-10-17T14:43:40Z",
+      "updated_at": "2026-10-17T14:41:01Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -70,10 +70,10 @@
         "writing"
       ]
     },
-    "latestReleaseAt": "2026-09-28T08:29:29Z",
+    "latestReleaseAt": "2026-10-15T14:34:59Z",
     "homepage": "https://butterfly.linwood.dev",
     "sync": {
-      "syncedAt": "2026-10-13T11:17:16.084Z",
+      "syncedAt": "2026-10-17T15:53:13.615Z",
       "source": "api"
     }
   },
@@ -102,12 +102,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "suggestedVersionCode": 199,
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/5e904406e56682eae2b81ee1168b2c0e4844e600/app/android/app/build.gradle.kts"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/4c6b25ad2a62904094e30c397e0092998f3a9e26/app/android/app/build.gradle.kts"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/dev.linwood.butterfly",
-          "fetchedAt": "2026-10-12T13:47:38.216Z"
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -118,12 +118,12 @@
         "facts": {
           "appId": "dev.linwood.butterfly",
           "match": "metainfo",
-          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/5e904406e56682eae2b81ee1168b2c0e4844e600/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
+          "evidence": "https://github.com/LinwoodDev/Butterfly/blob/4c6b25ad2a62904094e30c397e0092998f3a9e26/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/dev.linwood.butterfly",
-          "fetchedAt": "2026-10-12T13:47:38.216Z"
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -132,7 +132,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
         "facts": {
-          "tag": "v2.6.0",
+          "tag": "v2.6.1",
           "assets": [
             "linwood-butterfly-android-arm-legacy.apk",
             "linwood-butterfly-android-arm.apk",
@@ -144,8 +144,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.0",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.1",
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -154,15 +154,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
         "facts": {
-          "tag": "v2.6.0",
+          "tag": "v2.6.1",
           "assets": [
             "linwood-butterfly-ios.ipa"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.0",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.1",
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -171,7 +171,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
         "facts": {
-          "tag": "v2.6.0",
+          "tag": "v2.6.1",
           "assets": [
             "linwood-butterfly-linux-arm64.AppImage",
             "linwood-butterfly-linux-arm64.deb",
@@ -183,8 +183,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.0",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.1",
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -193,15 +193,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
         "facts": {
-          "tag": "v2.6.0",
+          "tag": "v2.6.1",
           "assets": [
             "linwood-butterfly-macos.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.0",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.1",
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       },
       {
@@ -210,7 +210,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/LinwoodDev/Butterfly/releases/latest",
         "facts": {
-          "tag": "v2.6.0",
+          "tag": "v2.6.1",
           "assets": [
             "linwood-butterfly-windows-setup-arm64.exe",
             "linwood-butterfly-windows-setup-x86_64.exe"
@@ -218,8 +218,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.0",
-          "fetchedAt": "2026-09-28T17:09:19.842Z"
+          "url": "https://github.com/LinwoodDev/Butterfly/releases/tag/v2.6.1",
+          "fetchedAt": "2026-10-17T15:53:11.770Z"
         }
       }
     ],

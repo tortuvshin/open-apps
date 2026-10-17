@@ -3,7 +3,7 @@
   "slug": "flutter-games",
   "repoUrl": "https://github.com/searchy2/FlutterGames",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:18:23.808Z",
+  "lastSuccessAt": "2026-10-17T15:54:16.734Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:00.943Z",
@@ -194,7 +194,7 @@
       "contributorsKnown": 1
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:18:23.808Z",
+      "syncedAt": "2026-10-17T15:54:16.734Z",
       "source": "api"
     },
     "languages": {
@@ -215,15 +215,15 @@
     "latestReleaseAt": "2023-11-20T05:57:40Z"
   },
   "health": {
-    "status": "active",
+    "status": "stale",
     "maturity": "useful",
     "tier": "listed",
     "visibility": "keep",
-    "cleanupCandidate": false,
-    "staleReason": null,
+    "cleanupCandidate": true,
+    "staleReason": "no_push_6_months",
     "confidence": "high",
     "reasons": [
-      "Pushed to within the last 6 months",
+      "No push in the last 6 months",
       "Clear license found"
     ]
   },

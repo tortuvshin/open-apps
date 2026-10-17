@@ -3,7 +3,7 @@
   "slug": "looptroop",
   "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:20:30.136Z",
+  "lastSuccessAt": "2026-10-17T15:56:16.111Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:06.775Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "looptroop-ai/LoopTroop",
-      "stargazers_count": 161,
+      "stargazers_count": 163,
       "forks_count": 14,
-      "open_issues_count": 2,
+      "open_issues_count": 1,
       "language": "TypeScript",
-      "pushed_at": "2026-10-13T11:19:52Z",
-      "updated_at": "2026-10-13T09:15:56Z",
+      "pushed_at": "2026-10-17T11:57:25Z",
+      "updated_at": "2026-10-17T14:51:58Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,10 +64,10 @@
         "ralph-loop"
       ]
     },
-    "latestReleaseAt": "2026-10-01T19:44:19Z",
+    "latestReleaseAt": "2026-10-13T13:31:30Z",
     "homepage": "https://www.looptroop.ovh/",
     "sync": {
-      "syncedAt": "2026-10-13T11:20:30.136Z",
+      "syncedAt": "2026-10-17T15:56:16.111Z",
       "source": "api"
     }
   },
@@ -98,12 +98,12 @@
           "version": "0.6.0",
           "project": "looptroop",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/looptroop/versions",
-          "fetchedAt": "2026-10-12T13:51:01.977Z"
+          "fetchedAt": "2026-10-17T15:56:14.121Z"
         }
       }
     ],

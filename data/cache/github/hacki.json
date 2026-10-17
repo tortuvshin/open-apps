@@ -3,7 +3,7 @@
   "slug": "hacki",
   "repoUrl": "https://github.com/Livinglist/Hacki",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:18:56.496Z",
+  "lastSuccessAt": "2026-10-17T15:54:48.477Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:18.709Z",
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/Livinglist/Hacki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Livinglist/Hacki/deployments",
       "created_at": "2021-12-25T03:59:50Z",
-      "updated_at": "2026-10-12T03:25:02Z",
+      "updated_at": "2026-10-14T20:54:41Z",
       "pushed_at": "2026-10-13T04:14:58Z",
       "git_url": "git://github.com/Livinglist/Hacki.git",
       "ssh_url": "git@github.com:Livinglist/Hacki.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/Livinglist/Hacki",
       "homepage": "https://livinglist.github.io/Hacki/",
       "size": 291495,
-      "stargazers_count": 1631,
+      "stargazers_count": 1629,
       "watchers_count": 1578,
       "language": "Dart",
       "has_issues": true,
@@ -193,7 +193,7 @@
       "contributorsKnown": 4
     },
     "sync": {
-      "syncedAt": "2026-10-13T11:18:56.496Z",
+      "syncedAt": "2026-10-17T15:54:48.477Z",
       "source": "api"
     },
     "languages": {
@@ -237,14 +237,14 @@
         "url": "https://f-droid.org/packages/com.jiaqifeng.hacki/",
         "facts": {
           "appId": "com.jiaqifeng.hacki",
-          "suggestedVersionCode": 3813,
+          "suggestedVersionCode": 3823,
           "evidence": "https://github.com/Livinglist/Hacki/blob/40f4022adb2f34621442082e023d917bd3ff3f3a/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.jiaqifeng.hacki",
-          "fetchedAt": "2026-10-11T09:47:27.182Z"
+          "fetchedAt": "2026-10-17T15:54:46.032Z"
         }
       },
       {

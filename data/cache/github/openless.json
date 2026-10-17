@@ -3,7 +3,7 @@
   "slug": "openless",
   "repoUrl": "https://github.com/Open-Less/openless",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:21:56.578Z",
+  "lastSuccessAt": "2026-10-17T15:57:33.658Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:02.232Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Open-Less/openless",
-      "stargazers_count": 3798,
-      "forks_count": 357,
-      "open_issues_count": 56,
+      "stargazers_count": 3870,
+      "forks_count": 363,
+      "open_issues_count": 57,
       "language": "Rust",
-      "pushed_at": "2026-10-13T03:06:19Z",
-      "updated_at": "2026-10-13T10:36:19Z",
+      "pushed_at": "2026-10-17T14:48:55Z",
+      "updated_at": "2026-10-17T14:54:27Z",
       "archived": false,
       "disabled": false,
       "default_branch": "beta",
@@ -67,10 +67,10 @@
         "wispr-flow-alternative"
       ]
     },
-    "latestReleaseAt": "2026-08-21T13:23:21Z",
+    "latestReleaseAt": "2026-10-16T12:40:48Z",
     "homepage": "https://github.com/appergb/openless",
     "sync": {
-      "syncedAt": "2026-10-13T11:21:56.578Z",
+      "syncedAt": "2026-10-17T15:57:33.658Z",
       "source": "api"
     }
   },
@@ -97,37 +97,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Open-Less/openless/releases/latest",
         "facts": {
-          "tag": "v1.3.18-tauri",
+          "tag": "v2.0.1-tauri",
           "assets": [
-            "OpenLess_1.3.18_arm64-v8a.apk",
-            "OpenLess_1.3.18_armeabi-v7a.apk",
-            "OpenLess_1.3.18_x86.apk",
-            "OpenLess_1.3.18_x86_64.apk"
+            "OpenLess_2.0.1+build.20261016_arm64-v8a.apk",
+            "OpenLess_2.0.1+build.20261016_armeabi-v7a.apk",
+            "OpenLess_2.0.1+build.20261016_x86.apk",
+            "OpenLess_2.0.1+build.20261016_x86_64.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
-          "fetchedAt": "2026-09-28T17:11:59.616Z"
-        }
-      },
-      {
-        "type": "github-releases",
-        "platform": "linux",
-        "label": "GitHub Releases",
-        "url": "https://github.com/Open-Less/openless/releases/latest",
-        "facts": {
-          "tag": "v1.3.18-tauri",
-          "assets": [
-            "OpenLess-1.3.18-1.x86_64.rpm",
-            "OpenLess_1.3.18_amd64.AppImage",
-            "OpenLess_1.3.18_amd64.deb"
-          ]
-        },
-        "provenance": {
-          "source": "github-releases",
-          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
-          "fetchedAt": "2026-09-28T17:11:59.616Z"
+          "url": "https://github.com/Open-Less/openless/releases/tag/v2.0.1-tauri",
+          "fetchedAt": "2026-10-17T15:57:30.929Z"
         }
       },
       {
@@ -136,16 +117,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Open-Less/openless/releases/latest",
         "facts": {
-          "tag": "v1.3.18-tauri",
+          "tag": "v2.0.1-tauri",
           "assets": [
-            "OpenLess_1.3.18_aarch64.dmg",
-            "OpenLess_1.3.18_x64.dmg"
+            "OpenLess_2.0.1+build.20261016_aarch64.dmg",
+            "OpenLess_2.0.1+build.20261016_x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
-          "fetchedAt": "2026-09-28T17:11:59.616Z"
+          "url": "https://github.com/Open-Less/openless/releases/tag/v2.0.1-tauri",
+          "fetchedAt": "2026-10-17T15:57:30.929Z"
         }
       },
       {
@@ -154,16 +135,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Open-Less/openless/releases/latest",
         "facts": {
-          "tag": "v1.3.18-tauri",
+          "tag": "v2.0.1-tauri",
           "assets": [
-            "OpenLess_1.3.18_x64-setup.exe",
-            "OpenLess_1.3.18_x64_en-US.msi"
+            "OpenLess_2.0.1+build.20261016_x64-setup.exe",
+            "OpenLess_2.0.1+build.20261016_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Open-Less/openless/releases/tag/v1.3.18-tauri",
-          "fetchedAt": "2026-09-28T17:11:59.616Z"
+          "url": "https://github.com/Open-Less/openless/releases/tag/v2.0.1-tauri",
+          "fetchedAt": "2026-10-17T15:57:30.929Z"
         }
       },
       {

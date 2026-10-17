@@ -3,18 +3,18 @@
   "slug": "orkas",
   "repoUrl": "https://github.com/Orkas-AI/Orkas",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:22:29.611Z",
+  "lastSuccessAt": "2026-10-17T15:58:03.750Z",
   "partialFailures": [],
   "sourceDescription": "Orkas is an open-source, local-first AI desktop app: a commander LLM directs specialist sub-agents, and runs your installed coding CLIs — Claude Code, Codex, OpenCode, OpenClaw, Hermes — as local sessions. Agents self-evolve via reflection and skill crystallization. BYO keys. macOS / Windows / Linux.",
   "github": {
     "repository": {
       "full_name": "Orkas-AI/Orkas",
-      "stargazers_count": 2177,
-      "forks_count": 90,
-      "open_issues_count": 11,
+      "stargazers_count": 2196,
+      "forks_count": 91,
+      "open_issues_count": 10,
       "language": "JavaScript",
-      "pushed_at": "2026-10-13T03:38:01Z",
-      "updated_at": "2026-10-13T06:17:54Z",
+      "pushed_at": "2026-10-17T14:52:30Z",
+      "updated_at": "2026-10-17T14:52:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +45,10 @@
         "self-evolving-agents"
       ]
     },
-    "latestReleaseAt": "2026-10-01T08:26:44Z",
+    "latestReleaseAt": "2026-10-17T14:52:32Z",
     "homepage": "https://orkas.ai?source=gh-orkas",
     "sync": {
-      "syncedAt": "2026-10-13T11:22:29.611Z",
+      "syncedAt": "2026-10-17T15:58:03.750Z",
       "source": "api"
     }
   },
@@ -75,16 +75,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
         "facts": {
-          "tag": "v2026.10.1",
+          "tag": "v2026.10.17",
           "assets": [
-            "Orkas-1.8.0-arm64.dmg",
-            "Orkas-1.8.0.dmg"
+            "Orkas-1.9.0-arm64.dmg",
+            "Orkas-1.9.0.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1",
-          "fetchedAt": "2026-10-07T02:28:52.712Z"
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.17",
+          "fetchedAt": "2026-10-17T15:58:01.118Z"
         }
       },
       {
@@ -93,15 +93,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
         "facts": {
-          "tag": "v2026.10.1",
+          "tag": "v2026.10.17",
           "assets": [
-            "Orkas.Setup.1.8.0.exe"
+            "Orkas.Setup.1.9.0.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1",
-          "fetchedAt": "2026-10-07T02:28:52.712Z"
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.17",
+          "fetchedAt": "2026-10-17T15:58:01.118Z"
         }
       }
     ],

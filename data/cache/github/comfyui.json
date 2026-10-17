@@ -3,7 +3,7 @@
   "slug": "comfyui",
   "repoUrl": "https://github.com/Comfy-Org/ComfyUI",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:17:37.622Z",
+  "lastSuccessAt": "2026-10-17T15:53:32.051Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:52.014Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stargazers_count": 137265,
-      "forks_count": 16337,
-      "open_issues_count": 5149,
+      "stargazers_count": 138020,
+      "forks_count": 16439,
+      "open_issues_count": 5219,
       "language": "Python",
-      "pushed_at": "2026-10-13T09:31:17Z",
-      "updated_at": "2026-10-13T11:16:28Z",
+      "pushed_at": "2026-10-17T15:49:59Z",
+      "updated_at": "2026-10-17T15:51:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -47,10 +47,10 @@
         "stable-diffusion"
       ]
     },
-    "latestReleaseAt": "2026-10-05T22:49:43Z",
+    "latestReleaseAt": "2026-10-15T22:57:45Z",
     "homepage": "https://www.comfy.org/",
     "sync": {
-      "syncedAt": "2026-10-13T11:17:37.622Z",
+      "syncedAt": "2026-10-17T15:53:32.051Z",
       "source": "api"
     }
   },
@@ -82,12 +82,12 @@
           "version": "0.39.0",
           "project": "comfyui",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/comfyui/versions",
-          "fetchedAt": "2026-10-12T13:47:58.929Z"
+          "fetchedAt": "2026-10-17T15:53:30.056Z"
         }
       },
       {
@@ -98,7 +98,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "comfyui",
-          "version": "0.37.0",
+          "version": "0.39.2",
           "project": "comfyui",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -106,7 +106,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/comfyui/versions",
-          "fetchedAt": "2026-10-03T08:36:38.976Z"
+          "fetchedAt": "2026-10-17T15:53:30.056Z"
         }
       }
     ],

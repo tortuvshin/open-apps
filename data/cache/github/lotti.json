@@ -3,18 +3,18 @@
   "slug": "lotti",
   "repoUrl": "https://github.com/matthiasn/lotti",
   "source": "api",
-  "lastSuccessAt": "2026-10-13T11:20:32.189Z",
+  "lastSuccessAt": "2026-10-17T15:56:18.418Z",
   "partialFailures": [],
   "sourceDescription": "A private logbook with a staff of personal AI assistants. Agents read what you record and propose what to do next — you approve the changes. End-to-end encrypted sync between your own devices — servers only ever see ciphertext. Local AI optional.",
   "github": {
     "repository": {
       "full_name": "matthiasn/lotti",
-      "stargazers_count": 1198,
+      "stargazers_count": 1200,
       "forks_count": 120,
-      "open_issues_count": 7,
+      "open_issues_count": 8,
       "language": "Dart",
-      "pushed_at": "2026-10-13T11:19:38Z",
-      "updated_at": "2026-10-12T20:01:52Z",
+      "pushed_at": "2026-10-17T15:16:57Z",
+      "updated_at": "2026-10-17T12:40:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -48,7 +48,7 @@
     "latestReleaseAt": "2026-10-03T23:12:03Z",
     "homepage": "https://matthiasn.github.io/lotti/",
     "sync": {
-      "syncedAt": "2026-10-13T11:20:32.189Z",
+      "syncedAt": "2026-10-17T15:56:18.418Z",
       "source": "api"
     }
   },
@@ -77,12 +77,12 @@
         "facts": {
           "appId": "com.matthiasn.lotti",
           "match": "metainfo",
-          "evidence": "https://github.com/matthiasn/lotti/blob/200b7500aff215fcd485d6750c8f4883a8c6911b/flatpak/com.matthiasn.lotti.metainfo.xml"
+          "evidence": "https://github.com/matthiasn/lotti/blob/75bbbfcf420529503ab64108e2b9081ea7e129ad/flatpak/com.matthiasn.lotti.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.matthiasn.lotti",
-          "fetchedAt": "2026-10-13T11:20:30.463Z"
+          "fetchedAt": "2026-10-17T15:56:16.504Z"
         }
       },
       {
@@ -146,7 +146,7 @@
         "facts": {
           "repository": "aur",
           "package": "lotti-bin",
-          "version": "1.1.53",
+          "version": "1.1.54",
           "project": "lotti",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -154,7 +154,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/lotti/versions",
-          "fetchedAt": "2026-10-13T11:20:30.463Z"
+          "fetchedAt": "2026-10-17T15:56:16.504Z"
         }
       }
     ],
@@ -194,8 +194,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/matthiasn/lotti/blob/200b7500aff215fcd485d6750c8f4883a8c6911b/flatpak/com.matthiasn.lotti.metainfo.xml",
-          "fetchedAt": "2026-10-13T11:20:30.463Z"
+          "url": "https://github.com/matthiasn/lotti/blob/75bbbfcf420529503ab64108e2b9081ea7e129ad/flatpak/com.matthiasn.lotti.metainfo.xml",
+          "fetchedAt": "2026-10-17T15:56:16.504Z"
         }
       }
     ]
