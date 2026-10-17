@@ -11,7 +11,8 @@ tags:
   - self-hosted
   - stockfish
   - ai-coach
-bestFor: "A family or homelab that wants a private, ad-free Chess.com: review your games, play a bot or a friend, and get coaching from your own local LLM."
+bestFor:
+  - "A family or homelab that wants a private, ad-free Chess.com: review your games, play a bot or a friend, and get coaching from your own local LLM."
 whyListed:
   - "A complete self-hosted Chess.com alternative in one Docker container: game review of Chess.com and Lichess games (or pasted PGN) with bundled Stockfish, play vs bot or a friend in real time, and an AI coach on your own Ollama/vLLM."
   - "The LLM never analyses — the server computes the facts (what a move allows, hangs or wins, your recurring mistakes) and the model only turns them into coaching, so a small local model is enough and a hallucinated piece is impossible."
