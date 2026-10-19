@@ -13,6 +13,16 @@ tags:
   - markdown
   - structured-data
   - gpui
+bestFor:
+  - Reading project documents and data files in one macOS workspace.
+  - Studying a Rust and GPUI Kit desktop application.
+whyListed:
+  - Combines Markdown rendering, JSON trees, CSV tables and native document previews.
+  - Public app, service and core crates document the desktop architecture.
+caveats:
+  - macOS only, with Apple Silicon and Intel downloads.
+  - Current installers are not Apple-notarized.
+  - Text editing is basic; PDF, Office and image previews are read-only.
 seo:
   title: Glim – Open Source File Viewer for macOS
 addedAt: 2026-10-19
