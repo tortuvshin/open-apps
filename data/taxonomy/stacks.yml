@@ -76,3 +76,9 @@
   family: web
   languages: [javascript]
   platforms: [web, desktop]
+
+- id: rust
+  name: Rust
+  family: native
+  languages: [rust]
+  platforms: [macos, windows, linux]
