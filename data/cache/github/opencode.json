@@ -3,7 +3,7 @@
   "slug": "opencode",
   "repoUrl": "https://github.com/anomalyco/opencode",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:07:31.016Z",
+  "lastSuccessAt": "2026-10-25T08:16:45.105Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:32.753Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "anomalyco/opencode",
-      "stargazers_count": 220030,
-      "forks_count": 29401,
-      "open_issues_count": 3745,
+      "stargazers_count": 221285,
+      "forks_count": 29611,
+      "open_issues_count": 3795,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T14:57:55Z",
-      "updated_at": "2026-10-22T15:03:16Z",
+      "pushed_at": "2026-10-25T07:41:12Z",
+      "updated_at": "2026-10-25T08:14:42Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -43,7 +43,7 @@
     "latestReleaseAt": "2026-10-22T13:03:41Z",
     "homepage": "https://opencode.ai",
     "sync": {
-      "syncedAt": "2026-10-22T15:07:31.016Z",
+      "syncedAt": "2026-10-25T08:16:45.105Z",
       "source": "api"
     }
   },
@@ -164,7 +164,7 @@
         "facts": {
           "repository": "arch",
           "package": "opencode",
-          "version": "2.1.2",
+          "version": "2.1.3",
           "project": "opencode",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -172,7 +172,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-22T15:07:27.952Z"
+          "fetchedAt": "2026-10-25T08:16:42.491Z"
         }
       },
       {
@@ -183,7 +183,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "opencode",
-          "version": "2.0.32",
+          "version": "2.1.1",
           "project": "opencode",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -191,7 +191,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-22T15:07:27.952Z"
+          "fetchedAt": "2026-10-25T08:16:42.491Z"
         }
       },
       {
@@ -202,7 +202,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "opencode",
-          "version": "2.1.2",
+          "version": "2.1.4",
           "project": "opencode",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -210,7 +210,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-22T15:07:27.952Z"
+          "fetchedAt": "2026-10-25T08:16:42.491Z"
         }
       },
       {
@@ -240,15 +240,15 @@
         "facts": {
           "repository": "scoop",
           "package": "opencode",
-          "version": "1.19.3",
+          "version": "1.19.4",
           "project": "opencode",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/opencode/versions",
-          "fetchedAt": "2026-10-22T15:07:27.952Z"
+          "fetchedAt": "2026-10-25T08:16:42.491Z"
         }
       }
     ],

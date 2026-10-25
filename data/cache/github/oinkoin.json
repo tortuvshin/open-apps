@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:07:09.806Z",
+  "lastSuccessAt": "2026-10-25T08:16:24.354Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:44.614Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-22T15:07:09.806Z",
+      "syncedAt": "2026-10-25T08:16:24.354Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
-      "stargazers_count": 481,
-      "forks_count": 60,
-      "open_issues_count": 29,
+      "stargazers_count": 482,
+      "forks_count": 59,
+      "open_issues_count": 28,
       "language": "Dart",
-      "pushed_at": "2026-10-22T05:43:26Z",
-      "updated_at": "2026-10-22T05:43:29Z",
+      "pushed_at": "2026-10-23T11:06:52Z",
+      "updated_at": "2026-10-23T15:45:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +59,7 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-10-22T05:29:49Z",
+    "latestReleaseAt": "2026-10-23T10:36:01Z",
     "homepage": "https://oinkoin.com"
   },
   "health": {
@@ -86,12 +86,12 @@
         "facts": {
           "appId": "com.github.emavgl.piggybankpro",
           "suggestedVersionCode": 7153004,
-          "evidence": "https://github.com/emavgl/oinkoin/blob/7b0630dca63418aba036005f11ff851732b5f037/android/app/build.gradle"
+          "evidence": "https://github.com/emavgl/oinkoin/blob/c217ee2974be753b23367fba4626111beed7f992/android/app/build.gradle"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.github.emavgl.piggybankpro",
-          "fetchedAt": "2026-10-22T15:07:04.889Z"
+          "fetchedAt": "2026-10-25T08:16:20.151Z"
         }
       },
       {
@@ -100,7 +100,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.15.4",
+          "tag": "1.16.0",
           "assets": [
             "app-arm64-v8a-pro-release.apk",
             "app-armeabi-v7a-pro-release.apk",
@@ -109,8 +109,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.4",
-          "fetchedAt": "2026-10-22T15:07:04.889Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
+          "fetchedAt": "2026-10-25T08:16:20.151Z"
         }
       },
       {
@@ -119,17 +119,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.15.4",
+          "tag": "1.16.0",
           "assets": [
-            "piggybank-1.15.4+7155-linux.AppImage",
-            "piggybank-1.15.4+7155-linux.deb",
-            "piggybank-1.15.4+7155-linux.rpm"
+            "piggybank-1.16.0+7156-linux.AppImage",
+            "piggybank-1.16.0+7156-linux.deb",
+            "piggybank-1.16.0+7156-linux.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.4",
-          "fetchedAt": "2026-10-22T15:07:04.889Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
+          "fetchedAt": "2026-10-25T08:16:20.151Z"
         }
       },
       {
@@ -138,15 +138,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.15.4",
+          "tag": "1.16.0",
           "assets": [
             "oinkoin-windows-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.15.4",
-          "fetchedAt": "2026-10-22T15:07:04.889Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
+          "fetchedAt": "2026-10-25T08:16:20.151Z"
         }
       },
       {

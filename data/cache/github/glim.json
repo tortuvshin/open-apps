@@ -3,18 +3,18 @@
   "slug": "glim",
   "repoUrl": "https://github.com/NeoPanic/Glim",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:04:01.397Z",
+  "lastSuccessAt": "2026-10-25T08:13:42.137Z",
   "partialFailures": [],
   "sourceDescription": "A free, open-source file viewer for macOS. Markdown, PDFs, images, JSON, CSV and code in one workspace. Apple Silicon & Intel.",
   "github": {
     "repository": {
       "full_name": "glimapp/glim",
-      "stargazers_count": 24,
+      "stargazers_count": 25,
       "forks_count": 2,
-      "open_issues_count": 23,
+      "open_issues_count": 24,
       "language": "Rust",
-      "pushed_at": "2026-10-21T20:10:52Z",
-      "updated_at": "2026-10-21T05:30:48Z",
+      "pushed_at": "2026-10-25T01:33:48Z",
+      "updated_at": "2026-10-25T01:24:16Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,10 +44,10 @@
         "sqlite-viewer"
       ]
     },
-    "latestReleaseAt": "2026-10-21T06:00:49Z",
+    "latestReleaseAt": "2026-10-25T01:49:58Z",
     "homepage": "https://glimapp.github.io/",
     "sync": {
-      "syncedAt": "2026-10-22T15:04:01.397Z",
+      "syncedAt": "2026-10-25T08:13:42.137Z",
       "source": "api"
     }
   },
@@ -73,16 +73,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/NeoPanic/Glim/releases/latest",
         "facts": {
-          "tag": "v0.2.7",
+          "tag": "v0.2.12",
           "assets": [
-            "Glim-0.2.7-macos-arm64.dmg",
-            "Glim-0.2.7-macos-x86_64.dmg"
+            "Glim-0.2.12-macos-arm64.dmg",
+            "Glim-0.2.12-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.7",
-          "fetchedAt": "2026-10-22T15:03:57.638Z"
+          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.12",
+          "fetchedAt": "2026-10-25T08:13:39.412Z"
         }
       },
       {

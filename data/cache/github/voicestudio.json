@@ -3,7 +3,7 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:11:11.684Z",
+  "lastSuccessAt": "2026-10-25T08:19:58.750Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:32.995Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 81316,
-      "forks_count": 8982,
-      "open_issues_count": 308,
+      "stargazers_count": 85403,
+      "forks_count": 9462,
+      "open_issues_count": 248,
       "language": "Python",
-      "pushed_at": "2026-10-22T14:20:27Z",
-      "updated_at": "2026-10-22T15:09:46Z",
+      "pushed_at": "2026-10-25T07:56:39Z",
+      "updated_at": "2026-10-25T08:18:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -73,7 +73,7 @@
     "latestReleaseAt": "2026-09-23T08:53:32Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-10-22T15:11:11.684Z",
+      "syncedAt": "2026-10-25T08:19:58.750Z",
       "source": "api"
     }
   },
@@ -186,7 +186,22 @@
         }
       }
     ],
-    "logos": [],
+    "logos": [
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/60d6beff241566694168fc38d74f709baa71d513/mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "path": "mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "blobSha": "486a249c752d47d49228d5e5ff6ecf982aa64804",
+        "format": "png",
+        "bytes": 767034,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/60d6beff241566694168fc38d74f709baa71d513/mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+          "fetchedAt": "2026-10-25T08:19:55.686Z"
+        }
+      }
+    ],
     "screenshots": []
   }
 }

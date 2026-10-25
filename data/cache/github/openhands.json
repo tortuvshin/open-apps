@@ -3,7 +3,7 @@
   "slug": "openhands",
   "repoUrl": "https://github.com/OpenHands/OpenHands",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:07:37.784Z",
+  "lastSuccessAt": "2026-10-25T08:16:51.047Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:16:39.319Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "OpenHands/OpenHands",
-      "stargazers_count": 91563,
-      "forks_count": 12154,
-      "open_issues_count": 1093,
+      "stargazers_count": 91773,
+      "forks_count": 12180,
+      "open_issues_count": 1097,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T14:56:38Z",
-      "updated_at": "2026-10-22T14:57:31Z",
+      "pushed_at": "2026-10-25T03:39:24Z",
+      "updated_at": "2026-10-25T07:56:22Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -50,10 +50,10 @@
         "openai"
       ]
     },
-    "latestReleaseAt": "2026-10-22T07:12:31Z",
+    "latestReleaseAt": "2026-10-23T13:46:20Z",
     "homepage": "https://openhands.dev",
     "sync": {
-      "syncedAt": "2026-10-22T15:07:37.784Z",
+      "syncedAt": "2026-10-25T08:16:51.047Z",
       "source": "api"
     }
   },
@@ -80,16 +80,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenHands/OpenHands/releases/latest",
         "facts": {
-          "tag": "v1.30.1",
+          "tag": "v1.33.0",
           "assets": [
-            "OpenHands.Agent.Canvas-1.30.1.AppImage",
-            "agent-canvas_1.30.1_amd64.deb"
+            "OpenHands.Agent.Canvas-1.33.0.AppImage",
+            "agent-canvas_1.33.0_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.1",
-          "fetchedAt": "2026-10-22T15:07:35.385Z"
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0",
+          "fetchedAt": "2026-10-25T08:16:48.801Z"
         }
       },
       {
@@ -98,15 +98,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenHands/OpenHands/releases/latest",
         "facts": {
-          "tag": "v1.30.1",
+          "tag": "v1.33.0",
           "assets": [
-            "OpenHands-Agent-Canvas-1.30.1-universal.dmg"
+            "OpenHands-Agent-Canvas-1.33.0-universal.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.1",
-          "fetchedAt": "2026-10-22T15:07:35.385Z"
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0",
+          "fetchedAt": "2026-10-25T08:16:48.801Z"
         }
       },
       {
@@ -115,15 +115,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/OpenHands/OpenHands/releases/latest",
         "facts": {
-          "tag": "v1.30.1",
+          "tag": "v1.33.0",
           "assets": [
-            "OpenHands-Agent-Canvas-Setup-1.30.1.exe"
+            "OpenHands-Agent-Canvas-Setup-1.33.0.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.30.1",
-          "fetchedAt": "2026-10-22T15:07:35.385Z"
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0",
+          "fetchedAt": "2026-10-25T08:16:48.801Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "handy",
   "repoUrl": "https://github.com/cjpais/Handy",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:04:18.663Z",
+  "lastSuccessAt": "2026-10-25T08:13:55.527Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:20.964Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "cjpais/Handy",
-      "stargazers_count": 34345,
-      "forks_count": 3258,
-      "open_issues_count": 187,
+      "stargazers_count": 34570,
+      "forks_count": 3284,
+      "open_issues_count": 192,
       "language": "Rust",
-      "pushed_at": "2026-10-22T07:38:45Z",
-      "updated_at": "2026-10-22T14:49:46Z",
+      "pushed_at": "2026-10-25T08:08:55Z",
+      "updated_at": "2026-10-25T08:08:32Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +58,7 @@
     "latestReleaseAt": "2026-10-03T02:42:15Z",
     "homepage": "https://handy.computer",
     "sync": {
-      "syncedAt": "2026-10-22T15:04:18.663Z",
+      "syncedAt": "2026-10-25T08:13:55.527Z",
       "source": "api"
     }
   },
@@ -166,15 +166,15 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "handy",
-          "version": "0.9.6",
+          "version": "0.9.8",
           "project": "handy",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "fetchedAt": "2026-10-25T08:13:53.669Z"
         }
       },
       {

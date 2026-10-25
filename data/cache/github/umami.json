@@ -3,7 +3,7 @@
   "slug": "umami",
   "repoUrl": "https://github.com/umami-software/umami",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:10:46.023Z",
+  "lastSuccessAt": "2026-10-25T08:19:35.846Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:59.662Z",
@@ -21,16 +21,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Umami is a privacy-first analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place — no cookies, no surveillance, self-hosted or in the cloud.",
+  "sourceDescription": "Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud.",
   "github": {
     "repository": {
       "full_name": "umami-software/umami",
-      "stargazers_count": 39527,
-      "forks_count": 8368,
-      "open_issues_count": 125,
+      "stargazers_count": 39662,
+      "forks_count": 8407,
+      "open_issues_count": 137,
       "language": "TypeScript",
-      "pushed_at": "2026-10-20T23:27:19Z",
-      "updated_at": "2026-10-22T14:59:54Z",
+      "pushed_at": "2026-10-23T21:58:32Z",
+      "updated_at": "2026-10-25T08:14:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -50,10 +50,10 @@
         "web-analytics"
       ]
     },
-    "latestReleaseAt": "2026-09-17T04:21:49Z",
+    "latestReleaseAt": "2026-10-23T08:26:44Z",
     "homepage": "https://umami.is",
     "sync": {
-      "syncedAt": "2026-10-22T15:10:46.023Z",
+      "syncedAt": "2026-10-25T08:19:35.846Z",
       "source": "api"
     }
   },
@@ -82,7 +82,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "umami",
-          "version": "3.4.0",
+          "version": "3.4.1",
           "project": "umami",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -90,7 +90,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/umami/versions",
-          "fetchedAt": "2026-10-07T02:30:40.787Z"
+          "fetchedAt": "2026-10-25T08:19:33.832Z"
         }
       }
     ],

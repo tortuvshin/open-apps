@@ -3,13 +3,8 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:10:40.665Z",
+  "lastSuccessAt": "2026-10-25T08:19:31.117Z",
   "partialFailures": [
-    {
-      "at": "2026-09-29T13:22:17.326Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-30T16:20:34.702Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-10-22T15:10:40.665Z",
       "source": "candidates",
       "reason": "tree: GitHub truncated the file tree"
+    },
+    {
+      "at": "2026-10-25T08:19:31.117Z",
+      "source": "candidates",
+      "reason": "tree: GitHub truncated the file tree"
     }
   ],
   "sourceDescription": "The open alternative to Salesforce, designed for AI.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-22T15:10:40.665Z",
+      "syncedAt": "2026-10-25T08:19:31.117Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
-      "stargazers_count": 59509,
-      "forks_count": 9687,
-      "open_issues_count": 149,
+      "stargazers_count": 59678,
+      "forks_count": 9730,
+      "open_issues_count": 120,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T15:09:31Z",
-      "updated_at": "2026-10-22T15:05:50Z",
+      "pushed_at": "2026-10-25T08:12:10Z",
+      "updated_at": "2026-10-25T07:52:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -127,6 +127,34 @@
         }
       },
       {
+        "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-apps/public/call-recorder/public/logo.svg",
+        "path": "packages/twenty-apps/public/call-recorder/public/logo.svg",
+        "blobSha": "0cfe06af17f7b3714bf86a09ef136efc9c253de5",
+        "format": "svg",
+        "bytes": 5283,
+        "width": 136,
+        "height": 136,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-apps/public/call-recorder/public/logo.svg",
+          "fetchedAt": "2026-10-25T08:19:27.466Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-apps/public/companion/public/logo.svg",
+        "path": "packages/twenty-apps/public/companion/public/logo.svg",
+        "blobSha": "bb5819bc266352de4c3e7f81a0fccac1fb9b1b89",
+        "format": "svg",
+        "bytes": 5520,
+        "width": 96,
+        "height": 96,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-apps/public/companion/public/logo.svg",
+          "fetchedAt": "2026-10-25T08:19:27.466Z"
+        }
+      },
+      {
         "url": "https://github.com/twentyhq/twenty/blob/19bb8009e0b43f10e9ab801b9cd84b04fefe168b/packages/twenty-apps/public/granola/public/logo.png",
         "path": "packages/twenty-apps/public/granola/public/logo.png",
         "blobSha": "5148c69b738a9478e56d4d3cba6de55e6bb20f7d",
@@ -166,6 +194,20 @@
           "source": "repo-asset",
           "url": "https://github.com/twentyhq/twenty/blob/289976eaeeb78fda1b85ff9f3c92fa6ab6f93eb6/packages/twenty-apps/public/last-contact/public/logo.png",
           "fetchedAt": "2026-10-17T15:59:51.795Z"
+        }
+      },
+      {
+        "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-cli/app-template/public/logo.svg",
+        "path": "packages/twenty-cli/app-template/public/logo.svg",
+        "blobSha": "639ff19f349dccfdb58363a73f2a02320af58adf",
+        "format": "svg",
+        "bytes": 454,
+        "width": 80,
+        "height": 80,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/twentyhq/twenty/blob/8ac4b92a1ad614d2c5f134a1d5e8c78301f8faea/packages/twenty-cli/app-template/public/logo.svg",
+          "fetchedAt": "2026-10-25T08:19:27.466Z"
         }
       }
     ],

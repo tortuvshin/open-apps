@@ -3,7 +3,7 @@
   "slug": "fluidvoice",
   "repoUrl": "https://github.com/altic-dev/FluidVoice",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:03:27.058Z",
+  "lastSuccessAt": "2026-10-25T08:13:13.939Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:57.693Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "altic-dev/FluidVoice",
-      "stargazers_count": 12378,
-      "forks_count": 898,
-      "open_issues_count": 131,
+      "stargazers_count": 12445,
+      "forks_count": 905,
+      "open_issues_count": 133,
       "language": "Swift",
-      "pushed_at": "2026-10-22T11:12:54Z",
-      "updated_at": "2026-10-22T14:53:56Z",
+      "pushed_at": "2026-10-25T07:22:48Z",
+      "updated_at": "2026-10-25T07:59:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-10-22T11:12:55Z",
     "homepage": "https://altic.dev/fluid",
     "sync": {
-      "syncedAt": "2026-10-22T15:03:27.058Z",
+      "syncedAt": "2026-10-25T08:13:13.939Z",
       "source": "api"
     }
   },
@@ -106,15 +106,15 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "fluidvoice",
-          "version": "1.6.11",
+          "version": "1.6.12",
           "project": "fluidvoice",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/fluidvoice/versions",
-          "fetchedAt": "2026-10-22T15:03:24.818Z"
+          "fetchedAt": "2026-10-25T08:13:12.054Z"
         }
       }
     ],

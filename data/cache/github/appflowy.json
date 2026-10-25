@@ -3,7 +3,7 @@
   "slug": "appflowy",
   "repoUrl": "https://github.com/AppFlowy-IO/AppFlowy",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:01:02.267Z",
+  "lastSuccessAt": "2026-10-25T08:11:24.663Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:55.721Z",
@@ -101,7 +101,7 @@
       "releases_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments",
       "created_at": "2021-06-16T12:56:48Z",
-      "updated_at": "2026-10-22T14:55:58Z",
+      "updated_at": "2026-10-25T07:33:16Z",
       "pushed_at": "2026-10-21T04:12:10Z",
       "git_url": "git://github.com/AppFlowy-IO/AppFlowy.git",
       "ssh_url": "git@github.com:AppFlowy-IO/AppFlowy.git",
@@ -109,7 +109,7 @@
       "svn_url": "https://github.com/AppFlowy-IO/AppFlowy",
       "homepage": "https://appflowy.com",
       "size": 93897,
-      "stargazers_count": 77649,
+      "stargazers_count": 77736,
       "watchers_count": 74159,
       "language": "Dart",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 6079,
+      "forks_count": 6085,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1051,
+      "open_issues_count": 1054,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -185,7 +185,7 @@
       "subscribers_count": 388
     },
     "sync": {
-      "syncedAt": "2026-10-22T15:01:02.267Z",
+      "syncedAt": "2026-10-25T08:11:24.663Z",
       "source": "api"
     },
     "languages": {
@@ -324,13 +324,15 @@
         "facts": {
           "tag": "0.14.10",
           "assets": [
-            "AppFlowy-0.14.10-macos-universal.dmg"
+            "AppFlowy-0.14.10-macos-arm64.dmg",
+            "AppFlowy-0.14.10-macos-universal.dmg",
+            "AppFlowy-0.14.10-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
           "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.10",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "fetchedAt": "2026-10-25T08:11:22.678Z"
         }
       },
       {

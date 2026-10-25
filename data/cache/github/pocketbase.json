@@ -3,7 +3,7 @@
   "slug": "pocketbase",
   "repoUrl": "https://github.com/pocketbase/pocketbase",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:08:50.753Z",
+  "lastSuccessAt": "2026-10-25T08:17:52.205Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:27.902Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "pocketbase/pocketbase",
-      "stargazers_count": 61539,
-      "forks_count": 3735,
+      "stargazers_count": 61604,
+      "forks_count": 3739,
       "open_issues_count": 19,
       "language": "Go",
-      "pushed_at": "2026-10-22T11:55:44Z",
-      "updated_at": "2026-10-22T14:52:10Z",
+      "pushed_at": "2026-10-23T12:26:56Z",
+      "updated_at": "2026-10-25T07:23:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -45,10 +45,10 @@
         "realtime"
       ]
     },
-    "latestReleaseAt": "2026-10-08T16:45:10Z",
+    "latestReleaseAt": "2026-10-23T11:21:45Z",
     "homepage": "https://pocketbase.io",
     "sync": {
-      "syncedAt": "2026-10-22T15:08:50.753Z",
+      "syncedAt": "2026-10-25T08:17:52.205Z",
       "source": "api"
     }
   },
@@ -77,7 +77,7 @@
         "facts": {
           "repository": "aur",
           "package": "pocketbase-bin",
-          "version": "0.40.5",
+          "version": "0.40.6",
           "project": "pocketbase",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -85,7 +85,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/pocketbase/versions",
-          "fetchedAt": "2026-10-11T09:50:45.660Z"
+          "fetchedAt": "2026-10-25T08:17:50.259Z"
         }
       },
       {
@@ -115,7 +115,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "pocketbase",
-          "version": "0.40.5",
+          "version": "0.40.6",
           "project": "pocketbase",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -123,7 +123,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/pocketbase/versions",
-          "fetchedAt": "2026-10-11T09:50:45.660Z"
+          "fetchedAt": "2026-10-25T08:17:50.259Z"
         }
       },
       {
@@ -134,7 +134,7 @@
         "facts": {
           "repository": "scoop",
           "package": "pocketbase",
-          "version": "0.40.5",
+          "version": "0.40.6",
           "project": "pocketbase",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -142,7 +142,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/pocketbase/versions",
-          "fetchedAt": "2026-10-11T09:50:45.660Z"
+          "fetchedAt": "2026-10-25T08:17:50.259Z"
         }
       }
     ],

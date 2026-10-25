@@ -3,9 +3,9 @@
   "slug": "iota-watch",
   "repoUrl": "https://github.com/molimao/iota",
   "source": "api",
-  "lastSuccessAt": "2026-10-22T15:04:53.269Z",
+  "lastSuccessAt": "2026-10-25T08:14:24.973Z",
   "partialFailures": [],
-  "sourceDescription": "Open-source five-language dashboard for IOTA Train at Home, xCoin XID / MMM and Quantus QTC: read-only status, rewards and network visualization.",
+  "sourceDescription": "Open-source, five-language mining dashboard for IOTA Train at Home, PRL, BNT, XMR, ERG, ZEPH and more: saved addresses, worker status, available rewards and optional Mac agent controls.",
   "github": {
     "repository": {
       "full_name": "molimao/iota",
@@ -13,8 +13,8 @@
       "forks_count": 0,
       "open_issues_count": 0,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T14:08:10Z",
-      "updated_at": "2026-10-22T14:24:19Z",
+      "pushed_at": "2026-10-25T07:51:55Z",
+      "updated_at": "2026-10-25T07:51:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -24,12 +24,17 @@
       },
       "topics": [
         "bittensor",
+        "cpu-mining",
+        "crypto-mining",
         "dashboard",
+        "depin",
+        "gpu-mining",
         "iota-train-at-home",
         "miner-monitoring",
         "mining-dashboard",
         "multilingual",
         "open-source",
+        "pool-monitoring",
         "quantus",
         "react",
         "sn9",
@@ -39,7 +44,7 @@
     },
     "homepage": "https://iotahome.site",
     "sync": {
-      "syncedAt": "2026-10-22T15:04:53.269Z",
+      "syncedAt": "2026-10-25T08:14:24.973Z",
       "source": "api"
     }
   },
