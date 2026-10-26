@@ -3,7 +3,7 @@
   "slug": "anarlog",
   "repoUrl": "https://github.com/fastrepl/anarlog",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:11:14.089Z",
+  "lastSuccessAt": "2026-10-26T02:15:29.210Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:45.916Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "fastrepl/anarlog",
-      "stargazers_count": 9583,
-      "forks_count": 803,
-      "open_issues_count": 14,
+      "stargazers_count": 9595,
+      "forks_count": 802,
+      "open_issues_count": 13,
       "language": "Rust",
-      "pushed_at": "2026-10-24T09:57:18Z",
-      "updated_at": "2026-10-25T03:48:44Z",
+      "pushed_at": "2026-10-25T22:56:19Z",
+      "updated_at": "2026-10-26T01:48:37Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,10 +58,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-10-20T10:03:48Z",
+    "latestReleaseAt": "2026-10-25T16:45:21Z",
     "homepage": "https://anarlog.so",
     "sync": {
-      "syncedAt": "2026-10-25T08:11:14.089Z",
+      "syncedAt": "2026-10-26T02:15:29.210Z",
       "source": "api"
     }
   },
@@ -88,7 +88,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/fastrepl/anarlog/releases/latest",
         "facts": {
-          "tag": "desktop_v1.4.31",
+          "tag": "desktop_v1.4.32",
           "assets": [
             "anarlog-linux-aarch64.AppImage",
             "anarlog-linux-aarch64.deb",
@@ -98,8 +98,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.31",
-          "fetchedAt": "2026-10-22T15:00:32.824Z"
+          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.32",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       },
       {
@@ -108,7 +108,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/fastrepl/anarlog/releases/latest",
         "facts": {
-          "tag": "desktop_v1.4.31",
+          "tag": "desktop_v1.4.32",
           "assets": [
             "anarlog-macos-aarch64.dmg",
             "anarlog-macos-x86_64.dmg"
@@ -116,8 +116,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.31",
-          "fetchedAt": "2026-10-22T15:00:32.824Z"
+          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.32",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       },
       {
@@ -126,15 +126,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/fastrepl/anarlog/releases/latest",
         "facts": {
-          "tag": "desktop_v1.4.31",
+          "tag": "desktop_v1.4.32",
           "assets": [
             "anarlog-windows-x86_64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.31",
-          "fetchedAt": "2026-10-22T15:00:32.824Z"
+          "url": "https://github.com/fastrepl/anarlog/releases/tag/desktop_v1.4.32",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       },
       {
@@ -145,7 +145,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "anarlog",
-          "version": "1.4.31",
+          "version": "1.4.32",
           "project": "anarlog",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -153,7 +153,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/anarlog/versions",
-          "fetchedAt": "2026-10-22T15:00:32.824Z"
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       }
     ],
@@ -206,24 +206,24 @@
         "url": "https://github.com/user-attachments/assets/268ab859-a194-484b-b895-bc640df18dd4",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/a0d5bd049ea883e04dc74db31d1ef58c4c06faab/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:11:10.859Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/2f80c2dc2c67161f81ff9b535bf2abfbd40cb6a1/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       },
       {
         "url": "https://github.com/user-attachments/assets/a6552c99-acbc-4d47-9d21-7f1925989344",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/a0d5bd049ea883e04dc74db31d1ef58c4c06faab/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:11:10.859Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/2f80c2dc2c67161f81ff9b535bf2abfbd40cb6a1/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       },
       {
         "url": "https://github.com/user-attachments/assets/e63ce73f-1a5f-49ce-a14d-dd8ba161e5bc",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/fastrepl/anarlog/blob/a0d5bd049ea883e04dc74db31d1ef58c4c06faab/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:11:10.859Z"
+          "url": "https://github.com/fastrepl/anarlog/blob/2f80c2dc2c67161f81ff9b535bf2abfbd40cb6a1/apps/desktop/flatpak/so.anarlog.Anarlog.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:15:26.712Z"
         }
       }
     ]

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "slug": "aster-mail",
+  "repoUrl": "https://github.com/Aster-Privacy/Aster-Mail",
+  "source": "api",
+  "lastSuccessAt": "2026-10-26T02:15:49.069Z",
+  "partialFailures": [],
+  "sourceDescription": "Cross-platform encrypted email client for Aster",
+  "github": {
+    "repository": {
+      "full_name": "Aster-Privacy/Aster-Mail",
+      "stargazers_count": 86,
+      "forks_count": 7,
+      "open_issues_count": 30,
+      "language": "TypeScript",
+      "pushed_at": "2026-10-26T01:49:43Z",
+      "updated_at": "2026-10-26T00:57:21Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "cryptography",
+        "email",
+        "encryption",
+        "end-to-end-encryption",
+        "privacy"
+      ]
+    },
+    "latestReleaseAt": "2026-10-26T02:02:08Z",
+    "homepage": "https://astermail.org",
+    "sync": {
+      "syncedAt": "2026-10-26T02:15:49.069Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
+        "facts": {
+          "tag": "v1.4.78",
+          "assets": [
+            "Aster-Mail.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.78",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
+        "facts": {
+          "tag": "v1.4.78",
+          "assets": [
+            "Aster-Mail-aarch64.AppImage",
+            "Aster-Mail-aarch64.rpm",
+            "Aster-Mail-amd64.deb",
+            "Aster-Mail-arm64.deb",
+            "Aster-Mail-x64.AppImage",
+            "Aster-Mail-x86_64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.78",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
+        "facts": {
+          "tag": "v1.4.78",
+          "assets": [
+            "Aster-Mail-universal.dmg",
+            "Aster.Mail_1.4.78_universal.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.78",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
+        "facts": {
+          "tag": "v1.4.78",
+          "assets": [
+            "Aster-Mail-x64-setup.exe",
+            "Aster-Mail-x64.msi",
+            "Aster.Mail_1.4.78_x64-setup.exe",
+            "Aster.Mail_1.4.78_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.78",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/aster-mail-appimage",
+        "facts": {
+          "repository": "aur",
+          "package": "aster-mail-appimage",
+          "version": "1.4.59",
+          "project": "aster-mail",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/aster-mail/versions",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/public/logo.png",
+        "path": "public/logo.png",
+        "blobSha": "a5f1b384e1e5078e1228848771c7dd52edf97235",
+        "format": "png",
+        "bytes": 53800,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/public/logo.png",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/src-tauri/icons/icon.png",
+        "path": "src-tauri/icons/icon.png",
+        "blobSha": "88dc2d5ea9fa22ad36a7ad3a7521b99fe28928ea",
+        "format": "png",
+        "bytes": 64027,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      },
+      {
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/src-tauri/icons/ios/AppIcon-512%402x.png",
+        "path": "src-tauri/icons/ios/AppIcon-512@2x.png",
+        "blobSha": "315a614b1994baf6445312f1b8e5e04d612f5d8d",
+        "format": "png",
+        "bytes": 153391,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/ced04ed609570bf1ed0e8d6728c61e0233197b9e/src-tauri/icons/ios/AppIcon-512%402x.png",
+          "fetchedAt": "2026-10-26T02:15:46.006Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

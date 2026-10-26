@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:16:24.354Z",
+  "lastSuccessAt": "2026-10-26T02:20:13.922Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:44.614Z",
@@ -39,7 +39,7 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:16:24.354Z",
+      "syncedAt": "2026-10-26T02:20:13.922Z",
       "source": "api"
     },
     "repository": {
@@ -48,8 +48,8 @@
       "forks_count": 59,
       "open_issues_count": 28,
       "language": "Dart",
-      "pushed_at": "2026-10-23T11:06:52Z",
-      "updated_at": "2026-10-23T15:45:45Z",
+      "pushed_at": "2026-10-25T21:27:32Z",
+      "updated_at": "2026-10-25T21:27:35Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +59,7 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-10-23T10:36:01Z",
+    "latestReleaseAt": "2026-10-25T21:16:01Z",
     "homepage": "https://oinkoin.com"
   },
   "health": {
@@ -85,13 +85,13 @@
         "url": "https://f-droid.org/packages/com.github.emavgl.piggybankpro/",
         "facts": {
           "appId": "com.github.emavgl.piggybankpro",
-          "suggestedVersionCode": 7153004,
-          "evidence": "https://github.com/emavgl/oinkoin/blob/c217ee2974be753b23367fba4626111beed7f992/android/app/build.gradle"
+          "suggestedVersionCode": 7154004,
+          "evidence": "https://github.com/emavgl/oinkoin/blob/d29df2a0ad2b1fcdf7e006dadb956c2e9263adeb/android/app/build.gradle"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.github.emavgl.piggybankpro",
-          "fetchedAt": "2026-10-25T08:16:20.151Z"
+          "fetchedAt": "2026-10-26T02:20:11.027Z"
         }
       },
       {
@@ -100,7 +100,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.0",
+          "tag": "1.16.1",
           "assets": [
             "app-arm64-v8a-pro-release.apk",
             "app-armeabi-v7a-pro-release.apk",
@@ -109,8 +109,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
-          "fetchedAt": "2026-10-25T08:16:20.151Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.1",
+          "fetchedAt": "2026-10-26T02:20:11.027Z"
         }
       },
       {
@@ -119,17 +119,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.0",
+          "tag": "1.16.1",
           "assets": [
-            "piggybank-1.16.0+7156-linux.AppImage",
-            "piggybank-1.16.0+7156-linux.deb",
-            "piggybank-1.16.0+7156-linux.rpm"
+            "piggybank-1.16.1+7157-linux.AppImage",
+            "piggybank-1.16.1+7157-linux.deb",
+            "piggybank-1.16.1+7157-linux.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
-          "fetchedAt": "2026-10-25T08:16:20.151Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.1",
+          "fetchedAt": "2026-10-26T02:20:11.027Z"
         }
       },
       {
@@ -138,15 +138,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.0",
+          "tag": "1.16.1",
           "assets": [
             "oinkoin-windows-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.0",
-          "fetchedAt": "2026-10-25T08:16:20.151Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.1",
+          "fetchedAt": "2026-10-26T02:20:11.027Z"
         }
       },
       {

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "slug": "voltip",
+  "repoUrl": "https://github.com/sunerpy/voltip",
+  "source": "api",
+  "lastSuccessAt": "2026-10-26T02:23:35.315Z",
+  "partialFailures": [],
+  "sourceDescription": "Push-to-talk voice typing for Windows, macOS, Linux and Android. On-device or cloud speech recognition, AI polish with presets, a dictionary, rules and scenes, long recordings with subtitles; the phone works on its own or pairs end-to-end encrypted as the computer's microphone and keyboard.",
+  "github": {
+    "repository": {
+      "full_name": "sunerpy/voltip",
+      "stargazers_count": 34,
+      "forks_count": 3,
+      "open_issues_count": 6,
+      "language": "Rust",
+      "pushed_at": "2026-10-25T06:54:41Z",
+      "updated_at": "2026-10-26T01:21:20Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "android",
+        "asr",
+        "cross-platform",
+        "dictation",
+        "end-to-end-encryption",
+        "llm",
+        "noise-protocol",
+        "offline",
+        "productivity",
+        "push-to-talk",
+        "qwen3-asr",
+        "react",
+        "rust",
+        "sensevoice",
+        "speech-recognition",
+        "speech-to-text",
+        "tauri",
+        "tauri-app",
+        "voice-input",
+        "voice-typing"
+      ]
+    },
+    "latestReleaseAt": "2026-10-24T21:03:05Z",
+    "homepage": "https://voltip.firlab.app/",
+    "sync": {
+      "syncedAt": "2026-10-26T02:23:35.315Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/sunerpy/voltip/releases/latest",
+        "facts": {
+          "tag": "v0.1.8",
+          "assets": [
+            "Voltip_0.1.8_android_arm64.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/sunerpy/voltip/releases/tag/v0.1.8",
+          "fetchedAt": "2026-10-26T02:23:32.722Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/sunerpy/voltip/releases/latest",
+        "facts": {
+          "tag": "v0.1.8",
+          "assets": [
+            "Voltip_0.1.8_amd64.AppImage",
+            "Voltip_0.1.8_amd64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/sunerpy/voltip/releases/tag/v0.1.8",
+          "fetchedAt": "2026-10-26T02:23:32.722Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/sunerpy/voltip/releases/latest",
+        "facts": {
+          "tag": "v0.1.8",
+          "assets": [
+            "Voltip_0.1.8_aarch64.dmg",
+            "Voltip_0.1.8_x64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/sunerpy/voltip/releases/tag/v0.1.8",
+          "fetchedAt": "2026-10-26T02:23:32.722Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/sunerpy/voltip/releases/latest",
+        "facts": {
+          "tag": "v0.1.8",
+          "assets": [
+            "Voltip_0.1.8_x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/sunerpy/voltip/releases/tag/v0.1.8",
+          "fetchedAt": "2026-10-26T02:23:32.722Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
+  }
+}

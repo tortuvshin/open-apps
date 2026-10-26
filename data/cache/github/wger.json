@@ -3,7 +3,7 @@
   "slug": "wger",
   "repoUrl": "https://github.com/wger-project/flutter",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:20:19.927Z",
+  "lastSuccessAt": "2026-10-26T02:23:49.745Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:42.780Z",
@@ -101,8 +101,8 @@
       "releases_url": "https://api.github.com/repos/wger-project/flutter/releases{/id}",
       "deployments_url": "https://api.github.com/repos/wger-project/flutter/deployments",
       "created_at": "2020-09-12T10:09:59Z",
-      "updated_at": "2026-10-24T18:32:26Z",
-      "pushed_at": "2026-10-24T18:32:24Z",
+      "updated_at": "2026-10-25T21:21:10Z",
+      "pushed_at": "2026-10-26T00:54:38Z",
       "git_url": "git://github.com/wger-project/flutter.git",
       "ssh_url": "git@github.com:wger-project/flutter.git",
       "clone_url": "https://github.com/wger-project/flutter.git",
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 103,
+      "open_issues_count": 104,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -211,7 +211,7 @@
       "contributorsKnown": 336
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:20:19.927Z",
+      "syncedAt": "2026-10-26T02:23:49.745Z",
       "source": "api"
     },
     "languages": {
@@ -259,13 +259,13 @@
         "facts": {
           "appId": "de.wger.flutter",
           "suggestedVersionCode": 280,
-          "evidence": "https://github.com/wger-project/flutter/blob/c4158e401ce72eb86effb5ccc8f4b972cd0e5d99/android/app/build.gradle",
+          "evidence": "https://github.com/wger-project/flutter/blob/6814711fe6c49ffde4c61bac031420e287bfd6c7/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/de.wger.flutter",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -276,12 +276,12 @@
         "facts": {
           "appId": "de.wger.flutter",
           "match": "metainfo",
-          "evidence": "https://github.com/wger-project/flutter/blob/c4158e401ce72eb86effb5ccc8f4b972cd0e5d99/flatpak/de.wger.flutter.metainfo.xml"
+          "evidence": "https://github.com/wger-project/flutter/blob/6814711fe6c49ffde4c61bac031420e287bfd6c7/flatpak/de.wger.flutter.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/de.wger.flutter",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -305,10 +305,10 @@
         "type": "package-manager",
         "platform": "linux",
         "label": "AUR",
-        "url": "https://aur.archlinux.org/packages/flutter",
+        "url": "https://aur.archlinux.org/packages/flutter-gradle",
         "facts": {
           "repository": "aur",
-          "package": "flutter",
+          "package": "flutter-gradle",
           "version": "3.41.2",
           "project": "flutter",
           "match": "project-name",
@@ -317,7 +317,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/flutter/versions",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -347,7 +347,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "flutter",
-          "version": "3.47.3",
+          "version": "3.47.4",
           "project": "flutter",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -355,7 +355,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/flutter/versions",
-          "fetchedAt": "2026-10-07T02:31:19.285Z"
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -528,8 +528,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/wger-project/flutter/blob/c4158e401ce72eb86effb5ccc8f4b972cd0e5d99/flatpak/de.wger.flutter.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "url": "https://github.com/wger-project/flutter/blob/6814711fe6c49ffde4c61bac031420e287bfd6c7/flatpak/de.wger.flutter.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -537,8 +537,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/wger-project/flutter/blob/c4158e401ce72eb86effb5ccc8f4b972cd0e5d99/flatpak/de.wger.flutter.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "url": "https://github.com/wger-project/flutter/blob/6814711fe6c49ffde4c61bac031420e287bfd6c7/flatpak/de.wger.flutter.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       },
       {
@@ -546,8 +546,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/wger-project/flutter/blob/c4158e401ce72eb86effb5ccc8f4b972cd0e5d99/flatpak/de.wger.flutter.metainfo.xml",
-          "fetchedAt": "2026-10-25T08:20:17.658Z"
+          "url": "https://github.com/wger-project/flutter/blob/6814711fe6c49ffde4c61bac031420e287bfd6c7/flatpak/de.wger.flutter.metainfo.xml",
+          "fetchedAt": "2026-10-26T02:23:48.473Z"
         }
       }
     ]

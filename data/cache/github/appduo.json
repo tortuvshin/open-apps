@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "slug": "appduo",
+  "repoUrl": "https://github.com/tamia6/AppDuo",
+  "source": "api",
+  "lastSuccessAt": "2026-10-26T02:15:38.576Z",
+  "partialFailures": [],
+  "sourceDescription": "Free, open-source macOS app cloner with custom icons, names and separate data. Hard-clone process names support routing with compatible proxy clients.",
+  "github": {
+    "repository": {
+      "full_name": "tamia6/AppDuo",
+      "stargazers_count": 110,
+      "forks_count": 16,
+      "open_issues_count": 2,
+      "language": "Swift",
+      "pushed_at": "2026-10-12T13:46:23Z",
+      "updated_at": "2026-10-25T15:17:33Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "app-cloner",
+        "macos",
+        "mihomo",
+        "multi-account",
+        "open-source",
+        "productivity",
+        "swift",
+        "swiftui",
+        "wechat"
+      ]
+    },
+    "latestReleaseAt": "2026-10-08T04:30:27Z",
+    "homepage": "https://tamia6.github.io/AppDuo/",
+    "sync": {
+      "syncedAt": "2026-10-26T02:15:38.576Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/tamia6/AppDuo/releases/latest",
+        "facts": {
+          "tag": "v0.1.8",
+          "assets": [
+            "AppDuo-arm64.dmg",
+            "AppDuo-x86_64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/tamia6/AppDuo/releases/tag/v0.1.8",
+          "fetchedAt": "2026-10-26T02:15:36.754Z"
+        }
+      }
+    ],
+    "logos": [],
+    "screenshots": []
+  }
+}

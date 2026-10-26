@@ -3,7 +3,7 @@
   "slug": "hacki",
   "repoUrl": "https://github.com/Livinglist/Hacki",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:13:53.284Z",
+  "lastSuccessAt": "2026-10-26T02:17:59.761Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:18.709Z",
@@ -101,8 +101,8 @@
       "releases_url": "https://api.github.com/repos/Livinglist/Hacki/releases{/id}",
       "deployments_url": "https://api.github.com/repos/Livinglist/Hacki/deployments",
       "created_at": "2021-12-25T03:59:50Z",
-      "updated_at": "2026-10-23T20:33:37Z",
-      "pushed_at": "2026-10-19T09:45:10Z",
+      "updated_at": "2026-10-25T21:19:27Z",
+      "pushed_at": "2026-10-25T22:59:02Z",
       "git_url": "git://github.com/Livinglist/Hacki.git",
       "ssh_url": "git@github.com:Livinglist/Hacki.git",
       "clone_url": "https://github.com/Livinglist/Hacki.git",
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 40,
+      "open_issues_count": 34,
       "license": {
         "spdx_id": "GPL-3.0",
         "name": "GPL-3.0"
@@ -193,7 +193,7 @@
       "contributorsKnown": 4
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:13:53.284Z",
+      "syncedAt": "2026-10-26T02:17:59.761Z",
       "source": "api"
     },
     "languages": {
@@ -238,13 +238,13 @@
         "facts": {
           "appId": "com.jiaqifeng.hacki",
           "suggestedVersionCode": 3823,
-          "evidence": "https://github.com/Livinglist/Hacki/blob/40f4022adb2f34621442082e023d917bd3ff3f3a/android/app/build.gradle",
+          "evidence": "https://github.com/Livinglist/Hacki/blob/2f3c31903e0c3664d05c8ea8f34280b5b7edf679/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.jiaqifeng.hacki",
-          "fetchedAt": "2026-10-17T15:54:46.032Z"
+          "fetchedAt": "2026-10-26T02:17:57.721Z"
         }
       },
       {

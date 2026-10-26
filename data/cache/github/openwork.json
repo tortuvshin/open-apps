@@ -3,7 +3,7 @@
   "slug": "openwork",
   "repoUrl": "https://github.com/different-ai/openwork",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:17:15.623Z",
+  "lastSuccessAt": "2026-10-26T02:20:59.181Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:12.614Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "different-ai/openwork",
-      "stargazers_count": 24250,
-      "forks_count": 2455,
-      "open_issues_count": 708,
+      "stargazers_count": 24257,
+      "forks_count": 2458,
+      "open_issues_count": 711,
       "language": "TypeScript",
-      "pushed_at": "2026-10-25T01:06:12Z",
-      "updated_at": "2026-10-25T07:13:33Z",
+      "pushed_at": "2026-10-25T23:04:43Z",
+      "updated_at": "2026-10-26T02:07:38Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -53,7 +53,7 @@
     "latestReleaseAt": "2026-10-23T21:49:19Z",
     "homepage": "https://openworklabs.com",
     "sync": {
-      "syncedAt": "2026-10-25T08:17:15.623Z",
+      "syncedAt": "2026-10-26T02:20:59.181Z",
       "source": "api"
     }
   },
@@ -186,15 +186,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "openwork",
-          "version": "0.18.58",
+          "version": "0.18.62",
           "project": "openwork",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-10-22T15:08:05.526Z"
+          "fetchedAt": "2026-10-26T02:20:56.289Z"
         }
       },
       {

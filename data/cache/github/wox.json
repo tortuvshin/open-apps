@@ -3,7 +3,7 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:20:23.442Z",
+  "lastSuccessAt": "2026-10-26T02:23:52.748Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
@@ -30,12 +30,12 @@
   "github": {
     "repository": {
       "full_name": "Wox-launcher/Wox",
-      "stargazers_count": 27568,
+      "stargazers_count": 27572,
       "forks_count": 2441,
-      "open_issues_count": 5,
+      "open_issues_count": 3,
       "language": "Go",
-      "pushed_at": "2026-10-25T08:09:27Z",
-      "updated_at": "2026-10-25T08:09:33Z",
+      "pushed_at": "2026-10-25T23:49:03Z",
+      "updated_at": "2026-10-25T23:49:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -60,7 +60,7 @@
     "latestReleaseAt": "2026-10-25T07:46:31Z",
     "homepage": "https://www.woxlauncher.com/",
     "sync": {
-      "syncedAt": "2026-10-25T08:20:23.442Z",
+      "syncedAt": "2026-10-26T02:23:52.748Z",
       "source": "api"
     }
   },
@@ -143,15 +143,15 @@
         "facts": {
           "repository": "aur",
           "package": "wox-bin",
-          "version": "2.4.7",
+          "version": "2.4.8",
           "project": "wox",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-10-25T08:20:20.506Z"
+          "fetchedAt": "2026-10-26T02:23:50.315Z"
         }
       },
       {
@@ -181,15 +181,15 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "wox",
-          "version": "2.4.7",
+          "version": "2.4.8",
           "project": "wox",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-10-25T08:20:20.506Z"
+          "fetchedAt": "2026-10-26T02:23:50.315Z"
         }
       },
       {
@@ -219,15 +219,15 @@
         "facts": {
           "repository": "scoop",
           "package": "wox",
-          "version": "2.4.7",
+          "version": "2.4.8",
           "project": "wox",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-10-25T08:20:20.506Z"
+          "fetchedAt": "2026-10-26T02:23:50.315Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "waterfly-iii",
   "repoUrl": "https://github.com/dreautall/waterfly-iii",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:20:11.553Z",
+  "lastSuccessAt": "2026-10-26T02:23:43.282Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:38.489Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:20:11.553Z",
+      "syncedAt": "2026-10-26T02:23:43.282Z",
       "source": "api"
     },
     "repository": {
       "full_name": "dreautall/waterfly-iii",
       "stargazers_count": 732,
       "forks_count": 66,
-      "open_issues_count": 46,
+      "open_issues_count": 24,
       "language": "Dart",
-      "pushed_at": "2026-10-19T19:14:53Z",
-      "updated_at": "2026-10-24T22:37:03Z",
+      "pushed_at": "2026-10-25T21:39:25Z",
+      "updated_at": "2026-10-25T21:39:34Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -66,7 +66,7 @@
         "material-design-3"
       ]
     },
-    "latestReleaseAt": "2026-08-10T18:21:35Z"
+    "latestReleaseAt": "2026-10-25T21:39:25Z"
   },
   "health": {
     "status": "mature",
@@ -93,13 +93,13 @@
         "facts": {
           "appId": "com.dreautall.waterflyiii",
           "suggestedVersionCode": 41023,
-          "evidence": "https://github.com/dreautall/waterfly-iii/blob/425c04ee2c14fd4dfebf3f3076a73502bb03b8d7/android/app/build.gradle.kts",
+          "evidence": "https://github.com/dreautall/waterfly-iii/blob/65fe198499628b2e97fa00c011c5fc2f710279e0/android/app/build.gradle.kts",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.dreautall.waterflyiii",
-          "fetchedAt": "2026-09-26T14:41:08.190Z"
+          "fetchedAt": "2026-10-26T02:23:41.096Z"
         }
       },
       {
@@ -108,7 +108,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dreautall/waterfly-iii/releases/latest",
         "facts": {
-          "tag": "v1.2.1",
+          "tag": "v1.3.0",
           "assets": [
             "app-arm64-v8a-release.apk",
             "app-armeabi-v7a-release.apk",
@@ -117,8 +117,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dreautall/waterfly-iii/releases/tag/v1.2.1",
-          "fetchedAt": "2026-09-26T14:41:08.190Z"
+          "url": "https://github.com/dreautall/waterfly-iii/releases/tag/v1.3.0",
+          "fetchedAt": "2026-10-26T02:23:41.096Z"
         }
       }
     ],
