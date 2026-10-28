@@ -17,6 +17,23 @@ licenses:
 links:
   github: https://github.com/znat/parrotflow
   website: https://parrotflow.io
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: GitHub Releases
+      url: https://github.com/znat/parrotflow/releases/latest
+      verified: false
+    - type: other
+      platform: macos
+      label: Homebrew tap (znat/tap/parrotflow)
+      url: https://github.com/znat/homebrew-tap
+      verified: false
+    - type: website
+      platform: macos
+      label: parrotflow.io
+      url: https://parrotflow.io/download/
+      verified: false
 tags:
   - offline-first
   - privacy
@@ -38,6 +55,7 @@ caveats:
   - Speech recognition and cleanup cover English and French.
   - Rules and scripts are written in a config file, not in a settings window.
   - A young project, first released in 2026, by one maintainer.
+  - "22 stars as of 2026-10-28 (below the 50-star guideline): exception requested. It is actively maintained (v0.18.0 on 2026-10-12, 391 commits since July 2026), GPL-3.0, installs with Homebrew, and takes a distinct approach: names are corrected from the text on screen, and every cleanup step is a rule or script you can read and change."
 relations:
   - type: alternative-to
     to: wispr-flow
