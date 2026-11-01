@@ -3,7 +3,7 @@
   "slug": "cap",
   "repoUrl": "https://github.com/CapSoftware/Cap",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:12:14.531Z",
+  "lastSuccessAt": "2026-11-01T10:12:21.289Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:26.293Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:12:14.531Z",
+      "syncedAt": "2026-11-01T10:12:21.289Z",
       "source": "api"
     },
     "repository": {
       "full_name": "CapSoftware/Cap",
-      "stargazers_count": 23717,
-      "forks_count": 2149,
-      "open_issues_count": 347,
+      "stargazers_count": 24219,
+      "forks_count": 2225,
+      "open_issues_count": 537,
       "language": "Rust",
-      "pushed_at": "2026-10-25T08:10:16Z",
-      "updated_at": "2026-10-25T08:10:20Z",
+      "pushed_at": "2026-10-31T16:47:35Z",
+      "updated_at": "2026-11-01T09:31:31Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -80,7 +80,7 @@
         "vite"
       ]
     },
-    "latestReleaseAt": "2026-10-20T14:14:57Z",
+    "latestReleaseAt": "2026-10-28T21:36:26Z",
     "homepage": "https://cap.so"
   },
   "health": {
@@ -102,13 +102,13 @@
     "channels": [
       {
         "type": "package-manager",
-        "platform": "macos",
-        "label": "Homebrew Cask",
-        "url": "https://formulae.brew.sh/cask/cap",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/cap-bin",
         "facts": {
-          "repository": "homebrew_casks",
-          "package": "cap",
-          "version": "0.6.1",
+          "repository": "aur",
+          "package": "cap-bin",
+          "version": "0.6.2",
           "project": "cap",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -116,23 +116,42 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/cap/versions",
-          "fetchedAt": "2026-10-22T15:02:13.470Z"
+          "fetchedAt": "2026-11-01T10:12:18.515Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew Cask",
+        "url": "https://formulae.brew.sh/cask/cap",
+        "facts": {
+          "repository": "homebrew_casks",
+          "package": "cap",
+          "version": "0.6.2",
+          "project": "cap",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/cap/versions",
+          "fetchedAt": "2026-11-01T10:12:18.515Z"
         }
       }
     ],
     "logos": [
       {
-        "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/android-chrome-512x512.png",
+        "url": "https://github.com/CapSoftware/Cap/blob/6d78eb2a7e9c6634116c1d9ad3ec5375055af404/apps/web/public/android-chrome-512x512.png",
         "path": "apps/web/public/android-chrome-512x512.png",
-        "blobSha": "0358e1a50187aea669cf007226d005ad368349d5",
+        "blobSha": "87a4a989be1e4448a65bbfe8e25ea9d3b9267058",
         "format": "png",
-        "bytes": 28064,
+        "bytes": 30196,
         "width": 512,
         "height": 512,
         "provenance": {
           "source": "web-manifest",
-          "url": "https://github.com/CapSoftware/Cap/blob/8f4a360582534cdce5b4bc87740fa65b4c5d862e/apps/web/public/site.webmanifest",
-          "fetchedAt": "2026-09-26T14:38:00.433Z"
+          "url": "https://github.com/CapSoftware/Cap/blob/6d78eb2a7e9c6634116c1d9ad3ec5375055af404/apps/web/public/site.webmanifest",
+          "fetchedAt": "2026-11-01T10:12:18.515Z"
         }
       },
       {
@@ -150,17 +169,17 @@
         }
       },
       {
-        "url": "https://github.com/CapSoftware/Cap/blob/f2e13fbf6943954501193ec30de4a104dcfa0aff/apps/status/public/cap-icon.svg",
+        "url": "https://github.com/CapSoftware/Cap/blob/6d78eb2a7e9c6634116c1d9ad3ec5375055af404/apps/status/public/cap-icon.svg",
         "path": "apps/status/public/cap-icon.svg",
-        "blobSha": "7071770d13d47dffe353d4b2db54fa50f51dd9ae",
+        "blobSha": "75fe52261c0e40334e4cc99665a3fab370eb9629",
         "format": "svg",
-        "bytes": 1014,
-        "width": 1631,
-        "height": 1631,
+        "bytes": 5738,
+        "width": 40,
+        "height": 40,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/CapSoftware/Cap/blob/f2e13fbf6943954501193ec30de4a104dcfa0aff/apps/status/public/cap-icon.svg",
-          "fetchedAt": "2026-10-17T15:53:18.079Z"
+          "url": "https://github.com/CapSoftware/Cap/blob/6d78eb2a7e9c6634116c1d9ad3ec5375055af404/apps/status/public/cap-icon.svg",
+          "fetchedAt": "2026-11-01T10:12:18.515Z"
         }
       }
     ],

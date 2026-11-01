@@ -3,7 +3,7 @@
   "slug": "subnetdesk",
   "repoUrl": "https://github.com/zibo-chen/SubnetDesk",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:18:52.170Z",
+  "lastSuccessAt": "2026-11-01T10:19:24.087Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:03.807Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "zibo-chen/SubnetDesk",
-      "stargazers_count": 720,
-      "forks_count": 76,
-      "open_issues_count": 12,
+      "stargazers_count": 737,
+      "forks_count": 81,
+      "open_issues_count": 14,
       "language": "Rust",
-      "pushed_at": "2026-10-24T04:28:25Z",
-      "updated_at": "2026-10-25T01:13:29Z",
+      "pushed_at": "2026-10-31T19:32:50Z",
+      "updated_at": "2026-10-31T18:37:33Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -64,7 +64,7 @@
     "latestReleaseAt": "2026-08-27T16:33:43Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-10-25T08:18:52.170Z",
+      "syncedAt": "2026-11-01T10:19:24.087Z",
       "source": "api"
     }
   },
@@ -221,31 +221,31 @@
         }
       },
       {
-        "url": "https://github.com/zibo-chen/SubnetDesk/blob/fbfe7a42150ab5e9adda568e2d6ba1335821a28b/flutter/assets/icon.png",
+        "url": "https://github.com/zibo-chen/SubnetDesk/blob/fccecbcc8a32c522195016059a2e96a08eb6bbd3/flutter/assets/icon.png",
         "path": "flutter/assets/icon.png",
-        "blobSha": "df3a5bec717636ccfdbb78458595fbb2b0b9c54b",
+        "blobSha": "13556849dc81543099b77cb3d9f92a6076e7e865",
         "format": "png",
-        "bytes": 49238,
+        "bytes": 249615,
         "width": 1024,
         "height": 1024,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/zibo-chen/SubnetDesk/blob/fbfe7a42150ab5e9adda568e2d6ba1335821a28b/flutter/assets/icon.png",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/blob/fccecbcc8a32c522195016059a2e96a08eb6bbd3/flutter/assets/icon.png",
+          "fetchedAt": "2026-11-01T10:19:19.929Z"
         }
       },
       {
-        "url": "https://github.com/zibo-chen/SubnetDesk/blob/fbfe7a42150ab5e9adda568e2d6ba1335821a28b/flutter/assets/icon.svg",
+        "url": "https://github.com/zibo-chen/SubnetDesk/blob/fccecbcc8a32c522195016059a2e96a08eb6bbd3/flutter/assets/icon.svg",
         "path": "flutter/assets/icon.svg",
-        "blobSha": "ff3d46906e69ed8705b75c737493085f32cd75f8",
+        "blobSha": "b939079ed3a07cf25f38a6f8624e3427b0f4254b",
         "format": "svg",
-        "bytes": 1420,
+        "bytes": 611040,
         "width": 1024,
         "height": 1024,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/zibo-chen/SubnetDesk/blob/fbfe7a42150ab5e9adda568e2d6ba1335821a28b/flutter/assets/icon.svg",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/blob/fccecbcc8a32c522195016059a2e96a08eb6bbd3/flutter/assets/icon.svg",
+          "fetchedAt": "2026-11-01T10:19:19.929Z"
         }
       }
     ],

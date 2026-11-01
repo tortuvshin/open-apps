@@ -3,7 +3,7 @@
   "slug": "meetily",
   "repoUrl": "https://github.com/Zackriya-Solutions/meetily",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:15:49.999Z",
+  "lastSuccessAt": "2026-11-01T10:16:05.437Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:22.761Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+  "sourceDescription": "Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows",
   "github": {
     "repository": {
       "full_name": "Zackriya-Solutions/meetily",
-      "stargazers_count": 32133,
-      "forks_count": 3517,
-      "open_issues_count": 382,
+      "stargazers_count": 32353,
+      "forks_count": 3552,
+      "open_issues_count": 395,
       "language": "Rust",
-      "pushed_at": "2026-10-24T10:35:27Z",
-      "updated_at": "2026-10-25T06:34:41Z",
+      "pushed_at": "2026-10-31T10:19:40Z",
+      "updated_at": "2026-11-01T10:12:27Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
     "latestReleaseAt": "2026-09-12T06:15:42Z",
     "homepage": "https://meetily.ai",
     "sync": {
-      "syncedAt": "2026-10-25T08:15:49.999Z",
+      "syncedAt": "2026-11-01T10:16:05.437Z",
       "source": "api"
     }
   },
@@ -128,6 +128,25 @@
           "source": "github-releases",
           "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
           "fetchedAt": "2026-09-26T14:39:34.462Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/meetily",
+        "facts": {
+          "repository": "aur",
+          "package": "meetily",
+          "version": "0.4.1",
+          "project": "meetily",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/meetily/versions",
+          "fetchedAt": "2026-11-01T10:16:02.898Z"
         }
       },
       {

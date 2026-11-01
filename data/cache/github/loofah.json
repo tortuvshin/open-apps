@@ -3,7 +3,7 @@
   "slug": "loofah",
   "repoUrl": "https://github.com/bart6114/loofah",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:15:24.575Z",
+  "lastSuccessAt": "2026-11-01T10:15:34.162Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:04.613Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:15:24.575Z",
+      "syncedAt": "2026-11-01T10:15:34.162Z",
       "source": "api"
     },
     "repository": {
       "full_name": "bart6114/loofah",
-      "stargazers_count": 10,
+      "stargazers_count": 15,
       "forks_count": 1,
-      "open_issues_count": 7,
+      "open_issues_count": 6,
       "language": "TypeScript",
-      "pushed_at": "2026-10-23T17:03:59Z",
-      "updated_at": "2026-10-23T17:38:02Z",
+      "pushed_at": "2026-10-29T18:31:05Z",
+      "updated_at": "2026-10-29T18:31:10Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
         "transcription"
       ]
     },
-    "latestReleaseAt": "2026-10-14T14:51:22Z",
+    "latestReleaseAt": "2026-10-29T18:31:07Z",
     "homepage": "https://loofah.io"
   },
   "health": {
@@ -92,26 +92,7 @@
     ]
   },
   "candidates": {
-    "channels": [
-      {
-        "type": "github-releases",
-        "platform": "macos",
-        "label": "GitHub Releases",
-        "url": "https://github.com/bart6114/loofah/releases/latest",
-        "facts": {
-          "tag": "v0.43.2",
-          "assets": [
-            "FreeMeetingTranscriber_0.43.2_aarch64.dmg",
-            "Loofah_0.43.2_aarch64.dmg"
-          ]
-        },
-        "provenance": {
-          "source": "github-releases",
-          "url": "https://github.com/bart6114/loofah/releases/tag/v0.43.2",
-          "fetchedAt": "2026-10-17T15:56:11.216Z"
-        }
-      }
-    ],
+    "channels": [],
     "logos": [
       {
         "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/public/assets/app-icon.png",
