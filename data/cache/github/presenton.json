@@ -3,7 +3,7 @@
   "slug": "presenton",
   "repoUrl": "https://github.com/presenton/presenton",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:17:58.421Z",
+  "lastSuccessAt": "2026-11-01T10:18:23.136Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:34.342Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "presenton/presenton",
-      "stargazers_count": 11320,
-      "forks_count": 1714,
-      "open_issues_count": 32,
+      "stargazers_count": 11594,
+      "forks_count": 1735,
+      "open_issues_count": 22,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T06:03:58Z",
-      "updated_at": "2026-10-25T07:09:41Z",
+      "pushed_at": "2026-11-01T04:25:15Z",
+      "updated_at": "2026-11-01T09:24:45Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -50,10 +50,10 @@
         "presentation-agent"
       ]
     },
-    "latestReleaseAt": "2026-09-21T12:06:32Z",
+    "latestReleaseAt": "2026-10-26T16:05:21Z",
     "homepage": "https://presenton.ai",
     "sync": {
-      "syncedAt": "2026-10-25T08:17:58.421Z",
+      "syncedAt": "2026-11-01T10:18:23.136Z",
       "source": "api"
     }
   },
@@ -80,16 +80,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/presenton/presenton/releases/latest",
         "facts": {
-          "tag": "electron-v0.9.11-beta",
+          "tag": "electron-v0.9.12-beta",
           "assets": [
-            "Presenton-0.9.11-beta.AppImage",
-            "Presenton-0.9.11-beta.deb"
+            "Presenton-0.9.12-beta.AppImage",
+            "Presenton-0.9.12-beta.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/presenton/presenton/releases/tag/electron-v0.9.11-beta",
-          "fetchedAt": "2026-09-28T18:17:31.421Z"
+          "url": "https://github.com/presenton/presenton/releases/tag/electron-v0.9.12-beta",
+          "fetchedAt": "2026-11-01T10:18:20.337Z"
         }
       },
       {
@@ -98,15 +98,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/presenton/presenton/releases/latest",
         "facts": {
-          "tag": "electron-v0.9.11-beta",
+          "tag": "electron-v0.9.12-beta",
           "assets": [
-            "Presenton-0.9.11-beta.dmg"
+            "Presenton-0.9.12-beta.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/presenton/presenton/releases/tag/electron-v0.9.11-beta",
-          "fetchedAt": "2026-09-28T18:17:31.421Z"
+          "url": "https://github.com/presenton/presenton/releases/tag/electron-v0.9.12-beta",
+          "fetchedAt": "2026-11-01T10:18:20.337Z"
         }
       }
     ],

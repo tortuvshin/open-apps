@@ -3,7 +3,7 @@
   "slug": "xbmc",
   "repoUrl": "https://github.com/xbmc/xbmc",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:20:26.432Z",
+  "lastSuccessAt": "2026-11-01T10:21:10.067Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:45.359Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/xbmc/xbmc/releases{/id}",
       "deployments_url": "https://api.github.com/repos/xbmc/xbmc/deployments",
       "created_at": "2011-01-03T21:18:51Z",
-      "updated_at": "2026-10-25T08:01:47Z",
-      "pushed_at": "2026-10-24T17:34:18Z",
+      "updated_at": "2026-11-01T09:36:46Z",
+      "pushed_at": "2026-11-01T07:18:54Z",
       "git_url": "git://github.com/xbmc/xbmc.git",
       "ssh_url": "git@github.com:xbmc/xbmc.git",
       "clone_url": "https://github.com/xbmc/xbmc.git",
       "svn_url": "https://github.com/xbmc/xbmc",
       "homepage": "https://kodi.tv/",
       "size": 1650209,
-      "stargazers_count": 21383,
+      "stargazers_count": 21410,
       "watchers_count": 20987,
       "language": "C++",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6644,
+      "forks_count": 6651,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 544,
+      "open_issues_count": 557,
       "license": {
         "spdx_id": "NOASSERTION",
         "name": "NOASSERTION"
@@ -221,7 +221,7 @@
       "contributorsKnown": 1272
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:20:26.432Z",
+      "syncedAt": "2026-11-01T10:21:10.067Z",
       "source": "api"
     },
     "languages": {
@@ -256,8 +256,8 @@
     "homepage": "https://kodi.tv/"
   },
   "health": {
-    "status": "mature",
-    "maturity": "mature",
+    "status": "active",
+    "maturity": "useful",
     "tier": "curated",
     "visibility": "keep",
     "cleanupCandidate": false,
@@ -265,8 +265,6 @@
     "confidence": "high",
     "reasons": [
       "Pushed to within the last 6 months",
-      "Strong adoption with maintenance signals",
-      "Recent release found",
       "License is missing or unclear"
     ]
   },
@@ -322,8 +320,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -331,8 +329,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -340,8 +338,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -349,8 +347,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -358,8 +356,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -367,8 +365,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -376,8 +374,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       },
       {
@@ -385,8 +383,8 @@
         "format": "jpeg",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/xbmc/xbmc/blob/caf3155643d3aec7195ed2532eb48ebbf9076b91/tools/Linux/kodi.metainfo.xml.in",
-          "fetchedAt": "2026-10-25T08:20:23.897Z"
+          "url": "https://github.com/xbmc/xbmc/blob/3eff8d522011e84c40fce07b3f63daa323b19bc1/tools/Linux/kodi.metainfo.xml.in",
+          "fetchedAt": "2026-11-01T10:21:07.267Z"
         }
       }
     ]

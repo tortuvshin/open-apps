@@ -3,7 +3,7 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:19:58.750Z",
+  "lastSuccessAt": "2026-11-01T10:20:38.888Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:32.995Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 85403,
-      "forks_count": 9462,
-      "open_issues_count": 248,
+      "stargazers_count": 97239,
+      "forks_count": 10788,
+      "open_issues_count": 109,
       "language": "Python",
-      "pushed_at": "2026-10-25T07:56:39Z",
-      "updated_at": "2026-10-25T08:18:28Z",
+      "pushed_at": "2026-11-01T10:11:21Z",
+      "updated_at": "2026-11-01T10:19:58Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -70,10 +70,10 @@
         "workflow"
       ]
     },
-    "latestReleaseAt": "2026-09-23T08:53:32Z",
+    "latestReleaseAt": "2026-10-26T14:59:48Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-10-25T08:19:58.750Z",
+      "syncedAt": "2026-11-01T10:20:38.888Z",
       "source": "api"
     }
   },
@@ -96,20 +96,37 @@
     "channels": [
       {
         "type": "github-releases",
-        "platform": "linux",
+        "platform": "android",
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-linux-x64.AppImage",
-            "VoiceStudio-Electron-0.5.6-linux-x64.deb"
+            "VoiceStudio-0.5.7-android.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
+        "facts": {
+          "tag": "v0.5.7",
+          "assets": [
+            "VoiceStudio-0.5.7-linux-x64.AppImage",
+            "VoiceStudio-0.5.7-linux-x64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
         }
       },
       {
@@ -118,16 +135,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-mac-arm64.dmg",
-            "VoiceStudio-Electron-0.5.6-mac-x64.dmg"
+            "VoiceStudio-0.5.7-mac-arm64.dmg",
+            "VoiceStudio-0.5.7-mac-x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
         }
       },
       {
@@ -136,15 +153,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-win-x64.exe"
+            "VoiceStudio-0.5.7-win-arm64.exe",
+            "VoiceStudio-0.5.7-win-x64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
         }
       },
       {
@@ -155,7 +173,7 @@
         "facts": {
           "repository": "aur",
           "package": "voicestudio-bin",
-          "version": "0.5.6",
+          "version": "0.5.7",
           "project": "voicestudio",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -163,7 +181,26 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/voicestudio/versions",
-          "fetchedAt": "2026-10-03T08:43:15.002Z"
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/voicestudio",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "voicestudio",
+          "version": "0.5.6",
+          "project": "voicestudio",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/voicestudio/versions",
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
         }
       },
       {
@@ -177,12 +214,12 @@
           "version": "0.5.6",
           "project": "voicestudio",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/voicestudio/versions",
-          "fetchedAt": "2026-10-03T08:43:15.002Z"
+          "fetchedAt": "2026-11-01T10:20:36.010Z"
         }
       }
     ],

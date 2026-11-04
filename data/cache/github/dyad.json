@@ -3,7 +3,7 @@
   "slug": "dyad",
   "repoUrl": "https://github.com/dyad-sh/dyad",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:12:44.461Z",
+  "lastSuccessAt": "2026-11-01T10:12:50.685Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:01.300Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "dyad-sh/dyad",
-      "stargazers_count": 22056,
-      "forks_count": 2774,
-      "open_issues_count": 350,
+      "stargazers_count": 22148,
+      "forks_count": 2786,
+      "open_issues_count": 352,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T22:53:12Z",
-      "updated_at": "2026-10-25T05:42:11Z",
+      "pushed_at": "2026-10-31T00:31:59Z",
+      "updated_at": "2026-11-01T09:56:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +60,10 @@
         "vercel"
       ]
     },
-    "latestReleaseAt": "2026-10-19T17:50:53Z",
+    "latestReleaseAt": "2026-10-26T17:13:55Z",
     "homepage": "https://dyad.sh",
     "sync": {
-      "syncedAt": "2026-10-25T08:12:44.461Z",
+      "syncedAt": "2026-11-01T10:12:50.685Z",
       "source": "api"
     }
   },
@@ -90,17 +90,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.20.0",
+          "tag": "v1.21.0",
           "assets": [
-            "dyad-1.20.0-1.x86_64.rpm",
-            "dyad_1.20.0_amd64.deb",
-            "dyad_1.20.0_x86_64.AppImage"
+            "dyad-1.21.0-1.x86_64.rpm",
+            "dyad_1.21.0_amd64.deb",
+            "dyad_1.21.0_x86_64.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.21.0",
+          "fetchedAt": "2026-11-01T10:12:48.698Z"
         }
       },
       {
@@ -109,15 +109,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.20.0",
+          "tag": "v1.21.0",
           "assets": [
-            "dyad-1.20.0.Setup.exe"
+            "dyad-1.21.0.Setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.21.0",
+          "fetchedAt": "2026-11-01T10:12:48.698Z"
         }
       },
       {
@@ -147,7 +147,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "dyad",
-          "version": "1.20.0",
+          "version": "1.21.0",
           "project": "dyad",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -155,7 +155,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/dyad/versions",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "fetchedAt": "2026-11-01T10:12:48.698Z"
         }
       },
       {
@@ -166,7 +166,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "dyad",
-          "version": "1.19.0",
+          "version": "1.20.0",
           "project": "dyad",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -174,7 +174,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/dyad/versions",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "fetchedAt": "2026-11-01T10:12:48.698Z"
         }
       },
       {
@@ -185,7 +185,7 @@
         "facts": {
           "repository": "scoop",
           "package": "dyad",
-          "version": "1.20.0",
+          "version": "1.21.0",
           "project": "dyad",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -193,7 +193,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/dyad/versions",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "fetchedAt": "2026-11-01T10:12:48.698Z"
         }
       }
     ],
