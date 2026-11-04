@@ -113,6 +113,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Vikunja](https://openappscout.com/apps/vikunja/) - A self-hosted to-do and project app with list, Kanban and Gantt views and import from Todoist and Trello. ([Source](https://github.com/go-vikunja/vikunja))
 - [VoiceInk](https://openappscout.com/apps/voiceink/) - Mac dictation that transcribes on your device and adapts the text to the app you are typing in. ([Source](https://github.com/Beingpax/VoiceInk))
 - [Voicetypr](https://openappscout.com/apps/voicetypr/) - Offline dictation for Windows and Mac that types at your cursor, with optional AI formatting. ([Source](https://github.com/ideaplexa/voicetypr))
+- [Voltip](https://openappscout.com/apps/voltip/) - An AGPL-3.0 push-to-talk dictation app for Windows, macOS, Linux and Android that types speech at the cursor, recognised on-device or by a cloud service. ([Source](https://github.com/sunerpy/voltip))
 - [Voquill](https://openappscout.com/apps/voquill/) - Voice typing for Mac, Windows and Linux with AI cleanup and a personal glossary for names and terms. ([Source](https://github.com/voquill/voquill))
 - [Weiyu](https://openappscout.com/apps/weiyu/) - A Windows app that turns your WeChat messages into searchable daily briefings, stored locally. ([Source](https://github.com/Sutera-Diffusus/WeChat-daily))
 - [WeKan](https://openappscout.com/apps/wekan/) - A self-hosted, real-time Kanban board for teams, with swimlanes and import from Trello. ([Source](https://github.com/wekan/wekan))
@@ -144,6 +145,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Airdash](https://openappscout.com/apps/airdash/) - Send photos and files of any size between your phone and computer, encrypted, from anywhere. ([Source](https://github.com/simonbengtsson/airdash))
 - [AltStore](https://openappscout.com/apps/altstore/) - Install apps on iPhone and iPad without a jailbreak, signed with your own Apple ID. ([Source](https://github.com/altstoreio/AltStore))
 - [API Dash](https://openappscout.com/apps/apidash/) - A cross-platform API client for testing web APIs, with code generation for 20+ languages. ([Source](https://github.com/foss42/apidash))
+- [AppDuo](https://openappscout.com/apps/appduo/) - Native macOS app cloner with separate data directories and custom names and icons for work and personal accounts. ([Source](https://github.com/tamia6/AppDuo))
 - [BikeShare](https://openappscout.com/apps/bikeshare/) - Browse bike-share networks and stations from the CityBikes API on iOS, Android, desktop and web. ([Source](https://github.com/joreilly/BikeShare))
 - [Blink Comparison](https://openappscout.com/apps/blink-comparison/) - Check tamper-evident seals on Android by flicking between a reference photo and a new one. ([Source](https://github.com/proninyaroslav/blink-comparison))
 - [Brethap](https://openappscout.com/apps/brethap/) - A breathing and meditation timer with custom breathing patterns, tones, vibration and a session log. ([Source](https://github.com/jithware/brethap))
@@ -165,6 +167,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Developer Tools
 
+- [AEGIS](https://openappscout.com/apps/aegis/) - Monitor local AI-agent processes, configured file activity and TCP endpoints on Windows. ([Source](https://github.com/antropos17/Aegis))
 - [AgentConnect](https://openappscout.com/apps/agentconnect/) - Self-hosted AI agents that work alongside your team in Slack, Discord, GitHub and Linear. ([Source](https://github.com/agentconnect-md/agentconnect))
 - [Appsmith](https://openappscout.com/apps/appsmith/) - Build admin panels, dashboards and internal tools on your databases and APIs, self-hosted. ([Source](https://github.com/appsmithorg/appsmith))
 - [Appwrite](https://openappscout.com/apps/appwrite/) - A ready-made backend for web and mobile apps — auth, database, storage and functions — self-hosted or cloud. ([Source](https://github.com/appwrite/appwrite))
@@ -214,6 +217,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Communication
 
+- [Aster Mail](https://openappscout.com/apps/aster-mail/) - End-to-end encrypted email client with post-quantum protection, PGP, aliases and custom domains. ([Source](https://github.com/Aster-Privacy/Aster-Mail))
 - [Berty](https://openappscout.com/apps/berty/) - An encrypted peer-to-peer messenger for iOS and Android that works without a server or internet. ([Source](https://github.com/berty/berty))
 - [Keybase](https://openappscout.com/apps/keybase/) - Encrypted chat and file sharing tied to identities you prove on your public social accounts. ([Source](https://github.com/keybase/client))
 - [Mattermost Mobile](https://openappscout.com/apps/mattermost-mobile/) - Official Mattermost team chat app for iOS and Android, with channels, threads, calls and push notifications. ([Source](https://github.com/mattermost/mattermost-mobile))
