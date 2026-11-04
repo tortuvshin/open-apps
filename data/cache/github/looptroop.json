@@ -3,7 +3,7 @@
   "slug": "looptroop",
   "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:15:27.032Z",
+  "lastSuccessAt": "2026-11-04T16:03:40.774Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:06.775Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "looptroop-ai/LoopTroop",
-      "stargazers_count": 163,
+      "stargazers_count": 168,
       "forks_count": 13,
-      "open_issues_count": 9,
+      "open_issues_count": 1,
       "language": "TypeScript",
-      "pushed_at": "2026-10-25T05:27:17Z",
-      "updated_at": "2026-10-24T08:52:55Z",
+      "pushed_at": "2026-11-04T13:06:52Z",
+      "updated_at": "2026-11-04T10:28:29Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,10 +64,10 @@
         "ralph-loop"
       ]
     },
-    "latestReleaseAt": "2026-10-13T13:31:30Z",
+    "latestReleaseAt": "2026-11-02T17:02:25Z",
     "homepage": "https://www.looptroop.ovh/",
     "sync": {
-      "syncedAt": "2026-10-25T08:15:27.032Z",
+      "syncedAt": "2026-11-04T16:03:40.774Z",
       "source": "api"
     }
   },
@@ -95,15 +95,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "looptroop",
-          "version": "0.6.1",
+          "version": "0.6.2",
           "project": "looptroop",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/looptroop/versions",
-          "fetchedAt": "2026-10-22T15:06:00.478Z"
+          "fetchedAt": "2026-11-04T16:03:38.579Z"
         }
       }
     ],

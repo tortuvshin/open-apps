@@ -3,13 +3,8 @@
   "slug": "opentag",
   "repoUrl": "https://github.com/amplifthq/opentag",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:17:10.358Z",
+  "lastSuccessAt": "2026-11-04T16:05:39.695Z",
   "partialFailures": [
-    {
-      "at": "2026-09-28T17:12:09.539Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:36:24.542Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-30T16:18:42.992Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-11-04T16:05:39.695Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (UND_ERR_SOCKET)"
     }
   ],
   "sourceDescription": "The open-source collaboration system for people and AI agents. Share context, coordinate tasks, and work in parallel with your team, cloud agents, Codex, Claude Code, Grok, Grok Bot, OpenCode, Antigravity, and Cursor.",
   "github": {
     "repository": {
       "full_name": "amplifthq/openmeld",
-      "stargazers_count": 1396,
-      "forks_count": 82,
-      "open_issues_count": 3,
+      "stargazers_count": 1407,
+      "forks_count": 86,
+      "open_issues_count": 10,
       "language": "TypeScript",
-      "pushed_at": "2026-10-23T10:30:19Z",
-      "updated_at": "2026-10-24T18:54:50Z",
+      "pushed_at": "2026-11-04T14:07:58Z",
+      "updated_at": "2026-11-04T14:08:01Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -71,7 +71,7 @@
     },
     "latestReleaseAt": "2026-10-16T10:27:02Z",
     "sync": {
-      "syncedAt": "2026-10-25T08:17:10.358Z",
+      "syncedAt": "2026-11-04T16:05:39.695Z",
       "source": "api"
     },
     "homepage": "https://openmeld.ai"

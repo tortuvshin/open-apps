@@ -3,7 +3,7 @@
   "slug": "keycloak",
   "repoUrl": "https://github.com/keycloak/keycloak",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:14:51.377Z",
+  "lastSuccessAt": "2026-11-04T16:02:58.036Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:14:55.017Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "keycloak/keycloak",
-      "stargazers_count": 37503,
-      "forks_count": 9104,
-      "open_issues_count": 3347,
+      "stargazers_count": 37699,
+      "forks_count": 9141,
+      "open_issues_count": 3433,
       "language": "Java",
-      "pushed_at": "2026-10-25T03:09:37Z",
-      "updated_at": "2026-10-25T05:16:37Z",
+      "pushed_at": "2026-11-04T14:24:54Z",
+      "updated_at": "2026-11-04T15:52:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -47,7 +47,7 @@
     "latestReleaseAt": "2026-10-13T08:58:15Z",
     "homepage": "https://www.keycloak.org",
     "sync": {
-      "syncedAt": "2026-10-25T08:14:51.377Z",
+      "syncedAt": "2026-11-04T16:02:58.036Z",
       "source": "api"
     }
   },
@@ -76,15 +76,15 @@
         "facts": {
           "repository": "arch",
           "package": "keycloak",
-          "version": "26.8.0",
+          "version": "26.8.1",
           "project": "keycloak",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/keycloak/versions",
-          "fetchedAt": "2026-10-13T11:19:53.704Z"
+          "fetchedAt": "2026-11-04T16:02:55.641Z"
         }
       },
       {
@@ -133,20 +133,6 @@
         "provenance": {
           "source": "repo-asset",
           "url": "https://github.com/keycloak/keycloak/blob/96a415cdd7ecf32e5a55ad8255d08f4433e23e44/themes/src/main/resources/theme/keycloak.v2/login/resources/img/keycloak-logo-text.svg",
-          "fetchedAt": "2026-09-28T18:14:52.485Z"
-        }
-      },
-      {
-        "url": "https://github.com/keycloak/keycloak/blob/96a415cdd7ecf32e5a55ad8255d08f4433e23e44/themes/src/main/resources/theme/keycloak/login/resources/img/keycloak-logo-text.png",
-        "path": "themes/src/main/resources/theme/keycloak/login/resources/img/keycloak-logo-text.png",
-        "blobSha": "63f3b9f87deb2dee6172d44fbad7177064245101",
-        "format": "png",
-        "bytes": 19994,
-        "width": 300,
-        "height": 63,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/keycloak/keycloak/blob/96a415cdd7ecf32e5a55ad8255d08f4433e23e44/themes/src/main/resources/theme/keycloak/login/resources/img/keycloak-logo-text.png",
           "fetchedAt": "2026-09-28T18:14:52.485Z"
         }
       }

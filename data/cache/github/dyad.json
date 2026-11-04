@@ -3,7 +3,7 @@
   "slug": "dyad",
   "repoUrl": "https://github.com/dyad-sh/dyad",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:12:44.461Z",
+  "lastSuccessAt": "2026-11-04T16:00:33.003Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:01.300Z",
@@ -19,18 +19,23 @@
       "at": "2026-09-30T16:14:55.206Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-11-04T16:00:33.003Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (UND_ERR_SOCKET)"
     }
   ],
   "sourceDescription": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
   "github": {
     "repository": {
       "full_name": "dyad-sh/dyad",
-      "stargazers_count": 22056,
-      "forks_count": 2774,
-      "open_issues_count": 350,
+      "stargazers_count": 22182,
+      "forks_count": 2792,
+      "open_issues_count": 357,
       "language": "TypeScript",
-      "pushed_at": "2026-10-22T22:53:12Z",
-      "updated_at": "2026-10-25T05:42:11Z",
+      "pushed_at": "2026-11-04T14:24:30Z",
+      "updated_at": "2026-11-04T15:57:19Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +65,10 @@
         "vercel"
       ]
     },
-    "latestReleaseAt": "2026-10-19T17:50:53Z",
+    "latestReleaseAt": "2026-11-02T18:59:31Z",
     "homepage": "https://dyad.sh",
     "sync": {
-      "syncedAt": "2026-10-25T08:12:44.461Z",
+      "syncedAt": "2026-11-04T16:00:33.003Z",
       "source": "api"
     }
   },
@@ -90,17 +95,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.20.0",
+          "tag": "v1.22.0",
           "assets": [
-            "dyad-1.20.0-1.x86_64.rpm",
-            "dyad_1.20.0_amd64.deb",
-            "dyad_1.20.0_x86_64.AppImage"
+            "dyad-1.22.0-1.x86_64.rpm",
+            "dyad_1.22.0_amd64.deb",
+            "dyad_1.22.0_x86_64.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.22.0",
+          "fetchedAt": "2026-11-04T16:00:31.052Z"
         }
       },
       {
@@ -109,15 +114,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/dyad-sh/dyad/releases/latest",
         "facts": {
-          "tag": "v1.20.0",
+          "tag": "v1.22.0",
           "assets": [
-            "dyad-1.20.0.Setup.exe"
+            "dyad-1.22.0.Setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0",
-          "fetchedAt": "2026-10-22T15:02:50.874Z"
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.22.0",
+          "fetchedAt": "2026-11-04T16:00:31.052Z"
         }
       },
       {

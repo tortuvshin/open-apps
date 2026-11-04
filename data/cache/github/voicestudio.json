@@ -3,13 +3,8 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:19:58.750Z",
+  "lastSuccessAt": "2026-11-04T16:09:16.745Z",
   "partialFailures": [
-    {
-      "at": "2026-09-28T17:13:32.995Z",
-      "source": "candidates",
-      "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
-    },
     {
       "at": "2026-09-28T17:37:54.006Z",
       "source": "candidates",
@@ -29,18 +24,23 @@
       "at": "2026-09-30T16:20:59.670Z",
       "source": "candidates",
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
+    },
+    {
+      "at": "2026-11-04T16:09:16.745Z",
+      "source": "candidates",
+      "reason": "repology: fetch failed (UND_ERR_SOCKET)"
     }
   ],
   "sourceDescription": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 85403,
-      "forks_count": 9462,
-      "open_issues_count": 248,
+      "stargazers_count": 100710,
+      "forks_count": 11152,
+      "open_issues_count": 140,
       "language": "Python",
-      "pushed_at": "2026-10-25T07:56:39Z",
-      "updated_at": "2026-10-25T08:18:28Z",
+      "pushed_at": "2026-11-04T15:23:31Z",
+      "updated_at": "2026-11-04T16:03:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -70,10 +70,10 @@
         "workflow"
       ]
     },
-    "latestReleaseAt": "2026-09-23T08:53:32Z",
+    "latestReleaseAt": "2026-10-26T14:59:48Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-10-25T08:19:58.750Z",
+      "syncedAt": "2026-11-04T16:09:16.745Z",
       "source": "api"
     }
   },
@@ -96,20 +96,37 @@
     "channels": [
       {
         "type": "github-releases",
-        "platform": "linux",
+        "platform": "android",
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-linux-x64.AppImage",
-            "VoiceStudio-Electron-0.5.6-linux-x64.deb"
+            "VoiceStudio-0.5.7-android.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
+        "facts": {
+          "tag": "v0.5.7",
+          "assets": [
+            "VoiceStudio-0.5.7-linux-x64.AppImage",
+            "VoiceStudio-0.5.7-linux-x64.deb"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
         }
       },
       {
@@ -118,16 +135,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-mac-arm64.dmg",
-            "VoiceStudio-Electron-0.5.6-mac-x64.dmg"
+            "VoiceStudio-0.5.7-mac-arm64.dmg",
+            "VoiceStudio-0.5.7-mac-x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
         }
       },
       {
@@ -136,15 +153,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/debpalash/VoiceStudio/releases/latest",
         "facts": {
-          "tag": "v0.5.6",
+          "tag": "v0.5.7",
           "assets": [
-            "VoiceStudio-Electron-0.5.6-win-x64.exe"
+            "VoiceStudio-0.5.7-win-arm64.exe",
+            "VoiceStudio-0.5.7-win-x64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6",
-          "fetchedAt": "2026-09-28T17:13:31.474Z"
+          "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.7",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
         }
       },
       {
@@ -188,6 +206,21 @@
     ],
     "logos": [
       {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "332437b29a43d1496d716a1267762b07d6fa06d5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 39342,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
+        }
+      },
+      {
         "url": "https://github.com/debpalash/VoiceStudio/blob/60d6beff241566694168fc38d74f709baa71d513/mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
         "path": "mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
         "blobSha": "486a249c752d47d49228d5e5ff6ecf982aa64804",
@@ -202,6 +235,37 @@
         }
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+        "blobSha": "9661956b6e78e83efff85dd64367a85430d5b45e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 220706,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
+        }
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+        "blobSha": "b2816cb14bce4e15ff71aedcec877f18de2161a4",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 106390,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/7a896ed455e116d734f26437393a92cad090aadb/fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+          "fetchedAt": "2026-11-04T16:09:13.709Z"
+        }
+      }
+    ]
   }
 }

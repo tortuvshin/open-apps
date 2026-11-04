@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "slug": "aegis",
+  "repoUrl": "https://github.com/antropos17/Aegis",
+  "source": "api",
+  "lastSuccessAt": "2026-11-04T15:58:12.078Z",
+  "partialFailures": [],
+  "sourceDescription": "Your agents have access. You deserve visibility. A local security dashboard for AI coding agents: activity, sensitive files, network connections and project reviews. Open-source Windows desktop app.",
+  "github": {
+    "repository": {
+      "full_name": "antropos17/Aegis",
+      "stargazers_count": 159,
+      "forks_count": 28,
+      "open_issues_count": 96,
+      "language": "JavaScript",
+      "pushed_at": "2026-11-02T20:30:33Z",
+      "updated_at": "2026-11-03T05:21:15Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "agent-monitoring",
+        "agentic-ai",
+        "ai-agents",
+        "ai-coding",
+        "ai-security",
+        "claude-code",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "electron",
+        "endpoint-security",
+        "local-first",
+        "mcp",
+        "mcp-security",
+        "observability",
+        "open-source",
+        "process-monitoring",
+        "security-tools",
+        "svelte",
+        "windows"
+      ]
+    },
+    "homepage": "https://antropos17.github.io/aegis-media/",
+    "sync": {
+      "syncedAt": "2026-11-04T15:58:12.078Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/antropos17/Aegis/blob/ce16a53abec4b6638b9fa6e5c3f537cf6e971cbf/assets/icon.png",
+        "path": "assets/icon.png",
+        "blobSha": "a0619c1b39b8ca664a5340360dab81c31a299842",
+        "format": "png",
+        "bytes": 8534,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/antropos17/Aegis/blob/ce16a53abec4b6638b9fa6e5c3f537cf6e971cbf/assets/icon.png",
+          "fetchedAt": "2026-11-04T15:58:09.063Z"
+        }
+      },
+      {
+        "url": "https://github.com/antropos17/Aegis/blob/ce16a53abec4b6638b9fa6e5c3f537cf6e971cbf/assets/icon.svg",
+        "path": "assets/icon.svg",
+        "blobSha": "6b9bdfa7e880ff511584fade2d49f37240e18e0f",
+        "format": "svg",
+        "bytes": 487,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/antropos17/Aegis/blob/ce16a53abec4b6638b9fa6e5c3f537cf6e971cbf/assets/icon.svg",
+          "fetchedAt": "2026-11-04T15:58:09.063Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

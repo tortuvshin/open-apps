@@ -3,7 +3,7 @@
   "slug": "appflowy",
   "repoUrl": "https://github.com/AppFlowy-IO/AppFlowy",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:11:24.663Z",
+  "lastSuccessAt": "2026-11-04T15:58:58.900Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:55.721Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/AppFlowy-IO/AppFlowy/deployments",
       "created_at": "2021-06-16T12:56:48Z",
-      "updated_at": "2026-10-25T07:33:16Z",
-      "pushed_at": "2026-10-21T04:12:10Z",
+      "updated_at": "2026-11-04T15:56:47Z",
+      "pushed_at": "2026-11-02T23:40:52Z",
       "git_url": "git://github.com/AppFlowy-IO/AppFlowy.git",
       "ssh_url": "git@github.com:AppFlowy-IO/AppFlowy.git",
       "clone_url": "https://github.com/AppFlowy-IO/AppFlowy.git",
       "svn_url": "https://github.com/AppFlowy-IO/AppFlowy",
       "homepage": "https://appflowy.com",
       "size": 93897,
-      "stargazers_count": 77736,
+      "stargazers_count": 78184,
       "watchers_count": 74159,
       "language": "Dart",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 6085,
+      "forks_count": 6175,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1054,
+      "open_issues_count": 1025,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -185,7 +185,7 @@
       "subscribers_count": 388
     },
     "sync": {
-      "syncedAt": "2026-10-25T08:11:24.663Z",
+      "syncedAt": "2026-11-04T15:58:58.900Z",
       "source": "api"
     },
     "languages": {
@@ -244,7 +244,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-10-21T04:12:10Z",
+    "latestReleaseAt": "2026-11-02T23:40:52Z",
     "homepage": "https://appflowy.com"
   },
   "health": {
@@ -272,12 +272,12 @@
         "facts": {
           "appId": "io.appflowy.AppFlowy",
           "match": "metainfo",
-          "evidence": "https://github.com/AppFlowy-IO/AppFlowy/blob/5cf3a365dec0d59f64bad1ee4bb1050471a39b93/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
+          "evidence": "https://github.com/AppFlowy-IO/AppFlowy/blob/8fcee27d9bd93aad4ee0191d5d8d915d6a9a4e93/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/io.appflowy.AppFlowy",
-          "fetchedAt": "2026-09-26T14:37:31.161Z"
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -286,15 +286,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.10",
+          "tag": "0.15.0",
           "assets": [
-            "AppFlowy-0.14.10-android.apk"
+            "AppFlowy-0.15.0-android.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.10",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.15.0",
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -303,17 +303,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.10",
+          "tag": "0.15.0",
           "assets": [
-            "AppFlowy-0.14.10-linux-x86_64.AppImage",
-            "AppFlowy-0.14.10-linux-x86_64.deb",
-            "AppFlowy-0.14.10-linux-x86_64.rpm"
+            "AppFlowy-0.15.0-linux-x86_64.AppImage",
+            "AppFlowy-0.15.0-linux-x86_64.deb",
+            "AppFlowy-0.15.0-linux-x86_64.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.10",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.15.0",
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -322,17 +322,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.10",
+          "tag": "0.15.0",
           "assets": [
-            "AppFlowy-0.14.10-macos-arm64.dmg",
-            "AppFlowy-0.14.10-macos-universal.dmg",
-            "AppFlowy-0.14.10-macos-x86_64.dmg"
+            "AppFlowy-0.15.0-macos-arm64.dmg",
+            "AppFlowy-0.15.0-macos-universal.dmg",
+            "AppFlowy-0.15.0-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.10",
-          "fetchedAt": "2026-10-25T08:11:22.678Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.15.0",
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -341,15 +341,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/latest",
         "facts": {
-          "tag": "0.14.10",
+          "tag": "0.15.0",
           "assets": [
-            "AppFlowy-0.14.10-windows-x86_64.exe"
+            "AppFlowy-0.15.0-windows-x86_64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.10",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.15.0",
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -360,7 +360,7 @@
         "facts": {
           "repository": "aur",
           "package": "appflowy",
-          "version": "0.14.10",
+          "version": "0.15.0",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -368,7 +368,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -379,7 +379,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "appflowy",
-          "version": "0.11.9",
+          "version": "0.14.11",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -387,7 +387,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-03T08:35:40.373Z"
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -398,7 +398,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "appflowy",
-          "version": "0.14.10",
+          "version": "0.15.0",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -406,7 +406,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       },
       {
@@ -417,7 +417,7 @@
         "facts": {
           "repository": "scoop",
           "package": "appflowy",
-          "version": "0.14.10",
+          "version": "0.15.0",
           "project": "appflowy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -425,7 +425,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/appflowy/versions",
-          "fetchedAt": "2026-10-22T15:00:50.099Z"
+          "fetchedAt": "2026-11-04T15:58:56.526Z"
         }
       }
     ],

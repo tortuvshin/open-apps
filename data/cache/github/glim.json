@@ -3,18 +3,18 @@
   "slug": "glim",
   "repoUrl": "https://github.com/NeoPanic/Glim",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:13:42.137Z",
+  "lastSuccessAt": "2026-11-04T16:01:38.798Z",
   "partialFailures": [],
-  "sourceDescription": "A free, open-source file viewer for macOS. Markdown, PDFs, images, JSON, CSV and code in one workspace. Apple Silicon & Intel.",
+  "sourceDescription": "A free, open-source file viewer for macOS.",
   "github": {
     "repository": {
       "full_name": "glimapp/glim",
-      "stargazers_count": 25,
-      "forks_count": 2,
+      "stargazers_count": 37,
+      "forks_count": 3,
       "open_issues_count": 24,
       "language": "Rust",
-      "pushed_at": "2026-10-25T01:33:48Z",
-      "updated_at": "2026-10-25T01:24:16Z",
+      "pushed_at": "2026-11-04T10:21:29Z",
+      "updated_at": "2026-11-04T10:23:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,10 +44,10 @@
         "sqlite-viewer"
       ]
     },
-    "latestReleaseAt": "2026-10-25T01:49:58Z",
+    "latestReleaseAt": "2026-11-04T10:41:12Z",
     "homepage": "https://glimapp.github.io/",
     "sync": {
-      "syncedAt": "2026-10-25T08:13:42.137Z",
+      "syncedAt": "2026-11-04T16:01:38.798Z",
       "source": "api"
     }
   },
@@ -73,16 +73,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/NeoPanic/Glim/releases/latest",
         "facts": {
-          "tag": "v0.2.12",
+          "tag": "v0.2.22",
           "assets": [
-            "Glim-0.2.12-macos-arm64.dmg",
-            "Glim-0.2.12-macos-x86_64.dmg"
+            "Glim-0.2.22-macos-arm64.dmg",
+            "Glim-0.2.22-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.12",
-          "fetchedAt": "2026-10-25T08:13:39.412Z"
+          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.22",
+          "fetchedAt": "2026-11-04T16:01:36.076Z"
         }
       },
       {

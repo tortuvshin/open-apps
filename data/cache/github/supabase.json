@@ -3,7 +3,7 @@
   "slug": "supabase",
   "repoUrl": "https://github.com/supabase/supabase",
   "source": "api",
-  "lastSuccessAt": "2026-10-25T08:18:55.468Z",
+  "lastSuccessAt": "2026-11-04T16:08:01.044Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:18:23.234Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "supabase/supabase",
-      "stargazers_count": 113900,
-      "forks_count": 16722,
-      "open_issues_count": 1172,
+      "stargazers_count": 114514,
+      "forks_count": 15782,
+      "open_issues_count": 1154,
       "language": "TypeScript",
-      "pushed_at": "2026-10-25T00:37:17Z",
-      "updated_at": "2026-10-25T07:49:11Z",
+      "pushed_at": "2026-11-04T15:54:50Z",
+      "updated_at": "2026-11-04T15:54:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -63,7 +63,7 @@
     "latestReleaseAt": "2026-08-07T13:57:57Z",
     "homepage": "https://supabase.com",
     "sync": {
-      "syncedAt": "2026-10-25T08:18:55.468Z",
+      "syncedAt": "2026-11-04T16:08:01.044Z",
       "source": "api"
     }
   },
@@ -130,7 +130,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "supabase",
-          "version": "2.122.0",
+          "version": "HEAD",
           "project": "supabase",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -138,7 +138,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/supabase/versions",
-          "fetchedAt": "2026-10-25T08:18:52.662Z"
+          "fetchedAt": "2026-11-04T16:07:57.237Z"
         }
       },
       {
@@ -149,7 +149,7 @@
         "facts": {
           "repository": "scoop",
           "package": "supabase",
-          "version": "2.122.0",
+          "version": "3.0.0",
           "project": "supabase",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -157,7 +157,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/supabase/versions",
-          "fetchedAt": "2026-10-25T08:18:52.662Z"
+          "fetchedAt": "2026-11-04T16:07:57.237Z"
         }
       }
     ],
@@ -191,20 +191,6 @@
         }
       },
       {
-        "url": "https://github.com/supabase/supabase/blob/dd02e96a17d9a5ea90b783ba8025db090b0797fd/apps/studio/public/img/libraries/supabase-icon.svg",
-        "path": "apps/studio/public/img/libraries/supabase-icon.svg",
-        "blobSha": "5eddab728920e15e66de1d24ccdca0a7312a3a4d",
-        "format": "svg",
-        "bytes": 910,
-        "width": 109,
-        "height": 113,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/supabase/supabase/blob/dd02e96a17d9a5ea90b783ba8025db090b0797fd/apps/studio/public/img/libraries/supabase-icon.svg",
-          "fetchedAt": "2026-09-28T18:18:20.409Z"
-        }
-      },
-      {
         "url": "https://github.com/supabase/supabase/blob/dd02e96a17d9a5ea90b783ba8025db090b0797fd/apps/studio/public/supabase-logo.svg",
         "path": "apps/studio/public/supabase-logo.svg",
         "blobSha": "2b69d42e7b32325503a2969106b283caee3363e4",
@@ -216,6 +202,20 @@
           "source": "repo-asset",
           "url": "https://github.com/supabase/supabase/blob/dd02e96a17d9a5ea90b783ba8025db090b0797fd/apps/studio/public/supabase-logo.svg",
           "fetchedAt": "2026-09-28T18:18:20.409Z"
+        }
+      },
+      {
+        "url": "https://github.com/supabase/supabase/blob/82671cbb65257a001ec5530d781aa86d54d38345/apps/www/public/brand-assets/supabase-logo-black-transparent.svg",
+        "path": "apps/www/public/brand-assets/supabase-logo-black-transparent.svg",
+        "blobSha": "97fe7aa2eb8ae337f42e6043b0c9e5a4bb89b7f2",
+        "format": "svg",
+        "bytes": 3063,
+        "width": 581,
+        "height": 113,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/supabase/supabase/blob/82671cbb65257a001ec5530d781aa86d54d38345/apps/www/public/brand-assets/supabase-logo-black-transparent.svg",
+          "fetchedAt": "2026-11-04T16:07:57.237Z"
         }
       }
     ],
