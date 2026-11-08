@@ -3,7 +3,7 @@
   "slug": "vikunja",
   "repoUrl": "https://github.com/go-vikunja/vikunja",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:20:30.697Z",
+  "lastSuccessAt": "2026-11-08T10:05:47.487Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:14.863Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "go-vikunja/vikunja",
-      "stargazers_count": 5926,
-      "forks_count": 792,
-      "open_issues_count": 254,
+      "stargazers_count": 5997,
+      "forks_count": 817,
+      "open_issues_count": 263,
       "language": "Go",
-      "pushed_at": "2026-11-01T00:56:36Z",
-      "updated_at": "2026-11-01T09:34:04Z",
+      "pushed_at": "2026-11-08T08:11:54Z",
+      "updated_at": "2026-11-08T09:22:14Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -49,10 +49,10 @@
         "vuejs"
       ]
     },
-    "latestReleaseAt": "2026-10-20T22:08:51Z",
+    "latestReleaseAt": "2026-11-05T20:44:21Z",
     "homepage": "https://vikunja.io",
     "sync": {
-      "syncedAt": "2026-11-01T10:20:30.697Z",
+      "syncedAt": "2026-11-08T10:05:47.487Z",
       "source": "api"
     }
   },
@@ -94,20 +94,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/go-vikunja/vikunja/releases/latest",
         "facts": {
-          "tag": "v2.7.1",
+          "tag": "v2.8.0",
           "assets": [
-            "Vikunja.Desktop-v2.7.1.apk",
-            "veans-v2.7.1-aarch64.apk",
-            "veans-v2.7.1-armv7.apk",
-            "veans-v2.7.1-x86_64.apk",
-            "vikunja-v2.7.1-aarch64.apk",
-            "vikunja-v2.7.1-armv7.apk"
+            "Vikunja.Desktop-v2.8.0.apk",
+            "veans-v2.8.0-aarch64.apk",
+            "veans-v2.8.0-armv7.apk",
+            "veans-v2.8.0-x86_64.apk",
+            "vikunja-v2.8.0-aarch64.apk",
+            "vikunja-v2.8.0-armv7.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.7.1",
-          "fetchedAt": "2026-10-22T15:11:00.548Z"
+          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.8.0",
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       },
       {
@@ -116,20 +116,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/go-vikunja/vikunja/releases/latest",
         "facts": {
-          "tag": "v2.7.1",
+          "tag": "v2.8.0",
           "assets": [
-            "Vikunja.Desktop-v2.7.1.AppImage",
-            "Vikunja.Desktop-v2.7.1.deb",
-            "Vikunja.Desktop-v2.7.1.rpm",
-            "Vikunja.Desktop-v2.7.1.snap",
-            "veans-v2.7.1-aarch64.deb",
-            "veans-v2.7.1-aarch64.rpm"
+            "Vikunja.Desktop-v2.8.0.AppImage",
+            "Vikunja.Desktop-v2.8.0.deb",
+            "Vikunja.Desktop-v2.8.0.rpm",
+            "Vikunja.Desktop-v2.8.0.snap",
+            "veans-v2.8.0-aarch64.deb",
+            "veans-v2.8.0-aarch64.rpm"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.7.1",
-          "fetchedAt": "2026-10-22T15:11:00.548Z"
+          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.8.0",
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       },
       {
@@ -138,15 +138,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/go-vikunja/vikunja/releases/latest",
         "facts": {
-          "tag": "v2.7.1",
+          "tag": "v2.8.0",
           "assets": [
-            "Vikunja.Desktop-v2.7.1.dmg"
+            "Vikunja.Desktop-v2.8.0.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.7.1",
-          "fetchedAt": "2026-10-22T15:11:00.548Z"
+          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.8.0",
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       },
       {
@@ -155,16 +155,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/go-vikunja/vikunja/releases/latest",
         "facts": {
-          "tag": "v2.7.1",
+          "tag": "v2.8.0",
           "assets": [
-            "Vikunja.Desktop-v2.7.1.exe",
-            "Vikunja.Desktop-v2.7.1.msi"
+            "Vikunja.Desktop-v2.8.0.exe",
+            "Vikunja.Desktop-v2.8.0.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.7.1",
-          "fetchedAt": "2026-10-22T15:11:00.548Z"
+          "url": "https://github.com/go-vikunja/vikunja/releases/tag/v2.8.0",
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       },
       {
@@ -178,12 +178,12 @@
           "version": "2.7.1",
           "project": "vikunja",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vikunja/versions",
-          "fetchedAt": "2026-11-01T10:20:28.316Z"
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       },
       {
@@ -194,7 +194,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "vikunja",
-          "version": "2.7.1",
+          "version": "2.8.0",
           "project": "vikunja",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -202,7 +202,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vikunja/versions",
-          "fetchedAt": "2026-11-01T10:20:28.316Z"
+          "fetchedAt": "2026-11-08T10:05:45.254Z"
         }
       }
     ],

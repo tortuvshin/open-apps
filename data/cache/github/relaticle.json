@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "slug": "relaticle",
+  "repoUrl": "https://github.com/relaticle/relaticle",
+  "source": "api",
+  "lastSuccessAt": "2026-11-08T10:04:03.468Z",
+  "partialFailures": [],
+  "sourceDescription": "Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks and notes. REST API, self-hosted or cloud.",
+  "github": {
+    "repository": {
+      "full_name": "relaticle/relaticle",
+      "stargazers_count": 1816,
+      "forks_count": 231,
+      "open_issues_count": 38,
+      "language": "PHP",
+      "pushed_at": "2026-11-08T10:01:30Z",
+      "updated_at": "2026-11-08T09:47:24Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "ai",
+        "ai-agents",
+        "attio-alternative",
+        "chatgpt",
+        "claude",
+        "crm",
+        "docker",
+        "filament",
+        "hubspot-alternative",
+        "laravel",
+        "livewire",
+        "mcp",
+        "mcp-server",
+        "open-source",
+        "postgresql",
+        "saas",
+        "sales",
+        "self-hosted"
+      ]
+    },
+    "latestReleaseAt": "2026-11-04T23:25:01Z",
+    "homepage": "https://relaticle.com",
+    "sync": {
+      "syncedAt": "2026-11-08T10:04:03.468Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logo-white.png",
+        "path": "public/brand/logo-white.png",
+        "blobSha": "25f8bdabe00a161d92d1003b6b90843fae883530",
+        "format": "png",
+        "bytes": 23907,
+        "width": 960,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logo-white.png",
+          "fetchedAt": "2026-11-08T10:04:00.825Z"
+        }
+      },
+      {
+        "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logomark.svg",
+        "path": "public/brand/logomark.svg",
+        "blobSha": "28d7f85ca8b5d1ad57c637442e51c86e57636e9f",
+        "format": "svg",
+        "bytes": 2999,
+        "width": 1158,
+        "height": 1158,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logomark.svg",
+          "fetchedAt": "2026-11-08T10:04:00.825Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

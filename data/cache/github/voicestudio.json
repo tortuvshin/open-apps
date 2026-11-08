@@ -3,7 +3,7 @@
   "slug": "voicestudio",
   "repoUrl": "https://github.com/debpalash/VoiceStudio",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:20:38.888Z",
+  "lastSuccessAt": "2026-11-08T10:05:55.689Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:32.995Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "debpalash/VoiceStudio",
-      "stargazers_count": 97239,
-      "forks_count": 10788,
-      "open_issues_count": 109,
+      "stargazers_count": 104278,
+      "forks_count": 11602,
+      "open_issues_count": 111,
       "language": "Python",
-      "pushed_at": "2026-11-01T10:11:21Z",
-      "updated_at": "2026-11-01T10:19:58Z",
+      "pushed_at": "2026-11-08T09:44:41Z",
+      "updated_at": "2026-11-08T10:05:36Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -73,7 +73,7 @@
     "latestReleaseAt": "2026-10-26T14:59:48Z",
     "homepage": "https://voicestudio.sh",
     "sync": {
-      "syncedAt": "2026-11-01T10:20:38.888Z",
+      "syncedAt": "2026-11-08T10:05:55.689Z",
       "source": "api"
     }
   },
@@ -225,6 +225,21 @@
     ],
     "logos": [
       {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "332437b29a43d1496d716a1267762b07d6fa06d5",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 39342,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-11-08T10:05:52.615Z"
+        }
+      },
+      {
         "url": "https://github.com/debpalash/VoiceStudio/blob/60d6beff241566694168fc38d74f709baa71d513/mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
         "path": "mobile/ios/VoiceStudio/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
         "blobSha": "486a249c752d47d49228d5e5ff6ecf982aa64804",
@@ -239,6 +254,37 @@
         }
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+        "blobSha": "9661956b6e78e83efff85dd64367a85430d5b45e",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 220706,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.png",
+          "fetchedAt": "2026-11-08T10:05:52.615Z"
+        }
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+        "path": "fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+        "blobSha": "b2816cb14bce4e15ff71aedcec877f18de2161a4",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 106390,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/debpalash/VoiceStudio/blob/4ab2c08ca5f3fe1132d8d6cb54982ab3c373d51b/fastlane/metadata/android/en-US/images/phoneScreenshots/02-speak.png",
+          "fetchedAt": "2026-11-08T10:05:52.615Z"
+        }
+      }
+    ]
   }
 }

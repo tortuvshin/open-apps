@@ -3,7 +3,7 @@
   "slug": "taskuary",
   "repoUrl": "https://github.com/ldbumble/taskuary",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:19:49.833Z",
+  "lastSuccessAt": "2026-11-08T10:05:09.474Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:13.200Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Your work, already underway. A personal AI assistant for your job: mail, chats and tickets become tasks, the agents you already use (Claude Code, Codex, Gemini) do the work, and nothing goes out until you approve. Open source, runs on your machine.",
+  "sourceDescription": "Your AI work partner. Mail, chats and tickets become one list in the right order; your agents do the work, and nothing goes out until you approve. Free, open source, runs on your computer.",
   "github": {
     "repository": {
       "full_name": "ldbumble/taskuary",
-      "stargazers_count": 143,
-      "forks_count": 58,
-      "open_issues_count": 11,
+      "stargazers_count": 148,
+      "forks_count": 59,
+      "open_issues_count": 10,
       "language": "Python",
-      "pushed_at": "2026-11-01T09:03:30Z",
-      "updated_at": "2026-11-01T09:19:21Z",
+      "pushed_at": "2026-11-08T07:01:04Z",
+      "updated_at": "2026-11-08T07:01:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -49,32 +49,32 @@
         "name": "MIT"
       },
       "topics": [
-        "agentic-workflow",
-        "ai",
-        "ai-agents",
-        "automation",
-        "claude",
-        "claude-code",
-        "codex",
+        "ai-agent",
+        "ai-work-partner",
+        "claude-ai",
+        "codex-cli",
         "email-triage",
-        "fastapi",
-        "kanban",
-        "llm",
-        "local-first",
-        "mcp",
-        "microsoft-teams",
-        "outlook",
-        "productivity",
-        "python",
-        "react",
-        "slack",
-        "task-management"
+        "human-in-the-loop",
+        "local-first-ai",
+        "local-first-software",
+        "ollama",
+        "opne-source",
+        "privacy",
+        "productivity-tool",
+        "python3",
+        "self-hosted",
+        "task-management-system",
+        "task-manager",
+        "task-monitoring",
+        "telegram",
+        "whatsapp",
+        "workflow-automation"
       ]
     },
-    "latestReleaseAt": "2026-11-01T09:08:03Z",
+    "latestReleaseAt": "2026-11-08T07:00:49Z",
     "homepage": "https://taskuary.com",
     "sync": {
-      "syncedAt": "2026-11-01T10:19:49.833Z",
+      "syncedAt": "2026-11-08T10:05:09.474Z",
       "source": "api"
     }
   },
@@ -100,15 +100,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/ldbumble/taskuary/releases/latest",
         "facts": {
-          "tag": "v0.3.10.6",
+          "tag": "v0.3.11.13",
           "assets": [
-            "Taskuary.exe"
+            "Taskuary.exe",
+            "TaskuarySetup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.10.6",
-          "fetchedAt": "2026-11-01T10:19:47.453Z"
+          "url": "https://github.com/ldbumble/taskuary/releases/tag/v0.3.11.13",
+          "fetchedAt": "2026-11-08T10:05:07.385Z"
         }
       }
     ],

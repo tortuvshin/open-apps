@@ -3,18 +3,18 @@
   "slug": "aster-mail",
   "repoUrl": "https://github.com/Aster-Privacy/Aster-Mail",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:11:34.753Z",
+  "lastSuccessAt": "2026-11-08T09:56:53.188Z",
   "partialFailures": [],
   "sourceDescription": "Cross-platform encrypted email client for Aster",
   "github": {
     "repository": {
       "full_name": "Aster-Privacy/Aster-Mail",
-      "stargazers_count": 90,
-      "forks_count": 7,
-      "open_issues_count": 35,
+      "stargazers_count": 104,
+      "forks_count": 9,
+      "open_issues_count": 31,
       "language": "TypeScript",
-      "pushed_at": "2026-11-01T04:37:10Z",
-      "updated_at": "2026-11-01T02:55:14Z",
+      "pushed_at": "2026-11-08T01:18:50Z",
+      "updated_at": "2026-11-08T01:53:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -30,10 +30,10 @@
         "privacy"
       ]
     },
-    "latestReleaseAt": "2026-10-29T16:08:40Z",
+    "latestReleaseAt": "2026-11-05T00:11:19Z",
     "homepage": "https://astermail.org",
     "sync": {
-      "syncedAt": "2026-11-01T10:11:34.753Z",
+      "syncedAt": "2026-11-08T09:56:53.188Z",
       "source": "api"
     }
   },
@@ -54,20 +54,36 @@
   "candidates": {
     "channels": [
       {
+        "type": "flathub",
+        "platform": "linux",
+        "label": "Flathub",
+        "url": "https://flathub.org/apps/org.astermail.Mail",
+        "facts": {
+          "appId": "org.astermail.Mail",
+          "match": "metainfo",
+          "evidence": "https://github.com/Aster-Privacy/Aster-Mail/blob/e7f0480a34535378c90c1ec374f4396dcc9499fd/flatpak/org.astermail.Mail.metainfo.xml"
+        },
+        "provenance": {
+          "source": "flathub",
+          "url": "https://flathub.org/api/v2/appstream/org.astermail.Mail",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
+        }
+      },
+      {
         "type": "github-releases",
         "platform": "android",
         "label": "GitHub Releases",
         "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
         "facts": {
-          "tag": "v1.4.79",
+          "tag": "v1.4.80",
           "assets": [
             "Aster-Mail.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.79",
-          "fetchedAt": "2026-11-01T10:11:30.032Z"
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.80",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
         }
       },
       {
@@ -76,7 +92,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
         "facts": {
-          "tag": "v1.4.79",
+          "tag": "v1.4.80",
           "assets": [
             "Aster-Mail-aarch64.AppImage",
             "Aster-Mail-aarch64.rpm",
@@ -88,8 +104,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.79",
-          "fetchedAt": "2026-11-01T10:11:30.032Z"
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.80",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
         }
       },
       {
@@ -98,16 +114,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
         "facts": {
-          "tag": "v1.4.79",
+          "tag": "v1.4.80",
           "assets": [
             "Aster-Mail-universal.dmg",
-            "Aster.Mail_1.4.79_universal.dmg"
+            "Aster.Mail_1.4.80_universal.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.79",
-          "fetchedAt": "2026-11-01T10:11:30.032Z"
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.80",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
         }
       },
       {
@@ -116,18 +132,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/latest",
         "facts": {
-          "tag": "v1.4.79",
+          "tag": "v1.4.80",
           "assets": [
             "Aster-Mail-x64-setup.exe",
             "Aster-Mail-x64.msi",
-            "Aster.Mail_1.4.79_x64-setup.exe",
-            "Aster.Mail_1.4.79_x64_en-US.msi"
+            "Aster.Mail_1.4.80_x64-setup.exe",
+            "Aster.Mail_1.4.80_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.79",
-          "fetchedAt": "2026-11-01T10:11:30.032Z"
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/releases/tag/v1.4.80",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
         }
       },
       {
@@ -194,6 +210,35 @@
         }
       }
     ],
-    "screenshots": []
+    "screenshots": [
+      {
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/e7f0480a34535378c90c1ec374f4396dcc9499fd/flatpak/screenshots/aliases.png",
+        "path": "flatpak/screenshots/aliases.png",
+        "blobSha": "d98048e75692d916ed05adfc7a18a6cb7eaec879",
+        "format": "png",
+        "bytes": 424719,
+        "width": 2000,
+        "height": 1205,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/e7f0480a34535378c90c1ec374f4396dcc9499fd/flatpak/org.astermail.Mail.metainfo.xml",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
+        }
+      },
+      {
+        "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/e7f0480a34535378c90c1ec374f4396dcc9499fd/flatpak/screenshots/inbox.png",
+        "path": "flatpak/screenshots/inbox.png",
+        "blobSha": "cec94a99c9098d82f293f77e34064cafa933b1a6",
+        "format": "png",
+        "bytes": 683629,
+        "width": 2000,
+        "height": 1205,
+        "provenance": {
+          "source": "appstream",
+          "url": "https://github.com/Aster-Privacy/Aster-Mail/blob/e7f0480a34535378c90c1ec374f4396dcc9499fd/flatpak/org.astermail.Mail.metainfo.xml",
+          "fetchedAt": "2026-11-08T09:56:50.962Z"
+        }
+      }
+    ]
   }
 }

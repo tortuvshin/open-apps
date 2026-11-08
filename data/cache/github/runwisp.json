@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "slug": "runwisp",
+  "repoUrl": "https://github.com/runwisp/runwisp",
+  "source": "api",
+  "lastSuccessAt": "2026-11-08T10:04:17.175Z",
+  "partialFailures": [],
+  "sourceDescription": "Cron job manager + process supervisor in a single binary. Web dashboard, TUI, retries, failure notifications. crond/supervisord replacement",
+  "github": {
+    "repository": {
+      "full_name": "runwisp/runwisp",
+      "stargazers_count": 89,
+      "forks_count": 8,
+      "open_issues_count": 3,
+      "language": "Go",
+      "pushed_at": "2026-11-06T14:18:36Z",
+      "updated_at": "2026-11-08T02:18:22Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "automation-tool",
+        "cron",
+        "cron-alternative",
+        "cron-job",
+        "cron-monitoring",
+        "devops",
+        "devops-tools",
+        "job-runner",
+        "job-scheduler",
+        "linux",
+        "pm2-alternative",
+        "process-manager",
+        "process-supervisor",
+        "scheduler",
+        "self-hosted",
+        "selfhosted",
+        "single-binary",
+        "supervisord",
+        "tui",
+        "web-ui"
+      ]
+    },
+    "latestReleaseAt": "2026-11-06T11:38:07Z",
+    "homepage": "https://runwisp.com/",
+    "sync": {
+      "syncedAt": "2026-11-08T10:04:17.175Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "listed",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "linux",
+        "label": "GitHub Releases",
+        "url": "https://github.com/runwisp/runwisp/releases/latest",
+        "facts": {
+          "tag": "v1.9.1",
+          "assets": [
+            "runwisp-linux-arm64.deb",
+            "runwisp-linux-arm64.rpm",
+            "runwisp-linux-x64.deb",
+            "runwisp-linux-x64.rpm"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/runwisp/runwisp/releases/tag/v1.9.1",
+          "fetchedAt": "2026-11-08T10:04:14.800Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/runwisp/runwisp/blob/d109691b7af49dd07f1bc906a37547150f35a744/packaging/linux/logo.svg",
+        "path": "packaging/linux/logo.svg",
+        "blobSha": "760fd6bc5ee9b131fb30f47d38bfc308640b040e",
+        "format": "svg",
+        "bytes": 2955,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/runwisp/runwisp/blob/d109691b7af49dd07f1bc906a37547150f35a744/packaging/linux/logo.svg",
+          "fetchedAt": "2026-11-08T10:04:14.800Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}
