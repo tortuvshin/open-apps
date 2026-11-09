@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:18:31.409Z",
+  "lastSuccessAt": "2026-11-08T10:03:54.657Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 28855,
-      "forks_count": 3294,
-      "open_issues_count": 2067,
+      "stargazers_count": 29082,
+      "forks_count": 3329,
+      "open_issues_count": 2089,
       "language": "TypeScript",
-      "pushed_at": "2026-11-01T09:50:22Z",
-      "updated_at": "2026-11-01T09:11:18Z",
+      "pushed_at": "2026-11-08T09:47:13Z",
+      "updated_at": "2026-11-08T09:13:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-11-01T03:22:50Z",
+    "latestReleaseAt": "2026-11-08T00:55:56Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-11-01T10:18:31.409Z",
+      "syncedAt": "2026-11-08T10:03:54.657Z",
       "source": "api"
     }
   },
@@ -85,15 +85,15 @@
         "facts": {
           "repository": "aur",
           "package": "qwen-code-bin",
-          "version": "0.26.5",
+          "version": "0.27.0",
           "project": "qwen-code",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-01T10:18:28.314Z"
+          "fetchedAt": "2026-11-08T10:03:51.549Z"
         }
       },
       {
@@ -104,7 +104,7 @@
         "facts": {
           "repository": "arch",
           "package": "qwen-code",
-          "version": "0.23.1",
+          "version": "0.23.4",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -112,7 +112,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-01T10:18:28.314Z"
+          "fetchedAt": "2026-11-08T10:03:51.549Z"
         }
       },
       {
@@ -123,7 +123,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "qwen-code",
-          "version": "0.26.0",
+          "version": "0.26.7",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -131,7 +131,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-10-25T08:18:03.527Z"
+          "fetchedAt": "2026-11-08T10:03:51.549Z"
         }
       },
       {
@@ -142,7 +142,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "qwen-code",
-          "version": "0.26.4",
+          "version": "0.26.9",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -150,7 +150,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-01T10:18:28.314Z"
+          "fetchedAt": "2026-11-08T10:03:51.549Z"
         }
       },
       {
@@ -161,7 +161,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "qwen-code",
-          "version": "0.26.1",
+          "version": "0.26.5",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -169,7 +169,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-01T10:18:28.314Z"
+          "fetchedAt": "2026-11-08T10:03:51.549Z"
         }
       }
     ],

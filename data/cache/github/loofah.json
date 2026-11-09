@@ -3,7 +3,7 @@
   "slug": "loofah",
   "repoUrl": "https://github.com/bart6114/loofah",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:15:34.162Z",
+  "lastSuccessAt": "2026-11-08T10:00:53.931Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:04.613Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-01T10:15:34.162Z",
+      "syncedAt": "2026-11-08T10:00:53.931Z",
       "source": "api"
     },
     "repository": {
       "full_name": "bart6114/loofah",
       "stargazers_count": 15,
-      "forks_count": 1,
-      "open_issues_count": 6,
+      "forks_count": 2,
+      "open_issues_count": 8,
       "language": "TypeScript",
-      "pushed_at": "2026-10-29T18:31:05Z",
-      "updated_at": "2026-10-29T18:31:10Z",
+      "pushed_at": "2026-11-08T09:44:11Z",
+      "updated_at": "2026-11-02T08:45:01Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -74,7 +74,7 @@
         "transcription"
       ]
     },
-    "latestReleaseAt": "2026-10-29T18:31:07Z",
+    "latestReleaseAt": "2026-11-02T08:43:11Z",
     "homepage": "https://loofah.io"
   },
   "health": {
@@ -92,7 +92,44 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/bart6114/loofah/releases/latest",
+        "facts": {
+          "tag": "v0.45.7",
+          "assets": [
+            "FreeMeetingTranscriber_0.45.7_aarch64.dmg",
+            "Loofah_0.45.7_aarch64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/bart6114/loofah/releases/tag/v0.45.7",
+          "fetchedAt": "2026-11-08T10:00:51.288Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/bart6114/loofah/releases/latest",
+        "facts": {
+          "tag": "v0.45.7",
+          "assets": [
+            "Loofah_0.45.7_aarch64-setup.exe",
+            "Loofah_0.45.7_x86_64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/bart6114/loofah/releases/tag/v0.45.7",
+          "fetchedAt": "2026-11-08T10:00:51.288Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/bart6114/loofah/blob/256462415995131507f6dec0d6f7d6083c3a81cc/apps/desktop/public/assets/app-icon.png",

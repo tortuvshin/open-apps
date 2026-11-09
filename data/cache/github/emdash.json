@@ -3,7 +3,7 @@
   "slug": "emdash",
   "repoUrl": "https://github.com/generalaction/emdash",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:13:05.763Z",
+  "lastSuccessAt": "2026-11-08T09:58:22.061Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:15.234Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "generalaction/emdash",
-      "stargazers_count": 6136,
-      "forks_count": 654,
-      "open_issues_count": 101,
+      "stargazers_count": 6215,
+      "forks_count": 664,
+      "open_issues_count": 88,
       "language": "TypeScript",
-      "pushed_at": "2026-10-30T12:59:44Z",
-      "updated_at": "2026-11-01T09:49:15Z",
+      "pushed_at": "2026-11-06T11:03:37Z",
+      "updated_at": "2026-11-08T01:05:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +60,10 @@
         "terminal"
       ]
     },
-    "latestReleaseAt": "2026-10-30T12:59:45Z",
+    "latestReleaseAt": "2026-11-06T11:03:37Z",
     "homepage": "https://emdash.com",
     "sync": {
-      "syncedAt": "2026-11-01T10:13:05.763Z",
+      "syncedAt": "2026-11-08T09:58:22.061Z",
       "source": "api"
     }
   },
@@ -90,7 +90,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.10",
+          "tag": "v1.2.11",
           "assets": [
             "emdash-aarch64.rpm",
             "emdash-amd64.deb",
@@ -102,8 +102,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10",
-          "fetchedAt": "2026-11-01T10:13:03.758Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
+          "fetchedAt": "2026-11-08T09:58:19.903Z"
         }
       },
       {
@@ -112,7 +112,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.10",
+          "tag": "v1.2.11",
           "assets": [
             "emdash-arm64.dmg",
             "emdash-x64.dmg"
@@ -120,8 +120,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10",
-          "fetchedAt": "2026-11-01T10:13:03.758Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
+          "fetchedAt": "2026-11-08T09:58:19.903Z"
         }
       },
       {
@@ -130,7 +130,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.10",
+          "tag": "v1.2.11",
           "assets": [
             "emdash-x64.exe",
             "emdash-x64.msi"
@@ -138,8 +138,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10",
-          "fetchedAt": "2026-11-01T10:13:03.758Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
+          "fetchedAt": "2026-11-08T09:58:19.903Z"
         }
       },
       {
@@ -150,7 +150,7 @@
         "facts": {
           "repository": "aur",
           "package": "emdash-bin",
-          "version": "1.2.10",
+          "version": "1.2.11",
           "project": "emdash",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -158,7 +158,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/emdash/versions",
-          "fetchedAt": "2026-11-01T10:13:03.758Z"
+          "fetchedAt": "2026-11-08T09:58:19.903Z"
         }
       },
       {
@@ -169,7 +169,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "emdash",
-          "version": "1.2.10",
+          "version": "1.2.11",
           "project": "emdash",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -177,7 +177,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/emdash/versions",
-          "fetchedAt": "2026-11-01T10:13:03.758Z"
+          "fetchedAt": "2026-11-08T09:58:19.903Z"
         }
       }
     ],

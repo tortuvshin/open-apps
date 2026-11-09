@@ -3,18 +3,18 @@
   "slug": "glim",
   "repoUrl": "https://github.com/NeoPanic/Glim",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:13:50.110Z",
+  "lastSuccessAt": "2026-11-08T09:59:06.713Z",
   "partialFailures": [],
-  "sourceDescription": "A free, open-source file viewer for macOS. Markdown, PDFs, images, JSON, CSV and code in one workspace. Apple Silicon & Intel.",
+  "sourceDescription": "A free, open-source file viewer for macOS.",
   "github": {
     "repository": {
       "full_name": "glimapp/glim",
-      "stargazers_count": 31,
-      "forks_count": 2,
-      "open_issues_count": 24,
+      "stargazers_count": 38,
+      "forks_count": 4,
+      "open_issues_count": 25,
       "language": "Rust",
-      "pushed_at": "2026-11-01T03:10:56Z",
-      "updated_at": "2026-11-01T03:11:00Z",
+      "pushed_at": "2026-11-07T20:14:45Z",
+      "updated_at": "2026-11-06T08:09:20Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -44,10 +44,10 @@
         "sqlite-viewer"
       ]
     },
-    "latestReleaseAt": "2026-10-31T04:10:27Z",
+    "latestReleaseAt": "2026-11-06T08:29:30Z",
     "homepage": "https://glimapp.github.io/",
     "sync": {
-      "syncedAt": "2026-11-01T10:13:50.110Z",
+      "syncedAt": "2026-11-08T09:59:06.713Z",
       "source": "api"
     }
   },
@@ -73,16 +73,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/NeoPanic/Glim/releases/latest",
         "facts": {
-          "tag": "v0.2.17",
+          "tag": "v0.2.25",
           "assets": [
-            "Glim-0.2.17-macos-arm64.dmg",
-            "Glim-0.2.17-macos-x86_64.dmg"
+            "Glim-0.2.25-macos-arm64.dmg",
+            "Glim-0.2.25-macos-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.17",
-          "fetchedAt": "2026-11-01T10:13:47.465Z"
+          "url": "https://github.com/glimapp/glim/releases/tag/v0.2.25",
+          "fetchedAt": "2026-11-08T09:59:03.865Z"
         }
       },
       {
