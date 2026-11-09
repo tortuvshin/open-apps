@@ -4,7 +4,7 @@ repoUrl: https://github.com/Abuarchiv/manawg
 projectType: real-app
 category: productivity
 stack: react
-summary: A free app for shared flats and roommates that keeps expenses, the cleaning rota, the shopping list, a calendar, a notice board and chat in one place. It installs as a PWA, imports CSV from Splitwise and Splid (Tricount and Settle Up are merged and ship with the next release), and can be self-hosted with Docker Compose.
+summary: A free app for shared flats and roommates that keeps expenses, the cleaning rota, the shopping list, a calendar, a notice board and chat in one place. It installs as a PWA, imports CSV from Splitwise, Splid, Tricount and Settle Up, and can be self-hosted with Docker Compose.
 description: Self-hostable shared-flat app with expense splitting, a cleaning rota, shopping list, calendar, notice board and chat.
 platforms:
   - web
@@ -53,4 +53,4 @@ addedAt: 2026-11-06
 submittedBy: Abuarchiv
 ---
 
-ManaWG is a complete app for shared flats. It keeps the shared money, the cleaning rota, the shopping list, the calendar, a notice board and the flat chat in one installable web app, so a household does not need a bill-splitting app, a chore app and a group chat side by side. Expenses are stored in whole cents and every split adds up to the total, with CSV import from Splitwise and Splid (Tricount and Settle Up are merged on main and ship with the next release). It runs as a PWA with an offline queue and is available in German and English, with Spanish merged on main and shipping with the next release. The code is Apache-2.0, built with Next.js 16, Supabase/Postgres, Drizzle, next-intl, Tailwind 4 and shadcn/ui, and ships as a Docker Compose stack for amd64 and arm64 that needs about 500 MB of RAM. A hosted instance and a no-account demo are available, and a separate MCP server exposes the app API to AI assistants. Reviewed against the repository on 2026-11-08: the statements above hold for release v0.1.1 except where marked as merged on main.
+ManaWG is a complete app for shared flats. It keeps the shared money, the cleaning rota, the shopping list, the calendar, a notice board and the flat chat in one installable web app, so a household does not need a bill-splitting app, a chore app and a group chat side by side. Expenses are stored in whole cents and every split adds up to the total, with CSV import from Splitwise, Splid, Tricount and Settle Up. It runs as a PWA with an offline queue and is available in German, English and Spanish. The code is Apache-2.0, built with Next.js 16, Supabase/Postgres, Drizzle, next-intl, Tailwind 4 and shadcn/ui, and ships as a Docker Compose stack for amd64 and arm64 that needs about 500 MB of RAM. A hosted instance and a no-account demo are available, and a separate MCP server exposes the app API to AI assistants. Reviewed against the repository and release v0.2.0 on 2026-11-09.
