@@ -3,7 +3,7 @@
   "slug": "handy",
   "repoUrl": "https://github.com/cjpais/Handy",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:14:04.180Z",
+  "lastSuccessAt": "2026-11-09T14:42:26.117Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:20.964Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "cjpais/Handy",
-      "stargazers_count": 35998,
-      "forks_count": 3422,
-      "open_issues_count": 209,
+      "stargazers_count": 38145,
+      "forks_count": 3592,
+      "open_issues_count": 216,
       "language": "Rust",
-      "pushed_at": "2026-10-27T09:23:19Z",
-      "updated_at": "2026-11-01T10:13:37Z",
+      "pushed_at": "2026-11-07T00:19:26Z",
+      "updated_at": "2026-11-09T14:40:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -55,10 +55,10 @@
         "tauri-v2"
       ]
     },
-    "latestReleaseAt": "2026-10-03T02:42:15Z",
+    "latestReleaseAt": "2026-11-02T13:13:42Z",
     "homepage": "https://handy.computer",
     "sync": {
-      "syncedAt": "2026-11-01T10:14:04.180Z",
+      "syncedAt": "2026-11-09T14:42:26.117Z",
       "source": "api"
     }
   },
@@ -85,20 +85,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cjpais/Handy/releases/latest",
         "facts": {
-          "tag": "v0.9.8",
+          "tag": "v0.10.0",
           "assets": [
-            "Handy-0.9.8-1.aarch64.rpm",
-            "Handy-0.9.8-1.x86_64.rpm",
-            "Handy_0.9.8_aarch64.AppImage",
-            "Handy_0.9.8_amd64.AppImage",
-            "Handy_0.9.8_amd64.deb",
-            "Handy_0.9.8_arm64.deb"
+            "Handy-0.10.0-1.aarch64.rpm",
+            "Handy-0.10.0-1.x86_64.rpm",
+            "Handy_0.10.0_aarch64.AppImage",
+            "Handy_0.10.0_amd64.AppImage",
+            "Handy_0.10.0_amd64.deb",
+            "Handy_0.10.0_arm64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cjpais/Handy/releases/tag/v0.9.8",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "url": "https://github.com/cjpais/Handy/releases/tag/v0.10.0",
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -107,16 +107,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cjpais/Handy/releases/latest",
         "facts": {
-          "tag": "v0.9.8",
+          "tag": "v0.10.0",
           "assets": [
-            "Handy_0.9.8_aarch64.dmg",
-            "Handy_0.9.8_x64.dmg"
+            "Handy_0.10.0_aarch64.dmg",
+            "Handy_0.10.0_x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cjpais/Handy/releases/tag/v0.9.8",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "url": "https://github.com/cjpais/Handy/releases/tag/v0.10.0",
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -125,18 +125,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/cjpais/Handy/releases/latest",
         "facts": {
-          "tag": "v0.9.8",
+          "tag": "v0.10.0",
           "assets": [
-            "Handy_0.9.8_arm64-setup.exe",
-            "Handy_0.9.8_arm64_en-US.msi",
-            "Handy_0.9.8_x64-setup.exe",
-            "Handy_0.9.8_x64_en-US.msi"
+            "Handy_0.10.0_arm64-setup.exe",
+            "Handy_0.10.0_arm64_en-US.msi",
+            "Handy_0.10.0_x64-setup.exe",
+            "Handy_0.10.0_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/cjpais/Handy/releases/tag/v0.9.8",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "url": "https://github.com/cjpais/Handy/releases/tag/v0.10.0",
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -147,7 +147,7 @@
         "facts": {
           "repository": "aur",
           "package": "handy",
-          "version": "0.9.8",
+          "version": "0.10.0",
           "project": "handy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -155,7 +155,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -169,12 +169,12 @@
           "version": "0.9.8",
           "project": "handy",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-25T08:13:53.669Z"
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -185,7 +185,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "handy",
-          "version": "0.9.8",
+          "version": "0.10.0",
           "project": "handy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -193,7 +193,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -207,12 +207,12 @@
           "version": "0.9.8",
           "project": "handy",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-12T13:49:21.839Z"
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       },
       {
@@ -223,7 +223,7 @@
         "facts": {
           "repository": "scoop",
           "package": "handy",
-          "version": "0.9.8",
+          "version": "0.10.0",
           "project": "handy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -231,7 +231,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-10-03T08:37:55.497Z"
+          "fetchedAt": "2026-11-09T14:42:23.970Z"
         }
       }
     ],

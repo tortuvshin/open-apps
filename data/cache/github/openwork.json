@@ -3,7 +3,7 @@
   "slug": "openwork",
   "repoUrl": "https://github.com/different-ai/openwork",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:17:38.106Z",
+  "lastSuccessAt": "2026-11-09T14:46:17.123Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:12.614Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "different-ai/openwork",
-      "stargazers_count": 24351,
-      "forks_count": 2469,
-      "open_issues_count": 334,
+      "stargazers_count": 24460,
+      "forks_count": 2484,
+      "open_issues_count": 411,
       "language": "TypeScript",
-      "pushed_at": "2026-10-31T16:52:57Z",
-      "updated_at": "2026-11-01T10:12:17Z",
+      "pushed_at": "2026-11-09T05:34:08Z",
+      "updated_at": "2026-11-09T13:38:11Z",
       "archived": false,
       "disabled": false,
       "default_branch": "dev",
@@ -50,10 +50,10 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-10-26T23:47:08Z",
+    "latestReleaseAt": "2026-11-05T07:43:34Z",
     "homepage": "https://openworklabs.com",
     "sync": {
-      "syncedAt": "2026-11-01T10:17:38.106Z",
+      "syncedAt": "2026-11-09T14:46:17.123Z",
       "source": "api"
     }
   },
@@ -80,20 +80,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.63",
+          "tag": "v0.18.65",
           "assets": [
-            "openwork-cloud-linux-arm64-0.18.63.AppImage",
-            "openwork-cloud-linux-x86_64-0.18.63.AppImage",
-            "openwork-enterprise-linux-arm64-0.18.63.AppImage",
-            "openwork-enterprise-linux-x86_64-0.18.63.AppImage",
-            "openwork-linux-arm64-0.18.63.AppImage",
-            "openwork-linux-x86_64-0.18.63.AppImage"
+            "openwork-cloud-linux-arm64-0.18.65.AppImage",
+            "openwork-cloud-linux-x86_64-0.18.65.AppImage",
+            "openwork-enterprise-linux-arm64-0.18.65.AppImage",
+            "openwork-enterprise-linux-x86_64-0.18.65.AppImage",
+            "openwork-linux-arm64-0.18.65.AppImage",
+            "openwork-linux-x86_64-0.18.65.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.63",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.65",
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -102,20 +102,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.63",
+          "tag": "v0.18.65",
           "assets": [
-            "openwork-cloud-mac-arm64-0.18.63.dmg",
-            "openwork-cloud-mac-x64-0.18.63.dmg",
-            "openwork-enterprise-mac-arm64-0.18.63.dmg",
-            "openwork-enterprise-mac-x64-0.18.63.dmg",
-            "openwork-mac-arm64-0.18.63.dmg",
-            "openwork-mac-x64-0.18.63.dmg"
+            "openwork-cloud-mac-arm64-0.18.65.dmg",
+            "openwork-cloud-mac-x64-0.18.65.dmg",
+            "openwork-enterprise-mac-arm64-0.18.65.dmg",
+            "openwork-enterprise-mac-x64-0.18.65.dmg",
+            "openwork-mac-arm64-0.18.65.dmg",
+            "openwork-mac-x64-0.18.65.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.63",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.65",
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -124,20 +124,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/different-ai/openwork/releases/latest",
         "facts": {
-          "tag": "v0.18.63",
+          "tag": "v0.18.65",
           "assets": [
-            "openwork-cloud-win-arm64-0.18.63.exe",
-            "openwork-cloud-win-x64-0.18.63.exe",
-            "openwork-enterprise-win-arm64-0.18.63.exe",
-            "openwork-enterprise-win-x64-0.18.63.exe",
-            "openwork-win-arm64-0.18.63.exe",
-            "openwork-win-x64-0.18.63.exe"
+            "openwork-cloud-win-arm64-0.18.65.exe",
+            "openwork-cloud-win-x64-0.18.65.exe",
+            "openwork-enterprise-win-arm64-0.18.65.exe",
+            "openwork-enterprise-win-x64-0.18.65.exe",
+            "openwork-win-arm64-0.18.65.exe",
+            "openwork-win-x64-0.18.65.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.63",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "url": "https://github.com/different-ai/openwork/releases/tag/v0.18.65",
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -148,7 +148,7 @@
         "facts": {
           "repository": "aur",
           "package": "openwork",
-          "version": "0.18.63",
+          "version": "0.18.65",
           "project": "openwork",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -156,7 +156,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -167,7 +167,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "openwork",
-          "version": "0.18.63",
+          "version": "0.18.65",
           "project": "openwork",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -175,7 +175,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -186,7 +186,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "openwork",
-          "version": "0.18.62",
+          "version": "0.18.63",
           "project": "openwork",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -194,7 +194,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {
@@ -205,7 +205,7 @@
         "facts": {
           "repository": "scoop",
           "package": "openwork",
-          "version": "0.18.63",
+          "version": "0.18.65",
           "project": "openwork",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -213,7 +213,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openwork/versions",
-          "fetchedAt": "2026-11-01T10:17:35.841Z"
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       }
     ],
@@ -230,6 +230,20 @@
           "source": "web-manifest",
           "url": "https://github.com/different-ai/openwork/blob/417244cffabddfec30982e3b8cdf21dd4e19134a/apps/app/public/manifest.webmanifest",
           "fetchedAt": "2026-09-28T17:12:10.074Z"
+        }
+      },
+      {
+        "url": "https://github.com/different-ai/openwork/blob/33f90022fbd99043da8eb22bdf4a2a947f97eb4f/ee/apps/workbot/src/client/public/icon-512.png",
+        "path": "ee/apps/workbot/src/client/public/icon-512.png",
+        "blobSha": "69f52cbf5146e9535784d4fb020624d21c53bc15",
+        "format": "png",
+        "bytes": 13625,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/different-ai/openwork/blob/33f90022fbd99043da8eb22bdf4a2a947f97eb4f/ee/apps/workbot/src/client/public/manifest.webmanifest",
+          "fetchedAt": "2026-11-09T14:46:14.247Z"
         }
       },
       {

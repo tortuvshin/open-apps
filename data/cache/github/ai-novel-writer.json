@@ -3,7 +3,7 @@
   "slug": "ai-novel-writer",
   "repoUrl": "https://github.com/EthanYoQ/AI-Novel-Writer",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:10:51.408Z",
+  "lastSuccessAt": "2026-11-09T14:39:00.188Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:34.282Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "书童 Pagekin（原名 AI 小说作家）：开源免费的 AI 长篇小说写作桌面软件，从设定、蓝图到正文、审稿、定稿；支持拆解仿写、续写、改写，可导入写作 Skill（如去 AI 味）。模型需自行配置，作品在本地。Pagekin (formerly AI Novel Writer): free, open-source AI novel writing app for long novels and web fiction. Imitate, continue, rewrite; import writing skills. Local-first, no model bundled. Windows & macOS.",
+  "sourceDescription": "Pagekin，免费 AI 小说写作软件，从设定、蓝图到正文、审稿、定稿；支持拆解仿写、续写、改写，可导入写作 Skill（如去 AI 味）。模型需自行配置，作品在本地。Pagekin (formerly AI Novel Writer): free, open-source AI novel writing app for long novels and web fiction. Imitate, continue, rewrite; import writing skills. Local-first, no model bundled. Windows & macOS.",
   "github": {
     "repository": {
-      "full_name": "EthanYoQ/AI-Novel-Writer",
-      "stargazers_count": 2190,
-      "forks_count": 255,
-      "open_issues_count": 12,
+      "full_name": "EthanYoQ/Pagekin",
+      "stargazers_count": 2495,
+      "forks_count": 311,
+      "open_issues_count": 19,
       "language": "TypeScript",
-      "pushed_at": "2026-10-29T03:03:36Z",
-      "updated_at": "2026-11-01T09:44:30Z",
+      "pushed_at": "2026-11-09T00:34:28Z",
+      "updated_at": "2026-11-09T14:35:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -73,10 +73,10 @@
     },
     "latestReleaseAt": "2026-10-29T03:04:06Z",
     "sync": {
-      "syncedAt": "2026-11-01T10:10:51.408Z",
+      "syncedAt": "2026-11-09T14:39:00.188Z",
       "source": "api"
     },
-    "homepage": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/latest"
+    "homepage": "https://www.orz.md/ai-novel-writer/"
   },
   "health": {
     "status": "mature",
@@ -109,8 +109,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.4.0",
-          "fetchedAt": "2026-11-01T10:10:49.499Z"
+          "url": "https://github.com/EthanYoQ/Pagekin/releases/tag/v1.4.0",
+          "fetchedAt": "2026-11-09T14:38:57.533Z"
         }
       },
       {
@@ -126,8 +126,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/EthanYoQ/AI-Novel-Writer/releases/tag/v1.4.0",
-          "fetchedAt": "2026-11-01T10:10:49.499Z"
+          "url": "https://github.com/EthanYoQ/Pagekin/releases/tag/v1.4.0",
+          "fetchedAt": "2026-11-09T14:38:57.533Z"
         }
       }
     ],

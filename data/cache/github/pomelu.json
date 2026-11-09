@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "slug": "pomelu",
+  "repoUrl": "https://github.com/ateymoori/pomelu",
+  "source": "api",
+  "lastSuccessAt": "2026-11-09T14:47:05.832Z",
+  "partialFailures": [],
+  "sourceDescription": "Pomelu: open-source Android & iOS app for Hermes Agent (Nous Research). Chat with your self-hosted AI agent on phone, foldable and tablet: voice, files, approvals, Bot Screen.",
+  "github": {
+    "repository": {
+      "full_name": "ateymoori/pomelu",
+      "stargazers_count": 8,
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "language": "Dart",
+      "pushed_at": "2026-11-06T16:25:54Z",
+      "updated_at": "2026-11-08T06:05:41Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "Apache-2.0",
+        "name": "Apache-2.0"
+      },
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "ai-chat",
+        "android",
+        "chat-client",
+        "dart",
+        "flutter",
+        "foldable",
+        "hermes",
+        "hermes-agent",
+        "ios",
+        "ipad",
+        "liquid-glass",
+        "llm",
+        "mobile-app",
+        "nous-research",
+        "novnc",
+        "open-source",
+        "riverpod",
+        "self-hosted"
+      ]
+    },
+    "latestReleaseAt": "2026-11-02T07:07:57Z",
+    "homepage": "https://royan.se/pomelu/",
+    "sync": {
+      "syncedAt": "2026-11-09T14:47:05.832Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/ateymoori/pomelu/releases/latest",
+        "facts": {
+          "tag": "v1.0.4",
+          "assets": [
+            "pomelu-1.0.4-arm64-v8a.apk",
+            "pomelu-1.0.4-universal.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/ateymoori/pomelu/releases/tag/v1.0.4",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/icon.png",
+        "path": "android/fastlane/metadata/android/en-US/images/icon.png",
+        "blobSha": "bc287fabb7af1362dac4596fb24fa58d859a5f24",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 231582,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/icon.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_icon_mono.png",
+        "path": "assets/images/pomelu_icon_mono.png",
+        "blobSha": "c52ca0f5a65388c17bde6043e6f065098770083a",
+        "format": "png",
+        "bytes": 131878,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_icon_mono.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_icon.png",
+        "path": "assets/images/pomelu_icon.png",
+        "blobSha": "a54c6064a887b23adcf73c687ca86623b2dab9f5",
+        "format": "png",
+        "bytes": 855212,
+        "width": 1024,
+        "height": 1024,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_icon.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_logo.png",
+        "path": "assets/images/pomelu_logo.png",
+        "blobSha": "d71927bf48e8b43484e88ca66368ec8e9690fddb",
+        "format": "png",
+        "bytes": 73663,
+        "width": 256,
+        "height": 256,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/assets/images/pomelu_logo.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      }
+    ],
+    "screenshots": [
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/01-chat.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/01-chat.png",
+        "blobSha": "9840d4388b47c75d2068118433c5b141a74c2165",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1009789,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/01-chat.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/02-bots.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/02-bots.png",
+        "blobSha": "4e7246dcda8ca55e1eaeebc6639d494378d6465f",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1069392,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/02-bots.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/03-code.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/03-code.png",
+        "blobSha": "f6952292a782398b8bddcfbccb731896ae5eb621",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1041166,
+        "width": 1080,
+        "height": 1920,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/03-code.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/04-plan.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/04-plan.png",
+        "blobSha": "e482e230664b072cf92519fb4381e6c71f5f66b2",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1062870,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/04-plan.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      },
+      {
+        "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/05-characters.png",
+        "path": "android/fastlane/metadata/android/en-US/images/phoneScreenshots/05-characters.png",
+        "blobSha": "bf6b3b57c47097f5f66cf18179e2902184012d98",
+        "locale": "en-US",
+        "format": "png",
+        "bytes": 1147688,
+        "provenance": {
+          "source": "fastlane",
+          "url": "https://github.com/ateymoori/pomelu/blob/457e02110b66e36a841670fbb0b6994d467c0674/android/fastlane/metadata/android/en-US/images/phoneScreenshots/05-characters.png",
+          "fetchedAt": "2026-11-09T14:47:01.150Z"
+        }
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "slug": "rustdesk",
   "repoUrl": "https://github.com/rustdesk/rustdesk",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:18:51.468Z",
+  "lastSuccessAt": "2026-11-09T14:47:50.867Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:49.907Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-01T10:18:51.468Z",
+      "syncedAt": "2026-11-09T14:47:50.867Z",
       "source": "api"
     },
     "repository": {
       "full_name": "rustdesk/rustdesk",
-      "stargazers_count": 127758,
-      "forks_count": 20220,
+      "stargazers_count": 128762,
+      "forks_count": 20471,
       "open_issues_count": 206,
       "language": "Rust",
-      "pushed_at": "2026-11-01T05:50:27Z",
-      "updated_at": "2026-11-01T09:54:45Z",
+      "pushed_at": "2026-11-09T09:43:51Z",
+      "updated_at": "2026-11-09T14:45:07Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -79,7 +79,7 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-30T16:11:03Z",
+    "latestReleaseAt": "2026-11-01T16:13:27Z",
     "homepage": "https://rustdesk.com"
   },
   "health": {
@@ -106,14 +106,14 @@
         "url": "https://f-droid.org/packages/com.carriez.flutter_hbb/",
         "facts": {
           "appId": "com.carriez.flutter_hbb",
-          "suggestedVersionCode": 104090003,
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/23e5bb471a040d62f0a6ad52591fb30784265b73/flutter/android/app/build.gradle",
+          "suggestedVersionCode": 105010003,
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/95cca3f661f635b3cc85c04935fe8d96d8f432ef/flutter/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.carriez.flutter_hbb",
-          "fetchedAt": "2026-11-01T10:18:49.602Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -124,12 +124,12 @@
         "facts": {
           "appId": "com.rustdesk.RustDesk",
           "match": "metainfo",
-          "evidence": "https://github.com/rustdesk/rustdesk/blob/23e5bb471a040d62f0a6ad52591fb30784265b73/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+          "evidence": "https://github.com/rustdesk/rustdesk/blob/95cca3f661f635b3cc85c04935fe8d96d8f432ef/flatpak/com.rustdesk.RustDesk.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/com.rustdesk.RustDesk",
-          "fetchedAt": "2026-11-01T10:18:49.602Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -138,18 +138,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/rustdesk/rustdesk/releases/latest",
         "facts": {
-          "tag": "1.5.0",
+          "tag": "1.5.1",
           "assets": [
-            "rustdesk-1.5.0-aarch64-signed.apk",
-            "rustdesk-1.5.0-armv7-signed.apk",
-            "rustdesk-1.5.0-universal-signed.apk",
-            "rustdesk-1.5.0-x86_64-signed.apk"
+            "rustdesk-1.5.1-aarch64-signed.apk",
+            "rustdesk-1.5.1-armv7-signed.apk",
+            "rustdesk-1.5.1-universal-signed.apk",
+            "rustdesk-1.5.1-x86_64-signed.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.1",
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -158,20 +158,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/rustdesk/rustdesk/releases/latest",
         "facts": {
-          "tag": "1.5.0",
+          "tag": "1.5.1",
           "assets": [
-            "rustdesk-1.5.0-0.aarch64-suse.rpm",
-            "rustdesk-1.5.0-0.aarch64.rpm",
-            "rustdesk-1.5.0-0.x86_64-suse.rpm",
-            "rustdesk-1.5.0-0.x86_64.rpm",
-            "rustdesk-1.5.0-aarch64.AppImage",
-            "rustdesk-1.5.0-aarch64.deb"
+            "rustdesk-1.5.1-0.aarch64-suse.rpm",
+            "rustdesk-1.5.1-0.aarch64.rpm",
+            "rustdesk-1.5.1-0.x86_64-suse.rpm",
+            "rustdesk-1.5.1-0.x86_64.rpm",
+            "rustdesk-1.5.1-aarch64.AppImage",
+            "rustdesk-1.5.1-aarch64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.1",
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -180,16 +180,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/rustdesk/rustdesk/releases/latest",
         "facts": {
-          "tag": "1.5.0",
+          "tag": "1.5.1",
           "assets": [
-            "rustdesk-1.5.0-aarch64.dmg",
-            "rustdesk-1.5.0-x86_64.dmg"
+            "rustdesk-1.5.1-aarch64.dmg",
+            "rustdesk-1.5.1-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.1",
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -198,19 +198,19 @@
         "label": "GitHub Releases",
         "url": "https://github.com/rustdesk/rustdesk/releases/latest",
         "facts": {
-          "tag": "1.5.0",
+          "tag": "1.5.1",
           "assets": [
-            "rustdesk-1.5.0-aarch64.exe",
-            "rustdesk-1.5.0-aarch64.msi",
-            "rustdesk-1.5.0-x86-sciter.exe",
-            "rustdesk-1.5.0-x86_64.exe",
-            "rustdesk-1.5.0-x86_64.msi"
+            "rustdesk-1.5.1-aarch64.exe",
+            "rustdesk-1.5.1-aarch64.msi",
+            "rustdesk-1.5.1-x86-sciter.exe",
+            "rustdesk-1.5.1-x86_64.exe",
+            "rustdesk-1.5.1-x86_64.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.1",
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -221,7 +221,7 @@
         "facts": {
           "repository": "aur",
           "package": "rustdesk",
-          "version": "1.5.0",
+          "version": "1.5.1",
           "project": "rustdesk",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -229,7 +229,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-07T02:29:40.934Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -243,12 +243,12 @@
           "version": "1.5.0",
           "project": "rustdesk",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-07T02:29:40.934Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -259,7 +259,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "rustdesk",
-          "version": "1.5.0",
+          "version": "1.5.1",
           "project": "rustdesk",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -267,7 +267,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -281,12 +281,12 @@
           "version": "1.5.0",
           "project": "rustdesk",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-12T13:54:06.452Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       },
       {
@@ -297,7 +297,7 @@
         "facts": {
           "repository": "scoop",
           "package": "rustdesk",
-          "version": "1.5.0",
+          "version": "1.5.1",
           "project": "rustdesk",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -305,7 +305,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rustdesk/versions",
-          "fetchedAt": "2026-10-03T08:41:53.048Z"
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       }
     ],
@@ -404,8 +404,8 @@
         "format": "png",
         "provenance": {
           "source": "appstream",
-          "url": "https://github.com/rustdesk/rustdesk/blob/23e5bb471a040d62f0a6ad52591fb30784265b73/flatpak/com.rustdesk.RustDesk.metainfo.xml",
-          "fetchedAt": "2026-11-01T10:18:49.602Z"
+          "url": "https://github.com/rustdesk/rustdesk/blob/95cca3f661f635b3cc85c04935fe8d96d8f432ef/flatpak/com.rustdesk.RustDesk.metainfo.xml",
+          "fetchedAt": "2026-11-09T14:47:49.020Z"
         }
       }
     ]

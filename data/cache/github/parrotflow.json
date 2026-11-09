@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "slug": "parrotflow",
+  "repoUrl": "https://github.com/znat/parrotflow",
+  "source": "api",
+  "lastSuccessAt": "2026-11-09T14:46:36.631Z",
+  "partialFailures": [],
+  "sourceDescription": "Scriptable local dictation that uses the text on your screen to fix names, and your rules to format numbers, dates, and links.",
+  "github": {
+    "repository": {
+      "full_name": "znat/parrotflow",
+      "stargazers_count": 18,
+      "forks_count": 6,
+      "open_issues_count": 1,
+      "language": "Swift",
+      "pushed_at": "2026-11-09T12:21:00Z",
+      "updated_at": "2026-11-09T12:20:39Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "GPL-3.0",
+        "name": "GPL-3.0"
+      },
+      "topics": [
+        "dictation",
+        "macos",
+        "parakeet",
+        "speech-to-text",
+        "whisper",
+        "wispr-flow",
+        "wispr-flow-alternative"
+      ]
+    },
+    "latestReleaseAt": "2026-11-09T10:27:12Z",
+    "homepage": "https://parrotflow.io",
+    "sync": {
+      "syncedAt": "2026-11-09T14:46:36.631Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/znat/parrotflow/blob/7a8d2e3072a938cd92f22d8920ac629da7da61bc/Resources/logo.svg",
+        "path": "Resources/logo.svg",
+        "blobSha": "b6c62078c14635c0aa1589e8be4714214d36d77f",
+        "format": "svg",
+        "bytes": 528,
+        "width": 18,
+        "height": 18,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/znat/parrotflow/blob/7a8d2e3072a938cd92f22d8920ac629da7da61bc/Resources/logo.svg",
+          "fetchedAt": "2026-11-09T14:46:34.104Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

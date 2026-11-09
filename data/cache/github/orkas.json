@@ -3,18 +3,18 @@
   "slug": "orkas",
   "repoUrl": "https://github.com/Orkas-AI/Orkas",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:17:51.485Z",
+  "lastSuccessAt": "2026-11-09T14:46:30.454Z",
   "partialFailures": [],
   "sourceDescription": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
   "github": {
     "repository": {
       "full_name": "Orkas-AI/Orkas",
-      "stargazers_count": 7039,
-      "forks_count": 449,
-      "open_issues_count": 7,
+      "stargazers_count": 9133,
+      "forks_count": 529,
+      "open_issues_count": 16,
       "language": "JavaScript",
-      "pushed_at": "2026-11-01T01:24:48Z",
-      "updated_at": "2026-11-01T10:15:38Z",
+      "pushed_at": "2026-11-09T01:23:57Z",
+      "updated_at": "2026-11-09T14:23:49Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +45,10 @@
         "task-automation"
       ]
     },
-    "latestReleaseAt": "2026-10-27T15:37:15Z",
+    "latestReleaseAt": "2026-11-04T15:59:03Z",
     "homepage": "https://orkas.ai?source=gh-orkas",
     "sync": {
-      "syncedAt": "2026-11-01T10:17:51.485Z",
+      "syncedAt": "2026-11-09T14:46:30.454Z",
       "source": "api"
     }
   },
@@ -75,16 +75,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
         "facts": {
-          "tag": "v2026.10.27",
+          "tag": "v2026.11.4",
           "assets": [
-            "Orkas-1.9.5-arm64.dmg",
-            "Orkas-1.9.5.dmg"
+            "Orkas-2.0.0-arm64.dmg",
+            "Orkas-2.0.0.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27",
-          "fetchedAt": "2026-11-01T10:17:49.412Z"
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4",
+          "fetchedAt": "2026-11-09T14:46:28.383Z"
         }
       },
       {
@@ -93,15 +93,34 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Orkas-AI/Orkas/releases/latest",
         "facts": {
-          "tag": "v2026.10.27",
+          "tag": "v2026.11.4",
           "assets": [
-            "Orkas.Setup.1.9.5.exe"
+            "Orkas.Setup.2.0.0.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27",
-          "fetchedAt": "2026-11-01T10:17:49.412Z"
+          "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4",
+          "fetchedAt": "2026-11-09T14:46:28.383Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/orkas",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "orkas",
+          "version": "1.9.0",
+          "project": "orkas",
+          "match": "project-name",
+          "versionMatchesRelease": false
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/orkas/versions",
+          "fetchedAt": "2026-11-09T14:46:28.383Z"
         }
       }
     ],

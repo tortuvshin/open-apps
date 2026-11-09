@@ -3,7 +3,7 @@
   "slug": "mangodisk",
   "repoUrl": "https://github.com/harry0703/MangoDisk",
   "source": "api",
-  "lastSuccessAt": "2026-11-01T10:15:42.054Z",
+  "lastSuccessAt": "2026-11-09T14:44:21.749Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:09.049Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "harry0703/MangoDisk",
-      "stargazers_count": 5103,
-      "forks_count": 346,
-      "open_issues_count": 13,
+      "stargazers_count": 5446,
+      "forks_count": 381,
+      "open_issues_count": 5,
       "language": "Rust",
-      "pushed_at": "2026-11-01T09:50:49Z",
-      "updated_at": "2026-11-01T10:09:47Z",
+      "pushed_at": "2026-11-06T09:36:50Z",
+      "updated_at": "2026-11-09T14:20:51Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -71,10 +71,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-11-01T09:21:46Z",
+    "latestReleaseAt": "2026-11-06T00:44:02Z",
     "homepage": "https://mangodisk.app/",
     "sync": {
-      "syncedAt": "2026-11-01T10:15:42.054Z",
+      "syncedAt": "2026-11-09T14:44:21.749Z",
       "source": "api"
     }
   },
@@ -101,18 +101,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.2.2",
+          "tag": "v1.2.3",
           "assets": [
-            "MangoDisk-1.2.2-linux-arm64.AppImage",
-            "MangoDisk-1.2.2-linux-arm64.deb",
-            "MangoDisk-1.2.2-linux-x64.AppImage",
-            "MangoDisk-1.2.2-linux-x64.deb"
+            "MangoDisk-1.2.3-linux-arm64.AppImage",
+            "MangoDisk-1.2.3-linux-arm64.deb",
+            "MangoDisk-1.2.3-linux-x64.AppImage",
+            "MangoDisk-1.2.3-linux-x64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.2",
-          "fetchedAt": "2026-11-01T10:15:40.093Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.3",
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
         }
       },
       {
@@ -121,15 +121,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.2.2",
+          "tag": "v1.2.3",
           "assets": [
-            "MangoDisk-1.2.2-macos.dmg"
+            "MangoDisk-1.2.3-macos.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.2",
-          "fetchedAt": "2026-11-01T10:15:40.093Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.3",
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
         }
       },
       {
@@ -138,17 +138,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/harry0703/MangoDisk/releases/latest",
         "facts": {
-          "tag": "v1.2.2",
+          "tag": "v1.2.3",
           "assets": [
-            "MangoDisk-1.2.2-windows-cli.exe",
-            "MangoDisk-1.2.2-windows-portable.exe",
-            "MangoDisk-1.2.2-windows.exe"
+            "MangoDisk-1.2.3-windows-cli.exe",
+            "MangoDisk-1.2.3-windows-portable.exe",
+            "MangoDisk-1.2.3-windows.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.2",
-          "fetchedAt": "2026-11-01T10:15:40.093Z"
+          "url": "https://github.com/harry0703/MangoDisk/releases/tag/v1.2.3",
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
         }
       },
       {
@@ -159,15 +159,15 @@
         "facts": {
           "repository": "aur",
           "package": "mangodisk-bin",
-          "version": "1.2.1",
+          "version": "1.2.3",
           "project": "mangodisk",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/mangodisk/versions",
-          "fetchedAt": "2026-11-01T10:15:40.093Z"
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
         }
       },
       {
@@ -178,7 +178,26 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "mangodisk",
-          "version": "1.2.1",
+          "version": "1.2.3",
+          "project": "mangodisk",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/mangodisk/versions",
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "windows",
+        "label": "Chocolatey",
+        "url": "https://community.chocolatey.org/packages/mangodisk",
+        "facts": {
+          "repository": "chocolatey",
+          "package": "mangodisk",
+          "version": "1.2.0",
           "project": "mangodisk",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -186,7 +205,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/mangodisk/versions",
-          "fetchedAt": "2026-11-01T10:15:40.093Z"
+          "fetchedAt": "2026-11-09T14:44:19.614Z"
         }
       }
     ],
