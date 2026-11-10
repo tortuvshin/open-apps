@@ -54,8 +54,9 @@ submittedBy: jurecki007
 ---
 Twenty-five tools for PDFs and images in one place: merge, split, rotate and
 reorder pages, compress, sign, fill forms, redact, add page numbers and
-watermarks, protect with a password, convert to and from Word, JPG, PNG and
-text, HEIC to JPG, strip metadata, remove image backgrounds, and OCR.
+watermarks, protect with a password, convert both ways between PDF and Word,
+JPG or PNG, extract text from a PDF, convert HEIC to JPG, clear the document
+information fields, remove image backgrounds, and OCR.
 
 The architecture is the point of interest. There is no backend: the site is
 static files, and every operation runs in the tab through WebAssembly. The
