@@ -45,6 +45,7 @@ caveats:
   - The browser version needs the network to load the page; its service worker caches nothing. Only the Windows build runs with no network.
   - Young project, first published in November 2026, with one main contributor and no stars yet.
   - The desktop build is Windows only; there is no macOS or Linux binary, and the installers are not yet code-signed.
+  - The website is English and Polish only. The other four translated locales (German, Spanish, French, Ukrainian) ship in the desktop app, not on the web.
 seo:
   title: "Nyxiontech PDF Tools – Open Source PDF Toolkit"
   description: Nyxiontech PDF Tools is a free browser PDF and image toolkit that merges, splits, signs, redacts, converts and OCRs files on your own device. Open source under AGPL-3.0.
@@ -66,8 +67,10 @@ connections to the site's own origin, so the claim can be checked rather than
 believed.
 
 The same codebase produces a Tauri desktop build for Windows, which runs the
-identical tools with no network. The web interface is in six languages. The
-project is self-hostable under AGPL-3.0.
+identical tools with no network. The website is in English and Polish, because
+there the address decides the language; the desktop app carries all six of the
+translated locales (English, Polish, German, Spanish, French and Ukrainian).
+The project is self-hostable under AGPL-3.0.
 
 On the directory's star guidance: this repository has no stars, because it was
 first published in November 2026. What is there instead is a tagged v1.1.0
