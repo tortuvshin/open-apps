@@ -13,6 +13,23 @@ platforms:
   - windows
 licenses:
   - agpl-3.0
+links:
+  github: https://github.com/jurecki007/nyxiontech-tools
+  website: https://tools.nyxiontech.com
+distribution:
+  channels:
+    - type: web-app
+      url: https://tools.nyxiontech.com
+      platform: web
+      label: Open in the browser
+    - type: github-releases
+      url: https://github.com/jurecki007/nyxiontech-tools/releases/latest
+      platform: windows
+      label: Windows installer (.exe and .msi)
+      notes: Not yet code-signed, so Windows SmartScreen shows a warning on first run.
+    - type: self-host
+      url: https://github.com/jurecki007/nyxiontech-tools#self-hosting
+      label: Self-host the static build
 tags:
   - pdf
   - ocr
