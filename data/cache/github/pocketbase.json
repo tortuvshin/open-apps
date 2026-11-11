@@ -3,7 +3,7 @@
   "slug": "pocketbase",
   "repoUrl": "https://github.com/pocketbase/pocketbase",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:03:34.778Z",
+  "lastSuccessAt": "2026-11-11T18:48:17.036Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:27.902Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "pocketbase/pocketbase",
-      "stargazers_count": 61602,
-      "forks_count": 3775,
+      "stargazers_count": 61597,
+      "forks_count": 3773,
       "open_issues_count": 1,
       "language": "Go",
       "pushed_at": "2026-10-26T18:07:11Z",
-      "updated_at": "2026-11-08T09:08:29Z",
+      "updated_at": "2026-11-11T15:44:41Z",
       "archived": true,
       "disabled": false,
       "default_branch": "master",
@@ -48,7 +48,7 @@
     "latestReleaseAt": "2026-10-23T11:21:45Z",
     "homepage": "https://pocketbase.io",
     "sync": {
-      "syncedAt": "2026-11-08T10:03:34.778Z",
+      "syncedAt": "2026-11-11T18:48:17.036Z",
       "source": "api"
     }
   },
@@ -76,7 +76,7 @@
         "facts": {
           "repository": "aur",
           "package": "pocketbase-bin",
-          "version": "0.41.1",
+          "version": "0.42.0",
           "project": "pocketbase",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -84,7 +84,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/pocketbase/versions",
-          "fetchedAt": "2026-11-01T10:18:14.250Z"
+          "fetchedAt": "2026-11-11T18:48:15.182Z"
         }
       },
       {
@@ -114,7 +114,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "pocketbase",
-          "version": "0.41.1",
+          "version": "0.42.0",
           "project": "pocketbase",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -122,7 +122,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/pocketbase/versions",
-          "fetchedAt": "2026-11-01T10:18:14.250Z"
+          "fetchedAt": "2026-11-11T18:48:15.182Z"
         }
       },
       {

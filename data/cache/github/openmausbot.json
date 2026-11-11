@@ -3,7 +3,7 @@
   "slug": "openmausbot",
   "repoUrl": "https://github.com/milind-soni/OpenMausBot",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:02:36.585Z",
+  "lastSuccessAt": "2026-11-11T18:47:20.521Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:05.126Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "milind-soni/OpenMausBot",
-      "stargazers_count": 17498,
-      "forks_count": 2456,
-      "open_issues_count": 872,
+      "stargazers_count": 21154,
+      "forks_count": 2947,
+      "open_issues_count": 1029,
       "language": "TypeScript",
-      "pushed_at": "2026-11-08T08:25:32Z",
-      "updated_at": "2026-11-08T10:01:25Z",
+      "pushed_at": "2026-11-11T18:42:33Z",
+      "updated_at": "2026-11-11T18:46:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -55,7 +55,6 @@
         "computer-use",
         "docker",
         "electron",
-        "expo",
         "grok",
         "grok-bot",
         "grok-bot-alternative",
@@ -63,10 +62,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-11-07T21:50:56Z",
-    "homepage": "https://www.openmausbot.com/",
+    "latestReleaseAt": "2026-11-11T13:24:23Z",
+    "homepage": "https://www.mausbot.com/",
     "sync": {
-      "syncedAt": "2026-11-08T10:02:36.585Z",
+      "syncedAt": "2026-11-11T18:47:20.521Z",
       "source": "api"
     }
   },
@@ -93,18 +92,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.148",
+          "tag": "v0.1.153",
           "assets": [
-            "OpenMausBot-0.1.148-amd64.deb",
-            "OpenMausBot-0.1.148-x86_64.AppImage",
+            "OpenMausBot-0.1.153-amd64.deb",
+            "OpenMausBot-0.1.153-x86_64.AppImage",
             "OpenMausBot-amd64.deb",
             "OpenMausBot.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148",
-          "fetchedAt": "2026-11-08T10:02:34.322Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.153",
+          "fetchedAt": "2026-11-11T18:47:18.260Z"
         }
       },
       {
@@ -113,18 +112,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.148",
+          "tag": "v0.1.153",
           "assets": [
-            "OpenMausBot-0.1.148-arm64.dmg",
-            "OpenMausBot-0.1.148-x64.dmg",
+            "OpenMausBot-0.1.153-arm64.dmg",
+            "OpenMausBot-0.1.153-x64.dmg",
             "OpenMausBot-intel.dmg",
             "OpenMausBot.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148",
-          "fetchedAt": "2026-11-08T10:02:34.322Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.153",
+          "fetchedAt": "2026-11-11T18:47:18.260Z"
         }
       },
       {
@@ -133,16 +132,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/milind-soni/OpenMausBot/releases/latest",
         "facts": {
-          "tag": "v0.1.148",
+          "tag": "v0.1.153",
           "assets": [
-            "OpenMausBot-0.1.148-setup.exe",
+            "OpenMausBot-0.1.153-setup.exe",
             "OpenMausBot-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148",
-          "fetchedAt": "2026-11-08T10:02:34.322Z"
+          "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.153",
+          "fetchedAt": "2026-11-11T18:47:18.260Z"
         }
       },
       {
@@ -153,15 +152,15 @@
         "facts": {
           "repository": "aur",
           "package": "openmausbot-bin",
-          "version": "0.1.146",
+          "version": "0.1.153",
           "project": "openmausbot",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/openmausbot/versions",
-          "fetchedAt": "2026-11-08T10:02:34.322Z"
+          "fetchedAt": "2026-11-11T18:47:18.260Z"
         }
       }
     ],

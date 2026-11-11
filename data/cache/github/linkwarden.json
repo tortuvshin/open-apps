@@ -3,7 +3,7 @@
   "slug": "linkwarden",
   "repoUrl": "https://github.com/linkwarden/linkwarden",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:00:47.481Z",
+  "lastSuccessAt": "2026-11-11T18:45:38.664Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:59.767Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/linkwarden/linkwarden/releases{/id}",
       "deployments_url": "https://api.github.com/repos/linkwarden/linkwarden/deployments",
       "created_at": "2022-04-09T07:53:01Z",
-      "updated_at": "2026-11-08T07:59:12Z",
-      "pushed_at": "2026-10-26T02:39:35Z",
+      "updated_at": "2026-11-11T18:09:51Z",
+      "pushed_at": "2026-11-10T18:30:29Z",
       "git_url": "git://github.com/linkwarden/linkwarden.git",
       "ssh_url": "git@github.com:linkwarden/linkwarden.git",
       "clone_url": "https://github.com/linkwarden/linkwarden.git",
       "svn_url": "https://github.com/linkwarden/linkwarden",
       "homepage": "https://linkwarden.app",
       "size": 36884,
-      "stargazers_count": 20341,
+      "stargazers_count": 20388,
       "watchers_count": 19029,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 894,
+      "forks_count": 891,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 704,
+      "open_issues_count": 699,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -220,7 +220,7 @@
       "openPullRequests": 28
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:00:47.481Z",
+      "syncedAt": "2026-11-11T18:45:38.664Z",
       "source": "api"
     },
     "html": {
@@ -228,7 +228,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-09-09T21:34:39Z",
+    "latestReleaseAt": "2026-11-10T18:30:29Z",
     "homepage": "https://linkwarden.app"
   },
   "health": {
@@ -256,7 +256,7 @@
         "facts": {
           "repository": "aur",
           "package": "linkwarden",
-          "version": "2.16.3",
+          "version": "2.17.0",
           "project": "linkwarden",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -264,7 +264,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/linkwarden/versions",
-          "fetchedAt": "2026-10-03T08:39:08.395Z"
+          "fetchedAt": "2026-11-11T18:45:36.521Z"
         }
       },
       {

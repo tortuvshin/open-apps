@@ -3,7 +3,7 @@
   "slug": "rome",
   "repoUrl": "https://github.com/rome-os/rome",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:04:10.648Z",
+  "lastSuccessAt": "2026-11-11T18:48:49.402Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:45.379Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "rome-os/rome",
-      "stargazers_count": 894,
-      "forks_count": 69,
-      "open_issues_count": 312,
+      "stargazers_count": 896,
+      "forks_count": 68,
+      "open_issues_count": 331,
       "language": "TypeScript",
-      "pushed_at": "2026-11-08T09:42:53Z",
-      "updated_at": "2026-11-08T09:42:56Z",
+      "pushed_at": "2026-11-11T18:40:18Z",
+      "updated_at": "2026-11-11T18:16:39Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -64,10 +64,10 @@
         "workflow-automation"
       ]
     },
-    "latestReleaseAt": "2026-11-05T19:09:52Z",
+    "latestReleaseAt": "2026-11-11T04:31:40Z",
     "homepage": "https://romeos.cc",
     "sync": {
-      "syncedAt": "2026-11-08T10:04:10.648Z",
+      "syncedAt": "2026-11-11T18:48:49.402Z",
       "source": "api"
     }
   },
@@ -120,20 +120,6 @@
         "provenance": {
           "source": "web-manifest",
           "url": "https://github.com/rome-os/rome/blob/8a436b87bb745fa51880157267501cdd5f8e0582/packages/web/public/manifest.webmanifest",
-          "fetchedAt": "2026-09-28T17:12:43.088Z"
-        }
-      },
-      {
-        "url": "https://github.com/rome-os/rome/blob/8a436b87bb745fa51880157267501cdd5f8e0582/packages/mobile/assets/icon.png",
-        "path": "packages/mobile/assets/icon.png",
-        "blobSha": "1ef54ee1d565fbc876ad98cd6a8295c961585f61",
-        "format": "png",
-        "bytes": 27131,
-        "width": 1024,
-        "height": 1024,
-        "provenance": {
-          "source": "repo-asset",
-          "url": "https://github.com/rome-os/rome/blob/8a436b87bb745fa51880157267501cdd5f8e0582/packages/mobile/assets/icon.png",
           "fetchedAt": "2026-09-28T17:12:43.088Z"
         }
       },

@@ -3,7 +3,7 @@
   "slug": "wox",
   "repoUrl": "https://github.com/Wox-launcher/Wox",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:06:22.475Z",
+  "lastSuccessAt": "2026-11-11T18:51:01.919Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:38:07.408Z",
@@ -30,12 +30,12 @@
   "github": {
     "repository": {
       "full_name": "Wox-launcher/Wox",
-      "stargazers_count": 27617,
-      "forks_count": 2447,
+      "stargazers_count": 27629,
+      "forks_count": 2448,
       "open_issues_count": 2,
       "language": "Go",
-      "pushed_at": "2026-11-08T09:45:45Z",
-      "updated_at": "2026-11-08T09:45:52Z",
+      "pushed_at": "2026-11-11T15:03:31Z",
+      "updated_at": "2026-11-11T15:05:29Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -57,10 +57,10 @@
         "wox-launcher"
       ]
     },
-    "latestReleaseAt": "2026-10-31T06:26:49Z",
+    "latestReleaseAt": "2026-11-09T06:12:08Z",
     "homepage": "https://woxlauncher.com",
     "sync": {
-      "syncedAt": "2026-11-08T10:06:22.475Z",
+      "syncedAt": "2026-11-11T18:51:01.919Z",
       "source": "api"
     }
   },
@@ -87,7 +87,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Wox-launcher/Wox/releases/latest",
         "facts": {
-          "tag": "v2.4.9",
+          "tag": "v2.5.0",
           "assets": [
             "wox-linux-amd64.AppImage",
             "wox-linux-amd64.deb",
@@ -96,8 +96,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.4.9",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.5.0",
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       },
       {
@@ -106,7 +106,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Wox-launcher/Wox/releases/latest",
         "facts": {
-          "tag": "v2.4.9",
+          "tag": "v2.5.0",
           "assets": [
             "wox-mac-amd64.dmg",
             "wox-mac-arm64.dmg"
@@ -114,8 +114,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.4.9",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.5.0",
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       },
       {
@@ -124,15 +124,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Wox-launcher/Wox/releases/latest",
         "facts": {
-          "tag": "v2.4.9",
+          "tag": "v2.5.0",
           "assets": [
             "wox-windows-amd64.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.4.9",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "url": "https://github.com/Wox-launcher/Wox/releases/tag/v2.5.0",
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       },
       {
@@ -143,7 +143,7 @@
         "facts": {
           "repository": "aur",
           "package": "wox-bin",
-          "version": "2.4.9",
+          "version": "2.5.0",
           "project": "wox",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -151,7 +151,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       },
       {
@@ -181,7 +181,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "wox",
-          "version": "2.4.9",
+          "version": "2.5.0",
           "project": "wox",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -189,7 +189,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       },
       {
@@ -219,7 +219,7 @@
         "facts": {
           "repository": "scoop",
           "package": "wox",
-          "version": "2.4.9",
+          "version": "2.5.0",
           "project": "wox",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -227,7 +227,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/wox/versions",
-          "fetchedAt": "2026-11-01T10:21:03.100Z"
+          "fetchedAt": "2026-11-11T18:50:58.855Z"
         }
       }
     ],

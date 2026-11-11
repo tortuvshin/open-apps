@@ -3,7 +3,7 @@
   "slug": "rockxy",
   "repoUrl": "https://github.com/RockxyApp/Rockxy",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:04:07.893Z",
+  "lastSuccessAt": "2026-11-11T18:48:46.942Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:42.735Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:04:07.893Z",
+      "syncedAt": "2026-11-11T18:48:46.942Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RockxyApp/Rockxy",
-      "stargazers_count": 1465,
-      "forks_count": 84,
+      "stargazers_count": 1487,
+      "forks_count": 85,
       "open_issues_count": 85,
       "language": "Swift",
-      "pushed_at": "2026-11-06T09:24:06Z",
-      "updated_at": "2026-11-08T03:11:07Z",
+      "pushed_at": "2026-11-09T06:24:26Z",
+      "updated_at": "2026-11-11T15:01:59Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -80,7 +80,7 @@
         "websocket"
       ]
     },
-    "latestReleaseAt": "2026-10-08T07:05:42Z",
+    "latestReleaseAt": "2026-11-09T06:24:35Z",
     "homepage": "https://rockxy.io"
   },
   "health": {
@@ -106,15 +106,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/RockxyApp/Rockxy/releases/latest",
         "facts": {
-          "tag": "v0.41.0",
+          "tag": "v0.42.0",
           "assets": [
-            "Rockxy-0.41.0-62.dmg"
+            "Rockxy-0.42.0-63.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/RockxyApp/Rockxy/releases/tag/v0.41.0",
-          "fetchedAt": "2026-10-11T09:51:04.327Z"
+          "url": "https://github.com/RockxyApp/Rockxy/releases/tag/v0.42.0",
+          "fetchedAt": "2026-11-11T18:48:44.429Z"
         }
       },
       {
@@ -125,7 +125,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "rockxy",
-          "version": "0.41.0",
+          "version": "0.42.0",
           "project": "rockxy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -133,7 +133,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/rockxy/versions",
-          "fetchedAt": "2026-10-11T09:51:04.327Z"
+          "fetchedAt": "2026-11-11T18:48:44.429Z"
         }
       }
     ],

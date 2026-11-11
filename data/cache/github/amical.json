@@ -3,7 +3,7 @@
   "slug": "amical",
   "repoUrl": "https://github.com/amicalhq/amical",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T09:56:26.764Z",
+  "lastSuccessAt": "2026-11-11T18:41:09.386Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:11:39.675Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "amicalhq/amical",
-      "stargazers_count": 1600,
+      "stargazers_count": 1608,
       "forks_count": 144,
-      "open_issues_count": 56,
+      "open_issues_count": 39,
       "language": "TypeScript",
-      "pushed_at": "2026-11-07T20:40:55Z",
-      "updated_at": "2026-11-07T20:40:57Z",
+      "pushed_at": "2026-11-10T20:23:17Z",
+      "updated_at": "2026-11-11T12:19:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +60,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-11-07T22:12:46Z",
+    "latestReleaseAt": "2026-11-11T06:26:48Z",
     "homepage": "https://amical.ai",
     "sync": {
-      "syncedAt": "2026-11-08T09:56:26.764Z",
+      "syncedAt": "2026-11-11T18:41:09.386Z",
       "source": "api"
     }
   },
@@ -90,7 +90,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/amicalhq/amical/releases/latest",
         "facts": {
-          "tag": "v1.13.0",
+          "tag": "v1.13.1",
           "assets": [
             "Amical-macos-arm64.dmg",
             "Amical-macos-x64.dmg"
@@ -98,8 +98,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/amicalhq/amical/releases/tag/v1.13.0",
-          "fetchedAt": "2026-11-08T09:56:24.514Z"
+          "url": "https://github.com/amicalhq/amical/releases/tag/v1.13.1",
+          "fetchedAt": "2026-11-11T18:41:07.380Z"
         }
       },
       {
@@ -108,7 +108,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/amicalhq/amical/releases/latest",
         "facts": {
-          "tag": "v1.13.0",
+          "tag": "v1.13.1",
           "assets": [
             "Amical-windows-arm64.exe",
             "Amical-windows-x64.exe"
@@ -116,8 +116,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/amicalhq/amical/releases/tag/v1.13.0",
-          "fetchedAt": "2026-11-08T09:56:24.514Z"
+          "url": "https://github.com/amicalhq/amical/releases/tag/v1.13.1",
+          "fetchedAt": "2026-11-11T18:41:07.380Z"
         }
       },
       {
@@ -128,7 +128,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "amical",
-          "version": "1.13.0",
+          "version": "1.13.1",
           "project": "amical",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -136,7 +136,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/amical/versions",
-          "fetchedAt": "2026-11-08T09:56:24.514Z"
+          "fetchedAt": "2026-11-11T18:41:07.380Z"
         }
       }
     ],
