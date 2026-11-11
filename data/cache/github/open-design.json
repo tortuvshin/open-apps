@@ -3,7 +3,7 @@
   "slug": "open-design",
   "repoUrl": "https://github.com/nexu-io/open-design",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:02:15.174Z",
+  "lastSuccessAt": "2026-11-11T18:46:58.299Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:53.492Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:02:15.174Z",
+      "syncedAt": "2026-11-11T18:46:58.299Z",
       "source": "api"
     },
     "repository": {
       "full_name": "nexu-io/open-design",
-      "stargazers_count": 106553,
-      "forks_count": 12128,
-      "open_issues_count": 1377,
+      "stargazers_count": 107196,
+      "forks_count": 12189,
+      "open_issues_count": 1381,
       "language": "TypeScript",
-      "pushed_at": "2026-11-08T06:26:58Z",
-      "updated_at": "2026-11-08T10:01:15Z",
+      "pushed_at": "2026-11-11T18:05:44Z",
+      "updated_at": "2026-11-11T18:34:35Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -80,7 +80,7 @@
         "vibe-coding"
       ]
     },
-    "latestReleaseAt": "2026-11-04T04:02:06Z",
+    "latestReleaseAt": "2026-11-10T03:03:29Z",
     "homepage": "https://open-design.ai"
   },
   "health": {
@@ -106,16 +106,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/nexu-io/open-design/releases/latest",
         "facts": {
-          "tag": "open-design-v0.27.0",
+          "tag": "open-design-v0.27.1",
           "assets": [
-            "open-design-0.27.0-mac-arm64.dmg",
-            "open-design-0.27.0-mac-x64.dmg"
+            "open-design-0.27.1-mac-arm64.dmg",
+            "open-design-0.27.1-mac-x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0",
-          "fetchedAt": "2026-11-08T10:02:13.592Z"
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1",
+          "fetchedAt": "2026-11-11T18:46:57.066Z"
         }
       },
       {
@@ -124,15 +124,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/nexu-io/open-design/releases/latest",
         "facts": {
-          "tag": "open-design-v0.27.0",
+          "tag": "open-design-v0.27.1",
           "assets": [
-            "open-design-0.27.0-win-x64-setup.exe"
+            "open-design-0.27.1-win-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0",
-          "fetchedAt": "2026-11-08T10:02:13.592Z"
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1",
+          "fetchedAt": "2026-11-11T18:46:57.066Z"
         }
       },
       {
@@ -143,7 +143,7 @@
         "facts": {
           "repository": "aur",
           "package": "open-design",
-          "version": "0.27.0",
+          "version": "0.27.1",
           "project": "open-design",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -151,7 +151,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/open-design/versions",
-          "fetchedAt": "2026-11-08T10:02:13.592Z"
+          "fetchedAt": "2026-11-11T18:46:57.066Z"
         }
       },
       {
@@ -162,7 +162,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "open-design",
-          "version": "0.27.0",
+          "version": "0.27.1",
           "project": "open-design",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -170,7 +170,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/open-design/versions",
-          "fetchedAt": "2026-11-08T10:02:13.592Z"
+          "fetchedAt": "2026-11-11T18:46:57.066Z"
         }
       }
     ],

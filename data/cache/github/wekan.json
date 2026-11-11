@@ -3,7 +3,7 @@
   "slug": "wekan",
   "repoUrl": "https://github.com/wekan/wekan",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:06:16.533Z",
+  "lastSuccessAt": "2026-11-11T18:50:56.098Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:35.960Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "wekan/wekan",
-      "stargazers_count": 21159,
-      "forks_count": 3004,
-      "open_issues_count": 0,
+      "stargazers_count": 21168,
+      "forks_count": 3002,
+      "open_issues_count": 3,
       "language": "JavaScript",
-      "pushed_at": "2026-11-08T04:56:35Z",
-      "updated_at": "2026-11-08T09:08:06Z",
+      "pushed_at": "2026-11-11T17:54:56Z",
+      "updated_at": "2026-11-11T15:39:08Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -50,10 +50,10 @@
         "wekan"
       ]
     },
-    "latestReleaseAt": "2026-11-07T23:58:43Z",
+    "latestReleaseAt": "2026-11-10T22:54:46Z",
     "homepage": "https://wekan.fi",
     "sync": {
-      "syncedAt": "2026-11-08T10:06:16.533Z",
+      "syncedAt": "2026-11-11T18:50:56.098Z",
       "source": "api"
     }
   },
@@ -80,20 +80,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/wekan/wekan/releases/latest",
         "facts": {
-          "tag": "v13.01",
+          "tag": "v13.06",
           "assets": [
-            "WeKan-13.01-aarch64-musl.AppImage",
-            "WeKan-13.01-aarch64.AppImage",
-            "WeKan-13.01-i686.AppImage",
-            "WeKan-13.01-x86_64-musl.AppImage",
-            "WeKan-13.01-x86_64.AppImage",
-            "wekan_13.01_amd64.snap"
+            "WeKan-13.06-aarch64-musl.AppImage",
+            "WeKan-13.06-aarch64.AppImage",
+            "WeKan-13.06-armhf.AppImage",
+            "WeKan-13.06-i686.AppImage",
+            "WeKan-13.06-x86_64-musl.AppImage",
+            "WeKan-13.06-x86_64.AppImage"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/wekan/wekan/releases/tag/v13.01",
-          "fetchedAt": "2026-11-08T10:06:13.997Z"
+          "url": "https://github.com/wekan/wekan/releases/tag/v13.06",
+          "fetchedAt": "2026-11-11T18:50:53.202Z"
         }
       },
       {
@@ -102,20 +102,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/wekan/wekan/releases/latest",
         "facts": {
-          "tag": "v13.01",
+          "tag": "v13.06",
           "assets": [
-            "WeKan-13.01-win64.exe",
-            "wekan-13.01-bun-windows-arm64-single-file.exe",
-            "wekan-13.01-bun-windows-x64-single-file.exe",
-            "wekan-13.01-win-arm64-single-file.exe",
-            "wekan-13.01-win32-single-file.exe",
-            "wekan-13.01-win64-single-file.exe"
+            "WeKan-13.06-win64.exe",
+            "wekan-13.06-bun-windows-arm64-single-file.exe",
+            "wekan-13.06-bun-windows-x64-single-file.exe",
+            "wekan-13.06-win-arm64-single-file.exe",
+            "wekan-13.06-win32-single-file.exe",
+            "wekan-13.06-win64-single-file.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/wekan/wekan/releases/tag/v13.01",
-          "fetchedAt": "2026-11-08T10:06:13.997Z"
+          "url": "https://github.com/wekan/wekan/releases/tag/v13.06",
+          "fetchedAt": "2026-11-11T18:50:53.202Z"
         }
       }
     ],

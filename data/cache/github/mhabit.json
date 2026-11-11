@@ -3,7 +3,7 @@
   "slug": "mhabit",
   "repoUrl": "https://github.com/FriesI23/mhabit",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:01:29.343Z",
+  "lastSuccessAt": "2026-11-11T18:46:25.141Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:30.058Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:01:29.343Z",
+      "syncedAt": "2026-11-11T18:46:25.141Z",
       "source": "api"
     },
     "repository": {
       "full_name": "FriesI23/mhabit",
       "stargazers_count": 1692,
       "forks_count": 106,
-      "open_issues_count": 97,
+      "open_issues_count": 94,
       "language": "Dart",
-      "pushed_at": "2026-11-07T07:54:56Z",
-      "updated_at": "2026-11-08T06:01:35Z",
+      "pushed_at": "2026-11-11T14:21:42Z",
+      "updated_at": "2026-11-10T03:45:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -108,13 +108,13 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "suggestedVersionCode": 207,
-          "evidence": "https://github.com/FriesI23/mhabit/blob/a46b87c83dbabac71fccff857faca1b471ae9c96/android/app/build.gradle",
+          "evidence": "https://github.com/FriesI23/mhabit/blob/ef4e9d1b8d5b29b04f1941cabb9cc86d80449636/android/app/build.gradle",
           "fastlane": "fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-11-08T10:01:27.822Z"
+          "fetchedAt": "2026-11-11T18:46:23.146Z"
         }
       },
       {
@@ -125,12 +125,12 @@
         "facts": {
           "appId": "io.github.friesi23.mhabit",
           "match": "metainfo",
-          "evidence": "https://github.com/FriesI23/mhabit/blob/a46b87c83dbabac71fccff857faca1b471ae9c96/flatpak/io.github.friesi23.mhabit.metainfo.xml"
+          "evidence": "https://github.com/FriesI23/mhabit/blob/ef4e9d1b8d5b29b04f1941cabb9cc86d80449636/flatpak/io.github.friesi23.mhabit.metainfo.xml"
         },
         "provenance": {
           "source": "flathub",
           "url": "https://flathub.org/api/v2/appstream/io.github.friesi23.mhabit",
-          "fetchedAt": "2026-11-08T10:01:27.822Z"
+          "fetchedAt": "2026-11-11T18:46:23.146Z"
         }
       },
       {

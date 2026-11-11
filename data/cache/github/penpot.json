@@ -3,7 +3,7 @@
   "slug": "penpot",
   "repoUrl": "https://github.com/penpot/penpot",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:03:20.905Z",
+  "lastSuccessAt": "2026-11-11T18:48:04.584Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:17.039Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "penpot/penpot",
-      "stargazers_count": 62178,
-      "forks_count": 4384,
-      "open_issues_count": 938,
+      "stargazers_count": 62279,
+      "forks_count": 4404,
+      "open_issues_count": 947,
       "language": "Clojure",
-      "pushed_at": "2026-11-08T09:02:53Z",
-      "updated_at": "2026-11-08T09:35:04Z",
+      "pushed_at": "2026-11-11T17:38:57Z",
+      "updated_at": "2026-11-11T18:44:26Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -48,10 +48,10 @@
         "ux-experience"
       ]
     },
-    "latestReleaseAt": "2026-11-04T17:11:15Z",
+    "latestReleaseAt": "2026-11-11T10:03:30Z",
     "homepage": "https://penpot.app",
     "sync": {
-      "syncedAt": "2026-11-08T10:03:20.905Z",
+      "syncedAt": "2026-11-11T18:48:04.584Z",
       "source": "api"
     }
   },
@@ -80,7 +80,7 @@
         "facts": {
           "repository": "aur",
           "package": "penpot",
-          "version": "2.18.4",
+          "version": "2.19.0",
           "project": "penpot",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -88,7 +88,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/penpot/versions",
-          "fetchedAt": "2026-11-01T10:17:59.988Z"
+          "fetchedAt": "2026-11-11T18:48:02.343Z"
         }
       }
     ],

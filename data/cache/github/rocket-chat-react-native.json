@@ -3,7 +3,7 @@
   "slug": "rocket-chat-react-native",
   "repoUrl": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:04:05.091Z",
+  "lastSuccessAt": "2026-11-11T18:48:43.988Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:39.543Z",
@@ -101,8 +101,8 @@
       "releases_url": "https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/releases{/id}",
       "deployments_url": "https://api.github.com/repos/RocketChat/Rocket.Chat.ReactNative/deployments",
       "created_at": "2017-08-03T18:21:33Z",
-      "updated_at": "2026-11-05T23:52:20Z",
-      "pushed_at": "2026-11-06T23:36:41Z",
+      "updated_at": "2026-11-11T16:00:16Z",
+      "pushed_at": "2026-11-11T15:13:53Z",
       "git_url": "git://github.com/RocketChat/Rocket.Chat.ReactNative.git",
       "ssh_url": "git@github.com:RocketChat/Rocket.Chat.ReactNative.git",
       "clone_url": "https://github.com/RocketChat/Rocket.Chat.ReactNative.git",
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1480,
+      "forks_count": 1482,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 544,
+      "open_issues_count": 546,
       "license": {
         "spdx_id": "MIT",
         "name": "MIT"
@@ -209,7 +209,7 @@
       "contributorsKnown": 139
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:04:05.091Z",
+      "syncedAt": "2026-11-11T18:48:43.988Z",
       "source": "api"
     },
     "languages": {
@@ -230,7 +230,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-11-04T16:06:44Z",
+    "latestReleaseAt": "2026-11-09T21:46:30Z",
     "homepage": "https://rocket.chat"
   },
   "health": {
@@ -249,7 +249,42 @@
     ]
   },
   "candidates": {
-    "channels": [],
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "android",
+        "label": "GitHub Releases",
+        "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/latest",
+        "facts": {
+          "tag": "4.78.1",
+          "assets": [
+            "android-release.apk"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/tag/4.78.1",
+          "fetchedAt": "2026-11-11T18:48:42.875Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "ios",
+        "label": "GitHub Releases",
+        "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/latest",
+        "facts": {
+          "tag": "4.78.1",
+          "assets": [
+            "ios-release.ipa"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/releases/tag/4.78.1",
+          "fetchedAt": "2026-11-11T18:48:42.875Z"
+        }
+      }
+    ],
     "logos": [
       {
         "url": "https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/94b6363608b26c224f239b1ed8688b65788b3b3b/app/static/images/logo.png",
