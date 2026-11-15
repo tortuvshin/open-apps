@@ -3,7 +3,7 @@
   "slug": "meetily",
   "repoUrl": "https://github.com/Zackriya-Solutions/meetily",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:01:20.316Z",
+  "lastSuccessAt": "2026-11-15T10:34:41.143Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:22.761Z",
@@ -31,16 +31,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
+  "sourceDescription": "Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
   "github": {
     "repository": {
       "full_name": "Zackriya-Solutions/meetily",
-      "stargazers_count": 32524,
-      "forks_count": 3588,
-      "open_issues_count": 398,
+      "stargazers_count": 32704,
+      "forks_count": 3619,
+      "open_issues_count": 408,
       "language": "Rust",
-      "pushed_at": "2026-11-07T09:25:03Z",
-      "updated_at": "2026-11-08T09:21:53Z",
+      "pushed_at": "2026-11-14T14:05:41Z",
+      "updated_at": "2026-11-15T06:35:36Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -71,10 +71,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-12T06:15:42Z",
+    "latestReleaseAt": "2026-11-14T13:53:36Z",
     "homepage": "https://meetily.ai",
     "sync": {
-      "syncedAt": "2026-11-08T10:01:20.316Z",
+      "syncedAt": "2026-11-15T10:34:41.143Z",
       "source": "api"
     }
   },
@@ -97,19 +97,37 @@
     "channels": [
       {
         "type": "github-releases",
-        "platform": "macos",
+        "platform": "linux",
         "label": "GitHub Releases",
         "url": "https://github.com/Zackriya-Solutions/meetily/releases/latest",
         "facts": {
-          "tag": "v0.4.1",
+          "tag": "v0.5.0",
           "assets": [
-            "meetily_0.4.1_aarch64.dmg"
+            "meetily_0.5.0_amd64.AppImage",
+            "meetily_0.5.0_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
-          "fetchedAt": "2026-09-26T14:39:34.462Z"
+          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.5.0",
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "macos",
+        "label": "GitHub Releases",
+        "url": "https://github.com/Zackriya-Solutions/meetily/releases/latest",
+        "facts": {
+          "tag": "v0.5.0",
+          "assets": [
+            "meetily_0.5.0_aarch64.dmg"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.5.0",
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
         }
       },
       {
@@ -118,16 +136,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Zackriya-Solutions/meetily/releases/latest",
         "facts": {
-          "tag": "v0.4.1",
+          "tag": "v0.5.0",
           "assets": [
-            "meetily_0.4.1_x64-setup.exe",
-            "meetily_0.4.1_x64_en-US.msi"
+            "meetily_0.5.0_x64-setup.exe",
+            "meetily_0.5.0_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
-          "fetchedAt": "2026-09-26T14:39:34.462Z"
+          "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.5.0",
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
         }
       },
       {
@@ -141,12 +159,12 @@
           "version": "0.4.1",
           "project": "meetily",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/meetily/versions",
-          "fetchedAt": "2026-11-01T10:16:02.898Z"
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
         }
       },
       {
@@ -157,7 +175,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "meetily",
-          "version": "0.4.1",
+          "version": "0.5.0",
           "project": "meetily",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -165,7 +183,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/meetily/versions",
-          "fetchedAt": "2026-10-03T08:39:38.544Z"
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
         }
       },
       {
@@ -179,12 +197,12 @@
           "version": "0.4.1",
           "project": "meetily",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/meetily/versions",
-          "fetchedAt": "2026-10-03T08:39:38.544Z"
+          "fetchedAt": "2026-11-15T10:34:39.092Z"
         }
       }
     ],

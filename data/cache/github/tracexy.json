@@ -3,7 +3,7 @@
   "slug": "tracexy",
   "repoUrl": "https://github.com/RockxyApp/Tracexy",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:05:20.377Z",
+  "lastSuccessAt": "2026-11-15T10:38:49.745Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:17.667Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-08T10:05:20.377Z",
+      "syncedAt": "2026-11-15T10:38:49.745Z",
       "source": "api"
     },
     "repository": {
       "full_name": "RockxyApp/Tracexy",
-      "stargazers_count": 236,
-      "forks_count": 6,
-      "open_issues_count": 34,
+      "stargazers_count": 506,
+      "forks_count": 26,
+      "open_issues_count": 35,
       "language": "Swift",
-      "pushed_at": "2026-11-06T01:20:28Z",
-      "updated_at": "2026-10-28T16:31:57Z",
+      "pushed_at": "2026-11-13T11:25:18Z",
+      "updated_at": "2026-11-14T23:03:26Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -80,19 +80,20 @@
         "wireshark-alternative"
       ]
     },
-    "latestReleaseAt": "2026-10-21T01:29:03Z",
+    "latestReleaseAt": "2026-11-13T11:24:50Z",
     "homepage": "https://rockxy.io/tracexy"
   },
   "health": {
-    "status": "active",
-    "maturity": "useful",
-    "tier": "listed",
+    "status": "mature",
+    "maturity": "mature",
+    "tier": "curated",
     "visibility": "keep",
     "cleanupCandidate": false,
     "staleReason": null,
     "confidence": "high",
     "reasons": [
       "Pushed to within the last 6 months",
+      "Strong adoption with maintenance signals",
       "Recent release found",
       "Clear license found"
     ]
@@ -105,15 +106,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/RockxyApp/Tracexy/releases/latest",
         "facts": {
-          "tag": "v0.9.2",
+          "tag": "v0.10.0",
           "assets": [
-            "Tracexy-0.9.2-17.dmg"
+            "Tracexy-0.10.0-18.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/RockxyApp/Tracexy/releases/tag/v0.9.2",
-          "fetchedAt": "2026-10-22T15:10:31.346Z"
+          "url": "https://github.com/RockxyApp/Tracexy/releases/tag/v0.10.0",
+          "fetchedAt": "2026-11-15T10:38:47.113Z"
         }
       },
       {
@@ -124,7 +125,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "tracexy",
-          "version": "0.9.2",
+          "version": "0.10.0",
           "project": "tracexy",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -132,7 +133,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/tracexy/versions",
-          "fetchedAt": "2026-10-22T15:10:31.346Z"
+          "fetchedAt": "2026-11-15T10:38:47.113Z"
         }
       }
     ],
