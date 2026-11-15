@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "slug": "nyxiontech-pdf-tools",
+  "repoUrl": "https://github.com/jurecki007/nyxiontech-tools",
+  "source": "api",
+  "lastSuccessAt": "2026-11-15T14:12:13.143Z",
+  "partialFailures": [],
+  "sourceDescription": "Free, open-source PDF and image tools that run entirely in your browser. Edit, sign, merge, OCR, redact and convert, with no uploads. Also as a Windows app.",
+  "github": {
+    "repository": {
+      "full_name": "jurecki007/nyxiontech-tools",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "pushed_at": "2026-11-13T14:31:21Z",
+      "updated_at": "2026-11-12T15:28:19Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "master",
+      "license": {
+        "spdx_id": "AGPL-3.0",
+        "name": "AGPL-3.0"
+      },
+      "topics": [
+        "background-removal",
+        "browser",
+        "client-side",
+        "ocr",
+        "offline",
+        "open-source",
+        "pdf",
+        "pdf-converter",
+        "pdf-editor",
+        "pdf-tools",
+        "polish",
+        "privacy",
+        "pwa",
+        "react",
+        "redaction",
+        "self-hosted",
+        "tauri",
+        "typescript",
+        "wasm",
+        "webassembly"
+      ]
+    },
+    "latestReleaseAt": "2026-11-12T14:48:54Z",
+    "homepage": "https://tools.nyxiontech.com",
+    "sync": {
+      "syncedAt": "2026-11-15T14:12:13.143Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/jurecki007/nyxiontech-tools/releases/latest",
+        "facts": {
+          "tag": "v1.2.0",
+          "assets": [
+            "Nyxiontech.PDF.Tools_1.2.0_x64-setup.exe",
+            "Nyxiontech.PDF.Tools_1.2.0_x64_en-US.msi"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/jurecki007/nyxiontech-tools/releases/tag/v1.2.0",
+          "fetchedAt": "2026-11-15T14:12:10.686Z"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/favicon.svg",
+        "path": "public/favicon.svg",
+        "blobSha": "b6d8d6f9afe3c0e20610f5c84145da343c75a369",
+        "format": "svg",
+        "bytes": 291,
+        "width": 32,
+        "height": 32,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/site.webmanifest",
+          "fetchedAt": "2026-11-15T14:12:10.686Z"
+        }
+      },
+      {
+        "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/icon-192.png",
+        "path": "public/icon-192.png",
+        "blobSha": "eb867fa693e36cef1b9bf06a210e81b3066bdae0",
+        "format": "png",
+        "bytes": 6765,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/icon-192.png",
+          "fetchedAt": "2026-11-15T14:12:10.686Z"
+        }
+      },
+      {
+        "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/icon-512.png",
+        "path": "public/icon-512.png",
+        "blobSha": "c66985a9300f3aad454ea8e745af62b6b949a3ed",
+        "format": "png",
+        "bytes": 8682,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/public/icon-512.png",
+          "fetchedAt": "2026-11-15T14:12:10.686Z"
+        }
+      },
+      {
+        "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/src-tauri/icons/icon.png",
+        "path": "src-tauri/icons/icon.png",
+        "blobSha": "b72c3cf635f6397b8b7654cc2913f2ac2daf493b",
+        "format": "png",
+        "bytes": 8538,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/jurecki007/nyxiontech-tools/blob/a08d239bc933618fbf8489ef6780b23a54e24c97/src-tauri/icons/icon.png",
+          "fetchedAt": "2026-11-15T14:12:10.686Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

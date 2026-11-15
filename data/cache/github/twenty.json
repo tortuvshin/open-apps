@@ -3,13 +3,8 @@
   "slug": "twenty",
   "repoUrl": "https://github.com/twentyhq/twenty",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:38:56.079Z",
+  "lastSuccessAt": "2026-11-15T14:15:08.574Z",
   "partialFailures": [
-    {
-      "at": "2026-10-22T15:10:40.665Z",
-      "source": "candidates",
-      "reason": "tree: GitHub truncated the file tree"
-    },
     {
       "at": "2026-10-25T08:19:31.117Z",
       "source": "candidates",
@@ -29,6 +24,11 @@
       "at": "2026-11-15T10:38:56.079Z",
       "source": "candidates",
       "reason": "tree: GitHub truncated the file tree"
+    },
+    {
+      "at": "2026-11-15T14:15:08.574Z",
+      "source": "candidates",
+      "reason": "tree: GitHub truncated the file tree"
     }
   ],
   "sourceDescription": "The open alternative to Salesforce, designed for AI.",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-15T10:38:56.079Z",
+      "syncedAt": "2026-11-15T14:15:08.574Z",
       "source": "api"
     },
     "repository": {
       "full_name": "twentyhq/twenty",
-      "stargazers_count": 60954,
+      "stargazers_count": 60956,
       "forks_count": 10095,
-      "open_issues_count": 115,
+      "open_issues_count": 120,
       "language": "TypeScript",
-      "pushed_at": "2026-11-15T10:35:26Z",
-      "updated_at": "2026-11-15T10:11:03Z",
+      "pushed_at": "2026-11-15T14:13:24Z",
+      "updated_at": "2026-11-15T14:01:25Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
