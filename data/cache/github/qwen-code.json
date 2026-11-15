@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:03:54.657Z",
+  "lastSuccessAt": "2026-11-15T10:37:15.324Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 29082,
-      "forks_count": 3329,
-      "open_issues_count": 2089,
+      "stargazers_count": 30465,
+      "forks_count": 3528,
+      "open_issues_count": 2302,
       "language": "TypeScript",
-      "pushed_at": "2026-11-08T09:47:13Z",
-      "updated_at": "2026-11-08T09:13:28Z",
+      "pushed_at": "2026-11-15T10:36:34Z",
+      "updated_at": "2026-11-15T10:34:05Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-11-08T00:55:56Z",
+    "latestReleaseAt": "2026-11-15T08:54:48Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-11-08T10:03:54.657Z",
+      "syncedAt": "2026-11-15T10:37:15.324Z",
       "source": "api"
     }
   },
@@ -85,7 +85,7 @@
         "facts": {
           "repository": "aur",
           "package": "qwen-code-bin",
-          "version": "0.27.0",
+          "version": "0.27.3",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -93,7 +93,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-08T10:03:51.549Z"
+          "fetchedAt": "2026-11-15T10:37:11.848Z"
         }
       },
       {
@@ -104,7 +104,7 @@
         "facts": {
           "repository": "arch",
           "package": "qwen-code",
-          "version": "0.23.4",
+          "version": "0.24.2",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -112,7 +112,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-08T10:03:51.549Z"
+          "fetchedAt": "2026-11-15T10:37:11.848Z"
         }
       },
       {
@@ -142,7 +142,7 @@
         "facts": {
           "repository": "homebrew",
           "package": "qwen-code",
-          "version": "0.26.9",
+          "version": "0.27.3",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -150,7 +150,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-08T10:03:51.549Z"
+          "fetchedAt": "2026-11-15T10:37:11.848Z"
         }
       },
       {

@@ -3,18 +3,18 @@
   "slug": "relaticle",
   "repoUrl": "https://github.com/relaticle/relaticle",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:04:03.468Z",
+  "lastSuccessAt": "2026-11-15T10:37:27.023Z",
   "partialFailures": [],
   "sourceDescription": "Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks and notes. REST API, self-hosted or cloud.",
   "github": {
     "repository": {
       "full_name": "relaticle/relaticle",
-      "stargazers_count": 1816,
-      "forks_count": 231,
-      "open_issues_count": 38,
+      "stargazers_count": 1844,
+      "forks_count": 233,
+      "open_issues_count": 28,
       "language": "PHP",
-      "pushed_at": "2026-11-08T10:01:30Z",
-      "updated_at": "2026-11-08T09:47:24Z",
+      "pushed_at": "2026-11-15T06:00:23Z",
+      "updated_at": "2026-11-14T10:25:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -43,10 +43,10 @@
         "self-hosted"
       ]
     },
-    "latestReleaseAt": "2026-11-04T23:25:01Z",
+    "latestReleaseAt": "2026-11-13T13:08:11Z",
     "homepage": "https://relaticle.com",
     "sync": {
-      "syncedAt": "2026-11-08T10:04:03.468Z",
+      "syncedAt": "2026-11-15T10:37:27.023Z",
       "source": "api"
     }
   },
@@ -69,31 +69,45 @@
     "channels": [],
     "logos": [
       {
-        "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logo-white.png",
-        "path": "public/brand/logo-white.png",
-        "blobSha": "25f8bdabe00a161d92d1003b6b90843fae883530",
+        "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/web-app-manifest-512x512.png",
+        "path": "public/web-app-manifest-512x512.png",
+        "blobSha": "2574c32906dc0a20c8a795cc82137bd0d85eea10",
         "format": "png",
-        "bytes": 23907,
+        "bytes": 11593,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/site.webmanifest",
+          "fetchedAt": "2026-11-15T10:37:23.967Z"
+        }
+      },
+      {
+        "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/brand/logo-white.png",
+        "path": "public/brand/logo-white.png",
+        "blobSha": "aa58b5a659d45c82f5496a205edbe36e4d926726",
+        "format": "png",
+        "bytes": 24488,
         "width": 960,
         "height": 256,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logo-white.png",
-          "fetchedAt": "2026-11-08T10:04:00.825Z"
+          "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/brand/logo-white.png",
+          "fetchedAt": "2026-11-15T10:37:23.967Z"
         }
       },
       {
-        "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logomark.svg",
+        "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/brand/logomark.svg",
         "path": "public/brand/logomark.svg",
-        "blobSha": "28d7f85ca8b5d1ad57c637442e51c86e57636e9f",
+        "blobSha": "df82ab53bda276141b15e70e54e7b0182ec81382",
         "format": "svg",
-        "bytes": 2999,
+        "bytes": 983,
         "width": 1158,
         "height": 1158,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/relaticle/relaticle/blob/6c4711b017cf29eec5c2064f5ede8aabd18b3cd6/public/brand/logomark.svg",
-          "fetchedAt": "2026-11-08T10:04:00.825Z"
+          "url": "https://github.com/relaticle/relaticle/blob/761aeffc4e613063336f24b4c9a1fc2fcba62559/public/brand/logomark.svg",
+          "fetchedAt": "2026-11-15T10:37:23.967Z"
         }
       }
     ],

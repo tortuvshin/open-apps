@@ -3,7 +3,7 @@
   "slug": "ehpanda",
   "repoUrl": "https://github.com/EhPanda-Team/EhPanda",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T09:58:09.722Z",
+  "lastSuccessAt": "2026-11-15T10:31:12.758Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:09:39.642Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/EhPanda-Team/EhPanda/releases{/id}",
       "deployments_url": "https://api.github.com/repos/EhPanda-Team/EhPanda/deployments",
       "created_at": "2020-10-28T14:32:59Z",
-      "updated_at": "2026-11-08T09:24:06Z",
-      "pushed_at": "2026-11-08T09:24:31Z",
+      "updated_at": "2026-11-15T01:32:48Z",
+      "pushed_at": "2026-11-15T07:15:58Z",
       "git_url": "git://github.com/EhPanda-Team/EhPanda.git",
       "ssh_url": "git@github.com:EhPanda-Team/EhPanda.git",
       "clone_url": "https://github.com/EhPanda-Team/EhPanda.git",
       "svn_url": "https://github.com/EhPanda-Team/EhPanda",
       "homepage": "https://ehpanda.app",
       "size": 78381,
-      "stargazers_count": 4037,
+      "stargazers_count": 4058,
       "watchers_count": 3907,
       "language": "Swift",
       "has_issues": true,
@@ -122,7 +122,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 35,
+      "open_issues_count": 20,
       "license": {
         "spdx_id": "MIT",
         "name": "MIT"
@@ -133,11 +133,8 @@
       "has_pull_requests": true,
       "pull_request_creation_policy": "all",
       "topics": [
-        "combine",
-        "e-hentai",
+        "doujinshi",
         "ehviewer",
-        "exhentai",
-        "hentai",
         "swift-composable-architecture",
         "swiftui"
       ],
@@ -211,7 +208,7 @@
       "contributorsKnown": 22
     },
     "sync": {
-      "syncedAt": "2026-11-08T09:58:09.722Z",
+      "syncedAt": "2026-11-15T10:31:12.758Z",
       "source": "api"
     },
     "languages": {
@@ -222,7 +219,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-07-20T12:12:04Z",
+    "latestReleaseAt": "2026-11-12T18:13:21Z",
     "homepage": "https://ehpanda.app"
   },
   "health": {
@@ -248,22 +245,24 @@
         "label": "GitHub Releases",
         "url": "https://github.com/EhPanda-Team/EhPanda/releases/latest",
         "facts": {
-          "tag": "v2.8.1",
+          "tag": "3.0.0",
           "assets": [
-            "EhPanda.ipa"
+            "EhPanda-AltStore.ipa",
+            "EhPanda-GitHub.ipa",
+            "EhPanda-SideStore.ipa"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/EhPanda-Team/EhPanda/releases/tag/v2.8.1",
-          "fetchedAt": "2026-09-26T14:38:12.303Z"
+          "url": "https://github.com/EhPanda-Team/EhPanda/releases/tag/3.0.0",
+          "fetchedAt": "2026-11-15T10:31:09.925Z"
         }
       }
     ],
     "logos": [
       {
-        "url": "https://github.com/EhPanda-Team/EhPanda/blob/37b979965cf7c4778877c795e8df60c2c0ff6eb3/EhPanda/App/Icons/AppIcon_Default%403x.png",
-        "path": "EhPanda/App/Icons/AppIcon_Default@3x.png",
+        "url": "https://github.com/EhPanda-Team/EhPanda/blob/4d98daab0c12262dc54d70120d0fad1301a3d7ab/App/Icons/AppIcon_Default%403x.png",
+        "path": "App/Icons/AppIcon_Default@3x.png",
         "blobSha": "81ed79689be4cc5840f16ecc5576cd93c24bc481",
         "format": "png",
         "bytes": 43497,
@@ -271,8 +270,8 @@
         "height": 180,
         "provenance": {
           "source": "repo-asset",
-          "url": "https://github.com/EhPanda-Team/EhPanda/blob/37b979965cf7c4778877c795e8df60c2c0ff6eb3/EhPanda/App/Icons/AppIcon_Default%403x.png",
-          "fetchedAt": "2026-09-26T14:38:12.303Z"
+          "url": "https://github.com/EhPanda-Team/EhPanda/blob/4d98daab0c12262dc54d70120d0fad1301a3d7ab/App/Icons/AppIcon_Default%403x.png",
+          "fetchedAt": "2026-11-15T10:31:09.925Z"
         }
       }
     ],

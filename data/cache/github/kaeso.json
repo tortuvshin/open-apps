@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "slug": "kaeso",
+  "repoUrl": "https://github.com/logicplanes/kaeso",
+  "source": "api",
+  "lastSuccessAt": "2026-11-15T10:33:18.713Z",
+  "partialFailures": [],
+  "sourceDescription": "Self-hosted AI gateway in Rust: one OpenAI-, Anthropic-, Gemini- and ElevenLabs-compatible API for chat, images, video, speech and music on every provider, with SSO, roles, budgets, alias routes, request logs, a playground and an MCP portal.",
+  "github": {
+    "repository": {
+      "full_name": "logicplanes/kaeso",
+      "stargazers_count": 19,
+      "forks_count": 3,
+      "open_issues_count": 64,
+      "language": "Rust",
+      "pushed_at": "2026-11-15T10:26:22Z",
+      "updated_at": "2026-11-15T08:57:40Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "dev",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-gateway",
+        "ai-proxy",
+        "anthropic",
+        "elevenlabs",
+        "gemini",
+        "kaeso",
+        "litellm-alternative",
+        "llm-gateway",
+        "llm-proxy",
+        "llm-router",
+        "llmops",
+        "llms",
+        "mcp",
+        "mcp-gateway",
+        "openai",
+        "openai-compatible",
+        "rust",
+        "self-hosted",
+        "sso"
+      ]
+    },
+    "latestReleaseAt": "2026-11-11T00:19:47Z",
+    "homepage": "https://kaeso.app",
+    "sync": {
+      "syncedAt": "2026-11-15T10:33:18.713Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/apps/console/public/android-chrome-512.png",
+        "path": "apps/console/public/android-chrome-512.png",
+        "blobSha": "588fc5859b3c53dced853fde0823264755d75cc0",
+        "format": "png",
+        "bytes": 10884,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/apps/console/public/site.webmanifest",
+          "fetchedAt": "2026-11-15T10:33:15.923Z"
+        }
+      },
+      {
+        "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/plugins/kaeso-cursor/assets/logo.svg",
+        "path": "plugins/kaeso-cursor/assets/logo.svg",
+        "blobSha": "d64451cb9206adfc370e78a238ddff861079474c",
+        "format": "svg",
+        "bytes": 688,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/plugins/kaeso-cursor/assets/logo.svg",
+          "fetchedAt": "2026-11-15T10:33:15.923Z"
+        }
+      },
+      {
+        "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/plugins/kaeso/assets/icon.png",
+        "path": "plugins/kaeso/assets/icon.png",
+        "blobSha": "6baee5f4c548d36622b8f51a3d669dadac09824f",
+        "format": "png",
+        "bytes": 10426,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/logicplanes/kaeso/blob/b6835c14e95f4098fedcf8bea309d6cf8d649d2a/plugins/kaeso/assets/icon.png",
+          "fetchedAt": "2026-11-15T10:33:15.923Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

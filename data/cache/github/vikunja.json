@@ -3,7 +3,7 @@
   "slug": "vikunja",
   "repoUrl": "https://github.com/go-vikunja/vikunja",
   "source": "api",
-  "lastSuccessAt": "2026-11-08T10:05:47.487Z",
+  "lastSuccessAt": "2026-11-15T10:39:16.383Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:14.863Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "go-vikunja/vikunja",
-      "stargazers_count": 5997,
-      "forks_count": 817,
-      "open_issues_count": 263,
+      "stargazers_count": 6056,
+      "forks_count": 832,
+      "open_issues_count": 239,
       "language": "Go",
-      "pushed_at": "2026-11-08T08:11:54Z",
-      "updated_at": "2026-11-08T09:22:14Z",
+      "pushed_at": "2026-11-14T02:07:41Z",
+      "updated_at": "2026-11-15T09:06:34Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -52,7 +52,7 @@
     "latestReleaseAt": "2026-11-05T20:44:21Z",
     "homepage": "https://vikunja.io",
     "sync": {
-      "syncedAt": "2026-11-08T10:05:47.487Z",
+      "syncedAt": "2026-11-15T10:39:16.383Z",
       "source": "api"
     }
   },
@@ -175,15 +175,15 @@
         "facts": {
           "repository": "aur",
           "package": "vikunja",
-          "version": "2.7.1",
+          "version": "2.8.0",
           "project": "vikunja",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vikunja/versions",
-          "fetchedAt": "2026-11-08T10:05:45.254Z"
+          "fetchedAt": "2026-11-15T10:39:14.153Z"
         }
       },
       {
