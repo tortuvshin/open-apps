@@ -21,6 +21,8 @@ distribution:
 tags:
   - ai-agents
   - task-automation
+whyListed:
+  - A Tauri desktop codebase that combines per-workspace agent runtimes with scheduled tasks and persistent run history.
 addedAt: 2026-11-22
 submittedBy: hAcKlyc
 seo:
