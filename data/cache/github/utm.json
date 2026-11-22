@@ -3,7 +3,7 @@
   "slug": "utm",
   "repoUrl": "https://github.com/utmapp/UTM",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:39:06.146Z",
+  "lastSuccessAt": "2026-11-22T11:00:28.008Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:27.390Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/utmapp/UTM/releases{/id}",
       "deployments_url": "https://api.github.com/repos/utmapp/UTM/deployments",
       "created_at": "2019-04-12T16:09:24Z",
-      "updated_at": "2026-11-15T10:36:43Z",
-      "pushed_at": "2026-11-15T07:28:18Z",
+      "updated_at": "2026-11-22T10:26:23Z",
+      "pushed_at": "2026-11-18T09:02:56Z",
       "git_url": "git://github.com/utmapp/UTM.git",
       "ssh_url": "git@github.com:utmapp/UTM.git",
       "clone_url": "https://github.com/utmapp/UTM.git",
       "svn_url": "https://github.com/utmapp/UTM",
       "homepage": "https://getutm.app",
       "size": 50567,
-      "stargazers_count": 36902,
+      "stargazers_count": 36997,
       "watchers_count": 34747,
       "language": "Swift",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 1918,
+      "forks_count": 1921,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1024,
+      "open_issues_count": 1014,
       "license": {
         "spdx_id": "Apache-2.0",
         "name": "Apache-2.0"
@@ -182,7 +182,7 @@
       "subscribers_count": 381
     },
     "sync": {
-      "syncedAt": "2026-11-15T10:39:06.146Z",
+      "syncedAt": "2026-11-22T11:00:28.008Z",
       "source": "api"
     },
     "languages": {
@@ -228,7 +228,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-10-17T02:44:56Z",
+    "latestReleaseAt": "2026-11-18T09:03:04Z",
     "homepage": "https://getutm.app"
   },
   "health": {
@@ -254,7 +254,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/utmapp/UTM/releases/latest",
         "facts": {
-          "tag": "v5.0.8",
+          "tag": "v5.0.9-2",
           "assets": [
             "UTM-HV.ipa",
             "UTM-Remote-visionOS.ipa",
@@ -266,8 +266,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.8",
-          "fetchedAt": "2026-10-17T16:00:02.250Z"
+          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.9-2",
+          "fetchedAt": "2026-11-22T11:00:25.544Z"
         }
       },
       {
@@ -276,15 +276,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/utmapp/UTM/releases/latest",
         "facts": {
-          "tag": "v5.0.8",
+          "tag": "v5.0.9-2",
           "assets": [
             "UTM.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.8",
-          "fetchedAt": "2026-10-17T16:00:02.250Z"
+          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.9-2",
+          "fetchedAt": "2026-11-22T11:00:25.544Z"
         }
       },
       {
@@ -293,15 +293,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/utmapp/UTM/releases/latest",
         "facts": {
-          "tag": "v5.0.8",
+          "tag": "v5.0.9-2",
           "assets": [
             "UTM.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.8",
-          "fetchedAt": "2026-10-17T16:00:02.250Z"
+          "url": "https://github.com/utmapp/UTM/releases/tag/v5.0.9-2",
+          "fetchedAt": "2026-11-22T11:00:25.544Z"
         }
       },
       {
@@ -315,12 +315,12 @@
           "version": "5.0.8",
           "project": "utm",
           "match": "project-name",
-          "versionMatchesRelease": true
+          "versionMatchesRelease": false
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/utm/versions",
-          "fetchedAt": "2026-10-22T15:10:49.958Z"
+          "fetchedAt": "2026-11-22T11:00:25.544Z"
         }
       },
       {
@@ -331,7 +331,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "utm",
-          "version": "5.0.8",
+          "version": "5.0.9-2",
           "project": "utm",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -339,7 +339,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/utm/versions",
-          "fetchedAt": "2026-10-17T16:00:02.250Z"
+          "fetchedAt": "2026-11-22T11:00:25.544Z"
         }
       }
     ],

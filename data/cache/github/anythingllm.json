@@ -3,7 +3,7 @@
   "slug": "anythingllm",
   "repoUrl": "https://github.com/Mintplex-Labs/anything-llm",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:29:34.638Z",
+  "lastSuccessAt": "2026-11-22T10:50:08.714Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:08:48.583Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Mintplex-Labs/anything-llm",
-      "stargazers_count": 68296,
-      "forks_count": 7711,
-      "open_issues_count": 344,
+      "stargazers_count": 68504,
+      "forks_count": 7730,
+      "open_issues_count": 337,
       "language": "JavaScript",
-      "pushed_at": "2026-11-13T22:55:56Z",
-      "updated_at": "2026-11-15T10:18:12Z",
+      "pushed_at": "2026-11-21T01:33:41Z",
+      "updated_at": "2026-11-22T10:37:30Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -66,10 +66,10 @@
         "vector-database"
       ]
     },
-    "latestReleaseAt": "2026-10-26T16:14:51Z",
+    "latestReleaseAt": "2026-11-17T20:38:19Z",
     "homepage": "https://anythingllm.com",
     "sync": {
-      "syncedAt": "2026-11-15T10:29:34.638Z",
+      "syncedAt": "2026-11-22T10:50:08.714Z",
       "source": "api"
     }
   },
@@ -96,7 +96,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Mintplex-Labs/anything-llm/releases/latest",
         "facts": {
-          "tag": "v1.19.0",
+          "tag": "v1.20.0",
           "assets": [
             "AnythingLLMDesktop-Arm64.AppImage",
             "AnythingLLMDesktop.AppImage"
@@ -104,8 +104,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0",
-          "fetchedAt": "2026-11-01T10:11:10.307Z"
+          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0",
+          "fetchedAt": "2026-11-22T10:50:06.069Z"
         }
       },
       {
@@ -114,7 +114,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Mintplex-Labs/anything-llm/releases/latest",
         "facts": {
-          "tag": "v1.19.0",
+          "tag": "v1.20.0",
           "assets": [
             "AnythingLLMDesktop-Silicon.dmg",
             "AnythingLLMDesktop.dmg"
@@ -122,8 +122,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0",
-          "fetchedAt": "2026-11-01T10:11:10.307Z"
+          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0",
+          "fetchedAt": "2026-11-22T10:50:06.069Z"
         }
       },
       {
@@ -132,7 +132,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Mintplex-Labs/anything-llm/releases/latest",
         "facts": {
-          "tag": "v1.19.0",
+          "tag": "v1.20.0",
           "assets": [
             "AnythingLLMDesktop-Arm64.exe",
             "AnythingLLMDesktop.exe"
@@ -140,8 +140,27 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0",
-          "fetchedAt": "2026-11-01T10:11:10.307Z"
+          "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.20.0",
+          "fetchedAt": "2026-11-22T10:50:06.069Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "linux",
+        "label": "AUR",
+        "url": "https://aur.archlinux.org/packages/anything-llm-appimage",
+        "facts": {
+          "repository": "aur",
+          "package": "anything-llm-appimage",
+          "version": "1.20.0",
+          "project": "anything-llm",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/anything-llm/versions",
+          "fetchedAt": "2026-11-22T10:50:06.069Z"
         }
       }
     ],

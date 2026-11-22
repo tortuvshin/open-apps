@@ -3,7 +3,7 @@
   "slug": "emdash",
   "repoUrl": "https://github.com/generalaction/emdash",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:31:26.753Z",
+  "lastSuccessAt": "2026-11-22T10:52:15.554Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:15.234Z",
@@ -21,16 +21,16 @@
       "reason": "repology: repology.org skipped for this run (2 network errors, last: fetch failed (ECONNREFUSED))"
     }
   ],
-  "sourceDescription": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+  "sourceDescription": "Emdash Classic is the open-source desktop app for running coding agents in parallel. Use your favorite agents in isolated Git worktrees, locally or over SSH.",
   "github": {
     "repository": {
       "full_name": "generalaction/emdash",
-      "stargazers_count": 6252,
-      "forks_count": 665,
-      "open_issues_count": 84,
+      "stargazers_count": 6290,
+      "forks_count": 670,
+      "open_issues_count": 89,
       "language": "TypeScript",
-      "pushed_at": "2026-11-10T04:06:25Z",
-      "updated_at": "2026-11-14T19:34:42Z",
+      "pushed_at": "2026-11-20T06:41:16Z",
+      "updated_at": "2026-11-22T08:47:24Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -60,10 +60,10 @@
         "terminal"
       ]
     },
-    "latestReleaseAt": "2026-11-06T11:03:37Z",
-    "homepage": "https://emdash.com",
+    "latestReleaseAt": "2026-11-19T20:04:27Z",
+    "homepage": "https://emdash.com/classic",
     "sync": {
-      "syncedAt": "2026-11-15T10:31:26.753Z",
+      "syncedAt": "2026-11-22T10:52:15.554Z",
       "source": "api"
     }
   },
@@ -90,7 +90,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.11",
+          "tag": "v1.2.13",
           "assets": [
             "emdash-aarch64.rpm",
             "emdash-amd64.deb",
@@ -102,8 +102,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
-          "fetchedAt": "2026-11-08T09:58:19.903Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13",
+          "fetchedAt": "2026-11-22T10:52:13.173Z"
         }
       },
       {
@@ -112,7 +112,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.11",
+          "tag": "v1.2.13",
           "assets": [
             "emdash-arm64.dmg",
             "emdash-x64.dmg"
@@ -120,8 +120,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
-          "fetchedAt": "2026-11-08T09:58:19.903Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13",
+          "fetchedAt": "2026-11-22T10:52:13.173Z"
         }
       },
       {
@@ -130,7 +130,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/generalaction/emdash/releases/latest",
         "facts": {
-          "tag": "v1.2.11",
+          "tag": "v1.2.13",
           "assets": [
             "emdash-x64.exe",
             "emdash-x64.msi"
@@ -138,8 +138,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
-          "fetchedAt": "2026-11-08T09:58:19.903Z"
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13",
+          "fetchedAt": "2026-11-22T10:52:13.173Z"
         }
       },
       {
@@ -150,7 +150,7 @@
         "facts": {
           "repository": "aur",
           "package": "emdash-bin",
-          "version": "1.2.11",
+          "version": "1.2.13",
           "project": "emdash",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -158,7 +158,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/emdash/versions",
-          "fetchedAt": "2026-11-08T09:58:19.903Z"
+          "fetchedAt": "2026-11-22T10:52:13.173Z"
         }
       },
       {
@@ -169,7 +169,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "emdash",
-          "version": "1.2.11",
+          "version": "1.2.13",
           "project": "emdash",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -177,7 +177,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/emdash/versions",
-          "fetchedAt": "2026-11-08T09:58:19.903Z"
+          "fetchedAt": "2026-11-22T10:52:13.173Z"
         }
       }
     ],

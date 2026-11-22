@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "slug": "harvest-hollow",
+  "repoUrl": "https://github.com/KrasimirKralev/harvest-hollow",
+  "source": "api",
+  "lastSuccessAt": "2026-11-22T10:53:28.819Z",
+  "partialFailures": [],
+  "sourceDescription": "Harness Hollow: a cozy co-op 3D farming game for two, in the browser. Play free or self-host (Node + Three.js); self-hosters get Harvey, a helper that turns a wish into a game mod.",
+  "github": {
+    "repository": {
+      "full_name": "KrasimirKralev/harvest-hollow",
+      "stargazers_count": 16,
+      "forks_count": 6,
+      "open_issues_count": 5,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-23T09:17:02Z",
+      "updated_at": "2026-11-17T03:45:15Z",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT"
+      },
+      "topics": [
+        "ai-agent",
+        "browser-game",
+        "claude-code",
+        "coop",
+        "cozy-game",
+        "farming-game",
+        "game",
+        "html5-game",
+        "indie-game",
+        "javascript-game",
+        "llm",
+        "modding",
+        "multiplayer",
+        "multiplayer-game",
+        "nodejs",
+        "pwa",
+        "self-hosted",
+        "threejs",
+        "webgl",
+        "websocket"
+      ]
+    },
+    "latestReleaseAt": "2026-10-19T21:24:20Z",
+    "homepage": "https://krasimirkralev.github.io/harvest-hollow/",
+    "sync": {
+      "syncedAt": "2026-11-22T10:53:28.819Z",
+      "source": "api"
+    }
+  },
+  "health": {
+    "status": "active",
+    "maturity": "useful",
+    "tier": "experimental",
+    "visibility": "keep",
+    "cleanupCandidate": false,
+    "staleReason": null,
+    "confidence": "high",
+    "reasons": [
+      "Pushed to within the last 6 months",
+      "Recent release found",
+      "Clear license found"
+    ]
+  },
+  "candidates": {
+    "channels": [],
+    "logos": [
+      {
+        "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/pwa/icon-512.png",
+        "path": "public/assets/pwa/icon-512.png",
+        "blobSha": "e96d35e92e588171ce2efa64b60dd5a09c268529",
+        "format": "png",
+        "bytes": 196957,
+        "width": 512,
+        "height": 512,
+        "provenance": {
+          "source": "web-manifest",
+          "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/manifest.bg.webmanifest",
+          "fetchedAt": "2026-11-22T10:53:25.083Z"
+        }
+      },
+      {
+        "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/art/logo.png",
+        "path": "public/assets/art/logo.png",
+        "blobSha": "0d2f77933067b06ae9df1e4e8c284bf592676a71",
+        "format": "png",
+        "bytes": 356775,
+        "width": 1200,
+        "height": 538,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/art/logo.png",
+          "fetchedAt": "2026-11-22T10:53:25.083Z"
+        }
+      },
+      {
+        "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/art/logo.webp",
+        "path": "public/assets/art/logo.webp",
+        "blobSha": "b24d7a63c9b8b5042668fb44a4716036b519924c",
+        "format": "webp",
+        "bytes": 95832,
+        "width": 1200,
+        "height": 538,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/art/logo.webp",
+          "fetchedAt": "2026-11-22T10:53:25.083Z"
+        }
+      },
+      {
+        "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/pwa/icon-192.png",
+        "path": "public/assets/pwa/icon-192.png",
+        "blobSha": "bf55dad00b433d2b14870a80f6a9edb9953d523d",
+        "format": "png",
+        "bytes": 41814,
+        "width": 192,
+        "height": 192,
+        "provenance": {
+          "source": "repo-asset",
+          "url": "https://github.com/KrasimirKralev/harvest-hollow/blob/9b23e1a1fe2b19e117a3005efce21417052ded97/public/assets/pwa/icon-192.png",
+          "fetchedAt": "2026-11-22T10:53:25.083Z"
+        }
+      }
+    ],
+    "screenshots": []
+  }
+}

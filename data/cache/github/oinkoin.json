@@ -3,7 +3,7 @@
   "slug": "oinkoin",
   "repoUrl": "https://github.com/emavgl/oinkoin",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:35:22.034Z",
+  "lastSuccessAt": "2026-11-22T10:56:29.488Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:11:44.614Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-15T10:35:22.034Z",
+      "syncedAt": "2026-11-22T10:56:29.488Z",
       "source": "api"
     },
     "repository": {
       "full_name": "emavgl/oinkoin",
-      "stargazers_count": 486,
-      "forks_count": 64,
-      "open_issues_count": 30,
+      "stargazers_count": 488,
+      "forks_count": 65,
+      "open_issues_count": 32,
       "language": "Dart",
-      "pushed_at": "2026-11-12T05:44:56Z",
-      "updated_at": "2026-11-13T05:46:19Z",
+      "pushed_at": "2026-11-20T10:09:23Z",
+      "updated_at": "2026-11-21T13:42:41Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -59,7 +59,7 @@
       },
       "topics": []
     },
-    "latestReleaseAt": "2026-11-05T19:57:09Z",
+    "latestReleaseAt": "2026-11-20T09:58:55Z",
     "homepage": "https://oinkoin.com"
   },
   "health": {
@@ -86,12 +86,12 @@
         "facts": {
           "appId": "com.github.emavgl.piggybankpro",
           "suggestedVersionCode": 7160004,
-          "evidence": "https://github.com/emavgl/oinkoin/blob/235dea6808c7aa89b6f71890d3c06c3d93d4bdef/android/app/build.gradle"
+          "evidence": "https://github.com/emavgl/oinkoin/blob/abbf8c962f0e60c963a219c738b7f120b5f42cd8/android/app/build.gradle"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/com.github.emavgl.piggybankpro",
-          "fetchedAt": "2026-11-15T10:35:17.788Z"
+          "fetchedAt": "2026-11-22T10:56:25.853Z"
         }
       },
       {
@@ -100,7 +100,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.4",
+          "tag": "1.17.1",
           "assets": [
             "app-arm64-v8a-pro-release.apk",
             "app-armeabi-v7a-pro-release.apk",
@@ -109,8 +109,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.4",
-          "fetchedAt": "2026-11-08T10:02:01.274Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.17.1",
+          "fetchedAt": "2026-11-22T10:56:25.853Z"
         }
       },
       {
@@ -119,17 +119,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.4",
+          "tag": "1.17.1",
           "assets": [
-            "oinkoin-1.16.4-7160.x86_64.rpm",
-            "piggybank-1.16.4+7160-linux.AppImage",
-            "piggybank-1.16.4+7160-linux.deb"
+            "oinkoin-1.17.1-8162.x86_64.rpm",
+            "piggybank-1.17.1+8162-linux.AppImage",
+            "piggybank-1.17.1+8162-linux.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.4",
-          "fetchedAt": "2026-11-08T10:02:01.274Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.17.1",
+          "fetchedAt": "2026-11-22T10:56:25.853Z"
         }
       },
       {
@@ -138,15 +138,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/emavgl/oinkoin/releases/latest",
         "facts": {
-          "tag": "1.16.4",
+          "tag": "1.17.1",
           "assets": [
             "oinkoin-windows-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.16.4",
-          "fetchedAt": "2026-11-08T10:02:01.274Z"
+          "url": "https://github.com/emavgl/oinkoin/releases/tag/1.17.1",
+          "fetchedAt": "2026-11-22T10:56:25.853Z"
         }
       },
       {

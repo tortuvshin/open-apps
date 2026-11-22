@@ -3,18 +3,18 @@
   "slug": "layoutkeeper",
   "repoUrl": "https://github.com/tumingke0/LayoutKeeper",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:33:45.921Z",
+  "lastSuccessAt": "2026-11-22T10:54:47.233Z",
   "partialFailures": [],
   "sourceDescription": "记住并恢复外接屏窗口布局，支持跨桌面、自动加减桌面、DDC 调亮度音量 · Restore external-monitor window layouts across macOS Spaces, auto add/remove Spaces, DDC brightness & volume",
   "github": {
     "repository": {
       "full_name": "tumingke0/LayoutKeeper",
-      "stargazers_count": 35,
+      "stargazers_count": 37,
       "forks_count": 5,
-      "open_issues_count": 2,
+      "open_issues_count": 3,
       "language": "Swift",
-      "pushed_at": "2026-11-02T13:28:22Z",
-      "updated_at": "2026-11-14T15:05:30Z",
+      "pushed_at": "2026-11-21T10:48:04Z",
+      "updated_at": "2026-11-17T19:22:28Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -42,9 +42,9 @@
         "window-manager"
       ]
     },
-    "latestReleaseAt": "2026-11-02T13:31:47Z",
+    "latestReleaseAt": "2026-11-21T10:48:43Z",
     "sync": {
-      "syncedAt": "2026-11-15T10:33:45.921Z",
+      "syncedAt": "2026-11-22T10:54:47.233Z",
       "source": "api"
     }
   },
@@ -70,16 +70,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/tumingke0/LayoutKeeper/releases/latest",
         "facts": {
-          "tag": "v0.6.16",
+          "tag": "v0.6.17",
           "assets": [
-            "LayoutKeeper-0.6.16-AppleSilicon.dmg",
-            "LayoutKeeper-0.6.16-Intel.dmg"
+            "LayoutKeeper-0.6.17-AppleSilicon.dmg",
+            "LayoutKeeper-0.6.17-Intel.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/tumingke0/LayoutKeeper/releases/tag/v0.6.16",
-          "fetchedAt": "2026-11-08T10:00:28.340Z"
+          "url": "https://github.com/tumingke0/LayoutKeeper/releases/tag/v0.6.17",
+          "fetchedAt": "2026-11-22T10:54:45.256Z"
         }
       }
     ],

@@ -3,7 +3,7 @@
   "slug": "goose",
   "repoUrl": "https://github.com/aaif-goose/goose",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:32:18.730Z",
+  "lastSuccessAt": "2026-11-22T10:53:09.579Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:13:58.940Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "aaif-goose/goose",
-      "stargazers_count": 56635,
-      "forks_count": 6591,
-      "open_issues_count": 554,
+      "stargazers_count": 56864,
+      "forks_count": 6649,
+      "open_issues_count": 497,
       "language": "Rust",
-      "pushed_at": "2026-11-14T23:49:13Z",
-      "updated_at": "2026-11-15T09:59:58Z",
+      "pushed_at": "2026-11-20T18:52:45Z",
+      "updated_at": "2026-11-22T10:50:57Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -45,10 +45,10 @@
         "mcp"
       ]
     },
-    "latestReleaseAt": "2026-11-14T06:50:12Z",
+    "latestReleaseAt": "2026-11-20T06:18:55Z",
     "homepage": "https://goose-docs.ai/",
     "sync": {
-      "syncedAt": "2026-11-15T10:32:18.730Z",
+      "syncedAt": "2026-11-22T10:53:09.579Z",
       "source": "api"
     }
   },
@@ -75,20 +75,37 @@
         "label": "GitHub Releases",
         "url": "https://github.com/aaif-goose/goose/releases/latest",
         "facts": {
-          "tag": "v1.59.1",
+          "tag": "v1.60.2",
           "assets": [
-            "Goose-1.59.1-1.arm64-vulkan.rpm",
-            "Goose-1.59.1-1.arm64.rpm",
-            "Goose-1.59.1-1.x86_64-vulkan.rpm",
-            "Goose-1.59.1-1.x86_64.rpm",
-            "goose_1.59.1_amd64-vulkan.deb",
-            "goose_1.59.1_amd64.deb"
+            "Goose-1.60.2-1.arm64-vulkan.rpm",
+            "Goose-1.60.2-1.arm64.rpm",
+            "Goose-1.60.2-1.x86_64-vulkan.rpm",
+            "Goose-1.60.2-1.x86_64.rpm",
+            "goose_1.60.2_amd64-vulkan.deb",
+            "goose_1.60.2_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.1",
-          "fetchedAt": "2026-11-15T10:32:16.644Z"
+          "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.2",
+          "fetchedAt": "2026-11-22T10:53:06.865Z"
+        }
+      },
+      {
+        "type": "github-releases",
+        "platform": "windows",
+        "label": "GitHub Releases",
+        "url": "https://github.com/aaif-goose/goose/releases/latest",
+        "facts": {
+          "tag": "v1.60.2",
+          "assets": [
+            "Goose-win32-x64-setup.exe"
+          ]
+        },
+        "provenance": {
+          "source": "github-releases",
+          "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.2",
+          "fetchedAt": "2026-11-22T10:53:06.865Z"
         }
       }
     ],

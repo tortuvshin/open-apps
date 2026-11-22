@@ -3,7 +3,7 @@
   "slug": "vicinae",
   "repoUrl": "https://github.com/vicinaehq/vicinae",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:39:13.637Z",
+  "lastSuccessAt": "2026-11-22T11:00:36.334Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:37:47.336Z",
@@ -30,12 +30,12 @@
   "github": {
     "repository": {
       "full_name": "vicinaehq/vicinae",
-      "stargazers_count": 10609,
-      "forks_count": 351,
-      "open_issues_count": 281,
+      "stargazers_count": 10682,
+      "forks_count": 355,
+      "open_issues_count": 285,
       "language": "C++",
-      "pushed_at": "2026-11-15T06:48:43Z",
-      "updated_at": "2026-11-15T10:16:28Z",
+      "pushed_at": "2026-11-21T21:57:29Z",
+      "updated_at": "2026-11-22T10:57:21Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -57,10 +57,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-11-07T19:24:52Z",
+    "latestReleaseAt": "2026-11-15T23:52:48Z",
     "homepage": "https://vicinae.com",
     "sync": {
-      "syncedAt": "2026-11-15T10:39:13.637Z",
+      "syncedAt": "2026-11-22T11:00:36.334Z",
       "source": "api"
     }
   },
@@ -87,7 +87,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/vicinaehq/vicinae/releases/latest",
         "facts": {
-          "tag": "v0.30.0",
+          "tag": "v0.30.1",
           "assets": [
             "Vicinae-aarch64.AppImage",
             "Vicinae-x86_64.AppImage"
@@ -95,8 +95,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.0",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.1",
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -105,15 +105,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/vicinaehq/vicinae/releases/latest",
         "facts": {
-          "tag": "v0.30.0",
+          "tag": "v0.30.1",
           "assets": [
             "Vicinae.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.0",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.1",
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -122,15 +122,15 @@
         "label": "GitHub Releases",
         "url": "https://github.com/vicinaehq/vicinae/releases/latest",
         "facts": {
-          "tag": "v0.30.0",
+          "tag": "v0.30.1",
           "assets": [
             "vicinae-x64-setup.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.0",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "url": "https://github.com/vicinaehq/vicinae/releases/tag/v0.30.1",
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -141,7 +141,7 @@
         "facts": {
           "repository": "aur",
           "package": "vicinae",
-          "version": "0.30.0",
+          "version": "0.30.1",
           "project": "vicinae",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -149,7 +149,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vicinae/versions",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -160,7 +160,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "vicinae",
-          "version": "0.29.2",
+          "version": "0.30.0",
           "project": "vicinae",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -168,7 +168,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vicinae/versions",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -179,7 +179,7 @@
         "facts": {
           "repository": "homebrew_casks",
           "package": "vicinae",
-          "version": "0.30.0",
+          "version": "0.30.1",
           "project": "vicinae",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -187,7 +187,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vicinae/versions",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       },
       {
@@ -198,7 +198,7 @@
         "facts": {
           "repository": "scoop",
           "package": "vicinae",
-          "version": "0.30.0",
+          "version": "0.30.1",
           "project": "vicinae",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -206,7 +206,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/vicinae/versions",
-          "fetchedAt": "2026-11-08T10:05:42.504Z"
+          "fetchedAt": "2026-11-22T11:00:33.953Z"
         }
       }
     ],

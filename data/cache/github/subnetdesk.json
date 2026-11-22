@@ -3,7 +3,7 @@
   "slug": "subnetdesk",
   "repoUrl": "https://github.com/zibo-chen/SubnetDesk",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:38:14.589Z",
+  "lastSuccessAt": "2026-11-22T10:59:28.126Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:03.807Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "zibo-chen/SubnetDesk",
-      "stargazers_count": 761,
-      "forks_count": 83,
-      "open_issues_count": 7,
+      "stargazers_count": 783,
+      "forks_count": 85,
+      "open_issues_count": 10,
       "language": "Rust",
-      "pushed_at": "2026-11-14T10:37:02Z",
-      "updated_at": "2026-11-15T03:43:21Z",
+      "pushed_at": "2026-11-19T08:50:08Z",
+      "updated_at": "2026-11-22T03:43:16Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -61,10 +61,10 @@
         "vpn"
       ]
     },
-    "latestReleaseAt": "2026-08-27T16:33:43Z",
+    "latestReleaseAt": "2026-11-19T05:57:37Z",
     "homepage": null,
     "sync": {
-      "syncedAt": "2026-11-15T10:38:14.589Z",
+      "syncedAt": "2026-11-22T10:59:28.126Z",
       "source": "api"
     }
   },
@@ -91,18 +91,18 @@
         "label": "GitHub Releases",
         "url": "https://github.com/zibo-chen/SubnetDesk/releases/latest",
         "facts": {
-          "tag": "v1.3.0",
+          "tag": "v2.0.0",
           "assets": [
-            "subnetdesk-1.3.0-aarch64-signed.apk",
-            "subnetdesk-1.3.0-armv7-signed.apk",
-            "subnetdesk-1.3.0-universal-signed.apk",
-            "subnetdesk-1.3.0-x86_64-signed.apk"
+            "subnetdesk-2.0.0-aarch64-signed.apk",
+            "subnetdesk-2.0.0-armv7-signed.apk",
+            "subnetdesk-2.0.0-universal-signed.apk",
+            "subnetdesk-2.0.0-x86_64-signed.apk"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v1.3.0",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v2.0.0",
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       },
       {
@@ -111,20 +111,20 @@
         "label": "GitHub Releases",
         "url": "https://github.com/zibo-chen/SubnetDesk/releases/latest",
         "facts": {
-          "tag": "v1.3.0",
+          "tag": "v2.0.0",
           "assets": [
-            "subnetdesk-1.3.0-0.aarch64-suse.rpm",
-            "subnetdesk-1.3.0-0.aarch64.rpm",
-            "subnetdesk-1.3.0-0.x86_64-suse.rpm",
-            "subnetdesk-1.3.0-0.x86_64.rpm",
-            "subnetdesk-1.3.0-aarch64.AppImage",
-            "subnetdesk-1.3.0-aarch64.deb"
+            "subnetdesk-2.0.0-0.aarch64-suse.rpm",
+            "subnetdesk-2.0.0-0.aarch64.rpm",
+            "subnetdesk-2.0.0-0.x86_64-suse.rpm",
+            "subnetdesk-2.0.0-0.x86_64.rpm",
+            "subnetdesk-2.0.0-aarch64.AppImage",
+            "subnetdesk-2.0.0-aarch64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v1.3.0",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v2.0.0",
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       },
       {
@@ -133,16 +133,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/zibo-chen/SubnetDesk/releases/latest",
         "facts": {
-          "tag": "v1.3.0",
+          "tag": "v2.0.0",
           "assets": [
-            "subnetdesk-1.3.0-aarch64.dmg",
-            "subnetdesk-1.3.0-x86_64.dmg"
+            "subnetdesk-2.0.0-aarch64.dmg",
+            "subnetdesk-2.0.0-x86_64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v1.3.0",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v2.0.0",
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       },
       {
@@ -151,18 +151,19 @@
         "label": "GitHub Releases",
         "url": "https://github.com/zibo-chen/SubnetDesk/releases/latest",
         "facts": {
-          "tag": "v1.3.0",
+          "tag": "v2.0.0",
           "assets": [
-            "subnetdesk-1.3.0-aarch64.exe",
-            "subnetdesk-1.3.0-aarch64.msi",
-            "subnetdesk-1.3.0-x86_64.exe",
-            "subnetdesk-1.3.0-x86_64.msi"
+            "subnetdesk-2.0.0-aarch64.exe",
+            "subnetdesk-2.0.0-aarch64.msi",
+            "subnetdesk-2.0.0-x86_64-setup.exe",
+            "subnetdesk-2.0.0-x86_64.exe",
+            "subnetdesk-2.0.0-x86_64.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v1.3.0",
-          "fetchedAt": "2026-09-26T14:40:41.356Z"
+          "url": "https://github.com/zibo-chen/SubnetDesk/releases/tag/v2.0.0",
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       },
       {
@@ -173,7 +174,7 @@
         "facts": {
           "repository": "aur",
           "package": "subnetdesk-bin",
-          "version": "1.3.0",
+          "version": "2.0.0",
           "project": "subnetdesk",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -181,7 +182,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/subnetdesk/versions",
-          "fetchedAt": "2026-10-03T08:42:15.082Z"
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       },
       {
@@ -192,7 +193,7 @@
         "facts": {
           "repository": "scoop",
           "package": "subnetdesk",
-          "version": "1.3.0",
+          "version": "2.0.0",
           "project": "subnetdesk",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -200,7 +201,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/subnetdesk/versions",
-          "fetchedAt": "2026-10-03T08:42:15.082Z"
+          "fetchedAt": "2026-11-22T10:59:24.392Z"
         }
       }
     ],

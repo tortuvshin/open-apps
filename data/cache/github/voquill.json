@@ -3,7 +3,7 @@
   "slug": "voquill",
   "repoUrl": "https://github.com/voquill/voquill",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:39:36.485Z",
+  "lastSuccessAt": "2026-11-22T11:01:00.362Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:27.905Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "voquill/voquill",
-      "stargazers_count": 1029,
+      "stargazers_count": 1031,
       "forks_count": 139,
       "open_issues_count": 73,
       "language": "TypeScript",
-      "pushed_at": "2026-11-15T02:59:12Z",
-      "updated_at": "2026-11-13T16:50:47Z",
+      "pushed_at": "2026-11-22T03:16:11Z",
+      "updated_at": "2026-11-18T04:31:55Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -51,10 +51,10 @@
         "whisper"
       ]
     },
-    "latestReleaseAt": "2026-09-26T17:43:21Z",
+    "latestReleaseAt": "2026-11-22T03:29:31Z",
     "homepage": "https://voquill.com/dictation",
     "sync": {
-      "syncedAt": "2026-11-15T10:39:36.485Z",
+      "syncedAt": "2026-11-22T11:01:00.362Z",
       "source": "api"
     }
   },
@@ -81,17 +81,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/voquill/voquill/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.652",
+          "tag": "desktop-v0.0.661",
           "assets": [
-            "voquill-desktop-0.0.652-1.x86_64.rpm",
-            "voquill-desktop_0.0.652_amd64.AppImage",
-            "voquill-desktop_0.0.652_amd64.deb"
+            "voquill-desktop-0.0.661-1.x86_64.rpm",
+            "voquill-desktop_0.0.661_amd64.AppImage",
+            "voquill-desktop_0.0.661_amd64.deb"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.652",
-          "fetchedAt": "2026-09-28T18:19:24.350Z"
+          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.661",
+          "fetchedAt": "2026-11-22T11:00:56.048Z"
         }
       },
       {
@@ -100,16 +100,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/voquill/voquill/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.652",
+          "tag": "desktop-v0.0.661",
           "assets": [
-            "Voquill_0.0.652_universal.dmg",
-            "Voquill_0.0.652_universal.pkg"
+            "Voquill_0.0.661_universal.dmg",
+            "Voquill_0.0.661_universal.pkg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.652",
-          "fetchedAt": "2026-09-28T18:19:24.350Z"
+          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.661",
+          "fetchedAt": "2026-11-22T11:00:56.048Z"
         }
       },
       {
@@ -118,17 +118,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/voquill/voquill/releases/latest",
         "facts": {
-          "tag": "desktop-v0.0.652",
+          "tag": "desktop-v0.0.661",
           "assets": [
-            "Voquill_0.0.652_x64-setup.exe",
-            "Voquill_0.0.652_x64_en-US.msi",
+            "Voquill_0.0.661_x64-setup.exe",
+            "Voquill_0.0.661_x64_en-US.msi",
             "Voquill_Portable_Installer.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.652",
-          "fetchedAt": "2026-09-28T18:19:24.350Z"
+          "url": "https://github.com/voquill/voquill/releases/tag/desktop-v0.0.661",
+          "fetchedAt": "2026-11-22T11:00:56.048Z"
         }
       },
       {
@@ -139,7 +139,7 @@
         "facts": {
           "repository": "aur",
           "package": "voquill",
-          "version": "0.0.652",
+          "version": "0.0.659",
           "project": "voquill",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -147,7 +147,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/voquill/versions",
-          "fetchedAt": "2026-10-03T08:43:19.720Z"
+          "fetchedAt": "2026-11-22T11:00:56.048Z"
         }
       }
     ],

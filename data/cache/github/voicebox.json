@@ -3,7 +3,7 @@
   "slug": "voicebox",
   "repoUrl": "https://github.com/jamiepine/voicebox",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:39:18.892Z",
+  "lastSuccessAt": "2026-11-22T11:00:42.428Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:13:29.377Z",
@@ -39,17 +39,17 @@
       "topics": []
     },
     "sync": {
-      "syncedAt": "2026-11-15T10:39:18.892Z",
+      "syncedAt": "2026-11-22T11:00:42.428Z",
       "source": "api"
     },
     "repository": {
       "full_name": "jamiepine/voicebox",
-      "stargazers_count": 60669,
-      "forks_count": 7630,
-      "open_issues_count": 551,
+      "stargazers_count": 61115,
+      "forks_count": 7712,
+      "open_issues_count": 560,
       "language": "Python",
-      "pushed_at": "2026-10-07T01:17:58Z",
-      "updated_at": "2026-11-15T10:38:01Z",
+      "pushed_at": "2026-11-21T10:31:13Z",
+      "updated_at": "2026-11-22T10:58:10Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -68,7 +68,7 @@
         "whisper"
       ]
     },
-    "latestReleaseAt": "2026-04-25T22:46:53Z",
+    "latestReleaseAt": "2026-11-21T11:17:49Z",
     "homepage": "https://voicebox.sh"
   },
   "health": {
@@ -94,16 +94,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/jamiepine/voicebox/releases/latest",
         "facts": {
-          "tag": "v0.5.0",
+          "tag": "v0.6.0",
           "assets": [
-            "Voicebox_0.5.0_aarch64.dmg",
-            "Voicebox_0.5.0_x64.dmg"
+            "Voicebox_0.6.0_aarch64.dmg",
+            "Voicebox_0.6.0_x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.5.0",
-          "fetchedAt": "2026-09-26T14:41:06.066Z"
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.6.0",
+          "fetchedAt": "2026-11-22T11:00:39.918Z"
         }
       },
       {
@@ -112,16 +112,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/jamiepine/voicebox/releases/latest",
         "facts": {
-          "tag": "v0.5.0",
+          "tag": "v0.6.0",
           "assets": [
-            "Voicebox_0.5.0_x64-setup.exe",
-            "Voicebox_0.5.0_x64_en-US.msi"
+            "Voicebox_0.6.0_x64-setup.exe",
+            "Voicebox_0.6.0_x64_en-US.msi"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.5.0",
-          "fetchedAt": "2026-09-26T14:41:06.066Z"
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.6.0",
+          "fetchedAt": "2026-11-22T11:00:39.918Z"
         }
       },
       {
@@ -132,7 +132,7 @@
         "facts": {
           "repository": "scoop",
           "package": "voicebox",
-          "version": "0.5.0",
+          "version": "0.6.0",
           "project": "voicebox",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -140,7 +140,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/voicebox/versions",
-          "fetchedAt": "2026-10-22T15:11:03.452Z"
+          "fetchedAt": "2026-11-22T11:00:39.918Z"
         }
       }
     ],
