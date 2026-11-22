@@ -160,6 +160,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [LayoutKeeper](https://openappscout.com/apps/layoutkeeper/) - macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect. ([Source](https://github.com/tumingke0/LayoutKeeper))
 - [MangoDisk](https://openappscout.com/apps/mangodisk/) - Find what fills your disk on Mac and Windows and review every file before it is removed. ([Source](https://github.com/harry0703/MangoDisk))
 - [NO SUS](https://openappscout.com/apps/no-sus/) - Student privacy toolkit to open files on a borrowed PC via phone QR and send self-destructing notes. ([Source](https://github.com/https-shubhamsahu/NON_SUS))
+- [Nyxiontech PDF Tools](https://openappscout.com/apps/nyxiontech-pdf-tools/) - 25 PDF and image tools that run in your browser tab or in a Windows app, with no upload and no account. ([Source](https://github.com/jurecki007/nyxiontech-tools))
 - [Onion Browser](https://openappscout.com/apps/onionbrowser/) - Private web browser for iPhone and iPad that routes your browsing through the Tor network. ([Source](https://github.com/OnionBrowser/OnionBrowser))
 - [PeopleInSpace](https://openappscout.com/apps/peopleinspace/) - Sample app showing who is in space and where the ISS is, a Kotlin Multiplatform reference for developers. ([Source](https://github.com/joreilly/PeopleInSpace))
 - [ServerBox](https://openappscout.com/apps/flutter_server_box/) - Monitor and manage your servers over SSH with live charts, a terminal and SFTP, on phone and desktop. ([Source](https://github.com/lollipopkit/flutter_server_box))
@@ -260,6 +261,7 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Games
 
 - [Flip](https://openappscout.com/apps/flip/) - Play Reversi against the computer in a small, clean Flutter game. ([Source](https://github.com/RedBrogdon/flutterflip))
+- [Harness Hollow](https://openappscout.com/apps/harvest-hollow/) - Cozy 3D co-op farming game for two in the browser, with a self-hostable Node.js server. ([Source](https://github.com/KrasimirKralev/harvest-hollow))
 - [Patzer](https://openappscout.com/apps/patzer/) - Self-hosted Chess.com alternative with game review, play vs Stockfish and an AI coach on your own model. ([Source](https://github.com/SikamikanikoBG/patzer))
 
 ## Media
