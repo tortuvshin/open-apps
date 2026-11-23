@@ -3,7 +3,7 @@ name: pt-tools
 repoUrl: https://github.com/sunerpy/pt-tools
 category: media
 stack: go
-description: A self-hosted private tracker manager that downloads from RSS, seeds and cross-seeds, follows shows into the media library and runs daily check-ins, with an Android app.
+description: 'Self-hosted private tracker manager: RSS downloads, seeding, cross-seeding, show subscriptions into the media library and daily check-ins, plus an Android app.'
 platforms:
   - web
   - linux
@@ -31,7 +31,7 @@ caveats:
   - Most of the 74 built-in sites are Chinese private trackers, and you need accounts on them.
   - Downloads go through your own qBittorrent or Transmission; pt-tools does not download by itself.
 seo:
-  title: pt-tools – Open Source Private Tracker Automation
+  title: 'pt-tools: Open Source Private Tracker Manager'
 addedAt: 2026-11-24
 submittedBy: sunerpy
 ---
