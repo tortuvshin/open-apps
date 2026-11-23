@@ -3,7 +3,7 @@
   "slug": "zammad",
   "repoUrl": "https://github.com/zammad/zammad",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:40:05.173Z",
+  "lastSuccessAt": "2026-11-22T11:01:32.041Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:19:50.375Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "zammad/zammad",
-      "stargazers_count": 6116,
-      "forks_count": 1099,
-      "open_issues_count": 477,
+      "stargazers_count": 6134,
+      "forks_count": 1110,
+      "open_issues_count": 487,
       "language": "Ruby",
-      "pushed_at": "2026-11-14T23:13:39Z",
-      "updated_at": "2026-11-15T05:46:27Z",
+      "pushed_at": "2026-11-20T19:13:26Z",
+      "updated_at": "2026-11-21T20:38:03Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -57,7 +57,7 @@
     },
     "homepage": "https://zammad.org",
     "sync": {
-      "syncedAt": "2026-11-15T10:40:05.173Z",
+      "syncedAt": "2026-11-22T11:01:32.041Z",
       "source": "api"
     }
   },
@@ -104,7 +104,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "zammad",
-          "version": "7.2.2",
+          "version": "7.2.3",
           "project": "zammad",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -112,7 +112,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/zammad/versions",
-          "fetchedAt": "2026-10-22T15:11:46.637Z"
+          "fetchedAt": "2026-11-22T11:01:29.063Z"
         }
       }
     ],

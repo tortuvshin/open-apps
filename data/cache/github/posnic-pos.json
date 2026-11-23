@@ -3,7 +3,7 @@
   "slug": "posnic-pos",
   "repoUrl": "https://github.com/Posnic/POS",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:37:03.433Z",
+  "lastSuccessAt": "2026-11-22T10:58:18.234Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:12:30.134Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "Posnic/POS",
-      "stargazers_count": 19,
-      "forks_count": 30,
-      "open_issues_count": 417,
+      "stargazers_count": 31,
+      "forks_count": 36,
+      "open_issues_count": 425,
       "language": "JavaScript",
-      "pushed_at": "2026-11-14T19:29:35Z",
-      "updated_at": "2026-11-13T14:04:53Z",
+      "pushed_at": "2026-11-22T09:23:17Z",
+      "updated_at": "2026-11-21T22:52:50Z",
       "archived": false,
       "disabled": false,
       "default_branch": "develop",
@@ -71,10 +71,10 @@
         "windows"
       ]
     },
-    "latestReleaseAt": "2026-09-30T21:03:30Z",
+    "latestReleaseAt": "2026-11-21T05:03:43Z",
     "homepage": "https://www.posnic.com/",
     "sync": {
-      "syncedAt": "2026-11-15T10:37:03.433Z",
+      "syncedAt": "2026-11-22T10:58:18.234Z",
       "source": "api"
     }
   },
@@ -100,17 +100,17 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Posnic/POS/releases/latest",
         "facts": {
-          "tag": "v1.9.0",
+          "tag": "v1.9.4",
           "assets": [
-            "Posnic-1.9.0-linux-x86_64.AppImage",
-            "posnic_1.9.0_amd64.deb",
-            "posnic_1.9.0_amd64.snap"
+            "Posnic-1.9.4-linux-x86_64.AppImage",
+            "posnic_1.9.4_amd64.deb",
+            "posnic_1.9.4_amd64.snap"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.0",
-          "fetchedAt": "2026-10-03T08:41:24.624Z"
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.4",
+          "fetchedAt": "2026-11-22T10:58:14.352Z"
         }
       },
       {
@@ -119,16 +119,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Posnic/POS/releases/latest",
         "facts": {
-          "tag": "v1.9.0",
+          "tag": "v1.9.4",
           "assets": [
-            "Posnic-1.9.0-macos-arm64.dmg",
-            "Posnic-1.9.0-macos-x64.dmg"
+            "Posnic-1.9.4-macos-arm64.dmg",
+            "Posnic-1.9.4-macos-x64.dmg"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.0",
-          "fetchedAt": "2026-10-03T08:41:24.624Z"
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.4",
+          "fetchedAt": "2026-11-22T10:58:14.352Z"
         }
       },
       {
@@ -137,16 +137,16 @@
         "label": "GitHub Releases",
         "url": "https://github.com/Posnic/POS/releases/latest",
         "facts": {
-          "tag": "v1.9.0",
+          "tag": "v1.9.4",
           "assets": [
-            "Posnic-1.9.0-windows-x64-installer.exe",
-            "Posnic-1.9.0-windows-x64-portable.exe"
+            "Posnic-1.9.4-windows-x64-installer.exe",
+            "Posnic-1.9.4-windows-x64-portable.exe"
           ]
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.0",
-          "fetchedAt": "2026-10-03T08:41:24.624Z"
+          "url": "https://github.com/Posnic/POS/releases/tag/v1.9.4",
+          "fetchedAt": "2026-11-22T10:58:14.352Z"
         }
       }
     ],

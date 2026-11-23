@@ -3,7 +3,7 @@
   "slug": "immich",
   "repoUrl": "https://github.com/immich-app/immich",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:32:50.506Z",
+  "lastSuccessAt": "2026-11-22T10:53:48.771Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:34.423Z",
@@ -101,15 +101,15 @@
       "releases_url": "https://api.github.com/repos/immich-app/immich/releases{/id}",
       "deployments_url": "https://api.github.com/repos/immich-app/immich/deployments",
       "created_at": "2022-02-03T15:56:27Z",
-      "updated_at": "2026-11-15T10:25:11Z",
-      "pushed_at": "2026-11-15T09:17:26Z",
+      "updated_at": "2026-11-22T10:51:01Z",
+      "pushed_at": "2026-11-22T09:56:22Z",
       "git_url": "git://github.com/immich-app/immich.git",
       "ssh_url": "git@github.com:immich-app/immich.git",
       "clone_url": "https://github.com/immich-app/immich.git",
       "svn_url": "https://github.com/immich-app/immich",
       "homepage": "https://immich.app",
       "size": 324461,
-      "stargazers_count": 119238,
+      "stargazers_count": 119837,
       "watchers_count": 108423,
       "language": "TypeScript",
       "has_issues": true,
@@ -118,11 +118,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 7609,
+      "forks_count": 7673,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 683,
+      "open_issues_count": 677,
       "license": {
         "spdx_id": "AGPL-3.0",
         "name": "AGPL-3.0"
@@ -220,7 +220,7 @@
       "contributorsKnown": 955
     },
     "sync": {
-      "syncedAt": "2026-11-15T10:32:50.506Z",
+      "syncedAt": "2026-11-22T10:53:48.771Z",
       "source": "api"
     },
     "languages": {
@@ -251,7 +251,7 @@
       "language": null,
       "topics": []
     },
-    "latestReleaseAt": "2026-11-11T18:27:16Z",
+    "latestReleaseAt": "2026-11-18T20:14:51Z",
     "homepage": "https://immich.app"
   },
   "health": {
@@ -278,14 +278,14 @@
         "url": "https://f-droid.org/packages/app.alextran.immich/",
         "facts": {
           "appId": "app.alextran.immich",
-          "suggestedVersionCode": 3040099,
-          "evidence": "https://github.com/immich-app/immich/blob/e5d6eb7be67834f59d90e4b7a86f5dec7ac9af86/mobile/android/app/build.gradle",
+          "suggestedVersionCode": 3040199,
+          "evidence": "https://github.com/immich-app/immich/blob/08fe0470fa884e1cddd42e9a19539fbe618c44bc/mobile/android/app/build.gradle",
           "fastlane": "mobile/android/fastlane/metadata/android"
         },
         "provenance": {
           "source": "fdroid",
           "url": "https://f-droid.org/api/v1/packages/app.alextran.immich",
-          "fetchedAt": "2026-11-15T10:32:47.411Z"
+          "fetchedAt": "2026-11-22T10:53:45.226Z"
         }
       },
       {
@@ -294,7 +294,7 @@
         "label": "GitHub Releases",
         "url": "https://github.com/immich-app/immich/releases/latest",
         "facts": {
-          "tag": "v3.4.1",
+          "tag": "v3.4.2",
           "assets": [
             "app-arm64-v8a-release.apk",
             "app-armeabi-v7a-release.apk",
@@ -304,8 +304,8 @@
         },
         "provenance": {
           "source": "github-releases",
-          "url": "https://github.com/immich-app/immich/releases/tag/v3.4.1",
-          "fetchedAt": "2026-11-15T10:32:47.411Z"
+          "url": "https://github.com/immich-app/immich/releases/tag/v3.4.2",
+          "fetchedAt": "2026-11-22T10:53:45.226Z"
         }
       },
       {
@@ -316,7 +316,7 @@
         "facts": {
           "repository": "aur",
           "package": "immich-server",
-          "version": "3.4.1",
+          "version": "3.4.2",
           "project": "immich",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -324,7 +324,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/immich/versions",
-          "fetchedAt": "2026-11-15T10:32:47.411Z"
+          "fetchedAt": "2026-11-22T10:53:45.226Z"
         }
       },
       {
@@ -335,7 +335,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "immich",
-          "version": "3.4.1",
+          "version": "3.4.2",
           "project": "immich",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -343,7 +343,26 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/immich/versions",
-          "fetchedAt": "2026-11-15T10:32:47.411Z"
+          "fetchedAt": "2026-11-22T10:53:45.226Z"
+        }
+      },
+      {
+        "type": "package-manager",
+        "platform": "macos",
+        "label": "Homebrew",
+        "url": "https://formulae.brew.sh/formula/immich-cli",
+        "facts": {
+          "repository": "homebrew",
+          "package": "immich-cli",
+          "version": "3.4.2",
+          "project": "immich",
+          "match": "project-name",
+          "versionMatchesRelease": true
+        },
+        "provenance": {
+          "source": "repology",
+          "url": "https://repology.org/project/immich/versions",
+          "fetchedAt": "2026-11-22T10:53:45.226Z"
         }
       }
     ],

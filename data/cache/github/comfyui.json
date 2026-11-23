@@ -3,7 +3,7 @@
   "slug": "comfyui",
   "repoUrl": "https://github.com/Comfy-Org/ComfyUI",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:30:54.541Z",
+  "lastSuccessAt": "2026-11-22T10:51:42.773Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:12:52.014Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stargazers_count": 146923,
-      "forks_count": 17520,
-      "open_issues_count": 5541,
+      "stargazers_count": 148050,
+      "forks_count": 17632,
+      "open_issues_count": 5612,
       "language": "Python",
-      "pushed_at": "2026-11-15T09:20:40Z",
-      "updated_at": "2026-11-15T10:19:55Z",
+      "pushed_at": "2026-11-22T09:54:20Z",
+      "updated_at": "2026-11-22T10:50:23Z",
       "archived": false,
       "disabled": false,
       "default_branch": "master",
@@ -47,10 +47,10 @@
         "stable-diffusion"
       ]
     },
-    "latestReleaseAt": "2026-11-10T21:42:42Z",
+    "latestReleaseAt": "2026-11-18T22:55:32Z",
     "homepage": "https://www.comfy.org/",
     "sync": {
-      "syncedAt": "2026-11-15T10:30:54.541Z",
+      "syncedAt": "2026-11-22T10:51:42.773Z",
       "source": "api"
     }
   },
@@ -79,7 +79,7 @@
         "facts": {
           "repository": "aur",
           "package": "comfyui",
-          "version": "0.43.0",
+          "version": "0.45.0",
           "project": "comfyui",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -87,7 +87,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/comfyui/versions",
-          "fetchedAt": "2026-11-08T09:57:50.547Z"
+          "fetchedAt": "2026-11-22T10:51:40.267Z"
         }
       },
       {
@@ -98,7 +98,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "comfyui",
-          "version": "0.44.0",
+          "version": "0.45.4",
           "project": "comfyui",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -106,7 +106,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/comfyui/versions",
-          "fetchedAt": "2026-11-15T10:30:52.561Z"
+          "fetchedAt": "2026-11-22T10:51:40.267Z"
         }
       }
     ],

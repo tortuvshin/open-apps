@@ -3,7 +3,7 @@
   "slug": "handy",
   "repoUrl": "https://github.com/cjpais/Handy",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:32:30.501Z",
+  "lastSuccessAt": "2026-11-22T10:53:21.853Z",
   "partialFailures": [
     {
       "at": "2026-09-28T17:10:20.964Z",
@@ -35,12 +35,12 @@
   "github": {
     "repository": {
       "full_name": "cjpais/Handy",
-      "stargazers_count": 38809,
-      "forks_count": 3671,
-      "open_issues_count": 152,
+      "stargazers_count": 39610,
+      "forks_count": 3742,
+      "open_issues_count": 156,
       "language": "Rust",
-      "pushed_at": "2026-11-14T08:50:18Z",
-      "updated_at": "2026-11-15T10:26:30Z",
+      "pushed_at": "2026-11-21T06:54:09Z",
+      "updated_at": "2026-11-22T10:52:36Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -58,7 +58,7 @@
     "latestReleaseAt": "2026-11-14T08:50:18Z",
     "homepage": "https://handy.computer",
     "sync": {
-      "syncedAt": "2026-11-15T10:32:30.501Z",
+      "syncedAt": "2026-11-22T10:53:21.853Z",
       "source": "api"
     }
   },
@@ -166,7 +166,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "handy",
-          "version": "0.9.8",
+          "version": "0.10.0",
           "project": "handy",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -174,7 +174,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-11-08T09:59:18.759Z"
+          "fetchedAt": "2026-11-22T10:53:19.865Z"
         }
       },
       {
@@ -204,15 +204,15 @@
         "facts": {
           "repository": "chocolatey",
           "package": "handy",
-          "version": "0.9.8",
+          "version": "0.10.1",
           "project": "handy",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/handy/versions",
-          "fetchedAt": "2026-11-08T09:59:18.759Z"
+          "fetchedAt": "2026-11-22T10:53:19.865Z"
         }
       },
       {

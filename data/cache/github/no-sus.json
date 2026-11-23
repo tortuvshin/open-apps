@@ -6,16 +6,6 @@
   "lastSuccessAt": "2026-09-26T14:39:50.279Z",
   "partialFailures": [
     {
-      "at": "2026-11-01T10:16:34.744Z",
-      "source": "html",
-      "reason": "not found"
-    },
-    {
-      "at": "2026-11-08T10:01:54.486Z",
-      "source": "api",
-      "reason": "repository not found"
-    },
-    {
       "at": "2026-11-08T10:01:54.486Z",
       "source": "html",
       "reason": "504 Gateway Time-out"
@@ -27,6 +17,16 @@
     },
     {
       "at": "2026-11-15T10:35:10.612Z",
+      "source": "html",
+      "reason": "not found"
+    },
+    {
+      "at": "2026-11-22T10:56:14.278Z",
+      "source": "api",
+      "reason": "repository not found"
+    },
+    {
+      "at": "2026-11-22T10:56:14.278Z",
       "source": "html",
       "reason": "not found"
     }

@@ -3,7 +3,7 @@
   "slug": "matomo",
   "repoUrl": "https://github.com/matomo-org/matomo",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:34:31.898Z",
+  "lastSuccessAt": "2026-11-22T10:55:37.602Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:15:36.989Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "matomo-org/matomo",
-      "stargazers_count": 22027,
-      "forks_count": 2935,
-      "open_issues_count": 2557,
+      "stargazers_count": 22046,
+      "forks_count": 2944,
+      "open_issues_count": 2375,
       "language": "PHP",
-      "pushed_at": "2026-11-15T09:05:43Z",
-      "updated_at": "2026-11-15T05:07:03Z",
+      "pushed_at": "2026-11-22T04:52:54Z",
+      "updated_at": "2026-11-22T08:12:09Z",
       "archived": false,
       "disabled": false,
       "default_branch": "6.x-dev",
@@ -56,10 +56,10 @@
         "website"
       ]
     },
-    "latestReleaseAt": "2026-10-22T02:49:53Z",
+    "latestReleaseAt": "2026-11-16T20:01:20Z",
     "homepage": "https://matomo.org/",
     "sync": {
-      "syncedAt": "2026-11-15T10:34:31.898Z",
+      "syncedAt": "2026-11-22T10:55:37.602Z",
       "source": "api"
     }
   },
@@ -88,7 +88,7 @@
         "facts": {
           "repository": "aur",
           "package": "matomo",
-          "version": "5.14.2",
+          "version": "5.14.3",
           "project": "matomo",
           "match": "project-name",
           "versionMatchesRelease": true
@@ -96,7 +96,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/matomo/versions",
-          "fetchedAt": "2026-10-25T08:15:38.970Z"
+          "fetchedAt": "2026-11-22T10:55:34.516Z"
         }
       },
       {
@@ -107,7 +107,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "matomo",
-          "version": "5.13.0",
+          "version": "5.14.2",
           "project": "matomo",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -115,7 +115,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/matomo/versions",
-          "fetchedAt": "2026-10-03T08:39:29.253Z"
+          "fetchedAt": "2026-11-22T10:55:34.516Z"
         }
       }
     ],

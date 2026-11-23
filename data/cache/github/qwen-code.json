@@ -3,7 +3,7 @@
   "slug": "qwen-code",
   "repoUrl": "https://github.com/QwenLM/qwen-code",
   "source": "api",
-  "lastSuccessAt": "2026-11-15T10:37:15.324Z",
+  "lastSuccessAt": "2026-11-22T10:58:29.895Z",
   "partialFailures": [
     {
       "at": "2026-09-28T18:17:40.025Z",
@@ -25,12 +25,12 @@
   "github": {
     "repository": {
       "full_name": "QwenLM/qwen-code",
-      "stargazers_count": 30465,
-      "forks_count": 3528,
-      "open_issues_count": 2302,
+      "stargazers_count": 30858,
+      "forks_count": 3579,
+      "open_issues_count": 2516,
       "language": "TypeScript",
-      "pushed_at": "2026-11-15T10:36:34Z",
-      "updated_at": "2026-11-15T10:34:05Z",
+      "pushed_at": "2026-11-22T10:56:53Z",
+      "updated_at": "2026-11-22T10:53:12Z",
       "archived": false,
       "disabled": false,
       "default_branch": "main",
@@ -53,10 +53,10 @@
         "typescript"
       ]
     },
-    "latestReleaseAt": "2026-11-15T08:54:48Z",
+    "latestReleaseAt": "2026-11-21T01:45:48Z",
     "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
     "sync": {
-      "syncedAt": "2026-11-15T10:37:15.324Z",
+      "syncedAt": "2026-11-22T10:58:29.895Z",
       "source": "api"
     }
   },
@@ -85,15 +85,15 @@
         "facts": {
           "repository": "aur",
           "package": "qwen-code-bin",
-          "version": "0.27.3",
+          "version": "0.28.3",
           "project": "qwen-code",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-15T10:37:11.848Z"
+          "fetchedAt": "2026-11-22T10:58:26.738Z"
         }
       },
       {
@@ -104,7 +104,7 @@
         "facts": {
           "repository": "arch",
           "package": "qwen-code",
-          "version": "0.24.2",
+          "version": "0.24.5",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -112,7 +112,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-15T10:37:11.848Z"
+          "fetchedAt": "2026-11-22T10:58:26.738Z"
         }
       },
       {
@@ -123,7 +123,7 @@
         "facts": {
           "repository": "nix_unstable",
           "package": "qwen-code",
-          "version": "0.26.7",
+          "version": "0.27.4",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -131,7 +131,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-08T10:03:51.549Z"
+          "fetchedAt": "2026-11-22T10:58:26.738Z"
         }
       },
       {
@@ -142,15 +142,15 @@
         "facts": {
           "repository": "homebrew",
           "package": "qwen-code",
-          "version": "0.27.3",
+          "version": "0.28.3",
           "project": "qwen-code",
           "match": "project-name",
-          "versionMatchesRelease": false
+          "versionMatchesRelease": true
         },
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-15T10:37:11.848Z"
+          "fetchedAt": "2026-11-22T10:58:26.738Z"
         }
       },
       {
@@ -161,7 +161,7 @@
         "facts": {
           "repository": "chocolatey",
           "package": "qwen-code",
-          "version": "0.26.5",
+          "version": "0.27.4",
           "project": "qwen-code",
           "match": "project-name",
           "versionMatchesRelease": false
@@ -169,7 +169,7 @@
         "provenance": {
           "source": "repology",
           "url": "https://repology.org/project/qwen-code/versions",
-          "fetchedAt": "2026-11-08T10:03:51.549Z"
+          "fetchedAt": "2026-11-22T10:58:26.738Z"
         }
       }
     ],
