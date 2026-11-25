@@ -44,3 +44,27 @@ caveats:
 addedAt: 2026-11-25
 submittedBy: onepiece92
 ---
+Open POS is a point-of-sale app and cash register for small shops, cafes, food trucks and market
+stands. It runs on Android phones and tablets, iPhone and iPad, and works without an internet
+connection: the app's own code makes no network calls, and there is no account, subscription or
+ads.
+
+## What it covers
+
+- A product grid with search, categories and favorites, and SKUs and bundles loaded by CSV
+- Whole-order discounts, cash with change, and card sales recorded from your own card reader
+  (the reader needs its own connection; Open POS does not process payments)
+- Held tickets and table management
+- Customers, order history with voids, and PDF receipts you can save or share, or copy as text
+- Tax on or off per product, expense tracking, and reports for today, this week or this month
+- An audit log and CSV export
+
+## Who it is for
+
+Owners of a single register who want a free tool that keeps working when the connection drops.
+One device is one register: there is no sync between devices, which is the trade-off for keeping
+all data on the phone.
+
+## How it is built
+
+One Flutter codebase for Android and iOS, with local storage only. The repository is MIT-licensed.
