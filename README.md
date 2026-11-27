@@ -159,7 +159,6 @@ request — see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [ItsPaint](https://openappscout.com/apps/itspaint/) - Paint and mark up screenshots on your Mac, fully offline. ([Source](https://github.com/joshlin2201/itspaint))
 - [LayoutKeeper](https://openappscout.com/apps/layoutkeeper/) - macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect. ([Source](https://github.com/tumingke0/LayoutKeeper))
 - [MangoDisk](https://openappscout.com/apps/mangodisk/) - Find what fills your disk on Mac and Windows and review every file before it is removed. ([Source](https://github.com/harry0703/MangoDisk))
-- [NO SUS](https://openappscout.com/apps/no-sus/) - Student privacy toolkit to open files on a borrowed PC via phone QR and send self-destructing notes. ([Source](https://github.com/https-shubhamsahu/NON_SUS))
 - [Onion Browser](https://openappscout.com/apps/onionbrowser/) - Private web browser for iPhone and iPad that routes your browsing through the Tor network. ([Source](https://github.com/OnionBrowser/OnionBrowser))
 - [PeopleInSpace](https://openappscout.com/apps/peopleinspace/) - Sample app showing who is in space and where the ISS is, a Kotlin Multiplatform reference for developers. ([Source](https://github.com/joreilly/PeopleInSpace))
 - [ServerBox](https://openappscout.com/apps/flutter_server_box/) - Monitor and manage your servers over SSH with live charts, a terminal and SFTP, on phone and desktop. ([Source](https://github.com/lollipopkit/flutter_server_box))
