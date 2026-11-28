@@ -46,6 +46,9 @@ tags:
 bestFor:
   - Handing browsing, form filling, file work and code to a bot while keeping approval over risky steps.
   - Reading how an agent app's Flutter clients, in-computer agent and safety rules are built.
+whyListed:
+  - One shipped Flutter codebase covers iOS, Android, macOS, Windows, Linux and the web.
+  - The rules for when a bot must ask first, its computer image and its network guard are public.
 caveats:
   - Only the apps, computerd, SDKs, CLI, MCP server, safety rules, computer image and network guard are
     open source. The Casama Engine that runs them is closed, including in the self-hosted images.
@@ -61,5 +64,12 @@ Casama ships one Flutter client for iPhone, iPad, Android, macOS, Windows, Linux
 the code that decides what a bot may do published alongside it: when it must ask first, what it may
 never do, what is on its computer and what its network allows. The engine is not open source; see
 [LICENSING.md](https://github.com/casama-ai/casama/blob/main/LICENSING.md) for the folder-by-folder map.
+
+The repository is a useful read for anyone building a large cross-platform Flutter app, or an agent
+product where the limits on what the agent may do need to be inspectable. Bots can use Casama Cloud or
+a server you host yourself, and the self-hosted setup supports local models.
+
+Listing note: the repository has fewer than 50 stars because it was opened to the public in November
+2026; the apps it builds are already published on Google Play and the Microsoft Store.
 
 Submitted by the maker.
